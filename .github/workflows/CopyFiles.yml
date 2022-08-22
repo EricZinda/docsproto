@@ -27,7 +27,7 @@ jobs:
           repository: delph-in/docs.wiki
           path: docswiki
 
-      - run: cp /docswiki/AbbeyApposition.md /main/build
+      - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/build
       
       - name: Commit files
         run: |
