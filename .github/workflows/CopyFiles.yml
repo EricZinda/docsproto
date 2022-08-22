@@ -16,18 +16,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      - name: Copy
-        uses: andstor/copycat-action@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_owner: delph-in
-          src_repo_name: docs.wiki
-          src_branch: master
-          src_path: /AbbeyApposition.md
-          dst_owner: EricZinda
-          dst_repo_name: docsproto
-          dst_branch: master
-          dst_path: /wiki/
+          path: main
+
+      - name: Checkout tools repo
+        uses: actions/checkout@v3
+        with:
+          repository: delph-in/docs.wiki
+          path: docswiki
