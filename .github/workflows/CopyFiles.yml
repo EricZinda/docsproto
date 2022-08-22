@@ -21,7 +21,7 @@ jobs:
         with:
           path: main
 
-      - name: Checkout tools repo
+      - name: Checkout docs wiki repo
         uses: actions/checkout@v3
         with:
           repository: delph-in/docs.wiki
