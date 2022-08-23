@@ -40,8 +40,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: $GITHUB_WORKSPACE/main
-          destination: $GITHUB_WORKSPACE/main/_site
+          source: main
+          destination: main/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
