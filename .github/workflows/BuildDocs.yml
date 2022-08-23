@@ -9,18 +9,18 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout
+      - name: Checkout docsproto
         uses: actions/checkout@v3
         with:
           path: main
 
+      # Copy things from official docs wiki
       - name: Checkout docs wiki repo
         uses: actions/checkout@v3
         with:
@@ -30,23 +30,27 @@ jobs:
       - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/build/
       - run: cp $GITHUB_WORKSPACE/docswiki/AceErgTuning.md $GITHUB_WORKSPACE/main/build/
       
-      # Runs a single command using the runners shell
+      # Create an index of all the pages
       - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
         with: 
           folder: ${{github.workspace}}
           
+      # Build the site with Jekyll
       - name: Setup Pages
         uses: actions/configure-pages@v1
+        
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: main
           destination: main/_site
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: main/_site
-
+      
+      # Now commit and push all the changes to record this version of the docs
       - name: Commit files
         run: |
           cd $GITHUB_WORKSPACE/main
@@ -60,7 +64,7 @@ jobs:
         with:
           directory: main
           
-  # Deploy job
+  # Deploy the pages to github pages
   deploy:
     # Add a dependency to the build job
     needs: build
