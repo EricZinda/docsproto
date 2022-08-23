@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tuning parameters to make the ERG and ACE parse the way you want them to | DELPH-IN wiki portal</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Tuning parameters to make the ERG and ACE parse the way you want them to" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/build/AceErgTuning.html" />
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/build/AceErgTuning.html" />
+<meta property="og:site_name" content="DELPH-IN wiki portal" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tuning parameters to make the ERG and ACE parse the way you want them to" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Tuning parameters to make the ERG and ACE parse the way you want them to","url":"http://blog.inductorsoftware.com/docsproto/build/AceErgTuning.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/docsproto/assets/css/style.css?v=b9d342955fcfa66f4e8c569a1aa9eec7a9c528cc">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/docsproto/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Tuning parameters to make the ERG and ACE parse the way you want them to</h1>
+      <h2 class="project-tagline"></h2>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="tuning-parameters-to-make-the-erg-and-ace-parse-the-way-you-want-them-to">Tuning parameters to make the ERG and ACE parse the way you want them to</h1>
+
+<p>This page lists some of the most useful knobs that can be used to adjust
+<a href="AceTop">ACE</a>’s processing, and gives suggestions for how to set them
+for different use cases, especially with the <a href="ErgTop">ERG</a>.</p>
+
+<p>The three competing desiderata of precision, robustness and efficiency
+each demand some sacrifices from the other two. The primary control
+levels are:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Parameter</strong></td>
+      <td><strong>Default</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>–timeout=X</td>
+      <td>none</td>
+      <td>Number of seconds to try a given input before giving up.</td>
+    </tr>
+    <tr>
+      <td>–max-chart-megabytes=X</td>
+      <td>1200</td>
+      <td>Number of megabytes of RAM to expend on building a forest before giving up.</td>
+    </tr>
+    <tr>
+      <td>–max-unpack-megabytes=X</td>
+      <td>1500</td>
+      <td>Number of megabytes of RAM to expend on unpacking a forest before giving up, including RAM spend on the forest.</td>
+    </tr>
+    <tr>
+      <td>–ubertagging=X</td>
+      <td>none</td>
+      <td>Enables UT. Lexical hypotheses of probability lower than X are discarded.</td>
+    </tr>
+    <tr>
+      <td>–pcfg=X</td>
+      <td>none</td>
+      <td>Enables PCFG-guided robustness. X is the path to a PCFG model.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="precision">Precision</h2>
+
+<p>Maximize resource limits, avoid ubertagging and robustness measures. The
+default settings are good as long as inputs are not too long. For
+complex data, try increasing the RAM limits. To avoid receiving
+low-ranked results from partially complete forests, make the chart and
+unpack megabytes identical. For example:</p>
+
+<ul>
+  <li>ace … –max-chart-megabytes=8000 –max-unpack-megabytes=8000</li>
+</ul>
+
+<h2 id="robustness">Robustness</h2>
+
+<p>Maximize resource limits, setting the unpack megabytes somewhat higher
+than the chart megabytes.</p>
+
+<ul>
+  <li>ace … –max-chart-megabytes=8000 –max-unpack-megabytes=8500</li>
+</ul>
+
+<p>Consider enabling PCFG-based guidance.</p>
+
+<ul>
+  <li>ace … –pcfg=…./erg-2018/etc/all-treebanks-gp0-2018.pcfg
+    <ul>
+      <li>OR</li>
+    </ul>
+
+    <p>gunzip …./erg-2018/etc/ww-gp2-2018.pcfg.gz ace …
+–pcfg=…./erg-2018/etc/ww-gp2-2018.pcfg</p>
+  </li>
+</ul>
+
+<p>If resources are not unlimited, enable UT. A threshold of 0.00001
+typically doesn’t sacrifice too much coverage or precision but reduces
+resource consumption considerably.</p>
+
+<ul>
+  <li>ace … –ut=0.00001</li>
+</ul>
+
+<p>The above measures can be used separately or in combination. See below
+for a discussion of additional strategies.</p>
+
+<h2 id="efficiency">Efficiency</h2>
+
+<p>Set aggressive resource limits and a higher UT threshold. If PCFG
+guidance is used, use the smaller (all-treebanks-gp0-2018.pcfg) model.</p>
+
+<ul>
+  <li>ace … –ut=0.01 –timeout=10
+    <ul>
+      <li>OR</li>
+    </ul>
+
+    <p>ace … –ut=0.01 –timeout=10
+–pcfg=…./erg-2018/etc/all-treebanks-gp0-2018.pcfg</p>
+  </li>
+</ul>
+
+<h2 id="additional-robustness-measures">Additional Robustness Measures</h2>
+
+<p>There are a few additional techniques available for increasing coverage
+at the expense of efficiency and precision. These may be of use to some
+users.</p>
+
+<h4 id="mal-rules">Mal-rules</h4>
+
+<p>Compile the grammar using erg-2018/ace/config-educ.tdl instead of
+erg-2018/ace/config.tdl. This enables a collection of additional rules
+which allow the grammar to natively analyse a variety of mildly
+ungrammatical structures such as subject-verb number mismatch and
+missing determiners.</p>
+
+<ul>
+  <li>ace -G erg-2018.dat -g …./erg-2018/ace/config-educ.tdl</li>
+</ul>
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
