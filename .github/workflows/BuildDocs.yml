@@ -44,7 +44,8 @@ jobs:
           destination: main/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-
+        with:
+          path:main/_site
 
       - name: Commit files
         run: |
