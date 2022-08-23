@@ -1,6 +1,7 @@
 # main
 
 ## Categories
+- [_site](./_site/index.md)
 - [build](./build/index.md)
 
 ## Documents
