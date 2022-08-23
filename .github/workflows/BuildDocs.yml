@@ -29,7 +29,16 @@ jobs:
 
       - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/build/
       - run: cp $GITHUB_WORKSPACE/docswiki/AceErgTuning.md $GITHUB_WORKSPACE/main/build/
-      
+
+      # Copy things from this repo's  wiki
+      - name: Checkout docsproto wiki 
+        uses: actions/checkout@v3
+        with:
+          repository: ericzinda/docsproto.wiki
+          path: docsprotowiki
+
+      - run: cp $GITHUB_WORKSPACE/docsprotowiki/Test.md $GITHUB_WORKSPACE/main/build/docsproto/
+
       # Create an index of all the pages
       - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
         with: 
