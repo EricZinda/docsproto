@@ -48,7 +48,7 @@ jobs:
       # Create an index of all the pages
       - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
         with: 
-          folder: $GITHUB_WORKSPACE/main/latestsrc/
+          folder: ${{github.workspace}}/main/latestsrc/
           
       # Build the site with Jekyll
       - name: Setup Pages
