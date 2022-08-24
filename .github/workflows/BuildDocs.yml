@@ -40,6 +40,7 @@ jobs:
       - run: rm -r -f $GITHUB_WORKSPACE/main/latestsrc/*.
       
       # Gather pages for "conceptual" site
+      - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/docswiki/AceErgTuning.md $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/docsprotowiki/Test.md $GITHUB_WORKSPACE/main/latestsrc/concept/
