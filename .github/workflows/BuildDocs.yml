@@ -43,6 +43,7 @@ jobs:
       - run: mkdir $GITHUB_WORKSPACE/main/latestsites/
       
       # Gather pages for "conceptual" site
+      - run: ls ./
       - run: cp $GITHUB_WORKSPACE/concept_config.yml $GITHUB_WORKSPACE/main/latestsrc/concept/_config.yml
       - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/latestsrc/concept/
