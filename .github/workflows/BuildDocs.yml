@@ -37,7 +37,8 @@ jobs:
           path: docswiki
       
       # Remove all pages from "latest" so we don't carry over removed pages
-      - run: rm -r -f $GITHUB_WORKSPACE/main/latestsrc/*.
+      - run: rm -r -f $GITHUB_WORKSPACE/main/latestsrc/
+      - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/
       
       # Gather pages for "conceptual" site
       - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/concept/
