@@ -57,7 +57,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: $GITHUB_WORKSPACE/main/latestsrc/
+          source: ./main/latestsrc/
           destination: main/_site
           
       - name: Upload artifact
