@@ -43,16 +43,8 @@ https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 ## Config documentation
 https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
-### Updates to config
-- Need to set defaults so that yml front matter is not required on every page
-    defaults:
-    # _pages
-    - scope:
-        path: ""
-        type: pages
-        values:
-        layout: single
-
 ## Overriding theme defaults
 https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/
 - includes how to create new layouts if theirs don't work for us
+
+
