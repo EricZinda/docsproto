@@ -2,3 +2,5 @@
 title: Conceptual Docs
 github:
   is_project_page: false
+plugins:
+  - jekyll-include-cache
