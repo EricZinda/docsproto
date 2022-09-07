@@ -33,3 +33,12 @@ https://github.com/marketplace/actions/markdown-action-create-indexes
 
 # Configuring Jekyll correctly
 http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
+
+# Minimal Mistakes Theme
+https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+## Initial config file
+https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
+
+## Config documentation
+https://mmistakes.github.io/minimal-mistakes/docs/configuration/
