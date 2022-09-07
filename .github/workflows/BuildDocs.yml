@@ -46,7 +46,7 @@ jobs:
       ## Set up the blank site
       - run: ls ./
       - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/concept/
-      - run: cp -r $GITHUB_WORKSPACE/main/initial_concept/ $GITHUB_WORKSPACE/main/latestsrc/concept/
+      - run: cp -r $GITHUB_WORKSPACE/main/initial_concept/*.* $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
 
       ## add the pages in
