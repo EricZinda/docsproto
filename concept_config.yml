@@ -21,7 +21,9 @@ defaults:
     values:
       layout: delphin_page
       # Makes the text much wider than the default for pages
-      classes: wide
+      classes: 
+        - wide
+        - layout--single
   # _posts
   - scope:
       path: ""
