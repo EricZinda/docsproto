@@ -19,10 +19,10 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: delphin_page
+      layout: single
       # Makes the text much wider than the default for pages
-#      classes: 
-#        - wide
+      classes: 
+        - wide
 #        - layout--single
   # _posts
   - scope:
