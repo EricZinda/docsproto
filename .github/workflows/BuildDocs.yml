@@ -46,10 +46,8 @@ jobs:
       ## Set up the blank site
       - run: ls ./
       - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/concept/
-      - run: cp $GITHUB_WORKSPACE/main/concept_config.yml $GITHUB_WORKSPACE/main/latestsrc/concept/_config.yml
-      - run: cp $GITHUB_WORKSPACE/main/concept_Gemfile $GITHUB_WORKSPACE/main/latestsrc/concept/Gemfile
-      - run: cp $GITHUB_WORKSPACE/main/concept_Gemfile.lock $GITHUB_WORKSPACE/main/latestsrc/concept/Gemfile.lock
-      - run: cp -r $GITHUB_WORKSPACE/main/site_templates $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
+      - run: cp $GITHUB_WORKSPACE/main/initial_concept/ $GITHUB_WORKSPACE/main/latestsrc/concept/
+      - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
 
       ## add the pages in
       - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/latestsrc/concept/
@@ -57,9 +55,9 @@ jobs:
       - run: cp $GITHUB_WORKSPACE/docsprotowiki/Test.md $GITHUB_WORKSPACE/main/latestsrc/concept/
 
       # Create an index of all the pages
-      - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
-        with: 
-          folder: ${{github.workspace}}/main/latestsrc/concept
+      # - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
+      #  with: 
+      #    folder: ${{github.workspace}}/main/latestsrc/concept
           
       # Build the site with Jekyll
       - name: Setup Pages
