@@ -24,6 +24,9 @@ defaults:
       classes: 
         - wide
 #        - layout--single
+      sidebar:
+        nav: "foo"
+  
   # _posts
   - scope:
       path: ""
