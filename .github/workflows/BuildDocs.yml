@@ -43,11 +43,15 @@ jobs:
       - run: mkdir $GITHUB_WORKSPACE/main/latestsites/
       
       # Gather pages for "conceptual" site
+      ## Set up the blank site
       - run: ls ./
       - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/main/concept_config.yml $GITHUB_WORKSPACE/main/latestsrc/concept/_config.yml
       - run: cp $GITHUB_WORKSPACE/main/concept_Gemfile $GITHUB_WORKSPACE/main/latestsrc/concept/Gemfile
       - run: cp $GITHUB_WORKSPACE/main/concept_Gemfile.lock $GITHUB_WORKSPACE/main/latestsrc/concept/Gemfile.lock
+      - run: cp $GITHUB_WORKSPACE/main/site_templates $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
+
+      ## add the pages in
       - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/docswiki/AceErgTuning.md $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp $GITHUB_WORKSPACE/docsprotowiki/Test.md $GITHUB_WORKSPACE/main/latestsrc/concept/
