@@ -1,5 +1,6 @@
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 title: Conceptual Docs
+baseurl: docsproto/concept
 github:
   is_project_page: false
 plugins:
