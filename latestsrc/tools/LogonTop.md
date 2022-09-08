@@ -59,10 +59,10 @@ The system is available exclusively for GNU/Linux (on 32-bit or 64-bit
 x86 architectures). As of November 2008, all system development and
 distribution is through the [SubVersion](http://subversion.tigris.org/)
 (SVN) revision management system. Please see the
-[LogonInstallation](LogonInstallation) page for details. Regrettably,
+[LogonInstallation](LogonInstallation.md) page for details. Regrettably,
 only a very limited amount of documentation is available, a property
 that the LOGON tree shares with a number of the core DELPH-IN resources.
-The [LogonReports](LogonReports) page summarizes the documentation
+The [LogonReports](LogonReports.md) page summarizes the documentation
 misery as of late 2008.
 
 # Table of Contents
