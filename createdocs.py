@@ -28,7 +28,7 @@ def convert_child(node):
         if split_url.scheme == "" and split_url.netloc == "" and split_url.query == "" and split_url.fragment == "":
             parts = split_url.path.split('/')
             if len(parts) == 1 and parts[0] != "":
-                node.dest = "./" + node.dest
+                node.dest = "../" + node.dest
     elif hasattr(node, "children"):
         for child in node.children:
             convert_child(child)
