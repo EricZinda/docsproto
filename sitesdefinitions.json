@@ -1,0 +1,13 @@
+{
+  "Comments": [
+    "This comments section is solely for comments that describe this json file"
+  ],
+  "Sites":
+  [
+    {"Site": "concept", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
+    {"Site": "concept", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
+    {"Site": "concept", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
+    {"Site": "tools", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"},
+    {"Site": "tools", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"}
+  ]
+}

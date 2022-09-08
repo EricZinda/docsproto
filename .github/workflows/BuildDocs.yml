@@ -18,7 +18,8 @@ jobs:
     # First get all the repositories we will use to build any of the sites
     steps:
       - run: python -V
-        
+
+      # This repo
       - name: Checkout docsproto
         uses: actions/checkout@v3
         with:
@@ -43,25 +44,37 @@ jobs:
       - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/
       - run: rm -r -f $GITHUB_WORKSPACE/main/latestsites/
       - run: mkdir $GITHUB_WORKSPACE/main/latestsites/
-      
-      # Gather pages for "conceptual" site
-      ## Set up the blank site
+
+      # Create blank "conceptual" site
       - run: cp -R $GITHUB_WORKSPACE/main/initial_concept/ $GITHUB_WORKSPACE/main/latestsrc/concept/
       - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
 
-      ## add the pages in
-      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics.md $GITHUB_WORKSPACE/main/latestsrc/concept/
-      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics_Essence.md $GITHUB_WORKSPACE/main/latestsrc/concept/
-      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics_Basics.md $GITHUB_WORKSPACE/main/latestsrc/concept/
-
-      # Gather pages for "tools" site
-      ## Set up the blank site
+      # Create blank "tools" site
       - run: cp -R $GITHUB_WORKSPACE/main/initial_tools/ $GITHUB_WORKSPACE/main/latestsrc/tools/
       - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/tools/_layouts
 
-      ## add the pages in
-      - run: cp $GITHUB_WORKSPACE/docswiki/LogonTop.md $GITHUB_WORKSPACE/main/latestsrc/tools/
-      - run: cp $GITHUB_WORKSPACE/docswiki/ToolsTop.md $GITHUB_WORKSPACE/main/latestsrc/tools/
+      # Process and copy all pages into the sites
+      - run python $GITHUB_WORKSPACE/main/createdocs $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/sitesdefinitions.json
+
+#
+#      # Gather pages for "conceptual" site
+#      ## Set up the blank site
+#      - run: cp -R $GITHUB_WORKSPACE/main/initial_concept/ $GITHUB_WORKSPACE/main/latestsrc/concept/
+#      - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
+
+#      ## add the pages in
+#      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics.md $GITHUB_WORKSPACE/main/latestsrc/concept/
+#      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics_Essence.md $GITHUB_WORKSPACE/main/latestsrc/concept/
+#      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics_Basics.md $GITHUB_WORKSPACE/main/latestsrc/concept/
+#
+#      # Gather pages for "tools" site
+#      ## Set up the blank site
+#      - run: cp -R $GITHUB_WORKSPACE/main/initial_tools/ $GITHUB_WORKSPACE/main/latestsrc/tools/
+#      - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/tools/_layouts
+#
+#      ## add the pages in
+#      - run: cp $GITHUB_WORKSPACE/docswiki/LogonTop.md $GITHUB_WORKSPACE/main/latestsrc/tools/
+#      - run: cp $GITHUB_WORKSPACE/docswiki/ToolsTop.md $GITHUB_WORKSPACE/main/latestsrc/tools/
 
       # Create an index of all the pages
       # - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
