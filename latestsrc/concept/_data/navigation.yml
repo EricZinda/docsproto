@@ -1,3 +1,9 @@
+main:
+  - title: "Concepts"
+    url: https://blog.inductorsoftware.com/docsproto/concept
+  - title: "Tools"
+    url: https://blog.inductorsoftware.com/docsproto/tools
+
 foo:
   - title: "Parent Link 1"
     url: /parent-1-page-url/
