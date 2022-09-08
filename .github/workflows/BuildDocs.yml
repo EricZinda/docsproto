@@ -54,7 +54,7 @@ jobs:
       - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/tools/_layouts
 
       # Process and copy all pages into the sites
-      - run: python $GITHUB_WORKSPACE/main/createdocs $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/sitesdefinitions.json
+      - run: python $GITHUB_WORKSPACE/main/createdocs.py $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/sitesdefinitions.json
 
 #
 #      # Gather pages for "conceptual" site
