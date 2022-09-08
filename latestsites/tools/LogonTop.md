@@ -8,7 +8,7 @@ packages resources that exist independently, specifically the core of
 the open-source [DELPH-IN](http://www.delph-in.net) toolchain and
 several of the DELPH-IN grammars. These include, among others, the
 [LKB](http://www.delph-in.net/lkb), [PET](http://www.delph-in.net/pet)
-(see the [LogonPet](LogonPet) page), and [\[incr
+(see the [LogonPet](./LogonPet) page), and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) software systems, and the
 [LinGO ERG](http://www.delph-in.net/erg),
 [GG](http://www.delph-in.net/gg), [JaCY](http://www.delph-in.net/jacy),
@@ -39,7 +39,7 @@ Norwegian–English instantiation of the system (dubbed NoEn), the
 proprietary [XLE](http://www2.parc.com/isl/groups/nltt/xle/) LFG system
 and a commercially licensed bilingual dictionary (dubbed KF) are
 required, which cannot be part of the freely available LOGON
-distribution. Please see the [LogonExtras](LogonExtras) page for
+distribution. Please see the [LogonExtras](./LogonExtras) page for
 instructions on how to install proprietary add-ons to the LOGON tree,
 e.g. for sites holding valid XLE and KF licenses. To see the
 Norwegian–English LOGON system at work, there is an [on-line
@@ -59,10 +59,10 @@ The system is available exclusively for GNU/Linux (on 32-bit or 64-bit
 x86 architectures). As of November 2008, all system development and
 distribution is through the [SubVersion](http://subversion.tigris.org/)
 (SVN) revision management system. Please see the
-[LogonInstallation](LogonInstallation.md) page for details. Regrettably,
+[LogonInstallation](./LogonInstallation) page for details. Regrettably,
 only a very limited amount of documentation is available, a property
 that the LOGON tree shares with a number of the core DELPH-IN resources.
-The [LogonReports](LogonReports.md) page summarizes the documentation
+The [LogonReports](./LogonReports) page summarizes the documentation
 misery as of late 2008.
 
 # Table of Contents
@@ -72,26 +72,20 @@ exists. Feel free to add additional materials, but please make sure to
 create adequate wiki names for new pages, typically prefixed with
 *Logon* where they pertain to specifics of the LOGON infrastructure.
 
--   [LogonInstallation](LogonInstallation): System Requirements,
-    Download and Installation Notes
-
--   [LogonProcessing](LogonProcessing): Documentation of Various Batch
-    Processing Facilities
-
--   [LogonModeling](LogonModeling): Information on Training and Applying
-    Various Statistical Models
-
--   [LogonOnline](LogonOnline): Instructions on Creating On-Line,
-    Web-Accessible Demonstrators
-
--   [LogonTransfer](LogonTransfer): Some Notes on Using the MRS Rewrite
-    System (Semantic Transfer)
-
--   [LogonIdiosyncrasies](LogonIdiosyncrasies): Details of Non-Standard
-    Defaults and LOGON Functionality
-
--   [LogonWishlist](LogonWishlist): Feature Requests Contributed by
-    LOGON Co-Developers and Users
+- [LogonInstallation](./LogonInstallation): System Requirements,
+Download and Installation Notes
+- [LogonProcessing](./LogonProcessing): Documentation of Various Batch
+Processing Facilities
+- [LogonModeling](./LogonModeling): Information on Training and Applying
+Various Statistical Models
+- [LogonOnline](./LogonOnline): Instructions on Creating On-Line,
+Web-Accessible Demonstrators
+- [LogonTransfer](./LogonTransfer): Some Notes on Using the MRS Rewrite
+System (Semantic Transfer)
+- [LogonIdiosyncrasies](./LogonIdiosyncrasies): Details of Non-Standard
+Defaults and LOGON Functionality
+- [LogonWishlist](./LogonWishlist): Feature Requests Contributed by
+LOGON Co-Developers and Users
 
 # Background Materials
 
@@ -99,50 +93,49 @@ Further information on the LOGON software and consortium can be found at
 the [project web site](http://www.emmtee.net/); the following
 publication provides an overview of most of the core pieces:
 
--   Stephan Oepen, Erik Velldal, Jan Tore Lønning, Paul Meurer, Victoria
-    Rosén, and Dan Flickinger (2007).
-
-    [Towards hybrid quality-oriented machine translation. On linguistics
-    and probabilities in
-    MT](http://share.emmtee.net/pub/bscw.cgi/d64459/tmi07.pdf). In
-    *Proceedings of the 10th International Conference on Theoretical and
-    Methodological Issues in Machine Translation*, pp.144–153. Skövde,
-    Sweden.
-
--   Stephan Oepen, Helge Dyvik, Jan Tore Lønning, Erik Velldal, Dorothee
-    Beermann, John Carroll, Dan Flickinger, Lars Hellan, Janne Bondi
-    Johannessen, Paul Meurer, Torbjørn Nordgård, and Victoria Rosén
-    (2004).
-
-    [Som å kapp-ete med trollet? Towards MRS-based Norwegian-English
-    Machine
-    Translation](http://share.emmtee.net/pub/bscw.cgi/d23044/tmi04.pdf).
-    In *Proceedings of the 10th International Conference on Theoretical
-    and Methodological Issues in Machine Translation*, pp. 11–20.
-    Baltimore, MD.
+- Stephan Oepen, Erik Velldal, Jan Tore Lønning, Paul Meurer, Victoria
+Rosén, and Dan Flickinger (2007).
+  
+  [Towards hybrid quality-oriented machine translation. On linguistics
+and probabilities in
+MT](http://share.emmtee.net/pub/bscw.cgi/d64459/tmi07.pdf). In
+*Proceedings of the 10th International Conference on Theoretical and
+Methodological Issues in Machine Translation*, pp.144–153. Skövde,
+Sweden.
+- Stephan Oepen, Helge Dyvik, Jan Tore Lønning, Erik Velldal, Dorothee
+Beermann, John Carroll, Dan Flickinger, Lars Hellan, Janne Bondi
+Johannessen, Paul Meurer, Torbjørn Nordgård, and Victoria Rosén
+(2004).
+  
+  [Som å kapp-ete med trollet? Towards MRS-based Norwegian-English
+Machine
+Translation](http://share.emmtee.net/pub/bscw.cgi/d23044/tmi04.pdf).
+In *Proceedings of the 10th International Conference on Theoretical
+and Methodological Issues in Machine Translation*, pp. 11–20.
+Baltimore, MD.
 
 The first paper discussing the use of Minimal Recursion Semantics in
 machine translation is:
 
--   Ann Copestake, Dan Flickinger, Rob Malouf, Susanne Riehemann and
-    Ivan Sag (1995).
-
-    [Translation using Minimal Recursion
-    Semantics](http://www.cl.cam.ac.uk/~aac10/papers/tmi95.ps.gz). In
-    *Proceedings of The Sixth International Conference on Theoretical
-    and Methodological Issues in Machine Translation*, pp. 15–32.
-    Leuven, Belgium.
+- Ann Copestake, Dan Flickinger, Rob Malouf, Susanne Riehemann and
+Ivan Sag (1995).
+  
+  [Translation using Minimal Recursion
+Semantics](http://www.cl.cam.ac.uk/~aac10/papers/tmi95.ps.gz). In
+*Proceedings of The Sixth International Conference on Theoretical
+and Methodological Issues in Machine Translation*, pp. 15–32.
+Leuven, Belgium.
 
 An example of the extension of the LOGON machinery to a new language
 pair can be seen in
 
--   Francis Bond, Stephan Oepen, Melanie Siegel, Ann Copestake, and Dan
-    Flickinger (2005).
-
-    [Open source machine translation with
-    DELPH-IN](http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2005-summit-osmt.pdf).
-    In *Open-Source Machine Translation: Workshop at MT Summit X*, pp
-    15–22. Phuket, Thailand.
+- Francis Bond, Stephan Oepen, Melanie Siegel, Ann Copestake, and Dan
+Flickinger (2005).
+  
+  [Open source machine translation with
+DELPH-IN](http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2005-summit-osmt.pdf).
+In *Open-Source Machine Translation: Workshop at MT Summit X*, pp
+15–22. Phuket, Thailand.
 
 For additional information, there is an archived [mailing
 list](http://lists.emmtee.net/mailman/listinfo/logon) for the LOGON
