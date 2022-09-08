@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 import sys
 import urllib.parse
 
@@ -13,17 +14,25 @@ from marko.inline import Link
 
 
 def convert_and_copy_doc(parser, src_file_path, dst_file_path):
-    with open(src_file_path, "r") as txtFile:
-        result = parser.parse(txtFile.read())
-        convert_child(result)
+    file_name, file_extension = os.path.splitext(src_file_path)
+    if file_extension.lower() == ".md":
+        with open(src_file_path, "r") as txtFile:
+            result = parser.parse(txtFile.read())
+            return convert_child(src_file_path, result)
 
-    with open(dst_file_path, "w") as txtFile:
-        final_result = parser.render(result)
-        txtFile.write(final_result)
+        with open(dst_file_path, "w") as txtFile:
+            final_result = parser.render(result)
+            txtFile.write(final_result)
+
+    else:
+        shutil.copy2(src_file_path, dst_file_path)
+        return []
 
 
-def convert_child(node):
+def convert_child(docpath, node):
+    links = []
     if isinstance(node, Link):
+        links.append({"Doc": docpath, "Link": node.dest})
         split_url = urllib.parse.urlsplit(node.dest)
         if split_url.scheme == "" and split_url.netloc == "" and split_url.query == "" and split_url.fragment == "":
             parts = split_url.path.split('/')
@@ -31,7 +40,9 @@ def convert_child(node):
                 node.dest = "../" + node.dest
     elif hasattr(node, "children"):
         for child in node.children:
-            convert_child(child)
+            links += convert_child(docpath, child)
+
+    return links
 
 
 # Given a definition file that contains all the site defininitions create the latestsrc folder structure
@@ -40,10 +51,15 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
     parser = Markdown(Parser, MarkdownRenderer)
     with open(sites_definitions_path, "r") as txtFile:
         sites_definition = json.loads(txtFile.read())
+        links = []
+        docs = []
         for fileDefinition in sites_definition["Sites"]:
             src_file = os.path.join(src_root, fileDefinition["SrcDir"], fileDefinition["SrcFile"])
             dst_file = os.path.join(dst_root, fileDefinition["Site"], fileDefinition["SrcFile"])
-            convert_and_copy_doc(parser, src_file, dst_file)
+            docs.append(dst_file)
+            links += convert_and_copy_doc(parser, src_file, dst_file)
+
+    return docs, links
 
 
 if __name__ == '__main__':
@@ -51,7 +67,9 @@ if __name__ == '__main__':
         src_root = sys.argv[1]
         dst_root = sys.argv[2]
         sites_definitions_path = sys.argv[3]
-        create_sites_src(src_root, dst_root, sites_definitions_path)
+        docs, links = create_sites_src(src_root, dst_root, sites_definitions_path)
+        print(docs)
+        print(links)
 
     else:
         print("Error: Requires 3 arguments: 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
