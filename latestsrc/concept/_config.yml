@@ -42,8 +42,8 @@ search                   : true
 search_full_content      : true
 search_provider          : google
 google:
-  search_engine_id       : # 7761c0bff1e224240
-  instant_search         : true
+  search_engine_id       : 7761c0bff1e224240
+  instant_search         : false
 
 
 
