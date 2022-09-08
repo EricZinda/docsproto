@@ -9,7 +9,7 @@ Figure out templates using Jekyll and see if they meet our needs
             - This might work to build one giant filter: https://stackoverflow.com/questions/1133698/using-find-to-locate-files-that-match-one-of-multiple-patterns
 
 - Get some base pages working right
-    - Build script to generate sites
+    - (done) Build script to generate sites
         - automatically copy files
         - Do link fixup
         

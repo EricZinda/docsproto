@@ -18,16 +18,19 @@ def convert_and_copy_doc(parser, src_file_path, dst_file_path):
     if file_extension.lower() == ".md":
         with open(src_file_path, "r") as txtFile:
             result = parser.parse(txtFile.read())
-            return convert_child(src_file_path, result)
+            links = convert_child(src_file_path, result)
 
         with open(dst_file_path, "w") as txtFile:
             final_result = parser.render(result)
             txtFile.write(final_result)
+            print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
 
     else:
         shutil.copy2(src_file_path, dst_file_path)
-        return []
+        print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
+        links = []
 
+    return links
 
 def convert_child(docpath, node):
     links = []
