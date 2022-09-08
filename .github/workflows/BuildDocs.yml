@@ -18,6 +18,7 @@ jobs:
     # First get all the repositories we will use to build any of the sites
     steps:
       - run: python -V
+      - run: pip install marko
 
       # This repo
       - name: Checkout docsproto
