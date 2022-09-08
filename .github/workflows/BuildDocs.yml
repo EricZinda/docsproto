@@ -17,6 +17,8 @@ jobs:
     
     # First get all the repositories we will use to build any of the sites
     steps:
+      - run: python -V
+        
       - name: Checkout docsproto
         uses: actions/checkout@v3
         with:
