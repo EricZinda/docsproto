@@ -48,9 +48,9 @@ jobs:
       - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
 
       ## add the pages in
-      - run: cp $GITHUB_WORKSPACE/docswiki/AbbeyApposition.md $GITHUB_WORKSPACE/main/latestsrc/concept/
-      - run: cp $GITHUB_WORKSPACE/docswiki/AceErgTuning.md $GITHUB_WORKSPACE/main/latestsrc/concept/
-      - run: cp $GITHUB_WORKSPACE/docsprotowiki/Test.md $GITHUB_WORKSPACE/main/latestsrc/concept/
+      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics.md $GITHUB_WORKSPACE/main/latestsrc/concept/
+      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics_Essence.md $GITHUB_WORKSPACE/main/latestsrc/concept/
+      - run: cp $GITHUB_WORKSPACE/docswiki/ErgSemantics_Basics.md $GITHUB_WORKSPACE/main/latestsrc/concept/
 
       # Gather pages for "tools" site
       ## Set up the blank site
