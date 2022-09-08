@@ -1,4 +1,5 @@
 ---
+layout: delphin_page
 sidebar: false
 ---
 
