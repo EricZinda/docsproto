@@ -8,7 +8,7 @@ packages resources that exist independently, specifically the core of
 the open-source [DELPH-IN](http://www.delph-in.net) toolchain and
 several of the DELPH-IN grammars. These include, among others, the
 [LKB](http://www.delph-in.net/lkb), [PET](http://www.delph-in.net/pet)
-(see the [LogonPet](./LogonPet) page), and [\[incr
+(see the [LogonPet](../LogonPet) page), and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) software systems, and the
 [LinGO ERG](http://www.delph-in.net/erg),
 [GG](http://www.delph-in.net/gg), [JaCY](http://www.delph-in.net/jacy),
@@ -39,7 +39,7 @@ Norwegian–English instantiation of the system (dubbed NoEn), the
 proprietary [XLE](http://www2.parc.com/isl/groups/nltt/xle/) LFG system
 and a commercially licensed bilingual dictionary (dubbed KF) are
 required, which cannot be part of the freely available LOGON
-distribution. Please see the [LogonExtras](./LogonExtras) page for
+distribution. Please see the [LogonExtras](../LogonExtras) page for
 instructions on how to install proprietary add-ons to the LOGON tree,
 e.g. for sites holding valid XLE and KF licenses. To see the
 Norwegian–English LOGON system at work, there is an [on-line
@@ -59,10 +59,10 @@ The system is available exclusively for GNU/Linux (on 32-bit or 64-bit
 x86 architectures). As of November 2008, all system development and
 distribution is through the [SubVersion](http://subversion.tigris.org/)
 (SVN) revision management system. Please see the
-[LogonInstallation](./LogonInstallation) page for details. Regrettably,
+[LogonInstallation](../LogonInstallation) page for details. Regrettably,
 only a very limited amount of documentation is available, a property
 that the LOGON tree shares with a number of the core DELPH-IN resources.
-The [LogonReports](./LogonReports) page summarizes the documentation
+The [LogonReports](../LogonReports) page summarizes the documentation
 misery as of late 2008.
 
 # Table of Contents
@@ -72,19 +72,19 @@ exists. Feel free to add additional materials, but please make sure to
 create adequate wiki names for new pages, typically prefixed with
 *Logon* where they pertain to specifics of the LOGON infrastructure.
 
-- [LogonInstallation](./LogonInstallation): System Requirements,
+- [LogonInstallation](../LogonInstallation): System Requirements,
 Download and Installation Notes
-- [LogonProcessing](./LogonProcessing): Documentation of Various Batch
+- [LogonProcessing](../LogonProcessing): Documentation of Various Batch
 Processing Facilities
-- [LogonModeling](./LogonModeling): Information on Training and Applying
+- [LogonModeling](../LogonModeling): Information on Training and Applying
 Various Statistical Models
-- [LogonOnline](./LogonOnline): Instructions on Creating On-Line,
+- [LogonOnline](../LogonOnline): Instructions on Creating On-Line,
 Web-Accessible Demonstrators
-- [LogonTransfer](./LogonTransfer): Some Notes on Using the MRS Rewrite
+- [LogonTransfer](../LogonTransfer): Some Notes on Using the MRS Rewrite
 System (Semantic Transfer)
-- [LogonIdiosyncrasies](./LogonIdiosyncrasies): Details of Non-Standard
+- [LogonIdiosyncrasies](../LogonIdiosyncrasies): Details of Non-Standard
 Defaults and LOGON Functionality
-- [LogonWishlist](./LogonWishlist): Feature Requests Contributed by
+- [LogonWishlist](../LogonWishlist): Feature Requests Contributed by
 LOGON Co-Developers and Users
 
 # Background Materials
