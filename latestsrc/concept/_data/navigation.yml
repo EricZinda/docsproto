@@ -4,11 +4,12 @@ main:
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools
 
-foo:
+toc:
   - title: "Erg Semantics"
-    url: /ErgSemantics/
     children:
+      - title: "Overview"
+        url: "ErgSemantics.md"
       - title: "Essence"
-        url: /ErgSemantics_Essence/
+        url: "ErgSemantics_Essence.md"
       - title: "Basics"
-        url: /ErgSemantics_Basics/
+        url: "ErgSemantics_Basics.md"

@@ -3,12 +3,10 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/concept
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools
-
-foo:
-  - title: "All Tools"
-    # url: /parent-1-page-url/
+toc:
+  - title: "Tools"
     children:
+      - title: "Overview"
+        url: "ToolsTop.md"
       - title: "Logon"
-        url: /LogonTop/
-      - title: "Tools Summary"
-        url: /ToolsTop/
+        url: "LogonTop.md"
