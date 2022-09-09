@@ -148,7 +148,7 @@ def propose_broken_links(all_pages, all_links):
     proposals = []
     for linkItem in broken_links.items():
         link = linkItem[1]
-        proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["Link"]})
+        proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["Link"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'})
 
     return proposals
 
@@ -192,6 +192,8 @@ if __name__ == '__main__':
         proposed_fixes = propose_broken_links(all_pages, all_links)
         print("\n\nBroken Links:\n\n")
         for item in proposed_fixes:
+            # print(f"Referrer: {item['Referrer']}:")
+            # item.pop("Referrer")
             print(f"{json.dumps(item)},")
 
     else:
