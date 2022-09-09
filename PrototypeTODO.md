@@ -13,7 +13,9 @@ Figure out templates using Jekyll and see if they meet our needs
         - automatically copy files
         - Do link fixup
     - Build TOC properly
-      - START HERE: It doesn't link properly if you click on it.  Need to strip ".md"? 
+      - It doesn't link properly if you click on it.  Need to strip ".md"? 
+    - Some images are broken
+    - 
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning
     - Include all the current stuff

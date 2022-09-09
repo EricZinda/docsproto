@@ -75,7 +75,7 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
             if fileDefinition["Site"] not in tocs:
                 tocs[fileDefinition["Site"]] = []
             site_relative_link = get_site_relative_page_link_from_src(fileDefinition["Site"], fileDefinition["SrcFile"])
-            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link})
+            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
     return docs, links, tocs
 
@@ -86,7 +86,7 @@ def create_tocs(dst_root, tocs):
         for entry in site[1]:
             if entry["Section"] not in sections:
                 sections[entry["Section"]] = []
-            sections[entry["Section"]].append({"Name": entry["Page"], "Link": entry["Link"]})
+            sections[entry["Section"]].append({"Name": entry["Page"], "Link": entry["Link"], "SrcFile": entry["SrcFile"]})
 
         # Build the TOC text
         toc_text = "toc:\n"
@@ -104,9 +104,9 @@ def create_tocs(dst_root, tocs):
 
         # Make the index file have the contents of the first item in the index
         index_file_path = os.path.join(dst_root, site[0], "index.md")
-        index_link = list(sections.items())[0][1][0]["Link"]
+        index_file = list(sections.items())[0][1][0]["SrcFile"]
         with open(index_file_path, "a") as txtFile:
-            include_text = '{% include_relative ' + index_link + ' %}'
+            include_text = '{% include_relative ' + index_file + ' %}'
             txtFile.write(include_text)
 
 
