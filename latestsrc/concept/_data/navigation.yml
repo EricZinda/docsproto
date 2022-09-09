@@ -8,8 +8,8 @@ toc:
   - title: "Erg Semantics"
     children:
       - title: "Overview"
-        url: "ErgSemantics.md"
+        url: "ErgSemantics"
       - title: "Essence"
-        url: "ErgSemantics_Essence.md"
+        url: "ErgSemantics_Essence"
       - title: "Basics"
-        url: "ErgSemantics_Basics.md"
+        url: "ErgSemantics_Basics"
