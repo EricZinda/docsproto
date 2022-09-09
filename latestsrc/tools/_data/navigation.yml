@@ -7,6 +7,6 @@ toc:
   - title: "Tools"
     children:
       - title: "Overview"
-        url: "ToolsTop.md"
+        url: "ToolsTop"
       - title: "Logon"
-        url: "LogonTop.md"
+        url: "LogonTop"
