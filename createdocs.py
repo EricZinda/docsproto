@@ -49,6 +49,15 @@ def convert_child(docpath, node):
     return links
 
 
+def get_site_relative_page_link_from_src(site, src_file):
+    # if it is an md file, just strip the extension to make a relative link to the site root
+    file_name, file_extension = os.path.splitext(src_file)
+    if file_extension.lower() == ".md":
+        return file_name
+    else:
+        return src_file
+
+
 # Given a definition file that contains all the site defininitions create the latestsrc folder structure
 # We do it all at once so we can check for broken links
 def create_sites_src(src_root, dst_root, sites_definitions_path):
@@ -65,7 +74,8 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
             links += convert_and_copy_doc(parser, src_file, dst_file)
             if fileDefinition["Site"] not in tocs:
                 tocs[fileDefinition["Site"]] = []
-            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": fileDefinition["SrcFile"]})
+            site_relative_link = get_site_relative_page_link_from_src(fileDefinition["Site"], fileDefinition["SrcFile"])
+            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link})
 
     return docs, links, tocs
 
