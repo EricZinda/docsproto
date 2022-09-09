@@ -78,6 +78,7 @@ def create_tocs(dst_root, tocs):
                 sections[entry["Section"]] = []
             sections[entry["Section"]].append({"Name": entry["Page"], "Link": entry["Link"]})
 
+        # index_link = sections.items()[1][0]["Link"]
         toc_text = "toc:\n"
         for section in sections.items():
             toc_text += f'  - title: "{section[0]}"\n'
