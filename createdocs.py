@@ -68,6 +68,7 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
     parser = Markdown(Parser, MarkdownRenderer)
     with open(sites_definitions_path, "r") as txtFile:
         sites_definition = json.loads(txtFile.read())
+        errors = []
         links = []
         docs = {}
         tocs = {}
@@ -83,14 +84,17 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
             docs[file_site][path] = copy.deepcopy(fileDefinition)
 
             if fileDefinition["Section"] != "<todo>":
-                links += convert_and_copy_doc(parser, fileDefinition, src_file, dst_file)
+                try:
+                    links += convert_and_copy_doc(parser, fileDefinition, src_file, dst_file)
+                except Exception as error:
+                    errors.append({"Definition": fileDefinition, "Error": str(error)})
 
                 if fileDefinition["Site"] not in tocs:
                     tocs[fileDefinition["Site"]] = []
                 site_relative_link = get_site_relative_page_link_from_src(fileDefinition["Site"], fileDefinition["SrcFile"])
                 tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
-    return docs, links, tocs
+    return docs, links, tocs, errors
 
 
 def create_tocs(dst_root, tocs):
@@ -176,7 +180,11 @@ if __name__ == '__main__':
         src_root = sys.argv[1]
         dst_root = sys.argv[2]
         sites_definitions_path = sys.argv[3]
-        all_pages, all_links, tocs = create_sites_src(src_root, dst_root, sites_definitions_path)
+        all_pages, all_links, tocs, errors = create_sites_src(src_root, dst_root, sites_definitions_path)
+        if len(errors) > 0:
+            print(f"Errors generating site:\n{errors}")
+            assert False
+
         create_tocs(dst_root, tocs)
         proposed_fixes = propose_broken_links(all_pages, all_links)
         print("\n\nBroken Links:\n\n")
