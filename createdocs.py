@@ -148,7 +148,7 @@ def propose_broken_links(all_pages, all_links):
     proposals = []
     for linkItem in broken_links.items():
         link = linkItem[1]
-        proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["Link"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'})
+        proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["Link"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}', "Debug": linkItem})
 
     return proposals
 
