@@ -178,7 +178,7 @@ if __name__ == '__main__':
         create_tocs(dst_root, tocs)
         proposed_fixes = propose_broken_links(all_pages, all_links)
         for item in proposed_fixes:
-            print(f"{item},")
+            print(f"{json.dumps(item)},")
 
     else:
         print("Error: Requires 3 arguments: 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
