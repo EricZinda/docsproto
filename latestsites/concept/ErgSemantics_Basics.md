@@ -1,4 +1,4 @@
-# Terminology
+{% raw %}# Terminology
 
 ERG meaning representations are couched in Minimal Recursion Semantics
 (MRS; Copestake et al., 2005), which is conceptualized as a
@@ -249,3 +249,4 @@ Copestake, A., Lascarides, A., & Flickinger, D. (2001). An algebra for
 semantic construction in constraint-based grammars. In *Proceedings of
 the 39th Annual Meeting of the Association for Computational
 Linguistics* (pp. 140–147). Toulouse, France.
+{% endraw %}

@@ -1,4 +1,4 @@
-# ERS: High-Level Characterization
+{% raw %}# ERS: High-Level Characterization
 
 In a nutshell, English Resource Semantics (ERS; see
 [ErgSemantics](../ErgSemantics)) captures *sentence meaning* in an abstract
@@ -525,3 +525,4 @@ thesis, University of Washington.
 
 Steedman, Mark. 2012. *Taking scope: The natural semantics of
 quantifiers.* MIT Press.
+{% endraw %}

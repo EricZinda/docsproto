@@ -1,4 +1,4 @@
-# Overview
+{% raw %}# Overview
 
 The LOGON infrastructure (and source tree) is a collection of software,
 grammars, and other linguistic resources to facilitate experimentation
@@ -142,3 +142,4 @@ list](http://lists.emmtee.net/mailman/listinfo/logon) for the LOGON
 tree. For additional questions, please feel free to contact Stephan
 Oepen (oe *at* ifi.uio.no), the technical manager for the original
 Norwegian LOGON consortium.
+{% endraw %}

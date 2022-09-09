@@ -1,0 +1,486 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/tools/MatrixGettingStarted/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/tools/MatrixGettingStarted/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/tools/"><img src="/docsproto/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docsproto/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/concept">Concepts</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools">Tools</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/ToolsTop">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Environments</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/PetTop">Pet</a></li>
+          
+            <li><a href="/docsproto/tools/AgreeTop">Agree</a></li>
+          
+            <li><a href="/docsproto/tools/LkbInstallation">LKB Installation</a></li>
+          
+            <li><a href="/docsproto/tools/LkbFos">LKB Fully Open Source</a></li>
+          
+            <li><a href="/docsproto/tools/LkbMacintosh">LKB Macintosh</a></li>
+          
+            <li><a href="/docsproto/tools/MatrixGettingStarted">Grammar Matrix Getting Started</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/EgadTop">Erroneous Generation Analysis and Detection</a></li>
+          
+            <li><a href="/docsproto/tools/GDeltaTop">gDelta</a></li>
+          
+            <li><a href="/docsproto/tools/SpringCleaningTop">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docsproto/tools/LkbLtdb">Linguistic Type Database</a></li>
+          
+            <li><a href="/docsproto/tools/ClimbShortClimb">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docsproto/tools/TypediffTop">Typediff</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Parsing and Generation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/AceTop">Ace</a></li>
+          
+            <li><a href="/docsproto/tools/DelphinTools">Delphin Tools</a></li>
+          
+            <li><a href="/docsproto/tools/VistaExtractionTop">VistaExtractionTop</a></li>
+          
+            <li><a href="/docsproto/tools/ReppTop">Regular Expression Pre-Processor</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Misc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/HeartofgoldTop">Heart of Gold</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/LogonTop">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/LogonPet">Pet</a></li>
+          
+            <li><a href="/docsproto/tools/LogonExtras">Extras</a></li>
+          
+            <li><a href="/docsproto/tools/LogonInstallation">Installation</a></li>
+          
+            <li><a href="/docsproto/tools/LogonReports">Reports</a></li>
+          
+            <li><a href="/docsproto/tools/LogonProcessing">Processing</a></li>
+          
+            <li><a href="/docsproto/tools/LogonModeling">Modeling</a></li>
+          
+            <li><a href="/docsproto/tools/LogonOnline">Online</a></li>
+          
+            <li><a href="/docsproto/tools/LogonTransfer">Transfer</a></li>
+          
+            <li><a href="/docsproto/tools/LogonIdiosyncrasies">Idiosyncrasies</a></li>
+          
+            <li><a href="/docsproto/tools/LogonWishlist">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="getting-started-with-the-grammar-matrix">Getting Started with the Grammar Matrix</h1>
+
+<p>This page provides pointers for getting started with the Grammar Matrix
+customization system.</p>
+
+<h2 id="where-is-the-matrix">Where is the Matrix?</h2>
+
+<p>The customization system can be accessed from the following web page:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://matrix.delph-in.net/customize/matrix.cgi
+</code></pre></div></div>
+
+<h2 id="where-can-i-find-instructions-on-filling-out-the-questionnaire">Where can I find instructions on filling out the questionnaire?</h2>
+
+<p>Most of the libraries in the Grammar Matrix have at least some
+documentation on the <a href="../MatrixDocTop">MatrixDoc</a> pages.</p>
+
+<p>Note that filling out the questionnaire is an iterative process. To get
+as much as possible out of the customization system, you should develop
+a test suite illustrating the phenomena covered by the questionnaire in
+the language you are modeling and then develop different versions of
+your ‘choices’ file (the file containing your answers to the
+questionnaire), iteratively testing the resulting grammar on your test
+suite. Furthermore, it is always wise to start small and extend
+incrementally. Even with morphologically complex languages, your very
+first version of your grammar should have a full-form lexicon. Once you
+see that working (and parsing a few sentences), you can go back and do
+the morphology. If you have a lot of morphological rules to add, for
+example, try one or two and see how they work before fleshing out full
+paradigms.</p>
+
+<p>In addition, <a href="../EmilyBender">EmilyBender</a>’s course pages for
+<a href="http://courses.washington.edu/ling567">Ling567</a> at UW may be helpful.
+These course pages are updated each time the course is taught (roughly
+annually), but typically follow the same schedule:</p>
+
+<ul>
+  <li>Lab 1 is an exercise about getting familiar with the LKB and doesn’t
+really relate to the Matrix.</li>
+  <li>Labs 2-4 walk students through creating test suites on the one hand
+and filling out the customization system on the other.</li>
+  <li>Labs 5-8 are about extending the grammars through tdl editing.</li>
+</ul>
+
+<h2 id="what-other-software-do-i-need">What other software do I need?</h2>
+
+<p>You’ll want the LKB (<a href="../LkbTop">LkbTop</a>) or ace (<a href="../AceTop">AceTop</a>), a text
+editor (preferably emacs), and <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a>. Typically, the easiest way to
+get set up is with the <a href="http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/KnoppixLKB">Ubuntu+LKB Virtual Box
+appliance</a>,
+maintained at UW.</p>
+
+<h2 id="how-about-papers-i-can-read">How about papers I can read?</h2>
+
+<p>The key references for the Grammar Matrix are the following two papers:</p>
+
+<ul>
+  <li>Bender, Emily M., Scott Drellishak, Antske Fokkens, Laurie Poulson,
+and Safiyyah Saleem. 2010. Grammar Customization. Research on
+Language and Computation 8(1):23-72.
+<a href="http://faculty.washington.edu/ebender/bibtex/BenDreFokPouSal10.bib.txt">[.bib</a>]
+[Pre-print available on request.]</li>
+  <li>Bender, Emily M., Dan Flickinger and Stephan Oepen. 2002. <a href="http://faculty.washington.edu/ebender/papers/gee03.pdf">The
+Grammar Matrix: An Open-Source Starter-Kit for the Rapid Development
+of Cross-Linguistically Consistent Broad-Coverage Precision
+Grammars</a>.
+Carroll, John, Nelleke Oostdijk, and Richard Sutcliffe, eds.
+Proceedings of the Workshop on Grammar Engineering and Evaluation at
+the 19th International Conference on Computational Linguistics.
+Taipei, Taiwan. pp. 8-14.</li>
+</ul>
+
+<p>A complete list of publications from the Grammar Matrix project is
+available on the <a href="http://www.delph-in.net/matrix/">project home page</a>.</p>
+
+<h2 id="what-else-might-be-helpful">What else might be helpful?</h2>
+
+<p>Once you are working with tdl editing, the
+<a href="../GrammarEngineeringFaq">GrammarEngineeringFaq</a> pages may be helpful.
+The feature geometry cheat sheets at the bottom of
+<a href="../GeFaqFeatureGeometry">GeFaqFeatureGeometry</a> are particularly popular.</p>
+
+<h2 id="where-can-i-send-questions">Where can I send questions?</h2>
+
+<p>Please check out the <a href="https://delphinqa.ling.washington.edu/">DELPH-IN QA Discourse
+site</a> and post questions there.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/tools/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
