@@ -83,8 +83,8 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
             file_site = fileDefinition["Site"]
             if fileDefinition["Site"] not in docs:
                 docs[file_site] = {}
-            path = get_site_relative_page_link_from_src(file_site, fileDefinition["SrcFile"])
-            docs[file_site][path] = copy.deepcopy(fileDefinition)
+            path_lower = get_site_relative_page_link_from_src(file_site, fileDefinition["SrcFile"])
+            docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
 
             if fileDefinition["Section"] != "<todo>":
                 try:
@@ -166,7 +166,7 @@ def find_broken_links(all_pages, all_links):
 
             # If a link is relative, see if it exists
             link_site_pages = all_pages[link_data["Site"]]
-            if local_path not in link_site_pages:
+            if local_path.lower() not in link_site_pages:
                 # Check to ensure it is not already there
                 if link_data["Link"] not in broken_links:
                     broken_links[link_data["Link"]] = link_data
