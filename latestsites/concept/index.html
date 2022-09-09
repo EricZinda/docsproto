@@ -147,6 +147,49 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/concept/ErgSemantics.md">Overview</a></li>
+          
+            <li><a href="/docsproto/concept/ErgSemantics_Essence.md">Essence</a></li>
+          
+            <li><a href="/docsproto/concept/ErgSemantics_Basics.md">Basics</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
@@ -166,16 +209,162 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        
-<nav class="nav__list">
-  
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">Toggle Menu</label>
-  <ul class="nav__items">
-    
-  </ul>
-</nav>
+        <h1 id="introduction">Introduction</h1>
 
+<p>The purpose of these pages is to document the semantic representations
+produced by the <a href="http://www.delph-in.net/erg">English Resource Grammar</a>
+(ERG; Flickinger 2000, 2011). The ERG is a broad-coverage,
+linguistically motivated precision grammar for English, associating
+richly detailed semantic representations with input sentences. These
+representations, dubbed English Resource Semantics or ERS, are in the
+formalism of Minimal Recursion Semantics (MRS; Copestake et al 2005).
+They include not only semantic roles, but also information such as the
+distinction between scopal and non-scopal arguments as well as semantic
+representations of linguistically complex phenomena including time and
+date expressions, conditionals, comparatives, and <a href="../ErgSemantics_Inventory">many
+others</a>. ERS can be expressed in various ways,
+including a logic-based syntax using predicates and arguments,
+dependency graphs, and dependency triples. In addition, the
+representations can be obtained either from existing large collections
+(of close to 1.5 million tokens) of manually curated annotations over
+texts from a wide variety of genres (the <a href="../RedwoodsTop">Redwoods
+Treebank</a>; Oepen, et al., 2004; Flickinger, et al., 2012)
+or by <a href="../ErgProcessing">processing new text</a> with the ERG and its
+associated parsing and parse selection algorithms.</p>
+
+<p>As an example, below is the ERS for the sentence <em>The garden dog tried
+not to bark.</em></p>
+
+<p><img src="http://svn.delph-in.net/erg/tags/1214/www/esd/the-garden-dog-tried-not-to-bark.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/the-garden-dog-tried-not-to-bark.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/the-garden-dog-tried-not-to-bark.png" /></p>
+
+<h1 id="structure-of-the-documentation">Structure of the Documentation</h1>
+
+<p>The ESD pages are organized as a hyper-linked collection of smaller
+documents, each typically discussing a specific semantic phenomenon or
+particular set of higher-level considerations. ERG meaning
+representations take the form of underspecified logical forms, adopting
+the framework of Minimal Recursion Semantics (MRS; <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">Copestake, et al.,
+2005)</a> The
+<a href="../ErgSemantics_Essence">ErgSemantics/Essence</a> page provides a high-level
+characterization of what you can expect to find in these meaning
+representations. An informal introduction to MRS, its use by the ERG,
+and basic terminology is provided by the
+<a href="../ErgSemantics_Basics">ErgSemantics/Basics</a> page. Beyond these more
+technical foundations, the <a href="../ErgSemantics_Design">ErgSemantics/Design</a>
+pages discuss broader linguistic design decisions, for example
+assumptions regarding quantification, or the notion of eventualities
+assumed. For first-time consumers of ERG meaning representations, these
+pages aim to establish the ‘scaffolding’ for the core of the ESD pages,
+viz. a collection of pages that present individual semantic phenomena.
+The ‘table of contents’ for this collection is available through the
+<a href="../ErgSemantics_Inventory">ErgSemantics/Inventory</a> page, and the process
+we followed for selecting phenomena to document is described on the
+<a href="../ErgSemantics_Discovery">ErgSemantics/Discovery</a> page. We recommend
+starting the exploration of these resources via the following links:</p>
+
+<ul>
+  <li><a href="../ErgSemantics_Essence">High-Level Characterization</a></li>
+  <li><a href="../ErgSemantics_Basics">Semi-Formal and Terminological Basics</a></li>
+  <li><a href="../ErgSemantics_Design">High-Level Linguistic Design Decisions</a></li>
+  <li><a href="../ErgSemantics_Inventory">Inventory of Individual Phenomena</a></li>
+</ul>
+
+<h1 id="semantic-fingerprints">Semantic Fingerprints</h1>
+
+<p>In capturing semantic phenomena on most ESD pages (and hopefully also in
+future work on automated regression testing) we invoke a notion of
+<em>semantic fingerprints</em>, i.e. characteristics of a specific MRS
+configuration that identifies a token phenomenon. We utilize a compact
+template language for MRS fingerprints (similar in form to the MRS LaTeX
+style; called ERS fingerprints when specialized for the semantic
+analyses of the English Resource Grammar) that makes the specification
+of labels and (characterization) links optional, and further allows
+wild-carding of predicate symbols and role labels (using ‘_’, i.e. just
+an underscore). For example, following is the semantic fingerprint or
+plain N–N compounding (as in <em>garden dog</em>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  h:compound[ARG1 x1, ARG2 x2]
+  h:[ARG0 x1]
+  [ARG0 x2]
+</code></pre></div></div>
+
+<p>In other words, the phenomenon is characterized by the appearance of the
+two-place compound relation, linking together another two EPs in the
+configuration indicated by the shared label h (of the compound head and
+the two-place modifier relation) and the shared referential indices x1
+and x2. These fingerprints will match the example given above, as well
+all other examples in the collection being searched analyzed as
+involving N-N compounding.</p>
+
+<p>There is a <a href="http://wesearch.delph-in.net">search interface</a> for
+‘fingerprinting’ collections of ERG analyses, i.e. use patterns provided
+on ESD pages or own variants to retrieve instances of semantic phenomena
+from the comprehensive collections of manually annotated ‘gold-standard’
+treebanks that accompany the ERG. In particular, these treebanks include
+a fresh re-annotation, dubbed
+<a href="http://wesearch.delph-in.net/deepbank">DeepBank</a>, of the venerable WSJ
+Corpus annotated in the Penn Treebank.</p>
+
+<h1 id="esd-test-suite">ESD Test Suite</h1>
+
+<p>One aspect of the documentation produced in this work is a <a href="http://svn.emmtee.net/trunk/uio/wesearch/esd.txt">test
+suite</a> illustrating
+each identified phenomenon with one or more short, simple sentences,
+attempting to balance restricted vocabulary size with the clarity of the
+intended reading of each example. This test suite can be viewed as an
+extension of the <a href="../MatrixMrsTestSuite">MRS Test Suite</a>.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>The ERG Semantic Documentation (ESD) initiative is an ongoing effort to
+provide ‘end-user’ documentation on the meaning representations that
+provide the interface to parsing and generation using the ERG. While ERG
+meaning representations abstract to a large degree from semantically
+irrelevant surface variation, it can at times be challenging to
+interpret (and appreciate) the nuances of particular semantic analyses.
+The ESD pages seek to provide an ever-growing ‘encyclopedia’ of semantic
+analyses available from the ERG.</p>
+
+<p>Additional background information is provided by <a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/562_Paper.pdf">Flickinger, et al.
+(2014)</a>.
+These pages are jointly maintained by Emily M. Bender, Dan Flickinger,
+and Stephan Oepen, with input and feedback from, among others, Francis
+Bond, Ann Copestake, and Alex Lascarides.</p>
+
+<h1 id="how-to-cite-this-work">How to Cite this Work</h1>
+
+<ul>
+  <li><a href="../ErgSemantics_HowToCite">How to Cite this Work</a></li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>Copestake, A., Flickinger, D., Pollard, C., &amp; Sag, I. A. (2005). Minimal
+Recursion Semantics. An introduction. Research on Language and
+Computation, 3(4), 281-332.</p>
+
+<p>Flickinger, D. (2000). On building a more efficient grammar by
+exploiting types. Natural Language Engineering, 6 (1), 15-28.</p>
+
+<p>Flickinger, D. (2011). Accuracy vs. robustness in grammar engineering.
+In E. M. Bender &amp; J. E. Arnold (Eds.), Language from a cognitive
+perspective: Grammar, usage, and processing (pp. 31-50). Stanford: CSLI
+Publications.</p>
+
+<p>Flickinger, D., Bender, E. M., &amp; Oepen, S. (2014). Towards an
+encyclopedia of compositional semantics: Documenting the interface of
+the english resource grammar. In N. Calzolari et al. (Eds.), Proceedings
+of the ninth international conference on language resources and
+evaluation (LREC’14) (pp. 875-881). Reykjavik, Iceland: European
+Language Resources Association (ELRA).</p>
+
+<p>Flickinger, D., Zhang, Y., &amp; Kordoni, V. (2012). <a href="../DeepBank">DeepBank</a>. A
+dynamically annotated treebank of the Wall Street Journal. In (p.
+85-96). Lisbon, Portugal: Edições Colibri.</p>
+
+<p>Oepen, S., Flickinger, D., Toutanova, K., &amp; Manning, C. D. (2004). LinGO
+Redwoods. A rich and dynamic treebank for HPSG. Research on Language and
+Computation, 2(4), 575-596.</p>
 
         
       </section>
