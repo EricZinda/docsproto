@@ -12,7 +12,8 @@ Figure out templates using Jekyll and see if they meet our needs
     - (done) Build script to generate sites
         - automatically copy files
         - Do link fixup
-        
+    - Build TOC properly
+    - 
 - Goal Build the current docs using the new process
 	- Do the build in a way that allows versioning
 	- Include all the current stuff

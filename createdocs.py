@@ -32,6 +32,7 @@ def convert_and_copy_doc(parser, src_file_path, dst_file_path):
 
     return links
 
+
 def convert_child(docpath, node):
     links = []
     if isinstance(node, Link):
@@ -56,13 +57,38 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
         sites_definition = json.loads(txtFile.read())
         links = []
         docs = []
+        tocs = {}
         for fileDefinition in sites_definition["Sites"]:
             src_file = os.path.join(src_root, fileDefinition["SrcDir"], fileDefinition["SrcFile"])
             dst_file = os.path.join(dst_root, fileDefinition["Site"], fileDefinition["SrcFile"])
             docs.append(dst_file)
             links += convert_and_copy_doc(parser, src_file, dst_file)
+            if fileDefinition["Site"] not in tocs:
+                tocs[fileDefinition["Site"]] = []
+            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": fileDefinition["SrcFile"]})
 
-    return docs, links
+    return docs, links, tocs
+
+
+def create_tocs(dst_root, tocs):
+    for site in tocs.items():
+        sections = {}
+        for entry in site[1]:
+            if entry["Section"] not in sections:
+                sections[entry["Section"]] = []
+            sections[entry["Section"]].append({"Name": entry["Page"], "Link": entry["Link"]})
+
+        toc_text = "toc:\n"
+        for section in sections.items():
+            toc_text += f'  - title: "{section[0]}"\n'
+            toc_text +=  '    children:\n'
+            for page in section[1]:
+                toc_text += f'      - title: "{page["Name"]}"\n'
+                toc_text += f'        url: "{page["Link"]}"\n'
+
+        navfile_path = os.path.join(dst_root, site[0], "_data", "navigation.yml")
+        with open(navfile_path, "a") as txtFile:
+            txtFile.write(toc_text)
 
 
 if __name__ == '__main__':
@@ -70,7 +96,8 @@ if __name__ == '__main__':
         src_root = sys.argv[1]
         dst_root = sys.argv[2]
         sites_definitions_path = sys.argv[3]
-        docs, links = create_sites_src(src_root, dst_root, sites_definitions_path)
+        docs, links, tocs = create_sites_src(src_root, dst_root, sites_definitions_path)
+        create_tocs(dst_root, tocs)
         print(docs)
         print(links)
 

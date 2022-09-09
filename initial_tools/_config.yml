@@ -25,7 +25,7 @@ defaults:
         - wide
 #        - layout--single
       sidebar:
-        nav: "foo"
+        nav: "toc"
   
   # _posts
   - scope:
