@@ -160,8 +160,8 @@ def find_broken_links(all_pages, all_links):
         local_path, local_path_parts = get_parts_for_local_link(link_data["Link"])
         if local_path is not None:
             # strip the "../" from the link since that is just a workaround
-            # if local_path_parts[0] == "..":
-            #     local_path = local_path_parts[-1]
+            if local_path_parts[0] == "..":
+                local_path = local_path_parts[-1]
             link_data["Link"] = local_path + ".md"
 
             # If a link is relative, see if it exists
@@ -192,6 +192,15 @@ if __name__ == '__main__':
 
         create_tocs(dst_root, tocs)
         proposed_fixes = propose_broken_links(all_pages, all_links)
+
+        print("\n\nPages:\n\n")
+        for item in all_pages:
+            print(f"{json.dumps(item)},")
+
+        print("\n\nAll Links:\n\n")
+        for item in all_links:
+            print(f"{json.dumps(item)},")
+
         print("\n\nBroken Links:\n\n")
         for item in proposed_fixes:
             # print(f"Referrer: {item['Referrer']}:")
