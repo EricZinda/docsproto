@@ -96,7 +96,7 @@ def create_tocs(dst_root, tocs):
         index_file_path = os.path.join(dst_root, site[0], "index.md")
         index_link = list(sections.items())[0][1][0]["Link"]
         with open(index_file_path, "a") as txtFile:
-            include_text = '{% include_relative {' + index_link + '} %}'
+            include_text = '{% include_relative ' + index_link + ' %}'
             txtFile.write(include_text)
 
 
