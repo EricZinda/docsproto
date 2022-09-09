@@ -185,7 +185,9 @@ if __name__ == '__main__':
         sites_definitions_path = sys.argv[3]
         all_pages, all_links, tocs, errors = create_sites_src(src_root, dst_root, sites_definitions_path)
         if len(errors) > 0:
-            print(f"Errors generating site:\n{errors}")
+            print(f"Errors generating site:\n")
+            for error in errors:
+                print(error)
             assert False
 
         create_tocs(dst_root, tocs)
