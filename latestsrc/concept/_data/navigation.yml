@@ -95,6 +95,10 @@ toc:
         url: "ErgSemantics_Discovery"
       - title: "Matrix MRS Test Suite"
         url: "MatrixMrsTestSuite"
+  - title: "Discussions"
+    children:
+      - title: "Saarland Sentential Argument"
+        url: "SaarlandSententialArgument"
   - title: "Housekeeping"
     children:
       - title: "Raw Materials"
