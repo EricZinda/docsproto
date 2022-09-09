@@ -82,11 +82,13 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
             path = get_site_relative_page_link_from_src(file_site, fileDefinition["SrcFile"])
             docs[file_site][path] = copy.deepcopy(fileDefinition)
 
-            links += convert_and_copy_doc(parser, fileDefinition, src_file, dst_file)
-            if fileDefinition["Site"] not in tocs:
-                tocs[fileDefinition["Site"]] = []
-            site_relative_link = get_site_relative_page_link_from_src(fileDefinition["Site"], fileDefinition["SrcFile"])
-            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
+            if fileDefinition["Section"] != "<todo>":
+                links += convert_and_copy_doc(parser, fileDefinition, src_file, dst_file)
+
+                if fileDefinition["Site"] not in tocs:
+                    tocs[fileDefinition["Site"]] = []
+                site_relative_link = get_site_relative_page_link_from_src(fileDefinition["Site"], fileDefinition["SrcFile"])
+                tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
     return docs, links, tocs
 
@@ -153,7 +155,7 @@ def find_broken_links(all_pages, all_links):
             # strip the "../" from the link since that is just a workaround
             if local_path_parts[0] == "..":
                 local_path = local_path_parts[-1]
-                link_data["Link"] = local_path
+                link_data["Link"] = local_path + ".md"
 
             # If a link is relative, see if it exists
             link_site_pages = all_pages[link_data["Site"]]

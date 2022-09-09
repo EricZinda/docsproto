@@ -7,28 +7,76 @@
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics","SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRfc"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRfc.md"},
 
-    {"Site": "concept", "Section": "Inventory", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Compounding", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Compounding"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Conditionals", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conditionals"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Control Relations", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ControlRelations"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Coordination", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Coordination"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Nominalization", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Nominalization"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Partitives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Partitives"},
-    {"Site": "concept", "Section": "Inventory", "Page": "Implicit Quantifiers", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ImplicitQuantifiers"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Compounding", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Compounding.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Conditionals", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conditionals.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Control Relations", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ControlRelations.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Coordination", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Coordination.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Nominalization", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Nominalization.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Partitives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Partitives.md"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Implicit Quantifiers", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ImplicitQuantifiers.md"},
 
-    {"Site": "concept", "Section": "Erg Usage", "Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing"},
-    {"Site": "concept", "Section": "Erg Usage", "Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface"},
+    {"Site": "concept", "Section": "Erg Usage", "Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md"},
+    {"Site": "concept", "Section": "Erg Usage", "Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
 
-    {"Site": "concept", "Section": "Projects", "Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop"},
-    {"Site": "concept", "Section": "Projects", "Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank"},
-    {"Site": "concept", "Section": "Projects", "Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery"},
-    {"Site": "concept", "Section": "Projects", "Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite"},
+    {"Site": "concept", "Section": "Projects", "Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
+    {"Site": "concept", "Section": "Projects", "Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
+    {"Site": "concept", "Section": "Projects", "Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
+    {"Site": "concept", "Section": "Projects", "Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
+
 
     {"Site": "tools", "Section": "Tools", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
-    {"Site": "tools", "Section": "Tools", "Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"}
+
+    {"Site": "tools", "Section": "Grammar Environments", "Page": "Pet", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
+    {"Site": "tools", "Section": "Grammar Environments", "Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
+    {"Site": "tools", "Section": "Grammar Environments", "Page": "LKB Installation", "SrcDir": "docswiki", "SrcFile": "LkbInstallation.md"},
+    {"Site": "tools", "Section": "Grammar Environments", "Page": "LKB Fully Open Source", "SrcDir": "docswiki", "SrcFile": "LkbFos.md"},
+    {"Site": "tools", "Section": "Grammar Environments", "Page": "LKB Macintosh", "SrcDir": "docswiki", "SrcFile": "LkbMacintosh.md"},
+
+    {"Site": "tools", "Section": "Grammar Environments", "Page": "Grammar Matrix Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
+
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "Erroneous Generation Analysis and Detection", "SrcDir": "docswiki", "SrcFile": "EgadTop.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "gDelta", "SrcDir": "docswiki", "SrcFile": "GDeltaTop.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "Grammar Spring Cleaning", "SrcDir": "docswiki", "SrcFile": "SpringCleaningTop.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
+
+    {"Site": "tools", "Section": "Parsing and Generation", "Page": "Ace", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
+    {"Site": "tools", "Section": "Parsing and Generation", "Page": "Delphin Tools", "SrcDir": "docswiki", "SrcFile": "DelphinTools.md"},
+    {"Site": "tools", "Section": "Parsing and Generation", "Page": "VistaExtractionTop", "SrcDir": "docswiki", "SrcFile": "VistaExtractionTop.md"},
+    {"Site": "tools", "Section": "Parsing and Generation", "Page": "Regular Expression Pre-Processor", "SrcDir": "docswiki", "SrcFile": "ReppTop.md"},
+
+    {"Site": "tools", "Section": "Misc", "Page": "Heart of Gold", "SrcDir": "docswiki", "SrcFile": "HeartofgoldTop.md"},
+
+
+    {"Site": "tools", "Section": "Logon", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Pet", "SrcDir": "docswiki", "SrcFile": "LogonPet.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Extras", "SrcDir": "docswiki", "SrcFile": "LogonExtras.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Installation", "SrcDir": "docswiki", "SrcFile": "LogonInstallation.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Reports", "SrcDir": "docswiki", "SrcFile": "LogonReports.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Processing", "SrcDir": "docswiki", "SrcFile": "LogonProcessing.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Modeling", "SrcDir": "docswiki", "SrcFile": "LogonModeling.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Online", "SrcDir": "docswiki", "SrcFile": "LogonOnline.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Transfer", "SrcDir": "docswiki", "SrcFile": "LogonTransfer.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Idiosyncrasies", "SrcDir": "docswiki", "SrcFile": "LogonIdiosyncrasies.md"},
+    {"Site": "tools", "Section": "Logon", "Page": "Wishlist", "SrcDir": "docswiki", "SrcFile": "LogonWishlist.md"},
+
+
+    {"Site": "tools", "Section": "<todo>", "Page": "RichardBergmair", "SrcDir": "docswiki", "SrcFile": "RichardBergmair.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "BillMcNeill", "SrcDir": "docswiki", "SrcFile": "BillMcNeill.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "GlennSlayden", "SrcDir": "docswiki", "SrcFile": "GlennSlayden.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "JohnCarroll", "SrcDir": "docswiki", "SrcFile": "JohnCarroll.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "AngelinaIvanova", "SrcDir": "docswiki", "SrcFile": "AngelinaIvanova.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "MichaelGoodman", "SrcDir": "docswiki", "SrcFile": "MichaelGoodman.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "NedLetcher", "SrcDir": "docswiki", "SrcFile": "NedLetcher.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "AntskeFokkens", "SrcDir": "docswiki", "SrcFile": "AntskeFokkens.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "JoaoSilva", "SrcDir": "docswiki", "SrcFile": "JoaoSilva.md"},
+    {"Site": "tools", "Section": "<todo>", "Page": "WoodleyPackard", "SrcDir": "docswiki", "SrcFile": "/WoodleyPackard.md"}
   ]
 }
