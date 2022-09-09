@@ -160,9 +160,9 @@ def find_broken_links(all_pages, all_links):
         local_path, local_path_parts = get_parts_for_local_link(link_data["Link"])
         if local_path is not None:
             # strip the "../" from the link since that is just a workaround
-            if local_path_parts[0] == "..":
-                local_path = local_path_parts[-1]
-                link_data["Link"] = local_path + ".md"
+            # if local_path_parts[0] == "..":
+            #     local_path = local_path_parts[-1]
+            link_data["Link"] = local_path + ".md"
 
             # If a link is relative, see if it exists
             link_site_pages = all_pages[link_data["Site"]]
