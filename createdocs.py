@@ -78,7 +78,7 @@ def create_tocs(dst_root, tocs):
                 sections[entry["Section"]] = []
             sections[entry["Section"]].append({"Name": entry["Page"], "Link": entry["Link"]})
 
-        # index_link = sections.items()[1][0]["Link"]
+        # Build the TOC text
         toc_text = "toc:\n"
         for section in sections.items():
             toc_text += f'  - title: "{section[0]}"\n'
@@ -87,9 +87,17 @@ def create_tocs(dst_root, tocs):
                 toc_text += f'      - title: "{page["Name"]}"\n'
                 toc_text += f'        url: "{page["Link"]}"\n'
 
+        # Write it to the navigation file
         navfile_path = os.path.join(dst_root, site[0], "_data", "navigation.yml")
         with open(navfile_path, "a") as txtFile:
             txtFile.write(toc_text)
+
+        # Make the index file have the contents of the first item in the index
+        index_file_path = os.path.join(dst_root, site[0], "index.md")
+        index_link = list(sections.items())[0][1][0]["Link"]
+        with open(index_file_path, "a") as txtFile:
+            include_text = '{% include_relative {' + index_link + '} %}'
+            txtFile.write(include_text)
 
 
 if __name__ == '__main__':
