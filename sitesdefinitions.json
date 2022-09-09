@@ -8,8 +8,8 @@
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics","SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md"},
 
     {"Site": "concept", "Section": "Inventory", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
     {"Site": "concept", "Section": "Inventory", "Page": "Compounding", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Compounding.md"},
@@ -20,13 +20,13 @@
     {"Site": "concept", "Section": "Inventory", "Page": "Partitives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Partitives.md"},
     {"Site": "concept", "Section": "Inventory", "Page": "Implicit Quantifiers", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ImplicitQuantifiers.md"},
 
-    {"Site": "concept", "Section": "Erg Usage", "Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md"},
+    {"Site": "concept", "Section": "Erg Usage", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md"},
     {"Site": "concept", "Section": "Erg Usage", "Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
 
     {"Site": "concept", "Section": "Projects", "Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
     {"Site": "concept", "Section": "Projects", "Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
-    {"Site": "concept", "Section": "Projects", "Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
-    {"Site": "concept", "Section": "Projects", "Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
+    {"Site": "concept", "Section": "Projects", "Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
+    {"Site": "concept", "Section": "Projects", "Page": "Matrix MRS Test Suite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
 
 
     {"Site": "tools", "Section": "Tools", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
