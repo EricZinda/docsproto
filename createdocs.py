@@ -177,6 +177,7 @@ if __name__ == '__main__':
         all_pages, all_links, tocs = create_sites_src(src_root, dst_root, sites_definitions_path)
         create_tocs(dst_root, tocs)
         proposed_fixes = propose_broken_links(all_pages, all_links)
+        print("\n\nBroken Links:\n\n")
         for item in proposed_fixes:
             print(f"{json.dumps(item)},")
 

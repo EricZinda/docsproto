@@ -7,6 +7,27 @@
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics","SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite"},
+    {"Site": "concept", "Section": "Erg Semantics", "Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRfc"},
+
+    {"Site": "concept", "Section": "Inventory", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Compounding", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Compounding"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Conditionals", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conditionals"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Control Relations", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ControlRelations"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Coordination", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Coordination"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Nominalization", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Nominalization"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Partitives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Partitives"},
+    {"Site": "concept", "Section": "Inventory", "Page": "Implicit Quantifiers", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_ImplicitQuantifiers"},
+
+    {"Site": "concept", "Section": "Erg Usage", "Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing"},
+    {"Site": "concept", "Section": "Erg Usage", "Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface"},
+
+    {"Site": "concept", "Section": "Projects", "Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop"},
+    {"Site": "concept", "Section": "Projects", "Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank"},
+    {"Site": "concept", "Section": "Projects", "Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery"},
+    {"Site": "concept", "Section": "Projects", "Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite"},
+
     {"Site": "tools", "Section": "Tools", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
     {"Site": "tools", "Section": "Tools", "Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"}
   ]
