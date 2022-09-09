@@ -23,7 +23,10 @@ def convert_and_copy_doc(parser, file_definition, src_file_path, dst_file_path):
 
         with open(dst_file_path, "w") as txtFile:
             final_result = parser.render(result)
+            # wrap all markdown with raw/endraw so that Jekyll won't interpret {{ as being a Jekyll liquid expression
+            txtFile.write("{% raw %}")
             txtFile.write(final_result)
+            txtFile.write("{% endraw %}")
             print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
 
     else:
