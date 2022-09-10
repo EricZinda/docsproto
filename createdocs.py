@@ -269,6 +269,7 @@ if __name__ == '__main__':
 
     else:
         print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
+        assert False
 
     # parser = Markdown(Parser, MarkdownRenderer)
     # parser.use(GFM)
