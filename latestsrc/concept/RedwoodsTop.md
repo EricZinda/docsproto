@@ -145,7 +145,7 @@ actually benefit experimentation.
 # Expanding and Exporting
 
 Assuming a functional installation of the LKB, ERG, and \[incr tsdb()\]
-(see the [LogonInstallation](https://https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page, for details), the
+(see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page, for details), the
 process of exporting all or parts of the Redwoods Treebank into a
 collection of plain text files can be fully automated by virtue of a
 shell script. For (somewhat terse, sadly) instructions on exporting

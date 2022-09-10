@@ -5,7 +5,7 @@ grammars within the .NET and Mono managed runtime environments.**
 
 [UW CLMS](http://www.compling.uw.edu/) thesis work of *[GlennSlayden](../GlennSlayden)*.<br/>
 &nbsp; &nbsp; M.S. and Ph.C. advisor *[EmilyBender](../EmilyBender)*.<br/>
-&nbsp; &nbsp; Thesis reader *[StephanOepen](https://https://blog.inductorsoftware.com/docsproto/concept/StephanOepen)*.<br/>
+&nbsp; &nbsp; Thesis reader *[StephanOepen](https://blog.inductorsoftware.com/docsproto/concept/StephanOepen)*.<br/>
 &nbsp; &nbsp; *Spencer Rarrick* helped with MaxEnt parse selection, generation, and testing with [Jacy](JacyTop).<br/>
 
 citation:<br>

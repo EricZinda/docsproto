@@ -29,7 +29,7 @@ for support.
 
 For Linux users, the most straightforward way of installing the full
 DELPH-IN toolchain is through the so-called LOGON distribution (see the
-pages [LogonTop](https://https://blog.inductorsoftware.com/docsproto/tools/LogonTop) and [LogonInstallation](https://https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)
+pages [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) and [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)
 for background). On any reasonably recent Linux distribution (running on
 32- or 64-bit x86 derivatives, where 32-bit compatibility libraries need
 to be available on natively 64-bit environments), do the following (note
@@ -54,7 +54,7 @@ interface.
 
 For the full functionality of the LOGON tree, there is a certain amount
 of first-time configuration, documented as Step (1) on the
-[LogonInstallation](https://https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page. However, to merely parse a
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page. However, to merely parse a
 sequence of sentences, it should work to directly move on to just
 running the system, from the command line:
 
@@ -138,7 +138,7 @@ is available as a separate
 
 If you like what you are seeing, it is probably about time to read more
 about the ERG and DELPH-IN technology, for example starting from the
-[ErgTop](ErgTop) and [LogonTop](https://https://blog.inductorsoftware.com/docsproto/tools/LogonTop) pages on this wiki, maybe
+[ErgTop](ErgTop) and [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) pages on this wiki, maybe
 perusing our [mailing list archives](http://lists.delph-in.net), or
 preparing a grant application or donation to work with us on improving
 the grammar and tools. There are numerous ways of running the toolchain
@@ -179,7 +179,7 @@ light-weight software installation and make available both a
 command-line and programmatic interface.
 
 For instructions on how to obtain and run ACE, including pre-compiled
-snapshots of recent ERG releases, please see the [AceTop](https://https://blog.inductorsoftware.com/docsproto/tools/AceTop) page.
+snapshots of recent ERG releases, please see the [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) page.
 
 For some advice on using options to improve the utility of the ERG with
 ACE, please see the [AceErgTuning](AceErgTuning) page.
