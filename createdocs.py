@@ -1,6 +1,7 @@
 import copy
 import json
 import os
+import posixpath
 import shutil
 import sys
 import urllib.parse
@@ -14,12 +15,12 @@ from marko.renderer import Renderer
 from marko.inline import Link
 
 
-def convert_and_copy_doc(parser, file_definition, src_file_path, dst_file_path):
+def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
     if file_extension.lower() == ".md":
         with open(src_file_path, "r") as txtFile:
             result = parser.parse(txtFile.read())
-            links = convert_child(file_definition, result)
+            links = convert_child(sites_definitions, file_definition, result)
 
         with open(dst_file_path, "w") as txtFile:
             final_result = parser.render(result)
@@ -37,26 +38,73 @@ def convert_and_copy_doc(parser, file_definition, src_file_path, dst_file_path):
     return links
 
 
-def convert_child(file_definition, node):
+def convert_child(sites_definitions, file_definition, node):
     links = []
     if isinstance(node, Link):
         _, parts = get_parts_for_local_link(node.dest)
         link_data = copy.deepcopy(file_definition)
         link_data["Link"] = node.dest
+        if parts is not None:
+            node.dest = get_markdown_link_to_relative_target(sites_definitions, file_definition["Site"], file_definition["SrcDir"], node.dest)
+
+        link_data["ResolvedLink"] = node.dest
         link_data["LinkParts"] = parts
         links.append(link_data)
-        if parts is not None:
-            if len(parts) == 1 and parts[0] != "":
-                node.dest = "../" + node.dest
 
     elif hasattr(node, "children"):
         for child in node.children:
-            links += convert_child(file_definition, child)
+            links += convert_child(sites_definitions, file_definition, child)
 
     return links
 
 
-def get_site_relative_page_link_from_src(site, src_file):
+# if a source markdown file has a link like: [this is a link](targetaddress)
+# "targetaddress" might be included in the same site OR it might be in a different site
+# This function returns the right link that should be embedded in the markdown file
+#
+# Algorithm:
+# The "identity" of a file is a combination of src_dir + src_file because that represents a file in a
+# repository (and the repository has been cloned into a source directory: src_dir).  There can be only one of these.
+# There is a relative URL for it that other things in the same site can use
+# There is an absolute URL for it that anyone can use.
+#
+# If a different file has a relative md link to something it could be to
+# - "targetaddress.md": it is definitely a markdown file, the easy case
+# or
+# - "targetaddress": it *might* be a markdown file, or it could be something else
+#
+# Since the markdown file lives in a repository, and the link is *relative*
+# the md link must be to a file in that repository
+#
+# That gives us enough information to determine the identity of the file, and with that we can determine what
+# the link *should be* in the new site layout.
+def get_markdown_link_to_relative_target(sites_definitions, src_site, src_dir, relative_md_link):
+    # First convert relative_md_link to have an .md extension if it doesn't have an extension
+    # otherwise leave it
+    file_name, file_extension = os.path.splitext(relative_md_link)
+    if file_extension.lower() == "":
+        # Assume it was a markdown file
+        target_file = relative_md_link + ".md"
+    else:
+        target_file = relative_md_link
+
+    # Now we know the identity of the file since it is a relative link and we have a filename AND a src_dir
+    # See if we can find that definition
+    for definition in sites_definitions:
+        if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
+            # Found it! Now return a relative link if it is in the same site or a full link if not
+            if definition["Site"] == src_site:
+                # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
+                # which is thus one level too deep
+                return "../" + definition["RootRelativeLink"]
+            else:
+                return definition["AbsoluteLink"]
+
+    # Nothing was found meaning it was a broken link, just return the original
+    return relative_md_link
+
+
+def get_site_relative_page_link(site, src_file):
     # if it is an md file, just strip the extension to make a relative link to the site root
     file_name, file_extension = os.path.splitext(src_file)
     if file_extension.lower() == ".md":
@@ -65,12 +113,22 @@ def get_site_relative_page_link_from_src(site, src_file):
         return src_file
 
 
-# Given a definition file that contains all the site defininitions create the latestsrc folder structure
+def add_addresses_for_definitions(root_address, sites_definitions):
+    for definition in sites_definitions:
+        file_name, file_extension = os.path.splitext(definition["SrcFile"])
+        definition["RootRelativeLink"] = file_name
+        site_root = posixpath.join(root_address, definition["Site"])
+        definition["AbsoluteLink"] = posixpath.join(site_root, file_name)
+
+
+# Given a definition file that contains all the site definitions create the latestsrc folder structure
 # We do it all at once so we can check for broken links
-def create_sites_src(src_root, dst_root, sites_definitions_path):
+def create_sites_src(root_address, src_root, dst_root, sites_definitions_path):
     parser = Markdown(Parser, MarkdownRenderer)
     with open(sites_definitions_path, "r") as txtFile:
         sites_definition = json.loads(txtFile.read())
+        add_addresses_for_definitions(root_address, sites_definition["Sites"])
+
         errors = []
         links = []
         docs = {}
@@ -83,18 +141,18 @@ def create_sites_src(src_root, dst_root, sites_definitions_path):
             file_site = fileDefinition["Site"]
             if fileDefinition["Site"] not in docs:
                 docs[file_site] = {}
-            path_lower = get_site_relative_page_link_from_src(file_site, fileDefinition["SrcFile"]).lower()
+            path_lower = get_site_relative_page_link(file_site, fileDefinition["SrcFile"]).lower()
             docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
 
             if fileDefinition["Section"] != "<todo>":
                 try:
-                    links += convert_and_copy_doc(parser, fileDefinition, src_file, dst_file)
+                    links += convert_and_copy_doc(sites_definition["Sites"], parser, fileDefinition, src_file, dst_file)
                 except Exception as error:
                     errors.append({"Definition": fileDefinition, "Error": str(error)})
 
                 if fileDefinition["Site"] not in tocs:
                     tocs[fileDefinition["Site"]] = []
-                site_relative_link = get_site_relative_page_link_from_src(fileDefinition["Site"], fileDefinition["SrcFile"])
+                site_relative_link = get_site_relative_page_link(fileDefinition["Site"], fileDefinition["SrcFile"])
                 tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
     return docs, links, tocs, errors
@@ -179,11 +237,12 @@ def find_broken_links(all_pages, all_links):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 4:
-        src_root = sys.argv[1]
-        dst_root = sys.argv[2]
-        sites_definitions_path = sys.argv[3]
-        all_pages, all_links, tocs, errors = create_sites_src(src_root, dst_root, sites_definitions_path)
+    if len(sys.argv) == 5:
+        root_address = sys.argv[1]
+        src_root = sys.argv[2]
+        dst_root = sys.argv[3]
+        sites_definitions_path = sys.argv[4]
+        all_pages, all_links, tocs, errors = create_sites_src(root_address, src_root, dst_root, sites_definitions_path)
         if len(errors) > 0:
             print(f"Errors generating site:\n")
             for error in errors:
@@ -194,8 +253,9 @@ if __name__ == '__main__':
         proposed_fixes = propose_broken_links(all_pages, all_links)
 
         print("\n\nPages:\n\n")
-        for item in all_pages:
-            print(f"{json.dumps(item)},")
+        for item in all_pages.items():
+            for subitem in item[1].items():
+                print(f"{json.dumps(subitem)},")
 
         print("\n\nAll Links:\n\n")
         for item in all_links:
@@ -208,7 +268,7 @@ if __name__ == '__main__':
             print(f"{json.dumps(item)},")
 
     else:
-        print("Error: Requires 3 arguments: 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
+        print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
 
     # parser = Markdown(Parser, MarkdownRenderer)
     # parser.use(GFM)

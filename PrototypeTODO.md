@@ -12,13 +12,20 @@ Figure out templates using Jekyll and see if they meet our needs
     - (done) Build script to generate sites
         - automatically copy files
         - Do link fixup
-    - Build TOC properly
+    - (done) Build TOC properly
       - It doesn't link properly if you click on it.  Need to strip ".md"? 
     - Some images are broken
       - Github camo is used: https://github.com/atmos/camo by default in WIKI, this doesn't happen on github pages
       - https://github.blog/2014-01-28-proxying-user-images/
       - https://github.com/sionide21/camo-client
-    
+    - Some links are broken
+      - it is because it is a page in Conceptual linking to a tools page
+      - need to support cross site links
+        - Fix these bugs:
+          - Look through all the ResolvedLinks and see if they make sense
+            - There are many that use the format "#ArgumentIdentification" or "ErgSemantics_Design#non-scopal-modification"
+            - Link": "/WoodleyPackard.md", "ResolvedLink": "/WoodleyPackard"
+              - handle "/"
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning
     - Include all the current stuff
