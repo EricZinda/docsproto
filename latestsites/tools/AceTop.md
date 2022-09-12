@@ -1,7 +1,7 @@
 {% raw %}
 ACE (the Answer Constraint Engine) is a processor for DELPH-IN grammars,
 supporting both parsing and generation. ACE was written by and is
-maintained by [WoodleyPackard](..//WoodleyPackard), and is distributed as
+maintained by [WoodleyPackard](/WoodleyPackard), and is distributed as
 free software under the MIT license. This page serves to link to the
 following pages:
 
