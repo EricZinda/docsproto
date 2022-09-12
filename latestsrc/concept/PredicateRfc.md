@@ -78,7 +78,7 @@ Both surface and abstract predicates can be specified as a grammar
 **type** or as a quoted **string**. Grammar-type predicates are defined
 somewhere in the grammar, perhaps in a type hierarchy (also see
 [Limitations and
-Conventions](PredicateRfc#limitations-and-conventions), above). A
+Conventions](../PredicateRfc#limitations-and-conventions), above). A
 predicate type-hierarchy means that predicates used in an MRS may unify
 with other predicates (e.g., via underspecification or a common
 subtype). Preds specified as a string are atomic types that do not exist
@@ -144,7 +144,7 @@ are ignored. Therefore the following predicates are equivalent:
     "_dog_n_1_rel"
 
 Furthermore, a surface predicate and its corresponding decomposed "real"
-pred (see the [Real vs Surface](PredicateRfc#serialization-real-vs-surface) section
+pred (see the [Real vs Surface](../PredicateRfc#serialization-real-vs-surface) section
 above) are equivalent:
 
     _dog_n_1

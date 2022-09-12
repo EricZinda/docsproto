@@ -12,10 +12,10 @@ pedantic and conservative in making (non-trivial) revisions.
 To parse running text using the ERG, a number of tools are required.
 Basically, there are three possible paths towards a software environment
 supporting the ERG: (a) a [‘full-blown’ DELPH-IN distribution
-for](#logon) Linux; (b) [the stand-alone ACE or PET
-parsers](#standalone), which can be compiled in various
+for](../ErgProcessing#logon) Linux; (b) [the stand-alone ACE or PET
+parsers](../ErgProcessing#standalone), which can be compiled in various
 operating environments; and (c) a ‘thin’, portable client against the
-[RESTful on-line interface](#restful). Each of these
+[RESTful on-line interface](../ErgProcessing#restful). Each of these
 choices has distinct advantages and limitations—discussed briefly in the
 individual sections below. All three are regularly used and, thus,
 ‘suported’ by the ERG developers, who will be happy to try and assist

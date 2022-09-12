@@ -20,26 +20,26 @@ Report \# 2007-11.
 
 Contents
 
-1. [Overview](#Overview)
-1. [Table of Contents](#Table_of_Contents)
-1. [Basic Structure](#Basic_Structure)
+1. [Overview](../LogonTransfer#Overview)
+1. [Table of Contents](../LogonTransfer#Table_of_Contents)
+1. [Basic Structure](../LogonTransfer#Basic_Structure)
 1. [An example transfer rule (from
-JaEn)](#An_example_transfer_rule_.28from_JaEn.29)
-   1. [Regular Expressions](#Regular_Expressions)
-   1. [Optional Rules](#Optional_Rules)
-1. [Interlingua](#Interlingua)
-1. [Trouble Shooting](#Trouble_Shooting)
-   1. [To ensure something is a noun](#To_ensure_something_is_a_noun)
-   1. [Limit the effort in transfer](#Limit_the_effort_in_transfer)
-1. [Loading the rules](#Loading_the_rules)
-1. [Setting up an MT system](#Setting_up_an_MT_system)
-1. [Other uses](#Other_uses)
-   1. [Clean Up (post parsing)](#Clean_Up_.28post_parsing.29)
-   1. [Fix Up (pre-generation)](#Fix_Up_.28pre-generation.29)
+JaEn)](../LogonTransfer#An_example_transfer_rule_.28from_JaEn.29)
+   1. [Regular Expressions](../LogonTransfer#Regular_Expressions)
+   1. [Optional Rules](../LogonTransfer#Optional_Rules)
+1. [Interlingua](../LogonTransfer#Interlingua)
+1. [Trouble Shooting](../LogonTransfer#Trouble_Shooting)
+   1. [To ensure something is a noun](../LogonTransfer#To_ensure_something_is_a_noun)
+   1. [Limit the effort in transfer](../LogonTransfer#Limit_the_effort_in_transfer)
+1. [Loading the rules](../LogonTransfer#Loading_the_rules)
+1. [Setting up an MT system](../LogonTransfer#Setting_up_an_MT_system)
+1. [Other uses](../LogonTransfer#Other_uses)
+   1. [Clean Up (post parsing)](../LogonTransfer#Clean_Up_.28post_parsing.29)
+   1. [Fix Up (pre-generation)](../LogonTransfer#Fix_Up_.28pre-generation.29)
    1. [Trigger Rules (for
-generation)](#Trigger_Rules_.28for_generation.29)
-   1. [Idiom Rules](#Idiom_Rules)
-   1. [Paraphrase Rules](#Paraphrase_Rules)
+generation)](../LogonTransfer#Trigger_Rules_.28for_generation.29)
+   1. [Idiom Rules](../LogonTransfer#Idiom_Rules)
+   1. [Paraphrase Rules](../LogonTransfer#Paraphrase_Rules)
 
 # Basic Structure
 

@@ -19,14 +19,14 @@ instructions.
 
 ## Contents
 
-1. [Installation](#Installation)
-1. [Features and Enhancements](#Features-and-Enhancements)
-1. [Practical Hints and Tips](#Practical-Hints-and-Tips)
-   1. [Text Entry](#Text-Entry)
-   1. [Fonts](#Fonts)
-   1. [Interface Size](#Interface-Size)
-   1. [Copying Text](#Copying-Text)
-1. [Problems](#Problems)
+1. [Installation](../LkbFos#Installation)
+1. [Features and Enhancements](../LkbFos#Features-and-Enhancements)
+1. [Practical Hints and Tips](../LkbFos#Practical-Hints-and-Tips)
+   1. [Text Entry](../LkbFos#Text-Entry)
+   1. [Fonts](../LkbFos#Fonts)
+   1. [Interface Size](../LkbFos#Interface-Size)
+   1. [Copying Text](../LkbFos#Copying-Text)
+1. [Problems](../LkbFos#Problems)
 
 ## Installation
 

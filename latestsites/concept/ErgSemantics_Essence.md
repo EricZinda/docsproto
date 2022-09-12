@@ -40,7 +40,7 @@ Predicate–argument structure is expressed in a collection of *n*-ary
 predications (or relations) linked together by (typed) variables. Thus,
 argument sharing across predicates will be captured through variable
 equality, as for example in [non-scopal
-modification](ErgSemantics_Design#non-scopal-modification), [control
+modification](../ErgSemantics_Design#non-scopal-modification), [control
 constructions](../ErgSemantics_ControlRelations), [coordinate
 structures](../ErgSemantics_Coordination), as illustrated in Example (1),
 as well as others (like relative clauses and certain types of
@@ -156,7 +156,7 @@ of (5a) may need revisiting.
 ERS makes explicit which parts of the linguistic signal express
 quantification and provides partially-specified information about the
 scope of quantifiers (and other ‘operator-like’ predications; see
-[below](#senses)). The representation is
+[below](../ErgSemantics_Essence#senses)). The representation is
 *underspecified* in the sense that we give just one ERS for the
 following type of examples, even though there are two readings,
 depending on the relative scope of the quantifiers:
@@ -238,7 +238,7 @@ page when it is available.</span>
 
 The second primary way in which English syntax places constraints on
 scope involves what we call scopal operators (see
-[ErgSemantics Basics](ErgSemantics_Basics#Convenience)). Here, we
+[ErgSemantics Basics](../ErgSemantics_Basics#Convenience)). Here, we
 illustrate this with *say*, *probably*, and *not*, all analyzed in ERS
 as predications that take scopal (i.e. handle-valued) arguments. Their
 scope relative to each other (and to the main predication with which
@@ -460,7 +460,7 @@ grammar does not constrain because they concern only atoms within the
 composition. Two prominent examples are fine-grained word sense
 distinctions and named entity types. Regarding the former, ERS only
 marks those sense distinctions that are morphosyntactically marked (as
-described [above](#ArgumentIdentification)). Since
+described [above](../ErgSemantics_Essence#ArgumentIdentification)). Since
 further sense distinctions could never be disambiguated based on
 grammatical structure alone, ERS instead provides predicate symbols
 intended to be underspecified representations of a range of more

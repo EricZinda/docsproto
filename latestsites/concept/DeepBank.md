@@ -9,14 +9,14 @@ site](http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e00
 
 Contents
 
-1. [DeepBank](#DeepBank)
-   1. [Background](#Background)
-   1. [Development Methodology](#Development_Methodology)
-   1. [Stages of Development](#Stages_of_Development)
+1. [DeepBank](../DeepBank#DeepBank)
+   1. [Background](../DeepBank#Background)
+   1. [Development Methodology](../DeepBank#Development_Methodology)
+   1. [Stages of Development](../DeepBank#Stages_of_Development)
    1. [Version 1.0: Available
-Formats](#Version_1.0:_Available_Formats)
-   1. [Acknowledgements](#Acknowledgements)
-   1. [Publications](#Publications)
+Formats](../DeepBank#Version_1.0:_Available_Formats)
+   1. [Acknowledgements](../DeepBank#Acknowledgements)
+   1. [Publications](../DeepBank#Publications)
 
 <a name="Background"/>
 

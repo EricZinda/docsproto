@@ -22,21 +22,21 @@ address for the LKB (and other LinGO resources): lingo@delph-in.net.
 
 **Table of Contents**
 
-- [Overview](#overview)
-- [Supported Hard- and Software Platforms](#supported-hard--and-software-platforms)
-- [Automated Installation](#automated-installation)
-- [Which Version to Use: Stable vs. Latest](#which-version-to-use-stable-vs-latest)
-- [Manual Installation](#manual-installation)
-- [First-Time Use](#first-time-use)
-  - [Directory for LKB Temporary Files](#directory-for-lkb-temporary-files)
-- [Virtual Machine Image](#virtual-machine-image)
-- [Development and Supported Lisp Environments](#development-and-supported-lisp-environments)
-- [Further Pointers](#further-pointers)
-- [Trouble Shooting](#trouble-shooting)
-  - [amd64 Version](#amd64-version)
-  - [libXm.so.4](#libxmso4)
-  - [libXpm.so.4](#libxpmso4)
-  - [uming font problem](#uming-font-problem)
+- [Overview](../LkbInstallation#overview)
+- [Supported Hard- and Software Platforms](../LkbInstallation#supported-hard--and-software-platforms)
+- [Automated Installation](../LkbInstallation#automated-installation)
+- [Which Version to Use: Stable vs. Latest](../LkbInstallation#which-version-to-use-stable-vs-latest)
+- [Manual Installation](../LkbInstallation#manual-installation)
+- [First-Time Use](../LkbInstallation#first-time-use)
+  - [Directory for LKB Temporary Files](../LkbInstallation#directory-for-lkb-temporary-files)
+- [Virtual Machine Image](../LkbInstallation#virtual-machine-image)
+- [Development and Supported Lisp Environments](../LkbInstallation#development-and-supported-lisp-environments)
+- [Further Pointers](../LkbInstallation#further-pointers)
+- [Trouble Shooting](../LkbInstallation#trouble-shooting)
+  - [amd64 Version](../LkbInstallation#amd64-version)
+  - [libXm.so.4](../LkbInstallation#libxmso4)
+  - [libXpm.so.4](../LkbInstallation#libxpmso4)
+  - [uming font problem](../LkbInstallation#uming-font-problem)
 
 <!-- markdown-toc end -->
 

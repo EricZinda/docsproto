@@ -10,16 +10,16 @@ treebank if it exists.
 
 Contents
 
-1. [Sample In Line Documentation](#Sample_In_Line_Documentation)
-   1. [Examples](#Examples)
-   1. [Names](#Names)
+1. [Sample In Line Documentation](../LkbLtdb#Sample_In_Line_Documentation)
+   1. [Examples](../LkbLtdb#Examples)
+   1. [Names](../LkbLtdb#Names)
 1. [Integration with FFTB and
-delphin-viz](#Integration_with_FFTB_and_delphin-viz)
-1. [Installation](#Installation)
-   1. [Setting up your server](#Setting_up_your_server)
-   1. [Tool Support](#Tool_Support)
-1. [References](#References)
-1. [To Do](#To_Do)
+delphin-viz](../LkbLtdb#Integration_with_FFTB_and_delphin-viz)
+1. [Installation](../LkbLtdb#Installation)
+   1. [Setting up your server](../LkbLtdb#Setting_up_your_server)
+   1. [Tool Support](../LkbLtdb#Tool_Support)
+1. [References](../LkbLtdb#References)
+1. [To Do](../LkbLtdb#To_Do)
 
 The minimal Linguistic Type Database offers the following:
 
