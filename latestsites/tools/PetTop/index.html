@@ -184,8 +184,6 @@
         
         <ul>
           
-            <li><a href="/docsproto/tools/PetTop">Pet</a></li>
-          
             <li><a href="/docsproto/tools/AgreeTop">Agree</a></li>
           
             <li><a href="/docsproto/tools/LkbInstallation">LKB Installation</a></li>
@@ -260,6 +258,24 @@
     
       <li>
         
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/PetTop">Pet</a></li>
+          
+            <li><a href="/docsproto/tools/PetInput">PetInput</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbDerivations">[incr tsdb()] Derivations</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
           <span class="nav__sub-title">Logon</span>
         
 
@@ -270,6 +286,8 @@
           
             <li><a href="/docsproto/tools/LogonPet">Pet</a></li>
           
+            <li><a href="/docsproto/tools/LogonAnswer">ACE</a></li>
+          
             <li><a href="/docsproto/tools/LogonExtras">Extras</a></li>
           
             <li><a href="/docsproto/tools/LogonInstallation">Installation</a></li>
@@ -277,6 +295,8 @@
             <li><a href="/docsproto/tools/LogonReports">Reports</a></li>
           
             <li><a href="/docsproto/tools/LogonProcessing">Processing</a></li>
+          
+            <li><a href="/docsproto/tools/LogonProcessing_BatchParsing">Batch Parsing</a></li>
           
             <li><a href="/docsproto/tools/LogonModeling">Modeling</a></li>
           
@@ -354,7 +374,7 @@ improvement in parsing efficiency for long inputs)</li>
 of (R)MRSs</li>
   <li>output of fragmentary analysis hypotheses in case of parse failures</li>
   <li>lattice input (via the YY, PIC and SMAF input formats, cf.
-<a href="PetInput">PetInput</a>)</li>
+<a href="../PetInput">PetInput</a>)</li>
   <li>a variety of XML-based input formats that generalize the
 lattice-oriented YY input mode</li>
   <li>pruning of the search space using a PCFG model</li>
@@ -443,7 +463,7 @@ customization of PET behavior to various tasks. Maybe the biggest factor
 of variation is in (a) how input to the cheap parser is prepared for
 PET-internal processing and in (b) what form analysis results are output
 (or returned to the caller) after parsing; these are discussed on
-separate <a href="PetInput">PetInput</a> and <a href="PetOutput">PetOutput</a> pages,
+separate <a href="../PetInput">PetInput</a> and <a href="PetOutput">PetOutput</a> pages,
 respectively. Many other aspects of PET run-time behavior can be
 controlled using command-line options (see the <a href="PetOptions">PetOptions</a>
 page), given to the flop or cheap binaries upon invocation, and

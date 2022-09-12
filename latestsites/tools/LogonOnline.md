@@ -43,7 +43,7 @@ so at least for external access you may have to talk to the IT crowd.
 
 The main web demo page is at the /logon subpath, so if you ran the above
 command on your local machine, the demo would be at
-<http://127.0.0.1:8888/logon> and the [web API](ErgApi) would be at
+<http://127.0.0.1:8888/logon> and the [web API](https://blog.inductorsoftware.com/docsproto/concept/ErgApi) would be at
 <http://127.0.0.1:8888/rest/0.9/parse>
 
 # Adding a Grammar

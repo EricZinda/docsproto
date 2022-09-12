@@ -96,7 +96,7 @@ command-line option must be supplied), e.g.
 
 This facility will be most useful (if at all), when running *cheap*
 through LOGON batch processing scripts; please see the
-[LogonProcessing/BatchParsing](LogonProcessing_BatchParsing) page, for
+[LogonProcessing/BatchParsing](../LogonProcessing_BatchParsing) page, for
 further discussion.
 
 # Implementation Notes

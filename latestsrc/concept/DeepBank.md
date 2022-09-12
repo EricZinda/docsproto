@@ -120,7 +120,7 @@ The public release (v1.0) of [DeepBank](../DeepBank) includes annotation in
 multiple formats. The combination of the raw [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) profiles with a corresponding
 version of the ERG enables automatic reconstruction of all detailed
-analyses. The HPSG [derivations](ItsdbDerivations) and the
+analyses. The HPSG [derivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations) and the
 [MRSes](MrsRfc) are recorded in these profiles and can be extracted
 directly.
 
