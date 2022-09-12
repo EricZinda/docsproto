@@ -1,7 +1,7 @@
 # ERS: High-Level Characterization
 
 In a nutshell, English Resource Semantics (ERS; see
-[ErgSemantics](../ErgSemantics)) captures *sentence meaning* in an abstract
+[ErgSemantics](ErgSemantics)) captures *sentence meaning* in an abstract
 representation that is compatible with logic-based approaches to natural
 language semantics. Here, we interpret ‘sentence meaning’ (in contrast
 to what is at times called ‘speaker’ or ‘occasion meaning’) as the
@@ -15,7 +15,7 @@ parsing and generation, because it abstracts from semantically
 irrelevant surface variation, is rich and detailed, yet avoids semantic
 distinctions that are not constrained by the grammar of English. For a
 semi-formal summary of the ERS meaning representation language, please
-see [ErgSemantics Basics](../ErgSemantics_Basics).
+see [ErgSemantics Basics](ErgSemantics_Basics).
 
 In the following sections, we walk through several core aspects (or
 ‘layers’) of ERS meaning representation, provide motivating examples and
@@ -33,23 +33,22 @@ predicate–argument structures go well beyond common target
 representations in semantic role labeling (SRL), in that ERS accounts
 for the contributions of *all* content words as well as those of
 syntactic *constructions* as for example
-[compounding](../ErgSemantics_Compounding) or
-[conditionals](../ErgSemantics_Conditionals).
+[compounding](ErgSemantics_Compounding) or
+[conditionals](ErgSemantics_Conditionals).
 
 Predicate–argument structure is expressed in a collection of *n*-ary
 predications (or relations) linked together by (typed) variables. Thus,
 argument sharing across predicates will be captured through variable
 equality, as for example in [non-scopal
 modification](ErgSemantics_Design#non-scopal-modification), [control
-constructions](../ErgSemantics_ControlRelations), [coordinate
-structures](../ErgSemantics_Coordination), as illustrated in Example (1),
+constructions](ErgSemantics_ControlRelations), [coordinate
+structures](ErgSemantics_Coordination), as illustrated in Example (1),
 as well as others (like relative clauses and certain types of
 comparatives):
 
       (1) The cheerful children wanted to sing and dance.
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" />
-
 
 In this example, the instance variable *x<sub>6</sub>* (highlighted in
 red) is the first argument of both the (semantics of the) attribute
@@ -83,7 +82,6 @@ of (language-specific) syntax.
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-gave-sandy-the-book.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-gave-sandy-the-book.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-gave-sandy-the-book.png" />
 
-
 Similar normalization effects are obtained for other constructions, for
 example in (3) and (4) below. Lexical knowledge in the ERG enables the
 distinction between so-called referential vs. expletive usages of some
@@ -102,7 +100,6 @@ the ERS (in red).
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/this-technique-is-impossible-to-apply.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/this-technique-is-impossible-to-apply.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/this-technique-is-impossible-to-apply.png" />
 
-
 Another frequent variation in syntactic structure that is normalized at
 the level of ERS pertains to what at times are called restrictive
 modifiers, which can take the form of pre- or post-nominal attributive
@@ -116,9 +113,7 @@ example:
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-barking-dog-scared-me.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-barking-dog-scared-me.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-barking-dog-scared-me.png" />
 
-
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png" />
-
 
 In the ERS analyses for (4a) through (4d), there will always be an
 instance of the \_bark\_v\_1 relation (albeit with different tense
@@ -162,7 +157,7 @@ following type of examples, even though there are two readings,
 depending on the relative scope of the quantifiers:
 
       (1) All dogs chased a cat.
-    
+
       (a) ∀x dog(x): ∃y cat(y): chase(x,y)
       (b) ∃y cat(y): ∀x dog(x): chase(x,y)
 
@@ -190,7 +185,6 @@ to the appropriate elementary predications.
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/all-funny-jokes-are-short.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/all-funny-jokes-are-short.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/all-funny-jokes-are-short.png" />
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/all-short-jokes-are-funny.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/all-short-jokes-are-funny.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/all-short-jokes-are-funny.png" />
 
-
 In fact, the handle topology is the only difference between these two
 ERSs: They are identical in predicate–argument structure but differ in
 scopal properties. In the semantics of (2a), *funny* and *joke* are
@@ -202,19 +196,19 @@ and *short* are reversed in the semantics for (2a).
 
 One well-formedness constraint in ERS is that every instance variable
 (i.e. every variable of type *x*; see
-[ErgSemantics/Basics](../ErgSemantics_Basics)) must be bound by a
+[ErgSemantics/Basics](ErgSemantics_Basics)) must be bound by a
 quantifier. Accordingly, ERSs provide quantifiers somewhat ‘generously’,
 one corresponding to each nominal expression in the surface signal, as
 well as additional quantifiers in case the semantic contribution of a
 construction introduces further *x*-type variables (such as
-[Coordination](../ErgSemantics_Coordination),
-[Nominalization](../ErgSemantics_Nominalization), or
-[Partitives](../ErgSemantics_Partitives)). Where there is an overt
+[Coordination](ErgSemantics_Coordination),
+[Nominalization](ErgSemantics_Nominalization), or
+[Partitives](ErgSemantics_Partitives)). Where there is an overt
 determiner (*all*, *none*, *the*, *a*, *this*, etc.) the quantifier will
 reflect the semantic contribution of that determiner. Where there is
 not, the quantifier will be one of a collection of abstract predicates,
 most frequently udef\_q (an underspecified quantifier). See the page on
-[Implicit Quantifiers](../ErgSemantics_ImplicitQuantifiers) for further
+[Implicit Quantifiers](ErgSemantics_ImplicitQuantifiers) for further
 details.
 
 Current NLP tasks rarely exercise the kind of inference enabled by the
@@ -225,7 +219,7 @@ importance (see also Steedman, 2012). For applications where some or all
 of the quantifiers provided by the ERS are not necessary, they can be
 easily identified and handled according to the needs of the application.
 A full inventory of the quantifier predicates provided by the grammar
-can be found in the [SEM-I](../ErgSemantics_Interface) (semantic
+can be found in the [SEM-I](ErgSemantics_Interface) (semantic
 interface). Note that certain elements sometimes treated as quantifiers
 in the literature (notably *many* and the semantic contribution of
 number names) are treated akin to the predicates introduced by
@@ -253,7 +247,6 @@ and neg, respectively.
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png" />
 
-
 By using =q constraints rather than direct handle equality, we leave
 open the possibility of quantifiers coming in between scopal operators
 and the elements they out-scope because of examples such as:
@@ -266,7 +259,6 @@ and the elements they out-scope because of examples such as:
 (2009).\]</span>
 
 <a name="ArgumentIdentification"/>
-
 
 # Predicates and Argument Identification
 
@@ -290,9 +282,7 @@ predication:
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-looked-up-the-answer.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-looked-up-the-answer.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-looked-up-the-answer.png" />
 
-
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-looked-up-the-chimney.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-looked-up-the-chimney.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-looked-up-the-chimney.png" />
-
 
 Similarly, the so-called causative–inchoative alternation gives rise to
 systematic predicate distinctions, corresponding to different usages of,
@@ -315,7 +305,6 @@ specific interpretations, this allows us to differentiate the ARG1 of
 
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-broke-the-window.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-broke-the-window.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/kim-broke-the-window.png" />
 <img src="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-window-broke.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-window-broke.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/essence/the-window-broke.png" />
-
 
 # Further ERS Contents
 
@@ -431,15 +420,20 @@ controlling the form of sentences generated from an ERS.
 
 # Future Work
 
-- Event types/Aktionsart
-- Presupposition
-- Discourse status
-- Scope islands
-- Restrictive v. non-restrictive modification (rarely grammatically
-constrained, but constrained in some cases)
-- Politeness <span class="comment" style="display:none">\[Probably not
-worth saying much about, since English doesn't really grammaticize
-this --EMB\]</span>
+-   Event types/Aktionsart
+
+-   Presupposition
+
+-   Discourse status
+
+-   Scope islands
+
+-   Restrictive v. non-restrictive modification (rarely grammatically
+    constrained, but constrained in some cases)
+
+-   Politeness <span class="comment" style="display:none">\[Probably not
+    worth saying much about, since English doesn't really grammaticize
+    this --EMB\]</span>
 
 # Extra-Grammatical Aspects of Meaning
 
@@ -451,7 +445,6 @@ interface for systems or projects annotating (manually or automatically)
 these additional layers. For more discussion, see Bender, et al., 2015.
 
 <a name="senses"/>
-
 
 ## Below the Level of Composition
 
@@ -484,23 +477,22 @@ more helpful than flat word strings.
 
 <img src="http://faculty.washington.edu/ebender/draw-draw.png" title="http://faculty.washington.edu/ebender/draw-draw.png" class="external_image" alt="http://faculty.washington.edu/ebender/draw-draw.png" />
 
-
 ## Never Grammatically Disambiguated
 
-- Distributive v. collective readings of coordination
-- Event quantification
+-   Distributive v. collective readings of coordination
+-   Event quantification
 
 ## Further Semantic Computation Required
 
-- Quantifier scope resolution
-- Coreference resolution
-- Focus of negation and other focus-sensitive operators
+-   Quantifier scope resolution
+-   Coreference resolution
+-   Focus of negation and other focus-sensitive operators
 
 ## Discourse Processing
 
-- Presupposition projection
-- Coherence relations/rhetorical structure
-- Discourse moves/adjacency pairs
+-   Presupposition projection
+-   Coherence relations/rhetorical structure
+-   Discourse moves/adjacency pairs
 
 # References
 

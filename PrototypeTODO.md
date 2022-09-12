@@ -20,11 +20,11 @@ Figure out templates using Jekyll and see if they meet our needs
       - https://github.com/sionide21/camo-client
     - Some links are broken
       - it is because it is a page in Conceptual linking to a tools page
-      - need to support cross site links
+      - (done) need to support cross site links
         - Fix these bugs:
           - Look through all the ResolvedLinks and see if they make sense
-            - There are many that use the format "#ArgumentIdentification" or "ErgSemantics_Design#non-scopal-modification"
-            - Link": "/WoodleyPackard.md", "ResolvedLink": "/WoodleyPackard"
+            - (fixed) There are many that use the format "#ArgumentIdentification" or "ErgSemantics_Design#non-scopal-modification"
+            - Link: "/WoodleyPackard.md", "ResolvedLink": "/WoodleyPackard"
               - handle "/"
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning

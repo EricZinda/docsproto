@@ -41,14 +41,15 @@ def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_pa
 def convert_child(sites_definitions, file_definition, node):
     links = []
     if isinstance(node, Link):
-        _, parts = get_parts_for_local_link(node.dest)
+        _, _, _, parts = parse_relative_link(file_definition["SrcFile"], node.dest)
         link_data = copy.deepcopy(file_definition)
         link_data["Link"] = node.dest
-        if parts is not None:
-            node.dest = get_markdown_link_to_relative_target(sites_definitions, file_definition["Site"], file_definition["SrcDir"], node.dest)
+        link_state, target_file, node.dest = get_markdown_link_to_relative_target(sites_definitions, file_definition, node.dest)
 
         link_data["ResolvedLink"] = node.dest
+        link_data["TargetFile"] = target_file
         link_data["LinkParts"] = parts
+        link_data["LinkState"] = link_state
         links.append(link_data)
 
     elif hasattr(node, "children"):
@@ -56,6 +57,37 @@ def convert_child(sites_definitions, file_definition, node):
             links += convert_child(sites_definitions, file_definition, child)
 
     return links
+
+
+# Format:
+# targetaddress could be in one of many forms:
+#   - foo
+#   - foo.md
+#   - foo#bar
+#   - #bar
+#   - /foo/goo#bar
+#
+# returns the path, query, fragment, and the separated segments of the path of a local link
+# returns None if this is not a local link
+def parse_relative_link(SrcFile, link):
+    split_url = urllib.parse.urlparse(link)
+    if split_url.scheme == "" and split_url.netloc == "":
+        # This is a local link
+        # If the link is on the same page, use the page as the path
+        if split_url.path == "":
+            file_name, _ = os.path.splitext(SrcFile)
+            path = file_name
+        else:
+            path = split_url.path
+
+        # Get rid of leading "/"
+        path_parts = split_url.path.split('/')
+        if path_parts[0] == "":
+            del(path_parts[0])
+
+        return path, split_url.query, split_url.fragment, path_parts
+    else:
+        return None, None, None, None
 
 
 # if a source markdown file has a link like: [this is a link](targetaddress)
@@ -78,30 +110,38 @@ def convert_child(sites_definitions, file_definition, node):
 #
 # That gives us enough information to determine the identity of the file, and with that we can determine what
 # the link *should be* in the new site layout.
-def get_markdown_link_to_relative_target(sites_definitions, src_site, src_dir, relative_md_link):
-    # First convert relative_md_link to have an .md extension if it doesn't have an extension
-    # otherwise leave it
-    file_name, file_extension = os.path.splitext(relative_md_link)
-    if file_extension.lower() == "":
-        # Assume it was a markdown file
-        target_file = relative_md_link + ".md"
+def get_markdown_link_to_relative_target(sites_definitions, file_definition, relative_md_link):
+    src_site = file_definition["Site"]
+    src_dir = file_definition["SrcDir"]
+
+    path, query, fragment, parts = parse_relative_link(file_definition["SrcFile"], relative_md_link)
+    if path is not None:
+        # First convert relative_md_link to have an .md extension if it doesn't have an extension
+        # otherwise leave it
+        file_name, file_extension = os.path.splitext(path)
+        if file_extension.lower() == "":
+            # Assume it was a markdown file
+            target_file = path + ".md"
+        else:
+            target_file = path
+
+        # Now we know the identity of the file since it is a relative link and we have a filename AND a src_dir
+        # See if we can find that definition
+        for definition in sites_definitions:
+            if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
+                # Found it! Now return a relative link if it is in the same site or a full link if not
+                if definition["Site"] == src_site:
+                    # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
+                    # which is thus one level too deep
+                    return "valid_relative", target_file, "../" + definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
+                else:
+                    return "valid_relative", target_file, definition["AbsoluteLink"]
+
+        return "invalid_relative", target_file, relative_md_link
+
     else:
-        target_file = relative_md_link
-
-    # Now we know the identity of the file since it is a relative link and we have a filename AND a src_dir
-    # See if we can find that definition
-    for definition in sites_definitions:
-        if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
-            # Found it! Now return a relative link if it is in the same site or a full link if not
-            if definition["Site"] == src_site:
-                # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
-                # which is thus one level too deep
-                return "../" + definition["RootRelativeLink"]
-            else:
-                return definition["AbsoluteLink"]
-
-    # Nothing was found meaning it was a broken link, just return the original
-    return relative_md_link
+        # non-relative link, just return the original
+        return "absolute", None, relative_md_link
 
 
 def get_site_relative_page_link(site, src_file):
@@ -128,6 +168,8 @@ def create_sites_src(root_address, src_root, dst_root, sites_definitions_path):
     with open(sites_definitions_path, "r") as txtFile:
         sites_definition = json.loads(txtFile.read())
         add_addresses_for_definitions(root_address, sites_definition["Sites"])
+
+        # get_markdown_link_to_relative_target(sites_definition["Sites"], sites_definition["Sites"][0], "ErgSemantics")
 
         errors = []
         links = []
@@ -188,52 +230,14 @@ def create_tocs(dst_root, tocs):
             txtFile.write(include_text)
 
 
-# returns the path and segments of a local link
-# returns None if this is not a local link
-def get_parts_for_local_link(link):
-    split_url = urllib.parse.urlsplit(link)
-    if split_url.scheme == "" and split_url.netloc == "" and split_url.query == "" and split_url.fragment == "":
-        return split_url.path, split_url.path.split('/')
-    else:
-        return None, None
-
-
-# Given the full set of links on all pages:
-# 1. Find the ones we think are broken
-# 2. Propose entries to sitedefinitions.json to fix them
-def propose_broken_links(all_pages, all_links):
-    broken_links = find_broken_links(all_pages, all_links)
+# Given the full set of links on all pages ropose entries to sitedefinitions.json to fix them
+def propose_broken_links(all_links):
     proposals = []
-    for linkItem in broken_links.items():
-        link = linkItem[1]
-        proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["Link"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}) # , "Debug": linkItem})
+    for link in all_links:
+        if link["LinkState"] == "invalid_relative":
+            proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}) # , "Debug": linkItem})
 
     return proposals
-
-
-# all_links includes the link that was found in ["Link"] along with the entire record from sitesdefinitions.json
-def find_broken_links(all_pages, all_links):
-    broken_links = {}
-    for link_data in all_links:
-        local_path, local_path_parts = get_parts_for_local_link(link_data["Link"])
-        if local_path is not None:
-            # strip the "../" from the link since that is just a workaround
-            if local_path_parts[0] == "..":
-                local_path = local_path_parts[-1]
-            link_data["Link"] = local_path + ".md"
-
-            # If a link is relative, see if it exists
-            link_site_pages = all_pages[link_data["Site"]]
-            if local_path.lower() not in link_site_pages:
-                # Check to ensure it is not already there
-                if link_data["Link"] not in broken_links:
-                    broken_links[link_data["Link"]] = link_data
-
-        else:
-            # TODO: If a link is to a fully qualified address, test to see if it works
-            pass
-
-    return broken_links
 
 
 if __name__ == '__main__':
@@ -250,7 +254,7 @@ if __name__ == '__main__':
             assert False
 
         create_tocs(dst_root, tocs)
-        proposed_fixes = propose_broken_links(all_pages, all_links)
+        proposed_fixes = propose_broken_links(all_links)
 
         print("\n\nPages:\n\n")
         for item in all_pages.items():
@@ -263,8 +267,6 @@ if __name__ == '__main__':
 
         print("\n\nBroken Links:\n\n")
         for item in proposed_fixes:
-            # print(f"Referrer: {item['Referrer']}:")
-            # item.pop("Referrer")
             print(f"{json.dumps(item)},")
 
     else:

@@ -116,7 +116,7 @@ page for background):
       named(Abrams)[ARG0 x]
 
 Conversely, in a popular serialization format for complete MRSs (the
-so-called *simple* MRS serialization; see the [MrsRfc](../MrsRfc) page),
+so-called *simple* MRS serialization; see the [MrsRfc](MrsRfc) page),
 parameters are interspersed with regular arguments, using the (strictly
 speaking ERG-specific) pseudo-role label CARG:
 
@@ -234,10 +234,12 @@ a scopal modifier.
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) main page
-- [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
-documented
-- [How to cite this work](../ErgSemantics_HowToCite)
+-   [ErgSemantics](ErgSemantics) main page
+
+-   [Inventory](ErgSemantics_Inventory) of semantic phenomena (to be)
+    documented
+
+-   [How to cite this work](ErgSemantics_HowToCite)
 
 # References
 
