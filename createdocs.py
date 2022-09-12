@@ -233,10 +233,12 @@ def create_tocs(dst_root, tocs):
 
 # Given the full set of links on all pages ropose entries to sitedefinitions.json to fix them
 def propose_broken_links(all_links):
-    proposals = []
+    proposals = {}
     for link in all_links:
         if link["LinkState"] == "invalid_relative":
-            proposals.append({"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}) # , "Debug": linkItem})
+            file_identity = link["SrcDir"] + "/" +  link["TargetFile"]
+            if file_identity not in proposals:
+                proposals[file_identity] = {"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'} # , "Debug": linkItem})
 
     return proposals
 
@@ -268,8 +270,8 @@ if __name__ == '__main__':
         proposed_fixes = propose_broken_links(all_links)
 
         print("\n\nBroken Links:\n\n")
-        for item in proposed_fixes:
-            print(f"{json.dumps(item)},")
+        for item in proposed_fixes.items():
+            print(f"{json.dumps(item[1])},")
 
     else:
         print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
