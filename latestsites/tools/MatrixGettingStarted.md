@@ -41,7 +41,7 @@ and filling out the customization system on the other.
 
 ## What other software do I need?
 
-You'll want the LKB ([LkbTop](LkbTop)) or ace ([AceTop](../AceTop)), a text
+You'll want the LKB ([LkbTop](../LkbTop)) or ace ([AceTop](../AceTop)), a text
 editor (preferably emacs), and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb). Typically, the easiest way to
 get set up is with the [Ubuntu+LKB Virtual Box

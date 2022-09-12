@@ -257,7 +257,29 @@
     
       <li>
         
-          <span class="nav__sub-title">Erg Usage</span>
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/concept/ErgTop">Overview</a></li>
+          
+            <li><a href="/docsproto/concept/ErgLeTypes">ErgLeTypes</a></li>
+          
+            <li><a href="/docsproto/concept/ErgRules">ErgRules</a></li>
+          
+            <li><a href="/docsproto/concept/ErgTreebankingRules">ErgTreebankingRules</a></li>
+          
+            <li><a href="/docsproto/concept/ErgTokenization">ErgTokenization</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
         
 
         
@@ -265,7 +287,7 @@
           
             <li><a href="/docsproto/concept/ErgProcessing">Overview</a></li>
           
-            <li><a href="/docsproto/concept/ErgTop">History</a></li>
+            <li><a href="/docsproto/concept/QuickStart">QuickStart</a></li>
           
             <li><a href="/docsproto/concept/ErgProcessing_SampleExport">ERG Usage Sample Export</a></li>
           
@@ -291,7 +313,7 @@
           
             <li><a href="/docsproto/concept/MrsRFC">MRS Format</a></li>
           
-            <li><a href="/docsproto/concept/EdsTop">EdsTop</a></li>
+            <li><a href="/docsproto/concept/EdsTop">EDS Format</a></li>
           
         </ul>
         
@@ -380,7 +402,7 @@
 <p>The English Resource Grammar (ERG) is a
 general-purpose computational grammar that, in combination with
 specialized processing tools, can map running English text to highly
-normalized logical-form representations of meaning.  A broad-coverage, linguistically precise <a href="https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar">HPSG</a>-based grammar of English, the ERG is semantically grounded in <a href="https://en.wikipedia.org/wiki/Minimal_recursion_semantics">Minimal Recursion Semantics</a> (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international <a href="https://github.com/delph-in/docs/wiki">Deep Linguistic Processing with HPSG Initiative</a> (DELPH-IN) and can be processed by a number of parsing and realization systems, including the <a href="LkbTop">LKB</a> grammar engineering environment, as well as the more efficient <a href="https://blog.inductorsoftware.com/docsproto/tools/PetTop">PET</a> and <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> run-time parsers, for applications.</p>
+normalized logical-form representations of meaning.  A broad-coverage, linguistically precise <a href="https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar">HPSG</a>-based grammar of English, the ERG is semantically grounded in <a href="https://en.wikipedia.org/wiki/Minimal_recursion_semantics">Minimal Recursion Semantics</a> (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international <a href="https://github.com/delph-in/docs/wiki">Deep Linguistic Processing with HPSG Initiative</a> (DELPH-IN) and can be processed by a number of parsing and realization systems, including the <a href="https://blog.inductorsoftware.com/docsproto/tools/LkbTop">LKB</a> grammar engineering environment, as well as the more efficient <a href="https://blog.inductorsoftware.com/docsproto/tools/PetTop">PET</a> and <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> run-time parsers, for applications.</p>
 
 <p>On-line demos of the ERG are available:</p>
 
@@ -389,7 +411,7 @@ normalized logical-form representations of meaning.  A broad-coverage, linguisti
   <li>http://delph-in.github.io/delphin-viz/demo/</li>
 </ul>
 
-<p>You can get started quickly with a local compiled copy of the ERG and the ACE parser via <a href="QuickStart">these instructions</a>.  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:</p>
+<p>You can get started quickly with a local compiled copy of the ERG and the ACE parser via <a href="../QuickStart">these instructions</a>.  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:</p>
 
 <ul>
   <li>
@@ -414,13 +436,13 @@ interface to it for parsing or generation:</p>
 
 <ul>
   <li><a href="../ErgSemantics">The Semantics Produced by the ERG</a></li>
-  <li><a href="ErgLeTypes">Lexical Types</a></li>
+  <li><a href="../ErgLeTypes">Lexical Types</a></li>
   <li><a href="http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi">Linguistic Type
 Database</a>,
 with example sentences in Redwoods Treebank</li>
-  <li><a href="ErgRules">Syntactic and Lexical Rules</a></li>
-  <li><a href="ErgTreebankingRules">Lexical and Phrasal Distinctions</a></li>
-  <li><a href="ErgTokenization">Tokenization Assumptions</a></li>
+  <li><a href="../ErgRules">Syntactic and Lexical Rules</a></li>
+  <li><a href="../ErgTreebankingRules">Lexical and Phrasal Distinctions</a></li>
+  <li><a href="../ErgTokenization">Tokenization Assumptions</a></li>
   <li><a href="../RedwoodsTop">The Redwoods Treebank</a> Many sentences parsed with the
 ERG.</li>
   <li>ERG is released under the <a href="http://svn.delph-in.net/erg/trunk/LICENSE">MIT
@@ -434,7 +456,7 @@ Resource Semantics is a valuable source of information for many
 semantically-sensitive NLP tasks. ERS-based systems have achieved
 state-of-the-art results in various tasks, including the identification
 of speculative or negated event mentions in biomedical text
-(<a href="/MacKinlay">MacKinlay</a> et al 2011), question generation (Yao et al
+(<a href="../MacKinlay">MacKinlay</a> et al 2011), question generation (Yao et al
 2012), detecting the scope of negation (Packard et al 2014), relating
 natural language to robot control language (Packard 2014), and
 recognizing textual entailment (PETE task; Lien &amp; Kouylekov 2015). ERS
