@@ -64,9 +64,9 @@ jobs:
           if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
 
       - uses: actions/upload-artifact@v2
+        if: ${{ failure() }}
         with:
           name: Broken Links
-          if: ${{ failure() }}
           path: $GITHUB_WORKSPACE/main/latestsrc/SiteErrors.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
