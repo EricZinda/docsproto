@@ -69,7 +69,7 @@
 
     {"Site": "tools", "Section": "Tools", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
 
-    {"Site": "tools", "Section": "PyDelphin", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "concept/ErgApi.md"},
+    {"Site": "tools", "Section": "PyDelphin", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PyDelphinTop.md", "Referrer": "concept/ErgApi.md"},
 
     {"Site": "tools", "Section": "Grammar Environments", "Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
 
