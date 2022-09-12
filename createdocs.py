@@ -84,6 +84,7 @@ def parse_relative_link(SrcFile, link):
         path_parts = split_url.path.split('/')
         if path_parts[0] == "":
             del(path_parts[0])
+            path = "/".join(path_parts)
 
         return path, split_url.query, split_url.fragment, path_parts
     else:
@@ -140,7 +141,7 @@ def get_markdown_link_to_relative_target(sites_definitions, file_definition, rel
         return "invalid_relative", target_file, relative_md_link
 
     else:
-        # non-relative link, just return the original
+        # non-relative link, just return the original, but cleaned up
         return "absolute", None, relative_md_link
 
 
