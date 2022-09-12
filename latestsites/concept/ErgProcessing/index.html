@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Conceptual Docs</title>
+<!-- begin _includes/seo.html --><title>DELPH-IN Conceptual Docs</title>
 <meta name="description" content="An amazing website.">
 
 
@@ -19,8 +19,8 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Conceptual Docs">
-<meta property="og:title" content="Conceptual Docs">
+<meta property="og:site_name" content="DELPH-IN Conceptual Docs">
+<meta property="og:title" content="DELPH-IN Conceptual Docs">
 <meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/concept/ErgProcessing/">
 
 
@@ -67,7 +67,7 @@
 
 
 
-  <link href="/docsproto/concept/feed.xml" type="application/atom+xml" rel="alternate" title="Conceptual Docs Feed">
+  <link href="/docsproto/concept/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Conceptual Docs Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -112,10 +112,10 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/docsproto/concept/"><img src="/docsproto/concept/assets/images/Delph-In.png" alt="Conceptual Docs"></a>
+          <a class="site-logo" href="/docsproto/concept/"><img src="/docsproto/concept/assets/images/Delph-In.png" alt="DELPH-IN Conceptual Docs"></a>
         
         <a class="site-title" href="/docsproto/concept/">
-          Conceptual Docs
+          DELPH-IN Conceptual Docs
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -265,7 +265,15 @@
           
             <li><a href="/docsproto/concept/ErgProcessing">Overview</a></li>
           
+            <li><a href="/docsproto/concept/ErgTop">History</a></li>
+          
+            <li><a href="/docsproto/concept/ErgProcessing_SampleExport">ERG Usage Sample Export</a></li>
+          
             <li><a href="/docsproto/concept/ErgSemantics_Interface">Semantics Interface</a></li>
+          
+            <li><a href="/docsproto/concept/AceErgTuning">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docsproto/concept/ErgApi">ERG REST API</a></li>
           
         </ul>
         
@@ -273,7 +281,7 @@
     
       <li>
         
-          <span class="nav__sub-title">RFCs</span>
+          <span class="nav__sub-title">Formats</span>
         
 
         
@@ -282,6 +290,8 @@
             <li><a href="/docsproto/concept/PredicateRfc">Predicates</a></li>
           
             <li><a href="/docsproto/concept/MrsRFC">MRS Format</a></li>
+          
+            <li><a href="/docsproto/concept/EdsTop">EdsTop</a></li>
           
         </ul>
         
@@ -434,7 +444,7 @@ running the system, from the command line:</p>
 to the parser individually for syntactic analysis (with a standard
 configuration, handling unknown words on the basis of a PoS tagging
 pre-processing step and lightweight RE-based named entity detection; for
-details, see the <a href="/PetInput#ChartMapping">PetInput</a> page).</p>
+details, see the <a href="https://blog.inductorsoftware.com/docsproto/tools/PetInput">PetInput</a> page).</p>
 
 <p>If all goes well (as it should), the above command will produce tracing
 outputs somewhat like the following:</p>
@@ -466,7 +476,7 @@ extracted); (b) taking between 110 and 190 miliseconds per sentence; or
 (c) requiring between 26 and 45 megabytes of dynamic memory while
 parsing one sentence. More detailed information about the batch parsing
 process is available through the
-<a href="LogonProcessing_BatchParsing">LogonProcessing/BatchParsing</a> page.</p>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchParsing">LogonProcessing/BatchParsing</a> page.</p>
 
 <p>As a side effect of the above run, parsing results and statistics were
 written into a simple (file-based, textual) database, a so-called
@@ -501,14 +511,14 @@ after the original parsing profile, i.e. in this case
 ‘/tmp/erg.1111.test.12-01-17.pet.gz’ (note that export files by default
 are compressed using GNU gzip(1); sample output for our running example
 is available as a separate
-<a href="ErgProcessing_SampleExport">ErgProcessing/SampleExport</a> page; formats
+<a href="../ErgProcessing_SampleExport">ErgProcessing/SampleExport</a> page; formats
 (a), (c), and (d) are further discussed to some degree on the
-<a href="ItsdbDerivations">ItsdbDerivations</a>, <a href="../ErgSemantics">ErgSemantics</a>, and
-<a href="EdsTop">EdsTop</a> pages, respectively).</p>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations">ItsdbDerivations</a>, <a href="../ErgSemantics">ErgSemantics</a>, and
+<a href="../EdsTop">EdsTop</a> pages, respectively).</p>
 
 <p>If you like what you are seeing, it is probably about time to read more
 about the ERG and DELPH-IN technology, for example starting from the
-<a href="ErgTop">ErgTop</a> and <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LogonTop</a> pages on this wiki, maybe
+<a href="../ErgTop">ErgTop</a> and <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LogonTop</a> pages on this wiki, maybe
 perusing our <a href="http://lists.delph-in.net">mailing list archives</a>, or
 preparing a grant application or donation to work with us on improving
 the grammar and tools. There are numerous ways of running the toolchain
@@ -531,7 +541,7 @@ distinctive features of ACE is its efficient implementation of chart
 realization (i.e. surface generation). Further instructions on how to
 invoke the ACE parser and full-forest treebanker from within the
 integrated LOGON distribution are available on the
-<a href="LogonAnswer">LogonAnswer</a> page.</p>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LogonAnswer">LogonAnswer</a> page.</p>
 
 <h1 id="b-stand-alone-parsing-and-generation-with-ace-or-pet">(B) Stand-Alone Parsing (and Generation) with ACE or PET</h1>
 
@@ -551,7 +561,7 @@ command-line and programmatic interface.</p>
 snapshots of recent ERG releases, please see the <a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">AceTop</a> page.</p>
 
 <p>For some advice on using options to improve the utility of the ERG with
-ACE, please see the <a href="AceErgTuning">AceErgTuning</a> page.</p>
+ACE, please see the <a href="../AceErgTuning">AceErgTuning</a> page.</p>
 
 <p><a name="restful"></a></p>
 
@@ -561,7 +571,7 @@ ACE, please see the <a href="AceErgTuning">AceErgTuning</a> page.</p>
 is available, including a sample ‘thin’ client in Python and integration
 in the <a href="https://github.com/delph-in/pydelphin">pyDelphin</a> environment.
 For emerging documentation on this interface, please see the
-<a href="ErgApi">ErgApi</a> page.</p>
+<a href="../ErgApi">ErgApi</a> page.</p>
 
 <h1 id="validation">Validation</h1>
 

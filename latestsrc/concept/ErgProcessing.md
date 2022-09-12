@@ -66,7 +66,7 @@ Here, the file ‘test.txt’ provides a newline-separated list of strings
 to the parser individually for syntactic analysis (with a standard
 configuration, handling unknown words on the basis of a PoS tagging
 pre-processing step and lightweight RE-based named entity detection; for
-details, see the [PetInput](/PetInput#ChartMapping) page).
+details, see the [PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput) page).
 
 If all goes well (as it should), the above command will produce tracing
 outputs somewhat like the following:
@@ -97,7 +97,7 @@ extracted); (b) taking between 110 and 190 miliseconds per sentence; or
 (c) requiring between 26 and 45 megabytes of dynamic memory while
 parsing one sentence. More detailed information about the batch parsing
 process is available through the
-[LogonProcessing/BatchParsing](LogonProcessing_BatchParsing) page.
+[LogonProcessing/BatchParsing](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchParsing) page.
 
 As a side effect of the above run, parsing results and statistics were
 written into a simple (file-based, textual) database, a so-called
@@ -131,14 +131,14 @@ after the original parsing profile, i.e. in this case
 ‘/tmp/erg.1111.test.12-01-17.pet.gz’ (note that export files by default
 are compressed using GNU gzip(1); sample output for our running example
 is available as a separate
-[ErgProcessing/SampleExport](ErgProcessing_SampleExport) page; formats
+[ErgProcessing/SampleExport](../ErgProcessing_SampleExport) page; formats
 (a), (c), and (d) are further discussed to some degree on the
-[ItsdbDerivations](ItsdbDerivations), [ErgSemantics](../ErgSemantics), and
-[EdsTop](EdsTop) pages, respectively).
+[ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations), [ErgSemantics](../ErgSemantics), and
+[EdsTop](../EdsTop) pages, respectively).
 
 If you like what you are seeing, it is probably about time to read more
 about the ERG and DELPH-IN technology, for example starting from the
-[ErgTop](ErgTop) and [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) pages on this wiki, maybe
+[ErgTop](../ErgTop) and [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) pages on this wiki, maybe
 perusing our [mailing list archives](http://lists.delph-in.net), or
 preparing a grant application or donation to work with us on improving
 the grammar and tools. There are numerous ways of running the toolchain
@@ -162,7 +162,7 @@ distinctive features of ACE is its efficient implementation of chart
 realization (i.e. surface generation). Further instructions on how to
 invoke the ACE parser and full-forest treebanker from within the
 integrated LOGON distribution are available on the
-[LogonAnswer](LogonAnswer) page.
+[LogonAnswer](https://blog.inductorsoftware.com/docsproto/tools/LogonAnswer) page.
 
 # (B) Stand-Alone Parsing (and Generation) with ACE or PET
 
@@ -182,7 +182,7 @@ For instructions on how to obtain and run ACE, including pre-compiled
 snapshots of recent ERG releases, please see the [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) page.
 
 For some advice on using options to improve the utility of the ERG with
-ACE, please see the [AceErgTuning](AceErgTuning) page.
+ACE, please see the [AceErgTuning](../AceErgTuning) page.
 
 <a name="restful"/>
 
@@ -193,7 +193,7 @@ As of mid-2016, a programmatic RESTful on-line interface to ERG parsing
 is available, including a sample ‘thin’ client in Python and integration
 in the [pyDelphin](https://github.com/delph-in/pydelphin) environment.
 For emerging documentation on this interface, please see the
-[ErgApi](ErgApi) page.
+[ErgApi](../ErgApi) page.
 
 # Validation
 

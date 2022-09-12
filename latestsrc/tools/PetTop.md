@@ -31,7 +31,7 @@ improvement in parsing efficiency for long inputs)
 of (R)MRSs
 - output of fragmentary analysis hypotheses in case of parse failures
 - lattice input (via the YY, PIC and SMAF input formats, cf.
-[PetInput](PetInput))
+[PetInput](../PetInput))
 - a variety of XML-based input formats that generalize the
 lattice-oriented YY input mode
 - pruning of the search space using a PCFG model
@@ -117,7 +117,7 @@ customization of PET behavior to various tasks. Maybe the biggest factor
 of variation is in (a) how input to the cheap parser is prepared for
 PET-internal processing and in (b) what form analysis results are output
 (or returned to the caller) after parsing; these are discussed on
-separate [PetInput](PetInput) and [PetOutput](PetOutput) pages,
+separate [PetInput](../PetInput) and [PetOutput](PetOutput) pages,
 respectively. Many other aspects of PET run-time behavior can be
 controlled using command-line options (see the [PetOptions](PetOptions)
 page), given to the flop or cheap binaries upon invocation, and

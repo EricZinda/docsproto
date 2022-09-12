@@ -337,7 +337,7 @@ an :id keyword argument in the read-repp() call.
 The programmatic interface to REPP is through the repp() and
 repp-for-pet() functions. These can be used in debugging REPP rules, or
 in preparing input to another parser, specifically PET (see the
-[PetInput](PetInput) page for background). Both functions take optional
+[PetInput](../PetInput) page for background). Both functions take optional
 keyword arguments :repp and :calls, which determine the top-level
 ('master') REPP to be used, and set of active external groups,
 respectively. The value of :calls defaults to the current value of
@@ -371,7 +371,7 @@ boundaries):
       "Wikipedia mark-up is ¦i relatively i¦ straightforward ."
 
 Other available output formats include :pet (the default, returning the
-so-called YY format; see the [PetInput](PetInput) page); :sppp (an
+so-called YY format; see the [PetInput](../PetInput) page); :sppp (an
 LKB-internal format, see the [LkbSppp](LkbSppp) page); and :raw (a list
 of token structures, providing all available information). The last of
 these is the most generic output option; it could be used to wrap an XML
@@ -438,7 +438,7 @@ definition can be simulated by a Lisp function call like the following:
 
 The additional :stream argument will re-direct the result of
 pre-processing into a file (overwriting an existing file by that name,
-if need be), in this case the file sample.yy. See [PetInput](PetInput)
+if need be), in this case the file sample.yy. See [PetInput](../PetInput)
 for further discussion on how REPP outputs can be processed
 interactively in PET, for example for in-depth debugging.
 

@@ -10,7 +10,7 @@ variable $LOGONROOT). The scripts often support multiple grammars or
 system configurations, and these can be parameterized by means of
 command line arguments.
 
-- [/BatchParsing](LogonProcessing_BatchParsing) --- Running the
+- [/BatchParsing](../LogonProcessing_BatchParsing) --- Running the
 Analysis Component
 - [/BatchTransfer](/LogonProcessing/BatchTransfer) --- Running the
 Transfer Component
