@@ -250,10 +250,17 @@ if __name__ == '__main__':
         dst_root = sys.argv[3]
         sites_definitions_path = sys.argv[4]
         all_pages, all_links, tocs, errors = create_sites_src(root_address, src_root, dst_root, sites_definitions_path)
+
+        script_path = os.path.dirname(os.path.realpath(__file__))
+
         if len(errors) > 0:
-            print(f"Errors generating site:\n")
-            for error in errors:
-                print(error)
+            print(f"Errors generating site (see SiteErrors.json)\n")
+            errors_path = os.path.join(script_path, "latestsrc/SiteErrors.txt")
+            if os.path.exists(errors_path):
+                os.remove(errors_path)
+            with open(errors_path, "w") as txtFile:
+                for error in errors:
+                    txtFile.write(error)
             assert False
 
         create_tocs(dst_root, tocs)
@@ -270,7 +277,6 @@ if __name__ == '__main__':
         proposed_fixes = propose_broken_links(all_links)
 
         print("\n\nBroken Links:\n\n")
-        script_path = os.path.dirname(os.path.realpath(__file__))
         broken_path = os.path.join(script_path, "latestsrc/BrokenLinks.json")
         if os.path.exists(broken_path):
             os.remove(broken_path)
