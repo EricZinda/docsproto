@@ -7,7 +7,7 @@ DELPH-IN systems and think might be worth sharing, list it here.
 
 ## Parser/Generators
 
-- [ACE](../AceTop) ([WoodleyPackard](..//WoodleyPackard))
+- [ACE](../AceTop) ([WoodleyPackard](/WoodleyPackard))
   
   - ACE (the Answer Constraint Engine) is a processor for DELPH-IN
 grammars, supporting both parsing and generation.
