@@ -256,6 +256,10 @@ if __name__ == '__main__':
         create_tocs(dst_root, tocs)
         proposed_fixes = propose_broken_links(all_links)
 
+        print("\n\nBroken Links:\n\n")
+        for item in proposed_fixes:
+            print(f"{json.dumps(item)},")
+
         print("\n\nPages:\n\n")
         for item in all_pages.items():
             for subitem in item[1].items():
@@ -263,10 +267,6 @@ if __name__ == '__main__':
 
         print("\n\nAll Links:\n\n")
         for item in all_links:
-            print(f"{json.dumps(item)},")
-
-        print("\n\nBroken Links:\n\n")
-        for item in proposed_fixes:
             print(f"{json.dumps(item)},")
 
     else:

@@ -26,6 +26,7 @@ Figure out templates using Jekyll and see if they meet our needs
             - (fixed) There are many that use the format "#ArgumentIdentification" or "ErgSemantics_Design#non-scopal-modification"
             - Link: "/WoodleyPackard.md", "ResolvedLink": "/WoodleyPackard"
               - handle "/"
+      - Test absolute links to make sure they work
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning
     - Include all the current stuff
