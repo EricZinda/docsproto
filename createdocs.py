@@ -270,8 +270,16 @@ if __name__ == '__main__':
         proposed_fixes = propose_broken_links(all_links)
 
         print("\n\nBroken Links:\n\n")
-        for item in proposed_fixes.items():
-            print(f"{json.dumps(item[1])},")
+        script_path = os.path.dirname(os.path.realpath(__file__))
+        broken_path = os.path.join(script_path, "latestsrc/BrokenLinks.json")
+        if os.path.exists(broken_path):
+            os.remove(broken_path)
+
+        with open(broken_path, "w") as txtFile:
+            txtFile.write("[\n")
+            for item in proposed_fixes.items():
+                txtFile.write(f"{json.dumps(item[1])},\n")
+            txtFile.write("\n]\n")
 
     else:
         print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")

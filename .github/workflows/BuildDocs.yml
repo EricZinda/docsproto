@@ -57,6 +57,12 @@ jobs:
       # Process and copy all pages into the sites
       - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto/ $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/sitesdefinitions.json
 
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Broken Links
+          path: $GITHUB_WORKSPACE/main/latestsrc/BrokenLinks.json
+          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
+
 #
 #      # Gather pages for "conceptual" site
 #      ## Set up the blank site
