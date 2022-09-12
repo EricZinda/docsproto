@@ -25,7 +25,7 @@ increase robustness of HPSG grammars for various languages such as
 [Japanese](http://www.delph-in.net/jacy),
 [Greek](http://www.delph-in.net/mgrg) and
 [Norwegian](NorsourceSummary). HPSG
-grammars can be developed with the [LKB](LkbTop), compiled to a binary
+grammars can be developed with the [LKB](../LkbTop), compiled to a binary
 grammar image, and at runtime executed by PET within the Heart of Gold.
 
 Although the focus of Heart of Gold is deep-shallow integration, the

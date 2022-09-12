@@ -3,14 +3,14 @@
 The English Resource Grammar (ERG) is a
 general-purpose computational grammar that, in combination with
 specialized processing tools, can map running English text to highly
-normalized logical-form representations of meaning.  A broad-coverage, linguistically precise [HPSG](https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar)-based grammar of English, the ERG is semantically grounded in [Minimal Recursion Semantics](https://en.wikipedia.org/wiki/Minimal_recursion_semantics) (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international [Deep Linguistic Processing with HPSG Initiative](https://github.com/delph-in/docs/wiki) (DELPH-IN) and can be processed by a number of parsing and realization systems, including the [LKB](LkbTop) grammar engineering environment, as well as the more efficient [PET](https://blog.inductorsoftware.com/docsproto/tools/PetTop) and [ACE](http://sweaglesw.org/linguistics/ace/) run-time parsers, for applications.
+normalized logical-form representations of meaning.  A broad-coverage, linguistically precise [HPSG](https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar)-based grammar of English, the ERG is semantically grounded in [Minimal Recursion Semantics](https://en.wikipedia.org/wiki/Minimal_recursion_semantics) (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international [Deep Linguistic Processing with HPSG Initiative](https://github.com/delph-in/docs/wiki) (DELPH-IN) and can be processed by a number of parsing and realization systems, including the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) grammar engineering environment, as well as the more efficient [PET](https://blog.inductorsoftware.com/docsproto/tools/PetTop) and [ACE](http://sweaglesw.org/linguistics/ace/) run-time parsers, for applications.
 
 On-line demos of the ERG are available:
 
 - http://erg.delph-in.net
 - http://delph-in.github.io/delphin-viz/demo/
 
-You can get started quickly with a local compiled copy of the ERG and the ACE parser via [these instructions](QuickStart).  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:
+You can get started quickly with a local compiled copy of the ERG and the ACE parser via [these instructions](../QuickStart).  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:
 
 - The most recent stable version of the ERG:
   
@@ -26,13 +26,13 @@ make sense of the syntactic and semantic analyses it provides, and
 interface to it for parsing or generation:
 
 - [The Semantics Produced by the ERG](../ErgSemantics)
-- [Lexical Types](ErgLeTypes)
+- [Lexical Types](../ErgLeTypes)
 - [Linguistic Type
 Database](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi),
 with example sentences in Redwoods Treebank
-- [Syntactic and Lexical Rules](ErgRules)
-- [Lexical and Phrasal Distinctions](ErgTreebankingRules)
-- [Tokenization Assumptions](ErgTokenization)
+- [Syntactic and Lexical Rules](../ErgRules)
+- [Lexical and Phrasal Distinctions](../ErgTreebankingRules)
+- [Tokenization Assumptions](../ErgTokenization)
 - [The Redwoods Treebank](../RedwoodsTop) Many sentences parsed with the
 ERG.
 - ERG is released under the [MIT
@@ -45,7 +45,7 @@ Resource Semantics is a valuable source of information for many
 semantically-sensitive NLP tasks. ERS-based systems have achieved
 state-of-the-art results in various tasks, including the identification
 of speculative or negated event mentions in biomedical text
-([MacKinlay](/MacKinlay) et al 2011), question generation (Yao et al
+([MacKinlay](../MacKinlay) et al 2011), question generation (Yao et al
 2012), detecting the scope of negation (Packard et al 2014), relating
 natural language to robot control language (Packard 2014), and
 recognizing textual entailment (PETE task; Lien & Kouylekov 2015). ERS

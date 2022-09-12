@@ -12,12 +12,6 @@ toc:
     children:
       - title: "Agree"
         url: "AgreeTop"
-      - title: "LKB Installation"
-        url: "LkbInstallation"
-      - title: "LKB Fully Open Source"
-        url: "LkbFos"
-      - title: "LKB Macintosh"
-        url: "LkbMacintosh"
       - title: "Grammar Matrix Getting Started"
         url: "MatrixGettingStarted"
   - title: "Grammar Tools"
@@ -48,6 +42,16 @@ toc:
     children:
       - title: "Heart of Gold"
         url: "HeartofgoldTop"
+  - title: "LKB"
+    children:
+      - title: "Overview"
+        url: "LkbTop"
+      - title: "Installation"
+        url: "LkbInstallation"
+      - title: "Fully Open Source Version"
+        url: "LkbFos"
+      - title: "Macintosh Version"
+        url: "LkbMacintosh"
   - title: "PET"
     children:
       - title: "Pet"

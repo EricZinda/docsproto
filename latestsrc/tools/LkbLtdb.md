@@ -1,5 +1,5 @@
 {% raw %}The ***Linguistic Type Database*** processes grammars and treebanks to
-make online documentation for grammars made with the [LKB](LkbTop).
+make online documentation for grammars made with the [LKB](../LkbTop).
 
 The code and documentation can mainly be found on github:
 <https://github.com/fcbond/ltdb>
