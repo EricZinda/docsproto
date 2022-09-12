@@ -81,7 +81,7 @@ def parse_relative_link(SrcFile, link):
             path = split_url.path
 
         # Get rid of leading "/"
-        path_parts = split_url.path.split('/')
+        path_parts = path.split('/')
         if path_parts[0] == "":
             del(path_parts[0])
             path = "/".join(path_parts)
@@ -255,7 +255,7 @@ if __name__ == '__main__':
             assert False
 
         create_tocs(dst_root, tocs)
-        
+
         print("\n\nPages:\n\n")
         for item in all_pages.items():
             for subitem in item[1].items():
