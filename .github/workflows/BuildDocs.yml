@@ -61,13 +61,13 @@ jobs:
         if: ${{ failure() }}
         with:
           name: Site Errors
-          path: $GITHUB_WORKSPACE/main/latestsrc/SiteErrors.json
+          path: main/latestsrc/SiteErrors.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
       - uses: actions/upload-artifact@v2
         with:
           name: Broken Links
-          path: $GITHUB_WORKSPACE/main/latestsrc/BrokenLinks.json
+          path: main/latestsrc/BrokenLinks.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
 
