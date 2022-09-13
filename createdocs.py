@@ -14,6 +14,8 @@ from marko.md_renderer import MarkdownRenderer
 from marko.renderer import Renderer
 from marko.inline import Link
 
+import createblanksite
+
 
 def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
@@ -164,39 +166,37 @@ def add_addresses_for_definitions(root_address, sites_definitions):
 
 # Given a definition file that contains all the site definitions create the latestsrc folder structure
 # We do it all at once so we can check for broken links
-def create_sites_src(root_address, src_root, dst_root, sites_definitions_path):
+def create_sites_src(sites_definition, root_address, src_root, dst_root):
     parser = Markdown(Parser, MarkdownRenderer)
-    with open(sites_definitions_path, "r") as txtFile:
-        sites_definition = json.loads(txtFile.read())
-        add_addresses_for_definitions(root_address, sites_definition["Sites"])
+    add_addresses_for_definitions(root_address, sites_definition["Pages"])
 
-        # get_markdown_link_to_relative_target(sites_definition["Sites"], sites_definition["Sites"][0], "ErgSemantics")
+    # get_markdown_link_to_relative_target(sites_definition["Pages"], sites_definition["Pages"][0], "ErgSemantics")
 
-        errors = []
-        links = []
-        docs = {}
-        tocs = {}
-        for fileDefinition in sites_definition["Sites"]:
-            src_file = os.path.join(src_root, fileDefinition["SrcDir"], fileDefinition["SrcFile"])
-            dst_file = os.path.join(dst_root, fileDefinition["Site"], fileDefinition["SrcFile"])
+    errors = []
+    links = []
+    docs = {}
+    tocs = {}
+    for fileDefinition in sites_definition["Pages"]:
+        src_file = os.path.join(src_root, fileDefinition["SrcDir"], fileDefinition["SrcFile"])
+        dst_file = os.path.join(dst_root, fileDefinition["Site"], fileDefinition["SrcFile"])
 
-            # Remember this doc in the site so we can find broken links later
-            file_site = fileDefinition["Site"]
-            if fileDefinition["Site"] not in docs:
-                docs[file_site] = {}
-            path_lower = get_site_relative_page_link(file_site, fileDefinition["SrcFile"]).lower()
-            docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
+        # Remember this doc in the site so we can find broken links later
+        file_site = fileDefinition["Site"]
+        if fileDefinition["Site"] not in docs:
+            docs[file_site] = {}
+        path_lower = get_site_relative_page_link(file_site, fileDefinition["SrcFile"]).lower()
+        docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
 
-            if fileDefinition["Section"] != "<todo>":
-                try:
-                    links += convert_and_copy_doc(sites_definition["Sites"], parser, fileDefinition, src_file, dst_file)
-                except Exception as error:
-                    errors.append({"Definition": fileDefinition, "Error": str(error)})
+        if fileDefinition["Section"] != "<todo>":
+            try:
+                links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
+            except Exception as error:
+                errors.append({"Definition": fileDefinition, "Error": str(error)})
 
-                if fileDefinition["Site"] not in tocs:
-                    tocs[fileDefinition["Site"]] = []
-                site_relative_link = get_site_relative_page_link(fileDefinition["Site"], fileDefinition["SrcFile"])
-                tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
+            if fileDefinition["Site"] not in tocs:
+                tocs[fileDefinition["Site"]] = []
+            site_relative_link = get_site_relative_page_link(fileDefinition["Site"], fileDefinition["SrcFile"])
+            tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
     return docs, links, tocs, errors
 
@@ -231,7 +231,7 @@ def create_tocs(dst_root, tocs):
             txtFile.write(include_text)
 
 
-# Given the full set of links on all pages ropose entries to sitedefinitions.json to fix them
+# Given the full set of links on all pages propose entries to sitedefinitions.json to fix them
 def propose_broken_links(all_links):
     proposals = {}
     for link in all_links:
@@ -256,35 +256,44 @@ def log_json_items_to_file(relative_path, list):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 5:
+    if len(sys.argv) == 6:
         root_address = sys.argv[1]
-        src_root = sys.argv[2]
-        dst_root = sys.argv[3]
-        sites_definitions_path = sys.argv[4]
+        input_content_root = sys.argv[2]
+        latestsrc_root = sys.argv[3]
+        latestsites_root = sys.argv[4]
+        sites_definitions_path = sys.argv[5]
+
+        with open(sites_definitions_path, "r") as txtFile:
+            sites_definition = json.loads(txtFile.read())
 
         # Create the sites
-        all_pages, all_links, tocs, errors = create_sites_src(root_address, src_root, dst_root, sites_definitions_path)
-        create_tocs(dst_root, tocs)
+        createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
 
-        # Log interesting information
+        # Populate the sites with pages
+        all_pages, all_links, tocs, errors = create_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
+        create_tocs(latestsrc_root, tocs)
+
+        # Log any errors that occurred and fail the build
         if len(errors) > 0:
             log_json_items_to_file("latestsrc/SiteErrors.json", errors)
             print(f"Errors generating site (see 'latestsrc/SiteErrors.txt'\n")
             assert False
 
+        # Log all the pages that were generated
         combined_pages = []
         for item in all_pages.items():
             combined_pages += item[1].items()
         log_json_items_to_file("latestsrc/AllPages.json", combined_pages)
 
+        # Log all links on all pages in all sites
         log_json_items_to_file("latestsrc/AllLinks.json", all_links)
 
+        # Create a file that proposes fixes to the site definitions for all broken links
         proposed_fixes = propose_broken_links(all_links)
-
         log_json_items_to_file("latestsrc/BrokenLinks.json", [item[1] for item in proposed_fixes.items()])
 
     else:
-        print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
+        print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs")
         assert False
 
     # parser = Markdown(Parser, MarkdownRenderer)
