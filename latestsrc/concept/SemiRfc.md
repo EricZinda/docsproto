@@ -83,8 +83,8 @@ optional roles and constraints on role values). E.g.:
 Predicate entries may be divided among several files. One file may
 contain just the hierarchical relations (e.g. hierarchy.smi in the ERG
 1214), another for [abstract
-predicates](../PredicateRfc#Abstract_Predicates) (e.g. abstract.smi), and
-another for [surface predicates](../PredicateRfc#Surface_Predicates) (e.g.
+predicates](/PredicateRfc#Abstract_Predicates) (e.g. abstract.smi), and
+another for [surface predicates](/PredicateRfc#Surface_Predicates) (e.g.
 surface.smi). Some very top-level, perhaps extragrammatical, entries may
 appear in the main .smi file as well (e.g. erg.smi).
 

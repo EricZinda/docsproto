@@ -10,3 +10,9 @@ toc:
     children:
       - title: "Overview"
         url: "Home"
+      - title: "DelphinWelcome"
+        url: "DelphinWelcome"
+      - title: "English Resource Semantics Tutorial"
+        url: "ErsTutorial"
+      - title: "Grammar Catalogue"
+        url: "GrammarCatalogue"

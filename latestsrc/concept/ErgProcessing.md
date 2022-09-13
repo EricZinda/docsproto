@@ -66,7 +66,7 @@ Here, the file ‘test.txt’ provides a newline-separated list of strings
 to the parser individually for syntactic analysis (with a standard
 configuration, handling unknown words on the basis of a PoS tagging
 pre-processing step and lightweight RE-based named entity detection; for
-details, see the [PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput) page).
+details, see the [PetInput](/PetInput#ChartMapping) page).
 
 If all goes well (as it should), the above command will produce tracing
 outputs somewhat like the following:

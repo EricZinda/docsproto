@@ -45,7 +45,7 @@ Resource Semantics is a valuable source of information for many
 semantically-sensitive NLP tasks. ERS-based systems have achieved
 state-of-the-art results in various tasks, including the identification
 of speculative or negated event mentions in biomedical text
-([MacKinlay](../MacKinlay) et al 2011), question generation (Yao et al
+([MacKinlay](/MacKinlay) et al 2011), question generation (Yao et al
 2012), detecting the scope of negation (Packard et al 2014), relating
 natural language to robot control language (Packard 2014), and
 recognizing textual entailment (PETE task; Lien & Kouylekov 2015). ERS
