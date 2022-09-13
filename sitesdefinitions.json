@@ -64,7 +64,6 @@
     {"Site": "concept", "Section": "Projects", "Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
     {"Site": "concept", "Section": "Projects", "Page": "DeepBank 1.0", "SrcDir": "docswiki", "SrcFile": "DeepBank_OneZero.md", "Referrer": "concept/DeepBank.md"},
     {"Site": "concept", "Section": "Projects", "Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
-    {"Site": "concept", "Section": "Projects", "Page": "Matrix MRS Test Suite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
     {"Site": "concept", "Section": "Projects", "Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
     {"Site": "concept", "Section": "Projects", "Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"},
     {"Site": "concept", "Section": "Projects", "Page": "We Science", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "concept/RedwoodsTop.md"},
@@ -124,6 +123,7 @@
     {"Site": "tools", "Section": "Logon", "Page": "Idiosyncrasies", "SrcDir": "docswiki", "SrcFile": "LogonIdiosyncrasies.md"},
     {"Site": "tools", "Section": "Logon", "Page": "Wishlist", "SrcDir": "docswiki", "SrcFile": "LogonWishlist.md"},
 
+    {"Site": "tools", "Section": "Matrix MRS Tests", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
     {"Site": "tools", "Section": "Matrix MRS Tests", "Page": "English", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteEn.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
     {"Site": "tools", "Section": "Matrix MRS Tests", "Page": "Japanese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteJa.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
     {"Site": "tools", "Section": "Matrix MRS Tests", "Page": "Norwegian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteNo.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
