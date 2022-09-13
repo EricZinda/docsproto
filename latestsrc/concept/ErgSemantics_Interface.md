@@ -17,7 +17,7 @@ the [DeepThought](http://www.dfki.de/deepthought) and
 [LOGON](http://www.emmtee.net) projects, among others, and some
 foundational reflections have been published by [Flickinger et al.
 (2005)](http://www.mt-archive.info/MTS-2005-Flickinger.pdf). At about
-the same time, [StephanOepen](../StephanOepen) developed the software
+the same time, [StephanOepen](StephanOepen) developed the software
 support (as part of the LKB environment) to largely automatically
 extract the semantic interface specification from the grammar sources.
 For the past ten or so years, each ERG release has provided an
@@ -38,7 +38,7 @@ listing the inventory of *abstract* predicates; and
 [surface.smi](http://svn.delph-in.net/erg/tags/1214/etc/surface.smi),
 spelling out the (much larger) inventory of *surface* predicates. For
 the distinction between abstract vs. surface predicates, please see the
-[ErgSemantics/Basics](../ErgSemantics_Basics) page.
+[ErgSemantics/Basics](ErgSemantics_Basics) page.
 
 Syntactically, the SEM-I implements a relatively lightweight syntax that
 aims to balance readability for both humans and machines.
