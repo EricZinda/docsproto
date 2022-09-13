@@ -156,7 +156,7 @@
       {"Section": "Grammars", "Pages": [
         {"Page": "KrgTop", "SrcDir": "docswiki", "SrcFile": "KrgTop.md", "Referrer": "home/MatrixTop.md"},
         {"Page": "WambayaTop", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "MandarinGrammarOnline", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "MandarinGrammarOnline", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"}
       ]},
       {"Section": "MRS Tests", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
