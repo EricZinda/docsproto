@@ -1,6 +1,6 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 title: DELPH-IN Conceptual Docs
-baseurl: d/o/c/s/p/r/o/t/o
+baseurl: docsproto/concept
 github:
   is_project_page: false
 
