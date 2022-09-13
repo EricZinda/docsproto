@@ -267,7 +267,7 @@ if __name__ == '__main__':
         if len(errors) > 0:
             print(f"Errors generating site (see {errors_path}):{json.dumps(errors)}\n")
             assert False
-            
+
         print("\n\nPages:\n\n")
         for item in all_pages.items():
             for subitem in item[1].items():
