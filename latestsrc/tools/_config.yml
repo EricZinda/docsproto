@@ -1,6 +1,6 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 title: DELPH-IN Tools
-baseurl: d/o/c/s/p/r/o/t/o
+baseurl: docsproto/tools
 github:
   is_project_page: false
 
