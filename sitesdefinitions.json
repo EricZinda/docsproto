@@ -17,7 +17,7 @@
   "Pages":
   [
     {"Site": "home", "Section": "DELPH-IN", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
-    {"Site": "home", "Section": "DELPH-IN", "Page": "DelphinWelcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
+    {"Site": "home", "Section": "DELPH-IN", "Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
     {"Site": "home", "Section": "DELPH-IN", "Page": "English Resource Semantics Tutorial", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"},
     {"Site": "home", "Section": "DELPH-IN", "Page": "Grammar Catalogue", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
 
@@ -69,15 +69,31 @@
     {"Site": "concept", "Section": "ERG Usage", "Page": "Tuning Ace for ERG", "SrcDir": "docswiki", "SrcFile": "AceErgTuning.md", "Referrer": "concept/ErgProcessing.md"},
     {"Site": "concept", "Section": "ERG Usage", "Page": "ERG REST API", "SrcDir": "docswiki", "SrcFile": "ErgApi.md", "Referrer": "concept/ErgProcessing.md"},
 
-    {"Site": "concept", "Section": "Grammar Matrix", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/GrammarCatalogue.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "MatrixTop", "SrcDir": "docswiki", "SrcFile": "MatrixTop.md", "Referrer": "home/RussianQuestionsGrammarTop.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "Matrix Development Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDevTop.md", "Referrer": "home/MatrixTop.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "KrgTop", "SrcDir": "docswiki", "SrcFile": "KrgTop.md", "Referrer": "home/MatrixTop.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "WambayaTop", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "MandarinGrammarOnline", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"},
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"},
 
     {"Site": "concept", "Section": "Formats", "Page": "Predicates", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
     {"Site": "concept", "Section": "Formats", "Page": "MRS Format", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "MRS Isomorphism", "SrcDir": "docswiki", "SrcFile": "MrsIsomorphism.md", "Referrer": "home/RmrsTop.md"},
     {"Site": "concept", "Section": "Formats", "Page": "EDS Format", "SrcDir": "docswiki", "SrcFile": "EdsTop.md", "Referrer": "concept/ErgProcessing.md"},
     {"Site": "concept", "Section": "Formats", "Page": "EDS Conversion", "SrcDir": "docswiki", "SrcFile": "EdsConversion.md", "Referrer": "concept/EdsTop.md"},
     {"Site": "concept", "Section": "Formats", "Page": "EDS Generation", "SrcDir": "docswiki", "SrcFile": "EdsGeneration.md", "Referrer": "concept/EdsTop.md"},
     {"Site": "concept", "Section": "Formats", "Page": "SEM-I", "SrcDir": "docswiki", "SrcFile": "SemiRfc.md", "Referrer": "concept/PredicateRfc.md"},
     {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Predicate Naming", "SrcDir": "docswiki", "SrcFile": "RmrsPos.md", "Referrer": "concept/PredicateRfc.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Span", "SrcDir": "docswiki", "SrcFile": "RmrsSpan.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Design", "SrcDir": "docswiki", "SrcFile": "RmrsDesign.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Paraphrasing", "SrcDir": "docswiki", "SrcFile": "RmrsParaphrasing.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Model", "SrcDir": "docswiki", "SrcFile": "RmrsModel.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Distributional", "SrcDir": "docswiki", "SrcFile": "RmrsDistributional.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Semi", "SrcDir": "docswiki", "SrcFile": "RmrsSemi.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Dmrs", "SrcDir": "docswiki", "SrcFile": "RmrsDmrs.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Faq", "SrcDir": "docswiki", "SrcFile": "RmrsFaq.md", "Referrer": "home/RmrsTop.md"},
+    {"Site": "concept", "Section": "Formats", "Page": "(R)MRS Discussions", "SrcDir": "docswiki", "SrcFile": "RmrsDiscussions.md", "Referrer": "home/RmrsTop.md"},
 
     {"Site": "concept", "Section": "Projects", "Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
     {"Site": "concept", "Section": "Projects", "Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
@@ -100,15 +116,15 @@
 
     {"Site": "tools", "Section": "Grammar Environments", "Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
 
-    {"Site": "tools", "Section": "Grammar Environments", "Page": "Grammar Matrix Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
-
     {"Site": "tools", "Section": "Grammar Tools", "Page": "Erroneous Generation Analysis and Detection", "SrcDir": "docswiki", "SrcFile": "EgadTop.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "gDelta", "SrcDir": "docswiki", "SrcFile": "GDeltaTop.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "Grammar Spring Cleaning", "SrcDir": "docswiki", "SrcFile": "SpringCleaningTop.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
-    {"Site": "tools", "Section": "ERG Grammar", "Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "Grammar Version Control", "SrcDir": "docswiki", "SrcFile": "VersionControlForGrammarDevelopment.md", "Referrer": "home/MatrixTop.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
+    {"Site": "tools", "Section": "Grammar Tools", "Page": "CLIMB for Germanic languages", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb.md", "Referrer": "home/ClimbTop.md"},
 
     {"Site": "tools", "Section": "Parsing and Generation", "Page": "Ace", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
     {"Site": "tools", "Section": "Parsing and Generation", "Page": "Delphin Tools", "SrcDir": "docswiki", "SrcFile": "DelphinTools.md"},
