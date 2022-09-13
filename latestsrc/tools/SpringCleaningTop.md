@@ -12,7 +12,7 @@ the empty set).
 
 [AntskeFokkens](../AntskeFokkens): Spring Cleaning algorithm
 
-[YiZhang](https://blog.inductorsoftware.com/docsproto/concept/YiZhang): Grammar Compression
+[YiZhang](../YiZhang): Grammar Compression
 
 ## References
 

@@ -79,11 +79,11 @@ composed robustly for these sentences, which comprise some 15% of the
 The development of [DeepBank](../DeepBank) started in the fall of 2008 as
 an internally funded project at the Department of Computational
 Linguistics, Saarland University and the LT-Lab of DFKI, under the
-supervision of [Valia Kordoni](../ValiaKordoni) and [Yi Zhang](../YiZhang).
+supervision of [Valia Kordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni) and [Yi Zhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang).
 Thanks to the partial financial support of the Erasmus Mundus European
 Masters Program in Language and Communication Technologies (LCT),
 part-time student annotators were employed and trained for the first
-round of annotation. [Dan Flickinger](../DanFlickinger), the main
+round of annotation. [Dan Flickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), the main
 [ERG](http://www.delph-in.net/erg) developer, has provided grammar
 updates throughout the project. He also went through a thorough (second)
 round of annotation updates to arrive at the first public release of

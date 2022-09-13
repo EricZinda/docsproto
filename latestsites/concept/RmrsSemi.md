@@ -12,8 +12,8 @@ for scalable machine
 translation](http://web.mysites.ntu.edu.sg/fcbond/open/pubs/2005-summit-semi.pdf)
 
 This page was constructed by [FrancisBond](FrancisBond), based on
-information from [DanFlickinger](../DanFlickinger) and
-[StephanOepen](../StephanOepen).
+information from [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) and
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen).
 
 ### The SEM-I in MT
 

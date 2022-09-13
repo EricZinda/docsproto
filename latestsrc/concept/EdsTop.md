@@ -89,7 +89,7 @@ provided by [Kuhlmann & Oepen
 (2016)](http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00268).
 
 This page was initiated and is maintained by
-[StephanOepen](../StephanOepen), who is also the original developer of the
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), who is also the original developer of the
 EDS design and supporting Lisp code (which is part of the LKB, as well
 as of the stand-alone Lisp MRS library). Additional details of the
 conversion process from MRS are discussed on the
