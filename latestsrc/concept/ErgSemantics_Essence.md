@@ -1,7 +1,7 @@
 {% raw %}# ERS: High-Level Characterization
 
 In a nutshell, English Resource Semantics (ERS; see
-[ErgSemantics](../ErgSemantics)) captures *sentence meaning* in an abstract
+[ErgSemantics](ErgSemantics)) captures *sentence meaning* in an abstract
 representation that is compatible with logic-based approaches to natural
 language semantics. Here, we interpret ‘sentence meaning’ (in contrast
 to what is at times called ‘speaker’ or ‘occasion meaning’) as the

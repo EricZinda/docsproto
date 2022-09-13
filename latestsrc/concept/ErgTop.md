@@ -25,7 +25,7 @@ Following are pointers to existing documentation on how to use the ERG,
 make sense of the syntactic and semantic analyses it provides, and
 interface to it for parsing or generation:
 
-- [The Semantics Produced by the ERG](../ErgSemantics)
+- [The Semantics Produced by the ERG](ErgSemantics)
 - [Lexical Types](../ErgLeTypes)
 - [Linguistic Type
 Database](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi),

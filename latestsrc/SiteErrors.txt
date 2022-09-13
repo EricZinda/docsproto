@@ -1,0 +1,1 @@
+{"Definition": {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "fErgSemantics.md", "RootRelativeLink": "fErgSemantics", "AbsoluteLink": "https://blog.inductorsoftware.com/docsproto/concept/fErgSemantics"}, "Error": "[Errno 2] No such file or directory: '/home/runner/work/docsproto/docsproto/docswiki/fErgSemantics.md'"}
