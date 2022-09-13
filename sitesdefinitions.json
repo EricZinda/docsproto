@@ -89,7 +89,7 @@
     {"Site": "tools", "Section": "Grammar Tools", "Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
     {"Site": "tools", "Section": "Grammar Tools", "Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
-    {"Site": "Tools", "Section": "ERG Grammar", "Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
+    {"Site": "tools", "Section": "ERG Grammar", "Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
 
     {"Site": "tools", "Section": "Parsing and Generation", "Page": "Ace", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
     {"Site": "tools", "Section": "Parsing and Generation", "Page": "Delphin Tools", "SrcDir": "docswiki", "SrcFile": "DelphinTools.md"},
