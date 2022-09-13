@@ -14,8 +14,8 @@ using the ERG to parse ‘raw’ string inputs, for satisfactory results on
 non-vanilla inputs, it is necessary to apply the ERG tokenization rules,
 e.g. turn on support for [REPP](https://blog.inductorsoftware.com/docsproto/tools/ReppTop) in engines like PET or ACE.
 
-This page was predominantly authored by [StephanOepen](../StephanOepen),
-who jointly with [DanFlickinger](../DanFlickinger) developed the current
+This page was predominantly authored by [StephanOepen](StephanOepen),
+who jointly with [DanFlickinger](DanFlickinger) developed the current
 ERG approach to tokenization. As of early 2009, Stephan is the
 maintainer of the ERG tokenizer and token mapping rules. Please do not
 make substantial changes to this page unless you (a) are reasonably sure
@@ -34,7 +34,7 @@ additional background. In this view, string-level pre-processing and
 initial tokenization is the process of mapping a 'flat' string into a
 token lattice. For further technical background and an example
 demonstrating a broad range of tokenization aspects, please see the page
-[ErgTokenization/ComplexExample](../ErgTokenization_ComplexExample).
+[ErgTokenization/ComplexExample](ErgTokenization_ComplexExample).
 
 In the standard setup for the ERG, this task is solved by means of
 so-called REPP (Regular Expression Pre-Processor) modules, which are

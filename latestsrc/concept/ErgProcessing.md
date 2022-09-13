@@ -2,7 +2,7 @@
 
 This page is intended as a collection of pointers related to *using* the
 ERG (for parsing or generation), with an eye towards first-time users.
-The page was initiated by [StephanOepen](../StephanOepen), who intends to
+The page was initiated by [StephanOepen](StephanOepen), who intends to
 maintain it over time. Seeing that it will be important for the
 information provided here to be accurate and up-to-date, please be both
 pedantic and conservative in making (non-trivial) revisions.
@@ -12,10 +12,10 @@ pedantic and conservative in making (non-trivial) revisions.
 To parse running text using the ERG, a number of tools are required.
 Basically, there are three possible paths towards a software environment
 supporting the ERG: (a) a [‘full-blown’ DELPH-IN distribution
-for](../ErgProcessing#logon) Linux; (b) [the stand-alone ACE or PET
-parsers](../ErgProcessing#standalone), which can be compiled in various
+for](ErgProcessing#logon) Linux; (b) [the stand-alone ACE or PET
+parsers](ErgProcessing#standalone), which can be compiled in various
 operating environments; and (c) a ‘thin’, portable client against the
-[RESTful on-line interface](../ErgProcessing#restful). Each of these
+[RESTful on-line interface](ErgProcessing#restful). Each of these
 choices has distinct advantages and limitations—discussed briefly in the
 individual sections below. All three are regularly used and, thus,
 ‘suported’ by the ERG developers, who will be happy to try and assist
@@ -131,14 +131,14 @@ after the original parsing profile, i.e. in this case
 ‘/tmp/erg.1111.test.12-01-17.pet.gz’ (note that export files by default
 are compressed using GNU gzip(1); sample output for our running example
 is available as a separate
-[ErgProcessing/SampleExport](../ErgProcessing_SampleExport) page; formats
+[ErgProcessing/SampleExport](ErgProcessing_SampleExport) page; formats
 (a), (c), and (d) are further discussed to some degree on the
-[ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations), [ErgSemantics](../ErgSemantics), and
-[EdsTop](../EdsTop) pages, respectively).
+[ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations), [ErgSemantics](ErgSemantics), and
+[EdsTop](EdsTop) pages, respectively).
 
 If you like what you are seeing, it is probably about time to read more
 about the ERG and DELPH-IN technology, for example starting from the
-[ErgTop](../ErgTop) and [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) pages on this wiki, maybe
+[ErgTop](ErgTop) and [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) pages on this wiki, maybe
 perusing our [mailing list archives](http://lists.delph-in.net), or
 preparing a grant application or donation to work with us on improving
 the grammar and tools. There are numerous ways of running the toolchain
@@ -182,7 +182,7 @@ For instructions on how to obtain and run ACE, including pre-compiled
 snapshots of recent ERG releases, please see the [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) page.
 
 For some advice on using options to improve the utility of the ERG with
-ACE, please see the [AceErgTuning](../AceErgTuning) page.
+ACE, please see the [AceErgTuning](AceErgTuning) page.
 
 <a name="restful"/>
 
@@ -193,7 +193,7 @@ As of mid-2016, a programmatic RESTful on-line interface to ERG parsing
 is available, including a sample ‘thin’ client in Python and integration
 in the [pyDelphin](https://github.com/delph-in/pydelphin) environment.
 For emerging documentation on this interface, please see the
-[ErgApi](../ErgApi) page.
+[ErgApi](ErgApi) page.
 
 # Validation
 

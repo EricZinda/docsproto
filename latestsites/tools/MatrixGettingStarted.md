@@ -28,7 +28,7 @@ the morphology. If you have a lot of morphological rules to add, for
 example, try one or two and see how they work before fleshing out full
 paradigms.
 
-In addition, [EmilyBender](../EmilyBender)'s course pages for
+In addition, [EmilyBender](EmilyBender)'s course pages for
 [Ling567](http://courses.washington.edu/ling567) at UW may be helpful.
 These course pages are updated each time the course is taught (roughly
 annually), but typically follow the same schedule:
@@ -41,7 +41,7 @@ and filling out the customization system on the other.
 
 ## What other software do I need?
 
-You'll want the LKB ([LkbTop](../LkbTop)) or ace ([AceTop](../AceTop)), a text
+You'll want the LKB ([LkbTop](LkbTop)) or ace ([AceTop](AceTop)), a text
 editor (preferably emacs), and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb). Typically, the easiest way to
 get set up is with the [Ubuntu+LKB Virtual Box

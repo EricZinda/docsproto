@@ -1,7 +1,7 @@
 {% raw %}# ERS: High-Level Characterization
 
 In a nutshell, English Resource Semantics (ERS; see
-[ErgSemantics](../ErgSemantics)) captures *sentence meaning* in an abstract
+[ErgSemantics](ErgSemantics)) captures *sentence meaning* in an abstract
 representation that is compatible with logic-based approaches to natural
 language semantics. Here, we interpret ‘sentence meaning’ (in contrast
 to what is at times called ‘speaker’ or ‘occasion meaning’) as the
@@ -15,7 +15,7 @@ parsing and generation, because it abstracts from semantically
 irrelevant surface variation, is rich and detailed, yet avoids semantic
 distinctions that are not constrained by the grammar of English. For a
 semi-formal summary of the ERS meaning representation language, please
-see [ErgSemantics Basics](../ErgSemantics_Basics).
+see [ErgSemantics Basics](ErgSemantics_Basics).
 
 In the following sections, we walk through several core aspects (or
 ‘layers’) of ERS meaning representation, provide motivating examples and
@@ -33,16 +33,16 @@ predicate–argument structures go well beyond common target
 representations in semantic role labeling (SRL), in that ERS accounts
 for the contributions of *all* content words as well as those of
 syntactic *constructions* as for example
-[compounding](../ErgSemantics_Compounding) or
-[conditionals](../ErgSemantics_Conditionals).
+[compounding](ErgSemantics_Compounding) or
+[conditionals](ErgSemantics_Conditionals).
 
 Predicate–argument structure is expressed in a collection of *n*-ary
 predications (or relations) linked together by (typed) variables. Thus,
 argument sharing across predicates will be captured through variable
 equality, as for example in [non-scopal
-modification](../ErgSemantics_Design#non-scopal-modification), [control
-constructions](../ErgSemantics_ControlRelations), [coordinate
-structures](../ErgSemantics_Coordination), as illustrated in Example (1),
+modification](ErgSemantics_Design#non-scopal-modification), [control
+constructions](ErgSemantics_ControlRelations), [coordinate
+structures](ErgSemantics_Coordination), as illustrated in Example (1),
 as well as others (like relative clauses and certain types of
 comparatives):
 
@@ -156,7 +156,7 @@ of (5a) may need revisiting.
 ERS makes explicit which parts of the linguistic signal express
 quantification and provides partially-specified information about the
 scope of quantifiers (and other ‘operator-like’ predications; see
-[below](../ErgSemantics_Essence#senses)). The representation is
+[below](ErgSemantics_Essence#senses)). The representation is
 *underspecified* in the sense that we give just one ERS for the
 following type of examples, even though there are two readings,
 depending on the relative scope of the quantifiers:
@@ -202,19 +202,19 @@ and *short* are reversed in the semantics for (2a).
 
 One well-formedness constraint in ERS is that every instance variable
 (i.e. every variable of type *x*; see
-[ErgSemantics/Basics](../ErgSemantics_Basics)) must be bound by a
+[ErgSemantics/Basics](ErgSemantics_Basics)) must be bound by a
 quantifier. Accordingly, ERSs provide quantifiers somewhat ‘generously’,
 one corresponding to each nominal expression in the surface signal, as
 well as additional quantifiers in case the semantic contribution of a
 construction introduces further *x*-type variables (such as
-[Coordination](../ErgSemantics_Coordination),
-[Nominalization](../ErgSemantics_Nominalization), or
-[Partitives](../ErgSemantics_Partitives)). Where there is an overt
+[Coordination](ErgSemantics_Coordination),
+[Nominalization](ErgSemantics_Nominalization), or
+[Partitives](ErgSemantics_Partitives)). Where there is an overt
 determiner (*all*, *none*, *the*, *a*, *this*, etc.) the quantifier will
 reflect the semantic contribution of that determiner. Where there is
 not, the quantifier will be one of a collection of abstract predicates,
 most frequently udef\_q (an underspecified quantifier). See the page on
-[Implicit Quantifiers](../ErgSemantics_ImplicitQuantifiers) for further
+[Implicit Quantifiers](ErgSemantics_ImplicitQuantifiers) for further
 details.
 
 Current NLP tasks rarely exercise the kind of inference enabled by the
@@ -225,7 +225,7 @@ importance (see also Steedman, 2012). For applications where some or all
 of the quantifiers provided by the ERS are not necessary, they can be
 easily identified and handled according to the needs of the application.
 A full inventory of the quantifier predicates provided by the grammar
-can be found in the [SEM-I](../ErgSemantics_Interface) (semantic
+can be found in the [SEM-I](ErgSemantics_Interface) (semantic
 interface). Note that certain elements sometimes treated as quantifiers
 in the literature (notably *many* and the semantic contribution of
 number names) are treated akin to the predicates introduced by
@@ -238,7 +238,7 @@ page when it is available.</span>
 
 The second primary way in which English syntax places constraints on
 scope involves what we call scopal operators (see
-[ErgSemantics Basics](../ErgSemantics_Basics#Convenience)). Here, we
+[ErgSemantics Basics](ErgSemantics_Basics#Convenience)). Here, we
 illustrate this with *say*, *probably*, and *not*, all analyzed in ERS
 as predications that take scopal (i.e. handle-valued) arguments. Their
 scope relative to each other (and to the main predication with which
@@ -460,7 +460,7 @@ grammar does not constrain because they concern only atoms within the
 composition. Two prominent examples are fine-grained word sense
 distinctions and named entity types. Regarding the former, ERS only
 marks those sense distinctions that are morphosyntactically marked (as
-described [above](../ErgSemantics_Essence#ArgumentIdentification)). Since
+described [above](ErgSemantics_Essence#ArgumentIdentification)). Since
 further sense distinctions could never be disambiguated based on
 grammatical structure alone, ERS instead provides predicate symbols
 intended to be underspecified representations of a range of more

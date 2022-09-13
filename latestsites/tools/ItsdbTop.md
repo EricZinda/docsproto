@@ -41,7 +41,7 @@ found in the [TSNLP User Manual (Volume
 ## Installation
 
 The automated installation procedure explained on the
-[LkbInstallation](../LkbInstallation) page includes [\[incr
+[LkbInstallation](LkbInstallation) page includes [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb). To invoke [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) if you've installed the system
 this way:

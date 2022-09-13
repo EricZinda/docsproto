@@ -10,7 +10,7 @@ the empty set).
 
 ## Authors
 
-[AntskeFokkens](../AntskeFokkens): Spring Cleaning algorithm
+[AntskeFokkens](AntskeFokkens): Spring Cleaning algorithm
 
 [YiZhang](https://blog.inductorsoftware.com/docsproto/concept/YiZhang): Grammar Compression
 

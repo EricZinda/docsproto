@@ -1,21 +1,21 @@
 {% raw %}# Background
 
-This page documents Version 1.0 of [DeepBank](../DeepBank), released in
+This page documents Version 1.0 of [DeepBank](DeepBank), released in
 October 2013. In this release, there are annotations for Sections 00–21
 of the venerable Wall Street Journal (WSJ) text from the Penn Treebank
-(PTB). The selection of sentences included in [DeepBank](../DeepBank) is
+(PTB). The selection of sentences included in [DeepBank](DeepBank) is
 aligned with the PTB, but otherwise it is fully independent of the
 original PTB annotations; i.e. none of the linguistic information in
-[DeepBank](../DeepBank) is derivative of the PTB.
+[DeepBank](DeepBank) is derivative of the PTB.
 
-[DeepBank](../DeepBank) annotations are distributed through the
+[DeepBank](DeepBank) annotations are distributed through the
 [META-SHARE](http://www.meta-share.eu/) infrastructure, under the
 META-SHARE Commons Attribution Share-Alike license, which allows
 adaptation and re-distribution of the resource, provided that the use of
-[DeepBank](../DeepBank) is appropriately acknowledged and its license terms
+[DeepBank](DeepBank) is appropriately acknowledged and its license terms
 preserved.
 
-For communication with [DeepBank](../DeepBank) developers and users, there
+For communication with [DeepBank](DeepBank) developers and users, there
 is an archived [mailing
 list](http://lists.delph-in.net/archives/deepbank/) at
 deepbank@delph-in.net.
@@ -48,11 +48,11 @@ inconsistency in the pseudo-derivations it may be impossible to convert
 to the other formats (see below).
 
 529 sentences (1.2%) from these 22 sections of the WSJ text have no
-analysis at all in [DeepBank](../DeepBank).
+analysis at all in [DeepBank](DeepBank).
 
 # Corpus Organization
 
-[DeepBank](../DeepBank) follows the section division familiar from the PTB,
+[DeepBank](DeepBank) follows the section division familiar from the PTB,
 and further sub-divides the data into sub-sections of at most 500
 sentences each, e.g. WSJ00a, WSJ00b, WSJ00c, and WSJ00d. Across all
 sections, sentences are assigned unique eight-digit identifiers, using
@@ -61,7 +61,7 @@ code (within each section), and three-digit item (within each article).
 For example, identifier 20200002 denotes the second item in the first
 file of Section 02, the classic *Ms. Haag plays Elianti.*
 
-The not manually validated, robust analyses in [DeepBank](../DeepBank) are
+The not manually validated, robust analyses in [DeepBank](DeepBank) are
 kept separate from the gold- and silver-standard annotations, in files
 suffixed with an additional ‘.r’, e.g. ‘wsj00a.r’ for the robust
 complement to the first sub-section in the collection.
@@ -92,7 +92,7 @@ definition 0.
 
 # Available File Formats
 
-The native representation of the HPSG analyses in [DeepBank](../DeepBank)
+The native representation of the HPSG analyses in [DeepBank](DeepBank)
 is in the form of what is called [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) *profiles*, essentially
 flat-file relational databases. These are packaged in the download file
@@ -112,7 +112,7 @@ structure tree, labeled with common category abbreviations
 ([ErgTrees](/ErgTrees); to be documented); (f) a logical-form meaning
 representation in Minimal Recursion Semantics (MRS; [MrsRfc](MrsRfc));
 and (g) a reduction of the MRS into variable-free Elementary Dependency
-Structures (EDS; [EdsTop](../EdsTop)).
+Structures (EDS; [EdsTop](EdsTop)).
 
 For immediate compatibility with much mainstream work, there is a
 conversion of the full HPSG analyses into bi-lexical syntactic and
@@ -124,7 +124,7 @@ Language Learning (CoNLL), packaged in the download file
 coin the terms Derivation Tree–Derived (DT) and MRS-Derived (DM)
 bi-lexical dependencies for word-to-word syntactic and semantic
 dependency relations, respectively. Both these dependency views on
-[DeepBank](../DeepBank) annotations are combined in the files below
+[DeepBank](DeepBank) annotations are combined in the files below
 ‘conll/’, providing for each sub-section two variants, one using native
 ERG tokenization conventions, another using PTB-style tokens.
 

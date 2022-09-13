@@ -10,7 +10,7 @@ On-line demos of the ERG are available:
 - http://erg.delph-in.net
 - http://delph-in.github.io/delphin-viz/demo/
 
-You can get started quickly with a local compiled copy of the ERG and the ACE parser via [these instructions](../QuickStart).  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:
+You can get started quickly with a local compiled copy of the ERG and the ACE parser via [these instructions](QuickStart).  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:
 
 - The most recent stable version of the ERG:
   
@@ -19,21 +19,21 @@ You can get started quickly with a local compiled copy of the ERG and the ACE pa
   
        $ svn checkout http://svn.delph-in.net/erg/trunk
 
-You can also obtain a more complete grammar and processing development environment to help with customization and application development using one or more parsers and generators, via the [ERG Processing](../ErgProcessing) page.
+You can also obtain a more complete grammar and processing development environment to help with customization and application development using one or more parsers and generators, via the [ERG Processing](ErgProcessing) page.
 
 Following are pointers to existing documentation on how to use the ERG,
 make sense of the syntactic and semantic analyses it provides, and
 interface to it for parsing or generation:
 
-- [The Semantics Produced by the ERG](../ErgSemantics)
-- [Lexical Types](../ErgLeTypes)
+- [The Semantics Produced by the ERG](ErgSemantics)
+- [Lexical Types](ErgLeTypes)
 - [Linguistic Type
 Database](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi),
 with example sentences in Redwoods Treebank
-- [Syntactic and Lexical Rules](../ErgRules)
-- [Lexical and Phrasal Distinctions](../ErgTreebankingRules)
-- [Tokenization Assumptions](../ErgTokenization)
-- [The Redwoods Treebank](../RedwoodsTop) Many sentences parsed with the
+- [Syntactic and Lexical Rules](ErgRules)
+- [Lexical and Phrasal Distinctions](ErgTreebankingRules)
+- [Tokenization Assumptions](ErgTokenization)
+- [The Redwoods Treebank](RedwoodsTop) Many sentences parsed with the
 ERG.
 - ERG is released under the [MIT
 license](http://svn.delph-in.net/erg/trunk/LICENSE)
@@ -45,7 +45,7 @@ Resource Semantics is a valuable source of information for many
 semantically-sensitive NLP tasks. ERS-based systems have achieved
 state-of-the-art results in various tasks, including the identification
 of speculative or negated event mentions in biomedical text
-([MacKinlay](../MacKinlay) et al 2011), question generation (Yao et al
+([MacKinlay](MacKinlay) et al 2011), question generation (Yao et al
 2012), detecting the scope of negation (Packard et al 2014), relating
 natural language to robot control language (Packard 2014), and
 recognizing textual entailment (PETE task; Lien & Kouylekov 2015). ERS
@@ -88,7 +88,7 @@ of the ninth international conference on language resources and
 evaluation (LREC'14) (pp. 875-881). Reykjavik, Iceland: European
 Language Resources Association (ELRA).
 
-Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](../DeepBank). A
+Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](DeepBank). A
 dynamically annotated treebank of the Wall Street Journal. In (p.
 85-96). Lisbon, Portugal: Edições Colibri.
 

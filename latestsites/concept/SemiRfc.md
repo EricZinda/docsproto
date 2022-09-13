@@ -2,19 +2,19 @@
 
 Contents
 
-1. [SEM-I](../SemiRfc#SEM-I)
-   1. [Sections](../SemiRfc#Sections)
-      1. [variables](../SemiRfc#variables)
-      1. [properties](../SemiRfc#properties)
-      1. [roles](../SemiRfc#roles)
-      1. [predicates](../SemiRfc#predicates)
-   1. [.smi file syntax](../SemiRfc#A.smi_file_syntax)
-      1. 1. 1. [Notes](../SemiRfc#Notes)
-   1. [Including Files](../SemiRfc#Including_Files)
-1. [Implementation](../SemiRfc#Implementation)
+1. [SEM-I](SemiRfc#SEM-I)
+   1. [Sections](SemiRfc#Sections)
+      1. [variables](SemiRfc#variables)
+      1. [properties](SemiRfc#properties)
+      1. [roles](SemiRfc#roles)
+      1. [predicates](SemiRfc#predicates)
+   1. [.smi file syntax](SemiRfc#A.smi_file_syntax)
+      1. 1. 1. [Notes](SemiRfc#Notes)
+   1. [Including Files](SemiRfc#Including_Files)
+1. [Implementation](SemiRfc#Implementation)
    1. [Redefined Predicate
-Hierarchies](../SemiRfc#Redefined_Predicate_Hierarchies)
-1. [Proposals](../SemiRfc#Proposals)
+Hierarchies](SemiRfc#Redefined_Predicate_Hierarchies)
+1. [Proposals](SemiRfc#Proposals)
 
 A SEM-I, or SEMantic-Interface, is a description of the semantic
 structures output by the grammar, and may include entries for variables,
@@ -83,8 +83,8 @@ optional roles and constraints on role values). E.g.:
 Predicate entries may be divided among several files. One file may
 contain just the hierarchical relations (e.g. hierarchy.smi in the ERG
 1214), another for [abstract
-predicates](../PredicateRfc#Abstract_Predicates) (e.g. abstract.smi), and
-another for [surface predicates](../PredicateRfc#Surface_Predicates) (e.g.
+predicates](PredicateRfc#Abstract_Predicates) (e.g. abstract.smi), and
+another for [surface predicates](PredicateRfc#Surface_Predicates) (e.g.
 surface.smi). Some very top-level, perhaps extragrammatical, entries may
 appear in the main .smi file as well (e.g. erg.smi).
 

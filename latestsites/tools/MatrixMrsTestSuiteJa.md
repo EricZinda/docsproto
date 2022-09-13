@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](../MatrixMrsTestSuite) for [Jacy](JacyTop).
+{% raw %}This is the [MRS Test Suite](MatrixMrsTestSuite) for [Jacy](JacyTop).
 
 ## Japanese MRS Test Suite
 

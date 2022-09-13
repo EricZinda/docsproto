@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
 This page provides installation instructions for the LOGON
-infrastructure (see the [LogonTop](../LogonTop) page for general
+infrastructure (see the [LogonTop](LogonTop) page for general
 information), combined with background information on the use of
 [SubVersion](http://subversion.tigris.org) (SVN) for both delivery and
 collaborative development of the LOGON source tree. As of late 2008, the
@@ -82,9 +82,9 @@ either proprietary third-party software (e.g. Allegro Common Lisp or the
 XLE LFG system) or 'bulky' add-on modules, the repository is configured
 to provide overlays to the core tree on demand. These extensions, and
 how to use SVN to install them, are discussed on the
-[LogonExtras](../LogonExtras) page. If you expect to install proprietary
+[LogonExtras](LogonExtras) page. If you expect to install proprietary
 add-ons (i.e. have a personal SVN user account), please read the
-[LogonExtras](../LogonExtras) page before you proceed; it is advisable to
+[LogonExtras](LogonExtras) page before you proceed; it is advisable to
 start with the authenticated SVN access method from the beginning, i.e.
 already while installing the freely accessible *core* tree.
 
@@ -160,7 +160,7 @@ LKB MRS browser should pop up, and the *Previous* and *Next* buttons
 navigate through results in case of multiple MRSs.
 
 If you have trouble running the *logon* binary, checkout the [LKB
-Installation page](../LkbInstallation), especially the final section on
+Installation page](LkbInstallation), especially the final section on
 troubleshooting.
 
 # (4) Batch Processing
@@ -189,7 +189,7 @@ Or try batch parsing using the ERG, for example
 
       ./parse --binary --erg+tnt --best 1 --text ./uio/data/romsdal.en.txt
 
-The [LogonProcessing](../LogonProcessing) page provides more documentation
+The [LogonProcessing](LogonProcessing) page provides more documentation
 on the various scripts and available system configurations.
 
 # (5) Interactive MT Development
