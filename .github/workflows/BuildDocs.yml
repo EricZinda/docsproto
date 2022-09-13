@@ -131,6 +131,17 @@ jobs:
         with:
           path: main/latestsites/
 
+      - name: Build Matrix with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/matrix
+          destination: main/latestsites/matrix
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+
       # Now commit and push all the changes to record this version of the docs
       - name: Commit files
         run: |

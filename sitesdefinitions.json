@@ -12,7 +12,8 @@
   [
     {"SiteFullName": "DELPH-IN Documentation", "SiteNavigationName": "Home", "Site": "home"},
     {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept"},
-    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"}
+    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"},
+    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix"}
   ],
   "Pages":
   {
@@ -77,15 +78,6 @@
         {"Page": "Tuning Ace for ERG", "SrcDir": "docswiki", "SrcFile": "AceErgTuning.md", "Referrer": "concept/ErgProcessing.md"},
         {"Page": "ERG REST API", "SrcDir": "docswiki", "SrcFile": "ErgApi.md", "Referrer": "concept/ErgProcessing.md"}
       ]},
-      {"Section": "Grammar Matrix", "Pages": [
-        {"Page": "MatrixTop", "SrcDir": "docswiki", "SrcFile": "MatrixTop.md", "Referrer": "home/RussianQuestionsGrammarTop.md"},
-        {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
-        {"Page": "Matrix Development Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDevTop.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "KrgTop", "SrcDir": "docswiki", "SrcFile": "KrgTop.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "WambayaTop", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "MandarinGrammarOnline", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"}
-      ]},
       {"Section": "Formats", "Pages": [
         {"Page": "Predicates", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
         {"Page": "MRS Format", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
@@ -121,6 +113,68 @@
         {"Page": "Raw Materials", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Raw_Materials.md"},
         {"Page": "ERG Semantics Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"},
         {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
+      ]}
+    ],
+    "matrix": [
+      {"Section": "Grammar Matrix", "Pages": [
+        {"Page": "MatrixTop", "SrcDir": "docswiki", "SrcFile": "MatrixTop.md", "Referrer": "home/RussianQuestionsGrammarTop.md"},
+        {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
+        {"Page": "Matrix Development Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDevTop.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "Updating the Customization System", "SrcDir": "docswiki", "SrcFile": "Updating_the_Customization_System.md", "Referrer": "concept/Updating_the_Customization_System.md"},
+        {"Page": "matrixdef File Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "concept/Updating_the_Customization_System.md"},
+        {"Page": "Matrix Customization Unit Testing", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationUnitTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
+        {"Page": "Matrix Regression Testing", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
+        {"Page": "Matrix Customization Web Testing", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationWebTesting.md", "Referrer": "concept/MatrixCustomizationWebTesting.md"},
+        {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"}
+      ]},
+      {"Section": "Matrix Doc", "Pages": [
+        {"Page": "General Info", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_GeneralInfo.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Word Order", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WordOrder.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Number", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Number.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Person", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Person.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Gender", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Gender.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Adnominal Possession", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_AdnominalPossession.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Direct Inverse", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_DirectInverse.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "TenseAspectMood", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TenseAspectMood.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Evidentials", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Evidentials.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Other Features", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_OtherFeatures.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Sentential Negation", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_SententialNegation.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Coordination", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Coordination.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "YesNoQ", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_YesNoQ.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Wh Questions", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WhQuestions.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Information Structure", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_InformationStructure.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Argument Optionality", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ArgumentOptionality.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Clausal Modifiers", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalModifiers.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Clausal Complements", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalComplements.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Lexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Lexicon.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Morphology", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Morphology.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Import Toolbox Lexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ImportToolboxLexicon.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "est Sentences", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TestSentences.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Test By Generation", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TestByGeneration.md", "Referrer": "concept/MatrixDocTop.md"}
+      ]},
+      {"Section": "Grammars", "Pages": [
+        {"Page": "KrgTop", "SrcDir": "docswiki", "SrcFile": "KrgTop.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "WambayaTop", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "MandarinGrammarOnline", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"},
+      ]},
+      {"Section": "MRS Tests", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
+        {"Page": "English", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteEn.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Japanese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteJa.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Norwegian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteNo.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Greek", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteGr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteFr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "German", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteDe.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Swedish", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteSv.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "ZhTw", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteZhTw.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Mandarin", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteMandarin.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Cantonese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteCantonese.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteRu.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Bulgarian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteBg.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Portuguese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuitePt.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Indonesian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteIndonesian.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Tatoeba", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteTatoeba.md", "Referrer": "concept/MatrixMrsTestSuite.md"}
       ]}
     ],
     "tools": [
@@ -180,24 +234,6 @@
         {"Page": "Transfer", "SrcDir": "docswiki", "SrcFile": "LogonTransfer.md"},
         {"Page": "Idiosyncrasies", "SrcDir": "docswiki", "SrcFile": "LogonIdiosyncrasies.md"},
         {"Page": "Wishlist", "SrcDir": "docswiki", "SrcFile": "LogonWishlist.md"}
-      ]},
-      {"Section": "Matrix MRS Tests", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
-        {"Page": "English", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteEn.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Japanese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteJa.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Norwegian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteNo.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Greek", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteGr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteFr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "German", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteDe.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Swedish", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteSv.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "ZhTw", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteZhTw.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Mandarin", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteMandarin.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Cantonese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteCantonese.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteRu.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Bulgarian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteBg.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Portuguese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuitePt.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Indonesian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteIndonesian.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Tatoeba", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteTatoeba.md", "Referrer": "concept/MatrixMrsTestSuite.md"}
       ]},
       {"Section": "<todo>", "Pages": [
         {"Page": "RichardBergmair", "SrcDir": "docswiki", "SrcFile": "RichardBergmair.md"},
