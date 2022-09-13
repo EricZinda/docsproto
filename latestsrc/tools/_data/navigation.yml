@@ -18,8 +18,6 @@ toc:
     children:
       - title: "Agree"
         url: "AgreeTop"
-      - title: "Grammar Matrix Getting Started"
-        url: "MatrixGettingStarted"
   - title: "Grammar Tools"
     children:
       - title: "Erroneous Generation Analysis and Detection"
@@ -34,10 +32,12 @@ toc:
         url: "ClimbShortClimb"
       - title: "Typediff"
         url: "TypediffTop"
-  - title: "ERG Grammar"
-    children:
+      - title: "Grammar Version Control"
+        url: "VersionControlForGrammarDevelopment"
       - title: "Chart Mapping"
         url: "ChartMapping"
+      - title: "CLIMB for Germanic languages"
+        url: "Climb_GClimb"
   - title: "Parsing and Generation"
     children:
       - title: "Ace"

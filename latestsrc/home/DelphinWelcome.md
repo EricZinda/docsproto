@@ -23,6 +23,6 @@ technology:
 - [ErsTutorial](../ErsTutorial): A tutorial on using the ERG
 - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics): Documentation of the semantic
 representations produced by the ERG
-- [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/tools/MatrixGettingStarted): A starting point for
+- [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/concept/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
 {% endraw %}

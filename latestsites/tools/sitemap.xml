@@ -16,6 +16,9 @@
 <loc>http://blog.inductorsoftware.com/docsproto/tools/ClimbShortClimb/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/Climb_GClimb/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/DelphinTools/</loc>
 </url>
 <url>
@@ -88,9 +91,6 @@
 <loc>http://blog.inductorsoftware.com/docsproto/tools/LogonWishlist/</loc>
 </url>
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/tools/MatrixGettingStarted/</loc>
-</url>
-<url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/MatrixMrsTestSuite/</loc>
 </url>
 <url>
@@ -161,6 +161,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/TypediffTop/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/VistaExtractionTop/</loc>
