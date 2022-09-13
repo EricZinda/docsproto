@@ -1,4 +1,5 @@
 [
+["home", {"Site": "home", "Section": "DELPH-IN", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md", "RootRelativeLink": "Home", "AbsoluteLink": "https://blog.inductorsoftware.com/docsproto/home/Home"}],
 ["ergsemantics", {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md", "RootRelativeLink": "ErgSemantics", "AbsoluteLink": "https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics"}],
 ["ergsemantics_essence", {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md", "RootRelativeLink": "ErgSemantics_Essence", "AbsoluteLink": "https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Essence"}],
 ["ergsemantics_basics", {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md", "RootRelativeLink": "ErgSemantics_Basics", "AbsoluteLink": "https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Basics"}],

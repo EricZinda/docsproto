@@ -5,3 +5,8 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/concept
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools
+toc:
+  - title: "DELPH-IN"
+    children:
+      - title: "Overview"
+        url: "Home"
