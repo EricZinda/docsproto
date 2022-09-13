@@ -1,13 +1,13 @@
 {% raw %}Contents
 
-1. [Overview](PetTop#Overview)
-1. [Obtaining PET](PetTop#Obtaining_PET)
-1. [Compiling and Installing PET](PetTop#Compiling_and_Installing_PET)
-1. [PET for developers](PetTop#PET_for_developers)
-1. [Compiling a grammar](PetTop#Compiling_a_grammar)
-1. [Running PET](PetTop#Running_PET)
-1. [Tips and Tricks](PetTop#Tips_and_Tricks)
-1. [History](PetTop#History)
+1. [Overview](../PetTop#Overview)
+1. [Obtaining PET](../PetTop#Obtaining_PET)
+1. [Compiling and Installing PET](../PetTop#Compiling_and_Installing_PET)
+1. [PET for developers](../PetTop#PET_for_developers)
+1. [Compiling a grammar](../PetTop#Compiling_a_grammar)
+1. [Running PET](../PetTop#Running_PET)
+1. [Tips and Tricks](../PetTop#Tips_and_Tricks)
+1. [History](../PetTop#History)
 
 # Overview
 
@@ -31,7 +31,7 @@ improvement in parsing efficiency for long inputs)
 of (R)MRSs
 - output of fragmentary analysis hypotheses in case of parse failures
 - lattice input (via the YY, PIC and SMAF input formats, cf.
-[PetInput](PetInput))
+[PetInput](../PetInput))
 - a variety of XML-based input formats that generalize the
 lattice-oriented YY input mode
 - pruning of the search space using a PCFG model
@@ -117,7 +117,7 @@ customization of PET behavior to various tasks. Maybe the biggest factor
 of variation is in (a) how input to the cheap parser is prepared for
 PET-internal processing and in (b) what form analysis results are output
 (or returned to the caller) after parsing; these are discussed on
-separate [PetInput](PetInput) and [PetOutput](PetOutput) pages,
+separate [PetInput](../PetInput) and [PetOutput](PetOutput) pages,
 respectively. Many other aspects of PET run-time behavior can be
 controlled using command-line options (see the [PetOptions](PetOptions)
 page), given to the flop or cheap binaries upon invocation, and
@@ -206,7 +206,7 @@ support for MRS extraction from parse results and MRS output in various
 formats. [BartCramer](BartCramer) added the possibility to constrain the
 search space by using a PCFG-guided pruning of tasks, on the chart cell
 level. In 2010, [PeterAdolphs](PeterAdolphs) (DFKI Berlin) added [chart
-mapping](ChartMapping) and the [FSC input format](PetInputFsc).
+mapping](../ChartMapping) and the [FSC input format](PetInputFsc).
 
 ## To cite
 

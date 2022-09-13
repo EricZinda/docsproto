@@ -22,21 +22,21 @@ address for the LKB (and other LinGO resources): lingo@delph-in.net.
 
 **Table of Contents**
 
-- [Overview](LkbInstallation#overview)
-- [Supported Hard- and Software Platforms](LkbInstallation#supported-hard--and-software-platforms)
-- [Automated Installation](LkbInstallation#automated-installation)
-- [Which Version to Use: Stable vs. Latest](LkbInstallation#which-version-to-use-stable-vs-latest)
-- [Manual Installation](LkbInstallation#manual-installation)
-- [First-Time Use](LkbInstallation#first-time-use)
-  - [Directory for LKB Temporary Files](LkbInstallation#directory-for-lkb-temporary-files)
-- [Virtual Machine Image](LkbInstallation#virtual-machine-image)
-- [Development and Supported Lisp Environments](LkbInstallation#development-and-supported-lisp-environments)
-- [Further Pointers](LkbInstallation#further-pointers)
-- [Trouble Shooting](LkbInstallation#trouble-shooting)
-  - [amd64 Version](LkbInstallation#amd64-version)
-  - [libXm.so.4](LkbInstallation#libxmso4)
-  - [libXpm.so.4](LkbInstallation#libxpmso4)
-  - [uming font problem](LkbInstallation#uming-font-problem)
+- [Overview](../LkbInstallation#overview)
+- [Supported Hard- and Software Platforms](../LkbInstallation#supported-hard--and-software-platforms)
+- [Automated Installation](../LkbInstallation#automated-installation)
+- [Which Version to Use: Stable vs. Latest](../LkbInstallation#which-version-to-use-stable-vs-latest)
+- [Manual Installation](../LkbInstallation#manual-installation)
+- [First-Time Use](../LkbInstallation#first-time-use)
+  - [Directory for LKB Temporary Files](../LkbInstallation#directory-for-lkb-temporary-files)
+- [Virtual Machine Image](../LkbInstallation#virtual-machine-image)
+- [Development and Supported Lisp Environments](../LkbInstallation#development-and-supported-lisp-environments)
+- [Further Pointers](../LkbInstallation#further-pointers)
+- [Trouble Shooting](../LkbInstallation#trouble-shooting)
+  - [amd64 Version](../LkbInstallation#amd64-version)
+  - [libXm.so.4](../LkbInstallation#libxmso4)
+  - [libXpm.so.4](../LkbInstallation#libxpmso4)
+  - [uming font problem](../LkbInstallation#uming-font-problem)
 
 <!-- markdown-toc end -->
 
@@ -53,8 +53,8 @@ at http://lingo.delph-in.net/builds/2004-09-17/. There are no newer
 binary versions due to unresolved licensing issues.
 
 For macOS there are two main alternatives, outlined on the
-[LkbMacintosh](LkbMacintosh) page. One is to run the new, fully open
-source version of the LKB ('LKB-FOS'); see the [LkbFos](LkbFos) page for
+[LkbMacintosh](../LkbMacintosh) page. One is to run the new, fully open
+source version of the LKB ('LKB-FOS'); see the [LkbFos](../LkbFos) page for
 details. Another is to run a Linux version of the LKB in a virtual
 machine.
 
@@ -296,7 +296,7 @@ There is a VirtualBox virtual machine image built by researchers at the
 University of Washington, which boots you into Linux with the LKB:
 [Ubuntu+LKB](https://wiki.ling.washington.edu/bin/view.cgi/Main/KnoppixLKB);
 this may be useful for Windows and macOS users (see also
-[LkbMacintosh](LkbMacintosh)).
+[LkbMacintosh](../LkbMacintosh)).
 
 # Development and Supported Lisp Environments
 
@@ -312,7 +312,7 @@ and visualization will only be available with Allegro CLIM; there is
 partial support for [LispWorks](http://www.lispworks.com) CLIM.
 
 A fully open source version of the LKB is also available, which is not
-dependent on any proprietary software; see [LkbFos](LkbFos) for details.
+dependent on any proprietary software; see [LkbFos](../LkbFos) for details.
 The core of the LKB is ANSI Common Lisp and is known to compile in a
 variety of free Lisp implementations, including
 
@@ -345,7 +345,7 @@ see:
 
 - [LkbEmacs](LkbEmacs): Instructions on interfacing the LKB to the
 emacs(1) editor;
-- [LkbFos](LkbFos): Running the fully open source version of the LKB;
+- [LkbFos](../LkbFos): Running the fully open source version of the LKB;
 - [LkbCompilation](LkbCompilation): Compiling the LKB source code (in
 various lisps);
 - [LkbFaq](LkbFaq): Frequently Asked Questions related to using the

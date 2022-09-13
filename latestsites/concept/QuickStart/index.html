@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>DELPH-IN Conceptual Docs</title>
+<!-- begin _includes/seo.html --><title>DELPH-IN Concepts</title>
 <meta name="description" content="An amazing website.">
 
 
@@ -19,8 +19,8 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="DELPH-IN Conceptual Docs">
-<meta property="og:title" content="DELPH-IN Conceptual Docs">
+<meta property="og:site_name" content="DELPH-IN Concepts">
+<meta property="og:title" content="DELPH-IN Concepts">
 <meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/concept/QuickStart/">
 
 
@@ -67,7 +67,7 @@
 
 
 
-  <link href="/docsproto/concept/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Conceptual Docs Feed">
+  <link href="/docsproto/concept/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Concepts Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -112,13 +112,15 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/docsproto/concept/"><img src="/docsproto/concept/assets/images/Delph-In.png" alt="DELPH-IN Conceptual Docs"></a>
+          <a class="site-logo" href="/docsproto/concept/"><img src="/docsproto/concept/assets/images/Delph-In.png" alt="DELPH-IN Concepts"></a>
         
         <a class="site-title" href="/docsproto/concept/">
-          DELPH-IN Conceptual Docs
+          DELPH-IN Concepts
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home">Home</a>
+            </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/concept">Concepts</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/tools">Tools</a>
@@ -452,7 +454,7 @@ compiled at 23:08:25 on Nov 19 2018
 </code></pre></div></div>
 
 <p>Confirm the grammar works with ACE (for fine tuning, see
-<a href="AceErgTuning">AceErgTuning</a>):</p>
+<a href="../AceErgTuning">AceErgTuning</a>):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -Tq &lt;&lt;&lt; "Dogs sleep."
 [ LTOP: h0 INDEX: e2 [ e SF: prop ] RELS: &lt; [ unknown&lt;0:11&gt; LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;0:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ compound&lt;0:11&gt; LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x10 [ x PERS: 3 NUM: pl IND: + PT: notpro ] ]  [ udef_q&lt;0:4&gt; LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]  [ _dog_n_1&lt;0:4&gt; LBL: h14 ARG0: x10 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 h12 qeq h14 &gt; ICONS: &lt; &gt; ]

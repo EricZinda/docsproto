@@ -47,7 +47,7 @@ and verbal gerunds:
 
 # More Information
 
-- [ErgSemantics](ErgSemantics) Main Page
-- [Inventory of Semantic Phenomena](ErgSemantics_Inventory)
-- [How to Cite this Work](ErgSemantics_HowToCite)
+- [ErgSemantics](../ErgSemantics) Main Page
+- [Inventory of Semantic Phenomena](../ErgSemantics_Inventory)
+- [How to Cite this Work](../ErgSemantics_HowToCite)
 {% endraw %}

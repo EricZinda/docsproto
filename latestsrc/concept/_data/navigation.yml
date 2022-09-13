@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: https://blog.inductorsoftware.com/docsproto/home
   - title: "Concepts"
     url: https://blog.inductorsoftware.com/docsproto/concept
   - title: "Tools"

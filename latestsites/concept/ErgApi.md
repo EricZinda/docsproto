@@ -16,7 +16,7 @@ The following terse sections aim to provide minimal documentation to
 users who might want to obtain ERG parses without creating their own
 installation of the DELPH-IN software stack. Michael Goodman and
 [NedLetcher](https://blog.inductorsoftware.com/docsproto/tools/NedLetcher) have contributed substantially to the design
-and testing of the interface; [StephanOepen](StephanOepen) maintains the
+and testing of the interface; [StephanOepen](../StephanOepen) maintains the
 server-side implementation based on the LKB and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) environments.
 
@@ -33,9 +33,9 @@ parsing result are available (with more in the making): its *derivation*
 tree (e.g. the full recipe for deriving this analysis; see the
 [ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations) page), an underspecified
 logical-form meaning representation in *Minimal Recursion Semantics*
-(MRS; see the [ErgSemantics](ErgSemantics) page for background), and a
+(MRS; see the [ErgSemantics](../ErgSemantics) page for background), and a
 simplification of the semantics as an *Elementary Dependency Structure*
-(EDS; see the [EdsTop](EdsTop) page for background).
+(EDS; see the [EdsTop](../EdsTop) page for background).
 
 For example, the query
 <http://erg.delph-in.net/rest/0.9/parse?derivation=json&input=Abrams%20arrived.>
