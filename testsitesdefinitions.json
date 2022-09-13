@@ -8,12 +8,22 @@
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"}
   ],
   "Pages":
-  [
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics","SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
-    {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics","SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
-    {"Site": "tools", "Section": "Tools", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
-    {"Site": "tools", "Section": "Tools", "Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"}
-  ]
+  {
+    "concept": [
+      {"Section": "Erg Semantics", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
+        {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"}
+      ]},
+      {"Section": "Semantics", "Pages": [
+        {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
+        {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"}
+      ]}
+    ],
+    "tools": [
+      {"Section": "Tools", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
+        {"Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"}
+      ]}
+    ]
+  }
 }

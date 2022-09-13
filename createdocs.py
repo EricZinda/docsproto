@@ -295,7 +295,99 @@ def log_json_items_to_file(relative_path, list):
         txt_file.write("\n]\n")
 
 
+# {
+#     "concept": [
+#         {"Section": "ErgSemantics", "Pages": [
+#           {"Page": "ErgSemantics_Inventory", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md", "Referrer": "concept/ErgSemantics.md"},
+#           {"Page": "RedwoodsTop", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "ErgSemantics_HowToCite", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true}
+#         ]}
+#     ],
+#     "tools": [
+#         {"Section": "Tools", "Pages": [
+#           {"Page": "ErgSemantics_Inventory", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md", "Referrer": "concept/ErgSemantics.md"},
+#           {"Page": "RedwoodsTop", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
+#           {"Page": "ErgSemantics_HowToCite", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true}
+#         ]}
+#     ]
+# }
+def convert_pages_flat_to_tree(sites_definition):
+    converted = {}
+    for page in sites_definition:
+        if page["Site"] not in converted:
+            converted[page["Site"]] = []
+        found = None
+        for section in converted[page["Site"]]:
+            if section["Section"] == page["Section"]:
+                found = section
+                break
+        if found is None:
+            found = {"Section": page["Section"], "Pages": []}
+            converted[page["Site"]].append(found)
+
+        page_copy = copy.deepcopy(page)
+        page_copy.pop("Site")
+        page_copy.pop("Section")
+        found["Pages"].append(page_copy)
+
+    return converted
+
+
+def convert_to_flat_definition(sites_definitions):
+    converted = {"Pages": []}
+    for top_key in sites_definitions.items():
+        if top_key[0] == "Pages":
+            for site in top_key[1].items():
+                site_name = site[0]
+                for section in site[1]:
+                    for page in section["Pages"]:
+                        page_definition = {"Site": site_name, "Section": section["Section"]}
+                        page_definition.update(page)
+                        converted["Pages"].append(page_definition)
+        else:
+            converted[top_key[0]] = top_key[1]
+
+    return converted
+
+
+def log_json_tree_to_file(relative_path, tree):
+    script_path = os.path.dirname(os.path.realpath(__file__))
+
+    file_path = os.path.join(script_path, relative_path)
+    if os.path.exists(file_path):
+        os.remove(file_path)
+
+    with open(file_path, "w") as txt_file:
+        txt_file.write("  {\n")
+        sites = []
+        for site in tree.items():
+            site_text = f'    "{site[0]}": [\n'
+            sections = []
+            for section in site[1]:
+                section_text = f'      {{"Section": "{section["Section"]}", "Pages": [\n'
+                section_text += ",\n".join(f'        {json.dumps(page)}' for page in section["Pages"])
+                section_text += '\n      ]}'
+                sections.append(section_text)
+            site_text += ",\n".join(sections)
+            site_text += '\n    ]'
+            sites.append(site_text)
+        txt_file.write(",\n".join(sites))
+        txt_file.write("\n  }")
+
+
 if __name__ == '__main__':
+    # with open("/Users/ericzinda/Enlistments/docsproto/testsitesdefinitions.json", "r") as txtFile:
+    #     sites_definition = json.loads(txtFile.read())
+    #
+    # tree_pages = convert_pages_flat_to_tree(sites_definition["Pages"])
+    # log_json_tree_to_file("sitesdefinitions1.json", tree_pages)
+
     if len(sys.argv) == 6:
         root_address = sys.argv[1]
         input_content_root = sys.argv[2]
@@ -304,7 +396,8 @@ if __name__ == '__main__':
         sites_definitions_path = sys.argv[5]
 
         with open(sites_definitions_path, "r") as txtFile:
-            sites_definition = json.loads(txtFile.read())
+            sites_definition_tree = json.loads(txtFile.read())
+            sites_definition = convert_to_flat_definition(sites_definition_tree)
 
         # Create the sites
         createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
@@ -330,8 +423,12 @@ if __name__ == '__main__':
 
         # Create a file that proposes fixes to the site definitions for all broken links
         proposed_fixes, transitive_closure = propose_broken_links(all_links, sites_definition, input_content_root)
-        log_json_items_to_file("latestsrc/BrokenLinks.json", [item[1] for item in proposed_fixes.items()])
-        log_json_items_to_file("latestsrc/TransitiveBrokenLinks.json", [item[1] for item in transitive_closure.items()])
+
+        proposed_fixes_tree = convert_pages_flat_to_tree([item[1] for item in proposed_fixes.items()])
+        log_json_tree_to_file("latestsrc/BrokenLinks.json", proposed_fixes_tree)
+
+        transitive_closure_tree = convert_pages_flat_to_tree([item[1] for item in transitive_closure.items()])
+        log_json_tree_to_file("latestsrc/TransitiveBrokenLinks.json", transitive_closure_tree)
 
     else:
         print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs")
