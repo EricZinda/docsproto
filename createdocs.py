@@ -254,8 +254,8 @@ if __name__ == '__main__':
         script_path = os.path.dirname(os.path.realpath(__file__))
 
         if len(errors) > 0:
-            print(f"Errors generating site (see SiteErrors.json)\n")
             errors_path = os.path.join(script_path, "latestsrc/SiteErrors.txt")
+            print(f"Errors generating site (see {errors_path}):{json.dumps(errors)}\n")
             if os.path.exists(errors_path):
                 os.remove(errors_path)
             with open(errors_path, "w") as txtFile:
