@@ -14,6 +14,8 @@
   ],
   "Pages":
   [
+    {"Site": "home", "Section": "DELPH-IN", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
+
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Basics","SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
