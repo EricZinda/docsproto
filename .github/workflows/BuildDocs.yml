@@ -91,7 +91,18 @@ jobs:
       # Build the site with Jekyll
       - name: Setup Pages
         uses: actions/configure-pages@v1
-        
+
+      - name: Build Home with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/home
+          destination: main/latestsites/home
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+          
       - name: Build Conceptual with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
