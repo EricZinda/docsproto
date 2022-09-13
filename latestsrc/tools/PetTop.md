@@ -193,20 +193,20 @@ of (R)MRSs in various standard formats.
 Towards the end of 2003, Ulrich retired from active PET development, and
 Bernd has since been the main developer (with occasional help from
 others, specifically [FrederikFouvry](FrederikFouvry) and
-[YiZhang](YiZhang) of Saarland University and Stephan). PET has seen a
+[YiZhang](https://blog.inductorsoftware.com/docsproto/concept/YiZhang) of Saarland University and Stephan). PET has seen a
 range of substantial additions in functionality since, including the
 ability to add (leaf) types at run-time, output fragmentary analysis
 hypotheses in case of parse failures, and an XML-based input format that
 generalizes the lattice-oriented YY input mode.
 
-In 2006 [YiZhang](YiZhang) (Saarland University) added the ability to do
+In 2006 [YiZhang](https://blog.inductorsoftware.com/docsproto/concept/YiZhang) (Saarland University) added the ability to do
 [selective unpacking](PetSelectiveUnpacking), greatly decreasing the
 memory consumption for n-best parsing. Later, Yi added native C++
 support for MRS extraction from parse results and MRS output in various
 formats. [BartCramer](BartCramer) added the possibility to constrain the
 search space by using a PCFG-guided pruning of tasks, on the chart cell
 level. In 2010, [PeterAdolphs](PeterAdolphs) (DFKI Berlin) added [chart
-mapping](ChartMapping) and the [FSC input format](PetInputFsc).
+mapping](../ChartMapping) and the [FSC input format](PetInputFsc).
 
 ## To cite
 

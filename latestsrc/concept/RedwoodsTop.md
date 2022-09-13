@@ -75,7 +75,7 @@ petet | "Evaluation By Textual Entailment (Test)" |  || https://link.springer.co
 # Current Development Status
 
 The latest public release of the Redwoods Treebank (and the associated
-[WikiWoods](WikiWoods) Treecache, i.e. a very large collection of ERG
+[WikiWoods](../WikiWoods) Treecache, i.e. a very large collection of ERG
 parses) is the [Ninth
 Growth](http://svn.delph-in.net/erg/tags/1214/tsdb/gold/), including an
 improved and moderately enlarged version of [DeepBank](../DeepBank). The
@@ -83,7 +83,7 @@ Ninth Growth used the 1214 version of the ERG. [Flickinger
 (2011)](http://lists.delph-in.net/archives/developers/attachments/20180514/ffe9ae3d/attachment-0001.pdf)
 gives brief descriptions of several of the larger components in the
 appendix. Those components include: Verbmobil (vm\*), E-commerce (ec\*),
-LOGON (jh\*, ps\*, tg\*, rondane, hike), [SemCor](SemCor) (sc\*),
+LOGON (jh\*, ps\*, tg\*, rondane, hike), [SemCor](../SemCor) (sc\*),
 Wikipedia (ws01-13, ws214), and an Eric Raymond essay (cb). The main
 addition to the Ninth Growth over previous versions is the
 [DeepBank](../DeepBank) annotation of the Wall Street Journal, sections
@@ -91,8 +91,8 @@ addition to the Ninth Growth over previous versions is the
 [proceedings of TLT 2011](http://tlt11.clul.ul.pt/ProceedingsTLT11.tgz).
 There are also two profiles (rtc000, rtc001) from the Tanaka (Pacling
 2001) corpus, two profiles of user-generated web content studied in the
-[WeScience](WeScience) project, and several profiles also from the Brown
-[SemCor](SemCor) that were treebanked for a [SemEval](/SemEval) shared
+[WeScience](../WeScience) project, and several profiles also from the Brown
+[SemCor](../SemCor) that were treebanked for a [SemEval](/SemEval) shared
 task after the ERG 1214 release was frozen (cf\*, cg\*, ck\*, cl\*,
 cm\*, cn\*, cp\*, cr\*), described by [Oepen et al.
 (2015)](http://www.aclweb.org/anthology/S15-2153). Finally, the Ninth
@@ -103,7 +103,7 @@ The [Eighth Growth](http://svn.delph-in.net/erg/tags/1212/tsdb/gold/)
 was released in September 2013. It includes 85,000 sentences, consisting
 of data sets from several distinct domains, including not only (a) the
 Verbmobil and ecommerce corpora from earlier releases and (b) the data
-from the LOGON Norwegian-English MT corpus, the [WeScience](WeScience)
+from the LOGON Norwegian-English MT corpus, the [WeScience](../WeScience)
 100-article portion of the English Wikipedia and a portion of the
 semantically tagged subset of the Brown corpus (SemCor); but also (c) a
 fresh re-annotation of large parts of the venerable WSJ text behind the
@@ -118,7 +118,7 @@ Eighth Growth was first released as a separate package dubbed [DeepBank
 The grammar and treebanks have been stable since August 2016, and the
 semantic graphs from DeepBank 1.1 have been [released in a variety of
 formats](http://sdp.delph-in.net). The corresponding 1214 release of the
-[WikiWoods](WikiWoods) Treecache is expected by the summer of 2017.
+[WikiWoods](../WikiWoods) Treecache is expected by the summer of 2017.
 
 Earlier relevant Redwoods revisions include the [Second
 Growth](http://redwoods.stanford.edu/ftp/2nd/), [Third
@@ -150,7 +150,7 @@ process of exporting all or parts of the Redwoods Treebank into a
 collection of plain text files can be fully automated by virtue of a
 shell script. For (somewhat terse, sadly) instructions on exporting
 various views on the Redwoods data, please see the Section *Exporting
-Various Plain-Text Formats* on the [WeScience](WeScience) page as well
+Various Plain-Text Formats* on the [WeScience](../WeScience) page as well
 as the [ErgProcessing](../ErgProcessing) page.
 
 # Standard Splits

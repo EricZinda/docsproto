@@ -93,9 +93,9 @@ This page was initiated and is maintained by
 EDS design and supporting Lisp code (which is part of the LKB, as well
 as of the stand-alone Lisp MRS library). Additional details of the
 conversion process from MRS are discussed on the
-[EdsConversion](EdsConversion) page, and experimental documentation on
+[EdsConversion](../EdsConversion) page, and experimental documentation on
 using EDS as an input representation to generation with the ERG is
-provided on the [EdsGeneration](EdsGeneration) page.
+provided on the [EdsGeneration](../EdsGeneration) page.
 
 # A First Example
 
@@ -207,7 +207,7 @@ attributes and corresponding values associated to logical variables; in
 our examples so far, we have suppressed all such information. For some
 further discussion of MRS variable properties and how they relate to
 features and types internal to a parsing or generation grammar, please
-see the [RmrsVpm](RmrsVpm) page.
+see the [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) page.
 
 Seeing that EDS is a variable-free representation, variable properties
 need to be re-associated with dependency nodes, more specifically the
@@ -235,7 +235,7 @@ examples above.
 Serialization of node properties is enabled by the boolean configuration
 option \*eds-show-properties-p\*, which until late 2015 used to default
 to false; with emerging use of EDS for generation (see the
-[EdsGeneration](EdsGeneration) page for background) more recently, it
+[EdsGeneration](../EdsGeneration) page for background) more recently, it
 seemed convenient to toggle the default behavior, in a sense trading a
 bit of compactness and readability for additional information content.
 
