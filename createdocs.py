@@ -252,6 +252,7 @@ if __name__ == '__main__':
         all_pages, all_links, tocs, errors = create_sites_src(root_address, src_root, dst_root, sites_definitions_path)
 
         script_path = os.path.dirname(os.path.realpath(__file__))
+        print(f"root path: {script_path}\n")
 
         if len(errors) > 0:
             errors_path = os.path.join(script_path, "latestsrc/SiteErrors.txt")

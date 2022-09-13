@@ -47,4 +47,6 @@ https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/
 - includes how to create new layouts if theirs don't work for us
 
+# Using Google for search   
+
 
