@@ -280,7 +280,8 @@ if __name__ == '__main__':
         log_json_items_to_file("latestsrc/AllLinks.json", all_links)
 
         proposed_fixes = propose_broken_links(all_links)
-        log_json_items_to_file("latestsrc/BrokenLinks.json", all_links)
+
+        log_json_items_to_file("latestsrc/BrokenLinks.json", [item[1] for item in proposed_fixes.items()])
 
     else:
         print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
