@@ -102,6 +102,10 @@ toc:
         url: "AceErgTuning"
       - title: "ERG REST API"
         url: "ErgApi"
+  - title: "Grammar Matrix"
+    children:
+      - title: "Overview"
+        url: "GrammarCatalogue"
   - title: "Formats"
     children:
       - title: "Predicates"
