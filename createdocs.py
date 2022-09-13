@@ -71,7 +71,7 @@ def convert_child(sites_definitions, file_definition, node):
 # returns None if this is not a local link
 def parse_relative_link(SrcFile, link):
     split_url = urllib.parse.urlparse(link)
-    if split_url.scheme == "" or split_url.netloc == "":
+    if split_url.scheme == "" and split_url.netloc == "" and split_url.path[0:4] != "www.":
         # This is a local link
         # If the link is on the same page, use the page as the path
         if split_url.path == "":
