@@ -1,6 +1,10 @@
 {
   "Comments": [
-    "This comments section is solely for comments that describe this json file"
+    "This comments section is solely for comments that describe this json file",
+
+    "EVERYTHING is case sensitive!",
+      "If a broken link is reported that doesn't seem broken, look at the casing of all the worlds in the entire page definition.",
+      "OR look at the link that is calling it, it may not be cased properly"
   ],
   "Sites":
   [
