@@ -133,7 +133,7 @@ are compressed using GNU gzip(1); sample output for our running example
 is available as a separate
 [ErgProcessing/SampleExport](../ErgProcessing_SampleExport) page; formats
 (a), (c), and (d) are further discussed to some degree on the
-[ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations), [ErgSemantics](ErgSemantics), and
+[ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations), [ErgSemantics](../ErgSemantics), and
 [EdsTop](../EdsTop) pages, respectively).
 
 If you like what you are seeing, it is probably about time to read more
