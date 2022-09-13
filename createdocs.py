@@ -260,7 +260,7 @@ if __name__ == '__main__':
                 os.remove(errors_path)
             with open(errors_path, "w") as txtFile:
                 for error in errors:
-                    txtFile.write({json.dumps(error)})
+                    txtFile.write(f"{json.dumps(error)}")
             assert False
 
         create_tocs(dst_root, tocs)
