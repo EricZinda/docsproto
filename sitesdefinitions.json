@@ -4,7 +4,9 @@
 
     "EVERYTHING is case sensitive!",
       "If a broken link is reported that doesn't seem broken, look at the casing of all the worlds in the entire page definition.",
-      "OR look at the link that is calling it, it may not be cased properly"
+      "OR look at the link that is calling it, it may not be cased properly",
+
+    "If you add a new site, you must update .github/workflows/BuildDocs.yml to get jekyll to run on it and upload it"
   ],
   "Sites":
   [

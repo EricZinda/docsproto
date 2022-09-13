@@ -1,4 +1,0 @@
----
-layout: delphin_page
----
-

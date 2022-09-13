@@ -102,7 +102,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: main/latestsites/
-          
+
       - name: Build Conceptual with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
