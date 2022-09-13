@@ -8,7 +8,8 @@
   ],
   "Sites":
   [
-    {"SiteFullName": "DELPH-IN Conceptual Docs", "SiteNavigationName": "Concepts", "Site": "concept"},
+    {"SiteFullName": "DELPH-IN Documentation", "SiteNavigationName": "Home", "Site": "home"},
+    {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept"},
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"}
   ],
   "Pages":
