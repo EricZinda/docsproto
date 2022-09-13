@@ -97,7 +97,7 @@ representations
 broad-coverage grammars for German, Japanese, Norwegian, and
 Spanish, along with significant grammars for several other
 languages.
-- [Matrix](MatrixTop): Starter-Kit for rapid prototyping of
+- [Matrix](https://blog.inductorsoftware.com/docsproto/concept/MatrixTop): Starter-Kit for rapid prototyping of
 LKB-compatible precision grammars
 - [CLIMB](ClimbTop): Tools to support grammar development of
 LKB-compatible precision grammars
@@ -109,7 +109,7 @@ Implementation (including extensions and variants such Robust MRS
 (DMRS))
   - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics): Emerging documentation of MRS
 as used in the ERG
-  - [RmrsDiscussions](RmrsDiscussions): Links to discussions
+  - [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/concept/RmrsDiscussions): Links to discussions
 related to MRS at various DELPH-IN events
 - Shared Corpora, [Treebanks](TreebankingTop)
   - [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/tools/MatrixMrsTestSuite): Core Test Suite (\~100

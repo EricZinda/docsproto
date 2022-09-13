@@ -10,7 +10,7 @@ toc:
     children:
       - title: "Overview"
         url: "Home"
-      - title: "DelphinWelcome"
+      - title: "Welcome"
         url: "DelphinWelcome"
       - title: "English Resource Semantics Tutorial"
         url: "ErsTutorial"

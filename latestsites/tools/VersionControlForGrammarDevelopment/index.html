@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN Tools">
 <meta property="og:title" content="DELPH-IN Tools">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/tools/MatrixGettingStarted/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/tools/MatrixGettingStarted/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment/">
 
 
 
@@ -207,8 +207,6 @@
           
             <li><a href="/docsproto/tools/AgreeTop">Agree</a></li>
           
-            <li><a href="/docsproto/tools/MatrixGettingStarted">Grammar Matrix Getting Started</a></li>
-          
         </ul>
         
       </li>
@@ -233,19 +231,11 @@
           
             <li><a href="/docsproto/tools/TypediffTop">Typediff</a></li>
           
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">ERG Grammar</span>
-        
-
-        
-        <ul>
+            <li><a href="/docsproto/tools/VersionControlForGrammarDevelopment">Grammar Version Control</a></li>
           
             <li><a href="/docsproto/tools/ChartMapping">Chart Mapping</a></li>
+          
+            <li><a href="/docsproto/tools/Climb_GClimb">CLIMB for Germanic languages</a></li>
           
         </ul>
         
@@ -435,93 +425,128 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="getting-started-with-the-grammar-matrix">Getting Started with the Grammar Matrix</h1>
+        <h1 id="version-control-for-grammar-development">Version Control for Grammar Development</h1>
 
-<p>This page provides pointers for getting started with the Grammar Matrix
-customization system.</p>
+<p>This page is intended to describe how to use version control systems
+(VCSs) with grammars. Version control (also “revision control”) is
+essentially a more sophisticated method of backup for files. Users
+“checkout” files from a repository, modify the files, and “commit” their
+changes back into the repository. These systems usually have
+functionality for merging changes from multiples users, thus
+facilitating collaboration, and users can get previous versions of files
+from the history in order to revert damaging changes, etc. The
+repository is usually stored somewhere other than the development
+machines for safety. More information is available at
+<a href="http://en.wikipedia.org/wiki/Revision_control">http://en.wikipedia.org/wiki/Revision_control</a>.</p>
 
-<h2 id="where-is-the-matrix">Where is the Matrix?</h2>
+<p>The two systems discussed below are Subversion and Git. Unless you are
+working with an existing setup with Subversion, it is recommended to use
+Git as it is more powerful and more readily available, although it has a
+higher learning curve. Subversion is a centralized system while Git is
+distributed. This means that with Subversion all users collaborate by
+committing work to one hosted repository, while with Git each user has
+their own repository and they collaborate by merging changes between
+repositories. For more information see the Wikipedia page on
+<a href="https://en.wikipedia.org/wiki/Distributed_version_control">distributed version
+control</a>.</p>
 
-<p>The customization system can be accessed from the following web page:</p>
+<p>Contents</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://matrix.delph-in.net/customize/matrix.cgi
+<ol>
+  <li><a href="../VersionControlForGrammarDevelopment#Version_Control_for_Grammar_Development">Version Control for Grammar
+Development</a>
+    <ol>
+      <li><a href="../VersionControlForGrammarDevelopment#Subversion">Subversion</a></li>
+      <li><a href="../VersionControlForGrammarDevelopment#Git">Git</a></li>
+      <li><a href="../VersionControlForGrammarDevelopment#General_Suggestions">General Suggestions</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="subversion">Subversion</h2>
+
+<p>For an introduction to Subversion’s commands and workflow, please see
+<a href="https://subversion.apache.org/quick-start">this quick-start guide</a>, or
+<a href="http://svnbook.red-bean.com/">this book</a> if you need even more info.
+Below is a brief listing of common commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   1 $ svn checkout svn://example.com/mygrammar  # check out a grammar's repository
+   2 $ cd mygrammar/                             # change to grammar directory
+   3 $ emacs mygrammar.tdl                       # edit a file
+   4 $ svn status                                # check the edit status of files
+   5 $ svn diff                                  # view differences between the local and remote versions
+   6 $ svn add newfile.tdl                       # add a new file to be tracked
+   7 $ svn commit -m "message"                   # commit current changes to the repository
+   8 $ svn log                                   # view the change history
+   9 $ svn update                                # download and merge commits from the remote repository
+  10 
 </code></pre></div></div>
 
-<h2 id="where-can-i-find-instructions-on-filling-out-the-questionnaire">Where can I find instructions on filling out the questionnaire?</h2>
+<h2 id="git">Git</h2>
 
-<p>Most of the libraries in the Grammar Matrix have at least some
-documentation on the <a href="MatrixDocTop">MatrixDoc</a> pages.</p>
+<p>For an introduction to Git’s commands and workflow, please see <a href="https://git-scm.com/">its
+website</a>, which has links to free learning
+resources, including books, a cheat-sheet, videos, etc. Below is a brief
+listing of common commands. Also note that the Grammar Matrix
+Customization System will allow you to download a grammar already
+initialized with Git.</p>
 
-<p>Note that filling out the questionnaire is an iterative process. To get
-as much as possible out of the customization system, you should develop
-a test suite illustrating the phenomena covered by the questionnaire in
-the language you are modeling and then develop different versions of
-your ‘choices’ file (the file containing your answers to the
-questionnaire), iteratively testing the resulting grammar on your test
-suite. Furthermore, it is always wise to start small and extend
-incrementally. Even with morphologically complex languages, your very
-first version of your grammar should have a full-form lexicon. Once you
-see that working (and parsing a few sentences), you can go back and do
-the morphology. If you have a lot of morphological rules to add, for
-example, try one or two and see how they work before fleshing out full
-paradigms.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   1 $ git clone git://example.com/mygrammar     # clone a remote repository locally
+   2 $ cd mygrammar/                             # change to grammar directory
+   3 $ emacs mygrammar.tdl                       # edit a file
+   4 $ git status                                # check the edit status of files
+   5 $ git diff                                  # view differences between the local and remote versions
+   6 $ git add newfile.tdl                       # add a new or modified file to the "staging area"
+   7 $ git commit -m "message"                   # commit current changes to the local repository
+   8 $ git push                                  # upload local commits to a remote repository
+   9 $ git pull                                  # download and merge commits from a remote repository
+  10 $ git log                                   # view the change history
+  11 $ git grep ...                              # perform a grep search only over tracked files (very useful!)
+  12 
+</code></pre></div></div>
 
-<p>In addition, <a href="../EmilyBender">EmilyBender</a>’s course pages for
-<a href="http://courses.washington.edu/ling567">Ling567</a> at UW may be helpful.
-These course pages are updated each time the course is taught (roughly
-annually), but typically follow the same schedule:</p>
+<h2 id="general-suggestions">General Suggestions</h2>
 
-<ul>
-  <li>Lab 1 is an exercise about getting familiar with the LKB and doesn’t
-really relate to the Matrix.</li>
-  <li>Labs 2-4 walk students through creating test suites on the one hand
-and filling out the customization system on the other.</li>
-  <li>Labs 5-8 are about extending the grammars through tdl editing.</li>
-</ul>
-
-<h2 id="what-other-software-do-i-need">What other software do I need?</h2>
-
-<p>You’ll want the LKB (<a href="../LkbTop">LkbTop</a>) or ace (<a href="../AceTop">AceTop</a>), a text
-editor (preferably emacs), and <a href="http://www.delph-in.net/itsdb">[incr
-tsdb()]</a>. Typically, the easiest way to
-get set up is with the <a href="http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/KnoppixLKB">Ubuntu+LKB Virtual Box
-appliance</a>,
-maintained at UW.</p>
-
-<h2 id="how-about-papers-i-can-read">How about papers I can read?</h2>
-
-<p>The key references for the Grammar Matrix are the following two papers:</p>
+<p>When working with grammar repositories, these suggestions may save you
+some headaches:</p>
 
 <ul>
-  <li>Bender, Emily M., Scott Drellishak, Antske Fokkens, Laurie Poulson,
-and Safiyyah Saleem. 2010. Grammar Customization. Research on
-Language and Computation 8(1):23-72.
-<a href="http://faculty.washington.edu/ebender/bibtex/BenDreFokPouSal10.bib.txt">[.bib</a>]
-[Pre-print available on request.]</li>
-  <li>Bender, Emily M., Dan Flickinger and Stephan Oepen. 2002. <a href="http://faculty.washington.edu/ebender/papers/gee03.pdf">The
-Grammar Matrix: An Open-Source Starter-Kit for the Rapid Development
-of Cross-Linguistically Consistent Broad-Coverage Precision
-Grammars</a>.
-Carroll, John, Nelleke Oostdijk, and Richard Sutcliffe, eds.
-Proceedings of the Workshop on Grammar Engineering and Evaluation at
-the 19th International Conference on Computational Linguistics.
-Taipei, Taiwan. pp. 8-14.</li>
+  <li>Do not track easily recreateable files; for instance ACE’s .dat
+files, temporary files, parsed <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a> profiles (except for gold
+profiles or skeletons), etc.</li>
+  <li>Do not track binaries or compressed files; this includes .dat files
+and compressed <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a>
+relations (e.g., item.gz); the version control system compresses
+things itself, so by tracking compressed text files you make it less
+efficient at computing changes</li>
+  <li>
+    <p>For Git, use a .gitignore file so commands like git status do not
+show you files you do not want to track. Here is a sample .gitignore
+file:</p>
+
+    <ul>
+      <li>
+        <h1 id="temporary-files-from-emacs-vim-etc">Temporary files from Emacs, vim, etc.</h1>
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*~
+\#*\#
+*.elc
+auto-save-list
+.\#*
+    
+# Compiled Grammar images
+*.dat
+*.grm
+    
+# TSDB profiles
+tsdb/home/
+tsdb/current/
+trees/
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
 </ul>
-
-<p>A complete list of publications from the Grammar Matrix project is
-available on the <a href="http://www.delph-in.net/matrix/">project home page</a>.</p>
-
-<h2 id="what-else-might-be-helpful">What else might be helpful?</h2>
-
-<p>Once you are working with tdl editing, the
-<a href="GrammarEngineeringFaq">GrammarEngineeringFaq</a> pages may be helpful.
-The feature geometry cheat sheets at the bottom of
-<a href="GeFaqFeatureGeometry">GeFaqFeatureGeometry</a> are particularly popular.</p>
-
-<h2 id="where-can-i-send-questions">Where can I send questions?</h2>
-
-<p>Please check out the <a href="https://delphinqa.ling.washington.edu/">DELPH-IN QA Discourse
-site</a> and post questions there.</p>
 
         
       </section>
