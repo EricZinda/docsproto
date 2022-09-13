@@ -2,7 +2,7 @@
 
 For the first ten or so years of EDS support, there used to be only one
 implementation of the conversion procedure, maintained by
-[StephanOepen](StephanOepen) as part of the Common Lisp MRS library
+[StephanOepen](../StephanOepen) as part of the Common Lisp MRS library
 (which is typically loaded as part of the LKB, but is at times also
 compiled stand-alone, for example to link with the PET parser). Starting
 around 2014, [RebeccaDridan](RebeccaDridan) has developed a C++
@@ -21,7 +21,7 @@ implementation of the conversion is used.
 
 # Predicate Modification
 
-The [EdsTop](EdsTop) page discusses the somewhat common instances of
+The [EdsTop](../EdsTop) page discusses the somewhat common instances of
 ‘fragmented’ EDS graphs owing to the incomplete ERG analysis of degree
 specification on quantifiers, as for example *nearly every*. In no small
 part to address these imperfections, conversion to EDS provides an

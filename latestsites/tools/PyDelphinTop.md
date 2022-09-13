@@ -1,6 +1,6 @@
 {% raw %}
 PyDelphin is a Python library for working with DELPH-IN representations,
-as well as client interfaces to the [ACE](AceTop) processor and [web
+as well as client interfaces to the [ACE](../AceTop) processor and [web
 API](https://blog.inductorsoftware.com/docsproto/concept/ErgApi).
 
 PyDelphin can be installed from the [Python Package

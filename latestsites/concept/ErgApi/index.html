@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>DELPH-IN Conceptual Docs</title>
+<!-- begin _includes/seo.html --><title>DELPH-IN Concepts</title>
 <meta name="description" content="An amazing website.">
 
 
@@ -19,8 +19,8 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="DELPH-IN Conceptual Docs">
-<meta property="og:title" content="DELPH-IN Conceptual Docs">
+<meta property="og:site_name" content="DELPH-IN Concepts">
+<meta property="og:title" content="DELPH-IN Concepts">
 <meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/concept/ErgApi/">
 
 
@@ -67,7 +67,7 @@
 
 
 
-  <link href="/docsproto/concept/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Conceptual Docs Feed">
+  <link href="/docsproto/concept/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Concepts Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -112,13 +112,15 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/docsproto/concept/"><img src="/docsproto/concept/assets/images/Delph-In.png" alt="DELPH-IN Conceptual Docs"></a>
+          <a class="site-logo" href="/docsproto/concept/"><img src="/docsproto/concept/assets/images/Delph-In.png" alt="DELPH-IN Concepts"></a>
         
         <a class="site-title" href="/docsproto/concept/">
-          DELPH-IN Conceptual Docs
+          DELPH-IN Concepts
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home">Home</a>
+            </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/concept">Concepts</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/tools">Tools</a>
@@ -431,7 +433,7 @@ The following terse sections aim to provide minimal documentation to
 users who might want to obtain ERG parses without creating their own
 installation of the DELPH-IN software stack. Michael Goodman and
 <a href="https://blog.inductorsoftware.com/docsproto/tools/NedLetcher">NedLetcher</a> have contributed substantially to the design
-and testing of the interface; <a href="StephanOepen">StephanOepen</a> maintains the
+and testing of the interface; <a href="../StephanOepen">StephanOepen</a> maintains the
 server-side implementation based on the LKB and <a href="http://www.delph-in.net/itsdb">[incr
 tsdb()]</a> environments.</p>
 
@@ -448,9 +450,9 @@ parsing result are available (with more in the making): its <em>derivation</em>
 tree (e.g. the full recipe for deriving this analysis; see the
 <a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations">ItsdbDerivations</a> page), an underspecified
 logical-form meaning representation in <em>Minimal Recursion Semantics</em>
-(MRS; see the <a href="ErgSemantics">ErgSemantics</a> page for background), and a
+(MRS; see the <a href="../ErgSemantics">ErgSemantics</a> page for background), and a
 simplification of the semantics as an <em>Elementary Dependency Structure</em>
-(EDS; see the <a href="EdsTop">EdsTop</a> page for background).</p>
+(EDS; see the <a href="../EdsTop">EdsTop</a> page for background).</p>
 
 <p>For example, the query
 <a href="http://erg.delph-in.net/rest/0.9/parse?derivation=json&amp;input=Abrams%20arrived.">http://erg.delph-in.net/rest/0.9/parse?derivation=json&amp;input=Abrams%20arrived.</a>

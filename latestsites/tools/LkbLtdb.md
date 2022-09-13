@@ -1,5 +1,5 @@
 {% raw %}The ***Linguistic Type Database*** processes grammars and treebanks to
-make online documentation for grammars made with the [LKB](LkbTop).
+make online documentation for grammars made with the [LKB](../LkbTop).
 
 The code and documentation can mainly be found on github:
 <https://github.com/fcbond/ltdb>
@@ -10,16 +10,16 @@ treebank if it exists.
 
 Contents
 
-1. [Sample In Line Documentation](LkbLtdb#Sample_In_Line_Documentation)
-   1. [Examples](LkbLtdb#Examples)
-   1. [Names](LkbLtdb#Names)
+1. [Sample In Line Documentation](../LkbLtdb#Sample_In_Line_Documentation)
+   1. [Examples](../LkbLtdb#Examples)
+   1. [Names](../LkbLtdb#Names)
 1. [Integration with FFTB and
-delphin-viz](LkbLtdb#Integration_with_FFTB_and_delphin-viz)
-1. [Installation](LkbLtdb#Installation)
-   1. [Setting up your server](LkbLtdb#Setting_up_your_server)
-   1. [Tool Support](LkbLtdb#Tool_Support)
-1. [References](LkbLtdb#References)
-1. [To Do](LkbLtdb#To_Do)
+delphin-viz](../LkbLtdb#Integration_with_FFTB_and_delphin-viz)
+1. [Installation](../LkbLtdb#Installation)
+   1. [Setting up your server](../LkbLtdb#Setting_up_your_server)
+   1. [Tool Support](../LkbLtdb#Tool_Support)
+1. [References](../LkbLtdb#References)
+1. [To Do](../LkbLtdb#To_Do)
 
 The minimal Linguistic Type Database offers the following:
 
@@ -133,7 +133,7 @@ appropriate Apache configuration file. That could be
 ### Tool Support
 
 As of 2018-11-4, docstrings are supported by the latest
-[LKB-FOS](LkbFos) and [PyDelphin](PyDelphin), PET and ACE, with support
+[LKB-FOS](../LkbFos) and [PyDelphin](PyDelphin), PET and ACE, with support
 in the LOGON LKB promised soon.
 
 Currently, the LKB does NOT support doc-strings in instances (such as

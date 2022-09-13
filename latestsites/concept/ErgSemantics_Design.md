@@ -149,15 +149,15 @@ semantic fingerprints that uniquely picks out sentences with this
 property. Rather, non-scopal modification is a property of several
 phenomena discussed in this documentation, including at least:
 
-- [Apposition](ErgSemantics_Apposition) (pending reanalysis in terms
+- [Apposition](../ErgSemantics_Apposition) (pending reanalysis in terms
 of ICONS)
-- [Compounding](ErgSemantics_Compounding): ‘compound’,
+- [Compounding](../ErgSemantics_Compounding): ‘compound’,
 ‘compound\_name’, including titles and N-ed (J-N\_CRD-T\_C cuts
 across compounding and coordination)
-- [Implicit Locatives](ErgSemantics_ImplicitLocatives): (‘today’,
+- [Implicit Locatives](../ErgSemantics_ImplicitLocatives): (‘today’,
 ‘every time he arrives’): ‘loc\_nonsp’
 - [Instrumental
-Relatives](ErgSemantics_InstrumentalRelatives): ‘with\_p\_rel’
+Relatives](../ErgSemantics_InstrumentalRelatives): ‘with\_p\_rel’
 - Extraposed relative clauses (create page for these?)
 
 Some previous descriptions of ERS have used the term ‘intersective

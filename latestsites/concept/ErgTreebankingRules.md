@@ -1,6 +1,6 @@
 {% raw %}# Lexical distinctions
 
-- See documentation at [ErgTop](ErgTop)
+- See documentation at [ErgTop](../ErgTop)
 
 # Rule distinctions
 

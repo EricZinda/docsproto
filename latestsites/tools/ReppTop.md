@@ -5,7 +5,7 @@ relatively simple finite-state device used to prepare textual input for
 'deep' parsing (using DELPH-IN grammars). For a high-level discussion of
 REPP and its application to English tokenization, please see [Dridan &
 Oepen (2012)](http://aclweb.org/anthology/P/P12/P12-2074.pdf).
-[MichaelGoodman](MichaelGoodman) has taken an important role in
+[MichaelGoodman](../MichaelGoodman) has taken an important role in
 clarifying the REPP specification while working on his implementation in
 the [pyDelphin](https://pypi.org/project/PyDelphin/) library.
 
@@ -337,7 +337,7 @@ an :id keyword argument in the read-repp() call.
 The programmatic interface to REPP is through the repp() and
 repp-for-pet() functions. These can be used in debugging REPP rules, or
 in preparing input to another parser, specifically PET (see the
-[PetInput](PetInput) page for background). Both functions take optional
+[PetInput](../PetInput) page for background). Both functions take optional
 keyword arguments :repp and :calls, which determine the top-level
 ('master') REPP to be used, and set of active external groups,
 respectively. The value of :calls defaults to the current value of
@@ -371,7 +371,7 @@ boundaries):
       "Wikipedia mark-up is ¦i relatively i¦ straightforward ."
 
 Other available output formats include :pet (the default, returning the
-so-called YY format; see the [PetInput](PetInput) page); :sppp (an
+so-called YY format; see the [PetInput](../PetInput) page); :sppp (an
 LKB-internal format, see the [LkbSppp](LkbSppp) page); and :raw (a list
 of token structures, providing all available information). The last of
 these is the most generic output option; it could be used to wrap an XML
@@ -391,7 +391,7 @@ grammar-internally.
 Finally, the function repp-for-pet() is a wrapper around repp(),
 suitable as a :preprocessor hook in [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) cpu definitions. The LOGON tree
-(see the [LogonTop](LogonTop) page), for example, includes the following
+(see the [LogonTop](../LogonTop) page), for example, includes the following
 two [cpu definitions](http://svn.emmtee.net/trunk/dot.tsdbrc) for the
 ERG (reproduced here in a simplified form):
 
@@ -438,7 +438,7 @@ definition can be simulated by a Lisp function call like the following:
 
 The additional :stream argument will re-direct the result of
 pre-processing into a file (overwriting an existing file by that name,
-if need be), in this case the file sample.yy. See [PetInput](PetInput)
+if need be), in this case the file sample.yy. See [PetInput](../PetInput)
 for further discussion on how REPP outputs can be processed
 interactively in PET, for example for in-depth debugging.
 
