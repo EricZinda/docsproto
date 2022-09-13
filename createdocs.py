@@ -110,11 +110,10 @@ def parse_relative_link(SrcFile, link):
         else:
             path = split_url.path
 
-        # Get rid of leading "/"
+        # Leading "/" refers to a repository, treat it as an absolute path
         path_parts = path.split('/')
         if path_parts[0] == "":
-            del(path_parts[0])
-            path = "/".join(path_parts)
+            return None, None, None, None
 
         return path, split_url.query, split_url.fragment, path_parts
     else:

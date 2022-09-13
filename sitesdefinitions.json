@@ -17,6 +17,9 @@
   "Pages":
   [
     {"Site": "home", "Section": "DELPH-IN", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
+    {"Site": "home", "Section": "DELPH-IN", "Page": "DelphinWelcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
+    {"Site": "home", "Section": "DELPH-IN", "Page": "English Resource Semantics Tutorial", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"},
+    {"Site": "home", "Section": "DELPH-IN", "Page": "Grammar Catalogue", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
 
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
     {"Site": "concept", "Section": "Erg Semantics", "Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
@@ -65,6 +68,8 @@
     {"Site": "concept", "Section": "ERG Usage", "Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
     {"Site": "concept", "Section": "ERG Usage", "Page": "Tuning Ace for ERG", "SrcDir": "docswiki", "SrcFile": "AceErgTuning.md", "Referrer": "concept/ErgProcessing.md"},
     {"Site": "concept", "Section": "ERG Usage", "Page": "ERG REST API", "SrcDir": "docswiki", "SrcFile": "ErgApi.md", "Referrer": "concept/ErgProcessing.md"},
+
+    {"Site": "concept", "Section": "Grammar Matrix", "Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/GrammarCatalogue.md"},
 
     {"Site": "concept", "Section": "Formats", "Page": "Predicates", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
     {"Site": "concept", "Section": "Formats", "Page": "MRS Format", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
