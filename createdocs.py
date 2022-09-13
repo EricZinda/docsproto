@@ -17,6 +17,34 @@ from marko.inline import Link
 import createblanksite
 
 
+# Given a page
+def gather_broken_links_from_page(input_content_root, proposals, sites_definitions, parser, file_definition, src_file_path):
+    file_name, file_extension = os.path.splitext(src_file_path)
+    if file_extension.lower() == ".md":
+        if os.path.exists(src_file_path):
+            this_file_identity = file_definition["SrcDir"] + "/" + file_definition["SrcFile"]
+
+            # If the file is in proposals, it is already scanned
+            if this_file_identity not in proposals:
+                with open(src_file_path, "r") as txtFile:
+                    result = parser.parse(txtFile.read())
+                    links = convert_child(sites_definitions, file_definition, result)
+                    for link in links:
+                        if link["LinkState"] == "invalid_relative":
+                            file_identity = link["SrcDir"] + "/" + link["TargetFile"]
+                            if file_identity not in proposals:
+                                proposals[file_identity] = {"Site": link["Site"],
+                                                            "Section": link["Section"],
+                                                            "Page": link["LinkParts"][-1],
+                                                            "SrcDir": link["SrcDir"],
+                                                            "SrcFile": link["TargetFile"],
+                                                            "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}
+                                new_src_file_path = os.path.join(input_content_root, proposals[file_identity]["SrcDir"], proposals[file_identity]["SrcFile"])
+                                gather_broken_links_from_page(input_content_root, proposals, sites_definitions, parser, proposals[file_identity], new_src_file_path)
+        else:
+            file_definition["FileMissing"] = True
+
+
 def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
     if file_extension.lower() == ".md":
@@ -157,12 +185,16 @@ def get_site_relative_page_link(site, src_file):
         return src_file
 
 
+def add_addresses_for_definition(root_address, definition):
+    file_name, file_extension = os.path.splitext(definition["SrcFile"])
+    definition["RootRelativeLink"] = file_name
+    site_root = posixpath.join(root_address, definition["Site"])
+    definition["AbsoluteLink"] = posixpath.join(site_root, file_name)
+
+
 def add_addresses_for_definitions(root_address, sites_definitions):
     for definition in sites_definitions:
-        file_name, file_extension = os.path.splitext(definition["SrcFile"])
-        definition["RootRelativeLink"] = file_name
-        site_root = posixpath.join(root_address, definition["Site"])
-        definition["AbsoluteLink"] = posixpath.join(site_root, file_name)
+        add_addresses_for_definition(root_address, definition)
 
 
 # Given a definition file that contains all the site definitions create the latestsrc folder structure
@@ -233,15 +265,23 @@ def create_tocs(dst_root, tocs):
 
 
 # Given the full set of links on all pages propose entries to sitedefinitions.json to fix them
-def propose_broken_links(all_links):
+def propose_broken_links(all_links, sites_definitions, input_content_root):
     proposals = {}
     for link in all_links:
         if link["LinkState"] == "invalid_relative":
-            file_identity = link["SrcDir"] + "/" +  link["TargetFile"]
+            file_identity = link["SrcDir"] + "/" + link["TargetFile"]
             if file_identity not in proposals:
                 proposals[file_identity] = {"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'} # , "Debug": linkItem})
 
-    return proposals
+    # Now do the transitive closure of all links from the missing pages
+    parser = Markdown(Parser, MarkdownRenderer)
+    transitive_closure = {}
+    for proposal in proposals.items():
+        file_definition = proposal[1]
+        src_file_path = os.path.join(input_content_root, file_definition["SrcDir"], file_definition["SrcFile"])
+        gather_broken_links_from_page(input_content_root, transitive_closure, sites_definitions["Pages"], parser, file_definition, src_file_path)
+
+    return proposals, transitive_closure
 
 
 def log_json_items_to_file(relative_path, list):
@@ -290,8 +330,9 @@ if __name__ == '__main__':
         log_json_items_to_file("latestsrc/AllLinks.json", all_links)
 
         # Create a file that proposes fixes to the site definitions for all broken links
-        proposed_fixes = propose_broken_links(all_links)
+        proposed_fixes, transitive_closure = propose_broken_links(all_links, sites_definition, input_content_root)
         log_json_items_to_file("latestsrc/BrokenLinks.json", [item[1] for item in proposed_fixes.items()])
+        log_json_items_to_file("latestsrc/TransitiveBrokenLinks.json", [item[1] for item in transitive_closure.items()])
 
     else:
         print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs")
