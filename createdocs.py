@@ -251,41 +251,44 @@ if __name__ == '__main__':
         sites_definitions_path = sys.argv[4]
         all_pages, all_links, tocs, errors = create_sites_src(root_address, src_root, dst_root, sites_definitions_path)
 
+        create_tocs(dst_root, tocs)
+
         script_path = os.path.dirname(os.path.realpath(__file__))
         print(f"root path: {script_path}\n")
 
         errors_path = os.path.join(script_path, "latestsrc/SiteErrors.txt")
-        print(f"Errors generating site (see {errors_path}):{json.dumps(errors)}\n")
         if os.path.exists(errors_path):
             os.remove(errors_path)
         with open(errors_path, "w") as txtFile:
             for error in errors:
                 txtFile.write(f"{json.dumps(error)}")
             txtFile.flush()
-        if len(errors) == 0:
-            create_tocs(dst_root, tocs)
 
-            print("\n\nPages:\n\n")
-            for item in all_pages.items():
-                for subitem in item[1].items():
-                    print(f"{json.dumps(subitem)},")
+        if len(errors) > 0:
+            print(f"Errors generating site (see {errors_path}):{json.dumps(errors)}\n")
+            assert False
+            
+        print("\n\nPages:\n\n")
+        for item in all_pages.items():
+            for subitem in item[1].items():
+                print(f"{json.dumps(subitem)},")
 
-            print("\n\nAll Links:\n\n")
-            for item in all_links:
-                print(f"{json.dumps(item)},")
+        print("\n\nAll Links:\n\n")
+        for item in all_links:
+            print(f"{json.dumps(item)},")
 
-            proposed_fixes = propose_broken_links(all_links)
+        proposed_fixes = propose_broken_links(all_links)
 
-            print("\n\nBroken Links:\n\n")
-            broken_path = os.path.join(script_path, "latestsrc/BrokenLinks.json")
-            if os.path.exists(broken_path):
-                os.remove(broken_path)
+        print("\n\nBroken Links:\n\n")
+        broken_path = os.path.join(script_path, "latestsrc/BrokenLinks.json")
+        if os.path.exists(broken_path):
+            os.remove(broken_path)
 
-            with open(broken_path, "w") as txtFile:
-                txtFile.write("[\n")
-                for item in proposed_fixes.items():
-                    txtFile.write(f"{json.dumps(item[1])},\n")
-                txtFile.write("\n]\n")
+        with open(broken_path, "w") as txtFile:
+            txtFile.write("[\n")
+            for item in proposed_fixes.items():
+                txtFile.write(f"{json.dumps(item[1])},\n")
+            txtFile.write("\n]\n")
 
     else:
         print("Error: Requires 4 arguments: 0) root address of site (i.e. sites will be under that address), 1) full path to where repositories containing docs are stored, 2) full path to the latestsrc directory of the docs repository, 3) full path and filename of the json file that defines the docs")
