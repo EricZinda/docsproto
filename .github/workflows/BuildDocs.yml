@@ -58,7 +58,7 @@ jobs:
       - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/sitesdefinitions.json
 
       - uses: actions/upload-artifact@v2
-        if: ${{ failure() }}
+#        if: ${{ failure() }}
         with:
           name: Site Errors
           path: main/latestsrc/SiteErrors.json
