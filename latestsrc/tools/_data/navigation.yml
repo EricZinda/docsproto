@@ -8,6 +8,10 @@ toc:
     children:
       - title: "Overview"
         url: "ToolsTop"
+  - title: "PyDelphin"
+    children:
+      - title: "Overview"
+        url: "PyDelphinTop"
   - title: "Grammar Environments"
     children:
       - title: "Agree"

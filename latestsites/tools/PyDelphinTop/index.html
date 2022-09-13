@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN Tools">
 <meta property="og:title" content="DELPH-IN Tools">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/tools/TypediffTop/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/tools/TypediffTop/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop/">
 
 
 
@@ -366,80 +366,25 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="typediff">Typediff</h1>
+        
+<p>PyDelphin is a Python library for working with DELPH-IN representations,
+as well as client interfaces to the <a href="../AceTop">ACE</a> processor and <a href="https://blog.inductorsoftware.com/docsproto/concept/ErgApi">web
+API</a>.</p>
 
-<p>Typediff is a tool that enables rapid exploration of the types used in
-the processing of input by DELPH-IN grammars. Its intended use case is
-identifying types associated with the implementation of the analysis of
-specific linguistic phenomena. Besides phenomena investigation, Typediff
-could also be useful for grammar documentation, exploring unfamiliar
-grammars, and comparing different versions of the same grammar. If you
-find Typediff useful, feedback on your particular use case and how you
-used Typediff would be very much appreciated.</p>
+<p>PyDelphin can be installed from the <a href="https://pypi.python.org/pypi">Python Package
+index</a> as follows:</p>
 
-<p>A live installation of Typediff can be found
-<a href="http://hum.csse.unimelb.edu.au/typediff/">here</a>, which currently
-supports the following grammars:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pip3 install pydelphin
+</code></pre></div></div>
 
-<ul>
-  <li><a href="http://www.delph-in.net/erg/">ERG</a></li>
-  <li><a href="JacyTop">Jacy</a></li>
-  <li><a href="http://gg.opendfki.de">GG</a> (although tokenisation is currently
-broken with ACE)</li>
-  <li>HaG</li>
-  <li><a href="NorsourceTop">NorSource</a></li>
-  <li><a href="IndraTop">INDRA</a></li>
-  <li>The three <a href="ZhongTop">Zhong grammars</a></li>
-</ul>
+<p>But it is recommended to install in a virtual environment for your
+application. For example:</p>
 
-<p>The source for Typediff is available on
-<a href="http://github.com/ned2/typediff">GitHub</a>.</p>
-
-<p>Typediff uses ACE for parsing, and should be compatible with any
-DELPH-IN grammar that has been configured to work with ACE. Many thanks
-to Woodley Packard for his assistance with using the ACE engine to
-extract the data needed to power Typediff.</p>
-
-<h2 id="how-it-works">How it Works</h2>
-
-<p>Users enter any number of input items into the A items set and the B
-items set. Each input item is parsed (with ACE) and then for each
-selected reading, every type that appears in the full AVM is extracted.
-The difference of the sets A and B is then computed such that Typediff
-will return all types used to process the A items that were not used by
-the B items. For investigating phenomena, this diffing approach works
-best when you can identify “minimal pairs” of sentences, as otherwise
-unrelated types from the positive sentences will appear as noise in the
-output. If the phenomenon you wish to investigate does not lend itself
-to having such pairs, you can try adding additional sentences to the B
-items to filter out noisy types from the A items. Some example input
-that could be used to explore right-node-raising might be:</p>
-
-<p>A: We relied on and hired consultants.<br />
-B: We relied on consultants and we hired consultants.</p>
-
-<h2 id="example-diffs">Example Diffs</h2>
-
-<p>Here are some example inputs attempting to pinpoint specific phenomena
-within the ERG:</p>
-
-<ul>
-  <li><a href="http://hum.csse.unimelb.edu.au/typediff/#count=10&amp;treebank=redwoods1214&amp;labels=short&amp;tagger=ace&amp;mode=difference&amp;supers=false&amp;fragments=true&amp;Agrammar=erg&amp;A=We%20relied%20on%20and%20hired%20consultants.&amp;Bgrammar=erg&amp;B=We%20relied%20on%20consultants%20and%20we%20hired%20consultants.">Right node
-raising</a></li>
-  <li><a href="http://hum.csse.unimelb.edu.au/typediff/#count=10&amp;treebank=redwoods1214&amp;labels=short&amp;tagger=ace&amp;mode=difference&amp;supers=false&amp;fragments=true&amp;Agrammar=erg&amp;A=The%20dog%20was%20bitten%20by%20the%20catfish.&amp;Bgrammar=erg&amp;B=The%20catfish%20bit%20the%20dog.">Passive</a></li>
-  <li><a href="http://hum.csse.unimelb.edu.au/typediff/#count=10&amp;treebank=redwoods1214&amp;labels=short&amp;tagger=ace&amp;mode=difference&amp;supers=false&amp;fragments=false&amp;Agrammar=erg&amp;A=It%20was%20with%20considerable%20misgivings%20that%20they%20accepted%20the%20position.&amp;Bgrammar=erg&amp;B=They%20accepted%20the%20position%20with%20considerable%20misgivings.">It-clefting</a></li>
-</ul>
-
-<h2 id="using-typediff">Using Typediff</h2>
-
-<p>Typediff is a browser-based interface as well as having a command line
-tool. The web interface has been tested on Chrome and Firefox and
-definitely <strong>won’t</strong> work on versions of Internet Explorer &lt; 9. There
-is a <a href="http://hum.csse.unimelb.edu.au/grammalytics/typediff/">live
-version</a> of the
-web interface (hosted at The University of Melbourne) or you can
-<a href="http://github.com/ned2/grammalytics">install it locally</a>.See the
-README.md file for installation instructions.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   1 $ python3 -m venv env      # create a virtual environment
+   2 $ source env/bin/activate  # activate the environment
+   3 $ pip install pydelphin    # install to the environment
+   4 
+</code></pre></div></div>
 
         
       </section>
