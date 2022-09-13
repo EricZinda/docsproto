@@ -261,6 +261,7 @@ if __name__ == '__main__':
         with open(errors_path, "w") as txtFile:
             for error in errors:
                 txtFile.write(f"{json.dumps(error)}")
+            txtFile.flush()
         if len(errors) > 0:
             assert False
 
