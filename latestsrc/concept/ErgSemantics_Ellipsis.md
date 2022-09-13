@@ -110,7 +110,7 @@ higher-order unification. Linguistics and philosophy, 14(4), 399-452.
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) main page
+- [ErgSemantics](ErgSemantics) main page
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)

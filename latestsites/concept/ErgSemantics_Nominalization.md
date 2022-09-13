@@ -78,7 +78,7 @@ complaining*.
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) main page
+- [ErgSemantics](ErgSemantics) main page
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)

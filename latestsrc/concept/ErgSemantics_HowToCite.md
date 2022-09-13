@@ -25,7 +25,7 @@ To cite this resource (ERG Semantic Documentation), please use the
 following reference:
 
 - Flickinger, Dan, Bender, Emily M. and Oepen, Stephan. 2014. ERG
-Semantic Documentation. Available online at [ErgSemantics](../ErgSemantics). Accessed on 2021-05-10.
+Semantic Documentation. Available online at [ErgSemantics](ErgSemantics). Accessed on 2021-05-10.
 
 ```
 @misc{Fli:Ben:Oep:14,  

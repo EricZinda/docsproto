@@ -49,6 +49,6 @@ analyses which should be documented. These, too, are noted on the
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) Main Page
+- [ErgSemantics](ErgSemantics) Main Page
 - [How to Cite this Work](../ErgSemantics_HowToCite)
 {% endraw %}
