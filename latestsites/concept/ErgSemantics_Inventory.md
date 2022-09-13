@@ -3,7 +3,7 @@
 This page serves as the ‘table of contents’ (and to-do list), i.e.
 provides a collection of items that we believe should be described in
 documenting the semantic analyses of the ERG (see
-[ErgSemantics](ErgSemantics)). The initial list of candidate semantic
+[ErgSemantics](../ErgSemantics)). The initial list of candidate semantic
 phenomena originates from a two-step process. First, grammar entities
 (rules or lexical entries) were automatically inspected for indicators
 of ‘interesting’ semantic properties (via the discovery procedure
@@ -157,6 +157,6 @@ constructions)
 
 # More Information
 
-- [ErgSemantics](ErgSemantics) Main Page
+- [ErgSemantics](../ErgSemantics) Main Page
 - [How to Cite this Work](../ErgSemantics_HowToCite)
 {% endraw %}

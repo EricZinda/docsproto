@@ -110,7 +110,7 @@ in an object-language logic). Parameters are represented as
 than one parameter.
 
 For example, proper names are represented as follows in the ‘fingerprint
-language’ (see the [ErgSemantics](ErgSemantics#semantic-fingerprints)
+language’ (see the [ErgSemantics](../ErgSemantics#semantic-fingerprints)
 page for background):
 
       named(Abrams)[ARG0 x]
@@ -234,7 +234,7 @@ a scopal modifier.
 
 # More Information
 
-- [ErgSemantics](ErgSemantics) main page
+- [ErgSemantics](../ErgSemantics) main page
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)

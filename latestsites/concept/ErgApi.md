@@ -33,7 +33,7 @@ parsing result are available (with more in the making): its *derivation*
 tree (e.g. the full recipe for deriving this analysis; see the
 [ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations) page), an underspecified
 logical-form meaning representation in *Minimal Recursion Semantics*
-(MRS; see the [ErgSemantics](ErgSemantics) page for background), and a
+(MRS; see the [ErgSemantics](../ErgSemantics) page for background), and a
 simplification of the semantics as an *Elementary Dependency Structure*
 (EDS; see the [EdsTop](../EdsTop) page for background).
 

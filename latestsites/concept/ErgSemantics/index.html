@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN Conceptual Docs">
 <meta property="og:title" content="DELPH-IN Conceptual Docs">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/concept/QuickStart/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/concept/ErgSemantics/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/concept/QuickStart/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/concept/ErgSemantics/">
 
 
 
@@ -413,129 +413,162 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>These are instructions to quickly get started parsing with the ERG and
-processing the results. It uses the <a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">ACE</a> parser/generator and
-<a href="https://github.com/delph-in/pydelphin">PyDelphin</a>.</p>
+        <h1 id="introduction">Introduction</h1>
 
-<h1 id="linux-64-bit">Linux (64-bit)</h1>
+<p>The purpose of these pages is to document the semantic representations
+produced by the <a href="http://www.delph-in.net/erg">English Resource Grammar</a>
+(ERG; Flickinger 2000, 2011). The ERG is a broad-coverage,
+linguistically motivated precision grammar for English, associating
+richly detailed semantic representations with input sentences. These
+representations, dubbed English Resource Semantics or ERS, are in the
+formalism of Minimal Recursion Semantics (MRS; Copestake et al 2005).
+They include not only semantic roles, but also information such as the
+distinction between scopal and non-scopal arguments as well as semantic
+representations of linguistically complex phenomena including time and
+date expressions, conditionals, comparatives, and <a href="../ErgSemantics_Inventory">many
+others</a>. ERS can be expressed in various ways,
+including a logic-based syntax using predicates and arguments,
+dependency graphs, and dependency triples. In addition, the
+representations can be obtained either from existing large collections
+(of close to 1.5 million tokens) of manually curated annotations over
+texts from a wide variety of genres (the <a href="../RedwoodsTop">Redwoods
+Treebank</a>; Oepen, et al., 2004; Flickinger, et al., 2012)
+or by <a href="../ErgProcessing">processing new text</a> with the ERG and its
+associated parsing and parse selection algorithms.</p>
 
-<h2 id="install-ace">Install ACE</h2>
+<p>As an example, below is the ERS for the sentence <em>The garden dog tried
+not to bark.</em></p>
 
-<p>You can get pre-compiled ACE binaries at
-<a href="http://sweaglesw.org/linguistics/ace/">http://sweaglesw.org/linguistics/ace/</a>. Command-line instructions for
-getting the latest version (since this wiki was last updated) are as
-follows:</p>
+<p><img src="http://svn.delph-in.net/erg/tags/1214/www/esd/the-garden-dog-tried-not-to-bark.png" title="http://svn.delph-in.net/erg/tags/1214/www/esd/the-garden-dog-tried-not-to-bark.png" class="external_image" alt="http://svn.delph-in.net/erg/tags/1214/www/esd/the-garden-dog-tried-not-to-bark.png" /></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ wget http://sweaglesw.org/linguistics/ace/download/ace-0.9.29-x86-64.tar.gz -q -O - | tar xz
-~$ sudo mv ace-0.9.29 /opt/
+<h1 id="structure-of-the-documentation">Structure of the Documentation</h1>
+
+<p>The ESD pages are organized as a hyper-linked collection of smaller
+documents, each typically discussing a specific semantic phenomenon or
+particular set of higher-level considerations. ERG meaning
+representations take the form of underspecified logical forms, adopting
+the framework of Minimal Recursion Semantics (MRS; <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">Copestake, et al.,
+2005)</a> The
+<a href="../ErgSemantics_Essence">ErgSemantics/Essence</a> page provides a high-level
+characterization of what you can expect to find in these meaning
+representations. An informal introduction to MRS, its use by the ERG,
+and basic terminology is provided by the
+<a href="../ErgSemantics_Basics">ErgSemantics/Basics</a> page. Beyond these more
+technical foundations, the <a href="../ErgSemantics_Design">ErgSemantics/Design</a>
+pages discuss broader linguistic design decisions, for example
+assumptions regarding quantification, or the notion of eventualities
+assumed. For first-time consumers of ERG meaning representations, these
+pages aim to establish the ‘scaffolding’ for the core of the ESD pages,
+viz. a collection of pages that present individual semantic phenomena.
+The ‘table of contents’ for this collection is available through the
+<a href="../ErgSemantics_Inventory">ErgSemantics/Inventory</a> page, and the process
+we followed for selecting phenomena to document is described on the
+<a href="../ErgSemantics_Discovery">ErgSemantics/Discovery</a> page. We recommend
+starting the exploration of these resources via the following links:</p>
+
+<ul>
+  <li><a href="../ErgSemantics_Essence">High-Level Characterization</a></li>
+  <li><a href="../ErgSemantics_Basics">Semi-Formal and Terminological Basics</a></li>
+  <li><a href="../ErgSemantics_Design">High-Level Linguistic Design Decisions</a></li>
+  <li><a href="../ErgSemantics_Inventory">Inventory of Individual Phenomena</a></li>
+</ul>
+
+<h1 id="semantic-fingerprints">Semantic Fingerprints</h1>
+
+<p>In capturing semantic phenomena on most ESD pages (and hopefully also in
+future work on automated regression testing) we invoke a notion of
+<em>semantic fingerprints</em>, i.e. characteristics of a specific MRS
+configuration that identifies a token phenomenon. We utilize a compact
+template language for MRS fingerprints (similar in form to the MRS LaTeX
+style; called ERS fingerprints when specialized for the semantic
+analyses of the English Resource Grammar) that makes the specification
+of labels and (characterization) links optional, and further allows
+wild-carding of predicate symbols and role labels (using ‘_’, i.e. just
+an underscore). For example, following is the semantic fingerprint or
+plain N–N compounding (as in <em>garden dog</em>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  h:compound[ARG1 x1, ARG2 x2]
+  h:[ARG0 x1]
+  [ARG0 x2]
 </code></pre></div></div>
 
-<p>To make ACE accessible as a command, at its directory to the PATH
-variable (e.g., in .bashrc)</p>
+<p>In other words, the phenomenon is characterized by the appearance of the
+two-place compound relation, linking together another two EPs in the
+configuration indicated by the shared label h (of the compound head and
+the two-place modifier relation) and the shared referential indices x1
+and x2. These fingerprints will match the example given above, as well
+all other examples in the collection being searched analyzed as
+involving N-N compounding.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PATH=/opt/ace-0.9.29:"$PATH"
-</code></pre></div></div>
+<p>There is a <a href="http://wesearch.delph-in.net">search interface</a> for
+‘fingerprinting’ collections of ERG analyses, i.e. use patterns provided
+on ESD pages or own variants to retrieve instances of semantic phenomena
+from the comprehensive collections of manually annotated ‘gold-standard’
+treebanks that accompany the ERG. In particular, these treebanks include
+a fresh re-annotation, dubbed
+<a href="http://wesearch.delph-in.net/deepbank">DeepBank</a>, of the venerable WSJ
+Corpus annotated in the Penn Treebank.</p>
 
-<p>Confirm that it is installed:</p>
+<h1 id="esd-test-suite">ESD Test Suite</h1>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -V
-ACE version 0.9.29
-compiled at 23:08:25 on Nov 19 2018
-</code></pre></div></div>
+<p>One aspect of the documentation produced in this work is a <a href="http://svn.emmtee.net/trunk/uio/wesearch/esd.txt">test
+suite</a> illustrating
+each identified phenomenon with one or more short, simple sentences,
+attempting to balance restricted vocabulary size with the clarity of the
+intended reading of each example. This test suite can be viewed as an
+extension of the <a href="https://blog.inductorsoftware.com/docsproto/tools/MatrixMrsTestSuite">MRS Test Suite</a>.</p>
 
-<h2 id="download-the-erg">Download the ERG</h2>
+<h1 id="summary">Summary</h1>
 
-<p>A pre-compiled grammar file for the ERG is available at ACE’s website:</p>
+<p>The ERG Semantic Documentation (ESD) initiative is an ongoing effort to
+provide ‘end-user’ documentation on the meaning representations that
+provide the interface to parsing and generation using the ERG. While ERG
+meaning representations abstract to a large degree from semantically
+irrelevant surface variation, it can at times be challenging to
+interpret (and appreciate) the nuances of particular semantic analyses.
+The ESD pages seek to provide an ever-growing ‘encyclopedia’ of semantic
+analyses available from the ERG.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ mkdir -p ~/grammars  # or some suitable place for grammar files
-~$ wget http://sweaglesw.org/linguistics/ace/download/erg-2018-x86-64-0.9.29.dat.bz2 -q -O - | bunzip2 &gt; ~/grammars/erg-2018-x86-64-0.9.29.dat
-</code></pre></div></div>
+<p>Additional background information is provided by <a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/562_Paper.pdf">Flickinger, et al.
+(2014)</a>.
+These pages are jointly maintained by Emily M. Bender, Dan Flickinger,
+and Stephan Oepen, with input and feedback from, among others, Francis
+Bond, Ann Copestake, and Alex Lascarides.</p>
 
-<p>Confirm the grammar works with ACE (for fine tuning, see
-<a href="../AceErgTuning">AceErgTuning</a>):</p>
+<h1 id="how-to-cite-this-work">How to Cite this Work</h1>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -Tq &lt;&lt;&lt; "Dogs sleep."
-[ LTOP: h0 INDEX: e2 [ e SF: prop ] RELS: &lt; [ unknown&lt;0:11&gt; LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;0:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ compound&lt;0:11&gt; LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x10 [ x PERS: 3 NUM: pl IND: + PT: notpro ] ]  [ udef_q&lt;0:4&gt; LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]  [ _dog_n_1&lt;0:4&gt; LBL: h14 ARG0: x10 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 h12 qeq h14 &gt; ICONS: &lt; &gt; ]
-[ LTOP: h0 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] RELS: &lt; [ udef_q&lt;0:4&gt; LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]  [ _dog_n_1&lt;0:4&gt; LBL: h7 ARG0: x3 ]  [ _sleep_v_1&lt;5:11&gt; LBL: h1 ARG0: e2 ARG1: x3 ] &gt; HCONS: &lt; h0 qeq h1 h5 qeq h7 &gt; ICONS: &lt; &gt; ]
-[ LTOP: h0 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] RELS: &lt; [ _dog_v_1&lt;0:4&gt; LBL: h1 ARG0: e2 ARG1: i3 ARG2: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;5:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 &gt; ICONS: &lt; &gt; ]
-[ LTOP: h0 INDEX: e2 [ e SF: prop ] RELS: &lt; [ unknown&lt;0:11&gt; LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;0:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ compound&lt;0:11&gt; LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x10 [ x PERS: 3 NUM: pl IND: + PT: notpro ] ]  [ udef_q&lt;0:4&gt; LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]  [ _dog_n_1&lt;0:4&gt; LBL: h14 ARG0: x10 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 h12 qeq h14 &gt; ICONS: &lt; &gt; ]
-NOTE: 4 readings, added 389 / 61 edges to chart (27 fully instantiated, 43 actives used, 15 passives used)      RAM: 1415k
+<ul>
+  <li><a href="../ErgSemantics_HowToCite">How to Cite this Work</a></li>
+</ul>
 
+<h1 id="references">References</h1>
 
-NOTE: parsed 1 / 1 sentences, avg 1415k, time 0.00952s
-</code></pre></div></div>
+<p>Copestake, A., Flickinger, D., Pollard, C., &amp; Sag, I. A. (2005). Minimal
+Recursion Semantics. An introduction. Research on Language and
+Computation, 3(4), 281-332.</p>
 
-<h2 id="install-pydelphin">Install PyDelphin</h2>
+<p>Flickinger, D. (2000). On building a more efficient grammar by
+exploiting types. Natural Language Engineering, 6 (1), 15-28.</p>
 
-<p><a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a> is available from
-<a href="https://pypi.python.org/pypi">PyPI</a></p>
+<p>Flickinger, D. (2011). Accuracy vs. robustness in grammar engineering.
+In E. M. Bender &amp; J. E. Arnold (Eds.), Language from a cognitive
+perspective: Grammar, usage, and processing (pp. 31-50). Stanford: CSLI
+Publications.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ pip install pydelphin
-</code></pre></div></div>
+<p>Flickinger, D., Bender, E. M., &amp; Oepen, S. (2014). Towards an
+encyclopedia of compositional semantics: Documenting the interface of
+the english resource grammar. In N. Calzolari et al. (Eds.), Proceedings
+of the ninth international conference on language resources and
+evaluation (LREC’14) (pp. 875-881). Reykjavik, Iceland: European
+Language Resources Association (ELRA).</p>
 
-<p>If you want the <a href="https://github.com/delph-in/pydelphin/blob/master/CHANGELOG.md">latest
-features</a>
-of <a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a>, you might try getting it from its <a href="https://github.com/delph-in/pydelphin">GitHub
-repository</a> (you’ll need to have
-git installed) and switching to the develop branch:</p>
+<p>Flickinger, D., Zhang, Y., &amp; Kordoni, V. (2012). <a href="../DeepBank">DeepBank</a>. A
+dynamically annotated treebank of the Wall Street Journal. In (p.
+85-96). Lisbon, Portugal: Edições Colibri.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ git clone https://github.com/delph-in/pydelphin.git
-~$ git checkout develop
-</code></pre></div></div>
-
-<p>Confirm it works (the following is available if you installed via pip):</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -1 &lt;&lt;&lt; "The dog barks." | delphin convert --from ace --to eds --indent 1
-NOTE: 1 readings, added 691 / 108 edges to chart (37 fully instantiated, 56 actives used, 24 passives used)     RAM: 1499k
-NOTE: parsed 1 / 1 sentences, avg 1499k, time 0.01032s
-{e2:
- _1:_the_q&lt;0:3&gt;{x IND +, NUM sg, PERS 3}[BV x3]
- x3:_dog_n_1&lt;4:7&gt;{x IND +, NUM sg, PERS 3}[]
- e2:_bark_v_1&lt;8:14&gt;{e MOOD indicative, PERF -, PROG -, SF prop, TENSE pres}[ARG1 x3]
-}
-</code></pre></div></div>
-
-<p>Note: the -1 option on the ace command restricts it to only output 1
-result per input, and the –from ace option on the delphin command
-extracts the MRS data from ACE’s output stream.</p>
-
-<h2 id="install-art">Install art</h2>
-
-<p>The <a href="http://sweaglesw.org/linguistics/libtsdb/art">art</a> utility is
-useful for parsing <a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop">[incr tsdb()</a>] profiles.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ wget http://sweaglesw.org/linguistics/libtsdb/download/art-0.1.9-x86-64.tar.gz -q -O - | tar xf
-~$ sudo mv art-0.1.9 /opt/
-</code></pre></div></div>
-
-<p>To make art accessible as a command, at its directory to the PATH
-variable (e.g., in .bashrc)</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PATH=/opt/art-0.1.9:"$PATH"
-</code></pre></div></div>
-
-<p>Confirm it works:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ mkdir -p ~/tsdb/skeletons ~/tsdb/current  # or some other suitable location
-~$ wget http://svn.emmtee.net/trunk/lingo/lkb/src/tsdb/skeletons/english/Relations -O ~/tsdb/skeletons/Relations
-~$ echo -e "The dog barks.\nThe cat meows." | mkprof -r tsdb/skeletons/Relations tsdb/current/ex
-~$ art -a 'ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat' tsdb/current/ex
-reading results for                1    2 results
-reading results for                2    2 results
-</code></pre></div></div>
-
-<h1 id="macos">MacOS</h1>
-
-<p>(add instructions here)</p>
-
-<h1 id="windows-with-agree">Windows (with agree)</h1>
-
-<p>(add instructions here)</p>
-
-<h1 id="other-configurations">Other configurations</h1>
-
-<p>If you want a more full-featured setup for grammar development, you
-might look into the full LOGON distribution: <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LogonTop</a></p>
+<p>Oepen, S., Flickinger, D., Toutanova, K., &amp; Manning, C. D. (2004). LinGO
+Redwoods. A rich and dynamic treebank for HPSG. Research on Language and
+Computation, 2(4), 575-596.</p>
 
         
       </section>
