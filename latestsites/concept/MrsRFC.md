@@ -498,7 +498,7 @@ format for the sentence "Abrams barked.":
 
 It is one of the most compact formats because it omits role and property
 names. This means, however, that it is necessary to use a
-[SEM-I](SemiRfc) for serialization and deserialization in order to map
+[SEM-I](../SemiRfc) for serialization and deserialization in order to map
 argument/property indices to role/property names. A BNF, adapted from
 comments in the [LKB
 source](http://svn.emmtee.net/trunk/lingo/lkb/src/mrs/basemrs.lisp), is

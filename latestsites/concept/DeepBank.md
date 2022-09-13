@@ -79,11 +79,11 @@ composed robustly for these sentences, which comprise some 15% of the
 The development of [DeepBank](../DeepBank) started in the fall of 2008 as
 an internally funded project at the Department of Computational
 Linguistics, Saarland University and the LT-Lab of DFKI, under the
-supervision of [Valia Kordoni](ValiaKordoni) and [Yi Zhang](YiZhang).
+supervision of [Valia Kordoni](../ValiaKordoni) and [Yi Zhang](../YiZhang).
 Thanks to the partial financial support of the Erasmus Mundus European
 Masters Program in Language and Communication Technologies (LCT),
 part-time student annotators were employed and trained for the first
-round of annotation. [Dan Flickinger](DanFlickinger), the main
+round of annotation. [Dan Flickinger](../DanFlickinger), the main
 [ERG](http://www.delph-in.net/erg) developer, has provided grammar
 updates throughout the project. He also went through a thorough (second)
 round of annotation updates to arrive at the first public release of
@@ -131,7 +131,7 @@ constituent tree representation with labeled brackets, and the
 CoNLL-style syntactic and semantic dependency representation with
 *tabbed* format. The conversion software is available to the public and
 maintained collaboratively between Oslo and Saarbrücken. Please see
-[DeepBank/OneZero](DeepBank_OneZero) for further details.
+[DeepBank/OneZero](../DeepBank_OneZero) for further details.
 
 Downloads are available through [MetaShare](/MetaShare) at [this
 site](http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e003048d082a41c57b04b11e146f1887ceb7158e2038c/).

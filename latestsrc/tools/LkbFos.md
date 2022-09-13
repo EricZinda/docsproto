@@ -48,7 +48,7 @@ not already exist.
 your directory $DELPHINHOME, which will create a new directory $DELPHINHOME/lkb\_fos.
 If you use this precompiled binary version of LKB-FOS, you do not need to install
 SBCL, McCLIM or SLIME.
-1. In order to use [\[incr tsdb()\]](ItsdbTop)
+1. In order to use [\[incr tsdb()\]](../ItsdbTop)
 functionality (only on Linux at present), the environment variable
 LD\_LIBRARY\_PATH must include the LKB-FOS shared library directory
 $DELPHINHOME/lkb\_fos/lib/linux.x86.64. The following Unix command
@@ -131,7 +131,7 @@ Execute the Lisp expressions `(lui-initialize)` and `(lui-shutdown)` to
 enable and disable it, respectively; alternatively set the environment
 variable LUI. The LUI executable is expected to be on the user's PATH.
 
-On Linux, LKB-FOS includes [\[incr tsdb()\]](ItsdbTop). To open the
+On Linux, LKB-FOS includes [\[incr tsdb()\]](../ItsdbTop). To open the
 'podium' window, execute the Lisp expression `(tsdb:tsdb :podium)`.
 
 Refer to the README file for a detailed, up-to-date list of bug fixes

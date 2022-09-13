@@ -57,7 +57,7 @@ NOTE: parsed 1 / 1 sentences, avg 1415k, time 0.00952s
 
 ## Install PyDelphin
 
-[PyDelphin](PyDelphin) is available from
+[PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop) is available from
 [PyPI](https://pypi.python.org/pypi)
 
 ```
@@ -66,7 +66,7 @@ NOTE: parsed 1 / 1 sentences, avg 1415k, time 0.00952s
 
 If you want the [latest
 features](https://github.com/delph-in/pydelphin/blob/master/CHANGELOG.md)
-of [PyDelphin](PyDelphin), you might try getting it from its [GitHub
+of [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop), you might try getting it from its [GitHub
 repository](https://github.com/delph-in/pydelphin) (you'll need to have
 git installed) and switching to the develop branch:
 
@@ -95,7 +95,7 @@ extracts the MRS data from ACE's output stream.
 ## Install art
 
 The [art](http://sweaglesw.org/linguistics/libtsdb/art) utility is
-useful for parsing [\[incr tsdb()](ItsdbTop)\] profiles.
+useful for parsing [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\] profiles.
 
 ```
 ~$ wget http://sweaglesw.org/linguistics/libtsdb/download/art-0.1.9-x86-64.tar.gz -q -O - | tar xf

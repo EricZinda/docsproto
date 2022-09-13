@@ -265,13 +265,15 @@
           
             <li><a href="/docsproto/concept/ErgTop">Overview</a></li>
           
-            <li><a href="/docsproto/concept/ErgLeTypes">ErgLeTypes</a></li>
+            <li><a href="/docsproto/concept/ErgLeTypes">LE Types</a></li>
           
-            <li><a href="/docsproto/concept/ErgRules">ErgRules</a></li>
+            <li><a href="/docsproto/concept/ErgRules">Rules</a></li>
           
-            <li><a href="/docsproto/concept/ErgTreebankingRules">ErgTreebankingRules</a></li>
+            <li><a href="/docsproto/concept/ErgTreebankingRules">Treebanking Rules</a></li>
           
-            <li><a href="/docsproto/concept/ErgTokenization">ErgTokenization</a></li>
+            <li><a href="/docsproto/concept/ErgTokenization">Tokenization</a></li>
+          
+            <li><a href="/docsproto/concept/ErgTokenization_ComplexExample">Tokenization Complex Example</a></li>
           
         </ul>
         
@@ -315,6 +317,14 @@
           
             <li><a href="/docsproto/concept/EdsTop">EDS Format</a></li>
           
+            <li><a href="/docsproto/concept/EdsConversion">EDS Conversion</a></li>
+          
+            <li><a href="/docsproto/concept/EdsGeneration">EDS Generation</a></li>
+          
+            <li><a href="/docsproto/concept/SemiRfc">SEM-I</a></li>
+          
+            <li><a href="/docsproto/concept/RmrsPos">(R)MRS Predicate Naming</a></li>
+          
         </ul>
         
       </li>
@@ -331,9 +341,15 @@
           
             <li><a href="/docsproto/concept/DeepBank">DeepBank</a></li>
           
+            <li><a href="/docsproto/concept/DeepBank_OneZero">DeepBank 1.0</a></li>
+          
             <li><a href="/docsproto/concept/ErgSemantics_Discovery">Semantics Discovery</a></li>
           
-            <li><a href="/docsproto/concept/MatrixMrsTestSuite">Matrix MRS Test Suite</a></li>
+            <li><a href="/docsproto/concept/WikiWoods">WikiWoods</a></li>
+          
+            <li><a href="/docsproto/concept/SemCor">SC corpus</a></li>
+          
+            <li><a href="/docsproto/concept/WeScience">We Science</a></li>
           
         </ul>
         
@@ -416,7 +432,7 @@ poss     : an abstract predicate indicating possession
 <p>These predicates are used in <strong>predications</strong> (a predicate with its
 semantic arguments and other constraints), as in the following MRS for
 <em>Kim’s cake was eaten by a dog</em> (see the MRS specification at
-<a href="MrsRfc">MrsRfc</a> for more explanation of MRS semantics):</p>
+<a href="../MrsRFC">MrsRfc</a> for more explanation of MRS semantics):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ LTOP: h0
   INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
@@ -461,7 +477,7 @@ separated by underscores. Thus we have two basic forms for predicates:</p>
 <p>Conventionally, the grammar-internal types for predicates end with _rel
 which creates a namespace so they don’t collide with non-predicate
 types. The semantic outputs of a grammar are usually “exported”
-according to the grammar’s <a href="SemiRfc">SEM-I</a> and <a href="RmrsVpm">VPM</a> and the
+according to the grammar’s <a href="../SemiRfc">SEM-I</a> and <a href="https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm">VPM</a> and the
 _rel suffix is removed.</p>
 
 <p>Spaces may not occur in a predicate, except for possibly escaped or
@@ -499,7 +515,7 @@ sense field is occasionally unspecified (e.g., _and_c).</p>
 not contain underscores or spaces.</p>
 
 <p>The POS field must be a single character, and specifically one of n, v,
-a, j, r, s, c, p, q, x, u, or d (see <a href="RmrsPos">RmrsPos</a>; also note that
+a, j, r, s, c, p, q, x, u, or d (see <a href="../RmrsPos">RmrsPos</a>; also note that
 use of the d POS is discouraged).</p>
 
 <p>The sense field is specified like a lemma, although for practical

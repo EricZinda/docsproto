@@ -16,7 +16,7 @@ semantic entities or constructions. Examples of predicates in the
 These predicates are used in **predications** (a predicate with its
 semantic arguments and other constraints), as in the following MRS for
 *Kim's cake was eaten by a dog* (see the MRS specification at
-[MrsRfc](MrsRfc) for more explanation of MRS semantics):
+[MrsRfc](../MrsRFC) for more explanation of MRS semantics):
 
     [ LTOP: h0
       INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
@@ -59,7 +59,7 @@ separated by underscores. Thus we have two basic forms for predicates:
 Conventionally, the grammar-internal types for predicates end with \_rel
 which creates a namespace so they don't collide with non-predicate
 types. The semantic outputs of a grammar are usually "exported"
-according to the grammar's [SEM-I](SemiRfc) and [VPM](RmrsVpm) and the
+according to the grammar's [SEM-I](../SemiRfc) and [VPM](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) and the
 \_rel suffix is removed.
 
 Spaces may not occur in a predicate, except for possibly escaped or
@@ -97,7 +97,7 @@ The lemma field of a surface pred may be just about anything that does
 not contain underscores or spaces.
 
 The POS field must be a single character, and specifically one of n, v,
-a, j, r, s, c, p, q, x, u, or d (see [RmrsPos](RmrsPos); also note that
+a, j, r, s, c, p, q, x, u, or d (see [RmrsPos](../RmrsPos); also note that
 use of the d POS is discouraged).
 
 The sense field is specified like a lemma, although for practical
