@@ -51,8 +51,10 @@ def write_template(site_path, relative_path, value):
 def create_site_configuration(site_path, root_address, site_definition):
     template = get_template("template_config.txt")
     split_url = urllib.parse.urlparse(root_address)
-    base_url = "/".join(split_url.path[1:])
-    value = template.format(SiteFullName=site_definition["SiteFullName"], SiteBaseUrl=base_url)
+    path_parts = split_url.path.split('/')
+    base_url = "/".join(path_parts[1:])
+    final_base_url = posixpath.join(base_url, site_definition["Site"])
+    value = template.format(SiteFullName=site_definition["SiteFullName"], SiteBaseUrl=final_base_url)
     write_template(site_path, "_config.yml", value)
 
 
