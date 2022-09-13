@@ -166,7 +166,7 @@ def add_addresses_for_definitions(root_address, sites_definitions):
 
 # Given a definition file that contains all the site definitions create the latestsrc folder structure
 # We do it all at once so we can check for broken links
-def create_sites_src(sites_definition, root_address, src_root, dst_root):
+def populate_sites_src(sites_definition, root_address, src_root, dst_root):
     parser = Markdown(Parser, MarkdownRenderer)
     add_addresses_for_definitions(root_address, sites_definition["Pages"])
 
@@ -270,7 +270,7 @@ if __name__ == '__main__':
         createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
 
         # Populate the sites with pages
-        all_pages, all_links, tocs, errors = create_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
+        all_pages, all_links, tocs, errors = populate_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
         create_tocs(latestsrc_root, tocs)
 
         # Log any errors that occurred and fail the build
