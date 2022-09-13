@@ -61,7 +61,7 @@ jobs:
 #        if: ${{ failure() }}
         with:
           name: Site Errors
-          path: main/latestsrc/SiteErrors.json
+          path: ${{github.workspace}}/main/latestsrc/SiteErrors.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
       - uses: actions/upload-artifact@v2
