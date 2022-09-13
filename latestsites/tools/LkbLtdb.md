@@ -44,7 +44,7 @@ Michael Wayne Goodman, using
 from [delphin-viz](https://github.com/delph-in/delphin-viz). The
 software was originally written by [ChikaraHashimoto](ChikaraHashimoto)
 and [FrancisBond](FrancisBond) in perl, and used the html output
-provided by [StephanOepen](https://blog.inductorsoftware.com/docsproto/concept/StephanOepen).
+provided by [StephanOepen](../StephanOepen).
 
 ## Sample In Line Documentation
 

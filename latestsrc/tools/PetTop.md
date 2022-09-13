@@ -178,7 +178,7 @@ subsequently served to build a commercial email auto response product
 exceptional situations, et al.), and extended in functionality and
 interfaces (including UniCode support, unknown word support, server and
 API library modes, lattice input, and initial MRS support); most of this
-work was done by Ulrich with help from [StephanOepen](https://blog.inductorsoftware.com/docsproto/concept/StephanOepen) and
+work was done by Ulrich with help from [StephanOepen](../StephanOepen) and
 [BerndKiefer](BerndKiefer) (of DFKI). As part of the EU-funded [Deep
 Thought](http://www.project-deepthought.net/) project, Ulrich and
 Stephan later added support for subsumption-based ambiguity factoring
@@ -193,13 +193,13 @@ of (R)MRSs in various standard formats.
 Towards the end of 2003, Ulrich retired from active PET development, and
 Bernd has since been the main developer (with occasional help from
 others, specifically [FrederikFouvry](FrederikFouvry) and
-[YiZhang](https://blog.inductorsoftware.com/docsproto/concept/YiZhang) of Saarland University and Stephan). PET has seen a
+[YiZhang](../YiZhang) of Saarland University and Stephan). PET has seen a
 range of substantial additions in functionality since, including the
 ability to add (leaf) types at run-time, output fragmentary analysis
 hypotheses in case of parse failures, and an XML-based input format that
 generalizes the lattice-oriented YY input mode.
 
-In 2006 [YiZhang](https://blog.inductorsoftware.com/docsproto/concept/YiZhang) (Saarland University) added the ability to do
+In 2006 [YiZhang](../YiZhang) (Saarland University) added the ability to do
 [selective unpacking](PetSelectiveUnpacking), greatly decreasing the
 memory consumption for n-best parsing. Later, Yi added native C++
 support for MRS extraction from parse results and MRS output in various
