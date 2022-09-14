@@ -38,7 +38,7 @@ Figure out templates using Jekyll and see if they meet our needs
       - This refers to a local *repository*
     - Test absolute links to make sure they work
     - Broken links should be removed from the docs? 
-    - 
+    - Add all referrers to the sitedefintions.json automatically after a build
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning
     - Include all the current stuff
