@@ -29,10 +29,6 @@
         {"Page": "Projects Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"},
         {"Page": "DelphinNews", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"},
         {"Page": "Historic Overviews", "SrcDir": "docswiki", "SrcFile": "OldOverviews.md", "Referrer": "home/Home.md"}
-      ]},
-
-      {"Section": "Contributors", "Pages": [
-        {"Page": "Delphin Lisbon", "SrcDir": "docswiki", "SrcFile": "DelphinLisbon.md", "Referrer": "home/RomanceTop.md"}
       ]}
     ],
     "concept": [
@@ -102,6 +98,14 @@
       ]}
     ],
     "erg": [
+      {"Section": "ERG Usage", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md"},
+        {"Page": "QuickStart", "SrcDir": "docswiki", "SrcFile": "QuickStart.md", "Referrer": "concept/ErgTop.md"},
+        {"Page": "ERG Usage Sample Export", "SrcDir": "docswiki", "SrcFile": "ErgProcessing_SampleExport.md", "Referrer": "concept/ErgProcessing.md"},
+        {"Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
+        {"Page": "Tuning Ace for ERG", "SrcDir": "docswiki", "SrcFile": "AceErgTuning.md", "Referrer": "concept/ErgProcessing.md"},
+        {"Page": "ERG REST API", "SrcDir": "docswiki", "SrcFile": "ErgApi.md", "Referrer": "concept/ErgProcessing.md"}
+      ]},
       {"Section": "Erg Semantics", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
         {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
@@ -146,19 +150,11 @@
         {"Page": "Tokenization", "SrcDir": "docswiki", "SrcFile": "ErgTokenization.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Tokenization Complex Example", "SrcDir": "docswiki", "SrcFile": "ErgTokenization_ComplexExample.md", "Referrer": "concept/ErgTokenization.md"}
       ]},
-      {"Section": "ERG Usage", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md"},
-        {"Page": "QuickStart", "SrcDir": "docswiki", "SrcFile": "QuickStart.md", "Referrer": "concept/ErgTop.md"},
-        {"Page": "ERG Usage Sample Export", "SrcDir": "docswiki", "SrcFile": "ErgProcessing_SampleExport.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
-        {"Page": "Tuning Ace for ERG", "SrcDir": "docswiki", "SrcFile": "AceErgTuning.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "ERG REST API", "SrcDir": "docswiki", "SrcFile": "ErgApi.md", "Referrer": "concept/ErgProcessing.md"}
-      ]},
-      {"Section": "Treebanking", "Pages": [
-        {"Page": "Erg Treebanking Guidelines", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingGuidelines.md", "Referrer": "home/TreebankingTop.md"},
-        {"Page": "Erg Treebanking", "SrcDir": "docswiki", "SrcFile": "ErgTreebanking.md", "Referrer": "home/TreebankingTop.md"},
-        {"Page": "Erg Treebanking Bridges", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingBridges.md", "Referrer": "concept/ErgTreebanking.md"},
-        {"Page": "Erg Treebanking Discussion", "SrcDir": "docswiki", "SrcFile": "CapitolHillTreebank.md", "Referrer": "concept/IndraTreebanking.md"}
+      {"Section": "ERG Treebanking", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgTreebanking.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "Guidelines", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingGuidelines.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "Bridges", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingBridges.md", "Referrer": "concept/ErgTreebanking.md"},
+        {"Page": "Discussion", "SrcDir": "docswiki", "SrcFile": "CapitolHillTreebank.md", "Referrer": "concept/IndraTreebanking.md"}
       ]}
     ],
     "grammars": [
@@ -277,62 +273,32 @@
       {"Section": "PyDelphin", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PyDelphinTop.md", "Referrer": "concept/ErgApi.md"}
       ]},
-      {"Section": "Grammar Environments", "Pages": [
-        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"}
-      ]},
-      {"Section": "Grammar Tools", "Pages": [
-        {"Page": "Erroneous Generation Analysis and Detection", "SrcDir": "docswiki", "SrcFile": "EgadTop.md"},
-        {"Page": "gDelta", "SrcDir": "docswiki", "SrcFile": "GDeltaTop.md"},
-        {"Page": "Grammar Spring Cleaning", "SrcDir": "docswiki", "SrcFile": "SpringCleaningTop.md"},
-        {"Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
-        {"Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
-        {"Page": "Grammar Version Control", "SrcDir": "docswiki", "SrcFile": "VersionControlForGrammarDevelopment.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
-        {"Page": "CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbTop.md", "Referrer": "home/Home.md"},
-        {"Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
-        {"Page": "CLIMB for Germanic languages", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb.md", "Referrer": "home/ClimbTop.md"},
-        {"Page": "gCLIMB Phenomena", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb_German.md", "Referrer": "tools/Climb_GClimb.md"}
-      ]},
-      {"Section": "Parsing and Generation", "Pages": [
-        {"Page": "Ace", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
-        {"Page": "Ace Install", "SrcDir": "docswiki", "SrcFile": "AceInstall.md", "Referrer": "home/ErsTutorial.md"},
-        {"Page": "Ace LUI Mode", "SrcDir": "docswiki", "SrcFile": "AceLui.md", "Referrer": "home/AceInstall.md"},
-        {"Page": "Ace Examples", "SrcDir": "docswiki", "SrcFile": "AceUse.md", "Referrer": "home/AceInstall.md"},
-        {"Page": "Ace Faq", "SrcDir": "docswiki", "SrcFile": "AceFaq.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Ace Configuration", "SrcDir": "docswiki", "SrcFile": "AceConfiguration.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Ace Options", "SrcDir": "docswiki", "SrcFile": "AceOptions.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Ace Csaw", "SrcDir": "docswiki", "SrcFile": "AceCsaw.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Ace Wish list", "SrcDir": "docswiki", "SrcFile": "AceWishlist.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Ace Experimental", "SrcDir": "docswiki", "SrcFile": "AceExperimental.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Delphin Tools", "SrcDir": "docswiki", "SrcFile": "DelphinTools.md"},
-        {"Page": "Vista Extraction", "SrcDir": "docswiki", "SrcFile": "VistaExtractionTop.md"},
-        {"Page": "Regular Expression Pre-Processor", "SrcDir": "docswiki", "SrcFile": "ReppTop.md"}
-      ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "Testing With Ant", "SrcDir": "docswiki", "SrcFile": "TestingWithAnt.md", "Referrer": "summits/JerezTop.md"},
-        {"Page": "Heart of Gold", "SrcDir": "docswiki", "SrcFile": "HeartofgoldTop.md"},
-        {"Page": "Rmrs/Dmrs Comparison", "SrcDir": "docswiki", "SrcFile": "RmrsDmrsComparison.md", "Referrer": "concept/RmrsDmrs.md"},
-        {"Page": "Finite-State PreProcessor", "SrcDir": "docswiki", "SrcFile": "SafFspp.md", "Referrer": "tools/ReppTop.md"}
-
+      {"Section": "ACE Parser", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
+        {"Page": "Install", "SrcDir": "docswiki", "SrcFile": "AceInstall.md", "Referrer": "home/ErsTutorial.md"},
+        {"Page": "Faq", "SrcDir": "docswiki", "SrcFile": "AceFaq.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Configuration", "SrcDir": "docswiki", "SrcFile": "AceConfiguration.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "AceOptions.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Examples", "SrcDir": "docswiki", "SrcFile": "AceUse.md", "Referrer": "home/AceInstall.md"},
+        {"Page": "LUI Mode", "SrcDir": "docswiki", "SrcFile": "AceLui.md", "Referrer": "home/AceInstall.md"},
+        {"Page": "Csaw", "SrcDir": "docswiki", "SrcFile": "AceCsaw.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "AceWishlist.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Experimental", "SrcDir": "docswiki", "SrcFile": "AceExperimental.md", "Referrer": "tools/AceTop.md"}
       ]},
       {"Section": "LKB", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LkbTop.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Installation", "SrcDir": "docswiki", "SrcFile": "LkbInstallation.md"},
         {"Page": "Fully Open Source Version", "SrcDir": "docswiki", "SrcFile": "LkbFos.md"},
         {"Page": "Macintosh Version", "SrcDir": "docswiki", "SrcFile": "LkbMacintosh.md"},
-
         {"Page": "FAQ", "SrcDir": "docswiki", "SrcFile": "LkbFaq.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "User Group", "SrcDir": "docswiki", "SrcFile": "LkbUserGroup.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Courses", "SrcDir": "docswiki", "SrcFile": "LkbCourses.md", "Referrer": "tools/LkbTop.md"},
-
         {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "LkbConventions.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Generation", "SrcDir": "docswiki", "SrcFile": "LkbGeneration.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Compilation", "SrcDir": "docswiki", "SrcFile": "LkbCompilation.md", "Referrer": "tools/LkbInstallation.md"},
         {"Page": "Emacs", "SrcDir": "docswiki", "SrcFile": "LkbEmacs.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Trollet", "SrcDir": "docswiki", "SrcFile": "LkbTrollet.md", "Referrer": "tools/LkbTop.md"},
-
         {"Page": "Simple PreProcessor Protocol", "SrcDir": "docswiki", "SrcFile": "LkbSppp.md", "Referrer": "tools/ReppTop.md"},
-
         {"Page": "Variable Property Mapping (VPM)", "SrcDir": "docswiki", "SrcFile": "RmrsVpm.md", "Referrer": "concept/PredicateRfc.md"},
         {"Page": "LKB LUI", "SrcDir": "docswiki", "SrcFile": "LkbLui.md", "Referrer": "matrix/KrgTop.md"},
         {"Page": "LUI User Configuration", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "matrix/KrgTop.md"},
@@ -395,10 +361,33 @@
         {"Page": "Japanese/English MT", "SrcDir": "docswiki", "SrcFile": "MtJaen.md", "Referrer": "tools/LogonModeling.md"},
         {"Page": "Japanese/English MT Setup", "SrcDir": "docswiki", "SrcFile": "MtSetup.md", "Referrer": "tools/LogonTransfer.md"},
         {"Page": "Wishlist", "SrcDir": "docswiki", "SrcFile": "LogonWishlist.md"}
-
+      ]},
+      {"Section": "Grammar Tools", "Pages": [
+        {"Page": "Erroneous Generation Analysis and Detection", "SrcDir": "docswiki", "SrcFile": "EgadTop.md"},
+        {"Page": "gDelta", "SrcDir": "docswiki", "SrcFile": "GDeltaTop.md"},
+        {"Page": "Grammar Spring Cleaning", "SrcDir": "docswiki", "SrcFile": "SpringCleaningTop.md"},
+        {"Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
+        {"Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
+        {"Page": "Grammar Version Control", "SrcDir": "docswiki", "SrcFile": "VersionControlForGrammarDevelopment.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
+        {"Page": "CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbTop.md", "Referrer": "home/Home.md"},
+        {"Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
+        {"Page": "CLIMB for Germanic languages", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb.md", "Referrer": "home/ClimbTop.md"},
+        {"Page": "gCLIMB Phenomena", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb_German.md", "Referrer": "tools/Climb_GClimb.md"}
+      ]},
+      {"Section": "Misc", "Pages": [
+        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
+        {"Page": "Delphin Tools", "SrcDir": "docswiki", "SrcFile": "DelphinTools.md"},
+        {"Page": "Vista Extraction", "SrcDir": "docswiki", "SrcFile": "VistaExtractionTop.md"},
+        {"Page": "Regular Expression Pre-Processor", "SrcDir": "docswiki", "SrcFile": "ReppTop.md"},
+        {"Page": "Testing With Ant", "SrcDir": "docswiki", "SrcFile": "TestingWithAnt.md", "Referrer": "summits/JerezTop.md"},
+        {"Page": "Heart of Gold", "SrcDir": "docswiki", "SrcFile": "HeartofgoldTop.md"},
+        {"Page": "Rmrs/Dmrs Comparison", "SrcDir": "docswiki", "SrcFile": "RmrsDmrsComparison.md", "Referrer": "concept/RmrsDmrs.md"},
+        {"Page": "Finite-State PreProcessor", "SrcDir": "docswiki", "SrcFile": "SafFspp.md", "Referrer": "tools/ReppTop.md"}
       ]},
       {"Section": "<todo>", "Pages": [
         {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "Referrer": "concept/MrsRFC.md"},
+        {"Page": "Delphin Lisbon", "SrcDir": "docswiki", "SrcFile": "DelphinLisbon.md", "Referrer": "home/RomanceTop.md"},
 
         {"Page": "WikiName", "SrcDir": "docswiki", "SrcFile": "WikiName.md", "Referrer": "home/Home.md", "FileMissing": true},
         {"Page": "TimBaldwin", "SrcDir": "docswiki", "SrcFile": "TimBaldwin.md", "Referrer": "tools/GDeltaTop.md", "FileMissing": true},
