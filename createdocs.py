@@ -398,17 +398,22 @@ if __name__ == '__main__':
         latestsrc_root = sys.argv[3]
         latestsites_root = sys.argv[4]
         sites_definitions_path = sys.argv[5]
+        errors = []
 
-        with open(sites_definitions_path, "r") as txtFile:
-            sites_definition_tree = json.loads(txtFile.read())
-            sites_definition = convert_to_flat_definition(sites_definition_tree)
+        try:
+            with open(sites_definitions_path, "r") as txtFile:
+                sites_definition_tree = json.loads(txtFile.read())
+                sites_definition = convert_to_flat_definition(sites_definition_tree)
+        except Exception as error:
+            errors.append({"Error": f"Error reading '{sites_definitions_path}': {str(error)}"})
 
-        # Create the sites
-        createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
+        if len(errors) == 0:
+            # Create the sites
+            createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
 
-        # Populate the sites with pages
-        all_pages, all_links, tocs, errors = populate_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
-        create_tocs(latestsrc_root, tocs)
+            # Populate the sites with pages
+            all_pages, all_links, tocs, errors = populate_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
+            create_tocs(latestsrc_root, tocs)
 
         # Log any errors that occurred and fail the build
         if len(errors) > 0:
