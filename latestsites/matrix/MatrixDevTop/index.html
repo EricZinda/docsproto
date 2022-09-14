@@ -1,0 +1,728 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/matrix/"><img src="/docsproto/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docsproto/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/concept">Concepts</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix">Matrix</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/MatrixTop">MatrixTop</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixGettingStarted">Getting Started</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDevTop">Matrix Development Overview</a></li>
+          
+            <li><a href="/docsproto/matrix/Updating_the_Customization_System">Updating the Customization System</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixCustomizationUnitTesting">Matrix Customization Unit Testing</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixRegressionTesting">Matrix Regression Testing</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixCustomizationWebTesting">Matrix Customization Web Testing</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixWishList">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_GeneralInfo">General Info</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_WordOrder">Word Order</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Number">Number</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Person">Person</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Gender">Gender</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Case">Case</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_AdnominalPossession">Adnominal Possession</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_DirectInverse">Direct Inverse</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_TenseAspectMood">TenseAspectMood</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Evidentials">Evidentials</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_OtherFeatures">Other Features</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_SententialNegation">Sentential Negation</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Coordination">Coordination</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_YesNoQ">YesNoQ</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_WhQuestions">Wh Questions</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_InformationStructure">Information Structure</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ArgumentOptionality">Argument Optionality</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ClausalModifiers">Clausal Modifiers</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ClausalComplements">Clausal Complements</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Lexicon">Lexicon</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Morphology">Morphology</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ImportToolboxLexicon">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_TestSentences">est Sentences</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_TestByGeneration">Test By Generation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/KrgTop">KrgTop</a></li>
+          
+            <li><a href="/docsproto/matrix/WambayaTop">WambayaTop</a></li>
+          
+            <li><a href="/docsproto/matrix/MandarinGrammarOnline">MandarinGrammarOnline</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuite">Overview</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteEn">English</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteJa">Japanese</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteNo">Norwegian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteGr">Greek</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteFr">French</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteDe">German</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteSv">Swedish</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteZhTw">ZhTw</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteMandarin">Mandarin</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteCantonese">Cantonese</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteRu">Russian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteBg">Bulgarian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuitePt">Portuguese</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteIndonesian">Indonesian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteTatoeba">Tatoeba</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="matrix-development">Matrix Development</h1>
+
+<p>This wiki is a reference for Grammar Matrix developers. Users of the
+Grammar Matrix should start from <a href="../MatrixTop">MatrixTop</a>.</p>
+
+<p>Below we have information about the <a href="../MatrixDevTop#repository">SVN
+repository</a>,
+<a href="../MatrixDevTop#configuration">configuration</a>, the <a href="../MatrixDevTop#directory-structure">directory
+structure</a>, and <a href="../MatrixDevTop#links">other
+links</a>.</p>
+
+<h1 id="moving-to-github">Moving to GitHub</h1>
+
+<p>As of July 2020, we are in the process of moving to <a href="/GitHub">GitHub</a>.
+The Matrix projects page is:
+<a href="https://github.com/delph-in/matrix/projects/1">https://github.com/delph-in/matrix/projects/1</a></p>
+
+<p>This page needs to be updated.</p>
+
+<h1 id="matrix-developers-links-">Matrix Developers links <a name="links"></a></h1>
+
+<p>A collection of documentation regarding the Matrix project, aimed at
+Matrix developers.</p>
+
+<ul>
+  <li><a href="../Updating_the_Customization_System">Updating_the_Customization_System</a></li>
+  <li><a href="matrixdef_File_Syntax">matrixdef_File_Syntax</a></li>
+  <li><a href="../MatrixDevTop#matrixpy">matrix.py</a> (main script for customization)</li>
+  <li><a href="MatrixDevConventions">MatrixDevConventions</a> (Listing of global
+variables and other conventions)</li>
+  <li><a href="../MatrixRegressionTesting">MatrixRegressionTesting</a></li>
+  <li><a href="../MatrixCustomizationUnitTesting">MatrixCustomizationUnitTesting</a></li>
+  <li><a href="../MatrixCustomizationWebTesting">MatrixCustomizationWebTesting</a></li>
+  <li><a href="MatrixMorphology">MatrixMorphology</a></li>
+  <li><a href="PythonIdioms">PythonIdioms</a></li>
+  <li><a href="MatrixTDBProcedures">MatrixTDBProcedures</a> (Current as of Sept 2009,
+for MatrixTDB2)</li>
+  <li><a href="MatrixTDB2Tables">MatrixTDB2Tables</a> (2009 version switched to
+MatrixTDB2 from MatrixTDB)</li>
+  <li><a href="MatrixValidationDebugging">MatrixValidationDebugging</a> (Deprecated.
+See the section on <a href="../MatrixDevTop#matrixpy">matrix.py</a>)</li>
+  <li><a href="MatrixDevBlueprints">MatrixDevBlueprints</a> (Ideas and proposals for
+Matrix development)</li>
+  <li><a href="MatrixLibraryDevelopment">MatrixLibraryDevelopment</a></li>
+  <li><a href="MatrixLibraryWishList">MatrixLibraryWishList</a></li>
+</ul>
+
+<h1 id="matrix-repository-">Matrix Repository <a name="repository"></a></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn co svn://lemur.ling.washington.edu/shared/matrix matrix
+</code></pre></div></div>
+
+<p>Note that you need to be granted permission to read or write to/from
+this repository. Send email to linghelp@ or Emily Bender (ebender@)
+about getting permissions. (Both email addresses above have
+u.washington.edu as the domain)</p>
+
+<h1 id="configuration">Configuration</h1>
+
+<h2 id="customizationroot">CUSTOMIZATIONROOT</h2>
+
+<p>Several matrix.py commands (such as “install”, “vivify”, and
+“regression-test”) require the environment variable CUSTOMIZATIONROOT to
+be set, with the value being the “gmcs” directory of the Matrix branch
+being used. In most cases this can, and should, be set as an option to
+matrix.py (–customizationroot (short form: -C)). For example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py --customizationroot=gmcs/ regression-test
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py -C gmcs/ regression-test
+</code></pre></div></div>
+
+<p>If necessary, the variable may be set with an export command, which
+would be valid for the current session. This export command may be
+placed in ~/.bashrc so the variable is set each time a session is
+started. Assuming the directory matrix/ exists is the home directory,
+the export commands would look like this for trunk:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export CUSTOMIZATIONROOT=~/matrix/trunk/gmcs
+</code></pre></div></div>
+
+<p>or like this for a branch:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export CUSTOMIZATIONROOT=~/matrix/branches/mybranch/gmcs
+</code></pre></div></div>
+
+<h2 id="aceroot">ACEROOT</h2>
+
+<p>Additionally, if you are using ACE (<a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">AceTop</a>) for regression
+testing or whatever, the variable may also be set with an export
+command. This export command may be placed in ~/.bashrc, too. Make sure
+to point the ACEROOT to the <strong>directory</strong> where ACE is located, as
+opposed to the actual ACE binary.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export ACEROOT=_YOUR_ACE_DIRECTORY_
+</code></pre></div></div>
+
+<p>You can download the latest version of ACE
+<a href="http://sweaglesw.org/linguistics/ace/download">here</a>.</p>
+
+<h2 id="matrixpy-">Matrix.py <a name="matrixpy"></a></h2>
+
+<p>matrix.py is a top-level script used mainly by developers to do a wide
+range of tasks, such as customization, validation, unit-testing,
+regression-testing, and installing. The command python matrix.py –help
+prints the following (as of 2011.04.26):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Usage: matrix.py [OPTION] COMMAND [ARGS...]
+
+OPTIONS:
+    --customizationroot (-C) PATH
+                Set CUSTOMIZATIONROOT to PATH.
+    --cheap-hack
+                Add a blank morphological rule to irules.tdl (if it is
+                empty) to workaround a bug in Cheap.
+    --lkb
+                Install the LKB binaries to a live site.
+    --warning (-w)
+                Print warnings when running validate.
+    --help (-h) [COMMAND]
+                Print a usage message about COMMAND (if specified) or
+                else all commands and examples.
+    
+COMMANDS:
+    customize (c) PATH [DEST]
+                Customize the grammar at PATH, with the output written to
+                DEST/iso or the directory named as the isocode at PATH. 
+                PATH points to a choices
+                file or a directory that contains a choices file.
+    customize-to-destination (cd) PATH DEST
+                Customize the grammar at PATH, with the output written directly to
+                DEST. PATH points to a choices
+                file or a directory that contains a choices file.
+    customize-and-flop (cf) PATH [DEST]
+                Customize and flop the grammar at PATH, with the output
+                written to DEST or the directory at PATH. PATH points to a
+                choices file or a directory that contains a choices file.
+    validate (v) PATH
+                Validate the choices file at PATH.
+    regression-test [-TASK] [TESTS]
+                Run regression test TASK (or all tasks if unsprecified)
+                over TEST (or all tests if unspecified). TASKS can be any
+                of the following and can be combined (e.g. -vc):
+                  [none]       : run all tests
+                  -v : validate and report errors
+                  -c : customize and report errors
+                  -p : customize and parse, report differences with gold
+                TESTS can be a single test name or a list of names.
+    regression-test-add (ra) PATH/TO/CHOICES PATH/TO/TXTSUITE
+                Add CHOICES (a choices file) and TXTSUITE (a text file
+                containing test sentences) as a new regression test.
+    regression-test-update (ru) TEST
+                Update the gold standard of TEST to use the results of the
+                current system.
+    regression-test-remove (rr) TEST
+                Remove TEST from the regression test suite. This command
+                removes all files checked into subversion.
+    regression-test-rename (rn) OLDTEST NEWTEST
+                Rename OLDTEST to NEWTEST. This is performed with a call
+                to 'svn mv' on the files in the repository. Remember to
+                commit your changes.
+    unit-test (u)
+                Run all unit tests.
+    web-test (w)
+                Run all web tests.
+    web-test-add (wa) PATH [comment]
+                Add a new Selenium test with an optional comment.
+    web-test-remove (wr) TEST
+                Remove a Selenium test.
+    install (i) PATH
+                Install a custom instance of the Grammar Matrix
+                Customization System and Questionnaire at PATH (PATH is
+                generally a URL on the uakari server accessible via the patas server).
+    vivify (v)
+                Install a new version of the Grammar Matrix Customization
+                System and Questionnaire to the live site after verifying
+                the code has been tested and committed to SVN.
+
+EXAMPLES:
+  matrix.py customize ../choices/Finnish
+  matrix.py c ../choices/Finnish
+  matrix.py customize-and-flop ../choices/Finnish
+  matrix.py cf ../choices/Finnish
+  matrix.py validate ../choices/Finnish
+  matrix.py v ../choices/Finnish
+  matrix.py --customizationroot=gmcs/ regression-test
+  matrix.py -C gmcs/ r -v
+  matrix.py -C gmcs/ r -cp vso-aux-before-vp Fore
+  matrix.py -C gmcs/ ra Cree_choices Cree_test_suite
+  matrix.py -C gmcs/ ru Cree
+  matrix.py -C gmcs/ rr tiniest
+  matrix.py -C gmcs/ rn sujb-drop subj-drop
+  matrix.py -C gmcs install username@patas.ling.washington.edu/home/www-matrix/html/username
+  matrix.py -C gmcs/ --lkb ih my_matrix
+  matrix.py -C gmcs/ vivify
+</code></pre></div></div>
+
+<h1 id="directory-structure">Directory Structure</h1>
+
+<p>If you get the repository using the command
+<a href="../MatrixDevTop#repository">above</a>, you will see three subdirectories:
+branches, tags, and trunk. Each of these contain a copy of the Matrix
+code (a “branch”), but “trunk” is the official version, “tags” contains
+frozen snapshots (e.g. the version used for a dissertation, etc.), and
+“branches” contains development versions. The directory structure
+detailed below explains the directories and files for a single branch
+(e.g. in trunk):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gmcs/        [most of the code resides here]
+    lib/              [Python libraries for internal code]
+        hierarchy.py            [module for type hierarchies]
+        tdlhierarchy.py         [module for tdl hierarchies]
+        itsdb.py                [module for itsdb profile creation]
+    linglib/          [Libraries for linguistic phenomena]
+        tests/                  [unit tests for linglib]
+        agreement_features.py
+        argument_optionality.py
+        auxiliaries.py
+        case.py
+        coordination.py
+        direct_inverse.py
+        features.py
+        lexbase.py              [classes shared by lexicon.py and morphotactics.py]
+        lexical_items.py        [should probably be merged with lexicon.py]
+        lexicon.py
+        morphotactics.py
+        negation.py
+        parameters.py
+        toolboximport.py
+        verbal_features.py
+        word_order.py
+        yes_no_questions.py
+    regression-tests/ [code and resources for regression testing]
+    sql_profiles/     [code and resources for MatrixTDB]
+    tests/            [unit tests for the general system]
+    __init__.py       [gmcs packaging module]
+    choices.py        [classes for working with choices files]
+    customize.py      [primary code for customizing grammars]
+    def_check.py      [module to check matrixdef]
+    deffile.py        [module to interpret matrixdef for web presentation]
+    generate.py       [module to aid in test-by-generation]
+    profiles.py       [MatrixTDB ... might be from old version]
+    randgram.py       [out-of-date script to create a semi-random grammar]
+    tdl.py            [module for dealing with TDL files]
+    tdltest.py        [code to test tdl.py. Should probably be folded into unit tests]
+    utils.py          [module with various helper functions]
+    validate.py       [module to validate a choices file]
+gmmt/        [resources for the "massively multilingual translation" task]
+lisp/        [various lisp scripts for Developers]
+matrix-core/ [the Matrix grammar files]
+modules/     [snippets of TDL and notes about analyses]
+web/         [place for web questionnaire related files]
+    sample-choices/   [sample choices files displayed on the live site]
+    templates/        [inputs for test-by-generation]
+    matrix.css        [style file for the questionnaire]
+    matrixdef         [website content definition]
+    matrix.js         [website-related functions]
+install      [bash script for installing the code (e.g. to the live site)]
+matrix.py    [Python script for running customize, tests, install, etc.]
+matrix.cgi   [CGI script to handle web requests]
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/matrix/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

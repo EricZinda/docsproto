@@ -5,6 +5,8 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/concept
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools
+  - title: "Matrix"
+    url: https://blog.inductorsoftware.com/docsproto/matrix
 toc:
   - title: "Erg Semantics"
     children:
@@ -102,22 +104,6 @@ toc:
         url: "AceErgTuning"
       - title: "ERG REST API"
         url: "ErgApi"
-  - title: "Grammar Matrix"
-    children:
-      - title: "MatrixTop"
-        url: "MatrixTop"
-      - title: "Getting Started"
-        url: "MatrixGettingStarted"
-      - title: "Matrix Development Overview"
-        url: "MatrixDevTop"
-      - title: "KrgTop"
-        url: "KrgTop"
-      - title: "WambayaTop"
-        url: "WambayaTop"
-      - title: "MandarinGrammarOnline"
-        url: "MandarinGrammarOnline"
-      - title: "Wish List"
-        url: "MatrixWishList"
   - title: "Formats"
     children:
       - title: "Predicates"

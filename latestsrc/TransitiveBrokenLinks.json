@@ -41,47 +41,6 @@
       ]}
     ],
     "concept": [
-      {"Section": "Grammar Matrix", "Pages": [
-        {"Page": "MatrixDoc_GeneralInfo", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_GeneralInfo.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_WordOrder", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WordOrder.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Number", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Number.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Person", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Person.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Gender", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Gender.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_AdnominalPossession", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_AdnominalPossession.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_DirectInverse", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_DirectInverse.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_TenseAspectMood", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TenseAspectMood.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Evidentials", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Evidentials.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_OtherFeatures", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_OtherFeatures.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_SententialNegation", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_SententialNegation.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Coordination", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Coordination.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_YesNoQ", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_YesNoQ.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_WhQuestions", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WhQuestions.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_InformationStructure", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_InformationStructure.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_ArgumentOptionality", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ArgumentOptionality.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_ClausalModifiers", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalModifiers.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_ClausalComplements", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalComplements.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Lexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Lexicon.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_Morphology", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Morphology.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_ImportToolboxLexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ImportToolboxLexicon.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_TestSentences", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TestSentences.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "MatrixDoc_TestByGeneration", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TestByGeneration.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Updating_the_Customization_System", "SrcDir": "docswiki", "SrcFile": "Updating_the_Customization_System.md", "Referrer": "concept/Updating_the_Customization_System.md"},
-        {"Page": "matrixdef_File_Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "concept/Updating_the_Customization_System.md"},
-        {"Page": "MatrixCustomizationUnitTesting", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationUnitTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
-        {"Page": "MatrixRegressionTesting", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
-        {"Page": "MatrixCustomizationWebTesting", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationWebTesting.md", "Referrer": "concept/MatrixCustomizationWebTesting.md"},
-        {"Page": "LkbTrollet", "SrcDir": "docswiki", "SrcFile": "LkbTrollet.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiUi", "SrcDir": "docswiki", "SrcFile": "LuiUi.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiTree", "SrcDir": "docswiki", "SrcFile": "LuiTree.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiAvm", "SrcDir": "docswiki", "SrcFile": "LuiAvm.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiUnification", "SrcDir": "docswiki", "SrcFile": "LuiUnification.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiMrs", "SrcDir": "docswiki", "SrcFile": "LuiMrs.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiRc", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "LuiChart", "SrcDir": "docswiki", "SrcFile": "LuiChart.md", "Referrer": "concept/LkbLui.md"},
-        {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "concept/LkbLui.md", "FileMissing": true},
-        {"Page": "LuiWishlist", "SrcDir": "docswiki", "SrcFile": "LuiWishlist.md", "Referrer": "concept/LkbLui.md"}
-      ]},
       {"Section": "Formats", "Pages": [
         {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "concept/TransferRules.md"},
         {"Page": "JacyGeneration", "SrcDir": "docswiki", "SrcFile": "JacyGeneration.md", "Referrer": "concept/TransferRules.md"},
@@ -239,15 +198,32 @@
         {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "concept/LexsemTop.md"}
       ]}
     ],
-    "tools": [
-      {"Section": "Grammar Environments", "Pages": [
-        {"Page": "MtJaen", "SrcDir": "docswiki", "SrcFile": "MtJaen.md", "Referrer": "tools/JacyTop.md"},
-        {"Page": "ChikaraHashimoto", "SrcDir": "docswiki", "SrcFile": "ChikaraHashimoto.md", "Referrer": "tools/JacyTop.md", "FileMissing": true},
-        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "tools/JacyTop.md"},
-        {"Page": "JacyDoc", "SrcDir": "docswiki", "SrcFile": "JacyDoc.md", "Referrer": "tools/JacyTop.md"},
-        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "tools/JacyTop.md"},
-        {"Page": "JacyHinoki", "SrcDir": "docswiki", "SrcFile": "JacyHinoki.md", "Referrer": "tools/JacyTop.md"}
+    "matrix": [
+      {"Section": "Grammar Matrix", "Pages": [
+        {"Page": "MatrixRegressionTestingSetupMac", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMac.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"}
       ]},
+      {"Section": "Grammars", "Pages": [
+        {"Page": "LkbTrollet", "SrcDir": "docswiki", "SrcFile": "LkbTrollet.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiUi", "SrcDir": "docswiki", "SrcFile": "LuiUi.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiTree", "SrcDir": "docswiki", "SrcFile": "LuiTree.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiAvm", "SrcDir": "docswiki", "SrcFile": "LuiAvm.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiUnification", "SrcDir": "docswiki", "SrcFile": "LuiUnification.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiMrs", "SrcDir": "docswiki", "SrcFile": "LuiMrs.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiRc", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "LuiChart", "SrcDir": "docswiki", "SrcFile": "LuiChart.md", "Referrer": "matrix/LkbLui.md"},
+        {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "matrix/LkbLui.md", "FileMissing": true},
+        {"Page": "LuiWishlist", "SrcDir": "docswiki", "SrcFile": "LuiWishlist.md", "Referrer": "matrix/LkbLui.md"}
+      ]},
+      {"Section": "MRS Tests", "Pages": [
+        {"Page": "MtJaen", "SrcDir": "docswiki", "SrcFile": "MtJaen.md", "Referrer": "matrix/JacyTop.md"},
+        {"Page": "ChikaraHashimoto", "SrcDir": "docswiki", "SrcFile": "ChikaraHashimoto.md", "Referrer": "matrix/JacyTop.md", "FileMissing": true},
+        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "matrix/JacyTop.md"},
+        {"Page": "JacyDoc", "SrcDir": "docswiki", "SrcFile": "JacyDoc.md", "Referrer": "matrix/JacyTop.md"},
+        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "matrix/JacyTop.md"},
+        {"Page": "JacyHinoki", "SrcDir": "docswiki", "SrcFile": "JacyHinoki.md", "Referrer": "matrix/JacyTop.md"}
+      ]}
+    ],
+    "tools": [
       {"Section": "Grammar Tools", "Pages": [
         {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "tools/IndraTop.md"},
         {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "tools/IndraTop.md"},

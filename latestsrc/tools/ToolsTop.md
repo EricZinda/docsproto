@@ -107,7 +107,7 @@ DELPH-IN data and tools
   
   - Grammar customization system, creates grammars to spec. [GitHub
 repo](https://github.com/delph-in/matrix) See also:
-[MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/concept/MatrixGettingStarted)
+[MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted)
 - [AGGREGATION](http://depts.washington.edu/uwcl/aggregation/)
 ([EmilyBender](../EmilyBender) and many others)
   

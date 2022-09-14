@@ -46,27 +46,6 @@
       {"Section": "ERG Usage", "Pages": [
         {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "concept/ErgApi.md", "FileMissing": true}
       ]},
-      {"Section": "Grammar Matrix", "Pages": [
-        {"Page": "MatrixDocTop", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "concept/MatrixGettingStarted.md"},
-        {"Page": "GrammarEngineeringFaq", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringFaq.md", "Referrer": "concept/MatrixGettingStarted.md", "FileMissing": true},
-        {"Page": "GeFaqFeatureGeometry", "SrcDir": "docswiki", "SrcFile": "GeFaqFeatureGeometry.md", "Referrer": "concept/MatrixGettingStarted.md"},
-        {"Page": "Updating_the_Customization_System", "SrcDir": "docswiki", "SrcFile": "Updating_the_Customization_System.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "matrixdef_File_Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixDevConventions", "SrcDir": "docswiki", "SrcFile": "MatrixDevConventions.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixRegressionTesting", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTesting.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixCustomizationUnitTesting", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationUnitTesting.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixCustomizationWebTesting", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationWebTesting.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixMorphology", "SrcDir": "docswiki", "SrcFile": "MatrixMorphology.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "PythonIdioms", "SrcDir": "docswiki", "SrcFile": "PythonIdioms.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixTDBProcedures", "SrcDir": "docswiki", "SrcFile": "MatrixTDBProcedures.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixTDB2Tables", "SrcDir": "docswiki", "SrcFile": "MatrixTDB2Tables.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixValidationDebugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixDevBlueprints", "SrcDir": "docswiki", "SrcFile": "MatrixDevBlueprints.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixLibraryDevelopment", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryDevelopment.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "MatrixLibraryWishList", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryWishList.md", "Referrer": "concept/MatrixDevTop.md"},
-        {"Page": "LkbLui", "SrcDir": "docswiki", "SrcFile": "LkbLui.md", "Referrer": "concept/KrgTop.md"},
-        {"Page": "LuiRc", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "concept/KrgTop.md"}
-      ]},
       {"Section": "Formats", "Pages": [
         {"Page": "MrsRfc", "SrcDir": "docswiki", "SrcFile": "MrsRfc.md", "Referrer": "concept/MrsRFC.md", "FileMissing": true},
         {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "Referrer": "concept/MrsRFC.md"},
@@ -169,10 +148,35 @@
         {"Page": "LexsemTop", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "concept/SemCor.md"}
       ]}
     ],
-    "tools": [
-      {"Section": "Grammar Environments", "Pages": [
-        {"Page": "JacyTop", "SrcDir": "docswiki", "SrcFile": "JacyTop.md", "Referrer": "tools/AgreeTop.md"}
+    "matrix": [
+      {"Section": "Grammar Matrix", "Pages": [
+        {"Page": "MatrixDocTop", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "matrix/MatrixGettingStarted.md"},
+        {"Page": "GrammarEngineeringFaq", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringFaq.md", "Referrer": "matrix/MatrixGettingStarted.md", "FileMissing": true},
+        {"Page": "GeFaqFeatureGeometry", "SrcDir": "docswiki", "SrcFile": "GeFaqFeatureGeometry.md", "Referrer": "matrix/MatrixGettingStarted.md"},
+        {"Page": "matrixdef_File_Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixDevConventions", "SrcDir": "docswiki", "SrcFile": "MatrixDevConventions.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixMorphology", "SrcDir": "docswiki", "SrcFile": "MatrixMorphology.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "PythonIdioms", "SrcDir": "docswiki", "SrcFile": "PythonIdioms.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixTDBProcedures", "SrcDir": "docswiki", "SrcFile": "MatrixTDBProcedures.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixTDB2Tables", "SrcDir": "docswiki", "SrcFile": "MatrixTDB2Tables.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixValidationDebugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixDevBlueprints", "SrcDir": "docswiki", "SrcFile": "MatrixDevBlueprints.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixLibraryDevelopment", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryDevelopment.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixLibraryWishList", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryWishList.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixRegressionTestingSetup", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetup.md", "Referrer": "matrix/MatrixRegressionTesting.md"}
       ]},
+      {"Section": "Matrix Doc", "Pages": [
+        {"Page": "MatrixDoc_NominalizedClauses", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_NominalizedClauses.md", "Referrer": "matrix/MatrixDoc_ClausalModifiers.md"}
+      ]},
+      {"Section": "Grammars", "Pages": [
+        {"Page": "LkbLui", "SrcDir": "docswiki", "SrcFile": "LkbLui.md", "Referrer": "matrix/KrgTop.md"},
+        {"Page": "LuiRc", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "matrix/KrgTop.md"}
+      ]},
+      {"Section": "MRS Tests", "Pages": [
+        {"Page": "JacyTop", "SrcDir": "docswiki", "SrcFile": "JacyTop.md", "Referrer": "matrix/MatrixMrsTestSuiteJa.md"}
+      ]}
+    ],
+    "tools": [
       {"Section": "Grammar Tools", "Pages": [
         {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
         {"Page": "TimBaldwin", "SrcDir": "docswiki", "SrcFile": "TimBaldwin.md", "Referrer": "tools/GDeltaTop.md", "FileMissing": true},
