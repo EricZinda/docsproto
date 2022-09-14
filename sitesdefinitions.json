@@ -196,7 +196,7 @@
         {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"}
       ]},
       {"Section": "Grammar Engineering", "Pages": [
-        {"Page": "Grammar Engineering FAQ", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringFaq.md", "Referrer": "matrix/MatrixGettingStarted.md", "FileMissing": true},
+        {"Page": "Grammar Engineering FAQ", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringFAQ.md", "Referrer": "matrix/MatrixGettingStarted.md"},
         {"Page": "Feature Geometry FAQ", "SrcDir": "docswiki", "SrcFile": "GeFaqFeatureGeometry.md", "Referrer": "matrix/MatrixGettingStarted.md"},
         {"Page": "Dev Conventions", "SrcDir": "docswiki", "SrcFile": "MatrixDevConventions.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Morphology", "SrcDir": "docswiki", "SrcFile": "MatrixMorphology.md", "Referrer": "matrix/MatrixDevTop.md"},
