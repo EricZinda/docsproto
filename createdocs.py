@@ -220,11 +220,11 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
         docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
 
         if fileDefinition["Section"] != "<todo>":
-            links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
-            # try:
-            #     links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
-            # except Exception as error:
-            #     errors.append({"Definition": fileDefinition, "Error": str(error)})
+            # links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
+            try:
+                links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
+            except Exception as error:
+                errors.append({"Definition": fileDefinition, "Error": str(error)})
 
             if fileDefinition["Site"] not in tocs:
                 tocs[fileDefinition["Site"]] = []
