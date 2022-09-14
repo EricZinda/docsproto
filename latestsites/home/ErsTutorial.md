@@ -69,7 +69,7 @@ using VirtualBox); however, file names and support software may not be
 configured as assumed for the tutorial. The [ACE
 homepage](http://sweaglesw.org/linguistics/ace/) has the relevant links
 and some instructions; you may also find [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) (in particular
-[AceInstall](AceInstall) and [AceLui](AceLui)) useful.
+[AceInstall](https://blog.inductorsoftware.com/docsproto/tools/AceInstall) and [AceLui](https://blog.inductorsoftware.com/docsproto/tools/AceLui)) useful.
 
 Serious users will also find the so-called LOGON tree of interest. This
 collection of software includes tools for grammar engineering,

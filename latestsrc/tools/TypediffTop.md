@@ -18,7 +18,7 @@ supports the following grammars:
 - [GG](http://gg.opendfki.de) (although tokenisation is currently
 broken with ACE)
 - HaG
-- [NorSource](NorsourceTop)
+- [NorSource](https://blog.inductorsoftware.com/docsproto/home/NorsourceTop)
 - [INDRA](IndraTop)
 - The three [Zhong grammars](ZhongTop)
 

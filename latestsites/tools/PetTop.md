@@ -203,7 +203,7 @@ In 2006 [YiZhang](../YiZhang) (Saarland University) added the ability to do
 [selective unpacking](PetSelectiveUnpacking), greatly decreasing the
 memory consumption for n-best parsing. Later, Yi added native C++
 support for MRS extraction from parse results and MRS output in various
-formats. [BartCramer](BartCramer) added the possibility to constrain the
+formats. [BartCramer](../BartCramer) added the possibility to constrain the
 search space by using a PCFG-guided pruning of tasks, on the chart cell
 level. In 2010, [PeterAdolphs](PeterAdolphs) (DFKI Berlin) added [chart
 mapping](../ChartMapping) and the [FSC input format](PetInputFsc).

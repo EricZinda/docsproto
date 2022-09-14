@@ -99,11 +99,11 @@ Spanish, along with significant grammars for several other
 languages.
 - [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop): Starter-Kit for rapid prototyping of
 LKB-compatible precision grammars
-- [CLIMB](ClimbTop): Tools to support grammar development of
+- [CLIMB](https://blog.inductorsoftware.com/docsproto/tools/ClimbTop): Tools to support grammar development of
 LKB-compatible precision grammars
 - [Redwoods](https://blog.inductorsoftware.com/docsproto/concept/RedwoodsTop): HPSG Treebank Comprised of Analyses
 from the ERG
-- [MRS](RmrsTop): Minimal Recursion Semantics --- Theory and
+- [MRS](https://blog.inductorsoftware.com/docsproto/concept/RmrsTop): Minimal Recursion Semantics --- Theory and
 Implementation (including extensions and variants such Robust MRS
 (RMS), Elementary Dependency Structures (EDS) and Dependency MRS
 (DMRS))
@@ -111,14 +111,14 @@ Implementation (including extensions and variants such Robust MRS
 as used in the ERG
   - [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/concept/RmrsDiscussions): Links to discussions
 related to MRS at various DELPH-IN events
-- Shared Corpora, [Treebanks](TreebankingTop)
+- Shared Corpora, [Treebanks](https://blog.inductorsoftware.com/docsproto/concept/TreebankingTop)
   - [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite): Core Test Suite (\~100
 sentences)
-  - [Cathedral and the Bazaar](MatrixMrsCatb): Parallel Corpus
+  - [Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb): Parallel Corpus
 based on an Open Source Essay (\~800 sentences)
-- [Grammar discussions](GrammarDiscussionsTop): Discussions for
+- [Grammar discussions](../GrammarDiscussionsTop): Discussions for
 grammar developers (analyses, terminology, harmonization, …)
-- [DELPH-IN RFCs](DelphinRfcs) (Requests For Comments; formal
+- [DELPH-IN RFCs](https://blog.inductorsoftware.com/docsproto/concept/DelphinRFCs) (Requests For Comments; formal
 specifications)
 
 ### Applications

@@ -7,6 +7,8 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
   - title: "Matrix"
     url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
+  - title: "Summits"
+    url: https://blog.inductorsoftware.com/docsproto/summits/BellinghamTop
 toc:
   - title: "DELPH-IN"
     children:
@@ -16,5 +18,35 @@ toc:
         url: "DelphinWelcome"
       - title: "English Resource Semantics Tutorial"
         url: "ErsTutorial"
-      - title: "Grammar Catalogue"
+  - title: "Grammar Catalogue"
+    children:
+      - title: "Overview"
         url: "GrammarCatalogue"
+      - title: "Norwegian"
+        url: "NorsourceTop"
+      - title: "Norwegian Summary"
+        url: "NorsourceSummary"
+      - title: "Norwegian Download"
+        url: "NorsourceDownload"
+      - title: "German"
+        url: "CheetahTop"
+      - title: "Slavic"
+        url: "SlavicTop"
+      - title: "Hebrew"
+        url: "HeGram"
+      - title: "Russian"
+        url: "RussianQuestionsGrammarTop"
+      - title: "Arabic"
+        url: "AraGram"
+  - title: "Grammar Discussions"
+    children:
+      - title: "Overview"
+        url: "GrammarDiscussionsTop"
+      - title: "Romance"
+        url: "RomanceTop"
+      - title: "Slavic"
+        url: "SlavicTop"
+      - title: "Semantic Harmonization"
+        url: "HarmonyTop"
+      - title: "Phonology"
+        url: "PhonologyTop"

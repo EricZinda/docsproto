@@ -5,7 +5,7 @@ implementation of the conversion procedure, maintained by
 [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen) as part of the Common Lisp MRS library
 (which is typically loaded as part of the LKB, but is at times also
 compiled stand-alone, for example to link with the PET parser). Starting
-around 2014, [RebeccaDridan](RebeccaDridan) has developed a C++
+around 2014, [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan) has developed a C++
 implementation of basic MRS manipulation, including conversion to EDS;
 and in 2016 [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman) is adding EDS support to
 the [pyDelphin](https://github.com/delph-in/pydelphin) libraries.

@@ -5,16 +5,16 @@ maintained by [WoodleyPackard](/WoodleyPackard), and is distributed as
 free software under the MIT license. This page serves to link to the
 following pages:
 
-- [AceInstall](AceInstall) offers a few tips for those not familiar
+- [AceInstall](../AceInstall) offers a few tips for those not familiar
 with Unix terminal commands
-- [AceUse](AceUse) gives some examples of common use cases.
+- [AceUse](../AceUse) gives some examples of common use cases.
 - [AceFaq](AceFaq) gives answers to frequently asked questions.
 - [AceConfiguration](AceConfiguration) describes the options available
 in ACE's per-grammar configuration files.
 - [AceOptions](AceOptions) details the command-line option syntax.
-- [AceLui](AceLui) shows how to run ACE with LUI for interactive
+- [AceLui](../AceLui) shows how to run ACE with LUI for interactive
 grammar debugging.
-- [FftbTop](FftbTop) shows how to use the full forest treebanker
+- [FftbTop](https://blog.inductorsoftware.com/docsproto/concept/FftbTop) shows how to use the full forest treebanker
 to treebank, and then how to build a statistical model using the
 treebank.
 - [AceCsaw](AceCsaw) describes an extension to back off to a pcfg
