@@ -105,7 +105,7 @@
         {"Page": "Indra", "SrcDir": "docswiki", "SrcFile": "IndraTreebanking.md", "Referrer": "home/TreebankingTop.md"}
       ]},
       {"Section": "Formats", "Pages": [
-        {"Page": "DelphinRfcs", "SrcDir": "docswiki", "SrcFile": "DelphinRfcs.md", "Referrer": "home/Home.md", "FileMissing": true},
+        {"Page": "DelphinRfcs", "SrcDir": "docswiki", "SrcFile": "DelphinRFCs.md", "Referrer": "home/Home.md"},
         {"Page": "Predicates", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
         {"Page": "MRS Format", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
         {"Page": "MRS Isomorphism", "SrcDir": "docswiki", "SrcFile": "MrsIsomorphism.md", "Referrer": "home/RmrsTop.md"},
@@ -315,38 +315,100 @@
       {"Section": "Bellingham", "Pages": [
         {"Page": "Bellingham Summit", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"}
       ]},
+      {"Section": "Virtual 2021", "Pages": [
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "VirtualSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Coordination Composition", "SrcDir": "docswiki", "SrcFile": "VirtualCoordinationComposition.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "2021 Schedule", "SrcDir": "docswiki", "SrcFile": "Virtual2021Schedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "2021 Plural Semantics", "SrcDir": "docswiki", "SrcFile": "Virtual2021PluralSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
+      ]},
       {"Section": "Cambridge", "Pages": [
-        {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "CambridgeSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Wh Events", "SrcDir": "docswiki", "SrcFile": "CambridgeWhEvents.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Nominalization", "SrcDir": "docswiki", "SrcFile": "CambridgeNominalization.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Diderot", "Pages": [
-        {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "DiderotSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Constraining Composition", "SrcDir": "docswiki", "SrcFile": "DiderotConstrainingComposition.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Underspecified Attachment", "SrcDir": "docswiki", "SrcFile": "DiderotUnderspecifiedAttachment.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Oslo", "Pages": [
-        {"Page": "Oslo Summit", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Oslo Summit", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "OsloSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Scopal/Non-Scopal", "SrcDir": "docswiki", "SrcFile": "OsloScopalNonScopal.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Events/Instances", "SrcDir": "docswiki", "SrcFile": "OsloEventsInstances.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Question Representation", "SrcDir": "docswiki", "SrcFile": "OsloQuestionRepresentation.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Stanford", "Pages": [
-        {"Page": "Stanford Summit", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Stanford Summit", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "StanfordSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Alternative Sets", "SrcDir": "docswiki", "SrcFile": "StanfordAlternativeSets.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Crowgey Intrinsic Variable Notes", "SrcDir": "docswiki", "SrcFile": "StanfordCrowgeyIntrinsicVariableNotes.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Algebra Additions", "SrcDir": "docswiki", "SrcFile": "StanfordAlgebraAdditions.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Singapore", "Pages": [
-        {"Page": "Singapore Summit", "SrcDir": "docswiki", "SrcFile": "SingaporeTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SingaporeTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "SingaporeSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "MRS Well-formedness", "SrcDir": "docswiki", "SrcFile": "SingaporeMrsWellformedness.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Hook Orthodoxy", "SrcDir": "docswiki", "SrcFile": "SingaporeHookOrthodoxy.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "DMRS Simplification", "SrcDir": "docswiki", "SrcFile": "SingaporeDmrsSimplification.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "SMT Model", "SrcDir": "docswiki", "SrcFile": "SingaporeSmtModel.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Representing MWES", "SrcDir": "docswiki", "SrcFile": "SingaporeRepresentingMwes.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Representing Pragmatics", "SrcDir": "docswiki", "SrcFile": "SingaporeRepresentingPragmatics.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Semantic Algebra Compliance", "SrcDir": "docswiki", "SrcFile": "SingaporeSemanticAlgebraCompliance.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Tomar", "Pages": [
-        {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "TomarSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "MRS Well-formedness", "SrcDir": "docswiki", "SrcFile": "TomarMrsWellformedness.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Quantum MRS", "SrcDir": "docswiki", "SrcFile": "TomarQuantumMRS.md", "Referrer": "concept/RmrsDiscussions.md"}
+      ]},
+      {"Section": "TheAbbey/Chrysalis 2014", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Pp Attachment", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014PpAttachment.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Arity", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014Arity.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Whats The Point", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014WhatsThePoint.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Proper Nouns", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014ProperNouns.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Schrodinger MRS", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014SchrodingerMrs.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Terminology", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014Terminology.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Open-Ended Predicates", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014OpenEndedPredicates.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Binding Theory", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014BindingTheory.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Possessive Idioms", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014PossessiveIdioms.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Nominalization", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014Nominalization.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Deverbal Nouns", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014DeverbalNouns.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Apposition", "SrcDir": "docswiki", "SrcFile": "AbbeyApposition.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Saarland", "Pages": [
-        {"Page": "Saarland Summit", "SrcDir": "docswiki", "SrcFile": "SaarlandTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Saarland Summit", "SrcDir": "docswiki", "SrcFile": "SaarlandTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "SEM-I", "SrcDir": "docswiki", "SrcFile": "SaarlandSemi.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Arity", "SrcDir": "docswiki", "SrcFile": "SaarlandArity.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Discussion", "SrcDir": "docswiki", "SrcFile": "SaarlandLtopDiscussion.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Tense", "SrcDir": "docswiki", "SrcFile": "SaarlandTense.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "ERG ICONS", "SrcDir": "docswiki", "SrcFile": "SaarlandIconsErg.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Sofia", "Pages": [
-        {"Page": "Sofia Summit", "SrcDir": "docswiki", "SrcFile": "SofiaTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Sofia Summit", "SrcDir": "docswiki", "SrcFile": "SofiaTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "ICONS", "SrcDir": "docswiki", "SrcFile": "SofiaICONS.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "ICONS Implementation", "SrcDir": "docswiki", "SrcFile": "SofiaIconsImplementation.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "MRS RFC", "SrcDir": "docswiki", "SrcFile": "SofiaMrsRfc.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "VPM Harmony", "SrcDir": "docswiki", "SrcFile": "SofiaVpmHarmony.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "MRS Comparison", "SrcDir": "docswiki", "SrcFile": "SofiaMrsComparison.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Suquamish", "Pages": [
-        {"Page": "Suquamish Summit", "SrcDir": "docswiki", "SrcFile": "SuquamishTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Suquamish Summit", "SrcDir": "docswiki", "SrcFile": "SuquamishTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "MRS WordNet", "SrcDir": "docswiki", "SrcFile": "SuquamishMRSWordNet.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Lexical Semantics", "SrcDir": "docswiki", "SrcFile": "SuquamishLexSem.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Paris", "Pages": [
-        {"Page": "Paris Summit", "SrcDir": "docswiki", "SrcFile": "ParisTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Paris Summit", "SrcDir": "docswiki", "SrcFile": "ParisTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Information Structure", "SrcDir": "docswiki", "SrcFile": "ParisInformationStructure.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Barcelona", "Pages": [
-        {"Page": "Barcelona Summit", "SrcDir": "docswiki", "SrcFile": "BarcelonaTop.md", "Referrer": "home/DelphinNews.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "BarcelonaTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Semantics", "SrcDir": "docswiki", "SrcFile": "BarcelonaSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Post-processing", "SrcDir": "docswiki", "SrcFile": "BarcelonaPostprocessing.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Paraphrasing", "SrcDir": "docswiki", "SrcFile": "BarcelonaParaphrasing.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Kyoto", "Pages": [
         {"Page": "Kyoto Summit", "SrcDir": "docswiki", "SrcFile": "KyotoTop.md", "Referrer": "home/DelphinNews.md"}
@@ -359,6 +421,16 @@
       ]},
       {"Section": "Jerez", "Pages": [
         {"Page": "Jerez Summit", "SrcDir": "docswiki", "SrcFile": "JerezTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Fefor", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FeforTop.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Rmrs", "SrcDir": "docswiki", "SrcFile": "FeforRmrs.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Scoping Constraints", "SrcDir": "docswiki", "SrcFile": "FeforScopingConstraints.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Quantifiers", "SrcDir": "docswiki", "SrcFile": "FeforQuantifiers.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Dropped Arguments", "SrcDir": "docswiki", "SrcFile": "FeforDroppedArguments.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Discourse Status", "SrcDir": "docswiki", "SrcFile": "FeforDiscourseStatus.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Message Demise", "SrcDir": "docswiki", "SrcFile": "FeforMessageDemise.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "PNG", "SrcDir": "docswiki", "SrcFile": "FeforPng.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]}
     ]
   }
