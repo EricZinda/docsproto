@@ -1,12 +1,12 @@
 main:
   - title: "Home"
-    url: https://blog.inductorsoftware.com/docsproto/home
+    url: https://blog.inductorsoftware.com/docsproto/home/Home
   - title: "Concepts"
-    url: https://blog.inductorsoftware.com/docsproto/concept
+    url: https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics
   - title: "Tools"
-    url: https://blog.inductorsoftware.com/docsproto/tools
+    url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
   - title: "Matrix"
-    url: https://blog.inductorsoftware.com/docsproto/matrix
+    url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
 toc:
   - title: "Tools"
     children:
