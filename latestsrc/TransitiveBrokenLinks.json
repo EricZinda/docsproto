@@ -1,21 +1,4 @@
   {
-    "home": [
-      {"Section": "Grammar Catalogue", "Pages": [
-        {"Page": "ZhongGeneration", "SrcDir": "docswiki", "SrcFile": "ZhongGeneration.md", "Referrer": "home/ZhongAce.md"},
-        {"Page": "ZhongYYMode", "SrcDir": "docswiki", "SrcFile": "ZhongYYMode.md", "Referrer": "home/ZhongAce.md"},
-        {"Page": "ZhongCoverage", "SrcDir": "docswiki", "SrcFile": "ZhongCoverage.md", "Referrer": "home/ZhongRegressionTest.md"},
-        {"Page": "LADIndonesianMorphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "home/LADIndonesianMorphology.md"},
-        {"Page": "CapitalHillPassivesDiscussion", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "home/CapitolHillPassives.md"},
-        {"Page": "JacyValence", "SrcDir": "docswiki", "SrcFile": "JacyValence.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyMorphology", "SrcDir": "docswiki", "SrcFile": "JacyMorphology.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyGeneration", "SrcDir": "docswiki", "SrcFile": "JacyGeneration.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyIdiom", "SrcDir": "docswiki", "SrcFile": "JacyIdiom.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyNumbers", "SrcDir": "docswiki", "SrcFile": "JacyNumbers.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyLexDb", "SrcDir": "docswiki", "SrcFile": "JacyLexDb.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyPerformance", "SrcDir": "docswiki", "SrcFile": "JacyPerformance.md", "Referrer": "home/JacyDoc.md"},
-        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "home/JacyInstallation.md"}
-      ]}
-    ],
     "concept": [
       {"Section": "Formats", "Pages": [
         {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "concept/WeSearch_Ccs.md"},
@@ -29,6 +12,23 @@
         {"Page": "ZinaPozen", "SrcDir": "docswiki", "SrcFile": "ZinaPozen.md", "Referrer": "concept/LexsemTop.md", "FileMissing": true},
         {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "concept/LexsemTop.md"},
         {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "concept/LexsemTop.md"}
+      ]}
+    ],
+    "grammars": [
+      {"Section": "Grammar Catalogue", "Pages": [
+        {"Page": "ZhongGeneration", "SrcDir": "docswiki", "SrcFile": "ZhongGeneration.md", "Referrer": "grammars/ZhongAce.md"},
+        {"Page": "ZhongYYMode", "SrcDir": "docswiki", "SrcFile": "ZhongYYMode.md", "Referrer": "grammars/ZhongAce.md"},
+        {"Page": "ZhongCoverage", "SrcDir": "docswiki", "SrcFile": "ZhongCoverage.md", "Referrer": "grammars/ZhongRegressionTest.md"},
+        {"Page": "LADIndonesianMorphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "grammars/LADIndonesianMorphology.md"},
+        {"Page": "CapitalHillPassivesDiscussion", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "grammars/CapitolHillPassives.md"},
+        {"Page": "JacyValence", "SrcDir": "docswiki", "SrcFile": "JacyValence.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyMorphology", "SrcDir": "docswiki", "SrcFile": "JacyMorphology.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyGeneration", "SrcDir": "docswiki", "SrcFile": "JacyGeneration.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyIdiom", "SrcDir": "docswiki", "SrcFile": "JacyIdiom.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyNumbers", "SrcDir": "docswiki", "SrcFile": "JacyNumbers.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyLexDb", "SrcDir": "docswiki", "SrcFile": "JacyLexDb.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyPerformance", "SrcDir": "docswiki", "SrcFile": "JacyPerformance.md", "Referrer": "grammars/JacyDoc.md"},
+        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "grammars/JacyInstallation.md"}
       ]}
     ],
     "matrix": [

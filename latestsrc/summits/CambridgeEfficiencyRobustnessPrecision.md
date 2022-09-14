@@ -114,7 +114,7 @@ John: For RASP, we use a ratio.
 
 Bec: Difficult to do with different length spans.
 
-Dan: We wrote [AceErgTuning](https://blog.inductorsoftware.com/docsproto/concept/AceErgTuning) which mentions these things.
+Dan: We wrote [AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning) which mentions these things.
 
 Alex: How is the POS-tagger used?
 
@@ -251,7 +251,7 @@ Dan: It's not a new feature of English.
 - Where can I learn how to add/use the brackets to mark the
 constituents? Ace accepted those brackets, right? Links?
 - The discussion about Ace options ended up talking about the page
-[AceErgTuning](https://blog.inductorsoftware.com/docsproto/concept/AceErgTuning).
+[AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning).
 - Dan presented the mapping of the pos tagger tags to lexical entries
 (file gle.tdl I believe) but this is not the token-mapping
 (preprocessing) rules, right?

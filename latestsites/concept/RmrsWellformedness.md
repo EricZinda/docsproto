@@ -36,7 +36,7 @@ the lowest quantifier's BODY -- otherwise not scopable.
 # Possibly Also of Interest
 
 - [RmrsDiscussions](../RmrsDiscussions)
-- [ErgSemantics](../ErgSemantics)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
 
 A seemingly wellformed MRS that doesn't correspond to any English
 syntax. Is it realizable in some other exotic language? (Note that with

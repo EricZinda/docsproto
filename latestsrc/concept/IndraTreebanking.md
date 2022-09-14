@@ -60,7 +60,7 @@ The profile will be saved in \~/logon/lingo/lkb/src/tsdb/home/ind/
 
 # Treebanking with ACE
 
-Based on [CapitolHillTreebank](../CapitolHillTreebank)
+Based on [CapitolHillTreebank](https://blog.inductorsoftware.com/docsproto/erg/CapitolHillTreebank)
 
 1\. Compile the grammar
 

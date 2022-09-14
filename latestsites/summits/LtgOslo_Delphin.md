@@ -11,7 +11,7 @@ DELPH-IN.
 # 2017 Site Update
 
 Continuous, if sometimes low-energy: [ERG Semantic
-Documentation](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics); [MRS-derived dependencies](https://blog.inductorsoftware.com/docsproto/concept/EdsTop) (in
+Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics); [MRS-derived dependencies](https://blog.inductorsoftware.com/docsproto/concept/EdsTop) (in
 2017 so far, [SDP](http://sdp.delph-in.net) about as popular as the
 PCEDT; four papers and one keynote at ACL use ERG-based dependencies);
 1214 [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods) release imminent: new, ‘atomic’ export
@@ -64,7 +64,7 @@ under an open-source license.
 
 New, work-in-progress RESTful
 [interface](http://erg.delph-in.net/rest/0.9/parse?derivation=json&input=Abrams%20arrived.)
-to ERG on-line parser; see [ErgApi](https://blog.inductorsoftware.com/docsproto/concept/ErgApi) page.
+to ERG on-line parser; see [ErgApi](https://blog.inductorsoftware.com/docsproto/erg/ErgApi) page.
 
 ERG 1214 release, finally official (as of June 15, 2016).
 

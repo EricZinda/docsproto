@@ -24,7 +24,7 @@ increase robustness of HPSG grammars for various languages such as
 [German](http://www.dfki.de/~crysmann/gg/),
 [Japanese](http://www.delph-in.net/jacy),
 [Greek](http://www.delph-in.net/mgrg) and
-[Norwegian](https://blog.inductorsoftware.com/docsproto/home/NorsourceSummary). HPSG
+[Norwegian](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceSummary). HPSG
 grammars can be developed with the [LKB](../LkbTop), compiled to a binary
 grammar image, and at runtime executed by PET within the Heart of Gold.
 

@@ -5,12 +5,12 @@ If you have any guides not included here, please add them.
 
 There are some language specific guides:
 
-- [ErgTreebanking](../ErgTreebanking)
+- [ErgTreebanking](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebanking)
 - [IndraTreebanking](../IndraTreebanking)
 
 This is probably the closest thing we currently have to a general guide.
 
-- [ErgTreebankingGuidelines](../ErgTreebankingGuidelines) although still
+- [ErgTreebankingGuidelines](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines) although still
 very language specific
 
 And some guides to tools:

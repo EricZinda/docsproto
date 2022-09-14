@@ -39,11 +39,11 @@ from Japanese to English, for example:
     The dog eats the cat.
     $
 
-Note that [JaCY](https://blog.inductorsoftware.com/docsproto/home/JacyTop) does not work properly out-of-the-box with
+Note that [JaCY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) does not work properly out-of-the-box with
 ACE; you will need an SVN update at least as recent as late January 2013
 of JaCY, and you will additionally need need to comment out the line
 including "lex/generics.tdl" in the file japanese.tdl. Also, to compile
-the [ERG](https://blog.inductorsoftware.com/docsproto/concept/ErgTop) from a working directory other than the ACE directory
+the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) from a working directory other than the ACE directory
 (as shown above), you will need ace-0.9.13, and unknown word handling
 will not work.
 

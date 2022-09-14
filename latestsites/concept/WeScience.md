@@ -100,7 +100,7 @@ To experiment with these treebanks, however, for the time being, large
 parts of the DELPH-IN toolchain are required. We recommend working with
 the *trunk* (aka head revision) of the integrated [LOGON
 distribution](https://blog.inductorsoftware.com/docsproto/tools/LogonTop). For a quick-start guide to installing this
-software, please see the [ErgProcessing](../ErgProcessing) page
+software, please see the [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page
 (specifically the *Output Formats* section; however, we strongly advise
 perusing the full LOGON documentation, linked from the
 [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page, for more technical background).

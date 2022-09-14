@@ -55,7 +55,7 @@ discussion](WeSearch_PestExamples),
   - [Cross-Grammar Harmony](https://blog.inductorsoftware.com/docsproto/summits/SofiaVpmHarmony)
   - [MRS Comparison](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsComparison)
 - [Mini-symposium on MRS modeling](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm) at UW, November 2012
-- [ERG Semantic Documentation](../ErgSemantics), begun under the auspices
+- [ERG Semantic Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics), begun under the auspices
 of [WeSearch](WeSearch) in February 2013
 - [Mini-symposium on named entities and MRS](https://blog.inductorsoftware.com/docsproto/summits/RmrsNes) at UW, February
 2013

@@ -1,30 +1,4 @@
   {
-    "home": [
-      {"Section": "Grammar Catalogue", "Pages": [
-        {"Page": "ZhongAce", "SrcDir": "docswiki", "SrcFile": "ZhongAce.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongPreprocessing", "SrcDir": "docswiki", "SrcFile": "ZhongPreprocessing.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongYYMode", "SrcDir": "docswiki", "SrcFile": "ZhongYYMode.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongGeneration", "SrcDir": "docswiki", "SrcFile": "ZhongGeneration.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongTranslation", "SrcDir": "docswiki", "SrcFile": "ZhongTranslation.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongRegressionTest", "SrcDir": "docswiki", "SrcFile": "ZhongRegressionTest.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongCoverage", "SrcDir": "docswiki", "SrcFile": "ZhongCoverage.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "ZhongHistory", "SrcDir": "docswiki", "SrcFile": "ZhongHistory.md", "Referrer": "home/ZhongTop.md"},
-        {"Page": "HuiZhenWang", "SrcDir": "docswiki", "SrcFile": "HuiZhenWang.md", "Referrer": "home/ZhongTop.md", "FileMissing": true},
-        {"Page": "ShanWang", "SrcDir": "docswiki", "SrcFile": "ShanWang.md", "Referrer": "home/ZhongTop.md", "FileMissing": true},
-        {"Page": "WenjieWang", "SrcDir": "docswiki", "SrcFile": "WenjieWang.md", "Referrer": "home/ZhongTop.md", "FileMissing": true},
-        {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "IndraTranslation", "SrcDir": "docswiki", "SrcFile": "IndraTranslation.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "IndraRegressionTest", "SrcDir": "docswiki", "SrcFile": "IndraRegressionTest.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "LADIndonesianMorphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "CapitolHillPassives", "SrcDir": "docswiki", "SrcFile": "CapitolHillPassives.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "CapitalHillPassivesDiscussion", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "home/IndraTop.md"},
-        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "home/JacyTop.md"},
-        {"Page": "JacyDoc", "SrcDir": "docswiki", "SrcFile": "JacyDoc.md", "Referrer": "home/JacyTop.md"},
-        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "home/JacyTop.md"},
-        {"Page": "JacyHinoki", "SrcDir": "docswiki", "SrcFile": "JacyHinoki.md", "Referrer": "home/JacyTop.md"}
-      ]}
-    ],
     "concept": [
       {"Section": "Formats", "Pages": [
         {"Page": "MrsRfc", "SrcDir": "docswiki", "SrcFile": "MrsRfc.md", "Referrer": "concept/MrsRFC.md", "FileMissing": true},
@@ -57,6 +31,32 @@
       ]},
       {"Section": "Projects", "Pages": [
         {"Page": "LexsemTop", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "concept/SemCor.md"}
+      ]}
+    ],
+    "grammars": [
+      {"Section": "Grammar Catalogue", "Pages": [
+        {"Page": "ZhongAce", "SrcDir": "docswiki", "SrcFile": "ZhongAce.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongPreprocessing", "SrcDir": "docswiki", "SrcFile": "ZhongPreprocessing.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongYYMode", "SrcDir": "docswiki", "SrcFile": "ZhongYYMode.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongGeneration", "SrcDir": "docswiki", "SrcFile": "ZhongGeneration.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongTranslation", "SrcDir": "docswiki", "SrcFile": "ZhongTranslation.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongRegressionTest", "SrcDir": "docswiki", "SrcFile": "ZhongRegressionTest.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongCoverage", "SrcDir": "docswiki", "SrcFile": "ZhongCoverage.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "ZhongHistory", "SrcDir": "docswiki", "SrcFile": "ZhongHistory.md", "Referrer": "grammars/ZhongTop.md"},
+        {"Page": "HuiZhenWang", "SrcDir": "docswiki", "SrcFile": "HuiZhenWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
+        {"Page": "ShanWang", "SrcDir": "docswiki", "SrcFile": "ShanWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
+        {"Page": "WenjieWang", "SrcDir": "docswiki", "SrcFile": "WenjieWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
+        {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraTranslation", "SrcDir": "docswiki", "SrcFile": "IndraTranslation.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraRegressionTest", "SrcDir": "docswiki", "SrcFile": "IndraRegressionTest.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "LADIndonesianMorphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "CapitolHillPassives", "SrcDir": "docswiki", "SrcFile": "CapitolHillPassives.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "CapitalHillPassivesDiscussion", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "grammars/JacyTop.md"},
+        {"Page": "JacyDoc", "SrcDir": "docswiki", "SrcFile": "JacyDoc.md", "Referrer": "grammars/JacyTop.md"},
+        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "grammars/JacyTop.md"},
+        {"Page": "JacyHinoki", "SrcDir": "docswiki", "SrcFile": "JacyHinoki.md", "Referrer": "grammars/JacyTop.md"}
       ]}
     ],
     "matrix": [

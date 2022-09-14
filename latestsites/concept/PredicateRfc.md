@@ -5,7 +5,7 @@ semantic predicates in the DELPH-IN ecosystem.
 
 Predicates (often abbreviated as *preds*) are symbols representing
 semantic entities or constructions. Examples of predicates in the
-[English Resource Grammar](../ErgTop) are:
+[English Resource Grammar](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) are:
 
     _dog_n_1 : a nominal (n) predicate for a dog or dogs in general
     _a_q     : a quantifier (q) predicate for the "a" as in "a dog"
