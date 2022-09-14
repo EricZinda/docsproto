@@ -35,6 +35,9 @@ def create_blank_site(site_definition, root_address, site_name, latest_src_path,
     # Add the configuration
     create_site_configuration(site_path, root_address, site_definition)
 
+    # Create the index.html page for the site
+    create_index(site_path,root_address, site_definition)
+
 
 def get_template(name):
     file_path = os.path.join(script_path, name)
@@ -65,4 +68,10 @@ def generate_shared_navigation(root_address, site_definitions):
         site_root = posixpath.join(root_address, site_definition["Site"])
         navigation_content += template.format(SiteNavigationName=site_definition["SiteNavigationName"], SiteAbsoluteUrl=site_root)
     return navigation_content
+
+
+def create_index(site_path, root_address, site_definition):
+    template = get_template("template_index.txt")
+    value = template.format(HomePage=site_definition["HomePage"])
+    write_template(site_path, "index.md", value)
 

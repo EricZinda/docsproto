@@ -259,12 +259,6 @@ def create_tocs(dst_root, tocs):
         with open(navfile_path, "a") as txtFile:
             txtFile.write(toc_text)
 
-        # Make the index file have the contents of the first item in the index
-        index_file_path = os.path.join(dst_root, site[0], "index.md")
-        index_file = list(sections.items())[0][1][0]["SrcFile"]
-        with open(index_file_path, "a") as txtFile:
-            include_text = '{% include_relative ' + index_file + ' %}'
-            txtFile.write(include_text)
 
 
 # Given the full set of links on all pages propose entries to sitedefinitions.json to fix them

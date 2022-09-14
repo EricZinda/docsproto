@@ -33,6 +33,9 @@ https://github.com/marketplace/actions/markdown-action-create-indexes
 
 # Configuring Jekyll correctly
 http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
+https://github.com/benbalter/jekyll-relative-links
+https://github.com/github/pages-gem/issues/69
+https://ricostacruz.com/til/relative-paths-in-jekyll
 
 # Minimal Mistakes Theme
 https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
