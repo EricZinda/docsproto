@@ -153,6 +153,28 @@ jobs:
         with:
           path: main/latestsites/
 
+      - name: Build ERG with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/erg
+          destination: main/latestsites/erg
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+
+      - name: Build Grammars with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/grammars
+          destination: main/latestsites/grammars
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+
       # Now commit and push all the changes to record this version of the docs
       - name: Commit files
         run: |
