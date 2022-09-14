@@ -101,7 +101,7 @@
         {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
       ]}
     ],
-    "ERG": [
+    "erg": [
       {"Section": "Erg Semantics", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
         {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
