@@ -28,6 +28,7 @@ Figure out templates using Jekyll and see if they meet our needs
       - This refers to a local *repository*
     - Test absolute links to make sure they work
     - Put an error in siteerrors if we can't parse the site definition
+    - Broken links should be removed from the docs? 
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning
     - Include all the current stuff
