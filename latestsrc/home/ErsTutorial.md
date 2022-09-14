@@ -74,7 +74,7 @@ and some instructions; you may also find [AceTop](https://blog.inductorsoftware.
 Serious users will also find the so-called LOGON tree of interest. This
 collection of software includes tools for grammar engineering,
 converting between output formats, inspecting and annotating treebanks,
-parsing and generating, and more. See [ErgProcessing](https://blog.inductorsoftware.com/docsproto/concept/ErgProcessing) and
+parsing and generating, and more. See [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) and
 [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) (especially [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation))
 for instructions and more details.
 

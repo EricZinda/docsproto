@@ -1,8 +1,8 @@
 {% raw %}# Japanese English Machine Translation
 
 This page describes the Jaen MT system, an MT system based on the [LOGON
-architecture](../LogonTop), using [Jacy](https://blog.inductorsoftware.com/docsproto/home/JacyTop) for the source language
-analysis and the [ERG](https://blog.inductorsoftware.com/docsproto/concept/ErgTop) for the target language generation. In
+architecture](../LogonTop), using [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) for the source language
+analysis and the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) for the target language generation. In
 order to degrade gracefully in the presence of input we cannot yet
 translate, we are also working on a backup [Statistical MT
 system](MtJaenSmt) based on [Moses](http://www.statmt.org/moses/).

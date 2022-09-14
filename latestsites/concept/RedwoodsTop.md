@@ -151,7 +151,7 @@ collection of plain text files can be fully automated by virtue of a
 shell script. For (somewhat terse, sadly) instructions on exporting
 various views on the Redwoods data, please see the Section *Exporting
 Various Plain-Text Formats* on the [WeScience](../WeScience) page as well
-as the [ErgProcessing](../ErgProcessing) page.
+as the [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page.
 
 # Standard Splits
 

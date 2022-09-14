@@ -87,13 +87,13 @@ contributions
 
 ### Grammars, Frameworks and Treebanks
 
-- [English Resource Grammar](https://blog.inductorsoftware.com/docsproto/concept/ErgTop): DELPH-IN's most comprehensive
+- [English Resource Grammar](https://blog.inductorsoftware.com/docsproto/erg/ErgTop): DELPH-IN's most comprehensive
 grammar.
   - [Tutorial](../ErsTutorial) on using the ERG, presented at NAACL
 2016
-  - [Documentation](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics) of the ERG's semantic
+  - [Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) of the ERG's semantic
 representations
-- [Catalogue of Grammars](../GrammarCatalogue), including
+- [Catalogue of Grammars](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue), including
 broad-coverage grammars for German, Japanese, Norwegian, and
 Spanish, along with significant grammars for several other
 languages.
@@ -107,7 +107,7 @@ from the ERG
 Implementation (including extensions and variants such Robust MRS
 (RMS), Elementary Dependency Structures (EDS) and Dependency MRS
 (DMRS))
-  - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics): Emerging documentation of MRS
+  - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics): Emerging documentation of MRS
 as used in the ERG
   - [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/concept/RmrsDiscussions): Links to discussions
 related to MRS at various DELPH-IN events
@@ -116,7 +116,7 @@ related to MRS at various DELPH-IN events
 sentences)
   - [Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb): Parallel Corpus
 based on an Open Source Essay (\~800 sentences)
-- [Grammar discussions](../GrammarDiscussionsTop): Discussions for
+- [Grammar discussions](https://blog.inductorsoftware.com/docsproto/grammars/GrammarDiscussionsTop): Discussions for
 grammar developers (analyses, terminology, harmonization, …)
 - [DELPH-IN RFCs](https://blog.inductorsoftware.com/docsproto/concept/DelphinRFCs) (Requests For Comments; formal
 specifications)

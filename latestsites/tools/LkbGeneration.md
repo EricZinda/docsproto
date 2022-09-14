@@ -1,6 +1,6 @@
 {% raw %}This page was adapted from [JacyGeneration](JacyGeneration) by
 [MichaelGoodman](../MichaelGoodman), and therefore many of the examples are
-from the [JACY](https://blog.inductorsoftware.com/docsproto/home/JacyTop) Grammar.
+from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Grammar.
 
 Contents
 
@@ -124,7 +124,7 @@ in the ERG's global.lsp file.
 # Selective Generation (globals.lisp)
 
 You can block generation of some non-empty predicates by putting it in
-the list \*duplicate-lex-ids\* in globals.lisp. [Jacy](https://blog.inductorsoftware.com/docsproto/home/JacyTop)
+the list \*duplicate-lex-ids\* in globals.lisp. [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop)
 currently does this to block informal and variant forms for which we
 have no available filter. Note that this is a list of lex-ids, not
 predicate names.

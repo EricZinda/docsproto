@@ -1,0 +1,599 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN English Resource Grammar</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN English Resource Grammar">
+<meta property="og:title" content="DELPH-IN English Resource Grammar">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/erg/QuickStart/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/erg/QuickStart/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN English Resource Grammar Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/erg/"><img src="/docsproto/erg/assets/images/Delph-In.png" alt="DELPH-IN English Resource Grammar"></a>
+        
+        <a class="site-title" href="/docsproto/erg/">
+          DELPH-IN English Resource Grammar
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics">Concepts</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/erg/ErgSemantics">Overview</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Essence">Essence</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Basics">Basics</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Design">Design</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_HowToCite">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Inventory">Overview</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Apposition">Apposition</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Comparatives">Comparatives</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Compounding">Compounding</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Conditionals">Conditionals</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_ControlRelations">Control Relations</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Coordination">Coordination</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Ellipsis">Ellipsis</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_ForeignExpressions">Foreign Expressions</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Fragments">Fragments</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_IdentityCopulae">Identity Copulae</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Imperatives">Imperatives</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_ImplicitLocatives">Implicit Locatives</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_ImplicitNominals">Implicit Nominals</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_ImplicitQuantifiers">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_InstrumentalRelatives">Instrumental Relatives</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_MeasurePhrases">Measure Phrases</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Nominalization">Nominalization</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_NonAdverbialClausalModifiers">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_NumberSequences">Number Sequences</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Parentheticals">Parentheticals</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Partitives">Partitives</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_PropositionalArguments">Propositional Arguments</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_QuasiModalInfinitivals">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_RelationalNouns">Relational Nouns</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_TimeExpressions">Time Expressions</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Vocatives">Vocatives</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/erg/ErgTop">Overview</a></li>
+          
+            <li><a href="/docsproto/erg/ErgLeTypes">LE Types</a></li>
+          
+            <li><a href="/docsproto/erg/ErgRules">Rules</a></li>
+          
+            <li><a href="/docsproto/erg/ErgTreebankingRules">Treebanking Rules</a></li>
+          
+            <li><a href="/docsproto/erg/ErgTokenization">Tokenization</a></li>
+          
+            <li><a href="/docsproto/erg/ErgTokenization_ComplexExample">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/erg/ErgProcessing">Overview</a></li>
+          
+            <li><a href="/docsproto/erg/QuickStart">QuickStart</a></li>
+          
+            <li><a href="/docsproto/erg/ErgProcessing_SampleExport">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_Interface">Semantics Interface</a></li>
+          
+            <li><a href="/docsproto/erg/AceErgTuning">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docsproto/erg/ErgApi">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/erg/ErgTreebankingGuidelines">Erg Treebanking Guidelines</a></li>
+          
+            <li><a href="/docsproto/erg/ErgTreebanking">Erg Treebanking</a></li>
+          
+            <li><a href="/docsproto/erg/ErgTreebankingBridges">Erg Treebanking Bridges</a></li>
+          
+            <li><a href="/docsproto/erg/CapitolHillTreebank">Erg Treebanking Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>These are instructions to quickly get started parsing with the ERG and
+processing the results. It uses the <a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">ACE</a> parser/generator and
+<a href="https://github.com/delph-in/pydelphin">PyDelphin</a>.</p>
+
+<h1 id="linux-64-bit">Linux (64-bit)</h1>
+
+<h2 id="install-ace">Install ACE</h2>
+
+<p>You can get pre-compiled ACE binaries at
+<a href="http://sweaglesw.org/linguistics/ace/">http://sweaglesw.org/linguistics/ace/</a>. Command-line instructions for
+getting the latest version (since this wiki was last updated) are as
+follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ wget http://sweaglesw.org/linguistics/ace/download/ace-0.9.29-x86-64.tar.gz -q -O - | tar xz
+~$ sudo mv ace-0.9.29 /opt/
+</code></pre></div></div>
+
+<p>To make ACE accessible as a command, at its directory to the PATH
+variable (e.g., in .bashrc)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PATH=/opt/ace-0.9.29:"$PATH"
+</code></pre></div></div>
+
+<p>Confirm that it is installed:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -V
+ACE version 0.9.29
+compiled at 23:08:25 on Nov 19 2018
+</code></pre></div></div>
+
+<h2 id="download-the-erg">Download the ERG</h2>
+
+<p>A pre-compiled grammar file for the ERG is available at ACE’s website:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ mkdir -p ~/grammars  # or some suitable place for grammar files
+~$ wget http://sweaglesw.org/linguistics/ace/download/erg-2018-x86-64-0.9.29.dat.bz2 -q -O - | bunzip2 &gt; ~/grammars/erg-2018-x86-64-0.9.29.dat
+</code></pre></div></div>
+
+<p>Confirm the grammar works with ACE (for fine tuning, see
+<a href="../AceErgTuning">AceErgTuning</a>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -Tq &lt;&lt;&lt; "Dogs sleep."
+[ LTOP: h0 INDEX: e2 [ e SF: prop ] RELS: &lt; [ unknown&lt;0:11&gt; LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;0:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ compound&lt;0:11&gt; LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x10 [ x PERS: 3 NUM: pl IND: + PT: notpro ] ]  [ udef_q&lt;0:4&gt; LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]  [ _dog_n_1&lt;0:4&gt; LBL: h14 ARG0: x10 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 h12 qeq h14 &gt; ICONS: &lt; &gt; ]
+[ LTOP: h0 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] RELS: &lt; [ udef_q&lt;0:4&gt; LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]  [ _dog_n_1&lt;0:4&gt; LBL: h7 ARG0: x3 ]  [ _sleep_v_1&lt;5:11&gt; LBL: h1 ARG0: e2 ARG1: x3 ] &gt; HCONS: &lt; h0 qeq h1 h5 qeq h7 &gt; ICONS: &lt; &gt; ]
+[ LTOP: h0 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] RELS: &lt; [ _dog_v_1&lt;0:4&gt; LBL: h1 ARG0: e2 ARG1: i3 ARG2: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;5:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 &gt; ICONS: &lt; &gt; ]
+[ LTOP: h0 INDEX: e2 [ e SF: prop ] RELS: &lt; [ unknown&lt;0:11&gt; LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]  [ udef_q&lt;0:11&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]  [ compound&lt;0:11&gt; LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x10 [ x PERS: 3 NUM: pl IND: + PT: notpro ] ]  [ udef_q&lt;0:4&gt; LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]  [ _dog_n_1&lt;0:4&gt; LBL: h14 ARG0: x10 ]  [ _sleep_n_1&lt;5:11&gt; LBL: h8 ARG0: x4 ] &gt; HCONS: &lt; h0 qeq h1 h6 qeq h8 h12 qeq h14 &gt; ICONS: &lt; &gt; ]
+NOTE: 4 readings, added 389 / 61 edges to chart (27 fully instantiated, 43 actives used, 15 passives used)      RAM: 1415k
+
+
+NOTE: parsed 1 / 1 sentences, avg 1415k, time 0.00952s
+</code></pre></div></div>
+
+<h2 id="install-pydelphin">Install PyDelphin</h2>
+
+<p><a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a> is available from
+<a href="https://pypi.python.org/pypi">PyPI</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ pip install pydelphin
+</code></pre></div></div>
+
+<p>If you want the <a href="https://github.com/delph-in/pydelphin/blob/master/CHANGELOG.md">latest
+features</a>
+of <a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a>, you might try getting it from its <a href="https://github.com/delph-in/pydelphin">GitHub
+repository</a> (you’ll need to have
+git installed) and switching to the develop branch:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ git clone https://github.com/delph-in/pydelphin.git
+~$ git checkout develop
+</code></pre></div></div>
+
+<p>Confirm it works (the following is available if you installed via pip):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -1 &lt;&lt;&lt; "The dog barks." | delphin convert --from ace --to eds --indent 1
+NOTE: 1 readings, added 691 / 108 edges to chart (37 fully instantiated, 56 actives used, 24 passives used)     RAM: 1499k
+NOTE: parsed 1 / 1 sentences, avg 1499k, time 0.01032s
+{e2:
+ _1:_the_q&lt;0:3&gt;{x IND +, NUM sg, PERS 3}[BV x3]
+ x3:_dog_n_1&lt;4:7&gt;{x IND +, NUM sg, PERS 3}[]
+ e2:_bark_v_1&lt;8:14&gt;{e MOOD indicative, PERF -, PROG -, SF prop, TENSE pres}[ARG1 x3]
+}
+</code></pre></div></div>
+
+<p>Note: the -1 option on the ace command restricts it to only output 1
+result per input, and the –from ace option on the delphin command
+extracts the MRS data from ACE’s output stream.</p>
+
+<h2 id="install-art">Install art</h2>
+
+<p>The <a href="http://sweaglesw.org/linguistics/libtsdb/art">art</a> utility is
+useful for parsing <a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop">[incr tsdb()</a>] profiles.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ wget http://sweaglesw.org/linguistics/libtsdb/download/art-0.1.9-x86-64.tar.gz -q -O - | tar xf
+~$ sudo mv art-0.1.9 /opt/
+</code></pre></div></div>
+
+<p>To make art accessible as a command, at its directory to the PATH
+variable (e.g., in .bashrc)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PATH=/opt/art-0.1.9:"$PATH"
+</code></pre></div></div>
+
+<p>Confirm it works:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ mkdir -p ~/tsdb/skeletons ~/tsdb/current  # or some other suitable location
+~$ wget http://svn.emmtee.net/trunk/lingo/lkb/src/tsdb/skeletons/english/Relations -O ~/tsdb/skeletons/Relations
+~$ echo -e "The dog barks.\nThe cat meows." | mkprof -r tsdb/skeletons/Relations tsdb/current/ex
+~$ art -a 'ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat' tsdb/current/ex
+reading results for                1    2 results
+reading results for                2    2 results
+</code></pre></div></div>
+
+<h1 id="macos">MacOS</h1>
+
+<p>(add instructions here)</p>
+
+<h1 id="windows-with-agree">Windows (with agree)</h1>
+
+<p>(add instructions here)</p>
+
+<h1 id="other-configurations">Other configurations</h1>
+
+<p>If you want a more full-featured setup for grammar development, you
+might look into the full LOGON distribution: <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LogonTop</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/erg/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -169,5 +169,5 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
 - finish the documentation
   - add screenshots
   - link to some running Lexical Type Databases (like
-[this](https://blog.inductorsoftware.com/docsproto/home/JacyLexTypes))
+[this](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexTypes))
 {% endraw %}

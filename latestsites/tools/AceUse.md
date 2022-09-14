@@ -1,9 +1,9 @@
 {% raw %}Some common use examples for [Ace](../AceTop), illustrated with
-[Jacy](https://blog.inductorsoftware.com/docsproto/home/JacyTop):
+[Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop):
 
 For the full list of command line options see [AceOptions](../AceOptions).
 For some discussions of picking best values for the ERG, see
-[AceErgTuning](https://blog.inductorsoftware.com/docsproto/concept/AceErgTuning).
+[AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning).
 
 ## Parsing
 
