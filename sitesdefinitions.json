@@ -319,7 +319,7 @@
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "VirtualSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Coordination Composition", "SrcDir": "docswiki", "SrcFile": "VirtualCoordinationComposition.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "2021 Schedule", "SrcDir": "docswiki", "SrcFile": "Virtual2021Schedule.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "2021 Plural Semantics", "SrcDir": "docswiki", "SrcFile": "Virtual2021PluralSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "2021 Plural Semantics", "SrcDir": "docswiki", "SrcFile": "Virtual2021PluralSemantics.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
       {"Section": "Cambridge", "Pages": [
         {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"},
