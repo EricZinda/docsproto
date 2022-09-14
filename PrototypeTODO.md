@@ -14,19 +14,20 @@ Figure out templates using Jekyll and see if they meet our needs
         - Do link fixup
     - (done) Build TOC properly
       - It doesn't link properly if you click on it.  Need to strip ".md"? 
-    - Some images are broken
-      - Github camo is used: https://github.com/atmos/camo by default in WIKI, this doesn't happen on github pages
-      - https://github.blog/2014-01-28-proxying-user-images/
-      - https://github.com/sionide21/camo-client
     - (done) Some links are broken
       - it is because it is a page in Conceptual linking to a tools page
       - (done) need to support cross site links
       - (done) Look through all the ResolvedLinks and see if they make sense
       - (fixed) There are many that use the format "#ArgumentIdentification" or "ErgSemantics_Design#non-scopal-modification"
+    - Some images are broken
+      - Github camo is used: https://github.com/atmos/camo by default in WIKI, this doesn't happen on github pages
+      - https://github.blog/2014-01-28-proxying-user-images/
+      - https://github.com/sionide21/camo-client
     - Link: "/WoodleyPackard.md", "ResolvedLink": "/WoodleyPackard"
       - handle "/"
       - This refers to a local *repository*
     - Test absolute links to make sure they work
+    - Put an error in siteerrors if we can't parse the site definition
 - Goal Build the current docs using the new process
     - Do the build in a way that allows versioning
     - Include all the current stuff

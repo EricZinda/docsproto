@@ -121,7 +121,6 @@
         {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
         {"Page": "Matrix Development Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDevTop.md", "Referrer": "home/MatrixTop.md"},
         {"Page": "Updating the Customization System", "SrcDir": "docswiki", "SrcFile": "Updating_the_Customization_System.md", "Referrer": "concept/Updating_the_Customization_System.md"},
-        {"Page": "matrixdef File Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "concept/Updating_the_Customization_System.md"},
         {"Page": "Matrix Customization Unit Testing", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationUnitTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
         {"Page": "Matrix Regression Testing", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
         {"Page": "Matrix Customization Web Testing", "SrcDir": "docswiki", "SrcFile": "MatrixCustomizationWebTesting.md", "Referrer": "concept/MatrixCustomizationWebTesting.md"},

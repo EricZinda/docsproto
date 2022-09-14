@@ -22,7 +22,8 @@
     "tools": [
       {"Section": "Tools", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
-        {"Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"}
+        {"Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"},
+        {"Page": "matrixdef File Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "concept/Updating_the_Customization_System.md"}
       ]}
     ]
   }
