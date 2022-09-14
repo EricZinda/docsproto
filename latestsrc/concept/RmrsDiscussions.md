@@ -2,32 +2,32 @@
 representations of phenomena in MRS and related discussions. This list
 is probably only partial, and additional links are welcome.
 
-- From the [Fefor Summit](FeforTop) ([FeforRmrs](FeforRmrs)), June
+- From the [Fefor Summit](https://blog.inductorsoftware.com/docsproto/summits/FeforTop) ([FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)), June
 2006:
   
-  - [FeforRmrs](FeforRmrs)
-  - [FeforScopingConstraints](FeforScopingConstraints)
-  - [FeforQuantifiers](FeforQuantifiers)
-  - [FeforDroppedArguments](FeforDroppedArguments)
-  - [FeforDiscourseStatus](FeforDiscourseStatus)
-  - [FeforMessageDemise](FeforMessageDemise)
+  - [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)
+  - [FeforScopingConstraints](https://blog.inductorsoftware.com/docsproto/summits/FeforScopingConstraints)
+  - [FeforQuantifiers](https://blog.inductorsoftware.com/docsproto/summits/FeforQuantifiers)
+  - [FeforDroppedArguments](https://blog.inductorsoftware.com/docsproto/summits/FeforDroppedArguments)
+  - [FeforDiscourseStatus](https://blog.inductorsoftware.com/docsproto/summits/FeforDiscourseStatus)
+  - [FeforMessageDemise](https://blog.inductorsoftware.com/docsproto/summits/FeforMessageDemise)
   - [MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite)
-  - [FeforPng](FeforPng)
+  - [FeforPng](https://blog.inductorsoftware.com/docsproto/summits/FeforPng)
 - From the Cambridge meeting, May 2008:
   - [Demo/discussion of paraphrasing](../RmrsParaphrasing)
   - [RmrsDistributional](../RmrsDistributional)
-- From the [Barcelona Summit](BarcelonaTop), July 2009:
+- From the [Barcelona Summit](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop), July 2009:
   
-  - [Tense and Aspect](BarcelonaSemantics)
-  - [MRS Postprocessing](BarcelonaPostprocessing)
-  - [Paraphrasing](BarcelonaParaphrasing)
-- From the [Paris Summit](ParisTop), July 2010:
+  - [Tense and Aspect](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaSemantics)
+  - [MRS Postprocessing](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaPostprocessing)
+  - [Paraphrasing](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaParaphrasing)
+- From the [Paris Summit](https://blog.inductorsoftware.com/docsproto/summits/ParisTop), July 2010:
   
-  - [ParisInformationStructure](ParisInformationStructure)
-- From the [Suquamish (Seattle-area) Summit](SuquamishTop), June 2011:
+  - [ParisInformationStructure](https://blog.inductorsoftware.com/docsproto/summits/ParisInformationStructure)
+- From the [Suquamish (Seattle-area) Summit](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop), June 2011:
   
-  - [WordNet integration](SuquamishMRSWordNet)
-  - [Lexical Semantics](SuquamishLexSem)
+  - [WordNet integration](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
+  - [Lexical Semantics](https://blog.inductorsoftware.com/docsproto/summits/SuquamishLexSem)
   - [FormatSpecifications](FormatSpecifications)
 - From the [WeSearch Hankø meeting](/WeSearch/Hank%C3%B8Schedule), May
 2012:
@@ -47,63 +47,63 @@ tongue''](WeSearch_VariablePropertySharing)
   - And other topics: [PEST examples
 discussion](WeSearch_PestExamples),
 [etc.](/WeSearch/Hank%C3%B8TheRest)
-- From the [Sofia Summit](SofiaTop), July 2012:
+- From the [Sofia Summit](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop), July 2012:
   
-  - [ICONS and Information Structure](SofiaIcons)
-  - [More on ICONS](SofiaIconsImplementation)
-  - [Format Specifications](SofiaMrsRfc)
-  - [Cross-Grammar Harmony](SofiaVpmHarmony)
-  - [MRS Comparison](SofiaMrsComparison)
+  - [ICONS and Information Structure](https://blog.inductorsoftware.com/docsproto/summits/SofiaICONS)
+  - [More on ICONS](https://blog.inductorsoftware.com/docsproto/summits/SofiaIconsImplementation)
+  - [Format Specifications](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsRfc)
+  - [Cross-Grammar Harmony](https://blog.inductorsoftware.com/docsproto/summits/SofiaVpmHarmony)
+  - [MRS Comparison](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsComparison)
 - [Mini-symposium on MRS modeling](RmrsLm) at UW, November 2012
 - [ERG Semantic Documentation](../ErgSemantics), begun under the auspices
 of [WeSearch](WeSearch) in February 2013
 - [Mini-symposium on named entities and MRS](RmrsNes) at UW, February
 2013
-- From the [Saarland Summit](SaarlandTop), July-August 2013
+- From the [Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop), July-August 2013
   
-  - [SEM-I: history, goals, future developments](SaarlandSemi)
-  - [SaarlandArity](SaarlandArity): mini-discussion prompted by
+  - [SEM-I: history, goals, future developments](https://blog.inductorsoftware.com/docsproto/summits/SaarlandSemi)
+  - [SaarlandArity](https://blog.inductorsoftware.com/docsproto/summits/SaarlandArity): mini-discussion prompted by
 Mathieu's talk on (D)MRS comparison
-  - [LTOP on NP](SaarlandLtopDiscussion)
+  - [LTOP on NP](https://blog.inductorsoftware.com/docsproto/summits/SaarlandLtopDiscussion)
   - [Improved representation of tense (and maybe aspect) using
-ICONS](SaarlandTense)
-  - [Information structure via ICONS in ERG](SaarlandIconsErg)
+ICONS](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTense)
+  - [Information structure via ICONS in ERG](https://blog.inductorsoftware.com/docsproto/summits/SaarlandIconsErg)
   - [Representation of clausal arguments in
 MRS](../SaarlandSententialArgument)
-- [AbbeyApposition](AbbeyApposition): Discussion of appositives,
+- [AbbeyApposition](https://blog.inductorsoftware.com/docsproto/summits/AbbeyApposition): Discussion of appositives,
 non-restrictive relatives and related phenomena, August 2013
-- From the [Bellingham sub-group meeting](TheAbbey_Chrysalis2014),
+- From the [Bellingham sub-group meeting](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014),
 hosted by the Abbey, February 2014
   
   - [Can RMRS be used to underspecify argument v. intersective
-modifier uses of PPs?](TheAbbey_Chrysalis2014PpAttachment)
+modifier uses of PPs?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014PpAttachment)
   - [How does arity underspecification impact the mapping to the
-object language?](TheAbbey_Chrysalis2014Arity)
+object language?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Arity)
   - [What external desiderata do we use to judge some representation
-as better than another?](TheAbbey_Chrysalis2014WhatsThePoint)
+as better than another?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014WhatsThePoint)
   - [A modest proposal for reworking the representation of (complex)
-proper nouns](TheAbbey_Chrysalis2014ProperNouns)
+proper nouns](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns)
   - [Thoughts on MRSs as lattices representing alternative
-views](TheAbbey_Chrysalis2014SchrodingerMrs)
+views](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs)
   - [Working towards MRS-centric terminology for
-subgraphs](TheAbbey_Chrysalis2014Terminology)
+subgraphs](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Terminology)
   - [Are unbounded sets of scopal operators allowed in
-logic?](TheAbbey_Chrysalis2014OpenEndedPredicates)
+logic?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014OpenEndedPredicates)
   - [Thoughts on representing the information provided by binding
-theoretic constraints](TheAbbey_Chrysalis2014BindingTheory)
+theoretic constraints](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014BindingTheory)
   - [Possessive idioms and coreference resolution (rough
-notes)](TheAbbey_Chrysalis2014PossessiveIdioms)
+notes)](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014PossessiveIdioms)
   - [When should verbal projections be wrapped in nominalization
 before serving as
-arguments?](TheAbbey_Chrysalis2014Nominalization)
+arguments?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Nominalization)
   - [Should deverbal nouns take an ARG1 corresponding to the
-verb's?](TheAbbey_Chrysalis2014DeverbalNouns)
-- From the [Tomar Summit](TomarSchedule), July 2014
+verb's?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014DeverbalNouns)
+- From the [Tomar Summit](https://blog.inductorsoftware.com/docsproto/summits/TomarSchedule), July 2014
   
   - [A discussion of DELPH-IN MRS conventions and MRS formal
-wellformedness constraints](TomarMrsWellformedness)
+wellformedness constraints](https://blog.inductorsoftware.com/docsproto/summits/TomarMrsWellformedness)
   - [Quantum MRS, with a special focus on idioms and linking to
-WordNet representation of lexical semantics](TomarQuantumMRS)
+WordNet representation of lexical semantics](https://blog.inductorsoftware.com/docsproto/summits/TomarQuantumMRS)
 - From the [Comparative Computational Semantics
 Workshop](WeSearch_Ccs), November 2014 (not exclusively about MRS)
   
@@ -113,74 +113,74 @@ Complements/Propositional Arguments
 Complements, cont), Nominalization, (Identity) Copulae
   - [Third Day](WeSearch_CcsDayTwo): Identity Copulae (cont, \`:'
 and others), Comparatives
-- From the [Singapore Summit](SingaporeSchedule), August 2015
+- From the [Singapore Summit](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule), August 2015
   
   - [Exploring constraints on MRS
-Wellformedness](SingaporeMrsWellformedness)
+Wellformedness](https://blog.inductorsoftware.com/docsproto/summits/SingaporeMrsWellformedness)
   - [Exploring apparently off-algebra analyses in current
-grammars](SingaporeHookOrthodoxy)
-  - [DMRS simplification](SingaporeDmrsSimplification)
-  - [MT and SMT model building over (D)MRS](SingaporeSmtModel)
-  - [Representation of MWEs](SingaporeRepresentingMwes)
+grammars](https://blog.inductorsoftware.com/docsproto/summits/SingaporeHookOrthodoxy)
+  - [DMRS simplification](https://blog.inductorsoftware.com/docsproto/summits/SingaporeDmrsSimplification)
+  - [MT and SMT model building over (D)MRS](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSmtModel)
+  - [Representation of MWEs](https://blog.inductorsoftware.com/docsproto/summits/SingaporeRepresentingMwes)
   - [Representation of Pragmatic
-information](SingaporeRepresentingPragmatics)
+information](https://blog.inductorsoftware.com/docsproto/summits/SingaporeRepresentingPragmatics)
   - [SIG on testing for semantic algebra
-compliance](SingaporeSemanticAlgebraCompliance)
+compliance](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSemanticAlgebraCompliance)
   - Some discussion of the idea of unifying EPs (to effectively
 suppress a second copy) in [Chinese A-not-A
 questions](LADChineseAnotA)
 - [Virtual Linguistic Analysis Design session regarding Lushootseed
 and RMRS](LADLushootseedSemantics), October 2015
-- From the [Stanford Summit](StanfordSchedule), June 2016
+- From the [Stanford Summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule), June 2016
   
-  - [Alternative Sets](StanfordAlternativeSets): Is the info in MRS
+  - [Alternative Sets](https://blog.inductorsoftware.com/docsproto/summits/StanfordAlternativeSets): Is the info in MRS
 sufficient? Role of information structure?
   - [Intrinsic Variable
-Principle](StanfordCrowgeyIntrinsicVariableNotes): What happens
+Principle](https://blog.inductorsoftware.com/docsproto/summits/StanfordCrowgeyIntrinsicVariableNotes): What happens
 if we drop insistence on unique EP for each intrinsic variable?
-  - [Revisiting Compositionality](StanfordAlgebraAdditions):
+  - [Revisiting Compositionality](https://blog.inductorsoftware.com/docsproto/summits/StanfordAlgebraAdditions):
 Discussion following up on Ann's presentation [Revisiting
 Compositionality](http://www.delph-in.net/2016/compositionality.pdf)
-- From the [Oslo Summit](OsloSchedule), August 2017
+- From the [Oslo Summit](https://blog.inductorsoftware.com/docsproto/summits/OsloSchedule), August 2017
   
-  - [OsloScopalNonScopal](OsloScopalNonScopal): What is the
+  - [OsloScopalNonScopal](https://blog.inductorsoftware.com/docsproto/summits/OsloScopalNonScopal): What is the
 difference between scopal and non-scopal modifiers, and how do
 we tell which is which?
-  - [OsloEventsInstances](OsloEventsInstances): What is the
+  - [OsloEventsInstances](https://blog.inductorsoftware.com/docsproto/summits/OsloEventsInstances): What is the
 difference between events and instances, and do we have to keep
 them distinct?
-  - [OsloQuestionRepresentation](OsloQuestionRepresentation): How
+  - [OsloQuestionRepresentation](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation): How
 can we capture the info that was lost when we dropped messages
 and thus the PARAMS list?
 - From [SynSem](SynSem) at CAS, 2017-2018
   
   - [SynSem/Activities/PolymorphicVariadicPredicates](SynSem_Activities_PolymorphicVariadicPredicates)
 (April 2018)
-- From the [Diderot Summit](DiderotSchedule), June 2018
+- From the [Diderot Summit](https://blog.inductorsoftware.com/docsproto/summits/DiderotSchedule), June 2018
   
   - [Scope of Temporal
 Modifiers](http://users.sussex.ac.uk/~johnca/summit-2018/scope.pdf):
 Quantifiers allow PP adverbials to scope above scopal modifiers
-  - [DiderotConstrainingComposition](DiderotConstrainingComposition):
+  - [DiderotConstrainingComposition](https://blog.inductorsoftware.com/docsproto/summits/DiderotConstrainingComposition):
 What constructions would push the limits of the composition
 algebra?
-  - [DiderotUnderspecifiedAttachment](DiderotUnderspecifiedAttachment):
+  - [DiderotUnderspecifiedAttachment](https://blog.inductorsoftware.com/docsproto/summits/DiderotUnderspecifiedAttachment):
 Should we underspecify PP attachment, and if so, how?
-- From the [Cambridge Summit](CambridgeSchedule), July 2019
+- From the [Cambridge Summit](https://blog.inductorsoftware.com/docsproto/summits/CambridgeSchedule), July 2019
   
-  - [CambridgeWhEvents](CambridgeWhEvents): Linking wh words to
+  - [CambridgeWhEvents](https://blog.inductorsoftware.com/docsproto/summits/CambridgeWhEvents): Linking wh words to
 specific questions (i.e. clauses) in the MRS, follow up to
-[OsloQuestionRepresentation](OsloQuestionRepresentation)
+[OsloQuestionRepresentation](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation)
   - [[CambridgeSEM-I]]: Do We Even Care About Fixed Arity Anymore?
-  - [CambridgeNominalization](CambridgeNominalization): Semantics of
+  - [CambridgeNominalization](https://blog.inductorsoftware.com/docsproto/summits/CambridgeNominalization): Semantics of
 nominalization
-- From the [Virtual Summit](VirtualSchedule), July 2020
+- From the [Virtual Summit](https://blog.inductorsoftware.com/docsproto/summits/VirtualSchedule), July 2020
   
-  - [VirtualCoordinationComposition](VirtualCoordinationComposition):
+  - [VirtualCoordinationComposition](https://blog.inductorsoftware.com/docsproto/summits/VirtualCoordinationComposition):
 What should the analysis of coordination look like? How does
 this relate to an AM algebra from DMRS composition?
-- From the the [2021 Virtual Summit](Virtual2021Schedule), July 2021
+- From the the [2021 Virtual Summit](https://blog.inductorsoftware.com/docsproto/summits/Virtual2021Schedule), July 2021
   
-  - [Virtual2021PluralSemantics](Virtual2021PluralSemantics):
+  - [Virtual2021PluralSemantics](https://blog.inductorsoftware.com/docsproto/summits/Virtual2021PluralSemantics):
 How to relate morphosyntactic marking of plurality to semantic plurality?
 {% endraw %}

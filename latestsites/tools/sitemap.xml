@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/AceInstall/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/AceLui/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/AceTop/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/AceUse/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/AgreeTop/</loc>
@@ -11,6 +20,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/ClimbShortClimb/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/ClimbTop/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/Climb_GClimb/</loc>
@@ -29,6 +41,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/tools/ItsdbReference/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/tools/ItsdbTop/</loc>

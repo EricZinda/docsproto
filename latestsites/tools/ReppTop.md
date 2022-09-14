@@ -12,7 +12,7 @@ the [pyDelphin](https://pypi.org/project/PyDelphin/) library.
 This page was predominantly authored by [StephanOepen](../StephanOepen),
 who is the original REPP designer and current maintainer of the LKB
 implementation of REPP. REPP support in PET was provided by
-[RebeccaDridan](RebeccaDridan) (with some help by Stephan), and Rebecca
+[RebeccaDridan](../RebeccaDridan) (with some help by Stephan), and Rebecca
 continues to maintain the PET implementation of REPP (see the page
 [ReppPet](ReppPet) for preliminary documentation). Please do not make
 substantial changes to this page unless you (a) are quite certain of the
@@ -445,7 +445,7 @@ interactively in PET, for example for in-depth debugging.
 # REPP in PET and Stand-Alone
 
 A C++ implementation of REPP was developed by
-[RebeccaDridan](RebeccaDridan), and this code forms the basis for REPP
+[RebeccaDridan](../RebeccaDridan), and this code forms the basis for REPP
 support in the PET parser (see the [ReppPet](ReppPet) page for details)
 as well as for a stand-alone REPP utility. To obtain and build the
 latter tool, please try the following:

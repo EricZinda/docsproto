@@ -7,6 +7,8 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
   - title: "Matrix"
     url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
+  - title: "Summits"
+    url: https://blog.inductorsoftware.com/docsproto/summits/BellinghamTop
 toc:
   - title: "Grammar Matrix"
     children:
@@ -88,6 +90,8 @@ toc:
     children:
       - title: "Overview"
         url: "MatrixMrsTestSuite"
+      - title: "Cathedral Test"
+        url: "MatrixMrsCatb"
       - title: "English"
         url: "MatrixMrsTestSuiteEn"
       - title: "Japanese"

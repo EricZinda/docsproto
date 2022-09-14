@@ -1,0 +1,954 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Summits</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Summits">
+<meta property="og:title" content="DELPH-IN Summits">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/summits/SofiaIconsImplementation/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/summits/SofiaIconsImplementation/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/summits/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/summits/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Summits Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/summits/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/summits/"><img src="/docsproto/summits/assets/images/Delph-In.png" alt="DELPH-IN Summits"></a>
+        
+        <a class="site-title" href="/docsproto/summits/">
+          DELPH-IN Summits
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics">Concepts</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/BellinghamTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Bellingham</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/BellinghamTop">Bellingham Summit</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Virtual 2021</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/VirtualSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualCoordinationComposition">Coordination Composition</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021Schedule">2021 Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021PluralSemantics">2021 Plural Semantics</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Cambridge</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/CambridgeTop">Cambridge Summit</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeWhEvents">Wh Events</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeNominalization">Nominalization</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Diderot</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/DiderotTop">Diderot Summit</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotConstrainingComposition">Constraining Composition</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotUnderspecifiedAttachment">Underspecified Attachment</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Oslo</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/OsloTop">Oslo Summit</a></li>
+          
+            <li><a href="/docsproto/summits/OsloSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/OsloScopalNonScopal">Scopal/Non-Scopal</a></li>
+          
+            <li><a href="/docsproto/summits/OsloEventsInstances">Events/Instances</a></li>
+          
+            <li><a href="/docsproto/summits/OsloQuestionRepresentation">Question Representation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Stanford</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/StanfordTop">Stanford Summit</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordAlternativeSets">Alternative Sets</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordCrowgeyIntrinsicVariableNotes">Crowgey Intrinsic Variable Notes</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordAlgebraAdditions">Algebra Additions</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Singapore</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SingaporeTop">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeMrsWellformedness">MRS Well-formedness</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeHookOrthodoxy">Hook Orthodoxy</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeDmrsSimplification">DMRS Simplification</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeSmtModel">SMT Model</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeRepresentingMwes">Representing MWES</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeRepresentingPragmatics">Representing Pragmatics</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeSemanticAlgebraCompliance">Semantic Algebra Compliance</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Tomar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/TomarTop">Tomar Summit</a></li>
+          
+            <li><a href="/docsproto/summits/TomarSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/TomarMrsWellformedness">MRS Well-formedness</a></li>
+          
+            <li><a href="/docsproto/summits/TomarQuantumMRS">Quantum MRS</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">TheAbbey/Chrysalis 2014</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014PpAttachment">Pp Attachment</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014Arity">Arity</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014WhatsThePoint">Whats The Point</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns">Proper Nouns</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs">Schrodinger MRS</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014Terminology">Terminology</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014OpenEndedPredicates">Open-Ended Predicates</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014BindingTheory">Binding Theory</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014PossessiveIdioms">Possessive Idioms</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014Nominalization">Nominalization</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014DeverbalNouns">Deverbal Nouns</a></li>
+          
+            <li><a href="/docsproto/summits/AbbeyApposition">Apposition</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Saarland</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SaarlandTop">Saarland Summit</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandSemi">SEM-I</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandArity">Arity</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandLtopDiscussion">Discussion</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandTense">Tense</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandIconsErg">ERG ICONS</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Sofia</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SofiaTop">Sofia Summit</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaICONS">ICONS</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaIconsImplementation">ICONS Implementation</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaMrsRfc">MRS RFC</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaVpmHarmony">VPM Harmony</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaMrsComparison">MRS Comparison</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Suquamish</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SuquamishTop">Suquamish Summit</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishMRSWordNet">MRS WordNet</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishLexSem">Lexical Semantics</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Paris</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/ParisTop">Paris Summit</a></li>
+          
+            <li><a href="/docsproto/summits/ParisInformationStructure">Information Structure</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Barcelona</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/BarcelonaTop">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaSemantics">Semantics</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaPostprocessing">Post-processing</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaParaphrasing">Paraphrasing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kyoto</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/KyotoTop">Kyoto Summit</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Berlin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/BerlinTop">Berlin Summit</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Fefor</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/FeforTop">Fefor Summit</a></li>
+          
+            <li><a href="/docsproto/summits/FeforTop">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/FeforRmrs">Rmrs</a></li>
+          
+            <li><a href="/docsproto/summits/FeforScopingConstraints">Scoping Constraints</a></li>
+          
+            <li><a href="/docsproto/summits/FeforQuantifiers">Quantifiers</a></li>
+          
+            <li><a href="/docsproto/summits/FeforDroppedArguments">Dropped Arguments</a></li>
+          
+            <li><a href="/docsproto/summits/FeforDiscourseStatus">Discourse Status</a></li>
+          
+            <li><a href="/docsproto/summits/FeforMessageDemise">Message Demise</a></li>
+          
+            <li><a href="/docsproto/summits/FeforPng">PNG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Jerez</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/JerezTop">Jerez Summit</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Emily &amp; Sanghoun’s initial proposal:</p>
+
+<p>In general, the idea is that for any given pair of indices, if there is
+an ICONS element in the MRS associated with a realization that
+realization is valid iff:</p>
+
+<p>— There is no ICONS element associated with the same pair of indices
+in the input; or — Any ICONS element associated with the same pair of
+indices in the input is compatible in its type with the ICONS element in
+the candidate realization.</p>
+
+<p>(I’m not sure as I type this what to do about cases where there are
+multiple ICONS elements for the same pair of indices.  As far as
+information structure is concerned, we wouldn’t expect to have more than
+one.  Of course, if we’re putting other stuff into ICONS, then there
+might be ICONS constraints of different types. All of the above would
+then be only applicable to subtypes of info-str.)</p>
+
+<p>Refinement: all the variables in the ICONS should be variables
+(?characteristic variables: Emily says no because of pro-drop, esp topic
+drop in Chinese) somewhere else in the MRS? Is it ever desirable to say
+“this element is a topic, but we don’t know of which clause?”/”This
+clause has a topic, but I don’t know what it is”? Jacy has something
+like this just now, just because in that particular construction can’t
+grab the relevant clause variable. Start with all variables are
+somewhere else in the MRS, and then look into that further later.</p>
+
+<p>Bracket the question of whether the [e2 info-str x1] even belongs in
+the ICONS list from how to handle the ICONS list in generation. More
+general is to allow for both possibilities, and not assume that one or
+the other will be the final solution.</p>
+
+<p>Absence of specification meaning something (lack of equation of
+variables in MRS) vs. underspecification. These two things cannot be
+equated in realization. Procedurality? Notion of default?</p>
+
+<p>Do we need a notion of defaults in dealing with ICONS? Notion of
+defaults: avoid generating topicalized sentences by taking
+underspecified as e.g., non-topic. Could be done via input MRS fix-up
+transfer grammar (provided support for ICONS).</p>
+
+<p>Could similarly do default inequalities for the variable thing, but
+wouldn’t want to implement that. That’s the way to get around the
+wince/whinge-inducing “procedural” term.</p>
+
+<p>EB’s proposal regarding enhancement of current post-generation
+compatibility test with notion of ICONS subsumption. Do this generate
+and test as the first implementation.</p>
+
+<p>FCB’s request for variable-property sharing works differently. Where
+does the translation between that special icons subtype and actual
+variable property sharing happen in the generation pipeline?</p>
+
+<p>Might be tempting to look at ICONS as parallel to HCONS, but currently
+trying to do better than that. HCONS is part of the idiosyncrasy of our
+notion of subsumption between MRSs. Cheap scope - equates qeqs to
+produce a normal form ordering of the quantifiers all at the top,
+equating skolem constants but not the variables. Current standard
+post-generation test doesn’t see HCONS. Might be dependent on only using
+leqs. Third variant tests exact isomorphism including HCONS; less
+efficient.</p>
+
+<p>qeqs easier than leqs: every time there’s a qeq it corresponds to a
+scopal argument, makes the transitive closure trivial. In the course of
+refining the grammar got rid of cases where we were doing different
+things with the scopal arguments (e.g., equality). Assuming actual
+identity works for a particular grammar, but not necessarily for
+generator input (makes it harder to construct input to the generator).
+German needs leqs, probably also Turkish…</p>
+
+<p>Upshot: not many useful parallels between HCONS and ICONS</p>
+
+<p>Do ICONS have logical status? Not for information structure (probably),
+maybe for anaphora.</p>
+
+<p>So coreference:</p>
+
+<p>Two types (maybe): coreference with variable property sharing,
+coreference without constraints on variable property sharing. There
+might be more fine-grained things we want to do about how much variable
+property matching is done.</p>
+
+<p>Lars: Introducing semantic roles into the grammar =&gt; need to detach
+number from coreference.</p>
+
+<p>Do we ever get “coindexing” (variable property sharing) without
+coreference:</p>
+
+<p><em>Elephants are mammals.</em></p>
+
+<p>Do want the number to match (some of the time), but don’t want to say
+they are coreferent.</p>
+
+<p><em>These five people are a team.</em></p>
+
+<p>-&gt; Suggests that this not a grammar property, but rather something
+that we should expect in the input MRS.</p>
+
+<p>But the input MRS is often underspecified for number in e.g., jpn &gt;
+eng translation.</p>
+
+<p>What about:</p>
+
+<p><em>She grew up a healthy child/*healthy children.</em> (Plus also gender
+agreement on <em>child</em> in Russian.) But don’t want to make these
+coreferent in a real-world sense? How would we test that empirically?
+Since we’re talking about different life stages, saying “same entity”
+may or may not make sense.</p>
+
+<p>What about negation?</p>
+
+<p><em>She didn’t grow up a healthy child.</em> (Still need agreement in Russian)
+<em>Elephants are not mammals.</em> (But too much mismatch in the identity
+copula.)</p>
+
+<p>Maybe this is grammar internal; doesn’t necessarily need ICONS.</p>
+
+<p><em>There’s two children and they grew up a happy pair.</em> <em>They went through
+life a happy couple.</em></p>
+
+<p>-&gt; Number’s not agreeing here.</p>
+
+<p>What can be done about passive in English? There is no direct
+relationship between passive and information structure.</p>
+
+<p><em>What was destroyed by the earthquake?</em> <em>Three buildings were destroyed
+by the earthquake.</em></p>
+
+<p><em>Who was this book written by?</em> <em>This book was written by Kim.</em></p>
+
+<p>EB is interested to know of the examples where the need is felt to
+control active v. passive.</p>
+
+<p>Maybe we could have another ICONS type that talks about promotion of
+demotion of arguments. (Which potentially interact with information
+structure.)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Summary of TODOs so far: 
+-- MRS object augmented with representation of ICONS (Ann)
+-- View these (Ann, oe)
+-- Serialize (xml, simple output and input)  [output in PET later after we've finished experimentation in LKB]
+-- Post-generation comparison (Ann adding function on top of existing code, oe will improve later)
+-- Add subsumption hierarchy to the SEM-I (Sanghoun); but Ann might hack^H^H work around this for now and let someone else fix later.
+</code></pre></div></div>
+
+<p>What about non-restrictive relatives or appositives?</p>
+
+<p>Rather than appos_rel (which is problematic because its handle doesn’t
+have a place to live in the scope tree), use ICONS:</p>
+
+<p><em>My brother, the doctor, sings.</em></p>
+
+<p>Where does <em>the doctor</em> go in the scope tree, if appos_rel isn’t
+connecting them? <em>doctor</em> is down inside the restriction of <em>the</em>, <em>the</em>
+being a quantifier can attach high in the tree and pulls <em>doctor</em> along
+with it.</p>
+
+<p><em>My brother who sings dances.</em></p>
+
+<p>Non-restrictive reading should have same or similar to semantics;
+restrictive reading has it inside restrictor of <em>my</em>, non-restrictive
+doesn’t.</p>
+
+<p>Building the compositional semantics where we always do, but rather than
+having the apposition rule add new EPs, add an ICONS showing coreference
+or equality. Is that the same name as the one we use for anaphora? Name
+it appos only if it’s different semantically from what’s going on. But
+what are the examples that we could check against?</p>
+
+<p>Note that predicative noun phrases are a hard, unsolved problem. (Ann
+observes that this is a case where composition and formal semantics
+point to different answers…. maybe ICONS could have some part in the
+solution.)</p>
+
+<p>How should the generator use this information in the ICONS? If the
+grammar is suitably updated, should see apposition iff the input MRS has
+the ICONS. Oe points out significant potential cost in efficiency of
+generation, since currently the appos rule is only triggered when
+appos_rel is in the input semantics because of C-CONT.</p>
+
+<p>Ann: put this under the heading of stage 2. Engineers (Woodley) think
+there may be an efficient way to do this.</p>
+
+<p>Dan fantasizes about the padded cell where grammar engineers don’t have
+to worry about efficiency. oe briefly fantasizes about moving all
+variable equality into ICONS. Ann tops that by suggesting she’d like to
+move semantic composition out of the feature structures.</p>
+
+<p>Objections:</p>
+
+<p><em>Kim tried to sing.</em> — there’s no room for slipperiness in the
+identity between the trier and the singer?</p>
+
+<p>Sounds cluttered. What’s the advantage?</p>
+
+<p>Might eliminate the formal idiosyncrasy we currently have with the
+treatment of variables.</p>
+
+<p>Could apposition be done like coordination — creating a new index?
+-&gt; More quantifiers in the semantics, since we need one more for that
+index.</p>
+
+<p>For the number agreement tendency cases when the input doesn’t have the
+number but we can’t make a hard constraint, could we find a way to
+define features for the realization ranking machinery that can capture
+this information. (Also possibly related to notion of probabilistic
+connection between passive and information structure.)</p>
+
+<p>Do ICONS affect truth conditions?</p>
+
+<ul>
+  <li>Partee examples showing that information structure does sometimes
+interact with truth conditions.</li>
+  <li>Other examples showing interaction with prosody and truth
+conditions.</li>
+</ul>
+
+<p>If ICONS doesn’t make it onto a scope-resolved LF, how can we model its
+impact on truth conditions?</p>
+
+<p>What’s the difference between ICONS and RELS (and HCONS), so we can tell
+when to use which tool?</p>
+
+<ul>
+  <li>ICONS are always binary relations between two individuals.</li>
+  <li>ICONS don’t have/don’t merit a position in the scope tree — in
+fact mess things up when you try to put them into the scope tree.</li>
+</ul>
+
+<p>Can we sharpen up the second of those? Can’t be fit in naturally? Don’t
+have a reason to be there? What about the n-n-compound (two-place
+unspec_rel). n-n-compound only sometimes has to do with identity.</p>
+
+<p>oe: In what way are unspec_rel required to be in the scope tree? Ann:
+Easier to see in the preposition case, but also true in the compound
+case</p>
+
+<p><em>Most white cats are deaf.</em> <em>Most deaf cats are white.</em></p>
+
+<p>Need to know where <em>white</em> goes wrt to restriction to get the right
+truth conditions.</p>
+
+<p><em>Most cats from Africa are in Bulgaria.</em></p>
+
+<p>… resolution: it’s not that we don’t need to pin it down in
+composition by attaching handle somewhere but that we don’t want them in
+the tree in the end, either because doing so would break the tree for
+other things, or because we don’t have a natural position in the tree
+and have to pick arbitrarily.</p>
+
+<p><em>My brother who sings dances.</em> (non-restrictive interpretation)</p>
+
+<p>If we’re going to use ICONS to set up the relationship between the
+relative clause and the head noun (like appositives). Where does the
+relative clause attach in the scope tree if we do that? Dan hopes:
+there’s enough quantifiers to make that work. Might need a
+non-restrictive <em>who</em> to introduce a new quantifier. Ann will look into
+this and report back.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/summits/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/summits/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

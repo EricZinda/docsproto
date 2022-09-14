@@ -2,9 +2,9 @@
 Grammar](http://krg.khu.ac.kr).
 
 The Korean Resource Grammar was originally built by
-[JongBokKim](JongBokKim) and [JaehyungYang](/JaehyungYang). A revised
+[JongBokKim](https://blog.inductorsoftware.com/docsproto/tools/JongBokKim) and [JaehyungYang](/JaehyungYang). A revised
 matrix-compliant version has been rebuilt by
-[SanghounSong](SanghounSong) and [FrancisBond](FrancisBond) --- the KRG
+[SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) and [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) --- the KRG
 now both parses and generates.
 
 ### Encoding Issues
@@ -13,7 +13,7 @@ now both parses and generates.
 linux. Instead, we recommend you enter it though emacs.
 - To show Korean in the output either
   - use pangolui (see *Alternative Lui Implementations* on the
-[LkbLui](LkbLui) page) ([FrancisBond](FrancisBond) recommends
+[LkbLui](LkbLui) page) ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) recommends
 this)
   - specify Korean fonts in the .luirc (see [LuiRc](LuiRc))
 

@@ -42,8 +42,8 @@ The LTDB has been updated by Francis Bond, Luis Morgado da Costa and
 Michael Wayne Goodman, using
 [PyDelphin](https://github.com/delph-in/pydelphin) and visualization
 from [delphin-viz](https://github.com/delph-in/delphin-viz). The
-software was originally written by [ChikaraHashimoto](ChikaraHashimoto)
-and [FrancisBond](FrancisBond) in perl, and used the html output
+software was originally written by [ChikaraHashimoto](../ChikaraHashimoto)
+and [FrancisBond](../FrancisBond) in perl, and used the html output
 provided by [StephanOepen](../StephanOepen).
 
 ## Sample In Line Documentation
@@ -104,7 +104,7 @@ It is assumed that the name is finished by a newline.
 ## Integration with FFTB and delphin-viz
 
 If you shift-click on a rule or lexical entry in the [Full Forest
-TreeBanker](FftbTop)'s unary rules it will take you to the ltdb defined
+TreeBanker](https://blog.inductorsoftware.com/docsproto/concept/FftbTop)'s unary rules it will take you to the ltdb defined
 in assets/render.js:
 
     var ltdburl = "https://lr.soh.ntu.edu.sg/~bond/cgi-bin/ERG_mo/search.cgi?typ="
