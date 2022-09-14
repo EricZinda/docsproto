@@ -19,7 +19,7 @@ the parser. To this end, a new format ‒ the XML-based FSC input format
 compatibility layer for the old input formats in PET, which
 transparently converts the token information available in these formats
 (form, optionally stem, characterization information and pos tags) into
-token feature structures. Please see the [PetInput](../PetInput) page for
+token feature structures. Please see the [PetInput](PetInput) page for
 more information.
 
 Another related issue is a new way of generic lexical instantiation

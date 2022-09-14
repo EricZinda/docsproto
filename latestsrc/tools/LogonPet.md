@@ -1,8 +1,8 @@
 {% raw %}# Overview
 
-The so-called LOGON distribution (please see the [LogonTop](../LogonTop)
+The so-called LOGON distribution (please see the [LogonTop](LogonTop)
 page, for general background) includes pre-compiled binaries of the
-[PET](../PetTop) parsing system. To support a variety
+[PET](PetTop) parsing system. To support a variety
 of user needs, there are binaries for a range of different
 configurations, ‘hidden’ behind wrapper scripts that provide a
 command-line option, to select a specific binary. Furthermore, the
@@ -19,7 +19,7 @@ The LOGON front-ends to the two PET components are $LOGONROOT/bin/flop
 and $LOGONROOT/bin/cheap, which will be automatically added to the shell
 search path (the $PATH environment variable) in a functional LOGON
 installation (please work through the
-[LogonInstallation](../LogonInstallation) page, in case the above does not
+[LogonInstallation](LogonInstallation) page, in case the above does not
 seem true in your case). In contrast to the standard PET binaries, the
 LOGON wrappers take one additional command-line option, which
 furthermore /must/ be provided as the very first option, right after the
@@ -86,7 +86,7 @@ In addition to the three configurations above, the LOGON *flop* and
 user-provided (locally compiled) binary. These are activated by the
 --local option; please see the [source
 code](http://svn.emmtee.net/trunk/bin/cheap) for further information (or
-contact [StephanOepen](../StephanOepen) directly). Furthermore, the
+contact [StephanOepen](StephanOepen) directly). Furthermore, the
 selection of a specific *cheap* configuration can be short-circuited by
 virtue of the $LOGONCHEAP environment variable (in which case, no extra
 command-line option must be supplied), e.g.
@@ -96,7 +96,7 @@ command-line option must be supplied), e.g.
 
 This facility will be most useful (if at all), when running *cheap*
 through LOGON batch processing scripts; please see the
-[LogonProcessing/BatchParsing](../LogonProcessing_BatchParsing) page, for
+[LogonProcessing/BatchParsing](LogonProcessing_BatchParsing) page, for
 further discussion.
 
 # Implementation Notes

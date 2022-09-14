@@ -93,9 +93,9 @@ This page was initiated and is maintained by
 EDS design and supporting Lisp code (which is part of the LKB, as well
 as of the stand-alone Lisp MRS library). Additional details of the
 conversion process from MRS are discussed on the
-[EdsConversion](../EdsConversion) page, and experimental documentation on
+[EdsConversion](EdsConversion) page, and experimental documentation on
 using EDS as an input representation to generation with the ERG is
-provided on the [EdsGeneration](../EdsGeneration) page.
+provided on the [EdsGeneration](EdsGeneration) page.
 
 # A First Example
 
@@ -235,7 +235,7 @@ examples above.
 Serialization of node properties is enabled by the boolean configuration
 option \*eds-show-properties-p\*, which until late 2015 used to default
 to false; with emerging use of EDS for generation (see the
-[EdsGeneration](../EdsGeneration) page for background) more recently, it
+[EdsGeneration](EdsGeneration) page for background) more recently, it
 seemed convenient to toggle the default behavior, in a sense trading a
 bit of compactness and readability for additional information content.
 
@@ -291,7 +291,7 @@ AMR-style serialization.
 
 Finally, EDS graphs can also be serialized in JSON (to support an
 emerging RESTful interface to the ERG on-line demonstrator; see the
-[ErgApi](../ErgApi) page), where the top-level structure is an object (i.e.
+[ErgApi](ErgApi) page), where the top-level structure is an object (i.e.
 associative array) with properties top and nodes. The set of nodes, in
 turn, is encoded as an object indexed by node identifiers. Each node has
 properties label, (optional) lnk, (optional carg) and edges; outgoing
@@ -386,7 +386,7 @@ LaTeX rendering of Elementary Dependency Structures can be obtained from
 the [ERG On-line Demonstrator](http://erg.delph-in.net). However,
 probably the easiest path to obtaining EDS outputs is through batch
 processing in [\[incr tsdb()\]](http://www.delph-in.net/itsdb) and its
-export facilities; please see the [ErgProcessing](../ErgProcessing) page
+export facilities; please see the [ErgProcessing](ErgProcessing) page
 for instructions.
 
 For access to full EDS functionality, one can invoke the MRS-to-EDS

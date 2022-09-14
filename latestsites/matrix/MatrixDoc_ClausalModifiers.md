@@ -114,7 +114,7 @@ supported features include:
 - ASPECT
 - MOOD
 - Syntactic features (under HEAD) defined on the
-[MatrixDoc/OtherFeatures](../MatrixDoc_OtherFeatures) subpage)
+[MatrixDoc/OtherFeatures](MatrixDoc_OtherFeatures) subpage)
 
 Some common examples include:
 
@@ -122,7 +122,7 @@ Some common examples include:
 Other Features page. Then click "Add a feature" in the clausal
 modifier strategy and select FORM non-finite.
 - Subjunctive mood is required: define the values for MOOD on the
-[Tense, Aspect, Mood](../MatrixDoc_TenseAspectMood) Subpage. Then
+[Tense, Aspect, Mood](MatrixDoc_TenseAspectMood) Subpage. Then
 select MOOD subjunctive for the clausal modifier strategy.
 - The subordinate clause must be nominalized: Define a nominalization
 strategy on the [Nominalized Clauses](MatrixDoc_NominalizedClauses)

@@ -100,7 +100,7 @@ To experiment with these treebanks, however, for the time being, large
 parts of the DELPH-IN toolchain are required. We recommend working with
 the *trunk* (aka head revision) of the integrated [LOGON
 distribution](https://blog.inductorsoftware.com/docsproto/tools/LogonTop). For a quick-start guide to installing this
-software, please see the [ErgProcessing](../ErgProcessing) page
+software, please see the [ErgProcessing](ErgProcessing) page
 (specifically the *Output Formats* section; however, we strongly advise
 perusing the full LOGON documentation, linked from the
 [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page, for more technical background).
@@ -115,7 +115,7 @@ textual formats, for example using a command like the following:
 
 If there were broad interest, we may also provide a textual export
 version of WeScience for direct download in the future (as is available
-for the [WikiWoods](../WikiWoods) Treecache, where running the export step
+for the [WikiWoods](WikiWoods) Treecache, where running the export step
 requires non-trivial computational resources).
 
 # Further Notes for DELPH-IN Users

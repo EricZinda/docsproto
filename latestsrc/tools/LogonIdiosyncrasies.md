@@ -36,7 +36,7 @@ LOGON tree attempts to get all of these parameters right
 'out-of-the-box', mostly by pushing for
 [UTF-8](http://www.cl.cam.ac.uk/~mgk25/unicode.html) as the default
 encoding across languages. While the non-LOGON LKB binaries (see the
-[LkbInstallation](../LkbInstallation) page) are not yet built using the
+[LkbInstallation](LkbInstallation) page) are not yet built using the
 latest set of CLIM patches as of late 2008, it is expected that they too
 will activate improved international character support (on Linux) in the
 near future.
@@ -86,7 +86,7 @@ start-up file:
       (tsdb :skeletons "~/logon/lingo/lkb/src/tsdb/skeletons/english")
 
 However, note that the various LOGON batch processing scripts (see the
-[LogonProcessing](../LogonProcessing) page for details) will adjust the
+[LogonProcessing](LogonProcessing) page for details) will adjust the
 skeleton directory appropriately, i.e. reflecting the choice of grammar
 or language pair.
 

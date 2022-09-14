@@ -45,7 +45,7 @@ gender page.
 
 Using dropdown menu, please add genders and their supertypes as
 applicable to your language. Please note that like
-[person](../MatrixDoc_Person), the Grammar Matrix currently only deals with
+[person](MatrixDoc_Person), the Grammar Matrix currently only deals with
 gender insofar as it is expressed grammatically, i.e. through some form
 of agreement. If your language does not express gender through agreement
 (for example, English or Mandarin Chinese), please leave this section

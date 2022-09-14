@@ -2,8 +2,8 @@
 
 The LOGON tree makes a distinction between *core* components (a meager
 three gigabytes) and *extra* resources; see the
-[LogonInstallation](../LogonInstallation) page for general installation
-instructions, and the [LogonTop](../LogonTop) page for further background.
+[LogonInstallation](LogonInstallation) page for general installation
+instructions, and the [LogonTop](LogonTop) page for further background.
 Of these, the latter are not required for basic functionality but rather
 extend the LOGON tree with either proprietary third-party components
 (which can only be released to sites with appropriate licenses,
@@ -48,7 +48,7 @@ same physical SVN repository, they only differ in how they handle
 authentication. We hope to be able to consolidate access methods as
 newer SVN server revisions become available. In the following examples,
 we use the environment variable $LOGONSVN instead of a specific SVN base
-URL; once installed (see the [LogonInstallation](../LogonInstallation)
+URL; once installed (see the [LogonInstallation](LogonInstallation)
 page), the LOGON tree automatically sets$LOGONSVN to the appropriate SVN
 access method. Note however that, for those with valid SVN user
 accounts, it is always possible to uniformly use logon.emmtee.net as the

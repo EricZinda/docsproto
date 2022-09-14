@@ -349,11 +349,11 @@
         
         <h1 id="updating-the-customization-system">Updating the Customization System</h1>
 
-<p>There are several <a href="../Updating_the_Customization_System#steps">steps</a> to
+<p>There are several <a href="Updating_the_Customization_System#steps">steps</a> to
 updating the customization system, although you won’t necessarily do all
-of them for every change. We also have some instructions for <a href="../Updating_the_Customization_System#committing">committing
+of them for every change. We also have some instructions for <a href="Updating_the_Customization_System#committing">committing
 or vivifying</a> changes.
-There are also a few <a href="../Updating_the_Customization_System#examples">basic
+There are also a few <a href="Updating_the_Customization_System#examples">basic
 examples</a> of things to play
 with if you are starting out.</p>
 
@@ -427,8 +427,8 @@ based on this range a set of new choices (names and values) must be
 defined.</li>
   <li>Write the processing code in customize.py (and/or in a
 library-specific module)</li>
-  <li>Write <a href="../MatrixCustomizationUnitTesting">unit tests</a> for the code</li>
-  <li>Write <a href="../MatrixRegressionTesting">regression tests</a> to test the output</li>
+  <li>Write <a href="MatrixCustomizationUnitTesting">unit tests</a> for the code</li>
+  <li>Write <a href="MatrixRegressionTesting">regression tests</a> to test the output</li>
 </ol>
 
 <p>When changing the underlying infrastructure:</p>
@@ -436,7 +436,7 @@ library-specific module)</li>
 <ol>
   <li>Write the changes to matrix.cgi, customize.py, choices.py, or
 whatever module is needing change</li>
-  <li>Definitely write <a href="../MatrixCustomizationUnitTesting">unit tests</a> for
+  <li>Definitely write <a href="MatrixCustomizationUnitTesting">unit tests</a> for
 these kinds of changes</li>
   <li>Update the documentation as necessary (e.g. these wiki pages)</li>
 </ol>
@@ -466,7 +466,7 @@ chmod a+w sessions).</p>
 
 <ol>
   <li><strong>NB</strong>: Avoid working directly on the trunk. Work in a branch, then merge your branch into the trunk once it’s ready. See <a href="https://github.com/delph-in/matrix/issues/503">related issue</a>.</li>
-  <li>Don’t forget to run all of the <a href="../MatrixRegressionTesting">regression tests</a> before merging your branch with the trunk and before installing a version on the main public website!</li>
+  <li>Don’t forget to run all of the <a href="MatrixRegressionTesting">regression tests</a> before merging your branch with the trunk and before installing a version on the main public website!</li>
   <li>Refer to <a href="https://www.atlassian.com/git/tutorials">git docs/tutorials</a> for information about committing, resolving conflicts, etc.</li>
 </ol>
 
@@ -476,7 +476,7 @@ chmod a+w sessions).</p>
   <li>svn update</li>
   <li>resolve conflicts</li>
   <li>run the regression tests:
-<a href="../MatrixRegressionTesting">MatrixRegressionTesting</a></li>
+<a href="MatrixRegressionTesting">MatrixRegressionTesting</a></li>
   <li>fix any regressions (repeat as necessary)</li>
   <li>svn diff each file to find diffs and note in text file for svn
 comment</li>

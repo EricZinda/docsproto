@@ -1,6 +1,6 @@
 {% raw %}# Background
 
-Elementary Dependency Structures (EDS; see the [EdsTop](../EdsTop) page for
+Elementary Dependency Structures (EDS; see the [EdsTop](EdsTop) page for
 general background) are designed as a *lossy* reduction of full MRSs,
 leaving out most of the underspecified scope information that, arguably,
 is among the more intricate parts of ERG semantics and that, arguably,

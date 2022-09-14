@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](../MatrixMrsTestSuite) for Bulgarian.
+{% raw %}This is the [MRS Test Suite](MatrixMrsTestSuite) for Bulgarian.
 
 ## Bulgarian MRS Test Suite
 
