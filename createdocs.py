@@ -49,7 +49,10 @@ def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_pa
     file_name, file_extension = os.path.splitext(src_file_path)
     if file_extension.lower() == ".md":
         with open(src_file_path, "r") as txtFile:
-            result = parser.parse(txtFile.read())
+            try:
+                result = parser.parse(txtFile.read())
+            except Exception as error:
+                raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
             links = convert_child(sites_definitions, file_definition, result)
 
         with open(dst_file_path, "w") as txtFile:
@@ -409,7 +412,11 @@ if __name__ == '__main__':
 
         # Log any errors that occurred and fail the build
         if len(errors) > 0:
-            log_json_items_to_file("latestsrc/SiteErrors.json", errors)
+            reportErrors = []
+            for item in errors:
+                print(f'{json.dumps(item)}\n')
+                reportErrors.append({"Error": item["Error"]})
+            log_json_items_to_file("latestsrc/SiteErrors.json", reportErrors)
             print(f"Errors generating site (see 'latestsrc/SiteErrors.txt'\n")
             assert False
 
