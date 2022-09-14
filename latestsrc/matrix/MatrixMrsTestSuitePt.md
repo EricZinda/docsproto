@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](MatrixMrsTestSuite) for Portuguese.
+{% raw %}This is the [MRS Test Suite](../MatrixMrsTestSuite) for Portuguese.
 
 ## Portuguese MRS Test Suite
 

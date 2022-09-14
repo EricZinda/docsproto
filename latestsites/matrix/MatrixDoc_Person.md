@@ -34,7 +34,7 @@ and
 pages may affect the hierarchy of person. Underspecifications in the
 lexicon or morphosyntax will automatically be integrated in the
 hierarchy of *person*: you do not need to define these explicitly on the
-[Person](MatrixDoc_Person) page.
+[Person](../MatrixDoc_Person) page.
 
 In the first section you are asked to define person values existing in
 your language. The possible person values are: ***first*** (referring to
@@ -57,7 +57,7 @@ elsewhere in the customization system and in the resulting grammar (see
 more on that in the [Analyses](/MatrixDoc/Person#Analyses) section
 below).
 
-Please note that like [gender](MatrixDoc_Gender), in terms of filling
+Please note that like [gender](../MatrixDoc_Gender), in terms of filling
 out the Grammar Matrix questionnaire, we are dealing with person only
 insofar as it is expressed grammatically, i.e. through some form of
 agreement. If your language does not express person through agreement,
@@ -196,7 +196,7 @@ and
 pages may affect the hierarchy of person. Underspecifications in the
 lexicon or morphosyntax will automatically be integrated in the
 hierarchy of *person*: you do not need to define these explicitly on the
-[Person](MatrixDoc_Person) page.
+[Person](../MatrixDoc_Person) page.
 
 # Trivia
 

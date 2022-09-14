@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 original LOGON developers. The functionality documented here may still
-change. This page was initiated by [EmilyBender](EmilyBender); please
+change. This page was initiated by [EmilyBender](../EmilyBender); please
 feel free to make additions or corrections as you see fit. However,
 before revising this page, one should be reasonably confident of the
 information given being correct.
@@ -107,7 +107,7 @@ permission on the grammar. (At UW, we have a separate user for this
 web process, which means we end up making the grammar group
 writable.)
 - There of course has to be a \~/tmp/ directory; the standard LOGON
-configuration (see the [LogonInstallation](LogonInstallation) page)
+configuration (see the [LogonInstallation](../LogonInstallation) page)
 should have seen to this.
 - The PVM daemon pvmd3 has to be running (I would expect the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) machinery to take care of

@@ -11,7 +11,7 @@ The primary documentation on the LKB is provided by the book
 Grammars](http://cslipublications.stanford.edu/site/1575862603.shtml).
 Excerpts from the book provide an [tour of the
 LKB](http://cslipublications.stanford.edu/pdf/1575862603h.pdf) (although
-see [LkbInstallation](LkbInstallation) for revised installation
+see [LkbInstallation](../LkbInstallation) for revised installation
 instructions) and the [user
 manual](http://cslipublications.stanford.edu/pdf/1575862603usersmanual.pdf).
 
@@ -30,12 +30,12 @@ new version in use from about 1997. These pages include documentation on
 the following topics:
 
 - [LkbCopyright](LkbCopyright): Copyright and licensing;
-- [LkbInstallation](LkbInstallation): Obtaining, installing and
+- [LkbInstallation](../LkbInstallation): Obtaining, installing and
 running the LKB;
 - [LkbEmacs](LkbEmacs): Interfacing the LKB to the emacs(1) editor;
 - [LkbLexDb](/LkbLexDb): Using the lexical database machinery to build
 and maintain large lexicons;
-- [LkbFos](LkbFos): Fully open source version of the LKB with a more
+- [LkbFos](../LkbFos): Fully open source version of the LKB with a more
 modern and user-friendly interface;
 - [LkbTrollet](LkbTrollet): Trollet, a wrapper around LKB providing
 better multilingual support and a cleaner interface;
@@ -52,7 +52,7 @@ the LKB;
 grammar writers;
 - [LkbGeneration](LkbGeneration): Information and notes on generating
 with the LKB;
-- [Lexical Type Database](LkbLtdb): Web interface to the lexicon (and
+- [Lexical Type Database](../LkbLtdb): Web interface to the lexicon (and
 treebanks) - an add-on to the main LKB; and
 - [GrammarEngineeringFaq](/GrammarEngineeringFaq): Frequently Asked
 Questions about grammar engineering with the LKB and the Grammar
@@ -66,7 +66,7 @@ up-to-date on-line documentation.
 # Grammars
 
 Small sample grammars are downloadable as described in
-[LkbInstallation](LkbInstallation). Larger scale resources which are
+[LkbInstallation](../LkbInstallation). Larger scale resources which are
 freely downloadable include:
 
 - The [Matrix](http://www.delph-in.net/matrix/): a starter kit for

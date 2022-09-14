@@ -21,7 +21,7 @@ implementation of the conversion is used.
 
 # Predicate Modification
 
-The [EdsTop](EdsTop) page discusses the somewhat common instances of
+The [EdsTop](../EdsTop) page discusses the somewhat common instances of
 ‘fragmented’ EDS graphs owing to the incomplete ERG analysis of degree
 specification on quantifiers, as for example *nearly every*. In no small
 part to address these imperfections, conversion to EDS provides an

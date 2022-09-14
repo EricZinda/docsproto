@@ -1,5 +1,5 @@
 ---
-layout: delphin_page
+layout: redirected
+sitemap: false
+redirect_to:  ErgSemantics.md
 ---
-
-{% include_relative ErgSemantics.md %}

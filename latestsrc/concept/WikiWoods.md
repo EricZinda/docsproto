@@ -8,7 +8,7 @@ methodology is provided by [Flickinger et al.
 and a preliminary set of parsing results (in [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) form only, for the time being)
 are available for download (see below); please consult the related
-[WeScience](WeScience) page for (emerging) instructions on how to
+[WeScience](../WeScience) page for (emerging) instructions on how to
 utilize this data. The first public release is now available for
 download from this site, in two different formats (see below).
 
@@ -17,7 +17,7 @@ download from this site, in two different formats (see below).
 The WikiWoods Corpus is extracted from a [Wikipedia
 snapshot](http://www.delph-in.net/wescience/enwiki-20080727-pages-articles.xml.bz2)
 of July 2008 (the version originally used for the manually treebanked
-[WeScience](WeScience) sub-corpus). As of mid-2010, the corpus comprises
+[WeScience](../WeScience) sub-corpus). As of mid-2010, the corpus comprises
 close to 1.3 million content articles, for a total of around 55 million
 ‘sentences’ (or other types of root-level utterances). The corpus is
 available in two forms: (a) as a collection of [raw

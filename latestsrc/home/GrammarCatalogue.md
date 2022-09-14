@@ -6,35 +6,35 @@ generating metadata.
 |--------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------|
 | Name                                                                     | Language                                               | Maintainer                                   |
 | *Resource Grammars*                                                      |                                                        |                                              |
-| [English Resource Grammar (ERG)](GrammarCatalogue#ERG)                  | English                                                | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)               |
-| [Jacy Japanese Grammar (Jacy)](GrammarCatalogue#Jacy)                   | Japanese                                               | [FrancisBond](FrancisBond)                   |
-| [GG](GrammarCatalogue#GG)                                               | German                                                 |                                              |
-| [SRG](GrammarCatalogue#SRG)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)      |
-| [LXGram](GrammarCatalogue#LXGram)                                       | Portuguese                                             | [AntonioBranco](AntonioBranco)               |
-| [KRG](GrammarCatalogue#KRG)                                             | Korean                                                 | [JongBokKim](JongBokKim)                     |
+| [English Resource Grammar (ERG)](../GrammarCatalogue#ERG)                  | English                                                | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)               |
+| [Jacy Japanese Grammar (Jacy)](../GrammarCatalogue#Jacy)                   | Japanese                                               | [FrancisBond](FrancisBond)                   |
+| [GG](../GrammarCatalogue#GG)                                               | German                                                 |                                              |
+| [SRG](../GrammarCatalogue#SRG)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)      |
+| [LXGram](../GrammarCatalogue#LXGram)                                       | Portuguese                                             | [AntonioBranco](AntonioBranco)               |
+| [KRG](../GrammarCatalogue#KRG)                                             | Korean                                                 | [JongBokKim](JongBokKim)                     |
 | MGRG                                                                     | Modern Greek                                           | [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)                 |
 | [NorSource](NorsourceTop)                                                | Norwegian                                              | [LarsHellan](/LarsHellan)                    |
-| [G-CLIMB German](GrammarCatalogue#GMG)                                  | German                                                 | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens)               |
+| [G-CLIMB German](../GrammarCatalogue#GMG)                                  | German                                                 | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens)               |
 | *Treebank-trained grammars*                                              |                                                        |                                              |
-| [Cheetah](GrammarCatalogue#Cheetah)                                     | German                                                 | [BartCramer](BartCramer)                     |
+| [Cheetah](../GrammarCatalogue#Cheetah)                                     | German                                                 | [BartCramer](BartCramer)                     |
 | *Medium-sized linguistic grammars*                                       |                                                        |                                              |
 | La Grenouille                                                            | French                                                 | [JesseTseng](JesseTseng)                     |
-| [MCG](GrammarCatalogue#MCG)                                             | Mandarin Chinese                                       | [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)                           |
-| [BURGER](GrammarCatalogue#BURGER)                                       | Bulgarian                                              | [PetyaOsenova](PetyaOsenova)                 |
-| [wmb (wmb)](GrammarCatalogue#wmb)                                       | Wambaya                                                | Emily M. Bender                              |
+| [MCG](../GrammarCatalogue#MCG)                                             | Mandarin Chinese                                       | [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)                           |
+| [BURGER](../GrammarCatalogue#BURGER)                                       | Bulgarian                                              | [PetyaOsenova](PetyaOsenova)                 |
+| [wmb (wmb)](../GrammarCatalogue#wmb)                                       | Wambaya                                                | Emily M. Bender                              |
 | HaG                                                                      | Hausa                                                  | [BertholdCrysmann](BertholdCrysmann)         |
-| [RRG](GrammarCatalogue#RRG)                                             | Russian                                                | [TaniaAvgustinova](TaniaAvgustinova)         |
-| [G-CLIMB Dutch](GrammarCatalogue#DMG)                                   | Dutch                                                  | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens)               |
-| [ManGO](GrammarCatalogue#MGO)                                           | Mandarin Chinese                                       | [JustinChunleiYang](JustinChunleiYang)       |
-| [HeGram](GrammarCatalogue#HeGram)                                       | Hebrew                                                 | [LivnatHerzigSheinfux](LivnatHerzigSheinfux) |
-| [Indonesian Resource Grammar (INDRA)](GrammarCatalogue#INDRA)           | Indonesian                                             | [DavidMoeljadi](DavidMoeljadi)               |
-| [Zhong \[∣\]](GrammarCatalogue#Zhong)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                  |
+| [RRG](../GrammarCatalogue#RRG)                                             | Russian                                                | [TaniaAvgustinova](TaniaAvgustinova)         |
+| [G-CLIMB Dutch](../GrammarCatalogue#DMG)                                   | Dutch                                                  | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens)               |
+| [ManGO](../GrammarCatalogue#MGO)                                           | Mandarin Chinese                                       | [JustinChunleiYang](JustinChunleiYang)       |
+| [HeGram](../GrammarCatalogue#HeGram)                                       | Hebrew                                                 | [LivnatHerzigSheinfux](LivnatHerzigSheinfux) |
+| [Indonesian Resource Grammar (INDRA)](../GrammarCatalogue#INDRA)           | Indonesian                                             | [DavidMoeljadi](DavidMoeljadi)               |
+| [Zhong \[∣\]](../GrammarCatalogue#Zhong)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                  |
 | *Experimental grammars*                                                  |                                                        |                                              |
 |                                                                          | Turkish                                                | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens)               |
 |                                                                          | Georgian                                               | [IrinaBorisova](/IrinaBorisova)              |
 |                                                                          | [Thai](http://www.thai-language.com/testsuite-results) | [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden)                 |
-| [Vietnamese Resource Grammar Obviously (VIRGO)](GrammarCatalogue#VIRGO) | Vietnamese                                             | [TuanAnhLe](TuanAnhLe)                       |
-| [RQG](GrammarCatalogue#RQG)                                             | Russian                                                | [OlgaZamaraeva](OlgaZamaraeva)               |
+| [Vietnamese Resource Grammar Obviously (VIRGO)](../GrammarCatalogue#VIRGO) | Vietnamese                                             | [TuanAnhLe](TuanAnhLe)                       |
+| [RQG](../GrammarCatalogue#RQG)                                             | Russian                                                | [OlgaZamaraeva](OlgaZamaraeva)               |
 
 <a name="ERG"/>
 

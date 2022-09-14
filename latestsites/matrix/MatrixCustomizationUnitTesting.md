@@ -2,7 +2,7 @@
 
 Unit testing is the systematic testing of code. For testing of overall
 system performance regressions, see
-[MatrixRegressionTesting](MatrixRegressionTesting). Unit testing helps
+[MatrixRegressionTesting](../MatrixRegressionTesting). Unit testing helps
 to verify that code is correct and working as intended, and narrows down
 the space where bugs can hide. You may want to check out the Wikipedia
 entry on [Unit Testing](http://en.wikipedia.org/wiki/Unit_testing), and
@@ -10,12 +10,12 @@ the Python documentation for the [unittest
 module](http://docs.python.org/library/unittest.html).
 
 Below are instructions for
-[running](MatrixCustomizationUnitTesting#running-unit-tests),
-[adding](MatrixCustomizationUnitTesting#adding-unit-tests), and
-[maintaining](MatrixCustomizationUnitTesting#maintaining-unit-tests) unit tests, and
-[understanding](MatrixCustomizationUnitTesting#understanding-unit-test-output) the output,
+[running](../MatrixCustomizationUnitTesting#running-unit-tests),
+[adding](../MatrixCustomizationUnitTesting#adding-unit-tests), and
+[maintaining](../MatrixCustomizationUnitTesting#maintaining-unit-tests) unit tests, and
+[understanding](../MatrixCustomizationUnitTesting#understanding-unit-test-output) the output,
 as well as description on the [directory
-structure](MatrixCustomizationUnitTesting#directory-structure) of unit test
+structure](../MatrixCustomizationUnitTesting#directory-structure) of unit test
 modules.
 
 # Running Unit Tests
@@ -36,7 +36,7 @@ a test module gmcs/tests/testChoices.py. It is not necessary to prefix
 the file with "test", but it is convention, and helps in automatic test
 discovery (a feature in later Python versions, which we may use in the
 future). Please read the [directory
-structure](MatrixCustomizationUnitTesting#directory-structure) to see where the
+structure](../MatrixCustomizationUnitTesting#directory-structure) to see where the
 test modules should be placed.
 
 If a module does not have an associated test module (e.g.

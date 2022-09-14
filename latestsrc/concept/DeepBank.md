@@ -1,6 +1,6 @@
 {% raw %}# DeepBank
 
-This page describes the [DeepBank](DeepBank) project, which has produced
+This page describes the [DeepBank](../DeepBank) project, which has produced
 linguistically rich syntactic and semantic annotations of Wall Street
 Journal newspaper text, now available in several output formats, as
 version 1.0. For downloads and details of the output formats, please see
@@ -9,25 +9,25 @@ site](http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e00
 
 Contents
 
-1. [DeepBank](DeepBank#DeepBank)
-   1. [Background](DeepBank#Background)
-   1. [Development Methodology](DeepBank#Development_Methodology)
-   1. [Stages of Development](DeepBank#Stages_of_Development)
+1. [DeepBank](../DeepBank#DeepBank)
+   1. [Background](../DeepBank#Background)
+   1. [Development Methodology](../DeepBank#Development_Methodology)
+   1. [Stages of Development](../DeepBank#Stages_of_Development)
    1. [Version 1.0: Available
-Formats](DeepBank#Version_1.0:_Available_Formats)
-   1. [Acknowledgements](DeepBank#Acknowledgements)
-   1. [Publications](DeepBank#Publications)
+Formats](../DeepBank#Version_1.0:_Available_Formats)
+   1. [Acknowledgements](../DeepBank#Acknowledgements)
+   1. [Publications](../DeepBank#Publications)
 
 <a name="Background"/>
 
 
 ## Background
 
-The **[DeepBank](DeepBank)** project has the goal of annotating the one
+The **[DeepBank](../DeepBank)** project has the goal of annotating the one
 million words of 1989 Wall Street Journal text (the same set of
 sentences annotated in the original Penn Treebank project) with the
 English Resource Grammar, augmented with a robust approximating PCFG for
-complete coverage. [DeepBank](DeepBank) contains rich linguistic
+complete coverage. [DeepBank](../DeepBank) contains rich linguistic
 annotation on both syntactic and semantic structures of the sentences
 and is available in a variety of representation formats (see the
 description on formats below).
@@ -38,7 +38,7 @@ Research Center for Artificial Intelligence in Saarbrücken, Germany, and
 in close collaboration with CSLI Stanford. Other institutes, including
 (but not limited to) Humboldt University of Berlin and University of
 Oslo, have also contributed to the development and release of the
-resource. In the long term, the [DeepBank](DeepBank) will be further
+resource. In the long term, the [DeepBank](../DeepBank) will be further
 supported by the DELPH-IN community with updates and maintenance.
 
 <a name="Development_Methodology"/>
@@ -55,16 +55,16 @@ tsdb()\]](http://www.delph-in.net/itsdb) to identify the correct full
 analysis among the candidate analyses proposed by the English Resource
 Grammar.
 
-For the first public release of [DeepBank](DeepBank), most of the data
+For the first public release of [DeepBank](../DeepBank), most of the data
 has gone through at least two rounds of human annotation with
 independent annotators. Also, the linguistic analyses in
-[DeepBank](DeepBank) were made independently from the previous treebank
+[DeepBank](../DeepBank) were made independently from the previous treebank
 annotations of the same data (i.e. PTB), distinguishing it from
 PTB-derived treebanks including the Enju HPSG treebank, CCGBank, and the
 CoNLL syntactic dependency bank, to name a few.
 
 For completeness of the annotations over the full corpus, the public
-release of [DeepBank](DeepBank) also includes analyses (trees) licensed
+release of [DeepBank](../DeepBank) also includes analyses (trees) licensed
 by an approximating PCFG for the sentences of the WSJ corpus not
 correctly analysed by the current version of the
 [ERG](http://www.delph-in.net/erg). Semantic structures are also
@@ -76,7 +76,7 @@ composed robustly for these sentences, which comprise some 15% of the
 
 ## Stages of Development
 
-The development of [DeepBank](DeepBank) started in the fall of 2008 as
+The development of [DeepBank](../DeepBank) started in the fall of 2008 as
 an internally funded project at the Department of Computational
 Linguistics, Saarland University and the LT-Lab of DFKI, under the
 supervision of [Valia Kordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni) and [Yi Zhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang).
@@ -87,22 +87,22 @@ round of annotation. [Dan Flickinger](https://blog.inductorsoftware.com/docsprot
 [ERG](http://www.delph-in.net/erg) developer, has provided grammar
 updates throughout the project. He also went through a thorough (second)
 round of annotation updates to arrive at the first public release of
-[DeepBank](DeepBank). Both the ERG and [DeepBank](DeepBank) have
+[DeepBank](../DeepBank). Both the ERG and [DeepBank](../DeepBank) have
 significantly evolved over the years of the project, but the dynamic
 nature of the annotation method has kept them synchronized through the
 update cycles.
 
-By the summer of 2012, the development of [DeepBank](DeepBank) reached a
+By the summer of 2012, the development of [DeepBank](../DeepBank) reached a
 mature stage where a significant amount of the data had gone through two
 rounds of careful annotation. The resource was made available for
 internal DELPH-IN review (alpha release) by several sites, including the
 University of Oslo, the University of Washington, Melbourne University,
 the University of Barcelona, then Bulgarian Academy of Science, and the
 University of Lisbon. Many suggestions and detailed feedback helped in
-preparation for the first full public release of [DeepBank](DeepBank).
+preparation for the first full public release of [DeepBank](../DeepBank).
 
 At the end of November 2012, a substantial portion of
-[DeepBank](DeepBank) (WSJ sections 00-15) was made open for public
+[DeepBank](../DeepBank) (WSJ sections 00-15) was made open for public
 preview through a beta release announced at TLT in Lisbon. The beta
 version (v0.9) is still available for download upon
 [request](http://www.coli.uni-saarland.de/projects/deepbank/request.cgi).
@@ -116,7 +116,7 @@ v1.0, described below.
 
 ## Version 1.0: Available Formats
 
-The public release (v1.0) of [DeepBank](DeepBank) includes annotation in
+The public release (v1.0) of [DeepBank](../DeepBank) includes annotation in
 multiple formats. The combination of the raw [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) profiles with a corresponding
 version of the ERG enables automatic reconstruction of all detailed
@@ -124,14 +124,14 @@ analyses. The HPSG [derivations](https://blog.inductorsoftware.com/docsproto/too
 [MRSes](MrsRfc) are recorded in these profiles and can be extracted
 directly.
 
-For convenience of usage, [DeepBank](DeepBank) is also available in
+For convenience of usage, [DeepBank](../DeepBank) is also available in
 other representation formats (though not all details are preserved in
 the converted representations), including the (modified) Penn-style
 constituent tree representation with labeled brackets, and the
 CoNLL-style syntactic and semantic dependency representation with
 *tabbed* format. The conversion software is available to the public and
 maintained collaboratively between Oslo and Saarbrücken. Please see
-[DeepBank/OneZero](DeepBank_OneZero) for further details.
+[DeepBank/OneZero](../DeepBank_OneZero) for further details.
 
 Downloads are available through [MetaShare](/MetaShare) at [this
 site](http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e003048d082a41c57b04b11e146f1887ceb7158e2038c/).
@@ -188,7 +188,7 @@ by BMBF (01IW11003).
 
 ## Publications
 
-1. Dan Flickinger, Valia Kordoni and Yi Zhang. [DeepBank](DeepBank): A
+1. Dan Flickinger, Valia Kordoni and Yi Zhang. [DeepBank](../DeepBank): A
 Dynamically Annotated Treebank of the Wall Street Journal. In
 Proceedings of TLT-11, Lisbon, Portugal, 2012.
 1. Stephan Oepen, Dan Flickinger, Kristina Toutanova, and

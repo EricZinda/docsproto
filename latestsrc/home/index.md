@@ -1,5 +1,5 @@
 ---
-layout: delphin_page
+layout: redirected
+sitemap: false
+redirect_to:  Home.md
 ---
-
-{% include_relative Home.md %}

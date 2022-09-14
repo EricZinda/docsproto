@@ -1,13 +1,13 @@
 {% raw %}# Matrix Development
 
 This wiki is a reference for Grammar Matrix developers. Users of the
-Grammar Matrix should start from [MatrixTop](MatrixTop).
+Grammar Matrix should start from [MatrixTop](../MatrixTop).
 
 Below we have information about the [SVN
-repository](MatrixDevTop#repository),
-[configuration](MatrixDevTop#configuration), the [directory
-structure](MatrixDevTop#directory-structure), and [other
-links](MatrixDevTop#links).
+repository](../MatrixDevTop#repository),
+[configuration](../MatrixDevTop#configuration), the [directory
+structure](../MatrixDevTop#directory-structure), and [other
+links](../MatrixDevTop#links).
 
 # Moving to GitHub
 
@@ -22,14 +22,14 @@ This page needs to be updated.
 A collection of documentation regarding the Matrix project, aimed at
 Matrix developers.
 
-- [Updating\_the\_Customization\_System](Updating_the_Customization_System)
+- [Updating\_the\_Customization\_System](../Updating_the_Customization_System)
 - [matrixdef\_File\_Syntax](matrixdef_File_Syntax)
-- [matrix.py](MatrixDevTop#matrixpy) (main script for customization)
+- [matrix.py](../MatrixDevTop#matrixpy) (main script for customization)
 - [MatrixDevConventions](MatrixDevConventions) (Listing of global
 variables and other conventions)
-- [MatrixRegressionTesting](MatrixRegressionTesting)
-- [MatrixCustomizationUnitTesting](MatrixCustomizationUnitTesting)
-- [MatrixCustomizationWebTesting](MatrixCustomizationWebTesting)
+- [MatrixRegressionTesting](../MatrixRegressionTesting)
+- [MatrixCustomizationUnitTesting](../MatrixCustomizationUnitTesting)
+- [MatrixCustomizationWebTesting](../MatrixCustomizationWebTesting)
 - [MatrixMorphology](MatrixMorphology)
 - [PythonIdioms](PythonIdioms)
 - [MatrixTDBProcedures](MatrixTDBProcedures) (Current as of Sept 2009,
@@ -37,7 +37,7 @@ for MatrixTDB2)
 - [MatrixTDB2Tables](MatrixTDB2Tables) (2009 version switched to
 MatrixTDB2 from MatrixTDB)
 - [MatrixValidationDebugging](MatrixValidationDebugging) (Deprecated.
-See the section on [matrix.py](MatrixDevTop#matrixpy))
+See the section on [matrix.py](../MatrixDevTop#matrixpy))
 - [MatrixDevBlueprints](MatrixDevBlueprints) (Ideas and proposals for
 Matrix development)
 - [MatrixLibraryDevelopment](MatrixLibraryDevelopment)
@@ -192,7 +192,7 @@ prints the following (as of 2011.04.26):
 # Directory Structure
 
 If you get the repository using the command
-[above](MatrixDevTop#repository), you will see three subdirectories:
+[above](../MatrixDevTop#repository), you will see three subdirectories:
 branches, tags, and trunk. Each of these contain a copy of the Matrix
 code (a "branch"), but "trunk" is the official version, "tags" contains
 frozen snapshots (e.g. the version used for a dissertation, etc.), and

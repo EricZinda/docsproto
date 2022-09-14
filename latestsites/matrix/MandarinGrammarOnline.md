@@ -2,6 +2,6 @@
 
 \* Matrix-based\
 \* Full coverage of
-[MatrixMrsTestSuiteMandarin](MatrixMrsTestSuiteMandarin)  
+[MatrixMrsTestSuiteMandarin](../MatrixMrsTestSuiteMandarin)  
 
 {% endraw %}

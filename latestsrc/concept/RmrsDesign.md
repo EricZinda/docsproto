@@ -3,14 +3,14 @@
 
 **Table of Contents**
 
-- [Sets of interests or constituencies that have a stake in the design of (R)MRS representations:](RmrsDesign#sets-of-interests-or-constituencies-that-have-a-stake-in-the-design-of-rmrs-representations)
-- [Agenda items](RmrsDesign#agenda-items)
-- [Demise of pronoun\_q\_rel](RmrsDesign#demise-of-pronoun_q_rel)
-- [Optionality of pronoun\_n\_rel](RmrsDesign#optionality-of-pronoun_n_rel)
-- [PRED with internal structure](RmrsDesign#pred-with-internal-structure)
-- [Non-restrictive relative clauses](RmrsDesign#non-restrictive-relative-clauses)
-- [Predicate Hierarchies](RmrsDesign#predicate-hierarchies)
-- [EPs v. properties](RmrsDesign#eps-v-properties)
+- [Sets of interests or constituencies that have a stake in the design of (R)MRS representations:](../RmrsDesign#sets-of-interests-or-constituencies-that-have-a-stake-in-the-design-of-rmrs-representations)
+- [Agenda items](../RmrsDesign#agenda-items)
+- [Demise of pronoun\_q\_rel](../RmrsDesign#demise-of-pronoun_q_rel)
+- [Optionality of pronoun\_n\_rel](../RmrsDesign#optionality-of-pronoun_n_rel)
+- [PRED with internal structure](../RmrsDesign#pred-with-internal-structure)
+- [Non-restrictive relative clauses](../RmrsDesign#non-restrictive-relative-clauses)
+- [Predicate Hierarchies](../RmrsDesign#predicate-hierarchies)
+- [EPs v. properties](../RmrsDesign#eps-v-properties)
 
 <!-- markdown-toc end -->
 

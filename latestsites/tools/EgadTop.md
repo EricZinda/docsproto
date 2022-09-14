@@ -6,10 +6,10 @@ statistics include the proportion of lexical or rule variance between
 generation and parsing results, if the generated items have the same
 MRS, if the top ranked generation result matches the input string, etc.
 
-**Egad** was created by [MichaelGoodman](MichaelGoodman) and
+**Egad** was created by [MichaelGoodman](../MichaelGoodman) and
 [FrancisBond](FrancisBond) in order to improve generation results for
 [Jacy](JacyTop), but it has also been used to analyze the ERG. It relies
-on both the [\[incr tsdb()](ItsdbTop)\] and [LKB](LkbTop) packages for
+on both the [\[incr tsdb()](../ItsdbTop)\] and [LKB](../LkbTop) packages for
 parsing and generating sentences with a grammar. Please contact the
 authors if **Egad** does not work with your grammar.
 

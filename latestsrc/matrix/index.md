@@ -1,5 +1,5 @@
 ---
-layout: delphin_page
+layout: redirected
+sitemap: false
+redirect_to:  ToolsTop.md
 ---
-
-{% include_relative MatrixTop.md %}

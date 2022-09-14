@@ -18,14 +18,14 @@ and combining XML standoff markup.
 
 The main purpose Heart of Gold was developed for is integration of
 various shallow natural language processors with the highly efficient
-[HPSG](http://hpsg.stanford.edu) parser [PET](PetTop) in order to
+[HPSG](http://hpsg.stanford.edu) parser [PET](../PetTop) in order to
 increase robustness of HPSG grammars for various languages such as
 [English](http://www.delph-in.net/erg),
 [German](http://www.dfki.de/~crysmann/gg/),
 [Japanese](http://www.delph-in.net/jacy),
 [Greek](http://www.delph-in.net/mgrg) and
 [Norwegian](NorsourceSummary). HPSG
-grammars can be developed with the [LKB](LkbTop), compiled to a binary
+grammars can be developed with the [LKB](../LkbTop), compiled to a binary
 grammar image, and at runtime executed by PET within the Heart of Gold.
 
 Although the focus of Heart of Gold is deep-shallow integration, the

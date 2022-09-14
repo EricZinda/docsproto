@@ -390,11 +390,11 @@ relatively simple finite-state device used to prepare textual input for
 ‘deep’ parsing (using DELPH-IN grammars). For a high-level discussion of
 REPP and its application to English tokenization, please see <a href="http://aclweb.org/anthology/P/P12/P12-2074.pdf">Dridan &amp;
 Oepen (2012)</a>.
-<a href="MichaelGoodman">MichaelGoodman</a> has taken an important role in
+<a href="../MichaelGoodman">MichaelGoodman</a> has taken an important role in
 clarifying the REPP specification while working on his implementation in
 the <a href="https://pypi.org/project/PyDelphin/">pyDelphin</a> library.</p>
 
-<p>This page was predominantly authored by <a href="StephanOepen">StephanOepen</a>,
+<p>This page was predominantly authored by <a href="../StephanOepen">StephanOepen</a>,
 who is the original REPP designer and current maintainer of the LKB
 implementation of REPP. REPP support in PET was provided by
 <a href="RebeccaDridan">RebeccaDridan</a> (with some help by Stephan), and Rebecca
@@ -732,7 +732,7 @@ an :id keyword argument in the read-repp() call.</p>
 <p>The programmatic interface to REPP is through the repp() and
 repp-for-pet() functions. These can be used in debugging REPP rules, or
 in preparing input to another parser, specifically PET (see the
-<a href="PetInput">PetInput</a> page for background). Both functions take optional
+<a href="../PetInput">PetInput</a> page for background). Both functions take optional
 keyword arguments :repp and :calls, which determine the top-level
 (‘master’) REPP to be used, and set of active external groups,
 respectively. The value of :calls defaults to the current value of
@@ -769,7 +769,7 @@ boundaries):</p>
 </code></pre></div></div>
 
 <p>Other available output formats include :pet (the default, returning the
-so-called YY format; see the <a href="PetInput">PetInput</a> page); :sppp (an
+so-called YY format; see the <a href="../PetInput">PetInput</a> page); :sppp (an
 LKB-internal format, see the <a href="LkbSppp">LkbSppp</a> page); and :raw (a list
 of token structures, providing all available information). The last of
 these is the most generic output option; it could be used to wrap an XML
@@ -789,7 +789,7 @@ grammar-internally.</p>
 <p>Finally, the function repp-for-pet() is a wrapper around repp(),
 suitable as a :preprocessor hook in <a href="http://www.delph-in.net/itsdb">[incr
 tsdb()]</a> cpu definitions. The LOGON tree
-(see the <a href="LogonTop">LogonTop</a> page), for example, includes the following
+(see the <a href="../LogonTop">LogonTop</a> page), for example, includes the following
 two <a href="http://svn.emmtee.net/trunk/dot.tsdbrc">cpu definitions</a> for the
 ERG (reproduced here in a simplified form):</p>
 
@@ -838,7 +838,7 @@ definition can be simulated by a Lisp function call like the following:</p>
 
 <p>The additional :stream argument will re-direct the result of
 pre-processing into a file (overwriting an existing file by that name,
-if need be), in this case the file sample.yy. See <a href="PetInput">PetInput</a>
+if need be), in this case the file sample.yy. See <a href="../PetInput">PetInput</a>
 for further discussion on how REPP outputs can be processed
 interactively in PET, for example for in-depth debugging.</p>
 
@@ -872,7 +872,7 @@ install libboost-system-dev, etc.).</p>
 available in the LKB since around 2003: the <em>Finite-State Pre-Processor</em>
 (FSPP). Since its inception, FSPP has been availabe in two versions.
 FSPP 1.0 was originally designed and (partially) implemented (as part of
-the LKB) by <a href="StephanOepen">StephanOepen</a> in early 2003, based on earlier
+the LKB) by <a href="../StephanOepen">StephanOepen</a> in early 2003, based on earlier
 experience at the YY Corporation. In 2005, <a href="BenWaldron">BenWaldron</a> (who
 was part of the YY team too) created a parallel FSPP implementation in
 the LKB, which we will refer to as FSPP 2.0; this version added new
@@ -908,7 +908,7 @@ amount of adaptation to existing pre-processor rule sets, we encourage
 everyone to make the transition sooner rather or later. Future
 development is expected to focus on REPP, including a native
 implementation (with UniCode support) in PET.
-<a href="StephanOepen">StephanOepen</a> will be happy to hear from current FSPP
+<a href="../StephanOepen">StephanOepen</a> will be happy to hear from current FSPP
 users, especially those making use of FSPP facilities that are not part
 of the REPP design: token-level rules and tokenization ambiguity. In
 principle, the combination of REPP and chart mapping should make it

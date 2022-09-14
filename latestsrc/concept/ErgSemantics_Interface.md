@@ -38,7 +38,7 @@ listing the inventory of *abstract* predicates; and
 [surface.smi](http://svn.delph-in.net/erg/tags/1214/etc/surface.smi),
 spelling out the (much larger) inventory of *surface* predicates. For
 the distinction between abstract vs. surface predicates, please see the
-[ErgSemantics/Basics](ErgSemantics_Basics) page.
+[ErgSemantics/Basics](../ErgSemantics_Basics) page.
 
 Syntactically, the SEM-I implements a relatively lightweight syntax that
 aims to balance readability for both humans and machines.

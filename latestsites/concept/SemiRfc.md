@@ -2,19 +2,19 @@
 
 Contents
 
-1. [SEM-I](SemiRfc#SEM-I)
-   1. [Sections](SemiRfc#Sections)
-      1. [variables](SemiRfc#variables)
-      1. [properties](SemiRfc#properties)
-      1. [roles](SemiRfc#roles)
-      1. [predicates](SemiRfc#predicates)
-   1. [.smi file syntax](SemiRfc#A.smi_file_syntax)
-      1. 1. 1. [Notes](SemiRfc#Notes)
-   1. [Including Files](SemiRfc#Including_Files)
-1. [Implementation](SemiRfc#Implementation)
+1. [SEM-I](../SemiRfc#SEM-I)
+   1. [Sections](../SemiRfc#Sections)
+      1. [variables](../SemiRfc#variables)
+      1. [properties](../SemiRfc#properties)
+      1. [roles](../SemiRfc#roles)
+      1. [predicates](../SemiRfc#predicates)
+   1. [.smi file syntax](../SemiRfc#A.smi_file_syntax)
+      1. 1. 1. [Notes](../SemiRfc#Notes)
+   1. [Including Files](../SemiRfc#Including_Files)
+1. [Implementation](../SemiRfc#Implementation)
    1. [Redefined Predicate
-Hierarchies](SemiRfc#Redefined_Predicate_Hierarchies)
-1. [Proposals](SemiRfc#Proposals)
+Hierarchies](../SemiRfc#Redefined_Predicate_Hierarchies)
+1. [Proposals](../SemiRfc#Proposals)
 
 A SEM-I, or SEMantic-Interface, is a description of the semantic
 structures output by the grammar, and may include entries for variables,

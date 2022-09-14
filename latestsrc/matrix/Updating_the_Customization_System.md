@@ -1,11 +1,11 @@
 {% raw %}# Updating the Customization System
 
-There are several [steps](Updating_the_Customization_System#steps) to
+There are several [steps](../Updating_the_Customization_System#steps) to
 updating the customization system, although you won't necessarily do all
 of them for every change. We also have some instructions for [committing
-or vivifying](Updating_the_Customization_System#committing) changes.
+or vivifying](../Updating_the_Customization_System#committing) changes.
 There are also a few [basic
-examples](Updating_the_Customization_System#examples) of things to play
+examples](../Updating_the_Customization_System#examples) of things to play
 with if you are starting out.
 
 # Steps to Update the System <a name="steps"/>
@@ -69,14 +69,14 @@ based on this range a set of new choices (names and values) must be
 defined.
 1. Write the processing code in customize.py (and/or in a
 library-specific module)
-1. Write [unit tests](MatrixCustomizationUnitTesting) for the code
-1. Write [regression tests](MatrixRegressionTesting) to test the output
+1. Write [unit tests](../MatrixCustomizationUnitTesting) for the code
+1. Write [regression tests](../MatrixRegressionTesting) to test the output
 
 When changing the underlying infrastructure:
 
 1. Write the changes to matrix.cgi, customize.py, choices.py, or
 whatever module is needing change
-1. Definitely write [unit tests](MatrixCustomizationUnitTesting) for
+1. Definitely write [unit tests](../MatrixCustomizationUnitTesting) for
 these kinds of changes
 1. Update the documentation as necessary (e.g. these wiki pages)
 
@@ -103,7 +103,7 @@ chmod a+w sessions).
 # Committing and pushing changes to the remote repository (this one!) using git <a name="committing"/>
 
 1. **NB**: Avoid working directly on the trunk. Work in a branch, then merge your branch into the trunk once it's ready. See [related issue](https://github.com/delph-in/matrix/issues/503).
-1. Don't forget to run all of the [regression tests](MatrixRegressionTesting) before merging your branch with the trunk and before installing a version on the main public website! 
+1. Don't forget to run all of the [regression tests](../MatrixRegressionTesting) before merging your branch with the trunk and before installing a version on the main public website! 
 1. Refer to [git docs/tutorials](https://www.atlassian.com/git/tutorials) for information about committing, resolving conflicts, etc.
 
 # Committing and Vivifying Changes in the old SVN repository <a name="committing-svn"/>
@@ -111,7 +111,7 @@ chmod a+w sessions).
 1. svn update
 1. resolve conflicts
 1. run the regression tests:
-[MatrixRegressionTesting](MatrixRegressionTesting)
+[MatrixRegressionTesting](../MatrixRegressionTesting)
 1. fix any regressions (repeat as necessary)
 1. svn diff each file to find diffs and note in text file for svn
 comment
