@@ -402,12 +402,19 @@ if __name__ == '__main__':
             errors.append({"Error": f"Error reading '{sites_definitions_path}': {str(error)}"})
 
         if len(errors) == 0:
-            # Create the sites
-            createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
+            try:
+                # Create the sites
+                createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
+            except Exception as error:
+                errors.append({"Error": f"Error generating blank sites (before populating pages): {str(error)}"})
 
-            # Populate the sites with pages
-            all_pages, all_links, tocs, errors = populate_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
-            create_tocs(latestsrc_root, tocs)
+        if len(errors) == 0:
+            try:
+                # Populate the sites with pages
+                all_pages, all_links, tocs, errors = populate_sites_src(sites_definition, root_address, input_content_root, latestsrc_root)
+                create_tocs(latestsrc_root, tocs)
+            except Exception as error:
+                errors.append({"Error": f"Error while populating sites with pages: {str(error)}"})
 
         # Log any errors that occurred and fail the build
         if len(errors) > 0:
