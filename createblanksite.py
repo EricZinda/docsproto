@@ -65,14 +65,18 @@ def generate_shared_navigation(root_address, site_definitions):
     template = get_template("template_navigation.txt")
     navigation_content = ""
     for site_definition in site_definitions:
-        site_root = posixpath.join(root_address, site_definition["Site"])
+        site_root = posixpath.join(root_address, site_definition["Site"], get_home_page_relative_url(site_definition))
         navigation_content += template.format(SiteNavigationName=site_definition["SiteNavigationName"], SiteAbsoluteUrl=site_root)
     return navigation_content
 
 
 def create_index(site_path, root_address, site_definition):
     template = get_template("template_index.txt")
-    path, _ = os.path.splitext(site_definition["HomePage"])
+    path = get_home_page_relative_url(site_definition)
     value = template.format(HomePage=path)
     write_template(site_path, "index.md", value)
 
+
+def get_home_page_relative_url(site_definition):
+    path, _ = os.path.splitext(site_definition["HomePage"])
+    return path
