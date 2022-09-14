@@ -11,7 +11,7 @@ is probably only partial, and additional links are welcome.
   - [FeforDroppedArguments](FeforDroppedArguments)
   - [FeforDiscourseStatus](FeforDiscourseStatus)
   - [FeforMessageDemise](FeforMessageDemise)
-  - [MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/tools/MatrixMrsTestSuite)
+  - [MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite)
   - [FeforPng](FeforPng)
 - From the Cambridge meeting, May 2008:
   - [Demo/discussion of paraphrasing](../RmrsParaphrasing)

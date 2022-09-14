@@ -1,0 +1,748 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_OtherFeatures/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_OtherFeatures/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/matrix/"><img src="/docsproto/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docsproto/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/concept">Concepts</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix">Matrix</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/MatrixTop">MatrixTop</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixGettingStarted">Getting Started</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDevTop">Matrix Development Overview</a></li>
+          
+            <li><a href="/docsproto/matrix/Updating_the_Customization_System">Updating the Customization System</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixCustomizationUnitTesting">Matrix Customization Unit Testing</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixRegressionTesting">Matrix Regression Testing</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixCustomizationWebTesting">Matrix Customization Web Testing</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixWishList">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_GeneralInfo">General Info</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_WordOrder">Word Order</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Number">Number</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Person">Person</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Gender">Gender</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Case">Case</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_AdnominalPossession">Adnominal Possession</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_DirectInverse">Direct Inverse</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_TenseAspectMood">TenseAspectMood</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Evidentials">Evidentials</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_OtherFeatures">Other Features</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_SententialNegation">Sentential Negation</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Coordination">Coordination</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_YesNoQ">YesNoQ</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_WhQuestions">Wh Questions</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_InformationStructure">Information Structure</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ArgumentOptionality">Argument Optionality</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ClausalModifiers">Clausal Modifiers</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ClausalComplements">Clausal Complements</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Lexicon">Lexicon</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_Morphology">Morphology</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_ImportToolboxLexicon">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_TestSentences">est Sentences</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixDoc_TestByGeneration">Test By Generation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/KrgTop">KrgTop</a></li>
+          
+            <li><a href="/docsproto/matrix/WambayaTop">WambayaTop</a></li>
+          
+            <li><a href="/docsproto/matrix/MandarinGrammarOnline">MandarinGrammarOnline</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuite">Overview</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteEn">English</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteJa">Japanese</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteNo">Norwegian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteGr">Greek</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteFr">French</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteDe">German</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteSv">Swedish</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteZhTw">ZhTw</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteMandarin">Mandarin</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteCantonese">Cantonese</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteRu">Russian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteBg">Bulgarian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuitePt">Portuguese</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteIndonesian">Indonesian</a></li>
+          
+            <li><a href="/docsproto/matrix/MatrixMrsTestSuiteTatoeba">Tatoeba</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-the-grammar-matrix-customization-other-features-library">Documentation for the Grammar Matrix Customization Other Features Library</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This document explains how to fill out the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page and presents background information on the Other Features library
+of the Grammar Matrix Customization System (Bender et al., 2002; Bender
+and Flickinger, 2005; Bender et al., 2010). For more information about
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page please refer to Section 5.4.2 in <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Drellishak
+2009</a>
+and Section 5.4 in <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>.</p>
+
+<p>General instructions on using the questionnaire can be found
+<a href="/MatrixDocTop#General_instructions_on_how_to_use_the_questionnaire">here</a>.</p>
+
+<h1 id="citing-the-other-features-library">Citing the Other Features Library</h1>
+
+<p>The standard references for the Other Features library and its
+implementations are <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Drellishak
+2009</a>
+and <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>. The
+full references and .bib entries can be found
+<a href="/MatrixDoc/OtherFeatures#References">here</a>.</p>
+
+<h1 id="options">Options</h1>
+
+<p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page of the Grammar Matrix Customization questionnaire allows you to add
+the features beyond the ones that you have already defined in the rest
+of the questionnaire. For every feature you add, you will define a type
+hierarchy, which consists of a root type (e.g. pernum, gendnum, etc.)
+and a series of other value types. You can place these features either
+on syntactic HEAD or on semantic INDEX.</p>
+
+<p>After defining the feature name for the root type, you will be asked to
+describe this feature in more detail based on the following questions:</p>
+
+<ul>
+  <li>
+    <p><strong>Is this feature:</strong></p>
+
+    <ul>
+      <li>a syntactic feature (which will go under head)?</li>
+      <li>a semantic feature (which will go under index)?</li>
+    </ul>
+
+    <p><strong>Is this feature for:</strong></p>
+
+    <ul>
+      <li>nominal categories?</li>
+      <li>verbal categories?</li>
+      <li>both categories?</li>
+    </ul>
+
+    <p><strong>Values in the feature hierarchy:</strong></p>
+
+    <ul>
+      <li>use an existing value type</li>
+      <li>define a new value type</li>
+    </ul>
+  </li>
+</ul>
+
+<p>After defining whether this feature is syntactic or semantic, as well as
+whether it applies to nominals, verbs, or both categories, you will be
+asked to define the values in the feature hierarchy. You can either use
+an existing value type (previously defined in the questionnaire and
+available in the drop-down menu) and/or define new value types. If you
+need to add a new value type that was not previously defined in the
+questionnaire, you will need to add the name of the value and its
+supertype. Its supertype can be the root type that you defined above or
+any other value type that you decide to add.</p>
+
+<p>Some of the examples of features that can be added on this page include
+merged features, additional syntactic/semantic features, additional
+tense and aspect features, discussed in more detail in the
+<a href="/MatrixDoc/OtherFeatures#Motivation">Motivation</a> section below.</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page was developed to provide users with enough flexibility to cover the
+additional grammar phenomena, otherwise not covered in the
+questionnaire. The examples covered below are just a few examples of why
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+can be very useful to a linguist user:</p>
+
+<ul>
+  <li>
+    <p><strong>Merged features</strong></p>
+
+    <p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page is a good place to add merged features if such exist in your
+grammar. For example, a [PERNUM] or a [GENDNUM] feature could be
+added here, if your grammar uses the
+<a href="/MatrixDoc/Person#Motivation">[PERNUM]</a> feature instead of
+separate [PERSON] and [NUMBER] features, or if your grammar uses
+a [GENDNUM] feature instead of separate [GENDER] and [NUMBER]
+features. For more information about adding [PERNUM] feature to
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page please refer to Section 5.4.2 in <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Drellishak
+2009</a>
+.</p>
+
+    <p><strong>Additional syntactic/semantic features</strong></p>
+
+    <p>Another example of features that could be defined on this page is an
+addition of syntactic/semantic features to a type that has already
+been defined in the questionnaire, but needs an additional feature.
+A syntactic feature for number can be added on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page, to supplement already existing semantic feature for number, in
+order to model the agreement in French, for instance. The need for
+adding syntactic feature to an already existing semantic feature for
+number is presented in Kathol’s example (1) below, in which two
+kinds of agreement are observed (described in greater detail in
+Section 5.2 in <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Drellishak
+2009</a>):</p>
+
+    <ul>
+      <li>Vous êtes belle<br />
+you are.pl beautiful.sg.fem<br />
+‘You are beautiful.’ |fra| (Kathol 1999:239)</li>
+    </ul>
+
+    <p>Here a personal formal second person pronoun “vous” refers to a
+single person (semantically), but takes a plural form
+(syntactically). Therefore, there are two kinds of agreement in this
+sentence:</p>
+
+    <ul>
+      <li>(1). “Syntactic” agreement (agreement in form): <em>vous.Plural</em> +
+<em>êtes.Plural</em><br />
+(2). “Semantic” agreement (agreement in meaning):
+<em>vous.Singular</em> + <em>belle.Singular</em></li>
+    </ul>
+
+    <p>If the user defines the number values only on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>
+page in the questionnaire, the number feature by default is assigned
+to semantic INDEX, following Pollard and Sag (1994). However, the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page allows the user to add number features under syntactic HEAD as
+well, thus covering more complex phenomena, such as above, i.e. the
+agreement in form between French pronoun <em>vous</em> and verb <em>êtes</em>.</p>
+
+    <p><strong>Additional tense and aspect features</strong></p>
+
+    <p>Another example of features that can be added to your grammar on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page are tense and aspect features that were not definable on the
+<a href="/MatrixDoc/TenseAspectMood#Options">Tense, Aspect, and Mood</a> page.
+Here you can define these features on syntactic HEAD (or semantic
+INDEX), with a corresponding hierarchy of value types. For more
+information please refer to Section 5.4 in <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>.</p>
+  </li>
+</ul>
+
+<p>These are just a few examples of the additional features that can be
+added on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page. The number of the features and their values that you can add to
+your grammar on <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+page is unlimited.</p>
+
+<h1 id="analyses">Analyses</h1>
+
+<p>Based on the answers you provide on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+customization page page, your starter grammar will either place your new
+feature(s) under syntactic HEAD or semantic INDEX.</p>
+
+<p>The values you define on this page will determine the values available
+on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+and
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology</a>
+pages.</p>
+
+<p>The choices you make on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+customization page, will also affect the lexical types
+(your_language_name.tdl file), lexical rules (lrules.tdl file), and
+inflectional rules (irules.tdl file).</p>
+
+<h1 id="upcoming-work">Upcoming Work</h1>
+
+<p>Overall, the main direction of the future work in the Other Features
+implementation in the Matrix Customization system is to extend the
+overall coverage across languages, expanding the range of feature paths
+and allowing the user to define more types of features. For more
+information on further work in Matrix customization system please refer
+to section 5.7 in <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>.</p>
+
+<h1 id="references">References</h1>
+
+<p>Drellishak, Scott. 2009. <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Widespread but Not Universal: Improving the
+Typological Coverage of the Grammar
+Matrix</a>.
+PhD thesis, University of Washington.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@phdthesis{Drellishak:09,<br />
+author = {Scott Drellishak},<br />
+year = {2009},<br />
+title = {Widespread but Not Universal: Improving the Typological
+Coverage of the {G}rammar {M}atrix},<br />
+school = {University of Washington}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Kathol, A. (1999). Agreement and the Syntax-morphology Interface in
+HPSG. In R. Levine and G. Green (Eds.), Readings in HPSG, pages 223–274,
+Cambridge: Cambridge University Press.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@incollection{Kathol:1999,<br />
+author = {Andreas Kathol},<br />
+year = {1999},<br />
+title = {Agreement and the Syntax-morphology Interface in HPSG},<br />
+editor = {R. Levine and G. Green},<br />
+booktitle = {Readings in HPSG},<br />
+pages = {223-274},<br />
+publisher = {Cambridge: Cambridge University Press}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Pollard, C., &amp; Sag, I. A. (1994). Head-Driven Phrase Structure Grammar.
+Stanford: CSLI.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@book{Pollard and Sag:1994,<br />
+author = {Pollard, C., &amp; Sag, I.},<br />
+year = {1994},<br />
+title = {Head-Driven Phrase Structure Grammar},<br />
+publisher = {Stanford: CSLI}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Poulson, L. (2011). <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Meta-modeling of Tense and Aspect in a
+Cross-linguistic Grammar Engineering
+Platform</a>. UW
+Working Papers in Linguistics, <em>28</em>.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@article{Poulson:11,<br />
+author = {Laurie Poulson},<br />
+year = {2011},<br />
+title = {Meta-modeling of Tense and Aspect in a Cross-linguistic
+Grammar Engineering Platform},<br />
+volume = {28}<br />
+}</p>
+  </li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/matrix/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

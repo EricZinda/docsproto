@@ -62,7 +62,7 @@ generation performance in the .NET managed runtime environment.
 The system supports both parsing and generation. It has been tested with
 the [English Resource Grammar](http://www.delph-in.net/erg/) (Flickinger
 2002), [Jacy](JacyTop) grammar of Japanese (Siegel and Bender 2002), and
-other [Matrix](https://blog.inductorsoftware.com/docsproto/concept/MatrixTop) grammars (Bender et al. 2002), notably a
+other [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop) grammars (Bender et al. 2002), notably a
 medium-small grammar of Thai (unpublished). Exact derivations have been
 validated versus PET for Redwoods (Oepen et al. 2000) corpora.
 
