@@ -44,7 +44,7 @@ near future.
 # Linguistic User Interface
 
 The LOGON tree enables the replacement Linguistic User Interface (LUI)
-for the LKB by default; see the [LkbLui](LkbLui) page for further
+for the LKB by default; see the [LkbLui](../LkbLui) page for further
 information. However, LUI as of late 2008 only supports the display of
 trees, AVMs, (single) MRSs, and parsing charts, hence the LOGON
 infrastructure will often still fall back on the original LKB CLIM

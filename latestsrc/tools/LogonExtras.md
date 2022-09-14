@@ -13,7 +13,7 @@ Redwoods treebanks. This page provides information on which extra
 components exist in the LOGON SVN repository, and on how to activate
 these. In some cases, add-on components are only available for select
 releases; for the earlier HandOn release of the LOGON tree, please see
-the [LogonHandon](LogonHandon) page.
+the [LogonHandon](../LogonHandon) page.
 
 Please note that, starting in November 2008, the *extra* mechanism is
 new and remains to be tested. The information on this page is thus
@@ -62,7 +62,7 @@ development. Again, in adapting the example SVN commands suggested
 below, one may have to adapt directory names systematically (i.e. in
 ways that should be obvious), to reflect the choice of LOGON version
 currently installed. As of mid-2011, we will assume that users install
-the *trunk* release. The [LogonSvn](LogonSvn) page provides instructions
+the *trunk* release. The [LogonSvn](../LogonSvn) page provides instructions
 for using the SVN *switch* command to convert an existing local copy to
 another release, for example updating from the frozen *Barcelona*
 release to the cutting-edge *trunk* version.
@@ -112,7 +112,7 @@ dowload a recent ERG version as follows:
       svn switch --ignore-ancestry $LOGONSVN/erg/trunk .
       flop english
 
-Please see the [LogonSvn](LogonSvn) page for instructions on switching
+Please see the [LogonSvn](../LogonSvn) page for instructions on switching
 between a tagged release and the current development head revision. With
 the right versions of everything in place, the following should work
 (and use the grammar in lingo/terg/):

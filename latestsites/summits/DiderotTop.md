@@ -6,7 +6,7 @@ Monday, June 18, to Friday, June 22, 2018. The summit will be held on
 the Campus Rive Gauche in the 13th arrondissement of Paris.
 
 Please register your intention to participate on the
-[DiderotParticipants](DiderotParticipants) page.
+[DiderotParticipants](../DiderotParticipants) page.
 
 # Warming Up
 

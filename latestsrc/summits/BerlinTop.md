@@ -114,7 +114,7 @@ Below you will find the preliminary schedule for the meeting.
 This schedule has been based on your feedback, your expressed interests,
 the topics you have indicated that you would like to see presented and
 discussed throughout the week, as well as the time restrictions you have
-inserted on the [ParticipantsGroup](ParticipantsGroup) for your presence
+inserted on the [ParticipantsGroup](../ParticipantsGroup) for your presence
 in Berlin. We tried to take all these into account.
 
 Please, do check and indicate to me (<mailto:kordoni@coli.uni-sb.de>), till
@@ -139,8 +139,8 @@ latest developments and decisions.
 
 |             |                                                                                                                                                         |                                    |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| 14:00-14:30 | Introduction                                                                                                                                            | [HansUszkoreit](HansUszkoreit)     |
-| 14:30-16:00 | ["Teaser" short presentations](BerlinSlides) on what's going to follow during the week                                                                  | N.N.                               |
+| 14:00-14:30 | Introduction                                                                                                                                            | [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit)     |
+| 14:30-16:00 | ["Teaser" short presentations](../BerlinSlides) on what's going to follow during the week                                                                  | N.N.                               |
 | 16:00-16:30 | Coffee break                                                                                                                                            |                                    |
 | 16:30-17:00 | [New Libraries for the Matrix (case and person/number/gender)](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202007%20-%20Libraries.pdf) | [ScottDrellishak](https://blog.inductorsoftware.com/docsproto/tools/ScottDrellishak) |
 | 17:00:17:30 | Norsource: Recent Developments on Semantic Resources, Compound Analysis, and the Norsource deep Test Suites                                             | [LarsHellan](/LarsHellan)          |
@@ -159,16 +159,16 @@ latest developments and decisions.
 |             |                                                                                                                                                        |                                           |
 | 12:00-14:00 | Lunch break                                                                                                                                            |                                           |
 |             |                                                                                                                                                        |                                           |
-| 14:00-14:30 | [New Developments in the Heart of Gold (HoG)](http://www.dfki.de/~uschaefer/delph-in/hogintroupdate.pdf)                                               | [UlrichSchaefer](UlrichSchaefer)          |
+| 14:00-14:30 | [New Developments in the Heart of Gold (HoG)](http://www.dfki.de/~uschaefer/delph-in/hogintroupdate.pdf)                                               | [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer)          |
 | 14:30-15:00 | Integrating General-Purpose and Domain-Specific Components in the Analysis of Scientific Text                                                          | [CjRupp](/CjRupp)                         |
-| 15:00-15:30 | Swedish grammars and MT: status report                                                                                                                 | [SaraStymne](SaraStymne)                  |
+| 15:00-15:30 | Swedish grammars and MT: status report                                                                                                                 | [SaraStymne](https://blog.inductorsoftware.com/docsproto/tools/SaraStymne)                  |
 | 15:30-16:30 | Break-out session + Coffee break at 16:00                                                                                                              |                                           |
 | 16:30-17:00 | Automatic Acquisition of Transfer Rules                                                                                                                | [MichaelJellinghaus](/MichaelJellinghaus) |
 | 17:00-17:30 | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                            | [FranciscoCosta](https://blog.inductorsoftware.com/docsproto/tools/FranciscoCosta)          |
 | 17:30-18:30 | Parallel Demos of                                                                                                                                      |                                           |
 |             | a\. Norsource: Norwegian-Japanese MT System + Norsource compound analyser and deep test suite format                                                   | [LarsHellan](/LarsHellan)                 |
 |             | b\. University of Washington 10x10 MT System                                                                                                           | [ScottDrellishak](https://blog.inductorsoftware.com/docsproto/tools/ScottDrellishak)        |
-|             | c\. Heart of Gold (HoG)                                                                                                                                | [UlrichSchaefer](UlrichSchaefer)          |
+|             | c\. Heart of Gold (HoG)                                                                                                                                | [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer)          |
 |             | d\. LXGram                                                                                                                                             | [AntonioBranco](https://blog.inductorsoftware.com/docsproto/tools/AntonioBranco)            |
 | 17:30-18:30 | Time for break-out sessions                                                                                                                            |                                           |
 
@@ -186,7 +186,7 @@ latest developments and decisions.
 |                 |                                                                                                                                                                    |                                     |
 | 13:00-14:30     | Lunch                                                                                                                                                              |                                     |
 |                 |                                                                                                                                                                    |                                     |
-| 14:30-19:00     | Excursion [The 'Sanssouci' Castle in Potsdam](http://www.potsdam-tourism.com/pages/highlights_sanssouci.html) (cf. [BerlinPhotos](BerlinPhotos))                   |                                     |
+| 14:30-19:00     | Excursion [The 'Sanssouci' Castle in Potsdam](http://www.potsdam-tourism.com/pages/highlights_sanssouci.html) (cf. [BerlinPhotos](../BerlinPhotos))                   |                                     |
 |                 |                                                                                                                                                                    |                                     |
 | 19:30- open end | DELPH-IN Dinner: to take place in the Christosaal and the Fechhelmsaal of the Art'Otel Berlin Mitte                                                                |                                     |
 
@@ -196,13 +196,13 @@ Proposed discussion topics:
 
 |             |                                                                                                                                                                  |                                                                                                                    |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| 9:30-11:00  | [Pushing the Frontiers: Expanding our research to new languages and applications and setting new research goals - Strategies for Dissemination](BerlinFrontiers) | Moderator: [HansUszkoreit](HansUszkoreit), Scribe: [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)                                    |
+| 9:30-11:00  | [Pushing the Frontiers: Expanding our research to new languages and applications and setting new research goals - Strategies for Dissemination](../BerlinFrontiers) | Moderator: [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit), Scribe: [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)                                    |
 | 11:00-11:30 | Coffee break                                                                                                                                                     |                                                                                                                    |
-| 11:30-12:30 | [Availability of DELPH-IN Tools for Online Demos / Dissemination / Modes of cooperation among the DELPH-IN Partners](BerlinDissemination)                        | Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](HansUszkoreit), Scribe: [UlrichSchaefer](UlrichSchaefer) |
+| 11:30-12:30 | [Availability of DELPH-IN Tools for Online Demos / Dissemination / Modes of cooperation among the DELPH-IN Partners](../BerlinDissemination)                        | Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit), Scribe: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer) |
 |             |                                                                                                                                                                  |                                                                                                                    |
 | 12:30-14:00 | Lunch break                                                                                                                                                      |                                                                                                                    |
 |             |                                                                                                                                                                  |                                                                                                                    |
-| 14:00-16:00 | [Across\_Framework\_Evaluation\_Metrics](Across_Framework_Evaluation_Metrics)                                                                                    | Moderator: [YusukeMiyao](/YusukeMiyao), Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)                                     |
+| 14:00-16:00 | [Across\_Framework\_Evaluation\_Metrics](../Across_Framework_Evaluation_Metrics)                                                                                    | Moderator: [YusukeMiyao](/YusukeMiyao), Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)                                     |
 | 16:00-16:30 | Coffee break                                                                                                                                                     |                                                                                                                    |
 
 ### Friday, August 24
@@ -211,18 +211,18 @@ Proposed discussion topics:
 
 |             |                                                |                                                                                         |
 |-------------|------------------------------------------------|-----------------------------------------------------------------------------------------|
-| 9:30-10:00  | [HPSG Processing Strategies](BerlinProcessing) | Moderator: [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), Scribe: [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)                     |
+| 9:30-10:00  | [HPSG Processing Strategies](../BerlinProcessing) | Moderator: [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), Scribe: [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)                     |
 | 10:00-11:00 | MRS and the removal of messages                | Moderator: [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), Scribe: [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann) |
 | 11:00-11:30 | Coffee break                                   |                                                                                         |
-| 11:30-12:00 | [Machine Translation in DELPH-IN](BerlinMT)    | Moderator: [SaraStymne](SaraStymne), Scribe: [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)               |
-| 12:00-12:30 | [Business Meeting](BerlinBusinessMeeting)      |                                                                                         |
+| 11:30-12:00 | [Machine Translation in DELPH-IN](../BerlinMT)    | Moderator: [SaraStymne](https://blog.inductorsoftware.com/docsproto/tools/SaraStymne), Scribe: [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)               |
+| 12:00-12:30 | [Business Meeting](../BerlinBusinessMeeting)      |                                                                                         |
 | 12:30-13:00 | Closing Remarks                                |                                                                                         |
 
 # Related Pages
 
-- [BerlinSlides](BerlinSlides) (for teaser presentations, demos, etc.)
-- [BerlinTopics](BerlinTopics)
-- [BerlinPhotos](BerlinPhotos) (photos taken during the summit)
-- [EvaluationParCorp](EvaluationParCorp) (continuation of discussion
+- [BerlinSlides](../BerlinSlides) (for teaser presentations, demos, etc.)
+- [BerlinTopics](../BerlinTopics)
+- [BerlinPhotos](../BerlinPhotos) (photos taken during the summit)
+- [EvaluationParCorp](../EvaluationParCorp) (continuation of discussion
 about parallel corpora)
 {% endraw %}

@@ -10,7 +10,7 @@ ready-to-run binaries are provided, or if you need to compile the
 sources because you have code of their own that needs to be integrated
 with the LKB. The complete LKB software is [open
 source](http://www.opensource.org/); see the
-[LkbCopyright](LkbCopyright) page for details. Users running a
+[LkbCopyright](../LkbCopyright) page for details. Users running a
 precompiled binary may choose to install the source code too, of course,
 for example when trying to decide how to customize LKB behavior, or
 simply as a somewhat low-level form of reference documentation.
@@ -225,7 +225,7 @@ it. Confirm that the *LKB Top* window pops up and is functional and then
 proceed to adding settings to your .emacs and .bashrc (or .tcshrc)
 files; see above. Should you need or want to compile the LKB source
 code, please consult the instructions on the
-[LkbCompilation](LkbCompilation) page.
+[LkbCompilation](../LkbCompilation) page.
 
 # First-Time Use
 
@@ -333,26 +333,26 @@ mode of interactions (called *tty mode*; see the
 [GeFaqLispPromptTips](GeFaqLispPromptTips) page) that enables basic
 grammar writing or deployment of an existing grammar. Also, there is
 experimental support to provide graphical tools without CLIM for select
-platforms; see the [LkbLui](LkbLui) pages. For instructions on compiling
-the LKB source code, please see the [LkbCompilation](LkbCompilation)
+platforms; see the [LkbLui](../LkbLui) pages. For instructions on compiling
+the LKB source code, please see the [LkbCompilation](../LkbCompilation)
 pages.
 
 # Further Pointers
 
-In case of problems, please see the [LkbFaq](LkbFaq) page. For
+In case of problems, please see the [LkbFaq](../LkbFaq) page. For
 additional information on obtaining, installing, and running the LKB,
 see:
 
-- [LkbEmacs](LkbEmacs): Instructions on interfacing the LKB to the
+- [LkbEmacs](../LkbEmacs): Instructions on interfacing the LKB to the
 emacs(1) editor;
 - [LkbFos](../LkbFos): Running the fully open source version of the LKB;
-- [LkbCompilation](LkbCompilation): Compiling the LKB source code (in
+- [LkbCompilation](../LkbCompilation): Compiling the LKB source code (in
 various lisps);
-- [LkbFaq](LkbFaq): Frequently Asked Questions related to using the
+- [LkbFaq](../LkbFaq): Frequently Asked Questions related to using the
 LKB;
 - [LkbLexDb](/LkbLexDb): Setting up and using a lexical database
 (optional);
-- [LkbLui](LkbLui): Linguistic User Interface (LUI) mode (optional);
+- [LkbLui](../LkbLui): Linguistic User Interface (LUI) mode (optional);
 and
 - other Lkb pages - use the wiki search facilities to find them.
 

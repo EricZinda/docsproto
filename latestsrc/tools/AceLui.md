@@ -1,11 +1,11 @@
 {% raw %}## Installation
 
-See [here](LkbLui) for how to get the LUI binaries.
+See [here](../LkbLui) for how to get the LUI binaries.
 
 ## Debugging Features in LUI mode
 
 The LUI mode can be activated with the -l option, assuming yzlui exists
-on PATH (also see [AceFaq](AceFaq)). While in LUI mode, lots of
+on PATH (also see [AceFaq](../AceFaq)). While in LUI mode, lots of
 additional debugging features are available as "colon" commands:
 
 | command         | description                                                                                                                                                                                                                                           |

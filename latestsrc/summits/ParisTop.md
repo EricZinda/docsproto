@@ -33,15 +33,15 @@ Both locations are indicated on this
 
 ## Photos
 
-[Photos from the Summit](ParisPhotos)
+[Photos from the Summit](../ParisPhotos)
 
 ## Schedule
 
 |          |                                     |
 |----------|-------------------------------------|
-| 2-3 July | [In-group plenary](ParisSchedule)   |
-| 4-5 July | [Sub-group meetings](ParisSchedule) |
-| 6 July   | [Outward-facing plenary](ParisOpen) |
+| 2-3 July | [In-group plenary](../ParisSchedule)   |
+| 4-5 July | [Sub-group meetings](../ParisSchedule) |
+| 6 July   | [Outward-facing plenary](../ParisOpen) |
 
 ## Previous and Future Meetings
 
@@ -51,5 +51,5 @@ Both locations are indicated on this
 - 2008 4th Summit: [Kyoto](../KyotoTop) (co-located with HPSG)
 - 2007 3rd Summit: [Berlin](../BerlinTop)
 - 2006 2nd Summit: [Fefor](../FeforTop)
-- 2005 1st Summit: [Lisbon](LisbonTop) (co-located with HPSG)
+- 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
 {% endraw %}

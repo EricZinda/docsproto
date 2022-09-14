@@ -3,7 +3,7 @@
 
 # Overview
 
-The 12th DELPH-IN [Summit](SummitTop) will be held at Stanford
+The 12th DELPH-IN [Summit](../SummitTop) will be held at Stanford
 University from Thursday, June 16, to Monday, June 20, 2016 (immediately
 following NAACL in San Diego). The meeting will take place at the Center
 for the Study of Language and Information (CSLI), in Cordura Hall. Our
@@ -94,7 +94,7 @@ much more expensive:
 # Registration
 
 Please register for the 2016 DELPH-IN Summit on the
-[StanfordParticipants](StanfordParticipants) page. We will collect a
+[StanfordParticipants](../StanfordParticipants) page. We will collect a
 registration fee of $100 per person during the summit, to help cover the
 costs of the meals, coffee breaks, etc.
 

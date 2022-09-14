@@ -34,10 +34,10 @@ grammar research in the DELPH-IN spirit
 
 ## Registration
 
-Please register on the [ParticipantsGroup](ParticipantsGroup) page by
+Please register on the [ParticipantsGroup](../ParticipantsGroup) page by
 adding the times when you plan to arrive and depart. Note that this is a
 closed summit, you need to be on the
-[ParticipantsGroup](ParticipantsGroup) page to edit it.
+[ParticipantsGroup](../ParticipantsGroup) page to edit it.
 
 ## Location
 
@@ -61,7 +61,7 @@ discount.
 
 # Program
 
-The tentative program is up at: [KyotoSchedule](KyotoSchedule).
+The tentative program is up at: [KyotoSchedule](../KyotoSchedule).
 
 Here is a summary:
 
@@ -102,7 +102,7 @@ photos](http://picasaweb.google.com/bec.dridan/NagashiSMen)
 - 2008 Kyoto (co-located with HPSG)
 - 2007 [Berlin](../BerlinTop)
 - 2006 [Fefor](../FeforTop)
-- 2005 [Lisbon](LisbonTop) (co-located with HPSG)
+- 2005 [Lisbon](../LisbonTop) (co-located with HPSG)
 
 # Contact
 

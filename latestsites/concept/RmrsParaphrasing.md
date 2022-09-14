@@ -23,7 +23,7 @@ generate from the paraphrase. If you don't get generated output, try
 first doing **Start Server** from the **Generate** menu.
 
 Paraphrasing rules are done with the same [transfer
-rules](TransferRules) used in MT and generation. An example is given
+rules](../TransferRules) used in MT and generation. An example is given
 below. This will paraphrase "*We gave a demo of the system*" -&gt; "*We
 demoed the system*".
 

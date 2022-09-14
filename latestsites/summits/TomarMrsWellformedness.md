@@ -1,4 +1,4 @@
-{% raw %}See also: [RmrsWellformedness](RmrsWellformedness)
+{% raw %}See also: [RmrsWellformedness](https://blog.inductorsoftware.com/docsproto/concept/RmrsWellformedness)
 
 Glenn intro: Are MRSs which correspond to fragmented graphs well-formed?
 Ex: *Nearly every dog barked*. (see

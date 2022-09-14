@@ -107,7 +107,7 @@ from Sea-Tac airport to ferry terminal, via Link Light Rail.
 
 ## Schedule
 
-- [Schedule Page](SuquamishSchedule)
+- [Schedule Page](../SuquamishSchedule)
 - **25-27** Plenary
   
   - **26** afternoon/evening: excursion
@@ -121,5 +121,5 @@ from Sea-Tac airport to ferry terminal, via Link Light Rail.
 - 2008 4th Summit: [Kyoto](../KyotoTop) (co-located with HPSG)
 - 2007 3rd Summit: [Berlin](../BerlinTop)
 - 2006 2nd Summit: [Fefor](../FeforTop)
-- 2005 1st Summit: [Lisbon](LisbonTop) (co-located with HPSG)
+- 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
 {% endraw %}

@@ -5,7 +5,7 @@ parser cheap, viz. 'pure' textual input and the so-called YY mode for
 lattice-based input. These two modes of giving input to the parser are
 the most traditional ones, but in more recent developments, additional
 XML-based input formats have been developed. Please see the
-[PetInputFsc](PetInputFsc) page for an alternate, lattice-based XML
+[PetInputFsc](../PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
 This page was predominantly authored by [StephanOepen](../StephanOepen),
@@ -471,8 +471,8 @@ recommend to adapt external providers of YY input to PET to the richer
 YY 2.0 format.
 
 Alternate, lattice-based input modes are available using XML markup to
-encode the parser input. See the [PetInputFsc](PetInputFsc),
-[PetInputChart](PetInputChart) and [SmafTop](SmafTop) pages for the
+encode the parser input. See the [PetInputFsc](../PetInputFsc),
+[PetInputChart](../PetInputChart) and [SmafTop](https://blog.inductorsoftware.com/docsproto/concept/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
 {% endraw %}

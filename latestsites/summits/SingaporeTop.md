@@ -1,13 +1,13 @@
 {% raw %}# Overview
 
-The 11th DELPH-IN [Summit](SummitTop) will be held from Monday, August
+The 11th DELPH-IN [Summit](../SummitTop) will be held from Monday, August
 3, to Friday August 7, 2015, in or around NTU, Singapore. It is the week
 after [ACL 2015](http://acl2015.org/) (in Beijing) and the week before
 [HPSG 2015](http://compling.hss.ntu.edu.sg/events/2015-hpsg/)
 (co-located in Singapore). We encourage people to go to all three!
 
 If you intend to come, please register at
-[SingaporeParticipants](SingaporeParticipants).
+[SingaporeParticipants](../SingaporeParticipants).
 
 ## Summit Program
 

@@ -88,7 +88,7 @@ parsing service with Python and using only the standard library:
   11 '_have_v_cause'
 ```
 
-[PyDelphin](PyDelphin) provides a slightly smoother experience for
+[PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop) provides a slightly smoother experience for
 Python:
 
 ```
@@ -111,8 +111,8 @@ Python:
 tsdb()\]](http://www.delph-in.net/itsdb) is in the [LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
 tree. See [LogonOnline](https://blog.inductorsoftware.com/docsproto/tools/LogonOnline) for more information.
 - [Bottlenose](https://github.com/delph-in/bottlenose) is a WSGI
-application based on [PyDelphin](PyDelphin) and [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop).
-- [PyDelphin](PyDelphin) includes a client compatible with either of
+application based on [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop) and [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop).
+- [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop) includes a client compatible with either of
 the above servers. See the
 [documentation](https://pydelphin.readthedocs.io/en/latest/api/delphin.interfaces.rest.html)
 for more information.

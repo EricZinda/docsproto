@@ -3,7 +3,7 @@
 This page describes the transfer rule formalism used for, among other
 things, [machine translation](../LogonTop),
 [paraphrasing](https://blog.inductorsoftware.com/docsproto/concept/RmrsParaphrasing), and (pre-processing in)
-[generation](LkbGeneration). This page presents user-supplied
+[generation](../LkbGeneration). This page presents user-supplied
 information, hence may be inaccurate in some details, or not necessarily
 reflect use patterns anticipated by the original LOGON developers. The
 functionality documented here may still change. This page was initiated
@@ -237,7 +237,7 @@ place.
 
 # Setting up an MT system
 
-See [MtSetup](MtSetup) for instructions on how to set up an MT system.
+See [MtSetup](../MtSetup) for instructions on how to set up an MT system.
 
 # Other uses
 
@@ -261,7 +261,7 @@ An optional transfer grammar invoked to massage MRSes generator inputs
 prior to lexical lookup. It must be
 
 - ambiguity-free, i.e. must not contain optional rules. See
-[LkbGeneration](LkbGeneration) for more on generation.
+[LkbGeneration](../LkbGeneration) for more on generation.
 
 <!-- -->
 

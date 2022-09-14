@@ -38,7 +38,7 @@ larger TFS or external rules?
 Some existing discussions:
 
 - [Early discussions](https://blog.inductorsoftware.com/docsproto/concept/RmrsParaphrasing)
-- [Paraphrasing Top page](ParaTop)
+- [Paraphrasing Top page](../ParaTop)
 
 ## Overview
 

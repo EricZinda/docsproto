@@ -100,7 +100,7 @@ See [TomarSchedule](../TomarSchedule).
 ## Participants
 
 If you plan to attend the Summit, please leave a note on
-[TomarParticipants](TomarParticipants).
+[TomarParticipants](../TomarParticipants).
 
 ## Photos
 

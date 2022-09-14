@@ -3,7 +3,7 @@ interconverted with MRSs which are produced by grammars which obey the
 MRS algebra (with some wiggle room) and which also obey the
 characteristic variable property. More details will be added soon!
 
-In [RmrsDmrsComparison](RmrsDmrsComparison) we have a discussion about
+In [RmrsDmrsComparison](https://blog.inductorsoftware.com/docsproto/tools/RmrsDmrsComparison) we have a discussion about
 the efficient comparison of packed DMRSs.
 
 The XML serialization of an DRMS, produced by PyDelphinTop, is defined in
