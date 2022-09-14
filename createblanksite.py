@@ -9,8 +9,9 @@ script_path = os.path.dirname(os.path.realpath(__file__))
 def create_blank_sites(root_address, latest_src_path, latest_sites_path, site_definitions):
     reset_sites(latest_src_path, latest_sites_path)
     navigation_content = generate_shared_navigation(root_address, site_definitions)
-    for site in site_definitions:
-        create_blank_site(site, root_address, site["Site"], latest_src_path, navigation_content)
+    for site in site_definitions["Sites"]:
+        pages = site_definitions["Pages"]
+        create_blank_site(site, root_address, site["Site"], pages, latest_src_path, navigation_content)
 
 
 # Remove all pages from "latest" so we don't carry over removed pages
@@ -22,7 +23,7 @@ def reset_sites(latest_src_path, latest_sites_path):
 
 
 # # Create blank site
-def create_blank_site(site_definition, root_address, site_name, latest_src_path, navigation_content):
+def create_blank_site(site_definition, root_address, site_name, pages_definitions, latest_src_path, navigation_content):
     site_template_path = os.path.join(script_path, "site_template_standard")
     site_path = os.path.join(latest_src_path, site_name)
 
@@ -36,7 +37,7 @@ def create_blank_site(site_definition, root_address, site_name, latest_src_path,
     create_site_configuration(site_path, root_address, site_definition)
 
     # Create the index.html page for the site
-    create_index(site_path,root_address, site_definition)
+    create_index(site_path, root_address, site_definition, pages_definitions)
 
 
 def get_template(name):
@@ -64,19 +65,31 @@ def create_site_configuration(site_path, root_address, site_definition):
 def generate_shared_navigation(root_address, site_definitions):
     template = get_template("template_navigation.txt")
     navigation_content = ""
-    for site_definition in site_definitions:
-        site_root = posixpath.join(root_address, site_definition["Site"], get_home_page_relative_url(site_definition))
+    for site_definition in site_definitions["Sites"]:
+        pages_definitions = site_definitions["Pages"]
+        site_root = posixpath.join(root_address, site_definition["Site"], get_home_page_relative_url(site_definition, pages_definitions))
         navigation_content += template.format(SiteNavigationName=site_definition["SiteNavigationName"], SiteAbsoluteUrl=site_root)
     return navigation_content
 
 
-def create_index(site_path, root_address, site_definition):
+def create_index(site_path, root_address, site_definition, pages_definitions):
     template = get_template("template_index.txt")
-    path = get_home_page_relative_url(site_definition)
+    path = get_home_page_relative_url(site_definition, pages_definitions)
     value = template.format(HomePage=path)
     write_template(site_path, "index.md", value)
 
 
-def get_home_page_relative_url(site_definition):
-    path, _ = os.path.splitext(site_definition["HomePage"])
+def get_home_page_relative_url(site_definition, pages_definitions):
+    if "HomePage" in site_definition:
+        home_page = site_definition["HomePage"]
+    else:
+        site_name = site_definition["Site"]
+        for page in pages_definitions:
+            if page["Site"] == site_name:
+                home_page = page["SrcFile"]
+
+    if home_page is None:
+        raise Exception(f'No HomePage key for site {site_definition["Site"]} and no pages defined from which to choose a default')
+
+    path, _ = os.path.splitext(home_page)
     return path

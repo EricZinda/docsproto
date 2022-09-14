@@ -5,7 +5,7 @@
   "Sites":
   [
     {"SiteFullName": "DELPH-IN Conceptual Docs", "SiteNavigationName": "Concepts", "Site": "concept", "HomePage": "ErgSemantics.md"},
-    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"}
+    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"}
   ],
   "Pages":
   {

@@ -404,7 +404,7 @@ if __name__ == '__main__':
         if len(errors) == 0:
             try:
                 # Create the sites
-                createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition["Sites"])
+                createblanksite.create_blank_sites(root_address, latestsrc_root, latestsites_root, sites_definition)
             except Exception as error:
                 errors.append({"Error": f"Error generating blank sites (before populating pages): {str(error)}"})
 
