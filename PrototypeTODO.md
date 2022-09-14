@@ -22,8 +22,9 @@ Figure out templates using Jekyll and see if they meet our needs
     - (done) Put an error in siteerrors if we can't parse the site definition
     - relative links don't always work
       - Theory: 
-        - If you just go to https://blog.inductorsoftware.com/docsproto/concept/, and all links are of the form [text](foo.md) it *will* work since the relative link is added to the URL
-        - If you go instead to the same page bug using https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics/ it *won't* work because all the relative links will be relative to that URL
+        - I am fixing up the urls to be of the form ../ since they are relative and we want links of the form [text](foo.md) to be in the same directory as the referrer
+        - If you just go to https://blog.inductorsoftware.com/docsproto/concept/, and all links are of the form [text](foo.md) it *won't* work since the relative link is added to the URL and goes one level too far up
+        - If you go instead to the same page bug using https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics/ it *will* work because it will not be added to that URL it will replace the last segment
         - https://ricostacruz.com/til/relative-paths-in-jekyll
         - https://superdevresources.com/redirects-jekyll-github-pages/#:~:text=JekyllRedirectFrom%20can%20be%20used%20to%20setup%20multiple%20redirects,from%20which%20the%20current%20location%20is%20mapping%20to.
         - 
