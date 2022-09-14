@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to:  ToolsTop.md
+redirect_to:  ToolsTop
 ---

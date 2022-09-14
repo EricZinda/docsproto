@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to:  Home.md
+redirect_to:  Home
 ---
