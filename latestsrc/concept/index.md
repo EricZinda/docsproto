@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to:  ErgSemantics.md
+redirect_to:  ErgSemantics
 ---
