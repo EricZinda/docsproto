@@ -86,7 +86,7 @@ e.g.
 
 where the syntax of BeginIter is as follows:
 
--    BeginIter VariableName{counterVariable} "HTML" show\_hide:bool iter\_min:int 
+-   BeginIter VariableName{counterVariable} "HTML" show\_hide:bool iter\_min:int 
 
 The above matrixdef definitions create HTML with appropriate javascript
 functions to generate an iterable select option. This can be viewed live
@@ -124,11 +124,11 @@ The name of this Check option is adj\_incorp, and so to create an
 iterable that is skipped if the adj\_incorp is checked, the following
 syntax is used:
 
--    BeginIter VariableName{counterVariable} "HTML" show\_hide:bool iter\_min:int \["VariableName1ToSwitchOn"\|"VariableName2ToSwitchOn"\] 
+-   BeginIter VariableName{counterVariable} "HTML" show\_hide:bool iter\_min:int \["VariableName1ToSwitchOn"\|"VariableName2ToSwitchOn"\] 
 
 e.g.
 
--    BeginIter is-lrt{j} "an Incorporated Stem Lexical Rule Type" 1 0 "adj\_incorp" 
+-   BeginIter is-lrt{j} "an Incorporated Stem Lexical Rule Type" 1 0 "adj\_incorp" 
 
 Using this syntax, if the choice named adj\_incorp has a value, the
 iterable will appear, else, it will not.
