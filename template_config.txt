@@ -2,6 +2,8 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 title: {SiteFullName}
 baseurl: {SiteBaseUrl}
 github:
+  # This is a project site since it is connected to
+  # an actual repository on github
   is_project_page: true
 
 # Plugins (previously gems:)
@@ -11,6 +13,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-relative-links
 
 # Defaults
 defaults:
