@@ -13,7 +13,8 @@
     {"SiteFullName": "DELPH-IN Documentation", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
     {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept", "HomePage": "ErgSemantics.md"},
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
-    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix", "HomePage": "MatrixTop.md"}
+    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix", "HomePage": "MatrixTop.md"},
+    {"SiteFullName": "DELPH-IN Summits", "SiteNavigationName": "Summits", "Site": "summits", "HomePage": "BellinghamTop.md"}
   ],
   "Pages":
   {
@@ -21,7 +22,7 @@
       {"Section": "DELPH-IN", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
-        {"Page": "English Resource Semantics Tutorial", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"},
+        {"Page": "English Resource Semantics Tutorial", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"}
       ]},
       {"Section": "Grammar Catalogue", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
@@ -39,26 +40,7 @@
         {"Page": "Romance", "SrcDir": "docswiki", "SrcFile": "RomanceTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
         {"Page": "Slavic", "SrcDir": "docswiki", "SrcFile": "SlavicTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
         {"Page": "Semantic Harmonization", "SrcDir": "docswiki", "SrcFile": "HarmonyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
-        {"Page": "Phonology", "SrcDir": "docswiki", "SrcFile": "PhonologyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
-      ]},
-      {"Section": "News", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"},
-        {"Page": "Bellingham Summit", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Oslo Summit", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Stanford Summit", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Singapore Summit", "SrcDir": "docswiki", "SrcFile": "SingaporeTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Saarland Summit", "SrcDir": "docswiki", "SrcFile": "SaarlandTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Sofia Summit", "SrcDir": "docswiki", "SrcFile": "SofiaTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Suquamish Summit", "SrcDir": "docswiki", "SrcFile": "SuquamishTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Paris Summit", "SrcDir": "docswiki", "SrcFile": "ParisTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Barcelona Summit", "SrcDir": "docswiki", "SrcFile": "BarcelonaTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Kyoto Summit", "SrcDir": "docswiki", "SrcFile": "KyotoTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Berlin Summit", "SrcDir": "docswiki", "SrcFile": "BerlinTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Fefor Summit", "SrcDir": "docswiki", "SrcFile": "FeforTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Jerez Summit", "SrcDir": "docswiki", "SrcFile": "JerezTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Phonology", "SrcDir": "docswiki", "SrcFile": "PhonologyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"}
       ]}
     ],
     "concept": [
@@ -120,7 +102,7 @@
         {"Page": "[incr tsdb()]", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking.md", "Referrer": "home/TreebankingTop.md"},
         {"Page": "Erg Guidelines", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingGuidelines.md", "Referrer": "home/TreebankingTop.md"},
         {"Page": "Erg", "SrcDir": "docswiki", "SrcFile": "ErgTreebanking.md", "Referrer": "home/TreebankingTop.md"},
-        {"Page": "Indra", "SrcDir": "docswiki", "SrcFile": "IndraTreebanking.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "Indra", "SrcDir": "docswiki", "SrcFile": "IndraTreebanking.md", "Referrer": "home/TreebankingTop.md"}
       ]},
       {"Section": "Formats", "Pages": [
         {"Page": "DelphinRfcs", "SrcDir": "docswiki", "SrcFile": "DelphinRfcs.md", "Referrer": "home/Home.md", "FileMissing": true},
@@ -325,7 +307,58 @@
         {"Page": "TaliAradGreshler", "SrcDir": "docswiki", "SrcFile": "TaliAradGreshler.md", "Referrer": "home/GrammarCatalogue.md", "FileMissing": true},
         {"Page": "PetterHaugereid", "SrcDir": "docswiki", "SrcFile": "PetterHaugereid.md", "Referrer": "home/GrammarCatalogue.md", "FileMissing": true},
         {"Page": "NuritMelnik", "SrcDir": "docswiki", "SrcFile": "NuritMelnik.md", "Referrer": "home/GrammarCatalogue.md", "FileMissing": true},
-        {"Page": "LuisMorgadoCosta", "SrcDir": "docswiki", "SrcFile": "LuisMorgadoCosta.md", "Referrer": "home/GrammarCatalogue.md", "FileMissing": true}
+        {"Page": "LuisMorgadoCosta", "SrcDir": "docswiki", "SrcFile": "LuisMorgadoCosta.md", "Referrer": "home/GrammarCatalogue.md", "FileMissing": true},
+        {"Page": "RebeccaDridan", "SrcDir": "docswiki", "SrcFile": "RebeccaDridan.md", "Referrer": "concept/EdsConversion.md", "FileMissing": true}
+      ]}
+    ],
+    "summits": [
+      {"Section": "Bellingham", "Pages": [
+        {"Page": "Bellingham Summit", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Cambridge", "Pages": [
+        {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Diderot", "Pages": [
+        {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Oslo", "Pages": [
+        {"Page": "Oslo Summit", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Stanford", "Pages": [
+        {"Page": "Stanford Summit", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Singapore", "Pages": [
+        {"Page": "Singapore Summit", "SrcDir": "docswiki", "SrcFile": "SingaporeTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Tomar", "Pages": [
+        {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Saarland", "Pages": [
+        {"Page": "Saarland Summit", "SrcDir": "docswiki", "SrcFile": "SaarlandTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Sofia", "Pages": [
+        {"Page": "Sofia Summit", "SrcDir": "docswiki", "SrcFile": "SofiaTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Suquamish", "Pages": [
+        {"Page": "Suquamish Summit", "SrcDir": "docswiki", "SrcFile": "SuquamishTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Paris", "Pages": [
+        {"Page": "Paris Summit", "SrcDir": "docswiki", "SrcFile": "ParisTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Barcelona", "Pages": [
+        {"Page": "Barcelona Summit", "SrcDir": "docswiki", "SrcFile": "BarcelonaTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Kyoto", "Pages": [
+        {"Page": "Kyoto Summit", "SrcDir": "docswiki", "SrcFile": "KyotoTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Berlin", "Pages": [
+        {"Page": "Berlin Summit", "SrcDir": "docswiki", "SrcFile": "BerlinTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Fefor", "Pages": [
+        {"Page": "Fefor Summit", "SrcDir": "docswiki", "SrcFile": "FeforTop.md", "Referrer": "home/DelphinNews.md"}
+      ]},
+      {"Section": "Jerez", "Pages": [
+        {"Page": "Jerez Summit", "SrcDir": "docswiki", "SrcFile": "JerezTop.md", "Referrer": "home/DelphinNews.md"}
       ]}
     ]
   }

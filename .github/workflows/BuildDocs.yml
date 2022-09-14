@@ -142,6 +142,17 @@ jobs:
         with:
           path: main/latestsites/
 
+      - name: Build Summits with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/summits
+          destination: main/latestsites/summits
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+
       # Now commit and push all the changes to record this version of the docs
       - name: Commit files
         run: |
