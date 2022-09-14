@@ -10,10 +10,10 @@
   ],
   "Sites":
   [
-    {"SiteFullName": "DELPH-IN Documentation", "SiteNavigationName": "Home", "Site": "home"},
-    {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept"},
-    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"},
-    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix"}
+    {"SiteFullName": "DELPH-IN Documentation", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
+    {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept", "HomePage": "ErgSemantics.md"},
+    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "Home.md"},
+    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix", "HomePage": "ToolsTop.md"}
   ],
   "Pages":
   {

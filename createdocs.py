@@ -166,8 +166,8 @@ def get_markdown_link_to_relative_target(sites_definitions, file_definition, rel
                 if definition["Site"] == src_site:
                     # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
                     # which is thus one level too deep
-                    return "valid_relative", target_file, definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
-                    # return "valid_relative", target_file, "../" + definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
+                    # return "valid_relative", target_file, definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
+                    return "valid_relative", target_file, "../" + definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
                 else:
                     return "valid_relative", target_file, definition["AbsoluteLink"]
 
