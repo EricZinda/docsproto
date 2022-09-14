@@ -72,6 +72,7 @@ def generate_shared_navigation(root_address, site_definitions):
 
 def create_index(site_path, root_address, site_definition):
     template = get_template("template_index.txt")
-    value = template.format(HomePage=site_definition["HomePage"])
+    path, _ = os.path.splitext(site_definition["HomePage"])
+    value = template.format(HomePage=path)
     write_template(site_path, "index.md", value)
 
