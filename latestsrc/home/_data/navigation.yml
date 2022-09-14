@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: https://blog.inductorsoftware.com/docsproto/home/Home
   - title: "Concepts"
-    url: https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics
+    url: https://blog.inductorsoftware.com/docsproto/concept/IconsSpecs
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
   - title: "ERG"
