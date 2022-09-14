@@ -15,7 +15,7 @@ Token mapping necessitates that tokens are described by feature
 structures. Token feature structures can be arbitrarily complex. This
 allows users to pass information of various preprocessing modules into
 the parser. To this end, a new format ‒ the XML-based FSC input format
-([PetInputFsc](PetInputFsc)) ‒ was created. However, there is also a
+([PetInputFsc](../PetInputFsc)) ‒ was created. However, there is also a
 compatibility layer for the old input formats in PET, which
 transparently converts the token information available in these formats
 (form, optionally stem, characterization information and pos tags) into

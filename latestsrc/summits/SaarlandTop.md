@@ -1,6 +1,6 @@
 {% raw %}# Overview
 
-The 9th DELPH-IN [Summit](SummitTop) will be held from Monday, July 29,
+The 9th DELPH-IN [Summit](../SummitTop) will be held from Monday, July 29,
 to Friday August 2, 2013 (the week before [ACL
 2013](http://acl2013.org/site/) in Sofia), in St. Wendel, a small town
 in northeastern Saarland.
@@ -14,7 +14,7 @@ wifi and buffet breakfast. Please make your booking with the hotel
 before 5th July.
 
 Please register for the 2013 DELPH-IN Summit on the
-[SaarlandParticipants](SaarlandParticipants) page.
+[SaarlandParticipants](../SaarlandParticipants) page.
 
 ## Registration Fee
 
@@ -88,7 +88,7 @@ all the connections
 
 ## Summit Program
 
-The schedule is available on [SaarlandSchedule](SaarlandSchedule).
+The schedule is available on [SaarlandSchedule](../SaarlandSchedule).
 
 ## Photos
 

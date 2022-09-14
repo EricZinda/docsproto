@@ -1,7 +1,7 @@
 {% raw %}# Abbey MRS Meeting at the Chrysalis in 2014
 
 This page is here to keep track of topics discussed at the small group
-mid-year meeting hosted by [TheAbbey](TheAbbey) and held at [The
+mid-year meeting hosted by [TheAbbey](../TheAbbey) and held at [The
 Chrysalis](http://www.thechrysalisinn.com) in February of 2014.
 
 ### Schedule
@@ -86,7 +86,7 @@ underspecification](../TheAbbey_Chrysalis2014PpAttachment)
 ### Day 2: Conceptual
 
 - [More on proper nouns, especially in generator
-inputs](TheAbbey_Chrysalis2014ProperNounsGeneration)
+inputs](../TheAbbey_Chrysalis2014ProperNounsGeneration)
 - [Dual representation MRS](../TheAbbey_Chrysalis2014SchrodingerMrs)
 - [Seeking terminology for
 subgraphs](../TheAbbey_Chrysalis2014Terminology)

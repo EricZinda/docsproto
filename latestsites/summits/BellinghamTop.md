@@ -9,7 +9,7 @@ Bellingham some day soon!
 
 # Overview
 
-The 16th DELPH-IN [Summit](SummitTop) will be held in Bellingham,
+The 16th DELPH-IN [Summit](../SummitTop) will be held in Bellingham,
 Washington, from Monday, 13 July, to Friday, 17 July 2020 (the week
 after ACL in Seattle). The meeting will take place at the Chrysalis Inn
 and Spa in the Fairhaven area of Bellingham.
@@ -44,5 +44,5 @@ added soon.
 # Registration
 
 Please register for the 2020 DELPH-IN Summit on the
-[BellinghamParticipants](BellinghamParticipants) page.
+[BellinghamParticipants](../BellinghamParticipants) page.
 {% endraw %}

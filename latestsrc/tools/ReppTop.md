@@ -14,7 +14,7 @@ who is the original REPP designer and current maintainer of the LKB
 implementation of REPP. REPP support in PET was provided by
 [RebeccaDridan](../RebeccaDridan) (with some help by Stephan), and Rebecca
 continues to maintain the PET implementation of REPP (see the page
-[ReppPet](ReppPet) for preliminary documentation). Please do not make
+[ReppPet](../ReppPet) for preliminary documentation). Please do not make
 substantial changes to this page unless you (a) are quite certain of the
 technical correctness of your revisions and (b) believe strongly that
 your changes are compatible with the general design and recommended use
@@ -372,12 +372,12 @@ boundaries):
 
 Other available output formats include :pet (the default, returning the
 so-called YY format; see the [PetInput](../PetInput) page); :sppp (an
-LKB-internal format, see the [LkbSppp](LkbSppp) page); and :raw (a list
+LKB-internal format, see the [LkbSppp](../LkbSppp) page); and :raw (a list
 of token structures, providing all available information). The last of
 these is the most generic output option; it could be used to wrap an XML
 serialization around the REPP core (e.g. if one were to emulate the
 (S)MAF output option of the older FSPP implementation; see below and the
-[SmafTop](SmafTop) page).
+[SmafTop](https://blog.inductorsoftware.com/docsproto/concept/SmafTop) page).
 
 When using the LKB parser with a grammar that provides one or more REPP
 instances, the parameter \*repp-interactive\* determines the specific
@@ -446,7 +446,7 @@ interactively in PET, for example for in-depth debugging.
 
 A C++ implementation of REPP was developed by
 [RebeccaDridan](../RebeccaDridan), and this code forms the basis for REPP
-support in the PET parser (see the [ReppPet](ReppPet) page for details)
+support in the PET parser (see the [ReppPet](../ReppPet) page for details)
 as well as for a stand-alone REPP utility. To obtain and build the
 latter tool, please try the following:
 
@@ -472,11 +472,11 @@ available in the LKB since around 2003: the *Finite-State Pre-Processor*
 (FSPP). Since its inception, FSPP has been availabe in two versions.
 FSPP 1.0 was originally designed and (partially) implemented (as part of
 the LKB) by [StephanOepen](../StephanOepen) in early 2003, based on earlier
-experience at the YY Corporation. In 2005, [BenWaldron](BenWaldron) (who
+experience at the YY Corporation. In 2005, [BenWaldron](../BenWaldron) (who
 was part of the YY team too) created a parallel FSPP implementation in
 the LKB, which we will refer to as FSPP 2.0; this version added new
 functionality (notably characterization and (S)MAF support; see the
-[SafFspp](SafFspp) page), albeit at the expense of backwards
+[SafFspp](../SafFspp) page), albeit at the expense of backwards
 compatibility with FSPP 1.0. Ben took over FSPP maintenance in 2006 and
 enabled compiling FSPP into PET, adding (partial) (S)MAF support to PET
 at the same time. However, due to a limitation in the Embedded Common

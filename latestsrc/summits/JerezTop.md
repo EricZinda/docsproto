@@ -15,9 +15,9 @@ There will be a 100 EUR fee to cover workshop expenses.
 Participants\
 [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond), Ann Copestake,
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/tools/ChikaraHashimoto),
-[BerndKiefer](BerndKiefer), [EricNichols](/EricNichols),
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), [UlrichSchaefer](UlrichSchaefer),
-[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](BenWaldron)
+[BerndKiefer](https://blog.inductorsoftware.com/docsproto/tools/BerndKiefer), [EricNichols](/EricNichols),
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer),
+[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](https://blog.inductorsoftware.com/docsproto/tools/BenWaldron)
 
 Contents
 
@@ -119,7 +119,7 @@ discuss and set priorities
 
 - See also [LisbonTestingDiscussion](LisbonTestingDiscussion)
 - Using Apache Ant for Testing DELPH-IN Tools and Resources: see
-[TestingWithAnt](TestingWithAnt)
+[TestingWithAnt](https://blog.inductorsoftware.com/docsproto/tools/TestingWithAnt)
 
 ### Still More
 
@@ -224,7 +224,7 @@ parsing,
     
     viz. (a) the original YY mode (\`[PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput)' on the
 wiki), (b) SPPP of the early Deep-Thought days
-(\`[LkbSppp](LkbSppp)'), (c) the XML input chart in PET
+(\`[LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp)'), (c) the XML input chart in PET
 (\`[PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput))', and (d) emerging MAF support. of
 these, (a) and (c) are available in PET ((c) only in the \`main'
 branch), while (b) and (d) are in the LKB. i personally believe

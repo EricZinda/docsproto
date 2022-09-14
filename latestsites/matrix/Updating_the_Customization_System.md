@@ -21,7 +21,7 @@ The questionnaire is a CGI application written in Python that is stored
 in the Matrix svn repository (in matrix/gmcs/). Its most important files
 are:
 
-- The [matrixdef](matrixdef_File_Syntax)
+- The [matrixdef](../matrixdef_File_Syntax)
 file, which defines both the questionnaire and the list of
 **choices** -- that is, the name space of attributes and their
 ranges of values that are used to store the user's answers to the

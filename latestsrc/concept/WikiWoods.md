@@ -28,7 +28,7 @@ files](http://ltr.uio.no/wikiwoods/1010/txt.tar), including normalized
 wiki mark-up (2.2 gigabytes compressed); and (c) in a more recently and
 more thoroughly preprocessed [plain-text
 version](http://ltr.uio.no/wikiwoods/1212/gml.tar), using more
-normalized [GML mark-up](ErgGml).
+normalized [GML mark-up](../ErgGml).
 
 Both sets of files are organized by segments, each comprised of 100
 articles. Please see [Flickinger et al.

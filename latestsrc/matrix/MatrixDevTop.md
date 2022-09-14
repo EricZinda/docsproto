@@ -23,25 +23,25 @@ A collection of documentation regarding the Matrix project, aimed at
 Matrix developers.
 
 - [Updating\_the\_Customization\_System](../Updating_the_Customization_System)
-- [matrixdef\_File\_Syntax](matrixdef_File_Syntax)
+- [matrixdef\_File\_Syntax](../matrixdef_File_Syntax)
 - [matrix.py](../MatrixDevTop#matrixpy) (main script for customization)
-- [MatrixDevConventions](MatrixDevConventions) (Listing of global
+- [MatrixDevConventions](../MatrixDevConventions) (Listing of global
 variables and other conventions)
 - [MatrixRegressionTesting](../MatrixRegressionTesting)
 - [MatrixCustomizationUnitTesting](../MatrixCustomizationUnitTesting)
 - [MatrixCustomizationWebTesting](../MatrixCustomizationWebTesting)
-- [MatrixMorphology](MatrixMorphology)
-- [PythonIdioms](PythonIdioms)
-- [MatrixTDBProcedures](MatrixTDBProcedures) (Current as of Sept 2009,
+- [MatrixMorphology](../MatrixMorphology)
+- [PythonIdioms](../PythonIdioms)
+- [MatrixTDBProcedures](../MatrixTDBProcedures) (Current as of Sept 2009,
 for MatrixTDB2)
-- [MatrixTDB2Tables](MatrixTDB2Tables) (2009 version switched to
+- [MatrixTDB2Tables](../MatrixTDB2Tables) (2009 version switched to
 MatrixTDB2 from MatrixTDB)
-- [MatrixValidationDebugging](MatrixValidationDebugging) (Deprecated.
+- [MatrixValidationDebugging](../MatrixValidationDebugging) (Deprecated.
 See the section on [matrix.py](../MatrixDevTop#matrixpy))
-- [MatrixDevBlueprints](MatrixDevBlueprints) (Ideas and proposals for
+- [MatrixDevBlueprints](../MatrixDevBlueprints) (Ideas and proposals for
 Matrix development)
-- [MatrixLibraryDevelopment](MatrixLibraryDevelopment)
-- [MatrixLibraryWishList](MatrixLibraryWishList)
+- [MatrixLibraryDevelopment](../MatrixLibraryDevelopment)
+- [MatrixLibraryWishList](../MatrixLibraryWishList)
 
 # Matrix Repository <a name="repository"/>
 

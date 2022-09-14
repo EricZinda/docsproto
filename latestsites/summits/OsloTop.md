@@ -18,7 +18,7 @@ nature and provide opportunities for more specialized ‘sub-group’
 discussions, typically with two parallel sessions and three to five
 meeting slots spread out through the day.
 
-We will be using the [OsloParticipants](OsloParticipants) wiki page to
+We will be using the [OsloParticipants](../OsloParticipants) wiki page to
 keep track of invitations and likely participation; please self-register
 by editing that page, adding your arrival and departure days on the line
 following your name.

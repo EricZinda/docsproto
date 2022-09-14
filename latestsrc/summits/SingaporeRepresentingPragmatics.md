@@ -13,7 +13,7 @@ children)
 - Assertion/Denial (e.g. Chinese ma-questions vs A-not-A); rhetorical
 questions are different
 - Speaker/hearer and inner/outer frame (w.r.t. quotes and things)
-- see [JacyPragmatics](JacyPragmatics) for implementations in Jacy
+- see [JacyPragmatics](../JacyPragmatics) for implementations in Jacy
 - some unresolved issues that, if resolved, could aid in things like
 MT and IE
 - two questions regarding implementation: what is the purpose of

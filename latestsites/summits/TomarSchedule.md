@@ -15,15 +15,15 @@ This is the schedule for the Tenth DELPH-IN Summit, [Tomar](../TomarTop).
 |             10:30-11:00 *Coffee Break*              |                                                                                                                                                                                 |
 |   11:00-12:30 *Plenary Session 2* (Chair: Petya)    |                                                                                                                                                                                 |
 |                     11:00-11:20                     |                                                 [Site Update: Lisbon](http://www.delph-in.net/2014/lisbon.pdf) (Antonio; 15+5)                                                  |
-|                     11:20-11:35                     |                                                               [Site Update: UiO](LtgOslo_Delphin) (Stephan; 10+5)                                                               |
+|                     11:20-11:35                     |                                                               [Site Update: UiO](../LtgOslo_Delphin) (Stephan; 10+5)                                                               |
 |                     11:35-11:55                     |                                                [Site Update: Melbourne](http://www.delph-in.net/2014/melbourne.pdf) (Tim; 15+5)                                                 |
 |                     11:55-12:10                     |                                                [Site Update: The Abbey](http://www.delph-in.net/2014/abbey.pdf) (Woodley; 10+5)                                                 |
 |                     12:10-12:30                     |                                                                       Site Update: Cambridge (Ann; 15+5)                                                                        |
 |                 12:30-13:30 *Lunch*                 |                                                                                                                                                                                 |
 |    13:30-15:00 *Plenary Session 3* (Chair: João)    |                                                                                                                                                                                 |
 |                     13:30-14:00                     | [SDP: DeepBank and the ERG in the SemEval 2014 Task on Broad-Coverage Semantic Dependency Parsing; Input on 2015 Design](http://www.delph-in.net/2014/sdp.pdf) (Stephan; 20+10) |
-|                     14:00-14:30                     |                 Discussion: [‘Semantic Parsing’ and How to Talk to the Rest of the World about What we Do](TomarSemanticParsing) (Moderator: Emily, Scribe: oe)                 |
-|                     14:30-15:00                     |               Discussion: [The Future of DELPH-IN (And the Larger Unification Underground): Recruitment and Outreach](TomarFuture) (Moderator: oe, Scribe: Emily)               |
+|                     14:00-14:30                     |                 Discussion: [‘Semantic Parsing’ and How to Talk to the Rest of the World about What we Do](../TomarSemanticParsing) (Moderator: Emily, Scribe: oe)                 |
+|                     14:30-15:00                     |               Discussion: [The Future of DELPH-IN (And the Larger Unification Underground): Recruitment and Outreach](../TomarFuture) (Moderator: oe, Scribe: Emily)               |
 |             15:00-15:30 *Coffee Break*              |                                                                                                                                                                                 |
 |  15:30-17:00 *Plenary Session 4* (Chair: Sanghoun)  |                                                                                                                                                                                 |
 |                     15:30-15:50                     |                                         [Bilingual Alignment of MRS Subgraphs](http://www.delph-in.net/2014/mike.pdf) (Michael; 15+10)                                          |
@@ -43,21 +43,21 @@ This is the schedule for the Tenth DELPH-IN Summit, [Tomar](../TomarTop).
 |                  11:00-11:20                   |                                                            [Focus Case in Yukaghir](http://www.delph-in.net/2014/olga.pdf) (Olga; 10+10)                                                            |
 |                  11:20-11:40                   |                                               [Creating a Small DELPH-IN Grammar for Nanti](http://www.delph-in.net/2014/david.pdf) (David I.; 10+10)                                               |
 |                  11:40-12:00                   |                                                    [Status and Goals for the Thai Grammar](http://www.delph-in.net/2014/thai.pdf) (Glenn; 10+10)                                                    |
-|                  12:00-12:40                   |                                     Discussion: [Scaling up Grammars (Small to Medium, Medium to Large)](TomarGrammarScaleUp) (Moderator: Glenn, Scribe: Emily)                                     |
+|                  12:00-12:40                   |                                     Discussion: [Scaling up Grammars (Small to Medium, Medium to Large)](../TomarGrammarScaleUp) (Moderator: Glenn, Scribe: Emily)                                     |
 |              12:40-13:40 *Lunch*               |                                                                                                                                                                                                     |
 |  13:40-15:00 *Plenary Session 7* (Chair: Dan)  |                                                                                                                                                                                                     |
 |                  13:40-14:00                   |                                              [Verbal Polysemy and Multiword Expressions](http://www.delph-in.net/2014/sanghoun.pdf) (Sanghoun; 10+10)                                               |
 |                  14:00-14:20                   |                                                        [Adjectives in the Grammar Matrix](http://www.delph-in.net/2014/tj.pdf) (T.J.; 10+10)                                                        |
 |                  14:20-14:30                   |                              [The Grammar Matrix in Individual Grammars (What is Used, What has been Changed)](http://www.delph-in.net/2014/matrix.pdf) (Antske; 5+5)                               |
-|                  14:30-15:00                   |                         [Discussion](http://www.delph-in.net/2014/climb.pdf): [CLIMBING ON: Making CLIMB Easier to Use](TomarClimbingOn) (Moderator: Antske, Scribe: Petya)                         |
+|                  14:30-15:00                   |                         [Discussion](http://www.delph-in.net/2014/climb.pdf): [CLIMBING ON: Making CLIMB Easier to Use](../TomarClimbingOn) (Moderator: Antske, Scribe: Petya)                         |
 |           15:00-15:30 *Coffee Break*           |                                                                                                                                                                                                     |
 |  15:30-18:00 *Plenary Session 8* (Chair: Tim)  |                                                                                                                                                                                                     |
 |                  15:30-15:40                   |                                                            [Open Multilingual WordNet](http://www.delph-in.net/2014/omw.pdf) (Luis; 5+5)                                                            |
 |                  15:40-16:05                   |                                   [NTU Multi-Lingual Corpus and Cross-Lingual Fun](http://www.delph-in.net/2014/mlc.pdf) (Francis; 15+10: Scribe if needed: Luis)                                   |
-|                  16:05-16:50                   |                            Discussion: [Lexical Semantics, Connecting to 3rd Party Resources](TomarConnectingToExternalResources) (Moderator: Francis, Scribe: Michael)                             |
-|                  16:50-17:20                   |                                         [Discussion](http://www.delph-in.net/2014/valency.pdf): [Valence](TomarValence) (Moderator: Petya, Scribe: Antske)                                          |
+|                  16:05-16:50                   |                            Discussion: [Lexical Semantics, Connecting to 3rd Party Resources](../TomarConnectingToExternalResources) (Moderator: Francis, Scribe: Michael)                             |
+|                  16:50-17:20                   |                                         [Discussion](http://www.delph-in.net/2014/valency.pdf): [Valence](../TomarValence) (Moderator: Petya, Scribe: Antske)                                          |
 |                  17:20-17:30                   |                                  [Shallow NLP Tools (Lemmatizer, Tokenizer, Chunker) with ACE and the ERG](http://www.delph-in.net/2014/liling.pdf) (Liling; 5+5)                                   |
-|                  17:30-18:00                   |                                                   Discussion: [Shallow Tools, Deep Grammar](TomarShallowTools) (Moderator: Liling, Scribe: Glenn)                                                   |
+|                  17:30-18:00                   |                                                   Discussion: [Shallow Tools, Deep Grammar](../TomarShallowTools) (Moderator: Liling, Scribe: Glenn)                                                   |
 |                                                |                                                                                                                                                                                                     |
 
 |                                                                       |                                                                                                                                                                                                                                       |
@@ -73,10 +73,10 @@ This is the schedule for the Tenth DELPH-IN Summit, [Tomar](../TomarTop).
 |             11:00-12:30 *Plenary Session 10* (Chair: Ann)             |                                                                                                                                                                                                                                       |
 |                              11:00-11:30                              | [Extraction and Use of Domain Semantics from NL Sentences using ITA Controlled English](http://www.delph-in.net/2014/david.pdf) ([Background Paper](http://www.delph-in.net/2014/Mot:Pot:Xue:14.pdf)) (w/mini demo) (David M.; 20+10) |
 |                              11:30-12:00                              |                                                               [Logic to MRS Mapping in the Context of HyperProof](http://www.delph-in.net/2014/logic.pdf) (Dan; 20+10)                                                                |
-|                              12:00-12:30                              |                                                     [Discussion: Corpus Look-Up Tools and Approaches: Integration with LTDB](TomarCorpusLookup) (Moderator: Francis, Scribe: Bec)                                                     |
+|                              12:00-12:30                              |                                                     [Discussion: Corpus Look-Up Tools and Approaches: Integration with LTDB](../TomarCorpusLookup) (Moderator: Francis, Scribe: Bec)                                                     |
 |                          12:30-13:30 *Lunch*                          |                                                                                                                                                                                                                                       |
 |           13:30-15:00 *Plenary Session 11* (Chair: Francis)           |                                                                                                                                                                                                                                       |
-|                              13:30-14:30                              |                                                  [Discussion: HPSG Formalism Harmonization: Implications, Relations, Macros?](TomarFormalism) (Moderator: Stephan, Scribe: Woodley)                                                   |
+|                              13:30-14:30                              |                                                  [Discussion: HPSG Formalism Harmonization: Implications, Relations, Macros?](../TomarFormalism) (Moderator: Stephan, Scribe: Woodley)                                                   |
 |                              14:30-15:00                              |                                                                                              SIG intro & organization (Moderator: Emily)                                                                                              |
 |                         15:00-15:30 *Coffee*                          |                                                                                                                                                                                                                                       |
 |      16:00-18:30 *Guided tour of the Templar Castle and Convent*      |                                                                                                                                                                                                                                       |
@@ -88,9 +88,9 @@ This is the schedule for the Tenth DELPH-IN Summit, [Tomar](../TomarTop).
 |        **Thursday 17 July**         |     | Old Room                                        | New Room                      |
 | 9:00-10:30 *Small Group Session 1*  |     | [Quantum MRS (Francis)](../TomarQuantumMRS)        |                               |
 |     10:30-11:00 *Coffee Break*      |     |                                                 |                               |
-| 11:00-12:30 *Small Group Session 2* |     | [Robust Parsing (Dan)](TomarRobustParsing)      |                               |
+| 11:00-12:30 *Small Group Session 2* |     | [Robust Parsing (Dan)](../TomarRobustParsing)      |                               |
 |         12:30-13:30 *Lunch*         |     |                                                 |                               |
-| 13:30-15:00 *Small Group Session 3* |     | [Matrix (Antske)](TomarMatrix)                  | Domain Semantics Demo (David) |
+| 13:30-15:00 *Small Group Session 3* |     | [Matrix (Antske)](../TomarMatrix)                  | Domain Semantics Demo (David) |
 |     15:00-15:30 *Coffee Break*      |     |                                                 |                               |
 | 15:30-16:30 *Small Group Session 4* |     | pyDELPH-IN (Mike)                               | Treebanker Conference (Dan)   |
 | 16:30-17:30 *Small Group Session 5* |     | SinGram Sinitic Grammar project planning (Mike) | Treebanker Conference (Dan)   |
@@ -100,7 +100,7 @@ This is the schedule for the Tenth DELPH-IN Summit, [Tomar](../TomarTop).
 |                                      |     |                                                                                 |                               |
 |:------------------------------------:|:---:|---------------------------------------------------------------------------------|-------------------------------|
 |          **Friday 18 July**          |     | Old Room                                                                        | New Room                      |
-|  9:00-10:30 *Small Group Session 6*  |     | [Names (Dan, oe)](TomarNames)                                                   |                               |
+|  9:00-10:30 *Small Group Session 6*  |     | [Names (Dan, oe)](../TomarNames)                                                   |                               |
 |      10:30-11:00 *Coffee Break*      |     |                                                                                 |                               |
 | 11:00-12:30 *Small Group Session 7*  |     | CLIMB & SinGRAM technical issues (Antske, Mike)                                 | Over-Active Packing (Woodley) |
 |         12:30-13:30 *Lunch*          |     |                                                                                 |                               |
@@ -133,7 +133,7 @@ Adventure of the Speckled Band"
 1. [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens): The Grammar Matrix in individual
 grammars (what is used, what has been changed).
 1. [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger): Robust parsing with the ERG
-1. [AnnCopestake](AnnCopestake): Sharing resources for MT using
+1. [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake): Sharing resources for MT using
 DELPH-IN technology
 1. [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger),
 [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), [WoodleyPackard](/WoodleyPackard):
@@ -150,7 +150,7 @@ Alliances
 ## Demonstrations
 
 1. [DavidInman](/DavidInman) (consumer): ACE
-1. [DavidMott](DavidMott): Extraction and Use of Domain Semantics from
+1. [DavidMott](https://blog.inductorsoftware.com/docsproto/tools/DavidMott): Extraction and Use of Domain Semantics from
 NL Sentences
 1. [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden): agree
 
@@ -158,7 +158,7 @@ NL Sentences
 
 1. Tutorial: Setting up MT ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
    
-   - [LilingTan](LilingTan) (consumer?): Reviving LOGON for ERG + GG
+   - [LilingTan](https://blog.inductorsoftware.com/docsproto/tools/LilingTan) (consumer?): Reviving LOGON for ERG + GG
 (wishlist)
 1. [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman): pyDelphin: MRS feature extraction,
 format conversion, and batch processing

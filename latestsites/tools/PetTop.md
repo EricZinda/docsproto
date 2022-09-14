@@ -66,10 +66,10 @@ principle any platform for which a suitable C++ compiler is available
 successful compilation. Your mileage may vary.
 
 In order to compile PET with complete functionality, a number of
-external packages ([PetDependencies](PetDependencies)) need to be
+external packages ([PetDependencies](../PetDependencies)) need to be
 installed; in general, see the documentation for each of these packages,
 but some coarse instructions on versions that are known to work are
-available from the [PetDependencies](PetDependencies) page. Compiling
+available from the [PetDependencies](../PetDependencies) page. Compiling
 without some of these packages should also be possible (giving up, for
 example, UniCode support, \[incr tsdb()\] integration, or the embedded
 MRS code), although these configurations have not been tested for quite
@@ -94,10 +94,10 @@ instructions on how to configure and compile PET.
 # PET for developers
 
 For instructions how to set up PET as a project in Eclipse, see
-[PetEclipse](PetEclipse). The Eclipse IDE for C/C++ Developers (a.k.a.
+[PetEclipse](../PetEclipse). The Eclipse IDE for C/C++ Developers (a.k.a.
 [Eclipse CDT](http://www.eclipse.org/cdt/)) offers a feature-rich
 development platform for C++, which facilitates editing, navigating, and
-debugging C++ source code. There is a [Roadmap](PetRoadMap).
+debugging C++ source code. There is a [Roadmap](../PetRoadMap).
 
 # Compiling a grammar
 
@@ -117,24 +117,24 @@ customization of PET behavior to various tasks. Maybe the biggest factor
 of variation is in (a) how input to the cheap parser is prepared for
 PET-internal processing and in (b) what form analysis results are output
 (or returned to the caller) after parsing; these are discussed on
-separate [PetInput](../PetInput) and [PetOutput](PetOutput) pages,
+separate [PetInput](../PetInput) and [PetOutput](../PetOutput) pages,
 respectively. Many other aspects of PET run-time behavior can be
-controlled using command-line options (see the [PetOptions](PetOptions)
+controlled using command-line options (see the [PetOptions](../PetOptions)
 page), given to the flop or cheap binaries upon invocation, and
-grammar-specific settings (see the [PetParameters](PetParameters) page),
+grammar-specific settings (see the [PetParameters](../PetParameters) page),
 supplied in TDL syntax as part of each grammar. Since [revision 498 in
 the main branch](https://pet.opendfki.de/browser/pet/main?rev=498) PET
 employs a logging framework for configurable log output, which is
-described in [PetLogging](PetLogging). Finally, when using PET as a
+described in [PetLogging](../PetLogging). Finally, when using PET as a
 processing client to the \[incr tsdb()\]
 [profiler](http://www.delph-in.net/itsdb/), some of the options and
 parameters are controlled from within the \[incr tsdb()\] environment.
 
-For an ongoing discussion on a PET API, cf. [FeforPetApi](FeforPetApi).
+For an ongoing discussion on a PET API, cf. [FeforPetApi](../FeforPetApi).
 
 # Tips and Tricks
 
-Some notes on [robust parsing](PetRobustness) with PET: unknown word
+Some notes on [robust parsing](../PetRobustness) with PET: unknown word
 handling, memory limits and so on.
 
 The PET build process attempts to set appropriate mmap setting for your
@@ -179,7 +179,7 @@ exceptional situations, et al.), and extended in functionality and
 interfaces (including UniCode support, unknown word support, server and
 API library modes, lattice input, and initial MRS support); most of this
 work was done by Ulrich with help from [StephanOepen](../StephanOepen) and
-[BerndKiefer](BerndKiefer) (of DFKI). As part of the EU-funded [Deep
+[BerndKiefer](../BerndKiefer) (of DFKI). As part of the EU-funded [Deep
 Thought](http://www.project-deepthought.net/) project, Ulrich and
 Stephan later added support for subsumption-based ambiguity factoring
 (giving a significant improvement in parsing efficiency for long
@@ -192,7 +192,7 @@ of (R)MRSs in various standard formats.
 
 Towards the end of 2003, Ulrich retired from active PET development, and
 Bernd has since been the main developer (with occasional help from
-others, specifically [FrederikFouvry](FrederikFouvry) and
+others, specifically [FrederikFouvry](../FrederikFouvry) and
 [YiZhang](../YiZhang) of Saarland University and Stephan). PET has seen a
 range of substantial additions in functionality since, including the
 ability to add (leaf) types at run-time, output fragmentary analysis
@@ -200,13 +200,13 @@ hypotheses in case of parse failures, and an XML-based input format that
 generalizes the lattice-oriented YY input mode.
 
 In 2006 [YiZhang](../YiZhang) (Saarland University) added the ability to do
-[selective unpacking](PetSelectiveUnpacking), greatly decreasing the
+[selective unpacking](../PetSelectiveUnpacking), greatly decreasing the
 memory consumption for n-best parsing. Later, Yi added native C++
 support for MRS extraction from parse results and MRS output in various
 formats. [BartCramer](../BartCramer) added the possibility to constrain the
 search space by using a PCFG-guided pruning of tasks, on the chart cell
-level. In 2010, [PeterAdolphs](PeterAdolphs) (DFKI Berlin) added [chart
-mapping](../ChartMapping) and the [FSC input format](PetInputFsc).
+level. In 2010, [PeterAdolphs](../PeterAdolphs) (DFKI Berlin) added [chart
+mapping](../ChartMapping) and the [FSC input format](../PetInputFsc).
 
 ## To cite
 

@@ -12,8 +12,8 @@ Linux](http://www.redhat.com/rhel/) and
 [Fedora](http://fedoraproject.org/) distributions, but several of the
 LOGON component maintainers successfully use
 [Ubuntu](http://www.ubuntu.com/) Linux. Please see the
-[LogonRedhat](LogonRedhat), [LogonUbuntu](LogonUbuntu), and
-[LogonArch](LogonArch) pages for distribution-specific information.
+[LogonRedhat](../LogonRedhat), [LogonUbuntu](../LogonUbuntu), and
+[LogonArch](../LogonArch) pages for distribution-specific information.
 Although both 32- and 64-bit Linux installations should work fine, with
 a 64-bit distribution it will be necessary to also install 32-bit Linux
 compatibility mode (which for many distributions is part of the standard

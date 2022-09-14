@@ -282,7 +282,7 @@ Icons = element icons {
 This format is largely decided, but it is not explicitly finalized and
 may change in the future.
 
-The development of the [REST API](RestfulTop) called for JSON
+The development of the [REST API](https://blog.inductorsoftware.com/docsproto/tools/RestfulTop) called for JSON
 serializations of many formats. Here is an example JSON serialization of
 MRS for "It is Abrams that the dog barked at.".
 

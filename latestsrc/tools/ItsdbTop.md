@@ -21,7 +21,7 @@ The DELPH-IN ‘developers’ [mailing
 list](http://lists.delph-in.net/mailman/listinfo/developers) is a good
 forum for [\[incr tsdb()\]](http://www.delph-in.net/itsdb)-related
 discussion; additionally, there is a user-contributed [wish
-list](ItsdbWishlist).
+list](../ItsdbWishlist).
 
 The current best citation for this is:
 
@@ -36,7 +36,7 @@ tsdb(1) databases) without the GUI (but not using cut and grep) can be
 found in the [TSNLP User Manual (Volume
 2)](http://www.delph-in.net/tsnlp/ftp/manual/volume2.ps.gz). Some more
 (user-supplied) information about TSDB is available at
-[TsdbTop](TsdbTop).
+[TsdbTop](../TsdbTop).
 
 ## Installation
 
@@ -49,23 +49,23 @@ this way:
        M-x lkb RET
        M-x itsdb RET
 
-\* [ItsdbProfileManipulation](ItsdbProfileManipulation)
+\* [ItsdbProfileManipulation](../ItsdbProfileManipulation)
 
-\* [ItsdbProfile](ItsdbProfile) - brief introduction to the profiles
+\* [ItsdbProfile](../ItsdbProfile) - brief introduction to the profiles
 
-\* [ItsdbProfiling](ItsdbProfiling)
+\* [ItsdbProfiling](../ItsdbProfiling)
 
-- \- [ItsdbDistributedProcessing](ItsdbDistributedProcessing)
+- \- [ItsdbDistributedProcessing](../ItsdbDistributedProcessing)
 
 \* [ItsdbTreebanking](https://blog.inductorsoftware.com/docsproto/concept/ItsdbTreebanking)
 
-\* [Batch Processing](ItsdbBatch)
+\* [Batch Processing](../ItsdbBatch)
 
-\* [ItsdbCustomization](ItsdbCustomization)
+\* [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/concept/ItsdbCustomization)
 
 \* [ItsdbReference](../ItsdbReference)
 
-\* [ItsdbTroubleshooting](ItsdbTroubleshooting)
+\* [ItsdbTroubleshooting](../ItsdbTroubleshooting)
 
 ## Debugging Aids
 

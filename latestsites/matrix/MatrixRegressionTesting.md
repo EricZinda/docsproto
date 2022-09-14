@@ -168,7 +168,7 @@ ACE [here](http://sweaglesw.org/linguistics/ace/download).
 Regression tests require a system with Ubuntu 12.04+, emacs23+, LOGON,
 ACE, and other requirements. For a step by step guide to setting up a
 virtual machine that meets these requirements, see
-[MatrixRegressionTestingSetup](MatrixRegressionTestingSetup).
+[MatrixRegressionTestingSetup](../MatrixRegressionTestingSetup).
 
 Note if you try to run most or all of the tests in one command, a
 current bug results in all of the tests producing errors. To avoid this
@@ -335,7 +335,7 @@ When you're finished adding all your regression tests:
 If you're having trouble, make sure your
 [CUSTOMIZATIONROOT](/MatrixDevTop#customizationroot) and
 [ACEROOT](/MatrixDevTop#aceroot) are set up properly and take a look at
-[MatrixRegressionTestingSetup](MatrixRegressionTestingSetup)
+[MatrixRegressionTestingSetup](../MatrixRegressionTestingSetup)
 
 ## Maintaining regression tests
 

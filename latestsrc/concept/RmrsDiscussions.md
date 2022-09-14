@@ -28,7 +28,7 @@ is probably only partial, and additional links are welcome.
   
   - [WordNet integration](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
   - [Lexical Semantics](https://blog.inductorsoftware.com/docsproto/summits/SuquamishLexSem)
-  - [FormatSpecifications](FormatSpecifications)
+  - [FormatSpecifications](../FormatSpecifications)
 - From the [WeSearch Hankø meeting](/WeSearch/Hank%C3%B8Schedule), May
 2012:
   
@@ -54,10 +54,10 @@ discussion](WeSearch_PestExamples),
   - [Format Specifications](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsRfc)
   - [Cross-Grammar Harmony](https://blog.inductorsoftware.com/docsproto/summits/SofiaVpmHarmony)
   - [MRS Comparison](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsComparison)
-- [Mini-symposium on MRS modeling](RmrsLm) at UW, November 2012
+- [Mini-symposium on MRS modeling](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm) at UW, November 2012
 - [ERG Semantic Documentation](../ErgSemantics), begun under the auspices
 of [WeSearch](WeSearch) in February 2013
-- [Mini-symposium on named entities and MRS](RmrsNes) at UW, February
+- [Mini-symposium on named entities and MRS](https://blog.inductorsoftware.com/docsproto/summits/RmrsNes) at UW, February
 2013
 - From the [Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop), July-August 2013
   

@@ -32,7 +32,7 @@ systematically switching off types
 - Grammar documentation
 
 **gDelta** was created by [NedLetcher](../NedLetcher),
-[TimBaldwin](TimBaldwin) and [RebeccaDridan](../RebeccaDridan).
+[TimBaldwin](../TimBaldwin) and [RebeccaDridan](../RebeccaDridan).
 
 The git repository for gDelta can be obtained
 [here](https://github.com/ned2/gdelta).

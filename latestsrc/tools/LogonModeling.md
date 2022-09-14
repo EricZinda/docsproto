@@ -16,7 +16,7 @@ into the lingo/redwoods/ directory from SVN; see the
 add-on LOGON components. However, in principle, these instructions
 should be applicable to other Redwoods-style treebanks. Information on
 how to create a generation treebank is given on the
-[LogonProcessing/BatchGeneration](LogonProcessing_BatchGeneration) page.
+[LogonProcessing/BatchGeneration](../LogonProcessing_BatchGeneration) page.
 
 The examples below assume that the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) database root is pointing to
@@ -261,7 +261,7 @@ The
 script finds the top ranked MRSs in the result file and under-specifies
 them with regard to person, number, gender, definiteness, and some
 location relations. This is useful if the generation model is meant for
-generation with the [MtJaen](MtJaen) translation system since the output
+generation with the [MtJaen](../MtJaen) translation system since the output
 of the Jaen transfer grammar is often under-specified with regard to
 these features.
 

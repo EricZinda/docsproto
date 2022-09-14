@@ -27,16 +27,16 @@ grammar research in the DELPH-IN spirit.
 
 ## Registration
 
-Please register on the [ParticipantsGroup](ParticipantsGroup) page by
+Please register on the [ParticipantsGroup](../ParticipantsGroup) page by
 adding the times when you plan to arrive and depart. Note that this is a
 closed summit, you need to be on the
-[ParticipantsGroup](ParticipantsGroup) page to edit it. There will be no
+[ParticipantsGroup](../ParticipantsGroup) page to edit it. There will be no
 fee this year.
 
 ## Schedule
 
 The schedule for the meeting is currently under preparation, with
-incremental updates posted on the [BarcelonaSchedule](BarcelonaSchedule)
+incremental updates posted on the [BarcelonaSchedule](../BarcelonaSchedule)
 page, as more information becomes available. Note that the meeting is
 split into two components, two-and-a-half days of plenary, followed by a
 half-day excursion, followed by two more days of more informal meetings
@@ -86,7 +86,7 @@ visit <http://www.tmb.cat/en_US/home.jsp>.
 - 2008 [Kyoto](../KyotoTop)
 - 2007 [Berlin](../BerlinTop)
 - 2006 [Fefor](../FeforTop)
-- 2005 [Lisbon](LisbonTop)
+- 2005 [Lisbon](../LisbonTop)
 
 ## Contact
 

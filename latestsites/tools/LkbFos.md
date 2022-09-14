@@ -119,14 +119,14 @@ type constraints.
 - Much faster GLB computation for large type hierarchies.
 - Major speed improvements in the user interface, and also in parsing
 and generation.
-- Bug fixes and enhancements, as suggested in [LkbBugs](LkbBugs) and
-[LkbWishlist](LkbWishlist).
+- Bug fixes and enhancements, as suggested in [LkbBugs](../LkbBugs) and
+[LkbWishlist](../LkbWishlist).
 - Support for the revised DELPH-IN TDL format, as specified in [TdlRfc](TdlRfc).
 - A new handy command 'Evaluate Lisp expression...' in the Lkb Top
 Advanced menu.
 
 LKB-FOS supports the Linguistic User Interface (LUI): see the
-[LkbLui](LkbLui) pages for information on installing and using the LUI.
+[LkbLui](../LkbLui) pages for information on installing and using the LUI.
 Execute the Lisp expressions `(lui-initialize)` and `(lui-shutdown)` to
 enable and disable it, respectively; alternatively set the environment
 variable LUI. The LUI executable is expected to be on the user's PATH.

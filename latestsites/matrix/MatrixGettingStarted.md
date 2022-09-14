@@ -12,7 +12,7 @@ The customization system can be accessed from the following web page:
 ## Where can I find instructions on filling out the questionnaire?
 
 Most of the libraries in the Grammar Matrix have at least some
-documentation on the [MatrixDoc](MatrixDocTop) pages.
+documentation on the [MatrixDoc](../MatrixDocTop) pages.
 
 Note that filling out the questionnaire is an iterative process. To get
 as much as possible out of the customization system, you should develop
@@ -72,9 +72,9 @@ available on the [project home page](http://www.delph-in.net/matrix/).
 ## What else might be helpful?
 
 Once you are working with tdl editing, the
-[GrammarEngineeringFaq](GrammarEngineeringFaq) pages may be helpful.
+[GrammarEngineeringFaq](../GrammarEngineeringFAQ) pages may be helpful.
 The feature geometry cheat sheets at the bottom of
-[GeFaqFeatureGeometry](GeFaqFeatureGeometry) are particularly popular.
+[GeFaqFeatureGeometry](../GeFaqFeatureGeometry) are particularly popular.
 
 ## Where can I send questions?
 

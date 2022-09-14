@@ -6,20 +6,20 @@ grammar internal and those which are more related to the external use of
 MRS/RMRS.
 
 Scheduled for the afternoon of June 14th and morning of June 15th.
-Participants should email [AnnCopestake](AnnCopestake) before making
+Participants should email [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) before making
 major changes but feel free to make minor additions. People identified
 are possible discussion leaders (in most cases, these are the people who
 suggested a topic). Topics may start with a short presentation, but
-please let [AnnCopestake](AnnCopestake) know if substantial presentation
+please let [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) know if substantial presentation
 time is required (more than 10-15 minutes). Please let
-[AnnCopestake](AnnCopestake) know of any missing topics. Note that this
+[AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) know of any missing topics. Note that this
 schedule is quite packed.
 
 ## MRS in grammars
 
 Afternoon of June 14th
 
-- Algebra and composition ([AnnCopestake](AnnCopestake)). The status
+- Algebra and composition ([AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake)). The status
 of the HOOK.INDEX in MRS/RMRS ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)).
 - Scoping constraints: beyond qeqs
 ([BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann))
@@ -33,7 +33,7 @@ instantiation). [FeforDroppedArguments](../FeforDroppedArguments)
 [FeforDiscourseStatus](../FeforDiscourseStatus)
 - Messages: what are they good for?
 ([BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann), [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond),
-[AnnCopestake](AnnCopestake), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))
+[AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))
 [FeforMessageDemise](../FeforMessageDemise)
 - MRS test suite: extension ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)) and
 parallel test suites ([ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)).
@@ -51,5 +51,5 @@ Morning of June 15th
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender))
 [FeforPng](../FeforPng)
 - The SEM-I ([StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen),
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [AnnCopestake](AnnCopestake))
+[DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake))
 {% endraw %}

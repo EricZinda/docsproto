@@ -27,7 +27,7 @@
 |16:20-16:40 | Short presentation | [Master's thesis proposal: Adnominal possession inference for AGGREGATION](https://github.com/delph-in/docs/raw/main/summits/2021/AllisonDods_aggupdate_2021.pdf) | Allison Dods |
 | 16:40-17:00| Short presentation | [Using synthetic Polish grammar variants to evaluate biases in neural dependency parsing models](https://github.com/delph-in/docs/raw/main/summits/2021/czarnowska2021inductive-biases.pdf) | Paula Czarnowska |
 |17:00-17:10 |  |**break** |  |
-| 17:10-18:10 | Discussion/SIG | [DELPH-IN resources via Huggingface?](https://github.com/delph-in/docs/raw/main/summits/2021/mcmillanmajor2021HuggingFace.pdf)  [(notes)](Virtual2021HuggingFace)| Angie McMillan-Major and Emily Bender |
+| 17:10-18:10 | Discussion/SIG | [DELPH-IN resources via Huggingface?](https://github.com/delph-in/docs/raw/main/summits/2021/mcmillanmajor2021HuggingFace.pdf)  [(notes)](../Virtual2021HuggingFace)| Angie McMillan-Major and Emily Bender |
 |    | |    |      |
 | (+1 day; Tue 20th in Asia) | |*2:00–3:00 Session 3 (good for Asia and West Coast America; start OK for the Americas) Chair: Not required*| |
 | 2:00-3:00 | Tutorial | [fftb, chart mapping, generic entries](https://github.com/delph-in/docs/raw/main/summits/2021/2021_delphin_fftb-repp-chartmap-discussion-notes.pdf) | Requestor: Luis; Host: Dan |
@@ -74,16 +74,16 @@
 | | |*13:00–15:30 Session 1 (possible for all) Chair: Guy*| |
 | 13:00-13:45| Long presentation | [LKB-FOS update](https://github.com/delph-in/docs/raw/main/summits/2021/lkb-fos-update-21.pdf) | John Carroll |
 | 13:45-14:00|  | **break** | |
-| 14:00-15:00| Tutorial | Large lexicons (obtaining them with AGG tools, maintaining them), reusing lexical resources, handling productive word formation rules ([notes](Virtual2021Lexicon))  | Requestor: Alexandre; Hosts: Emily/Liz (AGG), **TBD** (rest) |
+| 14:00-15:00| Tutorial | Large lexicons (obtaining them with AGG tools, maintaining them), reusing lexical resources, handling productive word formation rules ([notes](../Virtual2021Lexicon))  | Requestor: Alexandre; Hosts: Emily/Liz (AGG), **TBD** (rest) |
 | 15:00-15:30| |**Social in gathertown** |  |
 |    | |    |      |
 | | |*16:00–18:10 Session 2 (good for Europe/Africa and the Americas) Chair: Not required*| |
-| 16:00-17:00| Discussion | [Parsing prospects for and with HPSG](https://github.com/delph-in/docs/raw/main/summits/2021/Zamaraeva_DELPH-IN2021-parsing.pdf) ([notes](Virtual2021ParsingProspects))| Olga Zamaraeva |
+| 16:00-17:00| Discussion | [Parsing prospects for and with HPSG](https://github.com/delph-in/docs/raw/main/summits/2021/Zamaraeva_DELPH-IN2021-parsing.pdf) ([notes](../Virtual2021ParsingProspects))| Olga Zamaraeva |
 |    | |    |      |
 | (+1 day; Thu 22nd in Asia) | |*2:00–4:00 Session 3 (good for Asia and West Coast America; start OK for the Americas) Chair: Alexandre*| |
 |2:00-2:45 | Long presentation | [Evaluating error detection in parsing second-language learner data using mal-rules](https://github.com/delph-in/docs/raw/main/summits/2021/ErrorsDPF2021.pdf)| Dan Flickinger |
 | 2:45-2:50|  | **break** | |
-| 2:50-4:00| Discussion/SIG |  Data statements for treebanks ([notes](Virtual2021DataStatements))| Emily Bender and Angie McMillan-Major|
+| 2:50-4:00| Discussion/SIG |  Data statements for treebanks ([notes](../Virtual2021DataStatements))| Emily Bender and Angie McMillan-Major|
 </details>
 
 
@@ -116,7 +116,7 @@
 |    | |    |      |
 |------------|---------------------|--------------------------------------------------------------------------------|-------------------------------------|
 | | |*13:00–16:00 Session 1 (possible for all; though end not so good for Asia) Chair: Michael*| |
-| 13:00-14:00| Discussion/SIG| Defeasible identity constraints in TDL<br>[Problem statement](https://github.com/delph-in/docs/raw/main/summits/2021/Virual2021DefeasibleIdentity.pdf), [Proposal](https://github.com/delph-in/docs/raw/main/summits/2021/defeasible-proposal.pdf) / [(notes)](Virtual2021DefeasibleIdentity)| Emily Bender and Guy Emerson |
+| 13:00-14:00| Discussion/SIG| Defeasible identity constraints in TDL<br>[Problem statement](https://github.com/delph-in/docs/raw/main/summits/2021/Virual2021DefeasibleIdentity.pdf), [Proposal](https://github.com/delph-in/docs/raw/main/summits/2021/defeasible-proposal.pdf) / [(notes)](../Virtual2021DefeasibleIdentity)| Emily Bender and Guy Emerson |
 | 14:00-14:15|  | **break** | |
 | 14:15-14:45| | Business meeting | Chair: John |
 | 14:45-15:00| | Closing remarks | Dan and Olga |

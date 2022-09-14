@@ -5,7 +5,7 @@ selection of an arbitrary tree from the "full forest" without
 enumerating/unpacking all analyses in the parsing stage. FFTB is partly
 integrated with \[incr tsdb()\] and the LOGON tree; for details on using
 FFTB through that toolchain, please see [LogonAnswer](https://blog.inductorsoftware.com/docsproto/tools/LogonAnswer).
-There is a [wishlist](FftbWishlist).
+There is a [wishlist](../FftbWishlist).
 
 The canonical citation is:
 
@@ -171,7 +171,7 @@ visit a rejected item that you want to reclaim.
 You can wrap a proxy server round fftb and treebank remotely.
 
 Here is the configuration for [nginx](https://www.nginx.com/), thanks to
-[AlexandreRademaker](AlexandreRademaker). with minor tweaks to get it
+[AlexandreRademaker](https://blog.inductorsoftware.com/docsproto/tools/AlexandreRademaker). with minor tweaks to get it
 running on Ubuntu. This serves it at localhost:8080/private/. Call fftb
 without --browser.
 

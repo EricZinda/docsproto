@@ -14,8 +14,8 @@ command line arguments.
 Analysis Component
 - [/BatchTransfer](/LogonProcessing/BatchTransfer) --- Running the
 Transfer Component
-- [/BatchGeneration](LogonProcessing_BatchGeneration) --- Running the
+- [/BatchGeneration](../LogonProcessing_BatchGeneration) --- Running the
 Generation Component
-- [/BatchTranslation](LogonProcessing_BatchTranslation) --- Running
+- [/BatchTranslation](../LogonProcessing_BatchTranslation) --- Running
 the Full Fan-Out Pipeline
 {% endraw %}

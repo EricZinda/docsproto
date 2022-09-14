@@ -29,28 +29,28 @@ The LKB has been in active use since around 1991, with a substantially
 new version in use from about 1997. These pages include documentation on
 the following topics:
 
-- [LkbCopyright](LkbCopyright): Copyright and licensing;
+- [LkbCopyright](../LkbCopyright): Copyright and licensing;
 - [LkbInstallation](../LkbInstallation): Obtaining, installing and
 running the LKB;
-- [LkbEmacs](LkbEmacs): Interfacing the LKB to the emacs(1) editor;
+- [LkbEmacs](../LkbEmacs): Interfacing the LKB to the emacs(1) editor;
 - [LkbLexDb](/LkbLexDb): Using the lexical database machinery to build
 and maintain large lexicons;
 - [LkbFos](../LkbFos): Fully open source version of the LKB with a more
 modern and user-friendly interface;
-- [LkbTrollet](LkbTrollet): Trollet, a wrapper around LKB providing
+- [LkbTrollet](../LkbTrollet): Trollet, a wrapper around LKB providing
 better multilingual support and a cleaner interface;
-- [LkbUserGroup](LkbUserGroup): Communication with LKB developers and
+- [LkbUserGroup](../LkbUserGroup): Communication with LKB developers and
 other users;
-- [LkbCourses](LkbCourses): Information on the use of the LKB in
+- [LkbCourses](../LkbCourses): Information on the use of the LKB in
 teaching;
-- [LkbFaq](LkbFaq): Frequently Asked Questions related to using the
+- [LkbFaq](../LkbFaq): Frequently Asked Questions related to using the
 LKB;
-- [LkbWishlist](LkbWishlist): Suggestions/requests for extensions to
+- [LkbWishlist](../LkbWishlist): Suggestions/requests for extensions to
 the LKB;
-- [LkbBugs](LkbBugs): Known issues with incorrect behavior in the LKB;
-- [LkbConventions](LkbConventions): Conventions followed by many
+- [LkbBugs](../LkbBugs): Known issues with incorrect behavior in the LKB;
+- [LkbConventions](../LkbConventions): Conventions followed by many
 grammar writers;
-- [LkbGeneration](LkbGeneration): Information and notes on generating
+- [LkbGeneration](../LkbGeneration): Information and notes on generating
 with the LKB;
 - [Lexical Type Database](../LkbLtdb): Web interface to the lexicon (and
 treebanks) - an add-on to the main LKB; and
