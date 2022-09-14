@@ -2,7 +2,7 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 title: {SiteFullName}
 baseurl: {SiteBaseUrl}
 github:
-  is_project_page: false
+  is_project_page: true
 
 # Plugins (previously gems:)
 plugins:
