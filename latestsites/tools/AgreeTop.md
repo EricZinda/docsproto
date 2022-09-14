@@ -3,9 +3,9 @@
 **A project to develop a system for processing DELPH-IN style TDL
 grammars within the .NET and Mono managed runtime environments.**
 
-[UW CLMS](http://www.compling.uw.edu/) thesis work of *[GlennSlayden](../GlennSlayden)*.<br/>
-&nbsp; &nbsp; M.S. and Ph.C. advisor *[EmilyBender](../EmilyBender)*.<br/>
-&nbsp; &nbsp; Thesis reader *[StephanOepen](../StephanOepen)*.<br/>
+[UW CLMS](http://www.compling.uw.edu/) thesis work of *[GlennSlayden](GlennSlayden)*.<br/>
+&nbsp; &nbsp; M.S. and Ph.C. advisor *[EmilyBender](EmilyBender)*.<br/>
+&nbsp; &nbsp; Thesis reader *[StephanOepen](StephanOepen)*.<br/>
 &nbsp; &nbsp; *Spencer Rarrick* helped with MaxEnt parse selection, generation, and testing with [Jacy](JacyTop).<br/>
 
 citation:<br>

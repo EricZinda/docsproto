@@ -26,10 +26,10 @@ control](https://en.wikipedia.org/wiki/Distributed_version_control).
 Contents
 
 1. [Version Control for Grammar
-Development](../VersionControlForGrammarDevelopment#Version_Control_for_Grammar_Development)
-   1. [Subversion](../VersionControlForGrammarDevelopment#Subversion)
-   1. [Git](../VersionControlForGrammarDevelopment#Git)
-   1. [General Suggestions](../VersionControlForGrammarDevelopment#General_Suggestions)
+Development](VersionControlForGrammarDevelopment#Version_Control_for_Grammar_Development)
+   1. [Subversion](VersionControlForGrammarDevelopment#Subversion)
+   1. [Git](VersionControlForGrammarDevelopment#Git)
+   1. [General Suggestions](VersionControlForGrammarDevelopment#General_Suggestions)
 
 ## Subversion
 

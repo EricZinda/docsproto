@@ -5,27 +5,27 @@ designed to show some of the MRS phenomena. The test suite is under the
 same license as the grammar it came from, which is **MIT**.
 
 The original set of 107 sentences are in
-[English](../MatrixMrsTestSuiteEn). Currently, there are test suites for
+[English](MatrixMrsTestSuiteEn). Currently, there are test suites for
 the following languages (included in the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) software package):
 
-- [English](../MatrixMrsTestSuiteEn)
-- [Japanese](../MatrixMrsTestSuiteJa)
-- [Norwegian](../MatrixMrsTestSuiteNo)
-- [Greek](../MatrixMrsTestSuiteGr)
-- [French](../MatrixMrsTestSuiteFr)
+- [English](MatrixMrsTestSuiteEn)
+- [Japanese](MatrixMrsTestSuiteJa)
+- [Norwegian](MatrixMrsTestSuiteNo)
+- [Greek](MatrixMrsTestSuiteGr)
+- [French](MatrixMrsTestSuiteFr)
 - [Spanish](/MatrixMrsTestSuiteEs)
-- [German](../MatrixMrsTestSuiteDe)
-- [Swedish](../MatrixMrsTestSuiteSv)
-- [Mandarin](../MatrixMrsTestSuiteZhTw) (Taiwan; Traditional characters)
-- [Mandarin](../MatrixMrsTestSuiteMandarin) (Simplified characters)
-- [Cantonese](../MatrixMrsTestSuiteCantonese)
-- [Russian](../MatrixMrsTestSuiteRu)
-- [Bulgarian](../MatrixMrsTestSuiteBg)
-- [Portuguese](../MatrixMrsTestSuitePt)
-- [Indonesian](../MatrixMrsTestSuiteIndonesian)
+- [German](MatrixMrsTestSuiteDe)
+- [Swedish](MatrixMrsTestSuiteSv)
+- [Mandarin](MatrixMrsTestSuiteZhTw) (Taiwan; Traditional characters)
+- [Mandarin](MatrixMrsTestSuiteMandarin) (Simplified characters)
+- [Cantonese](MatrixMrsTestSuiteCantonese)
+- [Russian](MatrixMrsTestSuiteRu)
+- [Bulgarian](MatrixMrsTestSuiteBg)
+- [Portuguese](MatrixMrsTestSuitePt)
+- [Indonesian](MatrixMrsTestSuiteIndonesian)
 
-See also [MatrixMrsTestSuiteTatoeba](../MatrixMrsTestSuiteTatoeba).
+See also [MatrixMrsTestSuiteTatoeba](MatrixMrsTestSuiteTatoeba).
 
 ## Multilingual Test Suite
 

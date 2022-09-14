@@ -14,8 +14,8 @@ is probably only partial, and additional links are welcome.
   - [MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite)
   - [FeforPng](FeforPng)
 - From the Cambridge meeting, May 2008:
-  - [Demo/discussion of paraphrasing](../RmrsParaphrasing)
-  - [RmrsDistributional](../RmrsDistributional)
+  - [Demo/discussion of paraphrasing](RmrsParaphrasing)
+  - [RmrsDistributional](RmrsDistributional)
 - From the [Barcelona Summit](BarcelonaTop), July 2009:
   
   - [Tense and Aspect](BarcelonaSemantics)
@@ -55,7 +55,7 @@ discussion](WeSearch_PestExamples),
   - [Cross-Grammar Harmony](SofiaVpmHarmony)
   - [MRS Comparison](SofiaMrsComparison)
 - [Mini-symposium on MRS modeling](RmrsLm) at UW, November 2012
-- [ERG Semantic Documentation](../ErgSemantics), begun under the auspices
+- [ERG Semantic Documentation](ErgSemantics), begun under the auspices
 of [WeSearch](WeSearch) in February 2013
 - [Mini-symposium on named entities and MRS](RmrsNes) at UW, February
 2013
@@ -69,7 +69,7 @@ Mathieu's talk on (D)MRS comparison
 ICONS](SaarlandTense)
   - [Information structure via ICONS in ERG](SaarlandIconsErg)
   - [Representation of clausal arguments in
-MRS](../SaarlandSententialArgument)
+MRS](SaarlandSententialArgument)
 - [AbbeyApposition](AbbeyApposition): Discussion of appositives,
 non-restrictive relatives and related phenomena, August 2013
 - From the [Bellingham sub-group meeting](TheAbbey_Chrysalis2014),

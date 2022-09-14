@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](../MatrixMrsTestSuite) for Russian.
+{% raw %}This is the [MRS Test Suite](MatrixMrsTestSuite) for Russian.
 
 ## Russian MRS Test Suite
 

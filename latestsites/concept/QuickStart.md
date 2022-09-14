@@ -41,7 +41,7 @@ A pre-compiled grammar file for the ERG is available at ACE's website:
 ```
 
 Confirm the grammar works with ACE (for fine tuning, see
-[AceErgTuning](../AceErgTuning)):
+[AceErgTuning](AceErgTuning)):
 
 ```
 ~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -Tq <<< "Dogs sleep."

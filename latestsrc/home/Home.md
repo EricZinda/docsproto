@@ -70,7 +70,7 @@ resources to the common task.
 
 ### Tools and Architectures
 
-- [DelphinWelcome](../DelphinWelcome)
+- [DelphinWelcome](DelphinWelcome)
 - [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop): Lexical Knowledge Builder --- Grammar Engineering
 Environment
 - [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\]: Competence and Performance Profiler
@@ -89,11 +89,11 @@ contributions
 
 - [English Resource Grammar](https://blog.inductorsoftware.com/docsproto/concept/ErgTop): DELPH-IN's most comprehensive
 grammar.
-  - [Tutorial](../ErsTutorial) on using the ERG, presented at NAACL
+  - [Tutorial](ErsTutorial) on using the ERG, presented at NAACL
 2016
   - [Documentation](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics) of the ERG's semantic
 representations
-- [Catalogue of Grammars](../GrammarCatalogue), including
+- [Catalogue of Grammars](GrammarCatalogue), including
 broad-coverage grammars for German, Japanese, Norwegian, and
 Spanish, along with significant grammars for several other
 languages.

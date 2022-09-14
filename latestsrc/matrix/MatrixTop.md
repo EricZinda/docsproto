@@ -12,7 +12,7 @@ If you're interested, please contact us --- through the mailing list, or
 by emailing [Emily Bender](http://faculty.washington.edu/ebender) at
 ebender at u dot washington dot edu.
 
-The [Wish List](../MatrixWishList) page serves as a forum for relatively
+The [Wish List](MatrixWishList) page serves as a forum for relatively
 informal exchange among developers and consumers, in addition to the
 Matrix mailing list.
 
@@ -27,7 +27,7 @@ information.
 
 - [Matrix web site](https://matrix.ling.washington.edu), includes
 publications and a list of languages
-- [MatrixGettingStarted](../MatrixGettingStarted): Some pointers to where
+- [MatrixGettingStarted](MatrixGettingStarted): Some pointers to where
 to get started when using the Grammar Matrix for the first time
 - [Customization
 page](https://matrix.ling.washington.edu/customize/matrix.cgi), to
@@ -52,7 +52,7 @@ may be useful to those working with the Matrix.
 is a wiki page detailing how to use version control systems (e.g.
 SVN, Mercurial) with a grammar.
 - We have some examples in the short and sweet [MRS Test
-Suite](../MatrixMrsTestSuite)s, which now exist for multiple languages.
+Suite](MatrixMrsTestSuite)s, which now exist for multiple languages.
 
 # Courses
 
@@ -86,7 +86,7 @@ The Grammar Matrix has been used as the basis for the following
 grammars:
 
 - The [NorSource](/NorSource) Grammar (Hellan and Haugereid, 2003)
-- [KRG](../KrgTop): The Korean Resource Grammar (Kim and Yang, 2003)
+- [KRG](KrgTop): The Korean Resource Grammar (Kim and Yang, 2003)
 - The Modern Greek Grammar (Kordoni and Neu, 2005)
 - The Spanish Resource Grammar (Marimon, Bel and Seghezzi, 2007)
 - [LXGram](http://nlxgroup.di.fc.ul.pt/lxgram/): Portuguese Grammar
@@ -94,9 +94,9 @@ grammars:
 - [HaG](http://chefpferd.ikp.uni-bonn.de:8105/logon) (Hausa Grammar;
 Crysmann, 2009)
 - [BURGER](http://www.bultreebank.org/BURGER/index.html) Bulgarian
-- [WambayaTop](../WambayaTop): wmb (Wambaya; Bender, 2008)
+- [WambayaTop](WambayaTop): wmb (Wambaya; Bender, 2008)
 - [MCG](http://mcg.opendfki.de/) Mandarin
-- [ManGO](../MandarinGrammarOnline)
+- [ManGO](MandarinGrammarOnline)
 Mandarin
 
 # Current events
@@ -112,7 +112,7 @@ agreement, tense and aspect, as well as extensions to the existing
 libraries for word order, sentential negation, yes-no questions and
 coordination.
 - PET now has :+.
-- [MatrixDevTop](../MatrixDevTop): Notes for Matrix developers
+- [MatrixDevTop](MatrixDevTop): Notes for Matrix developers
 
 # Acknowledgments
 

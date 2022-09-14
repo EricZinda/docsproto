@@ -8,7 +8,7 @@ XML-based input formats have been developed. Please see the
 [PetInputFsc](PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
-This page was predominantly authored by [StephanOepen](../StephanOepen),
+This page was predominantly authored by [StephanOepen](StephanOepen),
 who is its current maintainer. Please do not make substantial changes
 unless you (a) are quite certain of the technical correctness of your
 revisions and (b) believe strongly that your changes are compatible with
@@ -91,7 +91,7 @@ and turn the unknown word machinery into 2009 mode (see the section
 2009, are only supported in the so-called *chart mapping*
 [branch](https://pet.opendfki.de/repos/pet/branches/cm) of the PET code
 base (corresponding pre-compiled binaries are available in the LOGON
-tree; see the [LogonTop](../LogonTop) page).
+tree; see the [LogonTop](LogonTop) page).
 
 Each token in the above example has the following format:
 
@@ -421,7 +421,7 @@ sentence-final punctuation).
 
 The LKB includes a simple, finite-state tool to prepare textual input
 for parsing with PET, the *Regular Expression Pre-Processor* (REPP);
-please see the [ReppTop](../ReppTop) page for details. The ERG includes a
+please see the [ReppTop](ReppTop) page for details. The ERG includes a
 set of string-level REPP rules to normalize inputs and determine
 (initial) tokenization; as one of its outputs formats, REPP supports the
 YY 2.0 conventions.
@@ -435,7 +435,7 @@ between the token-level and grammar-internal sign universes is now
 encoded as part of the grammar proper (i.e. its feature structures for
 lexical entries and rules), complete information about the derivation is
 recorded in [\[incr tsdb()\]](http://www.delph-in.net/itsdb) profiles
-(please see the [ItsdbDerivations](../ItsdbDerivations) page for
+(please see the [ItsdbDerivations](ItsdbDerivations) page for
 background). Specifically, the extended derivation format includes the
 feature structures of input tokens as the leafs of the derivation tree,
 such that re-building that derivation (deterministically re-applying all
