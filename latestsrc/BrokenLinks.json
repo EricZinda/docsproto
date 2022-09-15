@@ -118,19 +118,12 @@
       ]}
     ],
     "tools": [
-      {"Section": "Grammar Tools", "Pages": [
-        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
-        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "tools/LkbLtdb.md", "FileMissing": true}
-      ]},
-      {"Section": "Parsing and Generation", "Pages": [
+      {"Section": "ACE Parser", "Pages": [
         {"Page": "UtTop", "SrcDir": "docswiki", "SrcFile": "UtTop.md", "Referrer": "tools/AceOptions.md"},
         {"Page": "AceTransfer", "SrcDir": "docswiki", "SrcFile": "AceTransfer.md", "Referrer": "tools/AceExperimental.md"}
       ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "HogInstallation", "SrcDir": "docswiki", "SrcFile": "HogInstallation.md", "Referrer": "tools/HeartofgoldTop.md"},
-        {"Page": "SafTop", "SrcDir": "docswiki", "SrcFile": "SafTop.md", "Referrer": "tools/SafFspp.md"}
-      ]},
       {"Section": "LKB", "Pages": [
+        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "tools/LkbFos.md", "FileMissing": true},
         {"Page": "LkbMode", "SrcDir": "docswiki", "SrcFile": "LkbMode.md", "Referrer": "tools/LkbEmacs.md"},
         {"Page": "LuiUi", "SrcDir": "docswiki", "SrcFile": "LuiUi.md", "Referrer": "tools/LkbLui.md"},
         {"Page": "LuiTree", "SrcDir": "docswiki", "SrcFile": "LuiTree.md", "Referrer": "tools/LkbLui.md"},
@@ -154,6 +147,13 @@
         {"Page": "MtJaenFeedbackCleaning", "SrcDir": "docswiki", "SrcFile": "MtJaenFeedbackCleaning.md", "Referrer": "tools/MtJaen.md"},
         {"Page": "MachineTranslationTutorial", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTutorial.md", "Referrer": "tools/MtJaen.md"},
         {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"}
+      ]},
+      {"Section": "Grammar Tools", "Pages": [
+        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"}
+      ]},
+      {"Section": "Misc", "Pages": [
+        {"Page": "HogInstallation", "SrcDir": "docswiki", "SrcFile": "HogInstallation.md", "Referrer": "tools/HeartofgoldTop.md"},
+        {"Page": "SafTop", "SrcDir": "docswiki", "SrcFile": "SafTop.md", "Referrer": "tools/SafFspp.md"}
       ]}
     ],
     "summits": [

@@ -61,9 +61,6 @@
       ]}
     ],
     "tools": [
-      {"Section": "Misc", "Pages": [
-        {"Page": "SafDtd", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"}
-      ]},
       {"Section": "LKB", "Pages": [
         {"Page": "LuiUnification", "SrcDir": "docswiki", "SrcFile": "LuiUnification.md", "Referrer": "tools/LuiAvm.md"},
         {"Page": "LuiAvm", "SrcDir": "docswiki", "SrcFile": "LuiAvm.md", "Referrer": "tools/LuiMrs.md"}
@@ -71,6 +68,9 @@
       {"Section": "Logon", "Pages": [
         {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
         {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"}
+      ]},
+      {"Section": "Misc", "Pages": [
+        {"Page": "SafDtd", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"}
       ]}
     ],
     "summits": [
