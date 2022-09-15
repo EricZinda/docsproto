@@ -33,7 +33,7 @@ with example sentences in Redwoods Treebank
 - [Syntactic and Lexical Rules](../ErgRules)
 - [Lexical and Phrasal Distinctions](../ErgTreebankingRules)
 - [Tokenization Assumptions](../ErgTokenization)
-- [The Redwoods Treebank](https://blog.inductorsoftware.com/docsproto/concept/RedwoodsTop) Many sentences parsed with the
+- [The Redwoods Treebank](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop) Many sentences parsed with the
 ERG.
 - ERG is released under the [MIT
 license](http://svn.delph-in.net/erg/trunk/LICENSE)
@@ -88,7 +88,7 @@ of the ninth international conference on language resources and
 evaluation (LREC'14) (pp. 875-881). Reykjavik, Iceland: European
 Language Resources Association (ELRA).
 
-Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank). A
+Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank). A
 dynamically annotated treebank of the Wall Street Journal. In (p.
 85-96). Lisbon, Portugal: Edições Colibri.
 

@@ -7,7 +7,7 @@ documenting the semantic analyses of the ERG (see
 phenomena originates from a two-step process. First, grammar entities
 (rules or lexical entries) were automatically inspected for indicators
 of ‘interesting’ semantic properties (via the discovery procedure
-described on the [ErgSemantics/Discovery](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Discovery) page)
+described on the [ErgSemantics/Discovery](https://blog.inductorsoftware.com/docsproto/home/ErgSemantics_Discovery) page)
 and grouped by their semantic synopses, i.e. the EP or set of EPs they
 contribute. Second, this list was paired with examples from the Redwoods
 Treebank instantiating the grammar entities in question.

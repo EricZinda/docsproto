@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to:  IconsSpecs
+redirect_to:  ErgSemantics_Conventions
 ---

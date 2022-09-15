@@ -121,7 +121,7 @@ Woodley: Yes.
 Emily: The question is why we have to allow semantically contentful
 prepositions to take wh clauses.
 
-Dan: Frequent in [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank)
+Dan: Frequent in [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank)
 
 Emily: Semantically contentful?
 

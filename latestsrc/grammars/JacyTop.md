@@ -53,13 +53,13 @@ move to github and many enhancements.
 
 - A presentation explaining grammar fundamentals can be downloaded
 (<http://www.delph-in.net/jacy/jacy.pdf>).
-- There is some on-line documentation available at [JacyDoc](JacyDoc)
+- There is some on-line documentation available at [JacyDoc](../JacyDoc)
 (including the [linguistic type database
 (LTDB)](http://compling.hss.ntu.edu.sg/ltdb/Jacy_1301/)).
 - Instructions for installation are at
-[JacyInstallation](JacyInstallation).
+[JacyInstallation](../JacyInstallation).
 - There has been some work on Corpus Annotation with the
-[Hinoki](JacyHinoki) treebank.
+[Hinoki](../JacyHinoki) treebank.
 - Jacy is used in the highly experimental open source
 [Japanese-to-English Machine Translation System: JaEn](https://blog.inductorsoftware.com/docsproto/tools/MtJaen)
 

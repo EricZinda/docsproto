@@ -3,7 +3,7 @@
 ## Dan's intro
 
 This session I proposed for the agenda again for a fairly selfish
-reason: In working through the [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank) treebanking, and
+reason: In working through the [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) treebanking, and
 hearing quite reasonable complaints about inconsistent annotation…
 there's a large class of cases where our formalism or our current use of
 it doesn't quite guide us in the right direction of uniform annotation
@@ -263,7 +263,7 @@ where we can't annotate it when it is possible.
 Woodley: So you're saying it's speaker meaning and not sentence meaning?
 
 Dan: To the extent that I understand and believe in that distinction,
-yes. But I also take Ann's point. In [SemCor](https://blog.inductorsoftware.com/docsproto/concept/SemCor) and other data,
+yes. But I also take Ann's point. In [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor) and other data,
 it's not a problem. It's when we move to a technical domain---I did see
 it to some extent in the chemistry domain, but there we already had a NE
 analyzer go before we went in.

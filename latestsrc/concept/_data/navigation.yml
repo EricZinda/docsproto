@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: https://blog.inductorsoftware.com/docsproto/home/Home
   - title: "Concepts"
-    url: https://blog.inductorsoftware.com/docsproto/concept/IconsSpecs
+    url: https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Conventions
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
   - title: "ERG"
@@ -102,22 +102,8 @@ toc:
         url: "ErgGml"
       - title: "SMAF"
         url: "SmafTop"
-  - title: "Projects"
-    children:
-      - title: "Redwoods"
-        url: "RedwoodsTop"
-      - title: "DeepBank"
-        url: "DeepBank"
-      - title: "DeepBank 1.0"
-        url: "DeepBank_OneZero"
-      - title: "Semantics Discovery"
-        url: "ErgSemantics_Discovery"
-      - title: "WikiWoods"
-        url: "WikiWoods"
-      - title: "SC corpus"
-        url: "SemCor"
-      - title: "We Science"
-        url: "WeScience"
+      - title: "Icons Specs"
+        url: "IconsSpecs"
   - title: "Discussions"
     children:
       - title: "Saarland Sentential Argument"
@@ -128,5 +114,3 @@ toc:
         url: "ErgSemantics_Raw_Materials"
       - title: "ERG Semantics Conventions"
         url: "ErgSemantics_Conventions"
-      - title: "Icons Specs"
-        url: "IconsSpecs"

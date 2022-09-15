@@ -17,7 +17,7 @@ dependency graphs, and dependency triples. In addition, the
 representations can be obtained either from existing large collections
 (of close to 1.5 million tokens) of manually curated annotations over
 texts from a wide variety of genres (the [Redwoods
-Treebank](https://blog.inductorsoftware.com/docsproto/concept/RedwoodsTop); Oepen, et al., 2004; Flickinger, et al., 2012)
+Treebank](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop); Oepen, et al., 2004; Flickinger, et al., 2012)
 or by [processing new text](../ErgProcessing) with the ERG and its
 associated parsing and parse selection algorithms.
 
@@ -49,7 +49,7 @@ viz. a collection of pages that present individual semantic phenomena.
 The ‘table of contents’ for this collection is available through the
 [ErgSemantics/Inventory](../ErgSemantics_Inventory) page, and the process
 we followed for selecting phenomena to document is described on the
-[ErgSemantics/Discovery](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Discovery) page. We recommend
+[ErgSemantics/Discovery](https://blog.inductorsoftware.com/docsproto/home/ErgSemantics_Discovery) page. We recommend
 starting the exploration of these resources via the following links:
 
 - [High-Level Characterization](../ErgSemantics_Essence)
@@ -143,7 +143,7 @@ of the ninth international conference on language resources and
 evaluation (LREC'14) (pp. 875-881). Reykjavik, Iceland: European
 Language Resources Association (ELRA).
 
-Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank). A
+Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank). A
 dynamically annotated treebank of the Wall Street Journal. In (p.
 85-96). Lisbon, Portugal: Edições Colibri.
 

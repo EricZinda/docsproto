@@ -27,11 +27,11 @@ don't have any errors?](GeFaqNoError)
 figure out where that is in my file?](GeFaqLoadScript)
 - [When I try to load my grammar/the matrix, the LKB says "Error:
 Attempt to take the value of the unbound variable ...". What am I
-doing wrong?](GeFaqGotoChar)
+doing wrong?](../GeFaqGotoChar)
 - [The LKB says I'm missing a right bracket, but I can't figure out
-where. What should I do?](GeFaqRightBracket)
+where. What should I do?](../GeFaqRightBracket)
 - [When I load my grammar, I get "no possible type for features (...)
-at path (...)". What is causing this?](GeFaqNoPossibleType)
+at path (...)". What is causing this?](../GeFaqNoPossibleType)
 - [When I load my grammar, I get "Feature ... is introduced at
 multiple types (...)". What is causing this?](GeFaqFeatureMultiType)
 - [My grammar loads just fine, but when I try to parse a sentence, it
@@ -42,11 +42,11 @@ parse a sentence containing a word with the error, not when the
 grammar is loaded. How do I check the whole
 lexicon?](/GeFaqLexiconErrors)
 - [When I try to parse a sentence, the LKB says "probable runaway
-rule". How do I debug this?](GeFaqRunawayRule1)
+rule". How do I debug this?](../GeFaqRunawayRule1)
 - [When I try to generate, the LKB says "probable runaway rule". How
 do I debug this?](GeFaqRunawayRule2)
 - [When I try to generate, the LKB says "Probable circular lexical
-rule". How do I debug this?](GeFaqCircularLexRule)
+rule". How do I debug this?](../GeFaqCircularLexRule)
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
 and how do I debug it?](GeFaqCyclicCheck)
 - [I'm trying to write a lexical (or phrase structure rule), but I get
@@ -66,14 +66,14 @@ this mean?](/GeFaqFailedToReunify)
 - [How do I get the LKB to show me the parse chart?](GeFaqShowChart)
 - [When I look at the parse chart, I don't see an edge that I'm
 expecting to be there. How do I find out why it's
-missing?](GeFaqMissingEdge)
+missing?](../GeFaqMissingEdge)
 - [How can I tell if an edge is missing in the parse
-chart?](GeFaqMissingHowTo)
+chart?](../GeFaqMissingHowTo)
 - [Looking at the parse chart, it seems that I do have an edge that
 spans the whole chart (accounts for all the words), but the LKB
 still says no parses found. What might be going on?](GeFaqRootFail)
 - [How do I tell if I have an edge that spans the whole
-chart?](GeFaqSpanningEdge)
+chart?](../GeFaqSpanningEdge)
 - [One of my words is showing up in the chart twice.
 Why?](GeFaqChartTwice)
 - [One of my words branches to two lexical edges that look exactly the
@@ -116,7 +116,7 @@ on?](GeFaqOverApplicationLexRule)
 ## Questions about semantics
 
 - [Some of my relations/qeqs aren't showing up in the MRS for the
-whole parse. Why not?](GeFaqMissingRels)
+whole parse. Why not?](../GeFaqMissingRels)
 - [Someone told me that types x and y were semantically incompatible,
 but they do unify. Can they still be semantically
 incompatible?](/GeFaqSemanticIncompatibility)
@@ -129,7 +129,7 @@ incompatible?](/GeFaqSemanticIncompatibility)
 - [What do the punctuation marks mean in the tdl files? (A very basic
 guide to tdl syntax.)](GeFaqTdlSyntax)
 - [How do I constrain something to be not of a certain
-value?](GeFaqNegValue)
+value?](../GeFaqNegValue)
 - [How do I do disjunction (constrain the value of a feature to be X
 or Y)?](GeFaqDisjunctiveValue)
 - [Can I make the value of one feature dependent on the value of
@@ -137,18 +137,18 @@ another?](GeFaqDistributedDisjunction)
 - [How do I define multiple different root
 conditions?](/GeFaqMultipleRoot)
 - [How do I see what a type looks like with all of the constraints it
-inherits from supertypes?](GeFaqExpandedType)
+inherits from supertypes?](../GeFaqExpandedType)
 - [How do I look at fully specified lexical entries or
-rules?](GeFaqViewEntry)
+rules?](../GeFaqViewEntry)
 - [How do I see what definition the LKB has read in for a
-type?](GeFaqViewType)
-- [How do I browse the type hierarchy?](GeFaqViewHierarchy)
+type?](../GeFaqViewType)
+- [How do I browse the type hierarchy?](../GeFaqViewHierarchy)
 - [How do I write a lexical entry for a word with spaces in
 it?](/GeFaqLexEntrySpaces)
 - [What is a type addendum statement, and when should I use
-one?](GeFaqTypeAddendum)
+one?](../GeFaqTypeAddendum)
 - [I've added a rule to my grammar but the LKB doesn't seem to have
-found it. What's happening?](GeFaqNoRule)
+found it. What's happening?](../GeFaqNoRule)
 - [I'm trying to add a brand-new constraint on my subtypes, but it
 says that there is no unification path. What's
 wrong?](/GeFaqNoUnificationPath)
@@ -162,7 +162,7 @@ saying it can't unify. What can I do?](/GeFaqCombineConstraints)
 - [What is the feature geometry assigned in the Matrix? (Or: How do I
 figure out what paths I need to use?)](../GeFaqFeatureGeometry)
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
-should I do?](GeFaqNewFeature)
+should I do?](../GeFaqNewFeature)
 - [How do I get the LKB to tell me what type(s) a feature or set of
 features is appropriate for?](GeFaqFindTypeForFeatures)
 
@@ -170,16 +170,16 @@ features is appropriate for?](GeFaqFindTypeForFeatures)
 
 ## Other questions
 
-- [How do I do interactive unification?](GeFaqInteractiveUnify)
+- [How do I do interactive unification?](../GeFaqInteractiveUnify)
 - [What should I know about downloading matrix
 patches?](/GeFaqMatrixPatches)
 - [The LKB seems to be "forgetting" a constraint/definition I've
 coded. Why?](GeFaqForgottenConstraint)
-- [In which files does order matter?](GeFaqOrderMatters)
+- [In which files does order matter?](../GeFaqOrderMatters)
 - [A menu item seems to have disappeared (e.g., Parse &gt; Compare or
 Generate). How do I get it back?](GeFaqExpandMenu)
 - [How do I use tab to help me figure out where my syntax error
-is?](GeFaqTabIndentation)
+is?](../GeFaqTabIndentation)
 - [I have a type/lexical entry/rule which doesn't seem to be
 inheriting a constraint from its supertype. What might be going
 on?](GeFaqConfusingTypo)
@@ -188,19 +188,19 @@ specified in the new matrix.tdl don't seem to be taking effect when
 I reload the grammar. What's wrong?](GeFaqTdlTxt)
 - [How do I change the default sentence that appears in the parse
 dialog box when I load up my grammar?](/GeFaqDefaultSentence)
-- [What's a difference list, and why do we use them?](GeFaqDiffList)
+- [What's a difference list, and why do we use them?](../GeFaqDiffList)
 - [All of the sudden, some of the nodes in my tree are labeled with ?
 instead of N or S or VP. What happened?](/GeFaqQuestionMarkNodes)
 - [How can I input strings from non-ascii character
 sets?](GeFaqUnicodeInput)
 - [What non-alphanumeric characters are allowed to be part of a string
-parsed by the LKB, and how can I change that?](GeFaqNonAlpha)
+parsed by the LKB, and how can I change that?](../GeFaqNonAlpha)
 - [When I switch between grammars (e.g., the English Resource Grammar
 and a Matrix-derived grammar) the LKB sometimes behaves funny
 (errors, seg faults, etc.). What's going
 on?](GeFaqSwitchingGrammars)
 - [When I close the LKB Top Menu, is Lisp supposed to exit as
-well?](GeFaqClickX)
+well?](../GeFaqClickX)
 - [How can I tell tsdb++ to start with the directories for "home" and
 "skeletons" that I want each time?](https://blog.inductorsoftware.com/docsproto/tools/GeFaqTsdbRc)
 - [Why doesn't my language appear in tsdb++ in the

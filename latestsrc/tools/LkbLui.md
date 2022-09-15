@@ -6,20 +6,20 @@ The standard implementation of LUI is an application of the [YZ Windows](http://
 
 # LUI Documentation at a Glance
 
-- [LuiUi](LuiUi)
-- [LuiTree](LuiTree)
-- [LuiAvm](LuiAvm)
-- [LuiUnification](LuiUnification)
-- [LuiMrs](LuiMrs)
+- [LuiUi](../LuiUi)
+- [LuiTree](../LuiTree)
+- [LuiAvm](../LuiAvm)
+- [LuiUnification](../LuiUnification)
+- [LuiMrs](../LuiMrs)
 - [LuiRc](../LuiRc)
 - [AceLui](../AceLui)
 
 # Existing LUI Browsers
 
-LUI currently provides browsers for four types of linguistic structures, viz. constituent trees ([LuiTree](LuiTree)), feature structures
-([LuiAvm](LuiAvm)), MRSs ([LuiMrs](LuiMrs)), and parse charts ([LuiChart](LuiChart)). For other types of linguistic objects, a LUI-enabled LKB session will just fall back on the default, built-in display methods from the LKB.
+LUI currently provides browsers for four types of linguistic structures, viz. constituent trees ([LuiTree](../LuiTree)), feature structures
+([LuiAvm](../LuiAvm)), MRSs ([LuiMrs](../LuiMrs)), and parse charts ([LuiChart](../LuiChart)). For other types of linguistic objects, a LUI-enabled LKB session will just fall back on the default, built-in display methods from the LKB.
 
-LUI browsers exhibit certain common interface characteristics, described on the [LuiUi](LuiUi) page. [LuiUi](LuiUi) a introductory keyboard shortcut list.
+LUI browsers exhibit certain common interface characteristics, described on the [LuiUi](../LuiUi) page. [LuiUi](../LuiUi) a introductory keyboard shortcut list.
 
 # Obtaining and Running LUI
 
@@ -155,7 +155,7 @@ describing your session in the file `/tmp/yzlui.debug.username` (where
 DELPH-IN *developers* mailing list and always attach a corresponding LUI
 log file from the `/tmp/` directory.
 
-Please add wishlist requests to [LuiWishlist](LuiWishlist).
+Please add wishlist requests to [LuiWishlist](../LuiWishlist).
 
 # Comparison with CLIM
 

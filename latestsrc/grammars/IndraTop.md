@@ -49,9 +49,9 @@ Catalogue](http://moin.delph-in.net/GrammarCatalogue/#Indonesian_Resource_Gramma
 ## Phenomena in Indonesian
 
 - [Intransitive and transitive verbs, Applicative -i constructions,
-Verb reduplication](LADIndonesianMorphology)
+Verb reduplication](../LADIndonesianMorphology)
 - [Passive voice](CapitolHillPassives)
-([Discussion](CapitalHillPassivesDiscussion))
+([Discussion](../CapitalHillPassivesDiscussion))
 
 ## Contributors
 

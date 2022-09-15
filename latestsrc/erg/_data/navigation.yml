@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: https://blog.inductorsoftware.com/docsproto/home/Home
   - title: "Concepts"
-    url: https://blog.inductorsoftware.com/docsproto/concept/IconsSpecs
+    url: https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Conventions
   - title: "Tools"
     url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
   - title: "ERG"
@@ -30,6 +30,8 @@ toc:
         url: "ErgApi"
   - title: "Erg Semantics"
     children:
+      - title: "English Resource Semantics Tutorial"
+        url: "ErsTutorial"
       - title: "Overview"
         url: "ErgSemantics"
       - title: "Essence"

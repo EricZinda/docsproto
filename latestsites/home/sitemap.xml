@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/home/DeepBank/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/home/DeepBank_OneZero/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/home/DelphinApplications/</loc>
 </url>
 <url>
@@ -10,15 +16,24 @@
 <loc>http://blog.inductorsoftware.com/docsproto/home/DelphinWelcome/</loc>
 </url>
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/home/ErsTutorial/</loc>
+<loc>http://blog.inductorsoftware.com/docsproto/home/ErgSemantics_Discovery/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/home/Home/</loc>
 </url>
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/home/OldOverviews/</loc>
+<loc>http://blog.inductorsoftware.com/docsproto/home/OldProjects/</loc>
 </url>
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/home/OldProjects/</loc>
+<loc>http://blog.inductorsoftware.com/docsproto/home/RedwoodsTop/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/home/SemCor/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/home/WeScience/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/home/WikiWoods/</loc>
 </url>
 </urlset>

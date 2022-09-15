@@ -55,5 +55,5 @@ to set lkb::\*characterize-p\* to non-null before you export.
     (setf lkb::*characterize-p* t)
 
 Exporting can be memory intensive. Use a batch instead for large
-profiles. There is an example described in [RedwoodsTop](../RedwoodsTop).
+profiles. There is an example described in [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop).
 {% endraw %}

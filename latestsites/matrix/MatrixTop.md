@@ -86,7 +86,7 @@ The Grammar Matrix has been used as the basis for the following
 grammars:
 
 - The [NorSource](/NorSource) Grammar (Hellan and Haugereid, 2003)
-- [KRG](../KrgTop): The Korean Resource Grammar (Kim and Yang, 2003)
+- [KRG](https://blog.inductorsoftware.com/docsproto/grammars/KrgTop): The Korean Resource Grammar (Kim and Yang, 2003)
 - The Modern Greek Grammar (Kordoni and Neu, 2005)
 - The Spanish Resource Grammar (Marimon, Bel and Seghezzi, 2007)
 - [LXGram](http://nlxgroup.di.fc.ul.pt/lxgram/): Portuguese Grammar
@@ -94,9 +94,9 @@ grammars:
 - [HaG](http://chefpferd.ikp.uni-bonn.de:8105/logon) (Hausa Grammar;
 Crysmann, 2009)
 - [BURGER](http://www.bultreebank.org/BURGER/index.html) Bulgarian
-- [WambayaTop](../WambayaTop): wmb (Wambaya; Bender, 2008)
+- [WambayaTop](https://blog.inductorsoftware.com/docsproto/grammars/WambayaTop): wmb (Wambaya; Bender, 2008)
 - [MCG](http://mcg.opendfki.de/) Mandarin
-- [ManGO](../MandarinGrammarOnline)
+- [ManGO](https://blog.inductorsoftware.com/docsproto/grammars/MandarinGrammarOnline)
 Mandarin
 
 # Current events

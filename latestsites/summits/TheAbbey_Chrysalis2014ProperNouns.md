@@ -70,7 +70,7 @@ Francis: *Finally I must admit that I nearly called this essay The
 Cathedral and the Agora, the latter being the Greek word for
 marketplace.*
 
-Dan: The task of annotating [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank) led me to think this is
+Dan: The task of annotating [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) led me to think this is
 broken/not scalable. Can't keep it consistent from one paragraph to the
 next, even if conventions written down.
 
