@@ -52,5 +52,5 @@ https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/
 
 # Using Google for search   
 https://programmablesearchengine.google.com/controlpanel/all
-
-
+https://search.google.com/search-console/sitemaps?resource_id=sc-domain%3Ainductorsoftware.com&hl=en
+https://search.google.com/search-console/inspect/mobile-usability?resource_id=sc-domain%3Ainductorsoftware.com&id=xNygzv7-8f6Jlh1xsQL5Gg&alt_id=nIMmyQnLbMK684aFrvmfvg&hl=en
