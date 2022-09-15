@@ -30,7 +30,3 @@ toc:
         url: "DelphinNews"
       - title: "Historic Overviews"
         url: "OldOverviews"
-  - title: "Contributors"
-    children:
-      - title: "Delphin Lisbon"
-        url: "DelphinLisbon"
