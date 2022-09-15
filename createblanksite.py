@@ -87,6 +87,7 @@ def get_home_page_relative_url(site_definition, pages_definitions):
         for page in pages_definitions:
             if page["Site"] == site_name:
                 home_page = page["SrcFile"]
+                break
 
     if home_page is None:
         raise Exception(f'No HomePage key for site {site_definition["Site"]} and no pages defined from which to choose a default')
