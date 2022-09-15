@@ -121,7 +121,7 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="https://blog.inductorsoftware.com/docsproto/concept/IconsSpecs">Concepts</a>
+              <a href="https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Conventions">Concepts</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
             </li><li class="masthead__menu-item">
@@ -217,10 +217,6 @@
         
         <ul>
           
-            <li><a href="/docsproto/matrix/GrammarEngineeringFAQ">Grammar Engineering FAQ</a></li>
-          
-            <li><a href="/docsproto/matrix/GeFaqFeatureGeometry">Feature Geometry FAQ</a></li>
-          
             <li><a href="/docsproto/matrix/MatrixDevConventions">Dev Conventions</a></li>
           
             <li><a href="/docsproto/matrix/MatrixMorphology">Morphology</a></li>
@@ -309,17 +305,61 @@
     
       <li>
         
-          <span class="nav__sub-title">Grammars</span>
+          <span class="nav__sub-title">FAQ</span>
         
 
         
         <ul>
           
-            <li><a href="/docsproto/matrix/KrgTop">Korean Resource Grammar</a></li>
+            <li><a href="/docsproto/matrix/GrammarEngineeringFAQ">Grammar Engineering FAQ</a></li>
           
-            <li><a href="/docsproto/matrix/WambayaTop">Wambaya grammar</a></li>
+            <li><a href="/docsproto/matrix/GeFaqFeatureGeometry">Feature Geometry FAQ</a></li>
           
-            <li><a href="/docsproto/matrix/MandarinGrammarOnline">Mandarin Grammar Online</a></li>
+            <li><a href="/docsproto/matrix/GeFaqInteractiveUnify">Interactive Unify</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqMissingEdge">Missing Edge</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqMissingHowTo">Missing How-To</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqRightBracket">RightBracket</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqNewFeature">NewFeature</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqNoPossibleType">NoPossibleType</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqRunawayRule1">RunawayRule1</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqCircularLexRule">CircularLexRule</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqDiffList">DiffList</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqMissingRels">MissingRels</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqSpanningEdge">SpanningEdge</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqOrderMatters">OrderMatters</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqNoRule">NoRule</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqTypeAddendum">TypeAddendum</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqTabIndentation">TabIndentation</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqGotoChar">GotoChar</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqNegValue">NegValue</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqViewHierarchy">ViewHierarchy</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqViewEntry">ViewEntry</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqViewType">ViewType</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqExpandedType">ExpandedType</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqNonAlpha">NonAlpha</a></li>
+          
+            <li><a href="/docsproto/matrix/GeFaqClickX">ClickX</a></li>
           
         </ul>
         
@@ -427,12 +467,12 @@ prompt?</a></li>
 don’t have any errors?</a></li>
   <li><a href="GeFaqLoadScript">The LKB says I have an error at position number 873. How do I
 figure out where that is in my file?</a></li>
-  <li><a href="GeFaqGotoChar">When I try to load my grammar/the matrix, the LKB says “Error:
+  <li><a href="../GeFaqGotoChar">When I try to load my grammar/the matrix, the LKB says “Error:
 Attempt to take the value of the unbound variable …”. What am I
 doing wrong?</a></li>
-  <li><a href="GeFaqRightBracket">The LKB says I’m missing a right bracket, but I can’t figure out
+  <li><a href="../GeFaqRightBracket">The LKB says I’m missing a right bracket, but I can’t figure out
 where. What should I do?</a></li>
-  <li><a href="GeFaqNoPossibleType">When I load my grammar, I get “no possible type for features (…)
+  <li><a href="../GeFaqNoPossibleType">When I load my grammar, I get “no possible type for features (…)
 at path (…)”. What is causing this?</a></li>
   <li><a href="GeFaqFeatureMultiType">When I load my grammar, I get “Feature … is introduced at
 multiple types (…)”. What is causing this?</a></li>
@@ -443,11 +483,11 @@ happening?</a></li>
 parse a sentence containing a word with the error, not when the
 grammar is loaded. How do I check the whole
 lexicon?</a></li>
-  <li><a href="GeFaqRunawayRule1">When I try to parse a sentence, the LKB says “probable runaway
+  <li><a href="../GeFaqRunawayRule1">When I try to parse a sentence, the LKB says “probable runaway
 rule”. How do I debug this?</a></li>
   <li><a href="GeFaqRunawayRule2">When I try to generate, the LKB says “probable runaway rule”. How
 do I debug this?</a></li>
-  <li><a href="GeFaqCircularLexRule">When I try to generate, the LKB says “Probable circular lexical
+  <li><a href="../GeFaqCircularLexRule">When I try to generate, the LKB says “Probable circular lexical
 rule”. How do I debug this?</a></li>
   <li><a href="GeFaqCyclicCheck">The LKB says “Cyclic check found cycle at …”. What does this mean
 and how do I debug it?</a></li>
@@ -468,15 +508,15 @@ this mean?</a></li>
 
 <ul>
   <li><a href="GeFaqShowChart">How do I get the LKB to show me the parse chart?</a></li>
-  <li><a href="GeFaqMissingEdge">When I look at the parse chart, I don’t see an edge that I’m
+  <li><a href="../GeFaqMissingEdge">When I look at the parse chart, I don’t see an edge that I’m
 expecting to be there. How do I find out why it’s
 missing?</a></li>
-  <li><a href="GeFaqMissingHowTo">How can I tell if an edge is missing in the parse
+  <li><a href="../GeFaqMissingHowTo">How can I tell if an edge is missing in the parse
 chart?</a></li>
   <li><a href="GeFaqRootFail">Looking at the parse chart, it seems that I do have an edge that
 spans the whole chart (accounts for all the words), but the LKB
 still says no parses found. What might be going on?</a></li>
-  <li><a href="GeFaqSpanningEdge">How do I tell if I have an edge that spans the whole
+  <li><a href="../GeFaqSpanningEdge">How do I tell if I have an edge that spans the whole
 chart?</a></li>
   <li><a href="GeFaqChartTwice">One of my words is showing up in the chart twice.
 Why?</a></li>
@@ -523,7 +563,7 @@ on?</a></li>
 <h2 id="questions-about-semantics">Questions about semantics</h2>
 
 <ul>
-  <li><a href="GeFaqMissingRels">Some of my relations/qeqs aren’t showing up in the MRS for the
+  <li><a href="../GeFaqMissingRels">Some of my relations/qeqs aren’t showing up in the MRS for the
 whole parse. Why not?</a></li>
   <li><a href="/GeFaqSemanticIncompatibility">Someone told me that types x and y were semantically incompatible,
 but they do unify. Can they still be semantically
@@ -538,7 +578,7 @@ incompatible?</a></li>
 <ul>
   <li><a href="GeFaqTdlSyntax">What do the punctuation marks mean in the tdl files? (A very basic
 guide to tdl syntax.)</a></li>
-  <li><a href="GeFaqNegValue">How do I constrain something to be not of a certain
+  <li><a href="../GeFaqNegValue">How do I constrain something to be not of a certain
 value?</a></li>
   <li><a href="GeFaqDisjunctiveValue">How do I do disjunction (constrain the value of a feature to be X
 or Y)?</a></li>
@@ -546,18 +586,18 @@ or Y)?</a></li>
 another?</a></li>
   <li><a href="/GeFaqMultipleRoot">How do I define multiple different root
 conditions?</a></li>
-  <li><a href="GeFaqExpandedType">How do I see what a type looks like with all of the constraints it
+  <li><a href="../GeFaqExpandedType">How do I see what a type looks like with all of the constraints it
 inherits from supertypes?</a></li>
-  <li><a href="GeFaqViewEntry">How do I look at fully specified lexical entries or
+  <li><a href="../GeFaqViewEntry">How do I look at fully specified lexical entries or
 rules?</a></li>
-  <li><a href="GeFaqViewType">How do I see what definition the LKB has read in for a
+  <li><a href="../GeFaqViewType">How do I see what definition the LKB has read in for a
 type?</a></li>
-  <li><a href="GeFaqViewHierarchy">How do I browse the type hierarchy?</a></li>
+  <li><a href="../GeFaqViewHierarchy">How do I browse the type hierarchy?</a></li>
   <li><a href="/GeFaqLexEntrySpaces">How do I write a lexical entry for a word with spaces in
 it?</a></li>
-  <li><a href="GeFaqTypeAddendum">What is a type addendum statement, and when should I use
+  <li><a href="../GeFaqTypeAddendum">What is a type addendum statement, and when should I use
 one?</a></li>
-  <li><a href="GeFaqNoRule">I’ve added a rule to my grammar but the LKB doesn’t seem to have
+  <li><a href="../GeFaqNoRule">I’ve added a rule to my grammar but the LKB doesn’t seem to have
 found it. What’s happening?</a></li>
   <li><a href="/GeFaqNoUnificationPath">I’m trying to add a brand-new constraint on my subtypes, but it
 says that there is no unification path. What’s
@@ -573,7 +613,7 @@ saying it can’t unify. What can I do?</a></li>
 <ul>
   <li><a href="../GeFaqFeatureGeometry">What is the feature geometry assigned in the Matrix? (Or: How do I
 figure out what paths I need to use?)</a></li>
-  <li><a href="GeFaqNewFeature">I’m trying to add a new feature, and the LKB doesn’t like it. What
+  <li><a href="../GeFaqNewFeature">I’m trying to add a new feature, and the LKB doesn’t like it. What
 should I do?</a></li>
   <li><a href="GeFaqFindTypeForFeatures">How do I get the LKB to tell me what type(s) a feature or set of
 features is appropriate for?</a></li>
@@ -584,15 +624,15 @@ features is appropriate for?</a></li>
 <h2 id="other-questions">Other questions</h2>
 
 <ul>
-  <li><a href="GeFaqInteractiveUnify">How do I do interactive unification?</a></li>
+  <li><a href="../GeFaqInteractiveUnify">How do I do interactive unification?</a></li>
   <li><a href="/GeFaqMatrixPatches">What should I know about downloading matrix
 patches?</a></li>
   <li><a href="GeFaqForgottenConstraint">The LKB seems to be “forgetting” a constraint/definition I’ve
 coded. Why?</a></li>
-  <li><a href="GeFaqOrderMatters">In which files does order matter?</a></li>
+  <li><a href="../GeFaqOrderMatters">In which files does order matter?</a></li>
   <li><a href="GeFaqExpandMenu">A menu item seems to have disappeared (e.g., Parse &gt; Compare or
 Generate). How do I get it back?</a></li>
-  <li><a href="GeFaqTabIndentation">How do I use tab to help me figure out where my syntax error
+  <li><a href="../GeFaqTabIndentation">How do I use tab to help me figure out where my syntax error
 is?</a></li>
   <li><a href="GeFaqConfusingTypo">I have a type/lexical entry/rule which doesn’t seem to be
 inheriting a constraint from its supertype. What might be going
@@ -602,18 +642,18 @@ specified in the new matrix.tdl don’t seem to be taking effect when
 I reload the grammar. What’s wrong?</a></li>
   <li><a href="/GeFaqDefaultSentence">How do I change the default sentence that appears in the parse
 dialog box when I load up my grammar?</a></li>
-  <li><a href="GeFaqDiffList">What’s a difference list, and why do we use them?</a></li>
+  <li><a href="../GeFaqDiffList">What’s a difference list, and why do we use them?</a></li>
   <li><a href="/GeFaqQuestionMarkNodes">All of the sudden, some of the nodes in my tree are labeled with ?
 instead of N or S or VP. What happened?</a></li>
   <li><a href="GeFaqUnicodeInput">How can I input strings from non-ascii character
 sets?</a></li>
-  <li><a href="GeFaqNonAlpha">What non-alphanumeric characters are allowed to be part of a string
+  <li><a href="../GeFaqNonAlpha">What non-alphanumeric characters are allowed to be part of a string
 parsed by the LKB, and how can I change that?</a></li>
   <li><a href="GeFaqSwitchingGrammars">When I switch between grammars (e.g., the English Resource Grammar
 and a Matrix-derived grammar) the LKB sometimes behaves funny
 (errors, seg faults, etc.). What’s going
 on?</a></li>
-  <li><a href="GeFaqClickX">When I close the LKB Top Menu, is Lisp supposed to exit as
+  <li><a href="../GeFaqClickX">When I close the LKB Top Menu, is Lisp supposed to exit as
 well?</a></li>
   <li><a href="https://blog.inductorsoftware.com/docsproto/tools/GeFaqTsdbRc">How can I tell tsdb++ to start with the directories for “home” and
 “skeletons” that I want each time?</a></li>

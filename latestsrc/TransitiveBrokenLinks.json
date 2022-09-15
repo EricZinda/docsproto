@@ -1,4 +1,11 @@
   {
+    "home": [
+      {"Section": "Projects", "Pages": [
+        {"Page": "ZinaPozen", "SrcDir": "docswiki", "SrcFile": "ZinaPozen.md", "Referrer": "home/LexsemTop.md", "FileMissing": true},
+        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "home/LexsemTop.md"},
+        {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "home/LexsemTop.md"}
+      ]}
+    ],
     "concept": [
       {"Section": "Formats", "Pages": [
         {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "concept/WeSearch_Ccs.md"},
@@ -7,64 +14,26 @@
         {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "concept/WeSearch_Ccs.md"},
         {"Page": "WeSearch_CcsDayThree", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayThree.md", "Referrer": "concept/WeSearch_Ccs.md"},
         {"Page": "NoJa", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "concept/MachineTranslationTop.md"}
-      ]},
-      {"Section": "Projects", "Pages": [
-        {"Page": "ZinaPozen", "SrcDir": "docswiki", "SrcFile": "ZinaPozen.md", "Referrer": "concept/LexsemTop.md", "FileMissing": true},
-        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "concept/LexsemTop.md"},
-        {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "concept/LexsemTop.md"}
       ]}
     ],
     "grammars": [
-      {"Section": "Grammar Catalogue", "Pages": [
-        {"Page": "ZhongGeneration", "SrcDir": "docswiki", "SrcFile": "ZhongGeneration.md", "Referrer": "grammars/ZhongAce.md"},
-        {"Page": "ZhongYYMode", "SrcDir": "docswiki", "SrcFile": "ZhongYYMode.md", "Referrer": "grammars/ZhongAce.md"},
-        {"Page": "ZhongCoverage", "SrcDir": "docswiki", "SrcFile": "ZhongCoverage.md", "Referrer": "grammars/ZhongRegressionTest.md"},
-        {"Page": "LADIndonesianMorphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "grammars/LADIndonesianMorphology.md"},
-        {"Page": "CapitalHillPassivesDiscussion", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "grammars/CapitolHillPassives.md"},
-        {"Page": "JacyValence", "SrcDir": "docswiki", "SrcFile": "JacyValence.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyMorphology", "SrcDir": "docswiki", "SrcFile": "JacyMorphology.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyGeneration", "SrcDir": "docswiki", "SrcFile": "JacyGeneration.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyIdiom", "SrcDir": "docswiki", "SrcFile": "JacyIdiom.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyNumbers", "SrcDir": "docswiki", "SrcFile": "JacyNumbers.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyLexDb", "SrcDir": "docswiki", "SrcFile": "JacyLexDb.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyPerformance", "SrcDir": "docswiki", "SrcFile": "JacyPerformance.md", "Referrer": "grammars/JacyDoc.md"},
-        {"Page": "JacyInstallation", "SrcDir": "docswiki", "SrcFile": "JacyInstallation.md", "Referrer": "grammars/JacyInstallation.md"}
+      {"Section": "Japanese (JACY)", "Pages": [
+        {"Page": "LexDbSimplePsql", "SrcDir": "docswiki", "SrcFile": "LexDbSimplePsql.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "LexDbPsqlInitialize", "SrcDir": "docswiki", "SrcFile": "LexDbPsqlInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "LexDbInitialize", "SrcDir": "docswiki", "SrcFile": "LexDbInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "LexDbFieldMappings", "SrcDir": "docswiki", "SrcFile": "LexDbFieldMappings.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "CapitolHillTop", "SrcDir": "docswiki", "SrcFile": "CapitolHillTop.md", "Referrer": "grammars/GrammarPerformance.md"},
+        {"Page": "GrammarPerformance", "SrcDir": "docswiki", "SrcFile": "GrammarPerformance.md", "Referrer": "grammars/GrammarPerformance.md"},
+        {"Page": "UtTop", "SrcDir": "docswiki", "SrcFile": "UtTop.md", "Referrer": "grammars/GrammarPerformance.md"}
       ]}
     ],
     "matrix": [
-      {"Section": "Grammar Engineering", "Pages": [
+      {"Section": "FAQ", "Pages": [
         {"Page": "LkbMode", "SrcDir": "docswiki", "SrcFile": "LkbMode.md", "Referrer": "matrix/GeFaqLispPromptTips.md"},
-        {"Page": "GeFaqInteractiveUnify", "SrcDir": "docswiki", "SrcFile": "GeFaqInteractiveUnify.md", "Referrer": "matrix/GeFaqNoError.md"},
-        {"Page": "GeFaqMissingEdge", "SrcDir": "docswiki", "SrcFile": "GeFaqMissingEdge.md", "Referrer": "matrix/GeFaqNoError.md"},
-        {"Page": "GeFaqMissingHowTo", "SrcDir": "docswiki", "SrcFile": "GeFaqMissingHowTo.md", "Referrer": "matrix/GeFaqNoError.md"},
-        {"Page": "GeFaqRightBracket", "SrcDir": "docswiki", "SrcFile": "GeFaqRightBracket.md", "Referrer": "matrix/GeFaqGotoChar.md"},
-        {"Page": "GeFaqNewFeature", "SrcDir": "docswiki", "SrcFile": "GeFaqNewFeature.md", "Referrer": "matrix/GeFaqNoPossibleType.md"},
-        {"Page": "GeFaqNoPossibleType", "SrcDir": "docswiki", "SrcFile": "GeFaqNoPossibleType.md", "Referrer": "matrix/GeFaqFeatureMultiType.md"},
-        {"Page": "GeFaqRunawayRule1", "SrcDir": "docswiki", "SrcFile": "GeFaqRunawayRule1.md", "Referrer": "matrix/GeFaqRunawayRule2.md"},
-        {"Page": "GeFaqCircularLexRule", "SrcDir": "docswiki", "SrcFile": "GeFaqCircularLexRule.md", "Referrer": "matrix/GeFaqRunawayRule2.md"},
-        {"Page": "GeFaqDiffList", "SrcDir": "docswiki", "SrcFile": "GeFaqDiffList.md", "Referrer": "matrix/GeFaqCyclicCheck.md"},
-        {"Page": "GeFaqMissingRels", "SrcDir": "docswiki", "SrcFile": "GeFaqMissingRels.md", "Referrer": "matrix/GeFaqCyclicCheck.md"},
-        {"Page": "GeFaqSpanningEdge", "SrcDir": "docswiki", "SrcFile": "GeFaqSpanningEdge.md", "Referrer": "matrix/GeFaqRootFail.md"},
-        {"Page": "GeFaqOrderMatters", "SrcDir": "docswiki", "SrcFile": "GeFaqOrderMatters.md", "Referrer": "matrix/GeFaqRootFail.md"},
-        {"Page": "GeFaqNoRule", "SrcDir": "docswiki", "SrcFile": "GeFaqNoRule.md", "Referrer": "matrix/GeFaqNoEntry2.md"},
-        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "matrix/GeFaqTdlSyntax.md", "FileMissing": true},
-        {"Page": "GeFaqTypeAddendum", "SrcDir": "docswiki", "SrcFile": "GeFaqTypeAddendum.md", "Referrer": "matrix/GeFaqTdlSyntax.md"},
-        {"Page": "GeFaqTabIndentation", "SrcDir": "docswiki", "SrcFile": "GeFaqTabIndentation.md", "Referrer": "matrix/GeFaqTdlSyntax.md"},
-        {"Page": "GeFaqGotoChar", "SrcDir": "docswiki", "SrcFile": "GeFaqGotoChar.md", "Referrer": "matrix/GeFaqTdlSyntax.md"},
-        {"Page": "GeFaqNegValue", "SrcDir": "docswiki", "SrcFile": "GeFaqNegValue.md", "Referrer": "matrix/GeFaqDisjunctiveValue.md"},
-        {"Page": "GeFaqViewHierarchy", "SrcDir": "docswiki", "SrcFile": "GeFaqViewHierarchy.md", "Referrer": "matrix/GeFaqDisjunctiveValue.md"},
-        {"Page": "GeFaqViewEntry", "SrcDir": "docswiki", "SrcFile": "GeFaqViewEntry.md", "Referrer": "matrix/GeFaqExpandedType.md"},
-        {"Page": "GeFaqViewType", "SrcDir": "docswiki", "SrcFile": "GeFaqViewType.md", "Referrer": "matrix/GeFaqExpandedType.md"},
-        {"Page": "GeFaqExpandedType", "SrcDir": "docswiki", "SrcFile": "GeFaqExpandedType.md", "Referrer": "matrix/GeFaqForgottenConstraint.md"},
-        {"Page": "GeFaqNonAlpha", "SrcDir": "docswiki", "SrcFile": "GeFaqNonAlpha.md", "Referrer": "matrix/GeFaqUnicodeInput.md"},
-        {"Page": "GeFaqClickX", "SrcDir": "docswiki", "SrcFile": "GeFaqClickX.md", "Referrer": "matrix/GeFaqSwitchingGrammars.md"}
+        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "matrix/GeFaqTdlSyntax.md", "FileMissing": true}
       ]}
     ],
     "tools": [
-      {"Section": "LKB", "Pages": [
-        {"Page": "LuiUnification", "SrcDir": "docswiki", "SrcFile": "LuiUnification.md", "Referrer": "tools/LuiAvm.md"},
-        {"Page": "LuiAvm", "SrcDir": "docswiki", "SrcFile": "LuiAvm.md", "Referrer": "tools/LuiMrs.md"}
-      ]},
       {"Section": "Logon", "Pages": [
         {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
         {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"}

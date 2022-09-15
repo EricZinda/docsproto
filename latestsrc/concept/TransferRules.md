@@ -1,7 +1,7 @@
 {% raw %}This page describes the transfer rule formalism used for, among other
 things, \[wiki:[MachineTranslationTop](MachineTranslationTop) MT\],
 \[wiki:[RmrsParaphrasing](../RmrsParaphrasing) paraphrasing\] and
-\[wiki:[JacyGeneration](JacyGeneration) generation\].
+\[wiki:[JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) generation\].
 
 [TableOfContents](/TableOfContents)
 

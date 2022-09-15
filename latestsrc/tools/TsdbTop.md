@@ -60,7 +60,7 @@ believe)
 1. Read in a grammar with rsa(). For English (rsa :erg) or (rsa :terg)
 (loading either the most recent release of the ERG or the trunk
 version) is most likely what you want, or (rsa :deepbank) if working
-with [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank).
+with [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank).
 
 If you need to do slightly different things (or are merely curious),
 lmt() and rsa() are defined in $LOGONROOT/dot.clinit.cl.

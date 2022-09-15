@@ -70,8 +70,8 @@ Contents
 | 15:30-16:00        | Coffee Break                                                                                                                                                                                                                     |
 | **16:00-18:00**    | *Session 4*                                                                                                                                                                                                                      |
 | 16:00-16:30        | [Distributional semantics meets MRS](http://www.delph-in.net/2012/ann.pdf) (lexicalised compositionality) (Ann, Aurelie)                                                                                                         |
-| 16:30-16:55        | ['Deeper' distributional semantics](http://www.delph-in.net/2012/aurelie.pdf) from the [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods) treecache (Aurelie, Ann)                                                                                           |
-| 16:55-17:00        | Intro to SIG on using the [WeScience](https://blog.inductorsoftware.com/docsproto/concept/WeScience) treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods) treecache (Aurelie)                                                                                                                         |
+| 16:30-16:55        | ['Deeper' distributional semantics](http://www.delph-in.net/2012/aurelie.pdf) from the [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie, Ann)                                                                                           |
+| 16:55-17:00        | Intro to SIG on using the [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience) treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie)                                                                                                                         |
 | 17:00-17:30        | [Going hybrid with time](http://www.delph-in.net/2012/francisco.pdf) (Francisco)                                                                                                                                                 |
 | 17:30-18:00        | Discussion                                                                                                                                                                                                                       |
 | 19:00              | Official Dinner at restaurant "Izbata"                                                                                                                                                                                           |
@@ -117,7 +117,7 @@ Contents
 | **Friday July 6** | **Mirror Hall**                                                             | **Hall 2**                             |
 | **09:30-11:00**   | \*SEM (Emily)                                                               | [Preprocessing](SofiaPreprocessingSIG) |
 | **11:00-11:30**   | Coffee Break                                                                |                                        |
-| **11:30-13:00**   | [WeScience](https://blog.inductorsoftware.com/docsproto/concept/WeScience) (Aurelie)                                            | [Teaching (Francis)](TeachingTop)      |
+| **11:30-13:00**   | [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience) (Aurelie)                                            | [Teaching (Francis)](TeachingTop)      |
 | 13:00-14:00       | Lunch at University Restaurant                                              |                                        |
 | 14.00-15:30       | Robust Generation (Dan)                                                     | More CLIMB (Antske)                    |
 | 15:30-16:00       | Coffee Break                                                                |                                        |
@@ -133,8 +133,8 @@ Petya, Kiril, Iliana, Sanghoun, Ned)
 - \[7\] Discussion: Whether to try to reduce the complexity of the
 feature structures that the Matrix and all grammars use (after
 Pollard and Sag) (Lars, Antske, Tania, Emily, Petya, Sanghoun, dan)
-- \[5\] Discussion of user experiences with the [WeScience](https://blog.inductorsoftware.com/docsproto/concept/WeScience)
-treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods) treecache (Aurelie, Ann,
+- \[5\] Discussion of user experiences with the [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience)
+treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie, Ann,
 Angelina, Jonathon \[soliciting advice re. development of
 [WeSearch](WeSearch) Data Collection\], oe) \[short\]
 - \[5\] SIG on conversion of grammar outputs into other formats (e.g.,

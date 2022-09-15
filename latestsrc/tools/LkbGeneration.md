@@ -1,4 +1,4 @@
-{% raw %}This page was adapted from [JacyGeneration](JacyGeneration) by
+{% raw %}This page was adapted from [JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) by
 [MichaelGoodman](../MichaelGoodman), and therefore many of the examples are
 from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Grammar.
 

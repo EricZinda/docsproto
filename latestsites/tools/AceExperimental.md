@@ -23,7 +23,7 @@ whitelists...).
 
 - The [LogonTransfer](../LogonTransfer) system -- as of version 0.9.11,
 ACE has relatively complete support for this (see
-[AceTransfer](AceTransfer) for implementation details). To translate
+[AceTransfer](../AceTransfer) for implementation details). To translate
 from Japanese to English, for example:
 
 <!-- -->

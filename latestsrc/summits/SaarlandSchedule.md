@@ -133,7 +133,7 @@ list](http://lists.delph-in.net/archives/rmrs/2013/000108.html));
 ydd *zeyen* might also be relevant (Emily)
   
   - oe, Joshua, sanghoun, David?
-- ERG 1212 release party and [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank) packaging (dan, oe,
+- ERG 1212 release party and [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) packaging (dan, oe,
 yi; *closed*)
 - Revisiting reducing complexity (antske, can be short: e.g. a coffee
 break discussion)
@@ -147,7 +147,7 @@ Tania, Petter, Petya
   - oe, woodley, bernd (maybe)
 - Comparing MRSs - tools and methods (dan)
   - bec, yi, Rui, Mathieu, sanghoun, Prescott, Francis (low)
-- PCFG and dependency conversion+parsing with [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank)(s)
+- PCFG and dependency conversion+parsing with [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank)(s)
 (yi, oe, angelina)
   
   - Rui, Mathieu, Tim, Prescott, Montse

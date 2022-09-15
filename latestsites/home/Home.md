@@ -89,7 +89,7 @@ contributions
 
 - [English Resource Grammar](https://blog.inductorsoftware.com/docsproto/erg/ErgTop): DELPH-IN's most comprehensive
 grammar.
-  - [Tutorial](../ErsTutorial) on using the ERG, presented at NAACL
+  - [Tutorial](https://blog.inductorsoftware.com/docsproto/erg/ErsTutorial) on using the ERG, presented at NAACL
 2016
   - [Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) of the ERG's semantic
 representations
@@ -101,7 +101,7 @@ languages.
 LKB-compatible precision grammars
 - [CLIMB](https://blog.inductorsoftware.com/docsproto/tools/ClimbTop): Tools to support grammar development of
 LKB-compatible precision grammars
-- [Redwoods](https://blog.inductorsoftware.com/docsproto/concept/RedwoodsTop): HPSG Treebank Comprised of Analyses
+- [Redwoods](../RedwoodsTop): HPSG Treebank Comprised of Analyses
 from the ERG
 - [MRS](https://blog.inductorsoftware.com/docsproto/concept/RmrsTop): Minimal Recursion Semantics --- Theory and
 Implementation (including extensions and variants such Robust MRS
@@ -146,7 +146,7 @@ preserved on the following pages, for historical interest:
 
 - [Earlier DELPH-IN news items](../DelphinNews)
 - [Links to earlier DELPH-IN-related projects](../OldProjects)
-- [Earlier overviews of the DELPH-IN consortium](../OldOverviews)
+- [Earlier overviews of the DELPH-IN consortium](https://blog.inductorsoftware.com/docsproto/tools/OldOverviews)
 
 ## Further Information
 

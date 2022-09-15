@@ -171,10 +171,10 @@ important. Even though learner language is supposed to be ungrammatical,
 grammar-based methods help.
 
 Another empirical result is on generation – I will present more
-tomorrow, but here is the main finding. We used [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank) to
+tomorrow, but here is the main finding. We used [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) to
 build a transducer-based graph-to-string model. We can compare this with
 a end-to-end model – linearise the EDS graph and use a seq-to-seq model
-to produce a string. If we just use [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank) data, the
+to produce a string. If we just use [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) data, the
 symbolic system performs significantly better. And we can interpret
 every transduction rule. Deep learning is very powerful, and currently
 end-to-end sequence-based models are dominant, but for our research,

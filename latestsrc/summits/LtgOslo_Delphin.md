@@ -14,14 +14,14 @@ Continuous, if sometimes low-energy: [ERG Semantic
 Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics); [MRS-derived dependencies](https://blog.inductorsoftware.com/docsproto/concept/EdsTop) (in
 2017 so far, [SDP](http://sdp.delph-in.net) about as popular as the
 PCEDT; four papers and one keynote at ACL use ERG-based dependencies);
-1214 [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods) release imminent: new, ‘atomic’ export
+1214 [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) release imminent: new, ‘atomic’ export
 format.
 
 Ongoing doctoral project (Murhaf Fares): Joint learning for the
 identification, bracketing, and thematic interpretation of nominal
 compounds.
 [Comparison](http://folk.uio.no/murhaff/nnbracketing/bracketing.html) of
-bracketing in [DeepBank](https://blog.inductorsoftware.com/docsproto/concept/DeepBank), PCEDT, and PTB.
+bracketing in [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank), PCEDT, and PTB.
 
 Completed MSc project (Kjetil Bugge Kristoffersen): Extract
 ‘high-quality’ corpus from Common Crawl: 130 billion tokens of English.
@@ -145,9 +145,9 @@ Finally, two recent MSc projects at LTG have contributed to DELPH-IN
 advancement. [Solberg (2012)](https://www.duo.uio.no/handle/10852/34914)
 develops a generic infrastructure for extracting ‘*relevant linguistic
 content*’ from Wikipedia dumps, preparing a forthcoming new revision 2.0
-of the [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods) Corpus, seeking to address some of the
+of the [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) Corpus, seeking to address some of the
 shortcomings in the (somewhat ad-hoc and overly surface-orientated)
-original procedure used in the construction of [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods)
+original procedure used in the construction of [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods)
 1.0. A side-effect of this project is an updated definition of the
 [Grammar Markup Language](https://blog.inductorsoftware.com/docsproto/concept/ErgGml), an attempt at allowing non-intrusive
 in-line mark-up of layout information that may be relevant to parsing.

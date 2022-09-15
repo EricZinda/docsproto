@@ -76,7 +76,7 @@ right move here.
 
 Francis: If one of the things we do is produce more training data, one
 approach is to process other people's markup. e.g. in
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods), use wikilinks to produce Dan's special
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods), use wikilinks to produce Dan's special
 constituent brackets.
 
 Ann: Basically treat as named entities.
@@ -86,7 +86,7 @@ talking about <https://nlp.stanford.edu/pubs/markup.pdf>?).
 
 Ann: Also, mine e.g. Wikipedia titles for named entities.
 
-Dan: Currently not used in [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods). We know we're
+Dan: Currently not used in [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods). We know we're
 throwing away possibly useful information.
 
 Woodley: But you use italics.

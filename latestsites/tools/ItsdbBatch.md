@@ -79,7 +79,7 @@ updates and normalization).
 
 However, some task remain challenging. See the note on memory
 requirements for exporting toward the bottom of
-[RedwoodsTop](https://blog.inductorsoftware.com/docsproto/concept/RedwoodsTop). In the Hinoki project, we are now forced to
+[RedwoodsTop](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop). In the Hinoki project, we are now forced to
 use a 64 bit machine to export, as we often run out of memory with the
 32 bit lisp.
 

@@ -309,6 +309,6 @@ limited cases that should work fairly straightforwardly and it should be
 relatively easy to work out which those would be.
 
 Woodley: 'strong tea' v. 'powerful tea' is within the power of the data
-we can parse, namely [WikiWoods](https://blog.inductorsoftware.com/docsproto/concept/WikiWoods). 30 instances of the former,
+we can parse, namely [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods). 30 instances of the former,
 none of the latter.
 {% endraw %}

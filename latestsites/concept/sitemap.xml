@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/DeepBank/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/DeepBank_OneZero/</loc>
-</url>
-<url>
 <loc>http://blog.inductorsoftware.com/docsproto/concept/DelphinRFCs/</loc>
 </url>
 <url>
@@ -23,9 +17,6 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Conventions/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Discovery/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Raw_Materials/</loc>
@@ -82,9 +73,6 @@
 <loc>http://blog.inductorsoftware.com/docsproto/concept/PredicateRfc/</loc>
 </url>
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/RedwoodsTop/</loc>
-</url>
-<url>
 <loc>http://blog.inductorsoftware.com/docsproto/concept/RmrsDesign/</loc>
 </url>
 <url>
@@ -124,9 +112,6 @@
 <loc>http://blog.inductorsoftware.com/docsproto/concept/SaarlandSententialArgument/</loc>
 </url>
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/SemCor/</loc>
-</url>
-<url>
 <loc>http://blog.inductorsoftware.com/docsproto/concept/SemiRfc/</loc>
 </url>
 <url>
@@ -146,11 +131,5 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/concept/TsqlRfc/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/WeScience/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/concept/WikiWoods/</loc>
 </url>
 </urlset>
