@@ -10,7 +10,7 @@
   ],
   "Sites":
   [
-    {"SiteFullName": "DELPH-IN Documentation", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
+    {"SiteFullName": "DELPH-IN Docs", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
     {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept"},
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
     {"SiteFullName": "DELPH-IN English Resource Grammar", "SiteNavigationName": "ERG", "Site": "erg", "HomePage": "ErgTop.md"},
