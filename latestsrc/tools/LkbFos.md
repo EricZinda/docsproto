@@ -20,13 +20,13 @@ instructions.
 ## Contents
 
 1. [Installation](../LkbFos#Installation)
-1. [Features and Enhancements](../LkbFos#Features-and-Enhancements)
-1. [Practical Hints and Tips](../LkbFos#Practical-Hints-and-Tips)
+2. [Features and Enhancements](../LkbFos#Features-and-Enhancements)
+3. [Practical Hints and Tips](../LkbFos#Practical-Hints-and-Tips)
    1. [Text Entry](../LkbFos#Text-Entry)
-   1. [Fonts](../LkbFos#Fonts)
-   1. [Interface Size](../LkbFos#Interface-Size)
-   1. [Copying Text](../LkbFos#Copying-Text)
-1. [Problems](../LkbFos#Problems)
+   2. [Fonts](../LkbFos#Fonts)
+   3. [Interface Size](../LkbFos#Interface-Size)
+   4. [Copying Text](../LkbFos#Copying-Text)
+4. [Problems](../LkbFos#Problems)
 
 ## Installation
 
@@ -41,14 +41,14 @@ file. On Linux this file is ~/.bashrc if you are using the default, *bash* shell
 On macOS, for DELPHINHOME to be correctly set when you start the LKB via emacs or
 by double clicking, you should set this variable in your ~/.bash_profile file,
 not in ~/.bashrc.
-1. The LKB needs a writable directory to store its temporary files. On Linux,
+2. The LKB needs a writable directory to store its temporary files. On Linux,
 this is ~/tmp/, and on macOS ~/Documents/tmp/. Create this directory if it does
 not already exist.
-1. Download the LKB-FOS binary archive (link above) and unpack the files inside
+3. Download the LKB-FOS binary archive (link above) and unpack the files inside
 your directory $DELPHINHOME, which will create a new directory $DELPHINHOME/lkb\_fos.
 If you use this precompiled binary version of LKB-FOS, you do not need to install
 SBCL, McCLIM or SLIME.
-1. In order to use [\[incr tsdb()\]](../ItsdbTop)
+4. In order to use [\[incr tsdb()\]](../ItsdbTop)
 functionality (only on Linux at present), the environment variable
 LD\_LIBRARY\_PATH must include the LKB-FOS shared library directory
 $DELPHINHOME/lkb\_fos/lib/linux.x86.64. The following Unix command
@@ -56,7 +56,7 @@ should accomplish this (it can go in your \~/.bash\_profile file or
 \~/.profile file, as appropriate).
    
    `export LD_LIBRARY_PATH=$DELPHINHOME/lkb_fos/lib/linux.x86.64:$LD_LIBRARY_PATH`
-1. [Linux only] LKB-FOS requires the Unix application *xclip*, which is not
+5. [Linux only] LKB-FOS requires the Unix application *xclip*, which is not
 installed by default in all Linux distributions; in Ubuntu, to download
 and install it you can run the command `sudo apt-get install xclip`.\
 [macOS only] LKB-FOS requires the open source application *XQuartz*; if you

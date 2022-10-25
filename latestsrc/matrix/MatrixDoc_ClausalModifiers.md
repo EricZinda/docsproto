@@ -63,8 +63,8 @@ The subordinate predication can be contributed one of three ways, which
 correspond to the three basic subordinator types described above:
 
 1. by a free subordinator morpheme
-1. by a free subordinator morpheme pair
-1. no free subordinator (in which case the predication is associated
+2. by a free subordinator morpheme pair
+3. no free subordinator (in which case the predication is associated
 with a particular morphological form)
 
 If the strategy uses a free subordinator morpheme or free subordinator

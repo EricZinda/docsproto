@@ -2,21 +2,21 @@
 
 1. [Overview of LKB's idiom detection
 mechanism](../JacyIdiom#Overview_of_LKB.27s_idiom_detection_mechanism)
-1. [Example](../JacyIdiom#Example)
-1. [Implementation](../JacyIdiom#Implementation)
+2. [Example](../JacyIdiom#Example)
+3. [Implementation](../JacyIdiom#Implementation)
    1. [idioms.mtr and mtr.tdl](../JacyIdiom#idioms.mtr_and_mtr.tdl)
-   1. [The Lexicon](../JacyIdiom#The_Lexicon)
-   1. [Configuration of Relevant
+   2. [The Lexicon](../JacyIdiom#The_Lexicon)
+   3. [Configuration of Relevant
 Rules](../JacyIdiom#Configuration_of_Relevant_Rules)
       1. [matrix.tdl](../JacyIdiom#matrix.tdl)
-      1. [fundamentals.tdl](../JacyIdiom#fundamentals.tdl)
-      1. [rule-types.tdl](../JacyIdiom#rule-types.tdl)
-   1. [roots.tdl, script, user-fns.lsp, and
+      2. [fundamentals.tdl](../JacyIdiom#fundamentals.tdl)
+      3. [rule-types.tdl](../JacyIdiom#rule-types.tdl)
+   4. [roots.tdl, script, user-fns.lsp, and
 globals.lsp](../JacyIdiom#roots.tdl.2C_script.2C_user-fns.lsp.2C_and_globals.lsp)
       1. [roots.tdl](../JacyIdiom#roots.tdl)
-      1. [script](../JacyIdiom#script)
-      1. [user-fns.lsp](../JacyIdiom#user-fns.lsp)
-      1. [globals.lsp](../JacyIdiom#globals.lsp)
+      2. [script](../JacyIdiom#script)
+      3. [user-fns.lsp](../JacyIdiom#user-fns.lsp)
+      4. [globals.lsp](../JacyIdiom#globals.lsp)
 
 This page describes how to implement idioms in a DELPH-IN Grammar,
 taking [Jacy](../JacyTop) as an example. The basic idea is that
@@ -32,7 +32,7 @@ The idiom detection mechanism is invoked after parsing a sentence. Then
 
 1. It examines whether the sentence is specified as \[IDIOM +\]. Unless
 \[IDIOM +\], no further processing is invoked.
-1. If \[IDIOM +\], the mechanism consults with idioms.mtr (and
+2. If \[IDIOM +\], the mechanism consults with idioms.mtr (and
 mtr.tdl), which is a list of idioms, to see if the sentence contains
 all the constituents of an idiom. If so, the sentence is accepted
 and certified as containing an idiom. On the contrary, if the
@@ -53,7 +53,7 @@ idiomatic meaning *tatsu* (b).
 
 1. 1. *Ken-ga butai-ni tatsu.* (Ken-NOM stage-DAT stand) "Ken appears
 on stage."
-1. 1. *Ken-ga yaku-ni tatsu.* (Ken-NOM part-DAT stand) "Ken is
+1. 2. *Ken-ga yaku-ni tatsu.* (Ken-NOM part-DAT stand) "Ken is
 useful."
 
 Then, imagine that you want to have both the literal meaning *tatsu*

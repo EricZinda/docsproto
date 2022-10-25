@@ -12,10 +12,10 @@ Contents
 
 1. [Page Status](../ItsdbProfiling#Page_Status)
    1. 1. [Parsing](../ItsdbProfiling#Parsing)
-   1. 1. [Generation](../ItsdbProfiling#Generation)
-   1. 1. [Transfer](../ItsdbProfiling#Transfer)
-   1. 1. [Translation](../ItsdbProfiling#Translation)
-   1. 1. [Preprocessing](../ItsdbProfiling#Preprocessing)
+   1. 2. [Generation](../ItsdbProfiling#Generation)
+   1. 3. [Transfer](../ItsdbProfiling#Transfer)
+   1. 4. [Translation](../ItsdbProfiling#Translation)
+   1. 5. [Preprocessing](../ItsdbProfiling#Preprocessing)
 
 ### Parsing
 

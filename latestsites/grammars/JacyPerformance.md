@@ -8,16 +8,16 @@ Contents
 
 1. [Quick Check](../JacyPerformance#Quick_Check)
    1. [PET](../JacyPerformance#PET)
-   1. [LKB](../JacyPerformance#LKB)
+   2. [LKB](../JacyPerformance#LKB)
       1. [ToDo](../JacyPerformance#ToDo)
-1. [Key Arguments](../JacyPerformance#Key_Arguments)
+2. [Key Arguments](../JacyPerformance#Key_Arguments)
    1. 1. [ToDo](../JacyPerformance#ToDo-1)
-1. [Spanning Only Rules](../JacyPerformance#Spanning_Only_Rules)
-1. [Ambiguity Packing](../JacyPerformance#Ambiguity_Packing)
-1. [Restrictions on the application of morphological
+3. [Spanning Only Rules](../JacyPerformance#Spanning_Only_Rules)
+4. [Ambiguity Packing](../JacyPerformance#Ambiguity_Packing)
+5. [Restrictions on the application of morphological
 rules](../JacyPerformance#Restrictions_on_the_application_of_morphological_rules)
-1. [Trigger Rules for Generation](../JacyPerformance#Trigger_Rules_for_Generation)
-1. [Current Issues](../JacyPerformance#Current_Issues)
+6. [Trigger Rules for Generation](../JacyPerformance#Trigger_Rules_for_Generation)
+7. [Current Issues](../JacyPerformance#Current_Issues)
 
 # Quick Check
 

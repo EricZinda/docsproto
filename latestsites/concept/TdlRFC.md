@@ -3,20 +3,20 @@
 Contents
 
 1. [TDL File Syntax](../TdlRFC#TDL-File-Syntax)
-1. [TDL File Interpretation and Conventions](../TdlRFC#TDL-File-Interpretation-and-Conventions)
+2. [TDL File Interpretation and Conventions](../TdlRFC#TDL-File-Interpretation-and-Conventions)
    1. [Layout of a type definition](../TdlRFC#Layout-of-a-type-definition)
-   1. [Types versus instances](../TdlRFC#Types-versus-instances)
-   1. [Type addenda (:+)](../TdlRFC#Type-addenda-)
-   1. [Specifying the text encoding](../TdlRFC#Specifying-the-text-encoding)
-   1. [Feature interpretation of lists](../TdlRFC#Feature-interpretation-of-lists)
-   1. [Type documentation](../TdlRFC#Type-documentation)
-   1. [Comments](../TdlRFC#Comments)
-   1. [Case sensitivity](../TdlRFC#Case-sensitivity)
-1. [Deprecated TDL Features](../TdlRFC#Deprecated-TDL-Features)
+   2. [Types versus instances](../TdlRFC#Types-versus-instances)
+   3. [Type addenda (:+)](../TdlRFC#Type-addenda-)
+   4. [Specifying the text encoding](../TdlRFC#Specifying-the-text-encoding)
+   5. [Feature interpretation of lists](../TdlRFC#Feature-interpretation-of-lists)
+   6. [Type documentation](../TdlRFC#Type-documentation)
+   7. [Comments](../TdlRFC#Comments)
+   8. [Case sensitivity](../TdlRFC#Case-sensitivity)
+3. [Deprecated TDL Features](../TdlRFC#Deprecated-TDL-Features)
    1. [Subtyping Operator (:&lt;)](../TdlRFC#subtyping-operator-)
-   1. [Single-quoted Symbols ('symbol)](../TdlRFC#Single-quoted-Symbols-symbol)
-1. [Open Questions](../TdlRFC#Open_Questions)
-1. [Discussions](../TdlRFC#Discussions)
+   2. [Single-quoted Symbols ('symbol)](../TdlRFC#Single-quoted-Symbols-symbol)
+4. [Open Questions](../TdlRFC#Open_Questions)
+5. [Discussions](../TdlRFC#Discussions)
 
 ## TDL File Syntax
 The following describes the TDL language in [Lark](https://lark-parser.readthedocs.io/en/latest/index.html) [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
@@ -518,7 +518,7 @@ is this only used for regular expressions? Are there other expanded
 syntaxes? Do non-LKB processors support them? (see [this
 thread](http://lists.delph-in.net/archives/developers/2009/thread.html#1082)
 on the 'developers' mailing list)
-1. Can we use 'status' to identify roots and labels (parsenodes)?
+2. Can we use 'status' to identify roots and labels (parsenodes)?
 Something like
    
    ```scheme

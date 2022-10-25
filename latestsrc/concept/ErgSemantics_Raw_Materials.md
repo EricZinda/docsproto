@@ -60,4 +60,5 @@ As shown in those two posts: Variable and variable types are way more subtle and
 > “i (for individual) is a generalization over eventualities and instances; p (the half-way mark in the alphabet between h > and x) is a generalization over labels and instances; and u (for unspecific or maybe unbound) generalizes over all of the > above. Note that Copestake et al. (2001) use individual for what is called instance here.”
 
 
+It would be great to at least get some definitions and examples for what "Tense and aspect" mean as properties in the MRS
 {% endraw %}

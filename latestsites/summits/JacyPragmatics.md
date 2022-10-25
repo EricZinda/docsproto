@@ -9,7 +9,7 @@ Contents
 1. [Pragmatic Information in the
 MRS](../JacyPragmatics#Pragmatic_Information_in_the_MRS)
    1. [Unresolved issues](../JacyPragmatics#Unresolved_issues)
-1. [Current JACY implementation](../JacyPragmatics#Current_JACY_implementation)
+2. [Current JACY implementation](../JacyPragmatics#Current_JACY_implementation)
 
 # Pragmatic Information in the MRS
 

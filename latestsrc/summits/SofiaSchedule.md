@@ -4,11 +4,11 @@ Contents
 
 1. [Emerging Schedule](../SofiaSchedule#Emerging_Schedule)
    1. [Monday](../SofiaSchedule#Monday)
-   1. [Tuesday](../SofiaSchedule#Tuesday)
-   1. [Wednesday](../SofiaSchedule#Wednesday)
-   1. [Thursday](../SofiaSchedule#Thursday)
-   1. [Friday](../SofiaSchedule#Friday)
-1. [Proposed Sub-Group Activities](../SofiaSchedule#Proposed_Sub-Group_Activities)
+   2. [Tuesday](../SofiaSchedule#Tuesday)
+   3. [Wednesday](../SofiaSchedule#Wednesday)
+   4. [Thursday](../SofiaSchedule#Thursday)
+   5. [Friday](../SofiaSchedule#Friday)
+2. [Proposed Sub-Group Activities](../SofiaSchedule#Proposed_Sub-Group_Activities)
 
 ## Monday
 

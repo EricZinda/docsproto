@@ -13,11 +13,11 @@ order:
 (non-standard
    
    - LKB setups)
-1. If DELPHINHOME is set (i.e. LKB was installed according to the
+2. If DELPHINHOME is set (i.e. LKB was installed according to the
 recommen-
    
    - dations), $DELPHINHOME/bin/lkb is started
-1. If nothing is set, try to start lkb (i.e. lkb is in your path)
+3. If nothing is set, try to start lkb (i.e. lkb is in your path)
 
 If your installation is non-standard you can set the environment
 variable TROLLET\_LISP to the full path to the LKB binary (e.g.

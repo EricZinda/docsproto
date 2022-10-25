@@ -5,14 +5,14 @@ See the following for motivation:
 <http://moin.delph-in.net/FormatSpecifications>
 
 1. [MrsRfc](../MrsRFC) (MRS; Minimal Recursion Semantics)
-1. [PredicateRfc](../PredicateRfc) (Semantic Predicates)
-1. [TdlRfc](../TdlRFC) (TDL; Type Description Language)
-1. [TsqlRfc](../TsqlRfc) (TSQL; Test Suite Query Language)
-1. [GrammarVersionRfc](../GrammarVersionRfc) (i.e., Version.lsp)
-1. [SemiRfc](../SemiRfc) (SEM-I; Semantic Interface)
-1. [GrammarConfigurationRfc](../GrammarConfigurationRfc) (unified grammar
+2. [PredicateRfc](../PredicateRfc) (Semantic Predicates)
+3. [TdlRfc](../TdlRFC) (TDL; Type Description Language)
+4. [TsqlRfc](../TsqlRfc) (TSQL; Test Suite Query Language)
+5. [GrammarVersionRfc](../GrammarVersionRfc) (i.e., Version.lsp)
+6. [SemiRfc](../SemiRfc) (SEM-I; Semantic Interface)
+7. [GrammarConfigurationRfc](../GrammarConfigurationRfc) (unified grammar
 configuration)
-1. [TsdbSchemaRfc](../TsdbSchemaRfc) ("relations files")
-1. [MatrixChoicesRfc](../MatrixChoicesRfc) ("choices files"; grammar
+8. [TsdbSchemaRfc](../TsdbSchemaRfc) ("relations files")
+9. [MatrixChoicesRfc](../MatrixChoicesRfc) ("choices files"; grammar
 specifications for the Grammar Matrix)
 {% endraw %}

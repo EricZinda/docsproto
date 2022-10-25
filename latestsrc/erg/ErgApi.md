@@ -124,9 +124,9 @@ interface, including
 
 1. error reporting in case of parse failures (e.g. due to resource
 limitations or lexical gaps);
-1. more control over resource usage (and sensible ceilings) and the
+2. more control over resource usage (and sensible ceilings) and the
 choice of grammar start symbols; and
-1. inclusion of additional information from the [\[incr
+3. inclusion of additional information from the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) result structure.
 
 Once these basic additions are in place, it would be nice if user uptake

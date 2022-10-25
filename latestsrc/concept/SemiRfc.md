@@ -5,16 +5,16 @@ Contents
 1. [SEM-I](../SemiRfc#SEM-I)
    1. [Sections](../SemiRfc#Sections)
       1. [variables](../SemiRfc#variables)
-      1. [properties](../SemiRfc#properties)
-      1. [roles](../SemiRfc#roles)
-      1. [predicates](../SemiRfc#predicates)
-   1. [.smi file syntax](../SemiRfc#A.smi_file_syntax)
+      2. [properties](../SemiRfc#properties)
+      3. [roles](../SemiRfc#roles)
+      4. [predicates](../SemiRfc#predicates)
+   2. [.smi file syntax](../SemiRfc#A.smi_file_syntax)
       1. 1. 1. [Notes](../SemiRfc#Notes)
-   1. [Including Files](../SemiRfc#Including_Files)
-1. [Implementation](../SemiRfc#Implementation)
+   3. [Including Files](../SemiRfc#Including_Files)
+2. [Implementation](../SemiRfc#Implementation)
    1. [Redefined Predicate
 Hierarchies](../SemiRfc#Redefined_Predicate_Hierarchies)
-1. [Proposals](../SemiRfc#Proposals)
+3. [Proposals](../SemiRfc#Proposals)
 
 A SEM-I, or SEMantic-Interface, is a description of the semantic
 structures output by the grammar, and may include entries for variables,
@@ -249,20 +249,20 @@ sentences.
 "he ate" vs "he ate a banana"), or mass/count distinctions ("every
 paper" vs "all the paper"). This is not trying to recreate something
 like [WordNet](/WordNet).
-1. Making the semantics of the computed hierarchy visible
+2. Making the semantics of the computed hierarchy visible
 (<http://lists.delph-in.net/archives/developers/2016/002294.html>)
-1. Improve or remove argument optionality marking
+3. Improve or remove argument optionality marking
 (<http://lists.delph-in.net/archives/developers/2018/002858.html>
 and
 <http://lists.delph-in.net/archives/developers/2018/002861.html>)
-1. Use the relevant sections of the SEM-I to encode the preferred
+4. Use the relevant sections of the SEM-I to encode the preferred
 serialization order of roles (currently done by
 \*feat-priority-list\* in mrsglobals.lsp) and properties (currently
 done by the VPM).
-1. Encode the semantic effects of phenomena like control. E.g.,
+5. Encode the semantic effects of phenomena like control. E.g.,
    -       _try_v_1 : ARG0 e, ARG1 i:INDEX #1, ARG2 h:XARG #1.            ; subject control
                _force_v_1 : ARG0 e, ARG1 i, ARG2 i:INDEX #1, ARG3 h:XARG #1.  ; object control
-1. Encode constraints relations (HCONS and ICONS) somewhere? E.g.,
+6. Encode constraints relations (HCONS and ICONS) somewhere? E.g.,
    -       constraints:
          
                  hcons.
@@ -274,14 +274,14 @@ done by the VPM).
                  non-focus < info-str.
                  focus < non-topic.
                  topic < non-focus.
-1. Specify which predicates can take a constant argument. The SEM-I
+7. Specify which predicates can take a constant argument. The SEM-I
 specifies CARG as a role that takes a string, but this never shows
 up in any predicates, and those that can take a CARG (like named in
 the ERG) do not otherwise indicate that they can. The simplest
 proposal is to just put CARG in the synopses:
    
    -       named : ARG0 x { IND + }, CARG string.
-1. In a more radical departure from the current spec, could we consider
+8. In a more radical departure from the current spec, could we consider
 swapping the ordering of predicates and synopses such that
 predicates with the same synopsis get grouped together? Below I've
 called the section "frames" because "synopses" sounds odd outside of

@@ -9,10 +9,10 @@ perhaps:
 1. You added a new rule type but did not instantiate the rule in
 rules.tdl, irules.tdl, or lrules.tdl. Without a specific entry, the
 type won't do anything.
-1. You added a new rule type, and through a cut-and-paste error, gave
+2. You added a new rule type, and through a cut-and-paste error, gave
 it the same name as an existing rule. If multiple entries have the
 same name, only the last one will be incorporated into the grammar.
-1. There is an error in your rule instance definition (e.g., the
+3. There is an error in your rule instance definition (e.g., the
 constraints on the rule instance are incompatible with those of a
 supertype) that the LKB flags only as a warning. In this case, a
 warning will appear in the LKB Top window, but the grammar will

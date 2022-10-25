@@ -11,15 +11,15 @@ correct.
 Contents
 
 1. [Page Status](../ItsdbTroubleshooting#Page_Status)
-1. [Debugging Distributed Mode](../ItsdbTroubleshooting#Debugging_Distributed_Mode)
+2. [Debugging Distributed Mode](../ItsdbTroubleshooting#Debugging_Distributed_Mode)
    1. [communication error -6](../ItsdbTroubleshooting#communication_error_-6)
-   1. [communication error -7](../ItsdbTroubleshooting#communication_error_-7)
-   1. [client exit for 'user'](../ItsdbTroubleshooting#client_exit_for_.27user.27)
+   2. [communication error -7](../ItsdbTroubleshooting#communication_error_-7)
+   3. [client exit for 'user'](../ItsdbTroubleshooting#client_exit_for_.27user.27)
       1. [parse-interactively(): error \`maximum number of active
 sessions
 exhausted'](../ItsdbTroubleshooting#parse-interactively.28.29:_error_.60maximum_number_of_active_sessions_exhausted.27)
-1. [Keyboard Freeze](../ItsdbTroubleshooting#Keyboard_Freeze)
-1. [Podium font too big](../ItsdbTroubleshooting#Podium_font_too_big)
+3. [Keyboard Freeze](../ItsdbTroubleshooting#Keyboard_Freeze)
+4. [Podium font too big](../ItsdbTroubleshooting#Podium_font_too_big)
 
 # Debugging Distributed Mode
 

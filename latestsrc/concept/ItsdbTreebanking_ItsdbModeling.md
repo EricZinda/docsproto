@@ -13,15 +13,15 @@ correct.
 Contents
 
 1. [Page Status](../ItsdbTreebanking_ItsdbModeling#Page_Status)
-1. [Overview](../ItsdbTreebanking_ItsdbModeling#Overview)
-1. [Training a Scoring Model](../ItsdbTreebanking_ItsdbModeling#Training_a_Scoring_Model)
+2. [Overview](../ItsdbTreebanking_ItsdbModeling#Overview)
+3. [Training a Scoring Model](../ItsdbTreebanking_ItsdbModeling#Training_a_Scoring_Model)
    1. [Scoring](../ItsdbTreebanking_ItsdbModeling#Scoring)
-   1. [Using a Scoring Model in PET and the
+   2. [Using a Scoring Model in PET and the
 LKB](../ItsdbTreebanking_ItsdbModeling#Using_a_Scoring_Model_in_PET_and_the_LKB)
-   1. [Calculating a Baseline](../ItsdbTreebanking_ItsdbModeling#Calculating_a_Baseline)
-1. [Training a scoring model using a batch
+   3. [Calculating a Baseline](../ItsdbTreebanking_ItsdbModeling#Calculating_a_Baseline)
+4. [Training a scoring model using a batch
 script](../ItsdbTreebanking_ItsdbModeling#Training_a_scoring_model_using_a_batch_script)
-1. [Using TADM directly to train a ranking
+5. [Using TADM directly to train a ranking
 model](../ItsdbTreebanking_ItsdbModeling#Using_TADM_directly_to_train_a_ranking_model)
    1. [Calling tadm](../ItsdbTreebanking_ItsdbModeling#Calling_tadm)
 

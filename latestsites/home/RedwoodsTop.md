@@ -1,18 +1,18 @@
 {% raw %}Contents
 
 1. [Overview](../RedwoodsTop#Overview)
-1. [Current Development Status](../RedwoodsTop#Current_Development_Status)
-1. [Data Format](../RedwoodsTop#Data_Format)
-1. [Expanding and Exporting](../RedwoodsTop#Expanding_and_Exporting)
-1. [Standard Splits](../RedwoodsTop#Standard_Splits)
-1. [History](../RedwoodsTop#History)
-1. [Bibliography](../RedwoodsTop#Bibliography)
-1. [Acknowledgements](../RedwoodsTop#Acknowledgements)
+2. [Current Development Status](../RedwoodsTop#Current_Development_Status)
+3. [Data Format](../RedwoodsTop#Data_Format)
+4. [Expanding and Exporting](../RedwoodsTop#Expanding_and_Exporting)
+5. [Standard Splits](../RedwoodsTop#Standard_Splits)
+6. [History](../RedwoodsTop#History)
+7. [Bibliography](../RedwoodsTop#Bibliography)
+8. [Acknowledgements](../RedwoodsTop#Acknowledgements)
 
 # Overview
 
 The LinGO Redwoods Treebank is a collection of hand-annotated corpora
-analysed with the [LinGO ERG](http://www.delph-in.net/erg). For each
+analysed with the [LinGO ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop). For each
 utterance from a corpus, the treebank records (in principle) all
 analyses hypothesized by the grammar, together with an annotator
 decision as to which reading is preferred in context.

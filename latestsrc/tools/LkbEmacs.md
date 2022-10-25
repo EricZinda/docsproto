@@ -17,19 +17,19 @@ sub-process to *emacs* (so as to compile the LKB source code).
 Contents
 
 1. [Overview](../LkbEmacs#Overview)
-1. [About emacs](../LkbEmacs#About_emacs)
-1. [After you have emacs installed](../LkbEmacs#After_you_have_emacs_installed)
-1. [Simple way to load a grammar](../LkbEmacs#Simple_way_to_load_a_grammar)
-1. [Working with other scripts in
+2. [About emacs](../LkbEmacs#About_emacs)
+3. [After you have emacs installed](../LkbEmacs#After_you_have_emacs_installed)
+4. [Simple way to load a grammar](../LkbEmacs#Simple_way_to_load_a_grammar)
+5. [Working with other scripts in
 Emacs](../LkbEmacs#Working_with_other_scripts_in_Emacs)
    1. [Proposal to Standardize Configuration
 Settings](../LkbEmacs#Proposal_to_Standardize_Configuration_Settings)
       1. [Working with Greek
 (UTF-8)](../LkbEmacs#Working_with_Greek_.28UTF-8.29)
-      1. [Working with Japanese
+      2. [Working with Japanese
 (EUC)](../LkbEmacs#Working_with_Japanese_.28EUC.29)
          1. 1. [ACL 8.0](../LkbEmacs#ACL_8.0)
-         1. 1. [Other Components](../LkbEmacs#Other_Components)
+         1. 2. [Other Components](../LkbEmacs#Other_Components)
 
 # About emacs
 

@@ -6,11 +6,11 @@ Contents
 
 1. [Database Fields](../JacyLexDb#Database_Fields)
    1. [TDL Fields](../JacyLexDb#TDL_Fields)
-   1. [All Fields](../JacyLexDb#All_Fields)
-1. [Lexicon Interaction with CVS](../JacyLexDb#Lexicon_Interaction_with_CVS)
-1. [Set Up](../JacyLexDb#Set_Up)
-1. [ToDo](../JacyLexDb#ToDo)
-1. [Priveleges](../JacyLexDb#Priveleges)
+   2. [All Fields](../JacyLexDb#All_Fields)
+2. [Lexicon Interaction with CVS](../JacyLexDb#Lexicon_Interaction_with_CVS)
+3. [Set Up](../JacyLexDb#Set_Up)
+4. [ToDo](../JacyLexDb#ToDo)
+5. [Priveleges](../JacyLexDb#Priveleges)
 
 # Database Fields
 

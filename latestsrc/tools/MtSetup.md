@@ -8,19 +8,19 @@ Contents
 system](../MtSetup#Instructions_on_how_to_set_up_an_MT_system)
    1. [Two ways to set up an MT
 system](../MtSetup#Two_ways_to_set_up_an_MT_system)
-1. [The Rephrasing method](../MtSetup#The_Rephrasing_method)
+2. [The Rephrasing method](../MtSetup#The_Rephrasing_method)
    1. [Requested files and settings](../MtSetup#Requested_files_and_settings)
-   1. [Using the system](../MtSetup#Using_the_system)
-1. [The Transfer Grammar method](../MtSetup#The_Transfer_Grammar_method)
+   2. [Using the system](../MtSetup#Using_the_system)
+3. [The Transfer Grammar method](../MtSetup#The_Transfer_Grammar_method)
    1. [Install LOGON and add your grammar(s) to the
 repository](../MtSetup#Install_LOGON_and_add_your_grammar.28s.29_to_the_repository)
-   1. [Creating CPU's](../MtSetup#Creating_CPU.27s)
-   1. [Create lisp files for your grammars and the MT
+   2. [Creating CPU's](../MtSetup#Creating_CPU.27s)
+   3. [Create lisp files for your grammars and the MT
 system](../MtSetup#Create_lisp_files_for_your_grammars_and_the_MT_system)
-   1. [Setting the \*translate-grid\*
+   4. [Setting the \*translate-grid\*
 values](../MtSetup#Setting_the_.2Atranslate-grid.2A_values)
-   1. [Setting the VPM](../MtSetup#Setting_the_VPM)
-   1. [Starting the MT system from
+   5. [Setting the VPM](../MtSetup#Setting_the_VPM)
+   6. [Starting the MT system from
 Emacs](../MtSetup#Starting_the_MT_system_from_Emacs)
 
 ## Two ways to set up an MT system

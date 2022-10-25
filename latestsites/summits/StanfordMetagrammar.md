@@ -27,8 +27,8 @@ that?
 dimensions:
 
 1. Metagrammar; how to break up the totality of grammar into statements
-1. In-browser tools
-1. Grammar development methodolgy, CLIMB vs. classic/traditional.
+2. In-browser tools
+3. Grammar development methodolgy, CLIMB vs. classic/traditional.
 
 **Antske**: CLIMB is a methodology; the customization system is a
 specific way of doing CLIMB.
@@ -47,8 +47,8 @@ it has to do with breaking down the table into atoms.
 **Chris**: There is a continuum of meta-ness.
 
 1. Turning TDL code off and on.
-1. Turning analyses (customization system) off and on.
-1. How do these things interrelate
+2. Turning analyses (customization system) off and on.
+3. How do these things interrelate
 
 **Stephan**: atomic constraints versus notion of grouping them.
 Constraint modules.

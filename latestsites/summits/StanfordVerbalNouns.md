@@ -15,15 +15,15 @@ light verb
 \[see Slide \#?\] "I Study-Japanese-do"
 
 1. Wrap it (in a nominalization-rel)?
-1. It's really a noun, sometimes we'll make it verb-y
-1. Underspecify, allowing follow-on app to treat according to greater
+2. It's really a noun, sometimes we'll make it verb-y
+3. Underspecify, allowing follow-on app to treat according to greater
 context.
 
 \[see Slide \#3\] (You can be more or less verby)
 
 1. Tanaka NOM Japanese ACC \[study do\]
-1. Tanaka NOM Japanese ACC \[study\]
-1. Tanaka NOM Japanese ADN study ACC do
+2. Tanaka NOM Japanese ACC \[study\]
+3. Tanaka NOM Japanese ADN study ACC do
 
 Dan: "Tanaka does Japanese studying" for the third?
 

@@ -11,12 +11,12 @@ Contents
 
 1. [DeepBank](../DeepBank#DeepBank)
    1. [Background](../DeepBank#Background)
-   1. [Development Methodology](../DeepBank#Development_Methodology)
-   1. [Stages of Development](../DeepBank#Stages_of_Development)
-   1. [Version 1.0: Available
+   2. [Development Methodology](../DeepBank#Development_Methodology)
+   3. [Stages of Development](../DeepBank#Stages_of_Development)
+   4. [Version 1.0: Available
 Formats](../DeepBank#Version_1.0:_Available_Formats)
-   1. [Acknowledgements](../DeepBank#Acknowledgements)
-   1. [Publications](../DeepBank#Publications)
+   5. [Acknowledgements](../DeepBank#Acknowledgements)
+   6. [Publications](../DeepBank#Publications)
 
 <a name="Background"/>
 
@@ -191,26 +191,26 @@ by BMBF (01IW11003).
 1. Dan Flickinger, Valia Kordoni and Yi Zhang. [DeepBank](../DeepBank): A
 Dynamically Annotated Treebank of the Wall Street Journal. In
 Proceedings of TLT-11, Lisbon, Portugal, 2012.
-1. Stephan Oepen, Dan Flickinger, Kristina Toutanova, and
+2. Stephan Oepen, Dan Flickinger, Kristina Toutanova, and
 Christopher D. Manning. LinGO Redwoods: A Rich and Dynamic Treebank
 for HPSG. In Journal of Research on Language and Computation 2.4,
 pages 575-596. 2004.
-1. Angelina Ivanova, Stephan Oepen, Lilja Øvrelid, and Dan Flickinger.
+3. Angelina Ivanova, Stephan Oepen, Lilja Øvrelid, and Dan Flickinger.
 Who did what to whom? a contrastive study of syntacto-semantic
 dependencies. In Proceedings of the Sixth Linguistic Annotation
 Workshop, pages 2–11, Jeju, Republic of Korea, 2012.
-1. Yi Zhang and Hans-Ulrich Krieger. Large-scale corpus-driven PCFG
+4. Yi Zhang and Hans-Ulrich Krieger. Large-scale corpus-driven PCFG
 approximation of an HPSG. In Proceedings of the 12th International
 Conference on Parsing Technologies, pages 198–208, Dublin,
 Ireland, 2011.
-1. Yi Zhang, Valia Kordoni. Discriminant Ranking for Efficient
+5. Yi Zhang, Valia Kordoni. Discriminant Ranking for Efficient
 Treebanking. In Proceedings of the 23rd International Conference on
 Computational Linguistics (Coling 2010), Beijing, China, 2010.
-1. Valia Kordoni, Yi Zhang. Disambiguating Compound Nouns for a Dynamic
+6. Valia Kordoni, Yi Zhang. Disambiguating Compound Nouns for a Dynamic
 HPSG Treebank of Wall Street Journal Texts. In Proceedings of the
 Seventh conference on International Language Resources and
 Evaluation (LREC'10), Malta, 2010.
-1. Valia Kordoni, Yi Zhang. Annotating Wall Street Journal Texts Using
+7. Valia Kordoni, Yi Zhang. Annotating Wall Street Journal Texts Using
 a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
 Linguistic Annotation Workshop, Singapore, 2009.
 {% endraw %}

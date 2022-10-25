@@ -5,28 +5,28 @@ from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Gr
 Contents
 
 1. [Overview](../LkbGeneration#Overview)
-1. [Generating Semantically Empty Lexical Entries
+2. [Generating Semantically Empty Lexical Entries
 (trigger.mtr)](../LkbGeneration#Generating_Semantically_Empty_Lexical_Entries_.28trigger.mtr.29)
    1. [How to list semantically empty lexical
 entries](../LkbGeneration#How_to_list_semantically_empty_lexical_entries)
-   1. [ToDo](../LkbGeneration#ToDo)
-1. [Generating Unknown Words](../LkbGeneration#Generating_Unknown_Words)
-1. [Selective Generation
+   2. [ToDo](../LkbGeneration#ToDo)
+3. [Generating Unknown Words](../LkbGeneration#Generating_Unknown_Words)
+4. [Selective Generation
 (globals.lisp)](../LkbGeneration#Selective_Generation_.28globals.lisp.29)
    1. 1. 1. [In Ace](../LkbGeneration#In_Ace)
-1. [Other Notes](../LkbGeneration#Other_Notes)
+5. [Other Notes](../LkbGeneration#Other_Notes)
    1. [Make generation faster
 (globals.lsp)](../LkbGeneration#Make_generation_faster_.28globals.lsp.29)
-   1. [Fixup MRS (mrsglobals.lsp)](../LkbGeneration#Fixup_MRS_.28mrsglobals.lsp.29)
-   1. [Reload generation rules without
+   2. [Fixup MRS (mrsglobals.lsp)](../LkbGeneration#Fixup_MRS_.28mrsglobals.lsp.29)
+   3. [Reload generation rules without
 reindexing](../LkbGeneration#Reload_generation_rules_without_reindexing)
-   1. [MRS Semantic Equivalence
+   4. [MRS Semantic Equivalence
 Check](../LkbGeneration#MRS_Semantic_Equivalence_Check)
-   1. [Checking the Generator Index](../LkbGeneration#Checking_the_Generator_Index)
-1. [Trouble Shooting](../LkbGeneration#Trouble_Shooting)
+   5. [Checking the Generator Index](../LkbGeneration#Checking_the_Generator_Index)
+6. [Trouble Shooting](../LkbGeneration#Trouble_Shooting)
    1. [Morphology](../LkbGeneration#Morphology)
-   1. [C-CONT](../LkbGeneration#C-CONT)
-   1. [Loading and Activating a Generation
+   2. [C-CONT](../LkbGeneration#C-CONT)
+   3. [Loading and Activating a Generation
 Model](../LkbGeneration#Loading_and_Activating_a_Generation_Model)
 
 # Overview

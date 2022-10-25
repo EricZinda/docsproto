@@ -4,12 +4,12 @@ Contents
 
 1. [DELPH-IN 2010 Summit Schedule](../ParisSchedule#DELPH-IN_2010_Summit_Schedule)
    1. [July 2](../ParisSchedule#July_2)
-   1. [July 3](../ParisSchedule#July_3)
-   1. [July 4 (Subgroup
+   2. [July 3](../ParisSchedule#July_3)
+   3. [July 4 (Subgroup
 activities)](../ParisSchedule#July_4__.28Subgroup_activities.29)
-   1. [July 5 (Subgroup
+   4. [July 5 (Subgroup
 activities)](../ParisSchedule#July_5_.28Subgroup_activities.29)
-   1. [July 6](../ParisSchedule#July_6)
+   5. [July 6](../ParisSchedule#July_6)
 
 ## July 2
 

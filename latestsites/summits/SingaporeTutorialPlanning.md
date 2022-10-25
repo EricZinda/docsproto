@@ -29,9 +29,9 @@ dependencies
 
 1. Understand how to set up ERG-based parsing stack, including
 preprocessing.
-1. Understand how to access ERG/Redwoods treebanks in the various
+2. Understand how to access ERG/Redwoods treebanks in the various
 export formats.
-1. Understand how to interpret ERS
+3. Understand how to interpret ERS
 
 ## Tasks
 

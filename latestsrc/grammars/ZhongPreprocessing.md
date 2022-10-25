@@ -31,8 +31,8 @@ Please check out whether the java binary works on your machine.
 If you are using java1.8, download version 3.5.0
 \[<http://nlp.stanford.edu/software/stanford-segmenter-2014-10-26.zip>\]
 or later.
-1. Extract the zip file somewhere you want.
-1. Register the path in your \~/.bashrc or whatever. The name must be
+2. Extract the zip file somewhere you want.
+3. Register the path in your \~/.bashrc or whatever. The name must be
 STANFORD\_SEGMENTER\_PATH. For example,
 
 <!-- -->
@@ -47,8 +47,8 @@ STANFORD\_SEGMENTER\_PATH. For example,
 1. According to your java version, download the proper version (3.4.1
 for java1.7 / 3.5.0 or later for java1.8). You have to download the
 FULL version.
-1. Extract the zip file somewhere you want.
-1. Register the path in your \~/.bashrc or whatever. The name must be
+2. Extract the zip file somewhere you want.
+3. Register the path in your \~/.bashrc or whatever. The name must be
 STANFORD\_SEGMENTER\_PATH. For example,
 
 <!-- -->
@@ -62,7 +62,7 @@ NLTK is required, because the script for running the Stanford POS tagger
 is build on NLTK.
 
 1. Install Setuptools: <http://pypi.python.org/pypi/setuptools>
-1. Install Pip & Install NLTK
+2. Install Pip & Install NLTK
 
 <!-- -->
 

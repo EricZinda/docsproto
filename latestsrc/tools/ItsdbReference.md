@@ -21,15 +21,15 @@ typically limited to current versions.
 Contents
 
 1. [Page Status](../ItsdbReference#Page_Status)
-1. [Reference](../ItsdbReference#Reference)
+2. [Reference](../ItsdbReference#Reference)
    1. [Formatting Conventions](../ItsdbReference#Formatting_Conventions)
-   1. [Database Files](../ItsdbReference#Database_Files)
+   2. [Database Files](../ItsdbReference#Database_Files)
       1. [Output File Format](../ItsdbReference#Output_File_Format)
-      1. [Text Input Formats](../ItsdbReference#Text_Input_Formats)
+      2. [Text Input Formats](../ItsdbReference#Text_Input_Formats)
          1. [Plain Text Input Format](../ItsdbReference#Plain_Text_Input_Format)
-         1. [Bi-text Import Format](../ItsdbReference#Bi-text_Import_Format)
-   1. [Well Formedness (i-wf)](../ItsdbReference#Well_Formedness_.28i-wf.29)
-   1. [How to make a new Skeleton](../ItsdbReference#How_to_make_a_new_Skeleton)
+         2. [Bi-text Import Format](../ItsdbReference#Bi-text_Import_Format)
+   3. [Well Formedness (i-wf)](../ItsdbReference#Well_Formedness_.28i-wf.29)
+   4. [How to make a new Skeleton](../ItsdbReference#How_to_make_a_new_Skeleton)
       1. [How to make a Profile from a text input
 file](../ItsdbReference#How_to_make_a_Profile_from_a_text_input_file)
 

@@ -13,9 +13,9 @@ correct.
 Contents
 
 1. [Page Status](../ItsdbDistributedProcessing#Page_Status)
-1. [Distributed Processing](../ItsdbDistributedProcessing#Distributed_Processing)
+2. [Distributed Processing](../ItsdbDistributedProcessing#Distributed_Processing)
    1. [CPU definitions](../ItsdbDistributedProcessing#CPU_definitions)
-   1. [Activating CPUs](../ItsdbDistributedProcessing#Activating_CPUs)
+   2. [Activating CPUs](../ItsdbDistributedProcessing#Activating_CPUs)
 
 Parsing in [\[incr tsdb()\]](http://www.delph-in.net/itsdb) (see
 [ItsdbTop](../ItsdbTop)) can be distributed over several machines. This is

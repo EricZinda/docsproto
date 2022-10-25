@@ -18,8 +18,8 @@ Glenn: How do you start with one?
 Alex: Maybe clearer with the following slides...
 
 1. Start from exact representation of world
-1. Some "captioner" object generates sub-representations
-1. These are mapped to DMRS
+2. Some "captioner" object generates sub-representations
+3. These are mapped to DMRS
 
 Angie: Can you block "the yellow circle" when there are two circles?
 

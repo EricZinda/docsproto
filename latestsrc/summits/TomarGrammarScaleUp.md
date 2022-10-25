@@ -3,19 +3,19 @@
 # Questions
 
 1. what are the most useful practices for developing grammars further?
-1. do different techniques become useful for medium -&gt; large grammar
+2. do different techniques become useful for medium -&gt; large grammar
 development (versus small -&gt; medium work)?
-1. What would you have done differently? Were there areas that had to
+3. What would you have done differently? Were there areas that had to
 be revisited or redone? Is there any way to predict these in
 advance?
-1. How to prioritize lexicon elaboration versus phenomenon-based
+4. How to prioritize lexicon elaboration versus phenomenon-based
 modeling?
-1. Are there steps in the grammar development process that might be
+5. Are there steps in the grammar development process that might be
 automated? Are there mundane tasks that definitely should not be
 automated?
-1. What are the main tasks involved in going from small to medium and
+6. What are the main tasks involved in going from small to medium and
 medium to large, beyond adding analyses of particular phenomena?
-1. Best practices for selections of corpora to develop against?
+7. Best practices for selections of corpora to develop against?
 
 # Discussion
 

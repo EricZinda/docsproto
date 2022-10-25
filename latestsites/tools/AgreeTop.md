@@ -208,95 +208,46 @@ facilitating linguistic insight.
 
 ## References
 
-Adolphs, Peter; Oepen, Stephan; Callmeier, Ulrich; Crysmann, Berthold;
-Flickinger, Dan & Kiefer, Bernd. 2008. Some Fine Points of Hybrid
-Natural Language Parsing. In: Proceedings of the Sixth International
-Language Resources and Evaluation (LREC-2008). Marrakech, Morocco.
+Adolphs, Peter; Oepen, Stephan; Callmeier, Ulrich; Crysmann, Berthold; Flickinger, Dan & Kiefer, Bernd. 2008. Some Fine Points of Hybrid Natural Language Parsing. In: Proceedings of the Sixth International Language Resources and Evaluation (LREC-2008). Marrakech, Morocco.
 
-Emily M. Bender, Dan Flickinger, and Stephan Oepen. 2002. The grammar
-matrix: an open-source starter-kit for the rapid development of
-cross-linguistically consistent broad-coverage precision grammars. in
-*Proceedings of the 2002 workshop on Grammar engineering and evaluation
-- Volume 15 (COLING-GEE '02), Vol. 15.* Association for Computational
-Linguistics, Stroudsburg, PA, USA, 1-7.
+Emily M. Bender, Dan Flickinger, and Stephan Oepen. 2002. The grammar matrix: an open-source starter-kit for the rapid development of cross-linguistically consistent broad-coverage precision grammars. in *Proceedings of the 2002 workshop on Grammar engineering and evaluation - Volume 15 (COLING-GEE '02), Vol. 15.* Association for Computational Linguistics, Stroudsburg, PA, USA, 1-7.
 
-Ulrich Callmeier. 2001. Efficient Parsing with Large-Scale Unification
-Grammars. MA Thesis, Universität des Saarlandes - Fachrichtung
-Informatik.
+Ulrich Callmeier. 2001. Efficient Parsing with Large-Scale Unification Grammars. MA Thesis, Universität des Saarlandes - Fachrichtung Informatik.
 
-Ulrich Callmeier. 2000. PET: a platform for experimentation with
-efficient HPSG processing techniques. *Natural Language Engineering*
-6(1): 99-107.
+Ulrich Callmeier. 2000. PET: a platform for experimentation with efficient HPSG processing techniques. *Natural Language Engineering* 6(1): 99-107.
 
-Dan Flickinger. 2002. On building a more efficient grammar by exploiting
-types. *Natural Language Engineering, 6,* pp 15-28.
+Dan Flickinger. 2002. On building a more efficient grammar by exploiting types. *Natural Language Engineering, 6,* pp 15-28.
 
-Hans-Ulrich Krieger and Ulrich Schäfer. 1994. TDL: a type description
-language for constraint-based grammars. in Proceedings of the 15th
-conference on Computational linguistics - Volume 2 (COLING '94), Vol. 2.
-Association for Computational Linguistics, Stroudsburg, PA, USA,
-893-899.
+Hans-Ulrich Krieger and Ulrich Schäfer. 1994. TDL: a type description language for constraint-based grammars. in Proceedings of the 15th conference on Computational linguistics - Volume 2 (COLING '94), Vol. 2. Association for Computational Linguistics, Stroudsburg, PA, USA, 893-899.
 
-Bernd Kiefer, Hans-Ulrich Krieger, John Carroll, and Rob Malouf. 1999. A
-Bag of Useful Techniques for Efficient and robust Parsing. In
-*Proceedings of the 37th annual meeting of the Association for
-Computational Linguistics*. 473-480
+Bernd Kiefer, Hans-Ulrich Krieger, John Carroll, and Rob Malouf. 1999. A Bag of Useful Techniques for Efficient and robust Parsing. In *Proceedings of the 37th annual meeting of the Association for Computational Linguistics*. 473-480
 
-Robert Malouf, John Carroll, and Ann Copestake. 2000. Robert Malouf,
-John Carroll, and Ann Copestake. 2000. Efficient feature structure
-operations without compilation. *Natural Language Engineering*,
-1(1):1-18.
+Robert Malouf, John Carroll, and Ann Copestake. 2000. Robert Malouf, John Carroll, and Ann Copestake. 2000. Efficient feature structure operations without compilation. *Natural Language Engineering*, 1(1):1-18.
 
-Stephan Oepen and John Carroll. 2000. Parser engineering and performance
-profiling. *Natural Language Engingeering 6, 1 (March 2000),* 81-97.
+Stephan Oepen and John Carroll. 2000. Parser engineering and performance profiling. *Natural Language Engingeering 6, 1 (March 2000),* 81-97.
 
-Stephan Oepen, Kristina Toutanova, Stuart Shieber, Christopher Manning,
-Dan Flickinger, and Thorsten Brants. 2002. The LinGO Redwoods Treebank:
-Motivation and preliminary applications. in *Proceedings of the 19th
-International Conference on Computational Linguistics (COLING 2002),*
-pages 1253–7, Taipei, Taiwan.
+Stephan Oepen, Kristina Toutanova, Stuart Shieber, Christopher Manning, Dan Flickinger, and Thorsten Brants. 2002. The LinGO Redwoods Treebank: Motivation and preliminary applications. in *Proceedings of the 19th International Conference on Computational Linguistics (COLING 2002),* pages 1253–7, Taipei, Taiwan.
 
-Fernando C. N. Pereira. 1985. A structure-sharing representation for
-unification-based grammar formalisms. In *Proceedings of the 23rd Annual
-Meeting of the Association for Computational Linguistics*. Chicago, IL,
-8-12 July 1985, pages 137-144.
+Fernando C. N. Pereira. 1985. A structure-sharing representation for unification-based grammar formalisms. In *Proceedings of the 23rd Annual
+Meeting of the Association for Computational Linguistics*. Chicago, IL, 8-12 July 1985, pages 137-144.
 
-Melanie Siegel and Emily M. Bender (2002): Efficient Deep Processing of
-Japanese. In *Proceedings of the 3rd Workshop on Asian Language
-Resources and International Standardization. Coling 2002 Post-Conference
-Workshop.* Taipei, Taiwan.
+Melanie Siegel and Emily M. Bender (2002): Efficient Deep Processing of Japanese. In *Proceedings of the 3rd Workshop on Asian Language Resources and International Standardization. COLING 2002 Post-Conference Workshop.* Taipei, Taiwan.
 
-Hideto Tomabechi. 1991. Quasi-destructive graph unification. In
-*Proceedings of the 29th Annual Meeting of the Association for
-Computational Linguistics*, Berkeley, CA.
+Hideto Tomabechi. 1991. Quasi-destructive graph unification. In *Proceedings of the 29th Annual Meeting of the Association for Computational Linguistics*, Berkeley, CA.
 
-Hideto Tomabechi. 1992. Quasi-destructive graph unifications with
-structure-sharing. In *Proceedings of the 15th International Conference
-on Computational Linguistics (COLING-92), Nantes, France*.
+Hideto Tomabechi. 1992. Quasi-destructive graph unifications with structure-sharing. In *Proceedings of the 15th International Conference on Computational Linguistics (COLING-92)*, Nantes, France.
 
-Hideto Tomabechi. 1995. Design of efficient unification for natural
-language. *Journal of Natural Language Processing*, 2(2):23-58.
+Hideto Tomabechi. 1995. Design of efficient unification for natural language. *Journal of Natural Language Processing*, 2(2):23-58.
 
-Marcel P. van Lohuizen. 1999. Parallel processing of natural language
-parsers. In *PARCO '99*.
+Marcel P. van Lohuizen. 1999. Parallel processing of natural language parsers. In *PARCO '99*.
 
-Marcel P. van Lohuizen. 2000. Exploiting parallelism in
-unification-based parsing. In *Proceedings of the Sixth International
-Workshop on Parsing Technologies (IWPT 2000), Trento, Italy*.
+Marcel P. van Lohuizen. 2000. Exploiting parallelism in unification-based parsing. In *Proceedings of the Sixth International Workshop on Parsing Technologies (IWPT 2000)*, Trento, Italy.
 
-Marcel P. van Lohuizen. 2000. Memory-efficient and Thread-safe
-Quasi-Destructive Graph Unification. In *Proceedings of the 38th Meeting
-of the Association for Computational Linguistics, Hong Kong, China,
-2000*.
+Marcel P. van Lohuizen. 2000. Memory-efficient and Thread-safe Quasi-Destructive Graph Unification. In *Proceedings of the 38th Meeting of the Association for Computational Linguistics*, Hong Kong, China, 2000.
 
-Marcel P. van Lohuizen. 2001. A generic approach to parallel chart
-parsing with an application to LinGO. In *Proceedings of the 39th
-Meeting of the Association for Computational Linguistics*, Toulouse,
-France.
+Marcel P. van Lohuizen. 2001. A generic approach to parallel chart parsing with an application to LinGO. In *Proceedings of the 39th Meeting of the Association for Computational Linguistics*, Toulouse, France.
 
-David A. Wroblewski. 1987. Nondestructive graph unification. In
-*Proceedings of the 6th National Conference on Artificial Intelligence
-(AAAI-87)*, 582-589. Morgan Kaufmann.
+David A. Wroblewski. 1987. Nondestructive graph unification. In *Proceedings of the 6th National Conference on Artificial Intelligence (AAAI-87)*, 582-589. Morgan Kaufmann.
 
 ## Past Images
 

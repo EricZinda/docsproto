@@ -6,7 +6,7 @@ There are two rules about where you can declare new features:
 
 1. Each feature can only be declared for one type. This means you can't
 reuse feature names.
-1. Features can only be declared for a type on the definition of a
+2. Features can only be declared for a type on the definition of a
 type. This means that new features are always features of the
 outermost feature structure in the type definition in which they are
 declared.

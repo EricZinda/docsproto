@@ -21,7 +21,7 @@ specific). If you are using Linux, you either need to install Open
 Motif or to fix the installation so that the libraries are where the
 Lisp system expects them to be. Please see
 [LkbInstallation](../LkbInstallation) (Trouble Shooting).
-1. If you have an incompatible version of the Motif libraries, (which
+2. If you have an incompatible version of the Motif libraries, (which
 currently happens for some people on AMD64: 2007-05-08) you may get
 a message like:
    
@@ -32,28 +32,28 @@ a message like:
    In this case you need to install the right version of libXm. Please
 see the [LkbInstallation](../LkbInstallation) page for more
 information.
-1. Also on 64-bit systems, if you get an error to the effect that
+3. Also on 64-bit systems, if you get an error to the effect that
 libXm.so.4 couldn't be found, you can fix it by creating a symbolic
 link in $(DELPHINHOME)/lkb/lib/linux.x86.64 as follows:
    
        ln -s libXm.so.3 libXm.so.4
-1. The LKB interaction window appears but none of the menus work. This
+4. The LKB interaction window appears but none of the menus work. This
 happens when you have lesstif installed. You will have to
 remove/relocate the lesstif libraries and install Open Motif.
-1. The windows in the file loading interaction are incorrect sizes so
+5. The windows in the file loading interaction are incorrect sizes so
 it it difficult or impossible to see the file names. A known problem
 in CLIM and some OS versions. Fix awaited.
-1. Clicking on a directory in the file loading interaction has no
+6. Clicking on a directory in the file loading interaction has no
 result. A known problem in CLIM and some OS versions. Workaround is
 to enter the full pathname. Fix awaited.
-1. Menus suddenly freeze. Restarting the LKB does not help. If you
+7. Menus suddenly freeze. Restarting the LKB does not help. If you
 logout and login again, the LKB menus will start to work again.
 Generally this problem is caused by the use of the NUMLOCK key (so
 it often afflicts French speakers). Workaround: don't use the
 NUMLOCK key when using the LKB. It's possible this problem occurs
 under other circumstances too - if you get this effect reproducibly
 without the NUMLOCK key, please send details to lingo@delph-in.net.
-1. If emacs is shut down without quitting the LKB first, the LKB
+8. If emacs is shut down without quitting the LKB first, the LKB
 process hangs around. Known problem. Either remember to Quit the LKB
 before shutting down emacs or write a script to kill off errant
 LKBs.

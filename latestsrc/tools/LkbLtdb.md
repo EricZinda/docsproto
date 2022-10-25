@@ -12,14 +12,14 @@ Contents
 
 1. [Sample In Line Documentation](../LkbLtdb#Sample_In_Line_Documentation)
    1. [Examples](../LkbLtdb#Examples)
-   1. [Names](../LkbLtdb#Names)
-1. [Integration with FFTB and
+   2. [Names](../LkbLtdb#Names)
+2. [Integration with FFTB and
 delphin-viz](../LkbLtdb#Integration_with_FFTB_and_delphin-viz)
-1. [Installation](../LkbLtdb#Installation)
+3. [Installation](../LkbLtdb#Installation)
    1. [Setting up your server](../LkbLtdb#Setting_up_your_server)
-   1. [Tool Support](../LkbLtdb#Tool_Support)
-1. [References](../LkbLtdb#References)
-1. [To Do](../LkbLtdb#To_Do)
+   2. [Tool Support](../LkbLtdb#Tool_Support)
+4. [References](../LkbLtdb#References)
+5. [To Do](../LkbLtdb#To_Do)
 
 The minimal Linguistic Type Database offers the following:
 

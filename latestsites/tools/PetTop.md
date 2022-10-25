@@ -1,13 +1,13 @@
 {% raw %}Contents
 
 1. [Overview](../PetTop#Overview)
-1. [Obtaining PET](../PetTop#Obtaining_PET)
-1. [Compiling and Installing PET](../PetTop#Compiling_and_Installing_PET)
-1. [PET for developers](../PetTop#PET_for_developers)
-1. [Compiling a grammar](../PetTop#Compiling_a_grammar)
-1. [Running PET](../PetTop#Running_PET)
-1. [Tips and Tricks](../PetTop#Tips_and_Tricks)
-1. [History](../PetTop#History)
+2. [Obtaining PET](../PetTop#Obtaining_PET)
+3. [Compiling and Installing PET](../PetTop#Compiling_and_Installing_PET)
+4. [PET for developers](../PetTop#PET_for_developers)
+5. [Compiling a grammar](../PetTop#Compiling_a_grammar)
+6. [Running PET](../PetTop#Running_PET)
+7. [Tips and Tricks](../PetTop#Tips_and_Tricks)
+8. [History](../PetTop#History)
 
 # Overview
 

@@ -14,13 +14,13 @@ Contents
 
 1. [Overview](../KyotoTop#Overview)
    1. [Aims of the Meeting](../KyotoTop#Aims_of_the_Meeting)
-   1. [Registration](../KyotoTop#Registration)
-   1. [Location](../KyotoTop#Location)
-   1. [Accommodation](../KyotoTop#Accommodation)
-1. [Program](../KyotoTop#Program)
-1. [Photos](../KyotoTop#Photos)
-1. [Previous and Future Meetings](../KyotoTop#Previous_and_Future_Meetings)
-1. [Contact](../KyotoTop#Contact)
+   2. [Registration](../KyotoTop#Registration)
+   3. [Location](../KyotoTop#Location)
+   4. [Accommodation](../KyotoTop#Accommodation)
+2. [Program](../KyotoTop#Program)
+3. [Photos](../KyotoTop#Photos)
+4. [Previous and Future Meetings](../KyotoTop#Previous_and_Future_Meetings)
+5. [Contact](../KyotoTop#Contact)
    1. [Local Organizers](../KyotoTop#Local_Organizers)
 
 ## Aims of the Meeting

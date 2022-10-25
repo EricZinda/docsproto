@@ -11,9 +11,9 @@ correct.
 Contents
 
 1. [Page Status](../ItsdbTreebanking_ItsdbUpdating#Page_Status)
-1. [Updating](../ItsdbTreebanking_ItsdbUpdating#Updating)
+2. [Updating](../ItsdbTreebanking_ItsdbUpdating#Updating)
    1. [Fully Automatic Update](../ItsdbTreebanking_ItsdbUpdating#Fully_Automatic_Update)
-   1. [Interactive Update](../ItsdbTreebanking_ItsdbUpdating#Interactive_Update)
+   2. [Interactive Update](../ItsdbTreebanking_ItsdbUpdating#Interactive_Update)
 
 # Updating
 
@@ -35,12 +35,12 @@ the annotator with any new decisions that need to be made).
 1. Select the gold standard profile (middle button; if you don't have a
 middle button, click on Compare--Source Database to choose the gold
 profile) something.n
-1. Select the target profile (Left button) something/grammar
-1. Load the same grammar as the target profile (rsa "japanese")
-1. Set *Trees \| Switches \| Automatic Update*, and nothing else.
-1. Select *Trees \| Update*
-1. Wait for a tree annotation window to pop up ...
-1. The updates are color coded:
+2. Select the target profile (Left button) something/grammar
+3. Load the same grammar as the target profile (rsa "japanese")
+4. Set *Trees \| Switches \| Automatic Update*, and nothing else.
+5. Select *Trees \| Update*
+6. Wait for a tree annotation window to pop up ...
+7. The updates are color coded:
    - Magenta: A single correct parse was found
    - Blue: There was only one parse but it was not one that was
 determined by the gold annotations
@@ -88,11 +88,11 @@ is no entry in the tree file) the latter means that it has been touched
 Treebank only those places that have changed
 
 1. Select the gold standard profile (middle button) something.n
-1. Select the target profile (Left button) something/grammar
-1. Load the same grammar as the target profile (rsa "japanese")
-1. **Unset** *Trees \| Switches \| Automatic Update*
-1. **Set** *Options \| TSQL Condition \| Unannotated*
-1. Select *Trees \| Update*
+2. Select the target profile (Left button) something/grammar
+3. Load the same grammar as the target profile (rsa "japanese")
+4. **Unset** *Trees \| Switches \| Automatic Update*
+5. **Set** *Options \| TSQL Condition \| Unannotated*
+6. Select *Trees \| Update*
 
 In this stage, the annotator can annotate any trees that have changed,
 exploiting any relevant existing decisions.

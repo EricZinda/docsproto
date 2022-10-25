@@ -22,31 +22,31 @@ Here are the steps to get started with the VirtualBox appliance:
 <http://virtualbox.org> or from the tutorial USB key. You may be
 prompted to (automatically) install drivers or be warned that
 Microsoft has not tested the software.
-1. Obtain the tutorial appliance OVA file, either from [here
+2. Obtain the tutorial appliance OVA file, either from [here
 (64-bit)](http://uakari.ling.washington.edu/knoppixlkb/naacl/naacl_appliance_v2-x86_64.ova)
 or [here
 (32-bit)](http://uakari.ling.washington.edu/knoppixlkb/naacl/naacl_appliance_v2-i686.ova)
 or from the tutorial USB key.
-1. Launch VirtualBox and choose "Import Appliance..." from the File
+3. Launch VirtualBox and choose "Import Appliance..." from the File
 menu.
-1. Select the .ova file and follow the onscreen instructions; default
+4. Select the .ova file and follow the onscreen instructions; default
 options are fine. You will need at least 2GB of additional RAM
 beyond what your OS and other running programs require, and 8GB of
 hard disk space.
-1. Select the new virtual machine and start it up.
+5. Select the new virtual machine and start it up.
 
 #### Running the parser interactively
 
 1. In the terminal window in [VirtualBox](/VirtualBox), start the
 parser:  ace -g erg/erg-1214.dat -1l 
-1. Type a simple test sentence, and hit Enter: *Most fierce dogs chase
+2. Type a simple test sentence, and hit Enter: *Most fierce dogs chase
 cats.*
-1. A separate parse tree window pops up.
-1. Right-click within the parse tree window, and choose “Indexed MRS”
+3. A separate parse tree window pops up.
+4. Right-click within the parse tree window, and choose “Indexed MRS”
 to see a compressed view of the ERS.
-1. Alternatively, to get the ERS as a string written to the terminal,
+5. Alternatively, to get the ERS as a string written to the terminal,
 start the parser without LUI:  ace -g erg/erg-1214.dat -1Tf 
-1. Type a simple test sentence and hit Enter: *Most fierce dogs chase
+6. Type a simple test sentence and hit Enter: *Most fierce dogs chase
 cats.*
 
 ### Known issues

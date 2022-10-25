@@ -257,11 +257,11 @@ cockroach Laurie is working on.
 Antske: **To summarize,**
 
 1. changes to the matrix should be announced on matrix mailing list.
-1. remind people that we always want to hear back when they're making
+2. remind people that we always want to hear back when they're making
 changes
-1. I (Antske) should go back through the changes I report from my
+3. I (Antske) should go back through the changes I report from my
 thesis and see which still need to be ported.
-1. paper on how people have used the matrix over time?
+4. paper on how people have used the matrix over time?
 
 Emily: Someone has to be pushing that forward---but I anti-volunteer,
 because I'm that person for too many other projects right now.

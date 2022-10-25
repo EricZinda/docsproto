@@ -30,7 +30,7 @@ GLENN: namespaces?
 OE: tried to mimic namespaces concept in PET config
 
 1. list of TDL files
-1. parameterizing the processor
+2. parameterizing the processor
 
 (lists parameter pseudo namespaces) \#1 may also differ from engine to
 engine ERG has a handful of different overlapping configurations notion

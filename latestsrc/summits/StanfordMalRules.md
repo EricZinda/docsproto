@@ -33,7 +33,7 @@ you intend to capture.
 - How elegant should one be in writing these rules? Two issues I would
 worry about:
 - 1. To what extend are these rules one-off?
-- 1. The other question is how is the parse-selection machine going
+- 2. The other question is how is the parse-selection machine going
 to work?
 - In practical applications, you not only develop them, you need them
 to come up when you want them, and not when you don't want them. And

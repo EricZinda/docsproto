@@ -182,15 +182,15 @@ guidelines:
 convenient for it to be a feature. It may be possible to specialize
 PRED values from multiple sources, but that might also violate
 compositionality.
-1. If it takes more than one argument, it should be an EP.
-1. Quantifiers have to be EPs, even though compositionally they only
+2. If it takes more than one argument, it should be an EP.
+3. Quantifiers have to be EPs, even though compositionally they only
 take one argument (never directly associating their BODY element
 with anything), because it's not enough to know which variable they
 are associated with: In "All brown dogs bark", there are 'x's
 appearing in brown, dog, and bark, and we need to know which belong
 in the definition of which of the sets that the quantifier is
 comparing (RSTR/BODY).
-1. Being scope-taking, however, is not enough to require something to
+4. Being scope-taking, however, is not enough to require something to
 be an EP: Tense can bear scope, but knowing which event the tense is
 associated with is enough to know what its scope possibilities are,
 so tense can be a variable property.

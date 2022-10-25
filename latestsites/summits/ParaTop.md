@@ -17,9 +17,9 @@ not the internal MRS, for the following reasons:
 
 1. the SEM-I is the interface to outside resources, such as
 [WordNet](/WordNet), which may also be used in generation
-1. the internal MRS is subject to restructuring as the quest for ever
+2. the internal MRS is subject to restructuring as the quest for ever
 better linguistic analysis proceeds
-1. the mtr.tdl used in MT refers to the external MRS
+3. the mtr.tdl used in MT refers to the external MRS
 
 The SEM-I should, therefore, expose enough information for the
 paraphrase engine, including some hierarchies among types, this must be

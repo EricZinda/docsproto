@@ -61,7 +61,7 @@ permanently in lkb/mrsglobals.lsp.
    - ```
         1 (setf *normalize-predicates-p* t)
      ```
-1. Load the top-level SEM-I file:
+2. Load the top-level SEM-I file:
    - ```
         1 (setf semi
         2   (mt::construct-semi       
@@ -72,13 +72,13 @@ permanently in lkb/mrsglobals.lsp.
         7    :patches "etc/patches.lisp"
         8    :finalizep t))
      ```
-1. Dump the predicate hierarchy:
+3. Dump the predicate hierarchy:
    - ```
         1 (with-open-file
         2     (stream "etc/hierarchy.smi" :direction :output :if-exists :supersede)
         3   (mt::print-semi semi :stream stream :format :hierarchy))
      ```
-1. Dump the predicates (below they have been separately dumped for
+4. Dump the predicates (below they have been separately dumped for
 abstract and surface predicates)
    - ```
         1 (with-open-file

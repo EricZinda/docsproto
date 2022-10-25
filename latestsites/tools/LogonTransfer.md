@@ -21,25 +21,25 @@ Report \# 2007-11.
 Contents
 
 1. [Overview](../LogonTransfer#Overview)
-1. [Table of Contents](../LogonTransfer#Table_of_Contents)
-1. [Basic Structure](../LogonTransfer#Basic_Structure)
-1. [An example transfer rule (from
+2. [Table of Contents](../LogonTransfer#Table_of_Contents)
+3. [Basic Structure](../LogonTransfer#Basic_Structure)
+4. [An example transfer rule (from
 JaEn)](../LogonTransfer#An_example_transfer_rule_.28from_JaEn.29)
    1. [Regular Expressions](../LogonTransfer#Regular_Expressions)
-   1. [Optional Rules](../LogonTransfer#Optional_Rules)
-1. [Interlingua](../LogonTransfer#Interlingua)
-1. [Trouble Shooting](../LogonTransfer#Trouble_Shooting)
+   2. [Optional Rules](../LogonTransfer#Optional_Rules)
+5. [Interlingua](../LogonTransfer#Interlingua)
+6. [Trouble Shooting](../LogonTransfer#Trouble_Shooting)
    1. [To ensure something is a noun](../LogonTransfer#To_ensure_something_is_a_noun)
-   1. [Limit the effort in transfer](../LogonTransfer#Limit_the_effort_in_transfer)
-1. [Loading the rules](../LogonTransfer#Loading_the_rules)
-1. [Setting up an MT system](../LogonTransfer#Setting_up_an_MT_system)
-1. [Other uses](../LogonTransfer#Other_uses)
+   2. [Limit the effort in transfer](../LogonTransfer#Limit_the_effort_in_transfer)
+7. [Loading the rules](../LogonTransfer#Loading_the_rules)
+8. [Setting up an MT system](../LogonTransfer#Setting_up_an_MT_system)
+9. [Other uses](../LogonTransfer#Other_uses)
    1. [Clean Up (post parsing)](../LogonTransfer#Clean_Up_.28post_parsing.29)
-   1. [Fix Up (pre-generation)](../LogonTransfer#Fix_Up_.28pre-generation.29)
-   1. [Trigger Rules (for
+   2. [Fix Up (pre-generation)](../LogonTransfer#Fix_Up_.28pre-generation.29)
+   3. [Trigger Rules (for
 generation)](../LogonTransfer#Trigger_Rules_.28for_generation.29)
-   1. [Idiom Rules](../LogonTransfer#Idiom_Rules)
-   1. [Paraphrase Rules](../LogonTransfer#Paraphrase_Rules)
+   4. [Idiom Rules](../LogonTransfer#Idiom_Rules)
+   5. [Paraphrase Rules](../LogonTransfer#Paraphrase_Rules)
 
 # Basic Structure
 

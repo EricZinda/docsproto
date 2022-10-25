@@ -640,12 +640,12 @@ word order for auxiliaries:
 
 1. The word order of auxiliary and complement may be free for all
 auxiliaries
-1. The word order of auxiliary and complement may depend on the
+2. The word order of auxiliary and complement may depend on the
 auxiliary (with options “before”, “after” or “either” for each
 auxiliary)
-1. The word order may depend on the morphology of the auxiliary
-1. A combination of conditions 2 and 3.
-1. An auxiliary may have clitic-like properties
+3. The word order may depend on the morphology of the auxiliary
+4. A combination of conditions 2 and 3.
+5. An auxiliary may have clitic-like properties
 
 The first two conditions are scheduled to be included in the
 customization system. I have working grammars and a proto-implementation

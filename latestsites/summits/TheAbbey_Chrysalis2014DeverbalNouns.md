@@ -14,9 +14,9 @@ On the long walk to coffee, we started this topic, and noted the
 following interesting examples:
 
 1. *The performance and cafe by the symphony*
-1. *Kim's arrival and rejection happened within 5 minutes*
-1. *The performance and dance by Mary*
-1. *The arrival and dance by Mary*
+2. *Kim's arrival and rejection happened within 5 minutes*
+3. *The performance and dance by Mary*
+4. *The arrival and dance by Mary*
 
 \(1\) shows that though *by the symphony* can in principle be either a
 by-adjunct or the selected *by* that marks ARG1, the coordination with a

@@ -50,15 +50,15 @@ of action is the following:
    
    1. If necessary, support for new form field types or behavior (e.g.
 a drop-down box) must be added to deffile.py.
-1. If any old choices have become obsolete, the version number in
+2. If any old choices have become obsolete, the version number in
 choices.py (specifically, in the current\_version method on the
 ChoicesFile class) must be incremented. Furthermore, a new
 up-revving method that converts choices files of version *n-1* to
 the current version *n* must be added. See the comments in
 choices.py for details.
-1. Install the system to a test location (NOT the live site), then
+3. Install the system to a test location (NOT the live site), then
 verify the changes look as expected
-1. Write appropriate methods in validate.py (or a library's validate()
+4. Write appropriate methods in validate.py (or a library's validate()
 method)
 
 When changes are made to libraries:
@@ -67,18 +67,18 @@ When changes are made to libraries:
 with its range of possible patterns in the world's languages, and
 based on this range a set of new choices (names and values) must be
 defined.
-1. Write the processing code in customize.py (and/or in a
+2. Write the processing code in customize.py (and/or in a
 library-specific module)
-1. Write [unit tests](../MatrixCustomizationUnitTesting) for the code
-1. Write [regression tests](../MatrixRegressionTesting) to test the output
+3. Write [unit tests](../MatrixCustomizationUnitTesting) for the code
+4. Write [regression tests](../MatrixRegressionTesting) to test the output
 
 When changing the underlying infrastructure:
 
 1. Write the changes to matrix.cgi, customize.py, choices.py, or
 whatever module is needing change
-1. Definitely write [unit tests](../MatrixCustomizationUnitTesting) for
+2. Definitely write [unit tests](../MatrixCustomizationUnitTesting) for
 these kinds of changes
-1. Update the documentation as necessary (e.g. these wiki pages)
+3. Update the documentation as necessary (e.g. these wiki pages)
 
 Don't forget to [commit](/Updating_the_Customization_System#committing)
 the changes.
@@ -103,21 +103,21 @@ chmod a+w sessions).
 # Committing and pushing changes to the remote repository (this one!) using git <a name="committing"/>
 
 1. **NB**: Avoid working directly on the trunk. Work in a branch, then merge your branch into the trunk once it's ready. See [related issue](https://github.com/delph-in/matrix/issues/503).
-1. Don't forget to run all of the [regression tests](../MatrixRegressionTesting) before merging your branch with the trunk and before installing a version on the main public website! 
-1. Refer to [git docs/tutorials](https://www.atlassian.com/git/tutorials) for information about committing, resolving conflicts, etc.
+2. Don't forget to run all of the [regression tests](../MatrixRegressionTesting) before merging your branch with the trunk and before installing a version on the main public website! 
+3. Refer to [git docs/tutorials](https://www.atlassian.com/git/tutorials) for information about committing, resolving conflicts, etc.
 
 # Committing and Vivifying Changes in the old SVN repository <a name="committing-svn"/>
 
 1. svn update
-1. resolve conflicts
-1. run the regression tests:
+2. resolve conflicts
+3. run the regression tests:
 [MatrixRegressionTesting](../MatrixRegressionTesting)
-1. fix any regressions (repeat as necessary)
-1. svn diff each file to find diffs and note in text file for svn
+4. fix any regressions (repeat as necessary)
+5. svn diff each file to find diffs and note in text file for svn
 comment
-1. svn update
-1. svn commit
-1. Close any associated Trac tickets
+6. svn update
+7. svn commit
+8. Close any associated Trac tickets
 
 Vivify to the live site with the following command:
 

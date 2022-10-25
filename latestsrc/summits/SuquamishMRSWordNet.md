@@ -277,7 +277,7 @@ Two main problems:
 1. Tool of unification is the wrong tool for this kind of semantics. At
 least problematic. (Woodley clarifies: to put constraints on those
 in grammar.)
-1. Really really want something to experiment with. A tool, that stands
+2. Really really want something to experiment with. A tool, that stands
 off from the unification itself, which would enrich that parse with
 whatever information could be extracted.
 
@@ -310,7 +310,7 @@ Francis: \[... missed this one ...\]
 Stephan: Two possible experimentation platforms emerging:
 
 1. Script that takes WN-ERG mapping and adds lots of lexical entries.
-1. Or someone would write transfer rules that post-process MRS and
+2. Or someone would write transfer rules that post-process MRS and
 unfolds \_dog\_n\_rel into the 7 distinct predicates.
 
 With either could arrive at sets of MRSs that you could use to look at

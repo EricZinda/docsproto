@@ -8,7 +8,7 @@ There are currently two chart mapping phases during parsing:
 preprocessors are adapted to the expectations of the grammar. This
 requires that input items are described by feature structures ‒ the
 token feature structures.
-1. Lexical Filtering, where lexical items can be filtered by hard
+2. Lexical Filtering, where lexical items can be filtered by hard
 constraints after lexical parsing has finished.
 
 Token mapping necessitates that tokens are described by feature

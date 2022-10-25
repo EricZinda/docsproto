@@ -58,7 +58,7 @@ anyway what we're dealing with natively, and since it allows us to
 see the relationship of DMRS and other forms of MRS more clearly.
 Formalising in terms of graphs is possible but not done here,
 because it doesn't seem to me to improve clarity.
-1. The TFS graphs have the following type of structure (abstractly):
+2. The TFS graphs have the following type of structure (abstractly):
    - \[ SYN \[ SYNROLE1 \[1\]
      - SYNROLE2 \[2\] \]
      
@@ -78,9 +78,9 @@ keeping the graphs distinct. I expect this to go wrong, but it gives
 us the idea that syntax and semantics usually go together and we
 have to do something to disconnect them. (The hope is that what we
 do is less violent/unconstrained than with alternative approaches. )
-1. As in the presentation, I will treat construction semantics as
+3. As in the presentation, I will treat construction semantics as
 though it were lexical in what follows.
-1. In terms of the semantics, we have the following components, much as
+4. In terms of the semantics, we have the following components, much as
 in the original algebra:
    1. INDEX b. LTOP c. XARG d. EPs and closed links between them e.
 open links (= slots)
@@ -91,12 +91,12 @@ in the TFS implementation by never having paths into lists and by
 not proliferating features beyond LTOP, INDEX, XARG. BUT we may have
 to modify this (possibly depending on what we assume about the
 syntax-semantics interface).
-1. Hook is retained in the dmrscomp grammar but has limited utility,
+5. Hook is retained in the dmrscomp grammar but has limited utility,
 since INDEX and LTOP no longer always go together. This would also
 apply to a revised algebra using MRS. In the dmrscomp grammar, open
 links always select for LTOP or INDEX, rather than accessing HOOK as
 a whole.
-1. All composition is treated as binary. This potentially allows some
+6. All composition is treated as binary. This potentially allows some
 wiggle room in the syntax-semantics interface in grammars where
 there are n-ary rules with n &gt; 2. Specifically X -&gt; X1 X2 X3
 could be treated as X' -&gt; X1 X2, X -&gt; X' X3 or as X' -&gt; X2
@@ -104,12 +104,12 @@ X3, X -&gt; X1 X' This is as in the old algebra. Whether we want to
 take this to the point where we (for algebra purposes) analyse
 examples like make him angry' as make (him angry)' despite the ERG
 binary branching, I am not sure.
-1. INDEX always comes from the syntactic head (see comments at top of
+7. INDEX always comes from the syntactic head (see comments at top of
 page about ambiguity in terminology in DMRS). LTOP normally comes
 from the syntactic head, but comes from the modifier in scopal
 modifier examples (\`probably sleeps') in the dmrscomp grammar and I
 expect there are other cases where this will be necessary.
-1. Syntax chooses the constituents, says which one is the syntactic
+8. Syntax chooses the constituents, says which one is the syntactic
 head and chooses an open arc. The arc is typed for LTOP or INDEX,
 hence can choose its target.
 

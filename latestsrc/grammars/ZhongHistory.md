@@ -4,13 +4,13 @@
 
 1. **ordinary**: the **ordinary** grammar (using neither **unk**nown
 word handling nor **br**idge rules)
-1. **unk**: **unk**nown word handling (the YY mode (ZhongYYMode))
-1. **br**: robust parsing with **br**idge rules
-1. **unk+br**: **unk**nown word handling and robust parsing with
+2. **unk**: **unk**nown word handling (the YY mode (ZhongYYMode))
+3. **br**: robust parsing with **br**idge rules
+4. **unk+br**: **unk**nown word handling and robust parsing with
 **br**idge rules
-1. **generation**: using the result of \[1\] as the input MRSes (\# of
+5. **generation**: using the result of \[1\] as the input MRSes (\# of
 generated items / \# of parse items)
-1. **end-to-end**: \# of generated items / \# of input sentences
+6. **end-to-end**: \# of generated items / \# of input sentences
 
 ## numbers
 
@@ -46,10 +46,10 @@ variations, vv-compounds, A-not-A
 ## options
 
 1. nbest: 5
-1. timeout: 5 sec.
-1. max-chart-megabytes: 512mb (previously 256mb) for parsing, 2048mb
+2. timeout: 5 sec.
+3. max-chart-megabytes: 512mb (previously 256mb) for parsing, 2048mb
 for generation
-1. max-unpack-megabytes: 512mb (previously 256mb), 2048mb for
+4. max-unpack-megabytes: 512mb (previously 256mb), 2048mb for
 generation
 
 # Development Data

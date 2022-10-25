@@ -38,19 +38,19 @@ In tatoeba, we can create a list can add the license on its title.
 See <https://tatoeba.org/eng/sentences_lists/show/166576>. The same
 as the grammar they were part of, which is almost always MIT (at
 least ERG and Jacy are)
-1. **This is not a good translation**: Some supposedly grammatical
+2. **This is not a good translation**: Some supposedly grammatical
 sentences were deemed as unnatural by Tatoeba's user, should these
 sentences be corrected to ensure that our grammars are parsing the
 right stuff?
-1. **Sentences are machine-translated.**: Are sentences from the MRS
+3. **Sentences are machine-translated.**: Are sentences from the MRS
 test suite humanly translated? Or are they generated using LOGON?
-1. **I cannot think of any situation where this would be used.**:
+4. **I cannot think of any situation where this would be used.**:
 Sentences from the test suite should validate the grammars'
 correctness, so it's understandable that some sentences are not very
 useful to Tatoeba's user on the surface. Is there a page where it
 says which phenomenon/phenomena each sentence captures? How language
 dependent are the phenomena captures in the sentences?
-1. users can edit a sentence. See
+5. users can edit a sentence. See
 <https://tatoeba.org/eng/sentences/show/2638181> that was edited to
 'Abrams bet Browne a cigarette that it had rained.'
 {% endraw %}

@@ -82,11 +82,11 @@ for later debugging; it is easier to grab a profile/log by a number
 than by a long name among other long names consisting of the same
 parts (e.g. sov-aux-before-v vs svo-aux-before-v can be easily
 confused).
-1. You probably have a grammar corresponding to this new test which you
+2. You probably have a grammar corresponding to this new test which you
 created with the Grammar Matrix system. Take a note of the location
 of the choices file and the test\_sentences file, or put them
 somewhere convenient, such as tests/regression/scratch/.
-1. Run rtest.py with the --add command:
+3. Run rtest.py with the --add command:
 
 <!-- -->
 
@@ -270,20 +270,20 @@ Ensure that the Grammar Matrix produces the grammar you expect given the
 choices file **before** adding the test. Here is a general workflow:
 
 1. Create txtsuite file with the sentences for the testsuite
-1. Create the corresponding choices file
-1. Use the current customization system version to create a grammar
+2. Create the corresponding choices file
+3. Use the current customization system version to create a grammar
 from the choices file
-1. Start up the lkb & \[incr tsdb()\]
-1. Load the grammar into the lkb
-1. In \[incr tsdb()\] use "import test items" to create a test suite
+4. Start up the lkb & \[incr tsdb()\]
+5. Load the grammar into the lkb
+6. In \[incr tsdb()\] use "import test items" to create a test suite
 profile from the txtsuite file
-1. In \[incr tsdb()\] use "process \| all items" to parse the test
+7. In \[incr tsdb()\] use "process \| all items" to parse the test
 items with the grammar
-1. In \[incr tsdb()\] use "browse \| results" to **manually** explore
+8. In \[incr tsdb()\] use "browse \| results" to **manually** explore
 both grammaticality and MRSs for each test item
-1. Adjust the customization system until the previous step yields the
+9. Adjust the customization system until the previous step yields the
 desired result
-1. For each change to the customization system, ensure that all other
+10. For each change to the customization system, ensure that all other
 regression tests continue to pass
 
 Tests take their name from the choices file's language name, so make
@@ -315,14 +315,14 @@ This is what regression-test-add does under the bonnet (paths relative
 to gmcs/regression\_tests):
 
 1. Customizes a grammar from the choices file
-1. Compiles the grammar with ACE
-1. Copies the choices file to choices/ and test suite to txt-suites/
-1. Adds the regression test to regression-test-index
-1. Creates an unparsed profile
-1. Parses the profile with ACE and art
-1. Uses the parsed profile as gold (in home/gold/lang-name/), and the
+2. Compiles the grammar with ACE
+3. Copies the choices file to choices/ and test suite to txt-suites/
+4. Adds the regression test to regression-test-index
+5. Creates an unparsed profile
+6. Parses the profile with ACE and art
+7. Uses the parsed profile as gold (in home/gold/lang-name/), and the
 item and relations files for a skeleton (in skeletons/lang-name)
-1. Updates the skeletons index (skeletons/Index.lisp)
+8. Updates the skeletons index (skeletons/Index.lisp)
 
 Make sure to test your regression test after you add it:
 

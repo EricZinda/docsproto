@@ -45,8 +45,8 @@ The best way to figure out how to fill out the questionnaire is probably by uplo
 To summarize:
 
 1. Specify question words on the Lexicon page. Some POS will have a checkbox "interrogative"; check that if you are specifying a question word.
-1. Specify question particles and morphological marking on the Yes/No Questions page. 
-1. Specify all other wh-questions-related things on the Constituent (wh-) Questions page.
+2. Specify question particles and morphological marking on the Yes/No Questions page. 
+3. Specify all other wh-questions-related things on the Constituent (wh-) Questions page.
 
 ### Notes on choices for question particles
 

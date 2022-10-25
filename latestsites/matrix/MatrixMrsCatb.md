@@ -23,16 +23,16 @@ we will also link it to this pages.
 Contents
 
 1. [Cathedral and the Bazaar (cb)](../MatrixMrsCatb#Cathedral_and_the_Bazaar_.28cb.29)
-1. [The Cathedral and the Bazaar in different
+2. [The Cathedral and the Bazaar in different
 languages](../MatrixMrsCatb#The_Cathedral_and_the_Bazaar_in_different_languages)
-1. [Timeline](../MatrixMrsCatb#Timeline)
-1. [Formatting Guidelines](../MatrixMrsCatb#Formatting_Guidelines)
+3. [Timeline](../MatrixMrsCatb#Timeline)
+4. [Formatting Guidelines](../MatrixMrsCatb#Formatting_Guidelines)
    1. [Profile Name](../MatrixMrsCatb#Profile_Name)
-   1. [Markup](../MatrixMrsCatb#Markup)
-   1. [Structure](../MatrixMrsCatb#Structure)
-   1. [Quotations](../MatrixMrsCatb#Quotations)
-   1. [Typos](../MatrixMrsCatb#Typos)
-   1. [Sentence Numbering](../MatrixMrsCatb#Sentence_Numbering)
+   2. [Markup](../MatrixMrsCatb#Markup)
+   3. [Structure](../MatrixMrsCatb#Structure)
+   4. [Quotations](../MatrixMrsCatb#Quotations)
+   5. [Typos](../MatrixMrsCatb#Typos)
+   6. [Sentence Numbering](../MatrixMrsCatb#Sentence_Numbering)
 
 # The Cathedral and the Bazaar in different languages
 

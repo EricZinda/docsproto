@@ -4,16 +4,16 @@ Contents
 
 1. [Preprocessing](../PetRobustness#Preprocessing)
    1. [Token Mapping](../PetRobustness#Token_Mapping)
-1. [Unknown words](../PetRobustness#Unknown_words)
+2. [Unknown words](../PetRobustness#Unknown_words)
    1. [Generics triggered from POS
 mapping](../PetRobustness#Generics_triggered_from_POS_mapping)
-   1. [Generics triggered from token
+   2. [Generics triggered from token
 fs](../PetRobustness#Generics_triggered_from_token_fs)
-   1. [Lexical type prediction](../PetRobustness#Lexical_type_prediction)
-   1. [Supertagger](../PetRobustness#Supertagger)
-1. [Grammar Internal Solutions](../PetRobustness#Grammar_Internal_Solutions)
-1. [Pet settings](../PetRobustness#Pet_settings)
-1. [Robuster Partial Parsing](../PetRobustness#Robuster_Partial_Parsing)
+   3. [Lexical type prediction](../PetRobustness#Lexical_type_prediction)
+   4. [Supertagger](../PetRobustness#Supertagger)
+3. [Grammar Internal Solutions](../PetRobustness#Grammar_Internal_Solutions)
+4. [Pet settings](../PetRobustness#Pet_settings)
+5. [Robuster Partial Parsing](../PetRobustness#Robuster_Partial_Parsing)
 
 # Preprocessing
 

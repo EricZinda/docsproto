@@ -55,9 +55,9 @@ can also be started as follows:
 
 1. In emacs, run M-x lisp. This will start the Lisp REPL, but not LKB
 or [itsdb](/itsdb) .
-1. Execute (lmt) (short for *Load Machine Translation system* I
+2. Execute (lmt) (short for *Load Machine Translation system* I
 believe)
-1. Read in a grammar with rsa(). For English (rsa :erg) or (rsa :terg)
+3. Read in a grammar with rsa(). For English (rsa :erg) or (rsa :terg)
 (loading either the most recent release of the ERG or the trunk
 version) is most likely what you want, or (rsa :deepbank) if working
 with [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank).

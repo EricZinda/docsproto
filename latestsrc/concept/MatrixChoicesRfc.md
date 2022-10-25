@@ -18,9 +18,9 @@ The Grammar Matrix is composed of several components, including but not
 limited to the following:
 
 1. matrix.tdl
-1. the customization system
-1. the questionnaire
-1. the regression tests
+2. the customization system
+3. the questionnaire
+4. the regression tests
 
 A choices file is a serialized data file containing both 1) the answers
 to questions in the questionnaire (as well as annotated data such as
@@ -49,31 +49,31 @@ The goals for changing this setup include the following:
 generally human readable, and this is an important consideration of
 any new changes. However, indexing and non-obvious nesting can make
 choices difficult for newcomers to understand.
-1. **Ease of human editing**: along with reading, being able to
+2. **Ease of human editing**: along with reading, being able to
 identify and edit a choice without using the customization system is
 a critical requirement, for use with matrix.py, debugging, and
 development.
-1. **Ease of creation**: it is currently difficult to write a choices
+3. **Ease of creation**: it is currently difficult to write a choices
 file from scratch. One must parse the current matrixdef file to
 understand available sections, choices, and options. Ideally, one
 would be able to write choices with very few dependencies.
-1. **Computer serialization and deserialization**: choices are
+4. **Computer serialization and deserialization**: choices are
 currently stored in a proprietary format, so reading and writing
 them requires implementing a significant amount of code.
-1. **Make development easier**: currently, changing anything to do with
+5. **Make development easier**: currently, changing anything to do with
 choices probably requires changes in several locations and is
 brittle.
-1. **Choices as a component**: a modularized choices format could be
+6. **Choices as a component**: a modularized choices format could be
 used as a data format in other projects, targeting the Grammar
 Matrix or not.
-1. **Matrix as a target**: modularizing the choices format could help
+7. **Matrix as a target**: modularizing the choices format could help
 others develop systems that use the Grammar Matrix (i.e. matrix.py)
 without the Customization System (e.g. AGGREGATION).
 
 To achieve these goals, we propose the following changes:
 
 1. Changing the choices serialization format
-1. Introducing a choices schema
+2. Introducing a choices schema
 
 ## Background
 
@@ -81,9 +81,9 @@ The existing choices data serialization consists of the following data
 types:
 
 1. Dictionaries (maps)
-1. Lists (arrays/vectors)
-1. Strings / References
-1. Integers
+2. Lists (arrays/vectors)
+3. Strings / References
+4. Integers
 
 Below is an example snippet of the existing choices format as of July
 2020 from the mini English choices file:
@@ -262,7 +262,7 @@ On top of the language, there are decisions about how choices are
 organized into the choices file:
 
 1. Lists of Choices
-1. Nested Choices
+2. Nested Choices
 
 ##### Lists of Choices
 
@@ -462,7 +462,7 @@ Grammar Matrix.
 This proposal has two parts:
 
 1. Decoupling choices and questionnaire content
-1. An API for validating schemas, choices files, and matrixdef files.
+2. An API for validating schemas, choices files, and matrixdef files.
 
 Currently, reading and writing choices files has these dependencies:
 

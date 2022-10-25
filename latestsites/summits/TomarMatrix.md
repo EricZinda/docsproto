@@ -10,7 +10,7 @@ consider:
 1. A backwards-looking wish. When people have created open-source
 grammars, we can look at what they've changed, and what analytical
 choices they've made.
-1. A forwards-looking request (asking people to give feedback). When
+2. A forwards-looking request (asking people to give feedback). When
 something isn't doing what you want it to do, there is a mailing
 list to let us know.
 

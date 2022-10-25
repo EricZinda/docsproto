@@ -23,18 +23,18 @@ Contents
 
 1. [Delph-in Developers Meeting](../JerezTop#Delph-in_Developers_Meeting)
    1. [Proposed Timetable](../JerezTop#Proposed_Timetable)
-   1. [Topics](../JerezTop#Topics)
+   2. [Topics](../JerezTop#Topics)
       1. [MT](../JerezTop#MT)
-      1. [What's new](../JerezTop#What.27s_new)
-      1. [API/StandOff/Preprocessors](../JerezTop#API.2FStandOff.2FPreprocessors)
-      1. [PET bug squashing/LKB
+      2. [What's new](../JerezTop#What.27s_new)
+      3. [API/StandOff/Preprocessors](../JerezTop#API.2FStandOff.2FPreprocessors)
+      4. [PET bug squashing/LKB
 harmonization](../JerezTop#PET_bug_squashing.2FLKB_harmonization)
-      1. [Parse Ranking](../JerezTop#Parse_Ranking)
-      1. [Large Lexicons](../JerezTop#Large_Lexicons)
-      1. [Enhancements](../JerezTop#Enhancements)
-      1. [(Automated) Testing](../JerezTop#A.28Automated.29_Testing)
-      1. [Still More](../JerezTop#Still_More)
-   1. [Detailed Ideas](../JerezTop#Detailed_Ideas)
+      5. [Parse Ranking](../JerezTop#Parse_Ranking)
+      6. [Large Lexicons](../JerezTop#Large_Lexicons)
+      7. [Enhancements](../JerezTop#Enhancements)
+      8. [(Automated) Testing](../JerezTop#A.28Automated.29_Testing)
+      9. [Still More](../JerezTop#Still_More)
+   3. [Detailed Ideas](../JerezTop#Detailed_Ideas)
 
 ## Proposed Timetable
 

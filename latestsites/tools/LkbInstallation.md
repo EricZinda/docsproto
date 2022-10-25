@@ -187,13 +187,13 @@ LKB installation.
 
 1. Check the supported platforms and decide on which version to
 install;
-1. Check system requirements and third-party software (e.g. OpenMotif
+2. Check system requirements and third-party software (e.g. OpenMotif
 on Linux);
-1. Create a top-level directory to hold the DELPH-IN software and
+3. Create a top-level directory to hold the DELPH-IN software and
 resources;
-1. Create a directory for the LKB to create temporary files;
-1. Download the appropriate selection of archive files and unpack each;
-1. Add LKB-specific settings to your shell and *emacs* start-up files.
+4. Create a directory for the LKB to create temporary files;
+5. Download the appropriate selection of archive files and unpack each;
+6. Add LKB-specific settings to your shell and *emacs* start-up files.
 
 For the following, we will refer to the top-level directory as
 DELPHINHOME. Good choices for this directory could be c:\\delphin\\ in

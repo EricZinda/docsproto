@@ -5,29 +5,29 @@ Contents
 1. [Heuristics for efficient
 treebanking](../ErgTreebankingGuidelines#Heuristics_for_efficient_treebanking)
    1. [Top-down](../ErgTreebankingGuidelines#Top-down)
-   1. [Bottom-up](../ErgTreebankingGuidelines#Bottom-up)
-   1. [Prefer Simpler](../ErgTreebankingGuidelines#Prefer_Simpler)
-1. [Technical choices](../ErgTreebankingGuidelines#Technical_choices)
+   2. [Bottom-up](../ErgTreebankingGuidelines#Bottom-up)
+   3. [Prefer Simpler](../ErgTreebankingGuidelines#Prefer_Simpler)
+2. [Technical choices](../ErgTreebankingGuidelines#Technical_choices)
    1. [Complex proper names](../ErgTreebankingGuidelines#Complex_proper_names)
       1. [Titles](../ErgTreebankingGuidelines#Titles)
-      1. [Capitalized words in name](../ErgTreebankingGuidelines#Capitalized_words_in_name)
-      1. [Profession modifier](../ErgTreebankingGuidelines#Profession_modifier)
-      1. [Native names preferred when
+      2. [Capitalized words in name](../ErgTreebankingGuidelines#Capitalized_words_in_name)
+      3. [Profession modifier](../ErgTreebankingGuidelines#Profession_modifier)
+      4. [Native names preferred when
 available](../ErgTreebankingGuidelines#Native_names_preferred_when_available)
-   1. [Proper names and punctuation](../ErgTreebankingGuidelines#Proper_names_and_punctuation)
-   1. [PP/modifier attachment](../ErgTreebankingGuidelines#PP.2Fmodifier_attachment)
-   1. [Temporal modifiers](../ErgTreebankingGuidelines#Temporal_modifiers)
-   1. [Complex compound nouns](../ErgTreebankingGuidelines#Complex_compound_nouns)
-   1. [Coordination](../ErgTreebankingGuidelines#Coordination)
-   1. [Passive verb vs. adjective](../ErgTreebankingGuidelines#Passive_verb_vs._adjective)
-   1. [Punctuation](../ErgTreebankingGuidelines#Punctuation)
-   1. [Adverbs](../ErgTreebankingGuidelines#Adverbs)
-   1. [Measure phrases](../ErgTreebankingGuidelines#Measure_phrases)
-   1. [Quotations with explicit
+   2. [Proper names and punctuation](../ErgTreebankingGuidelines#Proper_names_and_punctuation)
+   3. [PP/modifier attachment](../ErgTreebankingGuidelines#PP.2Fmodifier_attachment)
+   4. [Temporal modifiers](../ErgTreebankingGuidelines#Temporal_modifiers)
+   5. [Complex compound nouns](../ErgTreebankingGuidelines#Complex_compound_nouns)
+   6. [Coordination](../ErgTreebankingGuidelines#Coordination)
+   7. [Passive verb vs. adjective](../ErgTreebankingGuidelines#Passive_verb_vs._adjective)
+   8. [Punctuation](../ErgTreebankingGuidelines#Punctuation)
+   9. [Adverbs](../ErgTreebankingGuidelines#Adverbs)
+   10. [Measure phrases](../ErgTreebankingGuidelines#Measure_phrases)
+   11. [Quotations with explicit
 attribution](../ErgTreebankingGuidelines#Quotations_with_explicit_attribution)
-   1. [Partitive NPs](../ErgTreebankingGuidelines#Partitive_NPs)
-   1. [Modification in noun phrases](../ErgTreebankingGuidelines#Modification_in_noun_phrases)
-1. [Notes from Tomar meeting](../ErgTreebankingGuidelines#Notes_from_Tomar_meeting)
+   12. [Partitive NPs](../ErgTreebankingGuidelines#Partitive_NPs)
+   13. [Modification in noun phrases](../ErgTreebankingGuidelines#Modification_in_noun_phrases)
+3. [Notes from Tomar meeting](../ErgTreebankingGuidelines#Notes_from_Tomar_meeting)
 
 ## Top-down
 
@@ -222,29 +222,29 @@ as complement
 
 1. Where lexical ambiguity is hard to decide (e.g. even-deg vs
 even-conj), choose based on frequency in redwoods/deepbank
-1. Disprefer modifier attachment to semantically vacuous heads e.g.
+2. Disprefer modifier attachment to semantically vacuous heads e.g.
 attach adverbs to *hiring...*, not *be hiring...*
-1. For there-copula:
+3. For there-copula:
    1. Avoid double-object choice and avoid modification of there-cop
-   1. Also prefer low attachment of modifier after obj NP
-   1. Accept extraction of PP for there-cop as is
-1. When choice of verb-particle or verb-mod as in *go away*, if you can
+   2. Also prefer low attachment of modifier after obj NP
+   3. Accept extraction of PP for there-cop as is
+4. When choice of verb-particle or verb-mod as in *go away*, if you can
 modify the \`particle' as in *go far away*, it is not verb-particle.
-1. When choice of spr-hd or mod-hd for Adv-Adj, choose mod-hd
-1. Avoid adv-add except for *not*
-1. When WH-Q of form NP-be-NP \[EMB: guessing this is choose subj-head;
+5. When choice of spr-hd or mod-hd for Adv-Adj, choose mod-hd
+6. Avoid adv-add except for *not*
+7. When WH-Q of form NP-be-NP \[EMB: guessing this is choose subj-head;
 Dan please confirm\]
-1. For complement of saying, if there's a main clause option for the
+8. For complement of saying, if there's a main clause option for the
 quoted material choose it:
    - \|"Who did Kim hire" asked Mary\| not \|\*Who Kim hired, asked
 Mary\|
-1. No free relatives
-1. Attach three-dot punct as low as possible
-1. Reject ellipsis
-1. For ndash between clauses, use run-on
-1. For degree specifiers, when there's a choice, take the shortest
+9. No free relatives
+10. Attach three-dot punct as low as possible
+11. Reject ellipsis
+12. For ndash between clauses, use run-on
+13. For degree specifiers, when there's a choice, take the shortest
 lexent type name
-1. Attach subord clause high \[EMB: subordinate clauses are understood
+14. Attach subord clause high \[EMB: subordinate clauses are understood
 as clauses with all arguments overt; do not include in+order+to
 purposives, etc.\]
 {% endraw %}

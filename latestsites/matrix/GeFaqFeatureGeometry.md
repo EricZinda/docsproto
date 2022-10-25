@@ -7,7 +7,7 @@ least two reasons:
 
 1. It's not the same for every sign (consider the features inside COMPS
 on transitive versus intransitive verbs).
-1. It's not static: Anyone using the Matrix is adding features.
+2. It's not static: Anyone using the Matrix is adding features.
 Furthermore, depending on how you configured the Matrix (if you're
 using the modules and the configuration script), you might have
 slightly different feature sets (e.g., with or without AUX).

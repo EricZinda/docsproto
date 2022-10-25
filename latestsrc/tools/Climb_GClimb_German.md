@@ -12,12 +12,12 @@ In this document, *I* and *me* refers to [AntskeFokkens](../AntskeFokkens).
 1. This documentation is under construction and incomplete. At present,
 the only way to get detailed into implementations of gCLIMB is by
 looking at the grammars.
-1. I am currently finishing my thesis. In the near future, this page
+2. I am currently finishing my thesis. In the near future, this page
 will therefore mostly contain background information that completes
 work described in my PhD. If you have request on other explanations
 or documentation, please contact [me](mailto:antske.fokkens@vu.nl)
 and I'll see if I can shift priorities around.
-1. This documentation will be restructured soon
+3. This documentation will be restructured soon
 
 ## Where to get gCLIMB
 

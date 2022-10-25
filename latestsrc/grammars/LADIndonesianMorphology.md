@@ -22,9 +22,9 @@ complexity with voice and valence changing/applicatives.
 The following topics will be presented:
 
 1. [Intransitive and transitive verbs](../LADIndonesianMorphology#verbs)
-1. [Voice](../LADIndonesianMorphology#voice)
-1. [Applicative constructions](../LADIndonesianMorphology#applicative-constructions)
-1. [Reduplication](../LADIndonesianMorphology#reduplication)
+2. [Voice](../LADIndonesianMorphology#voice)
+3. [Applicative constructions](../LADIndonesianMorphology#applicative-constructions)
+4. [Reduplication](../LADIndonesianMorphology#reduplication)
 
 ## Verbs
 
@@ -673,7 +673,7 @@ morphology for Indonesian?
    
    In particular, **meN-+\[base\]-N-+\[base\](+-i)** for repetition and
 **\[base\]-meN-+\[base\](+-i)** for reciprocals.
-1. Semantics representation for applicative constructions and
+2. Semantics representation for applicative constructions and
 reduplication
 
 ## References
