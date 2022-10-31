@@ -80,6 +80,7 @@ def create_index(site_path, root_address, site_definition, pages_definitions):
 
 
 def get_home_page_relative_url(site_definition, pages_definitions):
+    home_page = None
     if "HomePage" in site_definition:
         home_page = site_definition["HomePage"]
     else:
