@@ -11,7 +11,7 @@
   "Sites":
   [
     {"SiteFullName": "DELPH-IN Docs", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
-    {"SiteFullName": "DELPH-IN Concepts", "SiteNavigationName": "Concepts", "Site": "concept"},
+    {"SiteFullName": "DELPH-IN Garage", "SiteNavigationName": "Garage", "Site": "garage"},
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
     {"SiteFullName": "DELPH-IN English Resource Grammar", "SiteNavigationName": "ERG", "Site": "erg", "HomePage": "ErgTop.md"},
     {"SiteFullName": "DELPH-IN Grammar Catalogue", "SiteNavigationName": "Grammars", "Site": "grammars", "HomePage": "GrammarCatalogue.md"},
@@ -38,62 +38,7 @@
         {"Page": "We Science", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "concept/RedwoodsTop.md"}
       ]}
     ],
-    "concept": [
-      {"Section": "Treebanking", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TreebankingTop.md", "Referrer": "home/Home.md"},
-        {"Page": "Full Forest Treebanker (FFTB)", "SrcDir": "docswiki", "SrcFile": "FftbTop.md", "Referrer": "home/TreebankingTop.md"},
-        {"Page": "Full Forest Treebanker Wishlist", "SrcDir": "docswiki", "SrcFile": "FftbWishlist.md", "Referrer": "concept/FftbTop.md"},
-        {"Page": "[incr tsdb()] Treebanking", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking.md", "Referrer": "home/TreebankingTop.md"},
-        {"Page": "[incr tsdb()] Treebanking Annotation", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbAnnotation.md", "Referrer": "concept/ItsdbTreebanking.md"},
-        {"Page": "[incr tsdb()] Treebanking Updating", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbUpdating.md", "Referrer": "concept/ItsdbTreebanking.md"},
-        {"Page": "[incr tsdb()] Treebanking Exporting", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbExporting.md", "Referrer": "concept/ItsdbTreebanking.md"},
-        {"Page": "[incr tsdb()] Treebanking Modeling", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbModeling.md", "Referrer": "concept/ItsdbTreebanking.md"},
-        {"Page": "[incr tsdb()] Treebanking Updating", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbUpdating.md", "Referrer": "concept/ItsdbTreebanking_ItsdbUpdating.md"},
-        {"Page": "[incr tsdb()] Treebanking Customization", "SrcDir": "docswiki", "SrcFile": "ItsdbCustomization.md", "Referrer": "concept/ItsdbTreebanking_ItsdbExporting.md"},
-        {"Page": "[incr tsdb()] Treebanking Modeling", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbModeling.md", "Referrer": "concept/ItsdbTreebanking_ItsdbModeling.md"},
-
-        {"Page": "Indra", "SrcDir": "docswiki", "SrcFile": "IndraTreebanking.md", "Referrer": "home/TreebankingTop.md"}
-      ]},
-      {"Section": "Formats", "Pages": [
-        {"Page": "Delphin RFCs", "SrcDir": "docswiki", "SrcFile": "DelphinRFCs.md", "Referrer": "home/Home.md"},
-        {"Page": "Predicate RFC", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
-        {"Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
-        {"Page": "MRS Isomorphism", "SrcDir": "docswiki", "SrcFile": "MrsIsomorphism.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "EDS Format", "SrcDir": "docswiki", "SrcFile": "EdsTop.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "EDS Conversion", "SrcDir": "docswiki", "SrcFile": "EdsConversion.md", "Referrer": "concept/EdsTop.md"},
-        {"Page": "EDS Generation", "SrcDir": "docswiki", "SrcFile": "EdsGeneration.md", "Referrer": "concept/EdsTop.md"},
-        {"Page": "SEM-I RFC", "SrcDir": "docswiki", "SrcFile": "SemiRfc.md", "Referrer": "concept/PredicateRfc.md"},
-        {"Page": "TDL RFC", "SrcDir": "docswiki", "SrcFile": "TdlRFC.md"},
-        {"Page": "TSQL RFC", "SrcDir": "docswiki", "SrcFile": "TsqlRfc.md", "Referrer": "concept/DelphinRFCs.md"},
-        {"Page": "Grammar Version RFC", "SrcDir": "docswiki", "SrcFile": "GrammarVersionRfc.md", "Referrer": "concept/DelphinRFCs.md"},
-        {"Page": "Grammar Configuration RFC", "SrcDir": "docswiki", "SrcFile": "GrammarConfigurationRfc.md", "Referrer": "concept/DelphinRFCs.md"},
-        {"Page": "TSDB Schema RFC", "SrcDir": "docswiki", "SrcFile": "TsdbSchemaRfc.md", "Referrer": "concept/DelphinRFCs.md"},
-        {"Page": "Matrix Choices RFC", "SrcDir": "docswiki", "SrcFile": "MatrixChoicesRfc.md", "Referrer": "concept/DelphinRFCs.md"},
-        {"Page": "(R)MRS Overview", "SrcDir": "docswiki", "SrcFile": "RmrsTop.md", "Referrer": "home/Home.md"},
-        {"Page": "(R)MRS Wellformedness", "SrcDir": "docswiki", "SrcFile": "RmrsWellformedness.md", "Referrer": "summits/TomarMrsWellformedness.md"},
-        {"Page": "(R)MRS Predicate Naming", "SrcDir": "docswiki", "SrcFile": "RmrsPos.md", "Referrer": "concept/PredicateRfc.md"},
-        {"Page": "(R)MRS Span", "SrcDir": "docswiki", "SrcFile": "RmrsSpan.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Design", "SrcDir": "docswiki", "SrcFile": "RmrsDesign.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Paraphrasing", "SrcDir": "docswiki", "SrcFile": "RmrsParaphrasing.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Model", "SrcDir": "docswiki", "SrcFile": "RmrsModel.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Distributional", "SrcDir": "docswiki", "SrcFile": "RmrsDistributional.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Semi", "SrcDir": "docswiki", "SrcFile": "RmrsSemi.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Dmrs", "SrcDir": "docswiki", "SrcFile": "RmrsDmrs.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Faq", "SrcDir": "docswiki", "SrcFile": "RmrsFaq.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "(R)MRS Discussions", "SrcDir": "docswiki", "SrcFile": "RmrsDiscussions.md", "Referrer": "home/RmrsTop.md"},
-        {"Page": "Transfer Rules", "SrcDir": "docswiki", "SrcFile": "TransferRules.md", "Referrer": "concept/RmrsParaphrasing.md"},
-        {"Page": "Format Specifications", "SrcDir": "docswiki", "SrcFile": "FormatSpecifications.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Grammar Markup Language", "SrcDir": "docswiki", "SrcFile": "ErgGml.md", "Referrer": "concept/WikiWoods.md"},
-        {"Page": "SMAF", "SrcDir": "docswiki", "SrcFile": "SmafTop.md", "Referrer": "tools/ReppTop.md"},
-        {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
-      ]},
-      {"Section": "Discussions", "Pages": [
-        {"Page": "Saarland Sentential Argument", "SrcDir": "docswiki", "SrcFile": "SaarlandSententialArgument.md", "Referrer": "concept/ErgSemantics_Nominalization.md"}
-      ]},
-      {"Section": "Housekeeping", "Pages": [
-        {"Page": "Raw Materials", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Raw_Materials.md"},
-        {"Page": "ERG Semantics Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"}
-      ]}
+    "garage": [
     ],
     "erg": [
       {"Section": "ERG Usage", "Pages": [
@@ -110,10 +55,12 @@
         {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
         {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
         {"Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
+        {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"}
         {"Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md"}
       ]},
       {"Section": "Inventory", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
+        {"Page": "Raw Materials", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Raw_Materials.md"},
         {"Page": "Apposition", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Apposition.md"},
         {"Page": "Comparatives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Comparatives.md"},
         {"Page": "Compounding", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Compounding.md"},
@@ -154,6 +101,9 @@
         {"Page": "Guidelines", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingGuidelines.md", "Referrer": "home/TreebankingTop.md"},
         {"Page": "Bridges", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingBridges.md", "Referrer": "concept/ErgTreebanking.md"},
         {"Page": "Discussion", "SrcDir": "docswiki", "SrcFile": "CapitolHillTreebank.md", "Referrer": "concept/IndraTreebanking.md"}
+      ]},
+      {"Section": "Discussions", "Pages": [
+        {"Page": "Saarland Sentential Argument", "SrcDir": "docswiki", "SrcFile": "SaarlandSententialArgument.md", "Referrer": "concept/ErgSemantics_Nominalization.md"}
       ]}
     ],
     "grammars": [
@@ -431,6 +381,53 @@
         {"Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
         {"Page": "CLIMB for Germanic languages", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb.md", "Referrer": "home/ClimbTop.md"},
         {"Page": "gCLIMB Phenomena", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb_German.md", "Referrer": "tools/Climb_GClimb.md"}
+      ]},
+      {"Section": "Treebanking", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TreebankingTop.md", "Referrer": "home/Home.md"},
+        {"Page": "Full Forest Treebanker (FFTB)", "SrcDir": "docswiki", "SrcFile": "FftbTop.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "Full Forest Treebanker Wishlist", "SrcDir": "docswiki", "SrcFile": "FftbWishlist.md", "Referrer": "concept/FftbTop.md"},
+        {"Page": "[incr tsdb()] Treebanking", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "[incr tsdb()] Treebanking Annotation", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbAnnotation.md", "Referrer": "concept/ItsdbTreebanking.md"},
+        {"Page": "[incr tsdb()] Treebanking Updating", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbUpdating.md", "Referrer": "concept/ItsdbTreebanking.md"},
+        {"Page": "[incr tsdb()] Treebanking Exporting", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbExporting.md", "Referrer": "concept/ItsdbTreebanking.md"},
+        {"Page": "[incr tsdb()] Treebanking Modeling", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbModeling.md", "Referrer": "concept/ItsdbTreebanking.md"},
+        {"Page": "[incr tsdb()] Treebanking Updating", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbUpdating.md", "Referrer": "concept/ItsdbTreebanking_ItsdbUpdating.md"},
+        {"Page": "[incr tsdb()] Treebanking Customization", "SrcDir": "docswiki", "SrcFile": "ItsdbCustomization.md", "Referrer": "concept/ItsdbTreebanking_ItsdbExporting.md"},
+        {"Page": "[incr tsdb()] Treebanking Modeling", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbModeling.md", "Referrer": "concept/ItsdbTreebanking_ItsdbModeling.md"},
+        {"Page": "Indra", "SrcDir": "docswiki", "SrcFile": "IndraTreebanking.md", "Referrer": "home/TreebankingTop.md"}
+      ]},
+      {"Section": "Formats", "Pages": [
+        {"Page": "Delphin RFCs", "SrcDir": "docswiki", "SrcFile": "DelphinRFCs.md", "Referrer": "home/Home.md"},
+        {"Page": "Predicate RFC", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
+        {"Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
+        {"Page": "MRS Isomorphism", "SrcDir": "docswiki", "SrcFile": "MrsIsomorphism.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "EDS Format", "SrcDir": "docswiki", "SrcFile": "EdsTop.md", "Referrer": "concept/ErgProcessing.md"},
+        {"Page": "EDS Conversion", "SrcDir": "docswiki", "SrcFile": "EdsConversion.md", "Referrer": "concept/EdsTop.md"},
+        {"Page": "EDS Generation", "SrcDir": "docswiki", "SrcFile": "EdsGeneration.md", "Referrer": "concept/EdsTop.md"},
+        {"Page": "SEM-I RFC", "SrcDir": "docswiki", "SrcFile": "SemiRfc.md", "Referrer": "concept/PredicateRfc.md"},
+        {"Page": "TDL RFC", "SrcDir": "docswiki", "SrcFile": "TdlRFC.md"},
+        {"Page": "TSQL RFC", "SrcDir": "docswiki", "SrcFile": "TsqlRfc.md", "Referrer": "concept/DelphinRFCs.md"},
+        {"Page": "Grammar Version RFC", "SrcDir": "docswiki", "SrcFile": "GrammarVersionRfc.md", "Referrer": "concept/DelphinRFCs.md"},
+        {"Page": "Grammar Configuration RFC", "SrcDir": "docswiki", "SrcFile": "GrammarConfigurationRfc.md", "Referrer": "concept/DelphinRFCs.md"},
+        {"Page": "TSDB Schema RFC", "SrcDir": "docswiki", "SrcFile": "TsdbSchemaRfc.md", "Referrer": "concept/DelphinRFCs.md"},
+        {"Page": "Matrix Choices RFC", "SrcDir": "docswiki", "SrcFile": "MatrixChoicesRfc.md", "Referrer": "concept/DelphinRFCs.md"},
+        {"Page": "(R)MRS Overview", "SrcDir": "docswiki", "SrcFile": "RmrsTop.md", "Referrer": "home/Home.md"},
+        {"Page": "(R)MRS Wellformedness", "SrcDir": "docswiki", "SrcFile": "RmrsWellformedness.md", "Referrer": "summits/TomarMrsWellformedness.md"},
+        {"Page": "(R)MRS Predicate Naming", "SrcDir": "docswiki", "SrcFile": "RmrsPos.md", "Referrer": "concept/PredicateRfc.md"},
+        {"Page": "(R)MRS Span", "SrcDir": "docswiki", "SrcFile": "RmrsSpan.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Design", "SrcDir": "docswiki", "SrcFile": "RmrsDesign.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Paraphrasing", "SrcDir": "docswiki", "SrcFile": "RmrsParaphrasing.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Model", "SrcDir": "docswiki", "SrcFile": "RmrsModel.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Distributional", "SrcDir": "docswiki", "SrcFile": "RmrsDistributional.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Semi", "SrcDir": "docswiki", "SrcFile": "RmrsSemi.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Dmrs", "SrcDir": "docswiki", "SrcFile": "RmrsDmrs.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Faq", "SrcDir": "docswiki", "SrcFile": "RmrsFaq.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "(R)MRS Discussions", "SrcDir": "docswiki", "SrcFile": "RmrsDiscussions.md", "Referrer": "home/RmrsTop.md"},
+        {"Page": "Transfer Rules", "SrcDir": "docswiki", "SrcFile": "TransferRules.md", "Referrer": "concept/RmrsParaphrasing.md"},
+        {"Page": "Format Specifications", "SrcDir": "docswiki", "SrcFile": "FormatSpecifications.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Grammar Markup Language", "SrcDir": "docswiki", "SrcFile": "ErgGml.md", "Referrer": "concept/WikiWoods.md"},
+        {"Page": "SMAF", "SrcDir": "docswiki", "SrcFile": "SmafTop.md", "Referrer": "tools/ReppTop.md"},
+        {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
       ]},
       {"Section": "Misc", "Pages": [
         {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
