@@ -50,5 +50,5 @@
 | 17:00-17:30 | *Wrap up*                                                                                                                                          |                                                   |     |
 | 19:45-22:14 | Vinstra -- Gardemoen                                                                                                                               |                                                   |     |
 
-Last updated: Olga Zamaraeva - Thu Jun 3 12:30:27 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-03
 {% endraw %}

@@ -106,5 +106,5 @@ oe: no
 Woodley + oe: the VPM says how you get to the semi, but the actual
 description of the semi is in erg.smi and core.smi
 
-Last updated: WoodleyPackard - Mon Jul 29 15:36:57 2013 +0000
+Page last updated by WoodleyPackard - 2013-07-29
 {% endraw %}

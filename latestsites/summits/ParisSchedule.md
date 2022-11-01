@@ -123,5 +123,5 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 
 See [ParisOpen](../ParisOpen)
 
-Last updated: GlennSlayden - Fri Oct 30 00:52:59 2015 +0000
+Page last updated by GlennSlayden - 2015-10-30
 {% endraw %}

@@ -143,5 +143,5 @@ tree. For additional questions, please feel free to contact Stephan
 Oepen (oe *at* ifi.uio.no), the technical manager for the original
 Norwegian LOGON consortium.
 
-Last updated: EricZinda - Thu Sep 8 11:51:02 2022 -0700
+Page last updated by EricZinda - 2022-09-08
 {% endraw %}

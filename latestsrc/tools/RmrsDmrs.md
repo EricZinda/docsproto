@@ -16,5 +16,5 @@ and avoidance of commitment can be the right way to
 go](http://www.aclweb.org/anthology/E09-1001.pdf). *Conference of the
 European Chapter of the ACL*, (pp. 1-9). Athens.
 
-Last updated: Alexandre Rademaker - Thu Sep 23 12:33:58 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-09-23
 {% endraw %}

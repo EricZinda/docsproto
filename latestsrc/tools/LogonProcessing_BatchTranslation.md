@@ -296,5 +296,5 @@ parallelization of batch processing (e.g. using the --count switch to
 the batch script), twelve or more gbytes of RAM and at least two cpus
 should be available.
 
-Last updated: StephanOepen - Sun Nov 30 21:05:31 2008 +0000
+Page last updated by StephanOepen - 2008-11-30
 {% endraw %}

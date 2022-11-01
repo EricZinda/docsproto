@@ -26,5 +26,5 @@ is nominative or accusative") can be expressed thus:
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Tue Aug 21 20:54:21 2012 +0000
+Page last updated by NedLetcher - 2012-08-21
 {% endraw %}

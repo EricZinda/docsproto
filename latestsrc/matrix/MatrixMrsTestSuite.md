@@ -434,5 +434,5 @@ English
 - Similar constructions that aren't translations end with X\[6-9\].
   - This may have a different MRS, but a similar phenomenon.
 
-Last updated: Alexandre Rademaker - Wed Sep 15 16:50:57 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-09-15
 {% endraw %}

@@ -126,5 +126,5 @@ phenomenon libraries.
             tests/
                 testMorphotactics.py
 
-Last updated: Olga Zamaraeva - Fri Jun 4 14:55:45 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-04
 {% endraw %}

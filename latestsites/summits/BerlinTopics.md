@@ -3,5 +3,5 @@
 - Compounds
 - Morphology
 
-Last updated: JesseTseng - Mon Aug 20 18:54:37 2007 +0000
+Page last updated by JesseTseng - 2007-08-20
 {% endraw %}

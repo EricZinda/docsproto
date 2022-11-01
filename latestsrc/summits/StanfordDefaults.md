@@ -315,5 +315,5 @@ Dan: Ann, any remaining words of wisdom? Cautions? Warnings?
 Ann: Not really. It can have unexpected results, so try on simple
 examples first.
 
-Last updated: EmilyBender - Fri Jul 15 04:12:43 2016 +0000
+Page last updated by EmilyBender - 2016-07-15
 {% endraw %}

@@ -88,5 +88,5 @@ morhpologists describe, that would be a nice validation of your work.
 
 Oe: Lunch time!
 
-Last updated: EmilyBender - Fri Jun 17 02:08:09 2016 +0000
+Page last updated by EmilyBender - 2016-06-17
 {% endraw %}

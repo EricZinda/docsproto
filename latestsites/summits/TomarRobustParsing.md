@@ -293,5 +293,5 @@ Dan: but this is no-longer a self-help approach. Are there comments that
 some of you have been holding back as illuminating conclusions? No? Ok
 let’s go eat.
 
-Last updated: TJTrimble - Wed Oct 15 06:09:03 2014 +0000
+Page last updated by TJTrimble - 2014-10-15
 {% endraw %}

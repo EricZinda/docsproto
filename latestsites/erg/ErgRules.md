@@ -370,5 +370,5 @@ the ERG (as of the 1214 release).
 | w\_drop-ileft\_plr               | Ignored italics mark affixed              | catiยฆ                                      |
 | w\_drop-iright\_plr              | Ignored italics mark prefixed             | catiยฆ                                      |
 
-Last updated: DanFlickinger - Tue Aug 25 23:00:53 2015 +0000
+Page last updated by DanFlickinger - 2015-08-25
 {% endraw %}

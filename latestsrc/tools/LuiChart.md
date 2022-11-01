@@ -69,5 +69,5 @@ unification, i.e. dragging a chart edge and dropping it onto a feature
 structures with failure recording. See the
 [LuiUnification](../LuiUnification) page for details.
 
-Last updated: WoodleyPackard - Tue Jul 2 20:04:13 2013 +0000
+Page last updated by WoodleyPackard - 2013-07-02
 {% endraw %}

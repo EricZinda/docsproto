@@ -163,5 +163,5 @@ and so on.
       mrs :string                           # mrs for this reading
       flags :string                         # arbitrary annotation (e.g. BLEU)
 
-Last updated: StephanOepen - Tue Aug 7 10:52:10 2012 +0000
+Page last updated by StephanOepen - 2012-08-07
 {% endraw %}

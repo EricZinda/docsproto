@@ -63,5 +63,5 @@ chicken and egg problem in terms of identifying where to plug in the
 standalone
 - "can we stop now?" (Alex)
 
-Last updated: TimBaldwin - Sat May 24 11:27:31 2008 +0000
+Page last updated by TimBaldwin - 2008-05-24
 {% endraw %}

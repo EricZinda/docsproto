@@ -143,5 +143,5 @@ Constructions ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools
 [MelanieSiegel](/MelanieSiegel), [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender),
 [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
 
-Last updated: MichaelGoodman - Wed Jul 6 21:18:42 2016 +0000
+Page last updated by MichaelGoodman - 2016-07-06
 {% endraw %}

@@ -19,5 +19,5 @@ Generation Component
 - [/BatchTranslation](../LogonProcessing_BatchTranslation) --- Running
 the Full Fan-Out Pipeline
 
-Last updated: StephanOepen - Tue Feb 17 16:33:55 2009 +0000
+Page last updated by StephanOepen - 2009-02-17
 {% endraw %}

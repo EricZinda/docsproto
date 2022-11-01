@@ -399,5 +399,5 @@ Adverbial clauses. Language typology and syntactic description. Volume
 2: Complex constructions. ed. by Timothy Shopen. 237269. Cambridge:
 Cambridge University Press.
 
-Last updated: KristenHowell - Wed May 9 20:20:32 2018 +0000
+Page last updated by KristenHowell - 2018-05-09
 {% endraw %}

@@ -96,5 +96,5 @@ or language pair.
 
 # MaxEnt Experimentation
 
-Last updated: StephanOepen - Sat Jan 13 00:17:28 2018 +0000
+Page last updated by StephanOepen - 2018-01-13
 {% endraw %}

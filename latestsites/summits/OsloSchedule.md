@@ -174,5 +174,5 @@ Carroll)
 - Tutorial: Getting set up for robust parsing (Woodley Packard, Dan
 Flickinger)
 
-Last updated: GuyEmerson - Thu Jun 28 14:10:00 2018 +0000
+Page last updated by GuyEmerson - 2018-06-28
 {% endraw %}

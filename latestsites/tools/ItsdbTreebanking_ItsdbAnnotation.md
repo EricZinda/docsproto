@@ -151,5 +151,5 @@ annotations for Run 2, not the hand-coded real annotations you
 constructed painstakingly for Run 1, as clear cutting fells all the
 trees.
 
-Last updated: StephanOepen - Tue Aug 7 10:53:32 2012 +0000
+Page last updated by StephanOepen - 2012-08-07
 {% endraw %}

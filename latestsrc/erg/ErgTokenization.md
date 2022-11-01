@@ -211,5 +211,5 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 
 # Unknown Word Handling
 
-Last updated: StephanOepen - Thu Oct 24 10:14:39 2013 +0000
+Page last updated by StephanOepen - 2013-10-24
 {% endraw %}

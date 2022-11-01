@@ -16,5 +16,5 @@ Citation: Zamaraeva, Olga. A cross-linguistic account of constituent
 questions for a grammar endineering resource. Froth. Doctoral
 dissertation. University of Washington.
 
-Last updated: OlgaZamaraeva - Tue Jun 2 00:22:18 2020 +0000
+Page last updated by OlgaZamaraeva - 2020-06-02
 {% endraw %}

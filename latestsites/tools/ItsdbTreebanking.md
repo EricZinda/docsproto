@@ -50,5 +50,5 @@ and so on
 
 If you have an already treebanked corpus (such as the ones that come with the ERG releases), you can look at the gold trees using the [incr tsdb()] graphical interface. In the [incr tsdb()] podium, select the treebank profile and then go to Browse-->Results. To access the gold tree for a particular example, first click on the corresponding number in the "derivation" column. A window will open displaying the tree in the bracketed text format. Click on that text line, and you should see the tree visualization.
 
-Last updated: Olga Zamaraeva - Tue Nov 30 14:40:06 2021 +0100
+Page last updated by Olga Zamaraeva - 2021-11-30
 {% endraw %}

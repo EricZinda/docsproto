@@ -165,5 +165,5 @@ structures, etc.
 - Francis: it's more closed than that
 - Mike: are we good then?
 
-Last updated: StephanOepen - Fri Jun 24 05:35:51 2016 +0000
+Page last updated by StephanOepen - 2016-06-24
 {% endraw %}

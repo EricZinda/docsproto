@@ -244,5 +244,5 @@ one better placed than us.
 oe: Thank you for that optimistic note, and thank you all for the
 treatment.
 
-Last updated: StephanOepen - Tue Jul 15 11:53:08 2014 +0000
+Page last updated by StephanOepen - 2014-07-15
 {% endraw %}

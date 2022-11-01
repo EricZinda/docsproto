@@ -63,5 +63,5 @@ statement](../GeFaqTypeAddendum).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Fri Aug 17 19:07:55 2012 +0000
+Page last updated by NedLetcher - 2012-08-17
 {% endraw %}

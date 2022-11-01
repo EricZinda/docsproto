@@ -52,5 +52,5 @@ analyses which should be documented. These, too, are noted on the
 - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) Main Page
 - [How to Cite this Work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
-Last updated: StephanOepen - Tue Nov 4 10:45:22 2014 +0000
+Page last updated by StephanOepen - 2014-11-04
 {% endraw %}

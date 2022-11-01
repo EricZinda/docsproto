@@ -143,5 +143,5 @@ output.
       + >> +
       * >> !
 
-Last updated: MichaelGoodman - Mon Apr 24 04:34:16 2017 +0000
+Page last updated by MichaelGoodman - 2017-04-24
 {% endraw %}

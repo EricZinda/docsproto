@@ -262,5 +262,5 @@ publisher = {CSLI Publications},\
 year = {2012}\
 }
 
-Last updated: GuyEmerson - Mon May 7 18:32:14 2018 +0000
+Page last updated by GuyEmerson - 2018-05-07
 {% endraw %}

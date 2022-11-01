@@ -265,5 +265,5 @@ Dan: Once I put in any entry for a verb, I have to put in all of its
 verb frames. … maybe talk about this afterwards. Not sure how to answer
 --- would need to know how many verbs only have an uninteresting entry.
 
-Last updated: EmilyBender - Tue Jul 15 16:17:39 2014 +0000
+Page last updated by EmilyBender - 2014-07-15
 {% endraw %}

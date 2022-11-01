@@ -411,5 +411,5 @@ arities, to avoid having to load the grammar to find this. See
 
 \[Scribe is done\]
 
-Last updated: StephanOepen - Thu Nov 19 17:59:34 2015 +0000
+Page last updated by StephanOepen - 2015-11-19
 {% endraw %}

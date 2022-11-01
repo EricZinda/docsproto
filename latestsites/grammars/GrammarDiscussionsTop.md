@@ -15,5 +15,5 @@ Discussions about the analysis/implementation of related languages.
 
 - [Phonology](../PhonologyTop): Proposals for phonological representation
 
-Last updated: anonymous - Sun Oct 9 00:12:14 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

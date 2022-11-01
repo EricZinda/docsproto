@@ -39,5 +39,5 @@ All experiments reported below were carried out on 2012-12-12 and
 
 ### Grammars (versions used, original sources)
 
-Last updated: AntskeFokkens - Thu Dec 13 12:45:06 2012 +0000
+Page last updated by AntskeFokkens - 2012-12-13
 {% endraw %}

@@ -316,5 +316,5 @@ Francis: That the results were inconclusive surprised no one.
 
 Emily: Shall I record that as use or mention?
 
-Last updated: EmilyBender - Tue Feb 18 07:13:30 2014 +0000
+Page last updated by EmilyBender - 2014-02-18
 {% endraw %}

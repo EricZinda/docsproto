@@ -151,5 +151,5 @@ Oepen, S., Flickinger, D., Toutanova, K., & Manning, C. D. (2004). LinGO
 Redwoods. A rich and dynamic treebank for HPSG. Research on Language and
 Computation, 2(4), 575-596.
 
-Last updated: StephanOepen - Fri Mar 29 13:39:57 2019 +0000
+Page last updated by StephanOepen - 2019-03-29
 {% endraw %}

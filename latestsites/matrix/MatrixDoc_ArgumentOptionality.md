@@ -309,5 +309,5 @@ title = {Argument Optionality in the LinGO Grammar Matrix},\
 conference = {Coling}\
 }
 
-Last updated: VaryaGracheva - Fri Feb 15 06:32:59 2013 +0000
+Page last updated by VaryaGracheva - 2013-02-15
 {% endraw %}

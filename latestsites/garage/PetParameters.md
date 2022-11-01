@@ -41,5 +41,5 @@ grammar.grm.
 
     sm := "vm6p.mem".
 
-Last updated: FrancisBond - Fri Apr 1 12:11:10 2005 +0000
+Page last updated by FrancisBond - 2005-04-01
 {% endraw %}

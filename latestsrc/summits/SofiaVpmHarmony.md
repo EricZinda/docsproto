@@ -137,5 +137,5 @@ consent and propose a SIG.
 Francis: There's the low-hanging fruit of just spelling common names the
 same way.
 
-Last updated: StephanOepen - Wed Jul 4 10:11:42 2012 +0000
+Page last updated by StephanOepen - 2012-07-04
 {% endraw %}

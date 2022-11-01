@@ -170,5 +170,5 @@ of the dependency used to create them.
                         /omrs/
                         /imrs/0/
 
-Last updated: EmilyBender - Tue Jan 24 20:40:04 2017 +0000
+Page last updated by EmilyBender - 2017-01-24
 {% endraw %}

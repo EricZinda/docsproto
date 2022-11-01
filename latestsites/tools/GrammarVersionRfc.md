@@ -52,5 +52,5 @@ version string for every commit.
 
 (add your comments here, and/or edit the proposal above)
 
-Last updated: MichaelGoodman - Mon Jul 25 03:51:45 2011 +0000
+Page last updated by MichaelGoodman - 2011-07-25
 {% endraw %}

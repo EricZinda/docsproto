@@ -209,5 +209,5 @@ For debian-based distros, run:
 
       sudo apt-get install libxmlrpc-c3-dev
 
-Last updated: StephanOepen - Sun Mar 30 01:48:19 2014 +0000
+Page last updated by StephanOepen - 2014-03-30
 {% endraw %}

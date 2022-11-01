@@ -90,5 +90,5 @@ engineering - a wrapper around the LKB
 
 - Now plenary session only
 
-Last updated: anonymous - Sun Oct 9 00:12:07 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

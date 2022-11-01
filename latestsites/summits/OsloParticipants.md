@@ -93,5 +93,5 @@ time; Enjoy this event!)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
 
-Last updated: BertholdCrysmann - Thu Aug 3 19:49:12 2017 +0000
+Page last updated by BertholdCrysmann - 2017-08-03
 {% endraw %}

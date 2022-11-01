@@ -84,5 +84,5 @@ frame+ROLE).
 (if you attended this session and remember more details, please feel
 free to edit the page; thanks!)
 
-Last updated: MichaelGoodman - Wed Jul 6 21:17:35 2016 +0000
+Page last updated by MichaelGoodman - 2016-07-06
 {% endraw %}

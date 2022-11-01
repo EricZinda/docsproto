@@ -330,5 +330,5 @@ FCB:
 
 (SIG topic proposed)
 
-Last updated: WenjieWang - Sat Jun 18 10:44:42 2016 +0000
+Page last updated by WenjieWang - 2016-06-18
 {% endraw %}

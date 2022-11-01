@@ -203,5 +203,5 @@ Penman?
 Mike and Stephan will go think about it... and also discuss canonical
 serialisation.
 
-Last updated: StephanOepen - Mon Jun 27 12:09:15 2016 +0000
+Page last updated by StephanOepen - 2016-06-27
 {% endraw %}

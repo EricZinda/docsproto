@@ -339,5 +339,5 @@ Detection; ECD) as a task. Also STS.
 Emily: STS is a really weird task and it has the world knowledge
 problem.
 
-Last updated: StephanOepen - Wed Jun 22 03:35:31 2016 +0000
+Page last updated by StephanOepen - 2016-06-22
 {% endraw %}

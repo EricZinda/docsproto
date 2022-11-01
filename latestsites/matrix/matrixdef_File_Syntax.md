@@ -337,5 +337,5 @@ at the end:
 
         Radio neg-infl-type "Negative inflection type" "On: "
 
-Last updated: EricZinda - Wed Sep 14 10:35:34 2022 -0700
+Page last updated by EricZinda - 2022-09-14
 {% endraw %}

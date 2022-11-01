@@ -402,5 +402,5 @@ Ann: If you can find a place where it actually makes a difference to
 have a unary thing in ICONS instead of as a feature, that would be
 interesting to see.
 
-Last updated: EmilyBender - Fri Aug 2 18:30:13 2013 +0000
+Page last updated by EmilyBender - 2013-08-02
 {% endraw %}

@@ -212,5 +212,5 @@ doesn't work in Emacs after running incr
 tsdb()](GeFaqKeyboardNotWorking)
 - [How do I paste into the LKB Parse dialogue?](GeFaqPasteShortcut)
 
-Last updated: StephanOepen - Wed Aug 15 10:41:25 2012 +0000
+Page last updated by StephanOepen - 2012-08-15
 {% endraw %}

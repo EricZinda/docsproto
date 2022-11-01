@@ -39,5 +39,5 @@ Editor's note: This topic comes up again and is basically dismissed in
 \[[TheAbbey/Chrysais2014Arity](/TheAbbey/Chrysais2014Arity)\|the arity
 discussion\].
 
-Last updated: StephanOepen - Sun Feb 16 04:45:31 2014 +0000
+Page last updated by StephanOepen - 2014-02-16
 {% endraw %}

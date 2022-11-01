@@ -105,5 +105,5 @@ but hope to Skype in.
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) - June 16-20
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 
-Last updated: GlennSlayden - Thu Jun 16 10:43:00 2016 +0000
+Page last updated by GlennSlayden - 2016-06-16
 {% endraw %}

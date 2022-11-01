@@ -141,5 +141,5 @@ monotonicity. So even if we have to go down the slippery slope of
 allowing more things in HOOK, we still have the constraint of
 monotonicity.
 
-Last updated: EmilyBender - Fri Jan 22 22:28:28 2016 +0000
+Page last updated by EmilyBender - 2016-01-22
 {% endraw %}

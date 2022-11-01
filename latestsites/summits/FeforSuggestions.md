@@ -13,5 +13,5 @@ people repeat themselves).
 first draft ready when people have to start planning trips. This
 also helps for people to argue for funding.
 
-Last updated: AnetteFrank - Sat Jun 17 16:47:49 2006 +0000
+Page last updated by AnetteFrank - 2006-06-17
 {% endraw %}

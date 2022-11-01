@@ -131,5 +131,5 @@ based. Possible spin off: Mike can learn pairs which we haven’t seen
 before. Flexible alignment allows to learn new rules, which can then
 constrain the space for decoding.
 
-Last updated: OlgaZamaraeva - Fri Jun 17 00:17:11 2016 +0000
+Page last updated by OlgaZamaraeva - 2016-06-17
 {% endraw %}

@@ -263,5 +263,5 @@ encoding when you install the lexical database:
 
     bash install-lexdb.sh jap ~/jap/lexdb.fld ~/jap/lexdb.dfn "-E EUC_JP"
 
-Last updated: FrancisBond - Tue Jul 16 13:30:55 2019 +0000
+Page last updated by FrancisBond - 2019-07-16
 {% endraw %}

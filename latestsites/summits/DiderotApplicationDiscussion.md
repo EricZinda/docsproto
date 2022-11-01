@@ -483,5 +483,5 @@ formalisms, they partially try and reinvent the wheel.
 
 Scribed by [GuyEmerson](https://blog.inductorsoftware.com/docsproto/tools/GuyEmerson).
 
-Last updated: GuyEmerson - Tue Jun 19 00:37:07 2018 +0000
+Page last updated by GuyEmerson - 2018-06-19
 {% endraw %}

@@ -264,5 +264,5 @@ declaring itself as a suitable generation grammar for English:
 
       (setf *translate-grid* '(en))
 
-Last updated: StephanOepen - Tue Aug 12 10:48:52 2014 +0000
+Page last updated by StephanOepen - 2014-08-12
 {% endraw %}

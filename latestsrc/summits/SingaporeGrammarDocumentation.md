@@ -240,5 +240,5 @@ development process. it’s about software engineering discipline.
 dan: yes, we could probably draw a lot from software engineering best
 practices.
 
-Last updated: EmilyBender - Tue Aug 4 07:12:40 2015 +0000
+Page last updated by EmilyBender - 2015-08-04
 {% endraw %}

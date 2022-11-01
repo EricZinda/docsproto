@@ -111,5 +111,5 @@
 | 1061    | 别 哭 ！                                    | Don't cry!                                    |             |     |
 | 1071    | 狗 哭 着 到 了                              | The dog arrived crying.                       |             |     |
 
-Last updated: SanghounSong - Wed Apr 15 12:52:35 2015 +0000
+Page last updated by SanghounSong - 2015-04-15
 {% endraw %}

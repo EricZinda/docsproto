@@ -777,5 +777,5 @@ constituency parser (although maybe not the lexical tags)
 Stephan: <https://iwpt20.sigparse.org/pdf/2020.iwpt-1.14.pdf> for top
 down HPSG parsing.
 
-Last updated: WoodleyPackard - Sat Jul 18 08:00:18 2020 +0000
+Page last updated by WoodleyPackard - 2020-07-18
 {% endraw %}

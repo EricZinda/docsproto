@@ -74,5 +74,5 @@ available from web demo
 
 **dan:** ran script on new version erg - works fine?
 
-Last updated: FrancisBond - Thu Jul 17 14:26:05 2014 +0000
+Page last updated by FrancisBond - 2014-07-17
 {% endraw %}

@@ -113,5 +113,5 @@ A final useful trick is liberal use of the ELI mode's *go to definition*
 functionality (bound by default to C-c .), which takes you to the source
 location where any function, class or variable is defined.
 
-Last updated: ArneSkjærholt - Thu Sep 4 13:37:33 2014 +0000
+Page last updated by ArneSkjærholt - 2014-09-04
 {% endraw %}

@@ -100,5 +100,5 @@ password: stwendel
 - [Petya's
 photos](http://plus.google.com/u/0/photos/110057092152807525970/albums/5908390534903322241)
 
-Last updated: PetyaOsenova - Mon Aug 5 01:54:42 2013 +0000
+Page last updated by PetyaOsenova - 2013-08-05
 {% endraw %}

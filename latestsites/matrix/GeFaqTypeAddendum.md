@@ -44,5 +44,5 @@ should I do?](GeFaqTdlSyntax)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: DanFlickinger - Wed Jun 26 13:14:25 2013 +0000
+Page last updated by DanFlickinger - 2013-06-26
 {% endraw %}

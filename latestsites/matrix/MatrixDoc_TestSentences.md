@@ -26,5 +26,5 @@ progress or planned. \]</span>
 
 # References
 
-Last updated: EmilyBender - Thu Aug 30 02:20:22 2012 +0000
+Page last updated by EmilyBender - 2012-08-30
 {% endraw %}

@@ -97,5 +97,5 @@ Treebank only those places that have changed
 In this stage, the annotator can annotate any trees that have changed,
 exploiting any relevant existing decisions.
 
-Last updated: FrancisBond - Tue Apr 8 17:27:50 2014 +0000
+Page last updated by FrancisBond - 2014-04-08
 {% endraw %}

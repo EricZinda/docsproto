@@ -259,5 +259,5 @@ constituents? Ace accepted those brackets, right? Links?
 to pre-processing treebanks? Link?
 - error mining project 1997-1998? (mentioned by Ann) Link?
 
-Last updated: AlexandreRademaker - Wed Jul 17 23:48:16 2019 +0000
+Page last updated by AlexandreRademaker - 2019-07-17
 {% endraw %}

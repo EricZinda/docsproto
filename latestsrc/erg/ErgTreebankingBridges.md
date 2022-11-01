@@ -15,5 +15,5 @@ available as options, but if they are, avoid them.)
 the one where the additional dependencies captured are rooted in
 (i.e. semantically headed by) open class words.
 
-Last updated: EmilyBender - Thu Dec 11 05:01:55 2014 +0000
+Page last updated by EmilyBender - 2014-12-11
 {% endraw %}

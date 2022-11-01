@@ -59,5 +59,5 @@ A:
     ;;;
     a := u.
 
-Last updated: GlennSlayden - Sun Apr 28 03:52:08 2013 +0000
+Page last updated by GlennSlayden - 2013-04-28
 {% endraw %}

@@ -159,5 +159,5 @@ is a link to the archive near the top of the page.
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
 
-Last updated: EricZinda - Wed Sep 14 14:10:58 2022 -0700
+Page last updated by EricZinda - 2022-09-14
 {% endraw %}

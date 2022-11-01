@@ -54,5 +54,5 @@ version becomes mainstream
 (lkb::show-word-aux-tty "鬼" nil) **Done:** 2009-10-13 (actually
 earlier by OE, FCB)
 
-Last updated: GuyEmerson - Mon Jul 31 12:49:31 2017 +0000
+Page last updated by GuyEmerson - 2017-07-31
 {% endraw %}

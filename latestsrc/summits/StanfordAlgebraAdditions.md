@@ -709,5 +709,5 @@ something more complicated…
 Ann: The mutual selection would be a problem for me, even if there
 wasn't a SLASH involved.
 
-Last updated: EmilyBender - Tue Jun 21 16:47:08 2016 +0000
+Page last updated by EmilyBender - 2016-06-21
 {% endraw %}

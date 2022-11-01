@@ -223,5 +223,5 @@ in the comment.
 Having many misaligned sentences makes cross language comparison just
 that much harder, ...
 
-Last updated: anonymous - Sun Oct 9 00:12:18 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

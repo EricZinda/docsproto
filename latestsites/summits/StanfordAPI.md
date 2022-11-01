@@ -165,5 +165,5 @@ Can do BRAT. SDP format (ConLL like). Nice feature is that BRAT
 annotations are standoff. Would be good for the visualisations to be
 interoperable.
 
-Last updated: NedLetcher - Mon Jun 20 20:49:44 2016 +0000
+Page last updated by NedLetcher - 2016-06-20
 {% endraw %}

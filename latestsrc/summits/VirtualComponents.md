@@ -303,5 +303,5 @@ be?). it could give better parses than the ERG.
 - Ontology on modelling HPSG:
 <https://www.aclweb.org/anthology/P07-2043.pdf>.
 
-Last updated: ChowSiewYeng - Tue Jul 14 19:41:39 2020 +0000
+Page last updated by ChowSiewYeng - 2020-07-14
 {% endraw %}

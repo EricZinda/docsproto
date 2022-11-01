@@ -41,5 +41,5 @@ more). This information should be useful for debugging.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Mon Sep 17 08:30:51 2012 +0000
+Page last updated by NedLetcher - 2012-09-17
 {% endraw %}

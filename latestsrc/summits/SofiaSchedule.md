@@ -163,5 +163,5 @@ woodley, yi, jonathon, angelina, Francis) \[friday early afternoon\]
 - \[4\] (Pretty) Small Group: Next Steps in Experimentation with ERG
 (Super)Tagging (bec, oe, dan, angelina) \[friday afternoon\]
 
-Last updated: FrancisBond - Thu Jul 12 03:31:02 2012 +0000
+Page last updated by FrancisBond - 2012-07-12
 {% endraw %}

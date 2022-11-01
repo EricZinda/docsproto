@@ -23,5 +23,5 @@ directions for doing [interactive unification](../GeFaqInteractiveUnify).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: EmilyBender - Thu Jun 21 11:39:15 2018 +0000
+Page last updated by EmilyBender - 2018-06-21
 {% endraw %}

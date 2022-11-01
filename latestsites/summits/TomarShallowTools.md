@@ -148,5 +148,5 @@ more compelling than “just a file format.”
 
 Moderator-Tim: conclude.
 
-Last updated: EmilyBender - Wed Jul 16 11:46:02 2014 +0000
+Page last updated by EmilyBender - 2014-07-16
 {% endraw %}

@@ -255,5 +255,5 @@ predictaives fits in with NRR paraphrase idea
 
 **Proposal: Parentheticals also do the GTOP thing.**
 
-Last updated: EmilyBender - Fri Aug 23 04:31:12 2013 +0000
+Page last updated by EmilyBender - 2013-08-23
 {% endraw %}

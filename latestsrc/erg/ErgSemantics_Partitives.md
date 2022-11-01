@@ -69,5 +69,5 @@ should be elaborated on here.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: EmilyBender - Thu Jun 4 20:05:36 2015 +0000
+Page last updated by EmilyBender - 2015-06-04
 {% endraw %}

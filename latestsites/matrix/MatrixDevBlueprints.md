@@ -159,5 +159,5 @@ the choices dictionary or adding a chunk of text to a list is less so.
 While it may not be possible to separate these entirely, we could
 perhaps do a better job and provide better guildelines.
 
-Last updated: OlgaZamaraeva - Mon Dec 4 04:56:15 2017 +0000
+Page last updated by OlgaZamaraeva - 2017-12-04
 {% endraw %}

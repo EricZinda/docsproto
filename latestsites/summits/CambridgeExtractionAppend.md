@@ -224,5 +224,5 @@ WP: Would you like something like FEAT &lt; value, value, value &gt; =
 
 EB: That would be nice :slightly\_smiling\_face:
 
-Last updated: GuyEmerson - Thu Jan 9 15:06:37 2020 +0000
+Page last updated by GuyEmerson - 2020-01-09
 {% endraw %}

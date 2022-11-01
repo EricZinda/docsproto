@@ -35,5 +35,5 @@ interested parties, e.g. the (unstable) development trunk:
 
       svn co http://sweaglesw.org/svn/ace/trunk ace
 
-Last updated: Francis Bond - Fri Jul 22 12:07:49 2022 -0700
+Page last updated by Francis Bond - 2022-07-22
 {% endraw %}

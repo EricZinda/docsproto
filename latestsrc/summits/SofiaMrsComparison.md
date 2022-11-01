@@ -59,5 +59,5 @@ nltk, ...
 \\includegraphics\[width=\\textwidth\]{1090410-3-0\_0-0.png}
 (Buggy but colorful)
 
-Last updated: FrancisBond - Thu Jul 12 12:01:48 2012 +0000
+Page last updated by FrancisBond - 2012-07-12
 {% endraw %}

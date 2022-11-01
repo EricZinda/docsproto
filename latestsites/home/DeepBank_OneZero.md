@@ -129,5 +129,5 @@ dependency relations, respectively. Both these dependency views on
 ERG tokenization conventions, another using PTB-style tokens.
 
 
-Last updated: Alexandre Rademaker - Mon Feb 14 15:08:23 2022 -0300
+Page last updated by Alexandre Rademaker - 2022-02-14
 {% endraw %}

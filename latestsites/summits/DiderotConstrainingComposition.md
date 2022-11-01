@@ -271,5 +271,5 @@ Dan: In order to get these through?
 
 Ann: No, just a consequence of how I set it up.
 
-Last updated: GuyEmerson - Wed Jun 27 18:01:18 2018 +0000
+Page last updated by GuyEmerson - 2018-06-27
 {% endraw %}

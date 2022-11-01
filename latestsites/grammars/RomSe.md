@@ -124,5 +124,5 @@ E.g., melt/break/sink alternations
 - how regular?
 - how to analyze...?
 
-Last updated: JesseTseng - Fri Jun 29 20:36:20 2007 +0000
+Page last updated by JesseTseng - 2007-06-29
 {% endraw %}

@@ -112,5 +112,5 @@
 | 1061 | Não ladres!                                             | Don't bark!                                   |
 | 1071 | O cão chegou a ladrar.                                  | The dog arrived barking.                      |
 
-Last updated: FranciscoCosta - Wed Jul 31 10:21:27 2013 +0000
+Page last updated by FranciscoCosta - 2013-07-31
 {% endraw %}

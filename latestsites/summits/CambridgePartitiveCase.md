@@ -173,5 +173,5 @@ anything about its complements with complements. Burden is on the side
 where you have the least information. If you do the permutation on the
 lexical lists (on the lexical verb), that’s the one that combines late.
 
-Last updated: EmilyBender - Wed Jul 17 19:09:33 2019 +0000
+Page last updated by EmilyBender - 2019-07-17
 {% endraw %}

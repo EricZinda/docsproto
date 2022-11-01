@@ -134,5 +134,5 @@ organizing the WeScience Treebank.
 
 # Acknowledgements
 
-Last updated: StephanOepen - Sun Aug 5 23:53:14 2012 +0000
+Page last updated by StephanOepen - 2012-08-05
 {% endraw %}

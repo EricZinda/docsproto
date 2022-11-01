@@ -47,5 +47,5 @@
 | Operating systems          | any for which processing engine available |
 | Notes                      |                                           |
 
-Last updated: LarsHellan - Sun Jan 18 17:49:56 2015 +0000
+Page last updated by LarsHellan - 2015-01-18
 {% endraw %}

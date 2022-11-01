@@ -18,5 +18,5 @@ application. For example:
    4 
 ```
 
-Last updated: Alexandre Rademaker - Thu Jul 1 11:28:31 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-07-01
 {% endraw %}

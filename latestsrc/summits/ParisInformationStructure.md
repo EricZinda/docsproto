@@ -100,5 +100,5 @@ Key examples:
 \[not quite like that.\]
 - \[Some example with two clefts, one inside a rel cl??\]
 
-Last updated: EmilyBender - Thu Jul 22 02:36:49 2010 +0000
+Page last updated by EmilyBender - 2010-07-22
 {% endraw %}

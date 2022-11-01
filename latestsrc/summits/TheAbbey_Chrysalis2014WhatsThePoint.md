@@ -492,5 +492,5 @@ answered.
 Woodley: There are some good answers there, but it's not necessarily
 complete.
 
-Last updated: EmilyBender - Sun Feb 16 04:54:33 2014 +0000
+Page last updated by EmilyBender - 2014-02-16
 {% endraw %}

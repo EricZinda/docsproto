@@ -288,5 +288,5 @@ backward-application of variable type mappings?
 bother with &lt;&gt; operators (instead of just &gt;&gt;), and
 what's the point of the semarg &lt;&lt; u line in the example?
 
-Last updated: MichaelGoodman - Thu Feb 23 00:59:08 2017 +0000
+Page last updated by MichaelGoodman - 2017-02-23
 {% endraw %}

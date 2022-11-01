@@ -59,5 +59,5 @@ Integrating grammar approximation, default unification, and elementary
 semantic dependencies. Accessed Feb-01-2017 from:
 <http://www.mn.uio.no/ifi/english/people/aca/oe/robustness.pdf>
 
-Last updated: WoodleyPackard - Fri Aug 11 15:40:27 2017 +0000
+Page last updated by WoodleyPackard - 2017-08-11
 {% endraw %}

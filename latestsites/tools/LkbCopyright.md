@@ -28,5 +28,5 @@ claim, damages or other liability, whether in an action of contract,
 tort or otherwise, arising from, out of or in connection with the
 software or the use or other dealings in the software.**
 
-Last updated: JohnCarroll - Thu Mar 19 18:04:26 2020 +0000
+Page last updated by JohnCarroll - 2020-03-19
 {% endraw %}

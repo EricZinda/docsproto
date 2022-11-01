@@ -176,5 +176,5 @@ To evaluate a model:
 
     evaluate para_df-smooth.par test_df.eve.gz
 
-Last updated: FrancisBond - Thu Sep 27 03:01:02 2012 +0000
+Page last updated by FrancisBond - 2012-09-27
 {% endraw %}

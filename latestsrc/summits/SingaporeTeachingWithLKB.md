@@ -29,5 +29,5 @@ Problem: people are scared of command line and simplistic UI
 
 - How to solve?..
 
-Last updated: StephanOepen - Wed Aug 12 13:26:41 2015 +0000
+Page last updated by StephanOepen - 2015-08-12
 {% endraw %}

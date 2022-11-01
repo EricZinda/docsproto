@@ -363,5 +363,5 @@ Emily: What does the typological literature call this?
 
 Olga: Constituent questions, or information questions.
 
-Last updated: GlennSlayden - Tue Jun 19 21:07:34 2018 +0000
+Page last updated by GlennSlayden - 2018-06-19
 {% endraw %}

@@ -216,5 +216,5 @@ similar to the one you are building at NTU.
 Dan: We can get more money maybe if we show that annotation is
 beneficial (with numbers).
 
-Last updated: GlennSlayden - Fri Jul 17 08:03:40 2020 +0000
+Page last updated by GlennSlayden - 2020-07-17
 {% endraw %}

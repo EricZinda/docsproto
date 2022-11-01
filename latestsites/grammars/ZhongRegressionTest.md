@@ -75,5 +75,5 @@ can run the following under zhong/cmn/zhs.
 
 Finally, don't forget submitting your new profile into the repository.
 
-Last updated: SanghounSong - Thu Mar 19 10:46:21 2015 +0000
+Page last updated by SanghounSong - 2015-03-19
 {% endraw %}

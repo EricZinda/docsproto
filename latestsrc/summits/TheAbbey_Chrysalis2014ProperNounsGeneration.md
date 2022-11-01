@@ -747,5 +747,5 @@ Secretaries of State and War?
 
 Emily: We already have to do something special for those.
 
-Last updated: EmilyBender - Mon Feb 17 04:36:52 2014 +0000
+Page last updated by EmilyBender - 2014-02-17
 {% endraw %}

@@ -226,5 +226,5 @@ useful for automatically scoring machine translation.
 
 - It gets confused if there are more than 9 translations ...
 
-Last updated: MichaelGoodman - Thu Mar 21 02:56:48 2013 +0000
+Page last updated by MichaelGoodman - 2013-03-21
 {% endraw %}

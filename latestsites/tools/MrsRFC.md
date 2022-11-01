@@ -521,5 +521,5 @@ ICReln := ConstName
 ConstName := Token
 ```
 
-Last updated: Alexandre Rademaker - Thu Sep 2 21:40:41 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-09-02
 {% endraw %}

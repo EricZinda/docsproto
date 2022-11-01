@@ -161,5 +161,5 @@ or whatever number you like.
     url = "https://www.aclweb.org/anthology/C12-1043",
     pages = "695--710"}
 
-Last updated: Alexandre Rademaker - Mon Jun 21 18:39:51 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-06-21
 {% endraw %}

@@ -22,5 +22,5 @@ Three classes of irregular verbs:
 
 ## kurusuru-stem
 
-Last updated: FrancisBond - Wed Mar 14 10:00:32 2007 +0000
+Page last updated by FrancisBond - 2007-03-14
 {% endraw %}

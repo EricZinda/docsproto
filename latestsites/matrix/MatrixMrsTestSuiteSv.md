@@ -113,5 +113,5 @@
 | 1061 | Skäll inte!                                               | Don't bark!                                   |
 | 1071 | Hunden kom skällande.                                     | The dog arrived barking.                      |
 
-Last updated: anonymous - Sun Oct 9 00:12:08 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

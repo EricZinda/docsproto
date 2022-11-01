@@ -74,5 +74,5 @@ right points to the grammarian.
 Antske: Given the time constraints, something can be done on
 prioritization. Let me know if you have specific requests.
 
-Last updated: AntskeFokkens - Wed Jul 16 12:18:03 2014 +0000
+Page last updated by AntskeFokkens - 2014-07-16
 {% endraw %}

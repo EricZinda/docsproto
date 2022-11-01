@@ -59,5 +59,5 @@ In gmcs.choices, in the definition of the class
 That return value should be updated whenever a new uprev function (and
 thus a new choices file version) is defined.
 
-Last updated: OlgaZamaraeva - Sat Dec 9 01:09:05 2017 +0000
+Page last updated by OlgaZamaraeva - 2017-12-09
 {% endraw %}

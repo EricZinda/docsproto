@@ -61,5 +61,5 @@ inter-dependencies between the grammar and processing
 considered in processing, as well. A close cooperation between grammar
 engineering and processing people is needed.
 
-Last updated: YiZhang - Sun Aug 26 19:24:41 2007 +0000
+Page last updated by YiZhang - 2007-08-26
 {% endraw %}

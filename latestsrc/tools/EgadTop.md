@@ -28,5 +28,5 @@ Detection](http://www.aclweb.org/anthology/P/P09/P09-2028.pdf), In
 *Proceedings of the ACL-IJCNLP 2009 Conference Short Papers*, Singapore,
 pp 109-112.
 
-Last updated: anonymous - Sun Oct 9 00:12:11 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

@@ -72,5 +72,5 @@ description in order to know how the text in the various
 translations correlate to each other; -- guidelines Wiki subpage
 to be created by Oslo;
 
-Last updated: anonymous - Sun Oct 9 00:12:12 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

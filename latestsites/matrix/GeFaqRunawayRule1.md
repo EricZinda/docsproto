@@ -47,5 +47,5 @@ something big enough for the grammar to parse your sentences with (e.g.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: EmilyBender - Tue Feb 9 19:26:03 2016 +0000
+Page last updated by EmilyBender - 2016-02-09
 {% endraw %}

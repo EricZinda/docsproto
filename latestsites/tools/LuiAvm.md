@@ -55,5 +55,5 @@ purposes), and if the AVM being browsed contains unification failure
 information, then there are a few more interesting options to explore.
 For more information see the [LuiUnification](../LuiUnification) page.
 
-Last updated: anonymous - Sun Oct 9 00:12:19 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

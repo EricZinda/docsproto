@@ -69,5 +69,5 @@ web interface (hosted at The University of Melbourne) or you can
 [install it locally](http://github.com/ned2/grammalytics).See the
 README.md file for installation instructions.
 
-Last updated: NedLetcher - Thu Sep 17 15:21:03 2015 +0000
+Page last updated by NedLetcher - 2015-09-17
 {% endraw %}

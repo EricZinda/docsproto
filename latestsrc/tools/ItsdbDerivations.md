@@ -190,5 +190,5 @@ derivation. This problem was resolved in early 2012.
 
 - comments about ACE related to UDF and UDX.
 
-Last updated: Alexandre Rademaker - Sat Aug 6 20:02:04 2022 -0300
+Page last updated by Alexandre Rademaker - 2022-08-06
 {% endraw %}

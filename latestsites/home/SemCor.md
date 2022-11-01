@@ -35,5 +35,5 @@ from [Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html)
 
 :warning:
 
-Last updated: FrancisBond - Fri Oct 25 01:05:48 2013 +0000
+Page last updated by FrancisBond - 2013-10-25
 {% endraw %}

@@ -329,5 +329,5 @@ instance specified.
     (defparameter *non-idiom-root*
         'root_non_idiom )
 
-Last updated: GlennSlayden - Tue Dec 6 14:10:40 2011 +0000
+Page last updated by GlennSlayden - 2011-12-06
 {% endraw %}

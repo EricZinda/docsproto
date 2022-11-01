@@ -115,5 +115,5 @@ file](https://pet.opendfki.de/browser/pet/main/logging.properties) is
 provided with the PET source code. Copy this file to your grammar
 directory and adapt it accordingly.
 
-Last updated: anonymous - Sun Oct 9 00:12:15 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

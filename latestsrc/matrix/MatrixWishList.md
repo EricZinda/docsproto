@@ -14,5 +14,5 @@ sample choices for Japanese" (or possibly even some other language).
 This would allow people to play with a sample grammar without having
 to fill out several pages of forms.
 
-Last updated: FrancisBond - Wed May 2 17:32:07 2007 +0000
+Page last updated by FrancisBond - 2007-05-02
 {% endraw %}

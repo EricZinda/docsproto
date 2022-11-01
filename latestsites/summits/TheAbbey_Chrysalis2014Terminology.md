@@ -154,5 +154,5 @@ words. Whenever there's construction semantics, we can lose it or look
 for a way of pushing it down onto individual tokens. I think would be
 more productive to do these in terms of actual examples…
 
-Last updated: EmilyBender - Mon Feb 17 04:29:01 2014 +0000
+Page last updated by EmilyBender - 2014-02-17
 {% endraw %}

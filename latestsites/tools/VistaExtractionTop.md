@@ -131,5 +131,5 @@ and how a treebank extracted with its help looks like, you may want to
 check the online search service over our CINTIL-Treebank, which is found
 [here](http://lxcenter.di.fc.ul.pt/services/en/LXServicesSearcher.html).
 
-Last updated: anonymous - Sun Oct 9 00:12:08 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

@@ -70,5 +70,5 @@ WP: Feature request: not bad thing to continue efficiency quest to
 ultimately surpass ACE so I don't have to do anything.
 :slightly\_smiling\_face:
 
-Last updated: JohnCarroll - Tue Jul 28 17:02:45 2020 +0000
+Page last updated by JohnCarroll - 2020-07-28
 {% endraw %}

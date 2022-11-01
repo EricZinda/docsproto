@@ -75,5 +75,5 @@ imperatives has been stable for many years.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: EmilyBender - Thu Jun 4 20:12:29 2015 +0000
+Page last updated by EmilyBender - 2015-06-04
 {% endraw %}

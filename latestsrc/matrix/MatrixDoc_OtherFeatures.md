@@ -249,5 +249,5 @@ Grammar Engineering Platform},\
 volume = {28}\
 }
 
-Last updated: VaryaGracheva - Sun Feb 24 08:04:11 2013 +0000
+Page last updated by VaryaGracheva - 2013-02-24
 {% endraw %}

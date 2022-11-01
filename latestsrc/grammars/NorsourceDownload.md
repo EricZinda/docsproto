@@ -11,5 +11,5 @@ Currently empty
 [Lesser General Public License For Linguistic
 Resources](http://infolingu.univ-mlv.fr/DonneesLinguistiques/Lexiques-Grammaires/lgpllr.html)
 
-Last updated: LarsHellan - Sun Jan 18 19:20:31 2015 +0000
+Page last updated by LarsHellan - 2015-01-18
 {% endraw %}

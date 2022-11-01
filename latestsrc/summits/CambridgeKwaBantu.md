@@ -110,5 +110,5 @@ quickly push slowly fall combination.
 
 Berthold: Brings discussion to close.
 
-Last updated: OlgaZamaraeva - Mon Jul 15 17:59:38 2019 +0000
+Page last updated by OlgaZamaraeva - 2019-07-15
 {% endraw %}

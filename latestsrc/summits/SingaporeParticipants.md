@@ -85,5 +85,5 @@ Aug. 12)
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Aug. 3 - Aug. 7 + HPSG)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (unfortunately can't make it)
 
-Last updated: WoodleyPackard - Fri Jul 31 09:38:18 2015 +0000
+Page last updated by WoodleyPackard - 2015-07-31
 {% endraw %}

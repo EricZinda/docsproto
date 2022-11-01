@@ -26,5 +26,5 @@ representations produced by the ERG
 - [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
 
-Last updated: EmilyBender - Thu Oct 15 19:22:16 2020 +0000
+Page last updated by EmilyBender - 2020-10-15
 {% endraw %}

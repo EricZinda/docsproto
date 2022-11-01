@@ -125,5 +125,5 @@ Glenn: Sumo is GPL
 
 Francis: Links to WN are not, by our request.
 
-Last updated: RebeccaDridan - Mon Jun 27 11:09:10 2016 +0000
+Page last updated by RebeccaDridan - 2016-06-27
 {% endraw %}

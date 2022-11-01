@@ -76,5 +76,5 @@ maybe, depending on the type of machine that you have available). It
 should result in new files kf.a.mtr, kf.n.mtr, and kf.nn.mtr, containing
 on the order of 15,000 transfer rules.
 
-Last updated: anonymous - Sun Oct 9 00:12:18 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}
