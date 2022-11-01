@@ -39,5 +39,5 @@ MUSE database.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Thu Jun 4 20:03:33 2015 +0000
 {% endraw %}

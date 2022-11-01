@@ -78,5 +78,5 @@ missing determiners.
 
 - ace -G erg-2018.dat -g ..../erg-2018/ace/config-educ.tdl
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EricZinda - Tue Aug 23 15:09:52 2022 -0700
 {% endraw %}

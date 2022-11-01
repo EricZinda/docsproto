@@ -133,5 +133,5 @@ potentially be used to guide beam search or top-down prediction.
 Olga: I'm afraid we're out of time. Thanks to all for the interesting
 discussion.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: JohnCarroll - Wed Jul 15 00:47:56 2020 +0000
 {% endraw %}

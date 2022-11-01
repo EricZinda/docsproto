@@ -39,5 +39,5 @@ on?](GeFaqConfusingTypo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: NedLetcher - Mon Sep 17 08:24:16 2012 +0000
 {% endraw %}

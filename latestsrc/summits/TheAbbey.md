@@ -4,5 +4,5 @@ organization of DELPH-IN participation from Bellingham, WA. See also:
 - [AbbeyApposition](../AbbeyApposition)
 - [TheAbbey/Chrysalis2014](../TheAbbey_Chrysalis2014)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Sun Feb 16 04:33:24 2014 +0000
 {% endraw %}

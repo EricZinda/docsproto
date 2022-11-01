@@ -121,5 +121,5 @@ Yi created a two-phase parsing algorithm that, in case the deep grammar
 does not succeed, a CFG backbone is used to still get a reasonable
 parse. This still has to be integrated in the main branch.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:07 2011 +0000
 {% endraw %}

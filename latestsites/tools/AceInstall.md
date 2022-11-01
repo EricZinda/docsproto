@@ -163,5 +163,5 @@ following command:
 
 See <https://github.com/delph-in/homebrew-delphin> for the Homebrew tap.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: T.J. Trimble - Sat Jun 12 07:00:07 2021 -0700
 {% endraw %}

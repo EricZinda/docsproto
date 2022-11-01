@@ -111,5 +111,5 @@ Or even if the goal is to produce an MRS, what are the ways to position the task
 **Emily (in chat):** [SustaiNLP](https://sites.google.com/view/sustainlp2021/home)
 
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: mcmillanmajora - Wed Jul 21 11:21:25 2021 -0700
 {% endraw %}

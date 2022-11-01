@@ -133,5 +133,5 @@ for the syntax trees. Note that mrs.sty assumes relsize.sty has been
 loaded, and qtree.sty requires pict2e.sty (which it will load
 automatically).
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: MichaelGoodman - Tue Mar 26 09:52:41 2019 +0000
 {% endraw %}

@@ -293,5 +293,5 @@ Guy: But you've still said two predicates, not just one.
 Joshua: I'm still not sure what it means for something to be a
 predicate.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Fri Jun 17 02:11:11 2016 +0000
 {% endraw %}

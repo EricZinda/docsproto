@@ -134,5 +134,5 @@ evaluations compare the output with the human caption, but obviously
 there are a thousand ways to describe an image. This allows it to
 generate something correct but different.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: GuyEmerson - Fri Aug 11 15:57:44 2017 +0000
 {% endraw %}

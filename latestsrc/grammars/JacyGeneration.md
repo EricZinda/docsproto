@@ -9,5 +9,5 @@ generate formal or informal versions of words.
   - \- maybe this could be done by convention in the predicate
 names: block everything with "chasen" in the id-name
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: MichaelGoodman - Fri Oct 17 09:18:57 2008 +0000
 {% endraw %}

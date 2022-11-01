@@ -112,5 +112,5 @@
 | 1061 | Bell nicht!                                                   | Don't bark!                                   |
 | 1071 | Der Hund kam bellend an.                                      | The dog arrived barking.                      |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:12 2011 +0000
 {% endraw %}

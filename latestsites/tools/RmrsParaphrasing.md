@@ -134,5 +134,5 @@ eat"
   - no-one is working on this within the lkb
   - we can do some of this with paraphrase rules
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: GlennSlayden - Tue Dec 13 09:55:54 2011 +0000
 {% endraw %}

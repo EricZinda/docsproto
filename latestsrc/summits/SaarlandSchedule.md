@@ -181,5 +181,5 @@ sprints](http://www.booksprints.net/))
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Wed Sep 4 23:21:26 2013 +0000
 {% endraw %}

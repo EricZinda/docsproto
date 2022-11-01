@@ -155,5 +155,5 @@ on Tuesday), David, (Petter), (Woodley), Glenn
 - Stephan Oepen (Oslo) Program Chair
 - Emily M. Bender (UW) Local Organizer
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:14 2011 +0000
 {% endraw %}

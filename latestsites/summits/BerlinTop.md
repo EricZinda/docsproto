@@ -226,5 +226,5 @@ Proposed discussion topics:
 - [EvaluationParCorp](../EvaluationParCorp) (continuation of discussion
 about parallel corpora)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:16 2011 +0000
 {% endraw %}

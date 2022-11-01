@@ -249,5 +249,5 @@ generation
 | w/o auto      | 2015-03-12 | 0.0          | 1.7          | 0.0         | 1.1          | N/A            | N/A            |
 | change        | YYYY-MM-DD | ordinary     | unk          | br          | unk+br       | generation     | end-to-end     |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: SanghounSong - Mon Jul 20 05:55:22 2015 +0000
 {% endraw %}

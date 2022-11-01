@@ -39,5 +39,5 @@ Construction in a Head-Final
 Language](http:http://faculty.washington.edu/ebender/papers/jnn.pdf)*.
 manuscript (comments welcome)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:13 2011 +0000
 {% endraw %}

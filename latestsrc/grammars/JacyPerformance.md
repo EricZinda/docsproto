@@ -204,5 +204,5 @@ See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/P
 - The Idiom optimizations don't seem to be working
 - It would be nice to use supertagging
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: FrancisBond - Wed Jan 11 00:49:34 2017 +0000
 {% endraw %}

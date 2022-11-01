@@ -48,5 +48,5 @@ There is also a [mailing
 list](http://lists.delph-in.net/mailman/listinfo/hog) for discussions
 and announcements concerning Heart of Gold.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Olga Zamaraeva - Thu Jun 3 12:35:54 2021 -0700
 {% endraw %}

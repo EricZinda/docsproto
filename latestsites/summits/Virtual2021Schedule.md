@@ -122,5 +122,5 @@
 | 14:45-15:00| | Closing remarks | Dan and Olga |
 | 15:00-15:30| |**Social in gathertown** |  |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Olga Zamaraeva - Fri Jul 23 10:24:56 2021 -0700
 {% endraw %}

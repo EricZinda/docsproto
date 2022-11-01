@@ -121,5 +121,5 @@ Note: test set annotated with Norwegian translations.
 | [1061](http://cypriot.stanford.edu/~bond/mrs-en060524/1061.html) | Don't bark!                                   |                |
 | [1071](http://cypriot.stanford.edu/~bond/mrs-en060524/1071.html) | The dog arrived barking.                      |                |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:11 2011 +0000
 {% endraw %}

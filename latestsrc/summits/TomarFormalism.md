@@ -269,5 +269,5 @@ for lists up to length N, which is ugly.
 oe: best outcome: do something that gives the appearance of outreach,
 but do so in a self-serving manner. Don't set formalism in stone.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Wed Jul 16 16:41:06 2014 +0000
 {% endraw %}

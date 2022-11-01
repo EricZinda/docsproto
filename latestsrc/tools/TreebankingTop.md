@@ -21,5 +21,5 @@ And some guides to tools:
 descriptions of rules, lexical types and more can be found here
 - [Classic Treebanking with the Fine System](../ItsdbTreebanking)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: FrancisBond - Fri Jun 19 08:39:16 2020 +0000
 {% endraw %}

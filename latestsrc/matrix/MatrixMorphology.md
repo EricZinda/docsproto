@@ -41,5 +41,5 @@ directly affect lexical integrity (ability to use lexemes with syntactic
 (phrasal) rules. [Goodman and Bender
 2010](http://makino.linguist.univ-paris-diderot.fr/files/hpsg2010/file/abstracts/MFG/goodman-bender-mfg.pdf)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:11 2011 +0000
 {% endraw %}

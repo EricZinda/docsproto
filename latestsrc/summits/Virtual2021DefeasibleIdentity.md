@@ -144,5 +144,5 @@ John: The most reliable test would be with an old image of the classical LKB fro
 
 Glenn: Maybe a KNOPPIX image?
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Guy Emerson - Fri Jul 23 19:51:49 2021 +0100
 {% endraw %}

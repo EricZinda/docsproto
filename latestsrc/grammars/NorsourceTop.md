@@ -112,5 +112,5 @@ ESSLLI 2003.
 1989, Hellan, L., L. Johnsen and A. Pitz. 1989. TROLL. Ms., Univ. of
 Trondheim.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: LarsHellan - Sun Jan 18 19:31:20 2015 +0000
 {% endraw %}

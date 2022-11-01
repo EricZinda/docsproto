@@ -37,5 +37,5 @@ An updated version of the Docker-based approach created by Lluís Padró
 is available [here](https://github.com/arademaker/docker-logon), this
 version is maintained by [AlexandreRademaker](../AlexandreRademaker).
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: AlexandreRademaker - Tue Jan 29 20:21:48 2019 +0000
 {% endraw %}

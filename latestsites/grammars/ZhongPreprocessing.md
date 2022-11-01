@@ -88,5 +88,5 @@ may want to register JAVAHOME in your bashrc, too. For example,
 
     export JAVAHOME=/usr/bin/java
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: SanghounSong - Thu Jan 22 11:53:32 2015 +0000
 {% endraw %}

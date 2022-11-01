@@ -46,5 +46,5 @@ added soon.
 Please register for the 2020 DELPH-IN Summit on the
 [BellinghamParticipants](../BellinghamParticipants) page.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Mon Jun 22 23:27:36 2020 +0000
 {% endraw %}

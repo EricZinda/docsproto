@@ -225,5 +225,5 @@ interpretation where everyone ate lunch together. Maybe semanticists
 have other ways of handling the two readings, but it seems like scope
 ambiguity is a pretty plausible way to do it.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: GlennSlayden - Tue Aug 8 16:02:06 2017 +0000
 {% endraw %}

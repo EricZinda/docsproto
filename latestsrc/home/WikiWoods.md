@@ -99,5 +99,5 @@ Following is an attempt at listing related initiatives. In case you know
 of additional pointers that should be included, please email
 Stephan Oepen.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Alexandre Rademaker - Tue Jul 20 18:20:31 2021 -0300
 {% endraw %}

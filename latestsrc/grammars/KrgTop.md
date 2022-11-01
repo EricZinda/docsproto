@@ -29,5 +29,5 @@ parsing and generation.
 - lkb/test: If you want to test each grammar module with a small size
 of lexicon, please take this.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: FrancisBond - Mon Oct 10 04:46:50 2011 +0000
 {% endraw %}

@@ -562,5 +562,5 @@ Something like
 - [Mailing list discussion about docstrings
 (Aug 2018)](http://lists.delph-in.net/archives/developers/2018/002792.html)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Glenn Slayden - Sun Aug 7 15:19:12 2022 -0700
 {% endraw %}

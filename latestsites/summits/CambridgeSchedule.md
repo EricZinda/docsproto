@@ -133,5 +133,5 @@ spreadsheet](https://docs.google.com/spreadsheets/d/1uME2uyl9OpqUzvcXczKb4wiNCCT
 |            14:00            |                                                      Semantics of nominalization (Emily Bender) [Notes](../CambridgeNominalization)                                                       |
 |                             |                                                                                                                                                                                        |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Alexandre Rademaker - Thu Sep 16 22:45:19 2021 -0300
 {% endraw %}

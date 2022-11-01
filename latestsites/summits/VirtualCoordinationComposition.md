@@ -712,5 +712,5 @@ this analysis would enable paraphrases that permute the conjuncts
 though that might be undesirable with different coordinators—win some,
 lose some).
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Tue Aug 25 23:01:12 2020 +0000
 {% endraw %}
