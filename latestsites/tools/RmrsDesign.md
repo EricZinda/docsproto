@@ -195,4 +195,5 @@ be an EP: Tense can bear scope, but knowing which event the tense is
 associated with is enough to know what its scope possibilities are,
 so tense can be a variable property.
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

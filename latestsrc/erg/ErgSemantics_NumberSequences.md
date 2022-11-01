@@ -76,4 +76,5 @@ ARG1 and ARG2?
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

@@ -121,4 +121,5 @@ data sets (from WSJ sec 0, Wikipedia and maybe some TREC question sets),
 and get gold standard treebanks from DELPH-IN HPSG, Tokyo HPSG, CCG and
 Rasp at least, there were no concrete action points decided on....
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

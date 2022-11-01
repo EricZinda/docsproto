@@ -13,4 +13,5 @@ people repeat themselves).
 first draft ready when people have to start planning trips. This
 also helps for people to argue for funding.
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

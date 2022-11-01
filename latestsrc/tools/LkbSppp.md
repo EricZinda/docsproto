@@ -177,4 +177,5 @@ sppp.lsp, which is in the same directory as the fake sppp script.
       <!ATTLIST rule id NMTOKEN #REQUIRED
                      form CDATA #REQUIRED >
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}
