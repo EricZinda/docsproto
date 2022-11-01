@@ -3,6 +3,7 @@ import json
 import os
 import posixpath
 import shutil
+import subprocess
 import sys
 import urllib.parse
 
@@ -45,6 +46,12 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
             file_definition["FileMissing"] = True
 
 
+def get_change_text(src_file_path):
+    result = subprocess.check_output(["git", "log", "-s", "-n1", f'--pretty=tformat:%an - %cd', f'{src_file_path}']).decode("utf-8")
+    final = "\n_Last updated: " + result + "_"
+    return final
+
+
 def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
     if file_extension.lower() == ".md":
@@ -60,6 +67,7 @@ def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_pa
             # wrap all markdown with raw/endraw so that Jekyll won't interpret {{ as being a Jekyll liquid expression
             txtFile.write("{% raw %}")
             txtFile.write(final_result)
+            txtFile.write(get_change_text(src_file_path))
             txtFile.write("{% endraw %}")
             print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
 
