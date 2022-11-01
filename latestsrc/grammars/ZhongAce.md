@@ -35,5 +35,4 @@ Interface) can be invoked by using an option -l.
 You can use the YY mode for your input of parsing. See
 [ZhongYYMode](../ZhongYYMode).
 
-Page last updated by SanghounSong - 2015-03-25
-{% endraw %}
+Page last updated by SanghounSong - 2015-03-25([edit](https://github.com/delph-in/docs/wiki/ZhongAce/_edit)){% endraw %}

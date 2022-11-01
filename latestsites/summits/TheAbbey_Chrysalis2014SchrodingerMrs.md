@@ -213,5 +213,4 @@ useful for the
 
 \*\`gave a headache to Kim' puzzle than Georgia Green wrote about
 
-Page last updated by FrancisBond - 2014-02-18
-{% endraw %}
+Page last updated by FrancisBond - 2014-02-18([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014SchrodingerMrs/_edit)){% endraw %}

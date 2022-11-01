@@ -226,5 +226,4 @@ Proposed discussion topics:
 - [EvaluationParCorp](../EvaluationParCorp) (continuation of discussion
 about parallel corpora)
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/BerlinTop/_edit)){% endraw %}

@@ -182,5 +182,4 @@ including removing any material excessive in length or of marginal
 relevance. Note that I would normally check with the original author
 if I did this, but may not for very minor changes.
 
-Page last updated by EricZinda - 2022-09-14
-{% endraw %}
+Page last updated by EricZinda - 2022-09-14([edit](https://github.com/delph-in/docs/wiki/DelphinNews/_edit)){% endraw %}

@@ -26,5 +26,4 @@ is nominative or accusative") can be expressed thus:
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-21
-{% endraw %}
+Page last updated by NedLetcher - 2012-08-21([edit](https://github.com/delph-in/docs/wiki/GeFaqNegValue/_edit)){% endraw %}

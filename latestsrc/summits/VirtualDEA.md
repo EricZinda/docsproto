@@ -216,5 +216,4 @@ similar to the one you are building at NTU.
 Dan: We can get more money maybe if we show that annotation is
 beneficial (with numbers).
 
-Page last updated by GlennSlayden - 2020-07-17
-{% endraw %}
+Page last updated by GlennSlayden - 2020-07-17([edit](https://github.com/delph-in/docs/wiki/VirtualDEA/_edit)){% endraw %}

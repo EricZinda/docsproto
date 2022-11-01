@@ -134,5 +134,4 @@ organizing the WeScience Treebank.
 
 # Acknowledgements
 
-Page last updated by StephanOepen - 2012-08-05
-{% endraw %}
+Page last updated by StephanOepen - 2012-08-05([edit](https://github.com/delph-in/docs/wiki/WeScience/_edit)){% endraw %}

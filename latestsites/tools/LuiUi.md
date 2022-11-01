@@ -34,5 +34,4 @@ The LaTeX export from LUI uses
 [qtree.sty](http://www.ctan.org/tex-archive/macros/latex/contrib/qtree/)
 for trees.
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/LuiUi/_edit)){% endraw %}

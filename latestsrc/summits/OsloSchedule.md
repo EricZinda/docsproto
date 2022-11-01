@@ -174,5 +174,4 @@ Carroll)
 - Tutorial: Getting set up for robust parsing (Woodley Packard, Dan
 Flickinger)
 
-Page last updated by GuyEmerson - 2018-06-28
-{% endraw %}
+Page last updated by GuyEmerson - 2018-06-28([edit](https://github.com/delph-in/docs/wiki/OsloSchedule/_edit)){% endraw %}

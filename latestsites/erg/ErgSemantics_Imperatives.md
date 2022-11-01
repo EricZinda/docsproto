@@ -75,5 +75,4 @@ imperatives has been stable for many years.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by EmilyBender - 2015-06-04
-{% endraw %}
+Page last updated by EmilyBender - 2015-06-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Imperatives/_edit)){% endraw %}

@@ -147,5 +147,4 @@ Computational Linguistics.
 Yao, X., Bouma, G., & Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue & Discourse, 3(2), 11-42.
 
-Page last updated by Dan Flickinger - 2021-11-04
-{% endraw %}
+Page last updated by Dan Flickinger - 2021-11-04([edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)){% endraw %}

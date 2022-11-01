@@ -211,5 +211,4 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 
 # Unknown Word Handling
 
-Page last updated by StephanOepen - 2013-10-24
-{% endraw %}
+Page last updated by StephanOepen - 2013-10-24([edit](https://github.com/delph-in/docs/wiki/ErgTokenization/_edit)){% endraw %}

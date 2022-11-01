@@ -27,5 +27,4 @@ brackets.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-14
-{% endraw %}
+Page last updated by NedLetcher - 2012-08-14([edit](https://github.com/delph-in/docs/wiki/GeFaqNoPossibleType/_edit)){% endraw %}

@@ -36,5 +36,4 @@ section=toolbox-import
 \psrev n
 ```
 
-Page last updated by Olga Zamaraeva - 2021-06-28
-{% endraw %}
+Page last updated by Olga Zamaraeva - 2021-06-28([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ImportToolboxLexicon/_edit)){% endraw %}

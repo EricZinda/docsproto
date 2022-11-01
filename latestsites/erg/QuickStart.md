@@ -133,5 +133,4 @@ reading results for                2    2 results
 If you want a more full-featured setup for grammar development, you
 might look into the full LOGON distribution: [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
 
-Page last updated by EricZinda - 2022-09-12
-{% endraw %}
+Page last updated by EricZinda - 2022-09-12([edit](https://github.com/delph-in/docs/wiki/QuickStart/_edit)){% endraw %}

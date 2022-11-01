@@ -121,5 +121,4 @@ If you have any questions or comments, please email
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/KyotoTop/_edit)){% endraw %}

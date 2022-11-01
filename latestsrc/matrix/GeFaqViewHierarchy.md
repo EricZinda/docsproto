@@ -14,5 +14,4 @@ will need to look at specific subsets of the hierarchy.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-09-17
-{% endraw %}
+Page last updated by NedLetcher - 2012-09-17([edit](https://github.com/delph-in/docs/wiki/GeFaqViewHierarchy/_edit)){% endraw %}

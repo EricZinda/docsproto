@@ -243,5 +243,4 @@ This should work in the LKB SVN as well as the LOGON tree, and is the
 basis for ranking and selective unpacking in generation and also in
 parsing.
 
-Page last updated by JohnCarroll - 2020-05-21
-{% endraw %}
+Page last updated by JohnCarroll - 2020-05-21([edit](https://github.com/delph-in/docs/wiki/LkbGeneration/_edit)){% endraw %}

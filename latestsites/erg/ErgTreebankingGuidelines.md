@@ -248,5 +248,4 @@ lexent type name
 as clauses with all arguments overt; do not include in+order+to
 purposives, etc.\]
 
-Page last updated by AlexandreRademaker - 2020-07-23
-{% endraw %}
+Page last updated by AlexandreRademaker - 2020-07-23([edit](https://github.com/delph-in/docs/wiki/ErgTreebankingGuidelines/_edit)){% endraw %}

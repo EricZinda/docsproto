@@ -262,5 +262,4 @@ publisher = {CSLI Publications},\
 year = {2012}\
 }
 
-Page last updated by GuyEmerson - 2018-05-07
-{% endraw %}
+Page last updated by GuyEmerson - 2018-05-07([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_InformationStructure/_edit)){% endraw %}

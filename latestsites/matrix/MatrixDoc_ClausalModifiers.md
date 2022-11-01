@@ -399,5 +399,4 @@ Adverbial clauses. Language typology and syntactic description. Volume
 2: Complex constructions. ed. by Timothy Shopen. 237269. Cambridge:
 Cambridge University Press.
 
-Page last updated by KristenHowell - 2018-05-09
-{% endraw %}
+Page last updated by KristenHowell - 2018-05-09([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ClausalModifiers/_edit)){% endraw %}

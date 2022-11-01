@@ -78,5 +78,4 @@ missing determiners.
 
 - ace -G erg-2018.dat -g ..../erg-2018/ace/config-educ.tdl
 
-Page last updated by EricZinda - 2022-08-23
-{% endraw %}
+Page last updated by EricZinda - 2022-08-23([edit](https://github.com/delph-in/docs/wiki/AceErgTuning/_edit)){% endraw %}

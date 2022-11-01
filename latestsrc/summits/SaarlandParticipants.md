@@ -93,5 +93,4 @@ approval =))
 it)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (attending, July 29 - Aug. 2)
 
-Page last updated by AnnCopestake - 2013-08-01
-{% endraw %}
+Page last updated by AnnCopestake - 2013-08-01([edit](https://github.com/delph-in/docs/wiki/SaarlandParticipants/_edit)){% endraw %}

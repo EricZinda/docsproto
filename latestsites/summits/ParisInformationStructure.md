@@ -100,5 +100,4 @@ Key examples:
 \[not quite like that.\]
 - \[Some example with two clefts, one inside a rel cl??\]
 
-Page last updated by EmilyBender - 2010-07-22
-{% endraw %}
+Page last updated by EmilyBender - 2010-07-22([edit](https://github.com/delph-in/docs/wiki/ParisInformationStructure/_edit)){% endraw %}

@@ -143,5 +143,4 @@ Constructions ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools
 [MelanieSiegel](/MelanieSiegel), [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender),
 [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
 
-Page last updated by MichaelGoodman - 2016-07-06
-{% endraw %}
+Page last updated by MichaelGoodman - 2016-07-06([edit](https://github.com/delph-in/docs/wiki/StanfordSchedule/_edit)){% endraw %}

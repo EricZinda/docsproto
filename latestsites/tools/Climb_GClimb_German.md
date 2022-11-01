@@ -233,5 +233,4 @@ linguistic precision grammars. PhD thesis. Saarland University.\
 Please contact me if you are interested in this information before the
 PhD is done.
 
-Page last updated by AntskeFokkens - 2012-12-31
-{% endraw %}
+Page last updated by AntskeFokkens - 2012-12-31([edit](https://github.com/delph-in/docs/wiki/Climb_GClimb_German/_edit)){% endraw %}

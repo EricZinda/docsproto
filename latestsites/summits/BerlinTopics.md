@@ -3,5 +3,4 @@
 - Compounds
 - Morphology
 
-Page last updated by JesseTseng - 2007-08-20
-{% endraw %}
+Page last updated by JesseTseng - 2007-08-20([edit](https://github.com/delph-in/docs/wiki/BerlinTopics/_edit)){% endraw %}

@@ -47,5 +47,4 @@
 | Operating systems          | any for which processing engine available |
 | Notes                      |                                           |
 
-Page last updated by LarsHellan - 2015-01-18
-{% endraw %}
+Page last updated by LarsHellan - 2015-01-18([edit](https://github.com/delph-in/docs/wiki/NorsourceSummary/_edit)){% endraw %}

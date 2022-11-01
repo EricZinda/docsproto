@@ -3,5 +3,4 @@
 <img src="http://www.dfki.de/~uschaefer/delph-in/Sanssouci.jpg" title="http://www.dfki.de/~uschaefer/delph-in/Sanssouci.jpg" class="external_image" alt="http://www.dfki.de/~uschaefer/delph-in/Sanssouci.jpg" />
 
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/BerlinPhotos/_edit)){% endraw %}

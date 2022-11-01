@@ -123,5 +123,4 @@ from Sea-Tac airport to ferry terminal, via Link Light Rail.
 - 2006 2nd Summit: [Fefor](../FeforTop)
 - 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/SuquamishTop/_edit)){% endraw %}

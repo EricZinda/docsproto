@@ -126,5 +126,4 @@ phenomenon libraries.
             tests/
                 testMorphotactics.py
 
-Page last updated by Olga Zamaraeva - 2021-06-04
-{% endraw %}
+Page last updated by Olga Zamaraeva - 2021-06-04([edit](https://github.com/delph-in/docs/wiki/MatrixCustomizationUnitTesting/_edit)){% endraw %}

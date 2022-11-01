@@ -122,5 +122,4 @@
 | 14:45-15:00| | Closing remarks | Dan and Olga |
 | 15:00-15:30| |**Social in gathertown** |  |
 
-Page last updated by Olga Zamaraeva - 2021-07-23
-{% endraw %}
+Page last updated by Olga Zamaraeva - 2021-07-23([edit](https://github.com/delph-in/docs/wiki/Virtual2021Schedule/_edit)){% endraw %}

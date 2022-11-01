@@ -105,5 +105,4 @@ but hope to Skype in.
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) - June 16-20
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 
-Page last updated by GlennSlayden - 2016-06-16
-{% endraw %}
+Page last updated by GlennSlayden - 2016-06-16([edit](https://github.com/delph-in/docs/wiki/StanfordParticipants/_edit)){% endraw %}

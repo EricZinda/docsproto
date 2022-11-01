@@ -37,5 +37,4 @@ An updated version of the Docker-based approach created by Lluís Padró
 is available [here](https://github.com/arademaker/docker-logon), this
 version is maintained by [AlexandreRademaker](../AlexandreRademaker).
 
-Page last updated by AlexandreRademaker - 2019-01-29
-{% endraw %}
+Page last updated by AlexandreRademaker - 2019-01-29([edit](https://github.com/delph-in/docs/wiki/LkbMacintosh/_edit)){% endraw %}

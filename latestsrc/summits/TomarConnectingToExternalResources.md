@@ -202,5 +202,4 @@ it if we're going to do it.
 
 \*applause\*
 
-Page last updated by MichaelGoodman - 2014-07-15
-{% endraw %}
+Page last updated by MichaelGoodman - 2014-07-15([edit](https://github.com/delph-in/docs/wiki/TomarConnectingToExternalResources/_edit)){% endraw %}

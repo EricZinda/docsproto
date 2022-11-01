@@ -99,5 +99,4 @@ B: description about how he deals with lexicon morphology in the French grammar.
 
 Woodley: YY input mode. External tool to make the analysis. Not quite integrated. Spanish grammar used.
 
-Page last updated by Alexandre Rademaker - 2021-07-21
-{% endraw %}
+Page last updated by Alexandre Rademaker - 2021-07-21([edit](https://github.com/delph-in/docs/wiki/Virtual2021Lexicon/_edit)){% endraw %}

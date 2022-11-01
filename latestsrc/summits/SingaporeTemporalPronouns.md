@@ -152,5 +152,4 @@ Emily: Paper on nominal tense...
 Nordinger, Rachel, and Louisa Sadler. "Nominal Tense in crosslinguistic
 perspective." Language (2004): 776-806
 
-Page last updated by StephanOepen - 2015-08-12
-{% endraw %}
+Page last updated by StephanOepen - 2015-08-12([edit](https://github.com/delph-in/docs/wiki/SingaporeTemporalPronouns/_edit)){% endraw %}

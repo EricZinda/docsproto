@@ -115,5 +115,4 @@ Currently no analysis for any cases of clitic doubling.
 
 ## Modern Greek
 
-Page last updated by JesseTseng - 2006-07-11
-{% endraw %}
+Page last updated by JesseTseng - 2006-07-11([edit](https://github.com/delph-in/docs/wiki/RomClitics/_edit)){% endraw %}

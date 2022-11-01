@@ -785,5 +785,4 @@ previous occurrences, like variable reassignment? The latter would
 probably be more useful, but it changes the TDL paradigm within the
 config environment.
 
-Page last updated by EricZinda - 2022-09-14
-{% endraw %}
+Page last updated by EricZinda - 2022-09-14([edit](https://github.com/delph-in/docs/wiki/GrammarConfigurationRfc/_edit)){% endraw %}

@@ -165,5 +165,4 @@ Can do BRAT. SDP format (ConLL like). Nice feature is that BRAT
 annotations are standoff. Would be good for the visualisations to be
 interoperable.
 
-Page last updated by NedLetcher - 2016-06-20
-{% endraw %}
+Page last updated by NedLetcher - 2016-06-20([edit](https://github.com/delph-in/docs/wiki/StanfordAPI/_edit)){% endraw %}

@@ -181,5 +181,4 @@ acceptance, faithful is the word"
 to the greek
 - ...
 
-Page last updated by EmilyBender - 2017-08-09
-{% endraw %}
+Page last updated by EmilyBender - 2017-08-09([edit](https://github.com/delph-in/docs/wiki/OsloAncientGreekCoordination/_edit)){% endraw %}

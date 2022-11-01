@@ -39,5 +39,4 @@ turned into something nouny; in contrast, with "low" nominalization, the
 verb is turned into something nouny and then a nouny constituent is
 formed with its arguments.
 
-Page last updated by StephanOepen - 2018-05-10
-{% endraw %}
+Page last updated by StephanOepen - 2018-05-10([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_NominalizedClauses/_edit)){% endraw %}

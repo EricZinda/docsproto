@@ -141,5 +141,4 @@ Emily (in the chat): Remember that Grammar Catalog we started back in 2011?
 Emily: Was great to see lots of enthusiasm for the topic.
 
 
-Page last updated by Olga Zamaraeva - 2021-07-19
-{% endraw %}
+Page last updated by Olga Zamaraeva - 2021-07-19([edit](https://github.com/delph-in/docs/wiki/Virtual2021HuggingFace/_edit)){% endraw %}

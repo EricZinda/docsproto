@@ -63,5 +63,4 @@ statement](../GeFaqTypeAddendum).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-17
-{% endraw %}
+Page last updated by NedLetcher - 2012-08-17([edit](https://github.com/delph-in/docs/wiki/GeFaqNewFeature/_edit)){% endraw %}

@@ -596,5 +596,4 @@ to this:
 
      grammar_metrics=$(mktemp -p ./)
 
-Page last updated by Olga Zamaraeva - 2022-07-26
-{% endraw %}
+Page last updated by Olga Zamaraeva - 2022-07-26([edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)){% endraw %}

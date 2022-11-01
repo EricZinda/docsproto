@@ -44,5 +44,4 @@ should I do?](GeFaqTdlSyntax)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by DanFlickinger - 2013-06-26
-{% endraw %}
+Page last updated by DanFlickinger - 2013-06-26([edit](https://github.com/delph-in/docs/wiki/GeFaqTypeAddendum/_edit)){% endraw %}

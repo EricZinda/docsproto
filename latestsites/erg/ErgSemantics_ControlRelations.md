@@ -136,5 +136,4 @@ of Language and Information.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by EmilyBender - 2015-06-04
-{% endraw %}
+Page last updated by EmilyBender - 2015-06-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_ControlRelations/_edit)){% endraw %}

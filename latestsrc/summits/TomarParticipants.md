@@ -96,5 +96,4 @@ port).
 - [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta) (July 14-July 18, sim ao porto)
 - [DavidInman](/DavidInman) (July 14-18)
 
-Page last updated by StephanOepen - 2014-07-09
-{% endraw %}
+Page last updated by StephanOepen - 2014-07-09([edit](https://github.com/delph-in/docs/wiki/TomarParticipants/_edit)){% endraw %}

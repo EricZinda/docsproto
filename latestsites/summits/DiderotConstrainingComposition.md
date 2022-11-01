@@ -271,5 +271,4 @@ Dan: In order to get these through?
 
 Ann: No, just a consequence of how I set it up.
 
-Page last updated by GuyEmerson - 2018-06-27
-{% endraw %}
+Page last updated by GuyEmerson - 2018-06-27([edit](https://github.com/delph-in/docs/wiki/DiderotConstrainingComposition/_edit)){% endraw %}

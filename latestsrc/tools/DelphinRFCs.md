@@ -16,5 +16,4 @@ configuration)
 9. [MatrixChoicesRfc](../MatrixChoicesRfc) ("choices files"; grammar
 specifications for the Grammar Matrix)
 
-Page last updated by EricZinda - 2022-09-14
-{% endraw %}
+Page last updated by EricZinda - 2022-09-14([edit](https://github.com/delph-in/docs/wiki/DelphinRFCs/_edit)){% endraw %}

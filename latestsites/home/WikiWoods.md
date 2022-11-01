@@ -99,5 +99,4 @@ Following is an attempt at listing related initiatives. In case you know
 of additional pointers that should be included, please email
 Stephan Oepen.
 
-Page last updated by Alexandre Rademaker - 2021-07-20
-{% endraw %}
+Page last updated by Alexandre Rademaker - 2021-07-20([edit](https://github.com/delph-in/docs/wiki/WikiWoods/_edit)){% endraw %}

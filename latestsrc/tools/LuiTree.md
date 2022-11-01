@@ -35,5 +35,4 @@ popup-menu with the following choices:
 | *Scoped MRS*    | Opens an MRS browser for the *scoped* view of the semantics of this node.                          |
 | *Dependencies*  | Displays the dependencies view of the semantics of this node.                                      |
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/LuiTree/_edit)){% endraw %}

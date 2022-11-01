@@ -28,5 +28,4 @@ Detection](http://www.aclweb.org/anthology/P/P09/P09-2028.pdf), In
 *Proceedings of the ACL-IJCNLP 2009 Conference Short Papers*, Singapore,
 pp 109-112.
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/EgadTop/_edit)){% endraw %}

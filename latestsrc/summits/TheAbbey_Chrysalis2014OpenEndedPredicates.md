@@ -107,5 +107,4 @@ leaves the question of whether there is an ambiguity.
 
 Ann: There's some issues about that, but it's nothing to do with GQs.
 
-Page last updated by EmilyBender - 2014-02-17
-{% endraw %}
+Page last updated by EmilyBender - 2014-02-17([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014OpenEndedPredicates/_edit)){% endraw %}

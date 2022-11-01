@@ -133,5 +133,4 @@ for the syntax trees. Note that mrs.sty assumes relsize.sty has been
 loaded, and qtree.sty requires pict2e.sty (which it will load
 automatically).
 
-Page last updated by MichaelGoodman - 2019-03-26
-{% endraw %}
+Page last updated by MichaelGoodman - 2019-03-26([edit](https://github.com/delph-in/docs/wiki/LogonOnline/_edit)){% endraw %}

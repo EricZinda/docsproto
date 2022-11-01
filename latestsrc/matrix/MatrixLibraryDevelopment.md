@@ -17,5 +17,4 @@ answers
 - Add regression tests documenting functionality
 - Add prose documenting how to use
 
-Page last updated by EmilyBender - 2019-07-09
-{% endraw %}
+Page last updated by EmilyBender - 2019-07-09([edit](https://github.com/delph-in/docs/wiki/MatrixLibraryDevelopment/_edit)){% endraw %}

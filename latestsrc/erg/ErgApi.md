@@ -136,5 +136,4 @@ speculate about providing additional methods, for example POST-ing a
 structure (like an MRS or EDS) for conversion to additional output
 views, querying the SEM-I, or of course invoking sentence realization.
 
-Page last updated by EricZinda - 2022-09-14
-{% endraw %}
+Page last updated by EricZinda - 2022-09-14([edit](https://github.com/delph-in/docs/wiki/ErgApi/_edit)){% endraw %}

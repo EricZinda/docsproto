@@ -52,5 +52,4 @@ more consistent: *Kim likes Sandy. They went on a date tonight by the
 end they had already made plans for more dates and they both seemed
 happy.*
 
-Page last updated by EmilyBender - 2014-02-18
-{% endraw %}
+Page last updated by EmilyBender - 2014-02-18([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014PossessiveIdioms/_edit)){% endraw %}

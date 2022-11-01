@@ -712,5 +712,4 @@ this analysis would enable paraphrases that permute the conjuncts
 though that might be undesirable with different coordinators—win some,
 lose some).
 
-Page last updated by EmilyBender - 2020-08-25
-{% endraw %}
+Page last updated by EmilyBender - 2020-08-25([edit](https://github.com/delph-in/docs/wiki/VirtualCoordinationComposition/_edit)){% endraw %}

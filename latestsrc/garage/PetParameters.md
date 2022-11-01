@@ -41,5 +41,4 @@ grammar.grm.
 
     sm := "vm6p.mem".
 
-Page last updated by FrancisBond - 2005-04-01
-{% endraw %}
+Page last updated by FrancisBond - 2005-04-01([edit](https://github.com/delph-in/docs/wiki/PetParameters/_edit)){% endraw %}

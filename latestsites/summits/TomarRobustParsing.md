@@ -293,5 +293,4 @@ Dan: but this is no-longer a self-help approach. Are there comments that
 some of you have been holding back as illuminating conclusions? No? Ok
 let’s go eat.
 
-Page last updated by TJTrimble - 2014-10-15
-{% endraw %}
+Page last updated by TJTrimble - 2014-10-15([edit](https://github.com/delph-in/docs/wiki/TomarRobustParsing/_edit)){% endraw %}

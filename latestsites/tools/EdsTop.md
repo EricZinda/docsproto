@@ -410,5 +410,4 @@ output in format-specific ways.
 
 # References
 
-Page last updated by StephanOepen - 2020-08-22
-{% endraw %}
+Page last updated by StephanOepen - 2020-08-22([edit](https://github.com/delph-in/docs/wiki/EdsTop/_edit)){% endraw %}

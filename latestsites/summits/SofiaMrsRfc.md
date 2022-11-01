@@ -246,5 +246,4 @@ Ann: yes.
 Oe: Formally, in an MRS a handle and a non-handle can never be in the
 same position.
 
-Page last updated by EricZinda - 2022-09-14
-{% endraw %}
+Page last updated by EricZinda - 2022-09-14([edit](https://github.com/delph-in/docs/wiki/SofiaMrsRfc/_edit)){% endraw %}

@@ -73,5 +73,4 @@ paper](http://www.di.fc.ul.pt/tech-reports/03-4.pdf).
 You can find a detailed description of our approach in the documentation
 of the Modern Greek Resource Grammar at <http://www.delph-in.net/mgrg/>
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/RomContract/_edit)){% endraw %}

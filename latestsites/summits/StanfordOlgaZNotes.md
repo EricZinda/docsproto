@@ -88,5 +88,4 @@ morhpologists describe, that would be a nice validation of your work.
 
 Oe: Lunch time!
 
-Page last updated by EmilyBender - 2016-06-17
-{% endraw %}
+Page last updated by EmilyBender - 2016-06-17([edit](https://github.com/delph-in/docs/wiki/StanfordOlgaZNotes/_edit)){% endraw %}

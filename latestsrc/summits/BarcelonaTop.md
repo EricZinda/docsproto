@@ -105,5 +105,4 @@ please email [MontserratMarimon](/MontserratMarimon)
 - Montserrat Marimon (Universitat de Barcelona)
 - Núria Bel (Universitat Pompeu Fabra)
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/BarcelonaTop/_edit)){% endraw %}

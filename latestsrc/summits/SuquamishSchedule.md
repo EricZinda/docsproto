@@ -155,5 +155,4 @@ on Tuesday), David, (Petter), (Woodley), Glenn
 - Stephan Oepen (Oslo) Program Chair
 - Emily M. Bender (UW) Local Organizer
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/SuquamishSchedule/_edit)){% endraw %}

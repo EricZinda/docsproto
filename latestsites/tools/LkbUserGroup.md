@@ -69,5 +69,4 @@ sample grammars that illustrate the problem. Do not send bug reports to
 any individual developer: at best they will be forwarded to the lingo
 address, and at worst ignored.
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/LkbUserGroup/_edit)){% endraw %}

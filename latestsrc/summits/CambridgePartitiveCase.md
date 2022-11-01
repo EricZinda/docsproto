@@ -173,5 +173,4 @@ anything about its complements with complements. Burden is on the side
 where you have the least information. If you do the permutation on the
 lexical lists (on the lexical verb), that’s the one that combines late.
 
-Page last updated by EmilyBender - 2019-07-17
-{% endraw %}
+Page last updated by EmilyBender - 2019-07-17([edit](https://github.com/delph-in/docs/wiki/CambridgePartitiveCase/_edit)){% endraw %}

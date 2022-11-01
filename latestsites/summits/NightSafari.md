@@ -33,5 +33,4 @@ until the 10th, because it is going to be extremely crowded and the wait
 will be 2-3 hours (!). So... I think we should do something else
 tonight, like go to the city.
 
-Page last updated by OlgaZamaraeva - 2015-08-06
-{% endraw %}
+Page last updated by OlgaZamaraeva - 2015-08-06([edit](https://github.com/delph-in/docs/wiki/NightSafari/_edit)){% endraw %}

@@ -281,5 +281,4 @@ projection.
 oe: One could also argue that they should be introduced as they are
 needed.
 
-Page last updated by EmilyBender - 2013-08-05
-{% endraw %}
+Page last updated by EmilyBender - 2013-08-05([edit](https://github.com/delph-in/docs/wiki/SaarlandIconsErg/_edit)){% endraw %}

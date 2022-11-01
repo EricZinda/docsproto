@@ -25,5 +25,4 @@ the grammar's performance.
 - [MatrixMrsTestSuiteJa](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteJa): Results of parsing the
 MRS test suite.
 
-Page last updated by FrancisBond - 2016-11-05
-{% endraw %}
+Page last updated by FrancisBond - 2016-11-05([edit](https://github.com/delph-in/docs/wiki/JacyDoc/_edit)){% endraw %}

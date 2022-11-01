@@ -158,5 +158,4 @@ to your left, go up one flight and through the green door.
 |                            16:30 in 126                            |                                                         Noun incorporation (Angelina McMillan-Major)                                                          |
 |                                                                    |                                                                                                                                                               |
 
-Page last updated by EmilyBender - 2018-07-28
-{% endraw %}
+Page last updated by EmilyBender - 2018-07-28([edit](https://github.com/delph-in/docs/wiki/DiderotSchedule/_edit)){% endraw %}

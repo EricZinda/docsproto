@@ -78,5 +78,4 @@ Safiyyah's library).
 Emily: \[Scribe's post-script --- see [VLAD session on
 this.](LADValenceChange) \]
 
-Page last updated by EmilyBender - 2016-06-17
-{% endraw %}
+Page last updated by EmilyBender - 2016-06-17([edit](https://github.com/delph-in/docs/wiki/StanfordMcValenceChangeFace/_edit)){% endraw %}

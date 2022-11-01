@@ -188,5 +188,4 @@ constructions (in English) tend to be post-head, such a simple heuristic
 might actually come to the right result. However, it does not quite seem
 linguistically very well founded ...
 
-Page last updated by StephanOepen - 2016-07-13
-{% endraw %}
+Page last updated by StephanOepen - 2016-07-13([edit](https://github.com/delph-in/docs/wiki/EdsConversion/_edit)){% endraw %}
