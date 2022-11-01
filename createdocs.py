@@ -410,7 +410,7 @@ if __name__ == '__main__':
         latestsites_root = sys.argv[4]
         sites_definitions_path = sys.argv[5]
         if len(sys.argv) == 7:
-            if sys.orig_argv[6].strip() == "true":
+            if sys.argv[6].strip() == "true":
                 quickAndDirty = True
         errors = []
 
