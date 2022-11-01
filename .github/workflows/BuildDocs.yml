@@ -32,6 +32,7 @@ jobs:
         with:
           repository: ericzinda/docsproto.wiki
           path: docsprotowiki
+          fetch-depth: 0
 
       # Official docs wiki
       - name: Checkout docs wiki repo
