@@ -40,4 +40,4 @@ still says no parses found. What might be going on?](GeFaqRootFail)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-15([edit](https://github.com/delph-in/docs/wiki/GeFaqMissingHowTo/_edit)){% endraw %}
+Last update: 2012-08-15 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingHowTo/_edit)]{% endraw %}

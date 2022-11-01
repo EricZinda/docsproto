@@ -50,4 +50,4 @@ parser; cf. [JerezTop](https://blog.inductorsoftware.com/docsproto/summits/Jerez
 lexicon, but probably for lexDB)
 - change model during runtime
 
-Page last updated by UlrichSchaefer - 2006-06-14([edit](https://github.com/delph-in/docs/wiki/FeforPetApi/_edit)){% endraw %}
+Last update: 2006-06-14 by UlrichSchaefer [[edit](https://github.com/delph-in/docs/wiki/FeforPetApi/_edit)]{% endraw %}

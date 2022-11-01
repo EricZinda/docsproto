@@ -123,4 +123,4 @@ a "\#" or "//" at the start of a line
 \`-partial\`  
 - print partial results in case of parse failure
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/PetOptions/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetOptions/_edit)]{% endraw %}

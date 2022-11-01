@@ -269,4 +269,4 @@ for lists up to length N, which is ugly.
 oe: best outcome: do something that gives the appearance of outreach,
 but do so in a self-serving manner. Don't set formalism in stone.
 
-Page last updated by StephanOepen - 2014-07-16([edit](https://github.com/delph-in/docs/wiki/TomarFormalism/_edit)){% endraw %}
+Last update: 2014-07-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarFormalism/_edit)]{% endraw %}

@@ -63,4 +63,4 @@ chicken and egg problem in terms of identifying where to plug in the
 standalone
 - "can we stop now?" (Alex)
 
-Page last updated by TimBaldwin - 2008-05-24([edit](https://github.com/delph-in/docs/wiki/RmrsDistributional/_edit)){% endraw %}
+Last update: 2008-05-24 by TimBaldwin [[edit](https://github.com/delph-in/docs/wiki/RmrsDistributional/_edit)]{% endraw %}

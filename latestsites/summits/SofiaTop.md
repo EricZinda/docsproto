@@ -115,4 +115,4 @@ password: mirrorhall
 - [Sanghoun's
 photos](https://picasaweb.google.com/106261683885290415644/Sofia?authuser=0&authkey=Gv1sRgCI-bzKaQ8Nipcg&feat=directlink)
 
-Page last updated by SanghounSong - 2012-08-17([edit](https://github.com/delph-in/docs/wiki/SofiaTop/_edit)){% endraw %}
+Last update: 2012-08-17 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/SofiaTop/_edit)]{% endraw %}

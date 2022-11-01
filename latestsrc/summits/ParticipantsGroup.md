@@ -78,4 +78,4 @@ This list provides an incomplete mapping from MoinMoin usernames to GitHub usern
 - [ChowSiewYeng](/siewyeng)
 - TestUser
 
-Page last updated by Guy Emerson - 2021-07-23([edit](https://github.com/delph-in/docs/wiki/ParticipantsGroup/_edit)){% endraw %}
+Last update: 2021-07-23 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/ParticipantsGroup/_edit)]{% endraw %}

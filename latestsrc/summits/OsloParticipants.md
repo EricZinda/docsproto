@@ -93,4 +93,4 @@ time; Enjoy this event!)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
 
-Page last updated by BertholdCrysmann - 2017-08-03([edit](https://github.com/delph-in/docs/wiki/OsloParticipants/_edit)){% endraw %}
+Last update: 2017-08-03 by BertholdCrysmann [[edit](https://github.com/delph-in/docs/wiki/OsloParticipants/_edit)]{% endraw %}

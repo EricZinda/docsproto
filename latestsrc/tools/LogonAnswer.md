@@ -80,4 +80,4 @@ external treebanking tool by clicking on *Exit* in its browser window
 ‘killall fftb’) to regain control in the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) podium.
 
-Page last updated by StephanOepen - 2016-05-24([edit](https://github.com/delph-in/docs/wiki/LogonAnswer/_edit)){% endraw %}
+Last update: 2016-05-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonAnswer/_edit)]{% endraw %}

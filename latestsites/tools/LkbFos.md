@@ -267,4 +267,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 a solution has already been posted there; if it hasn't then create a new topic.
 
 
-Page last updated by John Carroll - 2022-07-04([edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)){% endraw %}
+Last update: 2022-07-04 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}

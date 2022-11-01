@@ -176,4 +176,4 @@ Luis: Another suggestion for capture quality: in Olomouc, we have been working w
 Emily: If you are interested, email Angie and me. Datastatements at uw.edu
 
 
-Page last updated by Olga Zamaraeva - 2021-07-22([edit](https://github.com/delph-in/docs/wiki/Virtual2021DataStatements/_edit)){% endraw %}
+Last update: 2021-07-22 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/Virtual2021DataStatements/_edit)]{% endraw %}

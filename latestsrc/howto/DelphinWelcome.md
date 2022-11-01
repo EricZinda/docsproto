@@ -26,4 +26,4 @@ representations produced by the ERG
 - [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
 
-Page last updated by EmilyBender - 2020-10-15([edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)){% endraw %}
+Last update: 2020-10-15 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}

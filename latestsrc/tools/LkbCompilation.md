@@ -112,4 +112,4 @@ environment, or on Windows with suitable add-on software installed):
 
       svn checkout http://svn.delph-in.net/lkb/trunk lkb
 
-Page last updated by JohnCarroll - 2017-12-18([edit](https://github.com/delph-in/docs/wiki/LkbCompilation/_edit)){% endraw %}
+Last update: 2017-12-18 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbCompilation/_edit)]{% endraw %}

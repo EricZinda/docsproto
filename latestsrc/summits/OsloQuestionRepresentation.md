@@ -282,4 +282,4 @@ Dan: This slope isn't slippery: The wh words 'launch' the param-icons,
 and the grammar can have constraints on which constructions allow them
 to attach (meaning which event variables are available to them).
 
-Page last updated by GuyEmerson - 2020-07-22([edit](https://github.com/delph-in/docs/wiki/OsloQuestionRepresentation/_edit)){% endraw %}
+Last update: 2020-07-22 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/OsloQuestionRepresentation/_edit)]{% endraw %}

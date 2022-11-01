@@ -21,4 +21,4 @@ And some guides to tools:
 descriptions of rules, lexical types and more can be found here
 - [Classic Treebanking with the Fine System](../ItsdbTreebanking)
 
-Page last updated by FrancisBond - 2020-06-19([edit](https://github.com/delph-in/docs/wiki/TreebankingTop/_edit)){% endraw %}
+Last update: 2020-06-19 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TreebankingTop/_edit)]{% endraw %}

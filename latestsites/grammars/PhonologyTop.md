@@ -67,4 +67,4 @@ phonemes or some other conveniently accessible representation.
 
 # Prosodic structure
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/PhonologyTop/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PhonologyTop/_edit)]{% endraw %}

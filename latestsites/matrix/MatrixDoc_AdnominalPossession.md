@@ -284,4 +284,4 @@ share some distinguishing syntactic feature (e.g. a boolean type called
 then easily add constraints to the lexical items, lexical rules, and
 phrase structure rules that are added by the library currently.
 
-Page last updated by ElizabethNielsen - 2019-04-26([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_AdnominalPossession/_edit)){% endraw %}
+Last update: 2019-04-26 by ElizabethNielsen [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_AdnominalPossession/_edit)]{% endraw %}

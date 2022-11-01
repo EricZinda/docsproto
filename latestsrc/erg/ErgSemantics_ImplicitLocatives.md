@@ -110,4 +110,4 @@ loc\_nonsp modifier?
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by EmilyBender - 2015-06-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_ImplicitLocatives/_edit)){% endraw %}
+Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_ImplicitLocatives/_edit)]{% endraw %}

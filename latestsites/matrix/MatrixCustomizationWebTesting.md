@@ -116,4 +116,4 @@ should be stored in gmcs/web\_tests/web\_choices.
             testWeb.py
             web_choices/
 
-Page last updated by Olga Zamaraeva - 2021-06-04([edit](https://github.com/delph-in/docs/wiki/MatrixCustomizationWebTesting/_edit)){% endraw %}
+Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixCustomizationWebTesting/_edit)]{% endraw %}

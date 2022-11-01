@@ -97,4 +97,4 @@ Treebank only those places that have changed
 In this stage, the annotator can annotate any trees that have changed,
 exploiting any relevant existing decisions.
 
-Page last updated by FrancisBond - 2014-04-08([edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbUpdating/_edit)){% endraw %}
+Last update: 2014-04-08 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbUpdating/_edit)]{% endraw %}

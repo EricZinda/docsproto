@@ -124,4 +124,4 @@ nanyang
 - [Chris Curtis's
 photos](https://www.flickr.com/photos/135722802@N07/albums)
 
-Page last updated by ChrisCurtis - 2015-09-25([edit](https://github.com/delph-in/docs/wiki/SingaporeTop/_edit)){% endraw %}
+Last update: 2015-09-25 by ChrisCurtis [[edit](https://github.com/delph-in/docs/wiki/SingaporeTop/_edit)]{% endraw %}

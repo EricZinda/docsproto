@@ -144,4 +144,4 @@ How to allow multiple people to access the same DB:
      public | semi_var   | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
     (9 rows)
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/JacyLexDb/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacyLexDb/_edit)]{% endraw %}

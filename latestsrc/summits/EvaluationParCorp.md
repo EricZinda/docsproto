@@ -174,4 +174,4 @@ texts, but am slightly skeptical of our chances of finding a collection
 including Catalan, Norwegian and Korean, even without worrying about
 licenses.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/EvaluationParCorp/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/EvaluationParCorp/_edit)]{% endraw %}

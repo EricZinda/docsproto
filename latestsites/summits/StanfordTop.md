@@ -103,4 +103,4 @@ costs of the meals, coffee breaks, etc.
 [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPHjIN-2016/)
 password: stanford
 
-Page last updated by EmilyBender - 2016-06-20([edit](https://github.com/delph-in/docs/wiki/StanfordTop/_edit)){% endraw %}
+Last update: 2016-06-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordTop/_edit)]{% endraw %}

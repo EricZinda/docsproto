@@ -408,4 +408,4 @@ volume = {66},\
 issue = { 2 }\
 }
 
-Page last updated by VaryaGracheva - 2013-02-23([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_TenseAspectMood/_edit)){% endraw %}
+Last update: 2013-02-23 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_TenseAspectMood/_edit)]{% endraw %}

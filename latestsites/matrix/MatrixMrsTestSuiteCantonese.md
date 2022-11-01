@@ -113,4 +113,4 @@ The content of this page was created by Joanna Sio Ut Seong.
 | 106     | 唔好 吠 ！                          | Don’t bark!                                      |     |
 | 107     | 隻 狗 吠 住 到                      | The dog arrived barking.                         |     |
 
-Page last updated by SanghounSong - 2015-02-11([edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteCantonese/_edit)){% endraw %}
+Last update: 2015-02-11 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteCantonese/_edit)]{% endraw %}

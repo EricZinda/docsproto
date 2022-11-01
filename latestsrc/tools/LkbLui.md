@@ -181,4 +181,4 @@ Change "no" to "yes", save and exit the editor, then restart
 
 LUI should then run fine. Thanks to Stephan Oepen for finding the fix at http://bugs.launchpad.net/ubuntu/+source/eglibc/+bug/574726
 
-Page last updated by Alexandre Rademaker - 2022-04-08([edit](https://github.com/delph-in/docs/wiki/LkbLui/_edit)){% endraw %}
+Last update: 2022-04-08 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LkbLui/_edit)]{% endraw %}

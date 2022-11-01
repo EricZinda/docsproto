@@ -190,4 +190,4 @@ derivation. This problem was resolved in early 2012.
 
 - comments about ACE related to UDF and UDX.
 
-Page last updated by Alexandre Rademaker - 2022-08-06([edit](https://github.com/delph-in/docs/wiki/ItsdbDerivations/_edit)){% endraw %}
+Last update: 2022-08-06 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ItsdbDerivations/_edit)]{% endraw %}

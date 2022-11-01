@@ -70,4 +70,4 @@ year={2021}
 
 The code snapshot corresponding to the dissertation when it was submitted is committed to Github under tag ["Zamaraeva-dissertation"](https://github.com/delph-in/matrix/releases/tag/Zamaraeva-dissertation).
 
-Page last updated by Olga Zamaraeva - 2021-06-07([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_WhQuestions/_edit)){% endraw %}
+Last update: 2021-06-07 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_WhQuestions/_edit)]{% endraw %}

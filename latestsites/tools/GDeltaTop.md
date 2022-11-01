@@ -76,4 +76,4 @@ development history (using profiles from the Tanaka corpus):
 - [Revisions
 446-447](http://nedned.net/gdelta_out/jacy_446-447_tc_summary.html)
 
-Page last updated by NedLetcher - 2016-02-04([edit](https://github.com/delph-in/docs/wiki/GDeltaTop/_edit)){% endraw %}
+Last update: 2016-02-04 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GDeltaTop/_edit)]{% endraw %}

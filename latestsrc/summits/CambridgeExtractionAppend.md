@@ -224,4 +224,4 @@ WP: Would you like something like FEAT &lt; value, value, value &gt; =
 
 EB: That would be nice :slightly\_smiling\_face:
 
-Page last updated by GuyEmerson - 2020-01-09([edit](https://github.com/delph-in/docs/wiki/CambridgeExtractionAppend/_edit)){% endraw %}
+Last update: 2020-01-09 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/CambridgeExtractionAppend/_edit)]{% endraw %}

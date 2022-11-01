@@ -116,4 +116,4 @@ Any opinions, findings and conclusions or recommendations expressed in
 this material are those of the author(s) and do not necessarily reflect
 the views of the funding bodies.
 
-Page last updated by JohnCarroll - 2018-02-05([edit](https://github.com/delph-in/docs/wiki/LkbTop/_edit)){% endraw %}
+Last update: 2018-02-05 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbTop/_edit)]{% endraw %}

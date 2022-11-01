@@ -668,4 +668,4 @@ used to store fails, not passes or does-not-applys.
 
 ### Ancillary tables
 
-Page last updated by EmilyBender - 2009-09-17([edit](https://github.com/delph-in/docs/wiki/MatrixTDB2Tables/_edit)){% endraw %}
+Last update: 2009-09-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/MatrixTDB2Tables/_edit)]{% endraw %}

@@ -89,4 +89,4 @@ object:
    3     self.x = x or []
 ```
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/PythonIdioms/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PythonIdioms/_edit)]{% endraw %}

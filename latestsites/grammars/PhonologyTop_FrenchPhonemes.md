@@ -84,4 +84,4 @@
      ɲ := nasal-cons.
      ŋ := nasal-cons.
 
-Page last updated by JesseTseng - 2007-08-21([edit](https://github.com/delph-in/docs/wiki/PhonologyTop_FrenchPhonemes/_edit)){% endraw %}
+Last update: 2007-08-21 by JesseTseng [[edit](https://github.com/delph-in/docs/wiki/PhonologyTop_FrenchPhonemes/_edit)]{% endraw %}

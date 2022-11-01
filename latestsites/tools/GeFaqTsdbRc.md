@@ -18,4 +18,4 @@ unhappy, and can experience mysterious errors.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-09-17([edit](https://github.com/delph-in/docs/wiki/GeFaqTsdbRc/_edit)){% endraw %}
+Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqTsdbRc/_edit)]{% endraw %}

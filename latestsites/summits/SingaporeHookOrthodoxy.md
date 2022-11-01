@@ -141,4 +141,4 @@ monotonicity. So even if we have to go down the slippery slope of
 allowing more things in HOOK, we still have the constraint of
 monotonicity.
 
-Page last updated by EmilyBender - 2016-01-22([edit](https://github.com/delph-in/docs/wiki/SingaporeHookOrthodoxy/_edit)){% endraw %}
+Last update: 2016-01-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SingaporeHookOrthodoxy/_edit)]{% endraw %}

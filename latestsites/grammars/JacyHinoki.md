@@ -15,4 +15,4 @@ the most recent version of the grammar.
 If you want silver data, parsing the rest of the Tanaka Corpus is a good
 place to start.
 
-Page last updated by FrancisBond - 2020-07-14([edit](https://github.com/delph-in/docs/wiki/JacyHinoki/_edit)){% endraw %}
+Last update: 2020-07-14 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyHinoki/_edit)]{% endraw %}

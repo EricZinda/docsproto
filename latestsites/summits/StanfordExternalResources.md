@@ -84,4 +84,4 @@ frame+ROLE).
 (if you attended this session and remember more details, please feel
 free to edit the page; thanks!)
 
-Page last updated by MichaelGoodman - 2016-07-06([edit](https://github.com/delph-in/docs/wiki/StanfordExternalResources/_edit)){% endraw %}
+Last update: 2016-07-06 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/StanfordExternalResources/_edit)]{% endraw %}

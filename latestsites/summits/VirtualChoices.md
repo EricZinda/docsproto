@@ -418,4 +418,4 @@ only what’s required would create a dependency again.
 
 Appreciation all around!
 
-Page last updated by EmilyBender - 2020-07-14([edit](https://github.com/delph-in/docs/wiki/VirtualChoices/_edit)){% endraw %}
+Last update: 2020-07-14 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualChoices/_edit)]{% endraw %}

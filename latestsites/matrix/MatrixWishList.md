@@ -14,4 +14,4 @@ sample choices for Japanese" (or possibly even some other language).
 This would allow people to play with a sample grammar without having
 to fill out several pages of forms.
 
-Page last updated by FrancisBond - 2007-05-02([edit](https://github.com/delph-in/docs/wiki/MatrixWishList/_edit)){% endraw %}
+Last update: 2007-05-02 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MatrixWishList/_edit)]{% endraw %}

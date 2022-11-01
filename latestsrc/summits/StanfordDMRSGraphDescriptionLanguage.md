@@ -131,4 +131,4 @@ Chair:
 
 - Ok, then let's thank Guy and Alex.
 
-Page last updated by StephanOepen - 2016-06-18([edit](https://github.com/delph-in/docs/wiki/StanfordDMRSGraphDescriptionLanguage/_edit)){% endraw %}
+Last update: 2016-06-18 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordDMRSGraphDescriptionLanguage/_edit)]{% endraw %}

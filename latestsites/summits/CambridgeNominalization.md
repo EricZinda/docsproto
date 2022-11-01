@@ -266,4 +266,4 @@ DI: I’ve tried something like this. It works. It scopes.
 
 EMB: We’re done. Thanks.
 
-Page last updated by EmilyBender - 2019-07-24([edit](https://github.com/delph-in/docs/wiki/CambridgeNominalization/_edit)){% endraw %}
+Last update: 2019-07-24 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CambridgeNominalization/_edit)]{% endraw %}

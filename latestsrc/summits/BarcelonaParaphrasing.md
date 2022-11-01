@@ -111,4 +111,4 @@ preds, etc)
 - But have to add stuff to MRS construction code.
 - Would rather do lemmatization on the input.
 
-Page last updated by PeterAdolphs - 2012-02-16([edit](https://github.com/delph-in/docs/wiki/BarcelonaParaphrasing/_edit)){% endraw %}
+Last update: 2012-02-16 by PeterAdolphs [[edit](https://github.com/delph-in/docs/wiki/BarcelonaParaphrasing/_edit)]{% endraw %}

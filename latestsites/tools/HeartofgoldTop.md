@@ -48,4 +48,4 @@ There is also a [mailing
 list](http://lists.delph-in.net/mailman/listinfo/hog) for discussions
 and announcements concerning Heart of Gold.
 
-Page last updated by Olga Zamaraeva - 2021-06-03([edit](https://github.com/delph-in/docs/wiki/HeartofgoldTop/_edit)){% endraw %}
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/HeartofgoldTop/_edit)]{% endraw %}

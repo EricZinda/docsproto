@@ -21,4 +21,4 @@ lkb/globals.lsp). This value can be changed by editing that file.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-14([edit](https://github.com/delph-in/docs/wiki/GeFaqCircularLexRule/_edit)){% endraw %}
+Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqCircularLexRule/_edit)]{% endraw %}

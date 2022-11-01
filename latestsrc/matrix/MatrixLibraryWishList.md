@@ -14,4 +14,4 @@ predicative)</span> Done! by
 - Clausal complements
 - Raising and control
 
-Page last updated by TJTrimble - 2014-12-15([edit](https://github.com/delph-in/docs/wiki/MatrixLibraryWishList/_edit)){% endraw %}
+Last update: 2014-12-15 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/MatrixLibraryWishList/_edit)]{% endraw %}

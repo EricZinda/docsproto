@@ -62,4 +62,4 @@ Evaluation (LREC-2008). Marrakech, Morocco. ﻿
       keywords = {chart mapping, hpsg, preprocessing}
     }
 
-Page last updated by Alexandre Rademaker - 2021-06-02([edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)){% endraw %}
+Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)]{% endraw %}

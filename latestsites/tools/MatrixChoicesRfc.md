@@ -619,4 +619,4 @@ valid indexing)
 Date: July 2020 Contributers: T.J. Trimble, Chris Curtis, Michael
 Goodman, Olga Zamaraeva
 
-Page last updated by TJTrimble - 2020-07-14([edit](https://github.com/delph-in/docs/wiki/MatrixChoicesRfc/_edit)){% endraw %}
+Last update: 2020-07-14 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/MatrixChoicesRfc/_edit)]{% endraw %}

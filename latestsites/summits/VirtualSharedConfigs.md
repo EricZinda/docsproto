@@ -183,4 +183,4 @@ ALL: With 'conditionals everywhere' are we encroaching on CLIMB?
 
 CONSENSUS: reluctance
 
-Page last updated by GlennSlayden - 2020-07-14([edit](https://github.com/delph-in/docs/wiki/VirtualSharedConfigs/_edit)){% endraw %}
+Last update: 2020-07-14 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/VirtualSharedConfigs/_edit)]{% endraw %}

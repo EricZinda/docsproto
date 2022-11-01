@@ -150,4 +150,4 @@ other grammars...
 
 Francis: Not much, unfortunately.
 
-Page last updated by GlennSlayden - 2017-08-08([edit](https://github.com/delph-in/docs/wiki/OsloWordnet/_edit)){% endraw %}
+Last update: 2017-08-08 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/OsloWordnet/_edit)]{% endraw %}

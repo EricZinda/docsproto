@@ -11,4 +11,4 @@ Currently empty
 [Lesser General Public License For Linguistic
 Resources](http://infolingu.univ-mlv.fr/DonneesLinguistiques/Lexiques-Grammaires/lgpllr.html)
 
-Page last updated by LarsHellan - 2015-01-18([edit](https://github.com/delph-in/docs/wiki/NorsourceDownload/_edit)){% endraw %}
+Last update: 2015-01-18 by LarsHellan [[edit](https://github.com/delph-in/docs/wiki/NorsourceDownload/_edit)]{% endraw %}

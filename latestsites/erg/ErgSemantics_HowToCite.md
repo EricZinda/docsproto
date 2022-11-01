@@ -42,4 +42,4 @@ To cite a particular subpage, use the reference above, but augment the
 title field with the sub-title page (e.g. *ERG Semantic Documentation:
 Compounding*) and include instead the URL for the subpage in question.
 
-Page last updated by Alexandre Rademaker - 2021-07-20([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_HowToCite/_edit)){% endraw %}
+Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_HowToCite/_edit)]{% endraw %}

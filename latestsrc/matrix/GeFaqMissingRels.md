@@ -54,4 +54,4 @@ and how do I debug it?](GeFaqCyclicCheck)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-17([edit](https://github.com/delph-in/docs/wiki/GeFaqMissingRels/_edit)){% endraw %}
+Last update: 2012-08-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingRels/_edit)]{% endraw %}

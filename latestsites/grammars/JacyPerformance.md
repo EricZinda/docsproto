@@ -204,4 +204,4 @@ See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/P
 - The Idiom optimizations don't seem to be working
 - It would be nice to use supertagging
 
-Page last updated by FrancisBond - 2017-01-11([edit](https://github.com/delph-in/docs/wiki/JacyPerformance/_edit)){% endraw %}
+Last update: 2017-01-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyPerformance/_edit)]{% endraw %}

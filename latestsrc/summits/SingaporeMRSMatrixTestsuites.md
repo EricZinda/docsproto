@@ -228,4 +228,4 @@ Emily: Does NTU want to take this on?
 
 Francis: Noone said that! :slightly\_smiling\_face:
 
-Page last updated by StephanOepen - 2015-08-12([edit](https://github.com/delph-in/docs/wiki/SingaporeMRSMatrixTestsuites/_edit)){% endraw %}
+Last update: 2015-08-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SingaporeMRSMatrixTestsuites/_edit)]{% endraw %}

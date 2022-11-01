@@ -19,4 +19,4 @@ Generation Component
 - [/BatchTranslation](../LogonProcessing_BatchTranslation) --- Running
 the Full Fan-Out Pipeline
 
-Page last updated by StephanOepen - 2009-02-17([edit](https://github.com/delph-in/docs/wiki/LogonProcessing/_edit)){% endraw %}
+Last update: 2009-02-17 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonProcessing/_edit)]{% endraw %}

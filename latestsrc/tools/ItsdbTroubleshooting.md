@@ -101,4 +101,4 @@ Add a scaling factor to your .swishrc
 
     tk scaling -displayof . 1.0
 
-Page last updated by StephanOepen - 2012-08-07([edit](https://github.com/delph-in/docs/wiki/ItsdbTroubleshooting/_edit)){% endraw %}
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTroubleshooting/_edit)]{% endraw %}

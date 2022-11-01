@@ -212,4 +212,4 @@ mapping](https://blog.inductorsoftware.com/docsproto/tools/ChartMapping) and the
 
 Callmeier, Ulrich. "Efficient parsing with large-scale unification grammars." PhD diss., Master’s thesis, Universität des Saarlandes, Saarbrücken, Germany, 2001.
 
-Page last updated by Alexandre Rademaker - 2021-06-18([edit](https://github.com/delph-in/docs/wiki/PetTop/_edit)){% endraw %}
+Last update: 2021-06-18 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PetTop/_edit)]{% endraw %}

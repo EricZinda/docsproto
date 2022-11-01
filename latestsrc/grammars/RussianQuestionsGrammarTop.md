@@ -16,4 +16,4 @@ Citation: Zamaraeva, Olga. A cross-linguistic account of constituent
 questions for a grammar endineering resource. Froth. Doctoral
 dissertation. University of Washington.
 
-Page last updated by OlgaZamaraeva - 2020-06-02([edit](https://github.com/delph-in/docs/wiki/RussianQuestionsGrammarTop/_edit)){% endraw %}
+Last update: 2020-06-02 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/RussianQuestionsGrammarTop/_edit)]{% endraw %}

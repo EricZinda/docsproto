@@ -26,4 +26,4 @@ progress or planned. \]</span>
 
 # References
 
-Page last updated by EmilyBender - 2012-08-30([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_TestSentences/_edit)){% endraw %}
+Last update: 2012-08-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_TestSentences/_edit)]{% endraw %}

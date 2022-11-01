@@ -22,4 +22,4 @@ Three classes of irregular verbs:
 
 ## kurusuru-stem
 
-Page last updated by FrancisBond - 2007-03-14([edit](https://github.com/delph-in/docs/wiki/JacyMorphology/_edit)){% endraw %}
+Last update: 2007-03-14 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyMorphology/_edit)]{% endraw %}

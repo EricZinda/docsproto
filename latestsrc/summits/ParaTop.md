@@ -36,4 +36,4 @@ Training
 Data](http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2008-iwslt-smt-para.pdf),
 In IWSLT-2008.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/ParaTop/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParaTop/_edit)]{% endraw %}

@@ -87,4 +87,4 @@ There may not be enough information on this page to successfully try out
 some of these features. Contact [WoodleyPackard](/WoodleyPackard) if you
 want to deploy something and need help.
 
-Page last updated by DanFlickinger - 2015-08-25([edit](https://github.com/delph-in/docs/wiki/AceExperimental/_edit)){% endraw %}
+Last update: 2015-08-25 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/AceExperimental/_edit)]{% endraw %}

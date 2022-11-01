@@ -61,4 +61,4 @@ pages 73-80. Prague, 2007.
 draft](http://www.cl.cam.ac.uk/~aac10/papers/rmrsdraft.pdf),
 2004/2006.
 
-Page last updated by Alexandre Rademaker - 2021-09-02([edit](https://github.com/delph-in/docs/wiki/RmrsTop/_edit)){% endraw %}
+Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/RmrsTop/_edit)]{% endraw %}

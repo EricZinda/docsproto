@@ -212,4 +212,4 @@ doesn't work in Emacs after running incr
 tsdb()](GeFaqKeyboardNotWorking)
 - [How do I paste into the LKB Parse dialogue?](GeFaqPasteShortcut)
 
-Page last updated by StephanOepen - 2012-08-15([edit](https://github.com/delph-in/docs/wiki/GrammarEngineeringFAQ/_edit)){% endraw %}
+Last update: 2012-08-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/GrammarEngineeringFAQ/_edit)]{% endraw %}

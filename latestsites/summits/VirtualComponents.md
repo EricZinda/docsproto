@@ -303,4 +303,4 @@ be?). it could give better parses than the ERG.
 - Ontology on modelling HPSG:
 <https://www.aclweb.org/anthology/P07-2043.pdf>.
 
-Page last updated by ChowSiewYeng - 2020-07-14([edit](https://github.com/delph-in/docs/wiki/VirtualComponents/_edit)){% endraw %}
+Last update: 2020-07-14 by ChowSiewYeng [[edit](https://github.com/delph-in/docs/wiki/VirtualComponents/_edit)]{% endraw %}

@@ -155,4 +155,4 @@ values (e.g., place\_n and a hypothetical \_place\_n) are *not*
 equivalent, and grammar writers should avoid creating such similar
 predicates in order to avoid confusion.
 
-Page last updated by EricZinda - 2022-09-12([edit](https://github.com/delph-in/docs/wiki/PredicateRfc/_edit)){% endraw %}
+Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PredicateRfc/_edit)]{% endraw %}

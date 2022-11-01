@@ -88,4 +88,4 @@ may want to register JAVAHOME in your bashrc, too. For example,
 
     export JAVAHOME=/usr/bin/java
 
-Page last updated by SanghounSong - 2015-01-22([edit](https://github.com/delph-in/docs/wiki/ZhongPreprocessing/_edit)){% endraw %}
+Last update: 2015-01-22 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongPreprocessing/_edit)]{% endraw %}

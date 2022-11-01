@@ -180,4 +180,4 @@ year={2017},\
 publisher={Oxford University Press}\
 }
 
-Page last updated by MichaelHaeger - 2018-01-11([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Evidentials/_edit)){% endraw %}
+Last update: 2018-01-11 by MichaelHaeger [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Evidentials/_edit)]{% endraw %}

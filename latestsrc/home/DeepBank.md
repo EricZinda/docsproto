@@ -214,4 +214,4 @@ Evaluation (LREC'10), Malta, 2010.
 a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
 Linguistic Annotation Workshop, Singapore, 2009.
 
-Page last updated by Olga Zamaraeva - 2021-06-04([edit](https://github.com/delph-in/docs/wiki/DeepBank/_edit)){% endraw %}
+Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/DeepBank/_edit)]{% endraw %}

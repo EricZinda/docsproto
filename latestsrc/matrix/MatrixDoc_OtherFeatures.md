@@ -249,4 +249,4 @@ Grammar Engineering Platform},\
 volume = {28}\
 }
 
-Page last updated by VaryaGracheva - 2013-02-24([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_OtherFeatures/_edit)){% endraw %}
+Last update: 2013-02-24 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_OtherFeatures/_edit)]{% endraw %}

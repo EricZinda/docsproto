@@ -447,4 +447,4 @@ oe: We're not going to modernize in one 50 min discussion, or even in
 one year. I'd be happy for you to conduct that pilot and for others to
 try out M$ [GitHub](/GitHub) and report back in a year.
 
-Page last updated by Alexandre Rademaker - 2021-07-20([edit](https://github.com/delph-in/docs/wiki/VirtualInfrastructure/_edit)){% endraw %}
+Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/VirtualInfrastructure/_edit)]{% endraw %}

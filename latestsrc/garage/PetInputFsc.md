@@ -203,4 +203,4 @@ rather than:
 
     apt-get install sudo apt-get install libxerces25 
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/PetInputFsc/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetInputFsc/_edit)]{% endraw %}

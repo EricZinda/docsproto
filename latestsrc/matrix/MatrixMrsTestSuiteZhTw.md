@@ -216,4 +216,4 @@
           不要叫
     1071 The dog arrived barking.
 
-Page last updated by MichaelGoodman - 2009-03-20([edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteZhTw/_edit)){% endraw %}
+Last update: 2009-03-20 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteZhTw/_edit)]{% endraw %}

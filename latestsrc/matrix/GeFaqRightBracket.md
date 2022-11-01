@@ -23,4 +23,4 @@ me figure out where my syntax error is?](../GeFaqTabIndentation)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-14([edit](https://github.com/delph-in/docs/wiki/GeFaqRightBracket/_edit)){% endraw %}
+Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqRightBracket/_edit)]{% endraw %}

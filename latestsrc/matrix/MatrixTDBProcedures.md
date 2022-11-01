@@ -389,4 +389,4 @@ source profile - Specifically refers to a profile that was created by
 processing a list of items in order to get the mrs semantics into
 MatrixTDB
 
-Page last updated by anonymous - 2009-09-17([edit](https://github.com/delph-in/docs/wiki/MatrixTDBProcedures/_edit)){% endraw %}
+Last update: 2009-09-17 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixTDBProcedures/_edit)]{% endraw %}

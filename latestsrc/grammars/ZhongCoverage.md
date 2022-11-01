@@ -103,4 +103,4 @@ generation.
 
 See [ZhongHistory](../ZhongHistory)
 
-Page last updated by SanghounSong - 2015-03-20([edit](https://github.com/delph-in/docs/wiki/ZhongCoverage/_edit)){% endraw %}
+Last update: 2015-03-20 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongCoverage/_edit)]{% endraw %}

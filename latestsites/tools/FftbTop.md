@@ -269,4 +269,4 @@ can't find the environment variable LOGNAME. To set it use
 
     export LOGNAME=myuser
 
-Page last updated by Francis Bond - 2022-07-22([edit](https://github.com/delph-in/docs/wiki/FftbTop/_edit)){% endraw %}
+Last update: 2022-07-22 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/FftbTop/_edit)]{% endraw %}

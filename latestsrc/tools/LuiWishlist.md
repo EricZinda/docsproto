@@ -54,4 +54,4 @@ version becomes mainstream
 (lkb::show-word-aux-tty "鬼" nil) **Done:** 2009-10-13 (actually
 earlier by OE, FCB)
 
-Page last updated by GuyEmerson - 2017-07-31([edit](https://github.com/delph-in/docs/wiki/LuiWishlist/_edit)){% endraw %}
+Last update: 2017-07-31 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/LuiWishlist/_edit)]{% endraw %}

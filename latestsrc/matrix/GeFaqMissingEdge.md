@@ -23,4 +23,4 @@ directions for doing [interactive unification](../GeFaqInteractiveUnify).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by EmilyBender - 2018-06-21([edit](https://github.com/delph-in/docs/wiki/GeFaqMissingEdge/_edit)){% endraw %}
+Last update: 2018-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingEdge/_edit)]{% endraw %}

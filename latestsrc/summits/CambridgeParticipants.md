@@ -95,4 +95,4 @@ Summit](../CambridgeTop)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 
-Page last updated by BrunoCuconato - 2019-07-18([edit](https://github.com/delph-in/docs/wiki/CambridgeParticipants/_edit)){% endraw %}
+Last update: 2019-07-18 by BrunoCuconato [[edit](https://github.com/delph-in/docs/wiki/CambridgeParticipants/_edit)]{% endraw %}

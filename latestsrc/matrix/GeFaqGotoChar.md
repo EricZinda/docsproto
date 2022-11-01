@@ -15,4 +15,4 @@ where. What should I do?](../GeFaqRightBracket)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-21([edit](https://github.com/delph-in/docs/wiki/GeFaqGotoChar/_edit)){% endraw %}
+Last update: 2012-08-21 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqGotoChar/_edit)]{% endraw %}

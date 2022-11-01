@@ -215,4 +215,4 @@ entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by EmilyBender - 2016-03-03([edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit)){% endraw %}
+Last update: 2016-03-03 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit)]{% endraw %}

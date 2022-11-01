@@ -29,4 +29,4 @@ After that, you can run the translation process. The sequence is INPUT
 
 ## hsja
 
-Page last updated by SanghounSong - 2014-09-10([edit](https://github.com/delph-in/docs/wiki/ZhongTranslation/_edit)){% endraw %}
+Last update: 2014-09-10 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongTranslation/_edit)]{% endraw %}

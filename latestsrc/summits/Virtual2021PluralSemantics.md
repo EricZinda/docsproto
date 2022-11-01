@@ -108,4 +108,4 @@ Ann: Arguments about whether singular is semantically unmarked. But *no dogs*: c
 
 Olga (in chat): For Russian, it will be million:SG-GEN with two, three four, but then million:PL-GEN with five through ten.
 
-Page last updated by anncopestake - 2021-07-20([edit](https://github.com/delph-in/docs/wiki/Virtual2021PluralSemantics/_edit)){% endraw %}
+Last update: 2021-07-20 by anncopestake [[edit](https://github.com/delph-in/docs/wiki/Virtual2021PluralSemantics/_edit)]{% endraw %}

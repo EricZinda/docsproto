@@ -134,4 +134,4 @@ structures.
 Chris: I can put my hand up for being responsible for latex generation
 --- need this for my own research (and have funding).
 
-Page last updated by NedLetcher - 2015-08-06([edit](https://github.com/delph-in/docs/wiki/SingaporeOnlineDemos/_edit)){% endraw %}
+Last update: 2015-08-06 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/SingaporeOnlineDemos/_edit)]{% endraw %}
