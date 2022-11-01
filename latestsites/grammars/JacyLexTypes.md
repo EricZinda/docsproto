@@ -22,4 +22,6 @@ ARG1 and the noun as ARG2.
 - wh-adv-sem-type which introduces unspec\_p\_manner\_rel
 - adv\_np\_rule-type which introduces unspec\_p\_rel, changing date
 nouns into pps.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2015-09-26
+{% endraw %}

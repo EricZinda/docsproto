@@ -58,4 +58,6 @@ matching algorithms,
 nltk, ...
 \\includegraphics\[width=\\textwidth\]{1090410-3-0\_0-0.png}
 (Buggy but colorful)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2012-07-12
+{% endraw %}

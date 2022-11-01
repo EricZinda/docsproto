@@ -32,4 +32,6 @@ person on the phone actually said she doesn't recommend that we come
 until the 10th, because it is going to be extremely crowded and the wait
 will be 2-3 hours (!). So... I think we should do something else
 tonight, like go to the city.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by OlgaZamaraeva - 2015-08-06
+{% endraw %}

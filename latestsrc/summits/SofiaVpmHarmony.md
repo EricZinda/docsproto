@@ -136,4 +136,6 @@ consent and propose a SIG.
 
 Francis: There's the low-hanging fruit of just spelling common names the
 same way.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2012-07-04
+{% endraw %}

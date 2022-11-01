@@ -79,4 +79,6 @@ external treebanking tool by clicking on *Exit* in its browser window
 (or otherwise making it terminate, e.g. through a shell command like
 ‘killall fftb’) to regain control in the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) podium.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2016-05-24
+{% endraw %}

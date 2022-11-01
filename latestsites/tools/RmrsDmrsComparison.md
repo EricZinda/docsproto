@@ -154,4 +154,6 @@ optional.
 
 The output is a simple ID pair list. If multiple duplication occurs in a
 file the ID numbers will be output several times.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2010-06-01
+{% endraw %}

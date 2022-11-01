@@ -210,4 +210,6 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 ## Token Splitting
 
 # Unknown Word Handling
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2013-10-24
+{% endraw %}

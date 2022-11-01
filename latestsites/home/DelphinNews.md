@@ -181,4 +181,6 @@ will check the page when it is updated and may reformat new entries,
 including removing any material excessive in length or of marginal
 relevance. Note that I would normally check with the original author
 if I did this, but may not for very minor changes.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EricZinda - 2022-09-14
+{% endraw %}

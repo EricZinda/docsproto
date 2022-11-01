@@ -110,4 +110,6 @@ preds, etc)
 
 - But have to add stuff to MRS construction code.
 - Would rather do lemmatization on the input.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by PeterAdolphs - 2012-02-16
+{% endraw %}

@@ -40,4 +40,6 @@ grammar.grm.
 
 
     sm := "vm6p.mem".
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2005-04-01
+{% endraw %}

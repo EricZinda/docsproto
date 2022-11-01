@@ -1132,4 +1132,6 @@ believe otherwise.
 Francis: OK thanks! we'll do that!
 
 All: See you all soon!
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Olga Zamaraeva - 2021-06-04
+{% endraw %}

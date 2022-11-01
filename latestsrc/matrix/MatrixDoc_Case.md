@@ -399,4 +399,6 @@ Explanation},\
 pages = {63-78},\
 publisher = {CSLI Publications}\
 }
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2013-10-01
+{% endraw %}

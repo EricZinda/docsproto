@@ -182,4 +182,6 @@ OE: Feels like a complication
 ALL: With 'conditionals everywhere' are we encroaching on CLIMB?
 
 CONSENSUS: reluctance
-<update date omitted for speed>{% endraw %}
+
+Page last updated by GlennSlayden - 2020-07-14
+{% endraw %}

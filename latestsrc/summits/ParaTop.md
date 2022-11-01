@@ -35,4 +35,6 @@ Bond, Francis, Eric Nichols, Darren Scott Appling, Michael Paul (2008)
 Training
 Data](http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2008-iwslt-smt-para.pdf),
 In IWSLT-2008.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

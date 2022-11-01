@@ -143,4 +143,6 @@ How to allow multiple people to access the same DB:
      public | semi_pred  | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
      public | semi_var   | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
     (9 rows)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

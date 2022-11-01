@@ -14,4 +14,6 @@ procedure to be applied for fixing the problem.
 # RHEL8
 
       dnf install libnsl glibc.i686
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2020-12-08
+{% endraw %}

@@ -60,4 +60,6 @@ inter-dependencies between the grammar and processing
 [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann): Interlinguality need to be
 considered in processing, as well. A close cooperation between grammar
 engineering and processing people is needed.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by YiZhang - 2007-08-26
+{% endraw %}

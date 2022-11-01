@@ -130,4 +130,6 @@ A:
 Chair:
 
 - Ok, then let's thank Guy and Alex.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2016-06-18
+{% endraw %}

@@ -4,4 +4,6 @@ passing in "len(errors) &gt; 0" as the last argument to html\_input()
 (which disables the button if there are any errors), pass in "False"
 instead. Then you can click the "Create Grammar" button and see the
 old-style list-of-error-messages page. (sfd 6/29/09)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2009-06-30
+{% endraw %}

@@ -43,4 +43,6 @@ machinery. It may therefore be straightforward to reuse the code for
 output manipulation.
 
 # Notes
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2009-07-19
+{% endraw %}

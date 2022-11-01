@@ -81,4 +81,6 @@ relations:
     empathy_rel := avm &
                    [EMPER index,
                     EMPEE index].
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

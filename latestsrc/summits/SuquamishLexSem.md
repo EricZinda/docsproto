@@ -252,4 +252,6 @@ Francis: I have a feeling of a general shared consensus that we look for
 the post-semi mapping to WN using the transfer machinery or some other
 new machinery. Possibly there will be some fix up on both sides as I
 start working on this mapping.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2011-06-29
+{% endraw %}

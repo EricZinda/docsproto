@@ -103,4 +103,6 @@ process):
 
 The above examples are not meant to represent any real phenomenon in
 English-French translation.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by WoodleyPackard - 2013-02-06
+{% endraw %}

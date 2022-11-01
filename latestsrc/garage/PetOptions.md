@@ -122,4 +122,6 @@ a "\#" or "//" at the start of a line
 
 \`-partial\`  
 - print partial results in case of parse failure
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

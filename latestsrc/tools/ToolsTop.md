@@ -126,4 +126,6 @@ repo](https://git.ling.washington.edu/agg/aggregation)
 improvements over the initial [LkbMacintosh](../LkbMacintosh).
 - [Heart of Gold](../HeartofgoldTop): XML-based middleware for the
 integration of deep and shallow NLP components
-<update date omitted for speed>{% endraw %}
+
+Page last updated by T.J. Trimble - 2021-06-12
+{% endraw %}

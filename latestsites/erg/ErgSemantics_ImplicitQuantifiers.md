@@ -79,4 +79,6 @@ implicit quantifiers to just the one udef\_q.
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2015-12-21
+{% endraw %}

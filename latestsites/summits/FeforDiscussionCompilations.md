@@ -146,4 +146,6 @@ Oepen)
 
 - how to define SDL cascades in HoG or general HoG intro or
 'installation party' (Ulrich Schaefer)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2006-06-01
+{% endraw %}

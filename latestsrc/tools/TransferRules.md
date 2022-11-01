@@ -192,4 +192,6 @@ place.
   :post
   
   - **no documentation here, move along**
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2008-11-16
+{% endraw %}

@@ -68,4 +68,6 @@ unification, i.e. dragging a chart edge and dropping it onto a feature
 (sub-)structure in another LUI window to request unification of the two
 structures with failure recording. See the
 [LuiUnification](../LuiUnification) page for details.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by WoodleyPackard - 2013-07-02
+{% endraw %}

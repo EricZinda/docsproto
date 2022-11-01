@@ -225,4 +225,6 @@ If there are translations, then it also makes an output file. This is
 useful for automatically scoring machine translation.
 
 - It gets confused if there are more than 9 translations ...
-<update date omitted for speed>{% endraw %}
+
+Page last updated by MichaelGoodman - 2013-03-21
+{% endraw %}

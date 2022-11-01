@@ -117,4 +117,6 @@ of COLING-2010.
       year={2010},
       pages={{To appear}}
     }
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

@@ -31,4 +31,6 @@ Declarative CLIMB is included in gCLIMB.
 
 Feature Geometry extraction, the path abbreviation and completion
 algorithms are included in gCLIMB.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by AntskeFokkens - 2013-07-30
+{% endraw %}

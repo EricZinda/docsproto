@@ -112,4 +112,6 @@
 | 1051 | Tommy försökte.                                           | Browne tried to.                              |
 | 1061 | Skäll inte!                                               | Don't bark!                                   |
 | 1071 | Hunden kom skällande.                                     | The dog arrived barking.                      |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

@@ -14,4 +14,6 @@ Discussions about the analysis/implementation of related languages.
 ## Experimental
 
 - [Phonology](../PhonologyTop): Proposals for phonological representation
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

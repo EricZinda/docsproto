@@ -94,4 +94,6 @@ d'un glissement de terrain, jusqu'au jeudi après-midi)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Monday - Friday)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by AntskeFokkens - 2018-06-20
+{% endraw %}

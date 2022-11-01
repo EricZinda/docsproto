@@ -120,4 +120,6 @@ See also [PetParameters](../PetParameters).
 Yi created a two-phase parsing algorithm that, in case the deep grammar
 does not succeed, a CFG backbone is used to still get a reasonable
 parse. This still has to be integrated in the main branch.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

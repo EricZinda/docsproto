@@ -108,4 +108,6 @@
 | Browne tried to.                              | Ο Βασιλης προσπαθησε .                                           |
 | Don't bark!                                   | Μη γαυγιζεις !                                                   |
 | The dog arrived barking.                      | Ο σκυλος εφτασε γαυγιζοντας .                                    |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by AlexandrosPoulis - 2006-06-22
+{% endraw %}

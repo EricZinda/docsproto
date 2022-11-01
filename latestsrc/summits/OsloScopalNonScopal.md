@@ -660,4 +660,6 @@ Woodley: So do it with verbs:
 whose dog that smiled barked.*
 
 \[ This didn't parse in 1214, but does parse in trunk. \]
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2017-08-12
+{% endraw %}

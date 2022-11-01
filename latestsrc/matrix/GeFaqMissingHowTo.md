@@ -39,4 +39,6 @@ spans the whole chart (accounts for all the words), but the LKB
 still says no parses found. What might be going on?](GeFaqRootFail)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by NedLetcher - 2012-08-15
+{% endraw %}

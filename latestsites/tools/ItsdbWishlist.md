@@ -52,4 +52,6 @@ with.
 browse well-formed items that gave rise to errors. (This is because
 lexical rule bugs usually manifest as errors, to [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb).)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2012-08-07
+{% endraw %}

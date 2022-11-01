@@ -41,4 +41,6 @@ on July 6 to pre-register, by emailing summit@delph-in.net.
 | **Afternoon session 2** |                                                                                                                                  |                      |
 | 16:55-17:15             | [Chart Mining](http://www.delph-in.net/2010/yi.pdf)                                                                              | Yi Zhang             |
 | 17:15-17:20             | Closing remarks                                                                                                                  | Stephan Oepen        |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

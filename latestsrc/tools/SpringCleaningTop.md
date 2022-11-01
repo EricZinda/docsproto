@@ -38,4 +38,6 @@ All experiments reported below were carried out on 2012-12-12 and
 ### Results
 
 ### Grammars (versions used, original sources)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by AntskeFokkens - 2012-12-13
+{% endraw %}

@@ -16,4 +16,6 @@ right analysis, and extend questionnaire accordingly
 answers
 - Add regression tests documenting functionality
 - Add prose documenting how to use
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2019-07-09
+{% endraw %}

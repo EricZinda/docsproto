@@ -25,4 +25,6 @@ modifications to or enhancements of this library that are either in
 progress or planned. \]</span>
 
 # References
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2012-08-30
+{% endraw %}

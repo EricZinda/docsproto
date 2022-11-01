@@ -52,4 +52,6 @@ the roof of the Opera and may briefly peek inside (to appreciate the
 iceberg metaphor). From there, we continue towards the most recent
 addition to downtown Oslo, across the waters towards *Sørenga*, the
 beach, and dinner.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by GlennSlayden - 2017-08-11
+{% endraw %}

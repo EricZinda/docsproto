@@ -84,4 +84,6 @@ encoded in predicates and arguments would be considered isomorphic.
 Examples (depending on the grammar) may be "Kim runs the process."
 (present, active) and "Kim ran the process" (past, active) and "The
 process was run by Kim." (past, passive)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by MichaelGoodman - 2011-05-25
+{% endraw %}

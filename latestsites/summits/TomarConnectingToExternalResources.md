@@ -201,4 +201,6 @@ it if we're going to do it.
 ...
 
 \*applause\*
-<update date omitted for speed>{% endraw %}
+
+Page last updated by MichaelGoodman - 2014-07-15
+{% endraw %}

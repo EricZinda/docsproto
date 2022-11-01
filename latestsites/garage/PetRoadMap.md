@@ -28,4 +28,6 @@ functionality where possible
     - necessary resources (data to train / models, training
 scripts, etc)
 - release plans / procedures (LOGON?)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

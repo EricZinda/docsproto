@@ -162,4 +162,6 @@ following command:
     brew install delph-in/delphin/ace
 
 See <https://github.com/delph-in/homebrew-delphin> for the Homebrew tap.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by T.J. Trimble - 2021-06-12
+{% endraw %}

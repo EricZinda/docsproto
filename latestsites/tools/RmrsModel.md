@@ -1,2 +1,4 @@
 {% raw %}Placeholder for Dan's notes.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2008-05-24
+{% endraw %}

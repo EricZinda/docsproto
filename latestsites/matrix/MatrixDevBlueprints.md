@@ -158,4 +158,6 @@ their complements is linguistic logic, while checking if something is in
 the choices dictionary or adding a chunk of text to a list is less so.
 While it may not be possible to separate these entirely, we could
 perhaps do a better job and provide better guildelines.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by OlgaZamaraeva - 2017-12-04
+{% endraw %}

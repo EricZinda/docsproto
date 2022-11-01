@@ -66,4 +66,6 @@ phonemes or some other conveniently accessible representation.
        SYLBS list-of-syllables].
 
 # Prosodic structure
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

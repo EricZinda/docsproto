@@ -22,4 +22,6 @@ find the spot where somethings wrong. See [FAQ: How do I use tab to help
 me figure out where my syntax error is?](../GeFaqTabIndentation)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by NedLetcher - 2012-08-14
+{% endraw %}

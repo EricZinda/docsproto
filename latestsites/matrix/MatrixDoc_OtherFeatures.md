@@ -248,4 +248,6 @@ title = {Meta-modeling of Tense and Aspect in a Cross-linguistic
 Grammar Engineering Platform},\
 volume = {28}\
 }
-<update date omitted for speed>{% endraw %}
+
+Page last updated by VaryaGracheva - 2013-02-24
+{% endraw %}

@@ -135,4 +135,6 @@ See also: [SmafSample](SmafSample)
 # SMAF DTD
 
 See [SmafDtd](SmafDtd).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

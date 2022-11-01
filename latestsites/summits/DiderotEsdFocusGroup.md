@@ -238,4 +238,6 @@ Berthold: It would be nice to link both ways, from demo to ESD pages and
 from ESD pages to demos.
 
 John/Dan: Or just a link to the ESD pages at the top of the demo.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2018-08-30
+{% endraw %}

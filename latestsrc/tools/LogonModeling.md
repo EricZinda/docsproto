@@ -319,4 +319,6 @@ uses your generation profile for the training:
 6\. Train the model:
 
     ./load --binary train.g.lisp
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

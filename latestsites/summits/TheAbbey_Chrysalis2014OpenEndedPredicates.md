@@ -106,4 +106,6 @@ English with at least a usage of *3* and *4* as adjectives. That still
 leaves the question of whether there is an ambiguity.
 
 Ann: There's some issues about that, but it's nothing to do with GQs.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2014-02-17
+{% endraw %}

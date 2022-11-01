@@ -53,4 +53,6 @@ length of the RELS and HCONS lists.
 and how do I debug it?](GeFaqCyclicCheck)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by NedLetcher - 2012-08-17
+{% endraw %}

@@ -34,4 +34,6 @@ popup-menu with the following choices:
 | *Indexed MRS*   | Opens an MRS browser for the *indexed* view of the semantics of this node.                         |
 | *Scoped MRS*    | Opens an MRS browser for the *scoped* view of the semantics of this node.                          |
 | *Dependencies*  | Displays the dependencies view of the semantics of this node.                                      |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

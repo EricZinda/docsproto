@@ -97,4 +97,6 @@ selective unpacking).
 PS: In order to control the maximum number of edges allowed in the chart
 during generation, look for \*tsdb-maximal-number-of-edges\* in the
 generate script (the current default is 100,000)).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

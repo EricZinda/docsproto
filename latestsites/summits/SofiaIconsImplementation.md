@@ -251,4 +251,6 @@ relative clause attach in the scope tree if we do that? Dan hopes:
 there's enough quantifiers to make that work. Might need a
 non-restrictive *who* to introduce a new quantifier. Ann will look into
 this and report back.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2012-07-05
+{% endraw %}

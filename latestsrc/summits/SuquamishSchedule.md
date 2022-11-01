@@ -154,4 +154,6 @@ on Tuesday), David, (Petter), (Woodley), Glenn
 - Francis Bond (NTU) Program Chair
 - Stephan Oepen (Oslo) Program Chair
 - Emily M. Bender (UW) Local Organizer
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

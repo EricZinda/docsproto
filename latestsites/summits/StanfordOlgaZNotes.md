@@ -87,4 +87,6 @@ Woodley: If you did that and your cyclic graph looked like what the
 morhpologists describe, that would be a nice validation of your work.
 
 Oe: Lunch time!
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2016-06-17
+{% endraw %}

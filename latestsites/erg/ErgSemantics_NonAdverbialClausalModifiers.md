@@ -85,4 +85,6 @@ relation whose handle could serve as the other argument of the
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2015-06-04
+{% endraw %}

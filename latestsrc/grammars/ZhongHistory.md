@@ -248,4 +248,6 @@ generation
 | auto          | 2015-03-12 | 0.0          | 1.7          | 0.1         | 1.5          | N/A            | N/A            |
 | w/o auto      | 2015-03-12 | 0.0          | 1.7          | 0.0         | 1.1          | N/A            | N/A            |
 | change        | YYYY-MM-DD | ordinary     | unk          | br          | unk+br       | generation     | end-to-end     |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by SanghounSong - 2015-07-20
+{% endraw %}

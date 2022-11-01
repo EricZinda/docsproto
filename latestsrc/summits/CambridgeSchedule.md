@@ -132,4 +132,6 @@ spreadsheet](https://docs.google.com/spreadsheets/d/1uME2uyl9OpqUzvcXczKb4wiNCCT
 | 14:00-15:30 *SIG Session 7* |                                                                                                                                                                                        |
 |            14:00            |                                                      Semantics of nominalization (Emily Bender) [Notes](../CambridgeNominalization)                                                       |
 |                             |                                                                                                                                                                                        |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Alexandre Rademaker - 2021-09-16
+{% endraw %}

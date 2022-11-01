@@ -115,4 +115,6 @@ should be stored in gmcs/web\_tests/web\_choices.
         web_tests/
             testWeb.py
             web_choices/
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Olga Zamaraeva - 2021-06-04
+{% endraw %}

@@ -71,4 +71,6 @@ October, accompanying them, in a prose field, with short
 description in order to know how the text in the various
 translations correlate to each other; -- guidelines Wiki subpage
 to be created by Oslo;
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}
