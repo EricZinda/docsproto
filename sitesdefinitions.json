@@ -141,7 +141,7 @@
     ],
     "grammars": [
       {"Section": "Norwegian", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "NorsourceTop.md", "Referrer": "home/GrammarCatalogue.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "NorsourceTop.md", "Referrer": "home/GrammarCatalogue.md"}
       ]},
       {"Section": "Chinese (Zhong)", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ZhongTop.md", "Referrer": "tools/TypediffTop.md"},
@@ -447,7 +447,6 @@
         {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
       ]},
       {"Section": "Misc", "Pages": [
-        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
         {"Page": "Delphin Tools", "SrcDir": "docswiki", "SrcFile": "DelphinTools.md"},
         {"Page": "Vista Extraction", "SrcDir": "docswiki", "SrcFile": "VistaExtractionTop.md"},
         {"Page": "Regular Expression Pre-Processor", "SrcDir": "docswiki", "SrcFile": "ReppTop.md"},
