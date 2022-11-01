@@ -23,5 +23,5 @@ ARG1 and the noun as ARG2.
 - adv\_np\_rule-type which introduces unspec\_p\_rel, changing date
 nouns into pps.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: FrancisBond - Sat Sep 26 14:49:43 2015 +0000
 {% endraw %}

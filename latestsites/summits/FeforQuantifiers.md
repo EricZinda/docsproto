@@ -3,5 +3,5 @@ Here is the small deck of
 [slides](http://faculty.washington.edu/ebender/Fefor_Quantifiers.pdf)
 that I had prepared.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:09 2011 +0000
 {% endraw %}

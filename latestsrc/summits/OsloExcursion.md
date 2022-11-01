@@ -53,5 +53,5 @@ iceberg metaphor). From there, we continue towards the most recent
 addition to downtown Oslo, across the waters towards *Sørenga*, the
 beach, and dinner.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: GlennSlayden - Fri Aug 11 11:36:23 2017 +0000
 {% endraw %}

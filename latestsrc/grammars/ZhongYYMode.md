@@ -85,5 +85,5 @@ following line (add *\[0\]* after *result*).
     for w in result:
        ...
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: SanghounSong - Wed Apr 22 10:37:38 2015 +0000
 {% endraw %}

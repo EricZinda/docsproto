@@ -35,5 +35,5 @@ popup-menu with the following choices:
 | *Scoped MRS*    | Opens an MRS browser for the *scoped* view of the semantics of this node.                          |
 | *Dependencies*  | Displays the dependencies view of the semantics of this node.                                      |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:10 2011 +0000
 {% endraw %}

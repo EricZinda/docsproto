@@ -91,5 +91,5 @@ the podium. For example, in the \*common-lisp\* buffer type
 batch from the menus and look at the output in the buffer. This can then
 be converted into a script.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Tue Aug 7 12:13:57 2012 +0000
 {% endraw %}

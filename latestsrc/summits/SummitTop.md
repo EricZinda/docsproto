@@ -107,5 +107,5 @@ this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: emilymbender - Tue Jul 19 22:04:22 2022 -0700
 {% endraw %}

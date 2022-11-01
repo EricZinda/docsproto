@@ -65,5 +65,5 @@ offering itself to support the largest possible range of language
 technology applications. The grammar can be obtained from
 <http://www.coli.uni-saarland.de/~tania/rrg/>.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: TaniaAvgustinova - Fri Nov 16 16:55:53 2012 +0000
 {% endraw %}

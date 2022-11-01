@@ -71,5 +71,5 @@ ERG will probably shorten to just YYYY for stable releases:
 
 - e.g. "ERG mal (2020)"
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: FrancisBond - Tue Jun 23 05:59:38 2020 +0000
 {% endraw %}

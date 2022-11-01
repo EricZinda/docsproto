@@ -111,5 +111,5 @@ preds, etc)
 - But have to add stuff to MRS construction code.
 - Would rather do lemmatization on the input.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: PeterAdolphs - Thu Feb 16 15:47:00 2012 +0000
 {% endraw %}

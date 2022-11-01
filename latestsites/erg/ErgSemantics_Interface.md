@@ -150,5 +150,5 @@ follows (e.g. in lkb/mrsglobals.lsp in the ERG):
 
 # References
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Sat May 25 09:50:54 2019 +0000
 {% endraw %}

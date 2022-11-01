@@ -81,5 +81,5 @@ The feature geometry cheat sheets at the bottom of
 Please check out the [DELPH-IN QA Discourse
 site](https://delphinqa.ling.washington.edu/) and post questions there.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EricZinda - Wed Sep 14 16:06:46 2022 -0700
 {% endraw %}

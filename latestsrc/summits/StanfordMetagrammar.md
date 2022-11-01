@@ -351,5 +351,5 @@ side-effect of identifying the precise extent of each incremental
 change, which is useful for the purposes of fine-grained version control
 and efficient "undo/redo" operations.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: GlennSlayden - Tue Jun 21 21:00:16 2016 +0000
 {% endraw %}

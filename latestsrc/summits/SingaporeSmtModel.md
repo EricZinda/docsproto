@@ -312,5 +312,5 @@ Woodley: 'strong tea' v. 'powerful tea' is within the power of the data
 we can parse, namely [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods). 30 instances of the former,
 none of the latter.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Mon Aug 10 09:39:12 2015 +0000
 {% endraw %}

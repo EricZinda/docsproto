@@ -16,5 +16,5 @@
 | [YusukeMiyao](/YusukeMiyao)                                         | [Towards Framework-Independent Evaluation of Deep Linguistic Parsers](http://www-tsujii.is.s.u-tokyo.ac.jp/~yusuke/paper/delphin2007.pdf)                                                                                                                       |
 | [AntonioBranco](https://blog.inductorsoftware.com/docsproto/tools/AntonioBranco) and [FranciscoCosta](https://blog.inductorsoftware.com/docsproto/tools/FranciscoCosta) | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                                                                                                                                     |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:14 2011 +0000
 {% endraw %}

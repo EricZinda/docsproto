@@ -24,5 +24,5 @@ subsumes both ‘f’ and ‘e’ via ‘glbtype1’ and ‘glbtype2’. This bu
 present in the Allegro CL version of the LKB, but is fixed in the fully
 open source version, LKB-FOS.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: John Carroll - Fri Dec 17 22:16:59 2021 +0000
 {% endraw %}

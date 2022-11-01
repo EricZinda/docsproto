@@ -86,5 +86,5 @@ instructions](http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/KnoppixLK
 for KnoppixLKB. Our thanks go to David Brodbeck for his assistance in
 preparing the tutorial VirtualBox appliance.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Alexandre Rademaker - Mon May 10 21:34:07 2021 -0300
 {% endraw %}

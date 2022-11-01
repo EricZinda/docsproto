@@ -124,5 +124,5 @@ or
     ~/grammar/ind$ art -a 'ace -g ind.dat --maxent=mrs-gp0.mem' /tmp/mrs-demo/
     ~/grammar/ind$ ~/tools/fftrain-0.9.25/mrs-scorer-linux-x86.static ~/grammar/ind/tsdb/gold/mrs /tmp/mrs-demo
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: DavidMoeljadi - Wed Oct 10 11:35:40 2018 +0000
 {% endraw %}

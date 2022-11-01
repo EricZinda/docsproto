@@ -84,5 +84,5 @@
      ɲ := nasal-cons.
      ŋ := nasal-cons.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: JesseTseng - Tue Aug 21 16:28:32 2007 +0000
 {% endraw %}

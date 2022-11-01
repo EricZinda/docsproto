@@ -22,5 +22,5 @@ result with failure sites highlighted (in red ink) and detailed. The
 user can navigate between the (potentially numerous) unification
 failures using the left and right arrow keys.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Thu Mar 9 13:40:33 2006 +0000
 {% endraw %}

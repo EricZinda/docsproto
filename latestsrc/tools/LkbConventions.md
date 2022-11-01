@@ -28,5 +28,5 @@ Suggested convention
 [iso-8601](http://www.cl.cam.ac.uk/~mgk25/iso-time.html) date
 - directories based on this grammar should be called name\_date
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:11 2011 +0000
 {% endraw %}

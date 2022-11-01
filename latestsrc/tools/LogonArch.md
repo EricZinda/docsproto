@@ -44,5 +44,5 @@ version was in the standard repositories:
 
 sudo pacman -S libpng12
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: MichaelGoodman - Sat Mar 9 02:32:24 2013 +0000
 {% endraw %}

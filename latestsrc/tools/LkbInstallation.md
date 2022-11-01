@@ -441,5 +441,5 @@ We encourage people to file bugs in their own distributions, and/or
 confirm the bug in Ubuntu so that it gets a higher priority.
 Alternatively, if you know about fonts then please fix it...
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Alexandre Rademaker - Wed Jun 2 19:24:47 2021 -0300
 {% endraw %}

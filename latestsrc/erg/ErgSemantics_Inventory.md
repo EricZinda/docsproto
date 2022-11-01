@@ -160,5 +160,5 @@ constructions)
 - [ErgSemantics](../ErgSemantics) Main Page
 - [How to Cite this Work](../ErgSemantics_HowToCite)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: emilymbender - Fri Jul 22 11:05:57 2022 -0700
 {% endraw %}

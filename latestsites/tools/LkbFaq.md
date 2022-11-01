@@ -302,5 +302,5 @@ repeated three times. This repetition may be benign.
 The [GrammarEngineeringFaq](/GrammarEngineeringFaq) page contains
 further LKB-related FAQs.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: JohnCarroll - Fri Aug 4 02:05:55 2017 +0000
 {% endraw %}

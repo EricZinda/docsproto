@@ -288,5 +288,5 @@ using deep linguistic processing. [Paper
 ## Microworld Interaction
 - Zinda, Eric. The 'Perplexity' Natural Language Prototype. InductorSoftware.com, 4 Aug, 2020, https://blog.inductorsoftware.com/blog/PerplexityOverview.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EricZinda - Sun Jul 24 16:55:47 2022 -0700
 {% endraw %}

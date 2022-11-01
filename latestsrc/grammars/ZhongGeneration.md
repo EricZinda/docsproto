@@ -169,5 +169,5 @@ clause).
      [ SYNSEM.LOCAL [ CAT.MC +,
                       CONT.HOOK.INDEX.E.ASPECT non-aspect ] ].
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: SanghounSong - Thu Sep 11 09:24:00 2014 +0000
 {% endraw %}

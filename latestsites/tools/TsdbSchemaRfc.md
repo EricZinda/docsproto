@@ -193,5 +193,5 @@ And here is the updated syntax description:
   20 NewLine  := /\n/
 ```
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: MichaelGoodman - Tue Jun 4 12:53:12 2019 +0000
 {% endraw %}

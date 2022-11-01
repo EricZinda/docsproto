@@ -15,5 +15,5 @@ procedure to be applied for fixing the problem.
 
       dnf install libnsl glibc.i686
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Tue Dec 8 01:32:05 2020 +0000
 {% endraw %}

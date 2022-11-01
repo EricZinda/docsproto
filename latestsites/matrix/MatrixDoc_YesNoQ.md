@@ -208,5 +208,5 @@ Conference on Natural Language Processing IJCNLP-05
 location = {Jeju Island, Korea}\
 }
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Olga Zamaraeva - Tue Nov 16 15:05:54 2021 +0100
 {% endraw %}

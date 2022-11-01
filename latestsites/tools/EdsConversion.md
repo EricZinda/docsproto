@@ -188,5 +188,5 @@ constructions (in English) tend to be post-head, such a simple heuristic
 might actually come to the right result. However, it does not quite seem
 linguistically very well founded ...
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Wed Jul 13 02:56:29 2016 +0000
 {% endraw %}

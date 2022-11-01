@@ -234,5 +234,5 @@ been canonicalized; this name has been compounded.
 
 Dan: Record the provenance of the predications.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Mon Aug 3 15:09:07 2015 +0000
 {% endraw %}

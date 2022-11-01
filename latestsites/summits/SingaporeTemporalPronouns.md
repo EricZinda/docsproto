@@ -152,5 +152,5 @@ Emily: Paper on nominal tense...
 Nordinger, Rachel, and Louisa Sadler. "Nominal Tense in crosslinguistic
 perspective." Language (2004): 776-806
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: StephanOepen - Wed Aug 12 13:25:24 2015 +0000
 {% endraw %}

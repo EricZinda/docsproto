@@ -6,5 +6,5 @@ Wambaya grammar.
 For now, the aux+vc version of the grammar associated with Bender 2010
 is the most up to date: <http://faculty.washington.edu/ebender/wmb/>
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Tue Aug 30 16:07:38 2011 +0000
 {% endraw %}

@@ -206,5 +206,5 @@ everyone use the *trunk*; more testers would be welcome):
 - 2016/05/23: \#12918 @ login.coli.uni-saarland.de \[oe\]
 - 2016/05/24: \#12918 @ patas.ling.washington.edu \[oe\]
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Olga Zamaraeva - Fri Jun 4 13:18:41 2021 -0700
 {% endraw %}

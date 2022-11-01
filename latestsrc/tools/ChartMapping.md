@@ -62,5 +62,5 @@ Evaluation (LREC-2008). Marrakech, Morocco. ﻿
       keywords = {chart mapping, hpsg, preprocessing}
     }
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Alexandre Rademaker - Wed Jun 2 19:29:56 2021 -0300
 {% endraw %}

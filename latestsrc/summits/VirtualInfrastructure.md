@@ -447,5 +447,5 @@ oe: We're not going to modernize in one 50 min discussion, or even in
 one year. I'd be happy for you to conduct that pilot and for others to
 try out M$ [GitHub](/GitHub) and report back in a year.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: Alexandre Rademaker - Tue Jul 20 18:18:32 2021 -0300
 {% endraw %}

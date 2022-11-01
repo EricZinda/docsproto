@@ -284,5 +284,5 @@ share some distinguishing syntactic feature (e.g. a boolean type called
 then easily add constraints to the lexical items, lexical rules, and
 phrase structure rules that are added by the library currently.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: ElizabethNielsen - Fri Apr 26 18:55:08 2019 +0000
 {% endraw %}

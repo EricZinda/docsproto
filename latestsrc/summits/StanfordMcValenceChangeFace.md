@@ -78,5 +78,5 @@ Safiyyah's library).
 Emily: \[Scribe's post-script --- see [VLAD session on
 this.](LADValenceChange) \]
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: EmilyBender - Fri Jun 17 02:14:05 2016 +0000
 {% endraw %}

@@ -251,5 +251,5 @@ title = {The Fore Language of Papua New Guinea},\
 publisher = {Canberra, Australia: Paciﬁc Linguistics}\
 }
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: AntskeFokkens - Fri Mar 1 15:01:23 2013 +0000
 {% endraw %}

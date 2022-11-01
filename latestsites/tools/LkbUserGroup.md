@@ -69,5 +69,5 @@ sample grammars that illustrate the problem. Do not send bug reports to
 any individual developer: at best they will be forwarded to the lingo
 address, and at worst ignored.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: anonymous - Sun Oct 9 00:12:15 2011 +0000
 {% endraw %}
