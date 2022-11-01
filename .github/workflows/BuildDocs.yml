@@ -19,27 +19,20 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    
-    # First get all the repositories we will use to build any of the sites
-    # Need to include           fetch-depth: 0 in order to get the history so it can be included in the doc
     steps:
+      - run: python -V
+      - run: pip install marko
+
+
+      # First get all the repositories we will use to build any of the sites
+      # Need to include           fetch-depth: 0 in order to get the history so it can be included in the doc
+
       # This repo
       - name: Checkout docsproto
         uses: actions/checkout@v3
         with:
           path: main
           fetch-depth: 0
-
-      - name: Test
-        uses: ./main/IncludeSourceAction
-        id: includeSource
-        with:
-          definition-file: ./main/sitesdefinitions.json
-
-
-      - run: python -V
-      - run: pip install marko
-
 
       # This repo's  wiki
       - name: Checkout docsproto wiki 
@@ -57,24 +50,13 @@ jobs:
           path: docswiki
           fetch-depth: 0
 
-#      # Remove all pages from "latest" so we don't carry over removed pages
-#      - run: rm -r -f $GITHUB_WORKSPACE/main/latestsrc/
-#      - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/
-#      - run: rm -r -f $GITHUB_WORKSPACE/main/latestsites/
-#      - run: mkdir $GITHUB_WORKSPACE/main/latestsites/
-
-#      # Create blank "conceptual" site
-#      - run: cp -R $GITHUB_WORKSPACE/main/initial_concept/ $GITHUB_WORKSPACE/main/latestsrc/concept/
-#      - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/concept/_layouts
-#
-#      # Create blank "tools" site
-#      - run: cp -R $GITHUB_WORKSPACE/main/initial_tools/ $GITHUB_WORKSPACE/main/latestsrc/tools/
-#      - run: cp -r $GITHUB_WORKSPACE/main/shared_site_layouts $GITHUB_WORKSPACE/main/latestsrc/tools/_layouts
 
       # Create blank sites and then
-      # Process and copy all pages into the sites
+      # process and copy all pages into the sites
       - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }}
 
+
+      # Upload any output data so users can get at it
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
         with:
@@ -106,12 +88,14 @@ jobs:
           path: main/latestsrc/TransitiveBrokenLinks.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
+
       # Create an index of all the pages
       # - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
       #  with: 
       #    folder: ${{github.workspace}}/main/latestsrc/concept
-          
-      # Build the site with Jekyll
+
+
+      # Build each site with Jekyll
       - name: Setup Pages
         uses: actions/configure-pages@v1
 
@@ -126,6 +110,7 @@ jobs:
         with:
           path: main/latestsites/
 
+
       - name: Build How-to with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -136,6 +121,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: main/latestsites/
+
 
       - name: Build Garage with Jekyll
         uses: actions/jekyll-build-pages@v1
@@ -148,6 +134,7 @@ jobs:
         with:
           path: main/latestsites/
 
+
       - name: Build Tools with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -158,6 +145,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: main/latestsites/
+
 
       - name: Build Matrix with Jekyll
         uses: actions/jekyll-build-pages@v1
@@ -170,6 +158,7 @@ jobs:
         with:
           path: main/latestsites/
 
+
       - name: Build Summits with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -180,6 +169,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: main/latestsites/
+
 
       - name: Build ERG with Jekyll
         uses: actions/jekyll-build-pages@v1
@@ -192,6 +182,7 @@ jobs:
         with:
           path: main/latestsites/
 
+
       - name: Build Grammars with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -202,6 +193,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: main/latestsites/
+
 
       # Now commit and push all the changes to record this version of the docs
       - name: Commit files

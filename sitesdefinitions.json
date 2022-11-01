@@ -6,7 +6,9 @@
       "If a broken link is reported that doesn't seem broken, look at the casing of all the worlds in the entire page definition.",
       "OR look at the link that is calling it, it may not be cased properly",
 
-    "If you add a new site, or change the name of it, you must update .github/workflows/BuildDocs.yml to get jekyll to run on it and upload it"
+    "If you add a new site, or change the name of it, you must add entries to .github/workflows/BuildDocs.yml to get jekyll to run on it and upload it",
+    "If you add new SourceRepositories, you must add entries to .github/workflows/BuildDocs.yml.  The SourceRepositories key below allows the workflow",
+    "   to add links to edit files"
   ],
   "SourceRepositories":
   [
