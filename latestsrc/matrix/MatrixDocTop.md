@@ -269,4 +269,4 @@ conclusions or recommendations expressed in this material are those of
 the author(s) and do not necessarily reflect the views of the National
 Science Foundation.
 
-Page last updated by emilymbender - 2022-02-04([edit](https://github.com/delph-in/docs/wiki/MatrixDocTop/_edit)){% endraw %}
+Last update: 2022-02-04 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixDocTop/_edit)]{% endraw %}

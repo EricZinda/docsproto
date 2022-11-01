@@ -104,4 +104,4 @@ process):
 The above examples are not meant to represent any real phenomenon in
 English-French translation.
 
-Page last updated by WoodleyPackard - 2013-02-06([edit](https://github.com/delph-in/docs/wiki/AceTransfer/_edit)){% endraw %}
+Last update: 2013-02-06 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/AceTransfer/_edit)]{% endraw %}

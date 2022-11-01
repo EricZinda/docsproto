@@ -4,4 +4,4 @@ organization of DELPH-IN participation from Bellingham, WA. See also:
 - [AbbeyApposition](../AbbeyApposition)
 - [TheAbbey/Chrysalis2014](../TheAbbey_Chrysalis2014)
 
-Page last updated by EmilyBender - 2014-02-16([edit](https://github.com/delph-in/docs/wiki/TheAbbey/_edit)){% endraw %}
+Last update: 2014-02-16 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey/_edit)]{% endraw %}

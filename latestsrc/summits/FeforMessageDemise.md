@@ -8,4 +8,4 @@ experiment with removing messages from all the grammars (including the
 Matrix) over the next six months, with tentative plans to move in a
 coordinated fashion to a message-free universe around 1/2007.
 
-Page last updated by EmilyBender - 2006-06-17([edit](https://github.com/delph-in/docs/wiki/FeforMessageDemise/_edit)){% endraw %}
+Last update: 2006-06-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforMessageDemise/_edit)]{% endraw %}

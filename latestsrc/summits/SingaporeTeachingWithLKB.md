@@ -29,4 +29,4 @@ Problem: people are scared of command line and simplistic UI
 
 - How to solve?..
 
-Page last updated by StephanOepen - 2015-08-12([edit](https://github.com/delph-in/docs/wiki/SingaporeTeachingWithLKB/_edit)){% endraw %}
+Last update: 2015-08-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SingaporeTeachingWithLKB/_edit)]{% endraw %}

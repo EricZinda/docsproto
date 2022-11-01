@@ -135,4 +135,4 @@ Francis: The goal of external accessibility is important. Packaging is
 importnat. Grammars should be easier to use. We need different tasks to
 invite linguists vs. engineers. Our grammars should be easier to use.
 
-Page last updated by StephanOepen - 2017-08-23([edit](https://github.com/delph-in/docs/wiki/OsloResourcesAsAnnotatedData/_edit)){% endraw %}
+Last update: 2017-08-23 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/OsloResourcesAsAnnotatedData/_edit)]{% endraw %}

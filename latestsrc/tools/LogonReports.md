@@ -50,4 +50,4 @@ Japanese–English MT. LOGON [Technical Report \#
 design decisions and challenges in adapting the original LOGON
 technology to other language pairs.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/LogonReports/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonReports/_edit)]{% endraw %}

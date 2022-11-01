@@ -193,4 +193,4 @@ place.
   
   - **no documentation here, move along**
 
-Page last updated by FrancisBond - 2008-11-16([edit](https://github.com/delph-in/docs/wiki/TransferRules/_edit)){% endraw %}
+Last update: 2008-11-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TransferRules/_edit)]{% endraw %}

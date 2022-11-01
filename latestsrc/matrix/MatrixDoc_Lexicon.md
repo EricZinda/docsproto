@@ -1798,4 +1798,4 @@ pages = {85-99},\
 publisher = {The Hague: Mouton}\
 }
 
-Page last updated by OlgaZamaraeva - 2018-01-04([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Lexicon/_edit)){% endraw %}
+Last update: 2018-01-04 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Lexicon/_edit)]{% endraw %}

@@ -61,4 +61,4 @@ inter-dependencies between the grammar and processing
 considered in processing, as well. A close cooperation between grammar
 engineering and processing people is needed.
 
-Page last updated by YiZhang - 2007-08-26([edit](https://github.com/delph-in/docs/wiki/BerlinProcessing/_edit)){% endraw %}
+Last update: 2007-08-26 by YiZhang [[edit](https://github.com/delph-in/docs/wiki/BerlinProcessing/_edit)]{% endraw %}

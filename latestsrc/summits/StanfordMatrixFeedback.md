@@ -322,4 +322,4 @@ seem to make.
 Glenn: basic-head-spec-phrase COMPS on mother was identified with
 non-head-dtr.
 
-Page last updated by EmilyBender - 2016-06-21([edit](https://github.com/delph-in/docs/wiki/StanfordMatrixFeedback/_edit)){% endraw %}
+Last update: 2016-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordMatrixFeedback/_edit)]{% endraw %}

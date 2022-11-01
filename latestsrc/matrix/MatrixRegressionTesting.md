@@ -377,4 +377,4 @@ placed there and named by the scripts.
 Language name in choices file used as the basis of the naming. We need a
 convention for them :slightly\_smiling\_face:
 
-Page last updated by Guy Emerson - 2022-03-01([edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTesting/_edit)){% endraw %}
+Last update: 2022-03-01 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTesting/_edit)]{% endraw %}

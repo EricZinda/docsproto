@@ -123,4 +123,4 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 
 See [ParisOpen](../ParisOpen)
 
-Page last updated by GlennSlayden - 2015-10-30([edit](https://github.com/delph-in/docs/wiki/ParisSchedule/_edit)){% endraw %}
+Last update: 2015-10-30 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/ParisSchedule/_edit)]{% endraw %}

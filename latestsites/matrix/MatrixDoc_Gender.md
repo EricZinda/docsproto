@@ -205,4 +205,4 @@ Coverage of the {G}rammar {M}atrix},\
 school = {University of Washington}\
 }
 
-Page last updated by VaryaGracheva - 2013-03-01([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Gender/_edit)){% endraw %}
+Last update: 2013-03-01 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Gender/_edit)]{% endraw %}

@@ -59,4 +59,4 @@ nltk, ...
 \\includegraphics\[width=\\textwidth\]{1090410-3-0\_0-0.png}
 (Buggy but colorful)
 
-Page last updated by FrancisBond - 2012-07-12([edit](https://github.com/delph-in/docs/wiki/SofiaMrsComparison/_edit)){% endraw %}
+Last update: 2012-07-12 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SofiaMrsComparison/_edit)]{% endraw %}

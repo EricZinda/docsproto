@@ -400,4 +400,4 @@ pages = {63-78},\
 publisher = {CSLI Publications}\
 }
 
-Page last updated by EmilyBender - 2013-10-01([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Case/_edit)){% endraw %}
+Last update: 2013-10-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Case/_edit)]{% endraw %}

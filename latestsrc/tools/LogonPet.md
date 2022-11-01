@@ -106,4 +106,4 @@ environment, a 32-bit CentOS 4.9 distribution. The actual binaries
 reside in $LOGONROOT/uio/bin/linux.x86.32, with associated shared
 libraries in $LOGONROOT/uio/lib/linux.x86.32.
 
-Page last updated by Alexandre Rademaker - 2021-06-18([edit](https://github.com/delph-in/docs/wiki/LogonPet/_edit)){% endraw %}
+Last update: 2021-06-18 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LogonPet/_edit)]{% endraw %}

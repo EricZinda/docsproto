@@ -74,4 +74,4 @@ available from web demo
 
 **dan:** ran script on new version erg - works fine?
 
-Page last updated by FrancisBond - 2014-07-17([edit](https://github.com/delph-in/docs/wiki/TomarCorpusLookup/_edit)){% endraw %}
+Last update: 2014-07-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TomarCorpusLookup/_edit)]{% endraw %}

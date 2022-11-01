@@ -226,4 +226,4 @@ useful for automatically scoring machine translation.
 
 - It gets confused if there are more than 9 translations ...
 
-Page last updated by MichaelGoodman - 2013-03-21([edit](https://github.com/delph-in/docs/wiki/ItsdbReference/_edit)){% endraw %}
+Last update: 2013-03-21 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/ItsdbReference/_edit)]{% endraw %}

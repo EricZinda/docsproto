@@ -98,4 +98,4 @@ for these passive imperatives, but this seems unecessary since already
 need a lexical rule for these, and it can treat the deep object as still
 an object.
 
-Page last updated by DanFlickinger - 2017-01-05([edit](https://github.com/delph-in/docs/wiki/CapitalHillPassivesDiscussion/_edit)){% endraw %}
+Last update: 2017-01-05 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/CapitalHillPassivesDiscussion/_edit)]{% endraw %}

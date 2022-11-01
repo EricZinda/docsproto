@@ -38,4 +38,4 @@ On Precise Pangolin (12.04) you may only need libjpeg62.
 
 Possibly also see [LogonDebian](LogonDebian)
 
-Page last updated by FrancisBond - 2016-10-07([edit](https://github.com/delph-in/docs/wiki/LogonUbuntu/_edit)){% endraw %}
+Last update: 2016-10-07 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LogonUbuntu/_edit)]{% endraw %}

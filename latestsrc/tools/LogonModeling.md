@@ -320,4 +320,4 @@ uses your generation profile for the training:
 
     ./load --binary train.g.lisp
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/LogonModeling/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonModeling/_edit)]{% endraw %}

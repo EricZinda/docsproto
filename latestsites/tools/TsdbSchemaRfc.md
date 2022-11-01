@@ -193,4 +193,4 @@ And here is the updated syntax description:
   20 NewLine  := /\n/
 ```
 
-Page last updated by MichaelGoodman - 2019-06-04([edit](https://github.com/delph-in/docs/wiki/TsdbSchemaRfc/_edit)){% endraw %}
+Last update: 2019-06-04 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/TsdbSchemaRfc/_edit)]{% endraw %}

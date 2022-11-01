@@ -379,4 +379,4 @@ dramatic.
 
 Francis: But we didn't do all the experiments because it was slow.
 
-Page last updated by LilingTan - 2012-07-24([edit](https://github.com/delph-in/docs/wiki/SuquamishMRSWordNet/_edit)){% endraw %}
+Last update: 2012-07-24 by LilingTan [[edit](https://github.com/delph-in/docs/wiki/SuquamishMRSWordNet/_edit)]{% endraw %}

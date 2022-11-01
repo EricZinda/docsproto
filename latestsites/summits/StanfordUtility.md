@@ -221,4 +221,4 @@ oh what you really need is something else - no trap doors.
 
 Stephan: Time... for the bus...
 
-Page last updated by StephanOepen - 2016-06-27([edit](https://github.com/delph-in/docs/wiki/StanfordUtility/_edit)){% endraw %}
+Last update: 2016-06-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordUtility/_edit)]{% endraw %}

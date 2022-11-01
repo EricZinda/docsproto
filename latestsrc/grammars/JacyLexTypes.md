@@ -23,4 +23,4 @@ ARG1 and the noun as ARG2.
 - adv\_np\_rule-type which introduces unspec\_p\_rel, changing date
 nouns into pps.
 
-Page last updated by FrancisBond - 2015-09-26([edit](https://github.com/delph-in/docs/wiki/JacyLexTypes/_edit)){% endraw %}
+Last update: 2015-09-26 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyLexTypes/_edit)]{% endraw %}

@@ -116,4 +116,4 @@ America. Retrieved April 22, 2014, from Project MUSE database.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by EmilyBender - 2015-06-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Compounding/_edit)){% endraw %}
+Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Compounding/_edit)]{% endraw %}

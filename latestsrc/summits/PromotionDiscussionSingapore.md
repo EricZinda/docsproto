@@ -78,4 +78,4 @@ Look for extrinsic evaluation settings
 Propose SIG on preparing a tutorial, and expect that you will be
 committed to helping if you attend.
 
-Page last updated by DanFlickinger - 2015-08-05([edit](https://github.com/delph-in/docs/wiki/PromotionDiscussionSingapore/_edit)){% endraw %}
+Last update: 2015-08-05 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/PromotionDiscussionSingapore/_edit)]{% endraw %}

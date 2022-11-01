@@ -159,4 +159,4 @@ the choices dictionary or adding a chunk of text to a list is less so.
 While it may not be possible to separate these entirely, we could
 perhaps do a better job and provide better guildelines.
 
-Page last updated by OlgaZamaraeva - 2017-12-04([edit](https://github.com/delph-in/docs/wiki/MatrixDevBlueprints/_edit)){% endraw %}
+Last update: 2017-12-04 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDevBlueprints/_edit)]{% endraw %}

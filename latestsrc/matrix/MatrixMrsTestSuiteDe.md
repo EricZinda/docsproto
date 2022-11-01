@@ -112,4 +112,4 @@
 | 1061 | Bell nicht!                                                   | Don't bark!                                   |
 | 1071 | Der Hund kam bellend an.                                      | The dog arrived barking.                      |
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteDe/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteDe/_edit)]{% endraw %}

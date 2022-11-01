@@ -83,4 +83,4 @@ not applicable.
 
 not applicable.
 
-Page last updated by GlennSlayden - 2018-02-01([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_GeneralInfo/_edit)){% endraw %}
+Last update: 2018-02-01 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_GeneralInfo/_edit)]{% endraw %}

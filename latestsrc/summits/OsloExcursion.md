@@ -53,4 +53,4 @@ iceberg metaphor). From there, we continue towards the most recent
 addition to downtown Oslo, across the waters towards *Sørenga*, the
 beach, and dinner.
 
-Page last updated by GlennSlayden - 2017-08-11([edit](https://github.com/delph-in/docs/wiki/OsloExcursion/_edit)){% endraw %}
+Last update: 2017-08-11 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/OsloExcursion/_edit)]{% endraw %}

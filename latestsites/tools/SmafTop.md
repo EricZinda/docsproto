@@ -136,4 +136,4 @@ See also: [SmafSample](SmafSample)
 
 See [SmafDtd](SmafDtd).
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}

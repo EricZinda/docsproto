@@ -521,4 +521,4 @@ ICReln := ConstName
 ConstName := Token
 ```
 
-Page last updated by Alexandre Rademaker - 2021-09-02([edit](https://github.com/delph-in/docs/wiki/MrsRFC/_edit)){% endraw %}
+Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MrsRFC/_edit)]{% endraw %}

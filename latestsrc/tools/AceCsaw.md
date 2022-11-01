@@ -59,4 +59,4 @@ Integrating grammar approximation, default unification, and elementary
 semantic dependencies. Accessed Feb-01-2017 from:
 <http://www.mn.uio.no/ifi/english/people/aca/oe/robustness.pdf>
 
-Page last updated by WoodleyPackard - 2017-08-11([edit](https://github.com/delph-in/docs/wiki/AceCsaw/_edit)){% endraw %}
+Last update: 2017-08-11 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/AceCsaw/_edit)]{% endraw %}

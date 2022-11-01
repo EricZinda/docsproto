@@ -138,4 +138,4 @@ first and incomplete version 0.1 was presented in Ytrestøl et al.
 moderately refined (for increased readability) as the current version
 1.0 (documented above).
 
-Page last updated by StephanOepen - 2020-07-16([edit](https://github.com/delph-in/docs/wiki/ErgGml/_edit)){% endraw %}
+Last update: 2020-07-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgGml/_edit)]{% endraw %}

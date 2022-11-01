@@ -747,4 +747,4 @@ Secretaries of State and War?
 
 Emily: We already have to do something special for those.
 
-Page last updated by EmilyBender - 2014-02-17([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014ProperNounsGeneration/_edit)){% endraw %}
+Last update: 2014-02-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014ProperNounsGeneration/_edit)]{% endraw %}

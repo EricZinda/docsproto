@@ -13,4 +13,4 @@ people repeat themselves).
 first draft ready when people have to start planning trips. This
 also helps for people to argue for funding.
 
-Page last updated by AnetteFrank - 2006-06-17([edit](https://github.com/delph-in/docs/wiki/FeforSuggestions/_edit)){% endraw %}
+Last update: 2006-06-17 by AnetteFrank [[edit](https://github.com/delph-in/docs/wiki/FeforSuggestions/_edit)]{% endraw %}

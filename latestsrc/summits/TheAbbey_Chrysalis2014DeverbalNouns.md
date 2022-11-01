@@ -561,4 +561,4 @@ oe: I think Dan's already giving you the reasonable requests.
 
 Francis: I only made reasonable requests!
 
-Page last updated by EmilyBender - 2014-02-18([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014DeverbalNouns/_edit)){% endraw %}
+Last update: 2014-02-18 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014DeverbalNouns/_edit)]{% endraw %}

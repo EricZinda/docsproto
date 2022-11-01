@@ -249,4 +249,4 @@ Type in the input string and press enter. Press transfer on the MRS that
 pops up, and the MRS is transferred. Then press generate and English
 strings are generated.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/MtSetup/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MtSetup/_edit)]{% endraw %}

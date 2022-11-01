@@ -223,4 +223,4 @@ in the comment.
 Having many misaligned sentences makes cross language comparison just
 that much harder, ...
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/MatrixMrsCatb/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsCatb/_edit)]{% endraw %}

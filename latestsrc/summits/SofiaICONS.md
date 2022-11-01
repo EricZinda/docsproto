@@ -84,4 +84,4 @@ cross-sentential anaphora links. Also: the anaphora resolution is
 related to figuring out whether a sequence is infelicitous --- are we
 talking about the same dog in both sentences?
 
-Page last updated by StephanOepen - 2012-07-03([edit](https://github.com/delph-in/docs/wiki/SofiaICONS/_edit)){% endraw %}
+Last update: 2012-07-03 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SofiaICONS/_edit)]{% endraw %}

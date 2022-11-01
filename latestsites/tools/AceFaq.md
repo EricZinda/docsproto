@@ -161,4 +161,4 @@ or whatever number you like.
     url = "https://www.aclweb.org/anthology/C12-1043",
     pages = "695--710"}
 
-Page last updated by Alexandre Rademaker - 2021-06-21([edit](https://github.com/delph-in/docs/wiki/AceFaq/_edit)){% endraw %}
+Last update: 2021-06-21 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/AceFaq/_edit)]{% endraw %}

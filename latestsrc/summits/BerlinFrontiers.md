@@ -72,4 +72,4 @@ description in order to know how the text in the various
 translations correlate to each other; -- guidelines Wiki subpage
 to be created by Oslo;
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/BerlinFrontiers/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinFrontiers/_edit)]{% endraw %}

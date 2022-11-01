@@ -151,4 +151,4 @@ annotations for Run 2, not the hand-coded real annotations you
 constructed painstakingly for Run 1, as clear cutting fells all the
 trees.
 
-Page last updated by StephanOepen - 2012-08-07([edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbAnnotation/_edit)){% endraw %}
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbAnnotation/_edit)]{% endraw %}

@@ -57,4 +57,4 @@ to set lkb::\*characterize-p\* to non-null before you export.
 Exporting can be memory intensive. Use a batch instead for large
 profiles. There is an example described in [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop).
 
-Page last updated by StephanOepen - 2012-08-05([edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbExporting/_edit)){% endraw %}
+Last update: 2012-08-05 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbExporting/_edit)]{% endraw %}

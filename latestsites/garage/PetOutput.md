@@ -8,4 +8,4 @@ STDERR, an example is given below:
 
 To get more output, increase the verbosity.
 
-Page last updated by AlexandreRademaker - 2019-03-15([edit](https://github.com/delph-in/docs/wiki/PetOutput/_edit)){% endraw %}
+Last update: 2019-03-15 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/PetOutput/_edit)]{% endraw %}

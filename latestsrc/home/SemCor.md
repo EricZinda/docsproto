@@ -35,4 +35,4 @@ from [Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html)
 
 :warning:
 
-Page last updated by FrancisBond - 2013-10-25([edit](https://github.com/delph-in/docs/wiki/SemCor/_edit)){% endraw %}
+Last update: 2013-10-25 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SemCor/_edit)]{% endraw %}

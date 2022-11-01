@@ -121,4 +121,4 @@ Yi created a two-phase parsing algorithm that, in case the deep grammar
 does not succeed, a CFG backbone is used to still get a reasonable
 parse. This still has to be integrated in the main branch.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/PetRobustness/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetRobustness/_edit)]{% endraw %}

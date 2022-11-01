@@ -129,4 +129,4 @@ dependency relations, respectively. Both these dependency views on
 ERG tokenization conventions, another using PTB-style tokens.
 
 
-Page last updated by Alexandre Rademaker - 2022-02-14([edit](https://github.com/delph-in/docs/wiki/DeepBank_OneZero/_edit)){% endraw %}
+Last update: 2022-02-14 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/DeepBank_OneZero/_edit)]{% endraw %}

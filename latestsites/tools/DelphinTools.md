@@ -170,4 +170,4 @@ of the dependency used to create them.
                         /omrs/
                         /imrs/0/
 
-Page last updated by EmilyBender - 2017-01-24([edit](https://github.com/delph-in/docs/wiki/DelphinTools/_edit)){% endraw %}
+Last update: 2017-01-24 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTools/_edit)]{% endraw %}

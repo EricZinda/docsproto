@@ -79,4 +79,4 @@ windows for some (most?) encodings
   These points are (mostly) implemented in [LkbFos](../LkbFos), although
 some work is required to pre-select the Unicode fonts to be used.
 
-Page last updated by FrancisBond - 2019-07-17([edit](https://github.com/delph-in/docs/wiki/LkbWishlist/_edit)){% endraw %}
+Last update: 2019-07-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LkbWishlist/_edit)]{% endraw %}

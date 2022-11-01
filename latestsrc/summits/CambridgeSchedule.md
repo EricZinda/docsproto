@@ -133,4 +133,4 @@ spreadsheet](https://docs.google.com/spreadsheets/d/1uME2uyl9OpqUzvcXczKb4wiNCCT
 |            14:00            |                                                      Semantics of nominalization (Emily Bender) [Notes](../CambridgeNominalization)                                                       |
 |                             |                                                                                                                                                                                        |
 
-Page last updated by Alexandre Rademaker - 2021-09-16([edit](https://github.com/delph-in/docs/wiki/CambridgeSchedule/_edit)){% endraw %}
+Last update: 2021-09-16 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/CambridgeSchedule/_edit)]{% endraw %}

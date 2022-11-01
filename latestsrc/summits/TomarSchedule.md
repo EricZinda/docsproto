@@ -163,4 +163,4 @@ NL Sentences
 2. [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman): pyDelphin: MRS feature extraction,
 format conversion, and batch processing
 
-Page last updated by GuyEmerson - 2014-07-25([edit](https://github.com/delph-in/docs/wiki/TomarSchedule/_edit)){% endraw %}
+Last update: 2014-07-25 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/TomarSchedule/_edit)]{% endraw %}

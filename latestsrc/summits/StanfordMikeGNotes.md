@@ -131,4 +131,4 @@ based. Possible spin off: Mike can learn pairs which we haven’t seen
 before. Flexible alignment allows to learn new rules, which can then
 constrain the space for decoding.
 
-Page last updated by OlgaZamaraeva - 2016-06-17([edit](https://github.com/delph-in/docs/wiki/StanfordMikeGNotes/_edit)){% endraw %}
+Last update: 2016-06-17 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/StanfordMikeGNotes/_edit)]{% endraw %}

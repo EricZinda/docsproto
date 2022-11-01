@@ -195,4 +195,4 @@ be an EP: Tense can bear scope, but knowing which event the tense is
 associated with is enough to know what its scope possibilities are,
 so tense can be a variable property.
 
-Page last updated by Alexandre Rademaker - 2021-07-01([edit](https://github.com/delph-in/docs/wiki/RmrsDesign/_edit)){% endraw %}
+Last update: 2021-07-01 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/RmrsDesign/_edit)]{% endraw %}

@@ -51,4 +51,4 @@ and verbal gerunds:
 - [Inventory of Semantic Phenomena](../ErgSemantics_Inventory)
 - [How to Cite this Work](../ErgSemantics_HowToCite)
 
-Page last updated by EmilyBender - 2015-06-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_PropositionalArguments/_edit)){% endraw %}
+Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_PropositionalArguments/_edit)]{% endraw %}

@@ -18,4 +18,4 @@ application. For example:
    4 
 ```
 
-Page last updated by Alexandre Rademaker - 2021-07-01([edit](https://github.com/delph-in/docs/wiki/PyDelphinTop/_edit)){% endraw %}
+Last update: 2021-07-01 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PyDelphinTop/_edit)]{% endraw %}

@@ -181,4 +181,4 @@ sprints](http://www.booksprints.net/))
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
 
-Page last updated by EmilyBender - 2013-09-04([edit](https://github.com/delph-in/docs/wiki/SaarlandSchedule/_edit)){% endraw %}
+Last update: 2013-09-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandSchedule/_edit)]{% endraw %}

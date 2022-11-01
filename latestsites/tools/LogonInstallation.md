@@ -264,4 +264,4 @@ declaring itself as a suitable generation grammar for English:
 
       (setf *translate-grid* '(en))
 
-Page last updated by StephanOepen - 2014-08-12([edit](https://github.com/delph-in/docs/wiki/LogonInstallation/_edit)){% endraw %}
+Last update: 2014-08-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonInstallation/_edit)]{% endraw %}

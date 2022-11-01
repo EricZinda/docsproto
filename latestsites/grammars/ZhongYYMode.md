@@ -85,4 +85,4 @@ following line (add *\[0\]* after *result*).
     for w in result:
        ...
 
-Page last updated by SanghounSong - 2015-04-22([edit](https://github.com/delph-in/docs/wiki/ZhongYYMode/_edit)){% endraw %}
+Last update: 2015-04-22 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongYYMode/_edit)]{% endraw %}

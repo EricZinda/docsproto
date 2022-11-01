@@ -34,4 +34,4 @@ Comments
 7/28-7/29 (Keihana) -- Even if DELPH-IN is in Japan, that's pretty
 close to Seoul.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/BerlinBusinessMeeting/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinBusinessMeeting/_edit)]{% endraw %}

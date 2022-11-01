@@ -304,4 +304,4 @@ title = {Syntax: a typological-functional introduction},\
 publisher = {John Benjamins. Amsterdam, Philidelphia}\
 }
 
-Page last updated by AntskeFokkens - 2013-02-27([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_SententialNegation/_edit)){% endraw %}
+Last update: 2013-02-27 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_SententialNegation/_edit)]{% endraw %}

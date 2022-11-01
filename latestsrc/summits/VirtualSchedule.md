@@ -163,4 +163,4 @@ files) \[Chris\]
 [CambridgeEducation](../CambridgeEducation)\]
 - SIG: parsing efficiency \[Woodley\]
 
-Page last updated by EmilyBender - 2020-07-28([edit](https://github.com/delph-in/docs/wiki/VirtualSchedule/_edit)){% endraw %}
+Last update: 2020-07-28 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualSchedule/_edit)]{% endraw %}

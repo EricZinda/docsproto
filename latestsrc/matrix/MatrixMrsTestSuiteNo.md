@@ -368,4 +368,4 @@ Norwegian.
     Emblas jaging av hunder bekymret Ask.
     ;Browne's chasing of cats bothered Abrams.
 
-Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteNo/_edit)){% endraw %}
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteNo/_edit)]{% endraw %}

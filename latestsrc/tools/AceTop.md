@@ -35,4 +35,4 @@ interested parties, e.g. the (unstable) development trunk:
 
       svn co http://sweaglesw.org/svn/ace/trunk ace
 
-Page last updated by Francis Bond - 2022-07-22([edit](https://github.com/delph-in/docs/wiki/AceTop/_edit)){% endraw %}
+Last update: 2022-07-22 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/AceTop/_edit)]{% endraw %}

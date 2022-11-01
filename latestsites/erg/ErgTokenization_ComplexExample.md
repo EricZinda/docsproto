@@ -151,4 +151,4 @@ referring back to the initial tokens, i.e. for *Mountain View.*
 (including the final period) these are tokens \#6, \#7, and \#8 from the
 initial tokenization.
 
-Page last updated by StephanOepen - 2011-11-07([edit](https://github.com/delph-in/docs/wiki/ErgTokenization_ComplexExample/_edit)){% endraw %}
+Last update: 2011-11-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization_ComplexExample/_edit)]{% endraw %}

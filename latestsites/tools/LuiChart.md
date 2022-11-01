@@ -69,4 +69,4 @@ unification, i.e. dragging a chart edge and dropping it onto a feature
 structures with failure recording. See the
 [LuiUnification](../LuiUnification) page for details.
 
-Page last updated by WoodleyPackard - 2013-07-02([edit](https://github.com/delph-in/docs/wiki/LuiChart/_edit)){% endraw %}
+Last update: 2013-07-02 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/LuiChart/_edit)]{% endraw %}

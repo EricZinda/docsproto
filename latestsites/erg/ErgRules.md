@@ -370,4 +370,4 @@ the ERG (as of the 1214 release).
 | w\_drop-ileft\_plr               | Ignored italics mark affixed              | catiยฆ                                      |
 | w\_drop-iright\_plr              | Ignored italics mark prefixed             | catiยฆ                                      |
 
-Page last updated by DanFlickinger - 2015-08-25([edit](https://github.com/delph-in/docs/wiki/ErgRules/_edit)){% endraw %}
+Last update: 2015-08-25 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/ErgRules/_edit)]{% endraw %}

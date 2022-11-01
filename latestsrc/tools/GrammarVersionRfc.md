@@ -52,4 +52,4 @@ version string for every commit.
 
 (add your comments here, and/or edit the proposal above)
 
-Page last updated by MichaelGoodman - 2011-07-25([edit](https://github.com/delph-in/docs/wiki/GrammarVersionRfc/_edit)){% endraw %}
+Last update: 2011-07-25 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/GrammarVersionRfc/_edit)]{% endraw %}

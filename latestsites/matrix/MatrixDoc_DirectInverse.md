@@ -251,4 +251,4 @@ title = {The Fore Language of Papua New Guinea},\
 publisher = {Canberra, Australia: Paciﬁc Linguistics}\
 }
 
-Page last updated by AntskeFokkens - 2013-03-01([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_DirectInverse/_edit)){% endraw %}
+Last update: 2013-03-01 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_DirectInverse/_edit)]{% endraw %}

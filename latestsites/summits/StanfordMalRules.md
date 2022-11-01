@@ -330,4 +330,4 @@ FCB:
 
 (SIG topic proposed)
 
-Page last updated by WenjieWang - 2016-06-18([edit](https://github.com/delph-in/docs/wiki/StanfordMalRules/_edit)){% endraw %}
+Last update: 2016-06-18 by WenjieWang [[edit](https://github.com/delph-in/docs/wiki/StanfordMalRules/_edit)]{% endraw %}

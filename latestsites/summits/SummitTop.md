@@ -107,4 +107,4 @@ this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
 
-Page last updated by emilymbender - 2022-07-19([edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)){% endraw %}
+Last update: 2022-07-19 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}

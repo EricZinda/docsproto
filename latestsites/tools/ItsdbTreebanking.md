@@ -50,4 +50,4 @@ and so on
 
 If you have an already treebanked corpus (such as the ones that come with the ERG releases), you can look at the gold trees using the [incr tsdb()] graphical interface. In the [incr tsdb()] podium, select the treebank profile and then go to Browse-->Results. To access the gold tree for a particular example, first click on the corresponding number in the "derivation" column. A window will open displaying the tree in the bracketed text format. Click on that text line, and you should see the tree visualization.
 
-Page last updated by Olga Zamaraeva - 2021-11-30([edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking/_edit)){% endraw %}
+Last update: 2021-11-30 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking/_edit)]{% endraw %}

@@ -363,4 +363,4 @@ Emily: What does the typological literature call this?
 
 Olga: Constituent questions, or information questions.
 
-Page last updated by GlennSlayden - 2018-06-19([edit](https://github.com/delph-in/docs/wiki/DiderotWhQuestionsLibrary/_edit)){% endraw %}
+Last update: 2018-06-19 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/DiderotWhQuestionsLibrary/_edit)]{% endraw %}

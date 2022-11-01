@@ -89,4 +89,4 @@ constructions in your sentence and links to pertinent pages?
 - Series of short videos (\~7mins)?
 - [WikiBook](/WikiBook)
 
-Page last updated by AlexanderKoller - 2018-06-21([edit](https://github.com/delph-in/docs/wiki/DiderotOldSchoolSemantics/_edit)){% endraw %}
+Last update: 2018-06-21 by AlexanderKoller [[edit](https://github.com/delph-in/docs/wiki/DiderotOldSchoolSemantics/_edit)]{% endraw %}

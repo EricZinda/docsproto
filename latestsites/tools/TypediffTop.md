@@ -69,4 +69,4 @@ web interface (hosted at The University of Melbourne) or you can
 [install it locally](http://github.com/ned2/grammalytics).See the
 README.md file for installation instructions.
 
-Page last updated by NedLetcher - 2015-09-17([edit](https://github.com/delph-in/docs/wiki/TypediffTop/_edit)){% endraw %}
+Last update: 2015-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/TypediffTop/_edit)]{% endraw %}

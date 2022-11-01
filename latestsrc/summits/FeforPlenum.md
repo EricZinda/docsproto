@@ -50,4 +50,4 @@
 | 17:00-17:30 | *Wrap up*                                                                                                                                          |                                                   |     |
 | 19:45-22:14 | Vinstra -- Gardemoen                                                                                                                               |                                                   |     |
 
-Page last updated by Olga Zamaraeva - 2021-06-03([edit](https://github.com/delph-in/docs/wiki/FeforPlenum/_edit)){% endraw %}
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/FeforPlenum/_edit)]{% endraw %}

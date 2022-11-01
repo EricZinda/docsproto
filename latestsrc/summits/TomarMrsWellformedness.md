@@ -411,4 +411,4 @@ arities, to avoid having to load the grammar to find this. See
 
 \[Scribe is done\]
 
-Page last updated by StephanOepen - 2015-11-19([edit](https://github.com/delph-in/docs/wiki/TomarMrsWellformedness/_edit)){% endraw %}
+Last update: 2015-11-19 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarMrsWellformedness/_edit)]{% endraw %}

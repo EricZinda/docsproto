@@ -176,4 +176,4 @@ To evaluate a model:
 
     evaluate para_df-smooth.par test_df.eve.gz
 
-Page last updated by FrancisBond - 2012-09-27([edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbModeling/_edit)){% endraw %}
+Last update: 2012-09-27 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbModeling/_edit)]{% endraw %}

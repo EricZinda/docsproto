@@ -377,4 +377,4 @@ to ERG entries.
 
 Glenn: Time to finish!
 
-Page last updated by EmilyBender - 2016-06-22([edit](https://github.com/delph-in/docs/wiki/StanfordSenses/_edit)){% endraw %}
+Last update: 2016-06-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordSenses/_edit)]{% endraw %}

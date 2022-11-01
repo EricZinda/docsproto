@@ -271,4 +271,4 @@ acknowledged. I believe you can do things to proper nouns that you can
 interpret that you can't do to ones that you can't. We're losing
 something if we're not modelling it, but we're always losing something.
 
-Page last updated by FrancisBond - 2014-06-03([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014ProperNouns/_edit)){% endraw %}
+Last update: 2014-06-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014ProperNouns/_edit)]{% endraw %}

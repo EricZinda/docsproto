@@ -143,4 +143,4 @@ tree. For additional questions, please feel free to contact Stephan
 Oepen (oe *at* ifi.uio.no), the technical manager for the original
 Norwegian LOGON consortium.
 
-Page last updated by EricZinda - 2022-09-08([edit](https://github.com/delph-in/docs/wiki/LogonTop/_edit)){% endraw %}
+Last update: 2022-09-08 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/LogonTop/_edit)]{% endraw %}
