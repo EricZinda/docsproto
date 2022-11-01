@@ -107,4 +107,5 @@ save few results: see \*tsdb-maximal-number-of-results\*)
 Values include:
 
     (#\g grammar), (#\v version). (#\t skeleton), (#\d date), (#\s system), (#\% "%")
-{% endraw %}
+
+_Last updated: _{% endraw %}

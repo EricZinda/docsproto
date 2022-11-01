@@ -117,4 +117,5 @@ of COLING-2010.
       year={2010},
       pages={{To appear}}
     }
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -268,4 +268,5 @@ for lists up to length N, which is ugly.
 
 oe: best outcome: do something that gives the appearance of outreach,
 but do so in a self-serving manner. Don't set formalism in stone.
-{% endraw %}
+
+_Last updated: _{% endraw %}

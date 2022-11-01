@@ -54,4 +54,5 @@ The LUI AVM browser supports interactive unification (for debugging
 purposes), and if the AVM being browsed contains unification failure
 information, then there are a few more interesting options to explore.
 For more information see the [LuiUnification](../LuiUnification) page.
-{% endraw %}
+
+_Last updated: _{% endraw %}

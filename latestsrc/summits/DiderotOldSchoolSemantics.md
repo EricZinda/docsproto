@@ -88,4 +88,5 @@ constructions in your sentence and links to pertinent pages?
 - ACL tutorial, with video lecture?
 - Series of short videos (\~7mins)?
 - [WikiBook](/WikiBook)
-{% endraw %}
+
+_Last updated: _{% endraw %}

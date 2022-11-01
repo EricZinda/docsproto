@@ -81,4 +81,5 @@ relations:
     empathy_rel := avm &
                    [EMPER index,
                     EMPEE index].
-{% endraw %}
+
+_Last updated: _{% endraw %}

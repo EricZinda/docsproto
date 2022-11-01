@@ -17,4 +17,5 @@ any given EP description each ARG position mentioned describes a
 different ARG value.
 - ARG1\|2 or similar to underspecifications between just two
 positions?
-{% endraw %}
+
+_Last updated: _{% endraw %}

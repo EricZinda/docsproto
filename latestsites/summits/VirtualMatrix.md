@@ -653,4 +653,5 @@ T.J.: \[I mean in an ideal world you would have great resources for the
 \[Emily prompts the group about how this DELPH-IN is going\]
 
 \[social chat\]
-{% endraw %}
+
+_Last updated: _{% endraw %}

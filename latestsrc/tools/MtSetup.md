@@ -248,4 +248,5 @@ In order to parse a string with the parsing grammar, type:
 Type in the input string and press enter. Press transfer on the MRS that
 pops up, and the MRS is transferred. Then press generate and English
 strings are generated.
-{% endraw %}
+
+_Last updated: _{% endraw %}

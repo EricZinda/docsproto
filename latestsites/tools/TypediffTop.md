@@ -68,4 +68,5 @@ version](http://hum.csse.unimelb.edu.au/grammalytics/typediff/) of the
 web interface (hosted at The University of Melbourne) or you can
 [install it locally](http://github.com/ned2/grammalytics).See the
 README.md file for installation instructions.
-{% endraw %}
+
+_Last updated: _{% endraw %}

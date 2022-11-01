@@ -314,4 +314,5 @@ Dan: Ann, any remaining words of wisdom? Cautions? Warnings?
 
 Ann: Not really. It can have unexpected results, so try on simple
 examples first.
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -162,4 +162,5 @@ following command:
     brew install delph-in/delphin/ace
 
 See <https://github.com/delph-in/homebrew-delphin> for the Homebrew tap.
-{% endraw %}
+
+_Last updated: _{% endraw %}

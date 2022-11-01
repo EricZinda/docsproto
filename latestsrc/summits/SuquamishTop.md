@@ -122,4 +122,5 @@ from Sea-Tac airport to ferry terminal, via Link Light Rail.
 - 2007 3rd Summit: [Berlin](../BerlinTop)
 - 2006 2nd Summit: [Fefor](../FeforTop)
 - 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
-{% endraw %}
+
+_Last updated: _{% endraw %}

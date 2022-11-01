@@ -399,4 +399,5 @@ Explanation},\
 pages = {63-78},\
 publisher = {CSLI Publications}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

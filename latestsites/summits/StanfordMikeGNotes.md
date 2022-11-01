@@ -130,4 +130,5 @@ small hand-built comp and a large learned component, which is template
 based. Possible spin off: Mike can learn pairs which we haven’t seen
 before. Flexible alignment allows to learn new rules, which can then
 constrain the space for decoding.
-{% endraw %}
+
+_Last updated: _{% endraw %}

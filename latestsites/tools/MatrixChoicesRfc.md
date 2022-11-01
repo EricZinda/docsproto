@@ -618,4 +618,5 @@ valid indexing)
 
 Date: July 2020 Contributers: T.J. Trimble, Chris Curtis, Michael
 Goodman, Olga Zamaraeva
-{% endraw %}
+
+_Last updated: _{% endraw %}

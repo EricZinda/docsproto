@@ -232,4 +232,5 @@ linguistic precision grammars. PhD thesis. Saarland University.\
 **NB** References to this work in the documentation are already written.
 Please contact me if you are interested in this information before the
 PhD is done.
-{% endraw %}
+
+_Last updated: _{% endraw %}

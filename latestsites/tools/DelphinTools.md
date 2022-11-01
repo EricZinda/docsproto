@@ -169,4 +169,5 @@ of the dependency used to create them.
                         /vmrs/0
                         /omrs/
                         /imrs/0/
-{% endraw %}
+
+_Last updated: _{% endraw %}

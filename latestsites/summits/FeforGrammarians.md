@@ -77,4 +77,5 @@ suites.
 | BiTSE         | Swedish/English (Sw/En) | [Summary](BitseSummary)      | [BiTSE](http://www.ida.liu.se/~sarst/bitse)                | LGPL-LR        |
 
 * * *
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -69,4 +69,5 @@ of what patches are now extraneous.
 WP: Feature request: not bad thing to continue efficiency quest to
 ultimately surpass ACE so I don't have to do anything.
 :slightly\_smiling\_face:
-{% endraw %}
+
+_Last updated: _{% endraw %}

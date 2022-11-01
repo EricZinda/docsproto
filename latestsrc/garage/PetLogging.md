@@ -114,4 +114,5 @@ logging.properties in the directory of the loaded grammar. An [example
 file](https://pet.opendfki.de/browser/pet/main/logging.properties) is
 provided with the PET source code. Copy this file to your grammar
 directory and adapt it accordingly.
-{% endraw %}
+
+_Last updated: _{% endraw %}

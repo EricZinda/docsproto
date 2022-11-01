@@ -1132,4 +1132,5 @@ believe otherwise.
 Francis: OK thanks! we'll do that!
 
 All: See you all soon!
-{% endraw %}
+
+_Last updated: _{% endraw %}

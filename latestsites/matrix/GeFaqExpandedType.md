@@ -17,4 +17,5 @@ type?](../GeFaqViewType)
 - [How do I do interactive unification?](../GeFaqInteractiveUnify)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

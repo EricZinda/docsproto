@@ -17,4 +17,5 @@ application. For example:
    3 $ pip install pydelphin    # install to the environment
    4 
 ```
-{% endraw %}
+
+_Last updated: _{% endraw %}

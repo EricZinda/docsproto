@@ -367,4 +367,5 @@ Antske: The only other story I know of collaborative grammar
 engineering, they never worked at the same time. Writing in parallel
 makes it a pain to integrate. You should either sit together, or do
 things one after the other.
-{% endraw %}
+
+_Last updated: _{% endraw %}

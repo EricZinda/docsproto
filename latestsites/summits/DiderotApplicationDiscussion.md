@@ -482,4 +482,5 @@ formalisms, they partially try and reinvent the wheel.
 * * *
 
 Scribed by [GuyEmerson](https://blog.inductorsoftware.com/docsproto/tools/GuyEmerson).
-{% endraw %}
+
+_Last updated: _{% endraw %}

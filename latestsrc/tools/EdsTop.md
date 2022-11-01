@@ -409,4 +409,5 @@ output in format-specific ways.
 # Semantic Wellformedness Testing
 
 # References
-{% endraw %}
+
+_Last updated: _{% endraw %}

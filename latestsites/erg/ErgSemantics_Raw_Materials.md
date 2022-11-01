@@ -61,4 +61,5 @@ As shown in those two posts: Variable and variable types are way more subtle and
 
 
 It would be great to at least get some definitions and examples for what "Tense and aspect" mean as properties in the MRS
-{% endraw %}
+
+_Last updated: _{% endraw %}

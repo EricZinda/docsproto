@@ -208,4 +208,5 @@ This requires the [XML-RPC-C library](http://xmlrpc-c.sourceforge.net/).
 For debian-based distros, run:
 
       sudo apt-get install libxmlrpc-c3-dev
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -215,4 +215,5 @@
     1061 Don't bark!
           不要叫
     1071 The dog arrived barking.
-{% endraw %}
+
+_Last updated: _{% endraw %}

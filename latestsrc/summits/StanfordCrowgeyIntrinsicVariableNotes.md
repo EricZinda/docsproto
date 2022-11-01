@@ -292,4 +292,5 @@ Guy: But you've still said two predicates, not just one.
 
 Joshua: I'm still not sure what it means for something to be a
 predicate.
-{% endraw %}
+
+_Last updated: _{% endraw %}

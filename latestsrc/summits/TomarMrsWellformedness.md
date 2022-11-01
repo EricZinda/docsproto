@@ -410,4 +410,5 @@ arities, to avoid having to load the grammar to find this. See
 [SemiRfc](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc).
 
 \[Scribe is done\]
-{% endraw %}
+
+_Last updated: _{% endraw %}

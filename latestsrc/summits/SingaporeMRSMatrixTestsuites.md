@@ -227,4 +227,5 @@ is important as a pseudointerlingua
 Emily: Does NTU want to take this on?
 
 Francis: Noone said that! :slightly\_smiling\_face:
-{% endraw %}
+
+_Last updated: _{% endraw %}

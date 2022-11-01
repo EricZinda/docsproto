@@ -2,4 +2,5 @@
 
 - Compounds
 - Morphology
-{% endraw %}
+
+_Last updated: _{% endraw %}

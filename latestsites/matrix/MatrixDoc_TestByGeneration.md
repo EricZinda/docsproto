@@ -97,4 +97,5 @@ Goodman, Daniel P. Mills, Laurie Poulson, and Safiyyah Saleem. 2010.
 customization
 system](http://aclweb.org/anthology-new/P/P10/P10-4001.pdf). In
 Proceedings of the ACL 2010 Software Demonstrations.
-{% endraw %}
+
+_Last updated: _{% endraw %}

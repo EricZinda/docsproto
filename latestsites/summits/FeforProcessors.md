@@ -89,4 +89,5 @@ engineering - a wrapper around the LKB
 ## Discussion on lexicon building
 
 - Now plenary session only
-{% endraw %}
+
+_Last updated: _{% endraw %}

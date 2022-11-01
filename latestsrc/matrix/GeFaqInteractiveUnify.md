@@ -40,4 +40,5 @@ point at which the two feature structures didn't unify (there may be
 more). This information should be useful for debugging.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

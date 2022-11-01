@@ -27,4 +27,5 @@ Suggested convention
 - version should be the
 [iso-8601](http://www.cl.cam.ac.uk/~mgk25/iso-time.html) date
 - directories based on this grammar should be called name\_date
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -51,4 +51,5 @@ version string for every commit.
 ## Comments
 
 (add your comments here, and/or edit the proposal above)
-{% endraw %}
+
+_Last updated: _{% endraw %}

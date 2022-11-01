@@ -40,4 +40,5 @@ Goodman merged TRACK into INFLECTED so co-occurrence constraints
 directly affect lexical integrity (ability to use lexemes with syntactic
 (phrasal) rules. [Goodman and Bender
 2010](http://makino.linguist.univ-paris-diderot.fr/files/hpsg2010/file/abstracts/MFG/goodman-bender-mfg.pdf)
-{% endraw %}
+
+_Last updated: _{% endraw %}

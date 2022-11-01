@@ -350,4 +350,5 @@ entirely indistinguishable insofar as the latter necessarily exposes the
 side-effect of identifying the precise extent of each incremental
 change, which is useful for the purposes of fine-grained version control
 and efficient "undo/redo" operations.
-{% endraw %}
+
+_Last updated: _{% endraw %}

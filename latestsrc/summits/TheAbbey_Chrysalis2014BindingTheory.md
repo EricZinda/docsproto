@@ -111,4 +111,5 @@ wouldn't melt in its mouth.* Negation is only part of the one clause,
 not both.
 
 \[ Bracketing this for now. \]
-{% endraw %}
+
+_Last updated: _{% endraw %}

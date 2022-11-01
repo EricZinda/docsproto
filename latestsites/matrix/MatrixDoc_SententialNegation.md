@@ -303,4 +303,5 @@ volume = {III},\
 title = {Syntax: a typological-functional introduction},\
 publisher = {John Benjamins. Amsterdam, Philidelphia}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -157,4 +157,5 @@ to your left, go up one flight and through the green door.
 |                    16:30-18:00 *SIG Session 8*                     |                                                                                                                                                               |
 |                            16:30 in 126                            |                                                         Noun incorporation (Angelina McMillan-Major)                                                          |
 |                                                                    |                                                                                                                                                               |
-{% endraw %}
+
+_Last updated: _{% endraw %}

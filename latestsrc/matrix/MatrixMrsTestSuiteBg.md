@@ -111,4 +111,5 @@
 | 1051 | Браун се опитваше.                                                                                 | Browne tried to.                              |
 | 1061 | Недей да лаеш! Не лай!                                                                             | Don't bark!                                   |
 | 1071 | Кучето пристигна лаейки.                                                                           | The dog arrived barking.                      |
-{% endraw %}
+
+_Last updated: _{% endraw %}

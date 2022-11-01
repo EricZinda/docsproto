@@ -250,4 +250,5 @@ year = {1978},\
 title = {The Fore Language of Papua New Guinea},\
 publisher = {Canberra, Australia: Paciﬁc Linguistics}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

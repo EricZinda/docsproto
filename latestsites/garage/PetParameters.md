@@ -40,4 +40,5 @@ grammar.grm.
 
 
     sm := "vm6p.mem".
-{% endraw %}
+
+_Last updated: _{% endraw %}

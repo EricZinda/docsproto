@@ -75,4 +75,5 @@ This process should take a little while (thirty minutes to two hours,
 maybe, depending on the type of machine that you have available). It
 should result in new files kf.a.mtr, kf.n.mtr, and kf.nn.mtr, containing
 on the order of 15,000 transfer rules.
-{% endraw %}
+
+_Last updated: _{% endraw %}

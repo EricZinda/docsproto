@@ -164,4 +164,5 @@ does someone write a chapter?
 structures, etc.
 - Francis: it's more closed than that
 - Mike: are we good then?
-{% endraw %}
+
+_Last updated: _{% endraw %}

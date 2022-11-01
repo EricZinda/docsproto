@@ -84,4 +84,5 @@ Aug. 12)
 :confused:
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Aug. 3 - Aug. 7 + HPSG)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (unfortunately can't make it)
-{% endraw %}
+
+_Last updated: _{% endraw %}

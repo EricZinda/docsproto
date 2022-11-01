@@ -25,4 +25,5 @@ modifications to or enhancements of this library that are either in
 progress or planned. \]</span>
 
 # References
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -49,4 +49,5 @@
 | 16:30-17:00 | [''Discussion'' Towards a Parallel DELPH-IN Corpus and Increased Comparability](http://www.dfki.de/~frank/fefor_par_corp.ppt)                      | Moderator: Anette Frank Scribe: Stephan Oepen     |     |
 | 17:00-17:30 | *Wrap up*                                                                                                                                          |                                                   |     |
 | 19:45-22:14 | Vinstra -- Gardemoen                                                                                                                               |                                                   |     |
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -162,4 +162,5 @@ files) \[Chris\]
 - SIG: educational applications \[Olga,
 [CambridgeEducation](../CambridgeEducation)\]
 - SIG: parsing efficiency \[Woodley\]
-{% endraw %}
+
+_Last updated: _{% endraw %}

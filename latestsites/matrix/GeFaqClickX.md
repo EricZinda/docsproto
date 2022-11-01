@@ -18,4 +18,5 @@ and a Matrix-derived grammar) the LKB sometimes behaves funny
 on?](GeFaqSwitchingGrammars)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -247,4 +247,5 @@ lexent type name
 14. Attach subord clause high \[EMB: subordinate clauses are understood
 as clauses with all arguments overt; do not include in+order+to
 purposives, etc.\]
-{% endraw %}
+
+_Last updated: _{% endraw %}

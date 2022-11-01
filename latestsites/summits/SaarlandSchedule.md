@@ -180,4 +180,5 @@ sprints](http://www.booksprints.net/))
 - [PaperCuts](PaperCuts)
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
-{% endraw %}
+
+_Last updated: _{% endraw %}

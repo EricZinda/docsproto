@@ -315,4 +315,5 @@ illumination to the discussion.
 Francis: That the results were inconclusive surprised no one.
 
 Emily: Shall I record that as use or mention?
-{% endraw %}
+
+_Last updated: _{% endraw %}

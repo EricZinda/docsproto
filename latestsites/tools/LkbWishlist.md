@@ -78,4 +78,5 @@ windows for some (most?) encodings
   
   These points are (mostly) implemented in [LkbFos](../LkbFos), although
 some work is required to pre-select the Unicode fonts to be used.
-{% endraw %}
+
+_Last updated: _{% endraw %}

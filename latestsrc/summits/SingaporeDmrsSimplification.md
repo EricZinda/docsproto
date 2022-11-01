@@ -233,4 +233,5 @@ Chris: Tag the simplified structure with what you've done: This time has
 been canonicalized; this name has been compounded.
 
 Dan: Record the provenance of the predications.
-{% endraw %}
+
+_Last updated: _{% endraw %}

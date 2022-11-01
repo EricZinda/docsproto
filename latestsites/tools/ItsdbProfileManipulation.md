@@ -23,4 +23,5 @@ A quick way of compressing a profile in this way using a shell is
 (assuming you are in the profile):
 
      find . -size +0 -type f -not -name 'relations' -exec gzip {} \;
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -253,4 +253,5 @@ involve other people in coming up with a uniform solution, rather than
 implementing your own solution that others have to deal with.
 
 \*\*applause\*\*
-{% endraw %}
+
+_Last updated: _{% endraw %}

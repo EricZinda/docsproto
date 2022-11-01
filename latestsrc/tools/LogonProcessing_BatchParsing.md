@@ -262,4 +262,5 @@ The in-depth comparison of parsing results (using the *pedges* and
 *readings* fields, in the above example) will print out one line per
 item, where either of the fields show different values across the two
 profiles.
-{% endraw %}
+
+_Last updated: _{% endraw %}

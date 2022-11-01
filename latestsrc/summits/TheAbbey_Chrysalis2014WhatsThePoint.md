@@ -491,4 +491,5 @@ answered.
 
 Woodley: There are some good answers there, but it's not necessarily
 complete.
-{% endraw %}
+
+_Last updated: _{% endraw %}

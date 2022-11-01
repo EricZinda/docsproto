@@ -28,4 +28,5 @@ functionality where possible
     - necessary resources (data to train / models, training
 scripts, etc)
 - release plans / procedures (LOGON?)
-{% endraw %}
+
+_Last updated: _{% endraw %}

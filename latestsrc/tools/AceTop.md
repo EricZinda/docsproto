@@ -34,4 +34,5 @@ Read-only public SVN access to the ACE source code is available to
 interested parties, e.g. the (unstable) development trunk:
 
       svn co http://sweaglesw.org/svn/ace/trunk ace
-{% endraw %}
+
+_Last updated: _{% endraw %}

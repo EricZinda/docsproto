@@ -463,4 +463,5 @@ situations where it's coerced from subject position, less obvious.
 
 Dan: The burden of proof is on one who wants to say that the variation
 doesn't happen.
-{% endraw %}
+
+_Last updated: _{% endraw %}

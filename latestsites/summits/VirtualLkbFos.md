@@ -153,4 +153,5 @@ FCB: If you could add a little documentation as it did this, it would be
 great!
 
 OE: I use the pet debugging mode
-{% endraw %}
+
+_Last updated: _{% endraw %}

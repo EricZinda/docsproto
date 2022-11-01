@@ -94,4 +94,5 @@ password: cambridge
 - [Olga's photos](https://photos.app.goo.gl/1XLqdQPB7WGmHM2N7)
 - [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2019/)
 password: Cambridgeshire
-{% endraw %}
+
+_Last updated: _{% endraw %}

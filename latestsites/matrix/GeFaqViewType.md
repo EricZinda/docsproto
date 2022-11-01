@@ -26,4 +26,5 @@ rules?](../GeFaqViewEntry)
 - [How do I browse the type hierarchy?](../GeFaqViewHierarchy)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

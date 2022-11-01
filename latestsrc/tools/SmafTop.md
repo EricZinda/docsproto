@@ -135,4 +135,5 @@ See also: [SmafSample](SmafSample)
 # SMAF DTD
 
 See [SmafDtd](SmafDtd).
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -212,4 +212,5 @@ useful for the
 \`gave Kim a headache'
 
 \*\`gave a headache to Kim' puzzle than Georgia Green wrote about
-{% endraw %}
+
+_Last updated: _{% endraw %}

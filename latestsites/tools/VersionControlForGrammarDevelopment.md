@@ -108,4 +108,5 @@ file:
              tsdb/home/
              tsdb/current/
              trees/
-{% endraw %}
+
+_Last updated: _{% endraw %}

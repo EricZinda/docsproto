@@ -280,4 +280,5 @@ projection.
 
 oe: One could also argue that they should be introduced as they are
 needed.
-{% endraw %}
+
+_Last updated: _{% endraw %}

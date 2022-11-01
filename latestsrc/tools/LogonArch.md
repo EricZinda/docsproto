@@ -43,4 +43,5 @@ The symlinking technique did not work with libpng, but luckily the right
 version was in the standard repositories:
 
 sudo pacman -S libpng12
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -1,2 +1,3 @@
 {% raw %}**You are not allowed to view this page.**
-{% endraw %}
+
+_Last updated: _{% endraw %}

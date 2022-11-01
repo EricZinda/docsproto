@@ -60,4 +60,5 @@ pages 73-80. Prague, 2007.
 - Ann Copestake. *Robust Minimal Recursion Semantics*. [Unpublished
 draft](http://www.cl.cam.ac.uk/~aac10/papers/rmrsdraft.pdf),
 2004/2006.
-{% endraw %}
+
+_Last updated: _{% endraw %}

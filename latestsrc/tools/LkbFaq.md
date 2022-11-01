@@ -301,4 +301,5 @@ repeated three times. This repetition may be benign.
 
 The [GrammarEngineeringFaq](/GrammarEngineeringFaq) page contains
 further LKB-related FAQs.
-{% endraw %}
+
+_Last updated: _{% endraw %}

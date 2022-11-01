@@ -287,4 +287,5 @@ backward-application of variable type mappings?
 - If variable type mappings only apply in the forward direction, why
 bother with &lt;&gt; operators (instead of just &gt;&gt;), and
 what's the point of the semarg &lt;&lt; u line in the example?
-{% endraw %}
+
+_Last updated: _{% endraw %}

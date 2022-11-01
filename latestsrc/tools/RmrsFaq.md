@@ -58,4 +58,5 @@ A:
     ;;; to check for `arity' in MTRs, sometimes we need an `anti-'variable type
     ;;;
     a := u.
-{% endraw %}
+
+_Last updated: _{% endraw %}

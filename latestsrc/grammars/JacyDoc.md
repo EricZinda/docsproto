@@ -24,4 +24,5 @@ lexicon used with the [LexDB](/LkbLexDb).
 the grammar's performance.
 - [MatrixMrsTestSuiteJa](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteJa): Results of parsing the
 MRS test suite.
-{% endraw %}
+
+_Last updated: _{% endraw %}

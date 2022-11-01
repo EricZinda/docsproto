@@ -143,4 +143,5 @@ Woodley: No. Emphatically no.
 John: The most reliable test would be with an old image of the classical LKB from > 4 years ago.
 
 Glenn: Maybe a KNOPPIX image?
-{% endraw %}
+
+_Last updated: _{% endraw %}

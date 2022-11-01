@@ -82,4 +82,5 @@ complaining*.
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
-{% endraw %}
+
+_Last updated: _{% endraw %}

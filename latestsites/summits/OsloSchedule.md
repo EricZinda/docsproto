@@ -173,4 +173,5 @@ Carroll)
 'start here' page (Chris Curtis)
 - Tutorial: Getting set up for robust parsing (Woodley Packard, Dan
 Flickinger)
-{% endraw %}
+
+_Last updated: _{% endraw %}

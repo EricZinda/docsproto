@@ -297,4 +297,5 @@ Only supported by the LKB, not ACE (2017-03-15).
 Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
 [RmrsParaphrasing](../RmrsParaphrasing))
-{% endraw %}
+
+_Last updated: _{% endraw %}

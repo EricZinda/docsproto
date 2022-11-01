@@ -102,4 +102,5 @@ generation.
 # History of Coverage
 
 See [ZhongHistory](../ZhongHistory)
-{% endraw %}
+
+_Last updated: _{% endraw %}

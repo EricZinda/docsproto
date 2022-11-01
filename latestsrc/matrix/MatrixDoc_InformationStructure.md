@@ -261,4 +261,5 @@ address = {Stanford, CA},\
 publisher = {CSLI Publications},\
 year = {2012}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

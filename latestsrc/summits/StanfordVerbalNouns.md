@@ -356,4 +356,5 @@ David: can I propose that what bothers Emily about merging 'e' and 'x',
 is that, in the syntax you are eventually get down to the point where a
 role needs to get filled. But grammars differ about preference for where
 this happens, whether something's a predicate or not.
-{% endraw %}
+
+_Last updated: _{% endraw %}

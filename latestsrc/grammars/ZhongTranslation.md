@@ -28,4 +28,5 @@ After that, you can run the translation process. The sequence is INPUT
     echo "犬 が 吠え だ" | ace -g YOUR_JACY_DIRECTORY/jacy.dat | ace -g YOUR_JAHS_DIRECTORY/jahs.dat | ace -g YOUR_HANS_DIRECTORY/hans-strict.dat -e
 
 ## hsja
-{% endraw %}
+
+_Last updated: _{% endraw %}

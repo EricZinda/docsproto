@@ -22,4 +22,5 @@ or lexical rule) should be licensing the edge. Then, follow the
 directions for doing [interactive unification](../GeFaqInteractiveUnify).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

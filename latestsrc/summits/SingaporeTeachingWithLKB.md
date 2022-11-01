@@ -28,4 +28,5 @@ reading the instructions
 Problem: people are scared of command line and simplistic UI
 
 - How to solve?..
-{% endraw %}
+
+_Last updated: _{% endraw %}

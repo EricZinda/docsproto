@@ -711,4 +711,5 @@ this analysis would enable paraphrases that permute the conjuncts
 (possibly even in nested coordinate structures, come to think of it,
 though that might be undesirable with different coordinators—win some,
 lose some).
-{% endraw %}
+
+_Last updated: _{% endraw %}
