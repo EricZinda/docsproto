@@ -134,7 +134,7 @@ is available as a separate
 [ErgProcessing/SampleExport](../ErgProcessing_SampleExport) page; formats
 (a), (c), and (d) are further discussed to some degree on the
 [ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations), [ErgSemantics](../ErgSemantics), and
-[EdsTop](https://blog.inductorsoftware.com/docsproto/concept/EdsTop) pages, respectively).
+[EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) pages, respectively).
 
 If you like what you are seeing, it is probably about time to read more
 about the ERG and DELPH-IN technology, for example starting from the

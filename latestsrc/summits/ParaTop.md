@@ -7,12 +7,12 @@ or corrections as you see fit.
 
 - **Strict**: parse and then generate
 - **Some variation**: parse and then rephrase (see
-[RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/concept/RmrsParaphrasing))
+[RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing))
 - **More variation**: create a monolingual Machine Translation system
 (see [MachineTranslationTop](MachineTranslationTop))
 
 In this case, the monolingual machine translation should use the
-*external* MRS exposed by the Semantic Interface ([SEM-I](https://blog.inductorsoftware.com/docsproto/concept/RmrsSemi)),
+*external* MRS exposed by the Semantic Interface ([SEM-I](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi)),
 not the internal MRS, for the following reasons:
 
 1. the SEM-I is the interface to outside resources, such as

@@ -6,16 +6,6 @@
         {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "home/LexsemTop.md"}
       ]}
     ],
-    "concept": [
-      {"Section": "Formats", "Pages": [
-        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "concept/WeSearch_Ccs.md"},
-        {"Page": "CcsGroup", "SrcDir": "docswiki", "SrcFile": "CcsGroup.md", "Referrer": "concept/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "concept/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "concept/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayThree", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayThree.md", "Referrer": "concept/WeSearch_Ccs.md"},
-        {"Page": "NoJa", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "concept/MachineTranslationTop.md"}
-      ]}
-    ],
     "grammars": [
       {"Section": "Japanese (JACY)", "Pages": [
         {"Page": "LexDbSimplePsql", "SrcDir": "docswiki", "SrcFile": "LexDbSimplePsql.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
@@ -36,7 +26,15 @@
     "tools": [
       {"Section": "Logon", "Pages": [
         {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
+        {"Page": "NoJa", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "tools/NoJa.md"},
         {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"}
+      ]},
+      {"Section": "Formats", "Pages": [
+        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "CcsGroup", "SrcDir": "docswiki", "SrcFile": "CcsGroup.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_CcsDayThree", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayThree.md", "Referrer": "tools/WeSearch_Ccs.md"}
       ]},
       {"Section": "Misc", "Pages": [
         {"Page": "SafDtd", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"}

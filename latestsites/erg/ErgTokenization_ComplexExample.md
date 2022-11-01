@@ -37,7 +37,7 @@ The ERG REPP rules (as of mid-2011) will tokenize according to PTB
 conventions, splitting off and normalizing (most) punctuation marks, but
 not breaking at dashes (or slashes). Thus, at level (a) there will be
 eight tokens, which (in YY format, and assuming PoS tags from TnT; see
-the [PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput) page for details on the YY token format) might
+the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for details on the YY token format) might
 be the following:
 
       (1, 0, 1, <0:1>, 1, "‘", 0, "null", "``" 1.0000)
@@ -86,7 +86,7 @@ seem like duplicates in the above (e.g. tokens \#70 and \#115, which
 only differ in capitalization of the surface form) is typically further
 differentiated in terms of the associated feature structures, for
 example making a type distinction between 'native' vs. 'generic' tokens
-(see the [PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput) page for further discussion). Furthermore,
+(see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for further discussion). Furthermore,
 these token feature structures provide references to initial token
 identifiers, i.e. make explicit the correspondence relations between the
 two layers.

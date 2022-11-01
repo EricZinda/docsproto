@@ -191,7 +191,7 @@ tokens...
 
 # Ambiguity Packing
 
-See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/tools/PetSelectiveUnpacking).
+See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/PetSelectiveUnpacking).
 
 # Restrictions on the application of morphological rules
 

@@ -7,7 +7,7 @@ Lots of applications work with MRS. Would be nice to have an external
 specification rather than source code for those who are implementing
 something new and want to make sure that it's correct.
 
-Mike started [MrsRfc](https://blog.inductorsoftware.com/docsproto/concept/MrsRFC) page after the last summit; thanks Rebecca
+Mike started [MrsRfc](https://blog.inductorsoftware.com/docsproto/tools/MrsRFC) page after the last summit; thanks Rebecca
 and Stephan for doing most of the work.
 
 Request for comments =&gt; please edit the wiki page if you see errors.
@@ -33,7 +33,7 @@ out that the RFC doesn't give rigorous specification about where
 whitespace is allowed. Important for implementation, particularly
 important when using symbols/strings to mean the same thing. Is white
 space significant here, is it allowed here, does it delimit fields? What
-I've got up there ([MrsRfc](https://blog.inductorsoftware.com/docsproto/concept/MrsRFC)) was reversed engineered, with some
+I've got up there ([MrsRfc](https://blog.inductorsoftware.com/docsproto/tools/MrsRFC)) was reversed engineered, with some
 feedback from Woodley and oe. Case sensitivity and space sensitivity,
 while not very important bits of MRS, are necessary for the comparison
 of MRS.

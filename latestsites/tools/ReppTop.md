@@ -14,7 +14,7 @@ who is the original REPP designer and current maintainer of the LKB
 implementation of REPP. REPP support in PET was provided by
 [RebeccaDridan](../RebeccaDridan) (with some help by Stephan), and Rebecca
 continues to maintain the PET implementation of REPP (see the page
-[ReppPet](../ReppPet) for preliminary documentation). Please do not make
+[ReppPet](https://blog.inductorsoftware.com/docsproto/garage/ReppPet) for preliminary documentation). Please do not make
 substantial changes to this page unless you (a) are quite certain of the
 technical correctness of your revisions and (b) believe strongly that
 your changes are compatible with the general design and recommended use
@@ -337,7 +337,7 @@ an :id keyword argument in the read-repp() call.
 The programmatic interface to REPP is through the repp() and
 repp-for-pet() functions. These can be used in debugging REPP rules, or
 in preparing input to another parser, specifically PET (see the
-[PetInput](../PetInput) page for background). Both functions take optional
+[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for background). Both functions take optional
 keyword arguments :repp and :calls, which determine the top-level
 ('master') REPP to be used, and set of active external groups,
 respectively. The value of :calls defaults to the current value of
@@ -371,13 +371,13 @@ boundaries):
       "Wikipedia mark-up is ¦i relatively i¦ straightforward ."
 
 Other available output formats include :pet (the default, returning the
-so-called YY format; see the [PetInput](../PetInput) page); :sppp (an
+so-called YY format; see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page); :sppp (an
 LKB-internal format, see the [LkbSppp](../LkbSppp) page); and :raw (a list
 of token structures, providing all available information). The last of
 these is the most generic output option; it could be used to wrap an XML
 serialization around the REPP core (e.g. if one were to emulate the
 (S)MAF output option of the older FSPP implementation; see below and the
-[SmafTop](https://blog.inductorsoftware.com/docsproto/concept/SmafTop) page).
+[SmafTop](../SmafTop) page).
 
 When using the LKB parser with a grammar that provides one or more REPP
 instances, the parameter \*repp-interactive\* determines the specific
@@ -438,7 +438,7 @@ definition can be simulated by a Lisp function call like the following:
 
 The additional :stream argument will re-direct the result of
 pre-processing into a file (overwriting an existing file by that name,
-if need be), in this case the file sample.yy. See [PetInput](../PetInput)
+if need be), in this case the file sample.yy. See [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)
 for further discussion on how REPP outputs can be processed
 interactively in PET, for example for in-depth debugging.
 
@@ -446,7 +446,7 @@ interactively in PET, for example for in-depth debugging.
 
 A C++ implementation of REPP was developed by
 [RebeccaDridan](../RebeccaDridan), and this code forms the basis for REPP
-support in the PET parser (see the [ReppPet](../ReppPet) page for details)
+support in the PET parser (see the [ReppPet](https://blog.inductorsoftware.com/docsproto/garage/ReppPet) page for details)
 as well as for a stand-alone REPP utility. To obtain and build the
 latter tool, please try the following:
 

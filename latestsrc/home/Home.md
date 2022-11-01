@@ -70,7 +70,7 @@ resources to the common task.
 
 ### Tools and Architectures
 
-- [DelphinWelcome](../DelphinWelcome)
+- [DelphinWelcome](https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome)
 - [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop): Lexical Knowledge Builder --- Grammar Engineering
 Environment
 - [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\]: Competence and Performance Profiler
@@ -80,7 +80,7 @@ with DELPH-IN grammars
 DELPH-IN representations
 - [LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonTop): Information about the LOGON machine translation
 infrastructure.
-- [Pet](https://blog.inductorsoftware.com/docsproto/tools/PetTop): Platform for Experimentation with efficient HPSG
+- [Pet](https://blog.inductorsoftware.com/docsproto/garage/PetTop): Platform for Experimentation with efficient HPSG
 processing Techniques
 - [Other tools](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop): Supporting software, addons, peripheral
 contributions
@@ -103,22 +103,22 @@ LKB-compatible precision grammars
 LKB-compatible precision grammars
 - [Redwoods](../RedwoodsTop): HPSG Treebank Comprised of Analyses
 from the ERG
-- [MRS](https://blog.inductorsoftware.com/docsproto/concept/RmrsTop): Minimal Recursion Semantics --- Theory and
+- [MRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop): Minimal Recursion Semantics --- Theory and
 Implementation (including extensions and variants such Robust MRS
 (RMS), Elementary Dependency Structures (EDS) and Dependency MRS
 (DMRS))
   - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics): Emerging documentation of MRS
 as used in the ERG
-  - [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/concept/RmrsDiscussions): Links to discussions
+  - [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/tools/RmrsDiscussions): Links to discussions
 related to MRS at various DELPH-IN events
-- Shared Corpora, [Treebanks](https://blog.inductorsoftware.com/docsproto/concept/TreebankingTop)
+- Shared Corpora, [Treebanks](https://blog.inductorsoftware.com/docsproto/tools/TreebankingTop)
   - [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite): Core Test Suite (\~100
 sentences)
   - [Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb): Parallel Corpus
 based on an Open Source Essay (\~800 sentences)
 - [Grammar discussions](https://blog.inductorsoftware.com/docsproto/grammars/GrammarDiscussionsTop): Discussions for
 grammar developers (analyses, terminology, harmonization, …)
-- [DELPH-IN RFCs](https://blog.inductorsoftware.com/docsproto/concept/DelphinRFCs) (Requests For Comments; formal
+- [DELPH-IN RFCs](https://blog.inductorsoftware.com/docsproto/tools/DelphinRFCs) (Requests For Comments; formal
 specifications)
 
 ### Applications

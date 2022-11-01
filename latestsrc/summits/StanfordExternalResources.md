@@ -13,8 +13,8 @@ extragrammatic applications, so we might consider them underutilized.
 Some non-DELPH-IN lexical resources, such as [FrameNet](/FrameNet),
 Propbank, [WordNet](/WordNet), etc. are documented and usable for a
 variety of applications. Perhaps by associating our lexical entries (and
-possibly other ontological information, like [SEM-I](https://blog.inductorsoftware.com/docsproto/concept/SemiRfc)
-properties, [parts of speech](https://blog.inductorsoftware.com/docsproto/concept/RmrsPos), etc.), there could be some
+possibly other ontological information, like [SEM-I](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+properties, [parts of speech](https://blog.inductorsoftware.com/docsproto/tools/RmrsPos), etc.), there could be some
 benefits:
 
 - Our lexica could supplement other resources (in quantity or quality

@@ -222,10 +222,10 @@ three
   - and a half ways of describing partly processed input for
 parsing,
     
-    viz. (a) the original YY mode (\`[PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput)' on the
+    viz. (a) the original YY mode (\`[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)' on the
 wiki), (b) SPPP of the early Deep-Thought days
 (\`[LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp)'), (c) the XML input chart in PET
-(\`[PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput))', and (d) emerging MAF support. of
+(\`[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput))', and (d) emerging MAF support. of
 these, (a) and (c) are available in PET ((c) only in the \`main'
 branch), while (b) and (d) are in the LKB. i personally believe
 in plurality, and at least (a) -- (c) currently have active

@@ -43,7 +43,7 @@ for verbal compounds and relative sentence constructions, and many
 lexicon entries. [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer) integrated
 [ChaSen](http://chasen.naist.jp), Japanese Named Entity Recognition via
 [SProUT](http://sprout.dfki.de) and
-[PET](https://blog.inductorsoftware.com/docsproto/tools/PetTop) with the Jacy grammar into
+[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) with the Jacy grammar into
 the [Heart of Gold](http://heartofgold.dfki.de) middleware for robust
 parsing of Japanese text, adding automatic translations of Chasen's
 EUC-JP byte offsets to Unicode character counts. Woodley Packard has

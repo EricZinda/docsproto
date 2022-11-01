@@ -1,5 +1,5 @@
 {% raw %}\[Picking up a discussion from Saarland Summit:
-[SaarlandSententialArgument](https://blog.inductorsoftware.com/docsproto/concept/SaarlandSententialArgument)\]
+[SaarlandSententialArgument](https://blog.inductorsoftware.com/docsproto/erg/SaarlandSententialArgument)\]
 
 Woodley: *It surprised me that the balloon popped*/*I was surprised that
 the balloon popped*

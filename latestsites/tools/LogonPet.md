@@ -2,7 +2,7 @@
 
 The so-called LOGON distribution (please see the [LogonTop](../LogonTop)
 page, for general background) includes pre-compiled binaries of the
-[PET](../PetTop) parsing system. To support a variety
+[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) parsing system. To support a variety
 of user needs, there are binaries for a range of different
 configurations, ‘hidden’ behind wrapper scripts that provide a
 command-line option, to select a specific binary. Furthermore, the

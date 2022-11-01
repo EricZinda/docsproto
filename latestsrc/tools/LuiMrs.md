@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
 Display of MRS structures (Minimal Recursion Semantics; see the
-[RmrsTop](https://blog.inductorsoftware.com/docsproto/concept/RmrsTop) pages) in LUI supports various views, viz. (a)
+[RmrsTop](../RmrsTop) pages) in LUI supports various views, viz. (a)
 *simple*, (b) *indexed*, and (c) *dependency* formats. All three views
 display the exact same object but vary in the amount of information
 provided (and accordingly the compactness of display). Furthermore,

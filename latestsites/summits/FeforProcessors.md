@@ -69,7 +69,7 @@ we can design a language for the interface
 - Preprocessors ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
 - PET API (proposal, discussion) ([UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer))
   
-  - Uli to start outline on the wiki: [FeforPetApi](https://blog.inductorsoftware.com/docsproto/tools/FeforPetApi)
+  - Uli to start outline on the wiki: [FeforPetApi](https://blog.inductorsoftware.com/docsproto/garage/FeforPetApi)
 - Grammar interfaces: clear interface for robustness-related grammar
 elements (paths/types/pos-tags/expected tokenization/punctuation
 etc.) e.g. specified in the inline documentation in such a way that

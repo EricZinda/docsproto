@@ -1,0 +1,54 @@
+main:
+  - title: "Home"
+    url: https://blog.inductorsoftware.com/docsproto/home/Home
+  - title: "How-to"
+    url: https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome
+  - title: "ERG"
+    url: https://blog.inductorsoftware.com/docsproto/erg/ErgTop
+  - title: "Tools"
+    url: https://blog.inductorsoftware.com/docsproto/tools/ToolsTop
+  - title: "Grammars"
+    url: https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue
+  - title: "Matrix"
+    url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
+  - title: "Garage"
+    url: https://blog.inductorsoftware.com/docsproto/garage/PetTop
+  - title: "Summits"
+    url: https://blog.inductorsoftware.com/docsproto/summits/SummitTop
+toc:
+  - title: "PET"
+    children:
+      - title: "Overview"
+        url: "PetTop"
+      - title: "Dependencies"
+        url: "PetDependencies"
+      - title: "Eclipse"
+        url: "PetEclipse"
+      - title: "RoadMap"
+        url: "PetRoadMap"
+      - title: "Input"
+        url: "PetInput"
+      - title: "ReppPet"
+        url: "ReppPet"
+      - title: "Output"
+        url: "PetOutput"
+      - title: "Options"
+        url: "PetOptions"
+      - title: "Parameters"
+        url: "PetParameters"
+      - title: "Selective Unpacking"
+        url: "PetSelectiveUnpacking"
+      - title: "Input Feature Structure Chart"
+        url: "PetInputFsc"
+      - title: "Input Chart"
+        url: "PetInputChart"
+      - title: "Logging"
+        url: "PetLogging"
+      - title: "Robustness"
+        url: "PetRobustness"
+      - title: "PET API Proposal"
+        url: "FeforPetApi"
+  - title: "Misc"
+    children:
+      - title: "Agree"
+        url: "AgreeTop"

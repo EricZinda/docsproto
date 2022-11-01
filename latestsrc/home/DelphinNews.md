@@ -39,14 +39,14 @@ in Fefor, Norway.
 - **FEB-06** A group of ten developers of DELPH-IN resources meets for
 a focussed [Developers Meeting](https://blog.inductorsoftware.com/docsproto/summits/JerezTop) in Jerez (Spain). Among
 the main results of the meeting are the merging of the two historic
-[PET](https://blog.inductorsoftware.com/docsproto/tools/PetTop) branches, the design for stand-alone FSPP use and
+[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) branches, the design for stand-alone FSPP use and
 integration of conflicting tokenization views into
 [HoG](https://blog.inductorsoftware.com/docsproto/tools/HeartofgoldTop), as well as initial results on harmonizing the
-configuration of [PET](https://blog.inductorsoftware.com/docsproto/tools/PetTop) and the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop).
+configuration of [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) and the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop).
 - **OCT-05** The EPSRC-funded [SciBorg
 project](http://www.sciborg.org.uk) starts at the University of
 Cambridge, using integrated deep and shallow techniques in
-processing scientific text, building on the work on [RMRS](https://blog.inductorsoftware.com/docsproto/concept/RmrsTop)
+processing scientific text, building on the work on [RMRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop)
 that was begun on the [Deep-Thought
 Project](http://www.project-deepthought.net/).
 - **OCT-05** NTT (in the person of Francis Bond) hosts the fourth

@@ -48,7 +48,7 @@ Usually, users will have a set of [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) cpus to choose from; when
 preparing for a test run, a selection from the set of available cpus is
 made to create clients as needed. The per-user configuration file
-\~/.tsdbrc (see [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/concept/ItsdbCustomization)) can be used to
+\~/.tsdbrc (see [ItsdbCustomization](../ItsdbCustomization)) can be used to
 enumerate a list of cpus (similar to the **pvm** node listing in the
 \~/.pvm\_hosts file).
 

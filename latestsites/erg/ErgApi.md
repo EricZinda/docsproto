@@ -35,7 +35,7 @@ tree (e.g. the full recipe for deriving this analysis; see the
 logical-form meaning representation in *Minimal Recursion Semantics*
 (MRS; see the [ErgSemantics](../ErgSemantics) page for background), and a
 simplification of the semantics as an *Elementary Dependency Structure*
-(EDS; see the [EdsTop](https://blog.inductorsoftware.com/docsproto/concept/EdsTop) page for background).
+(EDS; see the [EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) page for background).
 
 For example, the query
 <http://erg.delph-in.net/rest/0.9/parse?derivation=json&input=Abrams%20arrived.>

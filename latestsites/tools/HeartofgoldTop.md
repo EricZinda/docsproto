@@ -11,14 +11,14 @@ The [Heart of Gold](http://heartofgold.dfki.de) is a middleware
 architecture for the integration of deep and shallow natural language
 processing components. It provides a uniform and flexible infrastructure
 for building applications that use Robust Minimal Recursion Semantics
-([RMRS](https://blog.inductorsoftware.com/docsproto/concept/RmrsTop)) and/or general XML standoff annotation produced by
+([RMRS](../RmrsTop)) and/or general XML standoff annotation produced by
 natural language processing components. The framework uses
 [XSLT](http://www.w3.org/TR/xslt) as integration language for querying
 and combining XML standoff markup.
 
 The main purpose Heart of Gold was developed for is integration of
 various shallow natural language processors with the highly efficient
-[HPSG](http://hpsg.stanford.edu) parser [PET](../PetTop) in order to
+[HPSG](http://hpsg.stanford.edu) parser [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) in order to
 increase robustness of HPSG grammars for various languages such as
 [English](http://www.delph-in.net/erg),
 [German](http://www.dfki.de/~crysmann/gg/),

@@ -43,6 +43,9 @@
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ControlRelations/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Conventions/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination/</loc>
 </url>
 <url>
@@ -112,6 +115,9 @@
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_QuasiModalInfinitivals/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Raw_Materials/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_RelationalNouns/</loc>
 </url>
 <url>
@@ -146,5 +152,8 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/QuickStart/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/erg/SaarlandSententialArgument/</loc>
 </url>
 </urlset>

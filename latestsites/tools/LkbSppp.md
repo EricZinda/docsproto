@@ -18,7 +18,7 @@ to make sure they are setting things up in the right package (aka
 namespace).
 
 For hooking up external tokenizers and morphological analyzers, you may
-also be intrested in SMAF (see [SmafTop](https://blog.inductorsoftware.com/docsproto/concept/SmafTop)).
+also be intrested in SMAF (see [SmafTop](../SmafTop)).
 
 # XML Examples
 

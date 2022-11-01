@@ -116,7 +116,7 @@ page for background):
       named(Abrams)[ARG0 x]
 
 Conversely, in a popular serialization format for complete MRSs (the
-so-called *simple* MRS serialization; see the [MrsRfc](https://blog.inductorsoftware.com/docsproto/concept/MrsRFC) page),
+so-called *simple* MRS serialization; see the [MrsRfc](https://blog.inductorsoftware.com/docsproto/tools/MrsRFC) page),
 parameters are interspersed with regular arguments, using the (strictly
 speaking ERG-specific) pseudo-role label CARG:
 

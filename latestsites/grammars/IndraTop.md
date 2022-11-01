@@ -37,7 +37,7 @@ Catalogue](http://moin.delph-in.net/GrammarCatalogue/#Indonesian_Resource_Gramma
 [IndraYYMode](http://moin.delph-in.net/IndraYYMode)
 - Machine Translation: [IndraTranslation](IndraTranslation)
 - Testing: [IndraRegressionTest](IndraRegressionTest)
-- Treebanking: [IndraTreebanking](https://blog.inductorsoftware.com/docsproto/concept/IndraTreebanking)
+- Treebanking: [IndraTreebanking](https://blog.inductorsoftware.com/docsproto/tools/IndraTreebanking)
 
 ## Testsuites
 

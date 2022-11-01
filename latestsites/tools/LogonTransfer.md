@@ -2,7 +2,7 @@
 
 This page describes the transfer rule formalism used for, among other
 things, [machine translation](../LogonTop),
-[paraphrasing](https://blog.inductorsoftware.com/docsproto/concept/RmrsParaphrasing), and (pre-processing in)
+[paraphrasing](../RmrsParaphrasing), and (pre-processing in)
 [generation](../LkbGeneration). This page presents user-supplied
 information, hence may be inaccurate in some details, or not necessarily
 reflect use patterns anticipated by the original LOGON developers. The
@@ -296,5 +296,5 @@ Only supported by the LKB, not ACE (2017-03-15).
 
 Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
-[RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/concept/RmrsParaphrasing))
+[RmrsParaphrasing](../RmrsParaphrasing))
 {% endraw %}

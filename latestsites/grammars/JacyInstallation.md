@@ -14,7 +14,7 @@ tsdb()\]](../JacyInstallation#Using_JACY_with_.5Bincr_tsdb.28.29.5D)
 
 Here are some incomplete and sometime out-of-date instructions on how to
 install and run [Jacy](../JacyTop). First you must install the
-[LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) or [PET](https://blog.inductorsoftware.com/docsproto/tools/PetTop). Note that currently the automated
+[LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) or [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop). Note that currently the automated
 installation ([LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)) with the option --jacy
 gives an old version of the grammar.
 

@@ -35,7 +35,7 @@ file](../ItsdbReference#How_to_make_a_Profile_from_a_text_input_file)
 
 This page includes some low level information about [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](../ItsdbTop)). You may
-also be interested in [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/concept/ItsdbCustomization).
+also be interested in [ItsdbCustomization](../ItsdbCustomization).
 
 ## Formatting Conventions
 

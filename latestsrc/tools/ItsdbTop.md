@@ -57,11 +57,11 @@ this way:
 
 - \- [ItsdbDistributedProcessing](../ItsdbDistributedProcessing)
 
-\* [ItsdbTreebanking](https://blog.inductorsoftware.com/docsproto/concept/ItsdbTreebanking)
+\* [ItsdbTreebanking](../ItsdbTreebanking)
 
 \* [Batch Processing](../ItsdbBatch)
 
-\* [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/concept/ItsdbCustomization)
+\* [ItsdbCustomization](../ItsdbCustomization)
 
 \* [ItsdbReference](../ItsdbReference)
 
