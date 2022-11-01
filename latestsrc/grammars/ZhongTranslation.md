@@ -28,6 +28,4 @@ After that, you can run the translation process. The sequence is INPUT
     echo "犬 が 吠え だ" | ace -g YOUR_JACY_DIRECTORY/jacy.dat | ace -g YOUR_JAHS_DIRECTORY/jahs.dat | ace -g YOUR_HANS_DIRECTORY/hans-strict.dat -e
 
 ## hsja
-
-Page last updated by SanghounSong - 2014-09-10
-{% endraw %}
+<update date omitted for speed>{% endraw %}

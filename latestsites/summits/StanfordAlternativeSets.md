@@ -154,6 +154,4 @@ same clause.
 
 David: It sounds like you want some hierarchy of types of focus, and to
 figure out how to encode those (and only those) in the ICONS.
-
-Page last updated by EmilyBender - 2016-06-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

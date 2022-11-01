@@ -254,6 +254,4 @@ Later, at the Woods Cafe:
 predictaives fits in with NRR paraphrase idea
 
 **Proposal: Parentheticals also do the GTOP thing.**
-
-Page last updated by EmilyBender - 2013-08-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

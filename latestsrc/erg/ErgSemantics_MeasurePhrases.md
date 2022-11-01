@@ -66,6 +66,4 @@ meters* or even *the pool has a length of ten meters*?
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
-
-Page last updated by DanFlickinger - 2015-11-03
-{% endraw %}
+<update date omitted for speed>{% endraw %}

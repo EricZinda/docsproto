@@ -446,6 +446,4 @@ git repo that mirrors it to have the benefit of issue tracking, etc.
 oe: We're not going to modernize in one 50 min discussion, or even in
 one year. I'd be happy for you to conduct that pilot and for others to
 try out M$ [GitHub](/GitHub) and report back in a year.
-
-Page last updated by Alexandre Rademaker - 2021-07-20
-{% endraw %}
+<update date omitted for speed>{% endraw %}

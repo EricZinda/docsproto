@@ -180,6 +180,4 @@ acceptance, faithful is the word"
 - Guy: that sounds like an awkward translations trying to stick close
 to the greek
 - ...
-
-Page last updated by EmilyBender - 2017-08-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

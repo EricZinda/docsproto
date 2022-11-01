@@ -51,6 +51,4 @@ version string for every commit.
 ## Comments
 
 (add your comments here, and/or edit the proposal above)
-
-Page last updated by MichaelGoodman - 2011-07-25
-{% endraw %}
+<update date omitted for speed>{% endraw %}

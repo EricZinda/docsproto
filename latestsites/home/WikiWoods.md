@@ -98,6 +98,4 @@ on-line [Language Technology Resources](http://ltr.uio.no) collection.
 Following is an attempt at listing related initiatives. In case you know
 of additional pointers that should be included, please email
 Stephan Oepen.
-
-Page last updated by Alexandre Rademaker - 2021-07-20
-{% endraw %}
+<update date omitted for speed>{% endraw %}

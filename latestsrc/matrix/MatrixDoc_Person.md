@@ -247,6 +247,4 @@ journal = {Natural Language Engineering},\
 volume = {6},\
 pages = {15-28},\
 }
-
-Page last updated by AntskeFokkens - 2013-01-14
-{% endraw %}
+<update date omitted for speed>{% endraw %}

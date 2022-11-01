@@ -287,6 +287,4 @@ backward-application of variable type mappings?
 - If variable type mappings only apply in the forward direction, why
 bother with &lt;&gt; operators (instead of just &gt;&gt;), and
 what's the point of the semarg &lt;&lt; u line in the example?
-
-Page last updated by MichaelGoodman - 2017-02-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

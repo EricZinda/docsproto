@@ -47,6 +47,4 @@ own licenses different from LGPL.
 There is also a [mailing
 list](http://lists.delph-in.net/mailman/listinfo/hog) for discussions
 and announcements concerning Heart of Gold.
-
-Page last updated by Olga Zamaraeva - 2021-06-03
-{% endraw %}
+<update date omitted for speed>{% endraw %}

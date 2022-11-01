@@ -2,6 +2,4 @@
 
 <img src="http://www.dfki.de/~uschaefer/delph-in/Sanssouci.jpg" title="http://www.dfki.de/~uschaefer/delph-in/Sanssouci.jpg" class="external_image" alt="http://www.dfki.de/~uschaefer/delph-in/Sanssouci.jpg" />
 
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

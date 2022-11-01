@@ -34,6 +34,4 @@ data](http://lit.csci.unt.edu/~rada/downloads/semcor/semcor3.0.tar.gz)
 from [Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html)
 
 :warning:
-
-Page last updated by FrancisBond - 2013-10-25
-{% endraw %}
+<update date omitted for speed>{% endraw %}

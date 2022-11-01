@@ -35,6 +35,4 @@ section=toolbox-import
 \ge noungloss1
 \psrev n
 ```
-
-Page last updated by Olga Zamaraeva - 2021-06-28
-{% endraw %}
+<update date omitted for speed>{% endraw %}

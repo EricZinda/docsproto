@@ -268,6 +268,4 @@ Foundation under Grant No. 0644097. Any opinions, findings, and
 conclusions or recommendations expressed in this material are those of
 the author(s) and do not necessarily reflect the views of the National
 Science Foundation.
-
-Page last updated by emilymbender - 2022-02-04
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -51,6 +51,4 @@ the treatment of the *they* instances in examples like the following
 more consistent: *Kim likes Sandy. They went on a date tonight by the
 end they had already made plans for more dates and they both seemed
 happy.*
-
-Page last updated by EmilyBender - 2014-02-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

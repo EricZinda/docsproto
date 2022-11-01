@@ -137,6 +137,4 @@ organizers](../FeforSuggestions).
 # Photos
 
 Please post conference photos on [FeforPhotos](../FeforPhotos)!
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

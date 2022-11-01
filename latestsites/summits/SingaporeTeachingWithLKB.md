@@ -28,6 +28,4 @@ reading the instructions
 Problem: people are scared of command line and simplistic UI
 
 - How to solve?..
-
-Page last updated by StephanOepen - 2015-08-12
-{% endraw %}
+<update date omitted for speed>{% endraw %}

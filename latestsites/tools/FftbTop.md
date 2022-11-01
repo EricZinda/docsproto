@@ -268,6 +268,4 @@ At least when running inside a docker container, fftb crashes if it
 can't find the environment variable LOGNAME. To set it use
 
     export LOGNAME=myuser
-
-Page last updated by Francis Bond - 2022-07-22
-{% endraw %}
+<update date omitted for speed>{% endraw %}

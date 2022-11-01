@@ -62,6 +62,4 @@ bracketing: "identical retention time and mass spectrum" -&gt;
 chicken and egg problem in terms of identifying where to plug in the
 standalone
 - "can we stop now?" (Alex)
-
-Page last updated by TimBaldwin - 2008-05-24
-{% endraw %}
+<update date omitted for speed>{% endraw %}

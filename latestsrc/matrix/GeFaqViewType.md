@@ -26,6 +26,4 @@ rules?](../GeFaqViewEntry)
 - [How do I browse the type hierarchy?](../GeFaqViewHierarchy)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-09-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

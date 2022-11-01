@@ -195,6 +195,4 @@ replacement option (see below)
 
 replaces the type definition of type\_name in the original grammar by
 the new definition below *complete=on*.
-
-Page last updated by FrancisBond - 2017-01-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

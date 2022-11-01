@@ -111,6 +111,4 @@
 | 1051 | Браун пытался.                                                                                    | Browne tried to.                              |
 | 1061 | Не лай!                                                                                           | Don't bark!                                   |
 | 1071 | Собака прибыла, лая.                                                                              | The dog arrived barking.                      |
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

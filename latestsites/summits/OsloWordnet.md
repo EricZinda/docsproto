@@ -149,6 +149,4 @@ Woodley: What degree is the mechanism for maintaining these usable by
 other grammars...
 
 Francis: Not much, unfortunately.
-
-Page last updated by GlennSlayden - 2017-08-08
-{% endraw %}
+<update date omitted for speed>{% endraw %}

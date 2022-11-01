@@ -179,6 +179,4 @@ author={Sarah E. Murray},\
 year={2017},\
 publisher={Oxford University Press}\
 }
-
-Page last updated by MichaelHaeger - 2018-01-11
-{% endraw %}
+<update date omitted for speed>{% endraw %}

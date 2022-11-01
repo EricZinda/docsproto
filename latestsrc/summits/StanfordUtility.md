@@ -220,6 +220,4 @@ need something, it fits in easily on top of that. As opposed to saying,
 oh what you really need is something else - no trap doors.
 
 Stephan: Time... for the bus...
-
-Page last updated by StephanOepen - 2016-06-27
-{% endraw %}
+<update date omitted for speed>{% endraw %}

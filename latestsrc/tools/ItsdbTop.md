@@ -85,6 +85,4 @@ results per item.
 There is a macro for writing [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) in the wiki:
 &lt;&lt;itsdb&gt;&gt;.
-
-Page last updated by StephanOepen - 2020-07-31
-{% endraw %}
+<update date omitted for speed>{% endraw %}

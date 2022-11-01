@@ -128,6 +128,4 @@ dependency relations, respectively. Both these dependency views on
 ‘conll/’, providing for each sub-section two variants, one using native
 ERG tokenization conventions, another using PTB-style tokens.
 
-
-Page last updated by Alexandre Rademaker - 2022-02-14
-{% endraw %}
+<update date omitted for speed>{% endraw %}

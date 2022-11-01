@@ -121,6 +121,4 @@ means for increasing it
 - Breakout sessions
 
 **19:00** Jazz concert in the park!
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

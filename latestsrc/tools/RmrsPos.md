@@ -101,6 +101,4 @@ suitable for exchange between different POS inventories.
 | q := u        | quantifier (needs to be distinguished for scoping code) | this\_q\_1                          |                           |
 | x := u        | other closed class                                      | ahem\_x\_1                          |                           |
 | u             | unknown                                                 |                                     |                           |
-
-Page last updated by FrancisBond - 2013-03-06
-{% endraw %}
+<update date omitted for speed>{% endraw %}

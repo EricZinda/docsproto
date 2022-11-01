@@ -149,6 +149,4 @@ follows (e.g. in lkb/mrsglobals.lsp in the ERG):
       (setf *normalize-predicates-p* t)
 
 # References
-
-Page last updated by StephanOepen - 2019-05-25
-{% endraw %}
+<update date omitted for speed>{% endraw %}

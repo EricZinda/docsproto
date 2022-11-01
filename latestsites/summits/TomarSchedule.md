@@ -162,6 +162,4 @@ NL Sentences
 (wishlist)
 2. [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman): pyDelphin: MRS feature extraction,
 format conversion, and batch processing
-
-Page last updated by GuyEmerson - 2014-07-25
-{% endraw %}
+<update date omitted for speed>{% endraw %}

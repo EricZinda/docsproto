@@ -15,6 +15,4 @@ ditransitive clauses exists (please contact
 Citation: Zamaraeva, Olga. A cross-linguistic account of constituent
 questions for a grammar endineering resource. Froth. Doctoral
 dissertation. University of Washington.
-
-Page last updated by OlgaZamaraeva - 2020-06-02
-{% endraw %}
+<update date omitted for speed>{% endraw %}

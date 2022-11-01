@@ -94,6 +94,4 @@ chasen-preprocess-for-pet calls an external morpholigical analyzer
 
 rasp-preprocess-for-pet assumes the input is of the form *word\_pos
 word\_pos* and associates each word with its POS in the input chart.
-
-Page last updated by StephanOepen - 2012-08-07
-{% endraw %}
+<update date omitted for speed>{% endraw %}

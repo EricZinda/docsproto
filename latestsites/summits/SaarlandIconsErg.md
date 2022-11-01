@@ -280,6 +280,4 @@ projection.
 
 oe: One could also argue that they should be introduced as they are
 needed.
-
-Page last updated by EmilyBender - 2013-08-05
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -155,6 +155,4 @@ Cambridge and Sussex Universities (UK): integrating and extending
 several strands of research on robust statistical parsing and
 automated grammar and lexicon induction, in order to develop and
 distribute a new, parsing toolkit for English.
-
-Page last updated by EmilyBender - 2020-08-31
-{% endraw %}
+<update date omitted for speed>{% endraw %}

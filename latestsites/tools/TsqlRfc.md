@@ -175,6 +175,4 @@ conditions.
 
 1\. adding support for left/right/inner joins. See
 <https://github.com/delph-in/pydelphin/issues/321>.
-
-Page last updated by AlexandreRademaker - 2020-11-04
-{% endraw %}
+<update date omitted for speed>{% endraw %}

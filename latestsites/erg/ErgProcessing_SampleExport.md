@@ -386,6 +386,4 @@ the [ErgProcessing](../ErgProcessing) page for more details.
      x27:udef_q<59:72>[]
      x16:_and_c<59:62>[L-INDEX x23:_grammar_n_1, R-INDEX x27:_software_n_1]
     }
-
-Page last updated by StephanOepen - 2012-01-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

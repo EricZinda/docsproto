@@ -463,6 +463,4 @@ situations where it's coerced from subject position, less obvious.
 
 Dan: The burden of proof is on one who wants to say that the variation
 doesn't happen.
-
-Page last updated by EmilyBender - 2014-02-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -99,6 +99,4 @@ and Culture, Japan.
 - [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
-
-Page last updated by StephanOepen - 2015-09-22
-{% endraw %}
+<update date omitted for speed>{% endraw %}

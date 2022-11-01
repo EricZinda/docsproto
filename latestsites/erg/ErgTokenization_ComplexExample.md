@@ -150,6 +150,4 @@ feature structure, there is (among other things) a list of identifiers
 referring back to the initial tokens, i.e. for *Mountain View.*
 (including the final period) these are tokens \#6, \#7, and \#8 from the
 initial tokenization.
-
-Page last updated by StephanOepen - 2011-11-07
-{% endraw %}
+<update date omitted for speed>{% endraw %}

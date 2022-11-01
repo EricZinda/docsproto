@@ -192,6 +192,4 @@ And here is the updated syntax description:
   19 EOL      := WS* Comment? NewLine
   20 NewLine  := /\n/
 ```
-
-Page last updated by MichaelGoodman - 2019-06-04
-{% endraw %}
+<update date omitted for speed>{% endraw %}

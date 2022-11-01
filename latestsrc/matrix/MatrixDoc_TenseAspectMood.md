@@ -407,6 +407,4 @@ journal = {The Philosophical Review},\
 volume = {66},\
 issue = { 2 }\
 }
-
-Page last updated by VaryaGracheva - 2013-02-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

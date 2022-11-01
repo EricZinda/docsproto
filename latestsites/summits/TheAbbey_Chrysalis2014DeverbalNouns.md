@@ -560,6 +560,4 @@ Francis: Then I think you're giving me everything I want!
 oe: I think Dan's already giving you the reasonable requests.
 
 Francis: I only made reasonable requests!
-
-Page last updated by EmilyBender - 2014-02-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

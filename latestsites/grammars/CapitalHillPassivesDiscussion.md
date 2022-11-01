@@ -97,6 +97,4 @@ Maybe a temptation to also have a syntactic rule for head-subject just
 for these passive imperatives, but this seems unecessary since already
 need a lexical rule for these, and it can treat the deep object as still
 an object.
-
-Page last updated by DanFlickinger - 2017-01-05
-{% endraw %}
+<update date omitted for speed>{% endraw %}

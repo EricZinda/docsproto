@@ -21,6 +21,4 @@ interactive unification attempt fails, LUI can display the partial
 result with failure sites highlighted (in red ink) and detailed. The
 user can navigate between the (potentially numerous) unification
 failures using the left and right arrow keys.
-
-Page last updated by StephanOepen - 2006-03-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

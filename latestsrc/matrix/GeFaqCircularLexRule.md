@@ -20,6 +20,4 @@ applications (the value of **maximal-lex-rule-applications** set in
 lkb/globals.lsp). This value can be changed by editing that file.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-08-14
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -236,6 +236,4 @@ For **debian** and derivatives this means:
 rather than:
 
     apt-get install sudo apt-get install libxerces25 
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

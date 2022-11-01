@@ -153,6 +153,4 @@ on X.
     #
     parameter text-plain-font #F[sazanami 12 roman black]
     parameter text-active-font #F[sazanami 12 roman black]
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

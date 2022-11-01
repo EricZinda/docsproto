@@ -25,6 +25,4 @@ chart wil be.
 chart?](../GeFaqMissingHowTo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-08-15
-{% endraw %}
+<update date omitted for speed>{% endraw %}

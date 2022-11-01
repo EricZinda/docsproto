@@ -140,6 +140,4 @@ Emily: That raises a second constraint that the algebra codifies:
 monotonicity. So even if we have to go down the slippery slope of
 allowing more things in HOOK, we still have the constraint of
 monotonicity.
-
-Page last updated by EmilyBender - 2016-01-22
-{% endraw %}
+<update date omitted for speed>{% endraw %}

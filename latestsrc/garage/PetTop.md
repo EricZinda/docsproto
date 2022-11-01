@@ -211,6 +211,4 @@ mapping](https://blog.inductorsoftware.com/docsproto/tools/ChartMapping) and the
 ## To cite
 
 Callmeier, Ulrich. "Efficient parsing with large-scale unification grammars." PhD diss., Master’s thesis, Universität des Saarlandes, Saarbrücken, Germany, 2001.
-
-Page last updated by Alexandre Rademaker - 2021-06-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

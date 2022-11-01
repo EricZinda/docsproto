@@ -514,6 +514,4 @@ my ford.* --- would have a caps difference. I don't either of those are
 proper names. I think it's a common noun convenitally always spelled
 with a capital letter. There are common nouns where it's always a
 capital letter and it does sense disambiguation.
-
-Page last updated by EmilyBender - 2014-07-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

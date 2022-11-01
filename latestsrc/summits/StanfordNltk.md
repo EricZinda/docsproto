@@ -164,6 +164,4 @@ does someone write a chapter?
 structures, etc.
 - Francis: it's more closed than that
 - Mike: are we good then?
-
-Page last updated by StephanOepen - 2016-06-24
-{% endraw %}
+<update date omitted for speed>{% endraw %}

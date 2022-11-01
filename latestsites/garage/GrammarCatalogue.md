@@ -595,6 +595,4 @@ Then change this line in create-catalogue-entry.sh:
 to this:
 
      grammar_metrics=$(mktemp -p ./)
-
-Page last updated by Olga Zamaraeva - 2022-07-26
-{% endraw %}
+<update date omitted for speed>{% endraw %}

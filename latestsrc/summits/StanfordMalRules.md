@@ -329,6 +329,4 @@ FCB:
 - We should list this down as an SIG.
 
 (SIG topic proposed)
-
-Page last updated by WenjieWang - 2016-06-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

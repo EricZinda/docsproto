@@ -142,6 +142,4 @@ list](http://lists.emmtee.net/mailman/listinfo/logon) for the LOGON
 tree. For additional questions, please feel free to contact Stephan
 Oepen (oe *at* ifi.uio.no), the technical manager for the original
 Norwegian LOGON consortium.
-
-Page last updated by EricZinda - 2022-09-08
-{% endraw %}
+<update date omitted for speed>{% endraw %}

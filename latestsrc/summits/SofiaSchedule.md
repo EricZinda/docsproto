@@ -162,6 +162,4 @@ Kiril, Francis, bec)
 woodley, yi, jonathon, angelina, Francis) \[friday early afternoon\]
 - \[4\] (Pretty) Small Group: Next Steps in Experimentation with ERG
 (Super)Tagging (bec, oe, dan, angelina) \[friday afternoon\]
-
-Page last updated by FrancisBond - 2012-07-12
-{% endraw %}
+<update date omitted for speed>{% endraw %}

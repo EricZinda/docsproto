@@ -261,6 +261,4 @@ address = {Stanford, CA},\
 publisher = {CSLI Publications},\
 year = {2012}\
 }
-
-Page last updated by GuyEmerson - 2018-05-07
-{% endraw %}
+<update date omitted for speed>{% endraw %}

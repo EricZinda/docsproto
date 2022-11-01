@@ -147,6 +147,4 @@ be mapped. You’d be able to “just run it.” A live API for this would be
 more compelling than “just a file format.”
 
 Moderator-Tim: conclude.
-
-Page last updated by EmilyBender - 2014-07-16
-{% endraw %}
+<update date omitted for speed>{% endraw %}

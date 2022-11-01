@@ -64,6 +64,4 @@ current state of the art in language technology, with the goal of
 offering itself to support the largest possible range of language
 technology applications. The grammar can be obtained from
 <http://www.coli.uni-saarland.de/~tania/rrg/>.
-
-Page last updated by TaniaAvgustinova - 2012-11-16
-{% endraw %}
+<update date omitted for speed>{% endraw %}

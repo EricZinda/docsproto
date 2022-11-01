@@ -53,6 +53,4 @@ dependent are the phenomena captures in the sentences?
 5. users can edit a sentence. See
 <https://tatoeba.org/eng/sentences/show/2638181> that was edited to
 'Abrams bet Browne a cigarette that it had rained.'
-
-Page last updated by AlexandreRademaker - 2020-06-10
-{% endraw %}
+<update date omitted for speed>{% endraw %}

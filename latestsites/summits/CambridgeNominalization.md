@@ -265,6 +265,4 @@ AAC: I’m not sure it will break. Just a suspicion.
 DI: I’ve tried something like this. It works. It scopes.
 
 EMB: We’re done. Thanks.
-
-Page last updated by EmilyBender - 2019-07-24
-{% endraw %}
+<update date omitted for speed>{% endraw %}

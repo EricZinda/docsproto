@@ -362,6 +362,4 @@ Guy: But at least you can't reply with just a *yes* or *no*.
 Emily: What does the typological literature call this?
 
 Olga: Constituent questions, or information questions.
-
-Page last updated by GlennSlayden - 2018-06-19
-{% endraw %}
+<update date omitted for speed>{% endraw %}

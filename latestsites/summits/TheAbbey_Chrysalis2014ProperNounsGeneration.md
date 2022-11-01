@@ -746,6 +746,4 @@ Woodley: At least if it's top-level coordination, but what about
 Secretaries of State and War?
 
 Emily: We already have to do something special for those.
-
-Page last updated by EmilyBender - 2014-02-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

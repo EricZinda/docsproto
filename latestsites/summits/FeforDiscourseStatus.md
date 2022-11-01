@@ -48,6 +48,4 @@ relations?
 
 Emily might make a first attempt at adapting the proposal of Borthen and
 Haugereid 2005 and including it in the Matrix.
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -111,6 +111,4 @@ wouldn't melt in its mouth.* Negation is only part of the one clause,
 not both.
 
 \[ Bracketing this for now. \]
-
-Page last updated by StephanOepen - 2014-02-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

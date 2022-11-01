@@ -17,6 +17,4 @@ type?](../GeFaqViewType)
 - [How do I do interactive unification?](../GeFaqInteractiveUnify)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-09-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -13,6 +13,4 @@ predicative)</span> Done! by
 - Relative clauses
 - Clausal complements
 - Raising and control
-
-Page last updated by TJTrimble - 2014-12-15
-{% endraw %}
+<update date omitted for speed>{% endraw %}
