@@ -63,8 +63,8 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
 
         workingDirectory = os.path.dirname(src_file_path)
         # TODO: would running the whole list at once be more efficient? cat filelist.txt | while read filename; do echo "$filename $(git log -s -n1 --pretty='tformat:%an - %cs' $filename)"; done
-        result = subprocess.check_output([f"git log -s -n1 --pretty='tformat:%an - %cs' {src_file_path}"], cwd=workingDirectory, shell=True).decode("utf-8")
-        final = "\nPage last updated by " + result.strip() + (f"([edit]({link}))" if link != "" else "")
+        result = subprocess.check_output([f"git log -s -n1 --pretty='tformat:%cs by %an' {src_file_path}"], cwd=workingDirectory, shell=True).decode("utf-8")
+        final = "\nLast update: " + result.strip() + (f" [[edit]({link})]" if link != "" else "")
         # print(f"Source: {src_file_path} {final}")
         return final
 
