@@ -50,4 +50,5 @@
 | 17:00-17:30 | *Wrap up*                                                                                                                                          |                                                   |     |
 | 19:45-22:14 | Vinstra -- Gardemoen                                                                                                                               |                                                   |     |
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

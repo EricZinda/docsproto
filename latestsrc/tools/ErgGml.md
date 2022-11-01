@@ -138,4 +138,5 @@ first and incomplete version 0.1 was presented in Ytrestøl et al.
 moderately refined (for increased readability) as the current version
 1.0 (documented above).
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

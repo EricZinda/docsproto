@@ -70,4 +70,5 @@ year={2021}
 
 The code snapshot corresponding to the dissertation when it was submitted is committed to Github under tag ["Zamaraeva-dissertation"](https://github.com/delph-in/matrix/releases/tag/Zamaraeva-dissertation).
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

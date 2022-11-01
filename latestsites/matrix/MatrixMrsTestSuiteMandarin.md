@@ -111,4 +111,5 @@
 | 1061    | 别 哭 ！                                    | Don't cry!                                    |             |     |
 | 1071    | 狗 哭 着 到 了                              | The dog arrived crying.                       |             |     |
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

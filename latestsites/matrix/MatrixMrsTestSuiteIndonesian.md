@@ -179,4 +179,5 @@ Moeljadi (<http://compling.hss.ntu.edu.sg/who/david/>).
 | 1071    | Anjing itu datang menggonggong.                             | The dog arrived barking.                 |             |     |
 | 1072    | Anjingnya datang menggonggong.                              | The dog arrived barking.                 |             |     |
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

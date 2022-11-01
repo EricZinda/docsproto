@@ -87,4 +87,5 @@ The conversion from character positions to character points is simple:
 CFROM values are the same, to convert a CTO character position to
 character point you must add 1.
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

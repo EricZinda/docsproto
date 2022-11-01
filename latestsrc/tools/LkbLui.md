@@ -181,4 +181,5 @@ Change "no" to "yes", save and exit the editor, then restart
 
 LUI should then run fine. Thanks to Stephan Oepen for finding the fix at http://bugs.launchpad.net/ubuntu/+source/eglibc/+bug/574726
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

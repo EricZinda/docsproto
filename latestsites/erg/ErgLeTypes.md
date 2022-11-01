@@ -80,4 +80,5 @@ the ERG (currently "1214"), along with examples from manually-annotated
 treebanks, can be found
 [here.](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi)
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

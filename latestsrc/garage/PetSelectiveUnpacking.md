@@ -57,4 +57,5 @@ wide-coverage unification grammar. Proceedings of the Second
 International Joint Conference on Natural Language Processing
 (IJCNLP05), 165--176. Jeju Island, Korea.
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

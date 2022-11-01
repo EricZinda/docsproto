@@ -123,4 +123,5 @@ of the cpu to be started;
 (setf \*process-raw-print-trace-p\* t) will make the print-out while
 going through a test run look nicer.
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}

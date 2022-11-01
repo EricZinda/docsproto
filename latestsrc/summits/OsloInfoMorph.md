@@ -96,4 +96,5 @@ MG: one rule can satisfy any number of requirements
 BC: accumulation or any fusion would quality for that. common property
 of any inflectional systems, even in agglutinating langs.
 
-_Last updated: _{% endraw %}
+_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+_{% endraw %}
