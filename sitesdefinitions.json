@@ -22,7 +22,9 @@
   "Pages":
   {
     "howto": [
+      {"Section": "DELPH-IN", "Pages": [
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"}
+      ]}
     ],
     "home": [
       {"Section": "DELPH-IN", "Pages": [

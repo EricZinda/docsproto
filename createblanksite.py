@@ -9,8 +9,8 @@ script_path = os.path.dirname(os.path.realpath(__file__))
 def create_blank_sites(root_address, latest_src_path, latest_sites_path, site_definitions):
     reset_sites(latest_src_path, latest_sites_path)
     navigation_content = generate_shared_navigation(root_address, site_definitions)
+    pages = site_definitions["Pages"]
     for site in site_definitions["Sites"]:
-        pages = site_definitions["Pages"]
         create_blank_site(site, root_address, site["Site"], pages, latest_src_path, navigation_content)
 
 
