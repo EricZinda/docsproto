@@ -134,6 +134,4 @@ Emily: And we did a tutorial at HPSG this summer. Slides on the web.
 Francis: The goal of external accessibility is important. Packaging is
 importnat. Grammars should be easier to use. We need different tasks to
 invite linguists vs. engineers. Our grammars should be easier to use.
-
-Page last updated by StephanOepen - 2017-08-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

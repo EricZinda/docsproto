@@ -223,6 +223,4 @@ WP: Would you like something like FEAT &lt; value, value, value &gt; =
 \[nn\] (+) \[mm\]?
 
 EB: That would be nice :slightly\_smiling\_face:
-
-Page last updated by GuyEmerson - 2020-01-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

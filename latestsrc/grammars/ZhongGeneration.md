@@ -168,6 +168,4 @@ clause).
     non-aspect-lex := aspect-lex-rule &
      [ SYNSEM.LOCAL [ CAT.MC +,
                       CONT.HOOK.INDEX.E.ASPECT non-aspect ] ].
-
-Page last updated by SanghounSong - 2014-09-11
-{% endraw %}
+<update date omitted for speed>{% endraw %}

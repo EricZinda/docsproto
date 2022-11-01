@@ -15,6 +15,4 @@ Copestake, A. (2009). [Slacker semantics: Why superficiality, dependency
 and avoidance of commitment can be the right way to
 go](http://www.aclweb.org/anthology/E09-1001.pdf). *Conference of the
 European Chapter of the ACL*, (pp. 1-9). Athens.
-
-Page last updated by Alexandre Rademaker - 2021-09-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

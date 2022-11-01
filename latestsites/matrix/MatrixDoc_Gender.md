@@ -204,6 +204,4 @@ title = {Widespread but Not Universal: Improving the Typological
 Coverage of the {G}rammar {M}atrix},\
 school = {University of Washington}\
 }
-
-Page last updated by VaryaGracheva - 2013-03-01
-{% endraw %}
+<update date omitted for speed>{% endraw %}

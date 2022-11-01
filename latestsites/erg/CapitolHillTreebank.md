@@ -595,6 +595,4 @@ Woodley: nothing stopping you, no.
      [ success ]
     [191]   {12 decisions}  UCSTAT: input 24 edges, output 11 edges
     {11 edges}      {1 / 4 trees active}
-
-Page last updated by SanghounSong - 2017-01-05
-{% endraw %}
+<update date omitted for speed>{% endraw %}

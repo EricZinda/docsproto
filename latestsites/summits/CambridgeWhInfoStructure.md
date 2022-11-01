@@ -90,6 +90,4 @@ EB: None of this looks relevant to your work.
 GE: But parasitic gaps are the kind of thing HPSG would be good at.
 
 EB: Yes, fun to show off :slightly\_smiling\_face:
-
-Page last updated by EmilyBender - 2019-07-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -173,6 +173,4 @@ I would welcome a freely redistributable corpus of tourism-related
 texts, but am slightly skeptical of our chances of finding a collection
 including Catalan, Norwegian and Korean, even without worrying about
 licenses.
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -114,6 +114,4 @@ with causative *faire* and "clitic trapping".
 Currently no analysis for any cases of clitic doubling.
 
 ## Modern Greek
-
-Page last updated by JesseTseng - 2006-07-11
-{% endraw %}
+<update date omitted for speed>{% endraw %}

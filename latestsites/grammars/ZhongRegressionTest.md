@@ -74,6 +74,4 @@ can run the following under zhong/cmn/zhs.
     $ art -a "ace -g zhs.dat" tsdb/gold/YOUR_NEW_PROFILE
 
 Finally, don't forget submitting your new profile into the repository.
-
-Page last updated by SanghounSong - 2015-03-19
-{% endraw %}
+<update date omitted for speed>{% endraw %}

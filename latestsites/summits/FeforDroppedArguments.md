@@ -90,6 +90,4 @@ morphological reflex of pro-drop?
 A final worry: How does this affect the MRS to RMRS conversion?
 
 See also [FeforPng](../FeforPng).
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

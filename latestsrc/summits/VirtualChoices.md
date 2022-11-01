@@ -417,6 +417,4 @@ T.J.: where we mark what’s required in multiple places, so serializing
 only what’s required would create a dependency again.
 
 Appreciation all around!
-
-Page last updated by EmilyBender - 2020-07-14
-{% endraw %}
+<update date omitted for speed>{% endraw %}

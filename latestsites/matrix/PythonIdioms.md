@@ -88,6 +88,4 @@ object:
    2   def func(self, x=None):
    3     self.x = x or []
 ```
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

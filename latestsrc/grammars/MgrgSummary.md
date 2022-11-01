@@ -42,6 +42,4 @@
 | Processing engines         | [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)    |
 | Operating systems          | Linux/Windows    |
 | Notes                      |                  |
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

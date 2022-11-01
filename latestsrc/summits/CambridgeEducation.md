@@ -129,6 +129,4 @@ David: it depends on how different the languages are.
 
 Francis: we had an issue with ungrammaticality which we needed to do
 something about.
-
-Page last updated by FrancisBond - 2019-07-16
-{% endraw %}
+<update date omitted for speed>{% endraw %}

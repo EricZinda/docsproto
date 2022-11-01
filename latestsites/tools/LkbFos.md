@@ -266,6 +266,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 [DELPH-IN Discourse](https://delphinqa.ling.washington.edu/about) to see if
 a solution has already been posted there; if it hasn't then create a new topic.
 
-
-Page last updated by John Carroll - 2022-07-04
-{% endraw %}
+<update date omitted for speed>{% endraw %}

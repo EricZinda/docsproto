@@ -106,6 +106,4 @@ is the number of SIG sessions they will be attending.
 this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
-
-Page last updated by emilymbender - 2022-07-19
-{% endraw %}
+<update date omitted for speed>{% endraw %}

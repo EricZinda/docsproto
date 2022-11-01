@@ -53,6 +53,4 @@ This information can also be found in Documentation/transitivity.
   - <http://nlp.kuee.kyoto-u.ac.jp/nl-resource/caseframe.html>
 - 日本語構文辞典 (日本語語彙大系)
   - <http://www.kecl.ntt.co.jp/mtg/resources/GoiTaikei/>
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

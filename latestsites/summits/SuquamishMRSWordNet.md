@@ -378,6 +378,4 @@ Stephan; Should not be insurmountable, but the benefits weren't
 dramatic.
 
 Francis: But we didn't do all the experiments because it was slow.
-
-Page last updated by LilingTan - 2012-07-24
-{% endraw %}
+<update date omitted for speed>{% endraw %}

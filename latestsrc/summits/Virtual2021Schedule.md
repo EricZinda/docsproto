@@ -121,6 +121,4 @@
 | 14:15-14:45| | Business meeting | Chair: John |
 | 14:45-15:00| | Closing remarks | Dan and Olga |
 | 15:00-15:30| |**Social in gathertown** |  |
-
-Page last updated by Olga Zamaraeva - 2021-07-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

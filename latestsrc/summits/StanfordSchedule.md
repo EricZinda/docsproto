@@ -142,6 +142,4 @@ Constructions ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools
 - **Jacy Book** Jacy the book (Closed SIG:
 [MelanieSiegel](/MelanieSiegel), [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender),
 [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
-
-Page last updated by MichaelGoodman - 2016-07-06
-{% endraw %}
+<update date omitted for speed>{% endraw %}

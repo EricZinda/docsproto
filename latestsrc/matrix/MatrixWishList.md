@@ -13,6 +13,4 @@ everything filled out. Something like an extra button with "Insert
 sample choices for Japanese" (or possibly even some other language).
 This would allow people to play with a sample grammar without having
 to fill out several pages of forms.
-
-Page last updated by FrancisBond - 2007-05-02
-{% endraw %}
+<update date omitted for speed>{% endraw %}

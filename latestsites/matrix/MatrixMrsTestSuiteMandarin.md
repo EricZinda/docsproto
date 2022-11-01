@@ -110,6 +110,4 @@
 | 1051    | 李四 试 过 了 。                            | Lisi tried.                                   |             |     |
 | 1061    | 别 哭 ！                                    | Don't cry!                                    |             |     |
 | 1071    | 狗 哭 着 到 了                              | The dog arrived crying.                       |             |     |
-
-Page last updated by SanghounSong - 2015-04-15
-{% endraw %}
+<update date omitted for speed>{% endraw %}

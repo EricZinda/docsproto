@@ -57,6 +57,4 @@ NEs in ERS, vs. the (heavy-handed) one in AMR:
 - svn to [GitHub](/GitHub):
 <https://docs.github.com/en/github/importing-your-projects-to-github/support-for-subversion-clients>
 - HPSG 2020: <https://hpsg.hu-berlin.de/hpsg2020/>
-
-Page last updated by EmilyBender - 2020-07-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

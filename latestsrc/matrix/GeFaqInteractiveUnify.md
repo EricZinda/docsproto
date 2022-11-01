@@ -40,6 +40,4 @@ point at which the two feature structures didn't unify (there may be
 more). This information should be useful for debugging.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-09-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -142,6 +142,4 @@ output.
     PERF : PERF
       + >> +
       * >> !
-
-Page last updated by MichaelGoodman - 2017-04-24
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -12,6 +12,4 @@ people repeat themselves).
 - Start planning of sessions sufficiently early, so that there is a
 first draft ready when people have to start planning trips. This
 also helps for people to argue for funding.
-
-Page last updated by AnetteFrank - 2006-06-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

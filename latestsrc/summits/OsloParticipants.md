@@ -92,6 +92,4 @@ time; Enjoy this event!)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
-
-Page last updated by BertholdCrysmann - 2017-08-03
-{% endraw %}
+<update date omitted for speed>{% endraw %}

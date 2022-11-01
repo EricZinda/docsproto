@@ -292,6 +292,4 @@ extraction
 Dan: but this is no-longer a self-help approach. Are there comments that
 some of you have been holding back as illuminating conclusions? No? Ok
 let’s go eat.
-
-Page last updated by TJTrimble - 2014-10-15
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -94,6 +94,4 @@ Summit](../CambridgeTop)
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Mon-Fri)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-
-Page last updated by BrunoCuconato - 2019-07-18
-{% endraw %}
+<update date omitted for speed>{% endraw %}

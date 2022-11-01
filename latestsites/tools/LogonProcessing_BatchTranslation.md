@@ -295,6 +295,4 @@ with less than, say, six gbytes of main memory. In order to use
 parallelization of batch processing (e.g. using the --count switch to
 the batch script), twelve or more gbytes of RAM and at least two cpus
 should be available.
-
-Page last updated by StephanOepen - 2008-11-30
-{% endraw %}
+<update date omitted for speed>{% endraw %}

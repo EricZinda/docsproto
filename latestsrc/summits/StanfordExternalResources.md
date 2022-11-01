@@ -83,6 +83,4 @@ frame+ROLE).
 
 (if you attended this session and remember more details, please feel
 free to edit the page; thanks!)
-
-Page last updated by MichaelGoodman - 2016-07-06
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -56,6 +56,4 @@ of the North American Chapter of the ACL, 162--169. Seattle, WA.
 wide-coverage unification grammar. Proceedings of the Second
 International Joint Conference on Natural Language Processing
 (IJCNLP05), 165--176. Jeju Island, Korea.
-
-Page last updated by YiZhang - 2007-01-26
-{% endraw %}
+<update date omitted for speed>{% endraw %}

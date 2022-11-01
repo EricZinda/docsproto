@@ -83,6 +83,4 @@
      n := nasal-cons.
      ɲ := nasal-cons.
      ŋ := nasal-cons.
-
-Page last updated by JesseTseng - 2007-08-21
-{% endraw %}
+<update date omitted for speed>{% endraw %}

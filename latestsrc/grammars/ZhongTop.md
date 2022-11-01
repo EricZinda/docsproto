@@ -106,6 +106,4 @@ This grammar was supported in part by:
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-
-Page last updated by Francis Bond - 2022-04-26
-{% endraw %}
+<update date omitted for speed>{% endraw %}

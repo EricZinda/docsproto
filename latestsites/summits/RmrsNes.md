@@ -327,6 +327,4 @@ position of compounds: *a University of Washington professor* If the
 post-modification/complementation when creating the named entity phrase,
 it could make these systematically eligible for that position, on the
 named entity reading.
-
-Page last updated by EmilyBender - 2013-02-28
-{% endraw %}
+<update date omitted for speed>{% endraw %}

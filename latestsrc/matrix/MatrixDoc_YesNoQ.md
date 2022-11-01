@@ -207,6 +207,4 @@ Conference on Natural Language Processing IJCNLP-05
 (Posters/Demos)},\
 location = {Jeju Island, Korea}\
 }
-
-Page last updated by Olga Zamaraeva - 2021-11-16
-{% endraw %}
+<update date omitted for speed>{% endraw %}

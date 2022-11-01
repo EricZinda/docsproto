@@ -122,6 +122,4 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 ## July 6
 
 See [ParisOpen](../ParisOpen)
-
-Page last updated by GlennSlayden - 2015-10-30
-{% endraw %}
+<update date omitted for speed>{% endraw %}

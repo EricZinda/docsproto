@@ -708,6 +708,4 @@ something more complicated…
 
 Ann: The mutual selection would be a problem for me, even if there
 wasn't a SLASH involved.
-
-Page last updated by EmilyBender - 2016-06-21
-{% endraw %}
+<update date omitted for speed>{% endraw %}

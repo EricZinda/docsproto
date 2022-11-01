@@ -82,6 +82,4 @@ not applicable.
 # References
 
 not applicable.
-
-Page last updated by GlennSlayden - 2018-02-01
-{% endraw %}
+<update date omitted for speed>{% endraw %}

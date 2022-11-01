@@ -253,6 +253,4 @@ involve other people in coming up with a uniform solution, rather than
 implementing your own solution that others have to deal with.
 
 \*\*applause\*\*
-
-Page last updated by EmilyBender - 2015-08-10
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -130,6 +130,4 @@ To see examples of constituency representation extracted with this tool
 and how a treebank extracted with its help looks like, you may want to
 check the online search service over our CINTIL-Treebank, which is found
 [here](http://lxcenter.di.fc.ul.pt/services/en/LXServicesSearcher.html).
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

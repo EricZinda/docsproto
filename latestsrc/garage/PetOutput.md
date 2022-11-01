@@ -7,6 +7,4 @@ STDERR, an example is given below:
     cat input.text | cheap -limit=10000 -mrs=xml japanese.grm &> output.xml
 
 To get more output, increase the verbosity.
-
-Page last updated by AlexandreRademaker - 2019-03-15
-{% endraw %}
+<update date omitted for speed>{% endraw %}

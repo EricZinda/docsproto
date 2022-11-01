@@ -209,6 +209,4 @@ title = {Widespread but Not Universal: Improving the Typological
 Coverage of the {G}rammar {M}atrix},\
 school = {University of Washington}\
 }
-
-Page last updated by Olga Zamaraeva - 2021-06-04
-{% endraw %}
+<update date omitted for speed>{% endraw %}

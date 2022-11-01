@@ -46,6 +46,4 @@ something big enough for the grammar to parse your sentences with (e.g.
 4000 edges)!
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by EmilyBender - 2016-02-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

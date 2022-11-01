@@ -169,6 +169,4 @@ of the dependency used to create them.
                         /vmrs/0
                         /omrs/
                         /imrs/0/
-
-Page last updated by EmilyBender - 2017-01-24
-{% endraw %}
+<update date omitted for speed>{% endraw %}

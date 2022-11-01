@@ -162,6 +162,4 @@ files) \[Chris\]
 - SIG: educational applications \[Olga,
 [CambridgeEducation](../CambridgeEducation)\]
 - SIG: parsing efficiency \[Woodley\]
-
-Page last updated by EmilyBender - 2020-07-28
-{% endraw %}
+<update date omitted for speed>{% endraw %}

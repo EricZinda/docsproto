@@ -38,6 +38,4 @@ nominalization, there will be a verby constituent which will then be
 turned into something nouny; in contrast, with "low" nominalization, the
 verb is turned into something nouny and then a nouny constituent is
 formed with its arguments.
-
-Page last updated by StephanOepen - 2018-05-10
-{% endraw %}
+<update date omitted for speed>{% endraw %}

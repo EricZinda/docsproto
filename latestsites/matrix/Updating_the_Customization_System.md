@@ -221,6 +221,4 @@ fine)
 
 -- You should see the debugger attach successfully and should be able to
 set breakpoints and step through the execution.
-
-Page last updated by Olga Zamaraeva - 2021-06-07
-{% endraw %}
+<update date omitted for speed>{% endraw %}

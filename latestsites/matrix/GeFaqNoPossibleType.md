@@ -26,6 +26,4 @@ occuring. &lt;&gt; is the empty path, i.e., the outermost pair of square
 brackets.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-08-14
-{% endraw %}
+<update date omitted for speed>{% endraw %}

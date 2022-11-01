@@ -4,6 +4,4 @@
 \* Full coverage of
 [MatrixMrsTestSuiteMandarin](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteMandarin)  
 
-
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

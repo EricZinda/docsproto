@@ -104,6 +104,4 @@ but hope to Skype in.
 - [AnnieZaenen](/AnnieZaenen) - yes
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) - June 16-20
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
-
-Page last updated by GlennSlayden - 2016-06-16
-{% endraw %}
+<update date omitted for speed>{% endraw %}

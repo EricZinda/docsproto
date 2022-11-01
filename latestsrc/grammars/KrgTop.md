@@ -28,6 +28,4 @@ Korean sentences. This script will operate the pre-processor for
 parsing and generation.
 - lkb/test: If you want to test each grammar module with a small size
 of lexicon, please take this.
-
-Page last updated by FrancisBond - 2011-10-10
-{% endraw %}
+<update date omitted for speed>{% endraw %}

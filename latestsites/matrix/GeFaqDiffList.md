@@ -58,6 +58,4 @@ and how do I debug it?](GeFaqCyclicCheck)
 whole parse. Why not?](../GeFaqMissingRels)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Page last updated by NedLetcher - 2012-08-23
-{% endraw %}
+<update date omitted for speed>{% endraw %}

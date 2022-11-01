@@ -227,6 +227,4 @@ is important as a pseudointerlingua
 Emily: Does NTU want to take this on?
 
 Francis: Noone said that! :slightly\_smiling\_face:
-
-Page last updated by StephanOepen - 2015-08-12
-{% endraw %}
+<update date omitted for speed>{% endraw %}

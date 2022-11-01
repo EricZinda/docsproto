@@ -30,6 +30,4 @@ with no parse?
 ## Done
 
 - Include the port as a command line argument (FCB)
-
-Page last updated by FrancisBond - 2020-07-16
-{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -270,6 +270,4 @@ DMRS composition weaker than the MRS algebra.
 Dan: In order to get these through?
 
 Ann: No, just a consequence of how I set it up.
-
-Page last updated by GuyEmerson - 2018-06-27
-{% endraw %}
+<update date omitted for speed>{% endraw %}

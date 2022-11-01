@@ -102,6 +102,4 @@ notes)](../TheAbbey_Chrysalis2014PossessiveIdioms)
 verbs](../TheAbbey_Chrysalis2014Nominalization)
 - [Nominalization II: Deverbal
 nouns](../TheAbbey_Chrysalis2014DeverbalNouns)
-
-Page last updated by EmilyBender - 2014-02-20
-{% endraw %}
+<update date omitted for speed>{% endraw %}

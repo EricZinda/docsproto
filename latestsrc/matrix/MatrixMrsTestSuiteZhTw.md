@@ -215,6 +215,4 @@
     1061 Don't bark!
           不要叫
     1071 The dog arrived barking.
-
-Page last updated by MichaelGoodman - 2009-03-20
-{% endraw %}
+<update date omitted for speed>{% endraw %}

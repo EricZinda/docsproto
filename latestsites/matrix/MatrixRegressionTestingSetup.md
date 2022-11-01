@@ -139,6 +139,4 @@ example). You can also override the default to use a different
 customization system installation, either by using the -C argument (e.g.
 python matrix.py -C gmcs/ r) or by setting the CUSTOMIZATIONROOT
 environment variable.
-
-Page last updated by KristenHowell - 2019-10-17
-{% endraw %}
+<update date omitted for speed>{% endraw %}

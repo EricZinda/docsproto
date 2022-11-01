@@ -43,6 +43,4 @@ The symlinking technique did not work with libpng, but luckily the right
 version was in the standard repositories:
 
 sudo pacman -S libpng12
-
-Page last updated by MichaelGoodman - 2013-03-09
-{% endraw %}
+<update date omitted for speed>{% endraw %}

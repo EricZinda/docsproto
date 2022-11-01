@@ -178,6 +178,4 @@ Moeljadi (<http://compling.hss.ntu.edu.sg/who/david/>).
 | 1062    | Janganlah menggonggong!                                     | Don’t bark!                              |             |     |
 | 1071    | Anjing itu datang menggonggong.                             | The dog arrived barking.                 |             |     |
 | 1072    | Anjingnya datang menggonggong.                              | The dog arrived barking.                 |             |     |
-
-Page last updated by DavidMoeljadi - 2014-11-12
-{% endraw %}
+<update date omitted for speed>{% endraw %}

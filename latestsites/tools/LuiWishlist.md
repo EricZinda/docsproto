@@ -53,6 +53,4 @@ version becomes mainstream
 - 2006-06-25 Display of fs for lexical entries.
 (lkb::show-word-aux-tty "鬼" nil) **Done:** 2009-10-13 (actually
 earlier by OE, FCB)
-
-Page last updated by GuyEmerson - 2017-07-31
-{% endraw %}
+<update date omitted for speed>{% endraw %}
