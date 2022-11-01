@@ -11,7 +11,7 @@ DELPH-IN.
 # 2017 Site Update
 
 Continuous, if sometimes low-energy: [ERG Semantic
-Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics); [MRS-derived dependencies](https://blog.inductorsoftware.com/docsproto/concept/EdsTop) (in
+Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics); [MRS-derived dependencies](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) (in
 2017 so far, [SDP](http://sdp.delph-in.net) about as popular as the
 PCEDT; four papers and one keynote at ACL use ERG-based dependencies);
 1214 [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) release imminent: new, ‘atomic’ export
@@ -149,7 +149,7 @@ of the [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) C
 shortcomings in the (somewhat ad-hoc and overly surface-orientated)
 original procedure used in the construction of [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods)
 1.0. A side-effect of this project is an updated definition of the
-[Grammar Markup Language](https://blog.inductorsoftware.com/docsproto/concept/ErgGml), an attempt at allowing non-intrusive
+[Grammar Markup Language](https://blog.inductorsoftware.com/docsproto/tools/ErgGml), an attempt at allowing non-intrusive
 in-line mark-up of layout information that may be relevant to parsing.
 
 In another recently completed MSc thesis, [Fares

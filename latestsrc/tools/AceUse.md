@@ -66,7 +66,7 @@ These refer to (FCB thinks):
 ### YY input mode
 
 The YY input mode (see the corresponding section in
-[PetInput](../PetInput)) allows you to pass information such as POS tags.
+[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)) allows you to pass information such as POS tags.
 
     cat yy.txt | ace -g erg1214.dat -y
 

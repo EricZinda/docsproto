@@ -1,0 +1,590 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/garage/PetInputFsc/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/garage/PetInputFsc/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/garage/"><img src="/docsproto/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docsproto/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/PetTop">Overview</a></li>
+          
+            <li><a href="/docsproto/garage/PetDependencies">Dependencies</a></li>
+          
+            <li><a href="/docsproto/garage/PetEclipse">Eclipse</a></li>
+          
+            <li><a href="/docsproto/garage/PetRoadMap">RoadMap</a></li>
+          
+            <li><a href="/docsproto/garage/PetInput">Input</a></li>
+          
+            <li><a href="/docsproto/garage/ReppPet">ReppPet</a></li>
+          
+            <li><a href="/docsproto/garage/PetOutput">Output</a></li>
+          
+            <li><a href="/docsproto/garage/PetOptions">Options</a></li>
+          
+            <li><a href="/docsproto/garage/PetParameters">Parameters</a></li>
+          
+            <li><a href="/docsproto/garage/PetSelectiveUnpacking">Selective Unpacking</a></li>
+          
+            <li><a href="/docsproto/garage/PetInputFsc">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docsproto/garage/PetInputChart">Input Chart</a></li>
+          
+            <li><a href="/docsproto/garage/PetLogging">Logging</a></li>
+          
+            <li><a href="/docsproto/garage/PetRobustness">Robustness</a></li>
+          
+            <li><a href="/docsproto/garage/FeforPetApi">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Misc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/AgreeTop">Agree</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="overview">Overview</h1>
+
+<p>The <em>Feature Structure Chart</em> (FSC) format is an XML-based input format
+for the cheap parser (see the <a href="../PetInput">PetInput</a> page for background).
+It is well suited as a replacement for scenarios where PIC
+(<a href="../PetInputChart">PetInputChart</a>) or SMAF (<a href="https://blog.inductorsoftware.com/docsproto/tools/SmafTop">SmafTop</a>) are used.</p>
+
+<p>An FSC document describes the initial chart of the parser, which is a
+lattice of tokens. Vertices in the lattice represent token boundaries
+and edges represent tokens. Tokens are only described by feature
+structures, which can be arbitrarily structured, though. The only
+requirement for successful processing is that the types for these
+feature structures are all defined and that the grammar knows where to
+retrieve the form of a token (defined in the settings).</p>
+
+<p>If the grammar is set up to unify token feature structures into the
+feature structure of words (as, e.g., the ERG), it is possible to
+“inject” annotations of external tools into the parser. Combined with
+chart mapping and the unknown word handling mechanism on top of token
+feature structures (see <a href="../PetInput">PetInput</a>), it is thus possible to
+trigger the instantiation of generic lexical entries upon external
+annotation and shape the search space of the parser. The FSC format is
+at present the only format that allows the user to provide external
+annotation beyond part-of-speech tags.</p>
+
+<h1 id="example">Example</h1>
+
+<p>Example call:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cat input.fsc | cheap -tok=fsc -default-les=all -cm -packing -mrs -results=1 english.grm
+</code></pre></div></div>
+
+<p>Example file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?xml version='1.0' encoding='utf-8'?&gt;
+&lt;fsc version="1.0"&gt;
+  &lt;chart id="fsc-test"&gt;
+    &lt;text&gt;The dog chases the orc.&lt;/text&gt;
+    &lt;lattice init="v0" final="v6"&gt;
+      &lt;edge source="v0" target="v1"&gt;
+        &lt;fs type="token"&gt;
+          &lt;f name="+FORM"&gt;&lt;str&gt;The&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+FROM"&gt;&lt;str&gt;0&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TO"&gt;&lt;str&gt;3&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TNT"&gt;
+            &lt;fs type="tnt"&gt;
+              &lt;f name="+TAGS" org="list"&gt;&lt;str&gt;DT&lt;/str&gt;&lt;/f&gt;
+              &lt;f name="+PRBS" org="list"&gt;&lt;str&gt;1.000000e+00&lt;/str&gt;&lt;/f&gt;
+            &lt;/fs&gt;
+          &lt;/f&gt;
+        &lt;/fs&gt;
+      &lt;/edge&gt;
+      &lt;edge source="v1" target="v2"&gt;
+        &lt;fs type="token"&gt;
+          &lt;f name="+FORM"&gt;&lt;str&gt;dog&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+FROM"&gt;&lt;str&gt;4&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TO"&gt;&lt;str&gt;7&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TNT"&gt;
+            &lt;fs type="tnt"&gt;
+              &lt;f name="+TAGS" org="list"&gt;&lt;str&gt;NN&lt;/str&gt;&lt;/f&gt;
+              &lt;f name="+PRBS" org="list"&gt;&lt;str&gt;1.000000e+00&lt;/str&gt;&lt;/f&gt;
+            &lt;/fs&gt;
+          &lt;/f&gt;
+        &lt;/fs&gt;
+      &lt;/edge&gt;
+      &lt;edge source="v2" target="v3"&gt;
+        &lt;fs type="token"&gt;
+          &lt;f name="+FORM"&gt;&lt;str&gt;chases&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+FROM"&gt;&lt;str&gt;8&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TO"&gt;&lt;str&gt;14&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TNT"&gt;
+            &lt;fs type="tnt"&gt;
+              &lt;f name="+TAGS" org="list"&gt;&lt;str&gt;VBZ&lt;/str&gt;&lt;str&gt;NNS&lt;/str&gt;&lt;/f&gt;
+              &lt;f name="+PRBS" org="list"&gt;&lt;str&gt;8.039033e-01&lt;/str&gt;&lt;str&gt;1.960967e-01&lt;/str&gt;&lt;/f&gt;
+            &lt;/fs&gt;
+          &lt;/f&gt;
+        &lt;/fs&gt;
+      &lt;/edge&gt;
+      &lt;edge source="v3" target="v4"&gt;
+        &lt;fs type="token"&gt;
+          &lt;f name="+FORM"&gt;&lt;str&gt;the&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+FROM"&gt;&lt;str&gt;15&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TO"&gt;&lt;str&gt;18&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TNT"&gt;
+            &lt;fs type="tnt"&gt;
+              &lt;f name="+TAGS" org="list"&gt;&lt;str&gt;DT&lt;/str&gt;&lt;/f&gt;
+              &lt;f name="+PRBS" org="list"&gt;&lt;str&gt;1.000000e+00&lt;/str&gt;&lt;/f&gt;
+            &lt;/fs&gt;
+          &lt;/f&gt;
+        &lt;/fs&gt;
+      &lt;/edge&gt;
+      &lt;edge source="v4" target="v5"&gt;
+        &lt;fs type="token"&gt;
+          &lt;f name="+FORM"&gt;&lt;str&gt;orc&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+FROM"&gt;&lt;str&gt;19&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TO"&gt;&lt;str&gt;22&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TNT"&gt;
+            &lt;fs type="tnt"&gt;
+              &lt;f name="+TAGS" org="list"&gt;&lt;str&gt;JJ&lt;/str&gt;&lt;str&gt;NN&lt;/str&gt;&lt;/f&gt;
+              &lt;f name="+PRBS" org="list"&gt;&lt;str&gt;5.297595e-01&lt;/str&gt;&lt;str&gt;4.702405e-01&lt;/str&gt;&lt;/f&gt;
+            &lt;/fs&gt;
+          &lt;/f&gt;
+        &lt;/fs&gt;
+      &lt;/edge&gt;
+      &lt;edge source="v5" target="v6"&gt;
+        &lt;fs type="token"&gt;
+          &lt;f name="+FORM"&gt;&lt;str&gt;.&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+FROM"&gt;&lt;str&gt;22&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TO"&gt;&lt;str&gt;23&lt;/str&gt;&lt;/f&gt;
+          &lt;f name="+TNT"&gt;
+            &lt;fs type="tnt"&gt;
+              &lt;f name="+TAGS" org="list"&gt;&lt;str&gt;.&lt;/str&gt;&lt;/f&gt;
+              &lt;f name="+PRBS" org="list"&gt;&lt;str&gt;1.0&lt;/str&gt;&lt;/f&gt;
+            &lt;/fs&gt;
+          &lt;/f&gt;
+        &lt;/fs&gt;
+      &lt;/edge&gt;
+    &lt;/lattice&gt;
+  &lt;/chart&gt;
+&lt;/fsc&gt;
+</code></pre></div></div>
+
+<h1 id="dtd">DTD</h1>
+
+<p>This is the fsc.dtd:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!ELEMENT fsc ( chart ) &gt;
+&lt;!ATTLIST fsc version NMTOKEN #REQUIRED &gt;
+
+&lt;!ELEMENT chart ( text, lattice ) &gt;
+&lt;!ATTLIST chart id CDATA #REQUIRED &gt;
+
+&lt;!ELEMENT text ( #PCDATA ) &gt;
+
+&lt;!ELEMENT lattice ( edge* ) &gt;
+&lt;!ATTLIST lattice final CDATA #REQUIRED &gt;
+&lt;!ATTLIST lattice init CDATA #REQUIRED &gt;
+
+&lt;!ELEMENT edge ( fs ) &gt;
+&lt;!ATTLIST edge source CDATA #REQUIRED &gt;
+&lt;!ATTLIST edge target CDATA #REQUIRED &gt;
+
+&lt;!ELEMENT fs ( f* ) &gt;
+&lt;!ATTLIST fs type CDATA #REQUIRED &gt;
+
+&lt;!ELEMENT f ( fs | str )* &gt;
+&lt;!ATTLIST f name CDATA #REQUIRED &gt;
+&lt;!ATTLIST f org ( list ) #IMPLIED &gt;
+
+&lt;!ELEMENT str ( #PCDATA ) &gt;
+</code></pre></div></div>
+
+<h1 id="integration">Integration</h1>
+
+<h2 id="incr-tsdb">[incr tsdb()]</h2>
+
+<p>FSC combines well with <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a>,
+as long as the convention “one line = one item” is respected. For
+displaying the correct text during parsing and treebanking with <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a>, the following function should
+be defined:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defun fsc-read-input (string)
+  (let* ((string (string-trim '(#\space #\newline) string))
+         (xml (ignore-errors (s-xml:parse-xml-string string)))
+         (text (second (assoc :|text| (rest (first (rest xml)))))))
+        (or text string)))
+</code></pre></div></div>
+
+<p>This function should be used as a reader in the CPU definition for
+parsing:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>       (make-cpu 
+        :host (short-site-name)
+        :spawn cheap
+        :options (list "-t" "-tsdb" "-tok=fsc" "-packing"
+                       "-cm" "-default-les=all"
+                       "-memlimit=1024" "-timeout=60"
+                       (format nil "~a/lingo/erg/english.grm" root))
+        :reader "tsdb::fsc-read-input"
+        :class :erg+fsc :grammar erg :name "pet"
+        :task '(:parse)  :flags '(:generics t)
+        :wait wait :quantum quantum)
+</code></pre></div></div>
+
+<p>The function should also be called before treebanking:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf (gethash :i-input *statistics-readers*) #'fsc-read-input)
+</code></pre></div></div>
+
+<h2 id="heart-of-gold">Heart of Gold</h2>
+
+<p>The Heart of Gold (<a href="https://blog.inductorsoftware.com/docsproto/tools/HeartofgoldTop">HeartofgoldTop</a>) can be used to
+synthesize token feature structures from several modules. There are
+currently sessions defined for the ERG that combine jTok, TnT, and
+optionally SProUT output into FSC documents.</p>
+
+<h1 id="encoding-issues">Encoding issues</h1>
+
+<p>By default the XML parser used with cheap (libxerces) can handle
+iso-8859-1 and utf-8. To get other encodings, such as euc-jp, you need
+to link the xml parser against the icu libraries.</p>
+
+<p>For <strong>debian</strong> and derivatives this means:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install sudo apt-get install libxercesicu25 icu
+</code></pre></div></div>
+
+<p>rather than:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install sudo apt-get install libxerces25 
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/garage/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

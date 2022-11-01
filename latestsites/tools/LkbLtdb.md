@@ -104,7 +104,7 @@ It is assumed that the name is finished by a newline.
 ## Integration with FFTB and delphin-viz
 
 If you shift-click on a rule or lexical entry in the [Full Forest
-TreeBanker](https://blog.inductorsoftware.com/docsproto/concept/FftbTop)'s unary rules it will take you to the ltdb defined
+TreeBanker](../FftbTop)'s unary rules it will take you to the ltdb defined
 in assets/render.js:
 
     var ltdburl = "https://lr.soh.ntu.edu.sg/~bond/cgi-bin/ERG_mo/search.cgi?typ="

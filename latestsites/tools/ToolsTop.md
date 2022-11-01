@@ -11,11 +11,11 @@ DELPH-IN systems and think might be worth sharing, list it here.
   
   - ACE (the Answer Constraint Engine) is a processor for DELPH-IN
 grammars, supporting both parsing and generation.
-- [Pet](../PetTop) Platform for Experimentation with efficient HPSG
+- [Pet](https://blog.inductorsoftware.com/docsproto/garage/PetTop) Platform for Experimentation with efficient HPSG
 processing Techniques
   
   - An efficient parser for DELPH-IN grammars.
-- ["Agree" grammar engineering environment](../AgreeTop)
+- ["Agree" grammar engineering environment](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop)
 ([GlennSlayden](../GlennSlayden))
   
   - A project to develop a new grammar engineering environment for

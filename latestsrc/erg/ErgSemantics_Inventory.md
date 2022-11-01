@@ -153,7 +153,7 @@ constructions)
 
 # Sources of inspiration
 
-- [ErgSemantics_Raw_Materials](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Raw_Materials) links to discussions and questions answered that could be used to further populate these pages.
+- [ErgSemantics_Raw_Materials](../ErgSemantics_Raw_Materials) links to discussions and questions answered that could be used to further populate these pages.
 
 # More Information
 

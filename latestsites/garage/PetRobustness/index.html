@@ -1,0 +1,518 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/garage/PetRobustness/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/garage/PetRobustness/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/garage/"><img src="/docsproto/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docsproto/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/PetTop">Overview</a></li>
+          
+            <li><a href="/docsproto/garage/PetDependencies">Dependencies</a></li>
+          
+            <li><a href="/docsproto/garage/PetEclipse">Eclipse</a></li>
+          
+            <li><a href="/docsproto/garage/PetRoadMap">RoadMap</a></li>
+          
+            <li><a href="/docsproto/garage/PetInput">Input</a></li>
+          
+            <li><a href="/docsproto/garage/ReppPet">ReppPet</a></li>
+          
+            <li><a href="/docsproto/garage/PetOutput">Output</a></li>
+          
+            <li><a href="/docsproto/garage/PetOptions">Options</a></li>
+          
+            <li><a href="/docsproto/garage/PetParameters">Parameters</a></li>
+          
+            <li><a href="/docsproto/garage/PetSelectiveUnpacking">Selective Unpacking</a></li>
+          
+            <li><a href="/docsproto/garage/PetInputFsc">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docsproto/garage/PetInputChart">Input Chart</a></li>
+          
+            <li><a href="/docsproto/garage/PetLogging">Logging</a></li>
+          
+            <li><a href="/docsproto/garage/PetRobustness">Robustness</a></li>
+          
+            <li><a href="/docsproto/garage/FeforPetApi">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Misc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/AgreeTop">Agree</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Some notes on how to make parsing with Pet more robust.</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="../PetRobustness#Preprocessing">Preprocessing</a>
+    <ol>
+      <li><a href="../PetRobustness#Token_Mapping">Token Mapping</a></li>
+    </ol>
+  </li>
+  <li><a href="../PetRobustness#Unknown_words">Unknown words</a>
+    <ol>
+      <li><a href="../PetRobustness#Generics_triggered_from_POS_mapping">Generics triggered from POS
+mapping</a></li>
+      <li><a href="../PetRobustness#Generics_triggered_from_token_fs">Generics triggered from token
+fs</a></li>
+      <li><a href="../PetRobustness#Lexical_type_prediction">Lexical type prediction</a></li>
+      <li><a href="../PetRobustness#Supertagger">Supertagger</a></li>
+    </ol>
+  </li>
+  <li><a href="../PetRobustness#Grammar_Internal_Solutions">Grammar Internal Solutions</a></li>
+  <li><a href="../PetRobustness#Pet_settings">Pet settings</a></li>
+  <li><a href="../PetRobustness#Robuster_Partial_Parsing">Robuster Partial Parsing</a></li>
+</ol>
+
+<h1 id="preprocessing">Preprocessing</h1>
+
+<h2 id="token-mapping">Token Mapping</h2>
+
+<p>Different assumptions made by preprocessing tools and unhandled
+characteristics of the text to be processed can influence parse success
+or failure. In order to adapt the output of the preprocessing tools to
+the assumptions made by the grammar, you can use
+<a href="Chart_Mapping">Chart_Mapping</a>, a mechanism for the non-monotonic,
+rule-based manipulation of chart items that are described by feature
+structures. One of the applications of Chart Mapping is Token Mapping,
+which gives users a means for manipulating tokens using the known formal
+devices of the grammar like unification and coindexation.</p>
+
+<h1 id="unknown-words">Unknown words</h1>
+
+<p>For both methods, it holds that it is unclear which REL it gets. Also,
+is it a word or a lexeme? There is no possibility in general (if the
+surface string is not stamped into CARG, as for proper names) to
+generate back again from the MRS to the surface string, if unknown word
+handling has been applied. Such information should be included in the
+MRS somehow, and this can be achieved in the user-fns.lsp</p>
+
+<p>As to PET, it will be possible to construct the PRED string of an
+unknown word with chart mapping. However, since inflectional analysis
+could return many possible stems for a given word and since there is no
+way to pick the correct one reliably by only looking at this one form,
+running inflectional analysis before lexical instantiation in order to
+provide a stem in token mapping doesn’t seem to be a strategy that is
+general enough. The surface form would have to be used instead to build
+the PRED value, leading to separate relations for each form of a lexeme.</p>
+
+<p>Stephan points out that partial lexical gaps (is verb, but only encoded
+as noun) is not captured by these mechanisms, but this will be solved
+when the chart mapping is merged into main.</p>
+
+<h2 id="generics-triggered-from-pos-mapping">Generics triggered from POS mapping</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cheap -default-les
+</code></pre></div></div>
+
+<p>Instantiates generic lexical entries for lexical gaps in the chart using
+a mapping from pos tags to generic les that has to be specified in the
+grammar. The pos tags have to be delivered by an external pos tagger and
+can be passed to PET by most of the input formats. See
+<a href="../PetInput">PetInput</a> for more information.</p>
+
+<h2 id="generics-triggered-from-token-fs">Generics triggered from token fs</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cheap  -default-les=all -cm
+</code></pre></div></div>
+
+<p>This is the new way of generic lexical instantiation that has been
+introduced together with token feature structures and
+<a href="Chart_Mapping">Chart_Mapping</a>. In this new setup, the parser tries to
+instantiate all generic lexical entries for each word. Upon lexical
+instantiation, the token feature is unified into a designated path of
+the lexical entry. Only if this unification succeeds, the lexical item
+is instantiated. In order to control the instantiation of generic
+lexical entries, the token feature structures are appropriatly
+constrained in the generic lexical entry, for instance by requiring that
+a generic verbal entry is only applicable for token feature structures
+where the highest ranked part-of-speech tag is a verb. Please see the
+page on <a href="Chart_Mapping">Chart_Mapping</a> for more information.</p>
+
+<h2 id="lexical-type-prediction">Lexical type prediction</h2>
+
+<p>By Yi.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cheap  -predict-les
+</code></pre></div></div>
+
+<p>Maximum Entropy Model has to be created from a script that Yi, that
+needs a treebanked profile as input. In e.g. pred-lex.tdl, it should be
+listed which lexical types should be able to be predicted. At least 2000
+sentences are needed.</p>
+
+<h2 id="supertagger">Supertagger</h2>
+
+<p>A supertagger, similar in nature to the CCG’s, and based on CRF’s, is
+currently under construction.</p>
+
+<h1 id="grammar-internal-solutions">Grammar Internal Solutions</h1>
+
+<ul>
+  <li>Roots (in english.set)
+    <ul>
+      <li>choose the robust root for greater coverage (in english.set)</li>
+    </ul>
+  </li>
+  <li>Robustness rules/Mal rules</li>
+</ul>
+
+<h1 id="pet-settings">Pet settings</h1>
+
+<p>The amount of items that are parsed of a corpus, depends heavily on the
+high number of parameters passed onto the parser. Some of those settings
+involves restricting the search space (like reducing the maximum number
+of edges). The constraint that Dan uses now is the mem option in cheap
+(although you should half it, for some strange reason!). This seems to
+be the most reasonable setting.</p>
+
+<p>See also <a href="../PetParameters">PetParameters</a>.</p>
+
+<ul>
+  <li>always use packing</li>
+  <li>recommend -memlimit (amount/2) rather than -limit (edges)</li>
+  <li>-timeout=1 (second) can also be useful</li>
+</ul>
+
+<h1 id="robuster-partial-parsing">Robuster Partial Parsing</h1>
+
+<p>Yi created a two-phase parsing algorithm that, in case the deep grammar
+does not succeed, a CFG backbone is used to still get a reasonable
+parse. This still has to be integrated in the main branch.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/garage/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

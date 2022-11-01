@@ -29,7 +29,7 @@ This section documents tokenization and a handful of other surface-level
 decisions. Technically speaking, when parsing with the ERG and PET
 (which is the reference setup for production use), the parser takes as
 its input a lattice of tokens, each a structured object (aka typed
-feature structure). Please see the [PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput) page for
+feature structure). Please see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for
 additional background. In this view, string-level pre-processing and
 initial tokenization is the process of mapping a 'flat' string into a
 token lattice. For further technical background and an example
@@ -97,7 +97,7 @@ token will be annotated with so-called 'characterization', i.e. a range
 of character indices into the original string (allowing one to recover
 the distinction between immediate adjacency between two consecutive
 tokens vs. intervening whitespace). Thus, in the so-called YY input
-format to PET (see the [PetInput](https://blog.inductorsoftware.com/docsproto/tools/PetInput) page for background), our
+format to PET (see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for background), our
 example would be represented as follows:
 
       (42, 0, 1, <0:3>, 1, "The", 0, "null")

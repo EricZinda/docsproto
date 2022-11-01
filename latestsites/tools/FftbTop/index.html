@@ -1,0 +1,1012 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/tools/FftbTop/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/tools/FftbTop/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/tools/"><img src="/docsproto/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docsproto/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/ToolsTop">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/PyDelphinTop">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/AceTop">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/AceInstall">Install</a></li>
+          
+            <li><a href="/docsproto/tools/AceFaq">Faq</a></li>
+          
+            <li><a href="/docsproto/tools/AceConfiguration">Configuration</a></li>
+          
+            <li><a href="/docsproto/tools/AceOptions">Options</a></li>
+          
+            <li><a href="/docsproto/tools/AceUse">Examples</a></li>
+          
+            <li><a href="/docsproto/tools/AceLui">LUI Mode</a></li>
+          
+            <li><a href="/docsproto/tools/AceCsaw">Csaw</a></li>
+          
+            <li><a href="/docsproto/tools/AceWishlist">Wish list</a></li>
+          
+            <li><a href="/docsproto/tools/AceTransfer">Transfer</a></li>
+          
+            <li><a href="/docsproto/tools/AceExperimental">Experimental</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/LkbTop">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/LkbInstallation">Installation</a></li>
+          
+            <li><a href="/docsproto/tools/LkbFos">Fully Open Source Version</a></li>
+          
+            <li><a href="/docsproto/tools/LkbMacintosh">Macintosh Version</a></li>
+          
+            <li><a href="/docsproto/tools/LkbFaq">FAQ</a></li>
+          
+            <li><a href="/docsproto/tools/LkbUserGroup">User Group</a></li>
+          
+            <li><a href="/docsproto/tools/LkbCourses">Courses</a></li>
+          
+            <li><a href="/docsproto/tools/LkbConventions">Conventions</a></li>
+          
+            <li><a href="/docsproto/tools/LkbGeneration">Generation</a></li>
+          
+            <li><a href="/docsproto/tools/LkbCompilation">Compilation</a></li>
+          
+            <li><a href="/docsproto/tools/LkbEmacs">Emacs</a></li>
+          
+            <li><a href="/docsproto/tools/LkbTrollet">Trollet</a></li>
+          
+            <li><a href="/docsproto/tools/LkbSppp">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsVpm">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docsproto/tools/LkbWishlist">Wish list</a></li>
+          
+            <li><a href="/docsproto/tools/LkbBugs">Bugs</a></li>
+          
+            <li><a href="/docsproto/tools/LkbCopyright">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/LkbLui">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/LuiRc">User Configuration</a></li>
+          
+            <li><a href="/docsproto/tools/LuiUi">Ui</a></li>
+          
+            <li><a href="/docsproto/tools/LuiTree">Tree</a></li>
+          
+            <li><a href="/docsproto/tools/LuiAvm">Avm</a></li>
+          
+            <li><a href="/docsproto/tools/LuiUnification">Unification</a></li>
+          
+            <li><a href="/docsproto/tools/LuiMrs">Mrs</a></li>
+          
+            <li><a href="/docsproto/tools/LuiChart">Chart</a></li>
+          
+            <li><a href="/docsproto/tools/LuiWishlist">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/ItsdbTop">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbDerivations">Derivations</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbReference">Reference</a></li>
+          
+            <li><a href="/docsproto/tools/GeFaqTsdbRc">FAQ</a></li>
+          
+            <li><a href="/docsproto/tools/TsdbTop">Deep Dive</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbWishlist">Wish List</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbProfileManipulation">Profile Manipulation</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbProfile">Profile</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbProfiling">Profiling</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbDistributedProcessing">Distributed Processing</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbBatch">Batch</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbCustomization">Customization</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTroubleshooting">Troubleshooting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/LogonTop">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/LogonRedhat">Red Hat</a></li>
+          
+            <li><a href="/docsproto/tools/LogonUbuntu">Ubuntu</a></li>
+          
+            <li><a href="/docsproto/tools/LogonArch">Arch Linux</a></li>
+          
+            <li><a href="/docsproto/tools/LogonHandon">Hands-On Release</a></li>
+          
+            <li><a href="/docsproto/tools/LogonSvn">SVN</a></li>
+          
+            <li><a href="/docsproto/tools/LogonProcessing_BatchGeneration">Batch Generation</a></li>
+          
+            <li><a href="/docsproto/tools/LogonProcessing_BatchTranslation">Batch Translation</a></li>
+          
+            <li><a href="/docsproto/tools/LogonPet">Pet</a></li>
+          
+            <li><a href="/docsproto/tools/LogonAnswer">ACE</a></li>
+          
+            <li><a href="/docsproto/tools/LogonExtras">Extras</a></li>
+          
+            <li><a href="/docsproto/tools/LogonInstallation">Installation</a></li>
+          
+            <li><a href="/docsproto/tools/LogonReports">Reports</a></li>
+          
+            <li><a href="/docsproto/tools/LogonProcessing">Processing</a></li>
+          
+            <li><a href="/docsproto/tools/LogonProcessing_BatchParsing">Batch Parsing</a></li>
+          
+            <li><a href="/docsproto/tools/LogonModeling">Modeling</a></li>
+          
+            <li><a href="/docsproto/tools/LogonOnline">Online</a></li>
+          
+            <li><a href="/docsproto/tools/LogonTransfer">Transfer</a></li>
+          
+            <li><a href="/docsproto/tools/LogonIdiosyncrasies">Idiosyncrasies</a></li>
+          
+            <li><a href="/docsproto/tools/MtJaen">Japanese/English MT</a></li>
+          
+            <li><a href="/docsproto/tools/MtSetup">Japanese/English MT Setup</a></li>
+          
+            <li><a href="/docsproto/tools/LogonWishlist">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/EgadTop">Erroneous Generation Analysis and Detection</a></li>
+          
+            <li><a href="/docsproto/tools/GDeltaTop">gDelta</a></li>
+          
+            <li><a href="/docsproto/tools/SpringCleaningTop">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docsproto/tools/LkbLtdb">Linguistic Type Database</a></li>
+          
+            <li><a href="/docsproto/tools/TypediffTop">Typediff</a></li>
+          
+            <li><a href="/docsproto/tools/VersionControlForGrammarDevelopment">Grammar Version Control</a></li>
+          
+            <li><a href="/docsproto/tools/ChartMapping">Chart Mapping</a></li>
+          
+            <li><a href="/docsproto/tools/ClimbTop">CLIMB</a></li>
+          
+            <li><a href="/docsproto/tools/ClimbShortClimb">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docsproto/tools/Climb_GClimb">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docsproto/tools/Climb_GClimb_German">gCLIMB Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/TreebankingTop">Overview</a></li>
+          
+            <li><a href="/docsproto/tools/FftbTop">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docsproto/tools/FftbWishlist">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking_ItsdbAnnotation">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking_ItsdbUpdating">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking_ItsdbExporting">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking_ItsdbModeling">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking_ItsdbUpdating">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbCustomization">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docsproto/tools/ItsdbTreebanking_ItsdbModeling">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docsproto/tools/IndraTreebanking">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/DelphinRFCs">Delphin RFCs</a></li>
+          
+            <li><a href="/docsproto/tools/PredicateRfc">Predicate RFC</a></li>
+          
+            <li><a href="/docsproto/tools/MrsRFC">MRS Format RFC</a></li>
+          
+            <li><a href="/docsproto/tools/MrsIsomorphism">MRS Isomorphism</a></li>
+          
+            <li><a href="/docsproto/tools/EdsTop">EDS Format</a></li>
+          
+            <li><a href="/docsproto/tools/EdsConversion">EDS Conversion</a></li>
+          
+            <li><a href="/docsproto/tools/EdsGeneration">EDS Generation</a></li>
+          
+            <li><a href="/docsproto/tools/SemiRfc">SEM-I RFC</a></li>
+          
+            <li><a href="/docsproto/tools/TdlRFC">TDL RFC</a></li>
+          
+            <li><a href="/docsproto/tools/TsqlRfc">TSQL RFC</a></li>
+          
+            <li><a href="/docsproto/tools/GrammarVersionRfc">Grammar Version RFC</a></li>
+          
+            <li><a href="/docsproto/tools/GrammarConfigurationRfc">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docsproto/tools/TsdbSchemaRfc">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docsproto/tools/MatrixChoicesRfc">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsTop">(R)MRS Overview</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsWellformedness">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsPos">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsSpan">(R)MRS Span</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsDesign">(R)MRS Design</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsParaphrasing">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsModel">(R)MRS Model</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsDistributional">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsSemi">(R)MRS Semi</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsDmrs">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsFaq">(R)MRS Faq</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsDiscussions">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docsproto/tools/TransferRules">Transfer Rules</a></li>
+          
+            <li><a href="/docsproto/tools/FormatSpecifications">Format Specifications</a></li>
+          
+            <li><a href="/docsproto/tools/ErgGml">Grammar Markup Language</a></li>
+          
+            <li><a href="/docsproto/tools/SmafTop">SMAF</a></li>
+          
+            <li><a href="/docsproto/tools/IconsSpecs">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Misc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/tools/AgreeTop">Agree</a></li>
+          
+            <li><a href="/docsproto/tools/DelphinTools">Delphin Tools</a></li>
+          
+            <li><a href="/docsproto/tools/VistaExtractionTop">Vista Extraction</a></li>
+          
+            <li><a href="/docsproto/tools/ReppTop">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docsproto/tools/TestingWithAnt">Testing With Ant</a></li>
+          
+            <li><a href="/docsproto/tools/HeartofgoldTop">Heart of Gold</a></li>
+          
+            <li><a href="/docsproto/tools/RmrsDmrsComparison">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docsproto/tools/SafFspp">Finite-State PreProcessor</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="fftb-the-full-forest-treebanker">FFTB: the full forest treebanker</h1>
+
+<p>FFTB is a tool for treebanking with DELPH-IN grammars that allows the
+selection of an arbitrary tree from the “full forest” without
+enumerating/unpacking all analyses in the parsing stage. FFTB is partly
+integrated with [incr tsdb()] and the LOGON tree; for details on using
+FFTB through that toolchain, please see <a href="../LogonAnswer">LogonAnswer</a>.
+There is a <a href="../FftbWishlist">wishlist</a>.</p>
+
+<p>The canonical citation is:</p>
+
+<p>Woodley Packard (2015) <em><a href="https://digital.lib.washington.edu/researchworks/handle/1773/33194">Full Forest
+Treebanking</a></em>,
+MA Thesis, University of Washington</p>
+
+<h2 id="obtaining-it">Obtaining it</h2>
+
+<p>The last binary versions of all ACE-dependent tools are here:</p>
+
+<p><a href="http://sweaglesw.org/linguistics/acetools/">http://sweaglesw.org/linguistics/acetools/</a></p>
+
+<p>You should make sure you get the same version of <strong>ace</strong>:</p>
+
+<p><a href="http://sweaglesw.org/linguistics/ace/download">http://sweaglesw.org/linguistics/ace/download</a> (you want the binary:
+ace-0.9.30-x86-64.tar.gz)</p>
+
+<p>You also need <strong>art</strong>:</p>
+
+<p><a href="http://sweaglesw.org/linguistics/libtsdb/art.html">http://sweaglesw.org/linguistics/libtsdb/art.html</a></p>
+
+<p><strong>Notes:</strong></p>
+
+<ul>
+  <li>On Ubuntu 18.04 <strong>0.9.30</strong> works, but <strong>0.9.31</strong> does not.</li>
+  <li>the webdir (with the javascript and css) is only included with
+<strong>fftb 0.9.31</strong>, in the directory assets</li>
+</ul>
+
+<h2 id="selecting-the-trees">Selecting the trees</h2>
+
+<p>To see rules that can be applied to a span, middle-click on the first
+word of the span and drag it to the last word of the span you want to
+inspect. The span will be marked in red. Only rules that can build that
+span will be shown below.</p>
+
+<h2 id="using-the-acetools">Using the acetools</h2>
+
+<p>Make a fresh profile</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkprof -s src/profile new/profile
+</code></pre></div></div>
+
+<p>Fill it with a <em>packed</em> parse (this is done with the <strong>-f</strong> and <strong>-O</strong>)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ art -f -a 'ace --disable-generalization -g grm.dat -O' new/profile
+</code></pre></div></div>
+
+<p>Suggested best practice is to also store the roots and lexical types:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ art -f -a 'ace --rooted-derivations --udx --disable-generalization -g grm.dat -O' new/profile
+</code></pre></div></div>
+
+<p>Launch the <strong>fftb</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ fftb -g grm.dat --browser --webdir ~/bin/acetools-x86-0.9.31/assets/ new/profile
+</code></pre></div></div>
+
+<p>A browser window should pop up with a list of sentences, now you can
+treebank!</p>
+
+<p>Note the <strong>webdir</strong> is the one with the files control.js, index.html and
+render.js in it. We found it in ace-tools-x86.0.9.31/assets, it can also
+be found in logon/lingo/answer/fftb.</p>
+
+<h2 id="updating-the-treebank">Updating the treebank</h2>
+
+<p>You can do it through the web interface:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fftb -g grm.dat --browser --webdir ~/bin/acetools-x86-0.9.31/assets/ new/profile --gold gold/profile
+</code></pre></div></div>
+
+<p>This will show you, for each parse:</p>
+
+<ul>
+  <li>This profile has an active tree, not updating</li>
+  <li>Unexpected error</li>
+  <li>No parses now, no active gold exists</li>
+  <li>No parses now, active gold exists</li>
+  <li>Overconstrained now, active gold exists</li>
+  <li>Fully disambiguated, identical to stored gold tree</li>
+  <li>Fully disambiguated, different from stored gold tree</li>
+  <li>Remaining ambiguity, was resolved in gold</li>
+  <li>Remaining ambiguity, was unresolved in gold</li>
+</ul>
+
+<p>It allows you to do the automatic update, but shows you more information
+about what has changed. I would recommend this (FCB).</p>
+
+<p>You can also just do it automatically:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fftb -g grm.dat new/profile --gold gold/profile --auto 
+</code></pre></div></div>
+
+<h2 id="training-a-ranking-model">Training a ranking model</h2>
+
+<p><strong>ffmaster</strong> and <strong>ffworker</strong> are in <strong>acetools</strong>. The master can have
+multiple workers working on different profiles.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>usage: ffmaster NUM_WORKERS model.mem [regularization]
+usage: ffworker grammar.dat forest-profile gold-profile master-host [parallelism]
+</code></pre></div></div>
+
+<p>For example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mkprof -s gold/profile new/profile
+$ art -a "ace -g grm.dat -O" -f new/profile
+$ FFGRANDPARENT=0 ffmaster 1 grm.mem &amp;
+&gt; waiting for 1 workers to connect on port 2577...
+$ FFGRANDPARENT=0 ffworker grm.dat new/profile gold/profile localhost
+&gt; ...
+&gt; Done
+</code></pre></div></div>
+
+<p>Try parsing a sentence:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ace -g ind.dat--maxent=grm.mem -l
+</code></pre></div></div>
+
+<h1 id="miscellaneous-notes">Miscellaneous Notes</h1>
+
+<h2 id="fftb-on-osx">FFTB on OSX</h2>
+
+<p>It is possible to use FFTB independently of the LOGON tree, either on
+Linux or on Mac OS X. The instructions below explain how to install and
+launch FFTB on OSX. Note that although the treebanking user interface
+presented by FFTB will be identical regardless of whether the LOGON tree
+is used, some of the ancillary steps, such as preparing a full-forest
+profile to use with FFTB, may be quite different when the LOGON tree is
+not used. Such methods are experimental and not (yet) discussed here.</p>
+
+<p>Download from <a href="http://sweaglesw.org/linguistics/osx-fftb.tar.gz">http://sweaglesw.org/linguistics/osx-fftb.tar.gz</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd </span>osx-fftb
+<span class="nv">$ </span><span class="nb">export </span><span class="nv">DYLD_LIBRARY_PATH</span><span class="o">=</span>./dependencies/
+<span class="nv">$ </span>./fftb <span class="nt">-g</span> erg-1214.dat <span class="nt">--browser</span> path/to/profile
+</code></pre></div></div>
+
+<p>The adventurous can attempt to compile and run a standalone fftb on
+linux from the SVN repository: <a href="http://sweaglesw.org/svn/treebank/trunk">http://sweaglesw.org/svn/treebank/trunk</a></p>
+
+<h2 id="fftb-for-bridging-analyses-self-help-robust-treebanking">FFTB for bridging analyses (self-help robust treebanking)</h2>
+
+<p>As of 1214, the ERG includes (disabled by default) so-called bridging
+rules which enable a parse to be found for any input string, with
+degraded semantic usefulness. There is currently no parse selection
+model trained to function properly with these rules enabled, so they
+should be disabled when the ERG is used in an online processing
+environment. However, in an offline treebanking environment, these rules
+enable annotators to capture some of the correct semantics for
+ungrammatical sentences even when a fully correct analysis is not
+available. In the future, it may be possible to use such annotations to
+train an automatic parse selection model to work with the bridging
+rules.</p>
+
+<p>If a profile has been parsed to include an “edge” relation using the
+bridging rules, and erg-1214-bridge.dat is an ACE grammar image with the
+relevant rules enabled, it is possible to update the profile from a
+non-bridged one and continue annotating the rejected sentences with a
+command like this:</p>
+
+<p>fftb –suppress-bridges –browser -g erg-1214-bridge.dat –gold path/to/previous-profile path/to/new-profile-with-bridging </p>
+
+<p>The –suppress-bridges option causes FFTB to assume a discriminant has
+been selected for each sentence rejecting the bridging rule at the top
+level span. This should cause the update to behave exactly as if the
+bridging rules had not been enabled in parsing the new profile. After
+updating, you can rerun without that option (and also without the –gold
+… option), or you can manually disable that discriminant each time you
+visit a rejected item that you want to reclaim.</p>
+
+<h2 id="fftb-on-remote-machine">FFTB on remote machine</h2>
+
+<p>You can wrap a proxy server round fftb and treebank remotely.</p>
+
+<p>Here is the configuration for <a href="https://www.nginx.com/">nginx</a>, thanks to
+<a href="../AlexandreRademaker">AlexandreRademaker</a>. with minor tweaks to get it
+running on Ubuntu. This serves it at localhost:8080/private/. Call fftb
+without –browser.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### our changes
+user www-data;
+include /etc/nginx/modules-enabled/*.conf;
+# daemon on
+
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log;
+pid        /var/run/nginx.pid;
+
+events {
+   worker_connections  1024;
+}
+
+http {
+   merge_slashes off;
+
+   default_type  application/octet-stream; 
+   charset   utf-8;
+   keepalive_timeout  65;
+   server_tokens       off;
+   tcp_nopush          off;
+   tcp_nodelay         on;
+
+   gzip              on;
+   gzip_http_version 1.0;
+   gzip_proxied      any;
+   gzip_min_length   500;
+   gzip_disable      "MSIE [1-6]\.";
+   gzip_types        text/plain text/xml text/css
+                     text/comma-separated-values
+                     text/javascript
+                     application/x-javascript
+                     application/atom+xml;
+
+   include mime.types;
+
+   upstream fftb9080 {
+       server 127.0.0.1:9080;
+   }
+
+   server {
+       listen      8080;
+       server_name localhost;
+       charset     utf-8;
+       
+       location / {
+           proxy_pass http://fftb9080;
+           ## for password protection
+           #auth_basic "Private Forest";
+           #auth_basic_user_file /etc/nginx/.htpasswd;
+       }
+   }
+}
+</code></pre></div></div>
+
+<h1 id="trouble-shooting">Trouble Shooting</h1>
+
+<h2 id="error-messages">Error Messages</h2>
+
+<h3 id="404-no-stored-forest-found-for-this-item">404 no stored forest found for this item</h3>
+
+<p>FFTB shows <strong>404 no stored forest found for this item</strong> for multiple
+reasons:</p>
+
+<ul>
+  <li>This message appears if the grammar is missing lexicon entries. This
+can happen when it lacks a lexicon entry or, in the case your
+language needs special tokenization, if the sentence is not
+adequately tokenized.</li>
+</ul>
+
+<p>On the terminal-side, FFTB will say something
+like:  found a stored forest, but couldn’t use it.-&gt; no usable stored forest</p>
+
+<h3 id="404-not-found">404 not found</h3>
+
+<p>The most common reason for this is that the parameter –webdir is not
+passed correctly (or points to the wrong place).</p>
+
+<h3 id="500-unable-to-read-tsdb-home-directory">500 unable to read TSDB home directory</h3>
+
+<p>The directory should be +wrx.</p>
+
+<h2 id="span">Span</h2>
+
+<p>The tool offers you the chance to select select spans with “Is A
+Constituent” but this causes the system to crash (very often) when you
+try to save the tree (from at least 0.9.23). So don’t do this.</p>
+
+<h2 id="logname">LOGNAME</h2>
+
+<p>At least when running inside a docker container, fftb crashes if it
+can’t find the environment variable LOGNAME. To set it use</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export LOGNAME=myuser
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/tools/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

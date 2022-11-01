@@ -14,7 +14,7 @@ in ACE's per-grammar configuration files.
 - [AceOptions](../AceOptions) details the command-line option syntax.
 - [AceLui](../AceLui) shows how to run ACE with LUI for interactive
 grammar debugging.
-- [FftbTop](https://blog.inductorsoftware.com/docsproto/concept/FftbTop) shows how to use the full forest treebanker
+- [FftbTop](../FftbTop) shows how to use the full forest treebanker
 to treebank, and then how to build a statistical model using the
 treebank.
 - [AceCsaw](../AceCsaw) describes an extension to back off to a pcfg

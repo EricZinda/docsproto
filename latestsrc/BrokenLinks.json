@@ -6,32 +6,9 @@
         {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "home/WeScience.md"}
       ]}
     ],
-    "concept": [
-      {"Section": "Formats", "Pages": [
-        {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "concept/TsdbSchemaRfc.md", "FileMissing": true},
-        {"Page": "WeSearch_DesignPrinciples", "SrcDir": "docswiki", "SrcFile": "WeSearch_DesignPrinciples.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_AnalysisCatalog", "SrcDir": "docswiki", "SrcFile": "WeSearch_AnalysisCatalog.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_ScopalArgCoord", "SrcDir": "docswiki", "SrcFile": "WeSearch_ScopalArgCoord.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_ICONS", "SrcDir": "docswiki", "SrcFile": "WeSearch_ICONS.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_UnderspecifedAttachment", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifedAttachment.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_UnderspecifiedPreds", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifiedPreds.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_VariablePropertySharing", "SrcDir": "docswiki", "SrcFile": "WeSearch_VariablePropertySharing.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_PestExamples", "SrcDir": "docswiki", "SrcFile": "WeSearch_PestExamples.md", "Referrer": "concept/RmrsDiscussions.md", "FileMissing": true},
-        {"Page": "WeSearch_Ccs", "SrcDir": "docswiki", "SrcFile": "WeSearch_Ccs.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "LADChineseAnotA", "SrcDir": "docswiki", "SrcFile": "LADChineseAnotA.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "LADLushootseedSemantics", "SrcDir": "docswiki", "SrcFile": "LADLushootseedSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "SynSem", "SrcDir": "docswiki", "SrcFile": "SynSem.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "SynSem_Activities_PolymorphicVariadicPredicates", "SrcDir": "docswiki", "SrcFile": "SynSem_Activities_PolymorphicVariadicPredicates.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "concept/TransferRules.md"},
-        {"Page": "LogonVpm", "SrcDir": "docswiki", "SrcFile": "LogonVpm.md", "Referrer": "concept/TransferRules.md"},
-        {"Page": "WeSearch_DataCollection", "SrcDir": "docswiki", "SrcFile": "WeSearch_DataCollection.md", "Referrer": "concept/ErgGml.md"},
-        {"Page": "RmrsDtd", "SrcDir": "docswiki", "SrcFile": "RmrsDtd.md", "Referrer": "concept/SmafTop.md", "FileMissing": true},
-        {"Page": "SmafLkb", "SrcDir": "docswiki", "SrcFile": "SmafLkb.md", "Referrer": "concept/SmafTop.md"},
-        {"Page": "SmafPet", "SrcDir": "docswiki", "SrcFile": "SmafPet.md", "Referrer": "concept/SmafTop.md"},
-        {"Page": "SmafSample", "SrcDir": "docswiki", "SrcFile": "SmafSample.md", "Referrer": "concept/SmafTop.md"},
-        {"Page": "SmafDtd", "SrcDir": "docswiki", "SrcFile": "SmafDtd.md", "Referrer": "concept/SmafTop.md"}
+    "garage": [
+      {"Section": "PET", "Pages": [
+        {"Page": "Chart_Mapping", "SrcDir": "docswiki", "SrcFile": "Chart_Mapping.md", "Referrer": "garage/PetRobustness.md", "FileMissing": true}
       ]}
     ],
     "grammars": [
@@ -102,9 +79,6 @@
       {"Section": "LKB LUI", "Pages": [
         {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "tools/LkbLui.md", "FileMissing": true}
       ]},
-      {"Section": "PET", "Pages": [
-        {"Page": "Chart_Mapping", "SrcDir": "docswiki", "SrcFile": "Chart_Mapping.md", "Referrer": "tools/PetRobustness.md", "FileMissing": true}
-      ]},
       {"Section": "Logon", "Pages": [
         {"Page": "LogonDebian", "SrcDir": "docswiki", "SrcFile": "LogonDebian.md", "Referrer": "tools/LogonUbuntu.md"},
         {"Page": "MtJaenSmt", "SrcDir": "docswiki", "SrcFile": "MtJaenSmt.md", "Referrer": "tools/MtJaen.md"},
@@ -116,7 +90,33 @@
         {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"}
       ]},
       {"Section": "Grammar Tools", "Pages": [
-        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"}
+        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
+        {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "tools/LkbLtdb.md", "FileMissing": true}
+      ]},
+      {"Section": "Formats", "Pages": [
+        {"Page": "WeSearch_DesignPrinciples", "SrcDir": "docswiki", "SrcFile": "WeSearch_DesignPrinciples.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_AnalysisCatalog", "SrcDir": "docswiki", "SrcFile": "WeSearch_AnalysisCatalog.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_ScopalArgCoord", "SrcDir": "docswiki", "SrcFile": "WeSearch_ScopalArgCoord.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_ICONS", "SrcDir": "docswiki", "SrcFile": "WeSearch_ICONS.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_UnderspecifedAttachment", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifedAttachment.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_UnderspecifiedPreds", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifiedPreds.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_VariablePropertySharing", "SrcDir": "docswiki", "SrcFile": "WeSearch_VariablePropertySharing.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_PestExamples", "SrcDir": "docswiki", "SrcFile": "WeSearch_PestExamples.md", "Referrer": "tools/RmrsDiscussions.md", "FileMissing": true},
+        {"Page": "WeSearch_Ccs", "SrcDir": "docswiki", "SrcFile": "WeSearch_Ccs.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "LADChineseAnotA", "SrcDir": "docswiki", "SrcFile": "LADChineseAnotA.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "LADLushootseedSemantics", "SrcDir": "docswiki", "SrcFile": "LADLushootseedSemantics.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "SynSem", "SrcDir": "docswiki", "SrcFile": "SynSem.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "SynSem_Activities_PolymorphicVariadicPredicates", "SrcDir": "docswiki", "SrcFile": "SynSem_Activities_PolymorphicVariadicPredicates.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "tools/TransferRules.md"},
+        {"Page": "LogonVpm", "SrcDir": "docswiki", "SrcFile": "LogonVpm.md", "Referrer": "tools/TransferRules.md"},
+        {"Page": "WeSearch_DataCollection", "SrcDir": "docswiki", "SrcFile": "WeSearch_DataCollection.md", "Referrer": "tools/ErgGml.md"},
+        {"Page": "RmrsDtd", "SrcDir": "docswiki", "SrcFile": "RmrsDtd.md", "Referrer": "tools/SmafTop.md", "FileMissing": true},
+        {"Page": "SmafLkb", "SrcDir": "docswiki", "SrcFile": "SmafLkb.md", "Referrer": "tools/SmafTop.md"},
+        {"Page": "SmafPet", "SrcDir": "docswiki", "SrcFile": "SmafPet.md", "Referrer": "tools/SmafTop.md"},
+        {"Page": "SmafSample", "SrcDir": "docswiki", "SrcFile": "SmafSample.md", "Referrer": "tools/SmafTop.md"},
+        {"Page": "SmafDtd", "SrcDir": "docswiki", "SrcFile": "SmafDtd.md", "Referrer": "tools/SmafTop.md"}
       ]},
       {"Section": "Misc", "Pages": [
         {"Page": "HogInstallation", "SrcDir": "docswiki", "SrcFile": "HogInstallation.md", "Referrer": "tools/HeartofgoldTop.md"},

@@ -252,7 +252,7 @@ redundent.
 
 ##### Other Components
 
-If you are working with [PetTop](../PetTop), don't forget to specify the
+If you are working with [PetTop](https://blog.inductorsoftware.com/docsproto/garage/PetTop), don't forget to specify the
 encoding in grammar.set as well:
 
     ;;;; settings for CHEAP                 -*- Mode: TDL; Coding: euc-jp -*-

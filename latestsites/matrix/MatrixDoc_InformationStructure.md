@@ -185,7 +185,7 @@ much specified the information structural meaning of a constituent is.
 # NOTE
 
 The information structure values are represented in ICONS. Currently,
-ACE([AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)) and AGREE([AgreeTop](https://blog.inductorsoftware.com/docsproto/tools/AgreeTop)) fully process
+ACE([AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)) and AGREE([AgreeTop](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop)) fully process
 ICONS. So MRSes coming from LKB/PET do not have ICONS.
 
 In some languages, both focus and topic can occur in the clause-initial

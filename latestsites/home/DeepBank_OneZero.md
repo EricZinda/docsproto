@@ -112,7 +112,7 @@ structure tree, labeled with common category abbreviations
 ([ErgTrees](/ErgTrees); to be documented); (f) a logical-form meaning
 representation in Minimal Recursion Semantics (MRS; [MrsRfc](MrsRfc));
 and (g) a reduction of the MRS into variable-free Elementary Dependency
-Structures (EDS; [EdsTop](https://blog.inductorsoftware.com/docsproto/concept/EdsTop)).
+Structures (EDS; [EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop)).
 
 For immediate compatibility with much mainstream work, there is a
 conversion of the full HPSG analyses into bi-lexical syntactic and

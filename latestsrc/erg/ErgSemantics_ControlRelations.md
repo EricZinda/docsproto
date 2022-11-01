@@ -50,7 +50,7 @@ argument can have different roles in the embedded clause, if the
 fingerprints had to specify precise argument roles (ARGn), we would have
 many different sub-phenomena here. Instead, we make use of
 underspecified argument positions (see
-[ErgSemantics/Conventions](https://blog.inductorsoftware.com/docsproto/concept/ErgSemantics_Conventions)).
+[ErgSemantics/Conventions](../ErgSemantics_Conventions)).
 
     [ARG0 e1, ARG1+ x2, ARG1+ h3]
     h4:[ARG0 e5, ARG1+ x2]
