@@ -47,12 +47,16 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
 
 
 def get_change_text(src_file_path):
-    workingDirectory = os.path.dirname(src_file_path)
-    # result = subprocess.check_output(["git", "log", "-s", "-n1", f'--pretty=tformat:%an - %cd', f'{src_file_path}'], cwd=workingDirectory).decode("utf-8")
-    result = subprocess.check_output([f"git log -s -n1 --pretty='tformat:%an - %cd' {src_file_path}"], cwd=workingDirectory, shell=True).decode("utf-8")
-    final = "\nLast updated: " + result
-    print(f"Source: {src_file_path} {final}")
-    return final
+    global quickAndDirty
+    if quickAndDirty:
+        return "<update date omitted for speed>"
+    else:
+        workingDirectory = os.path.dirname(src_file_path)
+        # TODO: would running the whole list at once be more efficient? cat filelist.txt | while read filename; do echo "$filename $(git log -s -n1 --pretty='tformat:%an - %cs' $filename)"; done
+        result = subprocess.check_output([f"git log -s -n1 --pretty='tformat:%an - %cs' {src_file_path}"], cwd=workingDirectory, shell=True).decode("utf-8")
+        final = "\nPage last updated by " + result
+        # print(f"Source: {src_file_path} {final}")
+        return final
 
 
 def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_path, dst_file_path):
@@ -390,19 +394,25 @@ def log_json_tree_to_file(relative_path, tree):
         txt_file.write("\n  }")
 
 
+quickAndDirty = False
+
 if __name__ == '__main__':
+    global quickAndDirty
     # with open("/Users/ericzinda/Enlistments/docsproto/testsitesdefinitions.json", "r") as txtFile:
     #     sites_definition = json.loads(txtFile.read())
     #
     # tree_pages = convert_pages_flat_to_tree(sites_definition["Pages"])
     # log_json_tree_to_file("sitesdefinitions1.json", tree_pages)
 
-    if len(sys.argv) == 6:
+    if len(sys.argv) == 6 or len(sys.argv) == 7:
         root_address = sys.argv[1]
         input_content_root = sys.argv[2]
         latestsrc_root = sys.argv[3]
         latestsites_root = sys.argv[4]
         sites_definitions_path = sys.argv[5]
+        if len(sys.argv) == 7:
+            if sys.orig_argv[6].strip() == "true":
+                quickAndDirty = True
         errors = []
 
         try:
@@ -456,7 +466,7 @@ if __name__ == '__main__':
         log_json_tree_to_file("latestsrc/TransitiveBrokenLinks.json", transitive_closure_tree)
 
     else:
-        print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs")
+        print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs\n (optional) 6) true or false (default false): run in quick and dirty mode which removes things like timestamps on files that take a while to calculate")
         assert False
 
     # parser = Markdown(Parser, MarkdownRenderer)

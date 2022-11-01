@@ -6,6 +6,10 @@ name: BuildDocs
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+      quickAndDirty:
+        description: 'TESTING ONLY: Set to true to generate the site quickly but without timestamps or other time-taking information'
+        required: true
+        default: 'false'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,6 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     
     # First get all the repositories we will use to build any of the sites
+    # Need to include           fetch-depth: 0 in order to get the history so it can be included in the doc
     steps:
       - run: python -V
       - run: pip install marko
@@ -43,8 +48,6 @@ jobs:
           path: docswiki
           fetch-depth: 0
 
-      - run: cd /home/runner/work/docsproto/docsproto/docswiki/ && git log -s -n5 "IndraTop.md" && echo foo
-
 #      # Remove all pages from "latest" so we don't carry over removed pages
 #      - run: rm -r -f $GITHUB_WORKSPACE/main/latestsrc/
 #      - run: mkdir $GITHUB_WORKSPACE/main/latestsrc/
@@ -61,7 +64,7 @@ jobs:
 
       # Create blank sites and then
       # Process and copy all pages into the sites
-      - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json
+      - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }}
 
       - uses: actions/upload-artifact@v2
         if: ${{ failure() }}
