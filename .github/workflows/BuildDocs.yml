@@ -30,14 +30,12 @@ jobs:
           path: main
           fetch-depth: 0
 
-      - name: Hello world action step
-        uses: ./main/githubactions
-        id: hello
+      - name: Test
+        uses: ./main/IncludeSourceAction
+        id: includeSource
         with:
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          definition-file: ./sitedefinitions.json
+
 
       - run: python -V
       - run: pip install marko

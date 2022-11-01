@@ -8,6 +8,10 @@
 
     "If you add a new site, or change the name of it, you must update .github/workflows/BuildDocs.yml to get jekyll to run on it and upload it"
   ],
+  "SourceRepositories":
+  [
+    { "Repository": "delph-in/docs.wiki", "SrcDir": "docswiki" }
+  ],
   "Sites":
   [
     {"SiteFullName": "DELPH-IN Docs", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
