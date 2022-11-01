@@ -16,9 +16,5 @@
 | [YusukeMiyao](/YusukeMiyao)                                         | [Towards Framework-Independent Evaluation of Deep Linguistic Parsers](http://www-tsujii.is.s.u-tokyo.ac.jp/~yusuke/paper/delphin2007.pdf)                                                                                                                       |
 | [AntonioBranco](https://blog.inductorsoftware.com/docsproto/tools/AntonioBranco) and [FranciscoCosta](https://blog.inductorsoftware.com/docsproto/tools/FranciscoCosta) | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                                                                                                                                     |
 
-Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
-Author: EricZinda <ericz@inductorsoftware.com>
-Date:   Tue Oct 25 13:59:11 2022 -0700
-
-    Updated ERDW_StructureForNewDocsSite (markdown)
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
 {% endraw %}

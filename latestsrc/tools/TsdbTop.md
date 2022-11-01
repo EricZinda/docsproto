@@ -113,9 +113,5 @@ A final useful trick is liberal use of the ELI mode's *go to definition*
 functionality (bound by default to C-c .), which takes you to the source
 location where any function, class or variable is defined.
 
-Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
-Author: EricZinda <ericz@inductorsoftware.com>
-Date:   Tue Oct 25 13:59:11 2022 -0700
-
-    Updated ERDW_StructureForNewDocsSite (markdown)
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
 {% endraw %}
