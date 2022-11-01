@@ -397,7 +397,6 @@ def log_json_tree_to_file(relative_path, tree):
 quickAndDirty = False
 
 if __name__ == '__main__':
-    global quickAndDirty
     # with open("/Users/ericzinda/Enlistments/docsproto/testsitesdefinitions.json", "r") as txtFile:
     #     sites_definition = json.loads(txtFile.read())
     #
