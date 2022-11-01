@@ -39,5 +39,4 @@ Editor's note: This topic comes up again and is basically dismissed in
 \[[TheAbbey/Chrysais2014Arity](/TheAbbey/Chrysais2014Arity)\|the arity
 discussion\].
 
-Page last updated by StephanOepen - 2014-02-16
-{% endraw %}
+Page last updated by StephanOepen - 2014-02-16([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014PpAttachment/_edit)){% endraw %}

@@ -186,5 +186,4 @@ adverb, mostly to implement Jongbok's approach to aux negation as in
 makes an unflected noun stem into a word which is underspecified for
 mass or count (a word like "paper")
 
-Page last updated by EmilyBender - 2013-09-17
-{% endraw %}
+Page last updated by EmilyBender - 2013-09-17([edit](https://github.com/delph-in/docs/wiki/ErgTreebankingRules/_edit)){% endraw %}

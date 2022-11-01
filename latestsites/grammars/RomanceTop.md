@@ -13,5 +13,4 @@ elsewhere)
 - [P+Det contractions](../RomContract) Also very relevant to [Modern
 Greek](../MgrgSummary).
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/RomanceTop/_edit)){% endraw %}

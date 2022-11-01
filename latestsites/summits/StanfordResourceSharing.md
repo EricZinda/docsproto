@@ -125,5 +125,4 @@ Glenn: Sumo is GPL
 
 Francis: Links to WN are not, by our request.
 
-Page last updated by RebeccaDridan - 2016-06-27
-{% endraw %}
+Page last updated by RebeccaDridan - 2016-06-27([edit](https://github.com/delph-in/docs/wiki/StanfordResourceSharing/_edit)){% endraw %}

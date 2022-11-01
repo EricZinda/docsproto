@@ -39,5 +39,4 @@ All experiments reported below were carried out on 2012-12-12 and
 
 ### Grammars (versions used, original sources)
 
-Page last updated by AntskeFokkens - 2012-12-13
-{% endraw %}
+Page last updated by AntskeFokkens - 2012-12-13([edit](https://github.com/delph-in/docs/wiki/SpringCleaningTop/_edit)){% endraw %}

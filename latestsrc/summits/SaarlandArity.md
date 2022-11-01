@@ -41,5 +41,4 @@ descriptions of underspecified representations, i.e. these predicate
 symbol are underspecified… (but [AlexLascarides](https://blog.inductorsoftware.com/docsproto/tools/AlexLascarides) was
 unfortunately not present at that meeting).
 
-Page last updated by EmilyBender - 2013-07-31
-{% endraw %}
+Page last updated by EmilyBender - 2013-07-31([edit](https://github.com/delph-in/docs/wiki/SaarlandArity/_edit)){% endraw %}

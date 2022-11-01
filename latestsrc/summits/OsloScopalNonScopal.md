@@ -661,5 +661,4 @@ whose dog that smiled barked.*
 
 \[ This didn't parse in 1214, but does parse in trunk. \]
 
-Page last updated by EmilyBender - 2017-08-12
-{% endraw %}
+Page last updated by EmilyBender - 2017-08-12([edit](https://github.com/delph-in/docs/wiki/OsloScopalNonScopal/_edit)){% endraw %}

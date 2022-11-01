@@ -15,5 +15,4 @@ procedure to be applied for fixing the problem.
 
       dnf install libnsl glibc.i686
 
-Page last updated by StephanOepen - 2020-12-08
-{% endraw %}
+Page last updated by StephanOepen - 2020-12-08([edit](https://github.com/delph-in/docs/wiki/LogonRedhat/_edit)){% endraw %}

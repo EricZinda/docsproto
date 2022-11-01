@@ -96,5 +96,4 @@ or language pair.
 
 # MaxEnt Experimentation
 
-Page last updated by StephanOepen - 2018-01-13
-{% endraw %}
+Page last updated by StephanOepen - 2018-01-13([edit](https://github.com/delph-in/docs/wiki/LogonIdiosyncrasies/_edit)){% endraw %}

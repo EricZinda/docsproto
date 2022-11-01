@@ -59,5 +59,4 @@ A:
     ;;;
     a := u.
 
-Page last updated by GlennSlayden - 2013-04-28
-{% endraw %}
+Page last updated by GlennSlayden - 2013-04-28([edit](https://github.com/delph-in/docs/wiki/RmrsFaq/_edit)){% endraw %}

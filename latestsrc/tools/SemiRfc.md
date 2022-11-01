@@ -322,5 +322,4 @@ we shouldn't expect that, right?).
                  ARG0 e, ARG1 x:
                    ...
 
-Page last updated by MichaelGoodman - 2019-04-22
-{% endraw %}
+Page last updated by MichaelGoodman - 2019-04-22([edit](https://github.com/delph-in/docs/wiki/SemiRfc/_edit)){% endraw %}

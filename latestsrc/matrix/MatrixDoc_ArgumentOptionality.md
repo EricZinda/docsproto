@@ -309,5 +309,4 @@ title = {Argument Optionality in the LinGO Grammar Matrix},\
 conference = {Coling}\
 }
 
-Page last updated by VaryaGracheva - 2013-02-15
-{% endraw %}
+Page last updated by VaryaGracheva - 2013-02-15([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ArgumentOptionality/_edit)){% endraw %}

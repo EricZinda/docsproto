@@ -95,5 +95,4 @@ d'un glissement de terrain, jusqu'au jeudi après-midi)
 - [TestUser](/TestUser)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Monday - Friday)
 
-Page last updated by AntskeFokkens - 2018-06-20
-{% endraw %}
+Page last updated by AntskeFokkens - 2018-06-20([edit](https://github.com/delph-in/docs/wiki/DiderotParticipants/_edit)){% endraw %}

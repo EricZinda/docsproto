@@ -100,5 +100,4 @@ and Culture, Japan.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by StephanOepen - 2015-09-22
-{% endraw %}
+Page last updated by StephanOepen - 2015-09-22([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_TimeExpressions/_edit)){% endraw %}

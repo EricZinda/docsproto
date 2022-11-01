@@ -124,5 +124,4 @@ General Configuration
 | irregular-form-rule-suffix     | a string to append to the rule names found in irregular form tables.                                                                                                                         |
 | invent-ltop                    | enabled or disabled. if disabled, the MRS LTOP will be extracted from the grammar. otherwise, it will be invented as a new hole connected to the grammar-provided LTOP by a QEQ.             |
 
-Page last updated by WoodleyPackard - 2013-02-06
-{% endraw %}
+Page last updated by WoodleyPackard - 2013-02-06([edit](https://github.com/delph-in/docs/wiki/AceConfiguration/_edit)){% endraw %}

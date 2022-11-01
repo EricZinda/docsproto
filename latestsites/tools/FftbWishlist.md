@@ -31,5 +31,4 @@ with no parse?
 
 - Include the port as a command line argument (FCB)
 
-Page last updated by FrancisBond - 2020-07-16
-{% endraw %}
+Page last updated by FrancisBond - 2020-07-16([edit](https://github.com/delph-in/docs/wiki/FftbWishlist/_edit)){% endraw %}

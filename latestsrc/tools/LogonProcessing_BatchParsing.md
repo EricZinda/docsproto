@@ -263,5 +263,4 @@ The in-depth comparison of parsing results (using the *pedges* and
 item, where either of the fields show different values across the two
 profiles.
 
-Page last updated by StephanOepen - 2014-07-24
-{% endraw %}
+Page last updated by StephanOepen - 2014-07-24([edit](https://github.com/delph-in/docs/wiki/LogonProcessing_BatchParsing/_edit)){% endraw %}

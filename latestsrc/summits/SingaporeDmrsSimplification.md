@@ -234,5 +234,4 @@ been canonicalized; this name has been compounded.
 
 Dan: Record the provenance of the predications.
 
-Page last updated by EmilyBender - 2015-08-03
-{% endraw %}
+Page last updated by EmilyBender - 2015-08-03([edit](https://github.com/delph-in/docs/wiki/SingaporeDmrsSimplification/_edit)){% endraw %}

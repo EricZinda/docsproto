@@ -254,5 +254,4 @@ implementing your own solution that others have to deal with.
 
 \*\*applause\*\*
 
-Page last updated by EmilyBender - 2015-08-10
-{% endraw %}
+Page last updated by EmilyBender - 2015-08-10([edit](https://github.com/delph-in/docs/wiki/SingaporeRepresentingPragmatics/_edit)){% endraw %}

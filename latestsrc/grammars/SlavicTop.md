@@ -65,5 +65,4 @@ offering itself to support the largest possible range of language
 technology applications. The grammar can be obtained from
 <http://www.coli.uni-saarland.de/~tania/rrg/>.
 
-Page last updated by TaniaAvgustinova - 2012-11-16
-{% endraw %}
+Page last updated by TaniaAvgustinova - 2012-11-16([edit](https://github.com/delph-in/docs/wiki/SlavicTop/_edit)){% endraw %}

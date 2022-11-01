@@ -319,5 +319,4 @@ to make it useful.
 
 Guy: Volunteers to be the aesthetic consultant on slide design
 
-Page last updated by LuisMorgadoCosta - 2015-08-07
-{% endraw %}
+Page last updated by LuisMorgadoCosta - 2015-08-07([edit](https://github.com/delph-in/docs/wiki/SingaporeTutorialPlanning/_edit)){% endraw %}

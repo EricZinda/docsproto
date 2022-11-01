@@ -143,5 +143,4 @@ output.
       + >> +
       * >> !
 
-Page last updated by MichaelGoodman - 2017-04-24
-{% endraw %}
+Page last updated by MichaelGoodman - 2017-04-24([edit](https://github.com/delph-in/docs/wiki/RmrsSemi/_edit)){% endraw %}

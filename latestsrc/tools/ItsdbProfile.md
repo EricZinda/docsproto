@@ -163,5 +163,4 @@ and so on.
       mrs :string                           # mrs for this reading
       flags :string                         # arbitrary annotation (e.g. BLEU)
 
-Page last updated by StephanOepen - 2012-08-07
-{% endraw %}
+Page last updated by StephanOepen - 2012-08-07([edit](https://github.com/delph-in/docs/wiki/ItsdbProfile/_edit)){% endraw %}

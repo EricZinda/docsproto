@@ -387,5 +387,4 @@ the [ErgProcessing](../ErgProcessing) page for more details.
      x16:_and_c<59:62>[L-INDEX x23:_grammar_n_1, R-INDEX x27:_software_n_1]
     }
 
-Page last updated by StephanOepen - 2012-01-18
-{% endraw %}
+Page last updated by StephanOepen - 2012-01-18([edit](https://github.com/delph-in/docs/wiki/ErgProcessing_SampleExport/_edit)){% endraw %}

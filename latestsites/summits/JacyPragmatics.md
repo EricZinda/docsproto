@@ -82,5 +82,4 @@ relations:
                    [EMPER index,
                     EMPEE index].
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/JacyPragmatics/_edit)){% endraw %}

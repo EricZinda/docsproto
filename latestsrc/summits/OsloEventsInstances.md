@@ -225,5 +225,4 @@ interpretation where everyone ate lunch together. Maybe semanticists
 have other ways of handling the two readings, but it seems like scope
 ambiguity is a pretty plausible way to do it.
 
-Page last updated by GlennSlayden - 2017-08-08
-{% endraw %}
+Page last updated by GlennSlayden - 2017-08-08([edit](https://github.com/delph-in/docs/wiki/OsloEventsInstances/_edit)){% endraw %}

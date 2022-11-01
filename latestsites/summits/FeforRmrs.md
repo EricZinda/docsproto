@@ -53,5 +53,4 @@ Morning of June 15th
 - The SEM-I ([StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen),
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake))
 
-Page last updated by EmilyBender - 2006-06-21
-{% endraw %}
+Page last updated by EmilyBender - 2006-06-21([edit](https://github.com/delph-in/docs/wiki/FeforRmrs/_edit)){% endraw %}

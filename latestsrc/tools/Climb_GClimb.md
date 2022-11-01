@@ -36,5 +36,4 @@ that do not fit in papers with a fixed page limit. In the future, it
 will provide more detailed documentation on CLIMB for Germanic
 languages. \]</span>
 
-Page last updated by AntskeFokkens - 2012-12-29
-{% endraw %}
+Page last updated by AntskeFokkens - 2012-12-29([edit](https://github.com/delph-in/docs/wiki/Climb_GClimb/_edit)){% endraw %}

@@ -368,5 +368,4 @@ engineering, they never worked at the same time. Writing in parallel
 makes it a pain to integrate. You should either sit together, or do
 things one after the other.
 
-Page last updated by EmilyBender - 2015-08-20
-{% endraw %}
+Page last updated by EmilyBender - 2015-08-20([edit](https://github.com/delph-in/docs/wiki/TomarMatrix/_edit)){% endraw %}

@@ -250,5 +250,4 @@ semantic construction in constraint-based grammars. In *Proceedings of
 the 39th Annual Meeting of the Association for Computational
 Linguistics* (pp. 140–147). Toulouse, France.
 
-Page last updated by EricZinda - 2022-09-12
-{% endraw %}
+Page last updated by EricZinda - 2022-09-12([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Basics/_edit)){% endraw %}

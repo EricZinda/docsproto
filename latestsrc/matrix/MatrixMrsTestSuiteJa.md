@@ -144,5 +144,4 @@ examples (2006-06-14).
 | [1061](http://cypriot.stanford.edu/~bond/mrs-jp060615/1061.html) | 吠える な ．                                       | Don't bark!                                         |             |
 | [1071](http://cypriot.stanford.edu/~bond/mrs-jp060615/1071.html) | 犬 が 吠え ながら 着い た ．                       | The dog arrived barking.                            |             |
 
-Page last updated by anonymous - 2011-10-09
-{% endraw %}
+Page last updated by anonymous - 2011-10-09([edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteJa/_edit)){% endraw %}

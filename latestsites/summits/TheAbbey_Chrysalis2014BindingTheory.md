@@ -112,5 +112,4 @@ not both.
 
 \[ Bracketing this for now. \]
 
-Page last updated by StephanOepen - 2014-02-17
-{% endraw %}
+Page last updated by StephanOepen - 2014-02-17([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014BindingTheory/_edit)){% endraw %}

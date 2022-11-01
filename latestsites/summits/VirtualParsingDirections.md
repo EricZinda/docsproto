@@ -133,5 +133,4 @@ potentially be used to guide beam search or top-down prediction.
 Olga: I'm afraid we're out of time. Thanks to all for the interesting
 discussion.
 
-Page last updated by JohnCarroll - 2020-07-15
-{% endraw %}
+Page last updated by JohnCarroll - 2020-07-15([edit](https://github.com/delph-in/docs/wiki/VirtualParsingDirections/_edit)){% endraw %}

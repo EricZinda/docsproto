@@ -91,5 +91,4 @@ Complete Reference:
 |              --tnt-max-tags=N               |                                                  Allow TNT to suggest up to N tags per word.                                                   | :white\_check\_mark: |                      |                      |         |
 |         --transfer-config=file.txt          |                                 Only enable transfer rules whose names are listed in file.txt (one per line).                                  |                      | :white\_check\_mark: |                      |         |
 
-Page last updated by Alexandre Rademaker - 2021-09-02
-{% endraw %}
+Page last updated by Alexandre Rademaker - 2021-09-02([edit](https://github.com/delph-in/docs/wiki/AceOptions/_edit)){% endraw %}

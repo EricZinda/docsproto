@@ -28,5 +28,4 @@ Current developers of AraGram are:
 - Tali Arad Greshler
 - Livnat Herzig Sheinfux
 
-Page last updated by TaliAradGreshler - 2015-10-18
-{% endraw %}
+Page last updated by TaliAradGreshler - 2015-10-18([edit](https://github.com/delph-in/docs/wiki/AraGram/_edit)){% endraw %}

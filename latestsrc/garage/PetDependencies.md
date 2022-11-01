@@ -209,5 +209,4 @@ For debian-based distros, run:
 
       sudo apt-get install libxmlrpc-c3-dev
 
-Page last updated by StephanOepen - 2014-03-30
-{% endraw %}
+Page last updated by StephanOepen - 2014-03-30([edit](https://github.com/delph-in/docs/wiki/PetDependencies/_edit)){% endraw %}

@@ -441,5 +441,4 @@ We encourage people to file bugs in their own distributions, and/or
 confirm the bug in Ubuntu so that it gets a higher priority.
 Alternatively, if you know about fonts then please fix it...
 
-Page last updated by Alexandre Rademaker - 2021-06-02
-{% endraw %}
+Page last updated by Alexandre Rademaker - 2021-06-02([edit](https://github.com/delph-in/docs/wiki/LkbInstallation/_edit)){% endraw %}

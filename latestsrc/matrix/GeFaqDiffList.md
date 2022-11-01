@@ -59,5 +59,4 @@ whole parse. Why not?](../GeFaqMissingRels)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by NedLetcher - 2012-08-23
-{% endraw %}
+Page last updated by NedLetcher - 2012-08-23([edit](https://github.com/delph-in/docs/wiki/GeFaqDiffList/_edit)){% endraw %}

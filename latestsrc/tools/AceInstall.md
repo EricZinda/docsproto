@@ -163,5 +163,4 @@ following command:
 
 See <https://github.com/delph-in/homebrew-delphin> for the Homebrew tap.
 
-Page last updated by T.J. Trimble - 2021-06-12
-{% endraw %}
+Page last updated by T.J. Trimble - 2021-06-12([edit](https://github.com/delph-in/docs/wiki/AceInstall/_edit)){% endraw %}

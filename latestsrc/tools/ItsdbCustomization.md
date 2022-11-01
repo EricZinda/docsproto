@@ -108,5 +108,4 @@ Values include:
 
     (#\g grammar), (#\v version). (#\t skeleton), (#\d date), (#\s system), (#\% "%")
 
-Page last updated by StephanOepen - 2012-08-07
-{% endraw %}
+Page last updated by StephanOepen - 2012-08-07([edit](https://github.com/delph-in/docs/wiki/ItsdbCustomization/_edit)){% endraw %}

@@ -53,5 +53,4 @@ some time soon hopefully
 - Right clicking on the Macintosh ACE-LUI interface (as of August
 2017-ish; anyone still having trouble? WP)
 
-Page last updated by FrancisBond - 2020-03-17
-{% endraw %}
+Page last updated by FrancisBond - 2020-03-17([edit](https://github.com/delph-in/docs/wiki/AceWishlist/_edit)){% endraw %}

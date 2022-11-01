@@ -75,5 +75,4 @@ can run the following under zhong/cmn/zhs.
 
 Finally, don't forget submitting your new profile into the repository.
 
-Page last updated by SanghounSong - 2015-03-19
-{% endraw %}
+Page last updated by SanghounSong - 2015-03-19([edit](https://github.com/delph-in/docs/wiki/ZhongRegressionTest/_edit)){% endraw %}

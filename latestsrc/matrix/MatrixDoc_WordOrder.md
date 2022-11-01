@@ -711,5 +711,4 @@ Müller.
 dialectal variation. Cambridge University Press, Cambridge, United
 Kingdom.
 
-Page last updated by GlennSlayden - 2018-02-01
-{% endraw %}
+Page last updated by GlennSlayden - 2018-02-01([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_WordOrder/_edit)){% endraw %}

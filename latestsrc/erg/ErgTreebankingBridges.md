@@ -15,5 +15,4 @@ available as options, but if they are, avoid them.)
 the one where the additional dependencies captured are rooted in
 (i.e. semantically headed by) open class words.
 
-Page last updated by EmilyBender - 2014-12-11
-{% endraw %}
+Page last updated by EmilyBender - 2014-12-11([edit](https://github.com/delph-in/docs/wiki/ErgTreebankingBridges/_edit)){% endraw %}

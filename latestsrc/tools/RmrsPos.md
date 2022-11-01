@@ -102,5 +102,4 @@ suitable for exchange between different POS inventories.
 | x := u        | other closed class                                      | ahem\_x\_1                          |                           |
 | u             | unknown                                                 |                                     |                           |
 
-Page last updated by FrancisBond - 2013-03-06
-{% endraw %}
+Page last updated by FrancisBond - 2013-03-06([edit](https://github.com/delph-in/docs/wiki/RmrsPos/_edit)){% endraw %}

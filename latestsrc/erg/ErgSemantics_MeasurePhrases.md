@@ -67,5 +67,4 @@ meters* or even *the pool has a length of ten meters*?
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by DanFlickinger - 2015-11-03
-{% endraw %}
+Page last updated by DanFlickinger - 2015-11-03([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_MeasurePhrases/_edit)){% endraw %}

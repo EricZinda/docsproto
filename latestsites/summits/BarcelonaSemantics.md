@@ -115,5 +115,4 @@ is potentially relevant to the interpretation. This is my view today.
 ... There might be reasonable reasons to add inference, but we don't
 know that yet.
 
-Page last updated by AntskeFokkens - 2009-07-27
-{% endraw %}
+Page last updated by AntskeFokkens - 2009-07-27([edit](https://github.com/delph-in/docs/wiki/BarcelonaSemantics/_edit)){% endraw %}

@@ -288,5 +288,4 @@ backward-application of variable type mappings?
 bother with &lt;&gt; operators (instead of just &gt;&gt;), and
 what's the point of the semarg &lt;&lt; u line in the example?
 
-Page last updated by MichaelGoodman - 2017-02-23
-{% endraw %}
+Page last updated by MichaelGoodman - 2017-02-23([edit](https://github.com/delph-in/docs/wiki/RmrsVpm/_edit)){% endraw %}

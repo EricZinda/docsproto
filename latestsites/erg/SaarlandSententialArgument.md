@@ -316,5 +316,4 @@ Francis: That the results were inconclusive surprised no one.
 
 Emily: Shall I record that as use or mention?
 
-Page last updated by EmilyBender - 2014-02-18
-{% endraw %}
+Page last updated by EmilyBender - 2014-02-18([edit](https://github.com/delph-in/docs/wiki/SaarlandSententialArgument/_edit)){% endraw %}

@@ -144,5 +144,4 @@ John: The most reliable test would be with an old image of the classical LKB fro
 
 Glenn: Maybe a KNOPPIX image?
 
-Page last updated by Guy Emerson - 2021-07-23
-{% endraw %}
+Page last updated by Guy Emerson - 2021-07-23([edit](https://github.com/delph-in/docs/wiki/Virtual2021DefeasibleIdentity/_edit)){% endraw %}

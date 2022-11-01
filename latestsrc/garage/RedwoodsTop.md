@@ -285,5 +285,4 @@ the LinGO Laboratory), and the [Norwegian LOGON
 Initiative](http://www.emmtee.net/) (through financial support to Dan
 Flickinger and Stephan Oepen).
 
-Page last updated by Olga Zamaraeva - 2022-10-19
-{% endraw %}
+Page last updated by Olga Zamaraeva - 2022-10-19([edit](https://github.com/delph-in/docs/wiki/RedwoodsTop/_edit)){% endraw %}

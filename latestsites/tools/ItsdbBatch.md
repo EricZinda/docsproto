@@ -91,5 +91,4 @@ the podium. For example, in the \*common-lisp\* buffer type
 batch from the menus and look at the output in the buffer. This can then
 be converted into a script.
 
-Page last updated by StephanOepen - 2012-08-07
-{% endraw %}
+Page last updated by StephanOepen - 2012-08-07([edit](https://github.com/delph-in/docs/wiki/ItsdbBatch/_edit)){% endraw %}

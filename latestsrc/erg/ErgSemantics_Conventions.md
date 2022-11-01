@@ -18,5 +18,4 @@ different ARG value.
 - ARG1\|2 or similar to underspecifications between just two
 positions?
 
-Page last updated by EmilyBender - 2013-12-04
-{% endraw %}
+Page last updated by EmilyBender - 2013-12-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Conventions/_edit)){% endraw %}

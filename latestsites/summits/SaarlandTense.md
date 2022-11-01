@@ -402,5 +402,4 @@ Ann: If you can find a place where it actually makes a difference to
 have a unary thing in ICONS instead of as a feature, that would be
 interesting to see.
 
-Page last updated by EmilyBender - 2013-08-02
-{% endraw %}
+Page last updated by EmilyBender - 2013-08-02([edit](https://github.com/delph-in/docs/wiki/SaarlandTense/_edit)){% endraw %}

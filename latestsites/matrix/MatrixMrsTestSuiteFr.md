@@ -108,5 +108,4 @@
 | N'aboyez pas !                                                   | Don't bark!                                   |
 | Le chien est arrivé en aboyant.                                  | The dog arrived barking.                      |
 
-Page last updated by JesseTseng - 2006-06-15
-{% endraw %}
+Page last updated by JesseTseng - 2006-06-15([edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteFr/_edit)){% endraw %}

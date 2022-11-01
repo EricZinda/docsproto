@@ -100,5 +100,4 @@ password: stwendel
 - [Petya's
 photos](http://plus.google.com/u/0/photos/110057092152807525970/albums/5908390534903322241)
 
-Page last updated by PetyaOsenova - 2013-08-05
-{% endraw %}
+Page last updated by PetyaOsenova - 2013-08-05([edit](https://github.com/delph-in/docs/wiki/SaarlandTop/_edit)){% endraw %}

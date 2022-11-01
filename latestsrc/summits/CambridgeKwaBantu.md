@@ -110,5 +110,4 @@ quickly push slowly fall combination.
 
 Berthold: Brings discussion to close.
 
-Page last updated by OlgaZamaraeva - 2019-07-15
-{% endraw %}
+Page last updated by OlgaZamaraeva - 2019-07-15([edit](https://github.com/delph-in/docs/wiki/CambridgeKwaBantu/_edit)){% endraw %}

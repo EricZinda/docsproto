@@ -102,5 +102,4 @@ would like to participate online.)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 
-Page last updated by GlennSlayden - 2020-06-22
-{% endraw %}
+Page last updated by GlennSlayden - 2020-06-22([edit](https://github.com/delph-in/docs/wiki/BellinghamParticipants/_edit)){% endraw %}

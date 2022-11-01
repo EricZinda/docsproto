@@ -248,5 +248,4 @@ volume = {6},\
 pages = {15-28},\
 }
 
-Page last updated by AntskeFokkens - 2013-01-14
-{% endraw %}
+Page last updated by AntskeFokkens - 2013-01-14([edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Person/_edit)){% endraw %}

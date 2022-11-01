@@ -169,5 +169,4 @@ clause).
      [ SYNSEM.LOCAL [ CAT.MC +,
                       CONT.HOOK.INDEX.E.ASPECT non-aspect ] ].
 
-Page last updated by SanghounSong - 2014-09-11
-{% endraw %}
+Page last updated by SanghounSong - 2014-09-11([edit](https://github.com/delph-in/docs/wiki/ZhongGeneration/_edit)){% endraw %}

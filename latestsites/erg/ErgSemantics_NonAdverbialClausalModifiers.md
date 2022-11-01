@@ -86,5 +86,4 @@ relation whose handle could serve as the other argument of the
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by EmilyBender - 2015-06-04
-{% endraw %}
+Page last updated by EmilyBender - 2015-06-04([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_NonAdverbialClausalModifiers/_edit)){% endraw %}

@@ -545,5 +545,4 @@ look at CFROM:CTO, which is unsatisfying.
 Dan/Francis: That's true if they're both adjectival modifiers, but it
 could be discernible if "black bear" is a noun-noun compound.
 
-Page last updated by MichaelGoodman - 2014-07-17
-{% endraw %}
+Page last updated by MichaelGoodman - 2014-07-17([edit](https://github.com/delph-in/docs/wiki/TomarQuantumMRS/_edit)){% endraw %}

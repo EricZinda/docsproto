@@ -103,5 +103,4 @@ verbs](../TheAbbey_Chrysalis2014Nominalization)
 - [Nominalization II: Deverbal
 nouns](../TheAbbey_Chrysalis2014DeverbalNouns)
 
-Page last updated by EmilyBender - 2014-02-20
-{% endraw %}
+Page last updated by EmilyBender - 2014-02-20([edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014/_edit)){% endraw %}

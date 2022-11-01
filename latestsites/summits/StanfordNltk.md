@@ -165,5 +165,4 @@ structures, etc.
 - Francis: it's more closed than that
 - Mike: are we good then?
 
-Page last updated by StephanOepen - 2016-06-24
-{% endraw %}
+Page last updated by StephanOepen - 2016-06-24([edit](https://github.com/delph-in/docs/wiki/StanfordNltk/_edit)){% endraw %}

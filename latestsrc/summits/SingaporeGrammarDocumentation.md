@@ -240,5 +240,4 @@ development process. it’s about software engineering discipline.
 dan: yes, we could probably draw a lot from software engineering best
 practices.
 
-Page last updated by EmilyBender - 2015-08-04
-{% endraw %}
+Page last updated by EmilyBender - 2015-08-04([edit](https://github.com/delph-in/docs/wiki/SingaporeGrammarDocumentation/_edit)){% endraw %}

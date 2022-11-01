@@ -110,5 +110,4 @@ Password: Tomar
 - davidinman dot net(work) stroke portugal stroke tomar dot
 hypertextmarkuplanguage
 
-Page last updated by DavidInman - 2014-07-24
-{% endraw %}
+Page last updated by DavidInman - 2014-07-24([edit](https://github.com/delph-in/docs/wiki/TomarTop/_edit)){% endraw %}

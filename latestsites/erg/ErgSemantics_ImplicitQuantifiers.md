@@ -80,5 +80,4 @@ implicit quantifiers to just the one udef\_q.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Page last updated by StephanOepen - 2015-12-21
-{% endraw %}
+Page last updated by StephanOepen - 2015-12-21([edit](https://github.com/delph-in/docs/wiki/ErgSemantics_ImplicitQuantifiers/_edit)){% endraw %}

@@ -298,5 +298,4 @@ Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
 [RmrsParaphrasing](../RmrsParaphrasing))
 
-Page last updated by FrancisBond - 2017-03-16
-{% endraw %}
+Page last updated by FrancisBond - 2017-03-16([edit](https://github.com/delph-in/docs/wiki/LogonTransfer/_edit)){% endraw %}

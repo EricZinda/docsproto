@@ -47,5 +47,4 @@ something big enough for the grammar to parse your sentences with (e.g.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Page last updated by EmilyBender - 2016-02-09
-{% endraw %}
+Page last updated by EmilyBender - 2016-02-09([edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule1/_edit)){% endraw %}

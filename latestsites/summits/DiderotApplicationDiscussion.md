@@ -483,5 +483,4 @@ formalisms, they partially try and reinvent the wheel.
 
 Scribed by [GuyEmerson](https://blog.inductorsoftware.com/docsproto/tools/GuyEmerson).
 
-Page last updated by GuyEmerson - 2018-06-19
-{% endraw %}
+Page last updated by GuyEmerson - 2018-06-19([edit](https://github.com/delph-in/docs/wiki/DiderotApplicationDiscussion/_edit)){% endraw %}
