@@ -99,4 +99,5 @@ Key examples:
 - It's the cat that chased the mouse that it's the dog that chased ...
 \[not quite like that.\]
 - \[Some example with two clefts, one inside a rel cl??\]
-{% endraw %}
+
+_Last updated: _{% endraw %}

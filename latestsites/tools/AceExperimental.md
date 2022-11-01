@@ -86,4 +86,5 @@ on the generator output do not cause the test to fail.
 There may not be enough information on this page to successfully try out
 some of these features. Contact [WoodleyPackard](/WoodleyPackard) if you
 want to deploy something and need help.
-{% endraw %}
+
+_Last updated: _{% endraw %}

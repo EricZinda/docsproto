@@ -159,4 +159,5 @@ constructions)
 
 - [ErgSemantics](../ErgSemantics) Main Page
 - [How to Cite this Work](../ErgSemantics_HowToCite)
-{% endraw %}
+
+_Last updated: _{% endraw %}

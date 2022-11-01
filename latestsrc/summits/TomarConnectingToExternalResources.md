@@ -201,4 +201,5 @@ it if we're going to do it.
 ...
 
 \*applause\*
-{% endraw %}
+
+_Last updated: _{% endraw %}

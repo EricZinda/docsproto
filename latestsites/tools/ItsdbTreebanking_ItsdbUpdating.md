@@ -96,4 +96,5 @@ Treebank only those places that have changed
 
 In this stage, the annotator can annotate any trees that have changed,
 exploiting any relevant existing decisions.
-{% endraw %}
+
+_Last updated: _{% endraw %}

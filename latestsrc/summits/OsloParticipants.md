@@ -92,4 +92,5 @@ time; Enjoy this event!)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
-{% endraw %}
+
+_Last updated: _{% endraw %}

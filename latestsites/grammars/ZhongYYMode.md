@@ -84,4 +84,5 @@ following line (add *\[0\]* after *result*).
 
     for w in result:
        ...
-{% endraw %}
+
+_Last updated: _{% endraw %}

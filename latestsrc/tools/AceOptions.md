@@ -90,4 +90,5 @@ Complete Reference:
 |            --tnt-model=/.../path            |                                                 Invoke TNT for tagging, using the given model.                                                 | :white\_check\_mark: |                      |                      |         |
 |              --tnt-max-tags=N               |                                                  Allow TNT to suggest up to N tags per word.                                                   | :white\_check\_mark: |                      |                      |         |
 |         --transfer-config=file.txt          |                                 Only enable transfer rules whose names are listed in file.txt (one per line).                                  |                      | :white\_check\_mark: |                      |         |
-{% endraw %}
+
+_Last updated: _{% endraw %}

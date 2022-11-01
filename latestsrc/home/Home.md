@@ -158,4 +158,5 @@ is a link to the archive near the top of the page.
 
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
-{% endraw %}
+
+_Last updated: _{% endraw %}

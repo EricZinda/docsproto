@@ -544,4 +544,5 @@ look at CFROM:CTO, which is unsatisfying.
 
 Dan/Francis: That's true if they're both adjectival modifiers, but it
 could be discernible if "black bear" is a noun-noun compound.
-{% endraw %}
+
+_Last updated: _{% endraw %}

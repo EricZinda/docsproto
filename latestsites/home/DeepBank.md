@@ -213,4 +213,5 @@ Evaluation (LREC'10), Malta, 2010.
 7. Valia Kordoni, Yi Zhang. Annotating Wall Street Journal Texts Using
 a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
 Linguistic Annotation Workshop, Singapore, 2009.
-{% endraw %}
+
+_Last updated: _{% endraw %}

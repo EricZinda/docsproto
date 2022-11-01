@@ -223,4 +223,5 @@ WP: Would you like something like FEAT &lt; value, value, value &gt; =
 \[nn\] (+) \[mm\]?
 
 EB: That would be nice :slightly\_smiling\_face:
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -172,4 +172,5 @@ partial VP-fronting. Have to combine the auxiliary that doesn’t know
 anything about its complements with complements. Burden is on the side
 where you have the least information. If you do the permutation on the
 lexical lists (on the lexical verb), that’s the one that combines late.
-{% endraw %}
+
+_Last updated: _{% endraw %}

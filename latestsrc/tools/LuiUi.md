@@ -33,4 +33,5 @@ The LaTeX export from LUI uses
 [avm.sty](http://nlp.stanford.edu/~manning/tex/avm.sty) for AVMs, and
 [qtree.sty](http://www.ctan.org/tex-archive/macros/latex/contrib/qtree/)
 for trees.
-{% endraw %}
+
+_Last updated: _{% endraw %}

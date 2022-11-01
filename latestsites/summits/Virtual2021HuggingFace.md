@@ -140,4 +140,5 @@ Emily (in the chat): Remember that Grammar Catalog we started back in 2011?
 
 Emily: Was great to see lots of enthusiasm for the topic.
 
-{% endraw %}
+
+_Last updated: _{% endraw %}

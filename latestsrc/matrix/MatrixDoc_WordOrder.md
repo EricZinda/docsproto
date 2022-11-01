@@ -710,4 +710,5 @@ Müller.
 - Michael O’Siadhail. 1989. Modern Irish: grammatical structure and
 dialectal variation. Cambridge University Press, Cambridge, United
 Kingdom.
-{% endraw %}
+
+_Last updated: _{% endraw %}

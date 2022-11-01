@@ -243,4 +243,5 @@ one better placed than us.
 
 oe: Thank you for that optimistic note, and thank you all for the
 treatment.
-{% endraw %}
+
+_Last updated: _{% endraw %}

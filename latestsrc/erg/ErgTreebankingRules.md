@@ -185,4 +185,5 @@ adverb, mostly to implement Jongbok's approach to aux negation as in
 - Another inflectional rule which doesn't change spelling, and which
 makes an unflected noun stem into a word which is underspecified for
 mass or count (a word like "paper")
-{% endraw %}
+
+_Last updated: _{% endraw %}

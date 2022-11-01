@@ -192,4 +192,5 @@ place.
   :post
   
   - **no documentation here, move along**
-{% endraw %}
+
+_Last updated: _{% endraw %}

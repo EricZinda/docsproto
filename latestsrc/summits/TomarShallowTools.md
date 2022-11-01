@@ -147,4 +147,5 @@ be mapped. You’d be able to “just run it.” A live API for this would be
 more compelling than “just a file format.”
 
 Moderator-Tim: conclude.
-{% endraw %}
+
+_Last updated: _{% endraw %}

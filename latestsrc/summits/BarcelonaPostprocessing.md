@@ -43,4 +43,5 @@ machinery. It may therefore be straightforward to reuse the code for
 output manipulation.
 
 # Notes
-{% endraw %}
+
+_Last updated: _{% endraw %}

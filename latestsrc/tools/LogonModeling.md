@@ -319,4 +319,5 @@ uses your generation profile for the training:
 6\. Train the model:
 
     ./load --binary train.g.lisp
-{% endraw %}
+
+_Last updated: _{% endraw %}

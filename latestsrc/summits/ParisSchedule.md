@@ -122,4 +122,5 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 ## July 6
 
 See [ParisOpen](../ParisOpen)
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -98,4 +98,5 @@ Emily: 2005 paper by Jeff Good makes the case for handling morphophonology in an
 B: description about how he deals with lexicon morphology in the French grammar. 
 
 Woodley: YY input mode. External tool to make the analysis. Not quite integrated. Spanish grammar used.
-{% endraw %}
+
+_Last updated: _{% endraw %}

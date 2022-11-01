@@ -12,4 +12,5 @@ elsewhere)
 - Uses of [SE](../RomSe)
 - [P+Det contractions](../RomContract) Also very relevant to [Modern
 Greek](../MgrgSummary).
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -111,4 +111,5 @@
 | 1051 | Browne versuchte es.                                          | Browne tried to.                              |
 | 1061 | Bell nicht!                                                   | Don't bark!                                   |
 | 1071 | Der Hund kam bellend an.                                      | The dog arrived barking.                      |
-{% endraw %}
+
+_Last updated: _{% endraw %}

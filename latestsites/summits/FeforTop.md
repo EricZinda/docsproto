@@ -137,4 +137,5 @@ organizers](../FeforSuggestions).
 # Photos
 
 Please post conference photos on [FeforPhotos](../FeforPhotos)!
-{% endraw %}
+
+_Last updated: _{% endraw %}

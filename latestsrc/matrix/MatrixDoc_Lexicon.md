@@ -1797,4 +1797,5 @@ editors = {K. Klar, M. Langdon, and S. Silver},\
 pages = {85-99},\
 publisher = {The Hague: Mouton}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

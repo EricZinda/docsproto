@@ -121,4 +121,5 @@ means for increasing it
 - Breakout sessions
 
 **19:00** Jazz concert in the park!
-{% endraw %}
+
+_Last updated: _{% endraw %}

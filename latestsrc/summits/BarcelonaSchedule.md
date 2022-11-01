@@ -105,4 +105,5 @@ summit@delph-in.net.
 | 12:30 |  –  | 13:30 | Sub-Group Activities                             |
 | 13:30 |  –  | 14:30 | *Lunch*                                          |
 | 14:30 |  –  | 16:30 | Sub-Group Activities                             |
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -302,4 +302,5 @@ however, maintaining two distinct branches is not a good thing,
 and once flop(1) performance with Boost were resolved, some
 testing of the ERG on \`main' should fairly quickly allow
 merging of the two branches, i hope.
-{% endraw %}
+
+_Last updated: _{% endraw %}

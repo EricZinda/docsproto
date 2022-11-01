@@ -142,4 +142,5 @@ output.
     PERF : PERF
       + >> +
       * >> !
-{% endraw %}
+
+_Last updated: _{% endraw %}

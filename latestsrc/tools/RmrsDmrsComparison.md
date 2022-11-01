@@ -154,4 +154,5 @@ optional.
 
 The output is a simple ID pair list. If multiple duplication occurs in a
 file the ID numbers will be output several times.
-{% endraw %}
+
+_Last updated: _{% endraw %}

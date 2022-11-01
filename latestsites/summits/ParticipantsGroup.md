@@ -77,4 +77,5 @@ This list provides an incomplete mapping from MoinMoin usernames to GitHub usern
 - YiZhang
 - [ChowSiewYeng](/siewyeng)
 - TestUser
-{% endraw %}
+
+_Last updated: _{% endraw %}

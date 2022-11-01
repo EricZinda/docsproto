@@ -35,4 +35,5 @@ components; see the [LogonExtras](../LogonExtras) page for details. In
 determining which parts of a local copy correspond to which revisions in
 the repository, the SVN sub-commands *status* and *info* can be very
 convenient.
-{% endraw %}
+
+_Last updated: _{% endraw %}

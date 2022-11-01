@@ -245,4 +245,5 @@ Ann: yes.
 
 Oe: Formally, in an MRS a handle and a non-handle can never be in the
 same position.
-{% endraw %}
+
+_Last updated: _{% endraw %}

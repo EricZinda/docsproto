@@ -133,4 +133,5 @@ eat"
   
   - no-one is working on this within the lkb
   - we can do some of this with paraphrase rules
-{% endraw %}
+
+_Last updated: _{% endraw %}

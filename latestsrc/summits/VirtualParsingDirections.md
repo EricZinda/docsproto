@@ -132,4 +132,5 @@ potentially be used to guide beam search or top-down prediction.
 
 Olga: I'm afraid we're out of time. Thanks to all for the interesting
 discussion.
-{% endraw %}
+
+_Last updated: _{% endraw %}

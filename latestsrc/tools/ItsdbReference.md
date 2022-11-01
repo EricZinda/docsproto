@@ -225,4 +225,5 @@ If there are translations, then it also makes an output file. This is
 useful for automatically scoring machine translation.
 
 - It gets confused if there are more than 9 translations ...
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -1,2 +1,3 @@
 {% raw %}Placeholder for Dan's notes.
-{% endraw %}
+
+_Last updated: _{% endraw %}

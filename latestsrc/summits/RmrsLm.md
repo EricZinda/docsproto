@@ -606,4 +606,5 @@ of the 10th International Conference on Theoretical and
 Methodological Issues in Machine Translation, Skövde, Sweden, 2007.
 - E. Velldal. Empirical Realization Ranking Ph.D. thesis, Department
 of Informatics, University of Oslo Oslo, Norway, 2008
-{% endraw %}
+
+_Last updated: _{% endraw %}

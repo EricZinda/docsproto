@@ -68,4 +68,5 @@ also distinguished in their value for the GENDER feature, and *cuite*
 constrains the GENDER value of its argument to be feminine. This seems
 somewhat redundant. (See also
 [FeforDroppedArguments](../FeforDroppedArguments).)
-{% endraw %}
+
+_Last updated: _{% endraw %}

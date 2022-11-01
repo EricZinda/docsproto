@@ -137,4 +137,5 @@ first and incomplete version 0.1 was presented in Ytrestøl et al.
 (2012)](https://www.duo.uio.no/handle/10852/34914), and shortly after
 moderately refined (for increased readability) as the current version
 1.0 (documented above).
-{% endraw %}
+
+_Last updated: _{% endraw %}

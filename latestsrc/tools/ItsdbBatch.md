@@ -90,4 +90,5 @@ the podium. For example, in the \*common-lisp\* buffer type
 :trace tsdb::browse-trees then run the sequence of commands you want to
 batch from the menus and look at the output in the buffer. This can then
 be converted into a script.
-{% endraw %}
+
+_Last updated: _{% endraw %}

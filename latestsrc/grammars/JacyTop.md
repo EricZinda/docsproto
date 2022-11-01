@@ -158,4 +158,5 @@ and Computation, Taipei 1999.
 
 Siegel, Melanie (1998): Japanese Particles in an HPSG Grammar.
 Verbmobil-Report 220. Universität des Saarlandes.
-{% endraw %}
+
+_Last updated: _{% endraw %}

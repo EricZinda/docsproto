@@ -204,4 +204,5 @@ title = {Widespread but Not Universal: Improving the Typological
 Coverage of the {G}rammar {M}atrix},\
 school = {University of Washington}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

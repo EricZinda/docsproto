@@ -144,4 +144,5 @@ strings in the ERG (e.g. \_now\_a\_1). With these limitations (and
 doubtlessly others), nevertheless, generation is possible for a large
 proportion of exemplars from the MRS test suite; more systematic (batch)
 testing is pending.
-{% endraw %}
+
+_Last updated: _{% endraw %}

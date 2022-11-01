@@ -40,4 +40,5 @@ that our MRSs (as produced by the ERG, say) can be viewed as
 descriptions of underspecified representations, i.e. these predicate
 symbol are underspecified… (but [AlexLascarides](https://blog.inductorsoftware.com/docsproto/tools/AlexLascarides) was
 unfortunately not present at that meeting).
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -61,4 +61,5 @@ on the [OsloSchedule](../OsloSchedule) page.
 
 [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2017/)
 Password: Akershus
-{% endraw %}
+
+_Last updated: _{% endraw %}

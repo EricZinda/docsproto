@@ -70,4 +70,5 @@ YYYY-MM-DD
 ERG will probably shorten to just YYYY for stable releases:
 
 - e.g. "ERG mal (2020)"
-{% endraw %}
+
+_Last updated: _{% endraw %}

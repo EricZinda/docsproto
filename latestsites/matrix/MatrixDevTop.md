@@ -252,4 +252,5 @@ detailed below explains the directories and files for a single branch
     install      [bash script for installing the code (e.g. to the live site)]
     matrix.py    [Python script for running customize, tests, install, etc.]
     matrix.cgi   [CGI script to handle web requests]
-{% endraw %}
+
+_Last updated: _{% endraw %}

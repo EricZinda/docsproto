@@ -73,4 +73,5 @@ right points to the grammarian.
 
 Antske: Given the time constraints, something can be done on
 prioritization. Let me know if you have specific requests.
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -101,4 +101,5 @@ would like to participate online.)
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Mon-Fri, most likely)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-{% endraw %}
+
+_Last updated: _{% endraw %}

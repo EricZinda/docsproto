@@ -120,4 +120,5 @@ If you have any questions or comments, please email
 - Takayuki Kuribayashi (NICT)
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
-{% endraw %}
+
+_Last updated: _{% endraw %}

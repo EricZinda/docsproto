@@ -77,4 +77,5 @@ Look for extrinsic evaluation settings
 
 Propose SIG on preparing a tutorial, and expect that you will be
 committed to helping if you attend.
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -43,4 +43,5 @@ guide to tdl syntax.)](GeFaqTdlSyntax)
 should I do?](GeFaqTdlSyntax)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

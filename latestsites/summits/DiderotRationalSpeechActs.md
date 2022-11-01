@@ -234,4 +234,5 @@ Emily: Are there any pronouns in the shapeworld data set?
 Guy: I don't think it's there at the moment.
 
 Emily: You'd need long complex descriptions...
-{% endraw %}
+
+_Last updated: _{% endraw %}

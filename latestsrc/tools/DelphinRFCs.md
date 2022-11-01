@@ -15,4 +15,5 @@ configuration)
 8. [TsdbSchemaRfc](../TsdbSchemaRfc) ("relations files")
 9. [MatrixChoicesRfc](../MatrixChoicesRfc) ("choices files"; grammar
 specifications for the Grammar Matrix)
-{% endraw %}
+
+_Last updated: _{% endraw %}

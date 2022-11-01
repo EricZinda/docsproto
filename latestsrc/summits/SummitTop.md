@@ -106,4 +106,5 @@ is the number of SIG sessions they will be attending.
 this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -111,4 +111,5 @@
 | 1051 | O Bobi tentou.                                          | Browne tried to.                              |
 | 1061 | Não ladres!                                             | Don't bark!                                   |
 | 1071 | O cão chegou a ladrar.                                  | The dog arrived barking.                      |
-{% endraw %}
+
+_Last updated: _{% endraw %}

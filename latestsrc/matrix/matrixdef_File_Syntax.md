@@ -336,4 +336,5 @@ at the end:
 
 
         Radio neg-infl-type "Negative inflection type" "On: "
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -105,4 +105,5 @@ oe: no
 
 Woodley + oe: the VPM says how you get to the semi, but the actual
 description of the semi is in erg.smi and core.smi
-{% endraw %}
+
+_Last updated: _{% endraw %}

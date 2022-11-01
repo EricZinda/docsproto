@@ -34,4 +34,5 @@ Interface) can be invoked by using an option -l.
 
 You can use the YY mode for your input of parsing. See
 [ZhongYYMode](../ZhongYYMode).
-{% endraw %}
+
+_Last updated: _{% endraw %}

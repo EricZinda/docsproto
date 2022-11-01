@@ -75,4 +75,5 @@ development history (using profiles from the Tanaka corpus):
 433-434](http://nedned.net/gdelta_out/jacy_433-434_tc_summary.html)
 - [Revisions
 446-447](http://nedned.net/gdelta_out/jacy_446-447_tc_summary.html)
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -13,4 +13,5 @@ entire hierarchy may either be impractical and/or impossible and you
 will need to look at specific subsets of the hierarchy.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -92,4 +92,5 @@ approval =))
 - [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang) (It's a shame I can't make
 it)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (attending, July 29 - Aug. 2)
-{% endraw %}
+
+_Last updated: _{% endraw %}

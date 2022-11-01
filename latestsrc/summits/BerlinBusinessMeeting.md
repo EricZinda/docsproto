@@ -33,4 +33,5 @@ Comments
 - -- CIL 2008 is 7/21-7/26 (Seoul) -- HPSG 2008 is likely to be
 7/28-7/29 (Keihana) -- Even if DELPH-IN is in Japan, that's pretty
 close to Seoul.
-{% endraw %}
+
+_Last updated: _{% endraw %}

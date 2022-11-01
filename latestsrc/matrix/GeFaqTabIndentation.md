@@ -29,4 +29,5 @@ definition, or you see something aligned funny.
 funny. Check your close brackets, commas, and ampersands.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

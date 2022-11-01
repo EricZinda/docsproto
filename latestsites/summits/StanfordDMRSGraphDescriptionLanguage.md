@@ -130,4 +130,5 @@ A:
 Chair:
 
 - Ok, then let's thank Guy and Alex.
-{% endraw %}
+
+_Last updated: _{% endraw %}

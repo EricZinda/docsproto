@@ -133,4 +133,5 @@ organizing the WeScience Treebank.
 # Outlook: Next Steps
 
 # Acknowledgements
-{% endraw %}
+
+_Last updated: _{% endraw %}

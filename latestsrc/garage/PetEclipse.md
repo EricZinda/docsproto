@@ -147,4 +147,5 @@ configuration.
 **Problem:** The debugger stops at or jumps to the wrong positions.
 
 Make sure that your debug directory was configured with "CXXFLAGS=-O0".
-{% endraw %}
+
+_Last updated: _{% endraw %}

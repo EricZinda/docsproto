@@ -222,4 +222,5 @@ in the comment.
 
 Having many misaligned sentences makes cross language comparison just
 that much harder, ...
-{% endraw %}
+
+_Last updated: _{% endraw %}

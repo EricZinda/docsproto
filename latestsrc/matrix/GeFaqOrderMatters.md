@@ -30,4 +30,5 @@ type?](../GeFaqViewType)
 rules?](../GeFaqViewEntry)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

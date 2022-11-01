@@ -73,4 +73,5 @@ available from web demo
 **fcb:** encourage grammarians to set it up
 
 **dan:** ran script on new version erg - works fine?
-{% endraw %}
+
+_Last updated: _{% endraw %}

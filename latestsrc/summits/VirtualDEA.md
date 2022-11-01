@@ -215,4 +215,5 @@ similar to the one you are building at NTU.
 
 Dan: We can get more money maybe if we show that annotation is
 beneficial (with numbers).
-{% endraw %}
+
+_Last updated: _{% endraw %}

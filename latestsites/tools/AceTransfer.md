@@ -103,4 +103,5 @@ process):
 
 The above examples are not meant to represent any real phenomenon in
 English-French translation.
-{% endraw %}
+
+_Last updated: _{% endraw %}

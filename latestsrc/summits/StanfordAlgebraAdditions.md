@@ -708,4 +708,5 @@ something more complicated…
 
 Ann: The mutual selection would be a problem for me, even if there
 wasn't a SLASH involved.
-{% endraw %}
+
+_Last updated: _{% endraw %}

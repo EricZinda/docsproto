@@ -20,4 +20,5 @@ And some guides to tools:
   - [Lexical Type Database](https://github.com/fcbond/ltdb)
 descriptions of rules, lexical types and more can be found here
 - [Classic Treebanking with the Fine System](../ItsdbTreebanking)
-{% endraw %}
+
+_Last updated: _{% endraw %}

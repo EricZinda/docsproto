@@ -401,4 +401,5 @@ one-place.
 Ann: If you can find a place where it actually makes a difference to
 have a unary thing in ICONS instead of as a feature, that would be
 interesting to see.
-{% endraw %}
+
+_Last updated: _{% endraw %}

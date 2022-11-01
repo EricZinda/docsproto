@@ -38,4 +38,5 @@ inheriting a constraint from its supertype. What might be going
 on?](GeFaqConfusingTypo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -308,4 +308,5 @@ year = {2010},\
 title = {Argument Optionality in the LinGO Grammar Matrix},\
 conference = {Coling}\
 }
-{% endraw %}
+
+_Last updated: _{% endraw %}

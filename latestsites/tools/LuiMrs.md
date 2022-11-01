@@ -57,4 +57,5 @@ over variables will highlight all occurences of the same variable.
 
 - <img src="http://www.delph-in.net/lui/dependencies.png" title="http://www.delph-in.net/lui/dependencies.png" class="external_image" alt="http://www.delph-in.net/lui/dependencies.png" />
 
-{% endraw %}
+
+_Last updated: _{% endraw %}

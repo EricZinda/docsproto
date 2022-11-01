@@ -328,4 +328,5 @@ instance specified.
 
     (defparameter *non-idiom-root*
         'root_non_idiom )
-{% endraw %}
+
+_Last updated: _{% endraw %}

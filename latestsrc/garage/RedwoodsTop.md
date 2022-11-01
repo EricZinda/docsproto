@@ -284,4 +284,5 @@ project](http://www.edinburghstanfordlink.org/projects/intro.html)),
 the LinGO Laboratory), and the [Norwegian LOGON
 Initiative](http://www.emmtee.net/) (through financial support to Dan
 Flickinger and Stephan Oepen).
-{% endraw %}
+
+_Last updated: _{% endraw %}

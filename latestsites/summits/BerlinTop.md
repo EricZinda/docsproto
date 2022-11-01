@@ -225,4 +225,5 @@ Proposed discussion topics:
 - [BerlinPhotos](../BerlinPhotos) (photos taken during the summit)
 - [EvaluationParCorp](../EvaluationParCorp) (continuation of discussion
 about parallel corpora)
-{% endraw %}
+
+_Last updated: _{% endraw %}

@@ -164,4 +164,5 @@ Stephan: showing wesearch.delph-in.net visualizations
 Can do BRAT. SDP format (ConLL like). Nice feature is that BRAT
 annotations are standoff. Would be good for the visualisations to be
 interoperable.
-{% endraw %}
+
+_Last updated: _{% endraw %}

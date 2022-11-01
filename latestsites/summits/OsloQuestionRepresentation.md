@@ -281,4 +281,5 @@ English lets us do, except maybe in echo question land.
 Dan: This slope isn't slippery: The wh words 'launch' the param-icons,
 and the grammar can have constraints on which constructions allow them
 to attach (meaning which event variables are available to them).
-{% endraw %}
+
+_Last updated: _{% endraw %}

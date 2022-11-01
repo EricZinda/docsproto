@@ -210,4 +210,5 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 ## Token Splitting
 
 # Unknown Word Handling
-{% endraw %}
+
+_Last updated: _{% endraw %}

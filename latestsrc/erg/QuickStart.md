@@ -132,4 +132,5 @@ reading results for                2    2 results
 
 If you want a more full-featured setup for grammar development, you
 might look into the full LOGON distribution: [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
-{% endraw %}
+
+_Last updated: _{% endraw %}

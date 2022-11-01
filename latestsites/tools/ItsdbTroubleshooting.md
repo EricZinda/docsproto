@@ -100,4 +100,5 @@ may have to stop scim first, as it ovewrites the file when it stops
 Add a scaling factor to your .swishrc
 
     tk scaling -displayof . 1.0
-{% endraw %}
+
+_Last updated: _{% endraw %}

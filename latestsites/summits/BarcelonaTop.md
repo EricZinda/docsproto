@@ -104,4 +104,5 @@ please email [MontserratMarimon](/MontserratMarimon)
 
 - Montserrat Marimon (Universitat de Barcelona)
 - Núria Bel (Universitat Pompeu Fabra)
-{% endraw %}
+
+_Last updated: _{% endraw %}
