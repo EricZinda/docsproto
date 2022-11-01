@@ -35,5 +35,9 @@ Velldal and Petter Haugereid (2011) [Deep Open Source Machine
 Translation](http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s10590-011-9099-4).
 In *Machine Translation* **25**(2) 87-105
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

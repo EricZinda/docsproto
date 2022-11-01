@@ -42,5 +42,9 @@ on July 6 to pre-register, by emailing summit@delph-in.net.
 | 16:55-17:15             | [Chart Mining](http://www.delph-in.net/2010/yi.pdf)                                                                              | Yi Zhang             |
 | 17:15-17:20             | Closing remarks                                                                                                                  | Stephan Oepen        |
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}
