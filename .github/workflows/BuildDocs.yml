@@ -34,7 +34,7 @@ jobs:
         uses: ./main/IncludeSourceAction
         id: includeSource
         with:
-          definition-file: ./main/sitedefinitions.json
+          definition-file: ./main/sitesdefinitions.json
 
 
       - run: python -V
