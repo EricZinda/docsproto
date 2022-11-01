@@ -2,6 +2,10 @@
   "Comments": [
     "This comments section is solely for comments that describe this json file"
   ],
+  "SourceRepositories":
+  {
+    "docswiki": {"Repository": "delph-in/docs.wiki"}
+  },
   "Sites":
   [
     {"SiteFullName": "DELPH-IN Conceptual Docs", "SiteNavigationName": "Concepts", "Site": "concept", "HomePage": "ErgSemantics.md"},

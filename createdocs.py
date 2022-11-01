@@ -46,20 +46,30 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
             file_definition["FileMissing"] = True
 
 
-def get_change_text(src_file_path):
+def get_change_text(repositories_definitions, sites_definitions, file_definition, src_file_path):
     global quickAndDirty
     if quickAndDirty:
         return "<update date omitted for speed>"
     else:
+        if file_definition["SrcDir"] in repositories_definitions:
+            repository = repositories_definitions[file_definition["SrcDir"]]["Repository"]
+            if repository.endswith(".wiki"):
+                repository = repository[0:-5] + "/wiki"
+            file_name, file_extension = os.path.splitext(file_definition["SrcFile"])
+
+            link = f"https://github.com/{repository}/{file_name}/_edit"
+        else:
+            link = ""
+
         workingDirectory = os.path.dirname(src_file_path)
         # TODO: would running the whole list at once be more efficient? cat filelist.txt | while read filename; do echo "$filename $(git log -s -n1 --pretty='tformat:%an - %cs' $filename)"; done
         result = subprocess.check_output([f"git log -s -n1 --pretty='tformat:%an - %cs' {src_file_path}"], cwd=workingDirectory, shell=True).decode("utf-8")
-        final = "\nPage last updated by " + result
+        final = "\nPage last updated by " + result.strip() + (f"([edit]({link}))" if link != "" else "")
         # print(f"Source: {src_file_path} {final}")
         return final
 
 
-def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_path, dst_file_path):
+def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
     if file_extension.lower() == ".md":
         with open(src_file_path, "r") as txtFile:
@@ -74,7 +84,7 @@ def convert_and_copy_doc(sites_definitions, parser, file_definition, src_file_pa
             # wrap all markdown with raw/endraw so that Jekyll won't interpret {{ as being a Jekyll liquid expression
             txtFile.write("{% raw %}")
             txtFile.write(final_result)
-            txtFile.write(get_change_text(src_file_path))
+            txtFile.write(get_change_text(repositories_definitions, sites_definitions, file_definition, src_file_path))
             txtFile.write("{% endraw %}")
             print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
 
@@ -240,7 +250,7 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
         if fileDefinition["Section"] != "<todo>":
             # links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
             try:
-                links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
+                links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
             except Exception as error:
                 errors.append({"Definition": fileDefinition, "Error": str(error)})
 
@@ -353,7 +363,7 @@ def convert_pages_flat_to_tree(sites_definition):
 
 
 def convert_to_flat_definition(sites_definitions):
-    converted = {"Pages": []}
+    converted = {"Pages": [], "SourceRepositories": {}}
     for top_key in sites_definitions.items():
         if top_key[0] == "Pages":
             for site in top_key[1].items():

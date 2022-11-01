@@ -11,9 +11,9 @@
     "   to add links to edit files"
   ],
   "SourceRepositories":
-  [
-    { "Repository": "delph-in/docs.wiki", "SrcDir": "docswiki" }
-  ],
+    {
+      "docswiki": {"Repository": "delph-in/docs.wiki"}
+    },
   "Sites":
   [
     {"SiteFullName": "DELPH-IN Docs", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
