@@ -49,7 +49,7 @@
       ]},
       {"Section": "Grammars (partial or experimental)", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
-        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"},
+        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
       ]},
 
       {"Section": "PET", "Pages": [
