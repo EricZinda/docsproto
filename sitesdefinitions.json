@@ -35,7 +35,6 @@
         {"Page": "Delphin News", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Projects", "Pages": [
-        {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
         {"Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
         {"Page": "DeepBank 1.0", "SrcDir": "docswiki", "SrcFile": "DeepBank_OneZero.md", "Referrer": "concept/DeepBank.md"},
         {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
@@ -45,6 +44,14 @@
       ]}
     ],
     "garage": [
+      {"Section": "Completed Projects", "Pages": [
+        {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"}
+      ]},
+      {"Section": "Grammars (partial or experimental)", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
+        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"},
+      ]},
+
       {"Section": "PET", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
         {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "PetDependencies.md", "Referrer": "tools/PetTop.md"},
@@ -133,22 +140,8 @@
       ]}
     ],
     "grammars": [
-      {"Section": "Grammar Catalogue", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
-        {"Page": "Arabic", "SrcDir": "docswiki", "SrcFile": "AraGram.md", "Referrer": "home/HeGram.md"},
-        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"},
-        {"Page": "German", "SrcDir": "docswiki", "SrcFile": "CheetahTop.md", "Referrer": "home/GrammarCatalogue.md"},
-        {"Page": "Greek", "SrcDir": "docswiki", "SrcFile": "MgrgSummary.md", "Referrer": "home/RomanceTop.md"},
-        {"Page": "Hebrew", "SrcDir": "docswiki", "SrcFile": "HeGram.md", "Referrer": "home/GrammarCatalogue.md"},
-        {"Page": "Indonesian (INDRA)", "SrcDir": "docswiki", "SrcFile": "IndraTop.md", "Referrer": "tools/TypediffTop.md"},
-        {"Page": "Korean", "SrcDir": "docswiki", "SrcFile": "KrgTop.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "Norwegian", "SrcDir": "docswiki", "SrcFile": "NorsourceTop.md", "Referrer": "home/GrammarCatalogue.md"},
-        {"Page": "Mandarin ", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "Norwegian Summary", "SrcDir": "docswiki", "SrcFile": "NorsourceSummary.md", "Referrer": "home/NorsourceTop.md"},
-        {"Page": "Norwegian Download", "SrcDir": "docswiki", "SrcFile": "NorsourceDownload.md", "Referrer": "home/NorsourceTop.md"},
-        {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "RussianQuestionsGrammarTop.md", "Referrer": "home/GrammarCatalogue.md"},
-        {"Page": "Slavic", "SrcDir": "docswiki", "SrcFile": "SlavicTop.md", "Referrer": "home/GrammarCatalogue.md"},
-        {"Page": "Wambaya", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"}
+      {"Section": "Norwegian", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "NorsourceTop.md", "Referrer": "home/GrammarCatalogue.md"},
       ]},
       {"Section": "Chinese (Zhong)", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ZhongTop.md", "Referrer": "tools/TypediffTop.md"},
@@ -174,8 +167,23 @@
         {"Page": "LexDb", "SrcDir": "docswiki", "SrcFile": "JacyLexDb.md", "Referrer": "home/JacyDoc.md"},
         {"Page": "Performance", "SrcDir": "docswiki", "SrcFile": "JacyPerformance.md", "Referrer": "home/JacyDoc.md"},
         {"Page": "Hinoki", "SrcDir": "docswiki", "SrcFile": "JacyHinoki.md", "Referrer": "home/JacyTop.md"}
-
       ]},
+      {"Section": "Other Grammars", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
+        {"Page": "Arabic", "SrcDir": "docswiki", "SrcFile": "AraGram.md", "Referrer": "home/HeGram.md"},
+        {"Page": "German", "SrcDir": "docswiki", "SrcFile": "CheetahTop.md", "Referrer": "home/GrammarCatalogue.md"},
+        {"Page": "Greek", "SrcDir": "docswiki", "SrcFile": "MgrgSummary.md", "Referrer": "home/RomanceTop.md"},
+        {"Page": "Hebrew", "SrcDir": "docswiki", "SrcFile": "HeGram.md", "Referrer": "home/GrammarCatalogue.md"},
+        {"Page": "Indonesian (INDRA)", "SrcDir": "docswiki", "SrcFile": "IndraTop.md", "Referrer": "tools/TypediffTop.md"},
+        {"Page": "Korean", "SrcDir": "docswiki", "SrcFile": "KrgTop.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "Mandarin ", "SrcDir": "docswiki", "SrcFile": "MandarinGrammarOnline.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "Norwegian Summary", "SrcDir": "docswiki", "SrcFile": "NorsourceSummary.md", "Referrer": "home/NorsourceTop.md"},
+        {"Page": "Norwegian Download", "SrcDir": "docswiki", "SrcFile": "NorsourceDownload.md", "Referrer": "home/NorsourceTop.md"},
+        {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "RussianQuestionsGrammarTop.md", "Referrer": "home/GrammarCatalogue.md"},
+        {"Page": "Slavic", "SrcDir": "docswiki", "SrcFile": "SlavicTop.md", "Referrer": "home/GrammarCatalogue.md"},
+        {"Page": "Wambaya", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"}
+      ]},
+
       {"Section": "Grammar Discussions", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarDiscussionsTop.md", "Referrer": "home/Home.md"},
         {"Page": "Indonesian Morphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "home/LADIndonesianMorphology.md"},
