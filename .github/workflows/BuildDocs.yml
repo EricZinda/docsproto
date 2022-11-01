@@ -109,12 +109,23 @@ jobs:
         with:
           path: main/latestsites/
 
-      - name: Build Conceptual with Jekyll
+      - name: Build How-to with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./main/latestsrc/concept
-          destination: main/latestsites/concept
+          source: ./main/latestsrc/howto
+          destination: main/latestsites/howto
                     
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+
+      - name: Build Garage with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/garage
+          destination: main/latestsites/garage
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

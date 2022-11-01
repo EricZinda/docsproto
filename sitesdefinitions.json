@@ -6,7 +6,7 @@
       "If a broken link is reported that doesn't seem broken, look at the casing of all the worlds in the entire page definition.",
       "OR look at the link that is calling it, it may not be cased properly",
 
-    "If you add a new site, you must update .github/workflows/BuildDocs.yml to get jekyll to run on it and upload it"
+    "If you add a new site, or change the name of it, you must update .github/workflows/BuildDocs.yml to get jekyll to run on it and upload it"
   ],
   "Sites":
   [
@@ -61,6 +61,9 @@
         {"Page": "Logging", "SrcDir": "docswiki", "SrcFile": "PetLogging.md", "Referrer": "tools/PetTop.md"},
         {"Page": "Robustness", "SrcDir": "docswiki", "SrcFile": "PetRobustness.md", "Referrer": "tools/PetTop.md"},
         {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
+      ]},
+      {"Section": "Misc", "Pages": [
+       {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"}
       ]}
     ],
     "erg": [
