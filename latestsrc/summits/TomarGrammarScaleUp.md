@@ -265,9 +265,5 @@ Dan: Once I put in any entry for a verb, I have to put in all of its
 verb frames. … maybe talk about this afterwards. Not sure how to answer
 --- would need to know how many verbs only have an uninteresting entry.
 
-Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
-Author: EricZinda <ericz@inductorsoftware.com>
-Date:   Tue Oct 25 13:59:11 2022 -0700
-
-    Updated ERDW_StructureForNewDocsSite (markdown)
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
 {% endraw %}

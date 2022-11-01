@@ -249,9 +249,5 @@ generation
 | w/o auto      | 2015-03-12 | 0.0          | 1.7          | 0.0         | 1.1          | N/A            | N/A            |
 | change        | YYYY-MM-DD | ordinary     | unk          | br          | unk+br       | generation     | end-to-end     |
 
-Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
-Author: EricZinda <ericz@inductorsoftware.com>
-Date:   Tue Oct 25 13:59:11 2022 -0700
-
-    Updated ERDW_StructureForNewDocsSite (markdown)
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
 {% endraw %}

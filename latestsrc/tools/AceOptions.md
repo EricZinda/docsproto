@@ -91,9 +91,5 @@ Complete Reference:
 |              --tnt-max-tags=N               |                                                  Allow TNT to suggest up to N tags per word.                                                   | :white\_check\_mark: |                      |                      |         |
 |         --transfer-config=file.txt          |                                 Only enable transfer rules whose names are listed in file.txt (one per line).                                  |                      | :white\_check\_mark: |                      |         |
 
-Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
-Author: EricZinda <ericz@inductorsoftware.com>
-Date:   Tue Oct 25 13:59:11 2022 -0700
-
-    Updated ERDW_StructureForNewDocsSite (markdown)
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
 {% endraw %}

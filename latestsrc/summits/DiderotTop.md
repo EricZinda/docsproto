@@ -188,9 +188,5 @@ picnic](https://erbonzo.smugmug.com/Sharing/DiderotPicnic/)
 [175432](http://users.sussex.ac.uk/~johnca/summit-2018/David-photos/IMG_20180620_175432.jpg),
 [175450](http://users.sussex.ac.uk/~johnca/summit-2018/David-photos/IMG_20180620_175450.jpg)
 
-Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
-Author: EricZinda <ericz@inductorsoftware.com>
-Date:   Tue Oct 25 13:59:11 2022 -0700
-
-    Updated ERDW_StructureForNewDocsSite (markdown)
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
 {% endraw %}
