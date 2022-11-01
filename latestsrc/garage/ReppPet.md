@@ -54,5 +54,5 @@ in the PET parser can also be used as a stand-alone tokenizer. Some
 suggestions](http://lists.delph-in.net/archives/lkb/2013/000255.html)
 were posted to the LKB mailing list in early 2013.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

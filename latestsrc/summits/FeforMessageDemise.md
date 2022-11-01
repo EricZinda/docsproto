@@ -8,5 +8,5 @@ experiment with removing messages from all the grammars (including the
 Matrix) over the next six months, with tentative plans to move in a
 coordinated fashion to a message-free universe around 1/2007.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

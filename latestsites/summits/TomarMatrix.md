@@ -368,5 +368,5 @@ engineering, they never worked at the same time. Writing in parallel
 makes it a pain to integrate. You should either sit together, or do
 things one after the other.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

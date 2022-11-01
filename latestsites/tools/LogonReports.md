@@ -50,5 +50,5 @@ Japanese–English MT. LOGON [Technical Report \#
 design decisions and challenges in adapting the original LOGON
 technology to other language pairs.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

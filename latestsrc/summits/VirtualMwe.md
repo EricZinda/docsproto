@@ -104,5 +104,5 @@ OE: a comparison of (parsing into) the (very lightweight) approach to
 NEs in ERS, vs. the (heavy-handed) one in AMR:
 <https://www.aclweb.org/anthology/W19-3304/>
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

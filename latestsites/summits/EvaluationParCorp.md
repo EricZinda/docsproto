@@ -174,5 +174,5 @@ texts, but am slightly skeptical of our chances of finding a collection
 including Catalan, Norwegian and Korean, even without worrying about
 licenses.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

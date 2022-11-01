@@ -285,5 +285,5 @@ the LinGO Laboratory), and the [Norwegian LOGON
 Initiative](http://www.emmtee.net/) (through financial support to Dan
 Flickinger and Stephan Oepen).
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

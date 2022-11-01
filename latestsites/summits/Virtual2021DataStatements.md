@@ -176,5 +176,5 @@ Luis: Another suggestion for capture quality: in Olomouc, we have been working w
 Emily: If you are interested, email Angie and me. Datastatements at uw.edu
 
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

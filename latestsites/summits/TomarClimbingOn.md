@@ -74,5 +74,5 @@ right points to the grammarian.
 Antske: Given the time constraints, something can be done on
 prioritization. Let me know if you have specific requests.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

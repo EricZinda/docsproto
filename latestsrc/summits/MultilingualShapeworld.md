@@ -178,5 +178,5 @@ strings and types.
 Moving to semantic-interface-2016   := "../jacy.smi". fixes the
 string/type issue, I don't know how to deal with the \_rel issue.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

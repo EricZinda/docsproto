@@ -154,5 +154,5 @@ Noonan, Michael. "Complementation". Language typology and syntactic
 description, vol. 2: Complex constructions, ed. by Timothy Shopen,
 42-140. (1985).
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

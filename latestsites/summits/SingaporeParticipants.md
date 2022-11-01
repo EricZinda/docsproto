@@ -85,5 +85,5 @@ Aug. 12)
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Aug. 3 - Aug. 7 + HPSG)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (unfortunately can't make it)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

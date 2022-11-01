@@ -99,5 +99,5 @@ B: description about how he deals with lexicon morphology in the French grammar.
 
 Woodley: YY input mode. External tool to make the analysis. Not quite integrated. Spanish grammar used.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

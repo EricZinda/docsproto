@@ -36,5 +36,5 @@ determining which parts of a local copy correspond to which revisions in
 the repository, the SVN sub-commands *status* and *info* can be very
 convenient.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

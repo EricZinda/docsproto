@@ -213,5 +213,5 @@ useful for the
 
 \*\`gave a headache to Kim' puzzle than Georgia Green wrote about
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

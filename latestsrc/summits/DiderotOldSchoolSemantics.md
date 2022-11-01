@@ -89,5 +89,5 @@ constructions in your sentence and links to pertinent pages?
 - Series of short videos (\~7mins)?
 - [WikiBook](/WikiBook)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

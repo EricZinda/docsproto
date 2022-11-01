@@ -124,5 +124,5 @@ nanyang
 - [Chris Curtis's
 photos](https://www.flickr.com/photos/135722802@N07/albums)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

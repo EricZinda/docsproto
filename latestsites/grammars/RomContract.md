@@ -73,5 +73,5 @@ paper](http://www.di.fc.ul.pt/tech-reports/03-4.pdf).
 You can find a detailed description of our approach in the documentation
 of the Modern Greek Resource Grammar at <http://www.delph-in.net/mgrg/>
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

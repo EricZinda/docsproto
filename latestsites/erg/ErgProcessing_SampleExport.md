@@ -387,5 +387,5 @@ the [ErgProcessing](../ErgProcessing) page for more details.
      x16:_and_c<59:62>[L-INDEX x23:_grammar_n_1, R-INDEX x27:_software_n_1]
     }
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

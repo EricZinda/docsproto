@@ -136,5 +136,5 @@ speculate about providing additional methods, for example POST-ing a
 structure (like an MRS or EDS) for conversion to additional output
 views, querying the SEM-I, or of course invoking sentence realization.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

@@ -205,5 +205,5 @@ Implementation](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) (recom
 CLIM is used for some displays (the parse compare/treebanking window and
 the type hierarchy). It should work out of the box for Japanese.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

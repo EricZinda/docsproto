@@ -84,5 +84,5 @@ BTW Heart of Gold already uses a (quite) small ant build script for
 compiling, starting, generating stylsheets etc.: file hog/build.xml in
 the source tree
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

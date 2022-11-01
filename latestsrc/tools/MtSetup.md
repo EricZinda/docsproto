@@ -249,5 +249,5 @@ Type in the input string and press enter. Press transfer on the MRS that
 pops up, and the MRS is transferred. Then press generate and English
 strings are generated.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

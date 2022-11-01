@@ -53,5 +53,5 @@ some time soon hopefully
 - Right clicking on the Macintosh ACE-LUI interface (as of August
 2017-ish; anyone still having trouble? WP)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

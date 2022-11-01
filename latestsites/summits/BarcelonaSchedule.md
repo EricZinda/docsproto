@@ -106,5 +106,5 @@ summit@delph-in.net.
 | 13:30 |  –  | 14:30 | *Lunch*                                          |
 | 14:30 |  –  | 16:30 | Sub-Group Activities                             |
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

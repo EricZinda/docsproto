@@ -360,5 +360,5 @@ geometry. The second one by controlling when you can do the appends.
 That's why lexical threading can be a problem ... we've lexically
 specified an append but haven't appended yet.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

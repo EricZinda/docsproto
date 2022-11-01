@@ -51,5 +51,5 @@
 <img src="http://www.dfki.de/~uschaefer/Fefor2006/P6160075.JPG" title="http://www.dfki.de/~uschaefer/Fefor2006/P6160075.JPG" class="external_image" alt="http://www.dfki.de/~uschaefer/Fefor2006/P6160075.JPG" />
 
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

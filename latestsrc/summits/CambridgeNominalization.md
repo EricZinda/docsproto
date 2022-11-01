@@ -266,5 +266,5 @@ DI: I’ve tried something like this. It works. It scopes.
 
 EMB: We’re done. Thanks.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

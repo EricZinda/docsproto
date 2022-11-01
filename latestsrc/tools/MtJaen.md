@@ -35,5 +35,5 @@ Velldal and Petter Haugereid (2011) [Deep Open Source Machine
 Translation](http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s10590-011-9099-4).
 In *Machine Translation* **25**(2) 87-105
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

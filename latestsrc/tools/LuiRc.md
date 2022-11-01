@@ -154,5 +154,5 @@ on X.
     parameter text-plain-font #F[sazanami 12 roman black]
     parameter text-active-font #F[sazanami 12 roman black]
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

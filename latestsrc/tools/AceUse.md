@@ -74,5 +74,5 @@ where yy.txt contains inputs like:
 
     (42, 0, 1, <0:11>, 1, "Tokenization", 0, "null", "NNP" 0.7677 "NN" 0.2323)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

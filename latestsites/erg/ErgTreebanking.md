@@ -26,5 +26,5 @@ N7](/N2%20N3%5D%20%5BA4%20%5B%5BN5%20N6%5D%20N7)\|
 - [general guidelines](../ErgTreebankingGuidelines)
 - [heuristics for treebanking with bridges](../ErgTreebankingBridges)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

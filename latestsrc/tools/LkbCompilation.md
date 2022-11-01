@@ -112,5 +112,5 @@ environment, or on Windows with suitable add-on software installed):
 
       svn checkout http://svn.delph-in.net/lkb/trunk lkb
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

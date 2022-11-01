@@ -96,5 +96,5 @@ port).
 - [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta) (July 14-July 18, sim ao porto)
 - [DavidInman](/DavidInman) (July 14-18)
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

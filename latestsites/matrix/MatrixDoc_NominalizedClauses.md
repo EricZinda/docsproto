@@ -39,5 +39,5 @@ turned into something nouny; in contrast, with "low" nominalization, the
 verb is turned into something nouny and then a nouny constituent is
 formed with its arguments.
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

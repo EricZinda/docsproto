@@ -58,5 +58,5 @@ over variables will highlight all occurences of the same variable.
 - <img src="http://www.delph-in.net/lui/dependencies.png" title="http://www.delph-in.net/lui/dependencies.png" class="external_image" alt="http://www.delph-in.net/lui/dependencies.png" />
 
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

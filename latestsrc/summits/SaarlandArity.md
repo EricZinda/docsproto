@@ -41,5 +41,5 @@ descriptions of underspecified representations, i.e. these predicate
 symbol are underspecified… (but [AlexLascarides](https://blog.inductorsoftware.com/docsproto/tools/AlexLascarides) was
 unfortunately not present at that meeting).
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

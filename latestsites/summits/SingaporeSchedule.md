@@ -144,5 +144,5 @@ in the Humanities and Social Sciences (HSS) building.
 |     | Handling NON-LOCAL across languages (Sanghoun Song, Zhenzhen Fan, David Moeljadi, Francis Bond)                            |
 |     | Machine learning and DELPH-IN (Guy Emerson)                                                                                |
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

@@ -183,5 +183,5 @@ OZ: And developer-friendly, too! Need far fewer regression tests…
 BC: If English prime was good enough for Montague, then Russian prime
 should be good enough for you :slightly\_smiling\_face:
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}

@@ -115,5 +115,5 @@ Currently no analysis for any cases of clitic doubling.
 
 ## Modern Greek
 
-_Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
-_{% endraw %}
+Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+{% endraw %}
