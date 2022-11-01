@@ -45,6 +45,23 @@
       ]}
     ],
     "garage": [
+      {"Section": "PET", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
+        {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "PetDependencies.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Eclipse", "SrcDir": "docswiki", "SrcFile": "PetEclipse.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "RoadMap", "SrcDir": "docswiki", "SrcFile": "PetRoadMap.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Input", "SrcDir": "docswiki", "SrcFile": "PetInput.md", "Referrer": "concept/ErgProcessing.md"},
+        {"Page": "ReppPet", "SrcDir": "docswiki", "SrcFile": "ReppPet.md", "Referrer": "tools/ReppTop.md"},
+        {"Page": "Output", "SrcDir": "docswiki", "SrcFile": "PetOutput.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "PetOptions.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Parameters", "SrcDir": "docswiki", "SrcFile": "PetParameters.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Selective Unpacking", "SrcDir": "docswiki", "SrcFile": "PetSelectiveUnpacking.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Input Feature Structure Chart", "SrcDir": "docswiki", "SrcFile": "PetInputFsc.md", "Referrer": "tools/ChartMapping.md"},
+        {"Page": "Input Chart", "SrcDir": "docswiki", "SrcFile": "PetInputChart.md", "Referrer": "tools/PetInput.md"},
+        {"Page": "Logging", "SrcDir": "docswiki", "SrcFile": "PetLogging.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Robustness", "SrcDir": "docswiki", "SrcFile": "PetRobustness.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
+      ]}
     ],
     "erg": [
       {"Section": "ERG Usage", "Pages": [
@@ -333,23 +350,6 @@
         {"Page": "Batch", "SrcDir": "docswiki", "SrcFile": "ItsdbBatch.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Customization", "SrcDir": "docswiki", "SrcFile": "ItsdbCustomization.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Troubleshooting", "SrcDir": "docswiki", "SrcFile": "ItsdbTroubleshooting.md", "Referrer": "tools/ItsdbTop.md"}
-      ]},
-      {"Section": "PET", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
-        {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "PetDependencies.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Eclipse", "SrcDir": "docswiki", "SrcFile": "PetEclipse.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "RoadMap", "SrcDir": "docswiki", "SrcFile": "PetRoadMap.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Input", "SrcDir": "docswiki", "SrcFile": "PetInput.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "ReppPet", "SrcDir": "docswiki", "SrcFile": "ReppPet.md", "Referrer": "tools/ReppTop.md"},
-        {"Page": "Output", "SrcDir": "docswiki", "SrcFile": "PetOutput.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "PetOptions.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Parameters", "SrcDir": "docswiki", "SrcFile": "PetParameters.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Selective Unpacking", "SrcDir": "docswiki", "SrcFile": "PetSelectiveUnpacking.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Input Feature Structure Chart", "SrcDir": "docswiki", "SrcFile": "PetInputFsc.md", "Referrer": "tools/ChartMapping.md"},
-        {"Page": "Input Chart", "SrcDir": "docswiki", "SrcFile": "PetInputChart.md", "Referrer": "tools/PetInput.md"},
-        {"Page": "Logging", "SrcDir": "docswiki", "SrcFile": "PetLogging.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Robustness", "SrcDir": "docswiki", "SrcFile": "PetRobustness.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
       ]},
       {"Section": "Logon", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"},
