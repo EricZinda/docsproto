@@ -89,4 +89,6 @@ engineering - a wrapper around the LKB
 ## Discussion on lexicon building
 
 - Now plenary session only
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

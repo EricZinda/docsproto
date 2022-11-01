@@ -409,4 +409,6 @@ output in format-specific ways.
 # Semantic Wellformedness Testing
 
 # References
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2020-08-22
+{% endraw %}

@@ -202,4 +202,6 @@ Penman?
 
 Mike and Stephan will go think about it... and also discuss canonical
 serialisation.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2016-06-27
+{% endraw %}

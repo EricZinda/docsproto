@@ -52,4 +52,6 @@ Morning of June 15th
 [FeforPng](../FeforPng)
 - The SEM-I ([StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen),
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake))
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2006-06-21
+{% endraw %}

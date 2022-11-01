@@ -376,4 +376,6 @@ Emily: That would be available, because the predicates in the SEM-I map
 to ERG entries.
 
 Glenn: Time to finish!
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2016-06-22
+{% endraw %}

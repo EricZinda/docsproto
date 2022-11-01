@@ -159,4 +159,6 @@ constructions)
 
 - [ErgSemantics](../ErgSemantics) Main Page
 - [How to Cite this Work](../ErgSemantics_HowToCite)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by emilymbender - 2022-07-22
+{% endraw %}

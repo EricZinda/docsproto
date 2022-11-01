@@ -43,4 +43,6 @@ guide to tdl syntax.)](GeFaqTdlSyntax)
 should I do?](GeFaqTdlSyntax)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by DanFlickinger - 2013-06-26
+{% endraw %}

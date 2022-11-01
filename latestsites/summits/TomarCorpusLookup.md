@@ -73,4 +73,6 @@ available from web demo
 **fcb:** encourage grammarians to set it up
 
 **dan:** ran script on new version erg - works fine?
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2014-07-17
+{% endraw %}

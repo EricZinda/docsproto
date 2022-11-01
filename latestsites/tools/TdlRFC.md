@@ -561,4 +561,6 @@ Something like
 (Jul 2018)](http://lists.delph-in.net/archives/developers/2018/002754.html)
 - [Mailing list discussion about docstrings
 (Aug 2018)](http://lists.delph-in.net/archives/developers/2018/002792.html)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Glenn Slayden - 2022-08-07
+{% endraw %}

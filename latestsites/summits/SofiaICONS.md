@@ -83,4 +83,6 @@ Ann: You would expect that info-str constraints would also inform
 cross-sentential anaphora links. Also: the anaphora resolution is
 related to figuring out whether a sequence is infelicitous --- are we
 talking about the same dog in both sentences?
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2012-07-03
+{% endraw %}

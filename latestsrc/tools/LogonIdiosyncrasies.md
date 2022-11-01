@@ -95,4 +95,6 @@ or language pair.
 # Web-Accessible Demonstrators
 
 # MaxEnt Experimentation
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2018-01-13
+{% endraw %}

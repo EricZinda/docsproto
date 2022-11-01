@@ -318,4 +318,6 @@ anaphora resolution
 to make it useful.
 
 Guy: Volunteers to be the aesthetic consultant on slide design
-<update date omitted for speed>{% endraw %}
+
+Page last updated by LuisMorgadoCosta - 2015-08-07
+{% endraw %}

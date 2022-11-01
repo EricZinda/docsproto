@@ -103,4 +103,6 @@ the vast majority of titles are constituents.
 OE: a comparison of (parsing into) the (very lightweight) approach to
 NEs in ERS, vs. the (heavy-handed) one in AMR:
 <https://www.aclweb.org/anthology/W19-3304/>
-<update date omitted for speed>{% endraw %}
+
+Page last updated by AlexandreRademaker - 2020-07-17
+{% endraw %}

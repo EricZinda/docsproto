@@ -107,4 +107,6 @@
 | Bazin a essayé.                                                  | Browne tried to.                              |
 | N'aboyez pas !                                                   | Don't bark!                                   |
 | Le chien est arrivé en aboyant.                                  | The dog arrived barking.                      |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by JesseTseng - 2006-06-15
+{% endraw %}

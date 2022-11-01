@@ -14,4 +14,6 @@ the most recent version of the grammar.
 
 If you want silver data, parsing the rest of the Tanaka Corpus is a good
 place to start.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2020-07-14
+{% endraw %}

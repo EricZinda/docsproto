@@ -105,4 +105,6 @@ As of mid-2011, PET binaries are compiled in the standard LOGON build
 environment, a 32-bit CentOS 4.9 distribution. The actual binaries
 reside in $LOGONROOT/uio/bin/linux.x86.32, with associated shared
 libraries in $LOGONROOT/uio/lib/linux.x86.32.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Alexandre Rademaker - 2021-06-18
+{% endraw %}

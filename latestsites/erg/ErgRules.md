@@ -369,4 +369,6 @@ the ERG (as of the 1214 release).
 | w\_italleft\_plr                 | Italics mark \|ยฆi\| prefixed             | ยฆicat                                      |
 | w\_drop-ileft\_plr               | Ignored italics mark affixed              | catiยฆ                                      |
 | w\_drop-iright\_plr              | Ignored italics mark prefixed             | catiยฆ                                      |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by DanFlickinger - 2015-08-25
+{% endraw %}

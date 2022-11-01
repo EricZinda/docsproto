@@ -133,4 +133,6 @@ organizing the WeScience Treebank.
 # Outlook: Next Steps
 
 # Acknowledgements
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2012-08-05
+{% endraw %}

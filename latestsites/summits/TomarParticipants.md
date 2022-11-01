@@ -95,4 +95,6 @@ port).
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (unfortunately i can't make it)
 - [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta) (July 14-July 18, sim ao porto)
 - [DavidInman](/DavidInman) (July 14-18)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2014-07-09
+{% endraw %}

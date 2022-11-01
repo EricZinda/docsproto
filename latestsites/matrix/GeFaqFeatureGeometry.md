@@ -214,4 +214,6 @@ used features in a readable format.
 entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2016-03-03
+{% endraw %}

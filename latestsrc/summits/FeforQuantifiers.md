@@ -2,4 +2,6 @@
 Here is the small deck of
 [slides](http://faculty.washington.edu/ebender/Fefor_Quantifiers.pdf)
 that I had prepared.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

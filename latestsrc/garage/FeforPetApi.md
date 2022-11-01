@@ -49,4 +49,6 @@ parser; cf. [JerezTop](https://blog.inductorsoftware.com/docsproto/summits/Jerez
 - change lexicon during runtime (not possible for the built-in
 lexicon, but probably for lexDB)
 - change model during runtime
-<update date omitted for speed>{% endraw %}
+
+Page last updated by UlrichSchaefer - 2006-06-14
+{% endraw %}

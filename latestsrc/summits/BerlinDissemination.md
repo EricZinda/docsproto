@@ -109,4 +109,6 @@ responsibility?
   - Google visibility: PARGRAM vs. DELPH-IN
   - web page: color scheme, content, news, publications
   - cf. Fefor 2006 discussion ...
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

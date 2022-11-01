@@ -54,4 +54,6 @@ effort
 
 The best action is to set up a page let people add info, mark it as
 proposal/draft, and request for comments
-<update date omitted for speed>{% endraw %}
+
+Page last updated by PetterHaugereid - 2011-06-28
+{% endraw %}

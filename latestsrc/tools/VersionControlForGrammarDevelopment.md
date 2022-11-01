@@ -108,4 +108,6 @@ file:
              tsdb/home/
              tsdb/current/
              trees/
-<update date omitted for speed>{% endraw %}
+
+Page last updated by MichaelGoodman - 2020-03-26
+{% endraw %}

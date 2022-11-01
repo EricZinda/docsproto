@@ -125,4 +125,6 @@ phenomenon libraries.
         linglib/
             tests/
                 testMorphotactics.py
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Olga Zamaraeva - 2021-06-04
+{% endraw %}

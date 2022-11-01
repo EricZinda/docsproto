@@ -89,4 +89,6 @@ Trollet will use LUI by default, though you can turn it off by saying
 (lui-shutdown).
 
 See [LkbLui](../LkbLui) for more info.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by TuanAnhLe - 2015-08-06
+{% endraw %}

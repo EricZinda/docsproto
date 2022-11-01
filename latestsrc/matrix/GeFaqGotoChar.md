@@ -14,4 +14,6 @@ identified, but note that the actual error may be earlier.
 where. What should I do?](../GeFaqRightBracket)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by NedLetcher - 2012-08-21
+{% endraw %}

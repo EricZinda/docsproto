@@ -50,4 +50,6 @@ and verbal gerunds:
 - [ErgSemantics](../ErgSemantics) Main Page
 - [Inventory of Semantic Phenomena](../ErgSemantics_Inventory)
 - [How to Cite this Work](../ErgSemantics_HowToCite)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2015-06-04
+{% endraw %}

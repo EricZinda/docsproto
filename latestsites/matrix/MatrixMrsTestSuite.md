@@ -433,4 +433,6 @@ the following distinctions .
 English
 - Similar constructions that aren't translations end with X\[6-9\].
   - This may have a different MRS, but a similar phenomenon.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Alexandre Rademaker - 2021-09-15
+{% endraw %}

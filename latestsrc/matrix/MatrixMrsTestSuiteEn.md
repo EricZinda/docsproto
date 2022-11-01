@@ -120,4 +120,6 @@ Note: test set annotated with Norwegian translations.
 | [1051](http://cypriot.stanford.edu/~bond/mrs-en060524/1051.html) | Browne tried to.                              |                |
 | [1061](http://cypriot.stanford.edu/~bond/mrs-en060524/1061.html) | Don't bark!                                   |                |
 | [1071](http://cypriot.stanford.edu/~bond/mrs-en060524/1071.html) | The dog arrived barking.                      |                |
-<update date omitted for speed>{% endraw %}
+
+Page last updated by anonymous - 2011-10-09
+{% endraw %}

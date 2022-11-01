@@ -667,4 +667,6 @@ used to store fails, not passes or does-not-applys.
 | rsf\_value     | The 'result' of applying the filter to the 'result'. 0 for fail, 1 for pass, 2 for does-not-apply |
 
 ### Ancillary tables
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2009-09-17
+{% endraw %}

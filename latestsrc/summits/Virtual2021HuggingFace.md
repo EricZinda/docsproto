@@ -140,4 +140,6 @@ Emily (in the chat): Remember that Grammar Catalog we started back in 2011?
 
 Emily: Was great to see lots of enthusiasm for the topic.
 
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Olga Zamaraeva - 2021-07-19
+{% endraw %}

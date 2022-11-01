@@ -314,4 +314,6 @@ Dan: Ann, any remaining words of wisdom? Cautions? Warnings?
 
 Ann: Not really. It can have unexpected results, so try on simple
 examples first.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2016-07-15
+{% endraw %}

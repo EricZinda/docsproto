@@ -21,4 +21,6 @@ Three classes of irregular verbs:
   - te-form is irregular
 
 ## kurusuru-stem
-<update date omitted for speed>{% endraw %}
+
+Page last updated by FrancisBond - 2007-03-14
+{% endraw %}

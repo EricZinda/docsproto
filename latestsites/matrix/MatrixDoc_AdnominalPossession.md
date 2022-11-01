@@ -283,4 +283,6 @@ share some distinguishing syntactic feature (e.g. a boolean type called
 *inalienable*), as defined on the Other Features subpage. The user can
 then easily add constraints to the lexical items, lexical rules, and
 phrase structure rules that are added by the library currently.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by ElizabethNielsen - 2019-04-26
+{% endraw %}

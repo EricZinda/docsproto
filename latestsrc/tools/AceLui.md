@@ -58,4 +58,6 @@ sudo cp -r yzlui.app /Applications
 ```
 
 If the last stop doesn't work, this maybe because Mac hides the extension of the file. In this case, note which file appears in the Finder as type "Application" and move it to the Applications folder manually.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by T.J. Trimble - 2022-08-31
+{% endraw %}

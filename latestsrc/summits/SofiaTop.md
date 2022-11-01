@@ -114,4 +114,6 @@ photos](http://erbonzo.smugmug.com/Travel/DELPH-IN-Sofia/23901441_q3T259)
 password: mirrorhall
 - [Sanghoun's
 photos](https://picasaweb.google.com/106261683885290415644/Sofia?authuser=0&authkey=Gv1sRgCI-bzKaQ8Nipcg&feat=directlink)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by SanghounSong - 2012-08-17
+{% endraw %}

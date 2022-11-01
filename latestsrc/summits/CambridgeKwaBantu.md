@@ -109,4 +109,6 @@ Peter: I checked with my wife, she says it is very difficult to get this
 quickly push slowly fall combination.
 
 Berthold: Brings discussion to close.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by OlgaZamaraeva - 2019-07-15
+{% endraw %}

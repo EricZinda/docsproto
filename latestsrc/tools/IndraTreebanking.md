@@ -123,4 +123,6 @@ or
     ~/grammar/ind$ mkprof -s tsdb/skeletons/mrs /tmp/mrs-demo
     ~/grammar/ind$ art -a 'ace -g ind.dat --maxent=mrs-gp0.mem' /tmp/mrs-demo/
     ~/grammar/ind$ ~/tools/fftrain-0.9.25/mrs-scorer-linux-x86.static ~/grammar/ind/tsdb/gold/mrs /tmp/mrs-demo
-<update date omitted for speed>{% endraw %}
+
+Page last updated by DavidMoeljadi - 2018-10-10
+{% endraw %}

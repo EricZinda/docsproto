@@ -8,4 +8,6 @@ generate formal or informal versions of words.
 - It would be nice to have a feature showing orthographic variation
   - \- maybe this could be done by convention in the predicate
 names: block everything with "chasen" in the id-name
-<update date omitted for speed>{% endraw %}
+
+Page last updated by MichaelGoodman - 2008-10-17
+{% endraw %}

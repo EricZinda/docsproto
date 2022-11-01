@@ -2,4 +2,6 @@
 
 - Compounds
 - Morphology
-<update date omitted for speed>{% endraw %}
+
+Page last updated by JesseTseng - 2007-08-20
+{% endraw %}

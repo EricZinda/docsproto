@@ -653,4 +653,6 @@ T.J.: \[I mean in an ideal world you would have great resources for the
 \[Emily prompts the group about how this DELPH-IN is going\]
 
 \[social chat\]
-<update date omitted for speed>{% endraw %}
+
+Page last updated by OlgaZamaraeva - 2020-07-17
+{% endraw %}

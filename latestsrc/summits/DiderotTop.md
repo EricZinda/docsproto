@@ -187,4 +187,6 @@ picnic](https://erbonzo.smugmug.com/Sharing/DiderotPicnic/)
 [175424](http://users.sussex.ac.uk/~johnca/summit-2018/David-photos/IMG_20180620_175424.jpg),
 [175432](http://users.sussex.ac.uk/~johnca/summit-2018/David-photos/IMG_20180620_175432.jpg),
 [175450](http://users.sussex.ac.uk/~johnca/summit-2018/David-photos/IMG_20180620_175450.jpg)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by JohnCarroll - 2018-06-21
+{% endraw %}

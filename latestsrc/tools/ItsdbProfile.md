@@ -162,4 +162,6 @@ and so on.
       tree :string                          # phrase structure tree (CSLI labels)
       mrs :string                           # mrs for this reading
       flags :string                         # arbitrary annotation (e.g. BLEU)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by StephanOepen - 2012-08-07
+{% endraw %}

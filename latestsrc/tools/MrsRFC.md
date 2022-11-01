@@ -520,4 +520,6 @@ IC     := Variable ICReln Variable
 ICReln := ConstName
 ConstName := Token
 ```
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Alexandre Rademaker - 2021-09-02
+{% endraw %}

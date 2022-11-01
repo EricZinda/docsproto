@@ -102,4 +102,6 @@ generation.
 # History of Coverage
 
 See [ZhongHistory](../ZhongHistory)
-<update date omitted for speed>{% endraw %}
+
+Page last updated by SanghounSong - 2015-03-20
+{% endraw %}

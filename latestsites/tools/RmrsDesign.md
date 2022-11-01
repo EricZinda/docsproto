@@ -194,4 +194,6 @@ comparing (RSTR/BODY).
 be an EP: Tense can bear scope, but knowing which event the tense is
 associated with is enough to know what its scope possibilities are,
 so tense can be a variable property.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by Alexandre Rademaker - 2021-07-01
+{% endraw %}

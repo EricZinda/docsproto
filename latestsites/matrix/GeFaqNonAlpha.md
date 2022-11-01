@@ -17,4 +17,6 @@ punctuation characters to the list in lkb/globals.lsp.
 parsed by the LKB, and how can I change that?](../GeFaqNonAlpha)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Page last updated by NedLetcher - 2012-09-17
+{% endraw %}

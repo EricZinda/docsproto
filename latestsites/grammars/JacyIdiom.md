@@ -328,4 +328,6 @@ instance specified.
 
     (defparameter *non-idiom-root*
         'root_non_idiom )
-<update date omitted for speed>{% endraw %}
+
+Page last updated by GlennSlayden - 2011-12-06
+{% endraw %}

@@ -220,4 +220,6 @@ often tag on additional descriptions to people like *the clumsy thumbs*,
 we make those into additional separate sentences, we make them
 assertions. Need to be careful we don't spoil things by creating new
 mistakes; may be better to leave them out.
-<update date omitted for speed>{% endraw %}
+
+Page last updated by EmilyBender - 2015-08-10
+{% endraw %}
