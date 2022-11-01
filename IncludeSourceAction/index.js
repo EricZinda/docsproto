@@ -14,9 +14,9 @@ try {
         if (err) throw err;
 
         // Converting to JSON
-        const data = JSON.parse(data);
+        const definition = JSON.parse(data);
 
-        console.log(data); // Print users
+        console.log(definition); // Print users
     });
 //
 //  // `who-to-greet` input defined in action metadata file
