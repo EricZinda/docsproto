@@ -31,5 +31,5 @@ rules?](../GeFaqViewEntry)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Mon Sep 17 08:41:30 2012 +0000
+Page last updated by NedLetcher - 2012-09-17
 {% endraw %}

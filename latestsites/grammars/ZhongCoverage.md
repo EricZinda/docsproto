@@ -103,5 +103,5 @@ generation.
 
 See [ZhongHistory](../ZhongHistory)
 
-Last updated: SanghounSong - Fri Mar 20 05:20:45 2015 +0000
+Page last updated by SanghounSong - 2015-03-20
 {% endraw %}

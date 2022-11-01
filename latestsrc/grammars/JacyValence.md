@@ -54,5 +54,5 @@ This information can also be found in Documentation/transitivity.
 - 日本語構文辞典 (日本語語彙大系)
   - <http://www.kecl.ntt.co.jp/mtg/resources/GoiTaikei/>
 
-Last updated: anonymous - Sun Oct 9 00:12:08 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

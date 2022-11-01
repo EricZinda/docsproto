@@ -131,5 +131,5 @@ Chair:
 
 - Ok, then let's thank Guy and Alex.
 
-Last updated: StephanOepen - Sat Jun 18 11:19:11 2016 +0000
+Page last updated by StephanOepen - 2016-06-18
 {% endraw %}

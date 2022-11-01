@@ -34,5 +34,5 @@ Comments
 7/28-7/29 (Keihana) -- Even if DELPH-IN is in Japan, that's pretty
 close to Seoul.
 
-Last updated: anonymous - Sun Oct 9 00:12:18 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

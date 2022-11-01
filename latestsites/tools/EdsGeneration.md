@@ -145,5 +145,5 @@ doubtlessly others), nevertheless, generation is possible for a large
 proportion of exemplars from the MRS test suite; more systematic (batch)
 testing is pending.
 
-Last updated: StephanOepen - Wed Nov 25 22:35:06 2015 +0000
+Page last updated by StephanOepen - 2015-11-25
 {% endraw %}

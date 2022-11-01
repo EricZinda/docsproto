@@ -515,5 +515,5 @@ proper names. I think it's a common noun convenitally always spelled
 with a capital letter. There are common nouns where it's always a
 capital letter and it does sense disambiguation.
 
-Last updated: EmilyBender - Fri Jul 18 13:16:52 2014 +0000
+Page last updated by EmilyBender - 2014-07-18
 {% endraw %}

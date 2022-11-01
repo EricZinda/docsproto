@@ -526,5 +526,5 @@ thesis, University of Washington.
 Steedman, Mark. 2012. *Taking scope: The natural semantics of
 quantifiers.* MIT Press.
 
-Last updated: EricZinda - Mon Sep 12 13:16:53 2022 -0700
+Page last updated by EricZinda - 2022-09-12
 {% endraw %}

@@ -138,5 +138,5 @@ first and incomplete version 0.1 was presented in Ytrestøl et al.
 moderately refined (for increased readability) as the current version
 1.0 (documented above).
 
-Last updated: StephanOepen - Thu Jul 16 20:17:53 2020 +0000
+Page last updated by StephanOepen - 2020-07-16
 {% endraw %}

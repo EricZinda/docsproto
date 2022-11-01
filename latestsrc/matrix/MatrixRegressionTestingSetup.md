@@ -140,5 +140,5 @@ customization system installation, either by using the -C argument (e.g.
 python matrix.py -C gmcs/ r) or by setting the CUSTOMIZATIONROOT
 environment variable.
 
-Last updated: KristenHowell - Thu Oct 17 01:37:33 2019 +0000
+Page last updated by KristenHowell - 2019-10-17
 {% endraw %}

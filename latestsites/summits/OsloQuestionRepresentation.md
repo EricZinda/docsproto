@@ -282,5 +282,5 @@ Dan: This slope isn't slippery: The wh words 'launch' the param-icons,
 and the grammar can have constraints on which constructions allow them
 to attach (meaning which event variables are available to them).
 
-Last updated: GuyEmerson - Wed Jul 22 20:29:58 2020 +0000
+Page last updated by GuyEmerson - 2020-07-22
 {% endraw %}

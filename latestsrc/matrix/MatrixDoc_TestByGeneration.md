@@ -98,5 +98,5 @@ customization
 system](http://aclweb.org/anthology-new/P/P10/P10-4001.pdf). In
 Proceedings of the ACL 2010 Software Demonstrations.
 
-Last updated: rosypen - Thu Aug 18 16:35:32 2022 -0700
+Page last updated by rosypen - 2022-08-18
 {% endraw %}

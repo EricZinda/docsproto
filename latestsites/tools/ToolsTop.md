@@ -127,5 +127,5 @@ improvements over the initial [LkbMacintosh](../LkbMacintosh).
 - [Heart of Gold](../HeartofgoldTop): XML-based middleware for the
 integration of deep and shallow NLP components
 
-Last updated: T.J. Trimble - Sat Jun 12 06:35:54 2021 -0700
+Page last updated by T.J. Trimble - 2021-06-12
 {% endraw %}

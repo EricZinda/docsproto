@@ -150,5 +150,5 @@ other grammars...
 
 Francis: Not much, unfortunately.
 
-Last updated: GlennSlayden - Tue Aug 8 19:17:30 2017 +0000
+Page last updated by GlennSlayden - 2017-08-08
 {% endraw %}

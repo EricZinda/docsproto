@@ -368,5 +368,5 @@ Norwegian.
     Emblas jaging av hunder bekymret Ask.
     ;Browne's chasing of cats bothered Abrams.
 
-Last updated: anonymous - Sun Oct 9 00:12:09 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

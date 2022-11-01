@@ -313,5 +313,5 @@ Emily: I think the problem is the same regardless of whether we have
 
 - *you in the corner sing in a large hall*
 
-Last updated: EmilyBender - Sun Aug 4 21:13:46 2013 +0000
+Page last updated by EmilyBender - 2013-08-04
 {% endraw %}

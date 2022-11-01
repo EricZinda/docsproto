@@ -254,5 +254,5 @@ implementing your own solution that others have to deal with.
 
 \*\*applause\*\*
 
-Last updated: EmilyBender - Mon Aug 10 10:28:03 2015 +0000
+Page last updated by EmilyBender - 2015-08-10
 {% endraw %}

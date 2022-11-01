@@ -304,5 +304,5 @@ title = {Syntax: a typological-functional introduction},\
 publisher = {John Benjamins. Amsterdam, Philidelphia}\
 }
 
-Last updated: AntskeFokkens - Wed Feb 27 22:51:50 2013 +0000
+Page last updated by AntskeFokkens - 2013-02-27
 {% endraw %}

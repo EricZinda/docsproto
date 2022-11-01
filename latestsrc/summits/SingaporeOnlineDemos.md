@@ -134,5 +134,5 @@ structures.
 Chris: I can put my hand up for being responsible for latex generation
 --- need this for my own research (and have funding).
 
-Last updated: NedLetcher - Thu Aug 6 12:17:02 2015 +0000
+Page last updated by NedLetcher - 2015-08-06
 {% endraw %}

@@ -379,5 +379,5 @@ dramatic.
 
 Francis: But we didn't do all the experiments because it was slow.
 
-Last updated: LilingTan - Tue Jul 24 15:07:59 2012 +0000
+Page last updated by LilingTan - 2012-07-24
 {% endraw %}

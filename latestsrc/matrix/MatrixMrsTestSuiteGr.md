@@ -109,5 +109,5 @@
 | Don't bark!                                   | Μη γαυγιζεις !                                                   |
 | The dog arrived barking.                      | Ο σκυλος εφτασε γαυγιζοντας .                                    |
 
-Last updated: AlexandrosPoulis - Thu Jun 22 19:47:13 2006 +0000
+Page last updated by AlexandrosPoulis - 2006-06-22
 {% endraw %}

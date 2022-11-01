@@ -250,5 +250,5 @@ semantic construction in constraint-based grammars. In *Proceedings of
 the 39th Annual Meeting of the Association for Computational
 Linguistics* (pp. 140–147). Toulouse, France.
 
-Last updated: EricZinda - Mon Sep 12 15:27:05 2022 -0700
+Page last updated by EricZinda - 2022-09-12
 {% endraw %}

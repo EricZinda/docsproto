@@ -110,5 +110,5 @@ Password: Tomar
 - davidinman dot net(work) stroke portugal stroke tomar dot
 hypertextmarkuplanguage
 
-Last updated: DavidInman - Thu Jul 24 08:41:19 2014 +0000
+Page last updated by DavidInman - 2014-07-24
 {% endraw %}

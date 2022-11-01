@@ -52,5 +52,5 @@ more consistent: *Kim likes Sandy. They went on a date tonight by the
 end they had already made plans for more dates and they both seemed
 happy.*
 
-Last updated: EmilyBender - Tue Feb 18 07:48:34 2014 +0000
+Page last updated by EmilyBender - 2014-02-18
 {% endraw %}

@@ -44,5 +44,5 @@ output manipulation.
 
 # Notes
 
-Last updated: StephanOepen - Sun Jul 19 22:57:46 2009 +0000
+Page last updated by StephanOepen - 2009-07-19
 {% endraw %}

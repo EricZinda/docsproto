@@ -252,5 +252,5 @@ there's enough quantifiers to make that work. Might need a
 non-restrictive *who* to introduce a new quantifier. Ann will look into
 this and report back.
 
-Last updated: StephanOepen - Thu Jul 5 00:59:54 2012 +0000
+Page last updated by StephanOepen - 2012-07-05
 {% endraw %}

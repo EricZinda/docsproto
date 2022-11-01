@@ -55,5 +55,5 @@ effort
 The best action is to set up a page let people add info, mark it as
 proposal/draft, and request for comments
 
-Last updated: PetterHaugereid - Tue Jun 28 02:34:35 2011 +0000
+Page last updated by PetterHaugereid - 2011-06-28
 {% endraw %}

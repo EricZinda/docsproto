@@ -93,5 +93,5 @@ approval =))
 it)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (attending, July 29 - Aug. 2)
 
-Last updated: AnnCopestake - Thu Aug 1 00:21:56 2013 +0000
+Page last updated by AnnCopestake - 2013-08-01
 {% endraw %}

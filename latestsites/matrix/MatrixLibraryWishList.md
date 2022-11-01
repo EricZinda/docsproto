@@ -14,5 +14,5 @@ predicative)</span> Done! by
 - Clausal complements
 - Raising and control
 
-Last updated: TJTrimble - Mon Dec 15 18:00:08 2014 +0000
+Page last updated by TJTrimble - 2014-12-15
 {% endraw %}

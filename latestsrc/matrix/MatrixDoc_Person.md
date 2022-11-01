@@ -248,5 +248,5 @@ volume = {6},\
 pages = {15-28},\
 }
 
-Last updated: AntskeFokkens - Mon Jan 14 00:23:19 2013 +0000
+Page last updated by AntskeFokkens - 2013-01-14
 {% endraw %}

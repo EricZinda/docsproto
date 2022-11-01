@@ -89,5 +89,5 @@ constructions in your sentence and links to pertinent pages?
 - Series of short videos (\~7mins)?
 - [WikiBook](/WikiBook)
 
-Last updated: AlexanderKoller - Thu Jun 21 15:57:06 2018 +0000
+Page last updated by AlexanderKoller - 2018-06-21
 {% endraw %}

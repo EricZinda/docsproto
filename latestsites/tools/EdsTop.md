@@ -410,5 +410,5 @@ output in format-specific ways.
 
 # References
 
-Last updated: StephanOepen - Sat Aug 22 10:19:10 2020 +0000
+Page last updated by StephanOepen - 2020-08-22
 {% endraw %}

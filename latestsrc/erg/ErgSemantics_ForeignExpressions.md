@@ -48,5 +48,5 @@ L-INDEX, R-INDEX)
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: EmilyBender - Thu Jun 4 20:14:51 2015 +0000
+Page last updated by EmilyBender - 2015-06-04
 {% endraw %}

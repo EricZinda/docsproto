@@ -156,5 +156,5 @@ several strands of research on robust statistical parsing and
 automated grammar and lexicon induction, in order to develop and
 distribute a new, parsing toolkit for English.
 
-Last updated: EmilyBender - Mon Aug 31 01:04:29 2020 +0000
+Page last updated by EmilyBender - 2020-08-31
 {% endraw %}

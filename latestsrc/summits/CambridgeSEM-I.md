@@ -113,5 +113,5 @@ I think we came around to the notion that the well-formedness check (Ann noted, 
 
 There was some hope in the room (Dan and Francis?) that we could also get rid of the quantifiers associated with non-head elements in compound nouns. Ann pointed out that these normally have a generic interpretation in English, but not always, and the inclusion of that quantifier is a useful place to hang the distinction. Ex: ''the orange-juice seat'', without specific context, is interpreted a chair with orange juice spilled on it or similar. But if someone has set the table with four settings and only one has a glass of orange juice in front of it, then the interpretation of ''orange-juice'' in ''the orange-juice seat'' isn't generic, but in fact concerns the specific glass of orange juice present. [Ann attributed this example to someone, but I didn't catch who.]
 
-Last updated: Alexandre Rademaker - Thu Sep 16 22:37:32 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-09-16
 {% endraw %}

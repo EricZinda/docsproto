@@ -235,5 +235,5 @@ Guy: I don't think it's there at the moment.
 
 Emily: You'd need long complex descriptions...
 
-Last updated: EmilyBender - Fri Jun 22 12:08:29 2018 +0000
+Page last updated by EmilyBender - 2018-06-22
 {% endraw %}

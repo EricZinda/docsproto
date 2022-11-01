@@ -661,5 +661,5 @@ whose dog that smiled barked.*
 
 \[ This didn't parse in 1214, but does parse in trunk. \]
 
-Last updated: EmilyBender - Sat Aug 12 15:35:35 2017 +0000
+Page last updated by EmilyBender - 2017-08-12
 {% endraw %}

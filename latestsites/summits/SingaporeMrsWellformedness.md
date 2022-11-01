@@ -216,5 +216,5 @@ careful with the head-complement, head-subject rules. Increases burden
 on the grammar writer to do something which is much more compatible with
 the semantic algebra.
 
-Last updated: EmilyBender - Fri Aug 21 21:30:19 2015 +0000
+Page last updated by EmilyBender - 2015-08-21
 {% endraw %}

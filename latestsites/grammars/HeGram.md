@@ -35,5 +35,5 @@ Current developers of HeGram are:
 - Livnat Herzig Sheinfux
 - Tali Arad Greshler
 
-Last updated: NuritMelnik - Wed May 11 17:11:29 2016 +0000
+Page last updated by NuritMelnik - 2016-05-11
 {% endraw %}

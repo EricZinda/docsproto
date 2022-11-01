@@ -222,5 +222,5 @@ fine)
 -- You should see the debugger attach successfully and should be able to
 set breakpoints and step through the execution.
 
-Last updated: Olga Zamaraeva - Mon Jun 7 13:07:46 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-07
 {% endraw %}

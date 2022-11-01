@@ -87,5 +87,5 @@ There may not be enough information on this page to successfully try out
 some of these features. Contact [WoodleyPackard](/WoodleyPackard) if you
 want to deploy something and need help.
 
-Last updated: DanFlickinger - Tue Aug 25 23:11:53 2015 +0000
+Page last updated by DanFlickinger - 2015-08-25
 {% endraw %}

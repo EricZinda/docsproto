@@ -322,5 +322,5 @@ seem to make.
 Glenn: basic-head-spec-phrase COMPS on mother was identified with
 non-head-dtr.
 
-Last updated: EmilyBender - Tue Jun 21 23:58:20 2016 +0000
+Page last updated by EmilyBender - 2016-06-21
 {% endraw %}

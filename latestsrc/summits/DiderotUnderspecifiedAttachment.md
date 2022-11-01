@@ -460,5 +460,5 @@ Ann: Are there any tools for looking at the packed forest? FFTB?
 
 Dan: He's computing the disciminants without unpacking...
 
-Last updated: GuyEmerson - Wed Jun 27 19:37:56 2018 +0000
+Page last updated by GuyEmerson - 2018-06-27
 {% endraw %}

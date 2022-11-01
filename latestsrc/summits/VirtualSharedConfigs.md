@@ -183,5 +183,5 @@ ALL: With 'conditionals everywhere' are we encroaching on CLIMB?
 
 CONSENSUS: reluctance
 
-Last updated: GlennSlayden - Tue Jul 14 16:34:05 2020 +0000
+Page last updated by GlennSlayden - 2020-07-14
 {% endraw %}

@@ -400,5 +400,5 @@ pages = {63-78},\
 publisher = {CSLI Publications}\
 }
 
-Last updated: EmilyBender - Tue Oct 1 19:58:49 2013 +0000
+Page last updated by EmilyBender - 2013-10-01
 {% endraw %}

@@ -67,5 +67,5 @@ meters* or even *the pool has a length of ten meters*?
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: DanFlickinger - Tue Nov 3 21:48:44 2015 +0000
+Page last updated by DanFlickinger - 2015-11-03
 {% endraw %}

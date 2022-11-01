@@ -180,5 +180,5 @@ year={2017},\
 publisher={Oxford University Press}\
 }
 
-Last updated: MichaelHaeger - Thu Jan 11 00:09:13 2018 +0000
+Page last updated by MichaelHaeger - 2018-01-11
 {% endraw %}

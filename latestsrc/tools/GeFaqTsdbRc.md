@@ -18,5 +18,5 @@ unhappy, and can experience mysterious errors.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Mon Sep 17 09:13:32 2012 +0000
+Page last updated by NedLetcher - 2012-09-17
 {% endraw %}

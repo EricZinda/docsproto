@@ -15,5 +15,5 @@ where. What should I do?](../GeFaqRightBracket)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Tue Aug 21 20:50:16 2012 +0000
+Page last updated by NedLetcher - 2012-08-21
 {% endraw %}

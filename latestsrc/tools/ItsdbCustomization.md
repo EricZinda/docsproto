@@ -108,5 +108,5 @@ Values include:
 
     (#\g grammar), (#\v version). (#\t skeleton), (#\d date), (#\s system), (#\% "%")
 
-Last updated: StephanOepen - Tue Aug 7 10:47:43 2012 +0000
+Page last updated by StephanOepen - 2012-08-07
 {% endraw %}

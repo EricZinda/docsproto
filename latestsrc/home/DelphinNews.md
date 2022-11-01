@@ -182,5 +182,5 @@ including removing any material excessive in length or of marginal
 relevance. Note that I would normally check with the original author
 if I did this, but may not for very minor changes.
 
-Last updated: EricZinda - Wed Sep 14 13:25:09 2022 -0700
+Page last updated by EricZinda - 2022-09-14
 {% endraw %}

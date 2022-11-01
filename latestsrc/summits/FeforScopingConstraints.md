@@ -18,5 +18,5 @@ Not temporarily has its own event as its INDEX (rather than its MOD's
 event), and that event is resolved to the event of the thing it actually
 modifies (in the resolved scope).
 
-Last updated: EmilyBender - Wed Jun 14 16:48:05 2006 +0000
+Page last updated by EmilyBender - 2006-06-14
 {% endraw %}

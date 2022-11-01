@@ -53,5 +53,5 @@ browse well-formed items that gave rise to errors. (This is because
 lexical rule bugs usually manifest as errors, to [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb).)
 
-Last updated: StephanOepen - Tue Aug 7 10:54:38 2012 +0000
+Page last updated by StephanOepen - 2012-08-07
 {% endraw %}

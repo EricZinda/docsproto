@@ -155,5 +155,5 @@ values (e.g., place\_n and a hypothetical \_place\_n) are *not*
 equivalent, and grammar writers should avoid creating such similar
 predicates in order to avoid confusion.
 
-Last updated: EricZinda - Mon Sep 12 17:19:28 2022 -0700
+Page last updated by EricZinda - 2022-09-12
 {% endraw %}

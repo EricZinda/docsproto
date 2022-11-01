@@ -668,5 +668,5 @@ used to store fails, not passes or does-not-applys.
 
 ### Ancillary tables
 
-Last updated: EmilyBender - Thu Sep 17 20:49:12 2009 +0000
+Page last updated by EmilyBender - 2009-09-17
 {% endraw %}

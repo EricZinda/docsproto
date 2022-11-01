@@ -281,5 +281,5 @@ projection.
 oe: One could also argue that they should be introduced as they are
 needed.
 
-Last updated: EmilyBender - Mon Aug 5 22:33:40 2013 +0000
+Page last updated by EmilyBender - 2013-08-05
 {% endraw %}

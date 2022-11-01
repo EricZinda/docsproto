@@ -210,5 +210,5 @@ Coverage of the {G}rammar {M}atrix},\
 school = {University of Washington}\
 }
 
-Last updated: Olga Zamaraeva - Fri Jun 4 15:07:45 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-04
 {% endraw %}

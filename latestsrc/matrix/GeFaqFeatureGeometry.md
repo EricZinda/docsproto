@@ -215,5 +215,5 @@ entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: EmilyBender - Thu Mar 3 00:00:38 2016 +0000
+Page last updated by EmilyBender - 2016-03-03
 {% endraw %}

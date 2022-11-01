@@ -95,5 +95,5 @@ Summit](../CambridgeTop)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 
-Last updated: BrunoCuconato - Thu Jul 18 23:57:18 2019 +0000
+Page last updated by BrunoCuconato - 2019-07-18
 {% endraw %}

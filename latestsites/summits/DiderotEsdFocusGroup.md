@@ -239,5 +239,5 @@ from ESD pages to demos.
 
 John/Dan: Or just a link to the ESD pages at the top of the demo.
 
-Last updated: EmilyBender - Thu Aug 30 07:25:55 2018 +0000
+Page last updated by EmilyBender - 2018-08-30
 {% endraw %}

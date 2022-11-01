@@ -135,5 +135,5 @@ Francis: The goal of external accessibility is important. Packaging is
 importnat. Grammars should be easier to use. We need different tasks to
 invite linguists vs. engineers. Our grammars should be easier to use.
 
-Last updated: StephanOepen - Wed Aug 23 12:10:19 2017 +0000
+Page last updated by StephanOepen - 2017-08-23
 {% endraw %}

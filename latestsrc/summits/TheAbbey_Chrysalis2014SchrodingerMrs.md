@@ -213,5 +213,5 @@ useful for the
 
 \*\`gave a headache to Kim' puzzle than Georgia Green wrote about
 
-Last updated: FrancisBond - Tue Feb 18 22:11:50 2014 +0000
+Page last updated by FrancisBond - 2014-02-18
 {% endraw %}

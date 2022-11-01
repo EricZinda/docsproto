@@ -100,5 +100,5 @@ and Culture, Japan.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: StephanOepen - Tue Sep 22 23:49:16 2015 +0000
+Page last updated by StephanOepen - 2015-09-22
 {% endraw %}

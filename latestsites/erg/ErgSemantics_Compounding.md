@@ -116,5 +116,5 @@ America. Retrieved April 22, 2014, from Project MUSE database.
 documented
 - [How to cite this work](../ErgSemantics_HowToCite)
 
-Last updated: EmilyBender - Thu Jun 4 20:17:13 2015 +0000
+Page last updated by EmilyBender - 2015-06-04
 {% endraw %}

@@ -561,5 +561,5 @@ oe: I think Dan's already giving you the reasonable requests.
 
 Francis: I only made reasonable requests!
 
-Last updated: EmilyBender - Tue Feb 18 07:36:50 2014 +0000
+Page last updated by EmilyBender - 2014-02-18
 {% endraw %}

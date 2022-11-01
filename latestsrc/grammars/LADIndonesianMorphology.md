@@ -1133,5 +1133,5 @@ Francis: OK thanks! we'll do that!
 
 All: See you all soon!
 
-Last updated: Olga Zamaraeva - Fri Jun 4 14:18:54 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-04
 {% endraw %}

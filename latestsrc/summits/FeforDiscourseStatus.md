@@ -49,5 +49,5 @@ relations?
 Emily might make a first attempt at adapting the proposal of Borthen and
 Haugereid 2005 and including it in the Matrix.
 
-Last updated: anonymous - Sun Oct 9 00:12:15 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

@@ -248,5 +248,5 @@ lexent type name
 as clauses with all arguments overt; do not include in+order+to
 purposives, etc.\]
 
-Last updated: AlexandreRademaker - Thu Jul 23 17:50:48 2020 +0000
+Page last updated by AlexandreRademaker - 2020-07-23
 {% endraw %}

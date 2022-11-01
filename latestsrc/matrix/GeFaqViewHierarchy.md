@@ -14,5 +14,5 @@ will need to look at specific subsets of the hierarchy.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Mon Sep 17 10:32:43 2012 +0000
+Page last updated by NedLetcher - 2012-09-17
 {% endraw %}

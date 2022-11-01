@@ -51,5 +51,5 @@ and verbal gerunds:
 - [Inventory of Semantic Phenomena](../ErgSemantics_Inventory)
 - [How to Cite this Work](../ErgSemantics_HowToCite)
 
-Last updated: EmilyBender - Thu Jun 4 20:05:07 2015 +0000
+Page last updated by EmilyBender - 2015-06-04
 {% endraw %}

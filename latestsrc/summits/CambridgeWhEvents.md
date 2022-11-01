@@ -97,5 +97,5 @@ who Kim saw?" then "Yes, Sandy" is a valid answer.
 - GE: "What do you know who Kim gave?"
 - FCB: In Japanese it's fine, just answer all whs.
 
-Last updated: MichaelGoodman - Tue Jul 16 09:55:02 2019 +0000
+Page last updated by MichaelGoodman - 2019-07-16
 {% endraw %}

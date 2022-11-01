@@ -377,5 +377,5 @@ to ERG entries.
 
 Glenn: Time to finish!
 
-Last updated: EmilyBender - Wed Jun 22 00:02:57 2016 +0000
+Page last updated by EmilyBender - 2016-06-22
 {% endraw %}

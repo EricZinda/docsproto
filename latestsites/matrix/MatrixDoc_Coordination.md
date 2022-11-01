@@ -331,5 +331,5 @@ Resource](http://cslipublications.stanford.edu/HPSG/6/drellishak-bender.pdf).
 Stephan Müller, ed. Proceedings of the 12th International Conference on
 Head-Driven Phrase Structure Grammar. Stanford: CSLI.
 
-Last updated: LaurieDermer - Wed Aug 22 05:10:31 2018 +0000
+Page last updated by LaurieDermer - 2018-08-22
 {% endraw %}

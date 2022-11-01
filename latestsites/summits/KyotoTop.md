@@ -121,5 +121,5 @@ If you have any questions or comments, please email
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
 
-Last updated: anonymous - Sun Oct 9 00:12:10 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

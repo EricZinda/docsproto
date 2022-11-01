@@ -108,5 +108,5 @@
 | N'aboyez pas !                                                   | Don't bark!                                   |
 | Le chien est arrivé en aboyant.                                  | The dog arrived barking.                      |
 
-Last updated: JesseTseng - Thu Jun 15 11:20:15 2006 +0000
+Page last updated by JesseTseng - 2006-06-15
 {% endraw %}

@@ -243,5 +243,5 @@ This should work in the LKB SVN as well as the LOGON tree, and is the
 basis for ranking and selective unpacking in generation and also in
 parsing.
 
-Last updated: JohnCarroll - Thu May 21 20:44:10 2020 +0000
+Page last updated by JohnCarroll - 2020-05-21
 {% endraw %}

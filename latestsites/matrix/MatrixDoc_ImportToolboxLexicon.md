@@ -36,5 +36,5 @@ section=toolbox-import
 \psrev n
 ```
 
-Last updated: Olga Zamaraeva - Mon Jun 28 11:17:12 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-28
 {% endraw %}

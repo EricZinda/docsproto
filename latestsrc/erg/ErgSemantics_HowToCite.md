@@ -42,5 +42,5 @@ To cite a particular subpage, use the reference above, but augment the
 title field with the sub-title page (e.g. *ERG Semantic Documentation:
 Compounding*) and include instead the URL for the subpage in question.
 
-Last updated: Alexandre Rademaker - Tue Jul 20 18:29:39 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-07-20
 {% endraw %}

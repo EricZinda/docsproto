@@ -155,5 +155,5 @@ optional.
 The output is a simple ID pair list. If multiple duplication occurs in a
 file the ID numbers will be output several times.
 
-Last updated: anonymous - Tue Jun 1 23:58:30 2010 +0000
+Page last updated by anonymous - 2010-06-01
 {% endraw %}

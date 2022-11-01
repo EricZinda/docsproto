@@ -23,5 +23,5 @@ me figure out where my syntax error is?](../GeFaqTabIndentation)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Tue Aug 14 18:59:50 2012 +0000
+Page last updated by NedLetcher - 2012-08-14
 {% endraw %}

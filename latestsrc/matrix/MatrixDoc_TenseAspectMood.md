@@ -408,5 +408,5 @@ volume = {66},\
 issue = { 2 }\
 }
 
-Last updated: VaryaGracheva - Sat Feb 23 01:42:53 2013 +0000
+Page last updated by VaryaGracheva - 2013-02-23
 {% endraw %}

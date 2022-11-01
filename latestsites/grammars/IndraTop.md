@@ -88,5 +88,5 @@ Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
 
-Last updated: DavidMoeljadi - Fri Apr 13 10:47:23 2018 +0000
+Page last updated by DavidMoeljadi - 2018-04-13
 {% endraw %}

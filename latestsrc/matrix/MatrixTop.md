@@ -119,5 +119,5 @@ coordination.
 Work on the Grammar Matrix is currently supported by an NSF CAREER grant
 (BCS-0644097).
 
-Last updated: Alexandre Rademaker - Thu Nov 4 13:39:40 2021 -0300
+Page last updated by Alexandre Rademaker - 2021-11-04
 {% endraw %}

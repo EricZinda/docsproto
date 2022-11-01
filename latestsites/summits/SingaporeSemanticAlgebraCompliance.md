@@ -244,5 +244,5 @@ Future questions to consider: Not relevant to current algebra, question
 of what's okay in terms of linking to PRED (e.g. MIN). Think further
 also about links to properties of the INDEX.
 
-Last updated: EmilyBender - Thu Aug 6 06:04:14 2015 +0000
+Page last updated by EmilyBender - 2015-08-06
 {% endraw %}

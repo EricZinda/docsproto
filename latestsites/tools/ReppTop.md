@@ -525,5 +525,5 @@ version 0.2.2.
 - As part of
 [NLTK](https://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize.repp)
 
-Last updated: Alexandre Rademaker - Tue Aug 9 21:21:57 2022 -0300
+Page last updated by Alexandre Rademaker - 2022-08-09
 {% endraw %}

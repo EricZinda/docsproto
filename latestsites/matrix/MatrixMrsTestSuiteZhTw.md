@@ -216,5 +216,5 @@
           不要叫
     1071 The dog arrived barking.
 
-Last updated: MichaelGoodman - Fri Mar 20 08:35:32 2009 +0000
+Page last updated by MichaelGoodman - 2009-03-20
 {% endraw %}

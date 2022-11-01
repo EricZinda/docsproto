@@ -271,5 +271,5 @@ acknowledged. I believe you can do things to proper nouns that you can
 interpret that you can't do to ones that you can't. We're losing
 something if we're not modelling it, but we're always losing something.
 
-Last updated: FrancisBond - Tue Jun 3 08:22:57 2014 +0000
+Page last updated by FrancisBond - 2014-06-03
 {% endraw %}

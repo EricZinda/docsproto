@@ -29,5 +29,5 @@ After that, you can run the translation process. The sequence is INPUT
 
 ## hsja
 
-Last updated: SanghounSong - Wed Sep 10 05:47:26 2014 +0000
+Page last updated by SanghounSong - 2014-09-10
 {% endraw %}

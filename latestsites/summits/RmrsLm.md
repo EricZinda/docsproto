@@ -607,5 +607,5 @@ Methodological Issues in Machine Translation, Skövde, Sweden, 2007.
 - E. Velldal. Empirical Realization Ranking Ph.D. thesis, Department
 of Informatics, University of Oslo Oslo, Norway, 2008
 
-Last updated: GlennSlayden - Fri Jul 17 05:17:49 2020 +0000
+Page last updated by GlennSlayden - 2020-07-17
 {% endraw %}

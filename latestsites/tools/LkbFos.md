@@ -267,5 +267,5 @@ If you encounter an unexpected problem using LKB-FOS, please check
 a solution has already been posted there; if it hasn't then create a new topic.
 
 
-Last updated: John Carroll - Mon Jul 4 23:30:09 2022 +0100
+Page last updated by John Carroll - 2022-07-04
 {% endraw %}

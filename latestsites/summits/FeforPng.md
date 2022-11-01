@@ -69,5 +69,5 @@ constrains the GENDER value of its argument to be feminine. This seems
 somewhat redundant. (See also
 [FeforDroppedArguments](../FeforDroppedArguments).)
 
-Last updated: EmilyBender - Wed Jun 21 02:58:13 2006 +0000
+Page last updated by EmilyBender - 2006-06-21
 {% endraw %}

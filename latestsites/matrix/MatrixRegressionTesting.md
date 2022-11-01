@@ -377,5 +377,5 @@ placed there and named by the scripts.
 Language name in choices file used as the basis of the naming. We need a
 convention for them :slightly\_smiling\_face:
 
-Last updated: Guy Emerson - Tue Mar 1 17:01:37 2022 +0000
+Page last updated by Guy Emerson - 2022-03-01
 {% endraw %}

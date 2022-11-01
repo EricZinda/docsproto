@@ -53,5 +53,5 @@ Both locations are indicated on this
 - 2006 2nd Summit: [Fefor](../FeforTop)
 - 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
 
-Last updated: anonymous - Sun Oct 9 00:12:10 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

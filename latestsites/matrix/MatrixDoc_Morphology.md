@@ -80,5 +80,5 @@ progress or planned. \]</span>
 Goodman, Michael. 2012. Generation of Machine-Readable Morphological
 Rules from Human-Readable Input.
 
-Last updated: TJTrimble - Sat Jan 24 22:26:54 2015 +0000
+Page last updated by TJTrimble - 2015-01-24
 {% endraw %}

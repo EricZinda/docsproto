@@ -103,5 +103,5 @@ costs of the meals, coffee breaks, etc.
 [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPHjIN-2016/)
 password: stanford
 
-Last updated: EmilyBender - Mon Jun 20 08:21:51 2016 +0000
+Page last updated by EmilyBender - 2016-06-20
 {% endraw %}

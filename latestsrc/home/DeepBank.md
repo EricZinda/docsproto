@@ -214,5 +214,5 @@ Evaluation (LREC'10), Malta, 2010.
 a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
 Linguistic Annotation Workshop, Singapore, 2009.
 
-Last updated: Olga Zamaraeva - Fri Jun 4 13:14:02 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-04
 {% endraw %}

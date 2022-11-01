@@ -102,5 +102,5 @@ would like to participate online.)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 
-Last updated: GlennSlayden - Mon Jun 22 23:43:38 2020 +0000
+Page last updated by GlennSlayden - 2020-06-22
 {% endraw %}

@@ -27,5 +27,5 @@ brackets.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 
-Last updated: NedLetcher - Tue Aug 14 19:02:21 2012 +0000
+Page last updated by NedLetcher - 2012-08-14
 {% endraw %}

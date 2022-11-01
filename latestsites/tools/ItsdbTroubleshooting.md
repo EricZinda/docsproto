@@ -101,5 +101,5 @@ Add a scaling factor to your .swishrc
 
     tk scaling -displayof . 1.0
 
-Last updated: StephanOepen - Tue Aug 7 10:54:59 2012 +0000
+Page last updated by StephanOepen - 2012-08-07
 {% endraw %}

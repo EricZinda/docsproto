@@ -357,5 +357,5 @@ is that, in the syntax you are eventually get down to the point where a
 role needs to get filled. But grammars differ about preference for where
 this happens, whether something's a predicate or not.
 
-Last updated: EmilyBender - Tue Jun 21 16:37:33 2016 +0000
+Page last updated by EmilyBender - 2016-06-21
 {% endraw %}

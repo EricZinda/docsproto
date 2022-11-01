@@ -172,5 +172,5 @@ space). End-to-end parsing results for these experiments are presented
 in the slides from his [MSc
 presentation](http://www.delph-in.net/2013/ltg/fares.slides.pdf).
 
-Last updated: StephanOepen - Wed Aug 9 10:38:33 2017 +0000
+Page last updated by StephanOepen - 2017-08-09
 {% endraw %}

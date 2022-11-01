@@ -151,5 +151,5 @@ referring back to the initial tokens, i.e. for *Mountain View.*
 (including the final period) these are tokens \#6, \#7, and \#8 from the
 initial tokenization.
 
-Last updated: StephanOepen - Mon Nov 7 15:57:24 2011 +0000
+Page last updated by StephanOepen - 2011-11-07
 {% endraw %}

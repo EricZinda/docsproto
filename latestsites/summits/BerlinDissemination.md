@@ -110,5 +110,5 @@ responsibility?
   - web page: color scheme, content, news, publications
   - cf. Fefor 2006 discussion ...
 
-Last updated: anonymous - Sun Oct 9 00:12:18 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

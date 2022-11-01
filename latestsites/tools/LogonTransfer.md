@@ -298,5 +298,5 @@ Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
 [RmrsParaphrasing](../RmrsParaphrasing))
 
-Last updated: FrancisBond - Thu Mar 16 08:02:16 2017 +0000
+Page last updated by FrancisBond - 2017-03-16
 {% endraw %}

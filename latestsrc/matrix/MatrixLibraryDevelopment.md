@@ -17,5 +17,5 @@ answers
 - Add regression tests documenting functionality
 - Add prose documenting how to use
 
-Last updated: EmilyBender - Tue Jul 9 03:49:33 2019 +0000
+Page last updated by EmilyBender - 2019-07-09
 {% endraw %}

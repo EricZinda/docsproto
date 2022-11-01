@@ -51,5 +51,5 @@ will become more realistic. I do think it will become a good framework
 to compare languages. It won't be easy, but even a simplified version
 will provide a picture.
 
-Last updated: AntskeFokkens - Wed Jul 16 12:10:26 2014 +0000
+Page last updated by AntskeFokkens - 2014-07-16
 {% endraw %}

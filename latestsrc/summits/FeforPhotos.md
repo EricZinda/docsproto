@@ -51,5 +51,5 @@
 <img src="http://www.dfki.de/~uschaefer/Fefor2006/P6160075.JPG" title="http://www.dfki.de/~uschaefer/Fefor2006/P6160075.JPG" class="external_image" alt="http://www.dfki.de/~uschaefer/Fefor2006/P6160075.JPG" />
 
 
-Last updated: anonymous - Sun Oct 9 00:12:12 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

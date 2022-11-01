@@ -322,5 +322,5 @@ we shouldn't expect that, right?).
                  ARG0 e, ARG1 x:
                    ...
 
-Last updated: MichaelGoodman - Mon Apr 22 07:56:09 2019 +0000
+Page last updated by MichaelGoodman - 2019-04-22
 {% endraw %}

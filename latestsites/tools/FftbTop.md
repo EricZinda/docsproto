@@ -269,5 +269,5 @@ can't find the environment variable LOGNAME. To set it use
 
     export LOGNAME=myuser
 
-Last updated: Francis Bond - Fri Jul 22 12:23:29 2022 -0700
+Page last updated by Francis Bond - 2022-07-22
 {% endraw %}

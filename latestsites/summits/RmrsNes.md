@@ -328,5 +328,5 @@ post-modification/complementation when creating the named entity phrase,
 it could make these systematically eligible for that position, on the
 named entity reading.
 
-Last updated: EmilyBender - Thu Feb 28 05:06:19 2013 +0000
+Page last updated by EmilyBender - 2013-02-28
 {% endraw %}

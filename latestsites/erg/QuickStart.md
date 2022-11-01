@@ -133,5 +133,5 @@ reading results for                2    2 results
 If you want a more full-featured setup for grammar development, you
 might look into the full LOGON distribution: [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
 
-Last updated: EricZinda - Mon Sep 12 17:17:10 2022 -0700
+Page last updated by EricZinda - 2022-09-12
 {% endraw %}

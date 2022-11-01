@@ -106,5 +106,5 @@ summit@delph-in.net.
 | 13:30 |  –  | 14:30 | *Lunch*                                          |
 | 14:30 |  –  | 16:30 | Sub-Group Activities                             |
 
-Last updated: anonymous - Sun Oct 9 00:12:13 2011 +0000
+Page last updated by anonymous - 2011-10-09
 {% endraw %}

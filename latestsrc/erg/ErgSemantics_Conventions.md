@@ -18,5 +18,5 @@ different ARG value.
 - ARG1\|2 or similar to underspecifications between just two
 positions?
 
-Last updated: EmilyBender - Wed Dec 4 20:25:30 2013 +0000
+Page last updated by EmilyBender - 2013-12-04
 {% endraw %}

@@ -86,5 +86,5 @@ There is a macro for writing [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) in the wiki:
 &lt;&lt;itsdb&gt;&gt;.
 
-Last updated: StephanOepen - Fri Jul 31 16:46:36 2020 +0000
+Page last updated by StephanOepen - 2020-07-31
 {% endraw %}

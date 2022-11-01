@@ -16,5 +16,5 @@ configuration)
 9. [MatrixChoicesRfc](../MatrixChoicesRfc) ("choices files"; grammar
 specifications for the Grammar Matrix)
 
-Last updated: EricZinda - Wed Sep 14 14:40:39 2022 -0700
+Page last updated by EricZinda - 2022-09-14
 {% endraw %}

@@ -53,5 +53,5 @@ Morning of June 15th
 - The SEM-I ([StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen),
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake))
 
-Last updated: EmilyBender - Wed Jun 21 03:02:14 2006 +0000
+Page last updated by EmilyBender - 2006-06-21
 {% endraw %}

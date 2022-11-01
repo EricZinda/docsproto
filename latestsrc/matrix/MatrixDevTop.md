@@ -253,5 +253,5 @@ detailed below explains the directories and files for a single branch
     matrix.py    [Python script for running customize, tests, install, etc.]
     matrix.cgi   [CGI script to handle web requests]
 
-Last updated: Olga Zamaraeva - Fri Jun 4 15:05:09 2021 -0700
+Page last updated by Olga Zamaraeva - 2021-06-04
 {% endraw %}

@@ -596,5 +596,5 @@ to this:
 
      grammar_metrics=$(mktemp -p ./)
 
-Last updated: Olga Zamaraeva - Tue Jul 26 03:50:57 2022 +0200
+Page last updated by Olga Zamaraeva - 2022-07-26
 {% endraw %}

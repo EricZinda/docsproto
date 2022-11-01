@@ -8,5 +8,5 @@ STDERR, an example is given below:
 
 To get more output, increase the verbosity.
 
-Last updated: AlexandreRademaker - Fri Mar 15 05:28:18 2019 +0000
+Page last updated by AlexandreRademaker - 2019-03-15
 {% endraw %}

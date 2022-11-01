@@ -5,5 +5,5 @@ passing in "len(errors) &gt; 0" as the last argument to html\_input()
 instead. Then you can click the "Create Grammar" button and see the
 old-style list-of-error-messages page. (sfd 6/29/09)
 
-Last updated: EmilyBender - Tue Jun 30 02:51:31 2009 +0000
+Page last updated by EmilyBender - 2009-06-30
 {% endraw %}

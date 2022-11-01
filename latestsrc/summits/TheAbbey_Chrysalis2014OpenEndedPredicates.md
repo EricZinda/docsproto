@@ -107,5 +107,5 @@ leaves the question of whether there is an ambiguity.
 
 Ann: There's some issues about that, but it's nothing to do with GQs.
 
-Last updated: EmilyBender - Mon Feb 17 04:33:16 2014 +0000
+Page last updated by EmilyBender - 2014-02-17
 {% endraw %}

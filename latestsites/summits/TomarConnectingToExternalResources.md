@@ -202,5 +202,5 @@ it if we're going to do it.
 
 \*applause\*
 
-Last updated: MichaelGoodman - Tue Jul 15 19:03:38 2014 +0000
+Page last updated by MichaelGoodman - 2014-07-15
 {% endraw %}

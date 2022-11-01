@@ -115,5 +115,5 @@ password: mirrorhall
 - [Sanghoun's
 photos](https://picasaweb.google.com/106261683885290415644/Sofia?authuser=0&authkey=Gv1sRgCI-bzKaQ8Nipcg&feat=directlink)
 
-Last updated: SanghounSong - Fri Aug 17 20:46:04 2012 +0000
+Page last updated by SanghounSong - 2012-08-17
 {% endraw %}

@@ -84,5 +84,5 @@ cross-sentential anaphora links. Also: the anaphora resolution is
 related to figuring out whether a sequence is infelicitous --- are we
 talking about the same dog in both sentences?
 
-Last updated: StephanOepen - Tue Jul 3 12:31:49 2012 +0000
+Page last updated by StephanOepen - 2012-07-03
 {% endraw %}

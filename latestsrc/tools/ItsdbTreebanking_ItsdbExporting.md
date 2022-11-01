@@ -57,5 +57,5 @@ to set lkb::\*characterize-p\* to non-null before you export.
 Exporting can be memory intensive. Use a batch instead for large
 profiles. There is an example described in [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop).
 
-Last updated: StephanOepen - Sun Aug 5 23:48:12 2012 +0000
+Page last updated by StephanOepen - 2012-08-05
 {% endraw %}

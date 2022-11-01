@@ -418,5 +418,5 @@ only what’s required would create a dependency again.
 
 Appreciation all around!
 
-Last updated: EmilyBender - Tue Jul 14 18:56:02 2020 +0000
+Page last updated by EmilyBender - 2020-07-14
 {% endraw %}

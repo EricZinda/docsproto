@@ -112,5 +112,5 @@ not both.
 
 \[ Bracketing this for now. \]
 
-Last updated: StephanOepen - Mon Feb 17 10:20:43 2014 +0000
+Page last updated by StephanOepen - 2014-02-17
 {% endraw %}
