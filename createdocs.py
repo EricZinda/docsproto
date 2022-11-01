@@ -48,9 +48,9 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
 
 def get_change_text(src_file_path):
     workingDirectory = os.path.dirname(src_file_path)
-    # print(f"Source: {src_file_path}")
     result = subprocess.check_output(["git", "log", "-s", "-n1", f'--pretty=tformat:%an - %cd', f'{src_file_path}'], cwd=workingDirectory).decode("utf-8")
-    final = "\n_Last updated: " + result + "_"
+    final = "\nLast updated: " + result
+    print(f"Source: {src_file_path} {final}")
     return final
 
 
