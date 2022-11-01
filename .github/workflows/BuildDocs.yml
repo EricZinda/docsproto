@@ -40,7 +40,7 @@ jobs:
           repository: delph-in/docs.wiki
           path: docswiki
 
-      - run: cd /home/runner/work/docsproto/docsproto/docswiki/ && git log -s -n1 --pretty='tformat:%an - %cd' /home/runner/work/docsproto/docsproto/docswiki/IndraTop.md
+      - run: cd /home/runner/work/docsproto/docsproto/docswiki/ && git log -s -n1 /home/runner/work/docsproto/docsproto/docswiki/IndraTop.md
 
 #      # Remove all pages from "latest" so we don't carry over removed pages
 #      - run: rm -r -f $GITHUB_WORKSPACE/main/latestsrc/
