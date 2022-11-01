@@ -33,5 +33,9 @@ until the 10th, because it is going to be extremely crowded and the wait
 will be 2-3 hours (!). So... I think we should do something else
 tonight, like go to the city.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

@@ -53,5 +53,9 @@ Both locations are indicated on this
 - 2006 2nd Summit: [Fefor](../FeforTop)
 - 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

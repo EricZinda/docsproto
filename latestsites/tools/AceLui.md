@@ -59,5 +59,9 @@ sudo cp -r yzlui.app /Applications
 
 If the last stop doesn't work, this maybe because Mac hides the extension of the file. In this case, note which file appears in the Finder as type "Application" and move it to the Applications folder manually.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

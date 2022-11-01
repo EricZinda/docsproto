@@ -221,5 +221,9 @@ we make those into additional separate sentences, we make them
 assertions. Need to be careful we don't spoil things by creating new
 mistakes; may be better to leave them out.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

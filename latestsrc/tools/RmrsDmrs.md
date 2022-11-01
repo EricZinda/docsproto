@@ -16,5 +16,9 @@ and avoidance of commitment can be the right way to
 go](http://www.aclweb.org/anthology/E09-1001.pdf). *Conference of the
 European Chapter of the ACL*, (pp. 1-9). Athens.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

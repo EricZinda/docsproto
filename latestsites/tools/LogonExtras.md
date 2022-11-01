@@ -184,5 +184,9 @@ forth. To install the WSJ skeleton add-on, use the following command:
 Only SVN users whose home sites hold a PTB license can be granted read
 access to this add-on component.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}

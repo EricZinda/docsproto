@@ -22,5 +22,9 @@ result with failure sites highlighted (in red ink) and detailed. The
 user can navigate between the (potentially numerous) unification
 failures using the left and right arrow keys.
 
-Last updated: EricZinda - Tue Oct 25 13:59:11 2022 -0700
+Last updated: commit 334494d7fe40040caa8f0f3268e3ef6a764b318a
+Author: EricZinda <ericz@inductorsoftware.com>
+Date:   Tue Oct 25 13:59:11 2022 -0700
+
+    Updated ERDW_StructureForNewDocsSite (markdown)
 {% endraw %}
