@@ -12,7 +12,7 @@ main:
   - title: "Matrix"
     url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
   - title: "Garage"
-    url: https://blog.inductorsoftware.com/docsproto/garage/PetTop
+    url: https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop
   - title: "Summits"
     url: https://blog.inductorsoftware.com/docsproto/summits/SummitTop
 toc:
@@ -294,8 +294,6 @@ toc:
         url: "IconsSpecs"
   - title: "Misc"
     children:
-      - title: "Agree"
-        url: "AgreeTop"
       - title: "Delphin Tools"
         url: "DelphinTools"
       - title: "Vista Extraction"

@@ -16,7 +16,7 @@ as how to normalize the annotated profile.
 
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) supports Redwoods-style
 treebanking, from the *Trees* menu. It has been used to produce the
-Redwoods ([RedwoodsTop](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop)) and Hinoki treebanks. You can
+Redwoods ([RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)) and Hinoki treebanks. You can
 annotate a corpus; update an annotated corpus to a new grammar; and
 train statistical models on the treebanked corpora.
 

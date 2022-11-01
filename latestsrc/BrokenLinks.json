@@ -12,13 +12,6 @@
       ]}
     ],
     "grammars": [
-      {"Section": "Grammar Catalogue", "Pages": [
-        {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "IndraTranslation", "SrcDir": "docswiki", "SrcFile": "IndraTranslation.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "IndraRegressionTest", "SrcDir": "docswiki", "SrcFile": "IndraRegressionTest.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "CapitolHillPassives", "SrcDir": "docswiki", "SrcFile": "CapitolHillPassives.md", "Referrer": "grammars/IndraTop.md"}
-      ]},
       {"Section": "Chinese (Zhong)", "Pages": [
         {"Page": "HuiZhenWang", "SrcDir": "docswiki", "SrcFile": "HuiZhenWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
         {"Page": "ShanWang", "SrcDir": "docswiki", "SrcFile": "ShanWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
@@ -28,6 +21,13 @@
         {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "grammars/JacyTop.md"},
         {"Page": "LkbLexDbSingleUser", "SrcDir": "docswiki", "SrcFile": "LkbLexDbSingleUser.md", "Referrer": "grammars/JacyLexDb.md"},
         {"Page": "GrammarPerformance", "SrcDir": "docswiki", "SrcFile": "GrammarPerformance.md", "Referrer": "grammars/JacyPerformance.md"}
+      ]},
+      {"Section": "Other Grammars", "Pages": [
+        {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraTranslation", "SrcDir": "docswiki", "SrcFile": "IndraTranslation.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraRegressionTest", "SrcDir": "docswiki", "SrcFile": "IndraRegressionTest.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "CapitolHillPassives", "SrcDir": "docswiki", "SrcFile": "CapitolHillPassives.md", "Referrer": "grammars/IndraTop.md"}
       ]}
     ],
     "matrix": [

@@ -70,7 +70,7 @@ suites.
 | GG            | German (De)             |                              |                                                            | lgpl           |
 | Norsource     | Norwegian (No)          | [Summary](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceSummary)  |                                                            | LGPL-LR        |
 | PhD Gram      | Norwegian (No)          | [Summary](PhdgramSummary)    |                                                            |                |
-| La Grenouille | French (Fr)             | [Summary](https://blog.inductorsoftware.com/docsproto/grammars/GrenouilleSummary) | [home](http://www.loria.fr/~tseng/grenouille/index.html)   |                |
+| La Grenouille | French (Fr)             | [Summary](https://blog.inductorsoftware.com/docsproto/garage/GrenouilleSummary) | [home](http://www.loria.fr/~tseng/grenouille/index.html)   |                |
 | MGRG          | Greek (Gr)              | [Summary](https://blog.inductorsoftware.com/docsproto/grammars/MgrgSummary)       |                                                            |                |
 | MSG           | Spanish (Es)            |                              | [home](http://www.upf.edu/pdi/iula/nuria.bel/MSG/MSG.html) |                |
 | KRG           | Korean (Ko)             |                              | [KRG](http://web.khu.ac.kr/~jongbok/projects/krg.html)     | MIT            |

@@ -17,7 +17,7 @@ dependency graphs, and dependency triples. In addition, the
 representations can be obtained either from existing large collections
 (of close to 1.5 million tokens) of manually curated annotations over
 texts from a wide variety of genres (the [Redwoods
-Treebank](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop); Oepen, et al., 2004; Flickinger, et al., 2012)
+Treebank](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop); Oepen, et al., 2004; Flickinger, et al., 2012)
 or by [processing new text](../ErgProcessing) with the ERG and its
 associated parsing and parse selection algorithms.
 

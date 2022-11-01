@@ -93,7 +93,7 @@ grammar.
 2016
   - [Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) of the ERG's semantic
 representations
-- [Catalogue of Grammars](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue), including
+- [Catalogue of Grammars](https://blog.inductorsoftware.com/docsproto/garage/GrammarCatalogue), including
 broad-coverage grammars for German, Japanese, Norwegian, and
 Spanish, along with significant grammars for several other
 languages.
@@ -101,7 +101,7 @@ languages.
 LKB-compatible precision grammars
 - [CLIMB](https://blog.inductorsoftware.com/docsproto/tools/ClimbTop): Tools to support grammar development of
 LKB-compatible precision grammars
-- [Redwoods](../RedwoodsTop): HPSG Treebank Comprised of Analyses
+- [Redwoods](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop): HPSG Treebank Comprised of Analyses
 from the ERG
 - [MRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop): Minimal Recursion Semantics --- Theory and
 Implementation (including extensions and variants such Robust MRS

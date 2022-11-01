@@ -12,10 +12,20 @@ main:
   - title: "Matrix"
     url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
   - title: "Garage"
-    url: https://blog.inductorsoftware.com/docsproto/garage/PetTop
+    url: https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop
   - title: "Summits"
     url: https://blog.inductorsoftware.com/docsproto/summits/SummitTop
 toc:
+  - title: "Completed Projects"
+    children:
+      - title: "Redwoods"
+        url: "RedwoodsTop"
+  - title: "Grammars (partial or experimental)"
+    children:
+      - title: "Overview"
+        url: "GrammarCatalogue"
+      - title: "French"
+        url: "GrenouilleSummary"
   - title: "PET"
     children:
       - title: "Overview"

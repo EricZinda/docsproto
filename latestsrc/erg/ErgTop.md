@@ -33,7 +33,7 @@ with example sentences in Redwoods Treebank
 - [Syntactic and Lexical Rules](../ErgRules)
 - [Lexical and Phrasal Distinctions](../ErgTreebankingRules)
 - [Tokenization Assumptions](../ErgTokenization)
-- [The Redwoods Treebank](https://blog.inductorsoftware.com/docsproto/home/RedwoodsTop) Many sentences parsed with the
+- [The Redwoods Treebank](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop) Many sentences parsed with the
 ERG.
 - ERG is released under the [MIT
 license](http://svn.delph-in.net/erg/trunk/LICENSE)

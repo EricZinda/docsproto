@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to:  PetTop
+redirect_to:  RedwoodsTop
 ---
