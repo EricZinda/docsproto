@@ -32,7 +32,7 @@ of this page.
 
 # An Example
 
-Following is an example derivation taken from the [WeScience](WeScience)
+Following is an example derivation taken from the [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)
 treebank. This derivation is the result of parsing item WS01/10021300:
 *Many terms are ambiguous.*
 

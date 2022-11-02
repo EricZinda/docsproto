@@ -31,10 +31,10 @@ of to monitor them for updates.
 
 ## Grammar Matrix Extensions
 
-- [Tense and aspect](OpenissuesTop_GrammarMatrixTenseAspect)
-- [Clitics](OpenissuesTop_GrammarMatrixClitic)
+- [Tense and aspect](../OpenissuesTop_GrammarMatrixTenseAspect)
+- [Clitics](../OpenissuesTop_GrammarMatrixClitic)
 - [Serial Verb
-Constructions](OpenissuesTop_GrammarMatrixSerialVerbConstructions)
+Constructions](../OpenissuesTop_GrammarMatrixSerialVerbConstructions)
 
 # Open Issues in Need of Mentors
 

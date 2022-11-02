@@ -76,7 +76,7 @@ Miriam Butt & Tracy Holloway King, Coling tutorial 2004
 
 ## Tutorials
 
-- [HPSG Introduction & Implementation](HpsgTutorial) Emily M. Bender
+- [HPSG Introduction & Implementation](../HpsgTutorial) Emily M. Bender
 and Dan Flickinger, HPSG 2017, Lexington, KY, July 7. (video
 available)
 - [English Resource Semantics](https://blog.inductorsoftware.com/docsproto/erg/ErsTutorial) Dan Flickinger, Emily M.

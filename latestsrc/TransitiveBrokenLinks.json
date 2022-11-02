@@ -1,8 +1,3 @@
   {
-    "home": [
-      {"Section": "Japanese (JACY)", "Pages": [
-        {"Page": "CapitolHillSmall2Large", "SrcDir": "docswiki", "SrcFile": "CapitolHillSmall2Large.md", "Referrer": "home/GrammarDevelopment.md"},
-        {"Page": "CapitolHillPhDDesign", "SrcDir": "docswiki", "SrcFile": "CapitolHillPhDDesign.md", "Referrer": "home/GrammarDevelopment.md"}
-      ]}
-    ]
+
   }

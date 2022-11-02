@@ -2,7 +2,7 @@
 
 Note: this page has been reconfigured so it contains the information
 which is general between single and multi user mode. You should read
-this after looking at [LkbLexDbMultiUser](LkbLexDbMultiUser) or
+this after looking at [LkbLexDbMultiUser](../LkbLexDbMultiUser) or
 [LkbLexDbSingleUser](../LkbLexDbSingleUser).
 
 - Obtain lexicon in LexDB dump format

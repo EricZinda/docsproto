@@ -91,7 +91,7 @@ addition to the Ninth Growth over previous versions is the
 [proceedings of TLT 2011](http://tlt11.clul.ul.pt/ProceedingsTLT11.tgz).
 There are also two profiles (rtc000, rtc001) from the Tanaka (Pacling
 2001) corpus, two profiles of user-generated web content studied in the
-[WeScience](WeScience) project, and several profiles also from the Brown
+[WeScience](../WeScience) project, and several profiles also from the Brown
 [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor) that were treebanked for a [SemEval](/SemEval) shared
 task after the ERG 1214 release was frozen (cf\*, cg\*, ck\*, cl\*,
 cm\*, cn\*, cp\*, cr\*), described by [Oepen et al.
@@ -103,7 +103,7 @@ The [Eighth Growth](http://svn.delph-in.net/erg/tags/1212/tsdb/gold/)
 was released in September 2013. It includes 85,000 sentences, consisting
 of data sets from several distinct domains, including not only (a) the
 Verbmobil and ecommerce corpora from earlier releases and (b) the data
-from the LOGON Norwegian-English MT corpus, the [WeScience](WeScience)
+from the LOGON Norwegian-English MT corpus, the [WeScience](../WeScience)
 100-article portion of the English Wikipedia and a portion of the
 semantically tagged subset of the Brown corpus (SemCor); but also (c) a
 fresh re-annotation of large parts of the venerable WSJ text behind the
@@ -150,7 +150,7 @@ process of exporting all or parts of the Redwoods Treebank into a
 collection of plain text files can be fully automated by virtue of a
 shell script. For (somewhat terse, sadly) instructions on exporting
 various views on the Redwoods data, please see the Section *Exporting
-Various Plain-Text Formats* on the [WeScience](WeScience) page as well
+Various Plain-Text Formats* on the [WeScience](../WeScience) page as well
 as the [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page.
 
 # Standard Splits
