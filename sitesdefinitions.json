@@ -98,12 +98,8 @@
         {"Page": "UtTop", "SrcDir": "docswiki", "SrcFile": "UtTop.md", "Referrer": "tools/AceOptions.md"}
       ]},
       {"Section": "LKB", "Pages": [
-        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "tools/LkbFos.md", "FileMissing": true},
         {"Page": "LkbMode", "SrcDir": "docswiki", "SrcFile": "LkbMode.md", "Referrer": "tools/LkbEmacs.md"},
         {"Page": "LkbLpconstraints", "SrcDir": "docswiki", "SrcFile": "LkbLpconstraints.md", "Referrer": "tools/LkbWishlist.md"}
-      ]},
-      {"Section": "LKB LUI", "Pages": [
-        {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "tools/LkbLui.md", "FileMissing": true}
       ]},
       {"Section": "Logon", "Pages": [
         {"Page": "LogonDebian", "SrcDir": "docswiki", "SrcFile": "LogonDebian.md", "Referrer": "tools/LogonUbuntu.md"},
@@ -116,8 +112,7 @@
         {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"}
       ]},
       {"Section": "Grammar Tools", "Pages": [
-        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
-        {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "tools/LkbLtdb.md", "FileMissing": true}
+        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"}
       ]},
       {"Section": "Formats", "Pages": [
         {"Page": "WeSearch_DesignPrinciples", "SrcDir": "docswiki", "SrcFile": "WeSearch_DesignPrinciples.md", "Referrer": "tools/RmrsDiscussions.md"},
@@ -127,7 +122,6 @@
         {"Page": "WeSearch_UnderspecifedAttachment", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifedAttachment.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "WeSearch_UnderspecifiedPreds", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifiedPreds.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "WeSearch_VariablePropertySharing", "SrcDir": "docswiki", "SrcFile": "WeSearch_VariablePropertySharing.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_PestExamples", "SrcDir": "docswiki", "SrcFile": "WeSearch_PestExamples.md", "Referrer": "tools/RmrsDiscussions.md", "FileMissing": true},
         {"Page": "WeSearch_Ccs", "SrcDir": "docswiki", "SrcFile": "WeSearch_Ccs.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "tools/RmrsDiscussions.md"},
@@ -138,7 +132,6 @@
         {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "tools/TransferRules.md"},
         {"Page": "LogonVpm", "SrcDir": "docswiki", "SrcFile": "LogonVpm.md", "Referrer": "tools/TransferRules.md"},
         {"Page": "WeSearch_DataCollection", "SrcDir": "docswiki", "SrcFile": "WeSearch_DataCollection.md", "Referrer": "tools/ErgGml.md"},
-        {"Page": "RmrsDtd", "SrcDir": "docswiki", "SrcFile": "RmrsDtd.md", "Referrer": "tools/SmafTop.md", "FileMissing": true},
         {"Page": "SmafLkb", "SrcDir": "docswiki", "SrcFile": "SmafLkb.md", "Referrer": "tools/SmafTop.md"},
         {"Page": "SmafPet", "SrcDir": "docswiki", "SrcFile": "SmafPet.md", "Referrer": "tools/SmafTop.md"},
         {"Page": "SmafSample", "SrcDir": "docswiki", "SrcFile": "SmafSample.md", "Referrer": "tools/SmafTop.md"},
@@ -154,20 +147,12 @@
       ]},
       {"Section": "Bellingham", "Pages": [
         {"Page": "VirtualParticipants", "SrcDir": "docswiki", "SrcFile": "VirtualParticipants.md", "Referrer": "summits/BellinghamParticipants.md"},
-        {"Page": "AlexanderKoller", "SrcDir": "docswiki", "SrcFile": "AlexanderKoller.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
-        {"Page": "ZinaPozen", "SrcDir": "docswiki", "SrcFile": "ZinaPozen.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
-        {"Page": "WeiweiSun", "SrcDir": "docswiki", "SrcFile": "WeiweiSun.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
         {"Page": "FeiyuXu", "SrcDir": "docswiki", "SrcFile": "FeiyuXu.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true}
       ]},
       {"Section": "Stanford", "Pages": [
-        {"Page": "ErikVelldal", "SrcDir": "docswiki", "SrcFile": "ErikVelldal.md", "Referrer": "summits/StanfordParticipants.md", "FileMissing": true},
-        {"Page": "JimWhite", "SrcDir": "docswiki", "SrcFile": "JimWhite.md", "Referrer": "summits/StanfordParticipants.md", "FileMissing": true},
         {"Page": "LADValenceChange", "SrcDir": "docswiki", "SrcFile": "LADValenceChange.md", "Referrer": "summits/StanfordMcValenceChangeFace.md"}
       ]},
       {"Section": "Tomar", "Pages": [
-        {"Page": "VaryaGracheva", "SrcDir": "docswiki", "SrcFile": "VaryaGracheva.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
-        {"Page": "BenjaminWaldron", "SrcDir": "docswiki", "SrcFile": "BenjaminWaldron.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
-        {"Page": "DominikusWetzel", "SrcDir": "docswiki", "SrcFile": "DominikusWetzel.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
         {"Page": "DelphinTutorial_Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/TomarFormalism.md"}
       ]},
       {"Section": "Saarland", "Pages": [
@@ -175,7 +160,6 @@
         {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandTdlDiscussion", "SrcDir": "docswiki", "SrcFile": "SaarlandTdlDiscussion.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandUseability", "SrcDir": "docswiki", "SrcFile": "SaarlandUseability.md", "Referrer": "summits/SaarlandSchedule.md"},
-        {"Page": "PaperCuts", "SrcDir": "docswiki", "SrcFile": "PaperCuts.md", "Referrer": "summits/SaarlandSchedule.md", "FileMissing": true},
         {"Page": "SaarlandPackagingPhenomenalCorpora", "SrcDir": "docswiki", "SrcFile": "SaarlandPackagingPhenomenalCorpora.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandSocialMedia", "SrcDir": "docswiki", "SrcFile": "SaarlandSocialMedia.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandBusinessMeeting", "SrcDir": "docswiki", "SrcFile": "SaarlandBusinessMeeting.md", "Referrer": "summits/SaarlandSchedule.md"},
@@ -193,7 +177,6 @@
       ]},
       {"Section": "Sofia", "Pages": [
         {"Page": "SofiaLinguisticPhenomena", "SrcDir": "docswiki", "SrcFile": "SofiaLinguisticPhenomena.md", "Referrer": "summits/SofiaSchedule.md"},
-        {"Page": "SofiaIcons", "SrcDir": "docswiki", "SrcFile": "SofiaIcons.md", "Referrer": "summits/SofiaSchedule.md", "FileMissing": true},
         {"Page": "SofiaGrammarLocalizationSIG", "SrcDir": "docswiki", "SrcFile": "SofiaGrammarLocalizationSIG.md", "Referrer": "summits/SofiaSchedule.md"},
         {"Page": "SofiaCLIMBAndReducingComplexity", "SrcDir": "docswiki", "SrcFile": "SofiaCLIMBAndReducingComplexity.md", "Referrer": "summits/SofiaSchedule.md"},
         {"Page": "SofiaPreprocessingSIG", "SrcDir": "docswiki", "SrcFile": "SofiaPreprocessingSIG.md", "Referrer": "summits/SofiaSchedule.md"},
@@ -202,7 +185,6 @@
       {"Section": "Suquamish", "Pages": [
         {"Page": "BirdsofaFeather2011", "SrcDir": "docswiki", "SrcFile": "BirdsofaFeather2011.md", "Referrer": "summits/SuquamishSchedule.md"},
         {"Page": "SuquamishGrammarIndexing", "SrcDir": "docswiki", "SrcFile": "SuquamishGrammarIndexing.md", "Referrer": "summits/SuquamishSchedule.md"},
-        {"Page": "JonathanPool", "SrcDir": "docswiki", "SrcFile": "JonathanPool.md", "Referrer": "summits/SuquamishSchedule.md", "FileMissing": true},
         {"Page": "SuquamishDelphinEcology", "SrcDir": "docswiki", "SrcFile": "SuquamishDelphinEcology.md", "Referrer": "summits/SuquamishSchedule.md"},
         {"Page": "SuquamishDelphinLibMRS", "SrcDir": "docswiki", "SrcFile": "SuquamishDelphinLibMRS.md", "Referrer": "summits/SuquamishSchedule.md"},
         {"Page": "SuquamishDelphinLibP", "SrcDir": "docswiki", "SrcFile": "SuquamishDelphinLibP.md", "Referrer": "summits/SuquamishSchedule.md"},
@@ -232,8 +214,7 @@
         {"Page": "BarcelonaPackaging", "SrcDir": "docswiki", "SrcFile": "BarcelonaPackaging.md", "Referrer": "summits/BarcelonaSchedule.md"},
         {"Page": "BarcelonaCorpora", "SrcDir": "docswiki", "SrcFile": "BarcelonaCorpora.md", "Referrer": "summits/BarcelonaSchedule.md"},
         {"Page": "BarcelonaPreprocessing", "SrcDir": "docswiki", "SrcFile": "BarcelonaPreprocessing.md", "Referrer": "summits/BarcelonaSchedule.md"},
-        {"Page": "BarcelonaCooperation", "SrcDir": "docswiki", "SrcFile": "BarcelonaCooperation.md", "Referrer": "summits/BarcelonaSchedule.md"},
-        {"Page": "DarrenAppling", "SrcDir": "docswiki", "SrcFile": "DarrenAppling.md", "Referrer": "summits/ParaTop.md", "FileMissing": true}
+        {"Page": "BarcelonaCooperation", "SrcDir": "docswiki", "SrcFile": "BarcelonaCooperation.md", "Referrer": "summits/BarcelonaSchedule.md"}
       ]},
       {"Section": "Kyoto", "Pages": [
         {"Page": "KyotoSchedule_InterDelphinNotes", "SrcDir": "docswiki", "SrcFile": "KyotoSchedule_InterDelphinNotes.md", "Referrer": "summits/KyotoSchedule.md"}
@@ -244,7 +225,6 @@
       {"Section": "Fefor", "Pages": [
         {"Page": "FeforSmallGroups", "SrcDir": "docswiki", "SrcFile": "FeforSmallGroups.md", "Referrer": "summits/FeforGrammarians.md"},
         {"Page": "FeforImmediateChallenges", "SrcDir": "docswiki", "SrcFile": "FeforImmediateChallenges.md", "Referrer": "summits/FeforGrammarians.md"},
-        {"Page": "LauriePoulson", "SrcDir": "docswiki", "SrcFile": "LauriePoulson.md", "Referrer": "summits/FeforGrammarians.md", "FileMissing": true},
         {"Page": "ErgSummary", "SrcDir": "docswiki", "SrcFile": "ErgSummary.md", "Referrer": "summits/FeforGrammarians.md"},
         {"Page": "JacySummary", "SrcDir": "docswiki", "SrcFile": "JacySummary.md", "Referrer": "summits/FeforGrammarians.md"},
         {"Page": "PhdgramSummary", "SrcDir": "docswiki", "SrcFile": "PhdgramSummary.md", "Referrer": "summits/FeforGrammarians.md"},
@@ -636,7 +616,6 @@
       ]},
       {"Section": "Formats", "Pages": [
         {"Page": "Delphin RFCs", "SrcDir": "docswiki", "SrcFile": "DelphinRFCs.md", "Referrer": "home/Home.md"},
-        {"Page": "MrsRfc", "SrcDir": "docswiki", "SrcFile": "MrsRfc.md", "Referrer": "home/DeepBank.md", "FileMissing": true},
         {"Page": "Predicate RFC", "SrcDir": "docswiki", "SrcFile": "PredicateRfc.md"},
         {"Page": "MRS Format RFC", "SrcDir": "docswiki", "SrcFile": "MrsRFC.md"},
         {"Page": "MRS Isomorphism", "SrcDir": "docswiki", "SrcFile": "MrsIsomorphism.md", "Referrer": "home/RmrsTop.md"},
@@ -678,6 +657,27 @@
         {"Page": "Finite-State PreProcessor", "SrcDir": "docswiki", "SrcFile": "SafFspp.md", "Referrer": "tools/ReppTop.md"}
       ]},
       {"Section": "<todo>", "Pages": [
+                                 {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "tools/LkbLui.md", "FileMissing": true},
+        {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "tools/LkbLtdb.md", "FileMissing": true},
+        {"Page": "WeSearch_PestExamples", "SrcDir": "docswiki", "SrcFile": "WeSearch_PestExamples.md", "Referrer": "tools/RmrsDiscussions.md", "FileMissing": true},
+        {"Page": "RmrsDtd", "SrcDir": "docswiki", "SrcFile": "RmrsDtd.md", "Referrer": "tools/SmafTop.md", "FileMissing": true},
+        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "tools/LkbFos.md", "FileMissing": true},
+        {"Page": "AlexanderKoller", "SrcDir": "docswiki", "SrcFile": "AlexanderKoller.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
+        {"Page": "ZinaPozen", "SrcDir": "docswiki", "SrcFile": "ZinaPozen.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
+        {"Page": "WeiweiSun", "SrcDir": "docswiki", "SrcFile": "WeiweiSun.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
+        {"Page": "ErikVelldal", "SrcDir": "docswiki", "SrcFile": "ErikVelldal.md", "Referrer": "summits/StanfordParticipants.md", "FileMissing": true},
+        {"Page": "JimWhite", "SrcDir": "docswiki", "SrcFile": "JimWhite.md", "Referrer": "summits/StanfordParticipants.md", "FileMissing": true},
+        {"Page": "VaryaGracheva", "SrcDir": "docswiki", "SrcFile": "VaryaGracheva.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
+        {"Page": "BenjaminWaldron", "SrcDir": "docswiki", "SrcFile": "BenjaminWaldron.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
+        {"Page": "DominikusWetzel", "SrcDir": "docswiki", "SrcFile": "DominikusWetzel.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
+       {"Page": "PaperCuts", "SrcDir": "docswiki", "SrcFile": "PaperCuts.md", "Referrer": "summits/SaarlandSchedule.md", "FileMissing": true},
+        {"Page": "SofiaIcons", "SrcDir": "docswiki", "SrcFile": "SofiaIcons.md", "Referrer": "summits/SofiaSchedule.md", "FileMissing": true},
+        {"Page": "JonathanPool", "SrcDir": "docswiki", "SrcFile": "JonathanPool.md", "Referrer": "summits/SuquamishSchedule.md", "FileMissing": true},
+        {"Page": "DarrenAppling", "SrcDir": "docswiki", "SrcFile": "DarrenAppling.md", "Referrer": "summits/ParaTop.md", "FileMissing": true},
+        {"Page": "LauriePoulson", "SrcDir": "docswiki", "SrcFile": "LauriePoulson.md", "Referrer": "summits/FeforGrammarians.md", "FileMissing": true},
+
+        {"Page": "MrsRfc", "SrcDir": "docswiki", "SrcFile": "MrsRfc.md", "Referrer": "home/DeepBank.md", "FileMissing": true},
+
         {"Page": "HuiZhenWang", "SrcDir": "docswiki", "SrcFile": "HuiZhenWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
         {"Page": "ShanWang", "SrcDir": "docswiki", "SrcFile": "ShanWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
         {"Page": "WenjieWang", "SrcDir": "docswiki", "SrcFile": "WenjieWang.md", "Referrer": "grammars/ZhongTop.md", "FileMissing": true},
