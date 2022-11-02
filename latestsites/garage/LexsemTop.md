@@ -13,7 +13,7 @@ Summit](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
 predicates](https://blog.inductorsoftware.com/docsproto/home/LexsemMapping)
 - [MRS mini-modelling Sympoisum at UW](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm)
 - [Semcor Wordnet-ERG mapping](https://blog.inductorsoftware.com/docsproto/home/SemCor) and link to data download
-- [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/home/SaarlandMrsWordnet)
+- [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMrsWordnet)
 
 ## To Maybe Do
 

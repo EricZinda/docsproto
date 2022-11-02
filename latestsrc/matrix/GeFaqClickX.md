@@ -15,7 +15,7 @@ running from source, your Lisp will still be alive.
 - [When I switch between grammars (e.g., the English Resource Grammar
 and a Matrix-derived grammar) the LKB sometimes behaves funny
 (errors, seg faults, etc.). What's going
-on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqSwitchingGrammars)
+on?](../GeFaqSwitchingGrammars)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

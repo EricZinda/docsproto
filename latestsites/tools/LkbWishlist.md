@@ -25,7 +25,7 @@ really the same, e.g.
        SYNSEM.LOCAL.CAT.HEAD i-adj_head & [MARK < [LOCAL.CAT.HEAD.H-TENSE te] > ],
        J-NEEDS-AFFIX +].
 - **Linear precedence constraints**: see
-[LkbLpconstraints](https://blog.inductorsoftware.com/docsproto/home/LkbLpconstraints) for a discussion document.
+[LkbLpconstraints](../LkbLpconstraints) for a discussion document.
 - **Filter in the generator that blocks application of lex rules**
 which add constraints to e.g., PNG which are incompatible with the
 input. (This should keep edges corresponding to verbs inflection for

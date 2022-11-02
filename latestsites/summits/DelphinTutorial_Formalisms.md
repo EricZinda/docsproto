@@ -2,7 +2,7 @@
 
 Strictly speaking, not a formalism but primarily a linguistic theory.
 See brief linguistic characterisation on the
-[DelphinTutorial/Grammars](https://blog.inductorsoftware.com/docsproto/home/DelphinTutorial_Grammars) page.
+[DelphinTutorial/Grammars](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Grammars) page.
 
 # DTFS: DELPH-IN Typed Feature Structure Logic
 

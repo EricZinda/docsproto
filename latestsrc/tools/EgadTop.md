@@ -13,7 +13,7 @@ on both the [\[incr tsdb()](../ItsdbTop)\] and [LKB](../LkbTop) packages for
 parsing and generating sentences with a grammar. Please contact the
 authors if **Egad** does not work with your grammar.
 
-[EgadInstallation](https://blog.inductorsoftware.com/docsproto/home/EgadInstallation) : Installing **Egad**
+[EgadInstallation](https://blog.inductorsoftware.com/docsproto/garage/EgadInstallation) : Installing **Egad**
 
 [EgadAnalysis](/EgadAnalysis) : Obtaining a grammar analysis with
 **Egad**

@@ -20,3 +20,15 @@ toc:
     children:
       - title: "Welcome"
         url: "DelphinWelcome"
+  - title: "Ecosystem Tutorial"
+    children:
+      - title: "DelphinTutorial"
+        url: "DelphinTutorial"
+      - title: "DelphinTutorial_Formalisms"
+        url: "DelphinTutorial_Formalisms"
+      - title: "DelphinTutorial_Grammars"
+        url: "DelphinTutorial_Grammars"
+      - title: "DelphinTutorial_Processing"
+        url: "DelphinTutorial_Processing"
+      - title: "DelphinTutorial_Distributions"
+        url: "DelphinTutorial_Distributions"

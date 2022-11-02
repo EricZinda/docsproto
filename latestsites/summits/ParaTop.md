@@ -9,7 +9,7 @@ or corrections as you see fit.
 - **Some variation**: parse and then rephrase (see
 [RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing))
 - **More variation**: create a monolingual Machine Translation system
-(see [MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/home/MachineTranslationTop))
+(see [MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTop))
 
 In this case, the monolingual machine translation should use the
 *external* MRS exposed by the Semantic Interface ([SEM-I](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi)),

@@ -38,9 +38,9 @@ avoid type addenda.
 ## Related topics
 
 - [What do the punctuation marks mean in the tdl files? (A very basic
-guide to tdl syntax.)](https://blog.inductorsoftware.com/docsproto/home/GeFaqTdlSyntax)
+guide to tdl syntax.)](../GeFaqTdlSyntax)
 - [I'm trying to add a new feature, but the LKB doesn't like it. What
-should I do?](https://blog.inductorsoftware.com/docsproto/home/GeFaqTdlSyntax)
+should I do?](../GeFaqTdlSyntax)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

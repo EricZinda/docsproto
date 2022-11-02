@@ -2,7 +2,7 @@
 parsing and generation.
 
 This page is now superseded by the
-[GrammarPerformance](https://blog.inductorsoftware.com/docsproto/home/GrammarPerformance) page.
+[GrammarPerformance](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance) page.
 
 Contents
 

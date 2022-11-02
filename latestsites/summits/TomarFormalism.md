@@ -13,7 +13,7 @@ computational grammars:
 
 These groups assume different formalisms in their work (and,
 correspondingly, different interpretations of HPSG). Among the above,
-the [DELPH-IN Reference Formalism](https://blog.inductorsoftware.com/docsproto/home/DelphinTutorial_Formalisms) arguably
+the [DELPH-IN Reference Formalism](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Formalisms) arguably
 is the most restrictive selection of descriptive devices found in the
 theoretical HPSG literature; this selection was largely made in the
 mid-1990s.

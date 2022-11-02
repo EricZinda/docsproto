@@ -1,5 +1,5 @@
 {% raw %}This page describes the transfer rule formalism used for, among other
-things, \[wiki:[MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/home/MachineTranslationTop) MT\],
+things, \[wiki:[MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTop) MT\],
 \[wiki:[RmrsParaphrasing](../RmrsParaphrasing) paraphrasing\] and
 \[wiki:[JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) generation\].
 

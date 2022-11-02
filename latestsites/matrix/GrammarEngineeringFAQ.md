@@ -3,7 +3,7 @@
 This is a collection of frequently asked questions related to using the
 LKB and the Grammar Matrix for grammar engineering. Please help
 contribute or improve any questions and/or answers. Please prefix page
-names for answers with '[GeFaq](https://blog.inductorsoftware.com/docsproto/home/GeFaq)'. See also the [Grammar
+names for answers with '[GeFaq](../GeFaq)'. See also the [Grammar
 Engineering Glossary](/GeGlossary).
 
 * * *
@@ -11,20 +11,20 @@ Engineering Glossary](/GeGlossary).
 ## Getting started
 
 - [I want to install the LKB on my local machine, what should I
-do?](https://blog.inductorsoftware.com/docsproto/home/GeFaqLkbInstallation)
+do?](../GeFaqLkbInstallation)
 - [What should I know about documenting my
-grammar?](https://blog.inductorsoftware.com/docsproto/home/GeFaqGrammarDocumentation)
+grammar?](../GeFaqGrammarDocumentation)
 - [How do I interact with the LKB through the Lisp
-prompt?](https://blog.inductorsoftware.com/docsproto/home/GeFaqLispPromptTips)
+prompt?](../GeFaqLispPromptTips)
 
 * * *
 
 ## Questions about error messages
 
 - [I don't think I'm getting any error messages. Does that mean I
-don't have any errors?](https://blog.inductorsoftware.com/docsproto/home/GeFaqNoError)
+don't have any errors?](../GeFaqNoError)
 - [The LKB says I have an error at position number 873. How do I
-figure out where that is in my file?](https://blog.inductorsoftware.com/docsproto/home/GeFaqLoadScript)
+figure out where that is in my file?](../GeFaqLoadScript)
 - [When I try to load my grammar/the matrix, the LKB says "Error:
 Attempt to take the value of the unbound variable ...". What am I
 doing wrong?](../GeFaqGotoChar)
@@ -33,10 +33,10 @@ where. What should I do?](../GeFaqRightBracket)
 - [When I load my grammar, I get "no possible type for features (...)
 at path (...)". What is causing this?](../GeFaqNoPossibleType)
 - [When I load my grammar, I get "Feature ... is introduced at
-multiple types (...)". What is causing this?](https://blog.inductorsoftware.com/docsproto/home/GeFaqFeatureMultiType)
+multiple types (...)". What is causing this?](../GeFaqFeatureMultiType)
 - [My grammar loads just fine, but when I try to parse a sentence, it
 says "no sign can be constructed for ...". What's
-happening?](https://blog.inductorsoftware.com/docsproto/home/GeFaqNoSign)
+happening?](../GeFaqNoSign)
 - [It seems that errors in the lexicon are only detected when I try to
 parse a sentence containing a word with the error, not when the
 grammar is loaded. How do I check the whole
@@ -44,14 +44,14 @@ lexicon?](/GeFaqLexiconErrors)
 - [When I try to parse a sentence, the LKB says "probable runaway
 rule". How do I debug this?](../GeFaqRunawayRule1)
 - [When I try to generate, the LKB says "probable runaway rule". How
-do I debug this?](https://blog.inductorsoftware.com/docsproto/home/GeFaqRunawayRule2)
+do I debug this?](../GeFaqRunawayRule2)
 - [When I try to generate, the LKB says "Probable circular lexical
 rule". How do I debug this?](../GeFaqCircularLexRule)
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
-and how do I debug it?](https://blog.inductorsoftware.com/docsproto/home/GeFaqCyclicCheck)
+and how do I debug it?](../GeFaqCyclicCheck)
 - [I'm trying to write a lexical (or phrase structure rule), but I get
 the error "Rule without daughter". What does this mean, and how
-should I fix it?](https://blog.inductorsoftware.com/docsproto/home/GeFaqRuleWithoutDaughter)
+should I fix it?](../GeFaqRuleWithoutDaughter)
 - [The LKB says that I am trying to unify a NULL with CONS. What could
 the problem be?](/GeFaqUnifyingNullWithCons)
 - [The LKB says that the Unification of rule-x and rule-y failed at
@@ -63,7 +63,7 @@ this mean?](/GeFaqFailedToReunify)
 
 ## Questions about the parse chart
 
-- [How do I get the LKB to show me the parse chart?](https://blog.inductorsoftware.com/docsproto/home/GeFaqShowChart)
+- [How do I get the LKB to show me the parse chart?](../GeFaqShowChart)
 - [When I look at the parse chart, I don't see an edge that I'm
 expecting to be there. How do I find out why it's
 missing?](../GeFaqMissingEdge)
@@ -71,18 +71,18 @@ missing?](../GeFaqMissingEdge)
 chart?](../GeFaqMissingHowTo)
 - [Looking at the parse chart, it seems that I do have an edge that
 spans the whole chart (accounts for all the words), but the LKB
-still says no parses found. What might be going on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqRootFail)
+still says no parses found. What might be going on?](../GeFaqRootFail)
 - [How do I tell if I have an edge that spans the whole
 chart?](../GeFaqSpanningEdge)
 - [One of my words is showing up in the chart twice.
-Why?](https://blog.inductorsoftware.com/docsproto/home/GeFaqChartTwice)
+Why?](../GeFaqChartTwice)
 - [One of my words branches to two lexical edges that look exactly the
 same. Why?](/GeFaqTwoLexEdges)
 - [One of my words isn't showing up in the chart at all.
 Why?](/GeFaqWordNotInChart)
 - [I've tried to use interactive unification to find out why an edge
 can't be built, and it can be built interactively, but it's still
-not in the chart. What's going on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqUnifySurprise)
+not in the chart. What's going on?](../GeFaqUnifySurprise)
 - [I get two (or more) parses for a sentence. How can I tell where the
 extra parse is coming from?](/GeFaqExtraParse1)
 - [I get two (or more) parses for a sentence, but the Compare window
@@ -103,13 +103,13 @@ lexeme-to-word?](/GeFaqLexToWhatRule)
 rule?](/GeFaqWordToWordRule)
 - [I'm trying to write a lexical rule, but I get the error "Rule
 without daughters". What does this mean, and how should I fix
-it?](https://blog.inductorsoftware.com/docsproto/home/GeFaqRuleWithoutDaughters)
+it?](../GeFaqRuleWithoutDaughters)
 - [I have written my lexical rule in the grammar file, but it still
 isn't getting applied. What could be preventing it from being
-used?](https://blog.inductorsoftware.com/docsproto/home/GeFaqNoEntry2)
+used?](../GeFaqNoEntry2)
 - [I have a lexical rule that seems to be applying even when its
 phonological conditions aren't met. What's going
-on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqOverApplicationLexRule)
+on?](../GeFaqOverApplicationLexRule)
 
 * * *
 
@@ -127,13 +127,13 @@ incompatible?](/GeFaqSemanticIncompatibility)
 ## Questions about types, constraints, and entries
 
 - [What do the punctuation marks mean in the tdl files? (A very basic
-guide to tdl syntax.)](https://blog.inductorsoftware.com/docsproto/home/GeFaqTdlSyntax)
+guide to tdl syntax.)](../GeFaqTdlSyntax)
 - [How do I constrain something to be not of a certain
 value?](../GeFaqNegValue)
 - [How do I do disjunction (constrain the value of a feature to be X
-or Y)?](https://blog.inductorsoftware.com/docsproto/home/GeFaqDisjunctiveValue)
+or Y)?](../GeFaqDisjunctiveValue)
 - [Can I make the value of one feature dependent on the value of
-another?](https://blog.inductorsoftware.com/docsproto/home/GeFaqDistributedDisjunction)
+another?](../GeFaqDistributedDisjunction)
 - [How do I define multiple different root
 conditions?](/GeFaqMultipleRoot)
 - [How do I see what a type looks like with all of the constraints it
@@ -164,7 +164,7 @@ figure out what paths I need to use?)](../GeFaqFeatureGeometry)
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
 should I do?](../GeFaqNewFeature)
 - [How do I get the LKB to tell me what type(s) a feature or set of
-features is appropriate for?](https://blog.inductorsoftware.com/docsproto/home/GeFaqFindTypeForFeatures)
+features is appropriate for?](../GeFaqFindTypeForFeatures)
 
 * * *
 
@@ -174,31 +174,31 @@ features is appropriate for?](https://blog.inductorsoftware.com/docsproto/home/G
 - [What should I know about downloading matrix
 patches?](/GeFaqMatrixPatches)
 - [The LKB seems to be "forgetting" a constraint/definition I've
-coded. Why?](https://blog.inductorsoftware.com/docsproto/home/GeFaqForgottenConstraint)
+coded. Why?](../GeFaqForgottenConstraint)
 - [In which files does order matter?](../GeFaqOrderMatters)
 - [A menu item seems to have disappeared (e.g., Parse &gt; Compare or
-Generate). How do I get it back?](https://blog.inductorsoftware.com/docsproto/home/GeFaqExpandMenu)
+Generate). How do I get it back?](../GeFaqExpandMenu)
 - [How do I use tab to help me figure out where my syntax error
 is?](../GeFaqTabIndentation)
 - [I have a type/lexical entry/rule which doesn't seem to be
 inheriting a constraint from its supertype. What might be going
-on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqConfusingTypo)
+on?](../GeFaqConfusingTypo)
 - [I've downloaded an updated version of the matrix, but the changes
 specified in the new matrix.tdl don't seem to be taking effect when
-I reload the grammar. What's wrong?](https://blog.inductorsoftware.com/docsproto/home/GeFaqTdlTxt)
+I reload the grammar. What's wrong?](../GeFaqTdlTxt)
 - [How do I change the default sentence that appears in the parse
 dialog box when I load up my grammar?](/GeFaqDefaultSentence)
 - [What's a difference list, and why do we use them?](../GeFaqDiffList)
 - [All of the sudden, some of the nodes in my tree are labeled with ?
 instead of N or S or VP. What happened?](/GeFaqQuestionMarkNodes)
 - [How can I input strings from non-ascii character
-sets?](https://blog.inductorsoftware.com/docsproto/home/GeFaqUnicodeInput)
+sets?](../GeFaqUnicodeInput)
 - [What non-alphanumeric characters are allowed to be part of a string
 parsed by the LKB, and how can I change that?](../GeFaqNonAlpha)
 - [When I switch between grammars (e.g., the English Resource Grammar
 and a Matrix-derived grammar) the LKB sometimes behaves funny
 (errors, seg faults, etc.). What's going
-on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqSwitchingGrammars)
+on?](../GeFaqSwitchingGrammars)
 - [When I close the LKB Top Menu, is Lisp supposed to exit as
 well?](../GeFaqClickX)
 - [How can I tell tsdb++ to start with the directories for "home" and
@@ -209,7 +209,7 @@ treehouse?](/GeFaqTsdbTreehouse)
 pop-up menu. Why not?](/GeFaqChartNoPopups)
 - [The keyboard doesn't work in the incr tsdb() window/The keyboard
 doesn't work in Emacs after running incr
-tsdb()](https://blog.inductorsoftware.com/docsproto/home/GeFaqKeyboardNotWorking)
-- [How do I paste into the LKB Parse dialogue?](https://blog.inductorsoftware.com/docsproto/home/GeFaqPasteShortcut)
+tsdb()](../GeFaqKeyboardNotWorking)
+- [How do I paste into the LKB Parse dialogue?](../GeFaqPasteShortcut)
 
 Last update: 2012-08-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/GrammarEngineeringFAQ/_edit)]{% endraw %}

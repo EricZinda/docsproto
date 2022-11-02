@@ -136,7 +136,7 @@ Pollard and Sag) (Lars, Antske, Tania, Emily, Petya, Sanghoun, dan)
 - \[5\] Discussion of user experiences with the [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)
 treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie, Ann,
 Angelina, Jonathon \[soliciting advice re. development of
-[WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch) Data Collection\], oe) \[short\]
+[WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) Data Collection\], oe) \[short\]
 - \[5\] SIG on conversion of grammar outputs into other formats (e.g.,
 Malt-TAB) (Montse, Emily, Sanghoun, oe, aurelie)
 - \[7\] Discussion of grammar localisation issues (Petya, Kiril,

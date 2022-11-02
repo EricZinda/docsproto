@@ -22,7 +22,7 @@ that are excluded.
 Berthold: It must have been a list of pairings...
 
 Emily: \[Reviews big picture overview of [Hankø
-notes](https://blog.inductorsoftware.com/docsproto/home/WeSearch_UnderspecifedAttachment), ending with:\] came up with
+notes](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_UnderspecifedAttachment), ending with:\] came up with
 examples where the structure puts in some constraints. Is that what you
 meant Dan about taking things off the list?
 

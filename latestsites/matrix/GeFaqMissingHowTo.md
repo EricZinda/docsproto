@@ -5,11 +5,11 @@
 If a sentence that you believe should parse isn't parsing, or if it is
 parsing, but it's not getting the parse you expect, then there are
 probably edges missing from your parse chart. (If not, see [this
-FAQ](https://blog.inductorsoftware.com/docsproto/home/GeFaqRootFail).)
+FAQ](../GeFaqRootFail).)
 
 To find out if this is the case, and to find out which edge is missing,
 first you must try to parse a sentence, and then [display the parse
-chart](https://blog.inductorsoftware.com/docsproto/home/GeFaqShowChart).
+chart](../GeFaqShowChart).
 
 Along the left hand side of the parse chart are the word forms from the
 input sentence. In the next column are the lexical edges built for each
@@ -33,10 +33,10 @@ highlight all descendants and ancestors of that edge.
 
 ### Related topics
 
-- [How do I get the LKB to show me the parse chart?](https://blog.inductorsoftware.com/docsproto/home/GeFaqShowChart)
+- [How do I get the LKB to show me the parse chart?](../GeFaqShowChart)
 - [Looking at the parse chart, it seems that I do have an edge that
 spans the whole chart (accounts for all the words), but the LKB
-still says no parses found. What might be going on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqRootFail)
+still says no parses found. What might be going on?](../GeFaqRootFail)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

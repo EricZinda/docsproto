@@ -54,7 +54,7 @@ demands on the software -- 30GB memory processes but also laptops.
 - TDL extension: "strict" types (i.e., the ability to require
 resolution to leaf types)
 - List operations
-- Discontinuous parsing (see [LkbLpconstraints](https://blog.inductorsoftware.com/docsproto/home/LkbLpconstraints) for
+- Discontinuous parsing (see [LkbLpconstraints](https://blog.inductorsoftware.com/docsproto/tools/LkbLpconstraints) for
 a possible approach)
 - Means of turning of subsets of large grammars to facilitate their
 initial exploration by new developers

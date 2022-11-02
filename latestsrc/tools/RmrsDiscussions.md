@@ -33,17 +33,17 @@ is probably only partial, and additional links are welcome.
 2012:
   
   - [MRS representation design
-principles](https://blog.inductorsoftware.com/docsproto/home/WeSearch_DesignPrinciples)
+principles](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_DesignPrinciples)
   - [towards a catalogue of stable semantic analyses (and
-documentation)](https://blog.inductorsoftware.com/docsproto/home/WeSearch_AnalysisCatalog)
-  - [scopal arguments in coordination](https://blog.inductorsoftware.com/docsproto/home/WeSearch_ScopalArgCoord)
-  - [anaphor links (ICONS)](https://blog.inductorsoftware.com/docsproto/home/WeSearch_ICONS)
+documentation)](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_AnalysisCatalog)
+  - [scopal arguments in coordination](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_ScopalArgCoord)
+  - [anaphor links (ICONS)](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_ICONS)
   - [underspecification of modifier
-attachment](https://blog.inductorsoftware.com/docsproto/home/WeSearch_UnderspecifedAttachment)
+attachment](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_UnderspecifedAttachment)
   - [predicate symbols underspecified for
-arity](https://blog.inductorsoftware.com/docsproto/home/WeSearch_UnderspecifiedPreds)
+arity](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_UnderspecifiedPreds)
   - [specification of co-reference: \*''I bit her
-tongue''](https://blog.inductorsoftware.com/docsproto/home/WeSearch_VariablePropertySharing)
+tongue''](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_VariablePropertySharing)
   - And other topics: [PEST examples
 discussion](../WeSearch_PestExamples),
 [etc.](/WeSearch/Hank%C3%B8TheRest)
@@ -56,7 +56,7 @@ discussion](../WeSearch_PestExamples),
   - [MRS Comparison](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsComparison)
 - [Mini-symposium on MRS modeling](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm) at UW, November 2012
 - [ERG Semantic Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics), begun under the auspices
-of [WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch) in February 2013
+of [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) in February 2013
 - [Mini-symposium on named entities and MRS](https://blog.inductorsoftware.com/docsproto/summits/RmrsNes) at UW, February
 2013
 - From the [Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop), July-August 2013
@@ -105,13 +105,13 @@ wellformedness constraints](https://blog.inductorsoftware.com/docsproto/summits/
   - [Quantum MRS, with a special focus on idioms and linking to
 WordNet representation of lexical semantics](https://blog.inductorsoftware.com/docsproto/summits/TomarQuantumMRS)
 - From the [Comparative Computational Semantics
-Workshop](https://blog.inductorsoftware.com/docsproto/home/WeSearch_Ccs), November 2014 (not exclusively about MRS)
+Workshop](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Ccs), November 2014 (not exclusively about MRS)
   
-  - [First Day](https://blog.inductorsoftware.com/docsproto/home/WeSearch_CcsDayOne): Control, (Closed) Clausal
+  - [First Day](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_CcsDayOne): Control, (Closed) Clausal
 Complements/Propositional Arguments
-  - [Second Day](https://blog.inductorsoftware.com/docsproto/home/WeSearch_CcsDayTwo): Gerunds (aka Closed Clausal
+  - [Second Day](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_CcsDayTwo): Gerunds (aka Closed Clausal
 Complements, cont), Nominalization, (Identity) Copulae
-  - [Third Day](https://blog.inductorsoftware.com/docsproto/home/WeSearch_CcsDayTwo): Identity Copulae (cont, \`:'
+  - [Third Day](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_CcsDayTwo): Identity Copulae (cont, \`:'
 and others), Comparatives
 - From the [Singapore Summit](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule), August 2015
   

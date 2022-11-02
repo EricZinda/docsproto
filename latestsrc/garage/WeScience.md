@@ -30,7 +30,7 @@ University](http://www.coli.uni-saarland.de), with partial funding from
 the University of Oslo, the [Norwegian Open Research
 Archives](http://www.ub.uit.no/wiki/openaccess/index.php/NORA), and the
 [Norwegian Metacenter for Computational Science](http://www.notur.no).
-Since 2011, WeScience is partially supported by the [WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch)
+Since 2011, WeScience is partially supported by the [WeSearch](../WeSearch)
 project.
 
 # Current State of Development
