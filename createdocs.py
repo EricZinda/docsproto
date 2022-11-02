@@ -285,7 +285,6 @@ def create_tocs(dst_root, tocs):
             txtFile.write(toc_text)
 
 
-
 # Given the full set of links on all pages propose entries to sitedefinitions.json to fix them
 def propose_broken_links(all_links, sites_definitions, input_content_root):
     proposals = {}

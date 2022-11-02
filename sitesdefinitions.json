@@ -32,12 +32,14 @@
       {"Section": "DELPH-IN", "Pages": [
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"}
       ]},
-      {"Section": "Ecosystem Tutorial", "Pages": [
+      {"Section": "Tutorials", "Pages": [
         {"Page": "DelphinTutorial", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "DelphinTutorial_Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/TomarFormalism.md"},
         {"Page": "DelphinTutorial_Grammars", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Grammars.md", "Referrer": "summits/DelphinTutorial_Formalisms.md"},
         {"Page": "DelphinTutorial_Processing", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Processing.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinTutorial_Distributions", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Distributions.md", "Referrer": "summits/DelphinTutorial.md"}
+        {"Page": "DelphinTutorial_Distributions", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Distributions.md", "Referrer": "summits/DelphinTutorial.md"},
+        {"Page": "HpsgTutorial", "SrcDir": "docswiki", "SrcFile": "HpsgTutorial.md", "Referrer": "home/TeachingCourses.md"}
+
       ]}
     ],
     "home": [
@@ -54,62 +56,6 @@
         {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
         {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
         {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"}
-      ]},
-      {"Section": "Japanese (JACY)", "Pages": [
-        {"Page": "GrammarDevelopment", "SrcDir": "docswiki", "SrcFile": "GrammarDevelopment.md", "Referrer": "home/CapitolHillTop.md"}
-      ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "SafDtd", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"}
-      ]},
-      {"Section": "Grammar Engineering", "Pages": [
-        {"Page": "MatrixRegressionTestingSetupMac", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMac.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"}
-      ]},
-      {"Section": "Formats", "Pages": [
-        {"Page": "LADChineseAnotA", "SrcDir": "docswiki", "SrcFile": "LADChineseAnotA.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "LADLushootseedSemantics", "SrcDir": "docswiki", "SrcFile": "LADLushootseedSemantics.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "SynSem", "SrcDir": "docswiki", "SrcFile": "SynSem.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "SynSem_Activities_PolymorphicVariadicPredicates", "SrcDir": "docswiki", "SrcFile": "SynSem_Activities_PolymorphicVariadicPredicates.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "LogonVpm", "SrcDir": "docswiki", "SrcFile": "LogonVpm.md", "Referrer": "tools/TransferRules.md"},
-        {"Page": "SmafLkb", "SrcDir": "docswiki", "SrcFile": "SmafLkb.md", "Referrer": "tools/SmafTop.md"},
-        {"Page": "SmafPet", "SrcDir": "docswiki", "SrcFile": "SmafPet.md", "Referrer": "tools/SmafTop.md"},
-        {"Page": "SmafSample", "SrcDir": "docswiki", "SrcFile": "SmafSample.md", "Referrer": "tools/SmafTop.md"},
-        {"Page": "SmafDtd", "SrcDir": "docswiki", "SrcFile": "SmafDtd.md", "Referrer": "tools/SmafTop.md"}
-      ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "HogInstallation", "SrcDir": "docswiki", "SrcFile": "HogInstallation.md", "Referrer": "tools/HeartofgoldTop.md"},
-        {"Page": "SafTop", "SrcDir": "docswiki", "SrcFile": "SafTop.md", "Referrer": "tools/SafFspp.md"}
-      ]},
-      {"Section": "Saarland", "Pages": [
-        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "summits/SaarlandSchedule.md"}
-      ]},
-      {"Section": "Sofia", "Pages": [
-        {"Page": "TeachingTop", "SrcDir": "docswiki", "SrcFile": "TeachingTop.md", "Referrer": "summits/SofiaSchedule.md"},
-        {"Page": "PhenomenaTop", "SrcDir": "docswiki", "SrcFile": "PhenomenaTop.md", "Referrer": "summits/SofiaCLIMBAndReducingComplexity.md"},
-        {"Page": "TeachingCourses", "SrcDir": "docswiki", "SrcFile": "TeachingCourses.md", "Referrer": "summits/TeachingTop.md"},
-        {"Page": "HpsgTutorial", "SrcDir": "docswiki", "SrcFile": "HpsgTutorial.md", "Referrer": "home/TeachingCourses.md"}
-      ]},
-      {"Section": "Suquamish", "Pages": [
-        {"Page": "BirdsofaFeather2011", "SrcDir": "docswiki", "SrcFile": "BirdsofaFeather2011.md", "Referrer": "summits/SuquamishSchedule.md"},
-        {"Page": "DocumentationParty", "SrcDir": "docswiki", "SrcFile": "DocumentationParty.md", "Referrer": "summits/SuquamishSchedule.md"},
-        {"Page": "SlavicMatrix", "SrcDir": "docswiki", "SrcFile": "SlavicMatrix.md", "Referrer": "summits/SuquamishSchedule.md"}
-      ]},
-      {"Section": "2010 Paris", "Pages": [
-        {"Page": "ChartMappingAppliedNotes", "SrcDir": "docswiki", "SrcFile": "ChartMappingAppliedNotes.md", "Referrer": "summits/ParisSchedule.md"},
-        {"Page": "InfrastructureTop", "SrcDir": "docswiki", "SrcFile": "InfrastructureTop.md", "Referrer": "summits/ParisBugTracker.md"}
-      ]},
-      {"Section": "Berlin", "Pages": [
-        {"Page": "FeforParCorp", "SrcDir": "docswiki", "SrcFile": "FeforParCorp.md", "Referrer": "summits/EvaluationParCorp.md"}
-      ]},
-      {"Section": "Fefor", "Pages": [
-        {"Page": "ErgSummary", "SrcDir": "docswiki", "SrcFile": "ErgSummary.md", "Referrer": "summits/FeforGrammarians.md"},
-        {"Page": "JacySummary", "SrcDir": "docswiki", "SrcFile": "JacySummary.md", "Referrer": "summits/FeforGrammarians.md"},
-        {"Page": "PhdgramSummary", "SrcDir": "docswiki", "SrcFile": "PhdgramSummary.md", "Referrer": "summits/FeforGrammarians.md"},
-        {"Page": "BitseSummary", "SrcDir": "docswiki", "SrcFile": "BitseSummary.md", "Referrer": "summits/FeforGrammarians.md"},
-        {"Page": "OpenissuesTop", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop.md", "Referrer": "summits/FeforDiscussionCompilations.md"},
-              {"Page": "OpenissuesTop_GrammarMatrixTenseAspect", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop_GrammarMatrixTenseAspect.md", "Referrer": "home/OpenissuesTop.md"},
-        {"Page": "OpenissuesTop_GrammarMatrixClitic", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop_GrammarMatrixClitic.md", "Referrer": "home/OpenissuesTop.md"},
-        {"Page": "OpenissuesTop_GrammarMatrixSerialVerbConstructions", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop_GrammarMatrixSerialVerbConstructions.md", "Referrer": "home/OpenissuesTop.md"}
-
       ]}
     ],
     "garage": [
@@ -332,8 +278,10 @@
         {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Dev Blueprints", "SrcDir": "docswiki", "SrcFile": "MatrixDevBlueprints.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Library Development", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryDevelopment.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "GrammarDevelopment", "SrcDir": "docswiki", "SrcFile": "GrammarDevelopment.md", "Referrer": "home/CapitolHillTop.md"},
         {"Page": "Library WishList", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryWishList.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Regression Testing Setup", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetup.md", "Referrer": "matrix/MatrixRegressionTesting.md"}
+        {"Page": "Regression Testing Setup", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetup.md", "Referrer": "matrix/MatrixRegressionTesting.md"},
+          {"Page": "Regression Testing Setup (Mac)", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMac.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"}
       ]},
       {"Section": "Matrix Doc", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "matrix/MatrixGettingStarted.md"},
@@ -531,6 +479,7 @@
         {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
         {"Page": "Setting up New Languages", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "tools/NoJa.md"},
         {"Page": "Logon Debian Setup", "SrcDir": "docswiki", "SrcFile": "LogonDebian.md", "Referrer": "tools/LogonUbuntu.md"},
+        {"Page": "Variable Property Mapping", "SrcDir": "docswiki", "SrcFile": "LogonVpm.md", "Referrer": "tools/TransferRules.md"},
         {"Page": "Wishlist", "SrcDir": "docswiki", "SrcFile": "LogonWishlist.md"}
       ]},
       {"Section": "LexDb", "Pages": [
@@ -600,6 +549,11 @@
         {"Page": "Format Specifications", "SrcDir": "docswiki", "SrcFile": "FormatSpecifications.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Grammar Markup Language", "SrcDir": "docswiki", "SrcFile": "ErgGml.md", "Referrer": "concept/WikiWoods.md"},
         {"Page": "SMAF", "SrcDir": "docswiki", "SrcFile": "SmafTop.md", "Referrer": "tools/ReppTop.md"},
+        {"Page": "Smaf in LKB", "SrcDir": "docswiki", "SrcFile": "SmafLkb.md", "Referrer": "tools/SmafTop.md"},
+        {"Page": "Smaf in PET", "SrcDir": "docswiki", "SrcFile": "SmafPet.md", "Referrer": "tools/SmafTop.md"},
+        {"Page": "Smaf Sample", "SrcDir": "docswiki", "SrcFile": "SmafSample.md", "Referrer": "tools/SmafTop.md"},
+        {"Page": "Smaf DTD", "SrcDir": "docswiki", "SrcFile": "SmafDtd.md", "Referrer": "tools/SmafTop.md"},
+
         {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
       ]},
       {"Section": "Misc", "Pages": [
@@ -608,8 +562,12 @@
         {"Page": "Regular Expression Pre-Processor", "SrcDir": "docswiki", "SrcFile": "ReppTop.md"},
         {"Page": "Testing With Ant", "SrcDir": "docswiki", "SrcFile": "TestingWithAnt.md", "Referrer": "summits/JerezTop.md"},
         {"Page": "Heart of Gold", "SrcDir": "docswiki", "SrcFile": "HeartofgoldTop.md"},
+        {"Page": "Hog Installation", "SrcDir": "docswiki", "SrcFile": "HogInstallation.md", "Referrer": "tools/HeartofgoldTop.md"},
         {"Page": "Rmrs/Dmrs Comparison", "SrcDir": "docswiki", "SrcFile": "RmrsDmrsComparison.md", "Referrer": "concept/RmrsDmrs.md"},
-        {"Page": "Finite-State PreProcessor", "SrcDir": "docswiki", "SrcFile": "SafFspp.md", "Referrer": "tools/ReppTop.md"}
+        {"Page": "Finite-State PreProcessor", "SrcDir": "docswiki", "SrcFile": "SafFspp.md", "Referrer": "tools/ReppTop.md"},
+        {"Page": "SAF Overview", "SrcDir": "docswiki", "SrcFile": "SafTop.md", "Referrer": "tools/SafFspp.md"},
+        {"Page": "SAF DTD", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"}
+
       ]},
       {"Section": "<todo>", "Pages": [
         {"Page": "Chart_Mapping", "SrcDir": "docswiki", "SrcFile": "Chart_Mapping.md", "Referrer": "garage/PetRobustness.md", "FileMissing": true},
@@ -772,6 +730,10 @@
         {"Page": "WhInfo Structure", "SrcDir": "docswiki", "SrcFile": "CambridgeWhInfoStructure.md", "Referrer": "summits/CambridgeSchedule.md"},
         {"Page": "Extraction Append", "SrcDir": "docswiki", "SrcFile": "CambridgeExtractionAppend.md", "Referrer": "summits/CambridgeSchedule.md"}
       ]},
+      {"Section": "SynSem at CAS 2017/2018", "Pages": [
+        {"Page": "SynSem", "SrcDir": "docswiki", "SrcFile": "SynSem.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "SynSem_Activities_PolymorphicVariadicPredicates", "SrcDir": "docswiki", "SrcFile": "SynSem_Activities_PolymorphicVariadicPredicates.md", "Referrer": "tools/RmrsDiscussions.md"}
+      ]},
       {"Section": "Paris/Diderot 2018", "Pages": [
         {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "DiderotSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -860,7 +822,9 @@
         {"Page": "Online Demos", "SrcDir": "docswiki", "SrcFile": "SingaporeOnlineDemos.md", "Referrer": "summits/SingaporeSchedule.md"},
         {"Page": "Night Safari", "SrcDir": "docswiki", "SrcFile": "NightSafari.md", "Referrer": "summits/SingaporeSchedule.md"},
         {"Page": "Tutorial Planning", "SrcDir": "docswiki", "SrcFile": "SingaporeTutorialPlanning.md", "Referrer": "summits/SingaporeSchedule.md"},
-        {"Page": "Jacy Pragmatics", "SrcDir": "docswiki", "SrcFile": "JacyPragmatics.md", "Referrer": "summits/SingaporeRepresentingPragmatics.md"}
+        {"Page": "Jacy Pragmatics", "SrcDir": "docswiki", "SrcFile": "JacyPragmatics.md", "Referrer": "summits/SingaporeRepresentingPragmatics.md"},
+        {"Page": "LADChineseAnotA", "SrcDir": "docswiki", "SrcFile": "LADChineseAnotA.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "LADLushootseedSemantics", "SrcDir": "docswiki", "SrcFile": "LADLushootseedSemantics.md", "Referrer": "tools/RmrsDiscussions.md"}
       ]},
       {"Section": "Tomar 2014", "Pages": [
         {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"},
@@ -929,7 +893,9 @@
         {"Page": "SaarlandFormalism", "SrcDir": "docswiki", "SrcFile": "SaarlandFormalism.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandValence", "SrcDir": "docswiki", "SrcFile": "SaarlandValence.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandNegScope", "SrcDir": "docswiki", "SrcFile": "SaarlandNegScope.md", "Referrer": "summits/SaarlandSchedule.md"},
-        {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "home/LexsemTop.md"}
+        {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "home/LexsemTop.md"},
+        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "summits/SaarlandSchedule.md"}
+
       ]},
       {"Section": "MRS modeling 2013", "Pages": [
         {"Page": "RmrsNes", "SrcDir": "docswiki", "SrcFile": "RmrsNes.md", "Referrer": "concept/RmrsDiscussions.md"}
@@ -946,7 +912,10 @@
         {"Page": "WambayaPhenomenaCatalogue", "SrcDir": "docswiki", "SrcFile": "WambayaPhenomenaCatalogue.md", "Referrer": "summits/SofiaLinguisticPhenomena.md"},
         {"Page": "SofiaGrammarLocalizationSIG", "SrcDir": "docswiki", "SrcFile": "SofiaGrammarLocalizationSIG.md", "Referrer": "summits/SofiaSchedule.md"},
         {"Page": "SofiaCLIMBAndReducingComplexity", "SrcDir": "docswiki", "SrcFile": "SofiaCLIMBAndReducingComplexity.md", "Referrer": "summits/SofiaSchedule.md"},
-        {"Page": "SofiaPreprocessingSIG", "SrcDir": "docswiki", "SrcFile": "SofiaPreprocessingSIG.md", "Referrer": "summits/SofiaSchedule.md"}
+        {"Page": "PhenomenaTop", "SrcDir": "docswiki", "SrcFile": "PhenomenaTop.md", "Referrer": "summits/SofiaCLIMBAndReducingComplexity.md"},
+        {"Page": "SofiaPreprocessingSIG", "SrcDir": "docswiki", "SrcFile": "SofiaPreprocessingSIG.md", "Referrer": "summits/SofiaSchedule.md"},
+        {"Page": "TeachingTop", "SrcDir": "docswiki", "SrcFile": "TeachingTop.md", "Referrer": "summits/SofiaSchedule.md"},
+        {"Page": "TeachingCourses", "SrcDir": "docswiki", "SrcFile": "TeachingCourses.md", "Referrer": "summits/TeachingTop.md"}
       ]},
       {"Section": "MRS modeling 2012", "Pages": [
         {"Page": "RmrsLm", "SrcDir": "docswiki", "SrcFile": "RmrsLm.md", "Referrer": "concept/RmrsDiscussions.md"}
@@ -965,7 +934,10 @@
         {"Page": "Lexical Semantics", "SrcDir": "docswiki", "SrcFile": "SuquamishLexSem.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "BirdsofaFeather2011Summary", "SrcDir": "docswiki", "SrcFile": "BirdsofaFeather2011Summary.md", "Referrer": "summits/BirdsofaFeather2011.md"},
         {"Page": "StandingCommitteeGroup", "SrcDir": "docswiki", "SrcFile": "StandingCommitteeGroup.md", "Referrer": "summits/SuquamishBusinessMeeting.md"},
-        {"Page": "ChartMappingAppliedNotes", "SrcDir": "docswiki", "SrcFile": "ChartMappingAppliedNotes.md", "Referrer": "summits/DocumentationParty.md"}
+        {"Page": "ChartMappingAppliedNotes", "SrcDir": "docswiki", "SrcFile": "ChartMappingAppliedNotes.md", "Referrer": "summits/DocumentationParty.md"},
+        {"Page": "BirdsofaFeather2011", "SrcDir": "docswiki", "SrcFile": "BirdsofaFeather2011.md", "Referrer": "summits/SuquamishSchedule.md"},
+        {"Page": "DocumentationParty", "SrcDir": "docswiki", "SrcFile": "DocumentationParty.md", "Referrer": "summits/SuquamishSchedule.md"},
+        {"Page": "SlavicMatrix", "SrcDir": "docswiki", "SrcFile": "SlavicMatrix.md", "Referrer": "summits/SuquamishSchedule.md"}
       ]},
       {"Section": "Paris 2010", "Pages": [
         {"Page": "Paris Summit", "SrcDir": "docswiki", "SrcFile": "ParisTop.md", "Referrer": "home/DelphinNews.md"},
@@ -983,7 +955,9 @@
         {"Page": "LogonParis", "SrcDir": "docswiki", "SrcFile": "LogonParis.md", "Referrer": "summits/ParisSchedule.md"},
         {"Page": "ParisMultilingualGrammarEngineering", "SrcDir": "docswiki", "SrcFile": "ParisMultilingualGrammarEngineering.md", "Referrer": "summits/ParisTopics.md"},
         {"Page": "ParisMatrixCustomization", "SrcDir": "docswiki", "SrcFile": "ParisMatrixCustomization.md", "Referrer": "summits/ParisTopics.md"},
-        {"Page": "ParisMatrixTopics", "SrcDir": "docswiki", "SrcFile": "ParisMatrixTopics.md", "Referrer": "summits/ParisTopics.md"}
+        {"Page": "ParisMatrixTopics", "SrcDir": "docswiki", "SrcFile": "ParisMatrixTopics.md", "Referrer": "summits/ParisTopics.md"},
+        {"Page": "ChartMappingAppliedNotes", "SrcDir": "docswiki", "SrcFile": "ChartMappingAppliedNotes.md", "Referrer": "summits/ParisSchedule.md"},
+        {"Page": "InfrastructureTop", "SrcDir": "docswiki", "SrcFile": "InfrastructureTop.md", "Referrer": "summits/ParisBugTracker.md"}
       ]},
       {"Section": "Barcelona 2009", "Pages": [
         {"Page": "Barcelona Summit", "SrcDir": "docswiki", "SrcFile": "BarcelonaTop.md", "Referrer": "home/DelphinNews.md"},
@@ -1036,14 +1010,22 @@
         {"Page": "FeforMRSinTranslation", "SrcDir": "docswiki", "SrcFile": "FeforMRSinTranslation.md", "Referrer": "summits/FeforPlenum.md"},
         {"Page": "FeforOpenIssues", "SrcDir": "docswiki", "SrcFile": "FeforOpenIssues.md", "Referrer": "summits/FeforPlenum.md"},
         {"Page": "Grammarians", "SrcDir": "docswiki", "SrcFile": "FeforGrammarians.md", "Referrer": "summits/FeforTop.md"},
+        {"Page": "ErgSummary", "SrcDir": "docswiki", "SrcFile": "ErgSummary.md", "Referrer": "summits/FeforGrammarians.md"},
+        {"Page": "JacySummary", "SrcDir": "docswiki", "SrcFile": "JacySummary.md", "Referrer": "summits/FeforGrammarians.md"},
+        {"Page": "PhdgramSummary", "SrcDir": "docswiki", "SrcFile": "PhdgramSummary.md", "Referrer": "summits/FeforGrammarians.md"},
+        {"Page": "BitseSummary", "SrcDir": "docswiki", "SrcFile": "BitseSummary.md", "Referrer": "summits/FeforGrammarians.md"},
         {"Page": "Processors", "SrcDir": "docswiki", "SrcFile": "FeforProcessors.md", "Referrer": "summits/FeforTop.md"},
         {"Page": "Plenum", "SrcDir": "docswiki", "SrcFile": "FeforPlenum.md", "Referrer": "summits/FeforTop.md"},
-        {"Page": "Discussion Compilations", "SrcDir": "docswiki", "SrcFile": "FeforDiscussionCompilations.md", "Referrer": "summits/FeforTop.md"},
         {"Page": "Suggestions", "SrcDir": "docswiki", "SrcFile": "FeforSuggestions.md", "Referrer": "summits/FeforTop.md"},
         {"Page": "Photos", "SrcDir": "docswiki", "SrcFile": "FeforPhotos.md", "Referrer": "summits/FeforTop.md"},
         {"Page": "FeforIndexAccess", "SrcDir": "docswiki", "SrcFile": "FeforIndexAccess.md", "Referrer": "summits/FeforImmediateChallenges.md"},
         {"Page": "FeforDeepGrammarRmrsification", "SrcDir": "docswiki", "SrcFile": "FeforDeepGrammarRmrsification.md", "Referrer": "summits/FeforImmediateChallenges.md"},
-        {"Page": "OpenissuesTop", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop.md", "Referrer": "summits/FeforOpenIssues.md"}
+        {"Page": "Discussion Compilations", "SrcDir": "docswiki", "SrcFile": "FeforDiscussionCompilations.md", "Referrer": "summits/FeforTop.md"},
+        {"Page": "OpenissuesTop", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop.md", "Referrer": "summits/FeforDiscussionCompilations.md"},
+        {"Page": "OpenissuesTop_GrammarMatrixTenseAspect", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop_GrammarMatrixTenseAspect.md", "Referrer": "home/OpenissuesTop.md"},
+        {"Page": "OpenissuesTop_GrammarMatrixClitic", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop_GrammarMatrixClitic.md", "Referrer": "home/OpenissuesTop.md"},
+        {"Page": "OpenissuesTop_GrammarMatrixSerialVerbConstructions", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop_GrammarMatrixSerialVerbConstructions.md", "Referrer": "home/OpenissuesTop.md"}
+
       ]},
       {"Section": "Jerez 2005", "Pages": [
         {"Page": "Jerez Summit", "SrcDir": "docswiki", "SrcFile": "JerezTop.md", "Referrer": "home/DelphinNews.md"}
