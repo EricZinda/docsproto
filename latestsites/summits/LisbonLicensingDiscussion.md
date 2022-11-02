@@ -85,7 +85,7 @@ members, it was suggested that members from projects who have chosen a
 license discuss why they chose a particular license on the wiki. This
 discussion may be helpful to projects which have not yet chosen a
 license. The relevant wiki articles can be linked to from the
-[LicensingChoices](LicensingChoices) page.
+[LicensingChoices](https://blog.inductorsoftware.com/docsproto/tools/LicensingChoices) page.
 
 ### Delph-In policies regarding licenses
 

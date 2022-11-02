@@ -26,6 +26,8 @@ toc:
         url: "RedwoodsTop"
       - title: "WeSearch"
         url: "WeSearch"
+      - title: "WeScience"
+        url: "WeScience"
   - title: "Grammars (partial or experimental)"
     children:
       - title: "Overview"

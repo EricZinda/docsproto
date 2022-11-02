@@ -3,7 +3,7 @@
 This page contains some information about the Grammar Engineering
 mini-meeting in Seattle, WA January 2-6 2017. As well as the discussion
 linked below, it led to a new page on [Grammar
-Development](GrammarDevelopment).
+Development](../GrammarDevelopment).
 
 Theme\
 Upsizing Grammars and Cross-lingual Learning.
@@ -26,11 +26,11 @@ mini-meeting](../CapitolHillTop#Grammar_Engineering_mini-meeting)
 |           |                                                     |                                                                                       |                                                                       |
 |-----------|-----------------------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Day       | Morning 1                                           | Afternoon 1                                                                           | Afternoon 2                                                           |
-| Monday    | Agenda Setting                                      | [Long Distance Dependencies](CapitolHillDependencies)(FCB,FZZ)                        | [Small2Large](CapitolHillSmall2Large) (FCB,LMC)                       |
-| Tuesday   | [ChartMap and Redup](CapitolHillChartMap) (FCB,DVM) | [Learning and Malrules](CapitolHillLearning) (SSH,FCB)                                | [Treebank](https://blog.inductorsoftware.com/docsproto/erg/CapitolHillTreebank) (FCB,SSH)                             |
-| Wednesday | [Definiteness](CapitolHillDefiniteness) (SSH,EMB)   | [Passives](../CapitolHillPassives) [Discussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) (DVM,DPF) | [Discoursey Things](CapitolHillDiscourse) (FZZ,EMB)                   |
-| Thursday  | [Lexicon Building](CapitolHillLexicon) (GCS,FZZ)    | [Performance/Robustness](CapitolHillPerformance) (DPF,FCB)                            | Excursion: [Theo's Chocolate Factory](https://www.theochocolate.com/) |
-| Friday    | [PhD Design](CapitolHillPhDDesign) (EMB,MWG)        | [Generation Testing](CapitolHillGenerationTesting) (MWG,LMC)                          | Code Names                                                            |
+| Monday    | Agenda Setting                                      | [Long Distance Dependencies](../CapitolHillDependencies)(FCB,FZZ)                        | [Small2Large](../CapitolHillSmall2Large) (FCB,LMC)                       |
+| Tuesday   | [ChartMap and Redup](../CapitolHillChartMap) (FCB,DVM) | [Learning and Malrules](../CapitolHillLearning) (SSH,FCB)                                | [Treebank](https://blog.inductorsoftware.com/docsproto/erg/CapitolHillTreebank) (FCB,SSH)                             |
+| Wednesday | [Definiteness](../CapitolHillDefiniteness) (SSH,EMB)   | [Passives](../CapitolHillPassives) [Discussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) (DVM,DPF) | [Discoursey Things](../CapitolHillDiscourse) (FZZ,EMB)                   |
+| Thursday  | [Lexicon Building](../CapitolHillLexicon) (GCS,FZZ)    | [Performance/Robustness](../CapitolHillPerformance) (DPF,FCB)                            | Excursion: [Theo's Chocolate Factory](https://www.theochocolate.com/) |
+| Friday    | [PhD Design](../CapitolHillPhDDesign) (EMB,MWG)        | [Generation Testing](../CapitolHillGenerationTesting) (MWG,LMC)                          | Code Names                                                            |
 
 ## Topics
 

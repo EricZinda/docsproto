@@ -12,7 +12,7 @@ improvements.
 
 Tim: Of the treebanked corpora, the intersection was very small
 
-- [WeScience](WeScience) with wordnet first sense, decent baseline
+- [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) with wordnet first sense, decent baseline
 - We're mapping about 94% of predicates
 - Standard semantic dependencies, from DMRSs
 - "I treat dogs and cats with worms", dogs and cats have worms, not
@@ -26,7 +26,7 @@ dependencies (e.g. dogs...worms), turned out it helped
   - oe;fb ... this is a smaller model, some lexicalized features
 were thrown away
 - Zina's work had little gains on [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor), but small gains on
-[WeScience](WeScience)
+[WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)
 
 ...
 
