@@ -24,8 +24,8 @@ best practice.
 
 ## Previous and Future Meetings
 
-- 2022 — 18th Summit: [Bellingham/Fairhaven](https://blog.inductorsoftware.com/docsproto/home/FairhavenTop) (July 18-22)
-- 2021 — 17th Summit: [Virtual](https://blog.inductorsoftware.com/docsproto/home/Virtual2021Top) (July 19-23)
+- 2022 — 18th Summit: [Bellingham/Fairhaven](../FairhavenTop) (July 18-22)
+- 2021 — 17th Summit: [Virtual](../Virtual2021Top) (July 19-23)
 - 2020 — 16th Summit: [Bellingham/Virtual Summit](../BellinghamTop) (July 13-17)
 - 2019 — 15th Summit: [Cambridge](../CambridgeTop) (July 15-19)
 - 2018 — 14th Summit: [Paris](../DiderotTop) (June 18-22)

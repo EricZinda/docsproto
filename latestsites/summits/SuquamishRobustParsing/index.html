@@ -1,0 +1,1651 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Summits</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Summits">
+<meta property="og:title" content="DELPH-IN Summits">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/summits/SuquamishRobustParsing/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/summits/SuquamishRobustParsing/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/summits/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/summits/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Summits Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/summits/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/summits/"><img src="/docsproto/summits/assets/images/Delph-In.png" alt="DELPH-IN Summits"></a>
+        
+        <a class="site-title" href="/docsproto/summits/">
+          DELPH-IN Summits
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinNtt">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SummitTop">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualParticipants">VirtualParticipants</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Fairhaven 2022</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/FairhavenTop">FairhavenTop</a></li>
+          
+            <li><a href="/docsproto/summits/Fairhaven2022Participants">Fairhaven2022Participants</a></li>
+          
+            <li><a href="/docsproto/summits/Fairhaven2022Schedule">Fairhaven2022Schedule</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Bellingham</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/BellinghamTop">Bellingham Summit</a></li>
+          
+            <li><a href="/docsproto/summits/BellinghamParticipants">Participants</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Virtual 2021</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/Virtual2021Top">Virtual2021Top</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021Participants">Virtual2021Participants</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualCoordinationComposition">Coordination Composition</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021Schedule">2021 Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021PluralSemantics">2021 Plural Semantics</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualUsefulLinks">UsefulLinks</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualParsingDirections">ParsingDirections</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualAppend">Append</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualMwe">Mwe</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualInfrastructure">Infrastructure</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualChoices">Choices</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualComponents">Components</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualSharedConfigs">Shared Configs</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualParsingEfficiency">Parsing Efficiency</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualMatrix">Matrix</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualDEA">DEA</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualLkbFos">LkbFos</a></li>
+          
+            <li><a href="/docsproto/summits/VirtualLkbFos2">LkbFos2</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeEducation">Cambridge Education</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021HuggingFace">Hugging Face</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021Lexicon">Lexicon</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021ParsingProspects">Parsing Prospects</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021DataStatements">Data Statements</a></li>
+          
+            <li><a href="/docsproto/summits/Virtual2021DefeasibleIdentity">Defeasible Identity</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Cambridge</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/CambridgeTop">Cambridge Summit</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeWhEvents">Wh Events</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeNominalization">Nominalization</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeKwaBantu">KwaBantu</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeSEM-I">SEM-I</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeEfficiencyRobustnessPrecision">Efficiency Robustness Precision</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgePartitiveCase">Partitive Case</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeWhQLibrary">WhQ Library</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeWhInfoStructure">WhInfo Structure</a></li>
+          
+            <li><a href="/docsproto/summits/CambridgeExtractionAppend">Extraction Append</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Diderot</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/DiderotTop">Diderot Summit</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotConstrainingComposition">Constraining Composition</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotUnderspecifiedAttachment">Underspecified Attachment</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotApplicationDiscussion">Application Discussion</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotWhQuestionsLibrary">Wh Questions Library</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotEsdFocusGroup">ESD Focus Group</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotOldSchoolSemantics">Old-School Semantics</a></li>
+          
+            <li><a href="/docsproto/summits/DiderotRationalSpeechActs">Rational Speech Acts</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Oslo</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/OsloTop">Oslo Summit</a></li>
+          
+            <li><a href="/docsproto/summits/OsloSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/OsloParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/OsloScopalNonScopal">Scopal/Non-Scopal</a></li>
+          
+            <li><a href="/docsproto/summits/OsloEventsInstances">Events/Instances</a></li>
+          
+            <li><a href="/docsproto/summits/OsloQuestionRepresentation">Question Representation</a></li>
+          
+            <li><a href="/docsproto/summits/OsloResourcesAsAnnotatedData">ResourcesAsAnnotatedData</a></li>
+          
+            <li><a href="/docsproto/summits/OsloShapeWorld">ShapeWorld</a></li>
+          
+            <li><a href="/docsproto/summits/OsloInfoMorph">InfoMorph</a></li>
+          
+            <li><a href="/docsproto/summits/OsloWordnet">Wordnet</a></li>
+          
+            <li><a href="/docsproto/summits/OsloAncientGreekCoordination">AncientGreekCoordination</a></li>
+          
+            <li><a href="/docsproto/summits/MultilingualShapeworld">MultilingualShapeworld</a></li>
+          
+            <li><a href="/docsproto/summits/OsloExcursion">Excursion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Stanford</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/StanfordTop">Stanford Summit</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/LADValenceChange">LADValenceChange</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordAlternativeSets">Alternative Sets</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordCrowgeyIntrinsicVariableNotes">Crowgey Intrinsic Variable Notes</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordAlgebraAdditions">Algebra Additions</a></li>
+          
+            <li><a href="/docsproto/summits/LtgOslo_Delphin">LtgOslo_Delphin</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordMikeGNotes">MikeGNotes</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordDMRSGraphDescriptionLanguage">DMRSGraphDescriptionLanguage</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordOlgaZNotes">OlgaZNotes</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordMcValenceChangeFace">McValenceChangeFace</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordMalRules">MalRules</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordMeaningRep">MeaningRep</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordVerbalNouns">VerbalNouns</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordSenses">Senses</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordResourceSharing">ResourceSharing</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordUtility">Utility</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordMatrixFeedback">MatrixFeedback</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordGraph">Graph</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordMetagrammar">Metagrammar</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordAPI">API</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordNltk">Nltk</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordDefaults">Defaults</a></li>
+          
+            <li><a href="/docsproto/summits/StanfordExternalResources">ExternalResources</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Singapore</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SingaporeTop">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeMrsWellformedness">MRS Well-formedness</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeHookOrthodoxy">Hook Orthodoxy</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeDmrsSimplification">DMRS Simplification</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeSmtModel">SMT Model</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeRepresentingMwes">Representing MWES</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeRepresentingPragmatics">Representing Pragmatics</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeSemanticAlgebraCompliance">Semantic Algebra Compliance</a></li>
+          
+            <li><a href="/docsproto/summits/PromotionDiscussionSingapore">Promotion Discussion</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeGrammarDocumentation">Grammar Documentation</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeMRSMatrixTestsuites">MRS Matrix Testsuites</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeTemporalPronouns">Temporal Pronouns</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeTeachingWithLKB">Teaching With LKB</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeOnlineDemos">Online Demos</a></li>
+          
+            <li><a href="/docsproto/summits/NightSafari">Night Safari</a></li>
+          
+            <li><a href="/docsproto/summits/SingaporeTutorialPlanning">Tutorial Planning</a></li>
+          
+            <li><a href="/docsproto/summits/JacyPragmatics">Jacy Pragmatics</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Tomar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/TomarTop">Tomar Summit</a></li>
+          
+            <li><a href="/docsproto/summits/TomarSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/TomarParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/TomarMrsWellformedness">MRS Well-formedness</a></li>
+          
+            <li><a href="/docsproto/summits/TomarQuantumMRS">Quantum MRS</a></li>
+          
+            <li><a href="/docsproto/summits/TomarSemanticParsing">Semantic Parsing</a></li>
+          
+            <li><a href="/docsproto/summits/TomarFuture">Future</a></li>
+          
+            <li><a href="/docsproto/summits/TomarGrammarScaleUp">Grammar Scale-Up</a></li>
+          
+            <li><a href="/docsproto/summits/TomarClimbingOn">Climbing-On</a></li>
+          
+            <li><a href="/docsproto/summits/TomarConnectingToExternalResources">Connecting To External Resources</a></li>
+          
+            <li><a href="/docsproto/summits/TomarValence">Valence</a></li>
+          
+            <li><a href="/docsproto/summits/TomarShallowTools">Shallow Tools</a></li>
+          
+            <li><a href="/docsproto/summits/TomarCorpusLookup">Corpus Lookup</a></li>
+          
+            <li><a href="/docsproto/summits/TomarFormalism">Formalism</a></li>
+          
+            <li><a href="/docsproto/summits/TomarRobustParsing">Robust Parsing</a></li>
+          
+            <li><a href="/docsproto/summits/TomarMatrix">Matrix</a></li>
+          
+            <li><a href="/docsproto/summits/TomarNames">Names</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">TheAbbey/Chrysalis 2014</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014ProperNounsGeneration">Proper Nouns Generation</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey">The Abbey</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014PpAttachment">Pp Attachment</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014Arity">Arity</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014WhatsThePoint">Whats The Point</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns">Proper Nouns</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs">Schrodinger MRS</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014Terminology">Terminology</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014OpenEndedPredicates">Open-Ended Predicates</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014BindingTheory">Binding Theory</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014PossessiveIdioms">Possessive Idioms</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014Nominalization">Nominalization</a></li>
+          
+            <li><a href="/docsproto/summits/TheAbbey_Chrysalis2014DeverbalNouns">Deverbal Nouns</a></li>
+          
+            <li><a href="/docsproto/summits/AbbeyApposition">Apposition</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Saarland</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SaarlandTop">Saarland Summit</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandParticipants">Participants</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandSemi">SEM-I</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandArity">Arity</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandLtopDiscussion">Discussion</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandTense">Tense</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandIconsErg">ERG ICONS</a></li>
+          
+            <li><a href="/docsproto/summits/DelphinTutorial_Processing">DelphinTutorial_Processing</a></li>
+          
+            <li><a href="/docsproto/summits/DelphinTutorial_Formalisms">DelphinTutorial_Formalisms</a></li>
+          
+            <li><a href="/docsproto/summits/DelphinTutorial_Distributions">DelphinTutorial_Distributions</a></li>
+          
+            <li><a href="/docsproto/summits/DelphinGlossary">DelphinGlossary</a></li>
+          
+            <li><a href="/docsproto/summits/MweTop">MweTop</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandTdlDiscussion">SaarlandTdlDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandUseability">SaarlandUseability</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandPackagingPhenomenalCorpora">SaarlandPackagingPhenomenalCorpora</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandSocialMedia">SaarlandSocialMedia</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandBusinessMeeting">SaarlandBusinessMeeting</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandToolsDiscussion">SaarlandToolsDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandIcons">SaarlandIcons</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandMrsSubsumptionDiscussion">SaarlandMrsSubsumptionDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandAceAgree">SaarlandAceAgree</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandMweDiscussion">SaarlandMweDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandPcfgDependency">SaarlandPcfgDependency</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandWordNet">SaarlandWordNet</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandCompareMRS">SaarlandCompareMRS</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandFormalism">SaarlandFormalism</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandValence">SaarlandValence</a></li>
+          
+            <li><a href="/docsproto/summits/SaarlandNegScope">SaarlandNegScope</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Sofia</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SofiaTop">Sofia Summit</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaICONS">ICONS</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaIconsImplementation">ICONS Implementation</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaMrsRfc">MRS RFC</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaVpmHarmony">VPM Harmony</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaMrsComparison">MRS Comparison</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaLinguisticPhenomena">SofiaLinguisticPhenomena</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaGrammarLocalizationSIG">SofiaGrammarLocalizationSIG</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaCLIMBAndReducingComplexity">SofiaCLIMBAndReducingComplexity</a></li>
+          
+            <li><a href="/docsproto/summits/SofiaPreprocessingSIG">SofiaPreprocessingSIG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Suquamish</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/SuquamishTop">Suquamish Summit</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishGrammarIndexing">SuquamishGrammarIndexing</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishDelphinEcology">SuquamishDelphinEcology</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishDelphinLibMRS">SuquamishDelphinLibMRS</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishDelphinLibP">SuquamishDelphinLibP</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishBusinessMeeting">SuquamishBusinessMeeting</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishRobustParsing">SuquamishRobustParsing</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishPhenomenaCatalogue">SuquamishPhenomenaCatalogue</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishMRSWordNet">MRS WordNet</a></li>
+          
+            <li><a href="/docsproto/summits/SuquamishLexSem">Lexical Semantics</a></li>
+          
+            <li><a href="/docsproto/summits/BirdsofaFeather2011Summary">BirdsofaFeather2011Summary</a></li>
+          
+            <li><a href="/docsproto/summits/StandingCommitteeGroup">StandingCommitteeGroup</a></li>
+          
+            <li><a href="/docsproto/summits/ChartMappingAppliedNotes">ChartMappingAppliedNotes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">2010 Paris</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/ParisTop">Paris Summit</a></li>
+          
+            <li><a href="/docsproto/summits/ParisSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/ParisInformationStructure">Information Structure</a></li>
+          
+            <li><a href="/docsproto/summits/ParisPhotos">Photos</a></li>
+          
+            <li><a href="/docsproto/summits/ParisOpen">Open</a></li>
+          
+            <li><a href="/docsproto/summits/ParisGrammarCatalogue">ParisGrammarCatalogue</a></li>
+          
+            <li><a href="/docsproto/summits/ParisTopics">ParisTopics</a></li>
+          
+            <li><a href="/docsproto/summits/ParisReproducibility">ParisReproducibility</a></li>
+          
+            <li><a href="/docsproto/summits/ParisBugTracker">ParisBugTracker</a></li>
+          
+            <li><a href="/docsproto/summits/ParisDefeasibleConstraints">ParisDefeasibleConstraints</a></li>
+          
+            <li><a href="/docsproto/summits/ParisMatrixInteraction">ParisMatrixInteraction</a></li>
+          
+            <li><a href="/docsproto/summits/ParisWebSiteImprovements">ParisWebSiteImprovements</a></li>
+          
+            <li><a href="/docsproto/summits/LogonParis">LogonParis</a></li>
+          
+            <li><a href="/docsproto/summits/ParisMultilingualGrammarEngineering">ParisMultilingualGrammarEngineering</a></li>
+          
+            <li><a href="/docsproto/summits/ParisMatrixCustomization">ParisMatrixCustomization</a></li>
+          
+            <li><a href="/docsproto/summits/ParisMatrixTopics">ParisMatrixTopics</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">2006 Fefor</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/FeforTop">Overview</a></li>
+          
+            <li><a href="/docsproto/summits/FeforRmrs">Rmrs</a></li>
+          
+            <li><a href="/docsproto/summits/FeforScopingConstraints">Scoping Constraints</a></li>
+          
+            <li><a href="/docsproto/summits/FeforQuantifiers">Quantifiers</a></li>
+          
+            <li><a href="/docsproto/summits/FeforDroppedArguments">Dropped Arguments</a></li>
+          
+            <li><a href="/docsproto/summits/FeforDiscourseStatus">Discourse Status</a></li>
+          
+            <li><a href="/docsproto/summits/FeforMessageDemise">Message Demise</a></li>
+          
+            <li><a href="/docsproto/summits/FeforPng">PNG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">2005 Lisbon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/LisbonTop">Lisbon Summit</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonScheduleIdeas">LisbonScheduleIdeas</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonPictures">LisbonPictures</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonRepositoryDiscussion">LisbonRepositoryDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonDocumentationDiscussion">LisbonDocumentationDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonExpectationsDiscussion">LisbonExpectationsDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonVisibilityDiscussion">LisbonVisibilityDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonTestingDiscussion">LisbonTestingDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonLicensingDiscussion">LisbonLicensingDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonResearchDiscussion">LisbonResearchDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonEvaluationDiscussion">LisbonEvaluationDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonMatrixDiscussion">LisbonMatrixDiscussion</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonDiscussionSuggestions">LisbonDiscussionSuggestions</a></li>
+          
+            <li><a href="/docsproto/summits/LisbonTestingDiscussion">LisbonTestingDiscussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Barcelona</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/BarcelonaTop">Barcelona Summit</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaSchedule">Schedule</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaEvaluation">BarcelonaEvaluation</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaPackaging">BarcelonaPackaging</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaCorpora">BarcelonaCorpora</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaPreprocessing">BarcelonaPreprocessing</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaCooperation">BarcelonaCooperation</a></li>
+          
+            <li><a href="/docsproto/summits/FeforParCorp">FeforParCorp</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaSemantics">Semantics</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaPostprocessing">Post-processing</a></li>
+          
+            <li><a href="/docsproto/summits/BarcelonaParaphrasing">Paraphrasing</a></li>
+          
+            <li><a href="/docsproto/summits/ParticipantsGroup">Participants Group</a></li>
+          
+            <li><a href="/docsproto/summits/ParaTop">ParaTop</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kyoto</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/KyotoTop">Kyoto Summit</a></li>
+          
+            <li><a href="/docsproto/summits/KyotoSchedule">KyotoSchedule</a></li>
+          
+            <li><a href="/docsproto/summits/KyotoSchedule_InterDelphinNotes">KyotoSchedule_InterDelphinNotes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Berlin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/BerlinTop">Berlin Summit</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinSlides">Slides</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinPhotos">Photos</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinFrontiers">Frontiers</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinDissemination">Dissemination</a></li>
+          
+            <li><a href="/docsproto/summits/Across_Framework_Evaluation_Metrics">Across Framework Evaluation Metrics</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinProcessing">Processing</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinMT">MT</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinBusinessMeeting">Business Meeting</a></li>
+          
+            <li><a href="/docsproto/summits/BerlinTopics">Topics</a></li>
+          
+            <li><a href="/docsproto/summits/EvaluationParCorp">Evaluation ParCorp</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Fefor</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/FeforTop">Fefor Summit</a></li>
+          
+            <li><a href="/docsproto/summits/FeforSmallGroups">FeforSmallGroups</a></li>
+          
+            <li><a href="/docsproto/summits/FeforImmediateChallenges">FeforImmediateChallenges</a></li>
+          
+            <li><a href="/docsproto/summits/FeforStandoffAnnotationInterface">FeforStandoffAnnotationInterface</a></li>
+          
+            <li><a href="/docsproto/summits/FeforPlenum_LexicalAcquisitionImmatureGrammars">FeforPlenum_LexicalAcquisitionImmatureGrammars</a></li>
+          
+            <li><a href="/docsproto/summits/FeforPlenum_Formalism">FeforPlenum_Formalism</a></li>
+          
+            <li><a href="/docsproto/summits/FeforMRSinTranslation">FeforMRSinTranslation</a></li>
+          
+            <li><a href="/docsproto/summits/FeforOpenIssues">FeforOpenIssues</a></li>
+          
+            <li><a href="/docsproto/summits/FeforGrammarians">Grammarians</a></li>
+          
+            <li><a href="/docsproto/summits/FeforProcessors">Processors</a></li>
+          
+            <li><a href="/docsproto/summits/FeforPlenum">Plenum</a></li>
+          
+            <li><a href="/docsproto/summits/FeforDiscussionCompilations">Discussion Compilations</a></li>
+          
+            <li><a href="/docsproto/summits/FeforSuggestions">Suggestions</a></li>
+          
+            <li><a href="/docsproto/summits/FeforPhotos">Photos</a></li>
+          
+            <li><a href="/docsproto/summits/FeforIndexAccess">FeforIndexAccess</a></li>
+          
+            <li><a href="/docsproto/summits/FeforDeepGrammarRmrsification">FeforDeepGrammarRmrsification</a></li>
+          
+            <li><a href="/docsproto/summits/OpenissuesTop">OpenissuesTop</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Jerez</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/JerezTop">Jerez Summit</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS modeling 2012</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/RmrsLm">RmrsLm</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS modeling 2013</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/summits/RmrsNes">RmrsNes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Robustness discussion</p>
+
+<p>Top level goal driven by Birds of a Feather meeting where we asked for
+advice on annotations we could put into the parsed data to make them
+useful for other people. In addition to advice on format, got the
+message that they want full coverage.</p>
+
+<p>We’ve put off robust processing with our tools for a while (exception
+DeepThough/HoG deep/shallow integration), but now we are in a position
+to do something more about it, for several happy reasons:</p>
+
+<ul>
+  <li>Much more data</li>
+  <li>… enabling work’s like Yi’s on PCFG extraction</li>
+</ul>
+
+<p>HPSG-derived PCFG approach allows us to say something about any input
+and to say it at a relatively deep level. Even if that analysis couldn’t
+be produced by the deep grammar, parts of it could, and it might even be
+possible to replay the semantic part without worrying about the syntax.
+Since the semantics doesn’t usually rule out any sentences, it may be
+possible to arrive at an MRS which is not very far from wonderful for
+sentences that couldn’t have been parsed (yet) by the deep grammar
+itself. Mismatches might be predicted to mostly be sortal mismatches
+(between argument positions and the variables filling them). Others
+(those way outside the scope of the grammar) might be more amusing.</p>
+
+<p>–&gt; Can export at least semantic information and also a lot of
+syntactic information (e.g., detailed structures for NPs, even if the
+whole sentence didn’t parse), as well as good POS tags.</p>
+
+<p>Things to talk about today:</p>
+
+<ul>
+  <li>portability of Yi’s work to other grammars/languages</li>
+  <li>other approaches
+    <ul>
+      <li>grammar-internal robustness rules (and how to disambiguate)</li>
+    </ul>
+  </li>
+  <li>ways of using the resources to produce robust outputs</li>
+</ul>
+
+<p>Dan to Yi: Is anything in your work ERG-specific?</p>
+
+<p>Yi: Knowledge about which rules are morphological rules, which are
+punctuation, but it’s an unlexicalized PCFG grammar. Eventual
+performance could vary a lot depending on how much morphology,
+strictness of word order, how many unary rules the grammar has, … from
+language to language/grammar to grammar. But the mechanism should be
+able to do its thing.</p>
+
+<p>Dan: n-ary rules okay, or do they have to be binarized?</p>
+
+<p>Yi: Just fine. Can also run on PTB.</p>
+
+<p>Dan: To review: Have to be able to distinguish syntactic from lexical
+rule</p>
+
+<p>Yi: that’s optional, a parameter to play with while looking for better
+PCFG approximation, with implications to how close it is to the results
+that the deep grammar would give. Might be some trial and error when
+moving to a new grammar. But seems like a rather small amount of fine
+tuning to do.</p>
+
+<p>Francis: Syntactic v. lexical rules hard coded (and thus apparent) in
+the grammar.</p>
+
+<p>Dan: Not so for the lexical v. punctuation distinction.</p>
+
+<p>Dan: I’ve also adopted naming convention for rules (syntactic and
+lexical) and within the lex rules differentiating on various dimensions.
+Not a perfect solution either, but I think it’s all recoverable. Worst
+case: could produce file of declarations to be used by the PCFG
+machinery.</p>
+
+<p>Dan: How much training data would be required to get the magic to start
+working? 1,000 sentences treebanked, does something happen?</p>
+
+<p>Yi: Because this is an approximation approach, don’t necessarily need
+treebanked data. Treebank gives better performance, but can work with
+large amount of unannotated data. Supervised only by the grammar.</p>
+
+<p>Dan: But how much hand annotated data is needed to even make the
+machinery run (separate from the quality of the output)? Mechanically
+would it work?</p>
+
+<p>Yi: It would always finish.</p>
+
+<p>Francis: If it sees a lex type it’s never seen before?</p>
+
+<p>Yi: I’m actually predicting lex types for the words. Unknown words only
+predicted from lex types.</p>
+
+<p>Yi: With a grammar like ERG (fine-grained lex types), without any
+decoration, 2000-3000 gives decent full-coverage CFG. With one level of
+grandparenting need more.</p>
+
+<p>Dan/Yi: Can never have too much annotated data, but maybe some grammars
+with treebanks would start experimenting soon …?</p>
+
+<p>Stephan: I feel a growing urge to spoil the party; worried about the
+message we might be giving. For the ERG with its substantial treebanks
+and good parse selection models and broad grammatical coverage on
+running text, we have yet to determine that this approach actually gives
+us pseudo-derivations that contain a large proportion of valid
+structures. And we have yet to build a mechanism that extracts semantics
+from those structures. I’m not sure I would recommend playing in this
+space to other grammarians at this point.</p>
+
+<p>Yi: I would also not recommend experimenting with a medium sized grammar
+at this point. Want to work on extracting/evaluating semantic
+information from ERG pseudo-derivations and to try with Jacy. For
+smaller grammars, maybe in a year’s time.</p>
+
+<p>Francis: Maybe for medium or smaller grammars, the most important thing
+for robustness would be the unknown word handling mechanism.</p>
+
+<p>Francis: [Show of hands] Some but not all of the grammars under
+development have unknown word handling, and there’s not that much
+documentation of how to go about putting it in.</p>
+
+<p>Francis: The idea of producing MRSs without unifying the rest of it is
+very exciting. When will that be testable?</p>
+
+<p>Dan: We only did the thought experiment yesterday, and are not yet
+confident that it will actually work that way. There might be enough
+interaction to be able to create semantics by only unifying semantics.
+e.g., “The dog see the cat” wouldn’t unify even in the semantics.
+Depending on morphosyntax of agreement properties might not work.</p>
+
+<p>Emily: What about linking?</p>
+
+<p>Dan: Get me every path that has CONT in its name (e.g.,
+SYNSEM.LOCAL.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX) and then use those.
+Grabbing the index only and not worrying about the semantics. But there
+still may be too much influence of syntax on semantics (as is typical in
+HPSG sign architecture)</p>
+
+<p>Emily: And extraposed relative clauses?</p>
+
+<p>Dan: “A book arrived yesterday that I wanted to read”. Presumably the
+PCFG will find a creative way to put that together, probably a binary
+rule that combines the relative clause with something and it will do a
+thing.</p>
+
+<p>Emily: In that case certainly not the right thing.</p>
+
+<p>Dan: [Wishful thinking about the PCFG coming up with beautiful analyses
+which can then be ported into the grammar….]</p>
+
+<p>Francis: MT: If we were getting slightly wrong things from Jacy can
+still get reasonably close translations in some cases. NTT getting
+correct first parse in &lt; 30% of sentences, but a correct translation
+in 60% of sentences, because of ambiguities that carried across or just
+didn’t make a difference. That might be a nice case of where this kind
+of thing could be useful. Another: the speech lattice thing, where the
+PCFG might help get the right path through the lattice.</p>
+
+<p>Dan: It all depends on whether we succeed in creating a semantic
+representation out of the PCFG output, and there may be unknown
+obstacles to that.</p>
+
+<p>Dan: Imagine we take the deep grammar and parse 100,000 sentences just
+one parse only, and have student vet the trees (reasonable/not
+reasonable). Say she discards half of them as nonsense. Could we use
+that lightweight approach using those kind of reasonable trees. Parse in
+500 best, store the trees but keep the original one best as the target
+in training the PCFG. Could that kind of rough and ready data be
+suitable input for the PCFG training? The particular student working on
+this at Stanford can do this 10-15x faster than selecting discriminants.</p>
+
+<p>Yi: The only potential risk there is data skew if annotator is
+consistently rejecting some particular phenomenon, that phenomenon won’t
+be represented in the treebank.</p>
+
+<p>Dan: But even if we were doing careful treebanking the only right answer
+is reject the trees in these same cases. Annotator is trained in the
+grammar and can quickly reject sentences based on known patterns (e.g.,
+extraposed relatives) but also can quickly notice silly structures that
+the statistical model sometimes chooses.</p>
+
+<p>Yi: If the purpose of this treebank is training for new PCFG
+approximations?</p>
+
+<p>Dan: Or as bootstrapping for parse selection.</p>
+
+<p>Dan: If there are phenomena with low frequency that are important when
+they occur. E.g., dialogues infrequent in the training data, so
+vocatives are low frequency. Won’t find many vocatives in 50,000
+sentences of Wikipedia. If I parse any children’s book 5/8 sentences
+will have proper name at beginning or end of a sentence. Goal would be
+to give the statistical model a few examples of that rule in action.</p>
+
+<p>Yi: A bit like active learning…</p>
+
+<p>Dan: But not trying to be clever about which sentences asking the human
+for, just asking to look at a lot without requiring them to be exact
+with the annotation. It would of course then be interesting to do
+systematic comparison of the resulting model to see the relative
+importance of mass v. precision.</p>
+
+<p>Stephan: “Cheaply supervised self-training” We don’t have much
+experience with self-training.</p>
+
+<p>Rebecca: Andy’s done some recently.</p>
+
+<p>Stephan: Take a little gold in-domain data, parse a large amount of
+in-domain data and rank based on the small model, and then train on that
+model. Andy found small amount of improvement. You’re suggesting a
+moderate amount of effort to quality control the self-training data.
+Interesting trade-offs between value of data and cost of manual effort.
+Scientifically sounds interesting, but maybe better to try self-training
+more before investing manual effort. Something to quantify without doing
+that experiment is how much the quality of the parse selection model
+affect the result of PCFG. Maybe produce a <a href="https://blog.inductorsoftware.com/docsproto/home/WikiWoods">WikiWoods</a> with
+something less than our best parse selection model.</p>
+
+<p>Stephan: What’s less attractive than lead?</p>
+
+<p>Woodley: Dirt.</p>
+
+<p>Yi: Even with the dirt one, the massive number of observations is still
+going to at least tell you a lot about the lexical statistics, which is
+where the information is most sparse. So I expect the model to be less
+accurate, but it could be interesting to actually measure that
+difference.</p>
+
+<p>Stephan: Would potentially be happy to produce a dirt version of
+<a href="https://blog.inductorsoftware.com/docsproto/home/WikiWoods">WikiWoods</a> for this purpose.</p>
+
+<p>Emily: How does one evaluate</p>
+
+<p>Yi: Parse-eval score on the derivation tree of the HPSG grammar. When we
+can do robust MRS extraction from these derivation trees, need to do
+evaluations on the MRSs — both intrinsic (EDM) and extrinsic (in
+applications like DARE).</p>
+
+<p>Stephan: That requires gold standards for the sentences, so how to
+evaluate the results on sentences that the deep grammar can’t parse in
+the first place. Suggests writing MRSs by hand.</p>
+
+<p>Yi: What about correcting MRSs? (as an evaluation, but also as a gold
+standard creation - EB)</p>
+
+<p>Dan: That would be more entertaining (and illuminating). Could also take
+large MRSs and edit out the hopeless cases. Also could paraphrase to get
+what the MRS should have been (e.g., putting extraposed relatives back)
+to get the target MRSs for sentences that we’re not parsing.</p>
+
+<p>Dan: What about that third topic, namely the consumption side. Are there
+applications or experiments that some of you have been doing that suffer
+from the lack of completeness over a given data set. Coref resolution
+would likely be one of those.</p>
+
+<p>Stephan: Well…….</p>
+
+<p>Woodley: If every 4th sentence is missing, then you frequently have
+cases where the anaphor or the antecedent just is not there and you end
+up connecting to something else.</p>
+
+<p>Stephan: But. I wonder whether we are collectively getting too
+self-deprecating about what we actually do and are good at. Being
+criticized for declining to say something about some subset of inputs.
+Coref resolution systems can easily run multiple parsers (among the many
+processing steps that they typically invoke). Nothing would stop you
+from trying to parse but also at the same time running a “professional”
+tool.</p>
+
+<p>Woodley: Did he say we were being too self-deprecating?</p>
+
+<p>Stephan: It remains to be determined whether we can provide more useful
+information in robust mode than what other natively robust parsers can
+produce for those inputs?</p>
+
+<p>Dan: How do we determine that?</p>
+
+<p>Stephan: Could demonstrate in a task: e.g., deep parsing + robust deep
+parsing for coref resolution v. deep parsing + treebank parsing for
+same.</p>
+
+<p>Dan: To do that experiment, we need something that fits in the robust
+deep parsing slot. That’s what we’re looking for.</p>
+
+<p>Stephan: Just like in MT where it can be very beneficial for someone to
+translate 20% of something with higher quality, the same may be true in
+coref resolution.</p>
+
+<p>Rebecca: The biggest difference there is that MT doesn’t have the same
+sequential nature as coref.</p>
+
+<p>Woodley: If a component is looking for our output and we drop in and
+out…</p>
+
+<p>Stephan: Assuming the components of coref system look at the output of
+several parsers.</p>
+
+<p>Francis: Because we don’t have a 100% coverage parser.</p>
+
+<p>Francis: Two sorts of applications were more full coverage would have
+been useful:</p>
+
+<ul>
+  <li>Ontology extraction from machine readable dictionary (looking for
+ISA relationships, missing steps in hierarchy is bad)</li>
+  <li>Grant applications.</li>
+</ul>
+
+<p>Fall back was <a href="/DeepThought">DeepThought</a></p>
+
+<p>Dan: We’re never going to build a perfect engine. This is robust for a
+reason.</p>
+
+<p>Francis: These are the kind of places where if we got a little of
+something wrong in the parse, it would still be okay.</p>
+
+<p>Woodley: We already get a little of something wrong in most sentences.</p>
+
+<p>Dan: For ontology building, what’s the cost if you don’t get anything?</p>
+
+<p>Francis: 10-20% drop in between nothing and shallow POS information in
+ontology.</p>
+
+<p>Francis: Grant applications: If I have to start by saying “We have a
+parser that has 80% coverage” that hurt all the time, where 97 or 99.9
+would make a difference.</p>
+
+<p>Yi: I don’t think we need to advertise the coverage. XLE doesn’t. XLE
+has fallback strategy.</p>
+
+<p>Dan: Typically the way we configure our systems without these additional
+components, we simply return no answer.</p>
+
+<p>Francis: If I was getting some MRS for every input, even if 30% were
+marked as not useful, would be better for grant applications.</p>
+
+<p>Stephan/Francis: Experience with robust outputs from XLE suggests a
+distinction is needed between ‘full’ coverage vs. robust ‘coverage’
+(robust analyses found substantially less useful in LOGON effort).</p>
+
+<p>Emily: Good enough to say deep parses on 80% and robust parses on the
+other 20%?</p>
+
+<p>Francis: Grant application says semantic representation for 100% of
+inputs in grant applications, and 80% number in more detailed papers.</p>
+
+<p>Stephan: Can already claim that on the basis of PET a mode that gives
+RMRS for anything.</p>
+
+<p>Francis: Okay, but my MT application needs MRS, not RMRS.</p>
+
+<p>Stephan: Re: Alternate approach of adding robustness rules to the
+grammar. Bart adds rules to the grammar that are liberal about combining
+things but not entirely unconstrained and then does a round of training
+on different sets of those rules. Enlarges the search space and needs to
+be combined with chart pruning and also fragment parsing. Greatly
+increased recall at some cost to precision. F-score improvement was
+good.</p>
+
+<p>Dan: Why a hit in precision, compared to doing nothing?</p>
+
+<p>Francis: Changes the denominator.</p>
+
+<p>Stephan: That machinery is available in PET, the thesis is published.
+That too is a tool searching for more grammarians to put it to use.</p>
+
+<p>Dan: Can it be adapted to DELPH-IN grammars?</p>
+
+<p>Stephan: Yes.</p>
+
+<p>Yi: The actual mechanism in the processing step is the chart pruning.
+Whatever you write in robustness rule, it should work.</p>
+
+<p>Dan: So I could write a rule that says combine a sentence with any
+constituent…</p>
+
+<p>Yi: Can turn on the chart pruning and that will still get you good
+analyses. He also has constraints like every sentence can use only one
+robustness rule.</p>
+
+<p>Dan: Could be part of the same larger story:</p>
+
+<ol>
+  <li>Precision grammar</li>
+  <li>Robustness measures that are grammar-internal</li>
+  <li>PCFG approximation for the rest</li>
+</ol>
+
+<p>and then measure the benefits in terms of precision and recall. If it
+were in a pipeline mode would that damage</p>
+
+<p>Stephan: Bart does not add a dependency when he combines with things
+robustly. PCFG + robust semantics would put a dependency between them,
+so there would be a difference in the outputs depending on relative
+contribution of each.</p>
+
+<p>Emily: Grammarian could try to write robustness rules with dependencies,
+and still use chart pruning, right?</p>
+
+<p>Dan: Could put in two place desperation_rel if nothing else.</p>
+
+<p>Stephan: Wouldn’t help in recall and would hurt in precision, so Bart
+didn’t do it.</p>
+
+<p>Prescott: Are there any plans to continue to explore RASP-based RMRS as
+in HoG, e.g., RASP conversion updates or another parser.</p>
+
+<p>Dan: If anything discouraged by Uli Schafer’s experience finding that
+the RASP conversion wasn’t useful enough to keep maintaining in DARE.</p>
+
+<p>Dan: Experience of trying to compare dependencies output by various
+parsers in EMNLP paper … painful. Elegant magic by Yi to make it
+possible to even cherry pick and compare easy things to identify. So I
+don’t hold out hope for something that takes full dependency structures
+from multiple systems and integrates them. Clark and Curran and others
+put lots of time trying to creating mapping into a static resource.
+Merging of two deep engines seems too difficult. Yi, can you say
+anything more encouraging?</p>
+
+<p>Yi: Conversion is difficult, and what you might expect to gain from it
+can already be lost in the process.</p>
+
+<p>Dan: There is an expressed interest in cross-platform comparison that
+might lead to shared output formats initially for evaluation but
+eventually could lead to using multiple systems as inputs. Not sure if
+the pull of that will be enough to get people to arrive at the
+standardized outputs.</p>
+
+<p>Stephan: Concretely, RMRS was in fashion 10 years ago; Ann may have
+moved on. I see little reason to expect that people outside DELPH-IN
+will adopt RMRS as the common interface language. That makes it easier
+for us to continue doing MRS or possibly a dependency simplification of
+MRS because those are better tuned to what we actually do in the
+grammars. RMRS was an attempt to reach out, putting everything in atomic
+pieces to allow for radical underspecification that we don’t usually
+need in the deep grammars. The buzz now is in dependency-like
+representations; the beauty of DMRS is that it accomplishes something
+dependency-like without throwing away information that we believe we
+care about (scopal relations).</p>
+
+<p>Prescott: DMRS is used in DARE and TAKE?</p>
+
+<p>Yi: Used in TAKE and a little bit in DARE. As consumers, they do find
+that DMRS is closer to their needs within the application.</p>
+
+<p>Prescott: Does PET emit it?</p>
+
+<p>Yi: Currently the only MRS to DMRS conversion code is in Lisp. Cf. MRS
+library discussion.</p>
+
+<p>Dan: Strong desire to include DMRS conversion in a component that can be
+combined with PET. One strategy is with encapsulated Lisp code. I expect
+vigorous investigation of that in the next year or so.</p>
+
+<p>Glenn: Does it currently run in ECL in PET?</p>
+
+<p>Stephan: Yes. Embedding ECL with PET is deprecated, but currently works.
+It’s possible that DMRS is not exposed in terms of the user interface,
+but the elementary dependencies (dependency simplification w/o scope)
+is. DMRS adds the additional info that makes it possible to go back to
+an MRS. ECL embedding we want to get rid of — won’t be in future
+precompiled binaries or in trunk. MRS library in current LKB code base,
+always been supported as a stand-alone component. There are build
+instructions for creating a standalone binary with SBCL – an MRS
+manipulator. Given MRSs in a format it can read, will do equivalence
+tests, RMRS and DMRS conversion, a couple of other things.</p>
+
+<p>Emily: What about Enju — not close enough to be used in committee with
+say ERG?</p>
+
+<p>Yi: Their PAS output is close to our MRS representation, but don’t have
+scope info in the first place.</p>
+
+<p>Stephan: Have to talk about details: They have one predicate per word.
+In that sense they are further removed from semantics than we are.</p>
+
+<p>Last update: 2011-06-29 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/SuquamishRobustParsing/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/summits/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/summits/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

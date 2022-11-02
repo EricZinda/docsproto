@@ -1,6 +1,6 @@
 {% raw %}The following was intended as a list of people invited to the [2020
 Summit](../BellinghamTop), but is now defunct. Please see
-[VirtualParticipants](https://blog.inductorsoftware.com/docsproto/home/VirtualParticipants) instead.
+[VirtualParticipants](../VirtualParticipants) instead.
 
 - [EliasAamodt](/EliasAamodt)
 - [GabrielAguilaMultner](/GabrielAguilaMultner)

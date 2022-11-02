@@ -8,16 +8,16 @@ jargon for novices. The 2013 tutorial was presented by
 is an über-summary of the material presented (including that which we
 didn't have time for, as well as further addenda after the fact):
 
-- [Processing](DelphinTutorial_Processing)
-- [Grammars](DelphinTutorial_Grammars)
+- [Processing](https://blog.inductorsoftware.com/docsproto/summits/DelphinTutorial_Processing)
+- [Grammars](../DelphinTutorial_Grammars)
 - [Formalisms](../DelphinTutorial_Formalisms)
-- [Distributions](DelphinTutorial_Distributions)
+- [Distributions](https://blog.inductorsoftware.com/docsproto/summits/DelphinTutorial_Distributions)
 
 Please give feedback (e.g. on remaining open questions, inaccuracies, or
 omissions) to Emily and Stephan.
 
 Another source of terms and definitions is the (more than mildly
-out-of-date) [DelphinGlossary](DelphinGlossary).
+out-of-date) [DelphinGlossary](https://blog.inductorsoftware.com/docsproto/summits/DelphinGlossary).
 
 ### How to cite this resource
 

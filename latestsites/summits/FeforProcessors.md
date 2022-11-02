@@ -1,7 +1,7 @@
 {% raw %}# Processing session
 
 To take place on the 13th and the morning of the 14th, with small group
-activities (see [FeforSmallGroups](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)) proceeding
+activities (see [FeforSmallGroups](../FeforSmallGroups)) proceeding
 throughout the week at Fefor. [FeforRmrs](../FeforRmrs) will take place on
 the afternoon of the 14th and morning of the 15th. The emphasis in the
 processing sessions is intended to be on practical activities that are
@@ -29,13 +29,13 @@ volunteer.
 | 12:30 - 14:00 | Lunch                                                      |
 | 14:00 - 16:00 | Interfaces, preprocessors and standoff annotation          |
 | 16:00 - 16:30 | Coffee                                                     |
-| 16:30 - 18:30 | [Small group activities](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)                 |
+| 16:30 - 18:30 | [Small group activities](../FeforSmallGroups)                 |
 
 ## 14-Jun
 
 |               |                                                                                                                                                             |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 09:30 - 10:30 | [Small group activities](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)                                                                                                                  |
+| 09:30 - 10:30 | [Small group activities](../FeforSmallGroups)                                                                                                                  |
 | 10:30 - 11:00 | Coffee                                                                                                                                                      |
 | 11:00 - 12:30 | Presentation/Demonstration: [LkbTrollet](https://blog.inductorsoftware.com/docsproto/tools/LkbTrollet): tool for multilingual grammar engineering - a wrapper around the LKB ([PavelMihaylov](https://blog.inductorsoftware.com/docsproto/tools/PavelMihaylov)) |
 |               | Other tools, small groups                                                                                                                                   |
@@ -60,7 +60,7 @@ testing with [SciBorg](/SciBorg) at Cambridge
 
 ## Interfaces, preprocessors and standoff annotation
 
-- [FeforStandoffAnnotationInterface](https://blog.inductorsoftware.com/docsproto/home/FeforStandoffAnnotationInterface)
+- [FeforStandoffAnnotationInterface](../FeforStandoffAnnotationInterface)
 / SMAF ([BenWaldron](https://blog.inductorsoftware.com/docsproto/tools/BenWaldron) and
 [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer))
   

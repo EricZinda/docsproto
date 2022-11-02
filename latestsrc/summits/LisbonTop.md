@@ -31,7 +31,7 @@ organized discussions.
 # Schedule & Materials
 
 A more-or-less finalized schedule is available at
-[LisbonScheduleIdeas](https://blog.inductorsoftware.com/docsproto/home/LisbonScheduleIdeas). Slide copies and minutes for
+[LisbonScheduleIdeas](../LisbonScheduleIdeas). Slide copies and minutes for
 discussion slots are available in many cases (linked from the title cell
 in the schedule). Presenters and scribes, please add links and materials
 as you see fit!
@@ -58,6 +58,6 @@ registration fee.
 # Pictures of the event
 
 See the pictures from the DELPH-IN meeting held in Lisbon on the
-[LisbonPictures](https://blog.inductorsoftware.com/docsproto/home/LisbonPictures) page.
+[LisbonPictures](../LisbonPictures) page.
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonTop/_edit)]{% endraw %}

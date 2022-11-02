@@ -81,7 +81,7 @@ MRS](http://www.coli.uni-saarland.de/~rwang/slides/delphin2008Wang.pdf):
   - *Recognizing/Generating Textual Entailment*
   - *Semantic Role Labeling*
 - [Means for increasing intra-DELPH-IN collaboration and
-communication](https://blog.inductorsoftware.com/docsproto/home/KyotoSchedule_InterDelphinNotes)
+communication](../KyotoSchedule_InterDelphinNotes)
   
   - Paper exchange ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender),
 [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan))

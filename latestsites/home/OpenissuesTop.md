@@ -39,7 +39,7 @@ Constructions](OpenissuesTop_GrammarMatrixSerialVerbConstructions)
 # Open Issues in Need of Mentors
 
 \[The following list was developed during the
-[FeforOpenIssues](../FeforOpenIssues) discussion. Additional topics can be
+[FeforOpenIssues](https://blog.inductorsoftware.com/docsproto/summits/FeforOpenIssues) discussion. Additional topics can be
 listed here but should also be announced/discussed on
 <mailto:participants@delph-in.net>.\]
 

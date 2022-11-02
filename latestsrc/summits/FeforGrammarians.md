@@ -1,13 +1,13 @@
 {% raw %}# Grammarians' session
 
 To take place on the 13th and the morning of the 14th, with small group
-activities (see [FeforSmallGroups](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)) proceeding
+activities (see [FeforSmallGroups](../FeforSmallGroups)) proceeding
 throughout the week at Fefor. [FeforRmrs](../FeforRmrs) will take place on
 the afternoon of the 14th and morning of the 15th. The four areas of
 emphasis in the grammarian sessions will be the following:
 
 - identifying immediate challenges in implementing our grammars
-(\[[FeforImmediateChallenges](https://blog.inductorsoftware.com/docsproto/home/FeforImmediateChallenges)\])
+(\[[FeforImmediateChallenges](../FeforImmediateChallenges)\])
 - considering potentially re-usable analyses or techniques (e.g
 underspecification of modifier ambiguity, re-ordering of
 complements/modifiers, coordination, long-distance dependencies,
@@ -32,26 +32,26 @@ be added when we can work out load. Please email
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 09:30 - 10:30 | Joint meeting to discuss organization, working groups etc.                                                                                                |
 | 10:30 - 11:00 | Initial working group meetings over coffee                                                                                                                |
-| 11:00 - 12:30 | Grammar status reports and identification of immediate challenges ([FeforImmediateChallenges](https://blog.inductorsoftware.com/docsproto/home/FeforImmediateChallenges))                                  |
+| 11:00 - 12:30 | Grammar status reports and identification of immediate challenges ([FeforImmediateChallenges](../FeforImmediateChallenges))                                  |
 | 12:30 - 14:00 | Lunch                                                                                                                                                     |
-| 14:00 - 16:00 | [Small group activities](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)                                                                                                                |
+| 14:00 - 16:00 | [Small group activities](../FeforSmallGroups)                                                                                                                |
 |               | Also grammar tours: French: [JesseTseng](https://blog.inductorsoftware.com/docsproto/tools/JesseTseng), Modern Greek: [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni),                                                         |
 |               | Norwegian - determiner system: [DorotheeBeermann](/DorotheeBeermann)                                                                                      |
 |               | others...                                                                                                                                                 |
 | 16:00 - 16:30 | Coffee                                                                                                                                                    |
 | 16:30 - 18:30 | [Methodology for Evaluating Matrix Typology Modules](http://faculty.washington.edu/ebender/Fefor_Matrix_Modules_Eval.ppt): [LauriePoulson](https://blog.inductorsoftware.com/docsproto/tools/LauriePoulson) |
 |               | Long-distance dependencies: [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/tools/PetterHaugereid)                                                                                            |
-|               | [Small group activities](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)                                                                                                                |
+|               | [Small group activities](../FeforSmallGroups)                                                                                                                |
 
 ## 14-Jun
 
 |               |                                                                                                                                                                     |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 09:30 - 10:30 | [Heart of Gold (HoG) tutorial](http://www.dfki.de/~uschaefer/delph-in/heartofgold-tutorial-fefor.pdf): [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer)                             |
-|               | [Small group activities](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)                                                                                                                          |
+|               | [Small group activities](../FeforSmallGroups)                                                                                                                          |
 |               | On-Line Grammar Demos (Peer Gynt)                                                                                                                                   |
 | 10:30 - 11:00 | Coffee                                                                                                                                                              |
-| 11:00 - 12:30 | [Small group activities](https://blog.inductorsoftware.com/docsproto/home/FeforSmallGroups)                                                                                                                          |
+| 11:00 - 12:30 | [Small group activities](../FeforSmallGroups)                                                                                                                          |
 |               | [Idioms in a Constraint-based Grammar of Japanese](http://pine.kuee.kyoto-u.ac.jp/member/hasimoto/mypapers/delphin060614.pdf): [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/tools/ChikaraHashimoto) |
 | 12:30 - 14:00 | Lunch                                                                                                                                                               |
 | 14:00         | Begin joint discussion on [MRS/RMRS](../FeforRmrs)                                                                                                                     |
