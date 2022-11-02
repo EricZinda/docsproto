@@ -738,10 +738,6 @@
         {"Page": "Fairhaven2022Participants", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Participants.md", "Referrer": "summits/FairhavenTop.md"},
         {"Page": "Fairhaven2022Schedule", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Schedule.md", "Referrer": "summits/FairhavenTop.md"}
       ]},
-      {"Section": "Bellingham", "Pages": [
-        {"Page": "Bellingham Summit", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "BellinghamParticipants.md", "Referrer": "summits/BellinghamTop.md"}
-      ]},
       {"Section": "Virtual 2021", "Pages": [
         {"Page": "Virtual2021Top", "SrcDir": "docswiki", "SrcFile": "Virtual2021Top.md", "Referrer": "summits/SummitTop.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "VirtualSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -769,7 +765,11 @@
         {"Page": "Data Statements", "SrcDir": "docswiki", "SrcFile": "Virtual2021DataStatements.md", "Referrer": "summits/Virtual2021Schedule.md"},
         {"Page": "Defeasible Identity", "SrcDir": "docswiki", "SrcFile": "Virtual2021DefeasibleIdentity.md", "Referrer": "summits/Virtual2021Schedule.md"}
       ]},
-      {"Section": "Cambridge", "Pages": [
+      {"Section": "Bellingham 2020", "Pages": [
+        {"Page": "Bellingham Summit", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "BellinghamParticipants.md", "Referrer": "summits/BellinghamTop.md"}
+      ]},
+      {"Section": "Cambridge 2019", "Pages": [
         {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "CambridgeSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "CambridgeParticipants.md", "Referrer": "summits/CambridgeTop.md"},
@@ -783,7 +783,7 @@
         {"Page": "WhInfo Structure", "SrcDir": "docswiki", "SrcFile": "CambridgeWhInfoStructure.md", "Referrer": "summits/CambridgeSchedule.md"},
         {"Page": "Extraction Append", "SrcDir": "docswiki", "SrcFile": "CambridgeExtractionAppend.md", "Referrer": "summits/CambridgeSchedule.md"}
       ]},
-      {"Section": "Diderot", "Pages": [
+      {"Section": "Paris/Diderot 2018", "Pages": [
         {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "DiderotSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "DiderotParticipants.md", "Referrer": "summits/DiderotTop.md"},
@@ -795,7 +795,7 @@
         {"Page": "Old-School Semantics", "SrcDir": "docswiki", "SrcFile": "DiderotOldSchoolSemantics.md", "Referrer": "summits/DiderotSchedule.md"},
         {"Page": "Rational Speech Acts", "SrcDir": "docswiki", "SrcFile": "DiderotRationalSpeechActs.md", "Referrer": "summits/DiderotSchedule.md"}
       ]},
-      {"Section": "Oslo", "Pages": [
+      {"Section": "Oslo 2017", "Pages": [
         {"Page": "Oslo Summit", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "OsloSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "OsloParticipants.md", "Referrer": "summits/OsloTop.md"},
@@ -810,7 +810,7 @@
         {"Page": "MultilingualShapeworld", "SrcDir": "docswiki", "SrcFile": "MultilingualShapeworld.md", "Referrer": "summits/OsloSchedule.md"},
         {"Page": "Excursion", "SrcDir": "docswiki", "SrcFile": "OsloExcursion.md", "Referrer": "summits/OsloSchedule.md"}
       ]},
-      {"Section": "Stanford", "Pages": [
+      {"Section": "Stanford 2016", "Pages": [
         {"Page": "Stanford Summit", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "StanfordSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "StanfordParticipants.md", "Referrer": "summits/StanfordTop.md"},
@@ -837,7 +837,7 @@
         {"Page": "Defaults", "SrcDir": "docswiki", "SrcFile": "StanfordDefaults.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "ExternalResources", "SrcDir": "docswiki", "SrcFile": "StanfordExternalResources.md", "Referrer": "summits/StanfordSchedule.md"}
       ]},
-      {"Section": "Singapore", "Pages": [
+      {"Section": "Singapore 2015", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SingaporeTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "SingaporeSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "SingaporeParticipants.md", "Referrer": "summits/SingaporeTop.md"},
@@ -858,7 +858,7 @@
         {"Page": "Tutorial Planning", "SrcDir": "docswiki", "SrcFile": "SingaporeTutorialPlanning.md", "Referrer": "summits/SingaporeSchedule.md"},
         {"Page": "Jacy Pragmatics", "SrcDir": "docswiki", "SrcFile": "JacyPragmatics.md", "Referrer": "summits/SingaporeRepresentingPragmatics.md"}
       ]},
-      {"Section": "Tomar", "Pages": [
+      {"Section": "Tomar 2014", "Pages": [
         {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "TomarSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "TomarParticipants.md", "Referrer": "summits/TomarTop.md"},
@@ -876,7 +876,6 @@
         {"Page": "Robust Parsing", "SrcDir": "docswiki", "SrcFile": "TomarRobustParsing.md", "Referrer": "summits/TomarSchedule.md"},
         {"Page": "Matrix", "SrcDir": "docswiki", "SrcFile": "TomarMatrix.md", "Referrer": "summits/TomarSchedule.md"},
         {"Page": "Names", "SrcDir": "docswiki", "SrcFile": "TomarNames.md", "Referrer": "summits/TomarSchedule.md"}
-
       ]},
       {"Section": "TheAbbey/Chrysalis 2014", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -895,7 +894,7 @@
         {"Page": "Deverbal Nouns", "SrcDir": "docswiki", "SrcFile": "TheAbbey_Chrysalis2014DeverbalNouns.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Apposition", "SrcDir": "docswiki", "SrcFile": "AbbeyApposition.md", "Referrer": "concept/RmrsDiscussions.md"}
       ]},
-      {"Section": "Saarland", "Pages": [
+      {"Section": "Saarland 2013", "Pages": [
         {"Page": "Saarland Summit", "SrcDir": "docswiki", "SrcFile": "SaarlandTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "SaarlandSchedule.md", "Referrer": "summits/SaarlandTop.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "SaarlandParticipants.md", "Referrer": "summits/SaarlandTop.md"},
@@ -926,7 +925,10 @@
         {"Page": "SaarlandValence", "SrcDir": "docswiki", "SrcFile": "SaarlandValence.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandNegScope", "SrcDir": "docswiki", "SrcFile": "SaarlandNegScope.md", "Referrer": "summits/SaarlandSchedule.md"}
       ]},
-      {"Section": "Sofia", "Pages": [
+      {"Section": "MRS modeling 2013", "Pages": [
+        {"Page": "RmrsNes", "SrcDir": "docswiki", "SrcFile": "RmrsNes.md", "Referrer": "concept/RmrsDiscussions.md"}
+      ]},
+      {"Section": "Sofia 2012", "Pages": [
         {"Page": "Sofia Summit", "SrcDir": "docswiki", "SrcFile": "SofiaTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "SofiaSchedule.md", "Referrer": "summits/SofiaTop.md"},
         {"Page": "ICONS", "SrcDir": "docswiki", "SrcFile": "SofiaICONS.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -939,7 +941,10 @@
         {"Page": "SofiaCLIMBAndReducingComplexity", "SrcDir": "docswiki", "SrcFile": "SofiaCLIMBAndReducingComplexity.md", "Referrer": "summits/SofiaSchedule.md"},
         {"Page": "SofiaPreprocessingSIG", "SrcDir": "docswiki", "SrcFile": "SofiaPreprocessingSIG.md", "Referrer": "summits/SofiaSchedule.md"}
       ]},
-      {"Section": "Suquamish", "Pages": [
+      {"Section": "MRS modeling 2012", "Pages": [
+        {"Page": "RmrsLm", "SrcDir": "docswiki", "SrcFile": "RmrsLm.md", "Referrer": "concept/RmrsDiscussions.md"}
+      ]},
+      {"Section": "Suquamish 2011", "Pages": [
         {"Page": "Suquamish Summit", "SrcDir": "docswiki", "SrcFile": "SuquamishTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "SuquamishSchedule.md", "Referrer": "summits/SuquamishTop.md"},
         {"Page": "SuquamishGrammarIndexing", "SrcDir": "docswiki", "SrcFile": "SuquamishGrammarIndexing.md", "Referrer": "summits/SuquamishSchedule.md"},
@@ -955,7 +960,7 @@
         {"Page": "StandingCommitteeGroup", "SrcDir": "docswiki", "SrcFile": "StandingCommitteeGroup.md", "Referrer": "summits/SuquamishBusinessMeeting.md"},
         {"Page": "ChartMappingAppliedNotes", "SrcDir": "docswiki", "SrcFile": "ChartMappingAppliedNotes.md", "Referrer": "summits/DocumentationParty.md"}
       ]},
-      {"Section": "2010 Paris", "Pages": [
+      {"Section": "Paris 2010", "Pages": [
         {"Page": "Paris Summit", "SrcDir": "docswiki", "SrcFile": "ParisTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "ParisSchedule.md", "Referrer": "summits/ParisTop.md"},
         {"Page": "Information Structure", "SrcDir": "docswiki", "SrcFile": "ParisInformationStructure.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -973,33 +978,7 @@
         {"Page": "ParisMatrixCustomization", "SrcDir": "docswiki", "SrcFile": "ParisMatrixCustomization.md", "Referrer": "summits/ParisTopics.md"},
         {"Page": "ParisMatrixTopics", "SrcDir": "docswiki", "SrcFile": "ParisMatrixTopics.md", "Referrer": "summits/ParisTopics.md"}
       ]},
-      {"Section": "2006 Fefor", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FeforTop.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Rmrs", "SrcDir": "docswiki", "SrcFile": "FeforRmrs.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Scoping Constraints", "SrcDir": "docswiki", "SrcFile": "FeforScopingConstraints.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Quantifiers", "SrcDir": "docswiki", "SrcFile": "FeforQuantifiers.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Dropped Arguments", "SrcDir": "docswiki", "SrcFile": "FeforDroppedArguments.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Discourse Status", "SrcDir": "docswiki", "SrcFile": "FeforDiscourseStatus.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Message Demise", "SrcDir": "docswiki", "SrcFile": "FeforMessageDemise.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "PNG", "SrcDir": "docswiki", "SrcFile": "FeforPng.md", "Referrer": "concept/RmrsDiscussions.md"}
-      ]},
-      {"Section": "2005 Lisbon", "Pages": [
-        {"Page": "Lisbon Summit", "SrcDir": "docswiki", "SrcFile": "LisbonTop.md", "Referrer": "summits/SuquamishTop.md"},
-        {"Page": "LisbonScheduleIdeas", "SrcDir": "docswiki", "SrcFile": "LisbonScheduleIdeas.md", "Referrer": "summits/LisbonTop.md"},
-        {"Page": "LisbonPictures", "SrcDir": "docswiki", "SrcFile": "LisbonPictures.md", "Referrer": "summits/LisbonTop.md"},
-        {"Page": "LisbonRepositoryDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonRepositoryDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonDocumentationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonDocumentationDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonExpectationsDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonExpectationsDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonVisibilityDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonVisibilityDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonTestingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonTestingDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonLicensingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonLicensingDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonResearchDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonResearchDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonEvaluationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonEvaluationDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonMatrixDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonMatrixDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonDiscussionSuggestions", "SrcDir": "docswiki", "SrcFile": "LisbonDiscussionSuggestions.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonTestingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonTestingDiscussion.md", "Referrer": "summits/JerezTop.md"}
-      ]},
-      {"Section": "Barcelona", "Pages": [
+      {"Section": "Barcelona 2009", "Pages": [
         {"Page": "Barcelona Summit", "SrcDir": "docswiki", "SrcFile": "BarcelonaTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "BarcelonaSchedule.md", "Referrer": "summits/BarcelonaTop.md"},
         {"Page": "BarcelonaEvaluation", "SrcDir": "docswiki", "SrcFile": "BarcelonaEvaluation.md", "Referrer": "summits/BarcelonaSchedule.md"},
@@ -1007,7 +986,6 @@
         {"Page": "BarcelonaCorpora", "SrcDir": "docswiki", "SrcFile": "BarcelonaCorpora.md", "Referrer": "summits/BarcelonaSchedule.md"},
         {"Page": "BarcelonaPreprocessing", "SrcDir": "docswiki", "SrcFile": "BarcelonaPreprocessing.md", "Referrer": "summits/BarcelonaSchedule.md"},
         {"Page": "BarcelonaCooperation", "SrcDir": "docswiki", "SrcFile": "BarcelonaCooperation.md", "Referrer": "summits/BarcelonaSchedule.md"},
-
         {"Page": "FeforParCorp", "SrcDir": "docswiki", "SrcFile": "FeforParCorp.md", "Referrer": "summits/BarcelonaCorpora.md"},
         {"Page": "Semantics", "SrcDir": "docswiki", "SrcFile": "BarcelonaSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Post-processing", "SrcDir": "docswiki", "SrcFile": "BarcelonaPostprocessing.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -1015,12 +993,12 @@
         {"Page": "Participants Group", "SrcDir": "docswiki", "SrcFile": "ParticipantsGroup.md", "Referrer": "summits/BarcelonaTop.md"},
         {"Page": "ParaTop", "SrcDir": "docswiki", "SrcFile": "ParaTop.md", "Referrer": "summits/BarcelonaParaphrasing.md"}
       ]},
-      {"Section": "Kyoto", "Pages": [
+      {"Section": "Kyoto 2008", "Pages": [
         {"Page": "Kyoto Summit", "SrcDir": "docswiki", "SrcFile": "KyotoTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "KyotoSchedule", "SrcDir": "docswiki", "SrcFile": "KyotoSchedule.md", "Referrer": "summits/KyotoTop.md"},
-              {"Page": "KyotoSchedule_InterDelphinNotes", "SrcDir": "docswiki", "SrcFile": "KyotoSchedule_InterDelphinNotes.md", "Referrer": "summits/KyotoSchedule.md"}
+        {"Page": "KyotoSchedule_InterDelphinNotes", "SrcDir": "docswiki", "SrcFile": "KyotoSchedule_InterDelphinNotes.md", "Referrer": "summits/KyotoSchedule.md"}
       ]},
-      {"Section": "Berlin", "Pages": [
+      {"Section": "Berlin 2007", "Pages": [
         {"Page": "Berlin Summit", "SrcDir": "docswiki", "SrcFile": "BerlinTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Slides", "SrcDir": "docswiki", "SrcFile": "BerlinSlides.md", "Referrer": "summits/BerlinTop.md"},
         {"Page": "Photos", "SrcDir": "docswiki", "SrcFile": "BerlinPhotos.md", "Referrer": "summits/BerlinTop.md"},
@@ -1033,7 +1011,15 @@
         {"Page": "Topics", "SrcDir": "docswiki", "SrcFile": "BerlinTopics.md", "Referrer": "summits/BerlinTop.md"},
         {"Page": "Evaluation ParCorp", "SrcDir": "docswiki", "SrcFile": "EvaluationParCorp.md", "Referrer": "summits/BerlinTop.md"}
       ]},
-      {"Section": "Fefor", "Pages": [
+      {"Section": "Fefor 2006", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FeforTop.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Rmrs", "SrcDir": "docswiki", "SrcFile": "FeforRmrs.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Scoping Constraints", "SrcDir": "docswiki", "SrcFile": "FeforScopingConstraints.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Quantifiers", "SrcDir": "docswiki", "SrcFile": "FeforQuantifiers.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Dropped Arguments", "SrcDir": "docswiki", "SrcFile": "FeforDroppedArguments.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Discourse Status", "SrcDir": "docswiki", "SrcFile": "FeforDiscourseStatus.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Message Demise", "SrcDir": "docswiki", "SrcFile": "FeforMessageDemise.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "PNG", "SrcDir": "docswiki", "SrcFile": "FeforPng.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Fefor Summit", "SrcDir": "docswiki", "SrcFile": "FeforTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "FeforSmallGroups", "SrcDir": "docswiki", "SrcFile": "FeforSmallGroups.md", "Referrer": "summits/FeforGrammarians.md"},
         {"Page": "FeforImmediateChallenges", "SrcDir": "docswiki", "SrcFile": "FeforImmediateChallenges.md", "Referrer": "summits/FeforGrammarians.md"},
@@ -1052,14 +1038,24 @@
         {"Page": "FeforDeepGrammarRmrsification", "SrcDir": "docswiki", "SrcFile": "FeforDeepGrammarRmrsification.md", "Referrer": "summits/FeforImmediateChallenges.md"},
         {"Page": "OpenissuesTop", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop.md", "Referrer": "summits/FeforOpenIssues.md"}
       ]},
-      {"Section": "Jerez", "Pages": [
+      {"Section": "Jerez 2005", "Pages": [
         {"Page": "Jerez Summit", "SrcDir": "docswiki", "SrcFile": "JerezTop.md", "Referrer": "home/DelphinNews.md"}
       ]},
-      {"Section": "MRS modeling 2012", "Pages": [
-        {"Page": "RmrsLm", "SrcDir": "docswiki", "SrcFile": "RmrsLm.md", "Referrer": "concept/RmrsDiscussions.md"}
-      ]},
-      {"Section": "MRS modeling 2013", "Pages": [
-        {"Page": "RmrsNes", "SrcDir": "docswiki", "SrcFile": "RmrsNes.md", "Referrer": "concept/RmrsDiscussions.md"}
+      {"Section": "Lisbon 2005", "Pages": [
+        {"Page": "Lisbon Summit", "SrcDir": "docswiki", "SrcFile": "LisbonTop.md", "Referrer": "summits/SuquamishTop.md"},
+        {"Page": "LisbonScheduleIdeas", "SrcDir": "docswiki", "SrcFile": "LisbonScheduleIdeas.md", "Referrer": "summits/LisbonTop.md"},
+        {"Page": "LisbonPictures", "SrcDir": "docswiki", "SrcFile": "LisbonPictures.md", "Referrer": "summits/LisbonTop.md"},
+        {"Page": "LisbonRepositoryDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonRepositoryDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonDocumentationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonDocumentationDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonExpectationsDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonExpectationsDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonVisibilityDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonVisibilityDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonTestingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonTestingDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonLicensingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonLicensingDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonResearchDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonResearchDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonEvaluationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonEvaluationDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonMatrixDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonMatrixDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonDiscussionSuggestions", "SrcDir": "docswiki", "SrcFile": "LisbonDiscussionSuggestions.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
+        {"Page": "LisbonTestingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonTestingDiscussion.md", "Referrer": "summits/JerezTop.md"}
       ]}
     ]
   }
