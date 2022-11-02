@@ -208,6 +208,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           directory: main
+          branch: ${{ github.ref }}
           
   # Deploy the pages to github pages
   deploy:

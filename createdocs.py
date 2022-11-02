@@ -277,7 +277,7 @@ def create_tocs(dst_root, tocs):
             toc_text +=  '    children:\n'
             for page in section[1]:
                 toc_text += f'      - title: "{page["Name"]}"\n'
-                toc_text += f'        url: "{page["Link"]}"\n'
+                toc_text += f'        url: "/{page["Link"]}/"\n'
 
         # Write it to the navigation file
         navfile_path = os.path.join(dst_root, site[0], "_data", "navigation.yml")
