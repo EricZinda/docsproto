@@ -60,7 +60,7 @@ releases:
 - [VerbMobil](http://nedned.net/gdelta_out/erg_1010-1111_vm_summary.html)
 
 Using gDelta to investigate attempted changes to the ERG that resulted
-in breakages (using [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience) profiles):
+in breakages (using [WeScience](WeScience) profiles):
 
 - [Breakage 1](http://nedned.net/gdelta_out/erg_b-b1_ws_summary.html)
 - [Breakage 2](http://nedned.net/gdelta_out/erg_b-b2_ws_summary.html)

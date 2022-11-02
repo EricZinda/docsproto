@@ -32,14 +32,14 @@ activities)](../ParisSchedule#July_5_.28Subgroup_activities.29)
 | *Lunch*                 |                                                                                                                                 |                                               |
 | **Afternoon session 1** |                                                                                                                                 |                                               |
 | 14:30-14:50             | [Site Update: Cambridge](http://www.delph-in.net/2010/cambridge.pdf)                                                            | Ann Copestake                                 |
-| 14:50-15:10             | Discussion: [Grammar Catalogue](ParisGrammarCatalogue)                                                                          | Moderator: Emily Bender; Scribe: Mike Goodman |
+| 14:50-15:10             | Discussion: [Grammar Catalogue](https://blog.inductorsoftware.com/docsproto/home/ParisGrammarCatalogue)                                                                          | Moderator: Emily Bender; Scribe: Mike Goodman |
 | 15:10-15:40             | [A new TDL parser and unification engine for the CLI](http://www.delph-in.net/2010/glenn.pdf) ([AgreeTop](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop))            | Glenn Slayden                                 |
 | 15:40-16:00             | [Project Update: TAKE Scientist's Workbench](http://www.delph-in.net/2010/take.pdf)                                             | Ulrich Schaefer                               |
 | *Coffee break*          |                                                                                                                                 |                                               |
 | **Afternoon session 2** |                                                                                                                                 |                                               |
 | 16:45-17:20             | [A comparative study of auxiliary implementations for the Matrix customization system](http://www.delph-in.net/2010/antske.pdf) | Antske Fokkens                                |
 | 17:20-17:50             | [Relation Extraction with Hybrid NLP](http://www.delph-in.net/2010/dare.pdf)                                                    | Feiyu Xu and Peter Adolphs                    |
-| 17:50-18:15             | [Subgroup activities announcements](ParisTopics)                                                                                |                                               |
+| 17:50-18:15             | [Subgroup activities announcements](https://blog.inductorsoftware.com/docsproto/home/ParisTopics)                                                                                |                                               |
 
 ## July 3
 
@@ -47,7 +47,7 @@ activities)](../ParisSchedule#July_5_.28Subgroup_activities.29)
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | **Morning session 1**                               |                                                                                                                                                                                     |                                                    |
 | 9-9:50                                              | [Improving PET's efficiency using a generative model](http://www.delph-in.net/2010/bart.pdf) ([ERG Results](http://www.delph-in.net/2010/dan.pdf))                                  | Bart Cramer                                        |
-| 9:50-10:30                                          | Discussion: [Reproducibility](ParisReproducibility)                                                                                                                                 | Moderator: Stephan Oepen; Scribe: Francis Bond     |
+| 9:50-10:30                                          | Discussion: [Reproducibility](https://blog.inductorsoftware.com/docsproto/home/ParisReproducibility)                                                                                                                                 | Moderator: Stephan Oepen; Scribe: Francis Bond     |
 | *Coffee break*                                      |                                                                                                                                                                                     |                                                    |
 | **Morning session 2**                               |                                                                                                                                                                                     |                                                    |
 | 11:15-11:55                                         | [Incremental transition-based HPSG parsing](http://www.delph-in.net/2010/gisle.pdf)                                                                                                 | Gisle Ytrestol                                     |
@@ -56,19 +56,19 @@ activities)](../ParisSchedule#July_5_.28Subgroup_activities.29)
 | *Lunch*                                             |                                                                                                                                                                                     |                                                    |
 | **Afternoon session 1**                             |                                                                                                                                                                                     |                                                    |
 | 14:30-14:50                                         | [Project update: WSJ treebanking](http://www.delph-in.net/2010/wsj.pdf)                                                                                                             | Yi Zhang and Valia Kordoni                         |
-| 14:50-15:15                                         | [Discussion: Code repository/bug tracker consolidation](ParisBugTracker)                                                                                                            | Moderator: Mike Goodman; Scribe: Bart Cramer       |
-| 15:15-15:45                                         | [Brief Discussion: Defeasible Constraints](ParisDefeasibleConstraints)                                                                                                              | Moderator: Emily M. Bender; Scribe: Antske Fokkens |
+| 14:50-15:15                                         | [Discussion: Code repository/bug tracker consolidation](https://blog.inductorsoftware.com/docsproto/home/ParisBugTracker)                                                                                                            | Moderator: Mike Goodman; Scribe: Bart Cramer       |
+| 15:15-15:45                                         | [Brief Discussion: Defeasible Constraints](https://blog.inductorsoftware.com/docsproto/home/ParisDefeasibleConstraints)                                                                                                              | Moderator: Emily M. Bender; Scribe: Antske Fokkens |
 | *Coffee break*                                      |                                                                                                                                                                                     |                                                    |
 | **Afternoon session 2**                             |                                                                                                                                                                                     |                                                    |
 | 16:30-16:50                                         | [Grammar update: La Grenouille](http://www.delph-in.net/2010/grenouille.pdf)                                                                                                        | Jesse Tseng                                        |
-| 16:50-17:25                                         | [Discussion: Improving interaction between Matrix developers and other grammar engineers](http://www.delph-in.net/2010/reload.pdf) [ParisMatrixInteraction](ParisMatrixInteraction) | Moderator: Antske Fokkens; Scribe: Emily M. Bender |
-| 17:25-18:00                                         | Business meeting ([web site notes](ParisWebSiteImprovements))                                                                                                                       |                                                    |
+| 16:50-17:25                                         | [Discussion: Improving interaction between Matrix developers and other grammar engineers](http://www.delph-in.net/2010/reload.pdf) [ParisMatrixInteraction](https://blog.inductorsoftware.com/docsproto/home/ParisMatrixInteraction) | Moderator: Antske Fokkens; Scribe: Emily M. Bender |
+| 17:25-18:00                                         | Business meeting ([web site notes](https://blog.inductorsoftware.com/docsproto/home/ParisWebSiteImprovements))                                                                                                                       |                                                    |
 | 20:00- [Summit dinner](http://www.millesimes62.fr/) |                                                                                                                                                                                     |                                                    |
 
 ## July 4 (Subgroup activities)
 
 Proposed participants for each SIG are listed on
-[ParisTopics](ParisTopics). Of course others are welcome!
+[ParisTopics](https://blog.inductorsoftware.com/docsproto/home/ParisTopics). Of course others are welcome!
 
 Participants are encouraged to leave notes about outcomes of SIGs on the
 wiki, linked to these schedule entries with Paris as the prefix.
@@ -81,7 +81,7 @@ Room 1 = larger room = 134 (same as plenary) Room 2 = smaller room = 131
 | Standing committee meeting                                                                                                                                                                          |                     |
 | 10:30-10:45                                                                                                                                                                                         | *Coffee break*      |
 | 10:45-12:30                                                                                                                                                                                         | Morning session 2   |
-| Room 1: Chart mapping applied: prosodic structures and temporal constraints, reducing parser search space, integration of external resources ([ChartMappingAppliedNotes](ChartMappingAppliedNotes)) |                     |
+| Room 1: Chart mapping applied: prosodic structures and temporal constraints, reducing parser search space, integration of external resources ([ChartMappingAppliedNotes](https://blog.inductorsoftware.com/docsproto/home/ChartMappingAppliedNotes)) |                     |
 | Room 2: Multilingual Grammar engineering with treebanks and core grammars                                                                                                                           |                     |
 | 12:30-14:30                                                                                                                                                                                         | *Lunch*             |
 | 14:30-16:00                                                                                                                                                                                         | Afternoon session 1 |
@@ -95,7 +95,7 @@ Room 1 = larger room = 134 (same as plenary) Room 2 = smaller room = 131
 ## July 5 (Subgroup activities)
 
 Proposed participants for each SIG are listed on
-[ParisTopics](ParisTopics). Of course others are welcome!
+[ParisTopics](https://blog.inductorsoftware.com/docsproto/home/ParisTopics). Of course others are welcome!
 
 Participants are encouraged to leave notes about outcomes of SIGs on the
 wiki, linked to these schedule entries with Paris as the prefix.
@@ -113,7 +113,7 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 | Room 2: Setting up Egad for Error Mining Grammars                                                                 |                     |
 | 13:00-14:30                                                                                                       | *Lunch*             |
 | 14:30-16:00                                                                                                       | Afternoon session 1 |
-| Room 1: [LOGON 2010 release planning](LogonParis)                                                                 |                     |
+| Room 1: [LOGON 2010 release planning](https://blog.inductorsoftware.com/docsproto/home/LogonParis)                                                                 |                     |
 | Room 2: Grammar metadata table filling in                                                                         |                     |
 | 16:00-16:45                                                                                                       | *Coffee break*      |
 | 16:45-18:15                                                                                                       | Afternoon session 2 |

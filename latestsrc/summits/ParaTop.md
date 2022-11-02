@@ -1,6 +1,6 @@
 {% raw %}This page describes various approaches to paraphrasing using the
 DELPH-IN tools. This page was initiated by [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
-and [DarrenAppling](DarrenAppling); please feel free to make additions
+and [DarrenAppling](https://blog.inductorsoftware.com/docsproto/tools/DarrenAppling); please feel free to make additions
 or corrections as you see fit.
 
 # How to Paraphrase
@@ -9,7 +9,7 @@ or corrections as you see fit.
 - **Some variation**: parse and then rephrase (see
 [RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing))
 - **More variation**: create a monolingual Machine Translation system
-(see [MachineTranslationTop](MachineTranslationTop))
+(see [MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/home/MachineTranslationTop))
 
 In this case, the monolingual machine translation should use the
 *external* MRS exposed by the Semantic Interface ([SEM-I](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi)),

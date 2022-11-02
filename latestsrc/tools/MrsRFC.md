@@ -8,9 +8,9 @@ framework for computational semantics characterised by a flat structure
 true scopal ambiguities can be left ambiguous, or fully specified if
 needed. This RFC aims to be a reference document for developers writing
 code to process MRSs. See below for the [formal
-properties](MrsRfc#formal-properties) of MRS objects. For ways to
+properties](../MrsRfc#formal-properties) of MRS objects. For ways to
 represent MRS objects textually, see the [serialization
-formats](MrsRfc#serialization-formats) section.
+formats](../MrsRfc#serialization-formats) section.
 
 Unless otherwise noted, most information below is adapted from Copestake
 et al. (2005). The reader is referred to this paper for more information

@@ -4,7 +4,7 @@
 
 - [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
 - [PrescottKlassen](/PrescottKlassen)
-- [ZinaPozen](ZinaPozen)
+- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen)
 - [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong)
 - [SpencerRarricks](/SpencerRarricks)
 - [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)

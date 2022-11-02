@@ -74,7 +74,7 @@ some sessions
 the evening of the 17th
 - [ChristopherPotts](/ChristopherPotts) - regretful
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- [ZinaPozen](ZinaPozen) - June 18 only
+- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen) - June 18 only
 - [SusanneRiehemann](/SusanneRiehemann) - likely Saturday only
 - [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer) - June 16-20 (arriving at noon on
 June 16)
@@ -86,18 +86,18 @@ June 16)
 - [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden) - June 16-20
 - [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) - will unfortunately can't be there,
 but hope to Skype in.
-- [WeiweiSun](WeiweiSun) - regretful
+- [WeiweiSun](https://blog.inductorsoftware.com/docsproto/tools/WeiweiSun) - regretful
 - TJTrimble - June 18-19
 - [JunichiTsujii](/JunichiTsujii)
 - [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit) - regretful
-- [ErikVelldal](ErikVelldal)
-- [HuiZhenWang](HuiZhenWang)
+- [ErikVelldal](https://blog.inductorsoftware.com/docsproto/tools/ErikVelldal)
+- [HuiZhenWang](https://blog.inductorsoftware.com/docsproto/tools/HuiZhenWang)
 - [RuiWang](/RuiWang)
-- [ShanWang](ShanWang)
-- [WenjieWang](WenjieWang) - June 16-20
+- [ShanWang](https://blog.inductorsoftware.com/docsproto/tools/ShanWang)
+- [WenjieWang](https://blog.inductorsoftware.com/docsproto/tools/WenjieWang) - June 16-20
 - [TomWasow](/TomWasow) - June 16-20
-- [JimWhite](JimWhite) - June 18-19
-- [FeiyuXu](FeiyuXu) - regretful
+- [JimWhite](https://blog.inductorsoftware.com/docsproto/tools/JimWhite) - June 18-19
+- [FeiyuXu](https://blog.inductorsoftware.com/docsproto/tools/FeiyuXu) - regretful
 - [PingXue](/PingXue) - June 16-19 (arriving early afternoon on June
 16; will miss some evening sessions)
 - [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang)

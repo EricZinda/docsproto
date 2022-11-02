@@ -104,12 +104,12 @@ hours beforehand in the schedule below.
 | 3    | Tuesday 17:30-19:30   | Tutorial: Treebanking (fftb+ERG)                                                 | Abbey     | Woodley      | TBD                                                 |
 | 4    | Wednesday 01:00-03:00 | Data statements                                                                  | UW        | Emily        | TBD                                                 |
 | 4    | Wednesday 01:00-03:00 | Tutorial: Treebanking (fftb+ERG)                                                 | Abbey     | Woodley, Dan | TBD                                                 |
-| 4    | Wednesday 01:00-03:00 | Tutorial: [PyDelphin](PyDelphin)                                                 | NTU       | Mike         | TBD                                                 |
+| 4    | Wednesday 01:00-03:00 | Tutorial: [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphin)                                                 | NTU       | Mike         | TBD                                                 |
 | 5    | Wednesday 11:30-13:30 | Tutorial: [ltdb](https://blog.inductorsoftware.com/docsproto/tools/LkbLtdb)                                                        | UiO       | Francis      | TBD                                                 |
 | 6    | Wednesday 17:30-19:30 | Parsing Efficiency                                                               | UW        | Woodley      | Angie,Olga ([notes](../VirtualParsingEfficiency))      |
 | 7    | Thursday 01:00-03:00  | Grammar Matrix maintenance                                                       | UW        | Mike         | T.J. ([notes](../VirtualMatrix))                       |
 | 7    | Thursday 01:00-03:00  | fftb development & maintenance                                                   | Abbey     | Woodley      | TBD                                                 |
-| 8    | Thursday 11:30-13:30  | Tutorial: [PyDelphin](PyDelphin)                                                 | UiO       | Mike         | TBD                                                 |
+| 8    | Thursday 11:30-13:30  | Tutorial: [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphin)                                                 | UiO       | Mike         | TBD                                                 |
 | 9    | Thursday 17:30-19:30  | Semantics: coordination & DMRS composition                                       | UW        | Emily,Guy    | Emily,Guy ([notes](../VirtualCoordinationComposition)) |
 | 10   | Friday 01:00-03:00    | Educational applications                                                         | UW        | Olga         | Olga ([notes](../VirtualDEA))                          |
 | 11   | Friday 11:30-13:30    | Tutorial: [LKB+FOS new & revived](http://www.delph-in.net/2020/lkb-tutorial.pdf) | UiO       | John         | Francis ([notes](../VirtualLkbFos))                    |
@@ -152,7 +152,7 @@ Olga; co-leader requested\]
 - Tutorial offer: ltdb \[Francis\]
 - Tutorial request: new (and revived) features in the LKB FOS
 \[Francis\] \[Volunteer: John\]
-- Tutorial offer: Using [PyDelphin](PyDelphin) and related tools (open
+- Tutorial offer: Using [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphin) and related tools (open
 to requests; e.g., building web demos, processing test suites,
 preprocessing data for machine learning, etc.). \[Mike\]
 - SIG/discussion: semantics of coordination (Matrix is out of sync

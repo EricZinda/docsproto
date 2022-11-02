@@ -1,5 +1,5 @@
 {% raw %}Jacy uses the light weight version of the lexical database ([Single
-User](LkbLexDbSingleUser) mode). (2006-09-06: incomplete initial
+User](https://blog.inductorsoftware.com/docsproto/home/LkbLexDbSingleUser) mode). (2006-09-06: incomplete initial
 documentation --- details may change)
 
 Contents
@@ -77,7 +77,7 @@ Defined in japanese/lex/su-init.sql
 # Set Up
 
 Set up the database as described in the [Single
-User](LkbLexDbSingleUser) page, then load the lexicon from CVS.
+User](https://blog.inductorsoftware.com/docsproto/home/LkbLexDbSingleUser) page, then load the lexicon from CVS.
 
 - Connect to the database (normally called jacy)
   

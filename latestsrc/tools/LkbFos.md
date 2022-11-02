@@ -121,7 +121,7 @@ type constraints.
 and generation.
 - Bug fixes and enhancements, as suggested in [LkbBugs](../LkbBugs) and
 [LkbWishlist](../LkbWishlist).
-- Support for the revised DELPH-IN TDL format, as specified in [TdlRfc](TdlRfc).
+- Support for the revised DELPH-IN TDL format, as specified in [TdlRfc](../TdlRfc).
 - A new handy command 'Evaluate Lisp expression...' in the Lkb Top
 Advanced menu.
 

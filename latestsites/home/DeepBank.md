@@ -121,7 +121,7 @@ multiple formats. The combination of the raw [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) profiles with a corresponding
 version of the ERG enables automatic reconstruction of all detailed
 analyses. The HPSG [derivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations) and the
-[MRSes](MrsRfc) are recorded in these profiles and can be extracted
+[MRSes](https://blog.inductorsoftware.com/docsproto/tools/MrsRFC) are recorded in these profiles and can be extracted
 directly.
 
 For convenience of usage, [DeepBank](../DeepBank) is also available in
@@ -214,4 +214,4 @@ Evaluation (LREC'10), Malta, 2010.
 a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
 Linguistic Annotation Workshop, Singapore, 2009.
 
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/DeepBank/_edit)]{% endraw %}
+Last update: 2022-11-01 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DeepBank/_edit)]{% endraw %}

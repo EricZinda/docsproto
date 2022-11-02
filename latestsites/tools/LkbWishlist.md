@@ -25,7 +25,7 @@ really the same, e.g.
        SYNSEM.LOCAL.CAT.HEAD i-adj_head & [MARK < [LOCAL.CAT.HEAD.H-TENSE te] > ],
        J-NEEDS-AFFIX +].
 - **Linear precedence constraints**: see
-[LkbLpconstraints](LkbLpconstraints) for a discussion document.
+[LkbLpconstraints](https://blog.inductorsoftware.com/docsproto/home/LkbLpconstraints) for a discussion document.
 - **Filter in the generator that blocks application of lex rules**
 which add constraints to e.g., PNG which are incompatible with the
 input. (This should keep edges corresponding to verbs inflection for
@@ -54,7 +54,7 @@ example, if the LKB could read the english.tdl file, ...
 [LkbFos](../LkbFos), these and other list-like windows (such as the
 'Apply all lex rules' window) obey the \*parse-tree-font-size\* user
 parameter.
-- **Comments in TDL**: although the [TdlRfc](TdlRfc) specification
+- **Comments in TDL**: although the [TdlRfc](../TdlRfc) specification
 does not provide a way to comment out a section of TDL by wrapping
 it in a definition, [LkbFos](../LkbFos) fully implements the
 BlockComment facility. There is partial support for block comments

@@ -28,7 +28,7 @@ two days with opportunities for small-group (parallel) activities.
 | 16:30-16:50       | [Deep DARE: Dependency Graphs as a Generic Interface between Parsers and Relation Extraction Rule Learning](http://www.delph-in.net/2011/dare.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                |
 | 16:50-17:10       | [Minimally Supervised Domain-Adaptive Parse-Reranking for Relation Extraction](http://www.delph-in.net/2011/reranking.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                        |
 | 17:10-17:30       | [Minimal Recursion Semantics and Query-Focused Text Summarization](http://www.delph-in.net/2011/prescott.pdf) ([PrescottKlassen](/PrescottKlassen))                                    |
-| 17:30-18:00       | [Report from ACL2011 Birds-of-a-Feather Meeting](BirdsofaFeather2011) ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                  |
+| 17:30-18:00       | [Report from ACL2011 Birds-of-a-Feather Meeting](https://blog.inductorsoftware.com/docsproto/home/BirdsofaFeather2011) ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                  |
 
 |                 |                                                                                                                                                                                                                      |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ two days with opportunities for small-group (parallel) activities.
 | **9:00-10:30**  | *Session 4* (Grammar Engineering) -- Kitsap Room                                                                                                                                                                     |
 | 9:00-9:40       | [Metagrammar Engineering in a Multi-Lingual Context](http://www.delph-in.net/2011/antske.pdf) ([AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens))                                                                                       |
 | 9:40-10:00      | [Matrix Odin Mash-up: Potential for Automated Grammar Generation from Linguistically Rich Data](http://www.delph-in.net/2011/mom.pdf) ([DavidWax](/DavidWax))                                                        |
-| 10:00-10:30     | [Discussion: Grammar Indexing/Documentation: How can we Annotate Grammars To Map Constraints To Phenomena](SuquamishGrammarIndexing) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)) |
+| 10:00-10:30     | [Discussion: Grammar Indexing/Documentation: How can we Annotate Grammars To Map Constraints To Phenomena](https://blog.inductorsoftware.com/docsproto/home/SuquamishGrammarIndexing) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)) |
 | 10:30-11:00     | Coffee Break                                                                                                                                                                                                         |
 | **11:00-12:00** | *Session 5* (Mandarin) -- Kitsap Room                                                                                                                                                                                |
 | 11:00-11:30     | [Status Report on the Mandarin Chinese Grammar](http://www.delph-in.net/2011/mcg.pdf) (MCG) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                                                                                     |
@@ -45,8 +45,8 @@ two days with opportunities for small-group (parallel) activities.
 | **13:00-15:00** | *Session 6* (Resources; Coffee Available in the Meeting Room) -- Kitsap Room                                                                                                                                         |
 | 13:00-13:25     | [Updates from NTNU](http://www.delph-in.net/2011/ntnu.pdf) ([DorotheeBeermann](/DorotheeBeermann))                                                                                                                   |
 | 13:25-13:50     | [Reliability Metrics and Validation Tools for Datasets with Deep Linguistic Information](http://www.delph-in.net/2011/sergio.pdf) ([JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva))                                                           |
-| 13:50-14:15     | [Multilingual Parallel Corpus Annotation: Using the Little Prince](http://www.delph-in.net/2011/prince.pdf) ([SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) and [VaryaGracheva](VaryaGracheva))                                        |
-| 14:15-15:00     | [PanLex: A Panlingual Lexicon](http://www.delph-in.net/2011/panlex.pdf) ([JonathanPool](JonathanPool) and [SusanColowick](/SusanColowick))                                                                           |
+| 13:50-14:15     | [Multilingual Parallel Corpus Annotation: Using the Little Prince](http://www.delph-in.net/2011/prince.pdf) ([SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) and [VaryaGracheva](https://blog.inductorsoftware.com/docsproto/tools/VaryaGracheva))                                        |
+| 14:15-15:00     | [PanLex: A Panlingual Lexicon](http://www.delph-in.net/2011/panlex.pdf) ([JonathanPool](https://blog.inductorsoftware.com/docsproto/tools/JonathanPool) and [SusanColowick](/SusanColowick))                                                                           |
 | **15:10**       | Shuttle Departs for Excursion                                                                                                                                                                                        |
 | 16:00-21:00     | Excursion to Tillicum Village                                                                                                                                                                                        |
 
@@ -60,18 +60,18 @@ two days with opportunities for small-group (parallel) activities.
 | 10:30-11:00     | Coffee Break                                                                                                                                                                                                                         |
 | **11:00-12:30** | *Session 8* (Tools) -- Kitsap Room                                                                                                                                                                                                   |
 | 11:00-11:30     | [N-Way Unification](http://www.delph-in.net/2011/glenn.pdf) ([GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden))                                                                                                                                           |
-| 11:30-12:30     | [Discussion: The Long-Term Health of the DELPH-IN Ecosystem](SuquamishDelphinEcology) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender); Scribe: [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden))                                                                  |
+| 11:30-12:30     | [Discussion: The Long-Term Health of the DELPH-IN Ecosystem](https://blog.inductorsoftware.com/docsproto/home/SuquamishDelphinEcology) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender); Scribe: [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden))                                                                  |
 | 12:30-13:30     | Lunch -- Lobby                                                                                                                                                                                                                       |
 | **13:30-15:00** | *Session 8* (Tools) -- Kitsap Room                                                                                                                                                                                                   |
 | 13:30-14:00     | [Assigning Lexical Types with Tree Kernels](http://www.delph-in.net/2011/joao.pdf) ([JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva))                                                                                                                          |
 | 14:00-14:20     | Updates on the SRG, Tibidabo Treebank, and the METANET4U project ([MontserratMarimon](/MontserratMarimon))                                                                                                                           |
-| 14:20-14:40     | [Discussion: Shared C++ MRS Library and Tools](SuquamishDelphinLibMRS) (Moderator: [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang); Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender))                                                                                           |
-| 14:40-15:00     | [Discussion: Shared Python/Perl Tools](SuquamishDelphinLibP) (Moderator: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond); Scribe: [WoodleyPackard](/WoodleyPackard))                                                                                      |
+| 14:20-14:40     | [Discussion: Shared C++ MRS Library and Tools](https://blog.inductorsoftware.com/docsproto/home/SuquamishDelphinLibMRS) (Moderator: [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang); Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender))                                                                                           |
+| 14:40-15:00     | [Discussion: Shared Python/Perl Tools](https://blog.inductorsoftware.com/docsproto/home/SuquamishDelphinLibP) (Moderator: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond); Scribe: [WoodleyPackard](/WoodleyPackard))                                                                                      |
 | 15:00-15:30     | Coffee Break                                                                                                                                                                                                                         |
 | **15:30-17:30** | *Session 9* (Wrap-Up) -- Kitsap Room                                                                                                                                                                                                 |
 | 15:30-16:00     | [Discussion: Formal Specifications of DELPH-IN Representations](https://blog.inductorsoftware.com/docsproto/tools/FormatSpecifications), e.g. What is a Well-Formed Representation of an MRS (Moderator: [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman); Scribe: [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/tools/PetterHaugereid)) |
 | 16:00-16:30     | Planning for Small-Group Acitivities                                                                                                                                                                                                 |
-| 16:30-17:00     | [Business Meeting](SuquamishBusinessMeeting) (Secretary: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))                                                                                                                                                 |
+| 16:30-17:00     | [Business Meeting](https://blog.inductorsoftware.com/docsproto/home/SuquamishBusinessMeeting) (Secretary: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))                                                                                                                                                 |
 
 ### Small group activities
 
@@ -81,7 +81,7 @@ two days with opportunities for small-group (parallel) activities.
 | **9:00-10:30**   | Treebanking                              |                            |
 | **11:00-12:30**  | Cross-Lingual Disambiguation             | Slavic Matrix              |
 | 12:30-13:30      | Lunch                                    | Summarization and QA       |
-| **13:30-15:00**  | [Robust Parsing](SuquamishRobustParsing) |                            |
+| **13:30-15:00**  | [Robust Parsing](https://blog.inductorsoftware.com/docsproto/home/SuquamishRobustParsing) |                            |
 | **15:30-17:30**  | Matrix Spring Cleaning                   | Lattice-Based Supertagging |
 
 |                    |                                                                                    |                                          |
@@ -90,15 +90,15 @@ two days with opportunities for small-group (parallel) activities.
 | **9:00-10:30**     | [AGREE Parser Evaluation](http://www.delph-in.net/2011/agree.pdf)                  | \[incr Grammar Catalogue\]               |
 | **11:00-12:30**    | [(Dis)Ambiguation, Lexical Semantics, Word\`\`Net, Onto\`\`Notes](../SuquamishLexSem) |                                          |
 | 12:30-13:30        | Lunch                                                                              | (1.) Han Unification; (2.) agree roadmap |
-| **13:30-15:00**    | [Phenomena Catalogue Kick-Off](SuquamishPhenomenaCatalogue)                        | CJK Machine Translation                  |
-| **15:30-17:30**    |                                                                                    | [DocumentationParty](DocumentationParty) |
+| **13:30-15:00**    | [Phenomena Catalogue Kick-Off](https://blog.inductorsoftware.com/docsproto/home/SuquamishPhenomenaCatalogue)                        | CJK Machine Translation                  |
+| **15:30-17:30**    |                                                                                    | [DocumentationParty](https://blog.inductorsoftware.com/docsproto/home/DocumentationParty) |
 
 Please add your name to the intended sublist if you are interested in
 participating in the activity:
 
 - Grammar catalogue++: What can we do with scripts? (Mike)
   - Francis, Emily, Antske, Sanghoun, Joshua, Petter, David
-- [SlavicMatrix](SlavicMatrix) (Varya and Emily)-please schedule on
+- [SlavicMatrix](https://blog.inductorsoftware.com/docsproto/home/SlavicMatrix) (Varya and Emily)-please schedule on
 Tuesday AM
   
   - Stephan, Yi, Antske, Sanghoun, Laurie, Dan

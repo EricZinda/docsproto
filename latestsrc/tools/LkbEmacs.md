@@ -56,9 +56,9 @@ the start of that file.
 - Save and restart emacs.
 - If all is well, you should now be able to run the LKB as \`M-x lkb
 RET' in emacs.
-- load [lkb.el](LkbMode) (dot.emacs may do it for you) or some user
+- load [lkb.el](https://blog.inductorsoftware.com/docsproto/home/LkbMode) (dot.emacs may do it for you) or some user
 friendly menus and shortcuts.
-- load [tdl-mode.el](LkbMode) for syntax coloring and useful
+- load [tdl-mode.el](https://blog.inductorsoftware.com/docsproto/home/LkbMode) for syntax coloring and useful
 keybindings when dealing with TDL files.
 
 # Simple way to load a grammar

@@ -4,7 +4,7 @@ them.
 
 # Serialization Formats
 
-- [MrsRfc](MrsRfc)
+- [MrsRfc](../MrsRfc)
 
 # SEM-I
 

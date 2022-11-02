@@ -50,7 +50,7 @@ length of the RELS and HCONS lists.
 
 - [What's a difference list, and why do we use them?](../GeFaqDiffList)
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
-and how do I debug it?](GeFaqCyclicCheck)
+and how do I debug it?](https://blog.inductorsoftware.com/docsproto/home/GeFaqCyclicCheck)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

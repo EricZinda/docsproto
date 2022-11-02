@@ -1,107 +1,32 @@
   {
     "home": [
-      {"Section": "Projects", "Pages": [
-        {"Page": "ZinaPozen", "SrcDir": "docswiki", "SrcFile": "ZinaPozen.md", "Referrer": "home/LexsemTop.md", "FileMissing": true},
-        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "home/LexsemTop.md"},
-        {"Page": "SaarlandMrsWordnet", "SrcDir": "docswiki", "SrcFile": "SaarlandMrsWordnet.md", "Referrer": "home/LexsemTop.md"}
-      ]}
-    ],
-    "grammars": [
       {"Section": "Japanese (JACY)", "Pages": [
-        {"Page": "LexDbSimplePsql", "SrcDir": "docswiki", "SrcFile": "LexDbSimplePsql.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LexDbPsqlInitialize", "SrcDir": "docswiki", "SrcFile": "LexDbPsqlInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LexDbInitialize", "SrcDir": "docswiki", "SrcFile": "LexDbInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LexDbFieldMappings", "SrcDir": "docswiki", "SrcFile": "LexDbFieldMappings.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "CapitolHillTop", "SrcDir": "docswiki", "SrcFile": "CapitolHillTop.md", "Referrer": "grammars/GrammarPerformance.md"},
-        {"Page": "GrammarPerformance", "SrcDir": "docswiki", "SrcFile": "GrammarPerformance.md", "Referrer": "grammars/GrammarPerformance.md"},
-        {"Page": "UtTop", "SrcDir": "docswiki", "SrcFile": "UtTop.md", "Referrer": "grammars/GrammarPerformance.md"}
-      ]}
-    ],
-    "matrix": [
-      {"Section": "FAQ", "Pages": [
-        {"Page": "LkbMode", "SrcDir": "docswiki", "SrcFile": "LkbMode.md", "Referrer": "matrix/GeFaqLispPromptTips.md"},
-        {"Page": "TdlRfc", "SrcDir": "docswiki", "SrcFile": "TdlRfc.md", "Referrer": "matrix/GeFaqTdlSyntax.md", "FileMissing": true}
-      ]}
-    ],
-    "tools": [
-      {"Section": "Logon", "Pages": [
-        {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
-        {"Page": "NoJa", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "tools/NoJa.md"},
-        {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"}
-      ]},
-      {"Section": "Formats", "Pages": [
-        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "CcsGroup", "SrcDir": "docswiki", "SrcFile": "CcsGroup.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayThree", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayThree.md", "Referrer": "tools/WeSearch_Ccs.md"}
-      ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "SafDtd", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"}
-      ]}
-    ],
-    "summits": [
-      {"Section": "Overview", "Pages": [
-        {"Page": "Fairhaven2022Participants", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Participants.md", "Referrer": "summits/FairhavenTop.md"},
-        {"Page": "Fairhaven2022Schedule", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Schedule.md", "Referrer": "summits/FairhavenTop.md"},
-        {"Page": "Virtual2021Participants", "SrcDir": "docswiki", "SrcFile": "Virtual2021Participants.md", "Referrer": "summits/Virtual2021Top.md"}
-      ]},
-      {"Section": "Bellingham", "Pages": [
-        {"Page": "EmmaBateman", "SrcDir": "docswiki", "SrcFile": "EmmaBateman.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true},
-        {"Page": "AlexanderKoller", "SrcDir": "docswiki", "SrcFile": "AlexanderKoller.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true},
-        {"Page": "WeiweiSun", "SrcDir": "docswiki", "SrcFile": "WeiweiSun.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true},
-        {"Page": "WenjieWang", "SrcDir": "docswiki", "SrcFile": "WenjieWang.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true},
-        {"Page": "FeiyuXu", "SrcDir": "docswiki", "SrcFile": "FeiyuXu.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true}
+        {"Page": "LkbLexDbMultiUser", "SrcDir": "docswiki", "SrcFile": "LkbLexDbMultiUser.md", "Referrer": "home/LexDbInitialize.md"},
+        {"Page": "GrammarDevelopment", "SrcDir": "docswiki", "SrcFile": "GrammarDevelopment.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillTop", "SrcDir": "docswiki", "SrcFile": "CapitolHillTop.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillDependencies", "SrcDir": "docswiki", "SrcFile": "CapitolHillDependencies.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillSmall2Large", "SrcDir": "docswiki", "SrcFile": "CapitolHillSmall2Large.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillChartMap", "SrcDir": "docswiki", "SrcFile": "CapitolHillChartMap.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillLearning", "SrcDir": "docswiki", "SrcFile": "CapitolHillLearning.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillDefiniteness", "SrcDir": "docswiki", "SrcFile": "CapitolHillDefiniteness.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillDiscourse", "SrcDir": "docswiki", "SrcFile": "CapitolHillDiscourse.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillLexicon", "SrcDir": "docswiki", "SrcFile": "CapitolHillLexicon.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillPerformance", "SrcDir": "docswiki", "SrcFile": "CapitolHillPerformance.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillPhDDesign", "SrcDir": "docswiki", "SrcFile": "CapitolHillPhDDesign.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "CapitolHillGenerationTesting", "SrcDir": "docswiki", "SrcFile": "CapitolHillGenerationTesting.md", "Referrer": "home/CapitolHillTop.md"}
       ]},
       {"Section": "Tomar", "Pages": [
-        {"Page": "DelphinTutorial_Grammars", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Grammars.md", "Referrer": "summits/DelphinTutorial_Formalisms.md"}
-      ]},
-      {"Section": "Saarland", "Pages": [
-        {"Page": "DelphinTutorial_Processing", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Processing.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinTutorial_Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinTutorial_Distributions", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Distributions.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinGlossary", "SrcDir": "docswiki", "SrcFile": "DelphinGlossary.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "PaperCuts", "SrcDir": "docswiki", "SrcFile": "PaperCuts.md", "Referrer": "summits/SaarlandUseability.md", "FileMissing": true},
-        {"Page": "FrontPage", "SrcDir": "docswiki", "SrcFile": "FrontPage.md", "Referrer": "summits/SaarlandAceAgree.md", "FileMissing": true},
-        {"Page": "MweTop", "SrcDir": "docswiki", "SrcFile": "MweTop.md", "Referrer": "summits/SaarlandMweDiscussion.md"}
+        {"Page": "DelphinTutorial_Processing", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Processing.md", "Referrer": "home/DelphinTutorial_Grammars.md"}
       ]},
       {"Section": "Sofia", "Pages": [
-        {"Page": "SuquamishGrammarIndexing", "SrcDir": "docswiki", "SrcFile": "SuquamishGrammarIndexing.md", "Referrer": "summits/SofiaLinguisticPhenomena.md"},
-        {"Page": "WambayaPhenomenaCatalogue", "SrcDir": "docswiki", "SrcFile": "WambayaPhenomenaCatalogue.md", "Referrer": "summits/SofiaLinguisticPhenomena.md"},
-        {"Page": "PhenomenaTop", "SrcDir": "docswiki", "SrcFile": "PhenomenaTop.md", "Referrer": "summits/SofiaCLIMBAndReducingComplexity.md"},
-        {"Page": "TeachingCourses", "SrcDir": "docswiki", "SrcFile": "TeachingCourses.md", "Referrer": "summits/TeachingTop.md"}
-      ]},
-      {"Section": "Suquamish", "Pages": [
-        {"Page": "BirdsofaFeather2011Summary", "SrcDir": "docswiki", "SrcFile": "BirdsofaFeather2011Summary.md", "Referrer": "summits/BirdsofaFeather2011.md"},
-        {"Page": "StandingCommitteeGroup", "SrcDir": "docswiki", "SrcFile": "StandingCommitteeGroup.md", "Referrer": "summits/SuquamishBusinessMeeting.md"},
-        {"Page": "ChartMappingAppliedNotes", "SrcDir": "docswiki", "SrcFile": "ChartMappingAppliedNotes.md", "Referrer": "summits/DocumentationParty.md"}
-      ]},
-      {"Section": "2010 Paris", "Pages": [
-        {"Page": "ParisMultilingualGrammarEngineering", "SrcDir": "docswiki", "SrcFile": "ParisMultilingualGrammarEngineering.md", "Referrer": "summits/ParisTopics.md"},
-        {"Page": "ParisMatrixCustomization", "SrcDir": "docswiki", "SrcFile": "ParisMatrixCustomization.md", "Referrer": "summits/ParisTopics.md"},
-        {"Page": "ParisMatrixTopics", "SrcDir": "docswiki", "SrcFile": "ParisMatrixTopics.md", "Referrer": "summits/ParisTopics.md"},
-        {"Page": "InfrastructureTop", "SrcDir": "docswiki", "SrcFile": "InfrastructureTop.md", "Referrer": "summits/ParisBugTracker.md"}
+        {"Page": "PhenomenaTop", "SrcDir": "docswiki", "SrcFile": "PhenomenaTop.md", "Referrer": "home/PhenomenaTop.md"},
+        {"Page": "WambayaPhenomenaCatalogue", "SrcDir": "docswiki", "SrcFile": "WambayaPhenomenaCatalogue.md", "Referrer": "home/PhenomenaTop.md"},
+        {"Page": "HpsgTutorial", "SrcDir": "docswiki", "SrcFile": "HpsgTutorial.md", "Referrer": "home/TeachingCourses.md"}
       ]},
       {"Section": "2005 Lisbon", "Pages": [
-        {"Page": "LisbonRepositoryDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonRepositoryDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonDocumentationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonDocumentationDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonExpectationsDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonExpectationsDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonVisibilityDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonVisibilityDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonTestingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonTestingDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonLicensingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonLicensingDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "JeffGood", "SrcDir": "docswiki", "SrcFile": "JeffGood.md", "Referrer": "summits/LisbonScheduleIdeas.md", "FileMissing": true},
-        {"Page": "LisbonResearchDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonResearchDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonEvaluationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonEvaluationDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonMatrixDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonMatrixDiscussion.md", "Referrer": "summits/LisbonScheduleIdeas.md"},
-        {"Page": "LisbonDiscussionSuggestions", "SrcDir": "docswiki", "SrcFile": "LisbonDiscussionSuggestions.md", "Referrer": "summits/LisbonScheduleIdeas.md"}
-      ]},
-      {"Section": "Barcelona", "Pages": [
-        {"Page": "FeforParCorp", "SrcDir": "docswiki", "SrcFile": "FeforParCorp.md", "Referrer": "summits/BarcelonaCorpora.md"}
-      ]},
-      {"Section": "Fefor", "Pages": [
-        {"Page": "FeforIndexAccess", "SrcDir": "docswiki", "SrcFile": "FeforIndexAccess.md", "Referrer": "summits/FeforImmediateChallenges.md"},
-        {"Page": "FeforDeepGrammarRmrsification", "SrcDir": "docswiki", "SrcFile": "FeforDeepGrammarRmrsification.md", "Referrer": "summits/FeforImmediateChallenges.md"},
-        {"Page": "OpenissuesTop", "SrcDir": "docswiki", "SrcFile": "OpenissuesTop.md", "Referrer": "summits/FeforOpenIssues.md"}
+        {"Page": "LisbonVisibilityDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonVisibilityDiscussion.md", "Referrer": "home/LisbonRepositoryDiscussion.md"},
+        {"Page": "LisbonDocumentationDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonDocumentationDiscussion.md", "Referrer": "home/LisbonRepositoryDiscussion.md"},
+        {"Page": "LisbonLicensingDiscussion", "SrcDir": "docswiki", "SrcFile": "LisbonLicensingDiscussion.md", "Referrer": "home/LisbonRepositoryDiscussion.md"}
       ]}
     ]
   }

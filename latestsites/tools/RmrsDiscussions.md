@@ -33,19 +33,19 @@ is probably only partial, and additional links are welcome.
 2012:
   
   - [MRS representation design
-principles](WeSearch_DesignPrinciples)
+principles](https://blog.inductorsoftware.com/docsproto/home/WeSearch_DesignPrinciples)
   - [towards a catalogue of stable semantic analyses (and
-documentation)](WeSearch_AnalysisCatalog)
-  - [scopal arguments in coordination](WeSearch_ScopalArgCoord)
-  - [anaphor links (ICONS)](WeSearch_ICONS)
+documentation)](https://blog.inductorsoftware.com/docsproto/home/WeSearch_AnalysisCatalog)
+  - [scopal arguments in coordination](https://blog.inductorsoftware.com/docsproto/home/WeSearch_ScopalArgCoord)
+  - [anaphor links (ICONS)](https://blog.inductorsoftware.com/docsproto/home/WeSearch_ICONS)
   - [underspecification of modifier
-attachment](WeSearch_UnderspecifedAttachment)
+attachment](https://blog.inductorsoftware.com/docsproto/home/WeSearch_UnderspecifedAttachment)
   - [predicate symbols underspecified for
-arity](WeSearch_UnderspecifiedPreds)
+arity](https://blog.inductorsoftware.com/docsproto/home/WeSearch_UnderspecifiedPreds)
   - [specification of co-reference: \*''I bit her
-tongue''](WeSearch_VariablePropertySharing)
+tongue''](https://blog.inductorsoftware.com/docsproto/home/WeSearch_VariablePropertySharing)
   - And other topics: [PEST examples
-discussion](WeSearch_PestExamples),
+discussion](../WeSearch_PestExamples),
 [etc.](/WeSearch/Hank%C3%B8TheRest)
 - From the [Sofia Summit](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop), July 2012:
   
@@ -56,7 +56,7 @@ discussion](WeSearch_PestExamples),
   - [MRS Comparison](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsComparison)
 - [Mini-symposium on MRS modeling](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm) at UW, November 2012
 - [ERG Semantic Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics), begun under the auspices
-of [WeSearch](WeSearch) in February 2013
+of [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) in February 2013
 - [Mini-symposium on named entities and MRS](https://blog.inductorsoftware.com/docsproto/summits/RmrsNes) at UW, February
 2013
 - From the [Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop), July-August 2013
@@ -105,13 +105,13 @@ wellformedness constraints](https://blog.inductorsoftware.com/docsproto/summits/
   - [Quantum MRS, with a special focus on idioms and linking to
 WordNet representation of lexical semantics](https://blog.inductorsoftware.com/docsproto/summits/TomarQuantumMRS)
 - From the [Comparative Computational Semantics
-Workshop](WeSearch_Ccs), November 2014 (not exclusively about MRS)
+Workshop](https://blog.inductorsoftware.com/docsproto/home/WeSearch_Ccs), November 2014 (not exclusively about MRS)
   
-  - [First Day](WeSearch_CcsDayOne): Control, (Closed) Clausal
+  - [First Day](https://blog.inductorsoftware.com/docsproto/home/WeSearch_CcsDayOne): Control, (Closed) Clausal
 Complements/Propositional Arguments
-  - [Second Day](WeSearch_CcsDayTwo): Gerunds (aka Closed Clausal
+  - [Second Day](https://blog.inductorsoftware.com/docsproto/home/WeSearch_CcsDayTwo): Gerunds (aka Closed Clausal
 Complements, cont), Nominalization, (Identity) Copulae
-  - [Third Day](WeSearch_CcsDayTwo): Identity Copulae (cont, \`:'
+  - [Third Day](https://blog.inductorsoftware.com/docsproto/home/WeSearch_CcsDayTwo): Identity Copulae (cont, \`:'
 and others), Comparatives
 - From the [Singapore Summit](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule), August 2015
   
@@ -128,9 +128,9 @@ information](https://blog.inductorsoftware.com/docsproto/summits/SingaporeRepres
 compliance](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSemanticAlgebraCompliance)
   - Some discussion of the idea of unifying EPs (to effectively
 suppress a second copy) in [Chinese A-not-A
-questions](LADChineseAnotA)
+questions](https://blog.inductorsoftware.com/docsproto/home/LADChineseAnotA)
 - [Virtual Linguistic Analysis Design session regarding Lushootseed
-and RMRS](LADLushootseedSemantics), October 2015
+and RMRS](https://blog.inductorsoftware.com/docsproto/home/LADLushootseedSemantics), October 2015
 - From the [Stanford Summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule), June 2016
   
   - [Alternative Sets](https://blog.inductorsoftware.com/docsproto/summits/StanfordAlternativeSets): Is the info in MRS
@@ -152,9 +152,9 @@ them distinct?
   - [OsloQuestionRepresentation](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation): How
 can we capture the info that was lost when we dropped messages
 and thus the PARAMS list?
-- From [SynSem](SynSem) at CAS, 2017-2018
+- From [SynSem](https://blog.inductorsoftware.com/docsproto/home/SynSem) at CAS, 2017-2018
   
-  - [SynSem/Activities/PolymorphicVariadicPredicates](SynSem_Activities_PolymorphicVariadicPredicates)
+  - [SynSem/Activities/PolymorphicVariadicPredicates](https://blog.inductorsoftware.com/docsproto/home/SynSem_Activities_PolymorphicVariadicPredicates)
 (April 2018)
 - From the [Diderot Summit](https://blog.inductorsoftware.com/docsproto/summits/DiderotSchedule), June 2018
   

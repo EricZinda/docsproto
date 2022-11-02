@@ -35,7 +35,7 @@ recall that this was cast in terms of underspecification, but I don't
 see it just now.
 
 **oe:** That was at a [sub-group
-gathering](WeSearch_UnderspecifiedPreds) last year (at Hankø). We said
+gathering](https://blog.inductorsoftware.com/docsproto/home/WeSearch_UnderspecifiedPreds) last year (at Hankø). We said
 that our MRSs (as produced by the ERG, say) can be viewed as
 descriptions of underspecified representations, i.e. these predicate
 symbol are underspecified… (but [AlexLascarides](https://blog.inductorsoftware.com/docsproto/tools/AlexLascarides) was

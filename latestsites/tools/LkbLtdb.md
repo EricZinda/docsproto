@@ -67,7 +67,7 @@ provided by [StephanOepen](../StephanOepen).
     """
                             [SYNSEM.LOCAL.CAT.HEAD.CASE kara-case].
 
-Comments should appear inside the [TDL doc-strings](TdlRfc). They should
+Comments should appear inside the [TDL doc-strings](../TdlRfc). They should
 be written in
 [reStructuredText](http://docutils.sourceforge.net/rst.html). There are
 two special things recognized.
@@ -133,7 +133,7 @@ appropriate Apache configuration file. That could be
 ### Tool Support
 
 As of 2018-11-4, docstrings are supported by the latest
-[LKB-FOS](../LkbFos) and [PyDelphin](PyDelphin), PET and ACE, with support
+[LKB-FOS](../LkbFos) and [PyDelphin](../PyDelphin), PET and ACE, with support
 in the LOGON LKB promised soon.
 
 Currently, the LKB does NOT support doc-strings in instances (such as

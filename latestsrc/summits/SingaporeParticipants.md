@@ -60,7 +60,7 @@ with regrets)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (Aug. 2-8)
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- [ZinaPozen](ZinaPozen)
+- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen)
 - [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer)
 - [MelanieSiegel](/MelanieSiegel), Aug 3-7
 - [JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva)
@@ -74,12 +74,12 @@ HPSG)
 - [JunichiTsujii](/JunichiTsujii)
 - [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit) (Aug. 3 - Aug. 7 + HPSG until
 Aug. 12)
-- [ErikVelldal](ErikVelldal)
-- [HuiZhenWang](HuiZhenWang)
+- [ErikVelldal](https://blog.inductorsoftware.com/docsproto/tools/ErikVelldal)
+- [HuiZhenWang](https://blog.inductorsoftware.com/docsproto/tools/HuiZhenWang)
 - [RuiWang](/RuiWang)
-- [ShanWang](ShanWang)
-- [JimWhite](JimWhite)
-- [FeiyuXu](FeiyuXu) (Aug 3-7) + HPSG
+- [ShanWang](https://blog.inductorsoftware.com/docsproto/tools/ShanWang)
+- [JimWhite](https://blog.inductorsoftware.com/docsproto/tools/JimWhite)
+- [FeiyuXu](https://blog.inductorsoftware.com/docsproto/tools/FeiyuXu) (Aug 3-7) + HPSG
 - [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang) (I can't make it this year
 :confused:
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Aug. 3 - Aug. 7 + HPSG)
