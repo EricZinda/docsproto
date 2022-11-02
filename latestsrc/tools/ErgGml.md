@@ -67,7 +67,7 @@ work okay:
 [List of mediawiki markup](http://folk.uio.no/larsjsol/elements.ods)
 
 For tags observed in collected html, see in
-[WeSearch/DataCollection](https://blog.inductorsoftware.com/docsproto/home/WeSearch_DataCollection) (the only elements I
+[WeSearch/DataCollection](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_DataCollection) (the only elements I
 can see are missing are those related to tables - which won't be
 included as they're outside of the scope of linguistic relevance?
 ([XHTML spec](http://www.w3schools.com/tags/default.asp).)
@@ -137,5 +137,4 @@ first and incomplete version 0.1 was presented in Ytrestøl et al.
 (2012)](https://www.duo.uio.no/handle/10852/34914), and shortly after
 moderately refined (for increased readability) as the current version
 1.0 (documented above).
-
-Last update: 2020-07-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgGml/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

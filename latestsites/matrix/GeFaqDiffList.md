@@ -53,10 +53,9 @@ information, see the related topics links below.
 ### Related topics
 
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
-and how do I debug it?](https://blog.inductorsoftware.com/docsproto/home/GeFaqCyclicCheck)
+and how do I debug it?](../GeFaqCyclicCheck)
 - [Some of my relations/qeqs aren't showing up in the MRS for the
 whole parse. Why not?](../GeFaqMissingRels)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-08-23 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqDiffList/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

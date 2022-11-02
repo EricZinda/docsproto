@@ -36,7 +36,7 @@ two days with opportunities for small-group (parallel) activities.
 | **9:00-10:30**  | *Session 4* (Grammar Engineering) -- Kitsap Room                                                                                                                                                                     |
 | 9:00-9:40       | [Metagrammar Engineering in a Multi-Lingual Context](http://www.delph-in.net/2011/antske.pdf) ([AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens))                                                                                       |
 | 9:40-10:00      | [Matrix Odin Mash-up: Potential for Automated Grammar Generation from Linguistically Rich Data](http://www.delph-in.net/2011/mom.pdf) ([DavidWax](/DavidWax))                                                        |
-| 10:00-10:30     | [Discussion: Grammar Indexing/Documentation: How can we Annotate Grammars To Map Constraints To Phenomena](https://blog.inductorsoftware.com/docsproto/home/SuquamishGrammarIndexing) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)) |
+| 10:00-10:30     | [Discussion: Grammar Indexing/Documentation: How can we Annotate Grammars To Map Constraints To Phenomena](../SuquamishGrammarIndexing) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)) |
 | 10:30-11:00     | Coffee Break                                                                                                                                                                                                         |
 | **11:00-12:00** | *Session 5* (Mandarin) -- Kitsap Room                                                                                                                                                                                |
 | 11:00-11:30     | [Status Report on the Mandarin Chinese Grammar](http://www.delph-in.net/2011/mcg.pdf) (MCG) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                                                                                     |
@@ -154,5 +154,4 @@ on Tuesday), David, (Petter), (Woodley), Glenn
 - Francis Bond (NTU) Program Chair
 - Stephan Oepen (Oslo) Program Chair
 - Emily M. Bender (UW) Local Organizer
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SuquamishSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

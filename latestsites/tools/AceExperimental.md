@@ -4,7 +4,7 @@ This page describes some features that have been added to [ACE](../AceTop)
 over the course of minor revisions that are not well-tested enough to be
 considered robust, but may be of interest to some users.
 
-- [Ubertagging](https://blog.inductorsoftware.com/docsproto/home/UtTop) -- as of 0.9.21, ACE can perform ubertagging to
+- [Ubertagging](https://blog.inductorsoftware.com/docsproto/garage/UtTop) -- as of 0.9.21, ACE can perform ubertagging to
 prune unlikely lexemes / tokenizations. Adding the following block
 to ace/config.tdl for (e.g. May 13th 2015 preview of) ERG 1214
 enables usage of the --ubertagging=0.001 commandline option:
@@ -86,5 +86,4 @@ on the generator output do not cause the test to fail.
 There may not be enough information on this page to successfully try out
 some of these features. Contact [WoodleyPackard](/WoodleyPackard) if you
 want to deploy something and need help.
-
-Last update: 2015-08-25 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/AceExperimental/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

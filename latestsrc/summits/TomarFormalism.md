@@ -13,7 +13,7 @@ computational grammars:
 
 These groups assume different formalisms in their work (and,
 correspondingly, different interpretations of HPSG). Among the above,
-the [DELPH-IN Reference Formalism](https://blog.inductorsoftware.com/docsproto/home/DelphinTutorial_Formalisms) arguably
+the [DELPH-IN Reference Formalism](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Formalisms) arguably
 is the most restrictive selection of descriptive devices found in the
 theoretical HPSG literature; this selection was largely made in the
 mid-1990s.
@@ -268,5 +268,4 @@ for lists up to length N, which is ugly.
 
 oe: best outcome: do something that gives the appearance of outreach,
 but do so in a self-serving manner. Don't set formalism in stone.
-
-Last update: 2014-07-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarFormalism/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

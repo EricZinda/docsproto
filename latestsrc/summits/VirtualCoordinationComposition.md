@@ -676,7 +676,7 @@ must eat fish’?
 
 Dan: Reminiscent of discussion at Hankø where we started looking into
 this. \[EMB: I think that was [this
-discussion](https://blog.inductorsoftware.com/docsproto/home/WeSearch_ScopalArgCoord).\]
+discussion](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_ScopalArgCoord).\]
 
 Woodley: Main cost is in loss of existing tools for bug checking.
 
@@ -711,5 +711,4 @@ this analysis would enable paraphrases that permute the conjuncts
 (possibly even in nested coordinate structures, come to think of it,
 though that might be undesirable with different coordinators—win some,
 lose some).
-
-Last update: 2020-08-25 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualCoordinationComposition/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

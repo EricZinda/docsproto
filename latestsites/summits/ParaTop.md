@@ -9,7 +9,7 @@ or corrections as you see fit.
 - **Some variation**: parse and then rephrase (see
 [RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing))
 - **More variation**: create a monolingual Machine Translation system
-(see [MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/home/MachineTranslationTop))
+(see [MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTop))
 
 In this case, the monolingual machine translation should use the
 *external* MRS exposed by the Semantic Interface ([SEM-I](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi)),
@@ -35,5 +35,4 @@ Bond, Francis, Eric Nichols, Darren Scott Appling, Michael Paul (2008)
 Training
 Data](http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2008-iwslt-smt-para.pdf),
 In IWSLT-2008.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
