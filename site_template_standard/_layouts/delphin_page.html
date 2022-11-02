@@ -90,7 +90,11 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+<!--Scroll the navbar to the current page-->
 <script type="text/javascript">
   let el = document.querySelector('.nav__list .active');
-  el.scrollIntoView(true);
+  if(el){
+    el.scrollIntoView(true);
+  }
 </script>
