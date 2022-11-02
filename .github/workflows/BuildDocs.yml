@@ -197,6 +197,7 @@ jobs:
 
       # Now commit and push all the changes to record this version of the docs
       # As long as we are in main, otherwise don't do this because it makes merges a bear
+      - run: echo ${{ github.ref }}
       - name: Commit files
         if: ${{ github.ref == 'main'}}
         run: |
