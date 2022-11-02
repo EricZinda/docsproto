@@ -4,11 +4,11 @@
 
 - [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) (scribe)
 - [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)
-- [VaryaGracheva](VaryaGracheva)
+- [VaryaGracheva](https://blog.inductorsoftware.com/docsproto/tools/VaryaGracheva)
 - [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
 - [PrescottKlassen](/PrescottKlassen)
 - [WoodleyPackard](/WoodleyPackard)
-- [ZinaPozen](ZinaPozen)
+- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen)
 - [MeganSchneider](/MeganSchneider)
 - [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden)
 - [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong)

@@ -37,7 +37,7 @@ Callmeier (acrolinx GmbH) contributed the requirements for letting the
 grammar run on his fast and efficient PET system. Akira Ohtani,
 [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/tools/ChikaraHashimoto), [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond),
 [SanaeFujita](/SanaeFujita), Shigeko Nariyama and Takaaki Tanaka
-([NTT](DelphinNtt) Communication Science Laboratories - Machine
+([NTT](https://blog.inductorsoftware.com/docsproto/garage/DelphinNtt) Communication Science Laboratories - Machine
 Translation Research Group) contributed grammar extensions, especially
 for verbal compounds and relative sentence constructions, and many
 lexicon entries. [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer) integrated

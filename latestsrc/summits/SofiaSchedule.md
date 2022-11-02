@@ -33,7 +33,7 @@ Contents
 | 13:00-14:00       | Lunch at University Restaurant                                                                                                                                                                                                                                                                                                    |
 | **14:00-15:30**   | *Session 3*                                                                                                                                                                                                                                                                                                                       |
 | 14:00-14:30       | [CLIMB: Code Generation for Grammar Development](http://www.delph-in.net/2012/antske.pdf) (Antske)                                                                                                                                                                                                                                |
-| 14:30-15:30       | [Discussion: Linguistic phenomena: phenomena catalogue, how to divide facts up into phenomena in customization-based grammar engineering (CLIMB), phenomena-oriented rather than type-oriented development tools](http://www.delph-in.net/2012/phenomena.pdf), [Notes](SofiaLinguisticPhenomena) (Moderator: Antske, Scribe: Ned) |
+| 14:30-15:30       | [Discussion: Linguistic phenomena: phenomena catalogue, how to divide facts up into phenomena in customization-based grammar engineering (CLIMB), phenomena-oriented rather than type-oriented development tools](http://www.delph-in.net/2012/phenomena.pdf), [Notes](https://blog.inductorsoftware.com/docsproto/home/SofiaLinguisticPhenomena) (Moderator: Antske, Scribe: Ned) |
 | 15:30-16:00       | Coffee Break                                                                                                                                                                                                                                                                                                                      |
 | **16:00-18:00**   | *Session 4*                                                                                                                                                                                                                                                                                                                       |
 | 16:00-16:30       | [Incorporating a valency lexicon into BURGER](http://www.delph-in.net/2012/petya.pdf) (Petya, Kiril)                                                                                                                                                                                                                              |
@@ -53,7 +53,7 @@ Contents
 | 9:30-10:00         | Dynamic Semantic Publishing at the BBC (Ontotext)                                                                                                                                                                                |
 | 10.00-10.15        | [Negation: library proxy presentation + negation/modifier scope interaction cross-linguistically](http://www.delph-in.net/2012/negation.pdf) (Emily) \[short\]                                                                   |
 | 10:15-10:30        | [Information structure with ICONS](http://www.delph-in.net/2012/sanghoun.pdf) (Sanghoun)                                                                                                                                         |
-| 10:30-10:45        | [Short discussion/Intro to SIG: ICONS: Integrating ICONS into generation (and eventually also transfer) (Sanghoun/Dan, Scribe: Emily)](SofiaIcons)                                                                               |
+| 10:30-10:45        | [Short discussion/Intro to SIG: ICONS: Integrating ICONS into generation (and eventually also transfer) (Sanghoun/Dan, Scribe: Emily)](https://blog.inductorsoftware.com/docsproto/tools/SofiaIcons)                                                                               |
 | 10:45-11:00        | Discussion                                                                                                                                                                                                                       |
 | 11:00-11:30        | Coffee break                                                                                                                                                                                                                     |
 | **11:30-13:00**    | *Session 2*                                                                                                                                                                                                                      |
@@ -71,7 +71,7 @@ Contents
 | **16:00-18:00**    | *Session 4*                                                                                                                                                                                                                      |
 | 16:00-16:30        | [Distributional semantics meets MRS](http://www.delph-in.net/2012/ann.pdf) (lexicalised compositionality) (Ann, Aurelie)                                                                                                         |
 | 16:30-16:55        | ['Deeper' distributional semantics](http://www.delph-in.net/2012/aurelie.pdf) from the [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie, Ann)                                                                                           |
-| 16:55-17:00        | Intro to SIG on using the [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience) treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie)                                                                                                                         |
+| 16:55-17:00        | Intro to SIG on using the [WeScience](WeScience) treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie)                                                                                                                         |
 | 17:00-17:30        | [Going hybrid with time](http://www.delph-in.net/2012/francisco.pdf) (Francisco)                                                                                                                                                 |
 | 17:30-18:00        | Discussion                                                                                                                                                                                                                       |
 | 19:00              | Official Dinner at restaurant "Izbata"                                                                                                                                                                                           |
@@ -96,7 +96,7 @@ Contents
 |                 |                                   |                                                     |
 |-----------------|-----------------------------------|-----------------------------------------------------|
 |                 | **Hall 1**                        | **Hall 2**                                          |
-| **14:15-16:00** | [ICONS](../SofiaIconsImplementation) | [Grammar Localization](SofiaGrammarLocalizationSIG) |
+| **14:15-16:00** | [ICONS](../SofiaIconsImplementation) | [Grammar Localization](https://blog.inductorsoftware.com/docsproto/home/SofiaGrammarLocalizationSIG) |
 | 16:00-16:30     | Coffee Break                      |                                                     |
 | **16:30-18:00** | Parsing & Generation in ACE       |                                                     |
 
@@ -107,7 +107,7 @@ Contents
 | **Thursday July 5** | **Mirror Hall**                                                              | **Hall 2**                        |
 | **09:00-10:00**     | [MRS Comparison](../SofiaMrsComparison) (Francis)                               |                                   |
 | 10:00-10:30         | Coffee Break                                                                 |                                   |
-| **10:30-12:00**     | [CLIMB (Antske) & Reduce Complexity (Lars)](SofiaCLIMBAndReducingComplexity) | full-forest treebanking (Woodley) |
+| **10:30-12:00**     | [CLIMB (Antske) & Reduce Complexity (Lars)](https://blog.inductorsoftware.com/docsproto/home/SofiaCLIMBAndReducingComplexity) | full-forest treebanking (Woodley) |
 | 12:00               | *Excursion to Rila Monastery* Meet at Mirror Hall (Lunch in boxes)           |                                   |
 
 ## Friday
@@ -115,9 +115,9 @@ Contents
 |                   |                                                                             |                                        |
 |-------------------|-----------------------------------------------------------------------------|----------------------------------------|
 | **Friday July 6** | **Mirror Hall**                                                             | **Hall 2**                             |
-| **09:30-11:00**   | \*SEM (Emily)                                                               | [Preprocessing](SofiaPreprocessingSIG) |
+| **09:30-11:00**   | \*SEM (Emily)                                                               | [Preprocessing](https://blog.inductorsoftware.com/docsproto/home/SofiaPreprocessingSIG) |
 | **11:00-11:30**   | Coffee Break                                                                |                                        |
-| **11:30-13:00**   | [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience) (Aurelie)                                            | [Teaching (Francis)](TeachingTop)      |
+| **11:30-13:00**   | [WeScience](WeScience) (Aurelie)                                            | [Teaching (Francis)](https://blog.inductorsoftware.com/docsproto/home/TeachingTop)      |
 | 13:00-14:00       | Lunch at University Restaurant                                              |                                        |
 | 14.00-15:30       | Robust Generation (Dan)                                                     | More CLIMB (Antske)                    |
 | 15:30-16:00       | Coffee Break                                                                |                                        |
@@ -133,10 +133,10 @@ Petya, Kiril, Iliana, Sanghoun, Ned)
 - \[7\] Discussion: Whether to try to reduce the complexity of the
 feature structures that the Matrix and all grammars use (after
 Pollard and Sag) (Lars, Antske, Tania, Emily, Petya, Sanghoun, dan)
-- \[5\] Discussion of user experiences with the [WeScience](https://blog.inductorsoftware.com/docsproto/home/WeScience)
+- \[5\] Discussion of user experiences with the [WeScience](WeScience)
 treebank and [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) treecache (Aurelie, Ann,
 Angelina, Jonathon \[soliciting advice re. development of
-[WeSearch](WeSearch) Data Collection\], oe) \[short\]
+[WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) Data Collection\], oe) \[short\]
 - \[5\] SIG on conversion of grammar outputs into other formats (e.g.,
 Malt-TAB) (Montse, Emily, Sanghoun, oe, aurelie)
 - \[7\] Discussion of grammar localisation issues (Petya, Kiril,

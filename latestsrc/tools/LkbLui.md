@@ -88,7 +88,7 @@ below).
 
 The LUI design foresees the option of having alternate implementation of
 the LUI functionality and protocol. For exampke,
-[PavelMihaylov](PavelMihaylov) has adapted the original LUI source code
+[PavelMihaylov](../PavelMihaylov) has adapted the original LUI source code
 to use the Pango
 font rendering engine, for better international character support. Each
 alternate implementation should define its own application name, say

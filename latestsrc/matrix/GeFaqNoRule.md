@@ -26,16 +26,16 @@ rule. To try to locate the bug, try interactive unification.
 ## Related topics
 
 - [I don't think I'm getting any error messages. Does that mean I
-don't have any errors?](GeFaqNoError)
-- [How do I get the LKB to show me the parse chart?](GeFaqShowChart)
+don't have any errors?](https://blog.inductorsoftware.com/docsproto/home/GeFaqNoError)
+- [How do I get the LKB to show me the parse chart?](https://blog.inductorsoftware.com/docsproto/home/GeFaqShowChart)
 - [How do I look at fully specified lexical entries or
 rules?](../GeFaqViewEntry)
 - [How do I do interactive unification?](../GeFaqInteractiveUnify)
 - [The LKB seems to be "forgetting" a constraint/definition I've
-coded. Why?](GeFaqForgottenConstraint)
+coded. Why?](https://blog.inductorsoftware.com/docsproto/home/GeFaqForgottenConstraint)
 - [I have a type/lexical entry/rule which doesn't seem to be
 inheriting a constraint from its supertype. What might be going
-on?](GeFaqConfusingTypo)
+on?](https://blog.inductorsoftware.com/docsproto/home/GeFaqConfusingTypo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

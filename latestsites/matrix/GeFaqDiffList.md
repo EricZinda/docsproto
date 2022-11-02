@@ -53,7 +53,7 @@ information, see the related topics links below.
 ### Related topics
 
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
-and how do I debug it?](GeFaqCyclicCheck)
+and how do I debug it?](https://blog.inductorsoftware.com/docsproto/home/GeFaqCyclicCheck)
 - [Some of my relations/qeqs aren't showing up in the MRS for the
 whole parse. Why not?](../GeFaqMissingRels)
 

@@ -55,15 +55,15 @@ surface, weight, tagset, tag, ...) and a **value** string
   - complex features structure (**fs**) elements: these may be
 typed, and the format is compatible with the TEI/ISO standard
 (FSR)
-  - complex **rmrs** elements: following the [RmrsDtd](RmrsDtd).
+  - complex **rmrs** elements: following the [RmrsDtd](../RmrsDtd).
 
 # SMAF/LKB
 
-See [SmafLkb](SmafLkb).
+See [SmafLkb](https://blog.inductorsoftware.com/docsproto/home/SmafLkb).
 
 # SMAF/PET
 
-See [SmafPet](SmafPet).
+See [SmafPet](https://blog.inductorsoftware.com/docsproto/home/SmafPet).
 
 # SMAF configuration
 
@@ -116,7 +116,7 @@ Sample SMAF configuration settings:
 
 # SAMPLE SMAF XML
 
-See also: [SmafSample](SmafSample)
+See also: [SmafSample](https://blog.inductorsoftware.com/docsproto/home/SmafSample)
 
     <?xml version='1.0' encoding='UTF-8'?>
     <!DOCTYPE smaf SYSTEM 'smaf.dtd'>
@@ -134,6 +134,6 @@ See also: [SmafSample](SmafSample)
 
 # SMAF DTD
 
-See [SmafDtd](SmafDtd).
+See [SmafDtd](https://blog.inductorsoftware.com/docsproto/home/SmafDtd).
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}

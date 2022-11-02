@@ -37,7 +37,7 @@ probability distribution over representations, that tells you something.
 [JohnCarroll](https://blog.inductorsoftware.com/docsproto/tools/JohnCarroll): Unless the deep model is ignoring all that
 structure and just taking the words. To play devil's advocate.
 
-[AlexanderKoller](AlexanderKoller): I'll raise your devil's advocate.
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): I'll raise your devil's advocate.
 "Interpretable" is not the word I would choose – we want models that are
 debuggable, where we can introspect into the model. We want to make this
 easier for a neural model. We also want models that are explainable – an
@@ -50,7 +50,7 @@ once you're using a vector, there's a limit to interpretability. We
 could still formulate the model in a way that you can get an
 explanation.
 
-[AlexanderKoller](AlexanderKoller): That's not so different from
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): That's not so different from
 intricate symbolic models. If you have a dialogue system with HPSG and
 it doesn't output the right thing, can this be explained to the end
 user?
@@ -58,7 +58,7 @@ user?
 [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann): Do you remember the demo with the
 boxes flashing up?
 
-[AlexanderKoller](AlexanderKoller): I remember in my [HiWi](/HiWi) days,
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): I remember in my [HiWi](/HiWi) days,
 where we had type hierarchies that filled the whole wall.
 
 [GuyEmerson](https://blog.inductorsoftware.com/docsproto/tools/GuyEmerson): One answer is to design systems that are
@@ -104,7 +104,7 @@ control](/DelphinApplications#Robot_Control) –
 [WoodleyPackard](/WoodleyPackard) entered a competition, and crucially
 used MRS as a bottleneck as you described.
 
-[AlexanderKoller](AlexanderKoller): How much data there was in the robot
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): How much data there was in the robot
 control challenge?
 
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger): Relatively modest by today's standard. I
@@ -112,7 +112,7 @@ can't remember exactly.
 
 [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): It was also crowdsourced and messy.
 
-[AlexanderKoller](AlexanderKoller): Another contrast between symbolic
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Another contrast between symbolic
 and neural approaches is that, for a neural method to work, you need
 substantial amounts of training data. There is something to be gained by
 mapping to something task independent, and then either the front or back
@@ -154,7 +154,7 @@ end-to-end.
 [AngelinaMcMillanMajor](/AngelinaMcMillanMajor): Generating poetry and
 stories? Maybe we need bigger tassks that are more human-like.
 
-[WeiweiSun](WeiweiSun): I would like to mention some empirical results.
+[WeiweiSun](https://blog.inductorsoftware.com/docsproto/tools/WeiweiSun): I would like to mention some empirical results.
 As an example of the general issue of linguistic structure in neural
 models – semantic role labelling for learner Chinese. We asked two
 undergrads to annotate some learner text, and considered four different
@@ -185,7 +185,7 @@ works.
 [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): What kinds of reactions do you get from deep
 learning people?
 
-[WeiweiSun](WeiweiSun): I didn't get negative reactions. They don't
+[WeiweiSun](https://blog.inductorsoftware.com/docsproto/tools/WeiweiSun): I didn't get negative reactions. They don't
 challenge the data. Many still think linguistically motivated models are
 important. Another reason why I submitted to ACL and got positive
 reults, is magical numbers – I got state of the art. The quality of
@@ -213,7 +213,7 @@ raising/control, demonstrating that their parser could get it right and
 other parsers got it wrong. It wasn't real data, and it was unbalanced,
 but it showed something was happening that was right.
 
-[AlexanderKoller](AlexanderKoller): Can I ask the opposite question?
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Can I ask the opposite question?
 Have people had a harder time getting non-neural papers published
 compared to 5-10 years ago? Do you get the feeling, when you submit a
 non-neural paper, "They're going to catch me this time"?
@@ -228,7 +228,7 @@ COLING is meant to be more linguistics-friendly.
 plotting ACL paper titles with "neural net" and "grammar", and you do
 see the number of neural papers going up.
 
-[AlexanderKoller](AlexanderKoller): Number accepted or rejected?
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Number accepted or rejected?
 
 [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva): Accepted.
 
@@ -357,7 +357,7 @@ find which things in the chart survive, and which are doomed – make a
 good guess about constituent boundaries. That would dramatically reduce
 the search space.
 
-[AlexanderKoller](AlexanderKoller): Recent work used a neural tagger to
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Recent work used a neural tagger to
 predict constituent boundaries – this was in the context of a PCFG, but
 was also applied to TAG. It worked pretty well.
 
@@ -391,7 +391,7 @@ typed – that could make a big difference in how able we are to parse.
 robust to a misspelling. Using that to replace the first tagging step
 might help. It could also help with unknown words.
 
-[AlexanderKoller](AlexanderKoller): Neural models help a lot with
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Neural models help a lot with
 unknown words. In the same paper of ours that I mentioned earlier, you
 use a simple supertagging model and all coverage problems go away.
 
@@ -412,12 +412,12 @@ generation system, and something in between which can do symbolic
 knowledge – and that can be combined. I can't combine my dialogue system
 with any old vector.
 
-[AlexanderKoller](AlexanderKoller): What do you mean?
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): What do you mean?
 
 [BerndKiefer](https://blog.inductorsoftware.com/docsproto/tools/BerndKiefer): If I have a vector from another system, I
 can't just plug it in to mine.
 
-[AlexanderKoller](AlexanderKoller): Some people try embedding all the
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Some people try embedding all the
 symbolic things, then you're in vector-land for everything. I'm torn – I
 want to agree with you, and say that dialogue is surely the last bastion
 of where you need reasoning and symbolic things, but I find it hard –
@@ -442,7 +442,7 @@ from scratch, and you don't have massive data. What do you do? I find
 myself in that situation. I don't have the resources and the data for a
 neural system.
 
-[AlexanderKoller](AlexanderKoller): If you think of digital assistants,
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): If you think of digital assistants,
 like Alexa, there are totally different backends for different domains –
 even a separate one for pizza – each with very specific semantic
 representations. All of those systems would collect separate semantic
@@ -454,13 +454,13 @@ linguistics going on. I met one person who was really into neural nets,
 and sees language as an application. He said it was still to be shown
 that language has structure... we had a conversation.
 
-[AlexanderKoller](AlexanderKoller): Sometimes it's almost unusable –
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): Sometimes it's almost unusable –
 it's not fun getting a train in Germany with Alexa.
 
 [JohnCarroll](https://blog.inductorsoftware.com/docsproto/tools/JohnCarroll): Is there a gap in the market for a system
 that's linguistically informed?
 
-[AlexanderKoller](AlexanderKoller): You need to make it easy to use, so
+[AlexanderKoller](https://blog.inductorsoftware.com/docsproto/tools/AlexanderKoller): You need to make it easy to use, so
 that anyone writing an Alexa skill can understand it without knowing
 linguistics.
 

@@ -94,11 +94,11 @@ Grammar.
 - [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)
 - [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
 - [BoChen](/BoChen)
-- [HuiZhenWang](HuiZhenWang)
+- [HuiZhenWang](https://blog.inductorsoftware.com/docsproto/tools/HuiZhenWang)
 - [JoannaSio](/JoannaSio)
 - [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta)
-- [ShanWang](ShanWang)
-- [WenjieWang](WenjieWang)
+- [ShanWang](https://blog.inductorsoftware.com/docsproto/tools/ShanWang)
+- [WenjieWang](https://blog.inductorsoftware.com/docsproto/tools/WenjieWang)
 
 This grammar was supported in part by:
 

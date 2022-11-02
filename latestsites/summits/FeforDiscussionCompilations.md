@@ -46,7 +46,7 @@ ick --EB\]
 - we should review the [ToDo](/ToDo) list(s) from previous meetings
 and make sure we maintain a shared inventory of known issues and
 candidate extensions (Stephan Oepen) \[ AAC - see
-[OpenissuesTop](OpenissuesTop) proposal \]
+[OpenissuesTop](https://blog.inductorsoftware.com/docsproto/home/OpenissuesTop) proposal \]
 
 ## Candidates for discussion topics in Grammarians session
 

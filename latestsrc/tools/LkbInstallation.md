@@ -330,7 +330,7 @@ in which features are available on which platforms (e.g. native code
 compilation, Unicode support, multi-threading, or socket support), and
 users may need to experiment a little. The LKB provides a non-graphical
 mode of interactions (called *tty mode*; see the
-[GeFaqLispPromptTips](GeFaqLispPromptTips) page) that enables basic
+[GeFaqLispPromptTips](https://blog.inductorsoftware.com/docsproto/home/GeFaqLispPromptTips) page) that enables basic
 grammar writing or deployment of an existing grammar. Also, there is
 experimental support to provide graphical tools without CLIM for select
 platforms; see the [LkbLui](../LkbLui) pages. For instructions on compiling
