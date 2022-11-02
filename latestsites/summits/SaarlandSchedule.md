@@ -7,7 +7,7 @@ Contact Emily and Francis with suggestions for changes.
 |                                                                                          |                                                                                                                                                                    |
 |:----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |                                    **Monday 29 July**                                    |                                                                                                                                                                    |
-|                                          9-9:30                                          |                                                           [Opening Tutorial](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial) (Emily,oe)                                                           |
+|                                          9-9:30                                          |                                                           [Opening Tutorial](https://blog.inductorsoftware.com/docsproto/home/DelphinTutorial) (Emily,oe)                                                           |
 |                     9:35-10:50 *Plenary Session 1* (Chair: Rebecca)                      |                                                                                                                                                                    |
 |                                        9:35-9:40                                         |                                                                       Opening Remarks (Dan)                                                                        |
 |                                        9:40-10:05                                        |                                               [Site Update NTU/NTT](http://www.delph-in.net/2013/ntu.pdf) (Francis)                                                |
@@ -180,4 +180,5 @@ sprints](http://www.booksprints.net/))
 - [PaperCuts](https://blog.inductorsoftware.com/docsproto/tools/PaperCuts)
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-09-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandSchedule/_edit)]{% endraw %}

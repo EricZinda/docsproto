@@ -32,11 +32,11 @@ grammar using the following command.
 Catalogue](http://moin.delph-in.net/GrammarCatalogue/#Indonesian_Resource_Grammar_.28INDRA.29)
 (check INDRA/METADATA, ./create-catalogue-entry.sh \~/grammar/INDRA/
 -w for html or -l for latex)
-- Processing: [IndraAce](https://blog.inductorsoftware.com/docsproto/garage/IndraAce),
-[IndraPreprocessing](https://blog.inductorsoftware.com/docsproto/garage/IndraPreprocessing),
+- Processing: [IndraAce](https://blog.inductorsoftware.com/docsproto/home/IndraAce),
+[IndraPreprocessing](https://blog.inductorsoftware.com/docsproto/home/IndraPreprocessing),
 [IndraYYMode](http://moin.delph-in.net/IndraYYMode)
-- Machine Translation: [IndraTranslation](https://blog.inductorsoftware.com/docsproto/garage/IndraTranslation)
-- Testing: [IndraRegressionTest](https://blog.inductorsoftware.com/docsproto/garage/IndraRegressionTest)
+- Machine Translation: [IndraTranslation](https://blog.inductorsoftware.com/docsproto/home/IndraTranslation)
+- Testing: [IndraRegressionTest](https://blog.inductorsoftware.com/docsproto/home/IndraRegressionTest)
 - Treebanking: [IndraTreebanking](https://blog.inductorsoftware.com/docsproto/tools/IndraTreebanking)
 
 ## Testsuites
@@ -50,7 +50,7 @@ Catalogue](http://moin.delph-in.net/GrammarCatalogue/#Indonesian_Resource_Gramma
 
 - [Intransitive and transitive verbs, Applicative -i constructions,
 Verb reduplication](../LADIndonesianMorphology)
-- [Passive voice](../CapitolHillPassives)
+- [Passive voice](https://blog.inductorsoftware.com/docsproto/home/CapitolHillPassives)
 ([Discussion](../CapitalHillPassivesDiscussion))
 
 ## Contributors
@@ -87,4 +87,5 @@ This grammar was supported in part by
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-04-13 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraTop/_edit)]{% endraw %}

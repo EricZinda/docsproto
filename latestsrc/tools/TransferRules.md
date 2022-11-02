@@ -1,5 +1,5 @@
 {% raw %}This page describes the transfer rule formalism used for, among other
-things, \[wiki:[MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTop) MT\],
+things, \[wiki:[MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/home/MachineTranslationTop) MT\],
 \[wiki:[RmrsParaphrasing](../RmrsParaphrasing) paraphrasing\] and
 \[wiki:[JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) generation\].
 
@@ -192,4 +192,5 @@ place.
   :post
   
   - **no documentation here, move along**
-<update date omitted for speed>{% endraw %}
+
+Last update: 2008-11-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TransferRules/_edit)]{% endraw %}

@@ -13,7 +13,7 @@ Summit](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
 predicates](https://blog.inductorsoftware.com/docsproto/home/LexsemMapping)
 - [MRS mini-modelling Sympoisum at UW](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm)
 - [Semcor Wordnet-ERG mapping](https://blog.inductorsoftware.com/docsproto/home/SemCor) and link to data download
-- [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMrsWordnet)
+- [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/home/SaarlandMrsWordnet)
 
 ## To Maybe Do
 
@@ -40,4 +40,5 @@ of Informatics, University of Oslo Oslo, Norway, 2008
 *[Exploiting Semantic Information for HPSG Parse
 Selection](http://dx.doi.org/10.1007/s11168-010-9069-7)*. Research
 on Language and Computation, **8(1)**, 1–22.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-29 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LexsemTop/_edit)]{% endraw %}

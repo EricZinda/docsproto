@@ -2,7 +2,7 @@
 
 Strictly speaking, not a formalism but primarily a linguistic theory.
 See brief linguistic characterisation on the
-[DelphinTutorial/Grammars](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Grammars) page.
+[DelphinTutorial/Grammars](https://blog.inductorsoftware.com/docsproto/home/DelphinTutorial_Grammars) page.
 
 # DTFS: DELPH-IN Typed Feature Structure Logic
 
@@ -148,4 +148,5 @@ Interface** (SEM-I). VPM documentation is available from the
 [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) page.
 
 # LOGON Machine Translation (In)Formalism
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-07 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Formalisms/_edit)]{% endraw %}

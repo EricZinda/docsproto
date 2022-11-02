@@ -2,7 +2,7 @@
 
 ## How do I tell if I have an edge that spans the whole chart?
 
-First, look at the [parse chart](../GeFaqShowChart).
+First, look at the [parse chart](https://blog.inductorsoftware.com/docsproto/home/GeFaqShowChart).
 
 Then:
 
@@ -20,9 +20,10 @@ chart wil be.
 
 ### Related topics
 
-- [How do I get the LKB to show me the parse chart?](../GeFaqShowChart)
+- [How do I get the LKB to show me the parse chart?](https://blog.inductorsoftware.com/docsproto/home/GeFaqShowChart)
 - [How can I tell if an edge is missing in the parse
 chart?](../GeFaqMissingHowTo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-15 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqSpanningEdge/_edit)]{% endraw %}

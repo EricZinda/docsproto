@@ -106,7 +106,7 @@ Two funded projects currently use and extend DELPH-IN technologies,
 [LAP](http://www.mn.uio.no/ifi/english/research/projects/clarino/) (the
 Language Analysis Portal, part of the Norwegian CLARIN(O) initiative).
 
-Work in [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) by [AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/tools/AngelinaIvanova) (on
+Work in [WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch) by [AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/tools/AngelinaIvanova) (on
 relating bi-lexical dependency representations and DELPH-IN HPSG
 analyses), by [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan) (on, among things,
 ubertagging for faster and more accurate parsing), and by
@@ -114,7 +114,7 @@ ubertagging for faster and more accurate parsing), and by
 towards documentation of ERG Semantic Analyses) are presented
 individually at the 2013 Summit.
 
-Another [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) activity has been collaborative work with
+Another [WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch) activity has been collaborative work with
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) on enabling the ERG to analyse inputs
 annotated (optionally) with (two types of) candidate phrase boundaries,
 or candidate target bi-lexical dependencies. Following are some example
@@ -171,4 +171,5 @@ moderately better parse selection accuracy (due to the reduced search
 space). End-to-end parsing results for these experiments are presented
 in the slides from his [MSc
 presentation](http://www.delph-in.net/2013/ltg/fares.slides.pdf).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}

@@ -135,4 +135,5 @@ See also: [SmafSample](https://blog.inductorsoftware.com/docsproto/home/SmafSamp
 # SMAF DTD
 
 See [SmafDtd](https://blog.inductorsoftware.com/docsproto/home/SmafDtd).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}

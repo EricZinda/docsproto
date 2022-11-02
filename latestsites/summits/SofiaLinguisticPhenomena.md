@@ -1,12 +1,12 @@
 {% raw %}See also the [slides](http://www.delph-in.net/2012/phenomena.pdf) for
 the discussion which summarise the
-[discussion](../SuquamishGrammarIndexing) on this topic from the previous
+[discussion](https://blog.inductorsoftware.com/docsproto/home/SuquamishGrammarIndexing) on this topic from the previous
 summit.
 
 ## Discussion
 
 Emily: Progress on the Wambaya grammar phenomena: [A list of nearly 100
-phenomena](../WambayaPhenomenaCatalogue) with IGT for nearly a third of
+phenomena](https://blog.inductorsoftware.com/docsproto/home/WambayaPhenomenaCatalogue) with IGT for nearly a third of
 them. Can people have a look to see what they think about level of
 granularity? Also, synergy between semantic catalogue of MRS endeavour.
 
@@ -172,4 +172,5 @@ feasible.
 
 Emily: In general, the fact that it's hard to define phenomena etc also
 shouldn't keep us from pragmatically starting to do something.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SofiaLinguisticPhenomena/_edit)]{% endraw %}

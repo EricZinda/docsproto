@@ -1,7 +1,3 @@
   {
-    "tools": [
-      {"Section": "Logon", "Pages": [
-        {"Page": "MtJaenTanaka", "SrcDir": "docswiki", "SrcFile": "MtJaenTanaka.md", "Referrer": "tools/MtJaen.md"}
-      ]}
-    ]
+
   }

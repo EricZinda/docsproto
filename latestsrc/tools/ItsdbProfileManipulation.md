@@ -23,4 +23,5 @@ A quick way of compressing a profile in this way using a shell is
 (assuming you are in the profile):
 
      find . -size +0 -type f -not -name 'relations' -exec gzip {} \;
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfileManipulation/_edit)]{% endraw %}

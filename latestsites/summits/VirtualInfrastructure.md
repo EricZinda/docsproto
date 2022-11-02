@@ -164,7 +164,7 @@ solid-state RAID5).
 
 EMB: Wiki is really valuable still -- migrate?
 
-EMB: [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch): Some work at UW on addressing rot/adding
+EMB: [WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch): Some work at UW on addressing rot/adding
 features, but we aren't hosting.
 
 oe: Apology to UW -- the improved software that fixes some known bugs
@@ -185,7 +185,7 @@ work of checking & rewriting.
 Francis: Could lessen some of oe's burden by moving from svn to github,
 with good interaction with issue trackers. But I'm feeling the worry
 that no one feels that they can host something like
-[WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch). We're having trouble serving things also at NTU
+[WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch). We're having trouble serving things also at NTU
 (CITS making it harder to do these things). If the two big DELPH-IN
 sites Oslo & UW think they can't do this, we have to buy a server or...
 Feeling worried about that.
@@ -236,7 +236,7 @@ that defeats the purpose of hosting it yourself, but it has been there
 for a while and we can be relatively sure it's not going away.
 
 EMB: Two kinds of resources: hardware (that's why we can't do the
-[WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) semantic graph search) and personnel (sysadmin to
+[WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch) semantic graph search) and personnel (sysadmin to
 reboot/upgrade discourse server). On that one, we had a decision to make
 about short term risks (might be down) v. long term (might lose it,
 without control).
@@ -446,4 +446,5 @@ git repo that mirrors it to have the benefit of issue tracking, etc.
 oe: We're not going to modernize in one 50 min discussion, or even in
 one year. I'd be happy for you to conduct that pilot and for others to
 try out M$ [GitHub](/GitHub) and report back in a year.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/VirtualInfrastructure/_edit)]{% endraw %}

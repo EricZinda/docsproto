@@ -2,7 +2,7 @@
 parsing and generation.
 
 This page is now superseded by the
-[GrammarPerformance](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance) page.
+[GrammarPerformance](https://blog.inductorsoftware.com/docsproto/home/GrammarPerformance) page.
 
 Contents
 
@@ -203,4 +203,5 @@ See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/P
 
 - The Idiom optimizations don't seem to be working
 - It would be nice to use supertagging
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyPerformance/_edit)]{% endraw %}

@@ -1,5 +1,5 @@
 {% raw %}Jacy uses the light weight version of the lexical database ([Single
-User](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbSingleUser) mode). (2006-09-06: incomplete initial
+User](https://blog.inductorsoftware.com/docsproto/home/LkbLexDbSingleUser) mode). (2006-09-06: incomplete initial
 documentation --- details may change)
 
 Contents
@@ -77,7 +77,7 @@ Defined in japanese/lex/su-init.sql
 # Set Up
 
 Set up the database as described in the [Single
-User](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbSingleUser) page, then load the lexicon from CVS.
+User](https://blog.inductorsoftware.com/docsproto/home/LkbLexDbSingleUser) page, then load the lexicon from CVS.
 
 - Connect to the database (normally called jacy)
   
@@ -143,4 +143,5 @@ How to allow multiple people to access the same DB:
      public | semi_pred  | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
      public | semi_var   | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
     (9 rows)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacyLexDb/_edit)]{% endraw %}

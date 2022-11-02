@@ -5,23 +5,23 @@ architecture](../LogonTop), using [Jacy](https://blog.inductorsoftware.com/docsp
 analysis and the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) for the target language generation. In
 order to degrade gracefully in the presence of input we cannot yet
 translate, we are also working on a backup [Statistical MT
-system](https://blog.inductorsoftware.com/docsproto/garage/MtJaenSmt) based on [Moses](http://www.statmt.org/moses/).
+system](https://blog.inductorsoftware.com/docsproto/home/MtJaenSmt) based on [Moses](http://www.statmt.org/moses/).
 
-Jaen is the elder sibling of [Noja](../NoJa), the Norwegian-Japanese MT
+Jaen is the elder sibling of [Noja](https://blog.inductorsoftware.com/docsproto/home/NoJa), the Norwegian-Japanese MT
 system.
 
 Most of the rules of the Jaen MT system are extracted automatically from
 parallel corpora. The procedure for automatic rule extraction is
-described here: [MT rule extraction](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
+described here: [MT rule extraction](https://blog.inductorsoftware.com/docsproto/home/MtRuleExtraction)
 
-Some results can be found here: [MtJaenTanaka](MtJaenTanaka),
-[MtJaenFeedbackCleaning](https://blog.inductorsoftware.com/docsproto/garage/MtJaenFeedbackCleaning).
+Some results can be found here: [MtJaenTanaka](https://blog.inductorsoftware.com/docsproto/home/MtJaenTanaka),
+[MtJaenFeedbackCleaning](https://blog.inductorsoftware.com/docsproto/home/MtJaenFeedbackCleaning).
 
 There are some note on how to set up an MT system with the DELPH-In
-tools in the [MT tutorial](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTutorial).
+tools in the [MT tutorial](https://blog.inductorsoftware.com/docsproto/home/MachineTranslationTutorial).
 
 A list of things that need to be fixed in Jaen can be found here: [Todo
-list for Jaen](https://blog.inductorsoftware.com/docsproto/garage/JaenTodo)
+list for Jaen](https://blog.inductorsoftware.com/docsproto/home/JaenTodo)
 
 ## References
 
@@ -34,4 +34,5 @@ In *Open-Source Machine Translation: Workshop at MT Summit X*, pp
 Velldal and Petter Haugereid (2011) [Deep Open Source Machine
 Translation](http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s10590-011-9099-4).
 In *Machine Translation* **25**(2) 87-105
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-26 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/MtJaen/_edit)]{% endraw %}

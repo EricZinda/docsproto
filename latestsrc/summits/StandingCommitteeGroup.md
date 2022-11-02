@@ -4,4 +4,5 @@
 - [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake)
 - [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)
 - [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-31 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StandingCommitteeGroup/_edit)]{% endraw %}

@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Distributions/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Formalisms/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Grammars/</loc>
-</url>
-<url>
-<loc>http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Processing/</loc>
-</url>
-<url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome/</loc>
 </url>
 </urlset>
