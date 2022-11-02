@@ -196,7 +196,9 @@ jobs:
 
 
       # Now commit and push all the changes to record this version of the docs
+      # As long as we are in main, otherwise don't do this because it makes merges a bear
       - name: Commit files
+        if: ${{ github.ref == 'main'}}
         run: |
           cd $GITHUB_WORKSPACE/main
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -205,6 +207,7 @@ jobs:
           git commit -m "[BOT] Automatic documentation build" -a
           
       - name: Push changes
+        if: ${{ github.ref == 'main'}}
         uses: ad-m/github-push-action@master
         with:
           directory: main
