@@ -199,7 +199,7 @@ jobs:
       # As long as we are in main, otherwise don't do this because it makes merges a bear
       - run: echo ${{ github.ref }}
       - name: Commit files
-        if: ${{ github.ref == ''refs/head/main''}}
+        if: ${{ github.ref == 'refs/head/main'}}
         run: |
           cd $GITHUB_WORKSPACE/main
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
