@@ -19,11 +19,6 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  <script type="text/javascript">
-    let el = document.querySelector('.nav__list .active');
-    el.scrollIntoView(true);
-  </script>
-
   {% include sidebar.html %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
@@ -95,3 +90,7 @@ layout: default
     </div>
   {% endif %}
 </div>
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  el.scrollIntoView(true);
+</script>
