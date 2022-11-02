@@ -117,7 +117,7 @@ discuss and set priorities
 
 ### (Automated) Testing
 
-- See also [LisbonTestingDiscussion](https://blog.inductorsoftware.com/docsproto/home/LisbonTestingDiscussion)
+- See also [LisbonTestingDiscussion](../LisbonTestingDiscussion)
 - Using Apache Ant for Testing DELPH-IN Tools and Resources: see
 [TestingWithAnt](https://blog.inductorsoftware.com/docsproto/tools/TestingWithAnt)
 

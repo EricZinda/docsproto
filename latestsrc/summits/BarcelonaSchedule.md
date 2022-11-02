@@ -34,12 +34,12 @@ summit@delph-in.net.
 | 14:50 |  –  | 15:10 | [DELPH-IN grammars at the 2009 CoNLL Shared Task](http://www.delph-in.net/2009/conll.pdf) (Yi Zhang, Stephan Oepen)                              | "              |
 | 15:10 |  –  | 15:30 | [Matrix dev group/UW site report](http://www.delph-in.net/2009/uw.pdf) (Laurie Poulson)                                                          | "              |
 | 15:30 |  –  | 15:50 | [Parse evaluation using dependency triples](http://www.delph-in.net/2009/triples.pdf) (Rebecca Dridan)                                           | "              |
-| 15:50 |  –  | 16:30 | [Discussion: Evaluation](https://blog.inductorsoftware.com/docsproto/home/BarcelonaEvaluation)                                                                                                    | "              |
+| 15:50 |  –  | 16:30 | [Discussion: Evaluation](../BarcelonaEvaluation)                                                                                                    | "              |
 | 16:30 |  –  | 17:00 | *Coffee*                                                                                                                                         |                |
-| 17:00 |  –  | 17:40 | [Discussion: Packaging and delivery of DELPH-IN tools](https://blog.inductorsoftware.com/docsproto/home/BarcelonaPackaging)                                                                       | Valia Kordoni  |
+| 17:00 |  –  | 17:40 | [Discussion: Packaging and delivery of DELPH-IN tools](../BarcelonaPackaging)                                                                       | Valia Kordoni  |
 | 17:40 |  –  | 18:10 | [Deterministic incremental HPSG parsing](http://www.delph-in.net/2009/gisle.pdf) (Gisle Ytrestøl)                                                | "              |
 | 18:10 |  –  | 18:40 | [Egad: A parent's guide to raising good grammars](http://www.delph-in.net/2009/michael.pdf) (Michael Goodman)                                    | "              |
-| 18:40 |  –  | 19:20 | [Discussion: Parallel Corpora](https://blog.inductorsoftware.com/docsproto/home/BarcelonaCorpora)                                                                                                 | "              |
+| 18:40 |  –  | 19:20 | [Discussion: Parallel Corpora](../BarcelonaCorpora)                                                                                                 | "              |
 
 # Tuesday, July 21 (Plenary)
 
@@ -72,9 +72,9 @@ summit@delph-in.net.
 | 10:00 |  –  | 10:40 | [HyLaP - Semantic Search in Scientific Documents, including demo](http://www.delph-in.net/2009/hylap.pdf) (Ulrich Schaefer) | Yi Zhang    |
 | 10:40 |  –  | 11:40 | [Tutorial: Chart Mapping in PET, including unknown word handling](http://www.delph-in.net/2009/cm.pdf) (Peter Adolphs)      | "           |
 | 11:40 |  –  | 12:10 | *Coffee*                                                                                                                    |             |
-| 12:10 |  –  | 12:50 | [Discussion: Advanced pre-processing](https://blog.inductorsoftware.com/docsproto/home/BarcelonaPreprocessing)                                                               | Jesse Tseng |
+| 12:10 |  –  | 12:50 | [Discussion: Advanced pre-processing](../BarcelonaPreprocessing)                                                               | Jesse Tseng |
 | 12:50 |  –  | 13:20 | [Sahaptin: A Grammar-Customization Case Study (Scott Drellishak)](http://www.delph-in.net/2009/scott.pdf)                   | "           |
-| 13:20 |  –  | 13:50 | [Discussion: Modes of cooperation](https://blog.inductorsoftware.com/docsproto/home/BarcelonaCooperation)                                                                    | "           |
+| 13:20 |  –  | 13:50 | [Discussion: Modes of cooperation](../BarcelonaCooperation)                                                                    | "           |
 | 13:50 |  –  | 14:00 | Business Meeting (DELPH-IN 2010 and beyond)                                                                                 | "           |
 | 14:00 |  –  | 15:00 | *Lunch*                                                                                                                     |             |
 | 15:00 |  –  | 18:00 | *Excursion*                                                                                                                 |             |

@@ -98,6 +98,6 @@ Tanaka Corpus
 
 ## Other Experiments
 
-[NE\_Tagging\_For\_Improving\_SMT](NE_Tagging_For_Improving_SMT)
+[NE\_Tagging\_For\_Improving\_SMT](../NE_Tagging_For_Improving_SMT)
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MtJaenSmt/_edit)]{% endraw %}

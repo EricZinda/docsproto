@@ -8,7 +8,7 @@ here.
 
 This page aims to document DELPH-IN techniques. It was started by
 [Francis](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond), inspired by the [Capitol Hill Grammar
-Engineering Meeting](CapitolHillTop) and based on a page originally
+Engineering Meeting](../CapitolHillTop) and based on a page originally
 written for Jacy ([JacyPerformance](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)).
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->

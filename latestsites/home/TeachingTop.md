@@ -3,7 +3,7 @@
 Here are some resources for teaching about and with Deep Linguistic
 Processing.
 
-- [Courses](TeachingCourses)
+- [Courses](../TeachingCourses)
 - [Topics for Projects](/TeachingTopics)
 - [Completed Theses](/TeachingTheses)
 
