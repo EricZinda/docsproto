@@ -146,8 +146,7 @@
         {"Page": "Virtual2021Top", "SrcDir": "docswiki", "SrcFile": "Virtual2021Top.md", "Referrer": "summits/SummitTop.md"}
       ]},
       {"Section": "Bellingham", "Pages": [
-        {"Page": "VirtualParticipants", "SrcDir": "docswiki", "SrcFile": "VirtualParticipants.md", "Referrer": "summits/BellinghamParticipants.md"},
-        {"Page": "FeiyuXu", "SrcDir": "docswiki", "SrcFile": "FeiyuXu.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true}
+        {"Page": "VirtualParticipants", "SrcDir": "docswiki", "SrcFile": "VirtualParticipants.md", "Referrer": "summits/BellinghamParticipants.md"}
       ]},
       {"Section": "Stanford", "Pages": [
         {"Page": "LADValenceChange", "SrcDir": "docswiki", "SrcFile": "LADValenceChange.md", "Referrer": "summits/StanfordMcValenceChangeFace.md"}
@@ -657,7 +656,8 @@
         {"Page": "Finite-State PreProcessor", "SrcDir": "docswiki", "SrcFile": "SafFspp.md", "Referrer": "tools/ReppTop.md"}
       ]},
       {"Section": "<todo>", "Pages": [
-                                 {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "tools/LkbLui.md", "FileMissing": true},
+        {"Page": "FeiyuXu", "SrcDir": "docswiki", "SrcFile": "FeiyuXu.md", "Referrer": "summits/BellinghamParticipants.md", "FileMissing": true},
+        {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "Referrer": "tools/LkbLui.md", "FileMissing": true},
         {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "Referrer": "tools/LkbLtdb.md", "FileMissing": true},
         {"Page": "WeSearch_PestExamples", "SrcDir": "docswiki", "SrcFile": "WeSearch_PestExamples.md", "Referrer": "tools/RmrsDiscussions.md", "FileMissing": true},
         {"Page": "RmrsDtd", "SrcDir": "docswiki", "SrcFile": "RmrsDtd.md", "Referrer": "tools/SmafTop.md", "FileMissing": true},
