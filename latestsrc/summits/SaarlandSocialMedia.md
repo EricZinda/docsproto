@@ -7,7 +7,7 @@ Glenn: Should we hold this on twitter?
 Tim: Yes --- \#delphin
 
 oe: Interesting questions. We have one relevant ongoing project in Oslo,
-[WeSearch](https://blog.inductorsoftware.com/docsproto/home/WeSearch) "Semantic parsing for the web" is the subtitle.
+[WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) "Semantic parsing for the web" is the subtitle.
 
 Woodley: The Norwegians would be happy to help you with the how fast can
 you make it question.
@@ -121,5 +121,4 @@ incomprehensible utterance space.
 Tim: Natively electronic?
 
 Francis: Yes, very Singlish, but no sentence boundaries.
-
-Last update: 2013-08-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandSocialMedia/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

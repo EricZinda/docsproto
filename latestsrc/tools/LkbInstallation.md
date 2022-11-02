@@ -330,7 +330,7 @@ in which features are available on which platforms (e.g. native code
 compilation, Unicode support, multi-threading, or socket support), and
 users may need to experiment a little. The LKB provides a non-graphical
 mode of interactions (called *tty mode*; see the
-[GeFaqLispPromptTips](https://blog.inductorsoftware.com/docsproto/home/GeFaqLispPromptTips) page) that enables basic
+[GeFaqLispPromptTips](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqLispPromptTips) page) that enables basic
 grammar writing or deployment of an existing grammar. Also, there is
 experimental support to provide graphical tools without CLIM for select
 platforms; see the [LkbLui](../LkbLui) pages. For instructions on compiling
@@ -440,5 +440,4 @@ Michael Goodman has filed a bug with the font in Ubuntu:
 We encourage people to file bugs in their own distributions, and/or
 confirm the bug in Ubuntu so that it gets a higher priority.
 Alternatively, if you know about fonts then please fix it...
-
-Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LkbInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

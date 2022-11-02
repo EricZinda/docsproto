@@ -94,5 +94,4 @@ Summit](../CambridgeTop)
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Mon-Fri)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-
-Last update: 2019-07-18 by BrunoCuconato [[edit](https://github.com/delph-in/docs/wiki/CambridgeParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
