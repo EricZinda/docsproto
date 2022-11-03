@@ -15,6 +15,7 @@
   {
     "concept": [
       {"Section": "Erg Semantics", "Pages": [
+        {"Page": "Links Test", "SrcDir": "docswiki", "SrcFile": "ALinkTest.md"},
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
         {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"}
       ]},

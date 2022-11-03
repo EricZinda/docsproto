@@ -36,7 +36,7 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
                             if file_identity not in proposals:
                                 proposals[file_identity] = {"Site": link["Site"],
                                                             "Section": link["Section"],
-                                                            "Page": link["LinkParts"][-1],
+                                                            "Page": link["LinkTarget"],
                                                             "SrcDir": link["SrcDir"],
                                                             "SrcFile": link["TargetFile"],
                                                             "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}
@@ -69,14 +69,21 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
         return final
 
 
+# Convert the links in file src_file_path to properly refer to documents in the new site structure
+# Add anything to the file (like "[edit]") that wasn't there before
+# Actually perform the copy into the new site
 def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
+
+    # Only mess with markdown files, others are copied as is
     if file_extension.lower() == ".md":
         with open(src_file_path, "r") as txtFile:
             try:
                 result = parser.parse(txtFile.read())
             except Exception as error:
                 raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
+
+            # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
             links = convert_child(sites_definitions, file_definition, result)
 
         with open(dst_file_path, "w") as txtFile:
@@ -96,17 +103,22 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, fi
     return links
 
 
+# convert any child node that is a link to have the proper link
+# in the new site structure
 def convert_child(sites_definitions, file_definition, node):
     links = []
     if isinstance(node, Link):
-        _, _, _, parts = parse_relative_link(file_definition["SrcFile"], node.dest)
         link_data = copy.deepcopy(file_definition)
-        link_data["Link"] = node.dest
-        link_state, target_file, node.dest = get_markdown_link_to_relative_target(sites_definitions, file_definition, node.dest)
 
+        # Remember the original information in the link
+        link_data["Link"] = node.dest
+        # LinkTarget is the relative URL Address of the link with no adornments (i.e. #fragments)
+        link_target, _, _ = parse_relative_link(file_definition["SrcFile"], node.dest)
+        link_data["LinkTarget"] = link_target
+
+        link_state, target_file, node.dest = get_rerouted_link(sites_definitions, file_definition, node.dest)
         link_data["ResolvedLink"] = node.dest
         link_data["TargetFile"] = target_file
-        link_data["LinkParts"] = parts
         link_data["LinkState"] = link_state
         links.append(link_data)
 
@@ -117,35 +129,44 @@ def convert_child(sites_definitions, file_definition, node):
     return links
 
 
-# Format:
-# targetaddress could be in one of many forms:
-#   - foo
-#   - foo.md
-#   - foo#bar
-#   - #bar
-#   - /foo/goo#bar
+# In the Github wiki:
+# 1. links with no beginning slashes are links to other wiki topics in the same wiki
+#   - They can have "#" to link to a heading within that page
+# 2. links starting with slashes ("root-relative links") link to http://github.com since that is the root they are on
+#   - this can be legit for linking to another github project, subproject, etc
+#   - They can have "#" to link to a heading within that page
+# 3. links with "http(s)" are public websites
 #
-# returns the path, query, fragment, and the separated segments of the path of a local link
+# See the "ALinkTest.md" file in the project for examples of common mistakes that are made in the wiki
+#
+# If this is a local link to another wiki topic, it returns information about it (case 1 above)
+# Otherwise, it is a link outside the wiki and is ignored
+#
+# returns the target segment of the link, query, fragment
 # returns None if this is not a local link
 def parse_relative_link(SrcFile, link):
     split_url = urllib.parse.urlparse(link)
-    if split_url.scheme == "" and split_url.netloc == "" and split_url.path[0:4] != "www.":
+    if split_url.scheme == "" and split_url.netloc == "":
         # This is a local link
-        # If the link is on the same page, use the page as the path
+        # If the link is on the same page (i.e. "#heading", use the page as the path
         if split_url.path == "":
             file_name, _ = os.path.splitext(SrcFile)
             path = file_name
         else:
             path = split_url.path
 
-        # Leading "/" refers to a repository, treat it as an absolute path
         path_parts = path.split('/')
         if path_parts[0] == "":
-            return None, None, None, None
+            # Leading "/" means it is "root relative" and would be interpreted as "http://www.github.com" + <path> when run in the wiki
+            # Thus: treat it as an absolute path
+            return None, None, None
+        elif len(path_parts) > 1:
+            # More than one segment won't work in the wiki so treat it as absolute
+            return None, None, None
 
-        return path, split_url.query, split_url.fragment, path_parts
+        return path, split_url.query, split_url.fragment
     else:
-        return None, None, None, None
+        return None, None, None
 
 
 # if a source markdown file has a link like: [this is a link](targetaddress)
@@ -168,12 +189,15 @@ def parse_relative_link(SrcFile, link):
 #
 # That gives us enough information to determine the identity of the file, and with that we can determine what
 # the link *should be* in the new site layout.
-def get_markdown_link_to_relative_target(sites_definitions, file_definition, relative_md_link):
+#
+# Returns: StateOfLink, The file the link is targeting (if any), rerouted link that should be used in new site
+def get_rerouted_link(sites_definitions, file_definition, original_link):
     src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
 
-    path, query, fragment, parts = parse_relative_link(file_definition["SrcFile"], relative_md_link)
+    path, query, fragment = parse_relative_link(file_definition["SrcFile"], original_link)
     if path is not None:
+        # This is a relative link
         # First convert relative_md_link to have an .md extension if it doesn't have an extension
         # otherwise leave it
         file_name, file_extension = os.path.splitext(path)
@@ -185,22 +209,23 @@ def get_markdown_link_to_relative_target(sites_definitions, file_definition, rel
 
         # Now we know the identity of the file since it is a relative link and we have a filename AND a src_dir
         # See if we can find that definition
+        # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
+        # which is thus one level too deep
+        relative_resolved_link = "../" + path + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
         for definition in sites_definitions:
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
                 # Found it! Now return a relative link if it is in the same site or a full link if not
                 if definition["Site"] == src_site:
-                    # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
-                    # which is thus one level too deep
-                    # return "valid_relative", target_file, definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
-                    return "valid_relative", target_file, "../" + definition["RootRelativeLink"] + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
+                    return "valid_relative", target_file, relative_resolved_link
                 else:
                     return "valid_relative", target_file, definition["AbsoluteLink"]
 
-        return "invalid_relative", target_file, relative_md_link
+        # If if it doesn't exist, return the proper link that *would have* accessed it
+        return "invalid_relative", target_file, relative_resolved_link
 
     else:
-        # non-relative link, just return the original, but cleaned up
-        return "absolute", None, relative_md_link
+        # non-relative link, just return the original
+        return "absolute", None, original_link
 
 
 def get_site_relative_page_link(site, src_file):
@@ -229,8 +254,6 @@ def add_addresses_for_definitions(root_address, sites_definitions):
 def populate_sites_src(sites_definition, root_address, src_root, dst_root):
     parser = Markdown(Parser, MarkdownRenderer)
     add_addresses_for_definitions(root_address, sites_definition["Pages"])
-
-    # get_markdown_link_to_relative_target(sites_definition["Pages"], sites_definition["Pages"][0], "ErgSemantics")
 
     errors = []
     links = []
@@ -292,7 +315,7 @@ def propose_broken_links(all_links, sites_definitions, input_content_root):
         if link["LinkState"] == "invalid_relative":
             file_identity = link["SrcDir"] + "/" + link["TargetFile"]
             if file_identity not in proposals:
-                proposals[file_identity] = {"Site": link["Site"], "Section": link["Section"], "Page": link["LinkParts"][-1], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'} # , "Debug": linkItem})
+                proposals[file_identity] = {"Site": link["Site"], "Section": link["Section"], "Page": link["LinkTarget"], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'} # , "Debug": linkItem})
 
     # Now do the transitive closure of all links from the missing pages
     parser = Markdown(Parser, MarkdownRenderer)
