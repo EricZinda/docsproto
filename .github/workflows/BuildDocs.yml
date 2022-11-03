@@ -8,7 +8,12 @@ on:
   workflow_dispatch:
       inputs:
         quickAndDirty:
-          description: 'TESTING ONLY: Set to true to generate the site quickly but without timestamps or other time-taking information'
+          description: 'TESTING ONLY: Set to "true" to generate the site quickly but without timestamps or other time-taking information'
+          required: true
+          default: 'false'
+
+        externalUrlCheck:
+          description: '"true" (VERY SLOW) means try to access any links to external sites. "false" (fast) will still check internal links'
           required: true
           default: 'false'
 
@@ -53,7 +58,7 @@ jobs:
 
       # Create blank sites and then
       # process and copy all pages into the sites
-      - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }}
+      - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
 
 
       # Upload any output data so users can get at it

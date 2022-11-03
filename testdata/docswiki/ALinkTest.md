@@ -9,8 +9,6 @@ In the Github wiki:
   - They can have "#" to link to a heading within that page
 - links with "http(s)" are public websites
 
-
-
 # Examples
 ## Legit
 another wiki page in the same wiki: [ErgSemantics](ErgSemantics)
@@ -33,6 +31,8 @@ a github *user* [/ericzinda](/ericzinda)
 
 another website: [http://wikipedia.com#foo?bar=goo](http://wikipedia.com#foo?bar=goo)
 
+link that is valid but hangs:(http://erg.delph-in.net/)[http://erg.delph-in.net/]
+
 
 ## Wrong
 A poorly formed link to another existing wiki page (github iterprets as a link to a project) [/ErgSemantics](/ErgSemantics)
@@ -40,6 +40,10 @@ A poorly formed link to another existing wiki page (github iterprets as a link t
 A poorly formed link to a heading on another page (github iterprets as a link to a project) [/DelphinApplications#Robot-Control](/DelphinApplications#Robot-Control)
 
 A poorly formed link to a wiki topic that the author is encouraging someone to create (github iterprets as a link to a project) [/CreateMe](/CreateMe)
+
+A couple of test links just to test the code
+( / /ErgSemantics)[ / /ErgSemantics]
+( //ErgSemantics)[ //ErgSemantics]
 
 A poorly formed link to ? (github interprets as a subproject in github) [/CapitolHillGenerationTesting/PathToGrammar](/CapitolHillGenerationTesting/PathToGrammar)
 

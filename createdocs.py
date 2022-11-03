@@ -6,6 +6,8 @@ import shutil
 import subprocess
 import sys
 import urllib.parse
+from urllib import request
+from urllib.error import HTTPError
 
 from marko import Markdown
 import marko
@@ -18,8 +20,9 @@ from marko.inline import Link
 import createblanksite
 
 
-# Given a page
-def gather_broken_links_from_page(input_content_root, proposals, sites_definitions, parser, file_definition, src_file_path):
+# Called to examine files that were referenced from, but not included in, a site to find the links that *they* have
+# Examines src_file_path and, if it has a markdown extension (.md) parses it and
+def gather_broken_links_from_page(input_content_root, proposals, repositories_definitions, sites_definitions, parser, file_definition, src_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
     if file_extension.lower() == ".md":
         if os.path.exists(src_file_path):
@@ -29,9 +32,10 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
             if this_file_identity not in proposals:
                 with open(src_file_path, "r") as txtFile:
                     result = parser.parse(txtFile.read())
-                    links = convert_child(sites_definitions, file_definition, result)
+                    links = convert_child(repositories_definitions, sites_definitions, file_definition, result)
                     for link in links:
-                        if link["LinkState"] == "invalid_relative":
+                        if link["LinkState"] == "relative_broken":
+                            # the file linked to is also not included
                             file_identity = link["SrcDir"] + "/" + link["TargetFile"]
                             if file_identity not in proposals:
                                 proposals[file_identity] = {"Site": link["Site"],
@@ -41,7 +45,9 @@ def gather_broken_links_from_page(input_content_root, proposals, sites_definitio
                                                             "SrcFile": link["TargetFile"],
                                                             "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}
                                 new_src_file_path = os.path.join(input_content_root, proposals[file_identity]["SrcDir"], proposals[file_identity]["SrcFile"])
-                                gather_broken_links_from_page(input_content_root, proposals, sites_definitions, parser, proposals[file_identity], new_src_file_path)
+
+                                # And further look at files referenced by the found file, recursively
+                                gather_broken_links_from_page(input_content_root, proposals, repositories_definitions, sites_definitions, parser, proposals[file_identity], new_src_file_path)
         else:
             file_definition["FileMissing"] = True
 
@@ -53,8 +59,6 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
     else:
         if file_definition["SrcDir"] in repositories_definitions:
             repository = repositories_definitions[file_definition["SrcDir"]]["Repository"]
-            if repository.endswith(".wiki"):
-                repository = repository[0:-5] + "/wiki"
             file_name, file_extension = os.path.splitext(file_definition["SrcFile"])
 
             link = f"https://github.com/{repository}/{file_name}/_edit"
@@ -84,7 +88,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, fi
                 raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
 
             # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
-            links = convert_child(sites_definitions, file_definition, result)
+            links = convert_child(repositories_definitions, sites_definitions, file_definition, result)
 
         with open(dst_file_path, "w") as txtFile:
             final_result = parser.render(result)
@@ -105,7 +109,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, fi
 
 # convert any child node that is a link to have the proper link
 # in the new site structure
-def convert_child(sites_definitions, file_definition, node):
+def convert_child(repositories_definitions, sites_definitions, file_definition, node):
     links = []
     if isinstance(node, Link):
         link_data = copy.deepcopy(file_definition)
@@ -116,15 +120,16 @@ def convert_child(sites_definitions, file_definition, node):
         link_target, _, _ = parse_relative_link(file_definition["SrcFile"], node.dest)
         link_data["LinkTarget"] = link_target
 
-        link_state, target_file, node.dest = get_rerouted_link(sites_definitions, file_definition, node.dest)
+        link_state, message, target_file, node.dest = get_rerouted_link(repositories_definitions, sites_definitions, file_definition, node.dest)
         link_data["ResolvedLink"] = node.dest
         link_data["TargetFile"] = target_file
         link_data["LinkState"] = link_state
+        link_data["LinkStateMessage"] = message
         links.append(link_data)
 
     elif hasattr(node, "children"):
         for child in node.children:
-            links += convert_child(sites_definitions, file_definition, child)
+            links += convert_child(repositories_definitions, sites_definitions, file_definition, child)
 
     return links
 
@@ -190,8 +195,8 @@ def parse_relative_link(SrcFile, link):
 # That gives us enough information to determine the identity of the file, and with that we can determine what
 # the link *should be* in the new site layout.
 #
-# Returns: StateOfLink, The file the link is targeting (if any), rerouted link that should be used in new site
-def get_rerouted_link(sites_definitions, file_definition, original_link):
+# Returns: StateOfLink, LinkStateMessage, The file the link is targeting (if any), rerouted link that should be used in new site
+def get_rerouted_link(repositories_definitions, sites_definitions, file_definition, original_link):
     src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
 
@@ -216,16 +221,72 @@ def get_rerouted_link(sites_definitions, file_definition, original_link):
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
                 # Found it! Now return a relative link if it is in the same site or a full link if not
                 if definition["Site"] == src_site:
-                    return "valid_relative", target_file, relative_resolved_link
+                    return "relative_success", None, target_file, relative_resolved_link
                 else:
-                    return "valid_relative", target_file, definition["AbsoluteLink"]
+                    return "relative_success", None, target_file, definition["AbsoluteLink"]
 
         # If if it doesn't exist, return the proper link that *would have* accessed it
-        return "invalid_relative", target_file, relative_resolved_link
+        return "relative_broken", "Wiki page doesn't exist", target_file, relative_resolved_link
 
     else:
-        # non-relative link, just return the original
-        return "absolute", None, original_link
+        # non-relative link
+        global url_check
+        if not url_check:
+            return "absolute_unchecked", None, None, original_link
+
+        # Determine what the root for this page was originally
+        original_root_url = urllib.parse.urljoin("https://www.github.com", repositories_definitions[src_dir]["Repository"])
+
+        # see if it exists
+        result = check_url(original_root_url, original_link)
+        if result["Status"] == "success":
+            # If it exists at that location, assume it is legit
+            return "absolute_success", None, None, original_link
+        elif result["Status"] == "connection_failure":
+            return "absolute_unknown_due_to_connection_failure", result["Message"], None, original_link
+        else:
+            # It wasn't found, which means either it truly is broken OR
+            # it was a mistyped link that was really supposed to reference a wiki topic
+            # See if it references a wiki topic
+            if original_link[0] == "/":
+                # StateOfLink, The file the link is targeting (if any), rerouted link that should be used in new site
+                wiki_link_state, _, wiki_targeted_file, new_link = get_rerouted_link(repositories_definitions, sites_definitions, file_definition, original_link[1:])
+                if wiki_link_state == "relative_success":
+                    return "absolute_broken_but_valid_misformed_wiki_link", result["Message"], wiki_targeted_file, original_link
+                else:
+                    # just a plain old broken link
+                    return "absolute_broken", result["Message"], None, original_link
+            else:
+                # just a plain old broken link
+                return "absolute_broken", result["Message"], None, original_link
+
+
+def check_url(base_url, url):
+    split_url = urllib.parse.urlparse(url)
+    # no "http" etc on the front, treat as relative to root
+    if split_url.scheme == "":
+        url = urllib.parse.urljoin(base_url, url)
+
+    check_data = {"Message": None, "Status": None}
+    try:
+        # give it 5 seconds
+        result = request.urlopen(url, timeout=5)
+        if result.status != 200:
+            check_data["Message"] = f"{result.status}: {result.msg}"
+            check_data["Status"] = "not_found"
+        else:
+            check_data["Message"] = "success"
+            check_data["Status"] = "success"
+
+    except HTTPError as http_error:
+        check_data["Message"] = f"{http_error.code}: {http_error.msg}"
+        check_data["Status"] = "not_found"
+
+    except Exception as err:
+        check_data["Status"] = "connection_failure"
+        check_data["Message"] = f"Exception: {str(err)}"
+
+    return check_data
 
 
 def get_site_relative_page_link(site, src_file):
@@ -312,7 +373,7 @@ def create_tocs(dst_root, tocs):
 def propose_broken_links(all_links, sites_definitions, input_content_root):
     proposals = {}
     for link in all_links:
-        if link["LinkState"] == "invalid_relative":
+        if link["LinkState"] == "relative_broken":
             file_identity = link["SrcDir"] + "/" + link["TargetFile"]
             if file_identity not in proposals:
                 proposals[file_identity] = {"Site": link["Site"], "Section": link["Section"], "Page": link["LinkTarget"], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'} # , "Debug": linkItem})
@@ -323,7 +384,7 @@ def propose_broken_links(all_links, sites_definitions, input_content_root):
     for proposal in proposals.items():
         file_definition = proposal[1]
         src_file_path = os.path.join(input_content_root, file_definition["SrcDir"], file_definition["SrcFile"])
-        gather_broken_links_from_page(input_content_root, transitive_closure, sites_definitions["Pages"], parser, file_definition, src_file_path)
+        gather_broken_links_from_page(input_content_root, transitive_closure, sites_definitions["SourceRepositories"], sites_definitions["Pages"], parser, file_definition, src_file_path)
 
     return proposals, transitive_closure
 
@@ -427,6 +488,7 @@ def log_json_tree_to_file(relative_path, tree):
 
 
 quickAndDirty = False
+url_check = False
 
 if __name__ == '__main__':
     # with open("/Users/ericzinda/Enlistments/docsproto/testsitesdefinitions.json", "r") as txtFile:
@@ -435,15 +497,20 @@ if __name__ == '__main__':
     # tree_pages = convert_pages_flat_to_tree(sites_definition["Pages"])
     # log_json_tree_to_file("sitesdefinitions1.json", tree_pages)
 
-    if len(sys.argv) == 6 or len(sys.argv) == 7:
+    if len(sys.argv) >= 6 and len(sys.argv) <= 8:
         root_address = sys.argv[1]
         input_content_root = sys.argv[2]
         latestsrc_root = sys.argv[3]
         latestsites_root = sys.argv[4]
         sites_definitions_path = sys.argv[5]
-        if len(sys.argv) == 7:
+        if len(sys.argv) > 6:
             if sys.argv[6].strip() == "true":
                 quickAndDirty = True
+
+        if len(sys.argv) > 7:
+            if sys.argv[7].strip() == "true":
+                url_check = True
+
         errors = []
 
         try:
