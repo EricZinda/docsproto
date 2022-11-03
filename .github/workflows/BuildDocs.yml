@@ -77,14 +77,14 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: All Links
+          name: All Links (working, broken, local, external, etc)
           path: main/latestsrc/AllLinks.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
       - uses: actions/upload-artifact@v2
         with:
-          name: Broken Links
-          path: main/latestsrc/BrokenLinks.json
+          name: Fixes for broken links To Wiki pages that exist
+          path: main/latestsrc/FixesForBrokenLinksToWikiPages.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
 
