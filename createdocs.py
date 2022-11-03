@@ -20,36 +20,36 @@ from marko.inline import Link
 import createblanksite
 
 
-# Called to examine files that were referenced from, but not included in, a site to find the links that *they* have
-# Examines src_file_path and, if it has a markdown extension (.md) parses it and
-def gather_broken_links_from_page(input_content_root, proposals, repositories_definitions, sites_definitions, parser, file_definition, src_file_path):
-    file_name, file_extension = os.path.splitext(src_file_path)
+# Given a link that was in a document but not included in the site definitions (and thus will be broken in the final site),
+# give a proposal for what to include to make it not broken for it and recursively follow *its* links and do the same
+def propose_link_recursive(input_content_root, proposals, repositories_definitions, sites_definitions, unique_existing_pages, parser, base_referrer, link_to_check):
+    # See if the link is a markdown file
+    file_name, file_extension = os.path.splitext(link_to_check["TargetFile"])
     if file_extension.lower() == ".md":
-        if os.path.exists(src_file_path):
-            this_file_identity = file_definition["SrcDir"] + "/" + file_definition["SrcFile"]
+        link_file_identity = link_to_check["SrcDir"] + "/" + link_to_check["TargetFile"]
+        if link_file_identity not in unique_existing_pages and link_file_identity not in proposals:
+            # The file is not included in the site or proposed yet, add it as a proposal
+            link_file_definition = {"Site": link_to_check["Site"], "Section": link_to_check["Section"], "Page": link_to_check["LinkTarget"],
+                                    "SrcDir": link_to_check["SrcDir"], "SrcFile": link_to_check["TargetFile"], "BaseReferrer": base_referrer,
+                                    "Referrer": f'{link_to_check["Site"]}/{link_to_check["SrcFile"]}'}
+            proposals[link_file_identity] = link_file_definition
 
-            # If the file is in proposals, it is already scanned
-            if this_file_identity not in proposals:
-                with open(src_file_path, "r") as txtFile:
+            link_file_path = os.path.join(input_content_root, link_file_definition["SrcDir"], link_file_definition["SrcFile"])
+            if os.path.exists(link_file_path):
+                # The link file is a file in the project, scan it
+                with open(link_file_path, "r") as txtFile:
                     result = parser.parse(txtFile.read())
-                    links = convert_child(repositories_definitions, sites_definitions, file_definition, result)
-                    for link in links:
-                        if link["LinkState"] == "relative_broken":
-                            # the file linked to is also not included
-                            file_identity = link["SrcDir"] + "/" + link["TargetFile"]
-                            if file_identity not in proposals:
-                                proposals[file_identity] = {"Site": link["Site"],
-                                                            "Section": link["Section"],
-                                                            "Page": link["LinkTarget"],
-                                                            "SrcDir": link["SrcDir"],
-                                                            "SrcFile": link["TargetFile"],
-                                                            "Referrer": f'{link["Site"]}/{link["SrcFile"]}'}
-                                new_src_file_path = os.path.join(input_content_root, proposals[file_identity]["SrcDir"], proposals[file_identity]["SrcFile"])
+                    further_links = convert_child(repositories_definitions, sites_definitions, link_file_definition, result)
+                    for further_link in further_links:
+                        if further_link["LinkState"] == "relative_broken":
+                            # Now check the further links
+                            propose_link_recursive(input_content_root, proposals, repositories_definitions,
+                                                   sites_definitions, unique_existing_pages, parser, base_referrer,
+                                                   further_link)
 
-                                # And further look at files referenced by the found file, recursively
-                                gather_broken_links_from_page(input_content_root, proposals, repositories_definitions, sites_definitions, parser, proposals[file_identity], new_src_file_path)
-        else:
-            file_definition["FileMissing"] = True
+            else:
+                # File doesn't exist
+                link_file_definition["FileMissing"] = True
 
 
 def get_change_text(repositories_definitions, sites_definitions, file_definition, src_file_path):
@@ -74,8 +74,8 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
 
 
 # Convert the links in file src_file_path to properly refer to documents in the new site structure
-# Add anything to the file (like "[edit]") that wasn't there before
-# Actually perform the copy into the new site
+# Add anything to the file (like "[edit]") that we want to insert as well
+# Finally, actually perform the copy into the new site
 def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
 
@@ -260,7 +260,7 @@ def get_rerouted_link(repositories_definitions, sites_definitions, file_definiti
                 # just a plain old broken link
                 return "absolute_broken", result["Message"], None, original_link
 
-
+# See if a url would have been valid in the original wiki
 def check_url(base_url, url):
     split_url = urllib.parse.urlparse(url)
     # no "http" etc on the front, treat as relative to root
@@ -369,24 +369,17 @@ def create_tocs(dst_root, tocs):
             txtFile.write(toc_text)
 
 
-# Given the full set of links on all pages propose entries to sitedefinitions.json to fix them
-def propose_broken_links(all_links, sites_definitions, input_content_root):
+# Given the full set of links on all pages propose entries to sitedefinitions.json to fix
+# any that are broken
+def propose_broken_links(all_links, sites_definitions, input_content_root, unique_existing_pages):
+    parser = Markdown(Parser, MarkdownRenderer)
     proposals = {}
     for link in all_links:
         if link["LinkState"] == "relative_broken":
-            file_identity = link["SrcDir"] + "/" + link["TargetFile"]
-            if file_identity not in proposals:
-                proposals[file_identity] = {"Site": link["Site"], "Section": link["Section"], "Page": link["LinkTarget"], "SrcDir": link["SrcDir"], "SrcFile": link["TargetFile"], "Referrer": f'{link["Site"]}/{link["SrcFile"]}'} # , "Debug": linkItem})
+            base_referrer = f'{link["Site"]}/{link["SrcFile"]}'
+            propose_link_recursive(input_content_root, proposals, sites_definitions["SourceRepositories"], sites_definitions["Pages"], unique_existing_pages, parser, base_referrer, link)
 
-    # Now do the transitive closure of all links from the missing pages
-    parser = Markdown(Parser, MarkdownRenderer)
-    transitive_closure = {}
-    for proposal in proposals.items():
-        file_definition = proposal[1]
-        src_file_path = os.path.join(input_content_root, file_definition["SrcDir"], file_definition["SrcFile"])
-        gather_broken_links_from_page(input_content_root, transitive_closure, sites_definitions["SourceRepositories"], sites_definitions["Pages"], parser, file_definition, src_file_path)
-
-    return proposals, transitive_closure
+    return proposals
 
 
 def log_json_items_to_file(relative_path, list):
@@ -547,30 +540,21 @@ if __name__ == '__main__':
 
         # Log all the pages that were generated
         combined_pages = []
+        unique_pages = {}
         for item in all_pages.items():
             combined_pages += item[1].items()
+            unique_pages.update(item[1])
         log_json_items_to_file("latestsrc/AllPages.json", combined_pages)
 
         # Log all links on all pages in all sites
         log_json_items_to_file("latestsrc/AllLinks.json", all_links)
 
         # Create a file that proposes fixes to the site definitions for all broken links
-        proposed_fixes, transitive_closure = propose_broken_links(all_links, sites_definition, input_content_root)
+        proposed_fixes = propose_broken_links(all_links, sites_definition, input_content_root, unique_pages)
 
         proposed_fixes_tree = convert_pages_flat_to_tree([item[1] for item in proposed_fixes.items()])
         log_json_tree_to_file("latestsrc/BrokenLinks.json", proposed_fixes_tree)
 
-        transitive_closure_tree = convert_pages_flat_to_tree([item[1] for item in transitive_closure.items()])
-        log_json_tree_to_file("latestsrc/TransitiveBrokenLinks.json", transitive_closure_tree)
-
     else:
         print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs\n (optional) 6) true or false (default false): run in quick and dirty mode which removes things like timestamps on files that take a while to calculate")
         assert False
-
-    # parser = Markdown(Parser, MarkdownRenderer)
-    # parser.use(GFM)
-    # print(parser.convert("This is a test [foo](bar)\ntest"))
-
-    # from marko.ext.gfm import gfm, GFM
-    #
-    # print(gfm("[foo](bar)"))

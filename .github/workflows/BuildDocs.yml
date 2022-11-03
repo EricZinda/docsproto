@@ -87,12 +87,6 @@ jobs:
           path: main/latestsrc/BrokenLinks.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Transitive Broken Links
-          path: main/latestsrc/TransitiveBrokenLinks.json
-          if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
-
 
       # Create an index of all the pages
       # - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
