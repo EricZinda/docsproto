@@ -8,7 +8,7 @@ In the Github wiki:
   - this can be legit for linking to another github project, subproject, etc
   - They can have "#" to link to a heading within that page
 - links with "http(s)" are public websites
-
+ 
 # Examples
 ## Legit
 another wiki page in the same wiki: [ErgSemantics](ErgSemantics)
@@ -44,6 +44,8 @@ A poorly formed link to a wiki topic that the author is encouraging someone to c
 A couple of test links just to test the code
 ( / /ErgSemantics)[ / /ErgSemantics]
 ( //ErgSemantics)[ //ErgSemantics]
+[http://aclweb.org/anthology/P/P11/P11-4002.pdf](http://aclweb.org/anthology/P/P11/P11-4002.pdf)
+[http://portal.acm.org/citation.cfm?id=1564038](http://portal.acm.org/citation.cfm?id=1564038)
 
 A poorly formed link to ? (github interprets as a subproject in github) [/CapitolHillGenerationTesting/PathToGrammar](/CapitolHillGenerationTesting/PathToGrammar)
 

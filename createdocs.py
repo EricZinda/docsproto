@@ -8,6 +8,7 @@ import sys
 import urllib.parse
 from urllib import request
 from urllib.error import HTTPError
+from urllib.request import Request
 
 from marko import Markdown
 import marko
@@ -260,6 +261,7 @@ def get_rerouted_link(repositories_definitions, sites_definitions, file_definiti
                 # just a plain old broken link
                 return "absolute_broken", result["Message"], None, original_link
 
+
 # See if a url would have been valid in the original wiki
 def check_url(base_url, url):
     split_url = urllib.parse.urlparse(url)
@@ -270,17 +272,20 @@ def check_url(base_url, url):
     check_data = {"Message": None, "Status": None}
     try:
         # give it 5 seconds
-        result = request.urlopen(url, timeout=5)
-        if result.status != 200:
-            check_data["Message"] = f"{result.status}: {result.msg}"
-            check_data["Status"] = "not_found"
-        else:
+        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            the_page = response.read()
             check_data["Message"] = "success"
             check_data["Status"] = "success"
 
     except HTTPError as http_error:
-        check_data["Message"] = f"{http_error.code}: {http_error.msg}"
-        check_data["Status"] = "not_found"
+        if http_error.code == 406:
+            # "406: Not acceptable, just means I got the user agent wrong...
+            check_data["Message"] = "success"
+            check_data["Status"] = "success"
+        else:
+            check_data["Message"] = f"{http_error.code}: {http_error.msg}"
+            check_data["Status"] = "not_found"
 
     except Exception as err:
         check_data["Status"] = "connection_failure"
