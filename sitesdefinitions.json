@@ -34,7 +34,6 @@
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
         {"Page": "Applications", "SrcDir": "docswiki", "SrcFile": "DelphinApplications.md", "Referrer": "home/Home.md"},
-        {"Page": "Projects Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"},
         {"Page": "Delphin News", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Projects", "Pages": [
@@ -42,7 +41,8 @@
         {"Page": "DeepBank 1.0", "SrcDir": "docswiki", "SrcFile": "DeepBank_OneZero.md", "Referrer": "concept/DeepBank.md"},
         {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
         {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
-        {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"}
+        {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"},
+        {"Page": "Projects Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Documentation", "Pages": [
         {"Page": "Quick Start", "SrcDir": "websitewiki", "SrcFile": "DocsQuickStart.md"},
@@ -61,7 +61,6 @@
         {"Page": "Processing", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Processing.md", "Referrer": "summits/DelphinTutorial.md"},
         {"Page": "Distributions", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Distributions.md", "Referrer": "summits/DelphinTutorial.md"},
         {"Page": "HPSG", "SrcDir": "docswiki", "SrcFile": "HpsgTutorial.md", "Referrer": "home/TeachingCourses.md"}
-
       ]},
       {"Section": "Other Tutorials", "Pages": [
         {"Page": "English Resource Semantics Tutorial (NAACL 2016)", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"}
