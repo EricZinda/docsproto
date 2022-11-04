@@ -476,7 +476,7 @@
         {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteRu.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
         {"Page": "Swedish", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteSv.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
         {"Page": "Tatoeba", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteTatoeba.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "ZhTw", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteZhTw.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "ZhTw", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteZhTw.md", "Referrer": "concept/MatrixMrsTestSuite.md"}
       ]}
     ],
     "garage": [
@@ -576,21 +576,30 @@
     ],
     "summits": [
       {"Section": "Overview", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"},
-        {"Page": "VirtualParticipants", "SrcDir": "docswiki", "SrcFile": "VirtualParticipants.md", "Referrer": "summits/BellinghamParticipants.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"}
       ]},
       {"Section": "Fairhaven 2022", "Pages": [
-        {"Page": "FairhavenTop", "SrcDir": "docswiki", "SrcFile": "FairhavenTop.md", "Referrer": "summits/SummitTop.md"},
-        {"Page": "Fairhaven2022Participants", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Participants.md", "Referrer": "summits/FairhavenTop.md"},
-        {"Page": "Fairhaven2022Schedule", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Schedule.md", "Referrer": "summits/FairhavenTop.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FairhavenTop.md", "Referrer": "summits/SummitTop.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Schedule.md", "Referrer": "summits/FairhavenTop.md"},
+        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Participants.md", "Referrer": "summits/FairhavenTop.md"}
       ]},
       {"Section": "Virtual 2021", "Pages": [
-        {"Page": "Virtual2021Top", "SrcDir": "docswiki", "SrcFile": "Virtual2021Top.md", "Referrer": "summits/SummitTop.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Virtual2021Top.md", "Referrer": "summits/SummitTop.md"},
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "Virtual2021Schedule.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "Virtual2021Participants.md", "Referrer": "summits/Virtual2021Top.md"},
+        {"Page": "Plural Semantics", "SrcDir": "docswiki", "SrcFile": "Virtual2021PluralSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
+        {"Page": "Hugging Face", "SrcDir": "docswiki", "SrcFile": "Virtual2021HuggingFace.md", "Referrer": "summits/Virtual2021Schedule.md"},
+        {"Page": "Lexicon", "SrcDir": "docswiki", "SrcFile": "Virtual2021Lexicon.md", "Referrer": "summits/Virtual2021Schedule.md"},
+        {"Page": "Parsing Prospects", "SrcDir": "docswiki", "SrcFile": "Virtual2021ParsingProspects.md", "Referrer": "summits/Virtual2021Schedule.md"},
+        {"Page": "Data Statements", "SrcDir": "docswiki", "SrcFile": "Virtual2021DataStatements.md", "Referrer": "summits/Virtual2021Schedule.md"},
+        {"Page": "Defeasible Identity", "SrcDir": "docswiki", "SrcFile": "Virtual2021DefeasibleIdentity.md", "Referrer": "summits/Virtual2021Schedule.md"}
+      ]},
+      {"Section": "Bellingham 2020", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "VirtualSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "Virtual2021Participants", "SrcDir": "docswiki", "SrcFile": "Virtual2021Participants.md", "Referrer": "summits/Virtual2021Top.md"},
+        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "VirtualParticipants.md", "Referrer": "summits/BellinghamParticipants.md"},
+        {"Page": "Participants 2", "SrcDir": "docswiki", "SrcFile": "BellinghamParticipants.md", "Referrer": "summits/BellinghamTop.md"},
         {"Page": "Coordination Composition", "SrcDir": "docswiki", "SrcFile": "VirtualCoordinationComposition.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "2021 Schedule", "SrcDir": "docswiki", "SrcFile": "Virtual2021Schedule.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "2021 Plural Semantics", "SrcDir": "docswiki", "SrcFile": "Virtual2021PluralSemantics.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "UsefulLinks", "SrcDir": "docswiki", "SrcFile": "VirtualUsefulLinks.md", "Referrer": "summits/VirtualSchedule.md"},
         {"Page": "ParsingDirections", "SrcDir": "docswiki", "SrcFile": "VirtualParsingDirections.md", "Referrer": "summits/VirtualSchedule.md"},
         {"Page": "Append", "SrcDir": "docswiki", "SrcFile": "VirtualAppend.md", "Referrer": "summits/VirtualSchedule.md"},
@@ -604,19 +613,10 @@
         {"Page": "DEA", "SrcDir": "docswiki", "SrcFile": "VirtualDEA.md", "Referrer": "summits/VirtualSchedule.md"},
         {"Page": "LkbFos", "SrcDir": "docswiki", "SrcFile": "VirtualLkbFos.md", "Referrer": "summits/VirtualSchedule.md"},
         {"Page": "LkbFos2", "SrcDir": "docswiki", "SrcFile": "VirtualLkbFos2.md", "Referrer": "summits/VirtualSchedule.md"},
-        {"Page": "Cambridge Education", "SrcDir": "docswiki", "SrcFile": "CambridgeEducation.md", "Referrer": "summits/VirtualSchedule.md"},
-        {"Page": "Hugging Face", "SrcDir": "docswiki", "SrcFile": "Virtual2021HuggingFace.md", "Referrer": "summits/Virtual2021Schedule.md"},
-        {"Page": "Lexicon", "SrcDir": "docswiki", "SrcFile": "Virtual2021Lexicon.md", "Referrer": "summits/Virtual2021Schedule.md"},
-        {"Page": "Parsing Prospects", "SrcDir": "docswiki", "SrcFile": "Virtual2021ParsingProspects.md", "Referrer": "summits/Virtual2021Schedule.md"},
-        {"Page": "Data Statements", "SrcDir": "docswiki", "SrcFile": "Virtual2021DataStatements.md", "Referrer": "summits/Virtual2021Schedule.md"},
-        {"Page": "Defeasible Identity", "SrcDir": "docswiki", "SrcFile": "Virtual2021DefeasibleIdentity.md", "Referrer": "summits/Virtual2021Schedule.md"}
-      ]},
-      {"Section": "Bellingham 2020", "Pages": [
-        {"Page": "Bellingham Summit", "SrcDir": "docswiki", "SrcFile": "BellinghamTop.md", "Referrer": "home/DelphinNews.md"},
-        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "BellinghamParticipants.md", "Referrer": "summits/BellinghamTop.md"}
+        {"Page": "Cambridge Education", "SrcDir": "docswiki", "SrcFile": "CambridgeEducation.md", "Referrer": "summits/VirtualSchedule.md"}
       ]},
       {"Section": "Cambridge 2019", "Pages": [
-        {"Page": "Cambridge Summit", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "CambridgeTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "CambridgeSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "CambridgeParticipants.md", "Referrer": "summits/CambridgeTop.md"},
         {"Page": "Wh Events", "SrcDir": "docswiki", "SrcFile": "CambridgeWhEvents.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -630,8 +630,8 @@
         {"Page": "Extraction Append", "SrcDir": "docswiki", "SrcFile": "CambridgeExtractionAppend.md", "Referrer": "summits/CambridgeSchedule.md"}
       ]},
       {"Section": "SynSem at CAS 2017/2018", "Pages": [
-        {"Page": "SynSem", "SrcDir": "docswiki", "SrcFile": "SynSem.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "SynSem_Activities_PolymorphicVariadicPredicates", "SrcDir": "docswiki", "SrcFile": "SynSem_Activities_PolymorphicVariadicPredicates.md", "Referrer": "tools/RmrsDiscussions.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SynSem.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "Polymorphic Variadic Predicates", "SrcDir": "docswiki", "SrcFile": "SynSem_Activities_PolymorphicVariadicPredicates.md", "Referrer": "tools/RmrsDiscussions.md"}
       ]},
       {"Section": "Paris/Diderot 2018", "Pages": [
         {"Page": "Diderot Summit", "SrcDir": "docswiki", "SrcFile": "DiderotTop.md", "Referrer": "home/DelphinNews.md"},
@@ -646,61 +646,59 @@
         {"Page": "Rational Speech Acts", "SrcDir": "docswiki", "SrcFile": "DiderotRationalSpeechActs.md", "Referrer": "summits/DiderotSchedule.md"}
       ]},
       {"Section": "Oslo 2017", "Pages": [
-        {"Page": "Oslo Summit", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "OsloTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "OsloSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "OsloParticipants.md", "Referrer": "summits/OsloTop.md"},
         {"Page": "Scopal/Non-Scopal", "SrcDir": "docswiki", "SrcFile": "OsloScopalNonScopal.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Events/Instances", "SrcDir": "docswiki", "SrcFile": "OsloEventsInstances.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Question Representation", "SrcDir": "docswiki", "SrcFile": "OsloQuestionRepresentation.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "ResourcesAsAnnotatedData", "SrcDir": "docswiki", "SrcFile": "OsloResourcesAsAnnotatedData.md", "Referrer": "summits/OsloSchedule.md"},
+        {"Page": "Resources As Annotated Data", "SrcDir": "docswiki", "SrcFile": "OsloResourcesAsAnnotatedData.md", "Referrer": "summits/OsloSchedule.md"},
         {"Page": "ShapeWorld", "SrcDir": "docswiki", "SrcFile": "OsloShapeWorld.md", "Referrer": "summits/OsloSchedule.md"},
         {"Page": "InfoMorph", "SrcDir": "docswiki", "SrcFile": "OsloInfoMorph.md", "Referrer": "summits/OsloSchedule.md"},
         {"Page": "Wordnet", "SrcDir": "docswiki", "SrcFile": "OsloWordnet.md", "Referrer": "summits/OsloSchedule.md"},
-        {"Page": "AncientGreekCoordination", "SrcDir": "docswiki", "SrcFile": "OsloAncientGreekCoordination.md", "Referrer": "summits/OsloSchedule.md"},
-        {"Page": "MultilingualShapeworld", "SrcDir": "docswiki", "SrcFile": "MultilingualShapeworld.md", "Referrer": "summits/OsloSchedule.md"},
+        {"Page": "Ancient Greek Coordination", "SrcDir": "docswiki", "SrcFile": "OsloAncientGreekCoordination.md", "Referrer": "summits/OsloSchedule.md"},
+        {"Page": "Multilingual Shapeworld", "SrcDir": "docswiki", "SrcFile": "MultilingualShapeworld.md", "Referrer": "summits/OsloSchedule.md"},
         {"Page": "Excursion", "SrcDir": "docswiki", "SrcFile": "OsloExcursion.md", "Referrer": "summits/OsloSchedule.md"}
       ]},
       {"Section": "Capitol Hill 2017", "Pages": [
-        {"Page": "CapitolHillTop", "SrcDir": "docswiki", "SrcFile": "CapitolHillTop.md", "Referrer": "grammars/GrammarPerformance.md"},
-        {"Page": "CapitolHillDependencies", "SrcDir": "docswiki", "SrcFile": "CapitolHillDependencies.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillSmall2Large", "SrcDir": "docswiki", "SrcFile": "CapitolHillSmall2Large.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillChartMap", "SrcDir": "docswiki", "SrcFile": "CapitolHillChartMap.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillLearning", "SrcDir": "docswiki", "SrcFile": "CapitolHillLearning.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillDefiniteness", "SrcDir": "docswiki", "SrcFile": "CapitolHillDefiniteness.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillDiscourse", "SrcDir": "docswiki", "SrcFile": "CapitolHillDiscourse.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillLexicon", "SrcDir": "docswiki", "SrcFile": "CapitolHillLexicon.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillPerformance", "SrcDir": "docswiki", "SrcFile": "CapitolHillPerformance.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillPhDDesign", "SrcDir": "docswiki", "SrcFile": "CapitolHillPhDDesign.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillGenerationTesting", "SrcDir": "docswiki", "SrcFile": "CapitolHillGenerationTesting.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "CapitolHillSmall2Large", "SrcDir": "docswiki", "SrcFile": "CapitolHillSmall2Large.md", "Referrer": "home/GrammarDevelopment.md"},
-        {"Page": "CapitolHillPhDDesign", "SrcDir": "docswiki", "SrcFile": "CapitolHillPhDDesign.md", "Referrer": "home/GrammarDevelopment.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "CapitolHillTop.md", "Referrer": "grammars/GrammarPerformance.md"},
+        {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "CapitolHillDependencies.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Small to Large", "SrcDir": "docswiki", "SrcFile": "CapitolHillSmall2Large.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Chart Map", "SrcDir": "docswiki", "SrcFile": "CapitolHillChartMap.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Learning", "SrcDir": "docswiki", "SrcFile": "CapitolHillLearning.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Definiteness", "SrcDir": "docswiki", "SrcFile": "CapitolHillDefiniteness.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Discourse", "SrcDir": "docswiki", "SrcFile": "CapitolHillDiscourse.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Lexicon", "SrcDir": "docswiki", "SrcFile": "CapitolHillLexicon.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Performance", "SrcDir": "docswiki", "SrcFile": "CapitolHillPerformance.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "PhD Design", "SrcDir": "docswiki", "SrcFile": "CapitolHillPhDDesign.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Generation Testing", "SrcDir": "docswiki", "SrcFile": "CapitolHillGenerationTesting.md", "Referrer": "home/CapitolHillTop.md"}
       ]},
       {"Section": "Stanford 2016", "Pages": [
-        {"Page": "Stanford Summit", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "StanfordTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "StanfordSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "StanfordParticipants.md", "Referrer": "summits/StanfordTop.md"},
-        {"Page": "LADValenceChange", "SrcDir": "docswiki", "SrcFile": "LADValenceChange.md", "Referrer": "summits/StanfordMcValenceChangeFace.md"},
+        {"Page": "LAD Valence Change", "SrcDir": "docswiki", "SrcFile": "LADValenceChange.md", "Referrer": "summits/StanfordMcValenceChangeFace.md"},
         {"Page": "Alternative Sets", "SrcDir": "docswiki", "SrcFile": "StanfordAlternativeSets.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Crowgey Intrinsic Variable Notes", "SrcDir": "docswiki", "SrcFile": "StanfordCrowgeyIntrinsicVariableNotes.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Algebra Additions", "SrcDir": "docswiki", "SrcFile": "StanfordAlgebraAdditions.md", "Referrer": "concept/RmrsDiscussions.md"},
-        {"Page": "LtgOslo_Delphin", "SrcDir": "docswiki", "SrcFile": "LtgOslo_Delphin.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "MikeGNotes", "SrcDir": "docswiki", "SrcFile": "StanfordMikeGNotes.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "DMRSGraphDescriptionLanguage", "SrcDir": "docswiki", "SrcFile": "StanfordDMRSGraphDescriptionLanguage.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "OlgaZNotes", "SrcDir": "docswiki", "SrcFile": "StanfordOlgaZNotes.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "McValenceChangeFace", "SrcDir": "docswiki", "SrcFile": "StanfordMcValenceChangeFace.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "MalRules", "SrcDir": "docswiki", "SrcFile": "StanfordMalRules.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "MeaningRep", "SrcDir": "docswiki", "SrcFile": "StanfordMeaningRep.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "VerbalNouns", "SrcDir": "docswiki", "SrcFile": "StanfordVerbalNouns.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "LTG Site Update", "SrcDir": "docswiki", "SrcFile": "LtgOslo_Delphin.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "DMRS Graph Description Language", "SrcDir": "docswiki", "SrcFile": "StanfordDMRSGraphDescriptionLanguage.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Mc Valence Change Face", "SrcDir": "docswiki", "SrcFile": "StanfordMcValenceChangeFace.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Mal Rules", "SrcDir": "docswiki", "SrcFile": "StanfordMalRules.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Meaning Rep", "SrcDir": "docswiki", "SrcFile": "StanfordMeaningRep.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Verbal Nouns", "SrcDir": "docswiki", "SrcFile": "StanfordVerbalNouns.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "Senses", "SrcDir": "docswiki", "SrcFile": "StanfordSenses.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "ResourceSharing", "SrcDir": "docswiki", "SrcFile": "StanfordResourceSharing.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Resource Sharing", "SrcDir": "docswiki", "SrcFile": "StanfordResourceSharing.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "Utility", "SrcDir": "docswiki", "SrcFile": "StanfordUtility.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "MatrixFeedback", "SrcDir": "docswiki", "SrcFile": "StanfordMatrixFeedback.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Matrix Feedback", "SrcDir": "docswiki", "SrcFile": "StanfordMatrixFeedback.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "Graph", "SrcDir": "docswiki", "SrcFile": "StanfordGraph.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "Metagrammar", "SrcDir": "docswiki", "SrcFile": "StanfordMetagrammar.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "API", "SrcDir": "docswiki", "SrcFile": "StanfordAPI.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "Nltk", "SrcDir": "docswiki", "SrcFile": "StanfordNltk.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "NLTK", "SrcDir": "docswiki", "SrcFile": "StanfordNltk.md", "Referrer": "summits/StanfordSchedule.md"},
         {"Page": "Defaults", "SrcDir": "docswiki", "SrcFile": "StanfordDefaults.md", "Referrer": "summits/StanfordSchedule.md"},
-        {"Page": "ExternalResources", "SrcDir": "docswiki", "SrcFile": "StanfordExternalResources.md", "Referrer": "summits/StanfordSchedule.md"}
+        {"Page": "External Resources", "SrcDir": "docswiki", "SrcFile": "StanfordExternalResources.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Mike G. Notes", "SrcDir": "docswiki", "SrcFile": "StanfordMikeGNotes.md", "Referrer": "summits/StanfordSchedule.md"},
+        {"Page": "Olga Z. Notes", "SrcDir": "docswiki", "SrcFile": "StanfordOlgaZNotes.md", "Referrer": "summits/StanfordSchedule.md"}
       ]},
       {"Section": "Singapore 2015", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SingaporeTop.md", "Referrer": "home/DelphinNews.md"},
@@ -722,11 +720,11 @@
         {"Page": "Night Safari", "SrcDir": "docswiki", "SrcFile": "NightSafari.md", "Referrer": "summits/SingaporeSchedule.md"},
         {"Page": "Tutorial Planning", "SrcDir": "docswiki", "SrcFile": "SingaporeTutorialPlanning.md", "Referrer": "summits/SingaporeSchedule.md"},
         {"Page": "Jacy Pragmatics", "SrcDir": "docswiki", "SrcFile": "JacyPragmatics.md", "Referrer": "summits/SingaporeRepresentingPragmatics.md"},
-        {"Page": "LADChineseAnotA", "SrcDir": "docswiki", "SrcFile": "LADChineseAnotA.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "LADLushootseedSemantics", "SrcDir": "docswiki", "SrcFile": "LADLushootseedSemantics.md", "Referrer": "tools/RmrsDiscussions.md"}
+        {"Page": "A-not-A questions in Chinese", "SrcDir": "docswiki", "SrcFile": "LADChineseAnotA.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "Lushootseed Semantics", "SrcDir": "docswiki", "SrcFile": "LADLushootseedSemantics.md", "Referrer": "tools/RmrsDiscussions.md"}
       ]},
       {"Section": "Tomar 2014", "Pages": [
-        {"Page": "Tomar Summit", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TomarTop.md", "Referrer": "home/DelphinNews.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "TomarSchedule.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "TomarParticipants.md", "Referrer": "summits/TomarTop.md"},
         {"Page": "MRS Well-formedness", "SrcDir": "docswiki", "SrcFile": "TomarMrsWellformedness.md", "Referrer": "concept/RmrsDiscussions.md"},
@@ -771,10 +769,10 @@
         {"Page": "Tense", "SrcDir": "docswiki", "SrcFile": "SaarlandTense.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "ERG ICONS", "SrcDir": "docswiki", "SrcFile": "SaarlandIconsErg.md", "Referrer": "concept/RmrsDiscussions.md"},
         {"Page": "DelphinTutorial", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
-        {"Page": "DelphinTutorial_Processing", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Processing.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinTutorial_Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinTutorial_Distributions", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Distributions.md", "Referrer": "summits/DelphinTutorial.md"},
-        {"Page": "DelphinGlossary", "SrcDir": "docswiki", "SrcFile": "DelphinGlossary.md", "Referrer": "summits/DelphinTutorial.md"},
+        {"Page": "DelphinTutorial Processing", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Processing.md", "Referrer": "summits/DelphinTutorial.md"},
+        {"Page": "DelphinTutorial Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/DelphinTutorial.md"},
+        {"Page": "DelphinTutorial Distributions", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Distributions.md", "Referrer": "summits/DelphinTutorial.md"},
+        {"Page": "Delphin Glossary", "SrcDir": "docswiki", "SrcFile": "DelphinGlossary.md", "Referrer": "summits/DelphinTutorial.md"},
         {"Page": "MweTop", "SrcDir": "docswiki", "SrcFile": "MweTop.md", "Referrer": "summits/SaarlandMweDiscussion.md"},
         {"Page": "SaarlandTdlDiscussion", "SrcDir": "docswiki", "SrcFile": "SaarlandTdlDiscussion.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "SaarlandUseability", "SrcDir": "docswiki", "SrcFile": "SaarlandUseability.md", "Referrer": "summits/SaarlandSchedule.md"},

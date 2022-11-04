@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
       inputs:
         quickAndDirty:
-          description: 'TESTING ONLY: Set to "true" to generate the site quickly but without timestamps or other time-taking information'
+          description: 'TESTING ONLY: Set to "true" to generate the site quickly but without history being added to every page'
           required: true
           default: 'false'
 
