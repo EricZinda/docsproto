@@ -1,7 +1,7 @@
   {
-    "home": [
+    "garage": [
       {"Section": "Documentation", "Pages": [
-        {"Page": "ERDW_HowCurrentDocsAreBuilt", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "home/ERDW_StructureForNewDocsSite.md", "Referrer": "home/ERDW_StructureForNewDocsSite.md"}
+        {"Page": "ERDW_HowCurrentDocsAreBuilt", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "garage/ERDW_StructureForNewDocsSite.md", "Referrer": "garage/ERDW_StructureForNewDocsSite.md"}
       ]}
     ]
   }

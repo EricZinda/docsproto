@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to:  DelphinNtt
+redirect_to:  DocsQuickStart
 ---
