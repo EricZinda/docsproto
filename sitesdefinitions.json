@@ -1018,7 +1018,7 @@
         {"Page": "JimWhite", "SrcDir": "docswiki", "SrcFile": "JimWhite.md", "BaseReferrer": "summits/StanfordParticipants.md", "Referrer": "summits/StanfordParticipants.md", "FileMissing": true},
         {"Page": "VaryaGracheva", "SrcDir": "docswiki", "SrcFile": "VaryaGracheva.md", "BaseReferrer": "summits/TomarParticipants.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
         {"Page": "BenjaminWaldron", "SrcDir": "docswiki", "SrcFile": "BenjaminWaldron.md", "BaseReferrer": "summits/TomarParticipants.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
-        {"Page": "DominikusWetzel", "SrcDir": "docswiki", "SrcFile": "DominikusWetzel.md", "BaseReferrer": "summits/TomarParticipants.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true}
+        {"Page": "DominikusWetzel", "SrcDir": "docswiki", "SrcFile": "DominikusWetzel.md", "BaseReferrer": "summits/TomarParticipants.md", "Referrer": "summits/TomarParticipants.md", "FileMissing": true},
         {"Page": "PaperCuts", "SrcDir": "docswiki", "SrcFile": "PaperCuts.md", "BaseReferrer": "summits/SaarlandSchedule.md", "Referrer": "summits/SaarlandSchedule.md", "FileMissing": true},
         {"Page": "FrontPage", "SrcDir": "docswiki", "SrcFile": "FrontPage.md", "BaseReferrer": "summits/SaarlandAceAgree.md", "Referrer": "summits/SaarlandAceAgree.md", "FileMissing": true},
         {"Page": "SofiaIcons", "SrcDir": "docswiki", "SrcFile": "SofiaIcons.md", "BaseReferrer": "summits/SofiaSchedule.md", "Referrer": "summits/SofiaSchedule.md", "FileMissing": true},

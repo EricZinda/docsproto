@@ -83,7 +83,7 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: Fixes for broken links To Wiki pages that exist
+          name: Fixes for broken links To Wiki pages
           path: main/latestsrc/FixesForBrokenLinksToWikiPages.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
