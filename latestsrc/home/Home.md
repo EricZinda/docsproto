@@ -93,7 +93,7 @@ grammar.
 2016
   - [Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) of the ERG's semantic
 representations
-- [Catalogue of Grammars](https://blog.inductorsoftware.com/docsproto/garage/GrammarCatalogue), including
+- [Catalogue of Grammars](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue), including
 broad-coverage grammars for German, Japanese, Norwegian, and
 Spanish, along with significant grammars for several other
 languages.

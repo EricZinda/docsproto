@@ -1,6 +1,6 @@
 {% raw %}# DELPH-IN Grammars
 
-The [GrammarCatalogue](https://blog.inductorsoftware.com/docsproto/garage/GrammarCatalogue) page gives an overview of the
+The [GrammarCatalogue](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) page gives an overview of the
 existing DELPH-IN grammars, including the
 [ERG](http://www.delph-in.net/erg) and many other grammars ranging in
 size from broad-coverage to experimental.

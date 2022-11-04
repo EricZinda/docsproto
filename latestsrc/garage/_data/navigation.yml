@@ -12,10 +12,18 @@ main:
   - title: "Matrix"
     url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
   - title: "Garage"
-    url: https://blog.inductorsoftware.com/docsproto/garage/DelphinNtt
+    url: https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart
   - title: "Summits"
     url: https://blog.inductorsoftware.com/docsproto/summits/SummitTop
 toc:
+  - title: "Documentation"
+    children:
+      - title: "Quick Start"
+        url: "/DocsQuickStart/"
+      - title: "Reference"
+        url: "/DelphinDocsReference/"
+      - title: "Background"
+        url: "/ERDW_StructureForNewDocsSite/"
   - title: "Contributors"
     children:
       - title: "DelphinNtt"

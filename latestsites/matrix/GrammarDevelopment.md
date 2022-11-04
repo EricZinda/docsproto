@@ -1,5 +1,5 @@
 {% raw %}This page is an overview of techniques for (computational) grammar
-development, focusing especially on [grammars](https://blog.inductorsoftware.com/docsproto/garage/GrammarCatalogue) in the
+development, focusing especially on [grammars](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) in the
 DELPH-IN community based on the [Grammar Matrix](../MatrixTop).
 
 - [Growing your Grammar](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillSmall2Large) Ideas for developing
