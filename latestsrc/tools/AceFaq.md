@@ -31,7 +31,7 @@ example, in Jacy's pet/japanese.set file:
 
       punctuation-characters := "!\\"!&'()\*+,-−./;&lt;=&gt;?@\[\\\]^\_\`{\|}\~。！？…．　○●◎＊☆★◇◆" 
 
-ACE uses the REPP tokenizer (see [ReppTop](../ReppTop)) to accomplish this.
+ACE uses the REPP tokenizer (see [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop)) to accomplish this.
 The above can be made into a REPP rule as follows (where → is a tab
 character and ▁ is a space; note that special characters may need to be
 escaped):
@@ -160,5 +160,4 @@ or whatever number you like.
     publisher = "The COLING 2012 Organizing Committee",
     url = "https://www.aclweb.org/anthology/C12-1043",
     pages = "695--710"}
-
-Last update: 2021-06-21 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/AceFaq/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

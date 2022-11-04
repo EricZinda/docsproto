@@ -120,47 +120,46 @@ absolutely won't work for you.**
 
 1. [WoodleyPackard](/WoodleyPackard): Parsing under Non-Sumbsumptive
 Packing
-2. [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens): CLIMB +
-[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman): SinGram +
+2. [AntskeFokkens](../AntskeFokkens): CLIMB +
+[MichaelGoodman](../MichaelGoodman): SinGram +
 [DavidInman](/DavidInman): Reusing or Modifying Grammars for Closely
 Related Languages
-3. [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (consumer?): Approaches to handling
+3. [OlgaZamaraeva](../OlgaZamaraeva) (consumer?): Approaches to handling
 space/time challenges that occur with DELPH-IN software; possibility
 of running on EC2
-4. [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond): Quantum MRS
-5. [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong): Standardizing annotations over "The
+4. [FrancisBond](../FrancisBond): Quantum MRS
+5. [SanghounSong](../SanghounSong): Standardizing annotations over "The
 Adventure of the Speckled Band"
-6. [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens): The Grammar Matrix in individual
+6. [AntskeFokkens](../AntskeFokkens): The Grammar Matrix in individual
 grammars (what is used, what has been changed).
-7. [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger): Robust parsing with the ERG
-8. [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake): Sharing resources for MT using
+7. [DanFlickinger](../DanFlickinger): Robust parsing with the ERG
+8. [AnnCopestake](../AnnCopestake): Sharing resources for MT using
 DELPH-IN technology
-9. [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger),
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), [WoodleyPackard](/WoodleyPackard):
+9. [EmilyBender](../EmilyBender), [DanFlickinger](../DanFlickinger),
+[StephanOepen](../StephanOepen), [WoodleyPackard](/WoodleyPackard):
 Treebanker conference (LPP)
-10. [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen):
+10. [DanFlickinger](../DanFlickinger), [StephanOepen](../StephanOepen):
 semantics of names
-11. [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen): Formalism Revisions: Implications,
+11. [StephanOepen](../StephanOepen): Formalism Revisions: Implications,
 Relational Constraints
-12. [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan): Ubertagging (Introduction)
-13. [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden): Lagrange Multipliers
+12. [RebeccaDridan](../RebeccaDridan): Ubertagging (Introduction)
+13. [GlennSlayden](../GlennSlayden): Lagrange Multipliers
 14. [WoodleyPackard](/WoodleyPackard): Future Shared Tasks Winning
 Alliances
 
 ## Demonstrations
 
 1. [DavidInman](/DavidInman) (consumer): ACE
-2. [DavidMott](https://blog.inductorsoftware.com/docsproto/tools/DavidMott): Extraction and Use of Domain Semantics from
+2. [DavidMott](../DavidMott): Extraction and Use of Domain Semantics from
 NL Sentences
-3. [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden): agree
+3. [GlennSlayden](../GlennSlayden): agree
 
 ## Tutorials
 
-1. Tutorial: Setting up MT ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
+1. Tutorial: Setting up MT ([FrancisBond](../FrancisBond))
    
-   - [LilingTan](https://blog.inductorsoftware.com/docsproto/tools/LilingTan) (consumer?): Reviving LOGON for ERG + GG
+   - [LilingTan](../LilingTan) (consumer?): Reviving LOGON for ERG + GG
 (wishlist)
-2. [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman): pyDelphin: MRS feature extraction,
+2. [MichaelGoodman](../MichaelGoodman): pyDelphin: MRS feature extraction,
 format conversion, and batch processing
-
-Last update: 2014-07-25 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/TomarSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

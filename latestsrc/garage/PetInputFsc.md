@@ -184,7 +184,7 @@ The function should also be called before treebanking:
 
 ## Heart of Gold
 
-The Heart of Gold ([HeartofgoldTop](https://blog.inductorsoftware.com/docsproto/tools/HeartofgoldTop)) can be used to
+The Heart of Gold ([HeartofgoldTop](../HeartofgoldTop)) can be used to
 synthesize token feature structures from several modules. There are
 currently sessions defined for the ERG that combine jTok, TnT, and
 optionally SProUT output into FSC documents.
@@ -202,5 +202,4 @@ For **debian** and derivatives this means:
 rather than:
 
     apt-get install sudo apt-get install libxerces25 
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetInputFsc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

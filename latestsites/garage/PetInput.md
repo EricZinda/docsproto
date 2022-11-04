@@ -8,7 +8,7 @@ XML-based input formats have been developed. Please see the
 [PetInputFsc](../PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
-This page was predominantly authored by [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen),
+This page was predominantly authored by [StephanOepen](../StephanOepen),
 who is its current maintainer. Please do not make substantial changes
 unless you (a) are quite certain of the technical correctness of your
 revisions and (b) believe strongly that your changes are compatible with
@@ -421,7 +421,7 @@ sentence-final punctuation).
 
 The LKB includes a simple, finite-state tool to prepare textual input
 for parsing with PET, the *Regular Expression Pre-Processor* (REPP);
-please see the [ReppTop](https://blog.inductorsoftware.com/docsproto/tools/ReppTop) page for details. The ERG includes a
+please see the [ReppTop](../ReppTop) page for details. The ERG includes a
 set of string-level REPP rules to normalize inputs and determine
 (initial) tokenization; as one of its outputs formats, REPP supports the
 YY 2.0 conventions.
@@ -475,5 +475,4 @@ encode the parser input. See the [PetInputFsc](../PetInputFsc),
 [PetInputChart](../PetInputChart) and [SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
-
-Last update: 2011-11-02 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -17,5 +17,4 @@ application. For example:
    3 $ pip install pydelphin    # install to the environment
    4 
 ```
-
-Last update: 2021-07-01 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PyDelphinTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

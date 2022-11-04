@@ -1,6 +1,6 @@
 {% raw %}SIG discussion at [Tomar, 2014](../TomarTop) on the [Grammar
 Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocTop) in individual grammars (what is used, what has
-been changed), led by [Antske](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens).
+been changed), led by [Antske](../AntskeFokkens).
 
 * * *
 
@@ -367,5 +367,4 @@ Antske: The only other story I know of collaborative grammar
 engineering, they never worked at the same time. Writing in parallel
 makes it a pain to integrate. You should either sit together, or do
 things one after the other.
-
-Last update: 2015-08-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TomarMatrix/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

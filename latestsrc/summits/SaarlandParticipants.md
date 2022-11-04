@@ -3,94 +3,93 @@ Summit](../SaarlandTop), in St. Wendel, Saarland, Germany.
 
 - [LarsAhrenberg](/LarsAhrenberg)
 - [KatyaAlahverdzhieva](/KatyaAlahverdzhieva)
-- [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/tools/TaniaAvgustinova) (July 29 to Aug 2, commuting
+- [TaniaAvgustinova](../TaniaAvgustinova) (July 29 to Aug 2, commuting
 from SB)
-- [TimBaldwin](https://blog.inductorsoftware.com/docsproto/tools/TimBaldwin) (attending, 29-jul to 2-aug)
+- [TimBaldwin](../TimBaldwin) (attending, 29-jul to 2-aug)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) (attending, 29-jul to 2-aug)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) (attending, 29-jul to 2-aug: will be in
+- [EmilyBender](../EmilyBender) (attending, 29-jul to 2-aug)
+- [FrancisBond](../FrancisBond) (attending, 29-jul to 2-aug: will be in
 UdS before if you want to come early and play)
-- [AntonioBranco](https://blog.inductorsoftware.com/docsproto/tools/AntonioBranco) (July 29 (afternoon), 30 and 31
+- [AntonioBranco](../AntonioBranco) (July 29 (afternoon), 30 and 31
 (morning))
 - [DavidBrodbeck](/DavidBrodbeck)
 - [UlrichCallmeier](/UlrichCallmeier)
-- [JohnCarroll](https://blog.inductorsoftware.com/docsproto/tools/JohnCarroll) (unfortunately I can't make it)
+- [JohnCarroll](../JohnCarroll) (unfortunately I can't make it)
 - [SérgioCastro](/S%C3%A9rgioCastro)
-- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) (July 29 to Aug 2, leaving 13:00)
-- [FranciscoCosta](https://blog.inductorsoftware.com/docsproto/tools/FranciscoCosta) (July 29 (afternoon), 30 and 31
+- [AnnCopestake](../AnnCopestake) (July 29 to Aug 2, leaving 13:00)
+- [FranciscoCosta](../FranciscoCosta) (July 29 (afternoon), 30 and 31
 (morning))
-- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/tools/JoshuaCrowgey) (July 29 to Aug 2)
-- [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann) (3 days between July 29 and Aug
+- [JoshuaCrowgey](../JoshuaCrowgey) (July 29 to Aug 2)
+- [BertholdCrysmann](../BertholdCrysmann) (3 days between July 29 and Aug
 2, commuting from SB)
-- [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan) (July 29 to Aug 2)
+- [RebeccaDridan](../RebeccaDridan) (July 29 to Aug 2)
 - [LivEllingsen](/LivEllingsen)
-- [GuyEmerson](https://blog.inductorsoftware.com/docsproto/tools/GuyEmerson) (July 29 to Aug 2)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) (July 29 to Aug 2)
+- [GuyEmerson](../GuyEmerson) (July 29 to Aug 2)
+- [DanFlickinger](../DanFlickinger) (July 29 to Aug 2)
 - [LeaFrermann](/LeaFrermann)
-- [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens) (July 29 to Aug 2, leaving on the
+- [AntskeFokkens](../AntskeFokkens) (July 29 to Aug 2, leaving on the
 15:20 train on Friday afternoon)
 - [SanaeFujita](/SanaeFujita)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman) (July 30 and 1/2 to Aug 2)
-- [VaryaGracheva](https://blog.inductorsoftware.com/docsproto/tools/VaryaGracheva)
-- [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/tools/PetterHaugereid) (July 29 to Aug 2)
+- [MichaelGoodman](../MichaelGoodman) (July 30 and 1/2 to Aug 2)
+- [VaryaGracheva](../VaryaGracheva)
+- [PetterHaugereid](../PetterHaugereid) (July 29 to Aug 2)
 - [LarsHellan](/LarsHellan) (July 29 to Aug 2)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot) (probably July 29 - July 31)
 - [GordanaIlicHolen](/GordanaIlicHolen)
-- [AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/tools/AngelinaIvanova) (attending, probably 29 Jul - 2
+- [AngelinaIvanova](../AngelinaIvanova) (attending, probably 29 Jul - 2
 Aug)
 - [WalterKasper](/WalterKasper) (July 29 to July 31, commuting from
 SB)
 - [MartinKay](/MartinKay)
-- [BerndKiefer](https://blog.inductorsoftware.com/docsproto/tools/BerndKiefer) (attending July 29 to Aug 2, if possible)
-- [JongBokKim](https://blog.inductorsoftware.com/docsproto/tools/JongBokKim)
+- [BerndKiefer](../BerndKiefer) (attending July 29 to Aug 2, if possible)
+- [JongBokKim](../JongBokKim)
 - [PrescottKlassen](/PrescottKlassen) (attending July 29 to 12:00 PM
 Aug 2)
-- [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/tools/ValiaKordoni)
-- [AlexLascarides](https://blog.inductorsoftware.com/docsproto/tools/AlexLascarides) (unfortunately I can't make it)
-- [NedLetcher](https://blog.inductorsoftware.com/docsproto/tools/NedLetcher) (29 Jul - 2 Aug)
+- [ValiaKordoni](../ValiaKordoni)
+- [AlexLascarides](../AlexLascarides) (unfortunately I can't make it)
+- [NedLetcher](../NedLetcher) (29 Jul - 2 Aug)
 - [ElisabethLien](/ElisabethLien)
 - [JanToreLønning](/JanToreL%C3%B8nning)
 - [AndrewMacKinlay](/AndrewMacKinlay)
 - [MontserratMarimon](/MontserratMarimon) (29 Jul - 1 Aug)
 - [YusukeMiyao](/YusukeMiyao)
-- [DavidMott](https://blog.inductorsoftware.com/docsproto/tools/DavidMott) (29 Jul - 2 Aug)
+- [DavidMott](../DavidMott) (29 Jul - 2 Aug)
 - [MathieuMorey](/MathieuMorey) (tentatively yes, July 29 to Aug 2)
 - [EricNichols](/EricNichols)
-- [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen) (wouldn't miss it)
-- [PetyaOsenova](https://blog.inductorsoftware.com/docsproto/tools/PetyaOsenova) (29 Jul - 2 Aug)
+- [StephanOepen](../StephanOepen) (wouldn't miss it)
+- [PetyaOsenova](../PetyaOsenova) (29 Jul - 2 Aug)
 - [LiljaOvrelid](/LiljaOvrelid)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (attending, 29-jul to 2-aug)
-- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen)
+- [ZinaPozen](../ZinaPozen)
 - [JonathonRead](/JonathonRead)
 - [IvanSag](/IvanSag)
-- [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer) (conflict with school holidays,
+- [UlrichSchaefer](../UlrichSchaefer) (conflict with school holidays,
 trying to sort that out, probably part-time/commuting)
 - [MeganSchneider](/MeganSchneider)
 - [MelanieSiegel](/MelanieSiegel) (attending, July 29 - Aug. 2)
-- [JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva) (July 29 (afternoon), 30 and 31 (morning))
+- [JoaoSilva](../JoaoSilva) (July 29 (afternoon), 30 and 31 (morning))
 - [KirilSimov](/KirilSimov)
 - [IlianaSimova](/IlianaSimova)
-- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden) (July 29 to Aug 2 (through session 7))
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) (July 29 to Aug 2)
+- [GlennSlayden](../GlennSlayden) (July 29 to Aug 2 (through session 7))
+- [SanghounSong](../SanghounSong) (July 29 to Aug 2)
 - [MatsuzakiTakuya](/MatsuzakiTakuya)
-- [LilingTan](https://blog.inductorsoftware.com/docsproto/tools/LilingTan) (possibly 29Jul-2Aug, subject to supervisor's
+- [LilingTan](../LilingTan) (possibly 29Jul-2Aug, subject to supervisor's
 approval =))
-- [JesseTseng](https://blog.inductorsoftware.com/docsproto/tools/JesseTseng)
+- [JesseTseng](../JesseTseng)
 - [JunichiTsujii](/JunichiTsujii)
-- [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit) (July 30 - Aug 1)
-- [ErikVelldal](https://blog.inductorsoftware.com/docsproto/tools/ErikVelldal)
-- [BenjaminWaldron](https://blog.inductorsoftware.com/docsproto/tools/BenjaminWaldron)
+- [HansUszkoreit](../HansUszkoreit) (July 30 - Aug 1)
+- [ErikVelldal](../ErikVelldal)
+- [BenjaminWaldron](../BenjaminWaldron)
 - [RuiWang](/RuiWang) (attending, July 29 - Aug. 2)
 - [DavidWax](/DavidWax)
-- [DominikusWetzel](https://blog.inductorsoftware.com/docsproto/tools/DominikusWetzel)
-- [JimWhite](https://blog.inductorsoftware.com/docsproto/tools/JimWhite)
-- [FeiyuXu](https://blog.inductorsoftware.com/docsproto/tools/FeiyuXu)
+- [DominikusWetzel](../DominikusWetzel)
+- [JimWhite](../JimWhite)
+- [FeiyuXu](../FeiyuXu)
 - [JaehyungYang](/JaehyungYang)
-- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang) (It's a shame I can't make
+- [JustinChunleiYang](../JustinChunleiYang) (It's a shame I can't make
 it)
-- [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (attending, July 29 - Aug. 2)
-
-Last update: 2013-08-01 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/SaarlandParticipants/_edit)]{% endraw %}
+- [YiZhang](../YiZhang) (attending, July 29 - Aug. 2)
+<update date omitted for speed>{% endraw %}

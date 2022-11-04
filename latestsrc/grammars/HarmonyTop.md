@@ -32,7 +32,7 @@ Currently (2008-08-13) there is some variation among grammars:
 | which\_q\_rel       | *what*, *when*, ... |                     |                     |
 | nominalization\_rel |                     | nominalization\_rel | nominalization\_rel |
 
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) and [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) will
+- [DanFlickinger](../DanFlickinger) and [FrancisBond](../FrancisBond) will
 prpose a set of univerals and
   
   - send to the matrix-list
@@ -70,5 +70,4 @@ YYYY-MM-DD
 ERG will probably shorten to just YYYY for stable releases:
 
 - e.g. "ERG mal (2020)"
-
-Last update: 2020-06-23 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/HarmonyTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

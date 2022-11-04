@@ -2,7 +2,7 @@
 intro to the new work Sanghoun is doing.
 
 Discussion at the [2017 Grammar Engineering Meeting](../CapitolHillTop) led
-by [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong), scribed by [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond).
+by [SanghounSong](../SanghounSong), scribed by [FrancisBond](../FrancisBond).
 
 3 topics (SSH)
 
@@ -107,5 +107,4 @@ compare results from csaw with typediff
     --pcfg=something.pcfg 
 
 See [AceCsaw](https://blog.inductorsoftware.com/docsproto/tools/AceCsaw) for more information.
-
-Last update: 2017-08-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/CapitolHillLearning/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

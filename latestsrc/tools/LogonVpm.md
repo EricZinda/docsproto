@@ -245,8 +245,7 @@ their ARG0, say.
 # Cross References
 
 There is a discussion of how to delete and attribute for only some
-predicates at [NoJa](https://blog.inductorsoftware.com/docsproto/garage/NoJa).
+predicates at [NoJa](../NoJa).
 
 # ToDo
-
-Last update: 2009-01-23 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonVpm/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

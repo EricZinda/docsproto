@@ -3,9 +3,9 @@
 LisbonRepositoryDiscussion is the transcript of Discussion I on Thu
 2005-08-18 (11:00-11:45) in the [LisbonTop](../LisbonTop) meeting.
 
-Moderation: [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen)
+Moderation: [StephanOepen](../StephanOepen)
 
-Scribe: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer)
+Scribe: [UlrichSchaefer](../UlrichSchaefer)
 
 Stephan introduces motivation for the discussion.
 
@@ -100,5 +100,4 @@ available resources)
 funded projects to potential funders)
   - licensing: see Discussion VI: [Developing a standard DELPH-IN
 open source license](../LisbonLicensingDiscussion) on Friday
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonRepositoryDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

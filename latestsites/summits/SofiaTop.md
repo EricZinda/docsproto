@@ -31,8 +31,8 @@ levs: 175 levs). It can be paid either in levs, or in euros.
 # Schedule
 
 The scientific programme is emerging from a collaborative process,
-coordinated by [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) and
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), on the [SofiaSchedule](../SofiaSchedule)
+coordinated by [AnnCopestake](../AnnCopestake) and
+[StephanOepen](../StephanOepen), on the [SofiaSchedule](../SofiaSchedule)
 page; please note that last-minute adjustments are still possible.
 
 # Accommodation
@@ -114,5 +114,4 @@ photos](http://erbonzo.smugmug.com/Travel/DELPH-IN-Sofia/23901441_q3T259)
 password: mirrorhall
 - [Sanghoun's
 photos](https://picasaweb.google.com/106261683885290415644/Sofia?authuser=0&authkey=Gv1sRgCI-bzKaQ8Nipcg&feat=directlink)
-
-Last update: 2012-08-17 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/SofiaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

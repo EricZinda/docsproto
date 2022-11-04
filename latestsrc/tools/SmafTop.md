@@ -6,7 +6,7 @@ of data packaged for input to a deep processor/parser such as the LKB or
 PET. This XML-input format is an amalgamation of ideas taken from (and
 intended to subsume) [MAF](http://atoll.inria.fr/perl/maf/mafhelp.html),
 the Pet Input Chart used in the HoG system
-([HeartofgoldTop](../HeartofgoldTop)), the SPPP ([LkbSppp](../LkbSppp)) mode
+([HeartofgoldTop](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop)), the SPPP ([LkbSppp](../LkbSppp)) mode
 implemented in the LKB, and
 [SAF](http://www.cl.cam.ac.uk/~bmw20/Papers/NLPXML06-SAF.pdf), and
 incorporates RMRS XML.
@@ -135,5 +135,4 @@ See also: [SmafSample](../SmafSample)
 # SMAF DTD
 
 See [SmafDtd](../SmafDtd).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -2,7 +2,7 @@
 
 Moderator: [WoodleyPackard](/WoodleyPackard)
 
-Scribe: [Jeff Good](https://blog.inductorsoftware.com/docsproto/tools/JeffGood)
+Scribe: [Jeff Good](../JeffGood)
 
 ### Background
 
@@ -15,7 +15,7 @@ Many of the projects affiliated with DELPH-IN have already adopted
 licenses of one sort or another. Some have no license. This is
 summarized here:
 
-- [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), [Heart of Gold](https://blog.inductorsoftware.com/docsproto/tools/HeartofgoldTop), and [\[incr
+- [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop), and [\[incr
 tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\] are all licensed under the [GNU Lesser General
 Public License (LGPL)](http://www.gnu.org/copyleft/lesser.html)
 - The [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop), ERG, and the [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop) are all licensed
@@ -85,7 +85,7 @@ members, it was suggested that members from projects who have chosen a
 license discuss why they chose a particular license on the wiki. This
 discussion may be helpful to projects which have not yet chosen a
 license. The relevant wiki articles can be linked to from the
-[LicensingChoices](https://blog.inductorsoftware.com/docsproto/tools/LicensingChoices) page.
+[LicensingChoices](../LicensingChoices) page.
 
 ### Delph-In policies regarding licenses
 
@@ -115,9 +115,8 @@ is associating the DELPH-IN wiki with an appropriate license. One of the
 [Creative Commons](http://creativecommons.org/) licenses might be
 appropriate.
 
-[AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) was unanimously approved as the DELPH-IN
+[AnnCopestake](../AnnCopestake) was unanimously approved as the DELPH-IN
 member in charge of doing further research on a license for the wiki.
 She is encouraged to contact those who have already contributed to the
 wiki in deciding on a license for it.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonLicensingDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

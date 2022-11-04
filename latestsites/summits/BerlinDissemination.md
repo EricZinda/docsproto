@@ -1,8 +1,8 @@
 {% raw %}# Availability of DELPH-IN Tools for Online Demos, Modes of Cooperation among the DELPH-IN Partners, Dissemination
 
-Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/tools/HansUszkoreit)
+Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](../HansUszkoreit)
 
-Scribe: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer)
+Scribe: [UlrichSchaefer](../UlrichSchaefer)
 
 Thu, 23 Aug 1135-1300
 
@@ -109,5 +109,4 @@ responsibility?
   - Google visibility: PARGRAM vs. DELPH-IN
   - web page: color scheme, content, news, publications
   - cf. Fefor 2006 discussion ...
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinDissemination/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

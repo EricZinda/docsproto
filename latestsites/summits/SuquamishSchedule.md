@@ -8,45 +8,45 @@ two days with opportunities for small-group (parallel) activities.
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Saturday 6/25** |                                                                                                                                                                                        |
 | **10:00-12:30**   | *Session 1* (Site Updates; Coffee Available in the Meeting Room)                                                                                                                       |
-| 10:00-10:15       | [Melbourne Status Update](http://www.delph-in.net/2011/melbourne.pdf) ([TimBaldwin](https://blog.inductorsoftware.com/docsproto/tools/TimBaldwin))                                                                                       |
-| 10:15-10:30       | [Lisbon Status Update](http://www.delph-in.net/2011/lisbon.pdf) ([JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva))                                                                                               |
-| 10:30-10:45       | [Oslo Status Update](http://www.delph-in.net/2011/oslo.pdf) ([StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen))                                                                                             |
-| 10:45-11:00       | [Saarbruecken Status Update](http://www.delph-in.net/2011/saarland.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                                                                           |
-| 11:00-11:15       | [Seoul Status Update](http://www.delph-in.net/2011/krg.pdf) ([JongBokKim](https://blog.inductorsoftware.com/docsproto/tools/JongBokKim))                                                                                                 |
-| 11:15-11:30       | [Singapore Status Update](http://www.delph-in.net/2011/singapore.pdf) ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))                                                                                     |
-| 11:30-11:45       | Stanford Status Update ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                                                                                                |
-| 11:45-12:00       | [Washington Status Update](http://www.delph-in.net/2011/washington.pdf) ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender))                                                                                   |
+| 10:00-10:15       | [Melbourne Status Update](http://www.delph-in.net/2011/melbourne.pdf) ([TimBaldwin](../TimBaldwin))                                                                                       |
+| 10:15-10:30       | [Lisbon Status Update](http://www.delph-in.net/2011/lisbon.pdf) ([JoaoSilva](../JoaoSilva))                                                                                               |
+| 10:30-10:45       | [Oslo Status Update](http://www.delph-in.net/2011/oslo.pdf) ([StephanOepen](../StephanOepen))                                                                                             |
+| 10:45-11:00       | [Saarbruecken Status Update](http://www.delph-in.net/2011/saarland.pdf) ([YiZhang](../YiZhang))                                                                                           |
+| 11:00-11:15       | [Seoul Status Update](http://www.delph-in.net/2011/krg.pdf) ([JongBokKim](../JongBokKim))                                                                                                 |
+| 11:15-11:30       | [Singapore Status Update](http://www.delph-in.net/2011/singapore.pdf) ([FrancisBond](../FrancisBond))                                                                                     |
+| 11:30-11:45       | Stanford Status Update ([DanFlickinger](../DanFlickinger))                                                                                                                                |
+| 11:45-12:00       | [Washington Status Update](http://www.delph-in.net/2011/washington.pdf) ([EmilyBender](../EmilyBender))                                                                                   |
 | 12:00-12:15       |                                                                                                                                                                                        |
 | 12:30-13:30       | Lunch                                                                                                                                                                                  |
 | **13:30-15:30**   | *Session 2* (Machine Translation)                                                                                                                                                      |
-| 13:30-13:55       | [Using Information Structure to Improve MT](http://www.delph-in.net/2011/sanghoun.pdf) ([SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong))                                                                  |
-| 13:55-14:20       | [JaEn: Large-Scale Rule Acquisition](http://www.delph-in.net/2011/jaen.pdf) ([PetterHaugereid](https://blog.inductorsoftware.com/docsproto/tools/PetterHaugereid))                                                                       |
-| 14:20-15:00       | [Discussion: MRS-WordNet Integration](../SuquamishMRSWordNet) ([Slides](http://www.delph-in.net/2011/wn.pdf)) (Moderator: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond); Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender)) |
+| 13:30-13:55       | [Using Information Structure to Improve MT](http://www.delph-in.net/2011/sanghoun.pdf) ([SanghounSong](../SanghounSong))                                                                  |
+| 13:55-14:20       | [JaEn: Large-Scale Rule Acquisition](http://www.delph-in.net/2011/jaen.pdf) ([PetterHaugereid](../PetterHaugereid))                                                                       |
+| 14:20-15:00       | [Discussion: MRS-WordNet Integration](../SuquamishMRSWordNet) ([Slides](http://www.delph-in.net/2011/wn.pdf)) (Moderator: [FrancisBond](../FrancisBond); Scribe: [EmilyBender](../EmilyBender)) |
 | 15:30-16:00       | Coffee Break                                                                                                                                                                           |
 | **16:00-18:00**   | *Session 3* (Applications)                                                                                                                                                             |
-| 16:00-16:30       | [Grammar-Checking in Sentence Composition using the ERG](http://www.delph-in.net/2011/dan.pdf) ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                        |
-| 16:30-16:50       | [Deep DARE: Dependency Graphs as a Generic Interface between Parsers and Relation Extraction Rule Learning](http://www.delph-in.net/2011/dare.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                |
-| 16:50-17:10       | [Minimally Supervised Domain-Adaptive Parse-Reranking for Relation Extraction](http://www.delph-in.net/2011/reranking.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                        |
+| 16:00-16:30       | [Grammar-Checking in Sentence Composition using the ERG](http://www.delph-in.net/2011/dan.pdf) ([DanFlickinger](../DanFlickinger))                                                        |
+| 16:30-16:50       | [Deep DARE: Dependency Graphs as a Generic Interface between Parsers and Relation Extraction Rule Learning](http://www.delph-in.net/2011/dare.pdf) ([YiZhang](../YiZhang))                |
+| 16:50-17:10       | [Minimally Supervised Domain-Adaptive Parse-Reranking for Relation Extraction](http://www.delph-in.net/2011/reranking.pdf) ([YiZhang](../YiZhang))                                        |
 | 17:10-17:30       | [Minimal Recursion Semantics and Query-Focused Text Summarization](http://www.delph-in.net/2011/prescott.pdf) ([PrescottKlassen](/PrescottKlassen))                                    |
-| 17:30-18:00       | [Report from ACL2011 Birds-of-a-Feather Meeting](../BirdsofaFeather2011) ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                  |
+| 17:30-18:00       | [Report from ACL2011 Birds-of-a-Feather Meeting](../BirdsofaFeather2011) ([EmilyBender](../EmilyBender) and [DanFlickinger](../DanFlickinger))                                                  |
 
 |                 |                                                                                                                                                                                                                      |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sunday 6/26** |                                                                                                                                                                                                                      |
 | **9:00-10:30**  | *Session 4* (Grammar Engineering) -- Kitsap Room                                                                                                                                                                     |
-| 9:00-9:40       | [Metagrammar Engineering in a Multi-Lingual Context](http://www.delph-in.net/2011/antske.pdf) ([AntskeFokkens](https://blog.inductorsoftware.com/docsproto/tools/AntskeFokkens))                                                                                       |
+| 9:00-9:40       | [Metagrammar Engineering in a Multi-Lingual Context](http://www.delph-in.net/2011/antske.pdf) ([AntskeFokkens](../AntskeFokkens))                                                                                       |
 | 9:40-10:00      | [Matrix Odin Mash-up: Potential for Automated Grammar Generation from Linguistically Rich Data](http://www.delph-in.net/2011/mom.pdf) ([DavidWax](/DavidWax))                                                        |
-| 10:00-10:30     | [Discussion: Grammar Indexing/Documentation: How can we Annotate Grammars To Map Constraints To Phenomena](../SuquamishGrammarIndexing) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender): Scribe: [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan)) |
+| 10:00-10:30     | [Discussion: Grammar Indexing/Documentation: How can we Annotate Grammars To Map Constraints To Phenomena](../SuquamishGrammarIndexing) (Moderator: [EmilyBender](../EmilyBender): Scribe: [RebeccaDridan](../RebeccaDridan)) |
 | 10:30-11:00     | Coffee Break                                                                                                                                                                                                         |
 | **11:00-12:00** | *Session 5* (Mandarin) -- Kitsap Room                                                                                                                                                                                |
-| 11:00-11:30     | [Status Report on the Mandarin Chinese Grammar](http://www.delph-in.net/2011/mcg.pdf) (MCG) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                                                                                     |
-| 11:30-12:00     | [Mandarin Grammar On-Line: ManGO](http://www.delph-in.net/2011/mango.pdf) ([JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang))                                                                                                   |
+| 11:00-11:30     | [Status Report on the Mandarin Chinese Grammar](http://www.delph-in.net/2011/mcg.pdf) (MCG) ([YiZhang](../YiZhang))                                                                                                     |
+| 11:30-12:00     | [Mandarin Grammar On-Line: ManGO](http://www.delph-in.net/2011/mango.pdf) ([JustinChunleiYang](../JustinChunleiYang))                                                                                                   |
 | 12:00-13:00     | Lunch -- Lobby                                                                                                                                                                                                       |
 | **13:00-15:00** | *Session 6* (Resources; Coffee Available in the Meeting Room) -- Kitsap Room                                                                                                                                         |
 | 13:00-13:25     | [Updates from NTNU](http://www.delph-in.net/2011/ntnu.pdf) ([DorotheeBeermann](/DorotheeBeermann))                                                                                                                   |
-| 13:25-13:50     | [Reliability Metrics and Validation Tools for Datasets with Deep Linguistic Information](http://www.delph-in.net/2011/sergio.pdf) ([JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva))                                                           |
-| 13:50-14:15     | [Multilingual Parallel Corpus Annotation: Using the Little Prince](http://www.delph-in.net/2011/prince.pdf) ([SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) and [VaryaGracheva](https://blog.inductorsoftware.com/docsproto/tools/VaryaGracheva))                                        |
-| 14:15-15:00     | [PanLex: A Panlingual Lexicon](http://www.delph-in.net/2011/panlex.pdf) ([JonathanPool](https://blog.inductorsoftware.com/docsproto/tools/JonathanPool) and [SusanColowick](/SusanColowick))                                                                           |
+| 13:25-13:50     | [Reliability Metrics and Validation Tools for Datasets with Deep Linguistic Information](http://www.delph-in.net/2011/sergio.pdf) ([JoaoSilva](../JoaoSilva))                                                           |
+| 13:50-14:15     | [Multilingual Parallel Corpus Annotation: Using the Little Prince](http://www.delph-in.net/2011/prince.pdf) ([SanghounSong](../SanghounSong) and [VaryaGracheva](../VaryaGracheva))                                        |
+| 14:15-15:00     | [PanLex: A Panlingual Lexicon](http://www.delph-in.net/2011/panlex.pdf) ([JonathanPool](../JonathanPool) and [SusanColowick](/SusanColowick))                                                                           |
 | **15:10**       | Shuttle Departs for Excursion                                                                                                                                                                                        |
 | 16:00-21:00     | Excursion to Tillicum Village                                                                                                                                                                                        |
 
@@ -54,24 +54,24 @@ two days with opportunities for small-group (parallel) activities.
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Monday 6/27** |                                                                                                                                                                                                                                      |
 | **9:00-10:30**  | *Session 7* (Parsing) -- Kitsap Room                                                                                                                                                                                                 |
-| 9:00 -9:30      | [Unsupervised Parse Selection](http://www.delph-in.net/2011/bec.pdf) ([RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan))                                                                                                                                |
-| 9:30-10:00      | [Domain Adaptation for Parse Selection and Tree Blazing](http://www.delph-in.net/2011/tim.pdf) ([TimBaldwin](https://blog.inductorsoftware.com/docsproto/tools/TimBaldwin))                                                                                                            |
-| 10:00-10:30     | [Large-Scale Corpus-Driven PCFG Approximation of the ERG: 50 Million Trees, is it Enough?](http://www.delph-in.net/2011/pcfg.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                                                               |
+| 9:00 -9:30      | [Unsupervised Parse Selection](http://www.delph-in.net/2011/bec.pdf) ([RebeccaDridan](../RebeccaDridan))                                                                                                                                |
+| 9:30-10:00      | [Domain Adaptation for Parse Selection and Tree Blazing](http://www.delph-in.net/2011/tim.pdf) ([TimBaldwin](../TimBaldwin))                                                                                                            |
+| 10:00-10:30     | [Large-Scale Corpus-Driven PCFG Approximation of the ERG: 50 Million Trees, is it Enough?](http://www.delph-in.net/2011/pcfg.pdf) ([YiZhang](../YiZhang))                                                                               |
 | 10:30-11:00     | Coffee Break                                                                                                                                                                                                                         |
 | **11:00-12:30** | *Session 8* (Tools) -- Kitsap Room                                                                                                                                                                                                   |
-| 11:00-11:30     | [N-Way Unification](http://www.delph-in.net/2011/glenn.pdf) ([GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden))                                                                                                                                           |
-| 11:30-12:30     | [Discussion: The Long-Term Health of the DELPH-IN Ecosystem](../SuquamishDelphinEcology) (Moderator: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender); Scribe: [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden))                                                                  |
+| 11:00-11:30     | [N-Way Unification](http://www.delph-in.net/2011/glenn.pdf) ([GlennSlayden](../GlennSlayden))                                                                                                                                           |
+| 11:30-12:30     | [Discussion: The Long-Term Health of the DELPH-IN Ecosystem](../SuquamishDelphinEcology) (Moderator: [EmilyBender](../EmilyBender); Scribe: [GlennSlayden](../GlennSlayden))                                                                  |
 | 12:30-13:30     | Lunch -- Lobby                                                                                                                                                                                                                       |
 | **13:30-15:00** | *Session 8* (Tools) -- Kitsap Room                                                                                                                                                                                                   |
-| 13:30-14:00     | [Assigning Lexical Types with Tree Kernels](http://www.delph-in.net/2011/joao.pdf) ([JoaoSilva](https://blog.inductorsoftware.com/docsproto/tools/JoaoSilva))                                                                                                                          |
+| 13:30-14:00     | [Assigning Lexical Types with Tree Kernels](http://www.delph-in.net/2011/joao.pdf) ([JoaoSilva](../JoaoSilva))                                                                                                                          |
 | 14:00-14:20     | Updates on the SRG, Tibidabo Treebank, and the METANET4U project ([MontserratMarimon](/MontserratMarimon))                                                                                                                           |
-| 14:20-14:40     | [Discussion: Shared C++ MRS Library and Tools](../SuquamishDelphinLibMRS) (Moderator: [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang); Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender))                                                                                           |
-| 14:40-15:00     | [Discussion: Shared Python/Perl Tools](../SuquamishDelphinLibP) (Moderator: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond); Scribe: [WoodleyPackard](/WoodleyPackard))                                                                                      |
+| 14:20-14:40     | [Discussion: Shared C++ MRS Library and Tools](../SuquamishDelphinLibMRS) (Moderator: [YiZhang](../YiZhang); Scribe: [EmilyBender](../EmilyBender))                                                                                           |
+| 14:40-15:00     | [Discussion: Shared Python/Perl Tools](../SuquamishDelphinLibP) (Moderator: [FrancisBond](../FrancisBond); Scribe: [WoodleyPackard](/WoodleyPackard))                                                                                      |
 | 15:00-15:30     | Coffee Break                                                                                                                                                                                                                         |
 | **15:30-17:30** | *Session 9* (Wrap-Up) -- Kitsap Room                                                                                                                                                                                                 |
-| 15:30-16:00     | [Discussion: Formal Specifications of DELPH-IN Representations](https://blog.inductorsoftware.com/docsproto/tools/FormatSpecifications), e.g. What is a Well-Formed Representation of an MRS (Moderator: [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman); Scribe: [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/tools/PetterHaugereid)) |
+| 15:30-16:00     | [Discussion: Formal Specifications of DELPH-IN Representations](https://blog.inductorsoftware.com/docsproto/tools/FormatSpecifications), e.g. What is a Well-Formed Representation of an MRS (Moderator: [MichaelGoodman](../MichaelGoodman); Scribe: [PetterHaugereid](../PetterHaugereid)) |
 | 16:00-16:30     | Planning for Small-Group Acitivities                                                                                                                                                                                                 |
-| 16:30-17:00     | [Business Meeting](../SuquamishBusinessMeeting) (Secretary: [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))                                                                                                                                                 |
+| 16:30-17:00     | [Business Meeting](../SuquamishBusinessMeeting) (Secretary: [FrancisBond](../FrancisBond))                                                                                                                                                 |
 
 ### Small group activities
 
@@ -102,7 +102,7 @@ participating in the activity:
 Tuesday AM
   
   - Stephan, Yi, Antske, Sanghoun, Laurie, Dan
-- AGREE parser evaluation ([GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden))
+- AGREE parser evaluation ([GlennSlayden](../GlennSlayden))
   
   - Stephan, David, (Emily), Dan, Woodley, Lea, Yi
 - Summarization/QA SIG
@@ -124,8 +124,8 @@ Sanghoun, Varya (if on Tuesday), Lea, Joshua, Justin, Iliana,
 - Documentation party: Integration of external morphological analysers
 (Emily)
   - Antske, Rebecca, Michael, (Varya), Montse, Laurie, (Yi)
-- Lattice-based (super)tagging ([RebeccaDridan](https://blog.inductorsoftware.com/docsproto/tools/RebeccaDridan) and
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen))
+- Lattice-based (super)tagging ([RebeccaDridan](../RebeccaDridan) and
+[StephanOepen](../StephanOepen))
   
   - Francis, Yi, (David), (Michael), (Lea), (Woodley), (Prescott)
 - Ambiguation, Disambiguation, Lexical Semantics, WordNet, OntoNotes
@@ -135,7 +135,7 @@ and DELPH-IN (Francis, Stephan)
 Iliana, (Varya), (Petter), Dan, Woodley, Laurie, Glenn,
 (Prescott)
 - Robust parsing '100% coverage considered beneficial'
-([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))
+([DanFlickinger](../DanFlickinger))
   
   - Yi, Emily, Stephan, Montse (leaving tomorrow in the afternoon),
 Rebecca, (Sanghoun), (Antske), Lea, Justin, Francis, Varya (if
@@ -154,5 +154,4 @@ on Tuesday), David, (Petter), (Woodley), Glenn
 - Francis Bond (NTU) Program Chair
 - Stephan Oepen (Oslo) Program Chair
 - Emily M. Bender (UW) Local Organizer
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SuquamishSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

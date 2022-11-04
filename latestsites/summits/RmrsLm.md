@@ -2,16 +2,16 @@
 
 ## Participants
 
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
+- [FrancisBond](../FrancisBond)
 - [PrescottKlassen](/PrescottKlassen)
-- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong)
+- [ZinaPozen](../ZinaPozen)
+- [SanghounSong](../SanghounSong)
 - [SpencerRarricks](/SpencerRarricks)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
-- [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) (scribe)
-- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden)
+- [MichaelGoodman](../MichaelGoodman)
+- [EmilyBender](../EmilyBender) (scribe)
+- [GlennSlayden](../GlennSlayden)
 - [WoodleyPackard](/WoodleyPackard)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) (by Skype)
+- [DanFlickinger](../DanFlickinger) (by Skype)
 
 ## Use cases
 
@@ -606,5 +606,4 @@ of the 10th International Conference on Theoretical and
 Methodological Issues in Machine Translation, Skövde, Sweden, 2007.
 - E. Velldal. Empirical Realization Ranking Ph.D. thesis, Department
 of Informatics, University of Oslo Oslo, Norway, 2008
-
-Last update: 2020-07-17 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/RmrsLm/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

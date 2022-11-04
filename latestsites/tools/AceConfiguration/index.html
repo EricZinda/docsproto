@@ -127,11 +127,11 @@
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
             </li><li class="masthead__menu-item">
-              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue">Grammars</a>
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop">Grammars</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
             </li><li class="masthead__menu-item">
-              <a href="https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart">Garage</a>
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
             </li></ul>
@@ -347,7 +347,7 @@
     
       <li>
         
-          <span class="nav__sub-title">[incr tsdb()]</span>
+          <span class="nav__sub-title">LKB [incr tsdb()]</span>
         
 
         
@@ -391,6 +391,8 @@
           
             <li><a href="/docsproto/tools/LogonTop/">Overview</a></li>
           
+            <li><a href="/docsproto/tools/LogonInstallation/">Installation</a></li>
+          
             <li><a href="/docsproto/tools/LogonRedhat/">Red Hat</a></li>
           
             <li><a href="/docsproto/tools/LogonUbuntu/">Ubuntu</a></li>
@@ -413,8 +415,6 @@
           
             <li><a href="/docsproto/tools/LogonExtras/">Extras</a></li>
           
-            <li><a href="/docsproto/tools/LogonInstallation/">Installation</a></li>
-          
             <li><a href="/docsproto/tools/LogonReports/">Reports</a></li>
           
             <li><a href="/docsproto/tools/LogonProcessing/">Processing</a></li>
@@ -427,9 +427,11 @@
           
             <li><a href="/docsproto/tools/LogonTransfer/">Transfer</a></li>
           
-            <li><a href="/docsproto/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
-          
             <li><a href="/docsproto/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docsproto/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docsproto/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
           
             <li><a href="/docsproto/tools/LogonWishlist/">Wishlist</a></li>
           
@@ -557,47 +559,19 @@
           
             <li><a href="/docsproto/tools/SmafTop/">SMAF</a></li>
           
-            <li><a href="/docsproto/tools/SmafLkb/">Smaf in LKB</a></li>
+            <li><a href="/docsproto/tools/SmafLkb/">SMAF in LKB</a></li>
           
-            <li><a href="/docsproto/tools/SmafPet/">Smaf in PET</a></li>
+            <li><a href="/docsproto/tools/SmafPet/">SMAF in PET</a></li>
           
-            <li><a href="/docsproto/tools/SmafSample/">Smaf Sample</a></li>
+            <li><a href="/docsproto/tools/SmafSample/">SMAF Sample</a></li>
           
-            <li><a href="/docsproto/tools/SmafDtd/">Smaf DTD</a></li>
-          
-            <li><a href="/docsproto/tools/IconsSpecs/">Icons Specs</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Misc</span>
-        
-
-        
-        <ul>
-          
-            <li><a href="/docsproto/tools/DelphinTools/">Delphin Tools</a></li>
-          
-            <li><a href="/docsproto/tools/VistaExtractionTop/">Vista Extraction</a></li>
-          
-            <li><a href="/docsproto/tools/ReppTop/">Regular Expression Pre-Processor</a></li>
-          
-            <li><a href="/docsproto/tools/TestingWithAnt/">Testing With Ant</a></li>
-          
-            <li><a href="/docsproto/tools/HeartofgoldTop/">Heart of Gold</a></li>
-          
-            <li><a href="/docsproto/tools/HogInstallation/">Hog Installation</a></li>
-          
-            <li><a href="/docsproto/tools/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
-          
-            <li><a href="/docsproto/tools/SafFspp/">Finite-State PreProcessor</a></li>
+            <li><a href="/docsproto/tools/SmafDtd/">SMAF DTD</a></li>
           
             <li><a href="/docsproto/tools/SafTop/">SAF Overview</a></li>
           
             <li><a href="/docsproto/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docsproto/tools/IconsSpecs/">Icons Specs</a></li>
           
         </ul>
         
@@ -967,86 +941,27 @@ relative to the configuration file’s location.</p>
 
 <p>General Configuration</p>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>transfer</td>
-      <td>enabled or disabled. defaults to disabled. when enabled, ACE processes transfer grammars instead of syntactic grammars. adjustment of several MRS configuration parameters may be necessary.</td>
-    </tr>
-    <tr>
-      <td>spanning-only-rules</td>
-      <td>list of rules to only allow in the spanning chart cell</td>
-    </tr>
-    <tr>
-      <td>fragment-only-rules</td>
-      <td>list of rules to only allow when fragment parsing is enabled</td>
-    </tr>
-    <tr>
-      <td>hyper-active-rules</td>
-      <td>list of rules for which hyperactive parsing should be used</td>
-    </tr>
-    <tr>
-      <td>deleted-daughters</td>
-      <td>list of features to delete on new passive edges</td>
-    </tr>
-    <tr>
-      <td>parsing-packing-restrictor</td>
-      <td>list of features to suppress until unpacking while parsing</td>
-    </tr>
-    <tr>
-      <td>generation-packing-restrictor</td>
-      <td>list of features to suppress until unpacking while generating</td>
-    </tr>
-    <tr>
-      <td>mrs-deleted-roles</td>
-      <td>list of features on internal MRS variable AVMs that should not be exported when presenting final MRSes (superceded by VPM?)</td>
-    </tr>
-    <tr>
-      <td>parsing-roots</td>
-      <td>list of root instances enabled for parsing</td>
-    </tr>
-    <tr>
-      <td>generation-roots</td>
-      <td>list of root instances enabled for generation</td>
-    </tr>
-    <tr>
-      <td>non-idiom-root</td>
-      <td>the name of an instance to check against all parsing results to see whether further idiom processing is required</td>
-    </tr>
-    <tr>
-      <td>generic-les-for-semantic-index</td>
-      <td>list of the names of the generic lexemes that can be used to provide an unknown relation in generation</td>
-    </tr>
-    <tr>
-      <td>ortho-max-rules</td>
-      <td>maximum length of a chain of orthographemic rules to allow in parsing</td>
-    </tr>
-    <tr>
-      <td>ortho-warn-on-max-rules</td>
-      <td>whether to print a warning when the limit of orthographemic rules is reached</td>
-    </tr>
-    <tr>
-      <td>freezer-megabytes</td>
-      <td>defaults to 256; make it bigger if you get a warning about it.</td>
-    </tr>
-    <tr>
-      <td>irregular-form-rule-suffix</td>
-      <td>a string to append to the rule names found in irregular form tables.</td>
-    </tr>
-    <tr>
-      <td>invent-ltop</td>
-      <td>enabled or disabled. if disabled, the MRS LTOP will be extracted from the grammar. otherwise, it will be invented as a new hole connected to the grammar-provided LTOP by a QEQ.</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Last update: 2013-02-06 by WoodleyPackard [<a href="https://github.com/delph-in/docs/wiki/AceConfiguration/_edit">edit</a>]</p>
+<p>|                                |                                                                                                                                                                                              |
+|——————————–|———————————————————————————————————————————————————————————————-|
+| transfer                       | enabled or disabled. defaults to disabled. when enabled, ACE processes transfer grammars instead of syntactic grammars. adjustment of several MRS configuration parameters may be necessary. |
+| spanning-only-rules            | list of rules to only allow in the spanning chart cell                                                                                                                                       |
+| fragment-only-rules            | list of rules to only allow when fragment parsing is enabled                                                                                                                                 |
+| hyper-active-rules             | list of rules for which hyperactive parsing should be used                                                                                                                                   |
+| deleted-daughters              | list of features to delete on new passive edges                                                                                                                                              |
+| parsing-packing-restrictor     | list of features to suppress until unpacking while parsing                                                                                                                                   |
+| generation-packing-restrictor  | list of features to suppress until unpacking while generating                                                                                                                                |
+| mrs-deleted-roles              | list of features on internal MRS variable AVMs that should not be exported when presenting final MRSes (superceded by VPM?)                                                                  |
+| parsing-roots                  | list of root instances enabled for parsing                                                                                                                                                   |
+| generation-roots               | list of root instances enabled for generation                                                                                                                                                |
+| non-idiom-root                 | the name of an instance to check against all parsing results to see whether further idiom processing is required                                                                             |
+| generic-les-for-semantic-index | list of the names of the generic lexemes that can be used to provide an unknown relation in generation                                                                                       |
+| ortho-max-rules                | maximum length of a chain of orthographemic rules to allow in parsing                                                                                                                        |
+| ortho-warn-on-max-rules        | whether to print a warning when the limit of orthographemic rules is reached                                                                                                                 |
+| freezer-megabytes              | defaults to 256; make it bigger if you get a warning about it.                                                                                                                               |
+| irregular-form-rule-suffix     | a string to append to the rule names found in irregular form tables.                                                                                                                         |
+| invent-ltop                    | enabled or disabled. if disabled, the MRS LTOP will be extracted from the grammar. otherwise, it will be invented as a new hole connected to the grammar-provided LTOP by a QEQ.             |</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

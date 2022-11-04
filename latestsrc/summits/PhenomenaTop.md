@@ -34,15 +34,15 @@ phenomena independently of existing grammars for the purposes of
 investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
 [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) and focusing on syntactic and morphosyntactic
-phenomena is currently being developed by [NedLetcher](https://blog.inductorsoftware.com/docsproto/tools/NedLetcher),
-[TimBaldwin](https://blog.inductorsoftware.com/docsproto/tools/TimBaldwin) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender). For further
+phenomena is currently being developed by [NedLetcher](../NedLetcher),
+[TimBaldwin](../TimBaldwin) and [EmilyBender](../EmilyBender). For further
 details and background, please see the paper *Constructing a Phenomenal
 Corpus: Towards Detecting Linguistic Phenomena in Precision Grammars* in
 the [proceedings of the Workshop on High-level Methodologies for Grammar
 Engineering
 2013](https://www.univ-orleans.fr/lifo/evenements/HMGE13/proceedings_HMGE13.pdf).
 
-A dedicated page will be coming soon. Contact [NedLetcher](https://blog.inductorsoftware.com/docsproto/tools/NedLetcher)
+A dedicated page will be coming soon. Contact [NedLetcher](../NedLetcher)
 for more information.
 
 # Typediff
@@ -72,5 +72,4 @@ documentation with phenomenon labels on constraints. Originally
 currently there is only a [partial catalogue for the Wambaya
 grammar](../WambayaPhenomenaCatalogue). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-
-Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

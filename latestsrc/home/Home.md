@@ -133,7 +133,7 @@ further documentation and up-to-date information on aspects of
 installation or usage of DELPH-IN technology. Mostly to enforce some
 discipline among ourselves, these pages require that users are
 registered to the wiki server in order to obtain write access. Please
-create a [WikiName](https://blog.inductorsoftware.com/docsproto/tools/WikiName) for yourself, which may require obtaining
+create a [WikiName](../WikiName) for yourself, which may require obtaining
 a ‘textcha’ to protect against wiki spam; once registered at the wiki,
 to request write access please contact info *at* delph-in.net. The
 developers do hope that active DELPH-IN users will contribute to these
@@ -146,7 +146,7 @@ preserved on the following pages, for historical interest:
 
 - [Earlier DELPH-IN news items](../DelphinNews)
 - [Links to earlier DELPH-IN-related projects](../OldProjects)
-- [Earlier overviews of the DELPH-IN consortium](https://blog.inductorsoftware.com/docsproto/tools/OldOverviews)
+- [Earlier overviews of the DELPH-IN consortium](../OldOverviews)
 
 ## Further Information
 
@@ -158,5 +158,4 @@ is a link to the archive near the top of the page.
 
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

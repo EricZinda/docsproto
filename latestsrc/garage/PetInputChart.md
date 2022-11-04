@@ -170,7 +170,7 @@ itself, including an eventually given DTD, may not contain empty lines.
 
 # PIC (pet-input-chart) DTD
 
-This is the pic.dtd from the [Heart of Gold](https://blog.inductorsoftware.com/docsproto/tools/HeartofgoldTop).
+This is the pic.dtd from the [Heart of Gold](../HeartofgoldTop).
 
     <!ELEMENT pet-input-chart ( w | ne )* >
       <!-- base input token -->
@@ -236,5 +236,4 @@ For **debian** and derivatives this means:
 rather than:
 
     apt-get install sudo apt-get install libxerces25 
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetInputChart/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

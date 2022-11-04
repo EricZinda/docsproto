@@ -1,6 +1,6 @@
 {% raw %}## Discussion: Appropriateness of separately categorizing events from entities in the MRS
 
-Moderator: [DavidInman](/DavidInman) Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender)
+Moderator: [DavidInman](/DavidInman) Scribe: [EmilyBender](../EmilyBender)
 
 #### Discussion during presentation of slides:
 
@@ -224,5 +224,4 @@ Woodley: Strawman argument for quantifier ambiguity with **e**:
 interpretation where everyone ate lunch together. Maybe semanticists
 have other ways of handling the two readings, but it seems like scope
 ambiguity is a pretty plausible way to do it.
-
-Last update: 2017-08-08 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/OsloEventsInstances/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

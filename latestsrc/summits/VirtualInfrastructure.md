@@ -19,7 +19,7 @@ demonstration).
 Used to be hosted as part of Norwegian HPC services (at Oslo
 University), which gave premium up-time and availability. National HPC
 is moving away from Oslo (to Northern Norway, later to Finland), which
-will make it harder for [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen) to continue support
+will make it harder for [StephanOepen](../StephanOepen) to continue support
 of these services.
 
 # Public (Outward-Facing) Web Pages
@@ -446,5 +446,4 @@ git repo that mirrors it to have the benefit of issue tracking, etc.
 oe: We're not going to modernize in one 50 min discussion, or even in
 one year. I'd be happy for you to conduct that pilot and for others to
 try out M$ [GitHub](/GitHub) and report back in a year.
-
-Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/VirtualInfrastructure/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
