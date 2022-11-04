@@ -43,14 +43,14 @@
         {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
         {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
         {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"},
-        {"Page": "Projects Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
+        {"Page": "Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
       ]}
     ],
     "howto": [
       {"Section": "DELPH-IN", "Pages": [
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"}
       ]},
-      {"Section": "Tutorial for Grammarians", "Pages": [
+      {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/TomarFormalism.md"},
         {"Page": "Grammars", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Grammars.md", "Referrer": "summits/DelphinTutorial_Formalisms.md"},
@@ -181,6 +181,14 @@
         {"Page": "Chart Browser", "SrcDir": "docswiki", "SrcFile": "LuiChart.md", "Referrer": "tools/LkbLui.md"},
         {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "LuiWishlist.md", "Referrer": "tools/LkbLui.md"}
       ]},
+      {"Section": "LKB LexDB", "Pages": [
+        {"Page": "Simple PSQL", "SrcDir": "docswiki", "SrcFile": "LexDbSimplePsql.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "Initialization", "SrcDir": "docswiki", "SrcFile": "LexDbInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "PSQL Initialization", "SrcDir": "docswiki", "SrcFile": "LexDbPsqlInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "Field Mappings", "SrcDir": "docswiki", "SrcFile": "LexDbFieldMappings.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
+        {"Page": "Multi-User", "SrcDir": "docswiki", "SrcFile": "LkbLexDbMultiUser.md", "Referrer": "home/LexDbInitialize.md"},
+        {"Page": "Single User", "SrcDir": "docswiki", "SrcFile": "LkbLexDbSingleUser.md", "Referrer": "grammars/JacyLexDb.md"}
+      ]},
       {"Section": "[incr tsdb()]", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ItsdbTop.md", "Referrer": "concept/QuickStart.md"},
         {"Page": "Deep Dive", "SrcDir": "docswiki", "SrcFile": "TsdbTop.md", "Referrer": "tools/AceTop.md"},
@@ -190,7 +198,6 @@
         {"Page": "Profiling", "SrcDir": "docswiki", "SrcFile": "ItsdbProfiling.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Distributed Processing", "SrcDir": "docswiki", "SrcFile": "ItsdbDistributedProcessing.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Batch", "SrcDir": "docswiki", "SrcFile": "ItsdbBatch.md", "Referrer": "tools/ItsdbTop.md"},
-        {"Page": "Customization", "SrcDir": "docswiki", "SrcFile": "ItsdbCustomization.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Reference", "SrcDir": "docswiki", "SrcFile": "ItsdbReference.md", "Referrer": "home/MatrixMrsCatb.md"},
         {"Page": "Troubleshooting", "SrcDir": "docswiki", "SrcFile": "ItsdbTroubleshooting.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "FAQ", "SrcDir": "docswiki", "SrcFile": "GeFaqTsdbRc.md", "Referrer": "concept/IndraTreebanking.md"},
@@ -201,12 +208,13 @@
         {"Page": "Red Hat", "SrcDir": "docswiki", "SrcFile": "LogonRedhat.md", "Referrer": "tools/LogonInstallation.md"},
         {"Page": "Ubuntu", "SrcDir": "docswiki", "SrcFile": "LogonUbuntu.md", "Referrer": "tools/LogonInstallation.md"},
         {"Page": "Arch Linux", "SrcDir": "docswiki", "SrcFile": "LogonArch.md", "Referrer": "tools/LogonInstallation.md"},
+        {"Page": "Debian", "SrcDir": "docswiki", "SrcFile": "LogonDebian.md", "Referrer": "tools/LogonUbuntu.md"},
         {"Page": "Hands-On Release", "SrcDir": "docswiki", "SrcFile": "LogonHandon.md", "Referrer": "tools/LogonExtras.md"},
         {"Page": "SVN", "SrcDir": "docswiki", "SrcFile": "LogonSvn.md", "Referrer": "tools/LogonExtras.md"},
         {"Page": "Batch Generation", "SrcDir": "docswiki", "SrcFile": "LogonProcessing_BatchGeneration.md", "Referrer": "tools/LogonProcessing.md"},
         {"Page": "Batch Translation", "SrcDir": "docswiki", "SrcFile": "LogonProcessing_BatchTranslation.md", "Referrer": "tools/LogonProcessing.md"},
-        {"Page": "Pet", "SrcDir": "docswiki", "SrcFile": "LogonPet.md"},
-        {"Page": "ACE", "SrcDir": "docswiki", "SrcFile": "LogonAnswer.md", "Referrer": "concept/ErgProcessing.md"},
+        {"Page": "PET Integration", "SrcDir": "docswiki", "SrcFile": "LogonPet.md"},
+        {"Page": "ACE Integration", "SrcDir": "docswiki", "SrcFile": "LogonAnswer.md", "Referrer": "concept/ErgProcessing.md"},
         {"Page": "Extras", "SrcDir": "docswiki", "SrcFile": "LogonExtras.md"},
         {"Page": "Installation", "SrcDir": "docswiki", "SrcFile": "LogonInstallation.md"},
         {"Page": "Reports", "SrcDir": "docswiki", "SrcFile": "LogonReports.md"},
@@ -216,36 +224,12 @@
         {"Page": "Online", "SrcDir": "docswiki", "SrcFile": "LogonOnline.md"},
         {"Page": "Transfer", "SrcDir": "docswiki", "SrcFile": "LogonTransfer.md"},
         {"Page": "Idiosyncrasies", "SrcDir": "docswiki", "SrcFile": "LogonIdiosyncrasies.md"},
-        {"Page": "Japanese/English MT", "SrcDir": "docswiki", "SrcFile": "MtJaen.md", "Referrer": "tools/LogonModeling.md"},
-        {"Page": "MtJaenTanaka", "SrcDir": "docswiki", "SrcFile": "MtJaenTanaka.md", "BaseReferrer": "tools/MtJaen.md", "Referrer": "tools/MtJaen.md"},
-        {"Page": "Japanese/English MT Setup", "SrcDir": "docswiki", "SrcFile": "MtSetup.md", "Referrer": "tools/LogonTransfer.md"},
-        {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
-        {"Page": "Setting up New Languages", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "tools/NoJa.md"},
-        {"Page": "Logon Debian Setup", "SrcDir": "docswiki", "SrcFile": "LogonDebian.md", "Referrer": "tools/LogonUbuntu.md"},
         {"Page": "Variable Property Mapping", "SrcDir": "docswiki", "SrcFile": "LogonVpm.md", "Referrer": "tools/TransferRules.md"},
         {"Page": "Wishlist", "SrcDir": "docswiki", "SrcFile": "LogonWishlist.md"}
       ]},
-      {"Section": "LexDb", "Pages": [
-        {"Page": "LexDbSimplePsql", "SrcDir": "docswiki", "SrcFile": "LexDbSimplePsql.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LexDbPsqlInitialize", "SrcDir": "docswiki", "SrcFile": "LexDbPsqlInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LexDbInitialize", "SrcDir": "docswiki", "SrcFile": "LexDbInitialize.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LexDbFieldMappings", "SrcDir": "docswiki", "SrcFile": "LexDbFieldMappings.md", "Referrer": "grammars/LkbLexDbSingleUser.md"},
-        {"Page": "LkbLexDbMultiUser", "SrcDir": "docswiki", "SrcFile": "LkbLexDbMultiUser.md", "Referrer": "home/LexDbInitialize.md"},
-        {"Page": "LkbLexDbSingleUser", "SrcDir": "docswiki", "SrcFile": "LkbLexDbSingleUser.md", "Referrer": "grammars/JacyLexDb.md"}
-      ]},
-      {"Section": "Grammar Tools", "Pages": [
-        {"Page": "Erroneous Generation Analysis and Detection", "SrcDir": "docswiki", "SrcFile": "EgadTop.md"},
-        {"Page": "GrammarPerformance", "SrcDir": "docswiki", "SrcFile": "GrammarPerformance.md", "Referrer": "grammars/JacyPerformance.md"},
-        {"Page": "gDelta", "SrcDir": "docswiki", "SrcFile": "GDeltaTop.md"},
-        {"Page": "Grammar Spring Cleaning", "SrcDir": "docswiki", "SrcFile": "SpringCleaningTop.md"},
-        {"Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
-        {"Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
-        {"Page": "Grammar Version Control", "SrcDir": "docswiki", "SrcFile": "VersionControlForGrammarDevelopment.md", "Referrer": "home/MatrixTop.md"},
-        {"Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
-        {"Page": "CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbTop.md", "Referrer": "home/Home.md"},
-        {"Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
-        {"Page": "CLIMB for Germanic languages", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb.md", "Referrer": "home/ClimbTop.md"},
-        {"Page": "gCLIMB Phenomena", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb_German.md", "Referrer": "tools/Climb_GClimb.md"}
+      {"Section": "Grammar Tips", "Pages": [
+        {"Page": "Grammar Performance", "SrcDir": "docswiki", "SrcFile": "GrammarPerformance.md", "Referrer": "grammars/JacyPerformance.md"},
+        {"Page": "Grammar Version Control", "SrcDir": "docswiki", "SrcFile": "VersionControlForGrammarDevelopment.md", "Referrer": "home/MatrixTop.md"}
       ]},
       {"Section": "Treebanking", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TreebankingTop.md", "Referrer": "home/Home.md"},
@@ -615,22 +599,47 @@
         {"Page": "Reference", "SrcDir": "main", "SrcFile": "DelphinDocsReference.md"},
         {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"}
       ]},
-      {"Section": "Contributors", "Pages": [
-        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "grammars/JacyTop.md"}
+      {"Section": "Grammar Tools", "Pages": [
+        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
+        {"Page": "Erroneous Generation Analysis and Detection (EGAD)", "SrcDir": "docswiki", "SrcFile": "EgadTop.md"},
+        {"Page": "EGAD Installation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
+        {"Page": "gDelta", "SrcDir": "docswiki", "SrcFile": "GDeltaTop.md"},
+        {"Page": "Grammar Spring Cleaning", "SrcDir": "docswiki", "SrcFile": "SpringCleaningTop.md"},
+        {"Page": "Linguistic Type Database", "SrcDir": "docswiki", "SrcFile": "LkbLtdb.md"},
+        {"Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
+        {"Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},
+        {"Page": "CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbTop.md", "Referrer": "home/Home.md"},
+        {"Page": "SHORT-CLIMB", "SrcDir": "docswiki", "SrcFile": "ClimbShortClimb.md"},
+        {"Page": "CLIMB for Germanic languages", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb.md", "Referrer": "home/ClimbTop.md"},
+        {"Page": "gCLIMB Phenomena", "SrcDir": "docswiki", "SrcFile": "Climb_GClimb_German.md", "Referrer": "tools/Climb_GClimb.md"}
       ]},
       {"Section": "Completed Projects", "Pages": [
         {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
         {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "home/WeScience.md"},
         {"Page": "WeScience", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "home/WikiWoods.md"}
-
       ]},
       {"Section": "Grammars (partial or experimental)", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
         {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
       ]},
+      {"Section": "Lexical Semantics in DELPH-IN", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "home/SemCor.md"},
+        {"Page": "Mapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "home/LexsemTop.md"}
+      ]},
       {"Section": "Machine Translation", "Pages": [
-        {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "tools/TransferRules.md"},
-        {"Page": "MachineTranslationTutorial", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTutorial.md", "Referrer": "tools/MtJaen.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "tools/TransferRules.md"},
+        {"Page": "Tutorial", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTutorial.md", "Referrer": "tools/MtJaen.md"}
+      ]},
+      {"Section": "Japanese/English Machine Translation", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MtJaen.md", "Referrer": "tools/LogonModeling.md"},
+        {"Page": "Setup", "SrcDir": "docswiki", "SrcFile": "MtSetup.md", "Referrer": "tools/LogonTransfer.md"},
+        {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"},
+        {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"},
+        {"Page": "Feedback Cleaning", "SrcDir": "docswiki", "SrcFile": "MtJaenFeedbackCleaning.md", "Referrer": "tools/MtJaen.md"},
+        {"Page": "NE_Tagging_For_Improving_SMT", "SrcDir": "docswiki", "SrcFile": "NE_Tagging_For_Improving_SMT.md", "Referrer": "tools/MtJaenSmt.md"},
+        {"Page": "Setting up New Languages", "SrcDir": "docswiki", "SrcFile": "NoJa.md", "Referrer": "tools/NoJa.md"},
+        {"Page": "Tanaka Corpus", "SrcDir": "docswiki", "SrcFile": "MtJaenTanaka.md", "BaseReferrer": "tools/MtJaen.md", "Referrer": "tools/MtJaen.md"},
+        {"Page": "Discussion", "SrcDir": "docswiki", "SrcFile": "MtJaenSmt.md", "Referrer": "tools/MtJaen.md"}
       ]},
       {"Section": "Indra/English Transfer Grammar", "Pages": [
         {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "grammars/IndraTop.md"},
@@ -654,7 +663,6 @@
         {"Page": "WeSearch_VariablePropertySharing", "SrcDir": "docswiki", "SrcFile": "WeSearch_VariablePropertySharing.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "WeSearch_DataCollection", "SrcDir": "docswiki", "SrcFile": "WeSearch_DataCollection.md", "Referrer": "tools/ErgGml.md"}
       ]},
-
       {"Section": "PET", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
         {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "PetDependencies.md", "Referrer": "tools/PetTop.md"},
@@ -673,17 +681,8 @@
         {"Page": "Robustness", "SrcDir": "docswiki", "SrcFile": "PetRobustness.md", "Referrer": "tools/PetTop.md"},
         {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
       ]},
-      {"Section": "Lexical Semantics in DELPH-IN", "Pages": [
-        {"Page": "LexsemTop", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "home/SemCor.md"},
-        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "home/LexsemTop.md"}
-      ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
-        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
-        {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"},
-        {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"},
-        {"Page": "MtJaenFeedbackCleaning", "SrcDir": "docswiki", "SrcFile": "MtJaenFeedbackCleaning.md", "Referrer": "tools/MtJaen.md"},
-        {"Page": "MtJaenSmt", "SrcDir": "docswiki", "SrcFile": "MtJaenSmt.md", "Referrer": "tools/MtJaen.md"}
+      {"Section": "Contributors", "Pages": [
+        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "grammars/JacyTop.md"}
       ]}
     ],
     "summits": [
