@@ -57,7 +57,7 @@ pre-processing. The ERG internally (still) analyzes most punctuation
 marks as pseudo-affixes (rather than as separate tokens, as in the PTB).
 To accomodate any discrepancies, the grammar includes token mapping
 rules to adjust (i.e. correct) externally supplied tokenization (see the
-[ChartMapping](https://blog.inductorsoftware.com/docsproto/tools/ChartMapping) page for general background); specifically,
+[ChartMapping](https://blog.inductorsoftware.com/docsproto/garage/ChartMapping) page for general background); specifically,
 punctuation marks will be re-combined with preceding or following
 tokens, reflecting standard orthographic convention.
 
@@ -210,4 +210,5 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 ## Token Splitting
 
 # Unknown Word Handling
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-10-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization/_edit)]{% endraw %}

@@ -114,7 +114,7 @@ example.
 Antske: Will add to my todo list to make a very small CLIMB for some
 language. And I'm happy to help anyone get set up with CLIMB. Email me!
 
-Luis: [ClimbTop](https://blog.inductorsoftware.com/docsproto/tools/ClimbTop) talks about SHORTCLIMB and gCLIMB but not
+Luis: [ClimbTop](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop) talks about SHORTCLIMB and gCLIMB but not
 obvious how to get the latter.
 
 Antske: The link for gCLIMB is in my thesis, but I should add it to that
@@ -124,7 +124,7 @@ Dan: And the SlaviCLIMB?
 
 Antske: At DFKI -- need guest account.
 
-Emily: This should be on the [ClimbTop](https://blog.inductorsoftware.com/docsproto/tools/ClimbTop) page too.
+Emily: This should be on the [ClimbTop](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop) page too.
 
 Glenn: Is the abbreviated path code you mention in your thesis required
 for CLIMB or orthogonal?
@@ -321,4 +321,5 @@ seem to make.
 
 Glenn: basic-head-spec-phrase COMPS on mother was identified with
 non-head-dtr.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordMatrixFeedback/_edit)]{% endraw %}

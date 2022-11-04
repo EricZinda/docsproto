@@ -261,7 +261,7 @@ The
 script finds the top ranked MRSs in the result file and under-specifies
 them with regard to person, number, gender, definiteness, and some
 location relations. This is useful if the generation model is meant for
-generation with the [MtJaen](../MtJaen) translation system since the output
+generation with the [MtJaen](https://blog.inductorsoftware.com/docsproto/garage/MtJaen) translation system since the output
 of the Jaen transfer grammar is often under-specified with regard to
 these features.
 
@@ -319,4 +319,5 @@ uses your generation profile for the training:
 6\. Train the model:
 
     ./load --binary train.g.lisp
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonModeling/_edit)]{% endraw %}

@@ -16,4 +16,5 @@ testing, documenting and enhancing the
 the [\[incr tsdb()\]](http://www.delph-in.net/itsdb) profiler
 ([ItsdbTop](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)), the [ERG](http://www.delph-in.net/erg) and other
 components.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinNtt/_edit)]{% endraw %}

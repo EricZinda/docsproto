@@ -20,7 +20,7 @@ toc:
     children:
       - title: "Welcome"
         url: "/DelphinWelcome/"
-  - title: "Tutorial for Grammarians"
+  - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
         url: "/DelphinTutorial/"

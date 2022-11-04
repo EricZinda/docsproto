@@ -15,7 +15,7 @@ parse simple sentences such as *Adi tidur di sini* "Adi sleeps here" and
 *Adi mengejar Budi* "Adi chases Budi".
 
 Compare INDRA with other DELPH-IN HPSG grammars using
-[TypediffTop](https://blog.inductorsoftware.com/docsproto/tools/TypediffTop) ([online
+[TypediffTop](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) ([online
 version](http://hum.csse.unimelb.edu.au/typediff/)).
 
 ## Repository
@@ -87,4 +87,5 @@ This grammar was supported in part by
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-04-13 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraTop/_edit)]{% endraw %}

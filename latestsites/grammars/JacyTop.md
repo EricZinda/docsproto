@@ -20,7 +20,7 @@ This project is multilingually oriented, such that much effort is put on
 multilingual approaches to grammatical phenomena and building a matrix
 grammar that can be used as the basis for the development of further
 grammars. After that, it has been used in research on parse ranking with
-lexical semantics and [machine translation](https://blog.inductorsoftware.com/docsproto/tools/MtJaen).
+lexical semantics and [machine translation](https://blog.inductorsoftware.com/docsproto/garage/MtJaen).
 
 Current development is mainly being done by [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
 ([NTU](http://www3.ntu.edu.sg/home/fcbond/)), with help from Takayuki
@@ -61,7 +61,7 @@ move to github and many enhancements.
 - There has been some work on Corpus Annotation with the
 [Hinoki](../JacyHinoki) treebank.
 - Jacy is used in the highly experimental open source
-[Japanese-to-English Machine Translation System: JaEn](https://blog.inductorsoftware.com/docsproto/tools/MtJaen)
+[Japanese-to-English Machine Translation System: JaEn](https://blog.inductorsoftware.com/docsproto/garage/MtJaen)
 
 # Download and Licensing
 
@@ -158,4 +158,5 @@ and Computation, Taipei 1999.
 
 Siegel, Melanie (1998): Japanese Particles in an HPSG Grammar.
 Verbmobil-Report 220. Universität des Saarlandes.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/JacyTop/_edit)]{% endraw %}

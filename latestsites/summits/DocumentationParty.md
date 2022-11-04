@@ -5,7 +5,7 @@ Existing documentation:
 - [LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp)
 - [FreeLing SPPP README](http://svn.emmtee.net/trunk/upf/srg/freeling/README)
 - [CLARIN paper](http://portal.acm.org/citation.cfm?id=1564038)
-- [ChartMapping](https://blog.inductorsoftware.com/docsproto/tools/ChartMapping)
+- [ChartMapping](https://blog.inductorsoftware.com/docsproto/garage/ChartMapping)
 
 What's SPPP? In the same space as chart mapping, may become redundant.
 Predates chart mapping. Might also overlap with REPP, supported in LKB
@@ -85,4 +85,5 @@ an option.
 Montse/Luis [FreeLing](/FreeLing) might be good beta testers
 
 OpenFST --- should be reversible SPRouT --- reversible?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/DocumentationParty/_edit)]{% endraw %}

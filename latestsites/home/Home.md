@@ -99,7 +99,7 @@ Spanish, along with significant grammars for several other
 languages.
 - [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop): Starter-Kit for rapid prototyping of
 LKB-compatible precision grammars
-- [CLIMB](https://blog.inductorsoftware.com/docsproto/tools/ClimbTop): Tools to support grammar development of
+- [CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop): Tools to support grammar development of
 LKB-compatible precision grammars
 - [Redwoods](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop): HPSG Treebank Comprised of Analyses
 from the ERG
@@ -158,4 +158,5 @@ is a link to the archive near the top of the page.
 
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
