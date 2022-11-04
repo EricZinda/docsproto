@@ -28,7 +28,7 @@ the morphology. If you have a lot of morphological rules to add, for
 example, try one or two and see how they work before fleshing out full
 paradigms.
 
-In addition, [EmilyBender](../EmilyBender)'s course pages for
+In addition, [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)'s course pages for
 [Ling567](http://courses.washington.edu/ling567) at UW may be helpful.
 These course pages are updated each time the course is taught (roughly
 annually), but typically follow the same schedule:
@@ -80,4 +80,5 @@ The feature geometry cheat sheets at the bottom of
 
 Please check out the [DELPH-IN QA Discourse
 site](https://delphinqa.ling.washington.edu/) and post questions there.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/MatrixGettingStarted/_edit)]{% endraw %}

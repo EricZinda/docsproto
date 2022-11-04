@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) developers. This page
-was initiated by [FrancisBond](../FrancisBond); please feel free to make
+was initiated by [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond); please feel free to make
 additions or corrections as you see fit. However, before revising this
 page, one should be reasonably confident of the information given being
 correct.
@@ -23,4 +23,5 @@ A quick way of compressing a profile in this way using a shell is
 (assuming you are in the profile):
 
      find . -size +0 -type f -not -name 'relations' -exec gzip {} \;
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfileManipulation/_edit)]{% endraw %}

@@ -42,9 +42,9 @@ The LTDB has been updated by Francis Bond, Luis Morgado da Costa and
 Michael Wayne Goodman, using
 [PyDelphin](https://github.com/delph-in/pydelphin) and visualization
 from [delphin-viz](https://github.com/delph-in/delphin-viz). The
-software was originally written by [ChikaraHashimoto](../ChikaraHashimoto)
-and [FrancisBond](../FrancisBond) in perl, and used the html output
-provided by [StephanOepen](../StephanOepen).
+software was originally written by [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/summits/ChikaraHashimoto)
+and [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) in perl, and used the html output
+provided by [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen).
 
 ## Sample In Line Documentation
 
@@ -67,7 +67,7 @@ provided by [StephanOepen](../StephanOepen).
     """
                             [SYNSEM.LOCAL.CAT.HEAD.CASE kara-case].
 
-Comments should appear inside the [TDL doc-strings](../TdlRfc). They should
+Comments should appear inside the [TDL doc-strings](https://blog.inductorsoftware.com/docsproto/summits/TdlRfc). They should
 be written in
 [reStructuredText](http://docutils.sourceforge.net/rst.html). There are
 two special things recognized.
@@ -133,7 +133,7 @@ appropriate Apache configuration file. That could be
 ### Tool Support
 
 As of 2018-11-4, docstrings are supported by the latest
-[LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) and [PyDelphin](../PyDelphin), PET and ACE, with support
+[LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) and [PyDelphin](https://blog.inductorsoftware.com/docsproto/summits/PyDelphin), PET and ACE, with support
 in the LOGON LKB promised soon.
 
 Currently, the LKB does NOT support doc-strings in instances (such as
@@ -170,4 +170,5 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
   - add screenshots
   - link to some running Lexical Type Databases (like
 [this](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexTypes))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}

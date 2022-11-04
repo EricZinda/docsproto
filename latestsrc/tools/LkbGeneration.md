@@ -1,5 +1,5 @@
 {% raw %}This page was adapted from [JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) by
-[MichaelGoodman](../MichaelGoodman), and therefore many of the examples are
+[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman), and therefore many of the examples are
 from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Grammar.
 
 Contents
@@ -242,4 +242,5 @@ Make sure all predicates are either in lexical entries or C-CONT.
 This should work in the LKB SVN as well as the LOGON tree, and is the
 basis for ranking and selective unpacking in generation and also in
 parsing.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-05-21 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbGeneration/_edit)]{% endraw %}

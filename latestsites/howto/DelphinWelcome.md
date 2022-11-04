@@ -12,7 +12,7 @@ using the Discourse platform.
 lists](http://lists.delph-in.net/)). If you click on a list, there
 is a link to the archive near the top of the page.
 - You are also encouraged to join the wiki: Please create a
-[WikiName](../WikiName) for yourself, which may require obtaining a
+[WikiName](https://blog.inductorsoftware.com/docsproto/summits/WikiName) for yourself, which may require obtaining a
 ‘textcha’ to protect against wiki spam; once registered at the wiki,
 to request write access please contact info *at* delph-in.net. We
 hope that you will contribute to these pages over time.
@@ -25,4 +25,5 @@ technology:
 representations produced by the ERG
 - [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-10-15 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}

@@ -55,7 +55,7 @@ surface, weight, tagset, tag, ...) and a **value** string
   - complex features structure (**fs**) elements: these may be
 typed, and the format is compatible with the TEI/ISO standard
 (FSR)
-  - complex **rmrs** elements: following the [RmrsDtd](../RmrsDtd).
+  - complex **rmrs** elements: following the [RmrsDtd](https://blog.inductorsoftware.com/docsproto/summits/RmrsDtd).
 
 # SMAF/LKB
 
@@ -135,4 +135,5 @@ See also: [SmafSample](../SmafSample)
 # SMAF DTD
 
 See [SmafDtd](../SmafDtd).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}

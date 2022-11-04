@@ -17,9 +17,9 @@ or add any missing information to any of the existing entries.
 
 ## Relevant discussions from past summits
 
-- [SuquamishPhenomenaCatalogue](../SuquamishPhenomenaCatalogue)
-- [SofiaLinguisticPhenomena](../SofiaLinguisticPhenomena)
-- [SaarlandPackagingPhenomenalCorpora](../SaarlandPackagingPhenomenalCorpora)
+- [SuquamishPhenomenaCatalogue](https://blog.inductorsoftware.com/docsproto/summits/SuquamishPhenomenaCatalogue)
+- [SofiaLinguisticPhenomena](https://blog.inductorsoftware.com/docsproto/summits/SofiaLinguisticPhenomena)
+- [SaarlandPackagingPhenomenalCorpora](https://blog.inductorsoftware.com/docsproto/summits/SaarlandPackagingPhenomenalCorpora)
 
 # ERG Semantic Documentation
 
@@ -34,20 +34,20 @@ phenomena independently of existing grammars for the purposes of
 investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
 [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) and focusing on syntactic and morphosyntactic
-phenomena is currently being developed by [NedLetcher](../NedLetcher),
-[TimBaldwin](../TimBaldwin) and [EmilyBender](../EmilyBender). For further
+phenomena is currently being developed by [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher),
+[TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender). For further
 details and background, please see the paper *Constructing a Phenomenal
 Corpus: Towards Detecting Linguistic Phenomena in Precision Grammars* in
 the [proceedings of the Workshop on High-level Methodologies for Grammar
 Engineering
 2013](https://www.univ-orleans.fr/lifo/evenements/HMGE13/proceedings_HMGE13.pdf).
 
-A dedicated page will be coming soon. Contact [NedLetcher](../NedLetcher)
+A dedicated page will be coming soon. Contact [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher)
 for more information.
 
 # Typediff
 
-[Typediff](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) is a tool for exploring the types employed in
+[Typediff](../TypediffTop) is a tool for exploring the types employed in
 the processing of input to DELPH-IN grammars. Typediff works by
 extracting the type identifiers found in the final AVM of a successful
 parse and sorting this bag of types according to HPSG-theoretic type
@@ -68,8 +68,9 @@ phenomena covered by their grammar and provide illustrative examples in
 IGT for each phenomenon. The intention is to facilitate cross-grammar
 comparison, grammar exploration and potentially even better grammar
 documentation with phenomenon labels on constraints. Originally
-[discussed](../SuquamishPhenomenaCatalogue) at the Suquamish summit,
+[discussed](https://blog.inductorsoftware.com/docsproto/summits/SuquamishPhenomenaCatalogue) at the Suquamish summit,
 currently there is only a [partial catalogue for the Wambaya
-grammar](../WambayaPhenomenaCatalogue). Grammar maintainers interested in
+grammar](https://blog.inductorsoftware.com/docsproto/summits/WambayaPhenomenaCatalogue). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}

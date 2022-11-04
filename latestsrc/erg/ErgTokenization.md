@@ -14,8 +14,8 @@ using the ERG to parse ‘raw’ string inputs, for satisfactory results on
 non-vanilla inputs, it is necessary to apply the ERG tokenization rules,
 e.g. turn on support for [REPP](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) in engines like PET or ACE.
 
-This page was predominantly authored by [StephanOepen](../StephanOepen),
-who jointly with [DanFlickinger](../DanFlickinger) developed the current
+This page was predominantly authored by [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen),
+who jointly with [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) developed the current
 ERG approach to tokenization. As of early 2009, Stephan is the
 maintainer of the ERG tokenizer and token mapping rules. Please do not
 make substantial changes to this page unless you (a) are reasonably sure
@@ -210,4 +210,5 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 ## Token Splitting
 
 # Unknown Word Handling
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-10-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization/_edit)]{% endraw %}

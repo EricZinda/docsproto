@@ -7,7 +7,7 @@ things, [machine translation](../LogonTop),
 information, hence may be inaccurate in some details, or not necessarily
 reflect use patterns anticipated by the original LOGON developers. The
 functionality documented here may still change. This page was initiated
-by [FrancisBond](../FrancisBond); please feel free to make additions or
+by [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond); please feel free to make additions or
 corrections as you see fit. However, before revising this page, one
 should be reasonably confident of the information given being correct.
 
@@ -297,4 +297,5 @@ Only supported by the LKB, not ACE (2017-03-15).
 Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
 [RmrsParaphrasing](../RmrsParaphrasing))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-03-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LogonTransfer/_edit)]{% endraw %}

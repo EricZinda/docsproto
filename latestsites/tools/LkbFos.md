@@ -121,7 +121,7 @@ type constraints.
 and generation.
 - Bug fixes and enhancements, as suggested in [LkbBugs](../LkbBugs) and
 [LkbWishlist](../LkbWishlist).
-- Support for the revised DELPH-IN TDL format, as specified in [TdlRfc](../TdlRfc).
+- Support for the revised DELPH-IN TDL format, as specified in [TdlRfc](https://blog.inductorsoftware.com/docsproto/summits/TdlRfc).
 - A new handy command 'Evaluate Lisp expression...' in the Lkb Top
 Advanced menu.
 
@@ -266,4 +266,5 @@ If you encounter an unexpected problem using LKB-FOS, please check
 [DELPH-IN Discourse](https://delphinqa.ling.washington.edu/about) to see if
 a solution has already been posted there; if it hasn't then create a new topic.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-04 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}

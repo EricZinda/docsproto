@@ -2,7 +2,7 @@
 
 ## Versions 16 – 22
 
-By [AntskeFokkens](../AntskeFokkens) (previously published as a
+By [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens) (previously published as a
 tech-report: Fokkens
 (2010),[.bib](http://www.coli.uni-saarland.de/~afokkens/bibentries/fokkens-10.bib))
 
@@ -710,4 +710,5 @@ Müller.
 - Michael O’Siadhail. 1989. Modern Irish: grammatical structure and
 dialectal variation. Cambridge University Press, Cambridge, United
 Kingdom.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-02-01 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_WordOrder/_edit)]{% endraw %}

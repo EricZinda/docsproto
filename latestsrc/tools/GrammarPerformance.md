@@ -7,7 +7,7 @@ for better performance. As people add new techniques, please link them
 here.
 
 This page aims to document DELPH-IN techniques. It was started by
-[Francis](../FrancisBond), inspired by the [Capitol Hill Grammar
+[Francis](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), inspired by the [Capitol Hill Grammar
 Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop) and based on a page originally
 written for Jacy ([JacyPerformance](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)).
 
@@ -331,4 +331,5 @@ This can lead to confusing edges in the chart, so it can be a good idea
 to turn it off when debugging:
 
      --disable-generalization
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GrammarPerformance/_edit)]{% endraw %}

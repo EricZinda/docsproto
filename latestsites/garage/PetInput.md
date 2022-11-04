@@ -8,7 +8,7 @@ XML-based input formats have been developed. Please see the
 [PetInputFsc](../PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
-This page was predominantly authored by [StephanOepen](../StephanOepen),
+This page was predominantly authored by [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen),
 who is its current maintainer. Please do not make substantial changes
 unless you (a) are quite certain of the technical correctness of your
 revisions and (b) believe strongly that your changes are compatible with
@@ -475,4 +475,5 @@ encode the parser input. See the [PetInputFsc](../PetInputFsc),
 [PetInputChart](../PetInputChart) and [SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-11-02 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}

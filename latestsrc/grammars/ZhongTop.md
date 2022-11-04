@@ -3,7 +3,7 @@ languages, including Mandarin Chinese (simplified and traditional),
 Cantonese, Min, etc. Currently Simplified Mandarin is the best supported
 language. This grammar is based off ManGO
 (<http://moin.delph-in.net/MandarinGrammarOnline>) created by Justin
-Yang ([JustinChunleiYang](../JustinChunleiYang)) and Dan Flickinger
+Yang ([JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)) and Dan Flickinger
 (<http://lingo.stanford.edu/dan/>).
 
 #### Note on naming
@@ -87,18 +87,18 @@ Grammar.
 
 ## Contributors
 
-- [FrancisBond](../FrancisBond)
-- [SanghounSong](../SanghounSong)
+- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
+- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)
 - [ZhenzhenFan](/ZhenzhenFan)
-- [JustinChunleiYang](../JustinChunleiYang)
-- [DanFlickinger](../DanFlickinger)
-- [MichaelGoodman](../MichaelGoodman)
+- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
+- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman)
 - [BoChen](/BoChen)
-- [HuiZhenWang](../HuiZhenWang)
+- [HuiZhenWang](https://blog.inductorsoftware.com/docsproto/summits/HuiZhenWang)
 - [JoannaSio](/JoannaSio)
-- [LuisMorgadoCosta](../LuisMorgadoCosta)
-- [ShanWang](../ShanWang)
-- [WenjieWang](../WenjieWang)
+- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta)
+- [ShanWang](https://blog.inductorsoftware.com/docsproto/summits/ShanWang)
+- [WenjieWang](https://blog.inductorsoftware.com/docsproto/summits/WenjieWang)
 
 This grammar was supported in part by:
 
@@ -106,4 +106,5 @@ This grammar was supported in part by:
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-04-26 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/ZhongTop/_edit)]{% endraw %}

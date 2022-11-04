@@ -45,7 +45,7 @@ arity](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Underspecifie
   - [specification of co-reference: \*''I bit her
 tongue''](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_VariablePropertySharing)
   - And other topics: [PEST examples
-discussion](../WeSearch_PestExamples),
+discussion](https://blog.inductorsoftware.com/docsproto/summits/WeSearch_PestExamples),
 [etc.](/WeSearch/Hank%C3%B8TheRest)
 - From the [Sofia Summit](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop), July 2012:
   
@@ -183,4 +183,5 @@ this relate to an AM algebra from DMRS composition?
   
   - [Virtual2021PluralSemantics](https://blog.inductorsoftware.com/docsproto/summits/Virtual2021PluralSemantics):
 How to relate morphosyntactic marking of plurality to semantic plurality?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}

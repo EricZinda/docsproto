@@ -101,4 +101,5 @@ would like to participate online.)
 - [OlgaZamaraeva](../OlgaZamaraeva) (Mon-Fri, most likely)
 - [YiZhang](../YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-06-22 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/BellinghamParticipants/_edit)]{% endraw %}

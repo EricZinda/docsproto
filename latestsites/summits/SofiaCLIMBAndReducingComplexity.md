@@ -114,7 +114,7 @@ Emily: more discussion about this on Matrix list!
 
 Ned: We need a centralised place on the wiki to start talking about
 phenomena based grammar engineering and resources. Volunteered to create
-a [PhenomenaTop](../PhenomenaTop).
+a [PhenomenaTop](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop).
 
 ## Next Steps
 
@@ -125,4 +125,5 @@ they solve (something that should be done for reasons of documentation
 anyway). Second, we need to start documenting phenomena at locations
 where they can be found easily. As a first start, we will use the
 delph-in wiki.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SofiaCLIMBAndReducingComplexity/_edit)]{% endraw %}

@@ -1,0 +1,612 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/garage/ERDW_HowCurrentDocsAreBuilt/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/garage/ERDW_HowCurrentDocsAreBuilt/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/garage/"><img src="/docsproto/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docsproto/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docsproto/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docsproto/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docsproto/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docsproto/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docsproto/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docsproto/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docsproto/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docsproto/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docsproto/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docsproto/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docsproto/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docsproto/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docsproto/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docsproto/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docsproto/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docsproto/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docsproto/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docsproto/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docsproto/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docsproto/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docsproto/garage/WeScience/">WeScience</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docsproto/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docsproto/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docsproto/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docsproto/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docsproto/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docsproto/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docsproto/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docsproto/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docsproto/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docsproto/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docsproto/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docsproto/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docsproto/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docsproto/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docsproto/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docsproto/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docsproto/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docsproto/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docsproto/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docsproto/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docsproto/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docsproto/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docsproto/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docsproto/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docsproto/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docsproto/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docsproto/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docsproto/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docsproto/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docsproto/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docsproto/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docsproto/garage/ERDW_HowCurrentDocsAreBuilt/" class="active">Current Doc System</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>When done, this page should describe how the current (as of 8/15/22) docs are built so we can decide what to do next.</p>
+
+<h1 id="delph-in-wiki">Delph-in Wiki</h1>
+<p>The <a href="https://github.com/delph-in/docs/wiki">“official” Delph-in wiki</a> uses the <a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">Github wiki feature</a>.  That means that it is a special wiki repository tied to a “regular” github repository: https://github.com/delph-in/docs.</p>
+
+<p>If you go to the docs repository and look at the source in it, there is very little. To see the actual source for the wiki pages, you have to find the wiki repository: Click on the “wiki” link on top of the docs repository, look at the bottom of the right hand column on that new page. You’ll see UI for “Clone this wiki locally”. If you clone it, you’ll see all the wiki pages there. I haven’t found a way to actually browse the source using the normal github repository browser, I think you just have to clone it.</p>
+
+<h1 id="delph-ingithubiodocs">delph-in.github.io/docs/</h1>
+<p>The “official docs” are created using <a href="https://pages.github.com/">Github Pages</a> and are hosted at https://delph-in.github.io/docs/. If you go to that page, you’ll see the (small number of) pages from the https://github.com/delph-in/docs repository there. These get built and pushed to https://delph-in.github.io/docs/ by Github automatically whenever anyone pushes a change to the delph-in/docs repository.</p>
+
+<p>One “trick” that happens on the https://delph-in.github.io/docs/ page is the search box. This is set up to post to the same URL the wiki uses for its search.</p>
+
+<p>Last update: 2022-08-16 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/ERDW_HowCurrentDocsAreBuilt/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/garage/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '7761c0bff1e224240';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

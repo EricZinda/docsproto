@@ -227,6 +227,8 @@
           
             <li><a href="/docsproto/garage/VistaExtractionTop/">Vista Extraction</a></li>
           
+            <li><a href="/docsproto/garage/PhenomenaTop/">Phenomena</a></li>
+          
         </ul>
         
       </li>
@@ -439,6 +441,8 @@
           
             <li><a href="/docsproto/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
           
+            <li><a href="/docsproto/garage/ERDW_HowCurrentDocsAreBuilt/">Current Doc System</a></li>
+          
         </ul>
         
       </li>
@@ -621,12 +625,15 @@
 <ul>
   <li><code class="language-plaintext highlighter-rouge">All Links</code>: A Json file that lists every link in every document included in every site and whether they are broken, valid, etc. Useful for debugging. If you chose to check external links (which takes about 1.5 hours) the validity of those will be included. Otherwise only internal links between wiki pages are checked.</li>
   <li><code class="language-plaintext highlighter-rouge">All Pages</code>: Lists every page in every site.</li>
-  <li><code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages that Exist</code>: Creates page definitions suitable for including in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> for every broken link. This allows you to simply copy the <code class="language-plaintext highlighter-rouge">File</code> definition to the <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren’t included, and so on).  If you included all of these files in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code>, there would be no broken (Wiki) links!</li>
+  <li><code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages</code>: Creates page definitions suitable for including in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> for every broken link. Note that this includes adding entries for wiki pages that <em>don’t exist</em> (those will have the <code class="language-plaintext highlighter-rouge">FileMissing</code> field set in their definition). This allows you to simply copy the <code class="language-plaintext highlighter-rouge">File</code> definition to the <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren’t included, and so on).  If you included all of these files in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code>, there would be no broken (Wiki) links!</li>
 </ul>
 
 <p>If it failed, click on the row that represents the run you just did and you’ll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the “build” part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.</p>
-<update date="" omitted="" for="" speed="">
-</update>
+
+<h2 id="the--section">The <todo> Section</todo></h2>
+<p>Note that any section named “<todo>" that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.</todo></p>
+
+<p>Last update: 2022-11-04 by EricZinda [<a href="https://github.com/ericzinda/docsproto/DelphinDocsReference/_edit">edit</a>]</p>
 
         
       </section>

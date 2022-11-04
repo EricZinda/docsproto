@@ -1,14 +1,15 @@
-{% raw %}- [EmilyBender](../EmilyBender)
+{% raw %}- [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)
 - [JohanBos](/JohanBos)
 - [SilvieCinkova](/SilvieCinkova)
-- [AnnCopestake](../AnnCopestake)
+- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake)
 - [CleoCondoravdi](/CleoCondoravdi)
 - [DickCrouch](/DickCrouch)
-- [DanFlickinger](../DanFlickinger)
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
 - [JanHajič](/JanHaji%C4%8D)
-- [AlexanderKoller](../AlexanderKoller)
-- [AlexLascarides](../AlexLascarides)
-- [StephanOepen](../StephanOepen)
+- [AlexanderKoller](https://blog.inductorsoftware.com/docsproto/summits/AlexanderKoller)
+- [AlexLascarides](https://blog.inductorsoftware.com/docsproto/summits/AlexLascarides)
+- [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
 - TimOGorman
 - [WoodleyPackard](/WoodleyPackard)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/CcsGroup/_edit)]{% endraw %}
