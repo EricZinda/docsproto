@@ -237,7 +237,7 @@ place.
 
 # Setting up an MT system
 
-See [MtSetup](../MtSetup) for instructions on how to set up an MT system.
+See [MtSetup](https://blog.inductorsoftware.com/docsproto/garage/MtSetup) for instructions on how to set up an MT system.
 
 # Other uses
 
@@ -297,4 +297,5 @@ Only supported by the LKB, not ACE (2017-03-15).
 Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
 [RmrsParaphrasing](../RmrsParaphrasing))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-03-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LogonTransfer/_edit)]{% endraw %}

@@ -1,7 +1,7 @@
 {% raw %}# Notes from discussion on Corpus Look Up and LTDB integration
 
 Discussion at [Tomar](../TomarTop) on how we can further extend the
-[Lexical Type database](https://blog.inductorsoftware.com/docsproto/tools/LkbLtdb) with other resources for looking up
+[Lexical Type database](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb) with other resources for looking up
 results (led by Francis and scribed by Bec).
 
 **FCB:** LTDB intro pseudo xml in grammar to document, with examples
@@ -73,4 +73,5 @@ available from web demo
 **fcb:** encourage grammarians to set it up
 
 **dan:** ran script on new version erg - works fine?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TomarCorpusLookup/_edit)]{% endraw %}

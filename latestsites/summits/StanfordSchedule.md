@@ -142,4 +142,5 @@ Constructions ([DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools
 - **Jacy Book** Jacy the book (Closed SIG:
 [MelanieSiegel](/MelanieSiegel), [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender),
 [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-07-06 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/StanfordSchedule/_edit)]{% endraw %}

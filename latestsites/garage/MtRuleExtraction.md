@@ -19,7 +19,7 @@ MRSs
 phrase tables of predicates
 - check alignments against templates and write semantic transfer rules
 
-The tool is currently used to extract rules for the [Jaen](https://blog.inductorsoftware.com/docsproto/tools/MtJaen) MT
+The tool is currently used to extract rules for the [Jaen](../MtJaen) MT
 system. It is located in the directory
 $LOGONROOT/uio/tm/jaen/extr-rules/.
 
@@ -139,4 +139,5 @@ relative to the $LOGONROOT directory.)
 - Represent the lexicons of your grammars as tables by giving the
 right paths in step 9.
 - Modify the file 'templates.py' in the language pair directory.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-29 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/MtRuleExtraction/_edit)]{% endraw %}

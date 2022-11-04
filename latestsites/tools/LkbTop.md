@@ -52,7 +52,7 @@ the LKB;
 grammar writers;
 - [LkbGeneration](../LkbGeneration): Information and notes on generating
 with the LKB;
-- [Lexical Type Database](../LkbLtdb): Web interface to the lexicon (and
+- [Lexical Type Database](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb): Web interface to the lexicon (and
 treebanks) - an add-on to the main LKB; and
 - [GrammarEngineeringFaq](/GrammarEngineeringFaq): Frequently Asked
 Questions about grammar engineering with the LKB and the Grammar
@@ -115,4 +115,5 @@ Science from Scientific Publications;
 Any opinions, findings and conclusions or recommendations expressed in
 this material are those of the author(s) and do not necessarily reflect
 the views of the funding bodies.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-02-05 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbTop/_edit)]{% endraw %}

@@ -84,4 +84,5 @@ Aug. 12)
 :confused:
 - [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (Aug. 3 - Aug. 7 + HPSG)
 - [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang) (unfortunately can't make it)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-07-31 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/SingaporeParticipants/_edit)]{% endraw %}

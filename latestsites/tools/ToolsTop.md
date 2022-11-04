@@ -41,29 +41,29 @@ dependencies, and ERG EDs to bilexical semantic dependencies
   - Tools for automatically efficiently running LOGON to create
 appropriate MRSs: source language, transfer, target language,
 variational.
-- [Egad](../EgadTop) ([MichaelGoodman](../MichaelGoodman))
+- [Egad](https://blog.inductorsoftware.com/docsproto/garage/EgadTop) ([MichaelGoodman](../MichaelGoodman))
   
   - Error mining and grammar analysis through generation results.
 (unmaintained, but may still work)
-- [gDelta](../GDeltaTop) ([NedLetcher](../NedLetcher))
+- [gDelta](https://blog.inductorsoftware.com/docsproto/garage/GDeltaTop) ([NedLetcher](../NedLetcher))
   
   - Tool for comparing parser output from two different states of a
 grammar.
-- [Grammar Spring Cleaning](../SpringCleaningTop)
+- [Grammar Spring Cleaning](https://blog.inductorsoftware.com/docsproto/garage/SpringCleaningTop)
 ([AntskeFokkens](../AntskeFokkens))
   
   - Tool that removes components of the grammar that are currently
 not used.
-- [Linguistic Type Database](../LkbLtdb)
+- [Linguistic Type Database](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
   
   - A web interface for grammars made with the LKB that allows easy
 access to inline documentation and minimal corpus search.
-- [SHORT-CLIMB](../ClimbShortClimb) ([AntskeFokkens](../AntskeFokkens))
+- [SHORT-CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbShortClimb) ([AntskeFokkens](../AntskeFokkens))
   
   - Tool that allows you to define modifications to a grammar and
 generates a modified version of the grammar based on the changes
 (and allows you to convert back)
-- [Typediff](../TypediffTop) (Ned Letcher)
+- [Typediff](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) (Ned Letcher)
   
   - A web app for exploring DELPH-IN grammar types used in the
 processing of input.
@@ -126,4 +126,5 @@ repo](https://git.ling.washington.edu/agg/aggregation)
 improvements over the initial [LkbMacintosh](../LkbMacintosh).
 - [Heart of Gold](../HeartofgoldTop): XML-based middleware for the
 integration of deep and shallow NLP components
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-12 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}

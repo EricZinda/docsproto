@@ -47,7 +47,7 @@ for more information.
 
 # Typediff
 
-[Typediff](https://blog.inductorsoftware.com/docsproto/tools/TypediffTop) is a tool for exploring the types employed in
+[Typediff](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) is a tool for exploring the types employed in
 the processing of input to DELPH-IN grammars. Typediff works by
 extracting the type identifiers found in the final AVM of a successful
 parse and sorting this bag of types according to HPSG-theoretic type
@@ -72,4 +72,5 @@ documentation with phenomenon labels on constraints. Originally
 currently there is only a [partial catalogue for the Wambaya
 grammar](../WambayaPhenomenaCatalogue). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}
