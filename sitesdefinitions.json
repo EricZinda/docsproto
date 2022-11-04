@@ -21,7 +21,7 @@
   [
     {"SiteFullName": "DELPH-IN Docs", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
     {"SiteFullName": "DELPH-IN How-to", "SiteNavigationName": "How-to", "Site": "howto"},
-    {"SiteFullName": "DELPH-IN English Resource Grammar", "SiteNavigationName": "ERG", "Site": "erg", "HomePage": "ErgTop.md"},
+    {"SiteFullName": "DELPH-IN English Resource Grammar", "SiteNavigationName": "ERG", "Site": "erg"},
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
     {"SiteFullName": "DELPH-IN Grammar Catalogue", "SiteNavigationName": "Grammars", "Site": "grammars", "HomePage": "GrammarCatalogue.md"},
     {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix", "HomePage": "MatrixTop.md"},
@@ -44,11 +44,6 @@
         {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
         {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"},
         {"Page": "Projects Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
-      ]},
-      {"Section": "Documentation", "Pages": [
-        {"Page": "Quick Start", "SrcDir": "main", "SrcFile": "DocsQuickStart.md"},
-        {"Page": "Reference", "SrcDir": "main", "SrcFile": "DelphinDocsReference.md"},
-        {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"}
       ]}
     ],
     "howto": [
@@ -65,78 +60,6 @@
       ]},
       {"Section": "Other Tutorials", "Pages": [
         {"Page": "English Resource Semantics Tutorial (NAACL 2016)", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"}
-      ]}
-    ],
-    "garage": [
-      {"Section": "Contributors", "Pages": [
-        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "grammars/JacyTop.md"}
-      ]},
-      {"Section": "Completed Projects", "Pages": [
-        {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
-        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "home/WeScience.md"},
-        {"Page": "WeScience", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "home/WikiWoods.md"}
-
-      ]},
-      {"Section": "Grammars (partial or experimental)", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
-        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
-      ]},
-      {"Section": "Machine Translation", "Pages": [
-        {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "tools/TransferRules.md"},
-        {"Page": "MachineTranslationTutorial", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTutorial.md", "Referrer": "tools/MtJaen.md"}
-      ]},
-      {"Section": "Indra/English Transfer Grammar", "Pages": [
-        {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "IndraTranslation", "SrcDir": "docswiki", "SrcFile": "IndraTranslation.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "IndraRegressionTest", "SrcDir": "docswiki", "SrcFile": "IndraRegressionTest.md", "Referrer": "grammars/IndraTop.md"}
-      ]},
-      {"Section": "WeSearch", "Pages": [
-        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "CcsGroup", "SrcDir": "docswiki", "SrcFile": "CcsGroup.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_Ccs", "SrcDir": "docswiki", "SrcFile": "WeSearch_Ccs.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_CcsDayThree", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayThree.md", "Referrer": "tools/WeSearch_Ccs.md"},
-        {"Page": "WeSearch_DesignPrinciples", "SrcDir": "docswiki", "SrcFile": "WeSearch_DesignPrinciples.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_AnalysisCatalog", "SrcDir": "docswiki", "SrcFile": "WeSearch_AnalysisCatalog.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_ScopalArgCoord", "SrcDir": "docswiki", "SrcFile": "WeSearch_ScopalArgCoord.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_ICONS", "SrcDir": "docswiki", "SrcFile": "WeSearch_ICONS.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_UnderspecifedAttachment", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifedAttachment.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_UnderspecifiedPreds", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifiedPreds.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_VariablePropertySharing", "SrcDir": "docswiki", "SrcFile": "WeSearch_VariablePropertySharing.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "WeSearch_DataCollection", "SrcDir": "docswiki", "SrcFile": "WeSearch_DataCollection.md", "Referrer": "tools/ErgGml.md"}
-      ]},
-
-      {"Section": "PET", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
-        {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "PetDependencies.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Eclipse", "SrcDir": "docswiki", "SrcFile": "PetEclipse.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "RoadMap", "SrcDir": "docswiki", "SrcFile": "PetRoadMap.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Input", "SrcDir": "docswiki", "SrcFile": "PetInput.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "ReppPet", "SrcDir": "docswiki", "SrcFile": "ReppPet.md", "Referrer": "tools/ReppTop.md"},
-        {"Page": "Output", "SrcDir": "docswiki", "SrcFile": "PetOutput.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "PetOptions.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Parameters", "SrcDir": "docswiki", "SrcFile": "PetParameters.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Selective Unpacking", "SrcDir": "docswiki", "SrcFile": "PetSelectiveUnpacking.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Input Feature Structure Chart", "SrcDir": "docswiki", "SrcFile": "PetInputFsc.md", "Referrer": "tools/ChartMapping.md"},
-        {"Page": "Input Chart", "SrcDir": "docswiki", "SrcFile": "PetInputChart.md", "Referrer": "tools/PetInput.md"},
-        {"Page": "Ubertagging", "SrcDir": "docswiki", "SrcFile": "UtTop.md", "Referrer": "grammars/GrammarPerformance.md"},
-        {"Page": "Logging", "SrcDir": "docswiki", "SrcFile": "PetLogging.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "Robustness", "SrcDir": "docswiki", "SrcFile": "PetRobustness.md", "Referrer": "tools/PetTop.md"},
-        {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
-      ]},
-      {"Section": "Lexical Semantics in DELPH-IN", "Pages": [
-        {"Page": "LexsemTop", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "home/SemCor.md"},
-        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "home/LexsemTop.md"}
-      ]},
-      {"Section": "Misc", "Pages": [
-        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
-        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
-        {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"},
-        {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"},
-        {"Page": "MtJaenFeedbackCleaning", "SrcDir": "docswiki", "SrcFile": "MtJaenFeedbackCleaning.md", "Referrer": "tools/MtJaen.md"},
-        {"Page": "MtJaenSmt", "SrcDir": "docswiki", "SrcFile": "MtJaenSmt.md", "Referrer": "tools/MtJaen.md"}
       ]}
     ],
     "erg": [
@@ -161,7 +84,6 @@
       ]},
       {"Section": "Inventory", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
-        {"Page": "Raw Materials", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Raw_Materials.md"},
         {"Page": "Apposition", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Apposition.md"},
         {"Page": "Comparatives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Comparatives.md"},
         {"Page": "Compounding", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Compounding.md"},
@@ -187,18 +109,19 @@
         {"Page": "Quasi-Modal Infinitivals", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_QuasiModalInfinitivals.md"},
         {"Page": "Relational Nouns", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_RelationalNouns.md"},
         {"Page": "Time Expressions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_TimeExpressions.md"},
-        {"Page": "Vocatives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Vocatives.md"}
+        {"Page": "Vocatives", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Vocatives.md"},
+        {"Page": "Raw Materials", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Raw_Materials.md"}
       ]},
       {"Section": "ERG Grammar", "Pages": [
         {"Page": "LE Types", "SrcDir": "docswiki", "SrcFile": "ErgLeTypes.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Rules", "SrcDir": "docswiki", "SrcFile": "ErgRules.md", "Referrer": "concept/ErgTop.md"},
-        {"Page": "Treebanking Rules", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingRules.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Tokenization", "SrcDir": "docswiki", "SrcFile": "ErgTokenization.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Tokenization Complex Example", "SrcDir": "docswiki", "SrcFile": "ErgTokenization_ComplexExample.md", "Referrer": "concept/ErgTokenization.md"}
       ]},
       {"Section": "ERG Treebanking", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgTreebanking.md", "Referrer": "home/TreebankingTop.md"},
         {"Page": "Guidelines", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingGuidelines.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "Treebanking Rules", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingRules.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Bridges", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingBridges.md", "Referrer": "concept/ErgTreebanking.md"},
         {"Page": "Discussion", "SrcDir": "docswiki", "SrcFile": "CapitolHillTreebank.md", "Referrer": "concept/IndraTreebanking.md"}
       ]},
@@ -216,33 +139,33 @@
       {"Section": "ACE Parser", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
         {"Page": "Install", "SrcDir": "docswiki", "SrcFile": "AceInstall.md", "Referrer": "home/ErsTutorial.md"},
-        {"Page": "Faq", "SrcDir": "docswiki", "SrcFile": "AceFaq.md", "Referrer": "tools/AceTop.md"},
         {"Page": "Configuration", "SrcDir": "docswiki", "SrcFile": "AceConfiguration.md", "Referrer": "tools/AceTop.md"},
         {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "AceOptions.md", "Referrer": "tools/AceTop.md"},
         {"Page": "Examples", "SrcDir": "docswiki", "SrcFile": "AceUse.md", "Referrer": "home/AceInstall.md"},
         {"Page": "LUI Mode", "SrcDir": "docswiki", "SrcFile": "AceLui.md", "Referrer": "home/AceInstall.md"},
         {"Page": "Csaw", "SrcDir": "docswiki", "SrcFile": "AceCsaw.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "AceWishlist.md", "Referrer": "tools/AceTop.md"},
         {"Page": "Transfer", "SrcDir": "docswiki", "SrcFile": "AceTransfer.md", "Referrer": "tools/AceExperimental.md"},
-        {"Page": "Experimental", "SrcDir": "docswiki", "SrcFile": "AceExperimental.md", "Referrer": "tools/AceTop.md"}
+        {"Page": "Experimental", "SrcDir": "docswiki", "SrcFile": "AceExperimental.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Faq", "SrcDir": "docswiki", "SrcFile": "AceFaq.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "AceWishlist.md", "Referrer": "tools/AceTop.md"}
       ]},
       {"Section": "LKB", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LkbTop.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Installation", "SrcDir": "docswiki", "SrcFile": "LkbInstallation.md"},
         {"Page": "Fully Open Source Version", "SrcDir": "docswiki", "SrcFile": "LkbFos.md"},
         {"Page": "Macintosh Version", "SrcDir": "docswiki", "SrcFile": "LkbMacintosh.md"},
-        {"Page": "FAQ", "SrcDir": "docswiki", "SrcFile": "LkbFaq.md", "Referrer": "tools/LkbTop.md"},
-        {"Page": "User Group", "SrcDir": "docswiki", "SrcFile": "LkbUserGroup.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Courses", "SrcDir": "docswiki", "SrcFile": "LkbCourses.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "LkbConventions.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Generation", "SrcDir": "docswiki", "SrcFile": "LkbGeneration.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Compilation", "SrcDir": "docswiki", "SrcFile": "LkbCompilation.md", "Referrer": "tools/LkbInstallation.md"},
         {"Page": "Emacs", "SrcDir": "docswiki", "SrcFile": "LkbEmacs.md", "Referrer": "tools/LkbTop.md"},
-        {"Page": "Emacs FAQ", "SrcDir": "docswiki", "SrcFile": "LkbMode.md", "Referrer": "matrix/GeFaqLispPromptTips.md"},
         {"Page": "Trollet", "SrcDir": "docswiki", "SrcFile": "LkbTrollet.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Simple PreProcessor Protocol", "SrcDir": "docswiki", "SrcFile": "LkbSppp.md", "Referrer": "tools/ReppTop.md"},
         {"Page": "Variable Property Mapping (VPM)", "SrcDir": "docswiki", "SrcFile": "RmrsVpm.md", "Referrer": "concept/PredicateRfc.md"},
         {"Page": "LkbLpconstraints", "SrcDir": "docswiki", "SrcFile": "LkbLpconstraints.md", "Referrer": "tools/LkbWishlist.md"},
+        {"Page": "User Group", "SrcDir": "docswiki", "SrcFile": "LkbUserGroup.md", "Referrer": "tools/LkbTop.md"},
+        {"Page": "FAQ", "SrcDir": "docswiki", "SrcFile": "LkbFaq.md", "Referrer": "tools/LkbTop.md"},
+        {"Page": "Emacs FAQ", "SrcDir": "docswiki", "SrcFile": "LkbMode.md", "Referrer": "matrix/GeFaqLispPromptTips.md"},
         {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "LkbWishlist.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Bugs", "SrcDir": "docswiki", "SrcFile": "LkbBugs.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Copyright", "SrcDir": "docswiki", "SrcFile": "LkbCopyright.md", "Referrer": "tools/LkbTop.md"}
@@ -250,28 +173,28 @@
       {"Section": "LKB LUI", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LkbLui.md", "Referrer": "matrix/KrgTop.md"},
         {"Page": "User Configuration", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "matrix/KrgTop.md"},
-        {"Page": "Ui", "SrcDir": "docswiki", "SrcFile": "LuiUi.md", "Referrer": "tools/LkbLui.md"},
+        {"Page": "UI Quick Reference", "SrcDir": "docswiki", "SrcFile": "LuiUi.md", "Referrer": "tools/LkbLui.md"},
         {"Page": "Tree", "SrcDir": "docswiki", "SrcFile": "LuiTree.md", "Referrer": "tools/LkbLui.md"},
-        {"Page": "Avm", "SrcDir": "docswiki", "SrcFile": "LuiAvm.md", "Referrer": "tools/LkbLui.md"},
+        {"Page": "Feature Structure (AVM)", "SrcDir": "docswiki", "SrcFile": "LuiAvm.md", "Referrer": "tools/LkbLui.md"},
         {"Page": "Unification", "SrcDir": "docswiki", "SrcFile": "LuiUnification.md", "Referrer": "tools/LkbLui.md"},
-        {"Page": "Mrs", "SrcDir": "docswiki", "SrcFile": "LuiMrs.md", "Referrer": "tools/LkbLui.md"},
-        {"Page": "Chart", "SrcDir": "docswiki", "SrcFile": "LuiChart.md", "Referrer": "tools/LkbLui.md"},
+        {"Page": "MRS Display", "SrcDir": "docswiki", "SrcFile": "LuiMrs.md", "Referrer": "tools/LkbLui.md"},
+        {"Page": "Chart Browser", "SrcDir": "docswiki", "SrcFile": "LuiChart.md", "Referrer": "tools/LkbLui.md"},
         {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "LuiWishlist.md", "Referrer": "tools/LkbLui.md"}
       ]},
       {"Section": "[incr tsdb()]", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ItsdbTop.md", "Referrer": "concept/QuickStart.md"},
-        {"Page": "Derivations", "SrcDir": "docswiki", "SrcFile": "ItsdbDerivations.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "Reference", "SrcDir": "docswiki", "SrcFile": "ItsdbReference.md", "Referrer": "home/MatrixMrsCatb.md"},
-        {"Page": "FAQ", "SrcDir": "docswiki", "SrcFile": "GeFaqTsdbRc.md", "Referrer": "concept/IndraTreebanking.md"},
         {"Page": "Deep Dive", "SrcDir": "docswiki", "SrcFile": "TsdbTop.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "ItsdbWishlist.md", "Referrer": "tools/ItsdbTop.md"},
+        {"Page": "Derivations", "SrcDir": "docswiki", "SrcFile": "ItsdbDerivations.md", "Referrer": "concept/ErgProcessing.md"},
         {"Page": "Profile Manipulation", "SrcDir": "docswiki", "SrcFile": "ItsdbProfileManipulation.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Profile", "SrcDir": "docswiki", "SrcFile": "ItsdbProfile.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Profiling", "SrcDir": "docswiki", "SrcFile": "ItsdbProfiling.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Distributed Processing", "SrcDir": "docswiki", "SrcFile": "ItsdbDistributedProcessing.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Batch", "SrcDir": "docswiki", "SrcFile": "ItsdbBatch.md", "Referrer": "tools/ItsdbTop.md"},
         {"Page": "Customization", "SrcDir": "docswiki", "SrcFile": "ItsdbCustomization.md", "Referrer": "tools/ItsdbTop.md"},
-        {"Page": "Troubleshooting", "SrcDir": "docswiki", "SrcFile": "ItsdbTroubleshooting.md", "Referrer": "tools/ItsdbTop.md"}
+        {"Page": "Reference", "SrcDir": "docswiki", "SrcFile": "ItsdbReference.md", "Referrer": "home/MatrixMrsCatb.md"},
+        {"Page": "Troubleshooting", "SrcDir": "docswiki", "SrcFile": "ItsdbTroubleshooting.md", "Referrer": "tools/ItsdbTop.md"},
+        {"Page": "FAQ", "SrcDir": "docswiki", "SrcFile": "GeFaqTsdbRc.md", "Referrer": "concept/IndraTreebanking.md"},
+        {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "ItsdbWishlist.md", "Referrer": "tools/ItsdbTop.md"}
       ]},
       {"Section": "Logon", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"},
@@ -684,6 +607,83 @@
         {"Page": "Portuguese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuitePt.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
         {"Page": "Indonesian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteIndonesian.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
         {"Page": "Tatoeba", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteTatoeba.md", "Referrer": "concept/MatrixMrsTestSuite.md"}
+      ]}
+    ],
+    "garage": [
+      {"Section": "Documentation", "Pages": [
+        {"Page": "Quick Start", "SrcDir": "main", "SrcFile": "DocsQuickStart.md"},
+        {"Page": "Reference", "SrcDir": "main", "SrcFile": "DelphinDocsReference.md"},
+        {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"}
+      ]},
+      {"Section": "Contributors", "Pages": [
+        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "Referrer": "grammars/JacyTop.md"}
+      ]},
+      {"Section": "Completed Projects", "Pages": [
+        {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
+        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "home/WeScience.md"},
+        {"Page": "WeScience", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "home/WikiWoods.md"}
+
+      ]},
+      {"Section": "Grammars (partial or experimental)", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md", "Referrer": "home/Home.md"},
+        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
+      ]},
+      {"Section": "Machine Translation", "Pages": [
+        {"Page": "MachineTranslationTop", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTop.md", "Referrer": "tools/TransferRules.md"},
+        {"Page": "MachineTranslationTutorial", "SrcDir": "docswiki", "SrcFile": "MachineTranslationTutorial.md", "Referrer": "tools/MtJaen.md"}
+      ]},
+      {"Section": "Indra/English Transfer Grammar", "Pages": [
+        {"Page": "IndraAce", "SrcDir": "docswiki", "SrcFile": "IndraAce.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraPreprocessing", "SrcDir": "docswiki", "SrcFile": "IndraPreprocessing.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraTranslation", "SrcDir": "docswiki", "SrcFile": "IndraTranslation.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "IndraRegressionTest", "SrcDir": "docswiki", "SrcFile": "IndraRegressionTest.md", "Referrer": "grammars/IndraTop.md"}
+      ]},
+      {"Section": "WeSearch", "Pages": [
+        {"Page": "WeSearch", "SrcDir": "docswiki", "SrcFile": "WeSearch.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "CcsGroup", "SrcDir": "docswiki", "SrcFile": "CcsGroup.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_Ccs", "SrcDir": "docswiki", "SrcFile": "WeSearch_Ccs.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_CcsDayOne", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayOne.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_CcsDayTwo", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayTwo.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_CcsDayThree", "SrcDir": "docswiki", "SrcFile": "WeSearch_CcsDayThree.md", "Referrer": "tools/WeSearch_Ccs.md"},
+        {"Page": "WeSearch_DesignPrinciples", "SrcDir": "docswiki", "SrcFile": "WeSearch_DesignPrinciples.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_AnalysisCatalog", "SrcDir": "docswiki", "SrcFile": "WeSearch_AnalysisCatalog.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_ScopalArgCoord", "SrcDir": "docswiki", "SrcFile": "WeSearch_ScopalArgCoord.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_ICONS", "SrcDir": "docswiki", "SrcFile": "WeSearch_ICONS.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_UnderspecifedAttachment", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifedAttachment.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_UnderspecifiedPreds", "SrcDir": "docswiki", "SrcFile": "WeSearch_UnderspecifiedPreds.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_VariablePropertySharing", "SrcDir": "docswiki", "SrcFile": "WeSearch_VariablePropertySharing.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "WeSearch_DataCollection", "SrcDir": "docswiki", "SrcFile": "WeSearch_DataCollection.md", "Referrer": "tools/ErgGml.md"}
+      ]},
+
+      {"Section": "PET", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PetTop.md"},
+        {"Page": "Dependencies", "SrcDir": "docswiki", "SrcFile": "PetDependencies.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Eclipse", "SrcDir": "docswiki", "SrcFile": "PetEclipse.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "RoadMap", "SrcDir": "docswiki", "SrcFile": "PetRoadMap.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Input", "SrcDir": "docswiki", "SrcFile": "PetInput.md", "Referrer": "concept/ErgProcessing.md"},
+        {"Page": "ReppPet", "SrcDir": "docswiki", "SrcFile": "ReppPet.md", "Referrer": "tools/ReppTop.md"},
+        {"Page": "Output", "SrcDir": "docswiki", "SrcFile": "PetOutput.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "PetOptions.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Parameters", "SrcDir": "docswiki", "SrcFile": "PetParameters.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Selective Unpacking", "SrcDir": "docswiki", "SrcFile": "PetSelectiveUnpacking.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Input Feature Structure Chart", "SrcDir": "docswiki", "SrcFile": "PetInputFsc.md", "Referrer": "tools/ChartMapping.md"},
+        {"Page": "Input Chart", "SrcDir": "docswiki", "SrcFile": "PetInputChart.md", "Referrer": "tools/PetInput.md"},
+        {"Page": "Ubertagging", "SrcDir": "docswiki", "SrcFile": "UtTop.md", "Referrer": "grammars/GrammarPerformance.md"},
+        {"Page": "Logging", "SrcDir": "docswiki", "SrcFile": "PetLogging.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "Robustness", "SrcDir": "docswiki", "SrcFile": "PetRobustness.md", "Referrer": "tools/PetTop.md"},
+        {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
+      ]},
+      {"Section": "Lexical Semantics in DELPH-IN", "Pages": [
+        {"Page": "LexsemTop", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "home/SemCor.md"},
+        {"Page": "LexsemMapping", "SrcDir": "docswiki", "SrcFile": "LexsemMapping.md", "Referrer": "home/LexsemTop.md"}
+      ]},
+      {"Section": "Misc", "Pages": [
+        {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
+        {"Page": "EgadInstallation", "SrcDir": "docswiki", "SrcFile": "EgadInstallation.md", "Referrer": "tools/EgadTop.md"},
+        {"Page": "MtRuleExtraction", "SrcDir": "docswiki", "SrcFile": "MtRuleExtraction.md", "Referrer": "tools/MtRuleExtraction.md"},
+        {"Page": "JaenTodo", "SrcDir": "docswiki", "SrcFile": "JaenTodo.md", "Referrer": "tools/MtJaen.md"},
+        {"Page": "MtJaenFeedbackCleaning", "SrcDir": "docswiki", "SrcFile": "MtJaenFeedbackCleaning.md", "Referrer": "tools/MtJaen.md"},
+        {"Page": "MtJaenSmt", "SrcDir": "docswiki", "SrcFile": "MtJaenSmt.md", "Referrer": "tools/MtJaen.md"}
       ]}
     ],
     "summits": [
