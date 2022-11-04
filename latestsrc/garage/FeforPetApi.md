@@ -45,9 +45,8 @@ parser; cf. [JerezTop](https://blog.inductorsoftware.com/docsproto/summits/Jerez
 
 ## Feature requests
 
-- configurable start symbol for parsing ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond))
+- configurable start symbol for parsing ([FrancisBond](../FrancisBond))
 - change lexicon during runtime (not possible for the built-in
 lexicon, but probably for lexDB)
 - change model during runtime
-
-Last update: 2006-06-14 by UlrichSchaefer [[edit](https://github.com/delph-in/docs/wiki/FeforPetApi/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

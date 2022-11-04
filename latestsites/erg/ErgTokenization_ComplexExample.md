@@ -8,7 +8,7 @@ supertagger, or uebertagger) prior to full parsing.
 In the following, we distinguish three levels of processing (see the
 [ErgTokenization](../ErgTokenization) page for further background): (a)
 *initial* tokenization, i.e. the result of string-level pre-processing
-(see the [ReppTop](https://blog.inductorsoftware.com/docsproto/tools/ReppTop) page for details on pre-processing rules
+(see the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page for details on pre-processing rules
 included with the ERG); (b) *internal* tokenization, the state of
 affairs immediately prior to lexical lookup, i.e. upon completion of the
 token mapping phase; and (c) *lexical* tokenization, by which we refer
@@ -24,7 +24,7 @@ stage (b) to stage (c), there is only further combination of multiple
 internal tokens into a single lexical token, viz. by virtue of
 instantiating a multi-word lexical entry.
 
-This page is maintained by [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen). Please be
+This page is maintained by [StephanOepen](../StephanOepen). Please be
 conservative in making substantive revisions.
 
 # Initial Tokenization
@@ -150,5 +150,4 @@ feature structure, there is (among other things) a list of identifiers
 referring back to the initial tokens, i.e. for *Mountain View.*
 (including the final period) these are tokens \#6, \#7, and \#8 from the
 initial tokenization.
-
-Last update: 2011-11-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization_ComplexExample/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

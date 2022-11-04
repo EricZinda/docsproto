@@ -82,24 +82,24 @@ mini-meeting](../CapitolHillTop#Grammar_Engineering_mini-meeting)
 ## Participants
 
 Organizer\
-[FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
+[FrancisBond](../FrancisBond)
 
 Host\
-[GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden)
+[GlennSlayden](../GlennSlayden)
 
 Participants  
 - Emily Bender (in and out, according to other obligations)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman) (maybe not every day)
-- [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/tools/OlgaZamaraeva) (mostly for evening fun/social and to
+- [MichaelGoodman](../MichaelGoodman) (maybe not every day)
+- [OlgaZamaraeva](../OlgaZamaraeva) (mostly for evening fun/social and to
 offer help as a local; I can also provide crash space for someone)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong) (probably everyday 2-6)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) (every day)
+- [SanghounSong](../SanghounSong) (probably everyday 2-6)
+- [FrancisBond](../FrancisBond) (every day)
 - Fan Zhenzhen (every day)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) (Monday afternoon to Thursday)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta) (every day)
-- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/tools/DavidMoeljadi) (every day)
+- [DanFlickinger](../DanFlickinger) (Monday afternoon to Thursday)
+- [LuisMorgadoCosta](../LuisMorgadoCosta) (every day)
+- [DavidMoeljadi](../DavidMoeljadi) (every day)
 - Ping Xue
-- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/tools/JoshuaCrowgey) (Tuesday and Thursday)
+- [JoshuaCrowgey](../JoshuaCrowgey) (Tuesday and Thursday)
   
   - (add your name here)
 
@@ -121,5 +121,4 @@ Please add your name below if you plan to go:
 ## Photos
 
 Sanghoun's photos: [link](https://goo.gl/photos/yNf2KheYyyz9Wojz5)
-
-Last update: 2017-01-15 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/CapitolHillTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

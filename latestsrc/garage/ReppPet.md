@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
 As of August 2011, PET now includes native support for the Regular
-Expression Pre-Processor (REPP; see [ReppTop](https://blog.inductorsoftware.com/docsproto/tools/ReppTop)). Repp processing
+Expression Pre-Processor (REPP; see [ReppTop](../ReppTop)). Repp processing
 can be requested using the -repp option to cheap, optionally with the
 name of a settings file as an argument: -repp=wiki. Settings files will
 be looked for in the base grammar directory, or the general settings
@@ -53,5 +53,4 @@ in the PET parser can also be used as a stand-alone tokenizer. Some
 [practical
 suggestions](http://lists.delph-in.net/archives/lkb/2013/000255.html)
 were posted to the LKB mailing list in early 2013.
-
-Last update: 2013-03-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ReppPet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

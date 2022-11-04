@@ -3,7 +3,7 @@ languages, including Mandarin Chinese (simplified and traditional),
 Cantonese, Min, etc. Currently Simplified Mandarin is the best supported
 language. This grammar is based off ManGO
 (<http://moin.delph-in.net/MandarinGrammarOnline>) created by Justin
-Yang ([JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang)) and Dan Flickinger
+Yang ([JustinChunleiYang](../JustinChunleiYang)) and Dan Flickinger
 (<http://lingo.stanford.edu/dan/>).
 
 #### Note on naming
@@ -87,18 +87,18 @@ Grammar.
 
 ## Contributors
 
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong)
+- [FrancisBond](../FrancisBond)
+- [SanghounSong](../SanghounSong)
 - [ZhenzhenFan](/ZhenzhenFan)
-- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/tools/JustinChunleiYang)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
+- [JustinChunleiYang](../JustinChunleiYang)
+- [DanFlickinger](../DanFlickinger)
+- [MichaelGoodman](../MichaelGoodman)
 - [BoChen](/BoChen)
-- [HuiZhenWang](https://blog.inductorsoftware.com/docsproto/tools/HuiZhenWang)
+- [HuiZhenWang](../HuiZhenWang)
 - [JoannaSio](/JoannaSio)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta)
-- [ShanWang](https://blog.inductorsoftware.com/docsproto/tools/ShanWang)
-- [WenjieWang](https://blog.inductorsoftware.com/docsproto/tools/WenjieWang)
+- [LuisMorgadoCosta](../LuisMorgadoCosta)
+- [ShanWang](../ShanWang)
+- [WenjieWang](../WenjieWang)
 
 This grammar was supported in part by:
 
@@ -106,5 +106,4 @@ This grammar was supported in part by:
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-
-Last update: 2022-04-26 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/ZhongTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

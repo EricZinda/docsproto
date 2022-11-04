@@ -1,6 +1,6 @@
 {% raw %}# Page Authorship
 
-This page is written and maintained by [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender).
+This page is written and maintained by [EmilyBender](../EmilyBender).
 Please send comments by email.
 
 # Overview
@@ -118,5 +118,4 @@ coordination.
 
 Work on the Grammar Matrix is currently supported by an NSF CAREER grant
 (BCS-0644097).
-
-Last update: 2021-11-04 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MatrixTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

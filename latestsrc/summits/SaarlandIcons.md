@@ -1,5 +1,5 @@
-{% raw %}Discussion moderated by [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong), scribed by
-[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
+{% raw %}Discussion moderated by [SanghounSong](../SanghounSong), scribed by
+[MichaelGoodman](../MichaelGoodman)
 
 Apologies for the many ..., where the scribe's fingers were slower than
 the speakers' lips.
@@ -116,5 +116,4 @@ rather than a formal interpretation
 
 As requested, here is a start of a wiki page on [IconsSpecs](https://blog.inductorsoftware.com/docsproto/tools/IconsSpecs)
 --Emily
-
-Last update: 2013-08-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandIcons/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

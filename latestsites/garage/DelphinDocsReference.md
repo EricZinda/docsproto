@@ -142,5 +142,4 @@ You can also click on the row that represents the run you just did and you'll se
 - `Fixes for Broken Links to Pages that Exist`: Creates page definitions suitable for including in `sitesdefinition.json` for every broken link. This allows you to simply copy the `File` definition to the `sitesdefinition.json` file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren't included, and so on).  If you included all of these files in `sitesdefinition.json`, there would be no broken (Wiki) links!
 
 If it failed, click on the row that represents the run you just did and you'll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the "build" part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.
-
-Last update: 2022-11-04 by EricZinda [[edit](https://github.com/ericzinda/docsproto/DelphinDocsReference/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

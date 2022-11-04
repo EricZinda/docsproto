@@ -28,7 +28,7 @@ Emacs](../MtSetup#Starting_the_MT_system_from_Emacs)
 There are two ways to set up an MT system. One way is to include the
 transfer component in the parsing grammar, using the rephrasing
 mechanism to generate sentences with another grammar. This method is
-used in [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender)'s Grammar Matrix course ([Lab
+used in [EmilyBender](../EmilyBender)'s Grammar Matrix course ([Lab
 9](http://courses.washington.edu/ling567/lab9.html)), and requires only
 installation of the LKB system, and is thus relatively lightweight. The
 other method is to create a seperate transfer grammar using the [LOGON
@@ -248,5 +248,4 @@ In order to parse a string with the parsing grammar, type:
 Type in the input string and press enter. Press transfer on the MRS that
 pops up, and the MRS is transferred. Then press generate and English
 strings are generated.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MtSetup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

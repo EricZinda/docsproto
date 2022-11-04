@@ -1,8 +1,8 @@
 {% raw %}# Discussion on HPSG Processing Strategies
 
-Moderator: [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen)
+Moderator: [StephanOepen](../StephanOepen)
 
-Scribe: [YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang)
+Scribe: [YiZhang](../YiZhang)
 
 This discussion was initiated by the request of contributing a chapter
 on HPSG processing to the language and linguistics compass online
@@ -19,7 +19,7 @@ competitive response to other deep parsing communities (i.e. CCG), there
 is also a growing interest in exploring cognitive apparatus in HPSG
 parsing (deterministic parsing, incremental parsing, more general
 psycholinguistic human sentence processing, etc) from others
-([StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen)).
+([StephanOepen](../StephanOepen)).
 
 The general open question for discussion is:
 
@@ -33,20 +33,20 @@ also closely related to grammar engineering. And from some aspects, the
 generation is similar the parsing. A good disambiguation model can help
 to overcome the problem with an overgenerating grammar.
 
-[JohnCarroll](https://blog.inductorsoftware.com/docsproto/tools/JohnCarroll): Traditional grammar developers do not rely
+[JohnCarroll](../JohnCarroll): Traditional grammar developers do not rely
 on statistical disambiguation model. What does grammar developers think
 of this problem?
 
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger): For instance, when treebanking the
+[DanFlickinger](../DanFlickinger): For instance, when treebanking the
 grammar outputs, the results are sometimes somehow skewed by the
 disambiguation model.
 
-[AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake): To a degree, the disambiguation model
+[AnnCopestake](../AnnCopestake): To a degree, the disambiguation model
 makes the grammar domain specific. For large scale parsing it skews the
 search space. We should avoid be less different from treebank-induced
 grammars. One should not be too much affected by practical issues.
 
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger): What's the workload distribution between
+[DanFlickinger](../DanFlickinger): What's the workload distribution between
 parser and grammar? Many parsing edges are created for the need to
 handle modifier attachment. To which degree the syntactic structure are
 isomorphic?
@@ -54,11 +54,10 @@ isomorphic?
 It is mentioned in the discussion that there are ongoing work on
 generation with treebank-induced grammar (i.e. at Tokyo).
 
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen): Incremental processing strategies,
+[StephanOepen](../StephanOepen): Incremental processing strategies,
 inter-dependencies between the grammar and processing
 
-[BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann): Interlinguality need to be
+[BertholdCrysmann](../BertholdCrysmann): Interlinguality need to be
 considered in processing, as well. A close cooperation between grammar
 engineering and processing people is needed.
-
-Last update: 2007-08-26 by YiZhang [[edit](https://github.com/delph-in/docs/wiki/BerlinProcessing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -36,7 +36,7 @@ generation, visualization, and debugging.
   - Converts ERG derivatino tree to bilexical syntactic
 dependencies, and ERG EDs to bilexical semantic dependencies
 (see ${LOGONROOT}/uio/dtm/converter.py)
-- [DelphinTools](../DelphinTools)
+- [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools)
   
   - Tools for automatically efficiently running LOGON to create
 appropriate MRSs: source language, transfer, target language,
@@ -67,7 +67,7 @@ generates a modified version of the grammar based on the changes
   
   - A web app for exploring DELPH-IN grammar types used in the
 processing of input.
-- [Vista extraction](../VistaExtractionTop) ([JoaoSilva](../JoaoSilva))
+- [Vista extraction](https://blog.inductorsoftware.com/docsproto/garage/VistaExtractionTop) ([JoaoSilva](../JoaoSilva))
   
   - Tool for extracting vistas from the files exported by the
 grammar. Vistas are grammatical representations that collect
@@ -76,7 +76,7 @@ fully-fledged hpsg grammatical representation.
 - [DELPH-IN VIZ](https://github.com/delph-in/delphin-viz)
 ([NedLetcher](../NedLetcher)) Nice interface for online access to the
 grammar [Demo](http://delph-in.github.io/delphin-viz/demo/).
-- [ReppTop](../ReppTop)
+- [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop)
   
   - A Regular Expression Pre-Processor, a finite-state device used
 to prepare textual input for 'deep' parsing (using DELPH-IN
@@ -124,7 +124,6 @@ repo](https://git.ling.washington.edu/agg/aggregation)
   
   - A docker installation of LOGON and ACE and its dependents. Some
 improvements over the initial [LkbMacintosh](../LkbMacintosh).
-- [Heart of Gold](../HeartofgoldTop): XML-based middleware for the
+- [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop): XML-based middleware for the
 integration of deep and shallow NLP components
-
-Last update: 2021-06-12 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

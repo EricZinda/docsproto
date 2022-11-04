@@ -2,7 +2,7 @@
 
 The discussion started with some
 [slides](http://www.kecl.ntt.co.jp/icl/mtg/members/bond/pubs/2005-delphin-testing.pdf)
-based on ideas from [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake).
+based on ideas from [AnnCopestake](../AnnCopestake).
 
 ### DELPH-IN Testing Volunteers
 
@@ -18,12 +18,12 @@ release, using whatever test set is appropriate for their grammar.
 
 |                               |                                       |
 |:------------------------------|:--------------------------------------|
-| English Resource Grammar      | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)        |
-| German                        | [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/tools/BertholdCrysmann)  |
+| English Resource Grammar      | [DanFlickinger](../DanFlickinger)        |
+| German                        | [BertholdCrysmann](../BertholdCrysmann)  |
 | Modern Greek Resource Grammar | [AlexandrosPoulis](/AlexandrosPoulis) |
-| JACY                          | [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)            |
+| JACY                          | [FrancisBond](../FrancisBond)            |
 | Norsource                     | [LarsHellan](/LarsHellan)             |
-| Korean Resource Grammar       | [JongBokKim](https://blog.inductorsoftware.com/docsproto/tools/JongBokKim)              |
+| Korean Resource Grammar       | [JongBokKim](../JongBokKim)              |
 
 The advantage to each group of having a designated tester is that it
 will be much easier to make sure that their grammar is compatible with
@@ -36,5 +36,4 @@ responsibility for organisation, including ranking bugs by seriousness,
 ensuring that a serious bug is being checked and helping to develop test
 sets that allow developers to check particular aspects of the software
 quickly.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonTestingDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

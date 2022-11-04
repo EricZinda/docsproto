@@ -43,10 +43,10 @@ put together the programme for each of the sections:
 |----------------|----------------|-------------------------------------------|--------------------------------------|-----------------------------------------------------------------|
 | **Start**      | **End**        | **Session**                               | **Schedule**                         | **Coordinator**                                                 |
 | 13-jun 09:30   |                | Organisation meeting for all participants |                                      |                                                                 |
-| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](../FeforGrammarians) | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)                                  |
-| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](../FeforProcessors)   | [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake)                                    |
-| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](../FeforRmrs)               | [AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) |
-| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](../FeforPlenum)           | [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender)     |
+| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](../FeforGrammarians) | [DanFlickinger](../DanFlickinger)                                  |
+| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](../FeforProcessors)   | [AnnCopestake](../AnnCopestake)                                    |
+| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](../FeforRmrs)               | [AnnCopestake](../AnnCopestake) and [DanFlickinger](../DanFlickinger) |
+| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](../FeforPlenum)           | [StephanOepen](../StephanOepen) and [EmilyBender](../EmilyBender)     |
 
 [FeforDiscussionCompilations](../FeforDiscussionCompilations)
 
@@ -137,5 +137,4 @@ organizers](../FeforSuggestions).
 # Photos
 
 Please post conference photos on [FeforPhotos](../FeforPhotos)!
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

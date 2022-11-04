@@ -1,6 +1,6 @@
 {% raw %}# Open Issue: Tense and Aspect
 
-Mentor: [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) (ebender at u dot washington dot edu,
+Mentor: [EmilyBender](../EmilyBender) (ebender at u dot washington dot edu,
 <http://faculty.washington.edu/ebender>)
 
 Co-mentors welcome!
@@ -59,5 +59,4 @@ Scalable Grammars: Towards Modularity in Extensions to a
 Language-Independent
 Core](http://faculty.washington.edu/ebender/papers/modules05.pdf).
 Proceedings of IJCNLP-05 (Posters/Demos), Jeju Island, Korea.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/OpenissuesTop_GrammarMatrixTenseAspect/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

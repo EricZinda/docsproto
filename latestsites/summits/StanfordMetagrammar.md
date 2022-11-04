@@ -2,9 +2,9 @@
 
 [DELPH-IN 2016](../StanfordSchedule)
 
-Requestor: [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta)
+Requestor: [LuisMorgadoCosta](../LuisMorgadoCosta)
 
-Scribe: [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden)
+Scribe: [GlennSlayden](../GlennSlayden)
 
 **Luis**: We'll try to be brief. The idea that we are trying to
 implement in Singapore is a grammar that will need some kind of
@@ -350,5 +350,4 @@ entirely indistinguishable insofar as the latter necessarily exposes the
 side-effect of identifying the precise extent of each incremental
 change, which is useful for the purposes of fine-grained version control
 and efficient "undo/redo" operations.
-
-Last update: 2016-06-21 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/StanfordMetagrammar/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

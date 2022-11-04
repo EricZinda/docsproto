@@ -1,7 +1,7 @@
 {% raw %}# Argument Change and Reduplication in Indonesian: Some issues
 
-[DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/tools/DavidMoeljadi) ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) and
-[LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta))
+[DavidMoeljadi](../DavidMoeljadi) ([FrancisBond](../FrancisBond) and
+[LuisMorgadoCosta](../LuisMorgadoCosta))
 
 Indonesian is a Western Malayo-Polynesian language of the Austronesian
 language family, spoken mainly in the Republic of Indonesia. Indonesian
@@ -1132,5 +1132,4 @@ believe otherwise.
 Francis: OK thanks! we'll do that!
 
 All: See you all soon!
-
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LADIndonesianMorphology/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

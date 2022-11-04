@@ -23,8 +23,8 @@ held in Suquamish, WA, near Seattle.
 Paris, France.
 - **JUL-09** The [Fifth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop) was
 held in Barcelona, Spain.
-- **JUN-09** DELPH-IN member [Scott Drellishak](https://blog.inductorsoftware.com/docsproto/tools/ScottDrellishak)
-(student of DELPH-IN member [Emily Bender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender)) defended
+- **JUN-09** DELPH-IN member [Scott Drellishak](../ScottDrellishak)
+(student of DELPH-IN member [Emily Bender](../EmilyBender)) defended
 his dissertation [''Widespread but Not Universal: Improving the
 Typological Coverage of the Grammar
 Matrix''](http://students.washington.edu/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf)
@@ -41,7 +41,7 @@ a focussed [Developers Meeting](https://blog.inductorsoftware.com/docsproto/summ
 the main results of the meeting are the merging of the two historic
 [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) branches, the design for stand-alone FSPP use and
 integration of conflicting tokenization views into
-[HoG](https://blog.inductorsoftware.com/docsproto/tools/HeartofgoldTop), as well as initial results on harmonizing the
+[HoG](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop), as well as initial results on harmonizing the
 configuration of [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) and the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop).
 - **OCT-05** The EPSRC-funded [SciBorg
 project](http://www.sciborg.org.uk) starts at the University of
@@ -176,10 +176,9 @@ add relevant new items which you think will be of general interest.
 - In general, please only add new entries and update and add comments
 to entries from your group. Please do not delete or add comments to
 other groups' entries.
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) is currently acting janitor. That is, I
+- [FrancisBond](../FrancisBond) is currently acting janitor. That is, I
 will check the page when it is updated and may reformat new entries,
 including removing any material excessive in length or of marginal
 relevance. Note that I would normally check with the original author
 if I did this, but may not for very minor changes.
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinNews/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

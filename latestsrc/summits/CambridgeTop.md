@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
-The 15th DELPH-IN summit will be hosted by [GuyEmerson](https://blog.inductorsoftware.com/docsproto/tools/GuyEmerson) and
-[AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) at the University of Cambridge, during the
+The 15th DELPH-IN summit will be hosted by [GuyEmerson](../GuyEmerson) and
+[AnnCopestake](../AnnCopestake) at the University of Cambridge, during the
 week of 15-19 July, 2019. The summit will be held at the [Department of
 Computer Science and Technology](https://www.cl.cam.ac.uk/) (formerly
 and informally known as the Computer Lab), [on the West Cambridge
@@ -15,7 +15,7 @@ Please register your intention to participate on the
 
 See [CambridgeSchedule](../CambridgeSchedule).
 
-[AnnCopestake](https://blog.inductorsoftware.com/docsproto/tools/AnnCopestake) and [JohnCarroll](https://blog.inductorsoftware.com/docsproto/tools/JohnCarroll) serve as
+[AnnCopestake](../AnnCopestake) and [JohnCarroll](../JohnCarroll) serve as
 programme chairs.
 
 # Travel
@@ -94,5 +94,4 @@ password: cambridge
 - [Olga's photos](https://photos.app.goo.gl/1XLqdQPB7WGmHM2N7)
 - [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2019/)
 password: Cambridgeshire
-
-Last update: 2019-07-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CambridgeTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

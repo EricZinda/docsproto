@@ -134,7 +134,7 @@ rules, with some additional machinery to support iteration, modularity
 of rule sets and configurability, as well as so-called
 **characterization**, i.e. the ability to keep track, for each output
 token, of character start and end points in the original input string.
-REPP documentation is available from the [ReppTop](https://blog.inductorsoftware.com/docsproto/tools/ReppTop) page.
+REPP documentation is available from the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page.
 
 # VPM: Variable Property Mapping
 
@@ -148,5 +148,4 @@ Interface** (SEM-I). VPM documentation is available from the
 [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) page.
 
 # LOGON Machine Translation (In)Formalism
-
-Last update: 2017-08-07 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Formalisms/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

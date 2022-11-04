@@ -17,7 +17,7 @@ the [DeepThought](http://www.dfki.de/deepthought) and
 [LOGON](http://www.emmtee.net) projects, among others, and some
 foundational reflections have been published by [Flickinger et al.
 (2005)](http://www.mt-archive.info/MTS-2005-Flickinger.pdf). At about
-the same time, [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen) developed the software
+the same time, [StephanOepen](../StephanOepen) developed the software
 support (as part of the LKB environment) to largely automatically
 extract the semantic interface specification from the grammar sources.
 For the past ten or so years, each ERG release has provided an
@@ -149,5 +149,4 @@ follows (e.g. in lkb/mrsglobals.lsp in the ERG):
       (setf *normalize-predicates-p* t)
 
 # References
-
-Last update: 2019-05-25 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Interface/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

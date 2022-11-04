@@ -13,11 +13,11 @@ Cost\
 There will be a 100 EUR fee to cover workshop expenses.
 
 Participants\
-[FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond), Ann Copestake,
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger), [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/tools/ChikaraHashimoto),
-[BerndKiefer](https://blog.inductorsoftware.com/docsproto/tools/BerndKiefer), [EricNichols](/EricNichols),
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen), [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/tools/UlrichSchaefer),
-[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](https://blog.inductorsoftware.com/docsproto/tools/BenWaldron)
+[FrancisBond](../FrancisBond), Ann Copestake,
+[DanFlickinger](../DanFlickinger), [ChikaraHashimoto](../ChikaraHashimoto),
+[BerndKiefer](../BerndKiefer), [EricNichols](/EricNichols),
+[StephanOepen](../StephanOepen), [UlrichSchaefer](../UlrichSchaefer),
+[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](../BenWaldron)
 
 Contents
 
@@ -119,7 +119,7 @@ discuss and set priorities
 
 - See also [LisbonTestingDiscussion](../LisbonTestingDiscussion)
 - Using Apache Ant for Testing DELPH-IN Tools and Resources: see
-[TestingWithAnt](https://blog.inductorsoftware.com/docsproto/tools/TestingWithAnt)
+[TestingWithAnt](https://blog.inductorsoftware.com/docsproto/garage/TestingWithAnt)
 
 ### Still More
 
@@ -302,5 +302,4 @@ however, maintaining two distinct branches is not a good thing,
 and once flop(1) performance with Boost were resolved, some
 testing of the ERG on \`main' should fairly quickly allow
 merging of the two branches, i hope.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JerezTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

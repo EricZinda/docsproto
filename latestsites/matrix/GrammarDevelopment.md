@@ -12,7 +12,6 @@ to incorporate grammar engineering into a PhD
 #### Postface
 
 This page aims to improve the discoverability of existing documentation.
-It was started by [Francis](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond) inspired by the [Capitol Hill
+It was started by [Francis](../FrancisBond) inspired by the [Capitol Hill
 Grammar Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop).
-
-Last update: 2017-01-10 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/GrammarDevelopment/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

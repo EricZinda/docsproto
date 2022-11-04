@@ -32,7 +32,7 @@ There was some discussion of this subject at Fefor in 2006:
 [FeforParCorp](../FeforParCorp). This includes several candidate corpora,
 and some desiderata for choosing a text.
 
-- I ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)) have filled out the description of
+- I ([FrancisBond](../FrancisBond)) have filled out the description of
 the "Cathedral and the Bazaar" test set at
 [FeforParCorp](../FeforParCorp).
   
@@ -173,5 +173,4 @@ I would welcome a freely redistributable corpus of tourism-related
 texts, but am slightly skeptical of our chances of finding a collection
 including Catalan, Norwegian and Korean, even without worrying about
 licenses.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/EvaluationParCorp/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -55,12 +55,12 @@ Verb reduplication](../LADIndonesianMorphology)
 
 ## Contributors
 
-- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/tools/DavidMoeljadi)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/tools/LuisMorgadoCosta)
+- [DavidMoeljadi](../DavidMoeljadi)
+- [FrancisBond](../FrancisBond)
+- [SanghounSong](../SanghounSong)
+- [DanFlickinger](../DanFlickinger)
+- [MichaelGoodman](../MichaelGoodman)
+- [LuisMorgadoCosta](../LuisMorgadoCosta)
 
 ## References
 
@@ -87,5 +87,4 @@ This grammar was supported in part by
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-
-Last update: 2018-04-13 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

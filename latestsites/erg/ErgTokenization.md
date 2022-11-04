@@ -12,10 +12,10 @@ out some of the basic assumptions, specific decisions made, and
 technology used in preparing input text for parsing with the ERG. When
 using the ERG to parse ‘raw’ string inputs, for satisfactory results on
 non-vanilla inputs, it is necessary to apply the ERG tokenization rules,
-e.g. turn on support for [REPP](https://blog.inductorsoftware.com/docsproto/tools/ReppTop) in engines like PET or ACE.
+e.g. turn on support for [REPP](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) in engines like PET or ACE.
 
-This page was predominantly authored by [StephanOepen](https://blog.inductorsoftware.com/docsproto/tools/StephanOepen),
-who jointly with [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger) developed the current
+This page was predominantly authored by [StephanOepen](../StephanOepen),
+who jointly with [DanFlickinger](../DanFlickinger) developed the current
 ERG approach to tokenization. As of early 2009, Stephan is the
 maintainer of the ERG tokenizer and token mapping rules. Please do not
 make substantial changes to this page unless you (a) are reasonably sure
@@ -39,7 +39,7 @@ demonstrating a broad range of tokenization aspects, please see the page
 In the standard setup for the ERG, this task is solved by means of
 so-called REPP (Regular Expression Pre-Processor) modules, which are
 included with the ERG sources (in the rpp/ subdirectory); for general
-background on the technology, please see the [ReppTop](https://blog.inductorsoftware.com/docsproto/tools/ReppTop) page.
+background on the technology, please see the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page.
 The REPP modules provided by the ERG can be configured in various ways,
 to accommodate different input conventions, i.e. variation in
 punctuation and markup conventions used in texts from various sources.
@@ -210,5 +210,4 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 ## Token Splitting
 
 # Unknown Word Handling
-
-Last update: 2013-10-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

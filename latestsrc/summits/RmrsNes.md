@@ -2,16 +2,16 @@
 
 ## Participants
 
-- [EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) (scribe)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger)
-- [VaryaGracheva](https://blog.inductorsoftware.com/docsproto/tools/VaryaGracheva)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/tools/MichaelGoodman)
+- [EmilyBender](../EmilyBender) (scribe)
+- [DanFlickinger](../DanFlickinger)
+- [VaryaGracheva](../VaryaGracheva)
+- [MichaelGoodman](../MichaelGoodman)
 - [PrescottKlassen](/PrescottKlassen)
 - [WoodleyPackard](/WoodleyPackard)
-- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/tools/ZinaPozen)
+- [ZinaPozen](../ZinaPozen)
 - [MeganSchneider](/MeganSchneider)
-- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/tools/GlennSlayden)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/tools/SanghounSong)
+- [GlennSlayden](../GlennSlayden)
+- [SanghounSong](../SanghounSong)
 
 ## Notes
 
@@ -327,5 +327,4 @@ position of compounds: *a University of Washington professor* If the
 post-modification/complementation when creating the named entity phrase,
 it could make these systematically eligible for that position, on the
 named entity reading.
-
-Last update: 2013-02-28 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/RmrsNes/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

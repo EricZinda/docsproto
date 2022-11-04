@@ -15,7 +15,7 @@ for the time being.
 - MRS property mappings (oe)
 - MT bach processing and BLEU scoring (intro: oe, use: fcb)
 - SEM-I interactions (use of hierarchy, look up information, et al.)
-- [JaEn](/JaEn), [EnJa](/EnJa), [NoJa](../NoJa), [JaNo](/JaNo) and
+- [JaEn](/JaEn), [EnJa](/EnJa), [NoJa](https://blog.inductorsoftware.com/docsproto/tools/NoJa), [JaNo](/JaNo) and
 [JaJa](/JaJa) prototypes (oe & fcb)
 - sharing types across transfer grammars (oe, testing fcb)
 - draft documention [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) (fcb, should really
@@ -26,5 +26,4 @@ be oe)
 - unknown words and numbers
 - gold JaCY profiles in CVS DONE
 - web demonstrator
-
-Last update: 2008-12-01 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

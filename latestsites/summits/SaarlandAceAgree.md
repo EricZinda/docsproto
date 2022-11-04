@@ -5,7 +5,7 @@
 For most people: go to the ACE website and download ACE from one of the
 links there (rather than checking it out from subversion
 
-Liling: ACE is not on the [FrontPage](https://blog.inductorsoftware.com/docsproto/tools/FrontPage)
+Liling: ACE is not on the [FrontPage](../FrontPage)
 
 Woodley: someone should add that with a link to [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
 
@@ -164,5 +164,4 @@ give you these binaries if you want to be an early adopter
 Agree Concepts - Three object types:
 
 Functor - Monad - Identity
-
-Last update: 2013-08-10 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandAceAgree/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
