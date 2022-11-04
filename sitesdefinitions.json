@@ -13,6 +13,7 @@
   ],
   "SourceRepositories":
     {
+      "main": {"Repository": "ericzinda/docsproto"},
       "websitewiki": {"Repository": "ericzinda/docsproto/wiki"},
       "docswiki": {"Repository": "delph-in/docs/wiki"}
     },
@@ -45,8 +46,8 @@
         {"Page": "Projects Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Documentation", "Pages": [
-        {"Page": "Quick Start", "SrcDir": "websitewiki", "SrcFile": "DocsQuickStart.md"},
-        {"Page": "Reference", "SrcDir": "websitewiki", "SrcFile": "DelphinDocsReference.md"},
+        {"Page": "Quick Start", "SrcDir": "main", "SrcFile": "DocsQuickStart.md"},
+        {"Page": "Reference", "SrcDir": "main", "SrcFile": "DelphinDocsReference.md"},
         {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"}
       ]}
     ],
@@ -147,7 +148,6 @@
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md"},
         {"Page": "QuickStart", "SrcDir": "docswiki", "SrcFile": "QuickStart.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "ERG Usage Sample Export", "SrcDir": "docswiki", "SrcFile": "ErgProcessing_SampleExport.md", "Referrer": "concept/ErgProcessing.md"},
-        {"Page": "Semantics Interface", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
         {"Page": "Tuning Ace for ERG", "SrcDir": "docswiki", "SrcFile": "AceErgTuning.md", "Referrer": "concept/ErgProcessing.md"},
         {"Page": "ERG REST API", "SrcDir": "docswiki", "SrcFile": "ErgApi.md", "Referrer": "concept/ErgProcessing.md"}
       ]},
@@ -156,7 +156,8 @@
         {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
         {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
         {"Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
-        {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"}
+        {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"},
+        {"Page": "Semantics Interface (SEM-I)", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"}
       ]},
       {"Section": "Inventory", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
