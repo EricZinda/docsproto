@@ -2,21 +2,21 @@
 
 Contents
 
-1. [Parallel Corpora for DELPH-IN](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
+1. [Parallel Corpora for DELPH-IN](../FeforParCorp#Parallel_Corpora_for_DELPH-IN)
    1. [Collections/Samples of available parallel
-corpora](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
-      1. [Europarl Corpus](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
+corpora](../FeforParCorp#Collections.2FSamples_of_available_parallel_corpora)
+      1. [Europarl Corpus](../FeforParCorp#Europarl_Corpus)
       2. [OPUS: Technical Documentation (plus Europarl and European
-Constitution)](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
-      3. [The Sofie Treebank](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
+Constitution)](../FeforParCorp#OPUS:_Technical_Documentation_.28plus_Europarl_and_European_Constitution.29)
+      3. [The Sofie Treebank](../FeforParCorp#The_Sofie_Treebank)
       4. [The JRC-Acquis Multilingual Parallel
-Corpus](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
-      5. [Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
+Corpus](../FeforParCorp#The_JRC-Acquis_Multilingual_Parallel_Corpus)
+      5. [Cathedral and the Bazaar](../FeforParCorp#Cathedral_and_the_Bazaar)
       6. [Universal Declaration of Human
-Rights](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
-      7. [Scroogled](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
+Rights](../FeforParCorp#Universal_Declaration_of_Human_Rights)
+      7. [Scroogled](../FeforParCorp#Scroogled)
    2. [Some criteria for choosing a
-corpus](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp)
+corpus](../FeforParCorp#Some_criteria_for_choosing_a_corpus)
 
 ## Collections/Samples of available parallel corpora
 

@@ -10,7 +10,7 @@ Prelimary work is being done using the ERG and wordnet, mainly at NTU
 - [Some early discussions at the Suquamish
 Summit](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
 - [Some thoughts on mapping between ERG and Wordnet
-predicates](https://blog.inductorsoftware.com/docsproto/home/LexsemMapping)
+predicates](../LexsemMapping)
 - [MRS mini-modelling Sympoisum at UW](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm)
 - [Semcor Wordnet-ERG mapping](https://blog.inductorsoftware.com/docsproto/home/SemCor) and link to data download
 - [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMrsWordnet)

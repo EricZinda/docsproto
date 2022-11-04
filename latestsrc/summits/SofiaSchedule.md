@@ -117,7 +117,7 @@ Contents
 | **Friday July 6** | **Mirror Hall**                                                             | **Hall 2**                             |
 | **09:30-11:00**   | \*SEM (Emily)                                                               | [Preprocessing](../SofiaPreprocessingSIG) |
 | **11:00-11:30**   | Coffee Break                                                                |                                        |
-| **11:30-13:00**   | [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) (Aurelie)                                            | [Teaching (Francis)](https://blog.inductorsoftware.com/docsproto/home/TeachingTop)      |
+| **11:30-13:00**   | [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) (Aurelie)                                            | [Teaching (Francis)](../TeachingTop)      |
 | 13:00-14:00       | Lunch at University Restaurant                                              |                                        |
 | 14.00-15:30       | Robust Generation (Dan)                                                     | More CLIMB (Antske)                    |
 | 15:30-16:00       | Coffee Break                                                                |                                        |

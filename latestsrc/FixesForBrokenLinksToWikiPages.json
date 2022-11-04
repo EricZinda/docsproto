@@ -1,0 +1,7 @@
+  {
+    "home": [
+      {"Section": "Documentation", "Pages": [
+        {"Page": "ERDW_HowCurrentDocsAreBuilt", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "home/ERDW_StructureForNewDocsSite.md", "Referrer": "home/ERDW_StructureForNewDocsSite.md"}
+      ]}
+    ]
+  }

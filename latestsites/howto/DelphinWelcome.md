@@ -20,7 +20,7 @@ hope that you will contribute to these pages over time.
 Here are a few pages designed for people getting familiar with DELPH-IN
 technology:
 
-- [ErsTutorial](https://blog.inductorsoftware.com/docsproto/erg/ErsTutorial): A tutorial on using the ERG
+- [ErsTutorial](../ErsTutorial): A tutorial on using the ERG
 - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics): Documentation of the semantic
 representations produced by the ERG
 - [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted): A starting point for

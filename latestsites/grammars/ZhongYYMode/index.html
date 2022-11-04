@@ -480,6 +480,15 @@ following line (add <em>[0]</em> after <em>result</em>).</p>
   
   
 </div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "nearest", inline: "nearest"});
+  }
+</script>
+
     </div>
 
     

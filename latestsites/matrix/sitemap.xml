@@ -163,6 +163,9 @@
 <loc>http://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewType/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/matrix/GrammarDevelopment/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/matrix/GrammarEngineeringFAQ/</loc>
 </url>
 <url>
@@ -326,6 +329,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTestingSetup/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTestingSetupMac/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/matrix/MatrixTDB2Tables/</loc>

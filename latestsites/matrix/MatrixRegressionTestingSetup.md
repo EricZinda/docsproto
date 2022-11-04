@@ -22,7 +22,7 @@ requirements to run the regression tests are:
 This page is current as of 02-10-16 - CMC
 
 For experimental regression testing on Mac, see
-[MatrixRegressionTestingSetupMac](https://blog.inductorsoftware.com/docsproto/home/MatrixRegressionTestingSetupMac)
+[MatrixRegressionTestingSetupMac](../MatrixRegressionTestingSetupMac)
 
 ## Setting up a VirtualBox virtual machine
 

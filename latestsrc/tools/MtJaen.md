@@ -14,7 +14,7 @@ Most of the rules of the Jaen MT system are extracted automatically from
 parallel corpora. The procedure for automatic rule extraction is
 described here: [MT rule extraction](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
 
-Some results can be found here: [MtJaenTanaka](MtJaenTanaka),
+Some results can be found here: [MtJaenTanaka](../MtJaenTanaka),
 [MtJaenFeedbackCleaning](https://blog.inductorsoftware.com/docsproto/garage/MtJaenFeedbackCleaning).
 
 There are some note on how to set up an MT system with the DELPH-In

@@ -59,11 +59,11 @@ typed, and the format is compatible with the TEI/ISO standard
 
 # SMAF/LKB
 
-See [SmafLkb](https://blog.inductorsoftware.com/docsproto/home/SmafLkb).
+See [SmafLkb](../SmafLkb).
 
 # SMAF/PET
 
-See [SmafPet](https://blog.inductorsoftware.com/docsproto/home/SmafPet).
+See [SmafPet](../SmafPet).
 
 # SMAF configuration
 
@@ -116,7 +116,7 @@ Sample SMAF configuration settings:
 
 # SAMPLE SMAF XML
 
-See also: [SmafSample](https://blog.inductorsoftware.com/docsproto/home/SmafSample)
+See also: [SmafSample](../SmafSample)
 
     <?xml version='1.0' encoding='UTF-8'?>
     <!DOCTYPE smaf SYSTEM 'smaf.dtd'>
@@ -134,5 +134,5 @@ See also: [SmafSample](https://blog.inductorsoftware.com/docsproto/home/SmafSamp
 
 # SMAF DTD
 
-See [SmafDtd](https://blog.inductorsoftware.com/docsproto/home/SmafDtd).
+See [SmafDtd](../SmafDtd).
 <update date omitted for speed>{% endraw %}

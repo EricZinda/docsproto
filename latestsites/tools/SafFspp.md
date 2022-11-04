@@ -10,7 +10,7 @@ in the [LkbTop](../LkbTop) and \[in progress...\] an embedded module in
 FSPP is initialized from a file containing finite-state rule definitions
 (eg. \`preprocessor.fsr'). It is then fed input strings (one per
 sentence) as input, from which it produces standoff XML (in the
-[SmafTop](../SmafTop) or [SafTop](https://blog.inductorsoftware.com/docsproto/home/SafTop) formats) as output.
+[SmafTop](../SmafTop) or [SafTop](../SafTop) formats) as output.
 
 ## FSPP Example
 

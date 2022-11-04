@@ -29,12 +29,12 @@ Please bear the following time table in mind.
 | Swedish (sv)       |     Linköping      |             | TBA       |
 
 There was some discussion of this subject at Fefor in 2006:
-[FeforParCorp](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp). This includes several candidate corpora,
+[FeforParCorp](../FeforParCorp). This includes several candidate corpora,
 and some desiderata for choosing a text.
 
 - I ([FrancisBond](https://blog.inductorsoftware.com/docsproto/tools/FrancisBond)) have filled out the description of
 the "Cathedral and the Bazaar" test set at
-[FeforParCorp](https://blog.inductorsoftware.com/docsproto/home/FeforParCorp).
+[FeforParCorp](../FeforParCorp).
   
   - This is an essay on open source software, consisting of about
 800 sentences. The main advantages are (a) it is released under

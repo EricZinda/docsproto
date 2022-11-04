@@ -545,6 +545,15 @@ $ echo "anjing menggonggong" | ace -g YOUR_INDRA_DIRECTORY/ind.dat | ace -g YOUR
   
   
 </div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "nearest", inline: "nearest"});
+  }
+</script>
+
     </div>
 
     

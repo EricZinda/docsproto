@@ -65,16 +65,16 @@ suites.
 |               |                         |                              |                                                            |                |
 |---------------|-------------------------|------------------------------|------------------------------------------------------------|----------------|
 | Name          | Lang                    | Summary                      | Home Page                                                  | License        |
-| ERG           | English (En)            | [Summary](https://blog.inductorsoftware.com/docsproto/home/ErgSummary)        | [home](http://www.delph-in.net/erg/)                       | MIT            |
-| Jacy          | Japanese (Ja)           | [Summary](https://blog.inductorsoftware.com/docsproto/home/JacySummary)       | [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop)                                            | Non-commercial |
+| ERG           | English (En)            | [Summary](../ErgSummary)        | [home](http://www.delph-in.net/erg/)                       | MIT            |
+| Jacy          | Japanese (Ja)           | [Summary](../JacySummary)       | [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop)                                            | Non-commercial |
 | GG            | German (De)             |                              |                                                            | lgpl           |
 | Norsource     | Norwegian (No)          | [Summary](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceSummary)  |                                                            | LGPL-LR        |
-| PhD Gram      | Norwegian (No)          | [Summary](https://blog.inductorsoftware.com/docsproto/home/PhdgramSummary)    |                                                            |                |
+| PhD Gram      | Norwegian (No)          | [Summary](../PhdgramSummary)    |                                                            |                |
 | La Grenouille | French (Fr)             | [Summary](https://blog.inductorsoftware.com/docsproto/garage/GrenouilleSummary) | [home](http://www.loria.fr/~tseng/grenouille/index.html)   |                |
 | MGRG          | Greek (Gr)              | [Summary](https://blog.inductorsoftware.com/docsproto/grammars/MgrgSummary)       |                                                            |                |
 | MSG           | Spanish (Es)            |                              | [home](http://www.upf.edu/pdi/iula/nuria.bel/MSG/MSG.html) |                |
 | KRG           | Korean (Ko)             |                              | [KRG](http://web.khu.ac.kr/~jongbok/projects/krg.html)     | MIT            |
-| BiTSE         | Swedish/English (Sw/En) | [Summary](https://blog.inductorsoftware.com/docsproto/home/BitseSummary)      | [BiTSE](http://www.ida.liu.se/~sarst/bitse)                | LGPL-LR        |
+| BiTSE         | Swedish/English (Sw/En) | [Summary](../BitseSummary)      | [BiTSE](http://www.ida.liu.se/~sarst/bitse)                | LGPL-LR        |
 
 * * *
 <update date omitted for speed>{% endraw %}
