@@ -128,9 +128,9 @@ information](https://blog.inductorsoftware.com/docsproto/summits/SingaporeRepres
 compliance](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSemanticAlgebraCompliance)
   - Some discussion of the idea of unifying EPs (to effectively
 suppress a second copy) in [Chinese A-not-A
-questions](https://blog.inductorsoftware.com/docsproto/home/LADChineseAnotA)
+questions](https://blog.inductorsoftware.com/docsproto/summits/LADChineseAnotA)
 - [Virtual Linguistic Analysis Design session regarding Lushootseed
-and RMRS](https://blog.inductorsoftware.com/docsproto/home/LADLushootseedSemantics), October 2015
+and RMRS](https://blog.inductorsoftware.com/docsproto/summits/LADLushootseedSemantics), October 2015
 - From the [Stanford Summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule), June 2016
   
   - [Alternative Sets](https://blog.inductorsoftware.com/docsproto/summits/StanfordAlternativeSets): Is the info in MRS
@@ -152,9 +152,9 @@ them distinct?
   - [OsloQuestionRepresentation](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation): How
 can we capture the info that was lost when we dropped messages
 and thus the PARAMS list?
-- From [SynSem](https://blog.inductorsoftware.com/docsproto/home/SynSem) at CAS, 2017-2018
+- From [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) at CAS, 2017-2018
   
-  - [SynSem/Activities/PolymorphicVariadicPredicates](https://blog.inductorsoftware.com/docsproto/home/SynSem_Activities_PolymorphicVariadicPredicates)
+  - [SynSem/Activities/PolymorphicVariadicPredicates](https://blog.inductorsoftware.com/docsproto/summits/SynSem_Activities_PolymorphicVariadicPredicates)
 (April 2018)
 - From the [Diderot Summit](https://blog.inductorsoftware.com/docsproto/summits/DiderotSchedule), June 2018
   

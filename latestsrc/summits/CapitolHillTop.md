@@ -3,7 +3,7 @@
 This page contains some information about the Grammar Engineering
 mini-meeting in Seattle, WA January 2-6 2017. As well as the discussion
 linked below, it led to a new page on [Grammar
-Development](https://blog.inductorsoftware.com/docsproto/home/GrammarDevelopment).
+Development](https://blog.inductorsoftware.com/docsproto/matrix/GrammarDevelopment).
 
 Theme\
 Upsizing Grammars and Cross-lingual Learning.

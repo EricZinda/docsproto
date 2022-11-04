@@ -100,7 +100,7 @@ its own. One standard task is SNLI (predicting entailment). Another is
 question answering (finding the answer in a long text).
 
 [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger): [Robot
-control](/DelphinApplications#Robot_Control) –
+control](https://blog.inductorsoftware.com/docsproto/home/DelphinApplications) –
 [WoodleyPackard](/WoodleyPackard) entered a competition, and crucially
 used MRS as a bottleneck as you described.
 

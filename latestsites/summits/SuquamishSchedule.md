@@ -28,7 +28,7 @@ two days with opportunities for small-group (parallel) activities.
 | 16:30-16:50       | [Deep DARE: Dependency Graphs as a Generic Interface between Parsers and Relation Extraction Rule Learning](http://www.delph-in.net/2011/dare.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                |
 | 16:50-17:10       | [Minimally Supervised Domain-Adaptive Parse-Reranking for Relation Extraction](http://www.delph-in.net/2011/reranking.pdf) ([YiZhang](https://blog.inductorsoftware.com/docsproto/tools/YiZhang))                                        |
 | 17:10-17:30       | [Minimal Recursion Semantics and Query-Focused Text Summarization](http://www.delph-in.net/2011/prescott.pdf) ([PrescottKlassen](/PrescottKlassen))                                    |
-| 17:30-18:00       | [Report from ACL2011 Birds-of-a-Feather Meeting](https://blog.inductorsoftware.com/docsproto/home/BirdsofaFeather2011) ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                  |
+| 17:30-18:00       | [Report from ACL2011 Birds-of-a-Feather Meeting](../BirdsofaFeather2011) ([EmilyBender](https://blog.inductorsoftware.com/docsproto/tools/EmilyBender) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/tools/DanFlickinger))                                                  |
 
 |                 |                                                                                                                                                                                                                      |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -91,14 +91,14 @@ two days with opportunities for small-group (parallel) activities.
 | **11:00-12:30**    | [(Dis)Ambiguation, Lexical Semantics, Word\`\`Net, Onto\`\`Notes](../SuquamishLexSem) |                                          |
 | 12:30-13:30        | Lunch                                                                              | (1.) Han Unification; (2.) agree roadmap |
 | **13:30-15:00**    | [Phenomena Catalogue Kick-Off](../SuquamishPhenomenaCatalogue)                        | CJK Machine Translation                  |
-| **15:30-17:30**    |                                                                                    | [DocumentationParty](https://blog.inductorsoftware.com/docsproto/home/DocumentationParty) |
+| **15:30-17:30**    |                                                                                    | [DocumentationParty](../DocumentationParty) |
 
 Please add your name to the intended sublist if you are interested in
 participating in the activity:
 
 - Grammar catalogue++: What can we do with scripts? (Mike)
   - Francis, Emily, Antske, Sanghoun, Joshua, Petter, David
-- [SlavicMatrix](https://blog.inductorsoftware.com/docsproto/home/SlavicMatrix) (Varya and Emily)-please schedule on
+- [SlavicMatrix](../SlavicMatrix) (Varya and Emily)-please schedule on
 Tuesday AM
   
   - Stephan, Yi, Antske, Sanghoun, Laurie, Dan

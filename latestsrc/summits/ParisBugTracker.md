@@ -33,7 +33,7 @@ Bart: It's not only bugs, but also documentation, code hosting etc. We
 should centralise everything.
 
 ([Stephan lists all sites, and ways to keep track of
-them](https://blog.inductorsoftware.com/docsproto/home/InfrastructureTop)).
+them](../InfrastructureTop)).
 
 Emily: is positive about a central place.
 

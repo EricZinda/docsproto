@@ -181,6 +181,22 @@
     
       <li>
         
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/erg/ErgTop/" class="active">ERG Summary</a></li>
+          
+            <li><a href="/docsproto/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
           <span class="nav__sub-title">ERG Usage</span>
         
 
@@ -192,8 +208,6 @@
             <li><a href="/docsproto/erg/QuickStart/">QuickStart</a></li>
           
             <li><a href="/docsproto/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
-          
-            <li><a href="/docsproto/erg/ErgSemantics_Interface/">Semantics Interface</a></li>
           
             <li><a href="/docsproto/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
           
@@ -211,9 +225,7 @@
         
         <ul>
           
-            <li><a href="/docsproto/erg/ErsTutorial/">English Resource Semantics Tutorial</a></li>
-          
-            <li><a href="/docsproto/erg/ErgSemantics/">Overview</a></li>
+            <li><a href="/docsproto/erg/ErgSemantics/">Semantics</a></li>
           
             <li><a href="/docsproto/erg/ErgSemantics_Essence/">Essence</a></li>
           
@@ -223,7 +235,7 @@
           
             <li><a href="/docsproto/erg/ErgSemantics_Conventions/">Conventions</a></li>
           
-            <li><a href="/docsproto/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+            <li><a href="/docsproto/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
           
         </ul>
         
@@ -304,8 +316,6 @@
 
         
         <ul>
-          
-            <li><a href="/docsproto/erg/ErgTop/" class="active">Overview</a></li>
           
             <li><a href="/docsproto/erg/ErgLeTypes/">LE Types</a></li>
           
@@ -451,7 +461,7 @@ Copestake 2006), extraction of glossary sentences (Reiplinger et al
 Searchbench (Schäfer et al 2011).</p>
 
 <h1 id="history">History</h1>
-<p>The early development and first application of the ERG was in the <a href="http://verbmobil.dfki.de/">VerbMobil</a> spoken language machine translation project. CSLI’s <a href="https://www-csli.stanford.edu/groups/lingo-project">Linguistic Grammars Online</a> Lab was responsible for building the English grammar for the deep-processing component of Verbmobil, which utilized a semantic transfer approach, requiring both parsing and generation of conversational English dialogues. Since then, the ERG has been used in a commercial application providing automatic response to customer email messages, in a second machine translation research project <a href="http://www.emmtee.net/">LOGON</a> for Norwegian to English, and for the past decade in grammar correction, beginning in an online English Language Arts course offered to elementary school students as part of Stanford University’s <a href="https://en.wikipedia.org/wiki/Education_Program_for_Gifted_Youth">Education Program for Gifted Youth</a>.  This course became part of the spin-off company Redbird’s offerings, and most recently part of McGraw-Hill Education’s product line as their <a href="https://www.mheducation.com/prek-12/explore/redbird/language-arts-writing.html">Language Arts and Writing</a> course.  The ERG is also being used to detect and explain grammatical errors in student writing products for second-language learners of English offered by the Beijing-based company <a href="www.up366.com">Up366</a>.</p>
+<p>The early development and first application of the ERG was in the <a href="http://verbmobil.dfki.de/">VerbMobil</a> spoken language machine translation project. CSLI’s <a href="https://www-csli.stanford.edu/groups/lingo-project">Linguistic Grammars Online</a> Lab was responsible for building the English grammar for the deep-processing component of Verbmobil, which utilized a semantic transfer approach, requiring both parsing and generation of conversational English dialogues. Since then, the ERG has been used in a commercial application providing automatic response to customer email messages, in a second machine translation research project <a href="http://www.emmtee.net/">LOGON</a> for Norwegian to English, and for the past decade in grammar correction, beginning in an online English Language Arts course offered to elementary school students as part of Stanford University’s <a href="https://en.wikipedia.org/wiki/Education_Program_for_Gifted_Youth">Education Program for Gifted Youth</a>.  This course became part of the spin-off company Redbird’s offerings, and most recently part of McGraw-Hill Education’s product line as their <a href="https://www.mheducation.com/prek-12/explore/redbird/language-arts-writing.html">Language Arts and Writing</a> course.  The ERG is also being used to detect and explain grammatical errors in student writing products for second-language learners of English offered by the Beijing-based company <a href="../www.up366.com">Up366</a>.</p>
 
 <p><a href="https://www-csli.stanford.edu/people/daniel-flickinger">Dan Flickinger</a> (CSLI) is the principal ERG developer. Other individuals who have made major contributions to the grammar are Emily Bender (University of Washington), Ann Copestake (University of Cambridge), Rob Malouf (San Diego State University) and Stephan Oepen (University of Oslo).  Several former graduate students (Brady Clark, Judith Tonhauser, Kathryn Campbell-Kibler, Martina Faller, Ash Asudeh, Susanne Riehemann) and visiting graduate students (Jesse Tseng, University of Edinburgh; Ken Bame, Ohio State University; Judith Eckle-Kohler, University of Stuttgart) also did detailed work, including building the lexicon, developing test suites, isolating phenomena found in corpora and developing analyses in the HPSG formalism.  Jeff Smith (Professor, San Jose State University) has also spent time at CSLI developing various aspects of the grammar.  In addition to this direct implementation work, weekly technical project meetings have provided an important forum for critique of specific analyses, particularly from Stanford profesors Ivan Sag and Tom Wasow.</p>
 
@@ -568,6 +578,15 @@ generation and implementation. Dialogue &amp; Discourse, 3(2), 11-42.</p>
   
   
 </div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "nearest", inline: "nearest"});
+  }
+</script>
+
     </div>
 
     
