@@ -62,7 +62,11 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
             repository = repositories_definitions[file_definition["SrcDir"]]["Repository"]
             file_name, file_extension = os.path.splitext(file_definition["SrcFile"])
 
-            link = f"https://github.com/{repository}/{file_name}/_edit"
+            if repository.endwith("/wiki"):
+                link = f"https://github.com/{repository}/{file_name}/_edit"
+            else:
+                link = f"https://github.com/{repository}/edit/main/{file_name}"
+
         else:
             link = ""
 
