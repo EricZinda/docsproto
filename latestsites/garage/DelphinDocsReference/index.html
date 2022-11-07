@@ -557,6 +557,7 @@
   
   ...
 </code></pre></div></div>
+
 <h3 id="sites">Sites</h3>
 <p>The <code class="language-plaintext highlighter-rouge">Sites</code> section declares what top level sites exist to hold content. Think of these like chapters in a book. These create the top level navigation on the site.</p>
 <ul>
@@ -574,10 +575,11 @@
   
 ...
 </code></pre></div>    </div>
-    <h3 id="pages">Pages</h3>
-    <p>The <code class="language-plaintext highlighter-rouge">Pages</code> section declares which pages from the different repositories should actually be included in the site, and where. It is in a tree structure so that pages can be easily moved around. The page definitions themselves don’t have information about where they are. Their location is set by their location in the tree.</p>
   </li>
 </ul>
+
+<h3 id="pages">Pages</h3>
+<p>The <code class="language-plaintext highlighter-rouge">Pages</code> section declares which pages from the different repositories should actually be included in the site, and where. It is in a tree structure so that pages can easily be moved around. The page definitions themselves don’t have information about where they are. Their location is set by their location in the tree.</p>
 
 <p>So, to include 2 pages in the “concept” site in a structure like this:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>concept
@@ -628,12 +630,16 @@
   <li><code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages</code>: Creates page definitions suitable for including in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> for every broken link. Note that this includes adding entries for wiki pages that <em>don’t exist</em> (those will have the <code class="language-plaintext highlighter-rouge">FileMissing</code> field set in their definition). This allows you to simply copy the <code class="language-plaintext highlighter-rouge">File</code> definition to the <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren’t included, and so on).  If you included all of these files in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code>, there would be no broken (Wiki) links!</li>
 </ul>
 
+<blockquote>
+  <p>Note that a file that was linked to but didn’t exist will have a definition in <code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages</code> as well, but will include a <code class="language-plaintext highlighter-rouge">"FileMissing": True</code> field. Obviously don’t add this to the site without also creating the file that was missing!</p>
+</blockquote>
+
 <p>If it failed, click on the row that represents the run you just did and you’ll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the “build” part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.</p>
 
-<h2 id="the--section">The <todo> Section</todo></h2>
-<p>Note that any section named “<todo>" that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.</todo></p>
+<h2 id="the-todo-section">The <code class="language-plaintext highlighter-rouge">&lt;todo&gt;</code> Section</h2>
+<p>Note that any section named <code class="language-plaintext highlighter-rouge">&lt;todo&gt;</code> that is included in the docs will <em>not</em> be included in the output.  However, any pages in it will be counted as “valid” when linked to, even if they don’t exist in the site. This is a mechanism for removing them from being added to the “Fixes for Broken Links to Wiki Pages” output file that the build generates.</p>
 
-<p>Last update: 2022-11-04 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/DelphinDocsReference">edit</a>]</p>
+<p>Last update: 2022-11-07 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/DelphinDocsReference.md">edit</a>]</p>
 
         
       </section>

@@ -76,6 +76,7 @@ To add a new repository, a row must be added here *and* the [workflow](https://g
   
   ...
 ```
+
 ### Sites
 The `Sites` section declares what top level sites exist to hold content. Think of these like chapters in a book. These create the top level navigation on the site.
 - `SiteFullName` is the descriptive name that will be shown for the site when you are in that site.
@@ -93,8 +94,9 @@ The `Sites` section declares what top level sites exist to hold content. Think o
   
   ...
 ```
+
 ### Pages
-The `Pages` section declares which pages from the different repositories should actually be included in the site, and where. It is in a tree structure so that pages can be easily moved around. The page definitions themselves don't have information about where they are. Their location is set by their location in the tree.  
+The `Pages` section declares which pages from the different repositories should actually be included in the site, and where. It is in a tree structure so that pages can easily be moved around. The page definitions themselves don't have information about where they are. Their location is set by their location in the tree.  
 
 So, to include 2 pages in the "concept" site in a structure like this:
 ```
@@ -141,9 +143,12 @@ You can also click on the row that represents the run you just did and you'll se
 - `All Pages`: Lists every page in every site.
 - `Fixes for Broken Links to Pages`: Creates page definitions suitable for including in `sitesdefinition.json` for every broken link. Note that this includes adding entries for wiki pages that *don't exist* (those will have the `FileMissing` field set in their definition). This allows you to simply copy the `File` definition to the `sitesdefinition.json` file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren't included, and so on).  If you included all of these files in `sitesdefinition.json`, there would be no broken (Wiki) links!
 
+> Note that a file that was linked to but didn't exist will have a definition in `Fixes for Broken Links to Pages` as well, but will include a `"FileMissing": True` field. Obviously don't add this to the site without also creating the file that was missing!
+
+
 If it failed, click on the row that represents the run you just did and you'll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the "build" part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.
 
-## The <todo> Section
-Note that any section named "<todo>" that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.
+## The `<todo>` Section
+Note that any section named `<todo>` that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.
 
-Last update: 2022-11-04 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DelphinDocsReference)]{% endraw %}
+Last update: 2022-11-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DelphinDocsReference.md)]{% endraw %}

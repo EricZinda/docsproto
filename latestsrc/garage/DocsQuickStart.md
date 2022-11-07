@@ -5,13 +5,13 @@ This is all managed in a git repository, so changes are tracked, can be reverted
 
 ## How to Add Pages to the Docs
 1. Create the pages you want in the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) or the [DELPH-IN docs wiki](https://github.com/EricZinda/docsproto). 
-2. Edit the [sitesdefinitions.json file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) in the docs repository to include the pages (see the section on [The Site Definition File](../DocsQuickStart#The-Site-Definition-File) below). You can simply click the edit button on that link to update the file, no need to clone, etc. For more information see [The Site Definition FIle](../DocsQuickStart#The-Site-Definition-File) below.
-3. [Run the workflow](https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see [Running the Workflow](../DocsQuickStart#Running-the-Workflow) below.
+2. Edit the [sitesdefinitions.json file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see [The Site Definition File](../DocsQuickStart#the-site-definition-file) below.
+3. [Run the workflow](https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see [Running the Workflow](../DocsQuickStart#running-the-workflow) below.
 
 ### The Site Definition File
 The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). 
 
-Changing/Adding/Removing anything *except the top level navigation* in the site involves simply editing the file and [re-running the workflow](../DocsQuickStart#Running-the-Workflow).  If you want to add or remove the *top level organization of the site* (i.e. the top level navigation across the top of the page), there is a little more to do, see [Modifying the Site Structure](Modifying-the-Site Structure) below.
+Changing/Adding/Removing anything *except the top level navigation* in the site involves simply editing the file and [re-running the workflow](../DocsQuickStart#Running-the-Workflow).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](../DocsQuickStart#modifying-the-site-structure) below.
 
 A simplified version of the production file is below. The file has 3 initial sections that rarely need to be changed: `Comments`, `SourceRepositores`, and `Sites`.  These define what data can be included in the site and what the top level structure is.
 
@@ -76,13 +76,16 @@ More detail on the structure and background is in the [DELPH-IN Docs Reference G
 
 At this point the workflow will begin running and you'll see its status.  When done, it will have a green checkmark for success or a red X for failure.  If it was successful the docs have been immediately published and you can browse them live. It takes about 10 minutes to run. 
 
-If successful, you can click on the run itself and scroll to the bottom of the output to find some analysis files that can be helpful.  In particular the file `Fixes for Broken Links to Pages that Exist` creates file definitions for every file that was linked to but not included (recursively). If you include all those file definitions in the `sitedefinitions.json` there will be no broken (Wiki) links in the site!
+If successful, you can click on the run itself and scroll to the bottom of the output to find some analysis files that can be helpful.  In particular the file `Fixes for Broken Links to Wiki Pages` creates file definitions for every file that was linked to but not included (recursively). If you include all those file definitions in the `sitedefinitions.json` there will be no broken (Wiki) links in the site! 
+
+> Note that a file that was linked to but didn't exist will have a definition there as well, but will include a `"FileMissing": True` field. Obviously don't add this to the site without also creating the file that was missing!
+
 
 If it failed, click on the row that represents the run you just did and you'll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the "build" part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.
 
-More detail on the workflow is in the [DELPH-IN Docs Reference Guide](../DelphinDocsReference#Running-the-Workflow).
+More detail on the workflow is in the [DELPH-IN Docs Reference Guide](../DelphinDocsReference#running-the-workflow).
 
 ## Modifying the Site Structure
 To modify the site structure, see the [DELPH-IN Docs Reference Guide](../DelphinDocsReference).
 
-Last update: 2022-11-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DocsQuickStart)]{% endraw %}
+Last update: 2022-11-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DocsQuickStart.md)]{% endraw %}
