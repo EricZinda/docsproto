@@ -3,7 +3,7 @@ This is not locked in, it is a working document that is being actively written, 
 
 The work is being actively prototyped.  None of it should be construed as done, or even agreed on at this point:
 - The github repository where EricZ is prototype the work is [here](https://github.com/EricZinda/docsproto). 
-- The page that describes how it works is [here](https://github.com/EricZinda/docsproto/blob/main/HowToUpdateDocs.md)
+- The page that describes how it works is [here](https://github.com/EricZinda/docsproto/blob/main/DelphinDocsReference.md)
 - The current working prototype is [here](https://blog.inductorsoftware.com/docsproto/home/Home/)
 
 # Requirements
@@ -72,4 +72,4 @@ Searching will search across all unversioned sites and the *latest* version of a
 Starting with https://mmistakes.github.io/minimal-mistakes/ since it has been used by others for docs. We can change as needed
 
 
-Last update: 2022-10-25 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}
+Last update: 2022-11-07 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}

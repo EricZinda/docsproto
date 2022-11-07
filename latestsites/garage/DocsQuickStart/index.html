@@ -474,7 +474,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h1 id="updating-the-docs">Updating the docs</h1>
-<p>The DELPH-IN docs are generated from the content in the <a href="https://github.com/delph-in/docs/wiki">DELPH-IN wiki</a> and the <a href="https://github.com/EricZinda/docsproto">DELPH-IN docs wiki</a> without modification. A page from either WIKI shows up in the docs, as is, except that the links are fixed up to keep readers within the docs site. Pages are included in the docs simply by adding a row to a configuration file, <a href="../DocsQuickStart#How-to-Add-Pages-to-the-Docs">as described below</a>.</p>
+<p>The DELPH-IN docs are generated from the content in the <a href="https://github.com/delph-in/docs/wiki">DELPH-IN wiki</a> and the <a href="https://github.com/EricZinda/docsproto">DELPH-IN docs wiki</a> without modification. A page from either WIKI shows up in the docs, as is, except that the links are fixed up to keep readers within the docs site. Pages are included in the docs simply by adding a row to a configuration file, <a href="../DocsQuickStart#how-to-add-pages-to-the-docs">as described below</a>.</p>
 
 <p>This is all managed in a git repository, so changes are tracked, can be reverted, etc.  Mistakes can be cleaned up, don’t worry about messing things up!</p>
 
@@ -488,7 +488,7 @@
 <h3 id="the-site-definition-file">The Site Definition File</h3>
 <p>The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON">JSON format</a>.</p>
 
-<p>Changing/Adding/Removing anything <em>except the top level navigation</em> in the site involves simply editing the file and <a href="../DocsQuickStart#Running-the-Workflow">re-running the workflow</a>.  If you want to add or remove the <em>top level organization of the site</em> (i.e. the navigation links across the top of every page), there is a little more to do, see <a href="../DocsQuickStart#modifying-the-site-structure">Modifying the Site Structure</a> below.</p>
+<p>Changing/Adding/Removing anything <em>except the top level navigation</em> in the site involves simply editing the file and <a href="../DocsQuickStart#running-the-workflow">re-running the workflow</a>.  If you want to add or remove the <em>top level organization of the site</em> (i.e. the navigation links across the top of every page), there is a little more to do, see <a href="../DocsQuickStart#modifying-the-site-structure">Modifying the Site Structure</a> below.</p>
 
 <p>A simplified version of the production file is below. The file has 3 initial sections that rarely need to be changed: <code class="language-plaintext highlighter-rouge">Comments</code>, <code class="language-plaintext highlighter-rouge">SourceRepositores</code>, and <code class="language-plaintext highlighter-rouge">Sites</code>.  These define what data can be included in the site and what the top level structure is.</p>
 
