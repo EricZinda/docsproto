@@ -146,4 +146,4 @@ If it failed, click on the row that represents the run you just did and you'll s
 ## The <todo> Section
 Note that any section named "<todo>" that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.
 
-Last update: 2022-11-04 by EricZinda [[edit](https://github.com/ericzinda/docsproto/DelphinDocsReference/_edit)]{% endraw %}
+Last update: 2022-11-04 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DelphinDocsReference)]{% endraw %}
