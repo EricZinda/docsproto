@@ -52,13 +52,13 @@
       ]},
       {"Section": "Developer Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoOverview.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPredicationContract.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPyhonBasics.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoImplementPredication.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoMRSToPython.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoConjunctions.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoScopalArguments.md"},
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoEvents.md"}
+        {"Page": "The Predication Contract", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPredicationContract.md"},
+        {"Page": "Python Background", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPyhonBasics.md"},
+        {"Page": "Implementing a Predication", "SrcDir": "main", "SrcFile": "devhowto/devhowtoImplementPredication.md"},
+        {"Page": "MRS To Python", "SrcDir": "main", "SrcFile": "devhowto/devhowtoMRSToPython.md"},
+        {"Page": "Conjuctions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoConjunctions.md"},
+        {"Page": "Scopal Arguments", "SrcDir": "main", "SrcFile": "devhowto/devhowtoScopalArguments.md"},
+        {"Page": "Event Variables", "SrcDir": "main", "SrcFile": "devhowto/devhowtoEvents.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
