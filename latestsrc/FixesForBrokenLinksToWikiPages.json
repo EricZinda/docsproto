@@ -1,4 +1,9 @@
   {
+    "howto": [
+      {"Section": "Developer Tutorial", "Pages": [
+        {"Page": "MRSPythonDecorators", "SrcDir": "main", "SrcFile": "MRSPythonDecorators.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true}
+      ]}
+    ],
     "garage": [
       {"Section": "Grammar Tools", "Pages": [
         {"Page": "ChartMappingSetup", "SrcDir": "docswiki", "SrcFile": "ChartMappingSetup.md", "BaseReferrer": "garage/ChartMapping.md", "Referrer": "garage/ChartMapping.md"}

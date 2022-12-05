@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN How-to">
 <meta property="og:title" content="DELPH-IN How-to">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract/">
 
 
 
@@ -203,7 +203,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">Overview</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/" class="active">Overview</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Overview</a></li>
           
@@ -239,7 +239,7 @@
           
             <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
           
-            <li><a href="/docsproto/howto/HpsgTutorial/" class="active">HPSG</a></li>
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
           
         </ul>
         
@@ -285,34 +285,40 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="hpsg-introduction--implementation">HPSG Introduction &amp; Implementation</h1>
+        <h2 id="the-predication-contract">The Predication Contract</h2>
+<p>It is important to understand <a href="">what MRS is</a> and what <a href="">a scope-resolved MRS tree is</a> before reading this section. Visit those links first to understand the basic concepts.</p>
 
-<h3 id="a-tutorial-at-hpsg-2017">A Tutorial at HPSG 2017</h3>
+<p>A scope-resolved MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is by <em>iteratively</em> finding assignments to the variables in the MRS, one by one, and collecting them. We can do this by defining a specific contract that predications need to follow.</p>
 
-<h3 id="emily-m-bender--dan-flickinger">Emily M. Bender &amp; Dan Flickinger</h3>
+<p>To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. Let’s call this the “predication contract”.</p>
 
-<h2 id="slides">Slides</h2>
+<p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e, x, x)</code>: they have a name and a set of arguments just like functions in mathematics or programming languages. We will be treating the predications we implement as classic programming language functions that can be “called” or “invoked”.</p>
 
+<p>The predication contract requires that, given a world state (the state of the software you want to evaluate the MRS against), a predication must iteratively return its variables set to values that are true in that world state or fail. “Iteratively” means returning one answer the first time they are called, and then another the next time, until there are no more answers (in which case it fails).</p>
+
+<p>It must also operate differently depending on whether its incoming variables are set (sometimes called “bound”) or not (“unbound”):</p>
 <ul>
-  <li><a href="http://faculty.washington.edu/ebender/papers/HPSG_2017_tutorial.pdf">Emily’s slides
-(theory)</a></li>
-  <li><a href="http://lingo.stanford.edu/danf/HPSG-implementation.pdf">Dan’s slides
-(implementation)</a></li>
+  <li>Calling a predication with unbound variables should return the unbound variables bound with a set of values from the world that, together, make it true. Calling it again should return a different set of bindings that make it true. Eventually, it will run out of things that can be true and should then fail.</li>
+  <li>Calling it with bound variables should simply return the same values if true or fail if not. I.e. iterate once.</li>
 </ul>
 
-<h2 id="video-recordings">Video Recordings</h2>
+<p>Let’s use an example to illustrate:</p>
 
-<p>The recording of this 3-hour long tutorial is broken up into six
-separate video files:</p>
+<p>Imagine we want to build a natural language interface to the file system on a computer. We’ll start with a simple a world with 4 things in it. We’ll use Python classes (explained below) to represent them:</p>
 
-<ul>
-  <li><a href="https://youtu.be/-LLpq5rCQuc">Part I</a> (Theory)</li>
-  <li><a href="https://youtu.be/16G46s-qNJU">Part II</a> (Theory)</li>
-  <li><a href="https://youtu.be/BbXV81AvT3M">Part III</a> (Theory)</li>
-  <li><a href="https://youtu.be/LnGZxRI1vb0">Part IV</a> (Implementation)</li>
-  <li><a href="https://youtu.be/3P7xO-n2jnM">Part V</a> (Implementation)</li>
-  <li><a href="https://youtu.be/JksQ26ieECU">Part VI</a> (Implementatation)</li>
-</ul>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Folder(name="Desktop")
+Folder(name="Documents")
+File(name="file1.txt")
+File(name="file2.txt")
+</code></pre></div></div>
+<p>For now, we won’t have files in folders, just the straight list of 4 objects in the file system.</p>
+
+<p>In this world of 4 objects, calling <code class="language-plaintext highlighter-rouge">_folder_n_of(x)</code> once should return <code class="language-plaintext highlighter-rouge">x=Folder(name="Desktop")</code>. Meaning: <code class="language-plaintext highlighter-rouge">x</code> wasn’t set, so: find an object in the world that is a “folder” and return <code class="language-plaintext highlighter-rouge">x</code> set to that object. Calling it again will return <code class="language-plaintext highlighter-rouge">x=Folder(name="Documents")</code> since that is a different object in the world that is a folder. The third call will fail since there are no more objects that are folders.</p>
+
+<p>Calling <code class="language-plaintext highlighter-rouge">_file_n_of(File(name="file1.txt"))</code> once will return <code class="language-plaintext highlighter-rouge">x=File(name="file1.txt")</code>. This is because <code class="language-plaintext highlighter-rouge">x</code> was set to a value and thus it should only verify that the value of <code class="language-plaintext highlighter-rouge">x</code> truly is a “file”, the second call will fail.</p>
+
+<p>This it the contract that we need to build for each predication we want the system to understand.</p>
+
 <update date="" omitted="" for="" speed="">
 </update>
 

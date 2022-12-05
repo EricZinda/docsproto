@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN How-to">
 <meta property="og:title" content="DELPH-IN How-to">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions/">
 
 
 
@@ -211,7 +211,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">Overview</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Overview</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/" class="active">Overview</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Overview</a></li>
           
@@ -239,7 +239,7 @@
           
             <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
           
-            <li><a href="/docsproto/howto/HpsgTutorial/" class="active">HPSG</a></li>
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
           
         </ul>
         
@@ -285,34 +285,105 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="hpsg-introduction--implementation">HPSG Introduction &amp; Implementation</h1>
+        <h4 id="conjuctions-of-predications">Conjuctions of Predications</h4>
+<p>There are two ways to group predications together in an MRS: as a “conjunction” (i.e. a logical “and”) or by using “scopal arguments”. Scopal Arguments literally pass one predication as an argument to another predication. This is how you built up a tree of predications in a scope-resolved tree. Now that we have a textual representation and a way to execute it, we can build on that to start resolving these more complex structures.</p>
 
-<h3 id="a-tutorial-at-hpsg-2017">A Tutorial at HPSG 2017</h3>
+<p>To handle a logical “and” or “conjunction” of predications, you perform a depth-first search of the answers from those predications, evaluated in order. This means: taking the variables set by the first predication, passing them to the second predication, and collecting the successful result. Once you’ve iterated through all of them, you have the set of things that are true for all of the predications in the conjunction for that world.</p>
 
-<h3 id="emily-m-bender--dan-flickinger">Emily M. Bender &amp; Dan Flickinger</h3>
+<p>For an example such as <code class="language-plaintext highlighter-rouge">_large_a_1(e,x) and _file_n_of(x)</code> (to indicate a “large file”):</p>
+<ol>
+  <li>Start with empty variables and call the first predication: <code class="language-plaintext highlighter-rouge">_large_a_1</code>.</li>
+  <li>If it succeeds, take the resulting variable assignments and call <code class="language-plaintext highlighter-rouge">_file_n_of</code> with those variables. Since there are no more predications, that result is your first answer.</li>
+  <li>Then “backtrack” by going to step 2 and call <code class="language-plaintext highlighter-rouge">_file_n_of</code> again to return your next answer.</li>
+  <li>When <code class="language-plaintext highlighter-rouge">_file_n_of</code> finally fails, you backtrack to step #1 and call <code class="language-plaintext highlighter-rouge">_large_a_1</code> for its next value and do it all again.</li>
+  <li>When you have exhausted them all, you have a set of answers (in this case values for <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">e</code>) that represent all the “large files” in that world.</li>
+</ol>
 
-<h2 id="slides">Slides</h2>
+<p>We’ll implement this logic as a <code class="language-plaintext highlighter-rouge">Call()</code> function which expects our text-based format of either a single predication or a list of predications, like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>["_large_a_1", "e1", "x1"]
+OR
+[["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
+</code></pre></div></div>
 
-<ul>
-  <li><a href="http://faculty.washington.edu/ebender/papers/HPSG_2017_tutorial.pdf">Emily’s slides
-(theory)</a></li>
-  <li><a href="http://lingo.stanford.edu/danf/HPSG-implementation.pdf">Dan’s slides
-(implementation)</a></li>
-</ul>
+<p>It will use the <code class="language-plaintext highlighter-rouge">CallPredication()</code> function we defined above to call the individual predications.</p>
 
-<h2 id="video-recordings">Video Recordings</h2>
+<p>When looking at the code for <code class="language-plaintext highlighter-rouge">Call()</code> below, note that there is a new Python construct hidden in there: <code class="language-plaintext highlighter-rouge">yield from</code>.  Where <code class="language-plaintext highlighter-rouge">yield</code> expects an actual object to yield as its argument, <code class="language-plaintext highlighter-rouge">yield from</code> says “call the function I’m giving you and yield whatever <em>that function</em> yields.</p>
 
-<p>The recording of this 3-hour long tutorial is broken up into six
-separate video files:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Call(vocabulary, state, term):
+    # If "term" is an empty list, we have solved all
+    # predications in the conjunction, return the final answer
+    if len(term) == 0:
+        yield state
+    else:
+        # See if the first thing in the list is actually a list
+        # like [["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
+        # If so, we have a conjunction
+        if isinstance(term[0], list):
+            # This is a list of predications, so they should
+            # treated as conjunctions
+            # We call each one and pass the state it returns
+            # to the next one, recursively
+            for nextState in Call(vocabulary, state, term[0]):
+                yield from Call(vocabulary, nextState, term[1:])
 
-<ul>
-  <li><a href="https://youtu.be/-LLpq5rCQuc">Part I</a> (Theory)</li>
-  <li><a href="https://youtu.be/16G46s-qNJU">Part II</a> (Theory)</li>
-  <li><a href="https://youtu.be/BbXV81AvT3M">Part III</a> (Theory)</li>
-  <li><a href="https://youtu.be/LnGZxRI1vb0">Part IV</a> (Implementation)</li>
-  <li><a href="https://youtu.be/3P7xO-n2jnM">Part V</a> (Implementation)</li>
-  <li><a href="https://youtu.be/JksQ26ieECU">Part VI</a> (Implementatation)</li>
-</ul>
+        else:
+            # The first thing in the list was not a list
+            # so we assume it is just a term like
+            # ["_large_a_1", "e1", "x1"]
+            # evaluate it using CallPredication
+            yield from CallPredication(vocabulary, state, term)
+</code></pre></div></div>
+
+<p>It is worth making sure you understand how this function works since it is the core of our evaluator. A scope-resolved MRS is a <em>tree</em>, so to solve it, we do a single call to <code class="language-plaintext highlighter-rouge">Call</code> and pass the whole tree as <code class="language-plaintext highlighter-rouge">term</code>. But: this function only evaluates either single predications or conjunctions. What makes it a <em>tree</em> is that predications can have other predications as arguments (i.e. “scopal arguments”). How those work is described next.</p>
+
+<p>To finish this up, let’s implement the predications needed to make it run and run it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_file_n_of")
+def file_n_of(state, x):
+    x_value = state.GetVariable(x)
+    if x_value is None:
+        iterator = state.AllIndividuals()
+    else:
+        iterator = [x_value]
+
+    for item in iterator:
+        if isinstance(item, File):
+            new_state = state.SetX(x, item)
+            yield new_state
+
+
+@Predication(vocabulary, name="_large_a_1")
+def large_a_1(state, e_introduced, x_target):
+    x_target_value = state.GetVariable(x)
+
+    if x_target_value is None:
+        iterator = state.AllIndividuals()
+    else:
+        iterator = [x_target_value]
+
+    degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
+
+    for item in iterator:
+        # Arbitrarily decide that "large" means a size greater
+        # than 1,000,000 and apply any multipliers that other
+        # predications set in the introduced event
+        if hasattr(item, 'size') and item.size &gt; degree_multiplier * 1000000:
+            new_state = state.SetX(x_target, item)
+            yield new_state
+
+    
+def test_output():
+    state = State([Folder(name="Desktop"),
+                   Folder(name="Documents"),
+                   File(name="file1.txt", size=100),
+                   File(name="file2.txt", size=2000000)])
+    mrs = [["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
+    for item in Call(state, mrs):
+        print(item.variables)
+
+# Prints:
+# File(name="file2.txt", size=2000000)
+</code></pre></div></div>
 <update date="" omitted="" for="" speed="">
 </update>
 
