@@ -618,12 +618,13 @@ normally some kind of date.</p>
 
 <p>Examples:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *grammar-version* "LinGO (20-Dec-06)")
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *grammar-version* "ERG (2020)")
+(defparameter *grammar-version* "ERG-dict (2020)")
 (defparameter *grammar-version* "Jacy (2007-10-10)")
 (defparameter *grammar-version* "NorSource (Jan-06)")
 (defparameter *grammar-version* "NoEn (27-aug-04)")
-(defparameter *grammar-version* "GG (Jul_2006)")
-(defparameter *grammar-version* "pseudo_japanese (Matrix-10-2006)")
+(defparameter *grammar-version* "GG (Jul-2006)")
+(defparameter *grammar-version* "pseudo-japanese (Matrix-10-2006)")
 </code></pre></div></div>
 
 <p>Suggested convention</p>
@@ -631,12 +632,13 @@ normally some kind of date.</p>
 <ul>
   <li>file name should be Version.lsp in the grammar top directory</li>
   <li>name should be a short form of the grammar name</li>
-  <li>version should be the
+  <li>if you have subgrammars, then call them GRAMMAR-SUB, e.g. ERG-Singlish or ERG-mal</li>
+  <li>version should ideally be the
 <a href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">iso-8601</a> date</li>
-  <li>directories based on this grammar should be called name_date</li>
+  <li>the ltdb will complain and refuse to produce anything if you have an underscore in the name (FCB 2022)</li>
 </ul>
-
-<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/LkbConventions/_edit">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

@@ -53,7 +53,7 @@ comparatives):
 
 In this example, the instance variable *x<sub>6</sub>* (highlighted in
 red) is the first argument of both the (semantics of the) attribute
-adjective *cheerful*, the subject control predicate *try*, and both
+adjective *cheerful*, the subject control predicate *want*, and both
 predications corresponding to the coordinated verb phrase.
 
 There are many syntactically distinct ways of expressing the same
@@ -525,5 +525,4 @@ thesis, University of Washington.
 
 Steedman, Mark. 2012. *Taking scope: The natural semantics of
 quantifiers.* MIT Press.
-
-Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Essence/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -38,10 +38,13 @@ is a verb.
 
 - Chart mapping is part of the PET main branch since August 2010.
 - Chart mapping is not yet implemented in LKB.
+- Chart mapping is supported by ACE.
+- Chart mapping is supported in *agree*.
 
 # Documentation
 
-Tutorial: <http://www.delph-in.net/2009/cm.pdf>
+- Tutorial slides: <http://www.delph-in.net/2009/cm.pdf>
+- [Practical notes](../ChartMappingSetup)
 
 # Publications
 
@@ -61,5 +64,4 @@ Evaluation (LREC-2008). Marrakech, Morocco. ﻿
       year = {2008},
       keywords = {chart mapping, hpsg, preprocessing}
     }
-
-Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
