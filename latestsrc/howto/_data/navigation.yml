@@ -20,6 +20,10 @@ toc:
     children:
       - title: "Welcome"
         url: "/DelphinWelcome/"
+  - title: "Developer Tutorial"
+    children:
+      - title: "Overview"
+        url: "/devhowto/devhowtoOverview/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

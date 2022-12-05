@@ -4,7 +4,7 @@ as well as client interfaces to the [ACE](../AceTop) processor and [web
 API](https://blog.inductorsoftware.com/docsproto/erg/ErgApi).
 
 PyDelphin can be installed from the [Python Package
-index](https://pypi.python.org/pypi) as follows:
+index](https://pypi.org/project/PyDelphin/) as follows:
 
     $ pip3 install pydelphin
 
@@ -17,5 +17,5 @@ application. For example:
    3 $ pip install pydelphin    # install to the environment
    4 
 ```
-
-Last update: 2021-07-01 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PyDelphinTop/_edit)]{% endraw %}
+The documentation is [available online](https://pydelphin.readthedocs.io/en/latest/), and the source is [on github](/pydelphin).
+<update date omitted for speed>{% endraw %}

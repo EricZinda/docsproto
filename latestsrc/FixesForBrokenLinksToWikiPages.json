@@ -1,3 +1,7 @@
   {
-
+    "garage": [
+      {"Section": "Grammar Tools", "Pages": [
+        {"Page": "ChartMappingSetup", "SrcDir": "docswiki", "SrcFile": "ChartMappingSetup.md", "BaseReferrer": "garage/ChartMapping.md", "Referrer": "garage/ChartMapping.md"}
+      ]}
+    ]
   }
