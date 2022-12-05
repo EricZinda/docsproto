@@ -98,4 +98,5 @@ def test_output():
 # Prints:
 # File(name="file2.txt", size=2000000)
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConjunctions.md)]{% endraw %}

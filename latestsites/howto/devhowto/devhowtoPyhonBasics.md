@@ -147,4 +147,5 @@ state = State([Folder(name="Desktop"),
 ```
 
 Note that an instance of the `State` object is created by calling it like a function. This really calls the `__init__` function of `State`, and passes the supplied arguments to `__init__`. Each object in the list that we are giving to `State` is created just like `State` was: by calling it as a function. Note that arguments can be named like `name="Documents"` to clarify what is going on.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPyhonBasics.md)]{% endraw %}
