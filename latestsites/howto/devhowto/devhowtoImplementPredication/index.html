@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN How-to">
 <meta property="og:title" content="DELPH-IN How-to">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication/">
 
 
 
@@ -207,7 +207,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Overview</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Overview</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/" class="active">Overview</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">Overview</a></li>
           
@@ -239,7 +239,7 @@
           
             <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
           
-            <li><a href="/docsproto/howto/HpsgTutorial/" class="active">HPSG</a></li>
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
           
         </ul>
         
@@ -285,34 +285,51 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="hpsg-introduction--implementation">HPSG Introduction &amp; Implementation</h1>
+        
+<h2 id="implementing-a-predication">Implementing a Predication</h2>
+<p>With that Python background and our implementation of the <code class="language-plaintext highlighter-rouge">State</code> object, we can now implement a <code class="language-plaintext highlighter-rouge">_folder_n_of</code> function that implements the predication contract.  We will be passing an instance of the <code class="language-plaintext highlighter-rouge">State</code> object as the first argument to every predication so that it can access its own arguments <em>and</em> the world state.</p>
 
-<h3 id="a-tutorial-at-hpsg-2017">A Tutorial at HPSG 2017</h3>
+<p>Note that the variables passed to predications will be strings like <code class="language-plaintext highlighter-rouge">"x1"</code> or <code class="language-plaintext highlighter-rouge">"e12"</code>. To get their values, the code looks them up in the <code class="language-plaintext highlighter-rouge">State</code> object:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def folder_n_of(state, x):
+    x_value = state.GetVariable(x)
+    if x_value is None:
+        # Variable is not set yet:
+        # iterate over all individuals in the world
+        # using the iterator returned by state.AllIndividuals()
+        iterator = state.AllIndividuals()
+    else:
+        # Variable is set: create an iterator that will iterate
+        # over just that one by creating a list and adding it as
+        # the only element
+        iterator = [x_value]
 
-<h3 id="emily-m-bender--dan-flickinger">Emily M. Bender &amp; Dan Flickinger</h3>
+    # By converting both cases to an iterator, the code that
+    # checks if x is "a folder" can be shared
+    for item in iterator:
+        if isinstance(item, Folder):
+            # state.SetX() returns a *new* state that
+            # is a copy of the old one with just that one
+            # variable set to a new value
+            new_state = state.SetX(x, item)
+            yield new_state
+</code></pre></div></div>
 
-<h2 id="slides">Slides</h2>
+<p>Now we can run our code to call our first predication:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example1():
+    state = State([Folder(name="Desktop"),
+                   Folder(name="Documents"),
+                   File(name="file1.txt"),
+                   File(name="file2.txt")])
 
-<ul>
-  <li><a href="http://faculty.washington.edu/ebender/papers/HPSG_2017_tutorial.pdf">Emily’s slides
-(theory)</a></li>
-  <li><a href="http://lingo.stanford.edu/danf/HPSG-implementation.pdf">Dan’s slides
-(implementation)</a></li>
-</ul>
+    for item in folder_n_of(state, "x1"):
+        print(item.variables)
 
-<h2 id="video-recordings">Video Recordings</h2>
+# calling Example1() prints:
+{'x1': Folder(name=Desktop)}
+{'x1': Folder(name=Documents)}
+</code></pre></div></div>
 
-<p>The recording of this 3-hour long tutorial is broken up into six
-separate video files:</p>
-
-<ul>
-  <li><a href="https://youtu.be/-LLpq5rCQuc">Part I</a> (Theory)</li>
-  <li><a href="https://youtu.be/16G46s-qNJU">Part II</a> (Theory)</li>
-  <li><a href="https://youtu.be/BbXV81AvT3M">Part III</a> (Theory)</li>
-  <li><a href="https://youtu.be/LnGZxRI1vb0">Part IV</a> (Implementation)</li>
-  <li><a href="https://youtu.be/3P7xO-n2jnM">Part V</a> (Implementation)</li>
-  <li><a href="https://youtu.be/JksQ26ieECU">Part VI</a> (Implementatation)</li>
-</ul>
+<p>Now we have one predication that implements the predication contract, but note that MRS is a textual format. We’ll need a way to convert text into function calls in order to truly evaluate an MRS without manually converting them to Python like the above example. Let’s go through that next.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 
