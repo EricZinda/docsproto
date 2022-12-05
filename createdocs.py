@@ -95,6 +95,8 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, fi
             # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
             links = convert_child(repositories_definitions, sites_definitions, file_definition, result)
 
+        dst_path_only = os.path.dirname(dst_file_path)
+        os.makedirs(dst_path_only, exist_ok=True)
         with open(dst_file_path, "w") as txtFile:
             final_result = parser.render(result)
             # wrap all markdown with raw/endraw so that Jekyll won't interpret {{ as being a Jekyll liquid expression

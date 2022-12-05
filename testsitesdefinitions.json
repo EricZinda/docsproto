@@ -4,7 +4,8 @@
   ],
   "SourceRepositories":
   {
-    "docswiki": {"Repository": "delph-in/docs/wiki"}
+    "docswiki": {"Repository": "delph-in/docs/wiki"},
+    "main": {"Repository": "ericzinda/docsproto"}
   },
   "Sites":
   [
@@ -22,6 +23,9 @@
       {"Section": "Semantics", "Pages": [
         {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
         {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"}
+      ]},
+      {"Section": "Developer Tutorial", "Pages": [
+        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoOverview.md"}
       ]}
     ],
     "tools": [
