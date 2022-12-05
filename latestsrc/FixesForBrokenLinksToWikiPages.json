@@ -1,6 +1,7 @@
   {
     "howto": [
       {"Section": "Developer Tutorial", "Pages": [
+        {"Page": "devhowtoPredicationContract", "SrcDir": "main", "SrcFile": "devhowtoPredicationContract.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "MRSPythonDecorators", "SrcDir": "main", "SrcFile": "MRSPythonDecorators.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true}
       ]}
     ],
