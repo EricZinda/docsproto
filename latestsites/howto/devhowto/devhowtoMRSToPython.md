@@ -78,4 +78,5 @@ def Example2():
 ```
 
 With this in place, we can tackle more complicated groups of predications.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoMRSToPython.md)]{% endraw %}

@@ -45,4 +45,5 @@ def Example1():
 ```
 
 Now we have one predication that implements the predication contract, but note that MRS is a textual format. We'll need a way to convert text into function calls in order to truly evaluate an MRS without manually converting them to Python like the above example. Let's go through that next.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoImplementPredication.md)]{% endraw %}
