@@ -58,7 +58,8 @@
         {"Page": "MRS To Python", "SrcDir": "main", "SrcFile": "devhowto/devhowtoMRSToPython.md"},
         {"Page": "Conjuctions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoConjunctions.md"},
         {"Page": "Scopal Arguments", "SrcDir": "main", "SrcFile": "devhowto/devhowtoScopalArguments.md"},
-        {"Page": "Event Variables", "SrcDir": "main", "SrcFile": "devhowto/devhowtoEvents.md"}
+        {"Page": "Event Variables", "SrcDir": "main", "SrcFile": "devhowto/devhowtoEvents.md"},
+        {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},

@@ -1,4 +1,3 @@
-
 ## Implementing a Predication
 With that [Python background and our implementation of the `State` object](devhowtoPyhonBasics), we can now implement the `_folder_n_of` predication by creating a Python function that implements the predication contract.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its own arguments *and* the world state. 
 
@@ -31,8 +30,7 @@ def folder_n_of(state, x):
             new_state = state.SetX(x, item)
             yield new_state
 ~~~
-Note that `SetX` returns a new instance of the state object when we set `x` to a value and that is what gets returned. This is important because it allows our solver to pass around the state objects to predications and not worry about them getting changed. 
-Note that our predication returns the new instance of the state object that it gets from `SetX`.
+Note that `folder_n_of` `yields` the new instance of the state object we get when we set `x` to a value.  This behavior (enforced by the`State` object) will allow our solver to pass around the same state objects to predications multiple times and get fresh values bound to the variables. It can rely on a particular `State` object not being changed, even after it has been  passed to a predication.
 
 Now we can run code and call our first predication:
 ~~~
@@ -44,10 +42,19 @@ def Example1():
 
     for item in folder_n_of(state, "x1"):
         print(item.variables)
+    
+    print("\nThe original `state` object is not changed:")
+    print(state.variables)
 
 # calling Example1() prints:
 {'x1': Folder(name=Desktop)}
 {'x1': Folder(name=Documents)}
-~~~
 
-Now we have one predication that implements the predication contract, but note that MRS is a textual format. We'll need a way to convert text into function calls in order to truly evaluate an MRS without manually converting them to Python like the above example. Let's go through that next.
+The original `state` object is not changed:
+{}
+~~~
+Again, it is important to note that the initial `state` variable will not actually be changed at the end of the `Example1()` function. In order to print out the folders that were found by the predication, we need to print the value of `x1` in the state *returned from the predication*. This is key to allowing us to call the same predication multiple times with the same `State` object to get different answers.
+
+Now we have one predication that implements the predication contract: it will iteratively return all the "folders" in the world when called with an unbound variable as we did here. This is the basic pattern we'll use for all predications from here on out. The contract will remain the same, but the logic *within* the predication can often get more complicated.
+
+Since we are goign to start calling more than one predication, and eventually deal with a whole MRS resolved tree, we'll need a way to convert the text of an MRS into Python function calls. That way we can stop manually converting them to Python like the above example. The [next section](devhowtoMRSToPython) describes how to do that.
