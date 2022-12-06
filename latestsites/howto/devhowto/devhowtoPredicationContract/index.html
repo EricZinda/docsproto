@@ -313,11 +313,17 @@ File(name="file2.txt")
 </code></pre></div></div>
 <p>For now, we won’t have files in folders, just the straight list of 4 objects in the file system.</p>
 
-<p>In this world of 4 objects, calling <code class="language-plaintext highlighter-rouge">_folder_n_of(x)</code> once should return <code class="language-plaintext highlighter-rouge">x=Folder(name="Desktop")</code>. Meaning: <code class="language-plaintext highlighter-rouge">x</code> wasn’t set, so: find an object in the world that is a “folder” and return <code class="language-plaintext highlighter-rouge">x</code> set to that object. Calling it again will return <code class="language-plaintext highlighter-rouge">x=Folder(name="Documents")</code> since that is a different object in the world that is a folder. The third call will fail since there are no more objects that are folders.</p>
+<p>In this world of 4 objects:</p>
 
-<p>Calling <code class="language-plaintext highlighter-rouge">_file_n_of(File(name="file1.txt"))</code> once will return <code class="language-plaintext highlighter-rouge">x=File(name="file1.txt")</code>. This is because <code class="language-plaintext highlighter-rouge">x</code> was set to a value and thus it should only verify that the value of <code class="language-plaintext highlighter-rouge">x</code> truly is a “file”, the second call will fail.</p>
+<ul>
+  <li>Calling <code class="language-plaintext highlighter-rouge">_folder_n_of(x)</code> once should return <code class="language-plaintext highlighter-rouge">x=Folder(name="Desktop")</code>. Meaning: <code class="language-plaintext highlighter-rouge">x</code> wasn’t set, so: find an object in the world that is a “folder” and return <code class="language-plaintext highlighter-rouge">x</code> set to that object.</li>
+  <li>Calling it again will return <code class="language-plaintext highlighter-rouge">x=Folder(name="Documents")</code> since that is a different object in the world that is a folder.</li>
+  <li>The third call will fail since there are no more objects that are folders.</li>
+</ul>
 
-<p>This it the contract that we need to build for each predication we want the system to understand.</p>
+<p>Calling <code class="language-plaintext highlighter-rouge">_file_n_of(File(name="file1.txt"))</code> once will return <code class="language-plaintext highlighter-rouge">x=File(name="file1.txt")</code>. This is because <code class="language-plaintext highlighter-rouge">x</code> was set to a value and thus it should only verify that the value of <code class="language-plaintext highlighter-rouge">x</code> truly is a “file”. The second call will fail.</p>
+
+<p>This is the contract we need to build for each predication we want the system to understand.</p>
 
 <p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPredicationContract.md">edit</a>]</p>
 

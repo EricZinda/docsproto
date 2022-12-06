@@ -25,11 +25,15 @@ File(name="file2.txt")
 ```
 For now, we won't have files in folders, just the straight list of 4 objects in the file system.
 
-In this world of 4 objects, calling `_folder_n_of(x)` once should return `x=Folder(name="Desktop")`. Meaning: `x` wasn't set, so: find an object in the world that is a "folder" and return `x` set to that object. Calling it again will return `x=Folder(name="Documents")` since that is a different object in the world that is a folder. The third call will fail since there are no more objects that are folders.
+In this world of 4 objects:
 
-Calling `_file_n_of(File(name="file1.txt"))` once will return `x=File(name="file1.txt")`. This is because `x` was set to a value and thus it should only verify that the value of `x` truly is a "file", the second call will fail.
+- Calling `_folder_n_of(x)` once should return `x=Folder(name="Desktop")`. Meaning: `x` wasn't set, so: find an object in the world that is a "folder" and return `x` set to that object. 
+- Calling it again will return `x=Folder(name="Documents")` since that is a different object in the world that is a folder. 
+- The third call will fail since there are no more objects that are folders.
 
-This it the contract that we need to build for each predication we want the system to understand. 
+Calling `_file_n_of(File(name="file1.txt"))` once will return `x=File(name="file1.txt")`. This is because `x` was set to a value and thus it should only verify that the value of `x` truly is a "file". The second call will fail.
+
+This is the contract we need to build for each predication we want the system to understand. 
 
 
 Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPredicationContract.md)]{% endraw %}
