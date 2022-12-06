@@ -58,4 +58,5 @@ Again, it is important to note that the initial `state` variable will not actual
 Now we have one predication that implements the predication contract: it will iteratively return all the "folders" in the world when called with an unbound variable as we did here. This is the basic pattern we'll use for all predications from here on out. The contract will remain the same, but the logic *within* the predication can often get more complicated.
 
 Since we are goign to start calling more than one predication, and eventually deal with a whole MRS resolved tree, we'll need a way to convert the text of an MRS into Python function calls. That way we can stop manually converting them to Python like the above example. The [next section](../devhowtoMRSToPython) describes how to do that.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoImplementPredication.md)]{% endraw %}
