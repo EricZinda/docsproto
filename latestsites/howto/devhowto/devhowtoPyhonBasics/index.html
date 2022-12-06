@@ -205,7 +205,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/" class="active">Python Background</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/" class="active">Python Primer and State</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
           
@@ -285,7 +285,7 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h2 id="python-background-basics-classes-functions-iterators">Python Background: Basics, Classes, Functions, Iterators</h2>
+        <h2 id="python-background-and-the-state-object">Python Background and the State object</h2>
 <p>The <a href="../devhowtoPredicationContract">predication contract</a> could be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can understand what it is doing and treat it like a “pseudo-language”. Even if you know Python, skim through the section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
 
 <p>The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language.</p>
@@ -405,6 +405,11 @@ class State(object):
         for item in self.objects:
             yield item
 </code></pre></div></div>
+<p>The variables store in our <code class="language-plaintext highlighter-rouge">State</code> object are treated as “immutable”, meaning the system can treat each <code class="language-plaintext highlighter-rouge">State</code> instance as representing the state of the world, including MRS variables, at one “snapshot” in time. The system knows that the snapshot cannot be changed. This will be important because it allows us to do <em>backtracking</em> as we search our tree of solutions.</p>
+
+<blockquote>
+  <p>Note: The <em>entire</em> State object is not immutable, just the assignment of values to variables.  We’ll address this later, but it won’t be a problem in the simple examples we’re working with now.</p>
+</blockquote>
 
 <p>Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn’t care). We’ll create classes for each “type of thing” in our file system world:</p>
 

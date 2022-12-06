@@ -1,4 +1,4 @@
-{% raw %}## Python Background: Basics, Classes, Functions, Iterators
+{% raw %}## Python Background and the State object
 The [predication contract](../devhowtoPredicationContract) could be implemented in any programming language, but we'll be using Python. This section should give enough background so that even readers not familiar with Python can understand what it is doing and treat it like a "pseudo-language". Even if you know Python, skim through the section since we will be implementing a key class (`State`) used elsewhere in the documentation.
 
 The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language. 
@@ -121,6 +121,10 @@ class State(object):
         for item in self.objects:
             yield item
 ```
+The variables store in our `State` object are treated as "immutable", meaning the system can treat each `State` instance as representing the state of the world, including MRS variables, at one "snapshot" in time. The system knows that the snapshot cannot be changed. This will be important because it allows us to do *backtracking* as we search our tree of solutions.
+
+> Note: The *entire* State object is not immutable, just the assignment of values to variables.  We'll address this later, but it won't be a problem in the simple examples we're working with now.
+
 
 Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn't care). We'll create classes for each "type of thing" in our file system world:
 

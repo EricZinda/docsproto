@@ -205,7 +205,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Python Background</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Python Primer and State</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/" class="active">Implementing a Predication</a></li>
           
@@ -317,6 +317,8 @@
             new_state = state.SetX(x, item)
             yield new_state
 </code></pre></div></div>
+<p>Note that <code class="language-plaintext highlighter-rouge">SetX</code> returns a new instance of the state object when we set <code class="language-plaintext highlighter-rouge">x</code> to a value and that is what gets returned. This is important because it allows our solver to pass around the state objects to predications and not worry about them getting changed.
+Note that our predication returns the new instance of the state object that it gets from <code class="language-plaintext highlighter-rouge">SetX</code>.</p>
 
 <p>Now we can run code and call our first predication:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example1():
