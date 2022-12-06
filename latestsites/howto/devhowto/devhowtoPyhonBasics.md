@@ -121,7 +121,9 @@ class State(object):
         for item in self.objects:
             yield item
 ```
-The variables store in our `State` object are treated as "immutable", meaning the system can treat each `State` instance as representing the state of the world, including MRS variables, at one "snapshot" in time. The system knows that the snapshot cannot be changed. This will be important because it allows us to do *backtracking* as we search our tree of solutions.
+Note that the `SetX()` method does not actually "set" a value in the `State` object, it creates a new one and sets the value in that.  This ensures that variables set for a `State` object never get directly changed. It will allow our solver to pass around the same state objects to predications multiple times and get fresh values bound to the variables. This will be important to allow "backtracking".
+
+The variables dictionary in our `State` object is treated as "immutable", meaning the system can treat each `State` instance as representing the state of the world, including MRS variables, at one "snapshot" in time. The system knows that the snapshot cannot be changed. This will be important because it will allow us to do *backtracking* as we search our tree of solutions later.
 
 > Note: The *entire* State object is not immutable, just the assignment of values to variables.  We'll address this later, but it won't be a problem in the simple examples we're working with now.
 
