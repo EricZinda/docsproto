@@ -1,18 +1,18 @@
 ## The Predication Contract
 It is important to understand [what MRS is]() and what [a scope-resolved MRS tree is]() before reading this section. Visit those links first to understand the basic concepts.
 
-A scope-resolved MRS tree can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is by *iteratively* finding assignments to the variables in the MRS, one by one, and collecting them. This is the "SLD" approach described in the [previous section](devhowtoOverview). To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. Let's call this the "predication contract".
+A scope-resolved MRS tree can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is by *iteratively* finding assignments to the variables in the MRS, one by one, and collecting them into a solution. This is the "SLD" approach described in the [previous section](devhowtoOverview). To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
 
-Recall that predications are of the form: `_table_n_1(x)` or `compound(e, x, x)`: they have a name and a set of arguments just like functions in mathematics or programming languages. We will be treating the predications we implement as classic programming language functions that can be "called" or "invoked". The two rules of our contract are"
+Recall that predications are of the form: `_table_n_1(x)` or `compound(e,x,x)`. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We'll be treating the predications we implement as classic programming language functions that can be "called" or "invoked". The two rules of our contract are:
 
-1) The predication contract requires that, given a world state (the state of the software you want to evaluate the MRS against), a predication must iteratively its variables set to values that are true in that world state or fail. "Iteratively" means returning one answer the first time they are called, and then another the next time, until there are no more answers (in which case it fails).
+1) Given a world state (the state of the software you want to evaluate the MRS against), a predication must iteratively set its variables to values that are true in that world state (or fail). "Iteratively" means returning one answer the first time it is called, and then another the next time, until there are no more answers (in which case it fails).
 2) It must also operate differently depending on whether its incoming variables are set (called "bound") or not ("unbound"):
-- Calling a predication with unbound variables should return the unbound variables bound to a set of values from the world that, together, make it true. Calling it again should return a different set of bindings that make it true. Eventually, it will run out of things that can be true and should then fail.
-- Calling it with bound variables should simply return the same values if true or fail if not. I.e. iterate once.
+- Calling a predication with unbound variables should return the unbound variables bound to a set of values from the world that, together, make it true. Calling it again should return a different set of bindings that also make it true. Eventually, the predication will run out of things that can be true and should then fail.
+- Calling it with bound variables should simply return the same values if true or fail if not. In other words, it should iterate once.
 
 Let's use an example to illustrate: 
 
-Imagine we want to build a natural language interface to the file system on a computer. We'll start with a simple a world with 4 things in it. We'll use Python classes (explained below) to represent them: 
+Imagine we want to build a natural language interface to the file system on a computer. We'll start with a simple a world with 4 things in it. Even without knowing Python (described in more detail in the [next section](devhowtoPythonBasics)), this list of 4 Python objects should be relatively self-evident: 
 
 ~~~
 [Folder(name="Desktop"),

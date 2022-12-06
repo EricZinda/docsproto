@@ -1,32 +1,34 @@
 #### Conjuctions of Predications
-There are two ways to group predications together in an MRS: as a "conjunction" (i.e. a logical "and") or by using "scopal arguments". Scopal Arguments literally pass one predication as an argument to another predication. This is how you built up a tree of predications in a scope-resolved tree. Now that we have a textual representation and a way to execute it, we can use them to start resolving these more complex structures.
+There are two ways to group predications together in an MRS: as a "conjunction" (i.e. a logical "and") or by using "scopal arguments". Scopal arguments allow passing *a predication* as an argument to another predication, much like lambda functions do in many programming languages. This is how you built up a tree of predications in a scope-resolved tree. Now that we have a textual representation and a way to execute it, we can use them to start resolving these more complex structures.
 
 To handle a logical "and" or "conjunction" of predications, we'll perform a depth-first search of the answers from those predications, evaluated in order. This means: taking the variables set by the first predication, passing them to the second predication, and collecting the successful result. Once you've iterated through all of them, you have the set of things that are true for all of the predications in the conjunction for that world.
 
 For an example such as `_large_a_1(e,x) and _file_n_of(x)` (to indicate a "large file"):
 1. Start with empty variables and call the first predication: `_large_a_1`. 
-2. If it succeeds, take the resulting variable assignments and call `_file_n_of` with those variables. Since there are no more predications, that result is your first answer.
-3. Then "backtrack" by going to step 2 and call `_file_n_of` again to return your next answer. 
-4. When `_file_n_of` finally fails, backtrack to step #1 and call `_large_a_1` for its next value and do it all again. 
+2. If it succeeds, take the resulting variable assignments and call `_file_n_of` with those assignments. Since there are no more predications, if it succeeds, that result is the first answer.
+3. Then "backtrack" by going to step 2 and call `_file_n_of` again to get the next answer. 
+4. When `_file_n_of` finally fails, backtrack to step 1 and call `_large_a_1` for its next value and do it all again. 
 5. When you have exhausted them all, you have a set of answers (in this case values for `x` and `e`) that represent all the "large files" in that world.
 
-This works because the first predication (`_large_a_1(e,x)`) is called with *unbound variables*, and because of our [predication contract](devhowtoPredicationContract), this means it will iterate through all the "large" things in the world, whether they are files, folders, beach balls, or whatever. When it returns, `x` is set to whatever it selected and the next predication (`file_n_of`) will only succeed if the items is a *file*, So, if we get all the way through, we have a "large file".  The "backtracking" behavior allows us to iterate through all the objects in the world to find all of the "large files".
+This works because the first predication (`_large_a_1(e,x)`) is called with *unbound variables*, and because of our [predication contract](devhowtoPredicationContract), this means it will iterate through all the "large" things in the world, whether they are files, folders, beach balls, or whatever. When it returns, `x` is set to whatever it selected and the next predication (`file_n_of`) will only succeed if the item is a *file*, So, if we get all the way through, we have a "large file".  The "backtracking" behavior allows us to iterate through all the objects in the world to find all of the "large files".
 
-We'll implement this logic generally by creating a `Call()` function. It expects our text-based format of either a single predication or a list of predications, like this:
+We'll implement this logic generally by creating a `Call()` function. It expects our text-based format, either as a single predication or a list of predications, like this:
 ~~~
 ["_large_a_1", "e1", "x1"]
 OR
 [["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
 ~~~
 
-It will use the `CallPredication()` function we defined above to call the individual predications. 
+It will use the `CallPredication()` function we [defined in the previous section](devhowtoMRSToPython) to call the individual predications. 
 
-When looking at the code for `Call()` below, note that there is a new Python construct hidden in there: `yield from`.  Where `yield` expects an actual object to yield as its argument, `yield from` says "call the function I'm giving you and yield whatever *that function* yields.
+In the code for `Call()` below, note that there is a new Python construct: `yield from`.  Where `yield` expects an actual object to yield as its argument, `yield from` says "call the function I'm giving you and yield whatever *that function* yields".
 
 ~~~
 def Call(vocabulary, state, term):
     # If "term" is an empty list, we have solved all
-    # predications in the conjunction, return the final answer
+    # predications in the conjunction, return the final answer.
+    # "len()" is a built-in Python function that returns the
+    # length of a list
     if len(term) == 0:
         yield state
     else:
@@ -35,8 +37,8 @@ def Call(vocabulary, state, term):
         # If so, we have a conjunction
         if isinstance(term[0], list):
             # This is a list of predications, so they should
-            # treated as conjunctions
-            # We call each one and pass the state it returns
+            # treated as a conjunction.
+            # Call each one and pass the state it returns
             # to the next one, recursively
             for nextState in Call(vocabulary, state, term[0]):
                 # Note the [1:] syntax which means "return a list
@@ -51,7 +53,9 @@ def Call(vocabulary, state, term):
             yield from CallPredication(vocabulary, state, term)
 ~~~
 
-It is worth making sure you understand how this function works since it is the core of our evaluator. A scope-resolved MRS is a *tree*, so to solve it, we do a single call to `Call()` and pass the whole tree as `term`. But: this function only evaluates either single predications or conjunctions. What makes it a *tree* is that predications can have other predications as arguments (i.e. "scopal arguments"). How those work is [described in the next section](devhowtoScopalArguments).
+It is worth making sure you understand how this function works since it is the core of our evaluator. 
+
+A scope-resolved MRS is a *tree*, so to solve it, we do a single call to `Call()` and pass the whole tree as `term`. But: this function only evaluates either single predications or conjunctions. What allows it to solve a *tree* is that predications can have other predications as arguments (i.e. "scopal arguments"). How those work is [described in the next section](devhowtoScopalArguments).
 
 To finish this up, let's implement the predications needed to make the example run and run it:
 
@@ -102,4 +106,4 @@ def Example3():
 # File(name="file2.txt", size=2000000)
 ~~~
 
-So now we have evaluated our first (very small) MRS document. Once we implement scopal arguments [in the next section](devhowtoScopalArguments), we'll be able to handle full scope-resolved trees.
+Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments [in the next section](devhowtoScopalArguments), we'll be able to handle full scope-resolved trees.

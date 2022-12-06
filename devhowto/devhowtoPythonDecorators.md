@@ -1,8 +1,9 @@
 ## Python Decorators and the Vocabulary Class
-This section describes a more arcane part of Python called "decorators" that we use to register predication methods in the `Vocabulary Class`. It is not important to understand how the code works, but it is here for those that are.
+This section describes a more arcane part of Python called "decorators" that we use to register predication methods in the `Vocabulary Class`. It is not important to understand how the code works, but it is here for those that are interested.
 
-Python decorators allow us to run code at load time that inspects whatever they decorate and take action. In this case we will record the name and arguments of the function in whatever object is passed to `@Predication()` (in this cass `vocabulary`). That way, we will have an object that knows all the predications after the file is loaded.
+Python decorators allow us to run code at load time that inspects whatever they decorate and take action. In this case, we will take the name and arguments of the function passed to `@Predication()`, and record it in the `vocabulary` instance we are given. That way, we will have an object that knows all the predications after the file is loaded.
 
+The `vocabulary` class is simple: it has a dictionary that maps predication names to functions:
 ~~~
 class Vocabulary(object):
     def __init__(self):
@@ -13,8 +14,11 @@ class Vocabulary(object):
 
     def Predication(self, delphin_name):
         return self.all.get(delphin_name, None)
+~~~
 
-
+The `Predication` class is the actual "decorator" class. It uses the fact that Python functions can define other functions within them.
+> TODO: Describe in more detail how this decorator works
+~~~
 def Predication(vocabulary, name=None):
     # Gets called when the function is first created
     # function_to_decorate is the function definition

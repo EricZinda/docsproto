@@ -1,7 +1,5 @@
 ## Implementing a Predication
-With that [Python background and our implementation of the `State` object](devhowtoPyhonBasics), we can now implement the `_folder_n_of` predication by creating a Python function that implements the predication contract.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its own arguments *and* the world state. 
-
-Here's the implementation of the `_folder_n_of` predication in Python. Note that the variables passed to predications will be strings like `"x1"` or `"e12"`. To get their values, the code looks them up in the `State` object:
+With that [Python background and the creation of the `State` object](devhowtoPyhonBasics), we can now implement the predication contract for `_folder_n_of` in Python.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its arguments *and* the world state. The variables will be initially represented as strings like `"x1"` or `"e12"`. To get their values, the code looks them up in the `State` object as shown below:
 ~~~
 def folder_n_of(state, x):
     x_value = state.GetVariable(x)
@@ -20,8 +18,8 @@ def folder_n_of(state, x):
     # checks if x is "a folder" can be shared
     for item in iterator:
     
-        # "isinstance" is a built-in function in Python
-        # checks if a variable holds a value that is an
+        # "isinstance" is a built-in function in Python that
+        # checks if a variable is an
         # instance of the specified class
         if isinstance(item, Folder):
             # state.SetX() returns a *new* state that
@@ -30,9 +28,9 @@ def folder_n_of(state, x):
             new_state = state.SetX(x, item)
             yield new_state
 ~~~
-Note that `folder_n_of` `yields` the new instance of the state object we get when we set `x` to a value.  This behavior (enforced by the`State` object) will allow our solver to pass around the same state objects to predications multiple times and get fresh values bound to the variables. It can rely on a particular `State` object not being changed, even after it has been  passed to a predication.
+Note that `folder_n_of` `yields` the new instance of the state object returned from setting `x` to a value.  This behavior (enforced by the`State` object) will allow our solver to pass around the same state object to a predication multiple times and get fresh values bound to the variables. The solver can rely on a particular `State` object not being changed, even after it has been passed to a predication.
 
-Now we can run code and call our first predication:
+Now we can write a simple test to call our first predication:
 ~~~
 def Example1():
     state = State([Folder(name="Desktop"),
@@ -55,6 +53,6 @@ The original `state` object is not changed:
 ~~~
 Again, it is important to note that the initial `state` variable will not actually be changed at the end of the `Example1()` function. In order to print out the folders that were found by the predication, we need to print the value of `x1` in the state *returned from the predication*. This is key to allowing us to call the same predication multiple times with the same `State` object to get different answers.
 
-Now we have one predication that implements the predication contract: it will iteratively return all the "folders" in the world when called with an unbound variable as we did here. This is the basic pattern we'll use for all predications from here on out. The contract will remain the same, but the logic *within* the predication can often get more complicated.
+Now we have one predication that implements the predication contract: it will iteratively return all the "folders" in the world when called with an unbound variable as we did here. This is the basic pattern we'll use for all predications from here on out. 
 
-Since we are goign to start calling more than one predication, and eventually deal with a whole MRS resolved tree, we'll need a way to convert the text of an MRS into Python function calls. That way we can stop manually converting them to Python like the above example. The [next section](devhowtoMRSToPython) describes how to do that.
+Since we are going to start calling more than one predication and eventually deal with a whole MRS resolved tree, we'll need a way to convert the MRS textual representation into a set of Python function calls. That way we won't have to manually convert them to Python like the above example. The [next section](devhowtoMRSToPython) describes how to do that.
