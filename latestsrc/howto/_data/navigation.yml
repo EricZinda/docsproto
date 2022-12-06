@@ -38,6 +38,8 @@ toc:
         url: "/devhowto/devhowtoScopalArguments/"
       - title: "Event Variables"
         url: "/devhowto/devhowtoEvents/"
+      - title: "A. Python Decorators"
+        url: "/devhowto/devhowtoPythonDecorators/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

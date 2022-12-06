@@ -5,7 +5,10 @@
         {"Page": "devhowtoPredicationContract", "SrcDir": "main", "SrcFile": "devhowtoPredicationContract.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "devhowtoImplementPredication", "SrcDir": "main", "SrcFile": "devhowtoImplementPredication.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "devhowtoPyhonBasics", "SrcDir": "main", "SrcFile": "devhowtoPyhonBasics.md", "BaseReferrer": "howto/devhowto/devhowtoImplementPredication.md", "Referrer": "howto/devhowto/devhowtoImplementPredication.md", "FileMissing": true},
-        {"Page": "MRSPythonDecorators", "SrcDir": "main", "SrcFile": "MRSPythonDecorators.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true}
+        {"Page": "devhowtoMRSToPython", "SrcDir": "main", "SrcFile": "devhowtoMRSToPython.md", "BaseReferrer": "howto/devhowto/devhowtoImplementPredication.md", "Referrer": "howto/devhowto/devhowtoImplementPredication.md", "FileMissing": true},
+        {"Page": "devhowtoPythonDecorators", "SrcDir": "main", "SrcFile": "devhowtoPythonDecorators.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true},
+        {"Page": "devhowtoConjunctions", "SrcDir": "main", "SrcFile": "devhowtoConjunctions.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true},
+        {"Page": "devhowtoScopalArguments", "SrcDir": "main", "SrcFile": "devhowtoScopalArguments.md", "BaseReferrer": "howto/devhowto/devhowtoConjunctions.md", "Referrer": "howto/devhowto/devhowtoConjunctions.md", "FileMissing": true}
       ]}
     ],
     "garage": [

@@ -217,6 +217,8 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
           
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
         </ul>
         
       </li>
@@ -405,7 +407,9 @@ class State(object):
         for item in self.objects:
             yield item
 </code></pre></div></div>
-<p>The variables store in our <code class="language-plaintext highlighter-rouge">State</code> object are treated as “immutable”, meaning the system can treat each <code class="language-plaintext highlighter-rouge">State</code> instance as representing the state of the world, including MRS variables, at one “snapshot” in time. The system knows that the snapshot cannot be changed. This will be important because it allows us to do <em>backtracking</em> as we search our tree of solutions.</p>
+<p>Note that the <code class="language-plaintext highlighter-rouge">SetX()</code> method does not actually “set” a value in the <code class="language-plaintext highlighter-rouge">State</code> object, it creates a new one and sets the value in that.  This ensures that variables set for a <code class="language-plaintext highlighter-rouge">State</code> object never get directly changed. It will allow our solver to pass around the same state objects to predications multiple times and get fresh values bound to the variables. This will be important to allow “backtracking”.</p>
+
+<p>The variables dictionary in our <code class="language-plaintext highlighter-rouge">State</code> object is treated as “immutable”, meaning the system can treat each <code class="language-plaintext highlighter-rouge">State</code> instance as representing the state of the world, including MRS variables, at one “snapshot” in time. The system knows that the snapshot cannot be changed. This will be important because it will allow us to do <em>backtracking</em> as we search our tree of solutions later.</p>
 
 <blockquote>
   <p>Note: The <em>entire</em> State object is not immutable, just the assignment of values to variables.  We’ll address this later, but it won’t be a problem in the simple examples we’re working with now.</p>
