@@ -1,9 +1,9 @@
 ## Event Variables
-So far, we have been conveniently ignoring any event variables (those that start with "e"). Where instance ("x") variables contain a single instance for any answer, event variables are designed to build up a structure. They are how modifiers to a word get tracked. For example, we've been talking about a `_large_a_1(e2,x3) and _file_n_of(x3,i8)` and have ignored what the event variable in `_large_a_1(e2,x3)` is for. We can't do this if we are trying to find a `_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3,i8)`.
+So far, we have been conveniently ignoring any event variables (those that start with "e"). Where instance (`x`) variables contain a single instance for any answer, event (`e`) variables are designed to build up a structure. They are how modifiers to a word get tracked. For example, we've been talking about a `_large_a_1(e2,x3) and _file_n_of(x3)` and have ignored what the event variable in `_large_a_1(e2,x3)` is for. We can't do this if we are trying to find a `_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)`.
 
-In an MRS, any predication except a quantifier is said to "introduce" its first argument. If you'll look closely you'll see that every variable of any type is only "introduced" by one predication in an MRS.  In a sense, that variable represents that predication.  If a predication like `_large_a_1(e2,x3)` introduces an event variable, it does so to provide a place for other predications to hang modifiers to it.
+In an MRS, any predication except a quantifier is said to "introduce" its first argument. If you look closely you'll see that every variable is only "introduced" by one predication in a given MRS.  In a sense, that variable *represents* that predication.  If a predication like `_large_a_1(e2,x3)` introduces an event variable, it does so to provide a place for other predications to hang modifiers to it.
 
-For example, to represent something that is "very large", the word "very" needs to be able to attach its "veryness" to "large". For "very very large" you build a chain where the first "very" modifies the second which modifies "large". This is all done with events, and it happens like this because languages are recursive and allow all kinds of looping recursive constructions and Delphin needed a way to model this.
+For example, to represent something that is "very large", the word "very" needs to be able to attach its "veryness" to "large". For "very very large" you build a chain where the first "very" modifies the second which modifies "large". This is all done with events, and it happens like this because languages are recursive and allow all kinds of recursive constructions. Delphin needed a way to model this.
 
 Here are the predications generated for: "very large" and "very very large":
 
@@ -19,7 +19,7 @@ You can see that in "very large" `_very_x_deg` takes the event variable *introdu
 
 This means, first, that we need a mechanism for handling event variables and, second, that our implementation of `_large_a_1` needs to be modified to pay attention in case its event is modified in some way.
 
-Handling event variables in our solver will be easy. Since they need to be able to capture which could be a large buildup of modifications in a given sentences, we'll use a dictionary for them, and we'll add a helper function to the `State` object to modify them:
+Handling event variables in our solver will be easy. Since they need to be able to capture what could be a large buildup of modifications in a given sentence, we'll use a dictionary for them. We'll add a helper function to the `State` object to modify them:
 
 
 ~~~
@@ -49,7 +49,9 @@ class State(object):
         for item in self.objects:
             yield item
 ~~~
-`AddToE()` adds the key/value pair to a (possibly new) dictionary that represents the event state and returns a new `State` object, just like `SetX()` does. Then, let's create the `_very_x_deg` predication and modify the `_large_a_1` predication to pay attention to any modifications to its event.
+`AddToE()` adds the key/value pair it is given to a (possibly new) dictionary that represents the event state and returns a new `State` object, just like `SetX()` does. 
+
+Now let's create the `_very_x_deg` predication and modify the `_large_a_1` predication to pay attention to any modifications to its event.
 
 ~~~
 def DegreeMultiplierFromEvent(state, e_introduced):
@@ -75,7 +77,6 @@ def very_x_deg(state, e_introduced, e_target):
 @Predication(vocabulary, name="_large_a_1")
 def large_a_1(state, e_introduced, x_target):
     x_target_value = state.GetVariable(x)
-
     if x_target_value is None:
         iterator = state.AllIndividuals()
     else:
