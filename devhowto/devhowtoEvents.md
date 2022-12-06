@@ -1,11 +1,11 @@
 ## Event Variables
 So far, we have been conveniently ignoring any event variables (those that start with "e"). Where instance (`x`) variables contain a single instance for any answer, event (`e`) variables are designed to build up a structure. They are how modifiers to a word get tracked. For example, we've been talking about a `_large_a_1(e2,x3) and _file_n_of(x3)` and have ignored what the event variable in `_large_a_1(e2,x3)` is for. We can't do this if we are trying to find a `_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)`.
 
-In an MRS, any predication except a quantifier is said to "introduce" its first argument. If you look closely you'll see that every variable is only "introduced" by one predication in a given MRS.  In a sense, that variable *represents* that predication.  If a predication like `_large_a_1(e2,x3)` introduces an event variable, it does so to provide a place for other predications to hang modifiers to it.
+In an MRS, any predication except a quantifier is said to "introduce" its first argument. If you look closely you'll see that every variable is only "introduced" by one predication in a given MRS.  In a sense, that variable *represents* that predication.  If a predication like `_large_a_1(e2,x3)` introduces an event variable `e2`, it does so to provide a place for other predications to hang modifiers.
 
 For example, to represent something that is "very large", the word "very" needs to be able to attach its "veryness" to "large". For "very very large" you build a chain where the first "very" modifies the second which modifies "large". This is all done with events, and it happens like this because languages are recursive and allow all kinds of recursive constructions. Delphin needed a way to model this.
 
-Here are the predications generated for: "very large" and "very very large":
+Here are the predications generated for: "very large" and "very very large", note that the comma (",") is being used to indicate a conjunction:
 
 ~~~
 # Very large
@@ -54,6 +54,8 @@ class State(object):
 Now let's create the `_very_x_deg` predication and modify the `_large_a_1` predication to pay attention to any modifications to its event.
 
 ~~~
+# This is a helper function that any predication that can
+# be "very'd" can use to understand just how "very'd" it is
 def DegreeMultiplierFromEvent(state, e_introduced):
     # if a "very" is modifying this event, use that value
     # otherwise, return 1
@@ -68,6 +70,7 @@ def DegreeMultiplierFromEvent(state, e_introduced):
 
 @Predication(vocabulary, "_very_x_deg")
 def very_x_deg(state, e_introduced, e_target):
+    # First see if we have been "very'd"!
     initial_degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
 
     # We'll interpret "very" as meaning "one order of magnitude larger"
@@ -82,6 +85,8 @@ def large_a_1(state, e_introduced, x_target):
     else:
         iterator = [x_target_value]
 
+    # See if any modifiers have changed *how* large 
+    # we should be
     degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
 
     for item in iterator:
