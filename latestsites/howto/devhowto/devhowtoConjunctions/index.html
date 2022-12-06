@@ -288,34 +288,36 @@
       <section class="page__content e-content" itemprop="text">
         
         <h4 id="conjuctions-of-predications">Conjuctions of Predications</h4>
-<p>There are two ways to group predications together in an MRS: as a “conjunction” (i.e. a logical “and”) or by using “scopal arguments”. Scopal Arguments literally pass one predication as an argument to another predication. This is how you built up a tree of predications in a scope-resolved tree. Now that we have a textual representation and a way to execute it, we can use them to start resolving these more complex structures.</p>
+<p>There are two ways to group predications together in an MRS: as a “conjunction” (i.e. a logical “and”) or by using “scopal arguments”. Scopal arguments allow passing <em>a predication</em> as an argument to another predication, much like lambda functions do in many programming languages. This is how you built up a tree of predications in a scope-resolved tree. Now that we have a textual representation and a way to execute it, we can use them to start resolving these more complex structures.</p>
 
 <p>To handle a logical “and” or “conjunction” of predications, we’ll perform a depth-first search of the answers from those predications, evaluated in order. This means: taking the variables set by the first predication, passing them to the second predication, and collecting the successful result. Once you’ve iterated through all of them, you have the set of things that are true for all of the predications in the conjunction for that world.</p>
 
 <p>For an example such as <code class="language-plaintext highlighter-rouge">_large_a_1(e,x) and _file_n_of(x)</code> (to indicate a “large file”):</p>
 <ol>
   <li>Start with empty variables and call the first predication: <code class="language-plaintext highlighter-rouge">_large_a_1</code>.</li>
-  <li>If it succeeds, take the resulting variable assignments and call <code class="language-plaintext highlighter-rouge">_file_n_of</code> with those variables. Since there are no more predications, that result is your first answer.</li>
-  <li>Then “backtrack” by going to step 2 and call <code class="language-plaintext highlighter-rouge">_file_n_of</code> again to return your next answer.</li>
-  <li>When <code class="language-plaintext highlighter-rouge">_file_n_of</code> finally fails, backtrack to step #1 and call <code class="language-plaintext highlighter-rouge">_large_a_1</code> for its next value and do it all again.</li>
+  <li>If it succeeds, take the resulting variable assignments and call <code class="language-plaintext highlighter-rouge">_file_n_of</code> with those assignments. Since there are no more predications, if it succeeds, that result is the first answer.</li>
+  <li>Then “backtrack” by going to step 2 and call <code class="language-plaintext highlighter-rouge">_file_n_of</code> again to get the next answer.</li>
+  <li>When <code class="language-plaintext highlighter-rouge">_file_n_of</code> finally fails, backtrack to step 1 and call <code class="language-plaintext highlighter-rouge">_large_a_1</code> for its next value and do it all again.</li>
   <li>When you have exhausted them all, you have a set of answers (in this case values for <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">e</code>) that represent all the “large files” in that world.</li>
 </ol>
 
-<p>This works because the first predication (<code class="language-plaintext highlighter-rouge">_large_a_1(e,x)</code>) is called with <em>unbound variables</em>, and because of our <a href="../devhowtoPredicationContract">predication contract</a>, this means it will iterate through all the “large” things in the world, whether they are files, folders, beach balls, or whatever. When it returns, <code class="language-plaintext highlighter-rouge">x</code> is set to whatever it selected and the next predication (<code class="language-plaintext highlighter-rouge">file_n_of</code>) will only succeed if the items is a <em>file</em>, So, if we get all the way through, we have a “large file”.  The “backtracking” behavior allows us to iterate through all the objects in the world to find all of the “large files”.</p>
+<p>This works because the first predication (<code class="language-plaintext highlighter-rouge">_large_a_1(e,x)</code>) is called with <em>unbound variables</em>, and because of our <a href="../devhowtoPredicationContract">predication contract</a>, this means it will iterate through all the “large” things in the world, whether they are files, folders, beach balls, or whatever. When it returns, <code class="language-plaintext highlighter-rouge">x</code> is set to whatever it selected and the next predication (<code class="language-plaintext highlighter-rouge">file_n_of</code>) will only succeed if the item is a <em>file</em>, So, if we get all the way through, we have a “large file”.  The “backtracking” behavior allows us to iterate through all the objects in the world to find all of the “large files”.</p>
 
-<p>We’ll implement this logic generally by creating a <code class="language-plaintext highlighter-rouge">Call()</code> function. It expects our text-based format of either a single predication or a list of predications, like this:</p>
+<p>We’ll implement this logic generally by creating a <code class="language-plaintext highlighter-rouge">Call()</code> function. It expects our text-based format, either as a single predication or a list of predications, like this:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>["_large_a_1", "e1", "x1"]
 OR
 [["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
 </code></pre></div></div>
 
-<p>It will use the <code class="language-plaintext highlighter-rouge">CallPredication()</code> function we defined above to call the individual predications.</p>
+<p>It will use the <code class="language-plaintext highlighter-rouge">CallPredication()</code> function we <a href="../devhowtoMRSToPython">defined in the previous section</a> to call the individual predications.</p>
 
-<p>When looking at the code for <code class="language-plaintext highlighter-rouge">Call()</code> below, note that there is a new Python construct hidden in there: <code class="language-plaintext highlighter-rouge">yield from</code>.  Where <code class="language-plaintext highlighter-rouge">yield</code> expects an actual object to yield as its argument, <code class="language-plaintext highlighter-rouge">yield from</code> says “call the function I’m giving you and yield whatever <em>that function</em> yields.</p>
+<p>In the code for <code class="language-plaintext highlighter-rouge">Call()</code> below, note that there is a new Python construct: <code class="language-plaintext highlighter-rouge">yield from</code>.  Where <code class="language-plaintext highlighter-rouge">yield</code> expects an actual object to yield as its argument, <code class="language-plaintext highlighter-rouge">yield from</code> says “call the function I’m giving you and yield whatever <em>that function</em> yields”.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Call(vocabulary, state, term):
     # If "term" is an empty list, we have solved all
-    # predications in the conjunction, return the final answer
+    # predications in the conjunction, return the final answer.
+    # "len()" is a built-in Python function that returns the
+    # length of a list
     if len(term) == 0:
         yield state
     else:
@@ -324,8 +326,8 @@ OR
         # If so, we have a conjunction
         if isinstance(term[0], list):
             # This is a list of predications, so they should
-            # treated as conjunctions
-            # We call each one and pass the state it returns
+            # treated as a conjunction.
+            # Call each one and pass the state it returns
             # to the next one, recursively
             for nextState in Call(vocabulary, state, term[0]):
                 # Note the [1:] syntax which means "return a list
@@ -340,7 +342,9 @@ OR
             yield from CallPredication(vocabulary, state, term)
 </code></pre></div></div>
 
-<p>It is worth making sure you understand how this function works since it is the core of our evaluator. A scope-resolved MRS is a <em>tree</em>, so to solve it, we do a single call to <code class="language-plaintext highlighter-rouge">Call()</code> and pass the whole tree as <code class="language-plaintext highlighter-rouge">term</code>. But: this function only evaluates either single predications or conjunctions. What makes it a <em>tree</em> is that predications can have other predications as arguments (i.e. “scopal arguments”). How those work is <a href="../devhowtoScopalArguments">described in the next section</a>.</p>
+<p>It is worth making sure you understand how this function works since it is the core of our evaluator.</p>
+
+<p>A scope-resolved MRS is a <em>tree</em>, so to solve it, we do a single call to <code class="language-plaintext highlighter-rouge">Call()</code> and pass the whole tree as <code class="language-plaintext highlighter-rouge">term</code>. But: this function only evaluates either single predications or conjunctions. What allows it to solve a <em>tree</em> is that predications can have other predications as arguments (i.e. “scopal arguments”). How those work is <a href="../devhowtoScopalArguments">described in the next section</a>.</p>
 
 <p>To finish this up, let’s implement the predications needed to make the example run and run it:</p>
 
@@ -390,9 +394,9 @@ def Example3():
 # File(name="file2.txt", size=2000000)
 </code></pre></div></div>
 
-<p>So now we have evaluated our first (very small) MRS document. Once we implement scopal arguments <a href="../devhowtoScopalArguments">in the next section</a>, we’ll be able to handle full scope-resolved trees.</p>
+<p>Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments <a href="../devhowtoScopalArguments">in the next section</a>, we’ll be able to handle full scope-resolved trees.</p>
 
-<p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConjunctions.md">edit</a>]</p>
+<p>Last update: 2022-12-06 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConjunctions.md">edit</a>]</p>
 
         
       </section>

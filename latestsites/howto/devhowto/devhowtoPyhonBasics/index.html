@@ -287,31 +287,31 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h2 id="python-background-and-the-state-object">Python Background and the State object</h2>
-<p>The <a href="../devhowtoPredicationContract">predication contract</a> could be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can understand what it is doing and treat it like a “pseudo-language”. Even if you know Python, skim through the section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
+        <h2 id="python-primer-and-the-state-object">Python Primer and the State object</h2>
+<p>The <a href="../devhowtoPredicationContract">predication contract</a> can be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can read the code and understand the examples. Even if you know Python, skim through this section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
 
 <p>The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language.</p>
 
-<p>Python also has a notion of “iterators” which needs a bit more attention. Iterators are objects that can be “iterated” or “listed” or “looped through”. These can be lists represented in square brackets like <code class="language-plaintext highlighter-rouge">[item1, item2]</code> or special functions called “generators” which act like a list but which allow code to dynamically generate the items that are returned.</p>
+<p>Python also has a notion of “iterators” which needs a bit more attention. Iterators are objects that can be “iterated” or “listed” or “looped through”. These can be lists represented in square brackets like <code class="language-plaintext highlighter-rouge">[item1, item2]</code>. They can also be special functions called “generators” which act like a list but allow code to dynamically generate the items that are returned.</p>
 
 <p>You iterate over an iterator of any type using the <code class="language-plaintext highlighter-rouge">for ... in ...</code> construct like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># '#" in Python starts a line with a comment
 for item in iterator:
 
-    # Indenting is how Python determines what code 
+    # Indenting in Python indicates the code that
     # "belongs" to the thing above. Everything indented
     # here will get looped over
 
-    # now "item" has the first value from iterator
-    # and we can, for example, print it
+    # Now "item" has the first value from iterator
+    # and we can print it
     print(item)
 </code></pre></div></div>
 
 <p>If you want to write code to <em>dynamically</em> build an iterator (called a “generator”), you simply write a fuction that calls <code class="language-plaintext highlighter-rouge">yield</code> to return each item. <code class="language-plaintext highlighter-rouge">yield</code> returns the value and then continues on the next line when the next value is asked for. If the function exits without a yield, the iteration stops (this is what we’ve been calling “fail” in the predication contract):</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># "def" is how you define a function in Python
-# everything indented below it is in the function
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># "def" defines a function in Python
+# Everything indented below it is in the function
 def MyIterator1():
     yield 1
     yield 2
@@ -343,7 +343,9 @@ def OutputResults():
 
 <p>We’ll be doing lots of iteration and this syntactic sugar from Python makes it easier.</p>
 
-<p>Let’s work through how to implement a class in Python by creating the class that will hold the state of the world: the <code class="language-plaintext highlighter-rouge">State</code> class. The current state of all MRS variables <em>and</em> the state of everything in the world will be accessed through this class. Because we want the state to be changed and passed around, we will include an instance of it as the first argument on all predications. The implementation of the <code class="language-plaintext highlighter-rouge">State</code> object can be very simple for now:</p>
+<p>Let’s work through how to implement a class in Python by creating the class that will hold the state of the world: the <code class="language-plaintext highlighter-rouge">State</code> class. The current state of all MRS variables <em>and</em> the state of everything in the world will be accessed through this class. Because we want the state to be changed by predications, we will include an instance of it as the first argument when calling them.</p>
+
+<p>The implementation of the <code class="language-plaintext highlighter-rouge">State</code> object can be very simple for now:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># "class" declares an object-oriented class in Python
 # The parenthesis after the "State" class name surround 
@@ -362,30 +364,31 @@ class State(object):
         # simply assigning to them
         self.variables = dict()  # an empty dictionary
 
-        # "objects" are passed to us as an argument of the
-        # constructor by whoever creates an instance of the class
+        # The "objects" variable is passed as an argument of the
+        # "__init__" constructor by whoever creates an instance 
+        # of the class
         self.objects = objects   
 
     # This is how predications will access the current value
     # of MRS variables like "x1" and "e1"
     def GetVariable(self, variable_name):
         # "get()" is one way to access a value in a dictionary.
-        # Its second argument, "None", is what gets returned if the
+        # Its second argument, "None", gets returned if the
         # key doesn't exist.  "None" is a built in value in Python
         # like "null"
         return self.variables.get(variable_name, None)
 
     # This is how predications will set the value
-    # of an "x" variable. It has to return a *different*
-    # state object with that variable set
+    # of an "x" variable. Why it has to return a *different*
+    # state object with that variable set is described below 
     def SetX(self, variable_name, item):
-        # You create a new "State" instance by
+        # Start with a new "State" object with the same
+        # world state. Here's how:
+        # Create a new "State" instance by
         # calling its class name like a method.
-        # We pass "self.objects" as its first argument
+        # Pass "self.objects" as its first argument
         # so that State's "__init__" constructor will 
         # use the same world state we have here.
-        # Now we have a new "State" object with the same
-        # world state
         new_state = State(self.objects)
 
         # Make a *copy* of all the variables and put them
@@ -407,9 +410,7 @@ class State(object):
         for item in self.objects:
             yield item
 </code></pre></div></div>
-<p>Note that the <code class="language-plaintext highlighter-rouge">SetX()</code> method does not actually “set” a value in the <code class="language-plaintext highlighter-rouge">State</code> object, it creates a new one and sets the value in that.  This ensures that variables set for a <code class="language-plaintext highlighter-rouge">State</code> object never get directly changed. It will allow our solver to pass around the same state objects to predications multiple times and get fresh values bound to the variables. This will be important to allow “backtracking”.</p>
-
-<p>The variables dictionary in our <code class="language-plaintext highlighter-rouge">State</code> object is treated as “immutable”, meaning the system can treat each <code class="language-plaintext highlighter-rouge">State</code> instance as representing the state of the world, including MRS variables, at one “snapshot” in time. The system knows that the snapshot cannot be changed. This will be important because it will allow us to do <em>backtracking</em> as we search our tree of solutions later.</p>
+<p>Note that the <code class="language-plaintext highlighter-rouge">SetX()</code> method does not actually “set” a value in the <code class="language-plaintext highlighter-rouge">State</code> object, it creates a new one and sets the value in that.  This ensures that variables set for a given <code class="language-plaintext highlighter-rouge">State</code> object are never changed (they are <em>immutable</em>). Immutability allows our solver to reuse the same state object multiple times when calling a predication in order to get fresh values bound to the variables. And this, in turn, is important to allow “backtracking” through possible solutions to the MRS.</p>
 
 <blockquote>
   <p>Note: The <em>entire</em> State object is not immutable, just the assignment of values to variables.  We’ll address this later, but it won’t be a problem in the simple examples we’re working with now.</p>
@@ -427,7 +428,7 @@ class File(object):
         self.size = size
 </code></pre></div></div>
 
-<p>Creating a <code class="language-plaintext highlighter-rouge">State</code> object with a list of the objects from the example looks like this:</p>
+<p>Creating a <code class="language-plaintext highlighter-rouge">State</code> object with the list of the objects from the example looks like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>state = State([Folder(name="Desktop"), 
                Folder(name="Documents"), 
@@ -435,11 +436,11 @@ class File(object):
                File(name="file2.txt")])
 </code></pre></div></div>
 
-<p>Note that an instance of the <code class="language-plaintext highlighter-rouge">State</code> object is created by calling it like a function. This really calls the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">State</code>, and passes the supplied argument (a list) to <code class="language-plaintext highlighter-rouge">__init__</code>. Each object in the list that we are giving to <code class="language-plaintext highlighter-rouge">State</code> is created just like <code class="language-plaintext highlighter-rouge">State</code> was: by calling it as a function. Note that arguments can be named like <code class="language-plaintext highlighter-rouge">name="Documents"</code> to clarify what is going on.</p>
+<p>Note that an instance of the <code class="language-plaintext highlighter-rouge">State</code> object is created by calling it like a function. This really calls the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">State</code>, and passes the supplied argument (a list) to <code class="language-plaintext highlighter-rouge">__init__</code>. Each object in the list is created just like <code class="language-plaintext highlighter-rouge">State</code> was: by calling it as a function. Note that arguments can be named like <code class="language-plaintext highlighter-rouge">name="Documents"</code> to clarify what is going on.</p>
 
 <p>Now you’ve seen some of the basic Python you’ll see throughout the tutorial and we’ve defined the core <code class="language-plaintext highlighter-rouge">State</code> class we’ll use in our predications.  Next, we’ll <a href="../devhowtoImplementPredication">implement a predication</a>.</p>
 
-<p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPyhonBasics.md">edit</a>]</p>
+<p>Last update: 2022-12-06 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPyhonBasics.md">edit</a>]</p>
 
         
       </section>
