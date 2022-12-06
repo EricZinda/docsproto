@@ -51,5 +51,4 @@ At this point we have a fully functional evaluator, but there are a few things s
 - We have been ignoring all the variable types except "x" variables.
 - How to deal with questions vs. commands vs. propositions
 - How to report errors
-
-Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoScopalArguments.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
