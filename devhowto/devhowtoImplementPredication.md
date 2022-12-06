@@ -31,6 +31,8 @@ def folder_n_of(state, x):
             new_state = state.SetX(x, item)
             yield new_state
 ~~~
+Note that `SetX` returns a new instance of the state object when we set `x` to a value and that is what gets returned. This is important because it allows our solver to pass around the state objects to predications and not worry about them getting changed. 
+Note that our predication returns the new instance of the state object that it gets from `SetX`.
 
 Now we can run code and call our first predication:
 ~~~
