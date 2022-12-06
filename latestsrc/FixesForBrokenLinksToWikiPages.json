@@ -2,6 +2,7 @@
     "howto": [
       {"Section": "Developer Tutorial", "Pages": [
         {"Page": "devhowtoOverview", "SrcDir": "main", "SrcFile": "devhowtoOverview.md", "BaseReferrer": "howto/devhowto/devhowtoPredicationContract.md", "Referrer": "howto/devhowto/devhowtoPredicationContract.md", "FileMissing": true},
+        {"Page": "devhowtoPythonBasics", "SrcDir": "main", "SrcFile": "devhowtoPythonBasics.md", "BaseReferrer": "howto/devhowto/devhowtoPredicationContract.md", "Referrer": "howto/devhowto/devhowtoPredicationContract.md", "FileMissing": true},
         {"Page": "devhowtoPredicationContract", "SrcDir": "main", "SrcFile": "devhowtoPredicationContract.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "devhowtoImplementPredication", "SrcDir": "main", "SrcFile": "devhowtoImplementPredication.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "devhowtoPyhonBasics", "SrcDir": "main", "SrcFile": "devhowtoPyhonBasics.md", "BaseReferrer": "howto/devhowto/devhowtoImplementPredication.md", "Referrer": "howto/devhowto/devhowtoImplementPredication.md", "FileMissing": true},

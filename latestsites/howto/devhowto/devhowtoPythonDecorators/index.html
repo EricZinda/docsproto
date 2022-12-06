@@ -288,10 +288,11 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="python-decorators-and-the-vocabulary-class">Python Decorators and the Vocabulary Class</h2>
-<p>This section describes a more arcane part of Python called “decorators” that we use to register predication methods in the <code class="language-plaintext highlighter-rouge">Vocabulary Class</code>. It is not important to understand how the code works, but it is here for those that are.</p>
+<p>This section describes a more arcane part of Python called “decorators” that we use to register predication methods in the <code class="language-plaintext highlighter-rouge">Vocabulary Class</code>. It is not important to understand how the code works, but it is here for those that are interested.</p>
 
-<p>Python decorators allow us to run code at load time that inspects whatever they decorate and take action. In this case we will record the name and arguments of the function in whatever object is passed to <code class="language-plaintext highlighter-rouge">@Predication()</code> (in this cass <code class="language-plaintext highlighter-rouge">vocabulary</code>). That way, we will have an object that knows all the predications after the file is loaded.</p>
+<p>Python decorators allow us to run code at load time that inspects whatever they decorate and take action. In this case, we will take the name and arguments of the function passed to <code class="language-plaintext highlighter-rouge">@Predication()</code>, and record it in the <code class="language-plaintext highlighter-rouge">vocabulary</code> instance we are given. That way, we will have an object that knows all the predications after the file is loaded.</p>
 
+<p>The <code class="language-plaintext highlighter-rouge">vocabulary</code> class is simple: it has a dictionary that maps predication names to functions:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Vocabulary(object):
     def __init__(self):
         self.all = dict()
@@ -301,9 +302,14 @@
 
     def Predication(self, delphin_name):
         return self.all.get(delphin_name, None)
+</code></pre></div></div>
 
+<p>The <code class="language-plaintext highlighter-rouge">Predication</code> class is the actual “decorator” class. It uses the fact that Python functions can define other functions within them.</p>
+<blockquote>
+  <p>TODO: Describe in more detail how this decorator works</p>
+</blockquote>
 
-def Predication(vocabulary, name=None):
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Predication(vocabulary, name=None):
     # Gets called when the function is first created
     # function_to_decorate is the function definition
     def PredicationDecorator(function_to_decorate):
@@ -320,7 +326,7 @@ def Predication(vocabulary, name=None):
     return PredicationDecorator
 </code></pre></div></div>
 
-<p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPythonDecorators.md">edit</a>]</p>
+<p>Last update: 2022-12-06 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPythonDecorators.md">edit</a>]</p>
 
         
       </section>
