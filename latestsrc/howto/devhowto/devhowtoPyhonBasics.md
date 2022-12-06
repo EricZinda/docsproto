@@ -1,9 +1,11 @@
 {% raw %}## Python Background: Basics, Classes, Functions, Iterators
-The [predication contract](../devhowtoPredicationContract) could be implemented in any programming language, but we'll be using Python. This section should give enough background so that even readers not familiar with Python can treat it like a "pseudo-language" and understand what it is doing. Even if you know Python, skim through the section since we will be implementing a key class (`State`) used elsewhere in the documentation.
+The [predication contract](../devhowtoPredicationContract) could be implemented in any programming language, but we'll be using Python. This section should give enough background so that even readers not familiar with Python can understand what it is doing and treat it like a "pseudo-language". Even if you know Python, skim through the section since we will be implementing a key class (`State`) used elsewhere in the documentation.
 
-The Python language has functions, classes, methods, variables, operators, statements, and other elements of many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language. Python also has a notion of "iterators" which needs a bit more description. Iterators are objects that can be "iterated" or "listed" or "looped through". These can be lists (represented in square brackets like `[item1, item2]`) or special functions called "generators" which act like a list in that they return items one by one, but which allow code to dynamically generate the items that are returned.    
+The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language. 
 
-You iterate over an iterator of any type, whether it is a list or a generator, using the `for ... in ...` construct like this:
+Python also has a notion of "iterators" which needs a bit more attention. Iterators are objects that can be "iterated" or "listed" or "looped through". These can be lists represented in square brackets like `[item1, item2]` or special functions called "generators" which act like a list but which allow code to dynamically generate the items that are returned.    
+
+You iterate over an iterator of any type using the `for ... in ...` construct like this:
 
 ```
 # '#" in Python starts a line with a comment
@@ -18,7 +20,7 @@ for item in iterator:
     print(item)
 ```
 
-If you want to write code to *dynamically* build an iterator (called a "generator"), you simply write a fuction that calls `yield` to return each item. `yield` returns the value and then continues on the next line when the next value is asked for. If the function exits without a yield, the iteration stops:
+If you want to write code to *dynamically* build an iterator (called a "generator"), you simply write a fuction that calls `yield` to return each item. `yield` returns the value and then continues on the next line when the next value is asked for. If the function exits without a yield, the iteration stops (this is what we've been calling "fail" in the predication contract):
 
 ```
 # "def" is how you define a function in Python
@@ -54,7 +56,7 @@ def OutputResults():
 
 We'll be doing lots of iteration and this syntactic sugar from Python makes it easier. 
 
-Let's work through how to implement a class in Python by creating the class that will hold the state of the world: the `State` class. The current state of all MRS variables *and* the state of everything in the world will be accessed through this class. Because we want the state to be changed and passed around, we will include it as the first argument on all predications. The implementation of the `State` object can be very simple for now:
+Let's work through how to implement a class in Python by creating the class that will hold the state of the world: the `State` class. The current state of all MRS variables *and* the state of everything in the world will be accessed through this class. Because we want the state to be changed and passed around, we will include an instance of it as the first argument on all predications. The implementation of the `State` object can be very simple for now:
 
 ```
 # "class" declares an object-oriented class in Python
@@ -82,20 +84,20 @@ class State(object):
     # of MRS variables like "x1" and "e1"
     def GetVariable(self, variable_name):
         # "get()" is one way to access a value in a dictionary.
-        # The second argument, "None", is what to return if the
+        # Its second argument, "None", is what gets returned if the
         # key doesn't exist.  "None" is a built in value in Python
         # like "null"
         return self.variables.get(variable_name, None)
 
     # This is how predications will set the value
-    # of an "x" variable. It has to return a *differnt*
+    # of an "x" variable. It has to return a *different*
     # state object with that variable set
     def SetX(self, variable_name, item):
-        # You create a new instance of State by
+        # You create a new "State" instance by
         # calling its class name like a method.
-        # We pass "self.objects" as the first argument
-        # so that its "__init__" constructor will use the same
-        # world state.
+        # We pass "self.objects" as its first argument
+        # so that State's "__init__" constructor will 
+        # use the same world state we have here.
         # Now we have a new "State" object with the same
         # world state
         new_state = State(self.objects)
@@ -120,7 +122,7 @@ class State(object):
             yield item
 ```
 
-Objects in the world can just be Python objects, although there are many other ways to represent them, the predication contract doesn't care. We'll create classes for each "type of thing" in our file system world:
+Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn't care). We'll create classes for each "type of thing" in our file system world:
 
 ```
 class Folder(object):
@@ -144,4 +146,5 @@ state = State([Folder(name="Desktop"),
 
 Note that an instance of the `State` object is created by calling it like a function. This really calls the `__init__` function of `State`, and passes the supplied argument (a list) to `__init__`. Each object in the list that we are giving to `State` is created just like `State` was: by calling it as a function. Note that arguments can be named like `name="Documents"` to clarify what is going on.
 
-Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPyhonBasics.md)]{% endraw %}
+Now you've seen some of the basic Python you'll see throughout the tutorial and we've defined the core `State` class we'll use in our predications.  Next, we'll [implement a predication](../devhowtoImplementPredication).
+<update date omitted for speed>{% endraw %}

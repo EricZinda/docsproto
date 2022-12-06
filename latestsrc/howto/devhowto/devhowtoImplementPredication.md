@@ -1,8 +1,8 @@
 {% raw %}
 ## Implementing a Predication
-With that Python background and our implementation of the `State` object, we can now implement a `_folder_n_of` function that implements the predication contract.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its own arguments *and* the world state. 
+With that [Python background and our implementation of the `State` object](../devhowtoPyhonBasics), we can now implement the `_folder_n_of` predication by creating a Python function that implements the predication contract.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its own arguments *and* the world state. 
 
-Note that the variables passed to predications will be strings like `"x1"` or `"e12"`. To get their values, the code looks them up in the `State` object:
+Here's the implementation of the `_folder_n_of` predication in Python. Note that the variables passed to predications will be strings like `"x1"` or `"e12"`. To get their values, the code looks them up in the `State` object:
 ```
 def folder_n_of(state, x):
     x_value = state.GetVariable(x)
@@ -20,6 +20,10 @@ def folder_n_of(state, x):
     # By converting both cases to an iterator, the code that
     # checks if x is "a folder" can be shared
     for item in iterator:
+    
+        # "isinstance" is a built-in function in Python
+        # checks if a variable holds a value that is an
+        # instance of the specified class
         if isinstance(item, Folder):
             # state.SetX() returns a *new* state that
             # is a copy of the old one with just that one
@@ -28,7 +32,7 @@ def folder_n_of(state, x):
             yield new_state
 ```
 
-Now we can run our code to call our first predication:
+Now we can run code and call our first predication:
 ```
 def Example1():
     state = State([Folder(name="Desktop"),
@@ -45,5 +49,4 @@ def Example1():
 ```
 
 Now we have one predication that implements the predication contract, but note that MRS is a textual format. We'll need a way to convert text into function calls in order to truly evaluate an MRS without manually converting them to Python like the above example. Let's go through that next.
-
-Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoImplementPredication.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

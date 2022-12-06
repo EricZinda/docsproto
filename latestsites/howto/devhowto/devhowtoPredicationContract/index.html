@@ -288,44 +288,45 @@
         <h2 id="the-predication-contract">The Predication Contract</h2>
 <p>It is important to understand <a href="">what MRS is</a> and what <a href="">a scope-resolved MRS tree is</a> before reading this section. Visit those links first to understand the basic concepts.</p>
 
-<p>A scope-resolved MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is by <em>iteratively</em> finding assignments to the variables in the MRS, one by one, and collecting them. We can do this by defining a specific contract that predications need to follow.</p>
+<p>A scope-resolved MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is by <em>iteratively</em> finding assignments to the variables in the MRS, one by one, and collecting them. This is the “SLD” approach described in the <a href="../devhowtoOverview">previous section</a>. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. Let’s call this the “predication contract”.</p>
 
-<p>To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. Let’s call this the “predication contract”.</p>
+<p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e, x, x)</code>: they have a name and a set of arguments just like functions in mathematics or programming languages. We will be treating the predications we implement as classic programming language functions that can be “called” or “invoked”. The two rules of our contract are”</p>
 
-<p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e, x, x)</code>: they have a name and a set of arguments just like functions in mathematics or programming languages. We will be treating the predications we implement as classic programming language functions that can be “called” or “invoked”.</p>
-
-<p>The predication contract requires that, given a world state (the state of the software you want to evaluate the MRS against), a predication must iteratively return its variables set to values that are true in that world state or fail. “Iteratively” means returning one answer the first time they are called, and then another the next time, until there are no more answers (in which case it fails).</p>
-
-<p>It must also operate differently depending on whether its incoming variables are set (sometimes called “bound”) or not (“unbound”):</p>
-<ul>
-  <li>Calling a predication with unbound variables should return the unbound variables bound with a set of values from the world that, together, make it true. Calling it again should return a different set of bindings that make it true. Eventually, it will run out of things that can be true and should then fail.</li>
-  <li>Calling it with bound variables should simply return the same values if true or fail if not. I.e. iterate once.</li>
-</ul>
+<ol>
+  <li>The predication contract requires that, given a world state (the state of the software you want to evaluate the MRS against), a predication must iteratively its variables set to values that are true in that world state or fail. “Iteratively” means returning one answer the first time they are called, and then another the next time, until there are no more answers (in which case it fails).</li>
+  <li>It must also operate differently depending on whether its incoming variables are set (called “bound”) or not (“unbound”):
+    <ul>
+      <li>Calling a predication with unbound variables should return the unbound variables bound to a set of values from the world that, together, make it true. Calling it again should return a different set of bindings that make it true. Eventually, it will run out of things that can be true and should then fail.</li>
+      <li>Calling it with bound variables should simply return the same values if true or fail if not. I.e. iterate once.</li>
+    </ul>
+  </li>
+</ol>
 
 <p>Let’s use an example to illustrate:</p>
 
 <p>Imagine we want to build a natural language interface to the file system on a computer. We’ll start with a simple a world with 4 things in it. We’ll use Python classes (explained below) to represent them:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Folder(name="Desktop")
-Folder(name="Documents")
-File(name="file1.txt")
-File(name="file2.txt")
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Folder(name="Desktop"),
+ Folder(name="Documents"),
+ File(name="file1.txt"),
+ File(name="file2.txt")]
 </code></pre></div></div>
 <p>For now, we won’t have files in folders, just the straight list of 4 objects in the file system.</p>
 
 <p>In this world of 4 objects:</p>
 
 <ul>
-  <li>Calling <code class="language-plaintext highlighter-rouge">_folder_n_of(x)</code> once should return <code class="language-plaintext highlighter-rouge">x=Folder(name="Desktop")</code>. Meaning: <code class="language-plaintext highlighter-rouge">x</code> wasn’t set, so: find an object in the world that is a “folder” and return <code class="language-plaintext highlighter-rouge">x</code> set to that object.</li>
-  <li>Calling it again will return <code class="language-plaintext highlighter-rouge">x=Folder(name="Documents")</code> since that is a different object in the world that is a folder.</li>
-  <li>The third call will fail since there are no more objects that are folders.</li>
+  <li>Calling <code class="language-plaintext highlighter-rouge">_folder_n_of(x)</code> once should return <code class="language-plaintext highlighter-rouge">x=Folder(name="Desktop")</code>. Meaning: <code class="language-plaintext highlighter-rouge">x</code> was unbound, so: find an object in the world that is a “folder” and return <code class="language-plaintext highlighter-rouge">x</code> set to that object.</li>
+  <li>Calling it again will return <code class="language-plaintext highlighter-rouge">x=Folder(name="Documents")</code> since that is a different folder in the world state.</li>
+  <li>The third call will fail since there are no more folders.</li>
 </ul>
 
-<p>Calling <code class="language-plaintext highlighter-rouge">_file_n_of(File(name="file1.txt"))</code> once will return <code class="language-plaintext highlighter-rouge">x=File(name="file1.txt")</code>. This is because <code class="language-plaintext highlighter-rouge">x</code> was set to a value and thus it should only verify that the value of <code class="language-plaintext highlighter-rouge">x</code> truly is a “file”. The second call will fail.</p>
+<p>Calling <code class="language-plaintext highlighter-rouge">_file_n_of(File(name="file1.txt"))</code> once will return <code class="language-plaintext highlighter-rouge">x=File(name="file1.txt")</code> because <code class="language-plaintext highlighter-rouge">x</code> was bound and thus <code class="language-plaintext highlighter-rouge">file_n_of</code> only needs to verify that it is a “file”. The second call will fail.</p>
 
 <p>This is the contract we need to build for each predication we want the system to understand.</p>
 
-<p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPredicationContract.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

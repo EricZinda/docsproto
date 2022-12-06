@@ -286,11 +286,13 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="python-background-basics-classes-functions-iterators">Python Background: Basics, Classes, Functions, Iterators</h2>
-<p>The <a href="../devhowtoPredicationContract">predication contract</a> could be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can treat it like a “pseudo-language” and understand what it is doing. Even if you know Python, skim through the section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
+<p>The <a href="../devhowtoPredicationContract">predication contract</a> could be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can understand what it is doing and treat it like a “pseudo-language”. Even if you know Python, skim through the section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
 
-<p>The Python language has functions, classes, methods, variables, operators, statements, and other elements of many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language. Python also has a notion of “iterators” which needs a bit more description. Iterators are objects that can be “iterated” or “listed” or “looped through”. These can be lists (represented in square brackets like <code class="language-plaintext highlighter-rouge">[item1, item2]</code>) or special functions called “generators” which act like a list in that they return items one by one, but which allow code to dynamically generate the items that are returned.</p>
+<p>The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language.</p>
 
-<p>You iterate over an iterator of any type, whether it is a list or a generator, using the <code class="language-plaintext highlighter-rouge">for ... in ...</code> construct like this:</p>
+<p>Python also has a notion of “iterators” which needs a bit more attention. Iterators are objects that can be “iterated” or “listed” or “looped through”. These can be lists represented in square brackets like <code class="language-plaintext highlighter-rouge">[item1, item2]</code> or special functions called “generators” which act like a list but which allow code to dynamically generate the items that are returned.</p>
+
+<p>You iterate over an iterator of any type using the <code class="language-plaintext highlighter-rouge">for ... in ...</code> construct like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># '#" in Python starts a line with a comment
 for item in iterator:
@@ -304,7 +306,7 @@ for item in iterator:
     print(item)
 </code></pre></div></div>
 
-<p>If you want to write code to <em>dynamically</em> build an iterator (called a “generator”), you simply write a fuction that calls <code class="language-plaintext highlighter-rouge">yield</code> to return each item. <code class="language-plaintext highlighter-rouge">yield</code> returns the value and then continues on the next line when the next value is asked for. If the function exits without a yield, the iteration stops:</p>
+<p>If you want to write code to <em>dynamically</em> build an iterator (called a “generator”), you simply write a fuction that calls <code class="language-plaintext highlighter-rouge">yield</code> to return each item. <code class="language-plaintext highlighter-rouge">yield</code> returns the value and then continues on the next line when the next value is asked for. If the function exits without a yield, the iteration stops (this is what we’ve been calling “fail” in the predication contract):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># "def" is how you define a function in Python
 # everything indented below it is in the function
@@ -339,7 +341,7 @@ def OutputResults():
 
 <p>We’ll be doing lots of iteration and this syntactic sugar from Python makes it easier.</p>
 
-<p>Let’s work through how to implement a class in Python by creating the class that will hold the state of the world: the <code class="language-plaintext highlighter-rouge">State</code> class. The current state of all MRS variables <em>and</em> the state of everything in the world will be accessed through this class. Because we want the state to be changed and passed around, we will include it as the first argument on all predications. The implementation of the <code class="language-plaintext highlighter-rouge">State</code> object can be very simple for now:</p>
+<p>Let’s work through how to implement a class in Python by creating the class that will hold the state of the world: the <code class="language-plaintext highlighter-rouge">State</code> class. The current state of all MRS variables <em>and</em> the state of everything in the world will be accessed through this class. Because we want the state to be changed and passed around, we will include an instance of it as the first argument on all predications. The implementation of the <code class="language-plaintext highlighter-rouge">State</code> object can be very simple for now:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># "class" declares an object-oriented class in Python
 # The parenthesis after the "State" class name surround 
@@ -366,20 +368,20 @@ class State(object):
     # of MRS variables like "x1" and "e1"
     def GetVariable(self, variable_name):
         # "get()" is one way to access a value in a dictionary.
-        # The second argument, "None", is what to return if the
+        # Its second argument, "None", is what gets returned if the
         # key doesn't exist.  "None" is a built in value in Python
         # like "null"
         return self.variables.get(variable_name, None)
 
     # This is how predications will set the value
-    # of an "x" variable. It has to return a *differnt*
+    # of an "x" variable. It has to return a *different*
     # state object with that variable set
     def SetX(self, variable_name, item):
-        # You create a new instance of State by
+        # You create a new "State" instance by
         # calling its class name like a method.
-        # We pass "self.objects" as the first argument
-        # so that its "__init__" constructor will use the same
-        # world state.
+        # We pass "self.objects" as its first argument
+        # so that State's "__init__" constructor will 
+        # use the same world state we have here.
         # Now we have a new "State" object with the same
         # world state
         new_state = State(self.objects)
@@ -404,7 +406,7 @@ class State(object):
             yield item
 </code></pre></div></div>
 
-<p>Objects in the world can just be Python objects, although there are many other ways to represent them, the predication contract doesn’t care. We’ll create classes for each “type of thing” in our file system world:</p>
+<p>Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn’t care). We’ll create classes for each “type of thing” in our file system world:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Folder(object):
     def __init__(self, name):
@@ -426,7 +428,9 @@ class File(object):
 
 <p>Note that an instance of the <code class="language-plaintext highlighter-rouge">State</code> object is created by calling it like a function. This really calls the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">State</code>, and passes the supplied argument (a list) to <code class="language-plaintext highlighter-rouge">__init__</code>. Each object in the list that we are giving to <code class="language-plaintext highlighter-rouge">State</code> is created just like <code class="language-plaintext highlighter-rouge">State</code> was: by calling it as a function. Note that arguments can be named like <code class="language-plaintext highlighter-rouge">name="Documents"</code> to clarify what is going on.</p>
 
-<p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPyhonBasics.md">edit</a>]</p>
+<p>Now you’ve seen some of the basic Python you’ll see throughout the tutorial and we’ve defined the core <code class="language-plaintext highlighter-rouge">State</code> class we’ll use in our predications.  Next, we’ll <a href="../devhowtoImplementPredication">implement a predication</a>.</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

@@ -287,9 +287,9 @@
         
         
 <h2 id="implementing-a-predication">Implementing a Predication</h2>
-<p>With that Python background and our implementation of the <code class="language-plaintext highlighter-rouge">State</code> object, we can now implement a <code class="language-plaintext highlighter-rouge">_folder_n_of</code> function that implements the predication contract.  We will be passing an instance of the <code class="language-plaintext highlighter-rouge">State</code> object as the first argument to every predication so that it can access its own arguments <em>and</em> the world state.</p>
+<p>With that <a href="../devhowtoPyhonBasics">Python background and our implementation of the <code class="language-plaintext highlighter-rouge">State</code> object</a>, we can now implement the <code class="language-plaintext highlighter-rouge">_folder_n_of</code> predication by creating a Python function that implements the predication contract.  We will be passing an instance of the <code class="language-plaintext highlighter-rouge">State</code> object as the first argument to every predication so that it can access its own arguments <em>and</em> the world state.</p>
 
-<p>Note that the variables passed to predications will be strings like <code class="language-plaintext highlighter-rouge">"x1"</code> or <code class="language-plaintext highlighter-rouge">"e12"</code>. To get their values, the code looks them up in the <code class="language-plaintext highlighter-rouge">State</code> object:</p>
+<p>Here’s the implementation of the <code class="language-plaintext highlighter-rouge">_folder_n_of</code> predication in Python. Note that the variables passed to predications will be strings like <code class="language-plaintext highlighter-rouge">"x1"</code> or <code class="language-plaintext highlighter-rouge">"e12"</code>. To get their values, the code looks them up in the <code class="language-plaintext highlighter-rouge">State</code> object:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def folder_n_of(state, x):
     x_value = state.GetVariable(x)
     if x_value is None:
@@ -306,6 +306,10 @@
     # By converting both cases to an iterator, the code that
     # checks if x is "a folder" can be shared
     for item in iterator:
+    
+        # "isinstance" is a built-in function in Python
+        # checks if a variable holds a value that is an
+        # instance of the specified class
         if isinstance(item, Folder):
             # state.SetX() returns a *new* state that
             # is a copy of the old one with just that one
@@ -314,7 +318,7 @@
             yield new_state
 </code></pre></div></div>
 
-<p>Now we can run our code to call our first predication:</p>
+<p>Now we can run code and call our first predication:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example1():
     state = State([Folder(name="Desktop"),
                    Folder(name="Documents"),
@@ -330,8 +334,8 @@
 </code></pre></div></div>
 
 <p>Now we have one predication that implements the predication contract, but note that MRS is a textual format. We’ll need a way to convert text into function calls in order to truly evaluate an MRS without manually converting them to Python like the above example. Let’s go through that next.</p>
-
-<p>Last update: 2022-12-05 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoImplementPredication.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

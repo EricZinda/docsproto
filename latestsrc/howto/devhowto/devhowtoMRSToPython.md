@@ -1,5 +1,5 @@
 {% raw %}## Converting an MRS Predication to a Python Function call
-So far we have been calling our predications directly as functions. To be able to translate MRS into executable code we're going to need a way to convert from the MRS textual representation to actual Python function calls. Luckily Python makes that easy. We'll represent each predication in our MRS as a Python list with the predication name as the first element and the arguments as the rest. Like this for the `folder_n_of(x1)` and `compound(e1, x1, x2)` examples:
+So far we have been calling our predications directly as functions. To be able to translate MRS into executable code we're going to need a way to convert from the MRS textual representation to actual Python function calls. We'll represent each predication in our MRS as a Python list with the predication name as the first element and the arguments as the rest. Like this for the `folder_n_of(x1)` and `compound(e1, x1, x2)` examples:
 ```
 ["folder_n_of", "x1"]
 ["compound", "e1", "x1", "x2"]
@@ -78,5 +78,4 @@ def Example2():
 ```
 
 With this in place, we can tackle more complicated groups of predications.
-
-Last update: 2022-12-05 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoMRSToPython.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
