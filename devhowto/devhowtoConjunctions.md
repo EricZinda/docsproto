@@ -88,15 +88,16 @@ def large_a_1(state, e_introduced, x_target):
             yield new_state
 
     
-def test_output():
+def Example3():
     state = State([Folder(name="Desktop"),
                    Folder(name="Documents"),
                    File(name="file1.txt", size=100),
                    File(name="file2.txt", size=2000000)])
     mrs = [["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
-    for item in Call(state, mrs):
+    for item in Call(vocabulary, state, mrs):
         print(item.variables)
-
+        
+        
 # Prints:
 # File(name="file2.txt", size=2000000)
 ~~~
