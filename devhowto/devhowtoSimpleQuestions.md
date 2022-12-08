@@ -61,7 +61,6 @@ RELS: <
 >
 HCONS: < h0 qeq h1 h5 qeq h7 > ]
 
-***** chosen solution next *****
 
               ┌────── _file_n_of(x3,i8)
 _which_q(x3,RSTR,BODY)
