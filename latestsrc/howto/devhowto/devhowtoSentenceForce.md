@@ -1,5 +1,5 @@
 {% raw %}## Responding by Using Sentence Force
-So far, we've been building up the ability to evaluate an MRS against a software world model. Now it is time to start working through types of sentences and actually giving the answers people will expect.
+So far, we've been building up the ability to evaluate an MRS against a software world model. Now it is time to start working through *types* of sentences and actually giving the answers people will expect from each type.
 
 Let's look at the MRS for the sentence we've been working with so far, "A file is very large":
 ```
@@ -24,7 +24,14 @@ The *syntactic head* of a phrase indicates what the phrase is “about” or “
 > The example sentence is thus *about* `_large_a_1`...which is not a verb.  This is a special case in Delphin, where the common case of "being x" just drops the "x" and treats what it is "being" as the verb.
 
 
-Once you know the `index` (syntactic head) of a phrase, you can see what *type* of phrase it is by looking at the `SF` ("sentence force") property of that variable.  In this case, `prop`. Any given sentence gets categorized into a *type* of sentence, indicated by the `SF` ("sentence force") property of its index variable:
+Once you know the `index` (syntactic head) of a phrase, you can see what *type* of phrase it is by looking at the *properties* of that variable. This is the first time we've had to inspect variable properties, so lets dig in there a bit. You can see that next to each argument in the MRS, there is a list of properties surrounded by `[]`. In `e2` argument of `_large_a_1` it looks like this:
+
+```
+ e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+```
+
+This is the list of properties for that variable. It provides various information about the kind of thing that should be in that variable. Think of it as "metadata" about the variable.  The property we are interested in here is:
+`SF: prop` ("sentence force": "proposition").  Any given sentence gets categorized into a *type* of sentence, indicated by the `SF` ("sentence force") property of its index variable:
 
 - Proposition (`SF: prop`): "A file is large."
 - Question (`SF: ques`): "Is a file large?", "Which file is large?"
@@ -45,4 +52,5 @@ Note that these are all answers the user would expect if the statement worked.  
 - User: "Make a file large." -> "test1.txt is now large"
 
 In the next few sections we'll work through how to handle the different types of sentences when they succeed, and then end by talking about how to handle failures.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSentenceForce.md)]{% endraw %}

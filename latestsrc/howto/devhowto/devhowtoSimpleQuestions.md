@@ -61,7 +61,6 @@ RELS: <
 >
 HCONS: < h0 qeq h1 h5 qeq h7 > ]
 
-***** chosen solution next *****
 
               ┌────── _file_n_of(x3,i8)
 _which_q(x3,RSTR,BODY)
@@ -195,4 +194,5 @@ def Example6():
 # Prints:
 File(name=file1.txt, size=2000000)
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleQuestions.md)]{% endraw %}
