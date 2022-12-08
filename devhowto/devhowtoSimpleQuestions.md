@@ -185,7 +185,7 @@ def Example6():
 
     mrs = {}
     mrs["Index"] = "e1"
-    mrs["Variables"] = {"x1": {"NUM": "pl"},
+    mrs["Variables"] = {"x1": {"NUM": "sg"},
                         "e1": {"SF": "ques"}}
     mrs["RELS"] = [["_which_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
 
@@ -194,3 +194,4 @@ def Example6():
 # Prints:
 File(name=file1.txt, size=2000000)
 ~~~
+Note that we have a subtle bug in our implementation of `default_quantifier`: we are not yet paying attention to `NUM: sg`.  If there were two large files, they would both get returned in this implementation. Really, they should return a failure since the premise of "which file" is wrong, since there are multiple of them. We'll address that once we get to the section on how to handle plurals.
