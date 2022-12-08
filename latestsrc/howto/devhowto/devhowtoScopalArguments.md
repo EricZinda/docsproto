@@ -69,5 +69,4 @@ At this point we have a fully functional evaluator, but there are a few things s
 - How to report errors
 
 The next sections will describe how these work
-
-Last update: 2022-12-06 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoScopalArguments.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -10,7 +10,10 @@
         {"Page": "devhowtoMRSToPython", "SrcDir": "main", "SrcFile": "devhowtoMRSToPython.md", "BaseReferrer": "howto/devhowto/devhowtoImplementPredication.md", "Referrer": "howto/devhowto/devhowtoImplementPredication.md", "FileMissing": true},
         {"Page": "devhowtoPythonDecorators", "SrcDir": "main", "SrcFile": "devhowtoPythonDecorators.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true},
         {"Page": "devhowtoConjunctions", "SrcDir": "main", "SrcFile": "devhowtoConjunctions.md", "BaseReferrer": "howto/devhowto/devhowtoMRSToPython.md", "Referrer": "howto/devhowto/devhowtoMRSToPython.md", "FileMissing": true},
-        {"Page": "devhowtoScopalArguments", "SrcDir": "main", "SrcFile": "devhowtoScopalArguments.md", "BaseReferrer": "howto/devhowto/devhowtoConjunctions.md", "Referrer": "howto/devhowto/devhowtoConjunctions.md", "FileMissing": true}
+        {"Page": "devhowtoScopalArguments", "SrcDir": "main", "SrcFile": "devhowtoScopalArguments.md", "BaseReferrer": "howto/devhowto/devhowtoConjunctions.md", "Referrer": "howto/devhowto/devhowtoConjunctions.md", "FileMissing": true},
+        {"Page": "devhowtoEvents", "SrcDir": "main", "SrcFile": "devhowtoEvents.md", "BaseReferrer": "howto/devhowto/devhowtoSentenceForce.md", "Referrer": "howto/devhowto/devhowtoSentenceForce.md", "FileMissing": true},
+        {"Page": "devhowtoSentenceForce", "SrcDir": "main", "SrcFile": "devhowtoSentenceForce.md", "BaseReferrer": "howto/devhowto/devhowtoSimplePropositions.md", "Referrer": "howto/devhowto/devhowtoSimplePropositions.md", "FileMissing": true},
+        {"Page": "devhowtoSimpleQuestions", "SrcDir": "main", "SrcFile": "devhowtoSimpleQuestions.md", "BaseReferrer": "howto/devhowto/devhowtoSimplePropositions.md", "Referrer": "howto/devhowto/devhowtoSimplePropositions.md", "FileMissing": true}
       ]}
     ],
     "garage": [
