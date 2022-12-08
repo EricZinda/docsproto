@@ -59,6 +59,9 @@
         {"Page": "Conjuctions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoConjunctions.md"},
         {"Page": "Scopal Arguments", "SrcDir": "main", "SrcFile": "devhowto/devhowtoScopalArguments.md"},
         {"Page": "Event Variables", "SrcDir": "main", "SrcFile": "devhowto/devhowtoEvents.md"},
+        {"Page": "Sentence Force", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSentenceForce.md"},
+        {"Page": "Simple Propositions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimplePropositions.md"},
+        {"Page": "Simple Questions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimpleQuestions.md"},
         {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
