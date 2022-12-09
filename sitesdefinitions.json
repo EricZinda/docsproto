@@ -62,6 +62,7 @@
         {"Page": "Sentence Force", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSentenceForce.md"},
         {"Page": "Simple Propositions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimplePropositions.md"},
         {"Page": "Simple Questions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimpleQuestions.md"},
+        {"Page": "Simple Commands", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimpleCommands.md"},
         {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
