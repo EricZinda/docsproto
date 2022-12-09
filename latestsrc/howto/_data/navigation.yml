@@ -44,6 +44,8 @@ toc:
         url: "/devhowto/devhowtoSimplePropositions/"
       - title: "Simple Questions"
         url: "/devhowto/devhowtoSimpleQuestions/"
+      - title: "Simple Commands"
+        url: "/devhowto/devhowtoSimpleCommands/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"
   - title: "Grammarian Tutorial"
