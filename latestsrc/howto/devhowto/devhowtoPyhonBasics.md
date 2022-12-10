@@ -62,7 +62,7 @@ The implementation of the `State` object can be very simple for now:
 
 ```
 # "class" declares an object-oriented class in Python
-# The parenthesis after the "State" class name surround 
+# The parenthesis after the "State" class name surround
 # the object the class derives from (object)
 class State(object):
 
@@ -72,49 +72,45 @@ class State(object):
 
     # "__init__" is a special method name that
     # indicates the constructor, which is called to create
-    # a new instance of the class. 
+    # a new instance of the class. Arguments beyond "self"
+    # get passed to the function when the instance is created
     def __init__(self, objects):
         # Class member variables are created by
         # simply assigning to them
         self.variables = dict()  # an empty dictionary
 
-        # The "objects" variable is passed as an argument of the
-        # "__init__" constructor by whoever creates an instance 
-        # of the class
-        self.objects = objects   
+        # "objects" are passed to us as an argument
+        # by whoever creates and instance of the class
+        self.objects = objects
+
+
+    # A standard "class method" is just a function definition,
+    # indented properly, with "self" as the first argument
 
     # This is how predications will access the current value
     # of MRS variables like "x1" and "e1"
     def GetVariable(self, variable_name):
-        # "get()" is one way to access a value in a dictionary.
-        # Its second argument, "None", gets returned if the
+        # "get()" is one way to access a value in the dictionary.
+        # The second argument, "None", is what to return if the
         # key doesn't exist.  "None" is a built in value in Python
         # like "null"
         return self.variables.get(variable_name, None)
 
     # This is how predications will set the value
-    # of an "x" variable. Why it has to return a *different*
-    # state object with that variable set is described below 
+    # of an "x" variable
     def SetX(self, variable_name, item):
-        # Start with a new "State" object with the same
-        # world state. Here's how:
-        # Create a new "State" instance by
-        # calling its class name like a method.
-        # Pass "self.objects" as its first argument
-        # so that State's "__init__" constructor will 
-        # use the same world state we have here.
-        new_state = State(self.objects)
+        # Make a *copy* of the entire object using the built-in Python
+        # class called "copy", we pass it "self" so it copies this 
+        # instance of the object
+        new_state = copy.deepcopy(self)
 
-        # Make a *copy* of all the variables and put them
-        # in the new instance using the built-in Python 
-        # class called "copy"
-        new_state.variables = copy.deepcopy(self.variables)
-
-        # Dictionaries hold key/value pairs.
+        # Now we have a new "State" object with the same
+        # world state that we can modify
+        # Dictionaries hold name/value pairs.
         # This is how you assign values to keys in dictionaries
         new_state.variables[variable_name] = item
 
-        # "return" returns to the caller the new state with 
+        # return returns to the caller the new state with
         # that one variable set to a new value
         return new_state
 
@@ -124,20 +120,32 @@ class State(object):
         for item in self.objects:
             yield item
 ```
-Note that the `SetX()` method does not actually "set" a value in the `State` object, it creates a new one and sets the value in that.  This ensures that variables set for a given `State` object are never changed (they are *immutable*). Immutability allows our solver to reuse the same state object multiple times when calling a predication in order to get fresh values bound to the variables. And this, in turn, is important to allow "backtracking" through possible solutions to the MRS.
+Note that the `SetX()` method does not actually "set" a value in the `State` object, it creates a copy of the current `State` object one and sets the value in *that*.  This ensures that variables set for a given `State` object are never changed (they are *immutable*). Immutability allows our solver to reuse the same state object multiple times when calling a predication in order to get fresh values bound to the variables. And this, in turn, is important to allow "backtracking" through possible solutions to the MRS. The fact that the *entire* state object (not just the variables) gets copied will be important when we get to verbs that change the world (e.g. deleting a file). 
 
-> Note: The *entire* State object is not immutable, just the assignment of values to variables.  We'll address this later, but it won't be a problem in the simple examples we're working with now.
+> Note: There are much more efficient ways to isolate the data than copying the entire world, but we're doing a copy to keep the code simple. For example, database engines like MySQL have transactions to isolate different parts of code from changes until they should be seen. We could improve our simple implementation by keeping a difference list and not copying the entire state for every copy, but for now we'll keep it simple.
 
 
-Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn't care). We'll create classes for each "type of thing" in our file system world:
+Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn't care). Because we will be copying the `State` object when changes are made, we will need some way to identify that, for example, the "foo" folder in one `State` object is the same "foo" folder in another `State` object. To do this, we'll give each object in our state a unique ID by creating a base class called `UniqueObject`. It will create a member variable called `unique_id` with a UUID (a globally unique number) in it. Then, we'll derive all of the objects in the system from it. That way, objects will have a unique ID that follows them even if they are copied. 
 
+Here's how we'll create classes for each "type of thing" in our file system world:
 ```
-class Folder(object):
-    def __init__(self, name):
-        self.name = name
+class UniqueObject(object):
+    def __init__(self):
+        self.unique_id = uuid.uuid4()
 
-class File(object):
+
+# Derive from UniqueObject and call
+# its __init__ method from this __init__
+# method so we get the unique ID created
+class Folder(UniqueObject):
+    def __init__(self, name):
+        super().__init__()
+        self.name = name
+        
+
+class File(UniqueObject):
     def __init__(self, name, size=None):
+        super().__init__()
         self.name = name
         self.size = size
 ```
@@ -154,5 +162,4 @@ state = State([Folder(name="Desktop"),
 Note that an instance of the `State` object is created by calling it like a function. This really calls the `__init__` function of `State`, and passes the supplied argument (a list) to `__init__`. Each object in the list is created just like `State` was: by calling it as a function. Note that arguments can be named like `name="Documents"` to clarify what is going on.
 
 Now you've seen some of the basic Python you'll see throughout the tutorial and we've defined the core `State` class we'll use in our predications.  Next, we'll [implement a predication](../devhowtoImplementPredication).
-
-Last update: 2022-12-06 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPyhonBasics.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -79,5 +79,4 @@ documentation](http://heartofgold.dfki.de/doc/heartofgolddoc.pdf))
 - \[incr tsdb()\]: [StephanOepen](../StephanOepen) (see [On-Line
 Documentation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop))
 - LexDB: [BenWaldron](../BenWaldron)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforSmallGroups/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
