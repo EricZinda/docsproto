@@ -1,7 +1,7 @@
 {% raw %}## Simple Commands
 It is finally time to implement a "command" so that users can actually *do* something with the system we are building. We're going to implement the "delete" command.
 
-We'll start with the MRS for "delete a large file", which has a couple of predications beyond "delete" we'll need to deal with:
+We'll start with the MRS for "delete a large file", which has a few new predications we'll need to deal with:
 ```
 [ TOP: h0
 INDEX: e2
@@ -23,16 +23,18 @@ pronoun_q(x3,RSTR,BODY)            │
                     └─ _a_q(x8,RSTR,BODY)
                                         └─ _delete_v_1(e2,x3,x8)
 ```
-The sentence force for this sentence is `SF: comm` meaning "command", determined the same way we [described in the previous section](../devhowtoSentenceForce).
+The sentence force for this sentence is `SF: comm` meaning "command", determined the same way we [described in an earlier section](../devhowtoSentenceForce).
 
 ### Pronouns: pron and pronoun_q
 The first two new predicates we encounter are: `pron(x3)` and `pronoun_q(x3,RSTR,BODY)` and they usually work together as they do here. 
 
-`pron(x)` needs to fill `x` with an object that represents what that pronoun *is*. It does this by looking at the properties for the `x` variable to determine if the pronoun is "you" (`PERS: 2`), "him/her"(`PERS: 3`), etc. and sets the variable to be whatever person "you" (or whatever) are referring to. Note, though, that there were not any pronouns in our command "delete the large file". In this case, the pronoun is an *implied* "you" since it is a command. I.e "(You) delete the large file".  Because we are not including the notion of other people in the file system, the only pronouns we probably care to understand are "you" ("can you delete the file?" or the implied case above) and maybe "I" ("I want to delete a file"). For now, let's just do "you" and fail otherwise. 
+`pron(x)` needs to fill `x` with an object that represents what the specified pronoun is *referring to*. It does this by looking at the properties for the `x` variable to determine if the pronoun is "you" (`PERS: 2`), "him/her"(`PERS: 3`), etc. and sets the variable to be whatever person "you" (or whatever) are referring to. 
 
-`pronoun_q` is just a simple, default predication that doesn't *do* anything except introduce the variable that `pron` uses.
+There were not any pronouns in our command "delete a large file", so where did it come from? In this case, the pronoun is an *implied* "you" since it is a command. I.e "(You) delete a large file".  Because we are not including the notion of other people in the file system, the only pronouns we probably care to understand are "you" ("can you delete the file?" or the implied case above) and maybe "I" ("I want to delete a file"). For now, let's just do "you" and fail otherwise. 
 
-First, we'll need to create a new object to represent "actors" in the system, and then create one that is the computer by adding it to the `State`. We'll say that the computer is who should be returned when the user says "You" (second person) by setting the `Actor` object's `person` property to `2`. `Example7()` shows what the `State` object will look like, along with what the MRS above will look like when converted to our MRS format:
+`pronoun_q` is just a simple, default quantifier predication that doesn't *do* anything except introduce the variable that `pron` uses. It acts just like `which_q` did in the [Simple Questions section](../devhowtoSimpleQuestions).
+
+To implement these, we'll need to create a new class to represent "actors" in the system, and then create an instance of it that represents the computer by adding it to the `State`. We'll say that "the computer" is who should be returned when the user says "You" (second person) by setting the `Actor` object's `person` property to `2`. `Example7()` shows what the `State` object will look like, along with what the MRS above will look like when converted to our MRS format:
 
 ```
 # Represents something that can "do" things, like a computer
@@ -62,10 +64,9 @@ def Example7():
     
     RespondToMRS(state, mrs)
 ```
+Now the system knows about files, folders and actors. Or, rather, it now has actors in the world state. We need to teach it how to recognize actors by implementing the two new predications concerning pronouns: `pron` and `pronoun_q`:
 
-Next, we need to implement the two new predications concerning pronouns: `pron` and `pronoun_q`:
-
-- `pron` will look for an `Actor` object in the system with the same `person` value as the `pron` variable.
+- `pron` will look for an `Actor` object in the system with the same `person` value as the `pron` predication's `x` variable.
 - `pronoun_q` will use the `default_quantifer` we [defined previously](../devhowtoSimpleQuestions).
 
 ```
@@ -86,13 +87,15 @@ def pronoun_q(state, x, h_rstr, h_body):
 ```
 
 ### Verbs and State Changes: delete_v_1
-The last new predication is `_delete_v_1`. `_delete_v_1` is the first "real" verb we've dealt with. The others so far have been "implied" "to be" verbs for a phrase like "a file is large", and they don't show up in the MRS as [described previously](../devhowtoSentenceForce). A verb looks like every other predication: it has a name and arguments. And, because verbs can be modified by words like adverbs (e.g. "*permanently* delete the file"), it introduces an event to hang modifiers on. Like many verbs, the second argument represents the "actor": the person or thing doing the deleting and the final argument is what to delete.
+The last new predication is `_delete_v_1`. `_delete_v_1` is the first "real" verb we've dealt with. The others so far have been "implied" "to be" verbs for a phrase like "a file is large", and they don't show up in the MRS as [described previously](../devhowtoSentenceForce). A verb looks like every other predication: it has a name and arguments. And, because verbs can be modified by words like adverbs (e.g. "*permanently* delete the file"), it introduces an event to hang modifiers on. Like many verbs, the second argument represents the "actor": the person or thing doing the deleting. The final argument is what to delete.
 
-Because our world state is simply a Python list of files (that are just Python objects), the logic for deleting something is going to be trivial: remove the thing from the list. In fact, implementing what we are doing here in a real file system interface would be trivial as well: delete the file. However, we would have to decide what to do if a user command like "delete every file" fails to delete one of them for some reason. We'll ignore that for our example and just remove the files from the `State` object's list of state. We can safely do this, even though other predications may still be iterating over them, because our `State` object is immutable ([as described previously](../devhowtoPyhonBasics)) and we will keep it that way by returning a new `State` object when something is deleted, just like we already do for setting variables.
+Because our world state is simply a Python list of Python objects, the logic for deleting something is going to be trivial: remove the thing from the list. In fact, implementing what we are doing here in a real file system interface would be trivial as well: delete the file. However, we would have to decide what to do if a user command like "delete *every* file" fails to delete one of them for some reason. We'll ignore that in our example and just remove the files from the `State` object's list of state. We can safely do this, even though other predications may still be iterating over them, because our `State` object is immutable ([as described previously](../devhowtoPyhonBasics)) and we will keep it that way by returning a new `State` object when something is deleted, just like we already do for setting variables.
 
-We do have a problem, though. As you'll see later, we will encounter phrases like "delete *every* file", which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only one of the files deleted.  In order to end up with a single world state that has all the files deleted, we'll have to merge them together at the end somehow. Our approach will be to create the concept of an "operation" class which does "something" to the state. There will be different operation classes that do different things (rename, copy, etc). Then, we can collect all of the operations that are applied to the set of solutions and apply *all of them* to a *single* state object at the end. In fact, this is a good way to implement our system in general: build up a set of operations based on what the user says and when we have the final solved MRS, actually apply them to the file system. We won't be taking that final step here, but we could.
+We do have a problem, though. As you'll see later, we will encounter phrases like "delete *every* file", which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only one of the files deleted.  In order to end up with a single world state that has all the files deleted, we'll have to merge them together at the end somehow. 
 
-We'll start by building some new mechanics into the `State` object to handle operations and create the `DeleteOperation` object:
+The solution is to create the concept of an "operation" class which does "something" to the state. We will build different operation classes that do different things over time (rename, copy, etc). If a command succeeds with multiple solutions, we can collect all of the operations from the solutions apply *all of them* to a *single* state object at the end. In fact, this is a good way to implement our system in general: build up a set of operations based on what the user says and, when we have the final solved MRS, actually apply them to the file system. We won't be taking that final step here, but we could.
+
+We'll start by building some new mechanics into the `State` object to handle operations and create the `DeleteOperation` class:
 
 ```
 class State(object):
@@ -138,21 +141,23 @@ An "operation" in our system is simply an object that has an `ApplyTo()` method 
 > This is a case where our "immutable" `State` class is actually being changed. That's OK, though, because only the `State` class will be asking it to do this, and only on a fresh `State` object that isn't in use yet.
 
 
-When an operation is applied to the `State` class, we'll remember what happened by adding the operation to the new `State` object's list of operations that have happened so far.  Then, once we've collected all the solutions to a problem like "delete every file", we can "apply" the operations from each of the solutions to the original state to get a new state object that combines them all. You'll see this at the end of this section.
+When an operation is applied to the `State` class, we'll remember what happened by adding the operation to the new `State` object's list of operations.  Then, once we've collected all the solutions to a problem like "delete every file", we can gather the operations from each of the solutions using the `GetOperations()` method, and apply them to the original state. This will give us a new state object that combines them all. You'll see this at the end of this section.
 
 So now we can finally implement the verb `delete_v_1`:
 ```
 @Predication(vocabulary, name="_delete_v_1")
 def delete_v_1(state, e_introduced, x_actor, x_what):
-    # We only know how to delete files from the
+    # We only know how to delete things from the
     # computer's perspective
     if state.GetVariable(x_actor).name == "Computer":
         x_what_value = state.GetVariable(x_what)
         yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
-`delete_v_1` first checks to make sure the actor is "Computer". That's because the user could have said "Bill deletes a file" and we'd prefer the system to say "I don't know who Bill is" than to just delete the file. We should only the delete the file when *we* are told to delete it. Then we use our new `ApplyOperations()` method to do the deleting, and return the new state object with the file or folder gone.
+`delete_v_1` first checks to make sure the actor is "Computer". That's because the user could have said "Bill deletes a file" and we'd prefer the system to say "I don't know who Bill is" than to just delete the file. We should only the delete the file when *we* are told to delete it. 
 
-Finally, we need to add a new clause to `RespondToMRS()` to handle commands. It will simply say "Done!" if the command worked. It will also collect up all of the operations that happened and apply them to a single state object. This isn't really necessary for this example since we are only deleting one file, but is necessary for phrases like "delete every file":
+Then, we use our new `ApplyOperations()` method to do the deleting, and return the new state object with the object gone.
+
+Finally, we need to add a new clause to `RespondToMRS()` to handle *commands*. It will simply say "Done!" if the command worked. It will also collect up all of the operations that happened and apply them to a single state object. This isn't really necessary for this example since we are only deleting one file, but is necessary for phrases like "delete every file":
 
 ```
 def RespondToMRS(state, mrs):
@@ -160,7 +165,7 @@ def RespondToMRS(state, mrs):
     ...
     
     elif sentence_force == "comm":
-        # This was a command so if it works, just say so
+        # This was a command so, if it works, just say so
         # We'll get better errors and messages in upcoming sections
         if len(solutions) > 0:
             # Collect all of the operations that were done
@@ -197,16 +202,4 @@ Done!
 [Actor(name=Computer, person=2), Folder(name=Desktop), Folder(name=Documents), File(name=file2.txt, size=1000000)]
 ```
 You can see by the output that a single, arbitrary file was deleted.
-
-To keep things simple and avoid catastrophes if there are bugs in the code, "deleting"
-"delete the file" is straightforward except for pron
-"delete every file": what to do if one of the files cannot be deleted?
-Best: do it transacted?
-Next: do it until we fail?
-"delete the folder": maybe needs a planner to delete files first and then folder?
-"describe the file" ditto except for how to print?
-
-We will simply print out when something happens instead of doing it to avoid bugs ruining things.
-
-Not sure if this is really necessary: Need to motivate why to implement special index variants of verbs
 <update date omitted for speed>{% endraw %}
