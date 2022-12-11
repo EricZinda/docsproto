@@ -202,7 +202,9 @@ Done!
 ~~~
 You can see by the output that a single, arbitrary file was deleted.
 
-There are a couple of interesting things to point out about what we've done. The code for `delete_v_1` will delete *anything*, so the phrase "delete you" will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied "you". Here's the MRS to prove that we've implemented it all
+There are a couple of interesting things to point out about what we've done. The code for `delete_v_1` will delete *anything*, so the phrase "delete you" will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied "you". This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn't thought of.
+
+Here's the MRS to prove it:
 
 ~~~
 Type: command
@@ -246,4 +248,19 @@ def Example8():
 # Outputs:
 Done!
 [Folder(name=Desktop), Folder(name=Documents), File(name=file1.txt, size=2000000), File(name=file2.txt, size=1000000)]
+~~~
+
+The fix can be a simple "allow list" of types that are allowed to be deleted, like this:
+
+~~~
+@Predication(vocabulary, name="_delete_v_1")
+def delete_v_1(state, e_introduced, x_actor, x_what):
+    # We only know how to delete things from the
+    # computer's perspective
+    if state.GetVariable(x_actor).name == "Computer":
+        x_what_value = state.GetVariable(x_what)
+        
+        # Only allow deleting files and folders
+        if isinstance(x_what_value, (File, Folder)):
+            yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ~~~
