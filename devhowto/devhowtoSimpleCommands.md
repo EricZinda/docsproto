@@ -204,7 +204,7 @@ You can see by the output that a single, arbitrary file was deleted.
 
 There are a couple of interesting things to point out about what we've done. The code for `delete_v_1` will delete *anything*, so the phrase "delete you" will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied "you". This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn't thought of.
 
-Here's the MRS to prove it:
+Here's the MRS to prove that "delete you" only has predications that we've implemented:
 
 ~~~
 Type: command
