@@ -32,4 +32,5 @@ Calling `_file_n_of(File(name="file1.txt"))` once will return `x=File(name="file
 
 This is the contract we need to build for each predication we want the system to understand. 
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-06 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPredicationContract.md)]{% endraw %}

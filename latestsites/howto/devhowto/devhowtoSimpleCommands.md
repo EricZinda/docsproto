@@ -202,4 +202,68 @@ Done!
 [Actor(name=Computer, person=2), Folder(name=Desktop), Folder(name=Documents), File(name=file2.txt, size=1000000)]
 ```
 You can see by the output that a single, arbitrary file was deleted.
-<update date omitted for speed>{% endraw %}
+
+There are a couple of interesting things to point out about what we've done. The code for `delete_v_1` will delete *anything*, so the phrase "delete you" will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied "you". This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn't thought of.
+
+Here's the MRS to prove that "delete you" only has predications that we've implemented:
+
+```
+Type: command
+Missing predicates: '[{'FoundSynonym': False, 'Word': 'delete', 'SynonymData': []}]' 
+[ TOP: h0
+INDEX: e2
+RELS: < [ pronoun_q LBL: h10 ARG0: x8 [ x PERS: 2 IND: + PT: std ] RSTR: h11 BODY: h12 ]
+[ pron LBL: h9 ARG0: x8 [ x PERS: 2 IND: + PT: std ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _delete_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x8 ]
+>
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h9 > ]
+
+
+               ┌────── pron(x8)
+pronoun_q(x8,RSTR,BODY)               ┌────── pron(x3)
+                    └─ pronoun_q(x3,RSTR,BODY)
+                                           └─ _delete_v_1(e2,x3,x8)
+```
+
+Here's the MRS translated into a sample and showing the person getting deleted:
+
+```
+def Example8():
+    state = State([Actor(name="Computer", person=2),
+                   Folder(name="Desktop"),
+                   Folder(name="Documents"),
+                   File(name="file1.txt", size=2000000),
+                   File(name="file2.txt", size=1000000)])
+
+    mrs = {}
+    mrs["Index"] = "e2"
+    mrs["Variables"] = {"x3": {"PERS": 2},
+                        "x8": {"PERS": 2},
+                        "e2": {"SF": "comm"}}
+    mrs["RELS"] = [["pronoun_q", "x3", ["pron", "x3"], ["pronoun_q", "x8", ["pron", "x8"], ["_delete_v_1", "e2", "x3", "x8"]]]]
+
+    RespondToMRS(state, mrs)
+
+# Outputs:
+Done!
+[Folder(name=Desktop), Folder(name=Documents), File(name=file1.txt, size=2000000), File(name=file2.txt, size=1000000)]
+```
+
+The fix can be a simple "allow list" of types that are allowed to be deleted, like this:
+
+```
+@Predication(vocabulary, name="_delete_v_1")
+def delete_v_1(state, e_introduced, x_actor, x_what):
+    # We only know how to delete things from the
+    # computer's perspective
+    if state.GetVariable(x_actor).name == "Computer":
+        x_what_value = state.GetVariable(x_what)
+        
+        # Only allow deleting files and folders
+        if isinstance(x_what_value, (File, Folder)):
+            yield state.ApplyOperations([DeleteOperation(x_what_value)])
+```
+
+Last update: 2022-12-10 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md)]{% endraw %}
