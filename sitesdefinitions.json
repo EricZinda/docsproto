@@ -66,7 +66,8 @@
         {"Page": "Choosing the Right Failure", "SrcDir": "main", "SrcFile": "devhowto/devhowtoChoosingWhichFailure.md"},
         {"Page": "Reporting a Failure", "SrcDir": "main", "SrcFile": "devhowto/devhowtoReportingAFailure.md"},
         {"Page": "Converting Variables to English", "SrcDir": "main", "SrcFile": "devhowto/devhowtoConceptualFailures.md"},
-        {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"}
+        {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"},
+        {"Page": "B. Parsing Predications", "SrcDir": "main", "SrcFile": "devhowto/devhowtoParsePredications.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
