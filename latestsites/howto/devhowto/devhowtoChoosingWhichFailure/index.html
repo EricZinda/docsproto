@@ -225,9 +225,9 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/" class="active">Choosing the Right Failure</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/" class="active">Reporting the Right Failure</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Reporting a Failure</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Reporting a Failure Naively</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
           
@@ -303,10 +303,16 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h3 id="choosing-the-right-failure">Choosing the Right Failure</h3>
-<p>Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built, if the user says, “There is a large file” they will get the response: “No, that isn’t correct”.  If the user says “I delete a file” or “Bill deletes a file” they will get the response: “Couldn’t do that”.  We can do better, but we’ll need to work through a few challenges first.</p>
+        <h3 id="reporting-the-right-failure">Reporting the Right Failure</h3>
+<p>Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built:</p>
+<ul>
+  <li>If the user says, “There is a large file” they will get the response: “No, that isn’t correct”</li>
+  <li>If the user says “I delete a file” or “Bill deletes a file” they will get the response: “Couldn’t do that”</li>
+</ul>
 
-<p>The first challenge is to figure out <em>which</em> of the failures encountered to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world “through” the MRS until we find the ones that make it true. For “A file is large”, the MRS and resolved tree are:</p>
+<p>We can do better, but we’ll need to work through a few challenges first.</p>
+
+<p>The first challenge is to figure out <em>which</em> of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world “through” the MRS until we find the ones that make it true. For “A file is large”, the MRS and a resolved tree are:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
@@ -368,7 +374,7 @@ a dog
 
 <p>Even though the system hit two failures in solving the MRS, the user that said “a file is large” for this world wouldn’t expect <em>any</em> failures to be reported. They would expect something like “correct!” to be said.</p>
 
-<p>Another example, what if the user said, “A file is <em>very</em> large”? In solving the MRS with the same world you’d get (in this order):</p>
+<p>Another example: what if the user said, “A file is <em>very</em> large”? In solving the MRS with the same world you’d get (in this order):</p>
 <ul>
   <li>a <code class="language-plaintext highlighter-rouge">_file_n_of</code> failure</li>
   <li>a <code class="language-plaintext highlighter-rouge">large_a_1</code> failure (since none are “<em>very</em> large”)</li>
@@ -384,16 +390,16 @@ a dog
 
 <p>If there was a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn’t what they meant (though likely it is), so no failure should be reported.</p>
 
-<p>If there wasn’t a solution, the user will want to know why not. The “real” reason why not is “because the MRS did not have a solution”, but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won’t describe the 10 ways they tried that quickly didn’t work out. They’ll list the failure that is “the closest they got to succeeding”.  For example:</p>
+<p>If there wasn’t a solution, the user will want to know why not. The “real” reason is “because the MRS did not have a solution”, but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won’t describe the 10 ways they tried that quickly didn’t work out. They’ll list the failure that is “the closest they got to succeeding”.  For example:</p>
 
 <blockquote>
-  <p>(In a world where there 10 things on the counter, including milk, and Bob is holding things he can’t put down)
+  <p>(In a world where there are ß10 things on the counter, including milk, and Bob is holding things he can’t put down)
 Alice: “Could you give me the milk?”
 Bob: (good answer) “My hands are full”
 Bob: (bad answer) “I thought about handing you ketchup, but then realized it wasn’t milk”</p>
 </blockquote>
 
-<p>The second one is bad for many reasons, but here we’ll focus on the fact that Alice probably wanted the one “closest to the solution” one as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 10 different “failures” until one succeeded). Then, he tried to “give it to Alice” which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually “make the most sense” to report.</p>
+<p>The second one is bad for many reasons, but here we’ll focus on the fact that Alice probably wanted the one “closest to the solution” as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 9 different “failures” until one succeeded). Then, he tried to “give it to Alice” which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually “make the most sense” to report.</p>
 
 <p>Here’s a more explicit algorithm:</p>
 <ul>
@@ -448,7 +454,7 @@ def DelphinContext():
 
 # Helper used by predications just to make the code easier to read
 def Call(*args, **kwargs):
-    yield from DelphinContext().Call(*args, **kwargs)~~~
+    yield from DelphinContext().Call(*args, **kwargs)
 </code></pre></div></div>
 
 <p>At this point, we’ve just restructured things into an <code class="language-plaintext highlighter-rouge">ExecutionContext</code> class and started giving an “index” to every predication, but not using it. Next, we can create a <code class="language-plaintext highlighter-rouge">ReportError()</code> method that will do the work of recording the “deepest” error, along with a helper function to make it easy to call.</p>
