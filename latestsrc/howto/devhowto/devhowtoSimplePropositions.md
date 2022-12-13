@@ -100,4 +100,5 @@ Yes, that is true.
 ```
 
 In the [next section](../devhowtoSimpleQuestions), we'll respond to questions.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimplePropositions.md)]{% endraw %}
