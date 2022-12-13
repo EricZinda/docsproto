@@ -227,9 +227,11 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/" class="active">Reporting the Right Failure</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Reporting a Failure Naively</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Naive Failures</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">More Robust Failures</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
@@ -392,12 +394,14 @@ a dog
 
 <p>If there wasn’t a solution, the user will want to know why not. The “real” reason is “because the MRS did not have a solution”, but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won’t describe the 10 ways they tried that quickly didn’t work out. They’ll list the failure that is “the closest they got to succeeding”.  For example:</p>
 
-<blockquote>
-  <p>(In a world where there are ß10 things on the counter, including milk, and Bob is holding things he can’t put down)
-Alice: “Could you give me the milk?”
-Bob: (good answer) “My hands are full”
-Bob: (bad answer) “I thought about handing you ketchup, but then realized it wasn’t milk”</p>
-</blockquote>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(In a world where there are 10 things on the counter, 
+including milk, and Bob is holding things he can't put down)
+
+Alice: "Could you give me the milk?"
+Bob: (good answer) "My hands are full"
+Bob: (bad answer) "I thought about handing you ketchup, 
+                    but then realized it wasn't milk"
+</code></pre></div></div>
 
 <p>The second one is bad for many reasons, but here we’ll focus on the fact that Alice probably wanted the one “closest to the solution” as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 9 different “failures” until one succeeded). Then, he tried to “give it to Alice” which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually “make the most sense” to report.</p>
 
