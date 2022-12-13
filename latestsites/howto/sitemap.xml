@@ -34,7 +34,13 @@
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoErrorScenarios/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoFinishingErrors/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication/</loc>
@@ -59,6 +65,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoRobustFailure/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments/</loc>
