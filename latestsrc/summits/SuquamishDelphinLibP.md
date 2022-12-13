@@ -91,5 +91,4 @@ Rebecca: See [ToolsTop](https://blog.inductorsoftware.com/docsproto/tools/ToolsT
 Rebecca: I put up C++ training code. And EDM code (on any MRS simple
 string). Emily: Sign up to be informed when the [ToolsTop](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop)
 page changes.
-
-Last update: 2011-06-28 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/SuquamishDelphinLibP/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

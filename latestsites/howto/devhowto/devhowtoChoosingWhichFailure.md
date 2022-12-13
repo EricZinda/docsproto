@@ -1,7 +1,7 @@
 {% raw %}### Choosing the Right Failure
-Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built, if the user says, "There is a large file" they will get the response: "No, that isn't correct".  If the user says "I delete a file" or "Bill deletes a file" they will get the response: "Couldn't do that".  We can do better.
+Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built, if the user says, "There is a large file" they will get the response: "No, that isn't correct".  If the user says "I delete a file" or "Bill deletes a file" they will get the response: "Couldn't do that".  We can do better, but we'll need to work through a few challenges first.
 
-Recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. For "A file is large", the MRS and resolved tree are:
+The first challenge is to figure out *which* of the failures encountered to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. For "A file is large", the MRS and resolved tree are:
 
 ```
 [ TOP: h0
@@ -20,8 +20,8 @@ _a_q(x3,RSTR,BODY)
 
 Our conceptual approach to solving it is:
 1. `_a_q` iteratively sets `x3` to each object in the world and calls `_file_n_of` with that value
-2. If `_file_n_of` succeeds, it then calls `_large_a_1` with the values it sets
-3. If `large_a_1` succeeds, then `a_q` succeeds. 
+2. If `_file_n_of` succeeds, `_a_q` then calls `_large_a_1` with the values returned
+3. If `large_a_1` succeeds, then `a_q` succeeds and stops iterating. 
 
 (In reality, we optimize step #1 to have `_a_q` call `file_n_of` with free variables instead of iterating through every object. This allows `file_n_of` to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)
 
@@ -40,32 +40,44 @@ a dog
 
 `a small file`:
 1. `_a_q` sets `x3` to `a small file` and calls `_file_n_of` with that value
-2. `_file_n_of` succeeds and it thus calls `_large_a_1` with the same value
+2. `_file_n_of` succeeds, `_a_q` then calls `_large_a_1` with the values returned
 3. `large_a_1` fails. 
 
 `a large file`:
 1. `_a_q` sets `x3` to `a large file` and calls `_file_n_of` with that value
-2. `_file_n_of` succeeds, and it thus calls `_large_a_1` with the same value
+2. `_file_n_of` succeeds, `_a_q` then calls `_large_a_1` with the values returned
 3. `large_a_1` succeeds, therefore `a_q` succeeds and stops iterating. 
 
 So, when solving the MRS with this world definition, we hit (in this order):
 - a `_file_n_of` failure
 - a `large_a_1` failure
-- and then found a solution (no failure here)
+- a solution (i.e. no failure)
 
-Even though the system hit a few failures in solving the MRS, the user that said "a file is large" for this world wouldn't expect *any* failures to be reported. They would expect something like "correct!" to be said.
+Even though the system hit two failures in solving the MRS, the user that said "a file is large" for this world wouldn't expect *any* failures to be reported. They would expect something like "correct!" to be said.
 
-What if they said "A file is *very* large"? In solving the MRS with the same world you'd get (in this order):  
+Another example, what if the user said, "A file is *very* large"? In solving the MRS with the same world you'd get (in this order):  
 - a `_file_n_of` failure
 - a `large_a_1` failure (since none are "*very* large")
 - a `large_a_1` failure (since none are "*very* large")
 - a `_file_n_of` failure
 
-There were 4 failures encountered when solving the MRS for this case. The user would ideally like the error to be "No, there isn't a very large file" Which presumably corresponds to the middle two. What heuristic helps us choose those?
+There were 4 failures encountered when solving the MRS for this case. The user would ideally like the error to be, "No, there isn't a very large file", which presumably corresponds to the middle two. Which heuristic helps us choose those?
 
-One heuristic that works well in practice is this: If there is a solution for an MRS, don't report any errors. If there is no solution for an MRS, report the error from the "deepest" failure that happened. Where "deepest" means the predication farthest in the tree that we got to.
+One heuristic that works well in practice is this: If there is a solution for an MRS, don't report any errors. If there is no solution for an MRS, report the error from the "deepest/farthest" failure possible.
 
-The intuition for why this works is: The failures that got the farthest in the tree were closest to a solution and thus will make the most sense. Errors that happened, for example, when sending `a dog` through the MRS probably won't make as much sense.
+The intuition for why this works is this:
+
+If there was a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
+
+If there wasn't a solution, the user will want to know why not. The "real" reason why not is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that quickly didn't work out. They'll list the failure that is "the closest they got to succeeding".  For example:
+
+> (In a world where there 10 things on the counter, including milk, and Bob is holding things he can't put down)
+Alice: "Could you give me the milk?"
+Bob: (good answer) "My hands are full"
+Bob: (bad answer) "I thought about handing you ketchup, but then realized it wasn't milk"
+
+
+The second one is bad for many reasons, but here we'll focus on the fact that Alice probably wanted the one "closest to the solution" one as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 10 different "failures" until one succeeded). Then, he tried to "give it to Alice" which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually "make the most sense" to report.
 
 Here's a more explicit algorithm:
 - Track the "depth" of each predication in the tree, where "depth" means "call order"
@@ -250,5 +262,4 @@ def ReportError(error):
 ```
 
 With all that in place, we will now remember which is the right error to report. The [next section](../devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
-
-Last update: 2022-12-12 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoChoosingWhichFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
