@@ -25,6 +25,12 @@
 <loc>http://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions/</loc>
 </url>
 <url>
@@ -47,6 +53,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonDecorators/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments/</loc>

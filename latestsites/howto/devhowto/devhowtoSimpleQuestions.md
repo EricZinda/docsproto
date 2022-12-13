@@ -171,9 +171,13 @@ def RespondToMRS(state, mrs):
             # This was a "WH" question
             # return the values of the variable asked about
             # from the solution
-            wh_variable = wh_predication[1]
-            for solution in solutions:
-                print(solution.GetVariable(wh_variable))
+            # The phrase was "true" if there was at least one answer
+            if len(solutions) > 0:
+                wh_variable = wh_predication[1]
+                for solution in solutions:
+                    print(solution.GetVariable(wh_variable))
+            else:
+                print("I don't know")
 
 
 # Evaluate the proposition: "which file is large?"
@@ -195,5 +199,4 @@ def Example6():
 File(name=file1.txt, size=2000000)
 ```
 Note that we have a subtle bug in our implementation of `default_quantifier`: we are not yet paying attention to `NUM: sg`.  If there were two large files, they would both get returned in this implementation. Really, they should return a failure since the premise of "which file" is wrong, since there are multiple of them. We'll address that once we get to the section on how to handle plurals.
-
-Last update: 2022-12-08 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleQuestions.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

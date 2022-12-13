@@ -91,5 +91,4 @@ def Example2():
 ```
 
 The `Example2()` function shows how we can use all of this to call a predication using our new text-based format. With this in place, we can tackle more complicated groups of predications such as conjunctions in the [next section](../devhowtoConjunctions).
-
-Last update: 2022-12-06 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoMRSToPython.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
