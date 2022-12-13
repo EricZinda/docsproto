@@ -76,7 +76,7 @@ If there was a solution: it means that there was a way to make the phrase work l
 
 If there wasn't a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that quickly didn't work out. They'll list the failure that is "the closest they got to succeeding".  For example:
 
-    (In a world where there are ß10 things on the counter, 
+    (In a world where there are 10 things on the counter, 
     including milk, and Bob is holding things he can't put down)
     
     Alice: "Could you give me the milk?"
