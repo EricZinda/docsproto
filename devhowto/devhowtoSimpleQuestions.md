@@ -171,9 +171,13 @@ def RespondToMRS(state, mrs):
             # This was a "WH" question
             # return the values of the variable asked about
             # from the solution
-            wh_variable = wh_predication[1]
-            for solution in solutions:
-                print(solution.GetVariable(wh_variable))
+            # The phrase was "true" if there was at least one answer
+            if len(solutions) > 0:
+                wh_variable = wh_predication[1]
+                for solution in solutions:
+                    print(solution.GetVariable(wh_variable))
+            else:
+                print("I don't know")
 
 
 # Evaluate the proposition: "which file is large?"
