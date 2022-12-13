@@ -54,6 +54,8 @@ toc:
         url: "/devhowto/devhowtoConceptualFailures/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"
+      - title: "B. Parsing Predications"
+        url: "/devhowto/devhowtoParsePredication/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
