@@ -250,4 +250,5 @@ def ReportError(error):
 ```
 
 With all that in place, we will now remember which is the right error to report. The [next section](../devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-12 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoChoosingWhichFailure.md)]{% endraw %}

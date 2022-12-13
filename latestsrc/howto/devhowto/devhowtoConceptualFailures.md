@@ -197,7 +197,14 @@ def Example11():
 No, that isn't correct: a file doesn't exist
 ```
 
-The code for parsing the predication (which we will use often) is below:
+These can be refined further:
+- The first example should be more like "no files are large" or "there aren't any large files"
+- The last example should probably be "no files exist" or "there aren't any files"
+
+At this point, though, you have the tools needed to fix those up as much as necessary. The tutorial won't improve them until we get to a much later section.
+
+> Note: The code for parsing the predication (which we will use often) is below:
+
 
 ```
 
@@ -245,4 +252,5 @@ def ParsePredicationName(name):
 
     return result
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-12 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConceptualFailures.md)]{% endraw %}
