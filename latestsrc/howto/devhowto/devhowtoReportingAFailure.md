@@ -87,5 +87,4 @@ def large_a_1(state, e_introduced, x_target):
 Will respond to "A file is very large" with "There is not a large thing" which is...better. One improvement is to make the error include "very" when very is modifying it. 
 
 Even with "very" properly included, most users would view it as a logical, if somewhat opaque, answer.  The [next section](../devhowtoConceptualFailures) will improve it even more.
-
-Last update: 2022-12-12 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoReportingAFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
