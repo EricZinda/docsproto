@@ -43,10 +43,10 @@ We can figure out what the variable `x` has been filtered to "so far" by taking 
 
 So, if the error came from `_large_a_1`, we must have finished `_dog_n_1` but be in the middle of resolving `_a_q`.  At that point, the variable `x3` contains something that is `dog` (not even `*a* dog` yet).  In this way, we can write code which gives the English description of a variable *at a certain point in the tree's execution*. We can use that to build failure messages that have the proper "thing" for any phrase we encounter.
 
-First, let's create the function (`EnglishForDelphinVariable()`) which takes the `variable` we want English for, the MRS, and the place in the tree for which we want the English. It walks the tree in execution order using the function we've written [in a previous section](devhowtoSimpleQuestions) called `WalkTreeUntil()` and passes each predication to a function that determines if they are "filtering" the `variable` in question. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation"). At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
+First, let's create the function (`EnglishForDelphinVariable()`) which takes the `variable` we want English for, the MRS, and the place in the tree for which we want the English. It walks the tree in execution order using the function we've written [in a previous section](devhowtoSimpleQuestions) called `WalkTreeUntil()` and passes each predication to a function that determines if the predication is "filtering" the `variable` in question. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation"). At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
 
 ~~~
-# Given the index where an error happened and a variable
+# Given the index where an error happened and a variable,
 # return what that variable "is" up to that point, in English
 def EnglishForDelphinVariable(failure_index, variable, mrs):
     # Integers can't be passed by reference in Python, so we need to pass
@@ -105,7 +105,7 @@ Finally, we can take the information we gathered and convert it (in a very simpl
 
 ~~~
 # Takes the information gathered in the nlg_data dictionary
-# and convert it, in a very simplistic way, to English
+# and converts it, in a very simplistic way, to English
 def ConvertToEnglish(nlg_data):
     if "Quantifier" in nlg_data:
         quantifier = nlg_data["Quantifier"]
@@ -119,107 +119,24 @@ def ConvertToEnglish(nlg_data):
 
     return f"{quantifier} {topic}"
 ~~~
-Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. 
-
-One final piece of cleanup work remains. We will be returning a lot of the same errors from different predications, so, instead of littering the code with full sentences like "There is not a large thing", we'll use constants like `doesntExist` and allow them to take arguments like `x3`. Then, using the code above, we can build up the English for them in a shared routine that turns them into English and fills in that English with descriptions of the variables.  Like this:
-
-~~~            
-# error_term is of the form: [index, error] where "error" is another 
-# list like: ["name", arg1, arg2, ...]. The first item is the error 
-# constant (i.e. its name). What the args mean depends on the error
-def GenerateMessage(mrs, error_term):
-    error_predicate_index = error_term[0]
-    error_arguments = error_term[1]
-    error_constant = error_arguments[0]
-
-    if error_constant == "doesntExist":
-        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
-        return f"{arg1} doesn't exist"
-
-    elif error_constant == "adjectiveDoesntApply":
-        arg1 = error_arguments[1]
-        arg2 = EnglishForDelphinVariable(error_constant, error_arguments[2], mrs)
-        return f"{arg2} is not {arg1}"
-~~~
-Most of what `GenerateMessage()` does is plug the error arguments into a string template.  The interesting work happens when one of the arguments is a Delphin variable and it calls `EnglishForDelphinVariable()`.  This is where we solve the problem we started this section with: how to describe what is in that `x` variable, as described above. 
-
-Finally, we can change our predications to use `ReportError()` with the new error format, and change `RespondToMRS()` to respond with errors using all the ideas and code we've written in the [last](devhowtoChoosingWhichFailure) [couple](devhowtoReportingAFailure) sections:
+Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from "A file is large", we can test it out by calling it with different indices to see what it thinks "x1" is at that point:
 
 ~~~
-@Predication(vocabulary, name="_file_n_of")
-def file_n_of(state, x):
+def Example12():
+    mrs = {"RELS": [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]}
     
-    ...
-
-            ReportError(["doesntExist", x])
-            
-            
-@Predication(vocabulary, name="_large_a_1")
-def large_a_1(state, e_introduced, x_target):
-            
-    ...
+    # Set index to failure in _a_q
+    print(EnglishForDelphinVariable(1, "x1", mrs))
     
-        ReportError(["adjectiveDoesntApply", "large", x_target])
-        
+    # Set index to failure in _file_n_of
+    print(EnglishForDelphinVariable(2, "x1", mrs))
 
-def RespondToMRS(self, state, mrs):
-
-    ...
-    
-    if sentence_force == "prop":
-        if len(solutions) > 0:
-            print("Yes, that is true.")
-        else:
-            message = GenerateMessage(mrs, self.Error())
-            print(f"No, that isn't correct: {message}")
-~~~         
-So, the predications like `large_a_1` and `file_n_of` report their failures as described in the previous sections, but now use a constant and a list of arguments as the "shape" of their errors.  If an MRS can't be solved, `RespondToMRS()` calls the `GenerateMessage()` helper function  to turn the error into English and prints it for the user.
-
-With all that in place, we can now take some of our previous examples and make them fail to see what messages we get:
-
-~~~
-# Evaluate the proposition: "a file is large" when there are no *large* files
-def Example10():
-    state = State([Folder(name="Desktop"),
-                   Folder(name="Documents"),
-                   File(name="file1.txt", size=1000000),
-                   File(name="file2.txt", size=1000000)])
-
-    mrs = {}
-    mrs["Index"] = "e1"
-    mrs["Variables"] = {"x1": {"NUM": "pl"},
-                        "e1": {"SF": "prop"}}
-    mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
-
-    state = state.SetX("mrs", mrs)
-    DelphinContext().RespondToMRS(state, mrs)
-    
-# Prints:
-No, that isn't correct: a file is not large
-~~~
-
-~~~
-# Evaluate the proposition: "a file is large" when there are no files, period
-def Example11():
-    state = State([Folder(name="Desktop"),
-                   Folder(name="Documents")])
-
-    mrs = {}
-    mrs["Index"] = "e1"
-    mrs["Variables"] = {"x1": {"NUM": "pl"},
-                        "e1": {"SF": "prop"}}
-    mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
-
-    state = state.SetX("mrs", mrs)
-    DelphinContext().RespondToMRS(state, mrs)
+    # Set index to failure in _large_a_1
+    print(EnglishForDelphinVariable(3, "x1", mrs))
 
 # Prints:
-No, that isn't correct: a file doesn't exist
+a thing
+a thing
+a file
 ~~~
-
-These can be refined further:
-- The first example should be more like "no files are large" or "there aren't any large files"
-- The last example should probably be "no files exist" or "there aren't any files"
-
-At this point, though, you have the tools needed to fix those up as much as necessary. The tutorial won't improve them until we get to a much later section.
-
+You can see that, until predication #2 has succeeded (`_file_n_of`), `x1` is described as "a thing" since nothing has really filtered it yet. Once it gets to predication #3 it now holds "a file". We could easily beef up our code so that after `_large_a_1` it is described as "a large file" and we will, eventually.

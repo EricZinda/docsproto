@@ -63,8 +63,8 @@
         {"Page": "Simple Propositions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimplePropositions.md"},
         {"Page": "Simple Questions", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimpleQuestions.md"},
         {"Page": "Simple Commands", "SrcDir": "main", "SrcFile": "devhowto/devhowtoSimpleCommands.md"},
-        {"Page": "Choosing the Right Failure", "SrcDir": "main", "SrcFile": "devhowto/devhowtoChoosingWhichFailure.md"},
-        {"Page": "Reporting a Failure", "SrcDir": "main", "SrcFile": "devhowto/devhowtoReportingAFailure.md"},
+        {"Page": "Reporting the Right Failure", "SrcDir": "main", "SrcFile": "devhowto/devhowtoChoosingWhichFailure.md"},
+        {"Page": "Reporting a Failure Naively", "SrcDir": "main", "SrcFile": "devhowto/devhowtoReportingAFailure.md"},
         {"Page": "Converting Variables to English", "SrcDir": "main", "SrcFile": "devhowto/devhowtoConceptualFailures.md"},
         {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"},
         {"Page": "B. Parsing Predications", "SrcDir": "main", "SrcFile": "devhowto/devhowtoParsePredication.md"}

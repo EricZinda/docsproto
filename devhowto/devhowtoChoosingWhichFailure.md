@@ -1,7 +1,11 @@
-### Choosing the Right Failure 
-Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built, if the user says, "There is a large file" they will get the response: "No, that isn't correct".  If the user says "I delete a file" or "Bill deletes a file" they will get the response: "Couldn't do that".  We can do better, but we'll need to work through a few challenges first.
+### Reporting the Right Failure 
+Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built:
+- If the user says, "There is a large file" they will get the response: "No, that isn't correct"
+- If the user says "I delete a file" or "Bill deletes a file" they will get the response: "Couldn't do that"
 
-The first challenge is to figure out *which* of the failures encountered to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. For "A file is large", the MRS and resolved tree are:
+We can do better, but we'll need to work through a few challenges first.
+
+The first challenge is to figure out *which* of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. For "A file is large", the MRS and a resolved tree are:
 
 ~~~
 [ TOP: h0
@@ -56,7 +60,7 @@ So, when solving the MRS with this world definition, we hit (in this order):
 
 Even though the system hit two failures in solving the MRS, the user that said "a file is large" for this world wouldn't expect *any* failures to be reported. They would expect something like "correct!" to be said.
 
-Another example, what if the user said, "A file is *very* large"? In solving the MRS with the same world you'd get (in this order):  
+Another example: what if the user said, "A file is *very* large"? In solving the MRS with the same world you'd get (in this order):  
 - a `_file_n_of` failure
 - a `large_a_1` failure (since none are "*very* large")
 - a `large_a_1` failure (since none are "*very* large")
@@ -70,14 +74,14 @@ The intuition for why this works is this:
 
 If there was a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
 
-If there wasn't a solution, the user will want to know why not. The "real" reason why not is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that quickly didn't work out. They'll list the failure that is "the closest they got to succeeding".  For example:
+If there wasn't a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that quickly didn't work out. They'll list the failure that is "the closest they got to succeeding".  For example:
 
-> (In a world where there 10 things on the counter, including milk, and Bob is holding things he can't put down)
-> Alice: "Could you give me the milk?"
-> Bob: (good answer) "My hands are full"
-> Bob: (bad answer) "I thought about handing you ketchup, but then realized it wasn't milk"
+>(In a world where there are ß10 things on the counter, including milk, and Bob is holding things he can't put down)
+>Alice: "Could you give me the milk?"
+>Bob: (good answer) "My hands are full"
+>Bob: (bad answer) "I thought about handing you ketchup, but then realized it wasn't milk"
 
-The second one is bad for many reasons, but here we'll focus on the fact that Alice probably wanted the one "closest to the solution" one as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 10 different "failures" until one succeeded). Then, he tried to "give it to Alice" which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually "make the most sense" to report.
+The second one is bad for many reasons, but here we'll focus on the fact that Alice probably wanted the one "closest to the solution" as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 9 different "failures" until one succeeded). Then, he tried to "give it to Alice" which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually "make the most sense" to report.
 
 Here's a more explicit algorithm:
 - Track the "depth" of each predication in the tree, where "depth" means "call order"
@@ -131,7 +135,7 @@ def DelphinContext():
 
 # Helper used by predications just to make the code easier to read
 def Call(*args, **kwargs):
-    yield from DelphinContext().Call(*args, **kwargs)~~~
+    yield from DelphinContext().Call(*args, **kwargs)
 ~~~
 
 At this point, we've just restructured things into an `ExecutionContext` class and started giving an "index" to every predication, but not using it. Next, we can create a `ReportError()` method that will do the work of recording the "deepest" error, along with a helper function to make it easy to call.
