@@ -20,9 +20,9 @@ def large_a_1(state, e_introduced, x_target):
             # variables into it using {}, in a kind of template approach
             ReportError(f"'{item}' is not large")
 ~~~
-`large_a_1` looks at an object, checks if it has a size at all, and if so, checks if it is "large" and succeeds if it is. If not, a logical error to report would be "this thing is not large".
+`large_a_1` looks at an object, checks if it has a size at all, and if so, checks if it is "large" and succeeds if it is. If not, a logical error to report would be "this thing I was passed is not large".
 
-If we run "A file is very large" using our same example world:
+Let's try it: If we run "A file is very large" using our same example world:
 
 ~~~
 a folder
@@ -38,14 +38,22 @@ a dog
 3. a `large_a_1` failure (since none are "very large")
 4. a `_file_n_of` failure
 
-The actual error reported will be: "'a small file' is not large". Even though this error looked like it made sense in the code, it is pretty far from the one we wanted: "There isn't a very large file".  If the world was simpler, we might have gotten an even worse result.  For example in this world:
+The actual error reported will be: "'a small file' is not large". 
+
+Even though this error looked like it made sense in the code, it is pretty far from the one we wanted: "There isn't a very large file".  If the world was simpler, we might have gotten an even worse result.  
+
+For example in this world:
 ~~~
 a dog
 a folder
 ~~~
-`file_n_of` would give us the error: "'a dog' is not a file" instead of "There isn't a very large file". Clearly a bad response.
+`file_n_of(x)` would give us the error: "'a dog' is not a file" instead of "There aren't any files". Clearly a bad response. 
+
+We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The *mechanics* are to feed every object in the world through the system, but the overall *objective* is to, for example, find an `x` that makes `_large_a_1` true.  The problem is that we are reporting the error using the *example* (e.g. `a dog`) that is going through the system instead of what the example *represents* . If we instead reword the error to use what `x` represents
 
 Something is wrong with the approach. We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The *mechanics* are to feed every object in the world through the system, but the overall *objective* is to, for example, find an `x` that makes `_large_a_1` true. So, if we quit describing the *mechanics* and describe the failure of the *objective*, we'll get a better error.
+
+
 
 Said another way: evaluating `_large_a_1(x)` means "Give me the large x's in the world".  If it fails, that means: "There is not a large x in the world". So, changing our code to be this:
 

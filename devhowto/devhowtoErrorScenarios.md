@@ -31,7 +31,7 @@ The wording could be better ("There are no files"), but it is telling the user t
 > 
 > New: "a file is not large"
 
-Same erro has above. Great.
+Same error has above. Great.
 
 > World: Has large files. 
 > 
