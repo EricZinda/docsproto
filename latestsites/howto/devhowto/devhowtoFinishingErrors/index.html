@@ -392,11 +392,11 @@ def Example13():
 # Prints:
 No, that isn't correct: There isn't pronoun pron in the system
 </code></pre></div></div>
-<p>Obviously this isn’t the right answer.</p>
+<p>The error shown from <code class="language-plaintext highlighter-rouge">Example13()</code> is obviously not the right answer.</p>
 
 <p>First, for “proposition failures”, we can quit saying “No, that isn’t correct:”. Just saying the error should be enough.</p>
 
-<p>Second, our simple approach of just including the quantifier worked for quantifiers like “a”, “the”, “some”, but not for special “abstract” quantifiers like <code class="language-plaintext highlighter-rouge">pronoun_q</code> or <code class="language-plaintext highlighter-rouge">which_q</code>. Abstract quantifiers don’t start with an “_” and the <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> function already detects this and sets “Surface” (meaning “is this represented on the surface, i.e. the original text) to <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. So, those are easy enough to detect and ignore:</p>
+<p>Second, our simple approach of just including the quantifier worked for quantifiers like “a”, “the”, “some”, but not for special “abstract” quantifiers like <code class="language-plaintext highlighter-rouge">pronoun_q</code> or <code class="language-plaintext highlighter-rouge">which_q</code>. Abstract quantifiers are predications which don’t actually appear in the phrase but were needed by the MRS. They don’t start with an “_” and the <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> function already detects this and sets “Surface” (meaning “in the original text”) to <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. So, those are easy enough to detect and ignore:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to
 # the variable specified. Put whatever it contributes in nlg_data
 def RefineNLGWithPredication(variable, predication, nlg_data):
@@ -418,7 +418,9 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
 There isn't a pron in the system
 </code></pre></div></div>
 
-<p>We are closer! We have a similar issue with <code class="language-plaintext highlighter-rouge">pron</code> in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we <em>do</em> want to have it contribute to what the variable means, but we’ll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:</p>
+<p>We are closer!</p>
+
+<p>We have a similar issue with <code class="language-plaintext highlighter-rouge">pron</code> in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we <em>do</em> want to have it contribute to what the variable means, but we’ll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
     # Parse the name of the predication to find out its
@@ -560,7 +562,7 @@ def GenerateMessage(mrs, error_term):
                 print(message)
 </code></pre></div></div>
 
-<p>Now we can run the example we saw much earlier “Delete you”</p>
+<p>Now we can run the example we saw much earlier, “Delete you”:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># delete you
 def Example8():
@@ -703,7 +705,7 @@ There isn't a file in the system
 </code></pre></div></div>
 <p>Very nice!</p>
 
-<p>Last update: 2022-12-14 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoFinishingErrors.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoFinishingErrors.md">edit</a>]</p>
 
         
       </section>

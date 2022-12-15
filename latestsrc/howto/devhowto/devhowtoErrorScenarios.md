@@ -33,7 +33,7 @@ That one is very clear.
 > New: "There isn't a file in the system"
 
 
-This one is correct except that our NLG functions don't know how to add "large" in there. Let's update them to understand (some) adjectives:
+This one is correct *except* that our NLG functions don't know how to add "large" in there. Let's update them to understand (some) adjectives:
 
 ```
 # See if this predication in any way contributes words to
@@ -78,7 +78,7 @@ def ConvertToEnglish(nlg_data):
 
     return phrase
 ```
-Now it properly responds with "There isn't a large file in the system". Great!
+Now it properly responds with "There isn't a *large* file in the system". Great!
 
 > Example13 World: Has large files. 
 > 
@@ -89,6 +89,6 @@ Now it properly responds with "There isn't a large file in the system". Great!
 > New: "There isn't a he/she in the system"
 
 
-Clearly says *why* the system couldn't do it now.
+Great! It clearly says *why* the system couldn't do it now.
 
-Last update: 2022-12-14 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoErrorScenarios.md)]{% endraw %}
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoErrorScenarios.md)]{% endraw %}

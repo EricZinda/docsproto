@@ -1,7 +1,7 @@
 {% raw %}## Simple Commands
 It is finally time to implement a "command" so that users can actually *do* something with the system we are building. We're going to implement the "delete" command.
 
-We'll start with the MRS for "delete a large file", which has a few new predications we'll need to deal with:
+We'll start with the MRS for "delete a large file", which has a few new predications to deal with:
 ```
 [ TOP: h0
 INDEX: e2
@@ -26,15 +26,15 @@ pronoun_q(x3,RSTR,BODY)            │
 The sentence force for this sentence is `SF: comm` meaning "command", determined the same way we [described in an earlier section](../devhowtoSentenceForce).
 
 ### Pronouns: pron and pronoun_q
-The first two new predicates we encounter are: `pron(x3)` and `pronoun_q(x3,RSTR,BODY)` and they usually work together as they do here. 
+The first two new predicates we encounter are: `pron(x3)` and `pronoun_q(x3,RSTR,BODY)` and they often work together as they do here. 
 
-`pron(x)` needs to fill `x` with an object that represents what the specified pronoun is *referring to*. It does this by looking at the properties for the `x` variable to determine if the pronoun is "you" (`PERS: 2`), "him/her"(`PERS: 3`), etc. and sets the variable to be whatever person "you" (or whatever) are referring to. 
+`pron(x)` needs to fill `x` with an object that represents what the specified pronoun is *referring to*. It does this by looking at the properties for the `x` variable to determine if the pronoun is "you" (`PERS: 2` -- second person), "him/her"(`PERS: 3` -- third person), etc. and sets the variable to be whatever the pronoun is referring to. 
 
 There were not any pronouns in our command "delete a large file", so where did it come from? In this case, the pronoun is an *implied* "you" since it is a command. I.e "(You) delete a large file".  Because we are not including the notion of other people in the file system, the only pronouns we probably care to understand are "you" ("can you delete the file?" or the implied case above) and maybe "I" ("I want to delete a file"). For now, let's just do "you" and fail otherwise. 
 
 `pronoun_q` is just a simple, default quantifier predication that doesn't *do* anything except introduce the variable that `pron` uses. It acts just like `which_q` did in the [Simple Questions section](../devhowtoSimpleQuestions).
 
-To implement these, we'll need to create a new class to represent "actors" in the system, and then create an instance of it that represents the computer by adding it to the `State`. We'll say that "the computer" is who should be returned when the user says "You" (second person) by setting the `Actor` object's `person` property to `2`. `Example7()` shows what the `State` object will look like, along with what the MRS above will look like when converted to our MRS format:
+To implement these, we'll need to create a new class to represent "actors" in the system, and then create an instance of it that represents the computer by adding it to the `State`. We'll say that "the computer" is who should be returned when the user says "You" (second person) by setting the `Actor` object's `person` property to `2`. `Example7()` the `State` and the MRS object with these new concepts added:
 
 ```
 # Represents something that can "do" things, like a computer
@@ -91,7 +91,7 @@ The last new predication is `_delete_v_1`. `_delete_v_1` is the first "real" ver
 
 Because our world state is simply a Python list of Python objects, the logic for deleting something is going to be trivial: remove the thing from the list. In fact, implementing what we are doing here in a real file system interface would be trivial as well: delete the file. However, we would have to decide what to do if a user command like "delete *every* file" fails to delete one of them for some reason. We'll ignore that in our example and just remove the files from the `State` object's list of state. We can safely do this, even though other predications may still be iterating over them, because our `State` object is immutable ([as described previously](../devhowtoPyhonBasics)) and we will keep it that way by returning a new `State` object when something is deleted, just like we already do for setting variables.
 
-We do have a problem, though. As you'll see later, we will encounter phrases like "delete *every* file", which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only one of the files deleted.  In order to end up with a single world state that has all the files deleted, we'll have to merge them together at the end somehow. 
+We do have a problem, though. As you'll see later, we will encounter phrases like "delete *every* file", which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only *one* of the files deleted.  In order to end up with a single world state that has *all* the files deleted, we'll have to merge them together at the end somehow. 
 
 The solution is to create the concept of an "operation" class which does "something" to the state. We will build different operation classes that do different things over time (rename, copy, etc). If a command succeeds with multiple solutions, we can collect all of the operations from the solutions apply *all of them* to a *single* state object at the end. In fact, this is a good way to implement our system in general: build up a set of operations based on what the user says and, when we have the final solved MRS, actually apply them to the file system. We won't be taking that final step here, but we could.
 
@@ -141,7 +141,7 @@ An "operation" in our system is simply an object that has an `ApplyTo()` method 
 > This is a case where our "immutable" `State` class is actually being changed. That's OK, though, because only the `State` class will be asking it to do this, and only on a fresh `State` object that isn't in use yet.
 
 
-When an operation is applied to the `State` class, we'll remember what happened by adding the operation to the new `State` object's list of operations.  Then, once we've collected all the solutions to a problem like "delete every file", we can gather the operations from each of the solutions using the `GetOperations()` method, and apply them to the original state. This will give us a new state object that combines them all. You'll see this at the end of this section.
+When an operation is applied to the `State` class, we'll remember what happened by adding the operation to the new `State` object's list of operations.  Then, once we've collected all the solutions to a problem like "delete every file", we can gather the operations from each of the solutions using the `GetOperations()` method, and apply them, as a group, to the original state. This will give us a new state object that combines them all. You'll see this at the end of this section.
 
 So now we can finally implement the verb `delete_v_1`:
 ```
@@ -153,9 +153,9 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
         x_what_value = state.GetVariable(x_what)
         yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
-`delete_v_1` first checks to make sure the actor is "Computer". That's because the user could have said "Bill deletes a file" and we'd prefer the system to say "I don't know who Bill is" than to just delete the file. We should only the delete the file when *we* are told to delete it. 
+`delete_v_1` first checks to make sure the actor is "Computer". That's because the user could have said "Bill deletes a file" and we'd prefer the system to say "I don't know who Bill is" than to just delete the file. We should only delete the file when *the computer* is told to delete it. 
 
-Then, we use our new `ApplyOperations()` method to do the deleting, and return the new state object with the object gone.
+Then, we use our new `ApplyOperations()` method to do the deleting and return the new state object with the object gone.
 
 Finally, we need to add a new clause to `RespondToMRS()` to handle *commands*. It will simply say "Done!" if the command worked. It will also collect up all of the operations that happened and apply them to a single state object. This isn't really necessary for this example since we are only deleting one file, but is necessary for phrases like "delete every file":
 
@@ -203,7 +203,7 @@ Done!
 ```
 You can see by the output that a single, arbitrary file was deleted.
 
-There are a couple of interesting things to point out about what we've done. The code for `delete_v_1` will delete *anything*, so the phrase "delete you" will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied "you". This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn't thought of.
+There are a couple of interesting things to point out in what we've done. The code for `delete_v_1` will delete *anything*, so the phrase "delete you" will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied "you". This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn't thought of.
 
 Here's the MRS to prove that "delete you" only has predications that we've implemented:
 
@@ -266,4 +266,4 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
             yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
 
-Last update: 2022-12-10 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md)]{% endraw %}
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md)]{% endraw %}

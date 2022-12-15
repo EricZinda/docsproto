@@ -1,9 +1,9 @@
 {% raw %}#### Conjuctions of Predications
 There are two ways to group predications together in an MRS: as a "conjunction" (i.e. a logical "and") or by using "scopal arguments". Scopal arguments allow passing *a predication* as an argument to another predication, much like lambda functions do in many programming languages. This is how you built up a tree of predications in a scope-resolved tree. Now that we have a textual representation and a way to execute it, we can use them to start resolving these more complex structures.
 
-To handle a logical "and" or "conjunction" of predications, we'll perform a depth-first search of the answers from those predications, evaluated in order. This means: taking the variables set by the first predication, passing them to the second predication, and collecting the successful result. Once you've iterated through all of them, you have the set of things that are true for all of the predications in the conjunction for that world.
+To handle a logical "and" or "conjunction" of predications, we'll perform a depth-first search of the answers from eacj predication, evaluated in order. This means: taking the variables set by the first predication, passing them to the second predication, and collecting the successful result. Once you've iterated through all of them, you have the set of things that are true for all of the predications in the conjunction for that world.
 
-For an example such as `_large_a_1(e,x) and _file_n_of(x)` (to indicate a "large file"):
+For an example such as: `_large_a_1(e,x) and _file_n_of(x)` (to indicate a "large file"):
 1. Start with empty variables and call the first predication: `_large_a_1`. 
 2. If it succeeds, take the resulting variable assignments and call `_file_n_of` with those assignments. Since there are no more predications, if it succeeds, that result is the first answer.
 3. Then "backtrack" by going to step 2 and call `_file_n_of` again to get the next answer. 
@@ -108,4 +108,4 @@ def Example3():
 
 Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments [in the next section](../devhowtoScopalArguments), we'll be able to handle full scope-resolved trees.
 
-Last update: 2022-12-06 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConjunctions.md)]{% endraw %}
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConjunctions.md)]{% endraw %}
