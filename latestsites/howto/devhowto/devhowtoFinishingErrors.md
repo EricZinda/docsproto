@@ -402,5 +402,4 @@ def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
 There isn't a file in the system
 ```
 Very nice!
-
-Last update: 2022-12-14 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoFinishingErrors.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

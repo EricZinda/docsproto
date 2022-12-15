@@ -116,5 +116,4 @@ rather than a formal interpretation
 
 As requested, here is a start of a wiki page on [IconsSpecs](https://blog.inductorsoftware.com/docsproto/tools/IconsSpecs)
 --Emily
-
-Last update: 2013-08-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandIcons/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
