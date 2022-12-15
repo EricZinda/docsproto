@@ -1,9 +1,9 @@
-## Completing Errors
-Now that our more robust error approach is in place, lets fix the predications we had written before to properly use it.
+## Adding Errors to Every Predication
+Now that our more robust error approach is in place, lets fix the predications we have written before to properly use it.
 
-`large_a_1` and `file_n_of` have already been completed. `delete_v_1`, `pron`, `pronoun_q`, `a_q`, `which_q`, `very_x_deg`, `folder_n_of` remain.
+`large_a_1`, `file_n_of` and `a_q` have already been completed. `delete_v_1`, `pron`, `pronoun_q`, `which_q`, `very_x_deg`, `folder_n_of` remain.
 
-### `folder_n_of` and `file_n_of`
+### `folder_n_of`
 We can approach `folder_n_of` just like `file_n_of`, and in fact that is what most nouns will look like. The only new code is the last line below that says "whatever x is at this point doesn't exist" for the same reasons [we described before](devhowtoReportingAFailure):
 
 ~~~
@@ -26,32 +26,17 @@ def folder_n_of(state, x):
             ReportError(["doesntExist", x])
 ~~~
 
-### `a_q`, `which_q`, and `pronoun_q`
-The quantifiers `a_q`, `which_q`, and `pronoun_q` aren't performing enough logic to really require new errors to be reported. The last two are both effectively just doing a conjunction of their `RSTR` and `BODY` arguments, while `a_q` is doing a *tiny* bit more. Regardess, whatever they are passed as scopal arguments will report the errors for them and no changes are needed. Here they are so you can decide for yourself:
+### `which_q`, and `pronoun_q`
+The quantifiers `which_q`, and `pronoun_q` should work just like `a_q` and report a special error if their `RSTR` can't be resolved. If the `BODY` fails it will report its own error:
 
 ~~~
-@Predication(vocabulary, name="_a_q")
-def a_q(state, x_variable, h_rstr, h_body):
-    # Run the RSTR which should fill in the variable with an item
-    for solution in Call(vocabulary, state, h_rstr):
-        # Now see if that solution works in the BODY
-        success = False
-        for body_solution in Call(vocabulary, solution, h_body):
-            yield body_solution
-            success = True
-
-        if success:
-            # If it works, stop looking. This one is the single arbitrary item we are looking for
-            break
-            
-
 # This is just used as a way to provide a scope for a
 # pronoun, so it only needs the default behavior
 @Predication(vocabulary, name="pronoun_q")
 def pronoun_q(state, x, h_rstr, h_body):
     yield from default_quantifier(state, x, h_rstr, h_body)
 
-    
+
 @Predication(vocabulary, name="_which_q")
 def which_q(state, x_variable, h_rstr, h_body):
     yield from default_quantifier(state, x_variable, h_rstr, h_body)
@@ -60,32 +45,20 @@ def which_q(state, x_variable, h_rstr, h_body):
 # Many quantifiers are simply markers and should use this as
 # the default behavior
 def default_quantifier(state, x_variable, h_rstr, h_body):
-    # By default treat rstr and body as a simple conjunction
-    yield from Call(vocabulary, state, [h_rstr, h_body])
-~~~
+    # Find every solution to RSTR
+    rstr_found = False
+    for solution in Call(vocabulary, state, h_rstr):
+        rstr_found = True
 
-### `pron(x)`
-`pron(x)` *does* need an error so that it can report when the user uses a pronoun that we haven't implemented. A good message for "she deletes a file" would be something like "I don't who 'she' is." 
+        # And return it if it is true in the BODY
+        for body_solution in Call(vocabulary, solution, h_body):
+            yield body_solution
 
-~~~
-@Predication(vocabulary, name="pron")
-def pron(state, x_who):
-    
-    ...
-    
-        else:
-            ReportError(["dontKnowPronoun", x_who])
-            
-            
-def GenerateMessage(mrs, error_term):
-    
-    ...
-    
-    elif error_constant == "dontKnowPronoun":
-        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
-        return f"I don't know who '{arg1}' is"
-
-
+    if not rstr_found:
+        # Ignore whatever error the RSTR produced, this is a better one
+        ReportError(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
+        
+        
 def Example13():
     state = State([Actor(name="Computer", person=2),
                    Folder(name="Desktop"),
@@ -105,11 +78,11 @@ def Example13():
     DelphinContext().RespondToMRS(state, mrs)
 
 # Prints:
-No, that isn't correct: I don't know who 'pronoun pron' is
+No, that isn't correct: There isn't pronoun pron in the system
 ~~~
 Obviously this isn't the right answer. 
 
-First, for "proposition failures", we can quit saying "No, that isn't correct:" first. Just saying the error should be enough.
+First, for "proposition failures", we can quit saying "No, that isn't correct:". Just saying the error should be enough.
 
 Second, our simple approach of just including the quantifier worked for quantifiers like "a", "the", "some", but not for special "abstract" quantifiers like `pronoun_q` or `which_q`. Abstract quantifiers don't start with an "_" and the `ParsePredicationName()` function already detects this and sets "Surface" (meaning "is this represented on the surface, i.e. the original text) to `True` or `False`. So, those are easy enough to detect:
 ~~~
@@ -131,8 +104,9 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
     ...
 
 # Example13 now prints:
-I don't know who 'a pron' is 
+There isn't a pron in the system
 ~~~
+
 We are closer! We have a similar issue with `pron` in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we *do* want to have it contribute to what the variable means, but we'll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:
 
 ~~~
@@ -185,46 +159,36 @@ def PronounFromVariable(mrs, variable):
     return pronouns[person][number]
 
 # Example13 now prints:
-I don't know who 'a he/she' is
+There isn't a he/she in the system
 ~~~
-So close! The last trick is figuring out when a quantifier like "a" should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we'll create a special word "<none>" that is used when an abstract quantifier is detected. When `ConvertToEnglish()` sees it, it won't add a default "a" to the word:
+
+Looks good! 
+
+### `pron(x)`
+`pron(x)` *does* need an error so that it can report when the user uses a pronoun that we haven't implemented. We can't really form sentences that will use this yet, because everything we can say has `pron` in the `RSTR` and any error we report there will get overridden by the quantifier as [described here](devhowtoQuantiferErrors). We'll add the code, though, so it can be used later.
 
 ~~~
-def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
-    parsed_predication = ParsePredicationName(predication[0])
-    if predication[1] == variable:
-        if parsed_predication["Pos"] == "q":
-            if parsed_predication["Surface"] is True:
-                nlg_data["Quantifier"] = parsed_predication["Lemma"]
-            else:
-                # abstract quantifiers *shouldn't* contribute a quantifier
-                # at all, so set a special value
-                nlg_data["Quantifier"] = "<none>"
-
-
-def ConvertToEnglish(nlg_data):
-    if "Quantifier" in nlg_data:
-        if nlg_data["Quantifier"] != "<none>":
-            quantifier = nlg_data["Quantifier"]
+@Predication(vocabulary, name="pron")
+def pron(state, x_who):
+    
+    ...
+    
         else:
-            quantifier = None
-    else:
-        quantifier = "a"
+            ReportError(["dontKnowPronoun", x_who])
+            
+            
+def GenerateMessage(mrs, error_term):
+    
+    ...
+    
+    elif error_constant == "dontKnowPronoun":
+        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
+        return f"I don't know who '{arg1}' is"
 
-    if "Topic" in nlg_data:
-        topic = nlg_data["Topic"]
-    else:
-        topic = "thing"
 
-    if quantifier is None:
-        return topic
-    else:
-        return f"{quantifier} {topic}"
-        
-        
-# Example13 now prints:
-I don't know who 'he/she' is
+
 ~~~
+
 
 ### `very_x_deg`
 `very_x_deg` doesn't really *do* anything except give data to other words, so there are no errors to provide there. However, we will eventually have to start reporting errors if the predications don't know how to handle a world like "very". Just ignoring it isn't right. We'll do that in an upcoming section. For now, we'll just leave it as it is:
@@ -314,12 +278,57 @@ def Example8():
     DelphinContext().RespondToMRS(state, mrs)
     
 # Prints:
+I can't delete a you
+~~~
+First: Notice that it is using the code for transforming ("realizing" in linguistics) `pron` in English to say "you".  But the error itself isn't quite right.  It shouldn't say "a you".
+
+The last trick is figuring out when a quantifier like "a" should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we'll create a special word "<none>" that is used when an abstract quantifier is detected. When `ConvertToEnglish()` sees it, it won't add a default "a" to the word:
+
+~~~
+def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
+    parsed_predication = ParsePredicationName(predication[0])
+    if predication[1] == variable:
+        if parsed_predication["Pos"] == "q":
+            if parsed_predication["Surface"] is True:
+                nlg_data["Quantifier"] = parsed_predication["Lemma"]
+            else:
+                # abstract quantifiers *shouldn't* contribute a quantifier
+                # at all, so set a special value
+                nlg_data["Quantifier"] = "<none>"
+
+
+# Takes the information gathered in the nlg_data dictionary
+# and converts it, in a very simplistic way, to English
+def ConvertToEnglish(nlg_data):
+    phrase = ""
+
+    if "Quantifier" in nlg_data:
+        if nlg_data["Quantifier"] != "<none>":
+            phrase += nlg_data["Quantifier"] + " "
+    else:
+        phrase += "a "
+
+    if "Modifiers" in nlg_data:
+        # " ".join() takes a list and turns it into a string
+        # with the string " " between each item
+        phrase += " ".join(nlg_data["Modifiers"]) + " "
+
+    if "Topic" in nlg_data:
+        phrase += nlg_data["Topic"]
+    else:
+        phrase += "thing"
+
+    return phrase
+        
+        
+# Example8 now prints:
 I can't delete you
 ~~~
-Notice that it is using the code for transforming ("realizing" in linguistics) `pron` in English to say "you".  Writing a test for the other error is impossible at the moment because we need more predications to say things like "Bill deletes a file".
+
+Writing a test for the other error is impossible at the moment because we need more predications to say things like "Bill deletes a file".
 
 ### Errors from Questions
-We still need to update the last type of sentence to return proper errors:
+We still need to update the last type of sentence (`ques`) to return proper errors:
 
 ~~~
     def RespondToMRS(self, state, mrs):
@@ -370,7 +379,7 @@ def Example14():
     DelphinContext().RespondToMRS(state, mrs)
     
 # Prints:
-which file doesn't exist
+There isn't which file in the system
 ~~~
 To fix this, we need to update `RefineNLGWithPredication()` to ignore the "which_q" predication
 
@@ -391,7 +400,6 @@ def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
                     nlg_data["Quantifier"] = parsed_predication["Lemma"]
                     
 # Now Example14() prints:
-a file doesn't exist
+There isn't a file in the system
 ~~~
-
-It is starting to become clear that that error message isn't quite right. It should be "There aren't any files", which is easy enough to change, but requires us to start getting more into Natural Language Generation (NLG) to get the proper word forms. We'll do that in a later section.
+Very nice!

@@ -160,4 +160,4 @@ def ReportError(error):
     DelphinContext().ReportError(error)
 ~~~
 
-With all that in place, we will now remember which is the right ("deepest") error to report. The [next section](devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
+The system will now remember which is the right ("deepest") error to report. The [next section](devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
