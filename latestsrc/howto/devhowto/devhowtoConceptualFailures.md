@@ -6,10 +6,10 @@ def large_a_1(state, e_introduced, x_target):
             
     ...
     
-            ReportError(f"There is not a large thing")
+            ReportError("A thing is not large.")
 ```
 
-... and will respond to "A file is very large" with "There is not a large thing". Correct-ish, but not great. We'd *really* like to report errors at a more conceptual level. The best answer would replace "thing" in "There is not a large thing" with the "type" of thing `x` is *at the point we are reporting the error*. Remember that the `large_a_1` predication will be used for anything the user references as "large", so it will need to be flexible about how it reports its failures.
+... and will respond to "A file is large" with "A *thing* is not large" because we didn't know how to tell what kind of "thing" the variable `x` is currently filtered to be.  The best answer would replace "thing" in "A *thing* is not large" with the "type" of thing `x` is *at the point we are reporting the error*. Remember that the `large_a_1` predication will be used for anything the user references as "large", so it will need to be flexible about how it reports its failures.  `x` won't always contain files.
 
 For example, here is a scope-resolved tree for "A file is large":
 
@@ -19,7 +19,7 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 ```
 
-Errors in that MRS from `_large_a_1` should say "There is not a large *file*" since the only things that can be in `x` by the time it gets to `_large_a_1` have already been filtered to be files. 
+Errors in that MRS from `_large_a_1` should say "A *file* is not large" since the only things that can be in `x` by the time it gets to `_large_a_1` have been filtered to be files. 
 
 For "A dog is large":
 ```
@@ -27,11 +27,11 @@ For "A dog is large":
 _a_q(x3,RSTR,BODY)    
                └─ _large_a_1(e2,x3)
 ```
-Errors in *that* MRS from `_large_a_1` should say "There is not a large *dog*". 
+Errors in *that* MRS from `_large_a_1` should say "A *dog* is not large". 
 
 etc. 
 
-That way, we can write one error message and have it work well no matter how the predication is used.
+If we can get a description of what `x` is, we can write one error message and have it work well no matter how the predication is used.
 
 ### Determining What to Call "x"
 We can figure out what the variable `x` has been filtered to "so far" by taking advantage of some things we know:
@@ -41,9 +41,17 @@ We can figure out what the variable `x` has been filtered to "so far" by taking 
 3. We know which predication reported the error 
 4. We know where that predication is in the execution order
 
-So, if the error came from `_large_a_1`, we must have finished `_dog_n_1` but be in the middle of resolving `_a_q`.  At that point, the variable `x3` contains something that is `dog` (not even `*a* dog` yet).  In this way, we can write code which gives the English description of a variable *at a certain point in the tree's execution*. We can use that to build failure messages that have the proper "thing" for any phrase we encounter.
+So, in the scope-resolved tree for "a dog is large":
 
-First, let's create the function (`EnglishForDelphinVariable()`) which takes the `variable` we want English for, the MRS, and the place in the tree for which we want the English. It walks the tree in execution order using the function we've written [in a previous section](../devhowtoSimpleQuestions) called `WalkTreeUntil()` and passes each predication to a function that determines if the predication is "filtering" the `variable` in question. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation"). At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
+```
+          ┌────── _dog_n_1(x3)
+_a_q(x3,RSTR,BODY)    
+               └─ _large_a_1(e2,x3)
+```
+
+... if the error came from `_large_a_1`, we must have finished `_dog_n_1` but be in the middle of resolving `_a_q`.  At that point, the variable `x3` contains something that is `dog` (not even `*a* dog` yet).  In this way, we can write code which gives the English description of a variable *at a certain point in the tree's execution*. We can use that to build failure messages that have the proper "thing" for any phrase we encounter.
+
+To do this, let's create a function (`EnglishForDelphinVariable()`) which takes 1) the `variable` we want English for, 2) the MRS, and 3) the place in the tree for which we want the English. It will walk the tree in execution order using the function we've written [in a previous section](../devhowtoSimpleQuestions) called `WalkTreeUntil()`. This function will pass each predication to a different function called `RefineNLGWithPredication()` that determines if the predication is doing anything to the `variable` in question. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation"). At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
 
 ```
 # Given the index where an error happened and a variable,
@@ -78,7 +86,8 @@ def EnglishForDelphinVariable(failure_index, variable, mrs):
     return ConvertToEnglish(nlg_data)
 ```
 
-For now, `RefineNLGWithPredication()` takes a very simple approach to seeing if a predication is "filtering" the `variable`. Predications which *introduce* a variable (as described in a [previous section](../devhowtoEvents)) are, in some sense, the base "thing" that the variable is. They should clearly be part of its description. Quantifiers for that variable describe "how much" of it there are, so they should be included as well. There are lots more we could add (and we will later) but keeping it in this simple gets us a long way for now:
+For now, `RefineNLGWithPredication()` takes a very simple approach to seeing if a predication is "contributing to" the `variable`. Predications which *introduce* a variable (as described in a [previous section](../devhowtoEvents)) are, in some sense, the base "thing" that the variable is. They should clearly be part of its description. Quantifiers for that variable describe "how much" of it there are, so they should be included as well. There are lots more we could add (and we will later) but keeping it in this simple gets us a long way for now:
+
 ```
 # See if this predication in any way contributes words to 
 # the variable specified. Put whatever it contributes in nlg_data
@@ -99,9 +108,10 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
             # of the variable, usually a noun predication
             nlg_data["Topic"] = parsed_predication["Lemma"]
 ```
+
 Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is *much* more complicated than this, and we'll tackle doing it "right" later. For now, our naive approach will illustrate the ideas:
 
-> Note: The code for parsing the predication is described in an [appendix](../devhowtoParsePredication)
+> Note: The code for `ParsePredicationName()` is described in an [appendix](../devhowtoParsePredication)
 
 
 ```
@@ -120,6 +130,7 @@ def ConvertToEnglish(nlg_data):
 
     return f"{quantifier} {topic}"
 ```
+
 Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from "A file is large", we can test it out by calling it with different indices to see what it thinks "x1" is at that point:
 
 ```
@@ -140,5 +151,6 @@ a thing
 a thing
 a file
 ```
+
 You can see that, until predication #2 has succeeded (`_file_n_of`), `x1` is described as "a thing" since nothing has really filtered it yet. Once it gets to predication #3 it now holds "a file". We could easily beef up our code so that after `_large_a_1` it is described as "a large file" and we will, eventually.
 <update date omitted for speed>{% endraw %}

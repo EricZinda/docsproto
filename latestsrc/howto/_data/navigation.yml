@@ -56,7 +56,7 @@ toc:
         url: "/devhowto/devhowtoRobustFailure/"
       - title: "Adding Errors to Every Predication"
         url: "/devhowto/devhowtoFinishingErrors/"
-      - title: "Final Error Scenarios"
+      - title: "Error Scenarios Summary"
         url: "/devhowto/devhowtoErrorScenarios/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"

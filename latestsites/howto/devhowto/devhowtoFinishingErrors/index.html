@@ -235,7 +235,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/" class="active">Adding Errors to Every Predication</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Final Error Scenarios</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
@@ -309,12 +309,12 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h2 id="completing-errors">Completing Errors</h2>
-<p>Now that our more robust error approach is in place, lets fix the predications we had written before to properly use it.</p>
+        <h2 id="adding-errors-to-every-predication">Adding Errors to Every Predication</h2>
+<p>Now that our more robust error approach is in place, lets fix the predications we have written before to properly use it.</p>
 
-<p><code class="language-plaintext highlighter-rouge">large_a_1</code> and <code class="language-plaintext highlighter-rouge">file_n_of</code> have already been completed. <code class="language-plaintext highlighter-rouge">delete_v_1</code>, <code class="language-plaintext highlighter-rouge">pron</code>, <code class="language-plaintext highlighter-rouge">pronoun_q</code>, <code class="language-plaintext highlighter-rouge">a_q</code>, <code class="language-plaintext highlighter-rouge">which_q</code>, <code class="language-plaintext highlighter-rouge">very_x_deg</code>, <code class="language-plaintext highlighter-rouge">folder_n_of</code> remain.</p>
+<p><code class="language-plaintext highlighter-rouge">large_a_1</code>, <code class="language-plaintext highlighter-rouge">file_n_of</code> and <code class="language-plaintext highlighter-rouge">a_q</code> have already been completed. <code class="language-plaintext highlighter-rouge">delete_v_1</code>, <code class="language-plaintext highlighter-rouge">pron</code>, <code class="language-plaintext highlighter-rouge">pronoun_q</code>, <code class="language-plaintext highlighter-rouge">which_q</code>, <code class="language-plaintext highlighter-rouge">very_x_deg</code>, <code class="language-plaintext highlighter-rouge">folder_n_of</code> remain.</p>
 
-<h3 id="folder_n_of-and-file_n_of"><code class="language-plaintext highlighter-rouge">folder_n_of</code> and <code class="language-plaintext highlighter-rouge">file_n_of</code></h3>
+<h3 id="folder_n_of"><code class="language-plaintext highlighter-rouge">folder_n_of</code></h3>
 <p>We can approach <code class="language-plaintext highlighter-rouge">folder_n_of</code> just like <code class="language-plaintext highlighter-rouge">file_n_of</code>, and in fact that is what most nouns will look like. The only new code is the last line below that says “whatever x is at this point doesn’t exist” for the same reasons <a href="../devhowtoReportingAFailure">we described before</a>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_folder_n_of")
@@ -336,31 +336,16 @@ def folder_n_of(state, x):
             ReportError(["doesntExist", x])
 </code></pre></div></div>
 
-<h3 id="a_q-which_q-and-pronoun_q"><code class="language-plaintext highlighter-rouge">a_q</code>, <code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code></h3>
-<p>The quantifiers <code class="language-plaintext highlighter-rouge">a_q</code>, <code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code> aren’t performing enough logic to really require new errors to be reported. The last two are both effectively just doing a conjunction of their <code class="language-plaintext highlighter-rouge">RSTR</code> and <code class="language-plaintext highlighter-rouge">BODY</code> arguments, while <code class="language-plaintext highlighter-rouge">a_q</code> is doing a <em>tiny</em> bit more. Regardess, whatever they are passed as scopal arguments will report the errors for them and no changes are needed. Here they are so you can decide for yourself:</p>
+<h3 id="which_q-and-pronoun_q"><code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code></h3>
+<p>The quantifiers <code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code> should work just like <code class="language-plaintext highlighter-rouge">a_q</code> and report a special error if their <code class="language-plaintext highlighter-rouge">RSTR</code> can’t be resolved. If the <code class="language-plaintext highlighter-rouge">BODY</code> fails it will report its own error:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_a_q")
-def a_q(state, x_variable, h_rstr, h_body):
-    # Run the RSTR which should fill in the variable with an item
-    for solution in Call(vocabulary, state, h_rstr):
-        # Now see if that solution works in the BODY
-        success = False
-        for body_solution in Call(vocabulary, solution, h_body):
-            yield body_solution
-            success = True
-
-        if success:
-            # If it works, stop looking. This one is the single arbitrary item we are looking for
-            break
-            
-
-# This is just used as a way to provide a scope for a
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is just used as a way to provide a scope for a
 # pronoun, so it only needs the default behavior
 @Predication(vocabulary, name="pronoun_q")
 def pronoun_q(state, x, h_rstr, h_body):
     yield from default_quantifier(state, x, h_rstr, h_body)
 
-    
+
 @Predication(vocabulary, name="_which_q")
 def which_q(state, x_variable, h_rstr, h_body):
     yield from default_quantifier(state, x_variable, h_rstr, h_body)
@@ -369,31 +354,20 @@ def which_q(state, x_variable, h_rstr, h_body):
 # Many quantifiers are simply markers and should use this as
 # the default behavior
 def default_quantifier(state, x_variable, h_rstr, h_body):
-    # By default treat rstr and body as a simple conjunction
-    yield from Call(vocabulary, state, [h_rstr, h_body])
-</code></pre></div></div>
+    # Find every solution to RSTR
+    rstr_found = False
+    for solution in Call(vocabulary, state, h_rstr):
+        rstr_found = True
 
-<h3 id="pronx"><code class="language-plaintext highlighter-rouge">pron(x)</code></h3>
-<p><code class="language-plaintext highlighter-rouge">pron(x)</code> <em>does</em> need an error so that it can report when the user uses a pronoun that we haven’t implemented. A good message for “she deletes a file” would be something like “I don’t who ‘she’ is.”</p>
+        # And return it if it is true in the BODY
+        for body_solution in Call(vocabulary, solution, h_body):
+            yield body_solution
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="pron")
-def pron(state, x_who):
-    
-    ...
-    
-        else:
-            ReportError(["dontKnowPronoun", x_who])
-            
-            
-def GenerateMessage(mrs, error_term):
-    
-    ...
-    
-    elif error_constant == "dontKnowPronoun":
-        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
-        return f"I don't know who '{arg1}' is"
-
-
+    if not rstr_found:
+        # Ignore whatever error the RSTR produced, this is a better one
+        ReportError(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
+        
+        
 def Example13():
     state = State([Actor(name="Computer", person=2),
                    Folder(name="Desktop"),
@@ -413,11 +387,11 @@ def Example13():
     DelphinContext().RespondToMRS(state, mrs)
 
 # Prints:
-No, that isn't correct: I don't know who 'pronoun pron' is
+No, that isn't correct: There isn't pronoun pron in the system
 </code></pre></div></div>
 <p>Obviously this isn’t the right answer.</p>
 
-<p>First, for “proposition failures”, we can quit saying “No, that isn’t correct:” first. Just saying the error should be enough.</p>
+<p>First, for “proposition failures”, we can quit saying “No, that isn’t correct:”. Just saying the error should be enough.</p>
 
 <p>Second, our simple approach of just including the quantifier worked for quantifiers like “a”, “the”, “some”, but not for special “abstract” quantifiers like <code class="language-plaintext highlighter-rouge">pronoun_q</code> or <code class="language-plaintext highlighter-rouge">which_q</code>. Abstract quantifiers don’t start with an “_” and the <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> function already detects this and sets “Surface” (meaning “is this represented on the surface, i.e. the original text) to <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. So, those are easy enough to detect:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to
@@ -438,8 +412,9 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
     ...
 
 # Example13 now prints:
-I don't know who 'a pron' is 
+There isn't a pron in the system
 </code></pre></div></div>
+
 <p>We are closer! We have a similar issue with <code class="language-plaintext highlighter-rouge">pron</code> in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we <em>do</em> want to have it contribute to what the variable means, but we’ll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
@@ -491,44 +466,33 @@ def PronounFromVariable(mrs, variable):
     return pronouns[person][number]
 
 # Example13 now prints:
-I don't know who 'a he/she' is
+There isn't a he/she in the system
 </code></pre></div></div>
-<p>So close! The last trick is figuring out when a quantifier like “a” should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we’ll create a special word “<none>" that is used when an abstract quantifier is detected. When `ConvertToEnglish()` sees it, it won't add a default "a" to the word:</none></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
-    parsed_predication = ParsePredicationName(predication[0])
-    if predication[1] == variable:
-        if parsed_predication["Pos"] == "q":
-            if parsed_predication["Surface"] is True:
-                nlg_data["Quantifier"] = parsed_predication["Lemma"]
-            else:
-                # abstract quantifiers *shouldn't* contribute a quantifier
-                # at all, so set a special value
-                nlg_data["Quantifier"] = "&lt;none&gt;"
+<p>Looks good!</p>
 
+<h3 id="pronx"><code class="language-plaintext highlighter-rouge">pron(x)</code></h3>
+<p><code class="language-plaintext highlighter-rouge">pron(x)</code> <em>does</em> need an error so that it can report when the user uses a pronoun that we haven’t implemented. We can’t really form sentences that will use this yet, because everything we can say has <code class="language-plaintext highlighter-rouge">pron</code> in the <code class="language-plaintext highlighter-rouge">RSTR</code> and any error we report there will get overridden by the quantifier as <a href="../devhowtoQuantiferErrors">described here</a>. We’ll add the code, though, so it can be used later.</p>
 
-def ConvertToEnglish(nlg_data):
-    if "Quantifier" in nlg_data:
-        if nlg_data["Quantifier"] != "&lt;none&gt;":
-            quantifier = nlg_data["Quantifier"]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="pron")
+def pron(state, x_who):
+    
+    ...
+    
         else:
-            quantifier = None
-    else:
-        quantifier = "a"
+            ReportError(["dontKnowPronoun", x_who])
+            
+            
+def GenerateMessage(mrs, error_term):
+    
+    ...
+    
+    elif error_constant == "dontKnowPronoun":
+        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
+        return f"I don't know who '{arg1}' is"
 
-    if "Topic" in nlg_data:
-        topic = nlg_data["Topic"]
-    else:
-        topic = "thing"
 
-    if quantifier is None:
-        return topic
-    else:
-        return f"{quantifier} {topic}"
-        
-        
-# Example13 now prints:
-I don't know who 'he/she' is
+
 </code></pre></div></div>
 
 <h3 id="very_x_deg"><code class="language-plaintext highlighter-rouge">very_x_deg</code></h3>
@@ -615,12 +579,56 @@ def GenerateMessage(mrs, error_term):
     DelphinContext().RespondToMRS(state, mrs)
     
 # Prints:
+I can't delete a you
+</code></pre></div></div>
+<p>First: Notice that it is using the code for transforming (“realizing” in linguistics) <code class="language-plaintext highlighter-rouge">pron</code> in English to say “you”.  But the error itself isn’t quite right.  It shouldn’t say “a you”.</p>
+
+<p>The last trick is figuring out when a quantifier like “a” should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we’ll create a special word “<none>" that is used when an abstract quantifier is detected. When `ConvertToEnglish()` sees it, it won't add a default "a" to the word:</none></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
+    parsed_predication = ParsePredicationName(predication[0])
+    if predication[1] == variable:
+        if parsed_predication["Pos"] == "q":
+            if parsed_predication["Surface"] is True:
+                nlg_data["Quantifier"] = parsed_predication["Lemma"]
+            else:
+                # abstract quantifiers *shouldn't* contribute a quantifier
+                # at all, so set a special value
+                nlg_data["Quantifier"] = "&lt;none&gt;"
+
+
+# Takes the information gathered in the nlg_data dictionary
+# and converts it, in a very simplistic way, to English
+def ConvertToEnglish(nlg_data):
+    phrase = ""
+
+    if "Quantifier" in nlg_data:
+        if nlg_data["Quantifier"] != "&lt;none&gt;":
+            phrase += nlg_data["Quantifier"] + " "
+    else:
+        phrase += "a "
+
+    if "Modifiers" in nlg_data:
+        # " ".join() takes a list and turns it into a string
+        # with the string " " between each item
+        phrase += " ".join(nlg_data["Modifiers"]) + " "
+
+    if "Topic" in nlg_data:
+        phrase += nlg_data["Topic"]
+    else:
+        phrase += "thing"
+
+    return phrase
+        
+        
+# Example8 now prints:
 I can't delete you
 </code></pre></div></div>
-<p>Notice that it is using the code for transforming (“realizing” in linguistics) <code class="language-plaintext highlighter-rouge">pron</code> in English to say “you”.  Writing a test for the other error is impossible at the moment because we need more predications to say things like “Bill deletes a file”.</p>
+
+<p>Writing a test for the other error is impossible at the moment because we need more predications to say things like “Bill deletes a file”.</p>
 
 <h3 id="errors-from-questions">Errors from Questions</h3>
-<p>We still need to update the last type of sentence to return proper errors:</p>
+<p>We still need to update the last type of sentence (<code class="language-plaintext highlighter-rouge">ques</code>) to return proper errors:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def RespondToMRS(self, state, mrs):
         
@@ -669,7 +677,7 @@ def Example14():
     DelphinContext().RespondToMRS(state, mrs)
     
 # Prints:
-which file doesn't exist
+There isn't which file in the system
 </code></pre></div></div>
 <p>To fix this, we need to update <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> to ignore the “which_q” predication</p>
 
@@ -689,10 +697,9 @@ which file doesn't exist
                     nlg_data["Quantifier"] = parsed_predication["Lemma"]
                     
 # Now Example14() prints:
-a file doesn't exist
+There isn't a file in the system
 </code></pre></div></div>
-
-<p>It is starting to become clear that that error message isn’t quite right. It should be “There aren’t any files”, which is easy enough to change, but requires us to start getting more into Natural Language Generation (NLG) to get the proper word forms. We’ll do that in a later section.</p>
+<p>Very nice!</p>
 <update date="" omitted="" for="" speed="">
 </update>
 
