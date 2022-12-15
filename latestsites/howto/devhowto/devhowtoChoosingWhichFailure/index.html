@@ -227,11 +227,13 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/" class="active">Reporting the Right Failure</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Naive Failures</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">More Robust Failures</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
           
@@ -318,7 +320,9 @@
 
 <p>We can do better, but we’ll need to work through a few challenges first.</p>
 
-<p>The first challenge is to figure out <em>which</em> of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world “through” the MRS until we find the ones that make it true. For “A file is large”, the MRS and a resolved tree are:</p>
+<p>The first challenge is to figure out <em>which</em> of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world “through” the MRS until we find the ones that make it true.</p>
+
+<p>For “A file is large”, the MRS and a resolved tree are:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
@@ -396,7 +400,7 @@ a dog
 
 <p>If there <em>was</em> a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn’t what they meant (though likely it is), so no failure should be reported.</p>
 
-<p>If there <em>wasn’t</em> a solution, the user will want to know why not. The “real” reason is “because the MRS did not have a solution”, but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won’t describe the 10 ways they tried that didn’t work out. They’ll likely list the failure that is “the closest they got to succeeding”.  For example:</p>
+<p>If there <em>wasn’t</em> a solution, the user will want to know why not. The “real” reason is “because the MRS did not have a solution”, but that is unsatisfying and no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won’t describe the 10 ways they tried that didn’t work out. They’ll likely list the failure that is “the closest they got to succeeding”.  For example:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(In a world where there are 10 things on the counter, 
 including milk, and Bob is holding things he can't put down)
@@ -467,7 +471,9 @@ def Call(*args, **kwargs):
     yield from DelphinContext().Call(*args, **kwargs)
 </code></pre></div></div>
 
-<p>At this point, we’ve just restructured things into an <code class="language-plaintext highlighter-rouge">ExecutionContext</code> class and started giving an “index” to every predication, but we’re not using it, yet. Next, we can create a <code class="language-plaintext highlighter-rouge">ReportError()</code> method that will do the work of recording the “deepest” error, along with a helper function to make it easy to call.</p>
+<p>At this point, we’ve just restructured things into an <code class="language-plaintext highlighter-rouge">ExecutionContext</code> class and started giving an “index” to every predication, but we’re not using it.</p>
+
+<p>Next, we can create a <code class="language-plaintext highlighter-rouge">ReportError()</code> method that will do the work of recording the “deepest” error, along with a helper function to make it easy to call.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ExecutionContext(object):
     

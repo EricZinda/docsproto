@@ -15,10 +15,10 @@
         {"Page": "devhowtoSentenceForce", "SrcDir": "main", "SrcFile": "devhowtoSentenceForce.md", "BaseReferrer": "howto/devhowto/devhowtoSimplePropositions.md", "Referrer": "howto/devhowto/devhowtoSimplePropositions.md", "FileMissing": true},
         {"Page": "devhowtoSimpleQuestions", "SrcDir": "main", "SrcFile": "devhowtoSimpleQuestions.md", "BaseReferrer": "howto/devhowto/devhowtoSimplePropositions.md", "Referrer": "howto/devhowto/devhowtoSimplePropositions.md", "FileMissing": true},
         {"Page": "devhowtoReportingAFailure", "SrcDir": "main", "SrcFile": "devhowtoReportingAFailure.md", "BaseReferrer": "howto/devhowto/devhowtoChoosingWhichFailure.md", "Referrer": "howto/devhowto/devhowtoChoosingWhichFailure.md", "FileMissing": true},
+        {"Page": "devhowtoConceptualFailures", "SrcDir": "main", "SrcFile": "devhowtoConceptualFailures.md", "BaseReferrer": "howto/devhowto/devhowtoReportingAFailure.md", "Referrer": "howto/devhowto/devhowtoReportingAFailure.md", "FileMissing": true},
         {"Page": "devhowtoParsePredication", "SrcDir": "main", "SrcFile": "devhowtoParsePredication.md", "BaseReferrer": "howto/devhowto/devhowtoConceptualFailures.md", "Referrer": "howto/devhowto/devhowtoConceptualFailures.md", "FileMissing": true},
-        {"Page": "devhowtoConceptualFailures", "SrcDir": "main", "SrcFile": "devhowtoConceptualFailures.md", "BaseReferrer": "howto/devhowto/devhowtoRobustFailure.md", "Referrer": "howto/devhowto/devhowtoRobustFailure.md", "FileMissing": true},
         {"Page": "devhowtoChoosingWhichFailure", "SrcDir": "main", "SrcFile": "devhowtoChoosingWhichFailure.md", "BaseReferrer": "howto/devhowto/devhowtoRobustFailure.md", "Referrer": "howto/devhowto/devhowtoRobustFailure.md", "FileMissing": true},
-        {"Page": "devhowtoQuantiferErrors", "SrcDir": "main", "SrcFile": "devhowtoQuantiferErrors.md", "BaseReferrer": "howto/devhowto/devhowtoRobustFailure.md", "Referrer": "howto/devhowto/devhowtoRobustFailure.md", "FileMissing": true}
+        {"Page": "devhowtoQuantifierErrors", "SrcDir": "main", "SrcFile": "devhowtoQuantifierErrors.md", "BaseReferrer": "howto/devhowto/devhowtoRobustFailure.md", "Referrer": "howto/devhowto/devhowtoRobustFailure.md", "FileMissing": true}
       ]}
     ],
     "garage": [

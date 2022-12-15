@@ -227,11 +227,13 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Naive Failures</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/" class="active">Converting Variables to English</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">More Robust Failures</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
           
@@ -328,7 +330,7 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 </code></pre></div></div>
 
-<p>Errors in that MRS from <code class="language-plaintext highlighter-rouge">_large_a_1</code> should say “A <em>file</em> is not large” since the only things that can be in <code class="language-plaintext highlighter-rouge">x</code> by the time it gets to <code class="language-plaintext highlighter-rouge">_large_a_1</code> have been filtered to be files.</p>
+<p>Errors in that MRS from <code class="language-plaintext highlighter-rouge">_large_a_1</code> should say “A <em>file</em> is not large” since the only things that can be in <code class="language-plaintext highlighter-rouge">x</code> by the time it gets to <code class="language-plaintext highlighter-rouge">_large_a_1</code> have been restricted to be files.</p>
 
 <p>For “A dog is large”:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          ┌────── _dog_n_1(x3)
@@ -339,16 +341,16 @@ _a_q(x3,RSTR,BODY)
 
 <p>etc.</p>
 
-<p>If we can get a description of what <code class="language-plaintext highlighter-rouge">x</code> is, we can write one error message and have it work well no matter how the predication is used.</p>
+<p>If we can get a description of what <code class="language-plaintext highlighter-rouge">x</code> is, we can write one error message and have it work no matter how the predication is used.</p>
 
 <h3 id="determining-what-to-call-x">Determining What to Call “x”</h3>
-<p>We can figure out what the variable <code class="language-plaintext highlighter-rouge">x</code> has been filtered to “so far” by taking advantage of some things we know:</p>
+<p>We can figure out what the variable <code class="language-plaintext highlighter-rouge">x</code> has been restricted to “so far” by taking advantage of some things we know:</p>
 
 <ol>
   <li>We know how the tree is executed (depth-first)</li>
   <li>We know what the predications in the tree are</li>
   <li>We know which predication reported the error</li>
-  <li>We know where that predication is in the execution order</li>
+  <li>Thus: We know where the failed predication is in the execution order</li>
 </ol>
 
 <p>So, in the scope-resolved tree for “a dog is large”:</p>
@@ -358,9 +360,17 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 </code></pre></div></div>
 
-<p>… if the error came from <code class="language-plaintext highlighter-rouge">_large_a_1</code>, we must have finished <code class="language-plaintext highlighter-rouge">_dog_n_1</code> but be in the middle of resolving <code class="language-plaintext highlighter-rouge">_a_q</code>.  At that point, the variable <code class="language-plaintext highlighter-rouge">x3</code> contains something that is <code class="language-plaintext highlighter-rouge">dog</code> (not even <code class="language-plaintext highlighter-rouge">*a* dog</code> yet).  In this way, we can write code which gives the English description of a variable <em>at a certain point in the tree’s execution</em>. We can use that to build failure messages that have the proper “thing” for any phrase we encounter.</p>
+<p>… if the error came from <code class="language-plaintext highlighter-rouge">_large_a_1</code>, we must have finished <code class="language-plaintext highlighter-rouge">_dog_n_1</code> but be in the middle of resolving <code class="language-plaintext highlighter-rouge">_a_q</code>.  At that point, the variable <code class="language-plaintext highlighter-rouge">x3</code> contains something that is restricted to <code class="language-plaintext highlighter-rouge">dog</code> things (not even <code class="language-plaintext highlighter-rouge">*a* dog</code> yet).  In this way, we can write code which gives the English description of a variable <em>at a certain point in the tree’s execution</em>. We can use that to build failure messages that have the proper “thing” for any phrase we encounter.</p>
 
-<p>To do this, let’s create a function (<code class="language-plaintext highlighter-rouge">EnglishForDelphinVariable()</code>) which takes 1) the <code class="language-plaintext highlighter-rouge">variable</code> we want English for, 2) the MRS, and 3) the place in the tree for which we want the English. It will walk the tree in execution order using the function we’ve written <a href="../devhowtoSimpleQuestions">in a previous section</a> called <code class="language-plaintext highlighter-rouge">WalkTreeUntil()</code>. This function will pass each predication to a different function called <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> that determines if the predication is doing anything to the <code class="language-plaintext highlighter-rouge">variable</code> in question. If so, it adds some data to a structure called <code class="language-plaintext highlighter-rouge">nlg_data</code> (“NLG” stands for “Natural Language Generation”). At the end, we call a function (<code class="language-plaintext highlighter-rouge">ConvertToEnglish</code>) that takes all the gathered data and turns it into English:</p>
+<p>To do this, let’s create a function, <code class="language-plaintext highlighter-rouge">EnglishForDelphinVariable()</code>, which takes:</p>
+
+<ol>
+  <li>The <code class="language-plaintext highlighter-rouge">variable</code> we want English</li>
+  <li>The MRS</li>
+  <li>The place in the tree for which we want the English</li>
+</ol>
+
+<p>It will walk the tree in execution order using the function we’ve written <a href="../devhowtoSimpleQuestions">in a previous section</a> called <code class="language-plaintext highlighter-rouge">WalkTreeUntil()</code>. This function will pass each predication, in execution order, to a different function called <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code>. That function will determine if the predication is restricting the <code class="language-plaintext highlighter-rouge">variable</code> in question somehow. If so, it adds some data to a structure called <code class="language-plaintext highlighter-rouge">nlg_data</code> (“NLG” stands for “Natural Language Generation”) that is the English description of what the restriction <em>is</em>. At the end, we call a function (<code class="language-plaintext highlighter-rouge">ConvertToEnglish</code>) that takes all the gathered data and turns it into English:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Given the index where an error happened and a variable,
 # return what that variable "is" up to that point, in English
@@ -394,7 +404,7 @@ def EnglishForDelphinVariable(failure_index, variable, mrs):
     return ConvertToEnglish(nlg_data)
 </code></pre></div></div>
 
-<p>For now, <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> takes a very simple approach to seeing if a predication is “contributing to” the <code class="language-plaintext highlighter-rouge">variable</code>. Predications which <em>introduce</em> a variable (as described in a <a href="../devhowtoEvents">previous section</a>) are, in some sense, the base “thing” that the variable is. They should clearly be part of its description. Quantifiers for that variable describe “how much” of it there are, so they should be included as well. There are lots more we could add (and we will later) but keeping it in this simple gets us a long way for now:</p>
+<p>For now, <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> takes a very simple approach to seeing if a predication is restricting the <code class="language-plaintext highlighter-rouge">variable</code>: Predications which <em>introduce</em> a variable (as described in a <a href="../devhowtoEvents">previous section</a>) are, in some sense, the base “thing” that the variable is. They should clearly be part of its description. Quantifiers for that variable describe “how much” of it there is, so they should be included as well. There is lots more we could add (and we will later) but keeping it simple is fine for now:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to 
 # the variable specified. Put whatever it contributes in nlg_data
@@ -416,29 +426,31 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
             nlg_data["Topic"] = parsed_predication["Lemma"]
 </code></pre></div></div>
 
-<p>Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is <em>much</em> more complicated than this, and we’ll tackle doing it “right” later. For now, our naive approach will illustrate the ideas:</p>
-
 <blockquote>
   <p>Note: The code for <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> is described in an <a href="../devhowtoParsePredication">appendix</a></p>
 </blockquote>
 
+<p>Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is <em>much</em> more complicated than this, and we’ll tackle doing it “right” later. For now, our naive approach will illustrate the ideas:</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Takes the information gathered in the nlg_data dictionary
 # and converts it, in a very simplistic way, to English
 def ConvertToEnglish(nlg_data):
+    phrase = ""
+
     if "Quantifier" in nlg_data:
-        quantifier = nlg_data["Quantifier"]
+        phrase += nlg_data["Quantifier"] + " "
     else:
-        quantifier = "a"
+        phrase += "a "
 
     if "Topic" in nlg_data:
-        topic = nlg_data["Topic"]
+        phrase += nlg_data["Topic"]
     else:
-        topic = "thing"
+        phrase += "thing"
 
-    return f"{quantifier} {topic}"
+    return phrase
 </code></pre></div></div>
 
-<p>Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from “A file is large”, we can test it out by calling it with different indices to see what it thinks “x1” is at that point:</p>
+<p>Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from “A file is large”, we can test it out by calling it with different indices to see what it thinks <code class="language-plaintext highlighter-rouge">x1</code> is at that point:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example12():
     mrs = {"RELS": [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]}
@@ -458,7 +470,7 @@ a thing
 a file
 </code></pre></div></div>
 
-<p>You can see that, until predication #2 has succeeded (<code class="language-plaintext highlighter-rouge">_file_n_of</code>), <code class="language-plaintext highlighter-rouge">x1</code> is described as “a thing” since nothing has really filtered it yet. Once it gets to predication #3 it now holds “a file”. We could easily beef up our code so that after <code class="language-plaintext highlighter-rouge">_large_a_1</code> it is described as “a large file” and we will, eventually.</p>
+<p>You can see that, until predication #2 has succeeded (<code class="language-plaintext highlighter-rouge">_file_n_of</code>), <code class="language-plaintext highlighter-rouge">x1</code> is described as “a thing” since nothing has restricted it yet. Once it gets to predication #3 it now holds “a file”. We could easily beef up our code so that after <code class="language-plaintext highlighter-rouge">_large_a_1</code> it is described as “a large file” and we will, eventually.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 
