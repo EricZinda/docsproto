@@ -1,5 +1,5 @@
 ## Reporting a Failure More Robustly
-One final piece of cleanup work remains in our effort to report decent failures when resolving an MRS: We will be returning a lot of the same errors from different predications, so, instead of littering the code with full sentences like "There is not a large thing", we'll use constants like `doesntExist` and allow them to take arguments like `x3`. Then, using the code [from the previous section](devhowtoConceptualFailures), we can create a shared routine that turns them into English and fills them in with descriptions of the variables at the point of failure.  Like this:
+One final piece of cleanup work remains in our effort to report decent failures when resolving an MRS. We will be returning a lot of the same errors from different predications. Instead of littering the code with full sentences like "There is not a large thing", we'll use constants like `doesntExist` and allow them to take arguments like `x3`. Then, using the code [from the previous section](devhowtoConceptualFailures), we can create a shared routine that turns them into English and fills them in with descriptions of the variables at the point of failure.  Like this:
 
 ~~~            
 # error_term is of the form: [index, error] where "error" is another 
