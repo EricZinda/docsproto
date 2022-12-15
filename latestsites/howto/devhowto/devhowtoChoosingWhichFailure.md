@@ -1,6 +1,6 @@
 {% raw %}### Reporting the Right Failure
 Before we go any further, we need to step back and work through how to deal with and report on failures in the system. The way things are currently built:
-- If the user says, "There is a large file" with no large files or no files at all in the system they will get the response: "No, that isn't correct"
+- If the user says, "There is a large file" with no large files (or no files at all) in the system, they will get the response: "No, that isn't correct"
 - If the user says "I delete a file" or "Bill deletes a file" they will get the response: "Couldn't do that"
 
 We can do better, but we'll need to work through a few challenges first.
@@ -57,23 +57,23 @@ So, when solving the MRS with this world definition, we hit (in this order):
 - a `large_a_1` failure
 - a solution (i.e. no failure)
 
-Even though the system hit two failures in solving the MRS, the user that said "a file is large" for this world wouldn't expect *any* failures to be reported. They would expect something like "correct!" to be said.
+Even though the system hit two failures in solving the MRS, the user that said "a file is large" wouldn't expect *any* failures to be reported. They would expect something like "Correct!" to be said.
 
-Another example: what if the user said, "A file is *very* large"? In solving the MRS with the same world you'd get (in this order):  
+Another example: What if the user said, "A file is *very* large"? In solving the MRS with the same world you'd get (in this order):  
 - a `_file_n_of` failure
 - a `large_a_1` failure (since none are "*very* large")
 - a `large_a_1` failure (since none are "*very* large")
 - a `_file_n_of` failure
 
-There were 4 failures encountered when solving the MRS for this case. The user would ideally like the error to be, "No, there isn't a very large file", which presumably corresponds to the middle two. Which heuristic helps us choose those?
+There were 4 failures encountered when solving the MRS for this case. The user would ideally like the error to be something like, "No, there isn't a very large file", which presumably corresponds to the middle two. Which heuristic helps us choose those?
 
 One heuristic that works well in practice is this: If there is a solution for an MRS, don't report any errors. If there is no solution for an MRS, report the error from the "deepest/farthest" failure possible.
 
 The intuition for why this works is this:
 
-If there was a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
+If there *was* a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
 
-If there wasn't a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that quickly didn't work out. They'll list the failure that is "the closest they got to succeeding".  For example:
+If there *wasn't* a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that didn't work out. They'll likely list the failure that is "the closest they got to succeeding".  For example:
 
     (In a world where there are 10 things on the counter, 
     including milk, and Bob is holding things he can't put down)
@@ -83,7 +83,9 @@ If there wasn't a solution, the user will want to know why not. The "real" reaso
     Bob: (bad answer) "I thought about handing you ketchup, 
                         but then realized it wasn't milk"
 
-The second one is bad for many reasons, but here we'll focus on the fact that Alice probably wanted the one "closest to the solution" as a starting point. Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 9 different "failures" until one succeeded). Then, he tried to "give it to Alice" which failed because his hands were unavailable. She could ask for more detail or alternative solutions if she really wanted them. The failures that got the farthest in the tree are usually closest to a solution and thus will usually "make the most sense" to report.
+The second answer is bad for many reasons, but here we'll focus on the fact that Alice probably wanted the answer "closest to the solution" as a starting point. She could always ask for more detail or alternative solutions if she really wanted them.
+
+Let's look into Bob's head to see how the answers were generated: Bob tried to solve the request by looking at each thing on the counter until he found the milk (that was 9 different "failures" until one succeeded). Then, he tried to "give it to Alice" which failed because his hands were unavailable. The last failure happened "closest to the solution" and generated the best answer. The other 9 failures were earlier in the process and generated less optimal answers. The failures that get the farthest in the tree are usually closest to a solution and thus will usually "make the most sense" to report.
 
 Here's a more explicit algorithm:
 - Track the "depth" of each predication in the tree, where "depth" means "call order"
@@ -140,7 +142,7 @@ def Call(*args, **kwargs):
     yield from DelphinContext().Call(*args, **kwargs)
 ```
 
-At this point, we've just restructured things into an `ExecutionContext` class and started giving an "index" to every predication, but not using it. Next, we can create a `ReportError()` method that will do the work of recording the "deepest" error, along with a helper function to make it easy to call.
+At this point, we've just restructured things into an `ExecutionContext` class and started giving an "index" to every predication, but we're not using it, yet. Next, we can create a `ReportError()` method that will do the work of recording the "deepest" error, along with a helper function to make it easy to call.
 
 ```
 class ExecutionContext(object):
@@ -157,5 +159,5 @@ def ReportError(error):
     DelphinContext().ReportError(error)
 ```
 
-With all that in place, we will now remember which is the right error to report. The [next section](../devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
+The system will now remember which is the right ("deepest") error to report. The [next section](../devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
 <update date omitted for speed>{% endraw %}

@@ -235,7 +235,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/" class="active">Final Error Scenarios</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/" class="active">Error Scenarios Summary</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
@@ -313,7 +313,7 @@
 <p>We’ve gone through a lot to improve the error handling of the system, let’s compare where we started and finished by going through some scenarios and comparing answers from the old and new code:</p>
 
 <blockquote>
-  <p>World: Has files, but no large ones.</p>
+  <p>Example5_1 World: Has files, but no large ones.</p>
 
   <p>User: “a file is large”</p>
 
@@ -322,46 +322,88 @@
   <p>New: “a file is not large”</p>
 </blockquote>
 
-<p>Pretty good. The better answer: “There are no large files” will require more complicated Natural Language Generation to get the “s” on “files”. We’ll do that in a future section.</p>
+<p>Pretty good.</p>
 
 <p>What if there are no files at all?</p>
 <blockquote>
-  <p>World: Has no files.</p>
+  <p>Example5_2 World: Has no files.</p>
 
   <p>User: “a file is large”</p>
 
   <p>Old: “No, that isn’t correct”</p>
 
-  <p>New: “a file doesn’t exist”</p>
+  <p>New: “There isn’t a file in the system”</p>
 </blockquote>
 
-<p>The wording could be better (“There are no files”), but it is telling the user that there aren’t any files <em>at all</em>, which is nice and clear. We can only improve the wording once we tackle NLG in the future section.</p>
+<p>That one is very clear.</p>
 
 <blockquote>
-  <p>World: Has files, but no large ones.</p>
+  <p>Example9 World: Has files, but no large ones.</p>
 
   <p>User: “delete a large file”</p>
 
   <p>Old: “Couldn’t do that”</p>
 
-  <p>New: “a file is not large”</p>
+  <p>New: “There isn’t a file in the system”</p>
 </blockquote>
 
-<p>Same erro has above. Great.</p>
+<p>This one is correct except that our NLG functions don’t know how to add “large” in there. Let’s update them to understand (some) adjectives:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to
+# the variable specified. Put whatever it contributes in nlg_data
+def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
+    # Parse the name of the predication to find out its
+    # part of speech (POS) which could be a noun ("n"),
+    # quantifier ("q"), etc.
+    parsed_predication = ParsePredicationName(predication[0])
+    
+    ...
+    
+    # Assume that adjectives that take the variable as their first argument
+    # are adding an adjective modifier to the phrase
+    elif parsed_predication["Pos"] == "a" and predication[2] == variable:
+        if "Modifiers" not in nlg_data:
+            nlg_data["Modifiers"] = []
+
+        nlg_data["Modifiers"].append(parsed_predication["Lemma"])
+
+
+# Takes the information gathered in the nlg_data dictionary
+# and converts it, in a very simplistic way, to English
+def ConvertToEnglish(nlg_data):
+    phrase = ""
+
+    if "Quantifier" in nlg_data:
+        if nlg_data["Quantifier"] != "&lt;none&gt;":
+            phrase += nlg_data["Quantifier"] + " "
+    else:
+        phrase += "a "
+
+    if "Modifiers" in nlg_data:
+        # " ".join() takes a list and turns it into a string
+        # with the string " " between each item
+        phrase += " ".join(nlg_data["Modifiers"]) + " "
+
+    if "Topic" in nlg_data:
+        phrase += nlg_data["Topic"]
+    else:
+        phrase += "thing"
+
+    return phrase
+</code></pre></div></div>
+<p>Now it properly responds with “There isn’t a large file in the system”. Great!</p>
 
 <blockquote>
-  <p>World: Has large files.</p>
+  <p>Example13 World: Has large files.</p>
 
-  <p>User: “I delete a large file”</p>
+  <p>User: “He deletes a large file”</p>
 
   <p>Old: “Couldn’t do that”</p>
 
-  <p>New: “I don’t know who ‘I’ is”</p>
+  <p>New: “There isn’t a he/she in the system”</p>
 </blockquote>
 
 <p>Clearly says <em>why</em> the system couldn’t do it now.</p>
-
-<p>Overall, we now have error messages with the right information and semantics, but sometimes poor wording due to our simplistic Natural Language Generation functions. We’ll get there.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 

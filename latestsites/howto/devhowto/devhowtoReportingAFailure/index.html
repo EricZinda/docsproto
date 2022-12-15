@@ -235,7 +235,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Final Error Scenarios</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
@@ -310,15 +310,12 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="reporting-a-failure-naively">Reporting a Failure Naively</h2>
-<p>With all that in place, we can now start reporting errors from predications. As outlined in the <a href="../devhowtoPredicationContract">predication contract</a>, “failure” is when the predication is not true for its arguments, so let’s add a little code at the end of <code class="language-plaintext highlighter-rouge">large_a_1</code> to record an error when there is a failure. We’ll call the new <code class="language-plaintext highlighter-rouge">ReportError()</code> method and pass it what (naively) seems like the right error given the code:</p>
+<p>With all that in place, we can now start reporting errors from predications. As outlined in the <a href="../devhowtoPredicationContract">predication contract</a>, “failure” is when the predication is not true for its arguments, so let’s add a little code at the end of <code class="language-plaintext highlighter-rouge">large_a_1</code> to record an error when there is a failure. We’ll call the new <code class="language-plaintext highlighter-rouge">ReportError()</code> method and pass it what seems like the right error given the code:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_large_a_1")
 def large_a_1(state, e_introduced, x_target):
-    x_target_value = state.GetVariable(x_target)
-    if x_target_value is None:
-        iterator = state.AllIndividuals()
-    else:
-        iterator = [x_target_value]
+
+    ...
     
     degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
     for item in iterator:
@@ -330,44 +327,50 @@ def large_a_1(state, e_introduced, x_target):
             # variables into it using {}, in a kind of template approach
             ReportError(f"'{item}' is not large")
 </code></pre></div></div>
-<p><code class="language-plaintext highlighter-rouge">large_a_1</code> looks at an object, checks if it has a size at all, and if so, checks if it is “large” and succeeds if it is. If not, a logical error to report would be “this thing is not large”.</p>
 
-<p>If we run “A file is very large” using our same example world:</p>
+<p><code class="language-plaintext highlighter-rouge">large_a_1</code> looks at an object, checks if it has a size at all, and if so, checks if it is “large” and succeeds if it is. If not, a logical error to report would be “<this thing="" I="" was="" passed=""> is not large", which we did.</this></p>
+
+<p>Let’s try it by evaluating “A file is large”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          ┌────── _file_n_of(x3,i8)
+_a_q(x3,RSTR,BODY)    
+               └─ _large_a_1(e2,x3)
+</code></pre></div></div>
+
+<p>… against this example world:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a folder
 a small file
-a large file
+a file
 a dog
 </code></pre></div></div>
 
-<p>… and our new error logic, we’ll get these failures (#2 will be remembered as the error using our new heuristic):</p>
+<p>… and with our new error logic, we’ll get these failures:</p>
 
 <ol>
-  <li>a <code class="language-plaintext highlighter-rouge">_file_n_of</code> failure</li>
-  <li>a <code class="language-plaintext highlighter-rouge">large_a_1</code> failure (since none are “very large”)</li>
-  <li>a <code class="language-plaintext highlighter-rouge">large_a_1</code> failure (since none are “very large”)</li>
-  <li>a <code class="language-plaintext highlighter-rouge">_file_n_of</code> failure</li>
+  <li><code class="language-plaintext highlighter-rouge">a folder</code>: a <code class="language-plaintext highlighter-rouge">_file_n_of</code> failure</li>
+  <li><code class="language-plaintext highlighter-rouge">a small file</code>: a <code class="language-plaintext highlighter-rouge">large_a_1</code> failure</li>
+  <li><code class="language-plaintext highlighter-rouge">a file</code>: a <code class="language-plaintext highlighter-rouge">large_a_1</code> failure</li>
+  <li><code class="language-plaintext highlighter-rouge">a dog</code>: a <code class="language-plaintext highlighter-rouge">_file_n_of</code> failure</li>
 </ol>
 
-<p>The actual error reported will be: “‘a small file’ is not large”. Even though this error looked like it made sense in the code, it is pretty far from the one we wanted: “There isn’t a very large file”.  If the world was simpler, we might have gotten an even worse result.  For example in this world:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a dog
-a folder
-</code></pre></div></div>
-<p><code class="language-plaintext highlighter-rouge">file_n_of</code> would give us the error: “‘a dog’ is not a file” instead of “There isn’t a very large file”. Clearly a bad response.</p>
+<p>Error #2 will be remembered using our new heuristic. The actual error reported from #2 for the phrase, “A file is large” will be: “‘a small file’ is not large”. This is an odd answer.  Even though this error looked like it made sense in the code, it is pretty far from the one we wanted which is something like: “There isn’t a large file”.</p>
 
-<p>Something is wrong with the approach. We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The <em>mechanics</em> are to feed every object in the world through the system, but the overall <em>objective</em> is to, for example, find an <code class="language-plaintext highlighter-rouge">x</code> that makes <code class="language-plaintext highlighter-rouge">_large_a_1</code> true. So, if we quit describing the <em>mechanics</em> and describe the failure of the <em>objective</em>, we’ll get a better error.</p>
+<p>We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The <em>mechanics</em> are to feed every object in the world through the variables in the MRS, but the overall <em>objective</em> is to, for example, find an <code class="language-plaintext highlighter-rouge">x</code> that makes <code class="language-plaintext highlighter-rouge">_large_a_1</code> true.  The problem is that we are reporting the error with a textual description of the <em>example</em> that is currently in the <code class="language-plaintext highlighter-rouge">x</code> variable (e.g. <code class="language-plaintext highlighter-rouge">a small file</code>) instead of what <code class="language-plaintext highlighter-rouge">x</code> <em>represents</em> (“a file”).</p>
 
-<p>Said another way: evaluating <code class="language-plaintext highlighter-rouge">_large_a_1(x)</code> means “Give me the large x’s in the world”.  If it fails, that means: “There is not a large x in the world”. So, changing our code to be this:</p>
+<p>Right now, all that <code class="language-plaintext highlighter-rouge">large_a_1</code> knows about <code class="language-plaintext highlighter-rouge">x</code> is that it is a variable, it doesn’t know that x represents <code class="language-plaintext highlighter-rouge">a file</code>. So, the best we can do at the moment is to say “a thing”:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_large_a_1")
 def large_a_1(state, e_introduced, x_target):
-            
+    
     ...
     
-            ReportError(f"There is not a large thing")
+            ReportError("A thing is not large")
 </code></pre></div></div>
 
-<p>Will respond to “A file is very large” with “There is not a large thing” which is … better. One improvement is to make the error include “very” when “very” is modifying it, which is easy. But, even with “very” included, most users would still view it as a logical, if somewhat opaque, answer.  The <a href="../devhowtoConceptualFailures">next section</a> will improve it even more.</p>
+<p>With that, if we run “A file is large” through the system with no large files, we’ll get: “A thing is not large”.  This is the best we can do for now.</p>
+
+<p>The next section will improve it to say “A file is not large” which is more clear.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 
