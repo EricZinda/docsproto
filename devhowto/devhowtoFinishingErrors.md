@@ -4,7 +4,7 @@ Now that our more robust error approach is in place, lets fix the predications w
 `large_a_1`, `file_n_of` and `a_q` have already been completed. `delete_v_1`, `pron`, `pronoun_q`, `which_q`, `very_x_deg`, `folder_n_of` remain.
 
 ### `folder_n_of`
-We can approach `folder_n_of` just like `file_n_of`, and in fact that is what most nouns will look like. The only new code is the last line below that says "whatever x is at this point doesn't exist" for the same reasons [we described before](devhowtoReportingAFailure):
+We can approach `folder_n_of` just like `file_n_of`, and, in fact, that is what most nouns will look like. The only new code is the last line below that says "`x` is not a folder" for the same reasons [we described before](devhowtoReportingAFailure):
 
 ~~~
 @Predication(vocabulary, name="_folder_n_of")
@@ -23,11 +23,11 @@ def folder_n_of(state, x):
             new_state = state.SetX(x, item)
             yield new_state
         else:
-            ReportError(["doesntExist", x])
+            ReportError(["xIsNotY", x, "folder"])
 ~~~
 
 ### `which_q`, and `pronoun_q`
-The quantifiers `which_q`, and `pronoun_q` should work just like `a_q` and report a special error if their `RSTR` can't be resolved. If the `BODY` fails it will report its own error:
+The quantifiers `which_q`, and `pronoun_q` should work just like `a_q` did in a [previous section](devhowtoQuantifierErrors) and report a special error if their `RSTR` can't be resolved. If the `BODY` fails it will report its own error:
 
 ~~~
 # This is just used as a way to provide a scope for a
@@ -59,6 +59,7 @@ def default_quantifier(state, x_variable, h_rstr, h_body):
         ReportError(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
         
         
+# "he/she" deletes a large file
 def Example13():
     state = State([Actor(name="Computer", person=2),
                    Folder(name="Desktop"),
@@ -84,7 +85,7 @@ Obviously this isn't the right answer.
 
 First, for "proposition failures", we can quit saying "No, that isn't correct:". Just saying the error should be enough.
 
-Second, our simple approach of just including the quantifier worked for quantifiers like "a", "the", "some", but not for special "abstract" quantifiers like `pronoun_q` or `which_q`. Abstract quantifiers don't start with an "_" and the `ParsePredicationName()` function already detects this and sets "Surface" (meaning "is this represented on the surface, i.e. the original text) to `True` or `False`. So, those are easy enough to detect:
+Second, our simple approach of just including the quantifier worked for quantifiers like "a", "the", "some", but not for special "abstract" quantifiers like `pronoun_q` or `which_q`. Abstract quantifiers don't start with an "_" and the `ParsePredicationName()` function already detects this and sets "Surface" (meaning "is this represented on the surface, i.e. the original text) to `True` or `False`. So, those are easy enough to detect and ignore:
 ~~~
 # See if this predication in any way contributes words to
 # the variable specified. Put whatever it contributes in nlg_data
@@ -165,7 +166,7 @@ There isn't a he/she in the system
 Looks good! 
 
 ### `pron(x)`
-`pron(x)` *does* need an error so that it can report when the user uses a pronoun that we haven't implemented. We can't really form sentences that will use this yet, because everything we can say has `pron` in the `RSTR` and any error we report there will get overridden by the quantifier as [described here](devhowtoQuantiferErrors). We'll add the code, though, so it can be used later.
+`pron(x)` *does* need an error so that it can report when the user uses a pronoun that we haven't implemented. We can't really form sentences that will use this yet, because everything we can say has `pron` in the `RSTR` and any error we report there will get overridden by the quantifier as [described here](devhowtoQuantifierErrors). We'll add the code, though, so it can be used later.
 
 ~~~
 @Predication(vocabulary, name="pron")
@@ -204,9 +205,7 @@ def very_x_deg(state, e_introduced, e_target):
 ~~~
 
 ### `delete_v_1`
-The last predication we need to add errors to is `delete_v_1`. By the time we have gone far enough in the tree to be evaluating the verb that is the "index" of it (i.e. the main verb as described in [this section](devhowtoSentenceForce)), we are guaranteed that the variables will no longer be "free" -- they will have actual values. That's because the index verb is the last thing that is going to be evaluated. This makes writing errors for it much like returning errors from any regular Python function.
-
-We only have to handle the case where someone tries to delete something they shouldn't and when someone besides the "computer" is asked to do the deleting:
+The last predication we need to add errors to is `delete_v_1`. We only have to handle the case where someone tries to delete something they shouldn't and when someone besides the "computer" is asked to do the deleting:
 ~~~
 @Predication(vocabulary, name="_delete_v_1")
 def delete_v_1(state, e_introduced, x_actor, x_what):
@@ -260,6 +259,7 @@ To see the result we also need to update `RespondToMRS()` to use our new error r
 Now we can run the example we saw much earlier "Delete you"
 
 ~~~
+# delete you
 def Example8():
     state = State([Actor(name="Computer", person=2),
                    Folder(name="Desktop"),
@@ -282,7 +282,7 @@ I can't delete a you
 ~~~
 First: Notice that it is using the code for transforming ("realizing" in linguistics) `pron` in English to say "you".  But the error itself isn't quite right.  It shouldn't say "a you".
 
-The last trick is figuring out when a quantifier like "a" should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we'll create a special word "<none>" that is used when an abstract quantifier is detected. When `ConvertToEnglish()` sees it, it won't add a default "a" to the word:
+The last trick is figuring out when a quantifier like "a" should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we'll create a special word `<none>` that is used when an abstract quantifier is detected. When `ConvertToEnglish()` sees it, it won't add a default "a" to the word:
 
 ~~~
 def RefineNLGWithPredication(mrs, variable, predication, nlg_data):

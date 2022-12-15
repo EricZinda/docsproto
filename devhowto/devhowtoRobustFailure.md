@@ -115,5 +115,5 @@ def Example11():
 No, that isn't correct: a thing is not a file
 ~~~
 
-That one isn't good. The [next section](devhowtoQuantiferErrors) will analyze why, and how to fix it.
+That one isn't good. The [next section](devhowtoQuantifierErrors) will analyze why, and how to fix it.
 
