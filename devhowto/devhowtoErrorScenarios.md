@@ -1,5 +1,5 @@
 ## Error Scenarios
-We've gone through a lot to improve the error handling of the system, let's compare where we started and finished by going through some scenarios and comparing answers from the old and new code:
+We've gone through a lot to improve the error handling of the system. Now, let's compare where we started and finished by going through some scenarios:
 
 
 > Example5_1 World: Has files, but no large ones. 
