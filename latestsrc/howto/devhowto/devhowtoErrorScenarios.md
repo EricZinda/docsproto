@@ -1,5 +1,5 @@
 {% raw %}## Error Scenarios
-We've gone through a lot to improve the error handling of the system, let's compare where we started and finished by going through some scenarios and comparing answers from the old and new code:
+We've gone through a lot to improve the error handling of the system. Now, let's compare where we started and finished by going through some scenarios:
 
 > Example5_1 World: Has files, but no large ones. 
 > 
@@ -90,4 +90,5 @@ Now it properly responds with "There isn't a large file in the system". Great!
 
 
 Clearly says *why* the system couldn't do it now.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-14 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoErrorScenarios.md)]{% endraw %}
