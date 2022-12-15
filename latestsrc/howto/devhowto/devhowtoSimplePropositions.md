@@ -1,5 +1,5 @@
 {% raw %}## Responding to Simple Propositions
-"Propositions" are sentences that declare something to be true like "A file is very large". If true, a human would expect something like "yep, you are right" or "correct!" or "yes, this is true" as a response (error cases will be handled later). A phrase is a proposition if the "sentence force" (SF) property of its index variable is `prop` as [described in the previous section](../devhowtoSentenceForce).
+"Propositions" are sentences that declare something to be true like "A file is very large". If true, a human would expect something like "yep, you are right" or "correct!" or "yes, this is true" as a response (error cases will be [handled later](../devhowtoChoosingWhichFailure)). A phrase is a proposition if the "sentence force" (SF) property of its index variable is `prop` as [described in the previous section](../devhowtoSentenceForce).
 
 Below is the MRS for "A file is very large". As described in the [previous section](../devhowtoSentenceForce): The `INDEX = e2`, and `e2` has a sentence force of "proposition": `SF: prop`.
 ```
@@ -19,7 +19,7 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
                         └ _large_a_1(e2,x3)
 ```
 
-In order to start responding to user phrases properly, we need to begin passing in more of the information from the MRS, not just the predications.  We'll need the variable properties and the `INDEX`. We'll do this using a dictionary. In fact, we can make it easier to read using the Python `json` format. The `json` format is basically a way of building up an object out of base types (strings, integers, etc), lists and dictionaries, in a big tree. 
+In order to start responding to user phrases properly, we need to begin passing in more information from the MRS, not just the predications.  We'll need the variable properties and the `INDEX`. We'll do this using a dictionary. In fact, we can make it easier to read using the Python `json` format. The `json` format is basically a way of building up an object out of base types (strings, integers, etc), lists and dictionaries, in a big tree. 
 
 In a `json` declaration:
 - Dictionaries are in `{}` with key/value pairs represented by `"key":"value"`
@@ -47,9 +47,9 @@ mrs["Variables"] = {"x1": {"NUM": "pl"},
 # Set the "RELS" key to the scope-resolved MRS tree, using our format
 mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
 ```
-Thus, the `mrs` variable ends up as a big `json` object that has the MRS definition (that we understand so far) in it.
+Thus, the `mrs` variable ends up being a big, single `json` object that has the MRS definition (that we understand so far) in it.
 
-Now we can create a new function called `RespondToMRS()` that inspects the MRS to properly respond to a "proposition":
+Now we can create a new function called `RespondToMRS()` that inspects the MRS to properly respond to a proposition:
 
 ```
 def RespondToMRS(state, mrs):
@@ -101,4 +101,4 @@ Yes, that is true.
 
 In the [next section](../devhowtoSimpleQuestions), we'll respond to questions.
 
-Last update: 2022-12-07 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimplePropositions.md)]{% endraw %}
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimplePropositions.md)]{% endraw %}

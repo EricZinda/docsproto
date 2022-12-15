@@ -314,7 +314,7 @@
         <h2 id="simple-commands">Simple Commands</h2>
 <p>It is finally time to implement a “command” so that users can actually <em>do</em> something with the system we are building. We’re going to implement the “delete” command.</p>
 
-<p>We’ll start with the MRS for “delete a large file”, which has a few new predications we’ll need to deal with:</p>
+<p>We’ll start with the MRS for “delete a large file”, which has a few new predications to deal with:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
 RELS: &lt; 
@@ -338,15 +338,15 @@ pronoun_q(x3,RSTR,BODY)            │
 <p>The sentence force for this sentence is <code class="language-plaintext highlighter-rouge">SF: comm</code> meaning “command”, determined the same way we <a href="../devhowtoSentenceForce">described in an earlier section</a>.</p>
 
 <h3 id="pronouns-pron-and-pronoun_q">Pronouns: pron and pronoun_q</h3>
-<p>The first two new predicates we encounter are: <code class="language-plaintext highlighter-rouge">pron(x3)</code> and <code class="language-plaintext highlighter-rouge">pronoun_q(x3,RSTR,BODY)</code> and they usually work together as they do here.</p>
+<p>The first two new predicates we encounter are: <code class="language-plaintext highlighter-rouge">pron(x3)</code> and <code class="language-plaintext highlighter-rouge">pronoun_q(x3,RSTR,BODY)</code> and they often work together as they do here.</p>
 
-<p><code class="language-plaintext highlighter-rouge">pron(x)</code> needs to fill <code class="language-plaintext highlighter-rouge">x</code> with an object that represents what the specified pronoun is <em>referring to</em>. It does this by looking at the properties for the <code class="language-plaintext highlighter-rouge">x</code> variable to determine if the pronoun is “you” (<code class="language-plaintext highlighter-rouge">PERS: 2</code>), “him/her”(<code class="language-plaintext highlighter-rouge">PERS: 3</code>), etc. and sets the variable to be whatever person “you” (or whatever) are referring to.</p>
+<p><code class="language-plaintext highlighter-rouge">pron(x)</code> needs to fill <code class="language-plaintext highlighter-rouge">x</code> with an object that represents what the specified pronoun is <em>referring to</em>. It does this by looking at the properties for the <code class="language-plaintext highlighter-rouge">x</code> variable to determine if the pronoun is “you” (<code class="language-plaintext highlighter-rouge">PERS: 2</code> – second person), “him/her”(<code class="language-plaintext highlighter-rouge">PERS: 3</code> – third person), etc. and sets the variable to be whatever the pronoun is referring to.</p>
 
 <p>There were not any pronouns in our command “delete a large file”, so where did it come from? In this case, the pronoun is an <em>implied</em> “you” since it is a command. I.e “(You) delete a large file”.  Because we are not including the notion of other people in the file system, the only pronouns we probably care to understand are “you” (“can you delete the file?” or the implied case above) and maybe “I” (“I want to delete a file”). For now, let’s just do “you” and fail otherwise.</p>
 
 <p><code class="language-plaintext highlighter-rouge">pronoun_q</code> is just a simple, default quantifier predication that doesn’t <em>do</em> anything except introduce the variable that <code class="language-plaintext highlighter-rouge">pron</code> uses. It acts just like <code class="language-plaintext highlighter-rouge">which_q</code> did in the <a href="../devhowtoSimpleQuestions">Simple Questions section</a>.</p>
 
-<p>To implement these, we’ll need to create a new class to represent “actors” in the system, and then create an instance of it that represents the computer by adding it to the <code class="language-plaintext highlighter-rouge">State</code>. We’ll say that “the computer” is who should be returned when the user says “You” (second person) by setting the <code class="language-plaintext highlighter-rouge">Actor</code> object’s <code class="language-plaintext highlighter-rouge">person</code> property to <code class="language-plaintext highlighter-rouge">2</code>. <code class="language-plaintext highlighter-rouge">Example7()</code> shows what the <code class="language-plaintext highlighter-rouge">State</code> object will look like, along with what the MRS above will look like when converted to our MRS format:</p>
+<p>To implement these, we’ll need to create a new class to represent “actors” in the system, and then create an instance of it that represents the computer by adding it to the <code class="language-plaintext highlighter-rouge">State</code>. We’ll say that “the computer” is who should be returned when the user says “You” (second person) by setting the <code class="language-plaintext highlighter-rouge">Actor</code> object’s <code class="language-plaintext highlighter-rouge">person</code> property to <code class="language-plaintext highlighter-rouge">2</code>. <code class="language-plaintext highlighter-rouge">Example7()</code> the <code class="language-plaintext highlighter-rouge">State</code> and the MRS object with these new concepts added:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Represents something that can "do" things, like a computer
 # or a human (or a dog, etc)
@@ -403,7 +403,7 @@ def pronoun_q(state, x, h_rstr, h_body):
 
 <p>Because our world state is simply a Python list of Python objects, the logic for deleting something is going to be trivial: remove the thing from the list. In fact, implementing what we are doing here in a real file system interface would be trivial as well: delete the file. However, we would have to decide what to do if a user command like “delete <em>every</em> file” fails to delete one of them for some reason. We’ll ignore that in our example and just remove the files from the <code class="language-plaintext highlighter-rouge">State</code> object’s list of state. We can safely do this, even though other predications may still be iterating over them, because our <code class="language-plaintext highlighter-rouge">State</code> object is immutable (<a href="../devhowtoPyhonBasics">as described previously</a>) and we will keep it that way by returning a new <code class="language-plaintext highlighter-rouge">State</code> object when something is deleted, just like we already do for setting variables.</p>
 
-<p>We do have a problem, though. As you’ll see later, we will encounter phrases like “delete <em>every</em> file”, which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only one of the files deleted.  In order to end up with a single world state that has all the files deleted, we’ll have to merge them together at the end somehow.</p>
+<p>We do have a problem, though. As you’ll see later, we will encounter phrases like “delete <em>every</em> file”, which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only <em>one</em> of the files deleted.  In order to end up with a single world state that has <em>all</em> the files deleted, we’ll have to merge them together at the end somehow.</p>
 
 <p>The solution is to create the concept of an “operation” class which does “something” to the state. We will build different operation classes that do different things over time (rename, copy, etc). If a command succeeds with multiple solutions, we can collect all of the operations from the solutions apply <em>all of them</em> to a <em>single</em> state object at the end. In fact, this is a good way to implement our system in general: build up a set of operations based on what the user says and, when we have the final solved MRS, actually apply them to the file system. We won’t be taking that final step here, but we could.</p>
 
@@ -453,7 +453,7 @@ class DeleteOperation(object):
   <p>This is a case where our “immutable” <code class="language-plaintext highlighter-rouge">State</code> class is actually being changed. That’s OK, though, because only the <code class="language-plaintext highlighter-rouge">State</code> class will be asking it to do this, and only on a fresh <code class="language-plaintext highlighter-rouge">State</code> object that isn’t in use yet.</p>
 </blockquote>
 
-<p>When an operation is applied to the <code class="language-plaintext highlighter-rouge">State</code> class, we’ll remember what happened by adding the operation to the new <code class="language-plaintext highlighter-rouge">State</code> object’s list of operations.  Then, once we’ve collected all the solutions to a problem like “delete every file”, we can gather the operations from each of the solutions using the <code class="language-plaintext highlighter-rouge">GetOperations()</code> method, and apply them to the original state. This will give us a new state object that combines them all. You’ll see this at the end of this section.</p>
+<p>When an operation is applied to the <code class="language-plaintext highlighter-rouge">State</code> class, we’ll remember what happened by adding the operation to the new <code class="language-plaintext highlighter-rouge">State</code> object’s list of operations.  Then, once we’ve collected all the solutions to a problem like “delete every file”, we can gather the operations from each of the solutions using the <code class="language-plaintext highlighter-rouge">GetOperations()</code> method, and apply them, as a group, to the original state. This will give us a new state object that combines them all. You’ll see this at the end of this section.</p>
 
 <p>So now we can finally implement the verb <code class="language-plaintext highlighter-rouge">delete_v_1</code>:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_delete_v_1")
@@ -464,9 +464,9 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
         x_what_value = state.GetVariable(x_what)
         yield state.ApplyOperations([DeleteOperation(x_what_value)])
 </code></pre></div></div>
-<p><code class="language-plaintext highlighter-rouge">delete_v_1</code> first checks to make sure the actor is “Computer”. That’s because the user could have said “Bill deletes a file” and we’d prefer the system to say “I don’t know who Bill is” than to just delete the file. We should only the delete the file when <em>we</em> are told to delete it.</p>
+<p><code class="language-plaintext highlighter-rouge">delete_v_1</code> first checks to make sure the actor is “Computer”. That’s because the user could have said “Bill deletes a file” and we’d prefer the system to say “I don’t know who Bill is” than to just delete the file. We should only delete the file when <em>the computer</em> is told to delete it.</p>
 
-<p>Then, we use our new <code class="language-plaintext highlighter-rouge">ApplyOperations()</code> method to do the deleting, and return the new state object with the object gone.</p>
+<p>Then, we use our new <code class="language-plaintext highlighter-rouge">ApplyOperations()</code> method to do the deleting and return the new state object with the object gone.</p>
 
 <p>Finally, we need to add a new clause to <code class="language-plaintext highlighter-rouge">RespondToMRS()</code> to handle <em>commands</em>. It will simply say “Done!” if the command worked. It will also collect up all of the operations that happened and apply them to a single state object. This isn’t really necessary for this example since we are only deleting one file, but is necessary for phrases like “delete every file”:</p>
 
@@ -513,7 +513,7 @@ Done!
 </code></pre></div></div>
 <p>You can see by the output that a single, arbitrary file was deleted.</p>
 
-<p>There are a couple of interesting things to point out about what we’ve done. The code for <code class="language-plaintext highlighter-rouge">delete_v_1</code> will delete <em>anything</em>, so the phrase “delete you” will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied “you”. This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn’t thought of.</p>
+<p>There are a couple of interesting things to point out in what we’ve done. The code for <code class="language-plaintext highlighter-rouge">delete_v_1</code> will delete <em>anything</em>, so the phrase “delete you” will actually work! Of course, it will then mess up the system because every command after that will not be able to find the implied “you”. This is part of the magic and the challenge of implementing MRS predications, if you implement them right, they can be very general and allow constructions that you hadn’t thought of.</p>
 
 <p>Here’s the MRS to prove that “delete you” only has predications that we’ve implemented:</p>
 
@@ -573,7 +573,7 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
             yield state.ApplyOperations([DeleteOperation(x_what_value)])
 </code></pre></div></div>
 
-<p>Last update: 2022-12-10 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md">edit</a>]</p>
 
         
       </section>

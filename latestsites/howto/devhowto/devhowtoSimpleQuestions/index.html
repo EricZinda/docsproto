@@ -312,7 +312,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="simple-questions">Simple Questions</h2>
-<p>Note that the MRS for “Is a file large?” is identical to the proposition “A file is large.” except that it has a different <a href="../devhowtoSentenceForce">sentence force</a> of <code class="language-plaintext highlighter-rouge">SF: ques</code>:</p>
+<p>Note that the MRS for “Is a file large?” is identical to the proposition “A file is large.” <em>except</em> that it has a different <a href="../devhowtoSentenceForce">sentence force</a> of <code class="language-plaintext highlighter-rouge">SF: ques</code>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
@@ -507,7 +507,7 @@ File(name=file1.txt, size=2000000)
 </code></pre></div></div>
 <p>Note that we have a subtle bug in our implementation of <code class="language-plaintext highlighter-rouge">default_quantifier</code>: we are not yet paying attention to <code class="language-plaintext highlighter-rouge">NUM: sg</code>.  If there were two large files, they would both get returned in this implementation. Really, they should return a failure since the premise of “which file” is wrong, since there are multiple of them. We’ll address that once we get to the section on how to handle plurals.</p>
 
-<p>Last update: 2022-12-12 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleQuestions.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleQuestions.md">edit</a>]</p>
 
         
       </section>

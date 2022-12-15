@@ -1,11 +1,13 @@
 {% raw %}## Event Variables
-So far, we have been conveniently ignoring any event variables (those that start with "e"). Where instance (`x`) variables contain a single instance for any answer, event (`e`) variables are designed to build up a structure. They are how modifiers to a word get tracked. For example, we've been talking about a `_large_a_1(e2,x3) and _file_n_of(x3)` and have ignored what the event variable in `_large_a_1(e2,x3)` is for. We can't do this if we are trying to find a `_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)`.
+So far, we have been conveniently ignoring any event variables (variables that start with "e"). Where instance (`x`) variables contain a single instance for any solution, event (`e`) variables are designed to build up a structure. They are how modifiers to a word get tracked. 
 
-In an MRS, any predication except a quantifier is said to "introduce" its first argument. If you look closely you'll see that every variable is only "introduced" by one predication in a given MRS.  In a sense, that variable *represents* that predication.  If a predication like `_large_a_1(e2,x3)` introduces an event variable `e2`, it does so to provide a place for other predications to hang modifiers.
+For example, we've been talking about a `_large_a_1(e2,x3) and _file_n_of(x3)` and have ignored what the event variable `e2` is for. We can't do this if we are trying to find a `_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)`.
 
-For example, to represent something that is "very large", the word "very" needs to be able to attach its "veryness" to "large". For "very very large" you build a chain where the first "very" modifies the second which modifies "large". This is all done with events, and it happens like this because languages are recursive and allow all kinds of recursive constructions. Delphin needed a way to model this.
+In an MRS, any predication except a quantifier is said to "introduce" its first argument. If you look closely you'll see that every variable is only "introduced" by one predication in a given MRS.  In a sense, that variable *represents* that predication.  If a predication like `_large_a_1(e2,x3)` introduces an event variable `e2`, it does so to provide a place that represents it for other predications to hang modifiers.
 
-Here are the predications generated for: "very large" and "very very large", note that the comma (",") is being used to indicate a conjunction:
+For example, to represent something that is "very large", the word "very" needs to be able to attach its "veryness" to "large". For "very very large" you build a chain where the first "very" modifies the second which modifies "large". This is all done with events, and it happens like this because languages allow all kinds of recursive constructions. DELPH-IN needed a way to model this.
+
+Here are the predications generated for: "very large" and "very very large" (note that the comma (",") is being used to indicate a conjunction):
 
 ```
 # Very large
@@ -15,11 +17,13 @@ _very_x_deg(e2, e1), _large_a_1(e1,x3)
 _very_x_deg(e3, e2), _very_x_deg(e2, e1), _large_a_1(e1,x3)
 ```
 
-You can see that in "very large" `_very_x_deg` takes the event variable *introduced by* `_large_a_1` as an argument. The job of `_very_x_deg` is to put something in the event that `_large_a_1` can look for so that its behavior can be modified to be "very large". `_very_x_deg` also introduces *its own* event variable that other predications can modify. For example: "very very large". The first "very" modifies the event variable introduced by the second "very", etc.
+You can see that in "very large" `_very_x_deg` takes the event variable *introduced by* `_large_a_1` as an argument. The job of `_very_x_deg` is to put something in the event that `_large_a_1` can look for so that its behavior can be modified to be "very large". 
 
-This means, first, that we need a mechanism for handling event variables and, second, that our implementation of `_large_a_1` needs to be modified to pay attention in case its event is modified in some way.
+`_very_x_deg` also introduces *its own* event variable that other predications can modify as, for example, in "very very large". The first "very" modifies the event variable introduced by the second "very", etc.
 
-Handling event variables in our solver will be easy. Since they need to be able to capture what could be a large buildup of modifications in a given sentence, we'll use a dictionary for them. We'll add a helper function to the `State` object to modify them:
+This means, first, that we need a mechanism for handling event variables and, second, that our implementation of `_large_a_1` needs to be modified to pay attention to modifications to its event.
+
+Since event variables   need to be able to capture what could be a large buildup of modifications in a given sentence, we'll use a dictionary for them. We'll add a helper function to the `State` object to modify them:
 
 ```
 class State(object):
@@ -100,4 +104,4 @@ def large_a_1(state, e_introduced, x_target):
 
 `large_a_1` now uses the same logic to determine how much to modify its default notion of "large". Obviously, what "large", "very", etc mean are very domain specific, but this illustrates the concept.
 
-Last update: 2022-12-06 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoEvents.md)]{% endraw %}
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoEvents.md)]{% endraw %}

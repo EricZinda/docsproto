@@ -312,13 +312,15 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="event-variables">Event Variables</h2>
-<p>So far, we have been conveniently ignoring any event variables (those that start with “e”). Where instance (<code class="language-plaintext highlighter-rouge">x</code>) variables contain a single instance for any answer, event (<code class="language-plaintext highlighter-rouge">e</code>) variables are designed to build up a structure. They are how modifiers to a word get tracked. For example, we’ve been talking about a <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3) and _file_n_of(x3)</code> and have ignored what the event variable in <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code> is for. We can’t do this if we are trying to find a <code class="language-plaintext highlighter-rouge">_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)</code>.</p>
+<p>So far, we have been conveniently ignoring any event variables (variables that start with “e”). Where instance (<code class="language-plaintext highlighter-rouge">x</code>) variables contain a single instance for any solution, event (<code class="language-plaintext highlighter-rouge">e</code>) variables are designed to build up a structure. They are how modifiers to a word get tracked.</p>
 
-<p>In an MRS, any predication except a quantifier is said to “introduce” its first argument. If you look closely you’ll see that every variable is only “introduced” by one predication in a given MRS.  In a sense, that variable <em>represents</em> that predication.  If a predication like <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code> introduces an event variable <code class="language-plaintext highlighter-rouge">e2</code>, it does so to provide a place for other predications to hang modifiers.</p>
+<p>For example, we’ve been talking about a <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3) and _file_n_of(x3)</code> and have ignored what the event variable <code class="language-plaintext highlighter-rouge">e2</code> is for. We can’t do this if we are trying to find a <code class="language-plaintext highlighter-rouge">_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)</code>.</p>
 
-<p>For example, to represent something that is “very large”, the word “very” needs to be able to attach its “veryness” to “large”. For “very very large” you build a chain where the first “very” modifies the second which modifies “large”. This is all done with events, and it happens like this because languages are recursive and allow all kinds of recursive constructions. Delphin needed a way to model this.</p>
+<p>In an MRS, any predication except a quantifier is said to “introduce” its first argument. If you look closely you’ll see that every variable is only “introduced” by one predication in a given MRS.  In a sense, that variable <em>represents</em> that predication.  If a predication like <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code> introduces an event variable <code class="language-plaintext highlighter-rouge">e2</code>, it does so to provide a place that represents it for other predications to hang modifiers.</p>
 
-<p>Here are the predications generated for: “very large” and “very very large”, note that the comma (“,”) is being used to indicate a conjunction:</p>
+<p>For example, to represent something that is “very large”, the word “very” needs to be able to attach its “veryness” to “large”. For “very very large” you build a chain where the first “very” modifies the second which modifies “large”. This is all done with events, and it happens like this because languages allow all kinds of recursive constructions. DELPH-IN needed a way to model this.</p>
+
+<p>Here are the predications generated for: “very large” and “very very large” (note that the comma (“,”) is being used to indicate a conjunction):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Very large
 _very_x_deg(e2, e1), _large_a_1(e1,x3)
@@ -327,11 +329,13 @@ _very_x_deg(e2, e1), _large_a_1(e1,x3)
 _very_x_deg(e3, e2), _very_x_deg(e2, e1), _large_a_1(e1,x3)
 </code></pre></div></div>
 
-<p>You can see that in “very large” <code class="language-plaintext highlighter-rouge">_very_x_deg</code> takes the event variable <em>introduced by</em> <code class="language-plaintext highlighter-rouge">_large_a_1</code> as an argument. The job of <code class="language-plaintext highlighter-rouge">_very_x_deg</code> is to put something in the event that <code class="language-plaintext highlighter-rouge">_large_a_1</code> can look for so that its behavior can be modified to be “very large”. <code class="language-plaintext highlighter-rouge">_very_x_deg</code> also introduces <em>its own</em> event variable that other predications can modify. For example: “very very large”. The first “very” modifies the event variable introduced by the second “very”, etc.</p>
+<p>You can see that in “very large” <code class="language-plaintext highlighter-rouge">_very_x_deg</code> takes the event variable <em>introduced by</em> <code class="language-plaintext highlighter-rouge">_large_a_1</code> as an argument. The job of <code class="language-plaintext highlighter-rouge">_very_x_deg</code> is to put something in the event that <code class="language-plaintext highlighter-rouge">_large_a_1</code> can look for so that its behavior can be modified to be “very large”.</p>
 
-<p>This means, first, that we need a mechanism for handling event variables and, second, that our implementation of <code class="language-plaintext highlighter-rouge">_large_a_1</code> needs to be modified to pay attention in case its event is modified in some way.</p>
+<p><code class="language-plaintext highlighter-rouge">_very_x_deg</code> also introduces <em>its own</em> event variable that other predications can modify as, for example, in “very very large”. The first “very” modifies the event variable introduced by the second “very”, etc.</p>
 
-<p>Handling event variables in our solver will be easy. Since they need to be able to capture what could be a large buildup of modifications in a given sentence, we’ll use a dictionary for them. We’ll add a helper function to the <code class="language-plaintext highlighter-rouge">State</code> object to modify them:</p>
+<p>This means, first, that we need a mechanism for handling event variables and, second, that our implementation of <code class="language-plaintext highlighter-rouge">_large_a_1</code> needs to be modified to pay attention to modifications to its event.</p>
+
+<p>Since event variables   need to be able to capture what could be a large buildup of modifications in a given sentence, we’ll use a dictionary for them. We’ll add a helper function to the <code class="language-plaintext highlighter-rouge">State</code> object to modify them:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class State(object):
     def __init__(self, objects):
@@ -410,7 +414,7 @@ def large_a_1(state, e_introduced, x_target):
 
 <p><code class="language-plaintext highlighter-rouge">large_a_1</code> now uses the same logic to determine how much to modify its default notion of “large”. Obviously, what “large”, “very”, etc mean are very domain specific, but this illustrates the concept.</p>
 
-<p>Last update: 2022-12-06 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoEvents.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoEvents.md">edit</a>]</p>
 
         
       </section>

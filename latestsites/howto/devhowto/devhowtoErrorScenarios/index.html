@@ -349,7 +349,7 @@
   <p>New: “There isn’t a file in the system”</p>
 </blockquote>
 
-<p>This one is correct except that our NLG functions don’t know how to add “large” in there. Let’s update them to understand (some) adjectives:</p>
+<p>This one is correct <em>except</em> that our NLG functions don’t know how to add “large” in there. Let’s update them to understand (some) adjectives:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to
 # the variable specified. Put whatever it contributes in nlg_data
@@ -393,7 +393,7 @@ def ConvertToEnglish(nlg_data):
 
     return phrase
 </code></pre></div></div>
-<p>Now it properly responds with “There isn’t a large file in the system”. Great!</p>
+<p>Now it properly responds with “There isn’t a <em>large</em> file in the system”. Great!</p>
 
 <blockquote>
   <p>Example13 World: Has large files.</p>
@@ -405,9 +405,9 @@ def ConvertToEnglish(nlg_data):
   <p>New: “There isn’t a he/she in the system”</p>
 </blockquote>
 
-<p>Clearly says <em>why</em> the system couldn’t do it now.</p>
+<p>Great! It clearly says <em>why</em> the system couldn’t do it now.</p>
 
-<p>Last update: 2022-12-14 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoErrorScenarios.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoErrorScenarios.md">edit</a>]</p>
 
         
       </section>

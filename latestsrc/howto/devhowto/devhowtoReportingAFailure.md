@@ -50,7 +50,7 @@ This is an odd answer.  Even though it looked like it made sense in the code, it
 
 We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The *mechanics* are to feed every object in the world through the variables in the MRS, but the overall *objective* is to, for example, find an `x` that makes `_large_a_1` true.  The problem is that we are reporting the error with a textual description of the *example* that is currently in the `x` variable (e.g. `a small file`) instead of what `x` *represents* ("a file").  
 
-Right now, all that `large_a_1` knows about `x` is that it is a variable, it doesn't know that x represents `a file`. So, the best we can do at the moment is to say "a thing":
+Right now, all that `large_a_1` knows about `x` is that it is a variable, it doesn't know that x represents `a file` (we'll fix this [next](../devhowtoConceptualFailures)). So, the best we can do at the moment is to say "a thing":
 
 ```
 @Predication(vocabulary, name="_large_a_1")
@@ -65,4 +65,4 @@ With that, if we run "A file is large" through the system with no large files, w
 
 The [next section](../devhowtoConceptualFailures) will improve it to say "A file is not large" which is more clear.
 
-Last update: 2022-12-14 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoReportingAFailure.md)]{% endraw %}
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoReportingAFailure.md)]{% endraw %}

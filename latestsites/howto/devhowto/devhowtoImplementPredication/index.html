@@ -312,16 +312,16 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="implementing-a-predication">Implementing a Predication</h2>
-<p>With that <a href="../devhowtoPyhonBasics">Python background and the creation of the <code class="language-plaintext highlighter-rouge">State</code> object</a>, we can now implement the predication contract for <code class="language-plaintext highlighter-rouge">_folder_n_of</code> in Python.  We will be passing an instance of the <code class="language-plaintext highlighter-rouge">State</code> object as the first argument to every predication so that it can access its arguments <em>and</em> the world state. The variables will be initially represented as strings like <code class="language-plaintext highlighter-rouge">"x1"</code> or <code class="language-plaintext highlighter-rouge">"e12"</code>. To get their values, the code looks them up in the <code class="language-plaintext highlighter-rouge">State</code> object as shown below:</p>
+<p>With that <a href="../devhowtoPyhonBasics">Python background and the creation of the <code class="language-plaintext highlighter-rouge">State</code> object</a>, we can now implement the predication contract for <code class="language-plaintext highlighter-rouge">_folder_n_of</code> in Python.  We will be passing an instance of the <code class="language-plaintext highlighter-rouge">State</code> object as the first argument to every predication so that it can access its arguments <em>and</em> the world state. The variables will be passed in as strings like <code class="language-plaintext highlighter-rouge">"x1"</code> or <code class="language-plaintext highlighter-rouge">"e12"</code>. To get their values, the code will look them up in the <code class="language-plaintext highlighter-rouge">State</code> object as shown below:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def folder_n_of(state, x):
     x_value = state.GetVariable(x)
     if x_value is None:
-        # Variable is not set yet:
+        # Variable is unbound:
         # iterate over all individuals in the world
         # using the iterator returned by state.AllIndividuals()
         iterator = state.AllIndividuals()
     else:
-        # Variable is set: create an iterator that will iterate
+        # Variable is bound: create an iterator that will iterate
         # over just that one by creating a list and adding it as
         # the only element
         iterator = [x_value]
@@ -340,7 +340,9 @@
             new_state = state.SetX(x, item)
             yield new_state
 </code></pre></div></div>
-<p>Note that <code class="language-plaintext highlighter-rouge">folder_n_of</code> <code class="language-plaintext highlighter-rouge">yields</code> the new instance of the state object returned from setting <code class="language-plaintext highlighter-rouge">x</code> to a value.  This behavior (enforced by the<code class="language-plaintext highlighter-rouge">State</code> object) will allow our solver to pass around the same state object to a predication multiple times and get fresh values bound to the variables. The solver can rely on a particular <code class="language-plaintext highlighter-rouge">State</code> object not being changed, even after it has been passed to a predication.</p>
+<p>First notice that we are not really taking advantage of our <a href="../devhowtoPredicationContract#Practical-Contract">“practical predication contract”</a> in this code: we are literally just iterating through every object in the system. We can fix that later, but for the moment the examples are so small that it won’t really matter.</p>
+
+<p>Further on in the code, notice that the <code class="language-plaintext highlighter-rouge">folder_n_of</code> <code class="language-plaintext highlighter-rouge">yields</code> the new instance of the state object returned from setting <code class="language-plaintext highlighter-rouge">x</code> to a value.  This behavior (enforced by the<code class="language-plaintext highlighter-rouge">State</code> object) will allow our solver to pass around the same state object to a predication multiple times and get fresh values bound to the variables. Since we always make copies when setting a value, the solver can rely on a particular <code class="language-plaintext highlighter-rouge">State</code> object not being changed, even after it has been passed to a predication.</p>
 
 <p>Now we can write a simple test to call our first predication:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example1():
@@ -366,9 +368,9 @@ The original `state` object is not changed:
 
 <p>Now we have one predication that implements the predication contract: it will iteratively return all the “folders” in the world when called with an unbound variable as we did here. This is the basic pattern we’ll use for all predications from here on out.</p>
 
-<p>Since we are going to start calling more than one predication and eventually deal with a whole MRS resolved tree, we’ll need a way to convert the MRS textual representation into a set of Python function calls. That way we won’t have to manually convert them to Python like the above example. The <a href="../devhowtoMRSToPython">next section</a> describes how to do that.</p>
+<p>Since we are going to start calling more than one predication and eventually deal with a whole MRS resolved tree, we’ll need a way to convert the MRS text representation into a set of Python function calls. That way, we won’t have to manually convert them to Python like the above example. The <a href="../devhowtoMRSToPython">next section</a> describes how to do that.</p>
 
-<p>Last update: 2022-12-06 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoImplementPredication.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoImplementPredication.md">edit</a>]</p>
 
         
       </section>

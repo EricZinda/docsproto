@@ -312,7 +312,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="responding-to-simple-propositions">Responding to Simple Propositions</h2>
-<p>“Propositions” are sentences that declare something to be true like “A file is very large”. If true, a human would expect something like “yep, you are right” or “correct!” or “yes, this is true” as a response (error cases will be handled later). A phrase is a proposition if the “sentence force” (SF) property of its index variable is <code class="language-plaintext highlighter-rouge">prop</code> as <a href="../devhowtoSentenceForce">described in the previous section</a>.</p>
+<p>“Propositions” are sentences that declare something to be true like “A file is very large”. If true, a human would expect something like “yep, you are right” or “correct!” or “yes, this is true” as a response (error cases will be <a href="../devhowtoChoosingWhichFailure">handled later</a>). A phrase is a proposition if the “sentence force” (SF) property of its index variable is <code class="language-plaintext highlighter-rouge">prop</code> as <a href="../devhowtoSentenceForce">described in the previous section</a>.</p>
 
 <p>Below is the MRS for “A file is very large”. As described in the <a href="../devhowtoSentenceForce">previous section</a>: The <code class="language-plaintext highlighter-rouge">INDEX = e2</code>, and <code class="language-plaintext highlighter-rouge">e2</code> has a sentence force of “proposition”: <code class="language-plaintext highlighter-rouge">SF: prop</code>.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
@@ -331,7 +331,7 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
                         └ _large_a_1(e2,x3)
 </code></pre></div></div>
 
-<p>In order to start responding to user phrases properly, we need to begin passing in more of the information from the MRS, not just the predications.  We’ll need the variable properties and the <code class="language-plaintext highlighter-rouge">INDEX</code>. We’ll do this using a dictionary. In fact, we can make it easier to read using the Python <code class="language-plaintext highlighter-rouge">json</code> format. The <code class="language-plaintext highlighter-rouge">json</code> format is basically a way of building up an object out of base types (strings, integers, etc), lists and dictionaries, in a big tree.</p>
+<p>In order to start responding to user phrases properly, we need to begin passing in more information from the MRS, not just the predications.  We’ll need the variable properties and the <code class="language-plaintext highlighter-rouge">INDEX</code>. We’ll do this using a dictionary. In fact, we can make it easier to read using the Python <code class="language-plaintext highlighter-rouge">json</code> format. The <code class="language-plaintext highlighter-rouge">json</code> format is basically a way of building up an object out of base types (strings, integers, etc), lists and dictionaries, in a big tree.</p>
 
 <p>In a <code class="language-plaintext highlighter-rouge">json</code> declaration:</p>
 <ul>
@@ -360,9 +360,9 @@ mrs["Variables"] = {"x1": {"NUM": "pl"},
 # Set the "RELS" key to the scope-resolved MRS tree, using our format
 mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
 </code></pre></div></div>
-<p>Thus, the <code class="language-plaintext highlighter-rouge">mrs</code> variable ends up as a big <code class="language-plaintext highlighter-rouge">json</code> object that has the MRS definition (that we understand so far) in it.</p>
+<p>Thus, the <code class="language-plaintext highlighter-rouge">mrs</code> variable ends up being a big, single <code class="language-plaintext highlighter-rouge">json</code> object that has the MRS definition (that we understand so far) in it.</p>
 
-<p>Now we can create a new function called <code class="language-plaintext highlighter-rouge">RespondToMRS()</code> that inspects the MRS to properly respond to a “proposition”:</p>
+<p>Now we can create a new function called <code class="language-plaintext highlighter-rouge">RespondToMRS()</code> that inspects the MRS to properly respond to a proposition:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RespondToMRS(state, mrs):
     # Collect all the solutions to the MRS against the
@@ -413,7 +413,7 @@ Yes, that is true.
 
 <p>In the <a href="../devhowtoSimpleQuestions">next section</a>, we’ll respond to questions.</p>
 
-<p>Last update: 2022-12-07 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimplePropositions.md">edit</a>]</p>
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimplePropositions.md">edit</a>]</p>
 
         
       </section>
