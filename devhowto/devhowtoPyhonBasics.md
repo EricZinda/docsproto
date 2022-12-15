@@ -54,9 +54,9 @@ def OutputResults():
 # 3
 ~~~
 
-We'll be doing lots of iteration and this syntactic sugar from Python makes it easier. 
+Given the [predication contract](devhowtoPredicationContract), we'll be doing lots of iteration and this syntactic sugar from Python makes it easier. 
 
-Let's work through how to implement a class in Python by creating the class that will hold the state of the world: the `State` class. The current state of all MRS variables *and* the state of everything in the world will be accessed through this class. Because we want the state to be changed by predications, we will include an instance of it as the first argument when calling them. 
+Let's work through how to implement a class in Python by creating the class that will hold the state of the world: `State`. The current state of all MRS variables *and* the state of everything in the world will be accessed through this class. Because we want the state to be changed by predications, we will include an instance of it as the first argument when calling them. 
 
 The implementation of the `State` object can be very simple for now:
 
@@ -90,7 +90,7 @@ class State(object):
     # This is how predications will access the current value
     # of MRS variables like "x1" and "e1"
     def GetVariable(self, variable_name):
-        # "get()" is one way to access a value in the dictionary.
+        # "get()" is one way to access a value in a dictionary.
         # The second argument, "None", is what to return if the
         # key doesn't exist.  "None" is a built in value in Python
         # like "null"
@@ -120,11 +120,13 @@ class State(object):
         for item in self.objects:
             yield item
 ~~~
-Note that the `SetX()` method does not actually "set" a value in the `State` object, it creates a copy of the current `State` object one and sets the value in *that*.  This ensures that variables set for a given `State` object are never changed (they are *immutable*). Immutability allows our solver to reuse the same state object multiple times when calling a predication in order to get fresh values bound to the variables. And this, in turn, is important to allow "backtracking" through possible solutions to the MRS. The fact that the *entire* state object (not just the variables) gets copied will be important when we get to verbs that change the world (e.g. deleting a file). 
+Note that the `SetX()` method does not actually "set" a value in the `State` object, it creates a copy of the current `State` object and sets the value in *that*.  This ensures that variables set for a given `State` object are never changed (they are *immutable*). Immutability allows our solver to reuse the same state object multiple times when calling a predication in order to get fresh values bound to the variables. And this, in turn, is important to allow "backtracking" through possible solutions to the MRS. The fact that the *entire* state object (not just the variables) gets copied will be important when we get to verbs that change the world (e.g. deleting a file). 
 
 > Note: There are much more efficient ways to isolate the data than copying the entire world, but we're doing a copy to keep the code simple. For example, database engines like MySQL have transactions to isolate different parts of code from changes until they should be seen. We could improve our simple implementation by keeping a difference list and not copying the entire state for every copy, but for now we'll keep it simple.
 
-Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn't care). Because we will be copying the `State` object when changes are made, we will need some way to identify that, for example, the "foo" folder in one `State` object is the same "foo" folder in another `State` object. To do this, we'll give each object in our state a unique ID by creating a base class called `UniqueObject`. It will create a member variable called `unique_id` with a UUID (a globally unique number) in it. Then, we'll derive all of the objects in the system from it. That way, objects will have a unique ID that follows them even if they are copied. 
+Objects in the world can just be Python objects, although there are many other ways to represent them (the [predication contract](devhowtoPredicationContract) doesn't care). 
+
+Because we will be copying the `State` object when changes are made, we will need some way to identify that, for example, the "foo" folder in one `State` object is the same "foo" folder in another `State` object. To do this, we'll give each object in our state a unique ID by creating a base class called `UniqueObject`. It will create a member variable called `unique_id` with a UUID (a globally unique number) in it. Then, we'll derive all of the objects in the system from it. That way, objects will have a unique ID that follows them even if they are copied. 
 
 Here's how we'll create classes for each "type of thing" in our file system world:
 ~~~

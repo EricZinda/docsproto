@@ -5,24 +5,24 @@ A scope-resolved MRS tree can be thought of as an *equation* that can be solved 
 
 Recall that predications are of the form: `_table_n_1(x)` or `compound(e,x,x)`. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We'll be treating the predications we implement as classic programming language functions that can be "called" or "invoked".
 
-For the purpose of defining the contract, we will group MRS predications into two types:
-- Regular Predications: Declare something that must be true about its arguments. For example: `_table_n_1(x)` says that `x` must be a "table"
-- Quantifier Predications: Acts like a Regular Predication but also defines the scope of a variable `x`. For example: `a_q(x, rstr, body)` declares a variable `x` that can now by used in its arguments *and* says that `x` must be "an" arbitrary, single object defined by the predications in `rstr` that is also true for the predications in the `body`
+For the purpose of defining the contract, we'll group predications into two types:
+- Regular Predications: Declare something that must be true about their arguments. For example: `_table_n_1(x)` says that `x` must be a "table"
+- Quantifier Predications: Act like a Regular Predication but also define the scope of a variable `x`. For example: `a_q(x, rstr, body)` declares a variable `x` that can now be used in its arguments *and* says that `x` must be an arbitrary, single object defined by the predications in the `rstr` that is also true for the predications in the `body`
 
 ### Idealized Contract
 We'll start with an "idealized contract" because it clarifies how the SLD solver process works in general. It is "idealized" because it has relatively poor performance characteristics for large worlds. We'll tackle those characteristics with our "practical contract" next, but it is important to understand the fundamental approach first.
 
-The contract we define here is designed to "solve" an MRS for the variables defined within it such as `x1`, `x2`, `e1`, etc. Our goal is to find all values of the variables (the "solutions") that are `True` within a given world. Our approach will be to call predications as functions, and so we'll define the contract in terms of what these calls must look like. The term `bound` means a variable is "set" or "provided", and `unbound` means it doesn't yet have a value:
+The contract we define here is designed to "solve" an MRS for the variables defined within it such as `x1`, `x2`, `e1`, etc. Our goal is to find all values of the variables (the "solutions") that are `True` within a given world. The approach will be to call predications as functions and so we'll define the contract in terms of what these calls must look like. The term `bound` means a variable is "set" or "provided", and `unbound` means it doesn't yet have a value:
 
 > A Regular Predication must be called with its arguments bound. If the predication's meaning is true given those arguments, it must return `True`. Otherwise, it must return `False`.
 > 
-> A Quantifier Predication must be called with its arguments bound *except* the variable it provides scope for (its first argument). It must then iteratively set its unbound argument to every possible object in the world and call its other arguments, returning each solution for which the Quantifier Predication itself is `True`, given what was returned by its arguments and the quantification it is doing.
+> A Quantifier Predication must be called with its arguments bound *except* the variable it provides scope for (its first argument). It must then iteratively set its unbound argument to every possible object in the world and call its other arguments, returning each solution (i.e. assignment of variables) for which the Quantifier Predication itself is true, given what was returned by its arguments and the quantification it is doing.
 > 
 > The "Solution" to an MRS is the set of all variable assignments that resulted in the entire MRS tree being `True`
 
 A few observations about the contract:
 - What the variables *are* -- i.e. how the world is represented -- is not defined in the contract. It doesn't care.
-- Quantifier Predications only scope their `x` variables. These are the only variables that represent "things in the world", called "individuals", that we are solving for. Event (`e`) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications and not relevant here. They are described in a [later section](devhowtoEvents).
+- Quantifier Predications only scope their `x` variables. These are the only variables that represent "things in the world", called "individuals", that we are solving for. Event (`e`) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications. They are not relevant here and get described in a [later section](devhowtoEvents).
 - This "idealized contract" has different requirements for Regular and Quantifier Predications. Regular Predications simply return `True` or `False`. Quantifier Predications return a set of answers consisting of variable assignments, iteratively. 
 
 Let's walk through an example of each to clarify:
@@ -31,7 +31,7 @@ A Regular Predication example: If `table_n_1(x)` is called with `x` set to a val
 - `a big red table`, it should return `True` (it only verifies that it is a *table*, its other characteristics are ignored) 
 - `a persian cat`, it should return `False`
 
-A Quantifier Predication example: When `a_q(x, large_a_1(x), file(x))` is called, `x` should be unbound. It will internally set `x` to every object in the world and then call its arguments, applying the logic of the quantifier itself to the results. Each value of `x` for which that process is `True` should be returned, iteratively. 
+A Quantifier Predication example: When `a_q(x, large_a_1(x), file(x))` is called, `x` should be unbound. It will internally set `x` to every object in the world and then call its arguments, applying the logic of the quantifier itself to the results. Each value of `x` for which that process is true should be returned, iteratively. 
 
 So, if the world is:
 ~~~
@@ -74,21 +74,21 @@ _the_q(x10,RSTR,BODY)          │             └ _file_n_of(x3,i9)
 
 Using the idealized contract, `x10` would be set to every one of the objects in the system by `the_q`, and, within that, `x3` would again be set to every one of the objects in the system, resulting in a worst-case performance of `n^2`, where `n` is the number of objects in the system.
 
-One optimization we can perform is to notice that the first thing a quantifier predication does is to iteratively set its scoped variable and call its first (`RSTR`) argument like this pseudo-code:
+One optimization we can perform is to notice that the first thing a quantifier predication does is to iteratively set its scoped variable and call its first argument (`RSTR`)  like this pseudo-code:
 ~~~
 for item in <everything in the world>:
     if rstr_regular_predication(item) is True:
         ...
 ~~~
 
-So the `RSTR` predication of `_the_q`, which is `_folder_n_of` in this case, has to check every single object to see if it is "a folder". Given that any regular predication could end up in the `RSTR` of a quantifier predication, we could change the contract to allow the regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it *much more quickly*, like this:
+So the `RSTR` predication of `_the_q`, which is `_folder_n_of` in this case, has to check every single object to see if it is "a folder". Given that any regular predication could end up in the `RSTR` of a quantifier predication, we could change the contract to allow regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it *much more quickly*, like this:
 
 ~~~
 for item in rstr_regular_predication():
     ...
 ~~~
 
-The `RSTR` regular predication can now get called with *unbound* arguments, and if so, it is responsible for finding the objects in the world that make it `True`, which it should be able to do much more efficiently.  This change effectively makes the contract the same for all predications at the cost of complicating the logic for regular predications a little. It is worth it for the performance improvement. 
+The `RSTR` regular predication can now be called with *unbound* arguments, and if so, it is responsible for finding the objects in the world that make it `True`, which it should be able to do much more efficiently.  This change effectively makes the contract the same for all predications at the cost of complicating the logic for regular predications a little. It is worth it for the performance improvement. 
 
 So, the contract we'll use in the rest of the tutorial is the "practical contract":
 
@@ -113,13 +113,13 @@ If `_file_n_of(x)` is called with `x` bound to:
 If `_file_n_of(x)` is called with an unbound `x`, it:
 1. Sets `x` to the first "file" in the world using whatever algorithm is most efficient, finding: `a small file` and returns {`x` = `a small file`}
 2. Sets `x` to the next "file" in the world using whatever algorithm is most efficient, finding: `a large file` and returns {`x` = `a large file`}
-3. Runs out of files so fails, which means: stop returning solutions
+3. Runs out of files and thus fails, meaning: stop returning solutions
 
 The Quantifier Predication example is the same as before since we have simply started applying its contract to *all* predications now.
 
 To help with performance of the system, the "practical contract" is the contract we will build for each predication we want the system to understand. 
 
 ### Final Performance Thoughts
-Even with this optimization, the example MRS for something like "a large file is in the folder" will need to check each "large file" in the system to see if it is in "the" folder (where "the folder" might mean "current folder"), which still could be a lot of iterations. There are further optimizations that can be done by the solver beyond this, and many will depend on the particular world you execute against. Optimizing performance of a system like this is an ongoing task.
+Even with this optimization, the example MRS for something like "a large file is in the folder" will need to check each "large file" in the system to see if it is in "the" folder (where "the folder" might mean "current folder"), which could still be a lot of iterations. There are further optimizations that can be done by the solver and many will depend on the particular world you execute against. Optimizing performance of a system like this is an ongoing task.
 
 There are other ways to solve an MRS for the variables that make it true. For example, some MRS's can be converted to classic logic statements "There exists an x such that..." and various solvers can be used to solve for the variables in it: [TODO: List references here](). In addition, there are many uses for MRS that don't involve solving for the variables at all [TODO: List references here](). However, the SLD approach is a relatively straightforward approach that can be used for constrained worlds and allows us to explain the various aspects of DELPH-IN without getting too deep in complicated mathematics or logic.
