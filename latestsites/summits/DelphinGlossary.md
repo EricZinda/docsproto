@@ -21,4 +21,5 @@ Techniques - high-effiency parser
 might appear in an MRS ([RmrsSemi](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi))
 - **VPM**: Variable Property Mapping: translates grammar-internal
 aspects to SEM-I compatible MRS ([RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DelphinGlossary/_edit)]{% endraw %}
