@@ -164,4 +164,5 @@ def ReportError(error):
 ```
 
 The system will now remember which is the right ("deepest") error to report. The [next section](../devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-14 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoChoosingWhichFailure.md)]{% endraw %}
