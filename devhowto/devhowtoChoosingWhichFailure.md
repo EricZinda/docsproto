@@ -5,7 +5,7 @@ Before we go any further, we need to step back and work through how to deal with
 
 We can do better, but we'll need to work through a few challenges first.
 
-The first challenge is to figure out *which* of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. 
+The first challenge is to figure out *which* of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all combinations of items in the world "through" the MRS until we find the ones that make it true. 
 
 For "A file is large", the MRS and a resolved tree are:
 
@@ -24,12 +24,12 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 ~~~
 
-Our conceptual approach to solving it is:
+A described in [the predication contract](devhowtoPredicationContract), our idealized approach to solving it is:
 1. `_a_q` iteratively sets `x3` to each object in the world and calls `_file_n_of` with that value
 2. If `_file_n_of` succeeds, `_a_q` then calls `_large_a_1` with the values returned
 3. If `large_a_1` succeeds, then `a_q` succeeds and stops iterating. 
 
-(In reality, we optimize step #1 to have `_a_q` call `file_n_of` with free variables instead of iterating through every object. This allows `file_n_of` to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)
+(Also as described in [the predication contract](devhowtoPredicationContract), in reality, we optimize step #1 to have `_a_q` call `file_n_of` with free variables instead of iterating through every object. This allows `file_n_of` to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)
 
 So, let's take a world that has the following items in it, run it through the MRS for "A file is large" and see where things fail:
 

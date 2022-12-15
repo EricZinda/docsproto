@@ -10,7 +10,7 @@ _a_q(x3, RSTR,BODY)
 ~~~
 > We can ignore for the moment variables of type `e`. We'll handle those later, they don't matter for this example.
 
-If we convert this into text it would be something like:
+If we convert this into text, it would be something like:
 ~~~
  _a_q(x3, _file_n_of(x3), _large_a_1(e2, x3))
 ~~~
@@ -63,8 +63,8 @@ def Example4():
 Note that, even though we have made both files "large" for this example, only one, arbitrary, file is returned since the phrase is "*a* large file".
 
 At this point we have a fully functional evaluator, but there are a few things still to work out:
-- We have been ignoring all the variable types except "x" variables.
-- How to deal with questions vs. commands vs. propositions
-- How to report errors
+- Dealing with variable types beyond `x` variables
+- Handling questions vs. commands vs. propositions
+- Reporting errors
 
-The next sections will describe how these work
+The [next sections](devhowtoEvents) will tackle these issues.

@@ -19,17 +19,19 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
                └─ and(0,1)
                         └ _large_a_1(e2,x3)
 ~~~
-The *syntactic head* of a phrase indicates what the phrase is “about” or “built around”, and it is usually a verb.  The MRS will represent the syntactic head of the phrase with one or more predications, possibly in a conjunction, and point to the syntactic head using the `INDEX` field of the MRS. In this case, it is `INDEX = e2` which is introduced by `_large_a_1`.  Recall from [the events section](devhowtoEvents) that each (non-quantifier) predication *introduces* a variable that effectively represents it in the sentence. So, by pointing to a particular variable (`e2`), the MRS `Index` is indicating that the predication that introduces it (`large_a_1`) is the "syntactic head", or what the sentence is "about".
+The *syntactic head* of a phrase indicates what the phrase is “about” or “built around”, and is usually a verb.  The MRS will represent the syntactic head of the phrase with one or more predications, possibly in a conjunction, and will point to the syntactic head using the `INDEX` field of the MRS. In this case, it is `INDEX = e2`. `e2` is introduced by `_large_a_1`.  Recall from [the events section](devhowtoEvents) that each (non-quantifier) predication *introduces* a variable that effectively represents it in the sentence. So, by pointing to a particular variable (`e2`), the MRS `Index` is indicating that the predication that introduces it (`large_a_1`) is the "syntactic head", or what the sentence is "about".
 
-> The example sentence is thus *about* `_large_a_1`...which is not a verb.  This is a special case in Delphin, where the common case of "being x" just drops the "x" and treats what it is "being" as the verb.
+> The example sentence is thus *about* `_large_a_1`...which is not a verb.  This is a special case in DELPH-IN, where the common case of "being x" just drops the "being" and treats "x" as the verb.
 
-Once you know the `index` (syntactic head) of a phrase, you can see what *type* of phrase it is by looking at the *properties* of that variable. This is the first time we've had to inspect variable properties, so lets dig in there a bit. You can see that next to each argument in the MRS, there is a list of properties surrounded by `[]`. In `e2` argument of `_large_a_1` it looks like this:
+Once you know the `index` (syntactic head) of a phrase, you can see what *type* of phrase it is by looking at the *properties* of that variable. This is the first time we've had to inspect variable properties, so lets dig in there a bit. 
+
+You can see that, next to each argument in the MRS, there is a list of properties surrounded by `[]`. It looks like this for the `e2` argument of `_large_a_1`:
 
 ~~~
  e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
 ~~~
 
-This is the list of properties for that variable. It provides various information about the kind of thing that should be in that variable. Think of it as "metadata" about the variable.  The property we are interested in here is:
+This is the list of properties for that variable. It provides various information about the kind of things that should be in that variable. Think of it as "metadata" about the variable.  The property we are interested in here is:
 `SF: prop` ("sentence force": "proposition").  Any given sentence gets categorized into a *type* of sentence, indicated by the `SF` ("sentence force") property of its index variable:
 
 - Proposition (`SF: prop`): "A file is large."
@@ -50,4 +52,4 @@ Note that these are all answers the user would expect if the statement worked.  
 - User: "Which file is large?" -> "No files are large"
 - User: "Make a file large." -> "test1.txt is now large"
 
-In the next few sections we'll work through how to handle the different types of sentences when they succeed, and then end by talking about how to handle failures.
+In the [next few sections](devhowtoSimplePropositions) we'll work through how to handle the different types of sentences when they succeed, and then end by talking about how to handle failures.

@@ -81,11 +81,11 @@ def Example13():
 # Prints:
 No, that isn't correct: There isn't pronoun pron in the system
 ~~~
-Obviously this isn't the right answer. 
+The error shown from `Example13()` is obviously not the right answer. 
 
 First, for "proposition failures", we can quit saying "No, that isn't correct:". Just saying the error should be enough.
 
-Second, our simple approach of just including the quantifier worked for quantifiers like "a", "the", "some", but not for special "abstract" quantifiers like `pronoun_q` or `which_q`. Abstract quantifiers don't start with an "_" and the `ParsePredicationName()` function already detects this and sets "Surface" (meaning "is this represented on the surface, i.e. the original text) to `True` or `False`. So, those are easy enough to detect and ignore:
+Second, our simple approach of just including the quantifier worked for quantifiers like "a", "the", "some", but not for special "abstract" quantifiers like `pronoun_q` or `which_q`. Abstract quantifiers are predications which don't actually appear in the phrase but were needed by the MRS. They don't start with an "_" and the `ParsePredicationName()` function already detects this and sets "Surface" (meaning "in the original text") to `True` or `False`. So, those are easy enough to detect and ignore:
 ~~~
 # See if this predication in any way contributes words to
 # the variable specified. Put whatever it contributes in nlg_data
@@ -108,7 +108,9 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
 There isn't a pron in the system
 ~~~
 
-We are closer! We have a similar issue with `pron` in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we *do* want to have it contribute to what the variable means, but we'll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:
+We are closer! 
+
+We have a similar issue with `pron` in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we *do* want to have it contribute to what the variable means, but we'll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:
 
 ~~~
 def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
@@ -256,7 +258,7 @@ To see the result we also need to update `RespondToMRS()` to use our new error r
                 print(message)
 ~~~
 
-Now we can run the example we saw much earlier "Delete you"
+Now we can run the example we saw much earlier, "Delete you":
 
 ~~~
 # delete you

@@ -9,7 +9,7 @@ def large_a_1(state, e_introduced, x_target):
             ReportError("A thing is not large.")
 ~~~
 
-... and will respond to "A file is large" with "A *thing* is not large" because we didn't know how to tell what kind of "thing" the variable `x` is currently filtered to be.  The best answer would replace "thing" in "A *thing* is not large" with the "type" of thing `x` is *at the point we are reporting the error*. Remember that the `large_a_1` predication will be used for anything the user references as "large", so it will need to be flexible about how it reports its failures.  `x` won't always contain files.
+... and will respond to "A file is large" with "A *thing* is not large" because we didn't know how to tell what kind of "thing" the variable `x` is currently restricted to be.  The best answer would replace "thing" in "A *thing* is not large" with the "type" of thing `x` is *at the point we are reporting the error*. Remember that the `large_a_1` predication will be used for anything the user references as "large", so it will need to be flexible about how it reports its failures.  `x` won't always contain files.
 
 For example, here is a scope-resolved tree for "A file is large":
 
@@ -40,7 +40,7 @@ We can figure out what the variable `x` has been restricted to "so far" by takin
 2. We know what the predications in the tree are
 3. We know which predication reported the error 
 
-4. Thus: We know where the failed predication is in the execution order
+4. Thus: We know *where* the failed predication is in the execution order
 
 So, in the scope-resolved tree for "a dog is large":
 
@@ -58,7 +58,7 @@ To do this, let's create a function, `EnglishForDelphinVariable()`, which takes:
 2) The MRS
 3) The place in the tree for which we want the English
 
-It will walk the tree in execution order using the function we've written [in a previous section](devhowtoSimpleQuestions) called `WalkTreeUntil()`. This function will pass each predication, in execution order, to a different function called `RefineNLGWithPredication()`. That function will determine if the predication is restricting the `variable` in question somehow. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation") that is the English description of what the restriction *is*. At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
+It will walk the tree in execution order using the function we've written [in a previous section](devhowtoSimpleQuestions) called `WalkTreeUntil()`. This function will pass each predication, in execution order, to a different function called `RefineNLGWithPredication()` ("NLG" stands for "Natural Language Generation"). That function will determine if the predication is restricting the `variable` in question somehow. If so, it adds some data to a structure called `nlg_data` that records what the English description of the restriction is. At the end, we'll call a function (`ConvertToEnglish()`) that takes all the gathered data and turns it into English:
 
 ~~~
 # Given the index where an error happened and a variable,
@@ -118,7 +118,7 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
 
 > Note: The code for `ParsePredicationName()` is described in an [appendix](devhowtoParsePredication)
 
-Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is *much* more complicated than this, and we'll tackle doing it "right" later. For now, our naive approach will illustrate the ideas:
+Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is *much* more complicated than this, and we'll tackle doing it "more right" later. For now, our naive approach will illustrate the ideas:
 
 ~~~
 # Takes the information gathered in the nlg_data dictionary
@@ -139,7 +139,9 @@ def ConvertToEnglish(nlg_data):
     return phrase
 ~~~
 
-Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from "A file is large", we can test it out by calling it with different indices to see what it thinks `x1` is at that point:
+Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. 
+
+Using the MRS from "A file is large", we can test it out by calling it with different indices to see what it thinks `x1` is at that point:
 
 ~~~
 def Example12():

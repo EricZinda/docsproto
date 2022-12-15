@@ -1,13 +1,13 @@
 ## Converting MRS Text to Python Function Calls
-So far, we have been calling our predications directly as functions. To be able to solve an MRS we're going to need a way to convert from the MRS textual representation to actual Python function calls. This section describes how.
+So far, we have been calling our predications directly as functions. To be able to solve an MRS we're going to need a way to convert from the MRS text representation to actual Python function calls. This section describes how.
 
-We'll use a simple Python representation that is easy to convert to from a raw MRS document: each predication will be a Python `list` with the predication name as the first element and the arguments as the rest. Like this for the `folder_n_of(x1)` and `compound(e1, x1, x2)` predications:
+We'll use a simple Python representation that allows easy conversion from a raw MRS document: each predication will be a Python `list` with the predication name as the first element and the arguments as the rest. Like this for the `_folder_n_of(x1)` and `compound(e1, x1, x2)` predications:
 ~~~
-["folder_n_of", "x1"]
+["_folder_n_of", "x1"]
 ["compound", "e1", "x1", "x2"]
 ~~~
 
-To convert this representation into a Python function (like the one we wrote [above](devhowtoImplementPredication)) and call it, we need a mapping from the string name (e.g. `"_folder_n_of"`) to the function and module where the function lives. We'll do this using a Python feature called "decorators". It isn't important to understand *how* it works (but if you want to: [read this section](devhowtoPythonDecorators)). For our purposes, just understand that by writing two small Python classes we can now write code like this:
+To convert this representation into a Python function (like the one we wrote [earlier](devhowtoImplementPredication)) and call it, we need a mapping from the string name (e.g. `"_folder_n_of"`) to the function and module where the function lives. We'll do this using a Python feature called "decorators". It isn't important to understand *how* it works (but if you want to: [read this section](devhowtoPythonDecorators)). For our purposes, just understand that by writing two small Python classes we can now write code like this:
 ~~~
 # You can create global variables in Python
 # by just setting their values outside the scope
@@ -21,7 +21,7 @@ def folder_n_of(state, x_target):
 
 The `@Predication(...)` "decoration" above the function runs code that sticks the Python function (i.e. `def folder_n_of(...)`) and the predication name (i.e. `_folder_n_of`) into the global instance of the `Vocabulary` class it is given. 
 
-Note that the function name can be arbitrarily different than the predication name. In this case, we've removed the leading "_", but we could have also done something like this:
+Note that the function name can be arbitrarily different than the predication name. In this case, we've removed the leading "_", but we could have done something more radical, like this:
 
 ~~~
 vocabulary = Vocabulary()
@@ -31,7 +31,7 @@ def my_folder_predication(state, x_target):
     # ... implementation of folder_n_of goes here ...
 ~~~
 
-Either way, the global `vocabulary` instance will record the mapping between all of the functions decorated with `@Predication(vocabulary, name=...)` and the predication they are implementing. With that, we can now build a `CallPredication()` function that uses this object to map the string name of the predicate, plus the list of arguments, to an actual Python function and execute the contract on it:
+Either way, the global `vocabulary` instance will record the mapping between all of the functions decorated with `@Predication(vocabulary, name=...)` and the predication they are implementing. With that, we can now build a `CallPredication()` function that uses `vocabulary` to map the string name of the predicate, plus the list of arguments, to an actual Python function and execute the contract on it:
 
 ~~~
 # The format we're using is:
