@@ -316,42 +316,140 @@
 
 <p>A scope-resolved MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is by <em>iteratively</em> finding assignments to the variables in the MRS, one by one, and collecting them into a solution. This is the “SLD” approach described in the <a href="../devhowtoOverview">previous section</a>. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the “predication contract”.</p>
 
-<p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e,x,x)</code>. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We’ll be treating the predications we implement as classic programming language functions that can be “called” or “invoked”. The two rules of our contract are:</p>
+<p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e,x,x)</code>. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We’ll be treating the predications we implement as classic programming language functions that can be “called” or “invoked”.</p>
 
-<ol>
-  <li>Given a world state (the state of the software you want to evaluate the MRS against), a predication must iteratively set its variables to values that are true in that world state (or fail). “Iteratively” means returning one answer the first time it is called, and then another the next time, until there are no more answers (in which case it fails).</li>
-  <li>It must also operate differently depending on whether its incoming variables are set (called “bound”) or not (“unbound”):
-    <ul>
-      <li>Calling a predication with unbound variables should return the unbound variables bound to a set of values from the world that, together, make it true. Calling it again should return a different set of bindings that also make it true. Eventually, the predication will run out of things that can be true and should then fail.</li>
-      <li>Calling it with bound variables should simply return the same values if true or fail if not. In other words, it should iterate once.</li>
-    </ul>
-  </li>
-</ol>
-
-<p>Let’s use an example to illustrate:</p>
-
-<p>Imagine we want to build a natural language interface to the file system on a computer. We’ll start with a simple a world with 4 things in it. Even without knowing Python (described in more detail in the <a href="../devhowtoPythonBasics">next section</a>), this list of 4 Python objects should be relatively self-evident:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Folder(name="Desktop"),
- Folder(name="Documents"),
- File(name="file1.txt"),
- File(name="file2.txt")]
-</code></pre></div></div>
-<p>For now, we won’t have files in folders, just the straight list of 4 objects in the file system.</p>
-
-<p>In this world of 4 objects:</p>
-
+<p>For the purpose of defining the contract, we will group MRS predications into two types:</p>
 <ul>
-  <li>Calling <code class="language-plaintext highlighter-rouge">_folder_n_of(x)</code> once should return <code class="language-plaintext highlighter-rouge">x=Folder(name="Desktop")</code>. Meaning: <code class="language-plaintext highlighter-rouge">x</code> was unbound, so: find an object in the world that is a “folder” and return <code class="language-plaintext highlighter-rouge">x</code> set to that object.</li>
-  <li>Calling it again will return <code class="language-plaintext highlighter-rouge">x=Folder(name="Documents")</code> since that is a different folder in the world state.</li>
-  <li>The third call will fail since there are no more folders.</li>
+  <li>Regular Predications: Declare something that must be true about its arguments. For example: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> says that <code class="language-plaintext highlighter-rouge">x</code> must be a “table”</li>
+  <li>Quantifier Predications: Acts like a Regular Predication but also defines the scope of a variable <code class="language-plaintext highlighter-rouge">x</code>. For example: <code class="language-plaintext highlighter-rouge">a_q(x, rstr, body)</code> declares a variable <code class="language-plaintext highlighter-rouge">x</code> that can now by used in its arguments <em>and</em> says that <code class="language-plaintext highlighter-rouge">x</code> must be “an” arbitrary, single object defined by the predications in <code class="language-plaintext highlighter-rouge">rstr</code> that is also true for the predications in the <code class="language-plaintext highlighter-rouge">body</code></li>
 </ul>
 
-<p>Calling <code class="language-plaintext highlighter-rouge">_file_n_of(File(name="file1.txt"))</code> once will return <code class="language-plaintext highlighter-rouge">x=File(name="file1.txt")</code> because <code class="language-plaintext highlighter-rouge">x</code> was bound and thus <code class="language-plaintext highlighter-rouge">file_n_of</code> only needs to verify that it is a “file”. The second call will fail.</p>
+<h3 id="idealized-contract">Idealized Contract</h3>
+<p>We’ll start with an “idealized contract” because it clarifies how the SLD solver process works in general. It is “idealized” because it has relatively poor performance characteristics for large worlds. We’ll tackle those characteristics with our “practical contract” next, but it is important to understand the fundamental approach first.</p>
 
-<p>This is the contract we need to build for each predication we want the system to understand.</p>
+<p>The contract we define here is designed to “solve” an MRS for the variables defined within it such as <code class="language-plaintext highlighter-rouge">x1</code>, <code class="language-plaintext highlighter-rouge">x2</code>, <code class="language-plaintext highlighter-rouge">e1</code>, etc. Our goal is to find all values of the variables (the “solutions”) that are <code class="language-plaintext highlighter-rouge">True</code> within a given world. Our approach will be to call predications as functions, and so we’ll define the contract in terms of what these calls must look like. The term <code class="language-plaintext highlighter-rouge">bound</code> means a variable is “set” or “provided”, and <code class="language-plaintext highlighter-rouge">unbound</code> means it doesn’t yet have a value:</p>
 
-<p>Last update: 2022-12-06 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPredicationContract.md">edit</a>]</p>
+<blockquote>
+  <p>A Regular Predication must be called with its arguments bound. If the predication’s meaning is true given those arguments, it must return <code class="language-plaintext highlighter-rouge">True</code>. Otherwise, it must return <code class="language-plaintext highlighter-rouge">False</code>.</p>
+
+  <p>A Quantifier Predication must be called with its arguments bound <em>except</em> the variable it provides scope for (its first argument). It must then iteratively set its unbound argument to every possible object in the world and call its other arguments, returning each solution for which the Quantifier Predication itself is <code class="language-plaintext highlighter-rouge">True</code>, given what was returned by its arguments and the quantification it is doing.</p>
+
+  <p>The “Solution” to an MRS is the set of all variable assignments that resulted in the entire MRS tree being <code class="language-plaintext highlighter-rouge">True</code></p>
+</blockquote>
+
+<p>A few observations about the contract:</p>
+<ul>
+  <li>What the variables <em>are</em> – i.e. how the world is represented – is not defined in the contract. It doesn’t care.</li>
+  <li>Quantifier Predications only scope their <code class="language-plaintext highlighter-rouge">x</code> variables. These are the only variables that represent “things in the world”, called “individuals”, that we are solving for. Event (<code class="language-plaintext highlighter-rouge">e</code>) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications and not relevant here. They are described in a <a href="../devhowtoEvents">later section</a>.</li>
+  <li>This “idealized contract” has different requirements for Regular and Quantifier Predications. Regular Predications simply return <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. Quantifier Predications return a set of answers consisting of variable assignments, iteratively.</li>
+</ul>
+
+<p>Let’s walk through an example of each to clarify:</p>
+
+<p>A Regular Predication example: If <code class="language-plaintext highlighter-rouge">table_n_1(x)</code> is called with <code class="language-plaintext highlighter-rouge">x</code> set to a value that is:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">a big red table</code>, it should return <code class="language-plaintext highlighter-rouge">True</code> (it only verifies that it is a <em>table</em>, its other characteristics are ignored)</li>
+  <li><code class="language-plaintext highlighter-rouge">a persian cat</code>, it should return <code class="language-plaintext highlighter-rouge">False</code></li>
+</ul>
+
+<p>A Quantifier Predication example: When <code class="language-plaintext highlighter-rouge">a_q(x, large_a_1(x), file(x))</code> is called, <code class="language-plaintext highlighter-rouge">x</code> should be unbound. It will internally set <code class="language-plaintext highlighter-rouge">x</code> to every object in the world and then call its arguments, applying the logic of the quantifier itself to the results. Each value of <code class="language-plaintext highlighter-rouge">x</code> for which that process is <code class="language-plaintext highlighter-rouge">True</code> should be returned, iteratively.</p>
+
+<p>So, if the world is:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`a folder`
+`a small file`
+`a large file`
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">a_q</code> would:</p>
+
+<ol>
+  <li>Set <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">a folder</code>.</li>
+  <li>Call its first argument, <code class="language-plaintext highlighter-rouge">large_a_1(x)</code> using the contract. This will return <code class="language-plaintext highlighter-rouge">False</code>.</li>
+  <li>Since this attempt failed, try the next value: Set <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">a small file</code>.</li>
+  <li>Call its first argument, <code class="language-plaintext highlighter-rouge">large_a_1(x)</code> using the contract. This will return <code class="language-plaintext highlighter-rouge">False</code>.</li>
+  <li>Since this attempt failed, try the next value: Set <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">a large file</code>.</li>
+  <li>Call its first argument, <code class="language-plaintext highlighter-rouge">large_a_1(x)</code> using the contract. This will return <code class="language-plaintext highlighter-rouge">True</code>.</li>
+  <li>Since that succeeded, call the second argument <code class="language-plaintext highlighter-rouge">file(x)</code> using the contract. This will return <code class="language-plaintext highlighter-rouge">True</code>.</li>
+  <li>Since the quantifier “a” means “a single arbitrary item”, the quantifier itself succeeds and it returns the first solution: {<code class="language-plaintext highlighter-rouge">x</code>=<code class="language-plaintext highlighter-rouge">a large file</code>}</li>
+</ol>
+
+<p>This approach to solving an MRS works because every <code class="language-plaintext highlighter-rouge">x</code> variable in an MRS is scoped by a Quantifier Predication. It effectively tries every combination of objects in the world in every <code class="language-plaintext highlighter-rouge">x</code> variable. This is also why it is “idealized”: the performance of this approach quickly becomes impractical.</p>
+
+<h3 id="practical-contract">Practical Contract</h3>
+<p>The performance of the contract can be greatly improved. Let’s imagine a world with thousands of files and folders. In this world, a user says:</p>
+
+<blockquote>
+  <p>A large file is in the folder</p>
+</blockquote>
+
+<p>Which results in this as one of the scope-resolved MRS trees:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>             ┌────── _folder_n_of(x10,i15) 
+             │                             ┌── _large_a_1(e8,x3)
+             │                 ┌────── and(0,1)
+             │                 │             │
+_the_q(x10,RSTR,BODY)          │             └ _file_n_of(x3,i9)
+                  └─ _a_q(x3,RSTR,BODY)
+                                    └─ _in_p_loc(e2,x3,x10)
+
+</code></pre></div></div>
+
+<p>Using the idealized contract, <code class="language-plaintext highlighter-rouge">x10</code> would be set to every one of the objects in the system by <code class="language-plaintext highlighter-rouge">the_q</code>, and, within that, <code class="language-plaintext highlighter-rouge">x3</code> would again be set to every one of the objects in the system, resulting in a worst-case performance of <code class="language-plaintext highlighter-rouge">n^2</code>, where <code class="language-plaintext highlighter-rouge">n</code> is the number of objects in the system.</p>
+
+<p>One optimization we can perform is to notice that the first thing a quantifier predication does is to iteratively set its scoped variable and call its first (<code class="language-plaintext highlighter-rouge">RSTR</code>) argument like this pseudo-code:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for item in &lt;everything in the world&gt;:
+    if rstr_regular_predication(item) is True:
+        ...
+</code></pre></div></div>
+
+<p>So the <code class="language-plaintext highlighter-rouge">RSTR</code> predication of <code class="language-plaintext highlighter-rouge">_the_q</code>, which is <code class="language-plaintext highlighter-rouge">_folder_n_of</code> in this case, has to check every single object to see if it is “a folder”. Given that any regular predication could end up in the <code class="language-plaintext highlighter-rouge">RSTR</code> of a quantifier predication, we could change the contract to allow the regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it <em>much more quickly</em>, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for item in rstr_regular_predication():
+    ...
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">RSTR</code> regular predication can now get called with <em>unbound</em> arguments, and if so, it is responsible for finding the objects in the world that make it <code class="language-plaintext highlighter-rouge">True</code>, which it should be able to do much more efficiently.  This change effectively makes the contract the same for all predications at the cost of complicating the logic for regular predications a little. It is worth it for the performance improvement.</p>
+
+<p>So, the contract we’ll use in the rest of the tutorial is the “practical contract”:</p>
+
+<blockquote>
+  <p>Calling any predication with <em>unbound</em> variables should return the unbound variables bound to values from the world that, together, make it <code class="language-plaintext highlighter-rouge">True</code>. Calling it again should return a different set of bindings that also make it <code class="language-plaintext highlighter-rouge">True</code>. Eventually, the predication will run out of things that can be <code class="language-plaintext highlighter-rouge">True</code> and should then stop returning bindings (i.e. fail).</p>
+
+  <p>Calling any predication with <em>bound</em> variables should simply return the same values if <code class="language-plaintext highlighter-rouge">True</code> or fail if not. In other words, it should iterate at most once.</p>
+</blockquote>
+
+<p>Let’s go through our same example with the new contract. The world has these objects:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`a folder`
+`a small file`
+`a large file`
+</code></pre></div></div>
+
+<p>A Regular Predication example:</p>
+
+<p>If <code class="language-plaintext highlighter-rouge">_file_n_of(x)</code> is called with <code class="language-plaintext highlighter-rouge">x</code> bound to:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">a folder</code>: it “fails” by not returning a solution</li>
+  <li><code class="language-plaintext highlighter-rouge">a small file</code>: it “succeeds” by returning a solution with the variable bound as it already is: {<code class="language-plaintext highlighter-rouge">x</code>=<code class="language-plaintext highlighter-rouge">a small file</code>}</li>
+</ul>
+
+<p>If <code class="language-plaintext highlighter-rouge">_file_n_of(x)</code> is called with an unbound <code class="language-plaintext highlighter-rouge">x</code>, it:</p>
+<ol>
+  <li>Sets <code class="language-plaintext highlighter-rouge">x</code> to the first “file” in the world using whatever algorithm is most efficient, finding: <code class="language-plaintext highlighter-rouge">a small file</code> and returns {<code class="language-plaintext highlighter-rouge">x</code> = <code class="language-plaintext highlighter-rouge">a small file</code>}</li>
+  <li>Sets <code class="language-plaintext highlighter-rouge">x</code> to the next “file” in the world using whatever algorithm is most efficient, finding: <code class="language-plaintext highlighter-rouge">a large file</code> and returns {<code class="language-plaintext highlighter-rouge">x</code> = <code class="language-plaintext highlighter-rouge">a large file</code>}</li>
+  <li>Runs out of files so fails, which means: stop returning solutions</li>
+</ol>
+
+<p>The Quantifier Predication example is the same as before since we have simply started applying its contract to <em>all</em> predications now.</p>
+
+<p>To help with performance of the system, the “practical contract” is the contract we will build for each predication we want the system to understand.</p>
+
+<h3 id="final-performance-thoughts">Final Performance Thoughts</h3>
+<p>Even with this optimization, the example MRS for something like “a large file is in the folder” will need to check each “large file” in the system to see if it is in “the” folder (where “the folder” might mean “current folder”), which still could be a lot of iterations. There are further optimizations that can be done by the solver beyond this, and many will depend on the particular world you execute against. Optimizing performance of a system like this is an ongoing task.</p>
+
+<p>There are other ways to solve an MRS for the variables that make it true. For example, some MRS’s can be converted to classic logic statements “There exists an x such that…” and various solvers can be used to solve for the variables in it: <a href="">TODO: List references here</a>. In addition, there are many uses for MRS that don’t involve solving for the variables at all <a href="">TODO: List references here</a>. However, the SLD approach is a relatively straightforward approach that can be used for constrained worlds and allows us to explain the various aspects of DELPH-IN without getting too deep in complicated mathematics or logic.</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

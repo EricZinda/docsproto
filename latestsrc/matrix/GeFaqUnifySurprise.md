@@ -82,5 +82,4 @@ chart, but the problematic edges will unify during interactive
 unification.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2017-05-03 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
