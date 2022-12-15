@@ -5,7 +5,9 @@ Before we go any further, we need to step back and work through how to deal with
 
 We can do better, but we'll need to work through a few challenges first.
 
-The first challenge is to figure out *which* of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. For "A file is large", the MRS and a resolved tree are:
+The first challenge is to figure out *which* of the failures to return. Usually there is more than one. To see why, recall that we are solving MRS by effectively pushing all the items in the world "through" the MRS until we find the ones that make it true. 
+
+For "A file is large", the MRS and a resolved tree are:
 
 ```
 [ TOP: h0
@@ -73,7 +75,7 @@ The intuition for why this works is this:
 
 If there *was* a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
 
-If there *wasn't* a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying. Also: no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that didn't work out. They'll likely list the failure that is "the closest they got to succeeding".  For example:
+If there *wasn't* a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying and no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that didn't work out. They'll likely list the failure that is "the closest they got to succeeding".  For example:
 
     (In a world where there are 10 things on the counter, 
     including milk, and Bob is holding things he can't put down)
@@ -142,7 +144,9 @@ def Call(*args, **kwargs):
     yield from DelphinContext().Call(*args, **kwargs)
 ```
 
-At this point, we've just restructured things into an `ExecutionContext` class and started giving an "index" to every predication, but we're not using it, yet. Next, we can create a `ReportError()` method that will do the work of recording the "deepest" error, along with a helper function to make it easy to call.
+At this point, we've just restructured things into an `ExecutionContext` class and started giving an "index" to every predication, but we're not using it. 
+
+Next, we can create a `ReportError()` method that will do the work of recording the "deepest" error, along with a helper function to make it easy to call.
 
 ```
 class ExecutionContext(object):

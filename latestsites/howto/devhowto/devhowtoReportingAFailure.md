@@ -18,7 +18,7 @@ def large_a_1(state, e_introduced, x_target):
             ReportError(f"'{item}' is not large")
 ```
 
-`large_a_1` looks at an object, checks if it has a size at all, and if so, checks if it is "large" and succeeds if it is. If not, a logical error to report would be "<this thing I was passed> is not large", which we did.
+`large_a_1` looks at an object, checks if it has a size at all, and if so, checks if it is "large" and succeeds if it is. If not, a logical error to report would be "'this thing I was passed' is not large" (which is what we did).
 
 Let's try it by evaluating "A file is large":
 
@@ -44,7 +44,9 @@ a dog
 3. `a file`: a `large_a_1` failure
 4. `a dog`: a `_file_n_of` failure
 
-Error #2 will be remembered using our new heuristic. The actual error reported from #2 for the phrase, "A file is large" will be: "'a small file' is not large". This is an odd answer.  Even though this error looked like it made sense in the code, it is pretty far from the one we wanted which is something like: "There isn't a large file". 
+Error #2 will be remembered using our new heuristic. The actual error reported from #2 for the phrase, "A file is large" will be: "'a small file' is not large". 
+
+This is an odd answer.  Even though it looked like it made sense in the code, it is pretty far from the one we wanted which is something like: "There isn't a large file". 
 
 We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The *mechanics* are to feed every object in the world through the variables in the MRS, but the overall *objective* is to, for example, find an `x` that makes `_large_a_1` true.  The problem is that we are reporting the error with a textual description of the *example* that is currently in the `x` variable (e.g. `a small file`) instead of what `x` *represents* ("a file").  
 
@@ -61,5 +63,5 @@ def large_a_1(state, e_introduced, x_target):
 
 With that, if we run "A file is large" through the system with no large files, we'll get: "A thing is not large".  This is the best we can do for now. 
 
-The next section will improve it to say "A file is not large" which is more clear.
+The [next section](../devhowtoConceptualFailures) will improve it to say "A file is not large" which is more clear.
 <update date omitted for speed>{% endraw %}

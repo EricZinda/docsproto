@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN How-to">
 <meta property="og:title" content="DELPH-IN How-to">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors/">
 
 
 
@@ -215,7 +215,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/" class="active">Event Variables</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
           
@@ -233,7 +233,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/" class="active">Quantifier Errors</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
           
@@ -311,104 +311,160 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h2 id="event-variables">Event Variables</h2>
-<p>So far, we have been conveniently ignoring any event variables (those that start with “e”). Where instance (<code class="language-plaintext highlighter-rouge">x</code>) variables contain a single instance for any answer, event (<code class="language-plaintext highlighter-rouge">e</code>) variables are designed to build up a structure. They are how modifiers to a word get tracked. For example, we’ve been talking about a <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3) and _file_n_of(x3)</code> and have ignored what the event variable in <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code> is for. We can’t do this if we are trying to find a <code class="language-plaintext highlighter-rouge">_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)</code>.</p>
-
-<p>In an MRS, any predication except a quantifier is said to “introduce” its first argument. If you look closely you’ll see that every variable is only “introduced” by one predication in a given MRS.  In a sense, that variable <em>represents</em> that predication.  If a predication like <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code> introduces an event variable <code class="language-plaintext highlighter-rouge">e2</code>, it does so to provide a place for other predications to hang modifiers.</p>
-
-<p>For example, to represent something that is “very large”, the word “very” needs to be able to attach its “veryness” to “large”. For “very very large” you build a chain where the first “very” modifies the second which modifies “large”. This is all done with events, and it happens like this because languages are recursive and allow all kinds of recursive constructions. Delphin needed a way to model this.</p>
-
-<p>Here are the predications generated for: “very large” and “very very large”, note that the comma (“,”) is being used to indicate a conjunction:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Very large
-_very_x_deg(e2, e1), _large_a_1(e1,x3)
-
-# Very very large
-_very_x_deg(e3, e2), _very_x_deg(e2, e1), _large_a_1(e1,x3)
-</code></pre></div></div>
-
-<p>You can see that in “very large” <code class="language-plaintext highlighter-rouge">_very_x_deg</code> takes the event variable <em>introduced by</em> <code class="language-plaintext highlighter-rouge">_large_a_1</code> as an argument. The job of <code class="language-plaintext highlighter-rouge">_very_x_deg</code> is to put something in the event that <code class="language-plaintext highlighter-rouge">_large_a_1</code> can look for so that its behavior can be modified to be “very large”. <code class="language-plaintext highlighter-rouge">_very_x_deg</code> also introduces <em>its own</em> event variable that other predications can modify. For example: “very very large”. The first “very” modifies the event variable introduced by the second “very”, etc.</p>
-
-<p>This means, first, that we need a mechanism for handling event variables and, second, that our implementation of <code class="language-plaintext highlighter-rouge">_large_a_1</code> needs to be modified to pay attention in case its event is modified in some way.</p>
-
-<p>Handling event variables in our solver will be easy. Since they need to be able to capture what could be a large buildup of modifications in a given sentence, we’ll use a dictionary for them. We’ll add a helper function to the <code class="language-plaintext highlighter-rouge">State</code> object to modify them:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class State(object):
-    def __init__(self, objects):
-        self.variables = dict() # a empty dictionary
-        self.objects = objects
-
-    def GetVariable(self, variable_name):
-        return self.variables.get(variable_name, None)
-
-    def SetX(self, variable_name, item):
-        new_state = State(self.state) 
-        new_state.variables = copy.deepcopy(self.variables)
-        new_state[variable_name] = item        
-        return new_state
-
-    def AddToE(self, eventName, key, value):
-        newState = copy.deepcopy(self)
-        if newState.GetVariable(eventName) is None:
-            newState.variables[eventName] = dict()
-
-        newState.variables[eventName][key] = value
-        return newState
-
-    def AllIndividuals(self):
-        for item in self.objects:
-            yield item
-</code></pre></div></div>
-<p><code class="language-plaintext highlighter-rouge">AddToE()</code> adds the key/value pair it is given to a (possibly new) dictionary that represents the event state and returns a new <code class="language-plaintext highlighter-rouge">State</code> object, just like <code class="language-plaintext highlighter-rouge">SetX()</code> does.</p>
-
-<p>Now let’s create the <code class="language-plaintext highlighter-rouge">_very_x_deg</code> predication and modify the <code class="language-plaintext highlighter-rouge">_large_a_1</code> predication to pay attention to any modifications to its event.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is a helper function that any predication that can
-# be "very'd" can use to understand just how "very'd" it is
-def DegreeMultiplierFromEvent(state, e_introduced):
-    # if a "very" is modifying this event, use that value
-    # otherwise, return 1
-    e_introduced_value = state.GetVariable(e_introduced)
-    if e_introduced_value is None or "DegreeMultiplier" not in e_introduced_value:
-        degree_multiplier = 1
-    else:
-        degree_multiplier = e_introduced_value["DegreeMultiplier"]
-
-    return degree_multiplier
-
-
-@Predication(vocabulary, "_very_x_deg")
-def very_x_deg(state, e_introduced, e_target):
-    # First see if we have been "very'd"!
-    initial_degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
-
-    # We'll interpret "very" as meaning "one order of magnitude larger"
-    yield state.AddToE(e_target, "DegreeMultiplier", initial_degree_multiplier * 10)
-
-
-@Predication(vocabulary, name="_large_a_1")
-def large_a_1(state, e_introduced, x_target):
-    x_target_value = state.GetVariable(x)
-    if x_target_value is None:
-        iterator = state.AllIndividuals()
-    else:
-        iterator = [x_target_value]
-
-    # See if any modifiers have changed *how* large 
-    # we should be
-    degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
-
+        <h3 id="improving-quantifier-errors">Improving Quantifier Errors</h3>
+<p>With the same approach to error reporting in <code class="language-plaintext highlighter-rouge">_file_n_of</code> that we did in <code class="language-plaintext highlighter-rouge">large_a_1</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_file_n_of")
+def file_n_of(state, x):
+    
+    ...
+    
     for item in iterator:
-        # Arbitrarily decide that "large" means a size greater
-        # than 1,000,000 and apply any multipliers that other
-        # predications set in the introduced event
-        if hasattr(item, 'size') and item.size &gt; degree_multiplier * 1000000:
-            new_state = state.SetX(x_target, item)
+        if isinstance(item, File):
+            new_state = state.SetX(x, item)
             yield new_state
+        else:
+            ReportError(["xIsNotY", x, "file"])
 </code></pre></div></div>
-<p><code class="language-plaintext highlighter-rouge">very_x_deg</code> adds a “DegreeMultiplier” to the event dictionary of its target, and also pays attention to <em>its own</em> introduced event in case someone added one there.  This allows “very very very very…” to work.</p>
 
-<p><code class="language-plaintext highlighter-rouge">large_a_1</code> now uses the same logic to determine how much to modify its default notion of “large”. Obviously, what “large”, “very”, etc mean are very domain specific, but this illustrates the concept.</p>
+<p>… and evaluating “A file is large”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          ┌────── _file_n_of(x3,i8)
+_a_q(x3,RSTR,BODY)    
+               └─ _large_a_1(e2,x3)
+</code></pre></div></div>
+
+<p>… against a world of <em>no</em> files:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a dog
+a folder
+</code></pre></div></div>
+
+<p>We got the response, “A thing is not a file”, which is a little <em>too</em> obtuse. Yes, maybe, the user <em>might</em> interpret that as “Nothing is a file” (which would be a fine error), but we can generate something better.</p>
+
+<p>To understand how, we need to look at how the MRS is evaluated. Every variable in an MRS is “scoped” by exactly one quantifier – the quantifier that has the variable as its first argument. “Scoped” means that the only things that can reference that variable must be in the branches of the <code class="language-plaintext highlighter-rouge">RSTR</code> or <code class="language-plaintext highlighter-rouge">BODY</code> of that quantifier and nowhere else in the MRS.  The quantifier works like this:</p>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">RSTR</code> scopal argument defines what is being quantified</li>
+  <li>The quantifier itself specifies “how much” of the <code class="language-plaintext highlighter-rouge">RSTR</code> is being selected</li>
+  <li>The <code class="language-plaintext highlighter-rouge">BODY</code> defines what is happening to the quantified items from the <code class="language-plaintext highlighter-rouge">RSTR</code></li>
+</ul>
+
+<p>For example, “A file is large” has the <code class="language-plaintext highlighter-rouge">_a_q</code> quantifier:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          ┌────── _file_n_of(x3,i8)
+_a_q(x3,RSTR,BODY)    
+               └─ _large_a_1(e2,x3)
+</code></pre></div></div>
+<p>… and this means: <code class="language-plaintext highlighter-rouge">_a_q</code> is true when “an arbitrary single item” (the quantification “a”) from the <code class="language-plaintext highlighter-rouge">RSTR</code> (<code class="language-plaintext highlighter-rouge">_file_n_of(x3,i8)</code>) is true when the <code class="language-plaintext highlighter-rouge">BODY</code> (<code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code>) is evaluated.</p>
+
+<p>So, it turns out that the error we want to generate when the user says “A file is large” in a world with no files, namely, “There aren’t any files”, could be generated by the <em>quantifier</em> if there is nothing in the <code class="language-plaintext highlighter-rouge">RSTR</code> to try on the <code class="language-plaintext highlighter-rouge">BODY</code>.</p>
+
+<p>Said differently, quantifiers should always report an error like “There aren’t any <whatever the="" RSTR="" said="">" if there aren't any solutions to the `RSTR`. *That* is how we get the right error for this scenario.</whatever></p>
+
+<p>Because our error system will always report the <em>deepest</em> error, and the error that comes from the <code class="language-plaintext highlighter-rouge">RSTR</code> will be deeper than the error from its quantifier, we’ll need to add a way to “force” an error in our <code class="language-plaintext highlighter-rouge">ReportError()</code> method, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def ReportError(self, error, force=False):
+        if force or self._error_predication_index &lt; self._predication_index:
+            self._error = error
+            self._error_predication_index = self._predication_index
+</code></pre></div></div>
+
+<p>Then, we can modify the implementation of <code class="language-plaintext highlighter-rouge">a_q</code> to report a better error when the <code class="language-plaintext highlighter-rouge">RSTR</code> can’t be solved:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_a_q")
+def a_q(state, x_variable, h_rstr, h_body):
+    # Run the RSTR which should fill in the variable with an item
+    rstr_found = False
+    for solution in Call(vocabulary, state, h_rstr):
+        rstr_found = True
+
+        # Now see if that solution works in the BODY
+        body_found = False
+        for body_solution in Call(vocabulary, solution, h_body):
+            yield body_solution
+            body_found = True
+
+        if body_found:
+            # If it works, stop looking. This one is the single arbitrary item we are looking for
+            break
+
+    if not rstr_found:
+        # Ignore whatever error the RSTR produced, this is a better one
+        ReportError(["doesntExist", x_variable], force=True)
+        
+       
+def GenerateMessage(mrs, error_term):
+
+    ...
+    
+    if error_constant == "doesntExist":
+        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
+        return f"There isn't {arg1} in the system"
+        
+    ...
+    
+# Evaluate the proposition: "a file is large" when there are no files, period
+def Example11():
+    state = State([Folder(name="Desktop"),
+                   Folder(name="Documents")])
+
+    mrs = {}
+    mrs["Index"] = "e1"
+    mrs["Variables"] = {"x1": {"NUM": "pl"},
+                        "e1": {"SF": "prop"}}
+    mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
+
+    state = state.SetX("mrs", mrs)
+    DelphinContext().RespondToMRS(state, mrs)
+    
+# Prints:
+There isn't a thing in the system
+</code></pre></div></div>
+<p>This is close, but it is saying “thing” instead of “file”. Recall that <code class="language-plaintext highlighter-rouge">EnglishForDelphinVariable()</code> converts variables to their English equivalents <em>at the point where the error happened</em>. Since <code class="language-plaintext highlighter-rouge">a_q</code> is reporting the error, the function thinks neither the <code class="language-plaintext highlighter-rouge">RSTR</code> or <code class="language-plaintext highlighter-rouge">BODY</code> has been evaluated yet. Thus <code class="language-plaintext highlighter-rouge">x</code> is only a “thing” at that point. We need a way for <code class="language-plaintext highlighter-rouge">a_q</code> to indicate that it wants what <code class="language-plaintext highlighter-rouge">x</code> will contain <em>after the <code class="language-plaintext highlighter-rouge">RSTR</code> is evaluated</em>.</p>
+
+<p>We’ll do this by creating a function <code class="language-plaintext highlighter-rouge">IndexOfPredication()</code> that gives the index of any predication in an MRS. Then, instead of passing the variable itself in the error (<code class="language-plaintext highlighter-rouge">x1</code>), we’ll pass a special list that will tell <code class="language-plaintext highlighter-rouge">EnglishForDelphinVariable()</code> to use the variables value “as if it was evaluated at a different predication” like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ReportError(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
+</code></pre></div></div>
+
+<p>Here’s the code that does it all:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Returns the index of a predication in an MRS
+def IndexOfPredication(mrs, stop_predication):
+    current_predication_index = [1]
+
+    def StopAtBranch(predication):
+        if predication == stop_predication:
+            # This is the predication we are looking for
+            # Return the index of it
+            return current_predication_index[0]
+        else:
+            current_predication_index[0] = current_predication_index[0] + 1
+
+    return WalkTreeUntil(mrs["RELS"], StopAtBranch)
+    
+    
+def EnglishForDelphinVariable(failure_index, variable, mrs):
+    if isinstance(variable, list):
+        if variable[0] == "AtPredication":
+            failure_index = IndexOfPredication(mrs, variable[1])
+            variable = variable[2]
+            
+    ...
+    
+    
+@Predication(vocabulary, name="_a_q")
+def a_q(state, x_variable, h_rstr, h_body):
+    
+    ...
+    
+    if not rstr_found:
+        # Ignore whatever error the RSTR produced, this is a better one
+        # Report the variable's English representation as it would be in the BODY
+        ReportError(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
+</code></pre></div></div>
+
+<p>Now when we say “A file is large” in a world with no files we get “There isn’t a file in the system”. Much better!</p>
+
 <update date="" omitted="" for="" speed="">
 </update>
 

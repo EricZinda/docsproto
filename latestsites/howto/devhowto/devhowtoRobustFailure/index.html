@@ -227,11 +227,13 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">Naive Failures</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/" class="active">More Robust Failures</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/" class="active">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
           
@@ -310,7 +312,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="reporting-a-failure-more-robustly">Reporting a Failure More Robustly</h2>
-<p>One final piece of cleanup work remains in our effort to report decent failures when resolving an MRS: We will be returning a lot of the same errors from different predications, so, instead of littering the code with full sentences like “There is not a large thing”, we’ll use constants like <code class="language-plaintext highlighter-rouge">doesntExist</code> and allow them to take arguments like <code class="language-plaintext highlighter-rouge">x3</code>. Then, using the code <a href="../devhowtoConceptualFailures">from the previous section</a>, we can create a shared routine that turns them into English and fills them in with descriptions of the variables at the point of failure.  Like this:</p>
+<p>One final piece of cleanup work remains in our effort to report decent failures when resolving an MRS. We will be returning a lot of the same errors from different predications. Instead of littering the code with full sentences like “There is not a large thing”, we’ll use constants like <code class="language-plaintext highlighter-rouge">doesntExist</code> and allow them to take arguments like <code class="language-plaintext highlighter-rouge">x3</code>. Then, using the code <a href="../devhowtoConceptualFailures">from the previous section</a>, we can create a shared routine that turns them into English and fills them in with descriptions of the variables at the point of failure.  Like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># error_term is of the form: [index, error] where "error" is another 
 # list like: ["name", arg1, arg2, ...]. The first item is the error 
@@ -422,7 +424,7 @@ def Example11():
 No, that isn't correct: a thing is not a file
 </code></pre></div></div>
 
-<p>That one isn’t good. The <a href="../devhowtoQuantiferErrors">next section</a> will analyze why, and how to fix it.</p>
+<p>That one isn’t good. The <a href="../devhowtoQuantifierErrors">next section</a> will analyze why, and how to fix it.</p>
 
 <update date="" omitted="" for="" speed="">
 </update>

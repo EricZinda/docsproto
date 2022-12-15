@@ -19,7 +19,7 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 ```
 
-Errors in that MRS from `_large_a_1` should say "A *file* is not large" since the only things that can be in `x` by the time it gets to `_large_a_1` have been filtered to be files. 
+Errors in that MRS from `_large_a_1` should say "A *file* is not large" since the only things that can be in `x` by the time it gets to `_large_a_1` have been restricted to be files. 
 
 For "A dog is large":
 ```
@@ -31,15 +31,15 @@ Errors in *that* MRS from `_large_a_1` should say "A *dog* is not large".
 
 etc. 
 
-If we can get a description of what `x` is, we can write one error message and have it work well no matter how the predication is used.
+If we can get a description of what `x` is, we can write one error message and have it work no matter how the predication is used.
 
 ### Determining What to Call "x"
-We can figure out what the variable `x` has been filtered to "so far" by taking advantage of some things we know:
+We can figure out what the variable `x` has been restricted to "so far" by taking advantage of some things we know:
 
 1. We know how the tree is executed (depth-first)
 2. We know what the predications in the tree are
 3. We know which predication reported the error 
-4. We know where that predication is in the execution order
+4. Thus: We know where the failed predication is in the execution order
 
 So, in the scope-resolved tree for "a dog is large":
 
@@ -49,9 +49,15 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 ```
 
-... if the error came from `_large_a_1`, we must have finished `_dog_n_1` but be in the middle of resolving `_a_q`.  At that point, the variable `x3` contains something that is `dog` (not even `*a* dog` yet).  In this way, we can write code which gives the English description of a variable *at a certain point in the tree's execution*. We can use that to build failure messages that have the proper "thing" for any phrase we encounter.
+... if the error came from `_large_a_1`, we must have finished `_dog_n_1` but be in the middle of resolving `_a_q`.  At that point, the variable `x3` contains something that is restricted to `dog` things (not even `*a* dog` yet).  In this way, we can write code which gives the English description of a variable *at a certain point in the tree's execution*. We can use that to build failure messages that have the proper "thing" for any phrase we encounter.
 
-To do this, let's create a function (`EnglishForDelphinVariable()`) which takes 1) the `variable` we want English for, 2) the MRS, and 3) the place in the tree for which we want the English. It will walk the tree in execution order using the function we've written [in a previous section](../devhowtoSimpleQuestions) called `WalkTreeUntil()`. This function will pass each predication to a different function called `RefineNLGWithPredication()` that determines if the predication is doing anything to the `variable` in question. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation"). At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
+To do this, let's create a function, `EnglishForDelphinVariable()`, which takes:
+
+1. The `variable` we want English 
+2. The MRS
+3. The place in the tree for which we want the English
+
+It will walk the tree in execution order using the function we've written [in a previous section](../devhowtoSimpleQuestions) called `WalkTreeUntil()`. This function will pass each predication, in execution order, to a different function called `RefineNLGWithPredication()`. That function will determine if the predication is restricting the `variable` in question somehow. If so, it adds some data to a structure called `nlg_data` ("NLG" stands for "Natural Language Generation") that is the English description of what the restriction *is*. At the end, we call a function (`ConvertToEnglish`) that takes all the gathered data and turns it into English:
 
 ```
 # Given the index where an error happened and a variable,
@@ -86,7 +92,7 @@ def EnglishForDelphinVariable(failure_index, variable, mrs):
     return ConvertToEnglish(nlg_data)
 ```
 
-For now, `RefineNLGWithPredication()` takes a very simple approach to seeing if a predication is "contributing to" the `variable`. Predications which *introduce* a variable (as described in a [previous section](../devhowtoEvents)) are, in some sense, the base "thing" that the variable is. They should clearly be part of its description. Quantifiers for that variable describe "how much" of it there are, so they should be included as well. There are lots more we could add (and we will later) but keeping it in this simple gets us a long way for now:
+For now, `RefineNLGWithPredication()` takes a very simple approach to seeing if a predication is restricting the `variable`: Predications which *introduce* a variable (as described in a [previous section](../devhowtoEvents)) are, in some sense, the base "thing" that the variable is. They should clearly be part of its description. Quantifiers for that variable describe "how much" of it there is, so they should be included as well. There is lots more we could add (and we will later) but keeping it simple is fine for now:
 
 ```
 # See if this predication in any way contributes words to 
@@ -109,29 +115,31 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
             nlg_data["Topic"] = parsed_predication["Lemma"]
 ```
 
-Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is *much* more complicated than this, and we'll tackle doing it "right" later. For now, our naive approach will illustrate the ideas:
-
 > Note: The code for `ParsePredicationName()` is described in an [appendix](../devhowtoParsePredication)
 
+
+Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is *much* more complicated than this, and we'll tackle doing it "right" later. For now, our naive approach will illustrate the ideas:
 
 ```
 # Takes the information gathered in the nlg_data dictionary
 # and converts it, in a very simplistic way, to English
 def ConvertToEnglish(nlg_data):
+    phrase = ""
+
     if "Quantifier" in nlg_data:
-        quantifier = nlg_data["Quantifier"]
+        phrase += nlg_data["Quantifier"] + " "
     else:
-        quantifier = "a"
+        phrase += "a "
 
     if "Topic" in nlg_data:
-        topic = nlg_data["Topic"]
+        phrase += nlg_data["Topic"]
     else:
-        topic = "thing"
+        phrase += "thing"
 
-    return f"{quantifier} {topic}"
+    return phrase
 ```
 
-Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from "A file is large", we can test it out by calling it with different indices to see what it thinks "x1" is at that point:
+Those functions will provide the start of a system that converts a variable into English, given a spot in the MRS. Using the MRS from "A file is large", we can test it out by calling it with different indices to see what it thinks `x1` is at that point:
 
 ```
 def Example12():
@@ -152,5 +160,5 @@ a thing
 a file
 ```
 
-You can see that, until predication #2 has succeeded (`_file_n_of`), `x1` is described as "a thing" since nothing has really filtered it yet. Once it gets to predication #3 it now holds "a file". We could easily beef up our code so that after `_large_a_1` it is described as "a large file" and we will, eventually.
+You can see that, until predication #2 has succeeded (`_file_n_of`), `x1` is described as "a thing" since nothing has restricted it yet. Once it gets to predication #3 it now holds "a file". We could easily beef up our code so that after `_large_a_1` it is described as "a large file" and we will, eventually.
 <update date omitted for speed>{% endraw %}
