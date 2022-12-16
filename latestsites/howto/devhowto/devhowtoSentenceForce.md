@@ -54,5 +54,4 @@ Note that these are all answers the user would expect if the statement worked.  
 - User: "Make a file large." -> "test1.txt is now large"
 
 In the [next few sections](../devhowtoSimplePropositions) we'll work through how to handle the different types of sentences when they succeed, and then end by talking about how to handle failures.
-
-Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSentenceForce.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
