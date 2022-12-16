@@ -58,7 +58,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
 The MRS is a flat structure that avoids building a single tree which would lock in one interpretation.  Instead, it leaves "holes" in the arguments (the "scopal" arguments that start with "h") of the MRS predicates and provides constraints (the `HCONS`) for plugging the predications together "legally".  If you combine the predications and follow the constraints (among other things), you'll end up with a "well-formed MRS tree" which defines one valid interpretation of the sentence.
 
-This interpretation is what we need in order to eventuall "solve" the sentence for the variables it contains. This section describes how to derive it.
+This interpretation is what we need in order to eventually "solve" the sentence for the variables it contains. This section describes how to derive it.
 
 ## Holes and Constraints
 "Holes" are `h` arguments in a predication that refer to a predicate label (indicated by `LBL:` in the MRS) that is *not* defined. In the above MRS, `h0` (the `TOP:`), `h11`, `h12`, `h5`, and `h6` are all "holes" since none of the predicates use those labels as their `LBL:`.
