@@ -112,6 +112,10 @@ Another algorithm that we'll use in the tutorial is able to prune the search spa
 There are definitely more efficient approaches, but the algorithm below has the advantage of being relatively simple. Here is [one alternative](https://www.aclweb.org/anthology/W05-1105.pdf).  There are definitely more.
 
 ## A Simple, Fast Enough, Algorithm
+First: it isn't important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We'll use this code as a library routine all throughout the tutorial, but we won't dive into its implementation again. If you've followed so far, you've got enough background to go to the next section where we start to dive into [how to implement the predications](devhowtoPredicationContract).
+
+This description is for those that are interested in how it works:
+
 First some definitions used in this algorithm:
 - **Hole**: A scopal (i.e. `h` type) argument in an MRS predicate that doesn't refer to an existing predication
 - **Floater**: A tree of predications that have had zero or more of their scopal (i.e. `h` type) arguments filled by unique predications.  [This is not at official MRS term, it is one created for this algorithm]
@@ -154,7 +158,9 @@ Starting at the initial node:
 **Returns**:
 `nodeAssignmentList` which is simply a dictionary where the keys are holes and the value is the floater that was assigned to it
 
-Once this has run its course you will have all the valid well-formed trees for the MRS. Here is the Python code for the main routine, it contains logging that is useful for debugging, but can be ignored:
+Once this has run its course you will have all the valid well-formed trees for the MRS. 
+
+Here is the Python code for the main routine, it contains logging that is useful for debugging, but can be ignored:
 
 ~~~
 def TryAlternativeHoleAssignments(allHolesDict, nodeRemainingHolesListOrig, nodeRemainingFloatersList, nodeAssignmentList):
