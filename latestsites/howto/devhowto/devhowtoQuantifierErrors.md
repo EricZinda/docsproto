@@ -158,5 +158,4 @@ def a_q(state, x_variable, h_rstr, h_body):
 
 Now when we say "A file is large" in a world with no files we get "There isn't a file in the system". Much better!
 
-
-Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoQuantifierErrors.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

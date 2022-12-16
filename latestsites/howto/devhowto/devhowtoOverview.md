@@ -4,5 +4,4 @@ If you are trying to use natural language as an interface to software, you will 
 This tutorial uses the [English Resource Grammar (ERG)](../ErgTop) from DELPH-IN to parse English, but the concepts are the same no matter which DELPH-IN grammar you use. In fact, the Python functions we build have no dependency on the grammar at all and can be used for any of the DELPH-IN grammars.
 
 Python was chosen as a simple, popular, open-source language available on many platforms. However, the examples and approach shown here could be implemented in any language. There is not much code in the core solver and associated helper functions that would need to be translated. The overwhelming majority of code will be in the implementation of the predications you create for your own domain.
-
-Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoOverview.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
