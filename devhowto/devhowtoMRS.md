@@ -1,13 +1,15 @@
-## The Minimal Recursion Semantics Format
+## The Minimal Recursion Semantics (MRS) Format
 > This section provides an *overview* of the Minimal Recursion Semantics format that is the primary artifact used by DELPH-IN to represent the meaning of a phrase. It should be sufficient for understanding all of the rest of the material in the tutorial.  For a deeper dive into MRS, explore [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf).
 
-The [English Resource Grammar or "ERG"](http://moin.delph-in.net/ErgTop)  ([via the ACE parser](http://sweaglesw.org/linguistics/ace/)) converts an English phrase into a text format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) that is designed to allow software to process human language. 
+The DELPH-IN [English Resource Grammar or "ERG"](http://moin.delph-in.net/ErgTop), [via the ACE parser](http://sweaglesw.org/linguistics/ace/), converts an English phrase into a text format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) that is designed to allow software to process human language. ACE can also be used with any of the other DELPH-IN grammars to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.
 
-Because language is ambiguous, most phrases produce more than one possible MRS document, each representing a different interpretation of the phrase. Moreover, the MRS document itself has multiple interpretations. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a [later section](devhowtoWhichParseAndTree) of the tutorial.
+Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Moreover, each MRS document itself has multiple interpretations. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a [later section](devhowtoWhichParseAndTree) of the tutorial.
 
 The MRS document encodes one semantic meaning of the phrase into a set of predicate-logic-like predicates (called predications) and a set of constraints that constrain the valid ways they can be organized into a tree.  The set of valid trees define all of the alternative meanings of that MRS.
 
-For example, the phrase: "Look under the table." produces 12 different MRS parses (interpretations). These include the interpretations: "Look at whatever is under the table" and "Look around while you are under the table" among 10 others. The MRS for the first interpretation is:
+For example, the phrase: "Look under the table." produces 12 different MRS documents (also called "parses" or "interpretations"). These include interpretations that mean: "Look (at whatever is) under the table" and "Look (around while you are) under the table" ... among 10 others. 
+
+The MRS document for the first interpretation is:
 ~~~
 [ TOP: h0
 INDEX: e2
@@ -22,7 +24,7 @@ RELS: <
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
 
-Using the rules described in the `HCONS` section (which we will [describe later](#Constraints)), these are the two well-formed trees that can be built out of that MRS, which describe the two alternatives that *it* could mean:
+Using the rules described in the `HCONS` section (which we will [describe later](#constraints)), these are the two well-formed trees that can be built out of that MRS, which describe the two alternatives that *it* could mean:
 
 ~~~
             ┌────── _table_n_1(x9)
@@ -110,7 +112,7 @@ RELS: < [ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: 
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
 
-These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section on [scopal arguments](#H-(Handle)-Variables,-aka-"Scopal Arguments") discusses how this works.
+These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section on [scopal arguments](#h-handle-variables-aka-scopal-arguments") discusses how this works.
 
 ### Predication Names
 The name of a predication, for example, `_table_n_1`, encodes important information about it:
@@ -149,7 +151,7 @@ Thinking of MRS variables as variables in a math equation can help: The MRS is e
 
 Of all the arguments, `ARG0` is special.  It holds a variable that, in a sense, "represents" the predication, called the "characteristic variable" or the "distinguished variable", but most often now the "instrinsic variable".  If you read the [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) documentation, you'll see the term "introduced" is used to describe the intrinsic variable.  The predicate is described as "introducing" its "intrinsic variable" which is `ARG0`. Sometimes phrases like "the variable *introduced by* predicate X..." are used.  This will become important later, mostly when we talk about [events](devhowtoEvents) or about how to [convert predications back into a phrase](devhowtoConceptualFailures). For now, it is enough to understand that `ARG0` is a special argument that *represents* the predication in some special ways.
 
-One final point: Every variable in an MRS is introduced by exactly one predication in the MRS (which is why they can serve as makeshift "representations" of the predication). We'll come back to this when we [talk about `i`, `p` and `u` variable types](#Other-Variables-Types:-I,-U,-P).
+One final point: Every variable in an MRS is introduced by exactly one predication in the MRS (which is why they can serve as makeshift "representations" of the predication). We'll come back to this when we [talk about `i`, `p` and `u` variable types](#other-variables-types-i-u-p).
 
 #### Variable Properties
 Variables in an MRS have *properties*, which in a sense are like single argument predications for the variables. They define many different properties of a variable that aren't included anywhere else:
@@ -206,7 +208,7 @@ Note that instance variables are always *scoped* by a quantifier (a predication 
 The other variables in the MRS are there to help build up the tree (`h` variables, described next) or allow predications to refer to each other (`e` variables, described after that).  `x` variables are the most concrete type of variable that maps most obviously to what is being said in the phrase.
 
 #### H (Handle) Variables, aka "Scopal Arguments"
-The semantic meaning of an MRS is ultimately represented by a *tree* (described in the [next section](devhowtoWellFormedTree)) and handle variables represent the "holes" where branches of the tree can be placed. While instance variables are set to individuals in the world, handle (or scopal) variables are set to the `LBL:` of another predication. As [described above](#Predication-Lables), the MRS `LBL:` field serves has a way to "label" each predication with a unique identifier. This allows the MRS to specify that a predication must be put in a particular place, or to constrain (by using the label in the `HCON` section) which predications can be put where when they are moved around the tree.  
+The semantic meaning of an MRS is ultimately represented by a *tree* (described in the [next section](devhowtoWellFormedTree)) and handle variables represent the "holes" where branches of the tree can be placed. While instance variables are set to individuals in the world, handle (or scopal) variables are set to the `LBL:` of another predication. As [described above](#predication-labels), the MRS `LBL:` field serves has a way to "label" each predication with a unique identifier. This allows the MRS to specify that a predication must be put in a particular place, or to constrain (by using the label in the `HCON` section) which predications can be put where when they are moved around the tree.  
 
 For example, if a predication like `_the_q` has a handle argument (`the_q` has two of them: `h11` and `h12`):
 
@@ -215,11 +217,11 @@ For example, if a predication like `_the_q` has a handle argument (`the_q` has t
 ~~~
 ... it means it is expected to do something with the entire branch of the tree it is passed. These are called "scopal arguments". Think of it like a lambda function being passed to function in a programming language like C++ or C#.  The `the_q` predication itself will be responsible for "doing something" with the branch it is passed.  What, exactly, is specific to the predication. We'll go into this more in a [future section](devhowtoScopalArguments) of the tutorial. For now, think about scopal arguments as places to put other predications which are acting like programming language "lambda functions".
 
-Because the MRS is [underspecified](#Underspecification), it usually doesn't directly list which predication to put in which scopal argument. You figure that out by the process of [creating a well-formed tree](devhowtoWellFormedTree).  However, if a predication has a `LBL:` that is the same handle as a scopal argument, then that part of the tree *has* actually been specified and is "locked in place" (i.e. there is no hole there for something else to be).
+Because the MRS is [underspecified](#underspecification), it usually doesn't directly list which predication to put in which scopal argument. You figure that out by the process of [creating a well-formed tree](devhowtoWellFormedTree).  However, if a predication has a `LBL:` that is the same handle as a scopal argument, then that part of the tree *has* actually been specified and is "locked in place" (i.e. there is no hole there for something else to be).
 
 
 #### E (Event) Variables
-Event variables have a rich history and lot of fascinating conceptual linguistic background to them (Davidson 1967a is a good start), but for our purposes we can think of them as holding a "bag of information" (represented in code as a dictionary, perhaps). Predications [*introduce*](#Predication-Arguments) them to provide a place for other predications to hang information that will be used by the introducer.  All event variables are scoped to the whole MRS.
+Event variables have a rich history and lot of fascinating conceptual linguistic background to them (Davidson 1967a is a good start), but for our purposes we can think of them as holding a "bag of information" (represented in code as a dictionary, perhaps). Predications [*introduce*](#predication-arguments) them to provide a place for other predications to hang information that will be used by the introducer.  All event variables are scoped to the whole MRS.
 
 For example, event variables are used by adverbs (e.g. `move slowly`) when the `move` predication needs optional information about *how* to move. `slowly` does this by adding data to the event variable that `move` introduces. You can see in the MRS below for "move slowly" that `_slow_a_1` is passed the `e2` event variable that `_move_v_1` introduces:
 
@@ -315,7 +317,7 @@ def_implicit_q(x9,RSTR,BODY)
 ~~~
 The variable `x9` represents `north` but nothing in the phrase is "quantifying" direction in any way.  Since the rules for MRS require `x` variables to be quantified, and abstract quantifer called `def_implicit_q` is used to do the scoping of the variable.
 
-Note that, unlike non-quantifier predications, the first (`ARG0`) argument of a quantifier *does not* "introduce" an "intrinsic variable" (as described in the [variables section](#Predication-Arguments-and-Variables)), they just scope (and optionally quantify) it.
+Note that, unlike non-quantifier predications, the first (`ARG0`) argument of a quantifier *does not* "introduce" an "intrinsic variable" (as described in the [variables section](#predication-arguments-and-variables)), they just scope (and optionally quantify) it.
 
 
 ## Constraints

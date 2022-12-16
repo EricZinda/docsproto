@@ -1,4 +1,5 @@
-To understand this section, first make sure you have a [basic understanding of the MRS format](https://blog.inductorsoftware.com/blog/DelphinMRSOutput).  The original paper describing it is [here](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf).
+## Building Well-Formed MRS Trees
+To understand this section, first make sure you have a [basic understanding of the MRS format](devhowtoMRS).  The original paper describing it is [here](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf).
 
 Let's use the sentence "every book is in a cave" as an example. If the phrase is parsed with a tool like [ACE](http://sweaglesw.org/linguistics/ace/), you get an MRS document like this:
 
