@@ -100,4 +100,5 @@ available resources)
 funded projects to potential funders)
   - licensing: see Discussion VI: [Developing a standard DELPH-IN
 open source license](../LisbonLicensingDiscussion) on Friday
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonRepositoryDiscussion/_edit)]{% endraw %}
