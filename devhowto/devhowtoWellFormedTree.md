@@ -1,6 +1,6 @@
 To understand this section, first make sure you have a [basic understanding of the MRS format](https://blog.inductorsoftware.com/blog/DelphinMRSOutput).  The original paper describing it is [here](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf).
 
-Let's use the sentence "every book is in a cave" as an example. If the phrase is parsed with a tool like ACE, you get an MRS document like this:
+Let's use the sentence "every book is in a cave" as an example. If the phrase is parsed with a tool like [ACE](http://sweaglesw.org/linguistics/ace/), you get an MRS document like this:
 
 ~~~
 [ TOP: h0
@@ -16,7 +16,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
 Our goal is to eventually "solve" the MRS by finding values for the variables that make it "true". When complete, these variables indicate what the speaker *meant* and allow us to *do* something about it.  
 
-To resolve an MRS against a world state (a particular state of the world at a moment in time) and get *solutions* to it (meaning the set of variable assignments that make it true) you need to turn it into a *well-formed MRS tree*. We will examine *how* later, but for now just know that a well-formed MRS tree has (among other things) nodes that are MRS predicates like `_every_q__xhh` and arcs that are links between the *scopal arguments* of various predicates and other nodes, like this:
+To resolve an MRS against a world state (a particular state of the world at a moment in time) and get *solutions* to it (meaning the set of variable assignments that make it true) you need to turn it into a *well-formed MRS tree*. We will examine *how* later, but for now just know that a well-formed MRS tree has (among other things) nodes that are the predications from the MRS like `_every_q__xhh` and arcs that are links between the *scopal arguments* of the predications and other nodes, like this:
 
 ~~~
               ┌────── _book_n_of(x3,i8)
@@ -27,9 +27,9 @@ _every_q(x3,RSTR,BODY)          ┌────── _cave_n_1(x9)
 
 This tree represents *one interpretation* of "every book is in a cave", namely, "every book is in a (possibly different) cave". 
 
-To "solve" this tree against a particular world state, you walk it in depth-first order: `every_q` is the starting, leftmost node. It starts by selecting a book on its upper branch, and then solving its lower branch with the selected book. This finds "a cave that the (selected) book is in". This allows a *different* cave to be selected for each book. This tree will be only true if every book is in a (possibly different) cave.
+To "solve" this tree against a particular world state, you walk it in depth-first order: `every_q` is the starting, leftmost node. It starts by selecting a book on its upper branch, and then solving its lower branch with the selected book. This finds "a cave that the (selected) book is in". `every_q` does this for every book in the world state. If they all succeed, we have a solution to the MRS. Because `_every_q` chooses a book *and then* a cave that it is in, it allows a *different* cave to be selected for each book. This tree will be only true if every book is in a (possibly different) cave.
 
-But this is only one interpretation, another is: "all books are in the same exact cave", which is represented by this tree:
+But this is only one interpretation, another interpretation of the *same* MRS is: "all books are in the same exact cave", which is represented by this tree:
 
 ~~~
           ┌────── _cave_n_1(x9)
@@ -39,6 +39,8 @@ _a_q(x9,RSTR,BODY)              ┌────── _book_n_of(x3,i8)
 ~~~
 
 When `a_q` is the leftmost node, it starts by selecting a cave on its upper branch, and then resolves its lower branch with that selection, making sure that "every book is in the (selected) cave". This will only be true if there is (at least one) cave that every book is in.
+
+> Don't worry if you don't completely understand how the solutions are obtained yet.  The point is that there are different interpretations for the same MRS, represented by different trees. The rest of the tutorial will work through how these get solved.
 
 Both of these trees are represented by the same MRS document. The MRS structure is said to be *underspecified*, meaning that a single MRS document allows multiple interpretations. Here's the MRS for "Every book is in a cave" again, so we can see how:
 
@@ -54,14 +56,14 @@ RELS: <
 >
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
-The MRS is a flat structure that avoids building a single tree which would lock you into one interpretation.  Instead, it leaves "holes" in various arguments (the "scopal" arguments that start with "h") in the MRS predicates and provides constraints (the HCONS) for plugging the predicates together "legally".  If you combine the predicates and follow the constraints (among other things), you'll end up with a "well-formed MRS tree" which defines one valid "interpretation" of the sentence.
+The MRS is a flat structure that avoids building a single tree which would lock in one interpretation.  Instead, it leaves "holes" in the arguments (the "scopal" arguments that start with "h") of the MRS predicates and provides constraints (the `HCONS`) for plugging the predicates together "legally".  If you combine the predicates and follow the constraints (among other things), you'll end up with a "well-formed MRS tree" which defines one valid interpretation of the sentence.
 
 This interpretation is what we need in order to "solve" the sentence for the variables it contains. This section describes how to derive it.
 
 ## Holes and Constraints
-"Holes" are `h` arguments in a predication that refer to a predicate label (indicated by `LBL:` in the MRS) that is not defined. In the above MRS `h0` (the `TOP:`), `h11`, `h12`, `h5`, and `h6` are all "holes" since none of the predicates use those labels as their `LBL:`.
+"Holes" are `h` arguments in a predication that refer to a predicate label (indicated by `LBL:` in the MRS) that is *not* defined. In the above MRS, `h0` (the `TOP:`), `h11`, `h12`, `h5`, and `h6` are all "holes" since none of the predicates use those labels as their `LBL:`.
 
-The `HCONS` section of the MRS puts *CONS*traints on where *H*andles to actual predications can be placed and still end up with a legal interpretation of the phrase.
+The `HCONS` section of the MRS puts *CONS*traints on which placement of *H*andles to actual predications in holes are valid.
 
 The only kind of constraint used in "modern" MRS is a `qeq` constraint.  A `qeq` constraint always relates a hole to a (non-hole) handle and says that the handle must be a direct or eventual child in the tree. Furthermore, if not directly connected, the only things between the hole and the handle can be quantifiers.  
 
@@ -71,29 +73,31 @@ Said a different way:
 
 So, in this MRS, `h1` is the LBL of the `_in_p_loc__exx` predicate. Given the qeq constraint of `h0 qeq h1`, it would be perfectly valid to assign `h0 = h1` (meaning put the predication labelled by `h1` in the `h0` hole) since the path from `h0` to `h1` is direct. 
 
-Again, given the qeq constraint of `h0 qeq h1`: You could alternatively assign `h0 = h4` (`h0` is the "hole" at the top of the tree, `h4` is the label for `_every_q__xhh`), and `h6 = h1` (`h6` is a "hole" in `_every_q__xhh`, `h1` is the label for `_in_p_loc`). With this configuration, `h0 qeq h1` is still valid because the path from `h0` to `h1` only includes one quantifier and `h1` itself.
+Again, given the qeq constraint of `h0 qeq h1`: You could alternatively assign `h0 = h4` (`h0` is the "hole" at the top of the tree, `h4` is the label for `_every_q`), and `h6 = h1` (`h6` is a "hole" in `_every_q`, `h1` is the label for `_in_p_loc`). With this configuration, `h0 qeq h1` is still valid because the path from `h0` to `h1` only includes the `every_q` quantifier and `h1` itself.
 
 Once you fill *all* the holes with unique predications, and you follow all of the `qeq` constraints, you'll end up with a tree that is "scope-resolved", but not yet guaranteed to be "well-formed". There is one more rule to check.
 
 ## X Variable Scoping
 All of the arguments that aren't handles in the MRS for `Every book is in a cave` except two (`e2` and `i8`) are `x` variables:
+
 ~~~
 [ TOP: h0
 INDEX: e2
 RELS: < 
-[ _a_q__xhh LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
-[ _cave_n_1__x LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
-[ _every_q__xhh LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
-[ _book_n_of__xi LBL: h7 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] ARG1: i8 ]
-[ _in_p_loc__exx LBL: h1 ARG0: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 ]
+[ _a_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _cave_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ _every_q LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+[ _book_n_of LBL: h7 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] ARG1: i8 ]
+[ _in_p_loc LBL: h1 ARG0: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 ]
 >
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
-The rules for MRS say that any variable in the MRS is "globally defined" (or "existentially qualified" in logic terms) to the whole structure *except* for `x` variables.  So, both `e2` and `i8` don't need any special handling, they are globally defined.
+
+The rules for MRS say that any variable in the MRS is "globally defined" (or "existentially qualified" in logic terms) for the whole structure *except* for `x` variables.  So, both `e2` and `i8` don't need any special handling, they are globally defined.
 
 `x` variables, on the other hand, can *only* be defined by quantifiers, and are *only* defined for the branches of the tree that are attached to their arguments: `RSTR` and `BODY`.
 
-So, while the predicates can be in any order in the tree with respect to their `e`  (or `i` or `u` if it had them) arguments, the tree must also be checked to make sure all of the `x` arguments have a parent which is a quantifier which defines them (i.e. has the `x` variable as its first argument: `ARG0`). This is an additional constraint that has to be checked to build a "well-formed" tree.
+So, while the predicates can be in any order in the tree with respect to their `e`  (or `i` or `u` if it had them) arguments, the tree must be checked to make sure all of the `x` arguments have an eventual parent which is a quantifier which defines them (i.e. has the `x` variable as its first argument: `ARG0`). This is an additional constraint that has to be checked to build a "well-formed" tree.
 
 If the built tree passes all `qeq` constraints, and the `x` variables are all properly scoped, then it is a "well-defined" tree that we can now attempt to solve.  That's what we're going for here.
 
@@ -108,7 +112,7 @@ Another algorithm that we'll use in the tutorial is able to prune the search spa
 There are definitely more efficient approaches, but the algorithm below has the advantage of being relatively simple. Here is [one alternative](https://www.aclweb.org/anthology/W05-1105.pdf).  There are definitely more.
 
 ## A Simple, Fast Enough, Algorithm
-First some definitions:
+First some definitions used in this algorithm:
 - **Hole**: A scopal (i.e. `h` type) argument in an MRS predicate that doesn't refer to an existing predication
 - **Floater**: A tree of predications that have had zero or more of their scopal (i.e. `h` type) arguments filled by unique predications.  [This is not at official MRS term, it is one created for this algorithm]
 
@@ -120,17 +124,17 @@ As a reminder, a tree is "well-formed" if:
 
 **Here's the intuition for how the algorithm works**: We are going to walk a search tree.  Every node of the search tree represents a partial assignment of floaters to holes that meets the above 3 constraints. Every arc from a parent node in the search tree to a child node in the search tree represents a unique assignment of a (otherwise unassigned) floater to a hole.  If that assignment violates a constraint, the search tree node is not valid (since obviously keeping this assignment and adding floaters to it can't be valid either) and we stop searching that whole branch of the search tree. This pruning is what makes it faster than the really naive "try every option" approach. Every node in the search tree that has no holes left to assign is a solution.
 
-**Algorithm Flow**: We start at the `TOP:` hole and record on it any `qeq` constraints that apply to it and any `X` variables that are in scope for it (none at the start). As we traverse an arc in the search tree and assign a new floater to a hole, we propagate any constraints and in-scope variables from the (parent) hole to the holes in the (child) floater.  Then we recurse.
+**Algorithm Flow Summary**: We start at the `TOP:` hole and record on it any `qeq` constraints that apply to it and any `X` variables that are in scope for it (none at the start). As we traverse an arc in the search tree and assign a new floater to a hole, we propagate any constraints and in-scope variables from the (parent) hole to the holes in the (child) floater.  Then we create the next node in the search tree by choosing the next hole to fill from the existing node.
 
 **Start with**:  
 Each node in the search tree has the following structures that represent where the search has progressed to:
-  - `allHolesDict`:              Dictionary populated with all the holes in the MRS. Each hole has information about:
+`allHolesDict`:              Dictionary populated with all the holes in the MRS. Each hole has information about:
                                - the `qeq` constraints that currently apply to it
                                - the `X` variables that are currently in scope for it
                                - the floater it is from 
-  - `nodeAssignmentList`:        Assignments of floaters to holes that the search tree node represents. Empty for the initial node. 
-  - `nodeRemainingHolesList`:    Holes left to fill in this search tree node. Only contains the `TOP:` hole for the initial node.
-  - `nodeRemainingFloatersList`: Floaters still unassigned at this node in the search tree. Contains all floaters for the initial node. Each floater contains information about:
+`nodeAssignmentList`:        Assignments of floaters to holes that the search tree node represents. Empty for the initial node. 
+`nodeRemainingHolesList`:    Holes left to fill in this search tree node. Only contains the `TOP:` hole for the initial node.
+`nodeRemainingFloatersList`: Floaters still unassigned at this node in the search tree. Contains all floaters for the initial node. Each floater contains information about:
                                - a list of holes it contains
                                - a list of unresolved `x` variables it contains 
                                - a list of any `Lo` parts of a `qeq` constraint it contains (if it doesn't also have the `Hi` part in the floater) 
