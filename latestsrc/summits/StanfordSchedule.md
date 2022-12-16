@@ -142,5 +142,4 @@ Constructions ([DanFlickinger](../DanFlickinger),
 - **Jacy Book** Jacy the book (Closed SIG:
 [MelanieSiegel](/MelanieSiegel), [EmilyBender](../EmilyBender),
 [FrancisBond](../FrancisBond))
-
-Last update: 2016-07-06 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/StanfordSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
