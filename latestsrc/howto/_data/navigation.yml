@@ -24,6 +24,8 @@ toc:
     children:
       - title: "Overview"
         url: "/devhowto/devhowtoOverview/"
+      - title: "Well-Formed Trees"
+        url: "/devhowto/devhowtoWellFormedTree/"
       - title: "The Predication Contract"
         url: "/devhowto/devhowtoPredicationContract/"
       - title: "Python Primer and State"
