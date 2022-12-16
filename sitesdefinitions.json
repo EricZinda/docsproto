@@ -72,6 +72,7 @@
         {"Page": "Quantifier Errors", "SrcDir": "main", "SrcFile": "devhowto/devhowtoQuantifierErrors.md"},
         {"Page": "Adding Errors to Every Predication", "SrcDir": "main", "SrcFile": "devhowto/devhowtoFinishingErrors.md"},
         {"Page": "Error Scenarios Summary", "SrcDir": "main", "SrcFile": "devhowto/devhowtoErrorScenarios.md"},
+        {"Page": "Choosing the Right Interpretation", "SrcDir": "main", "SrcFile": "devhowto/devhowtoWhichParseAndTree.md"},
         {"Page": "A. Python Decorators", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPythonDecorators.md"},
         {"Page": "B. Parsing Predications", "SrcDir": "main", "SrcFile": "devhowto/devhowtoParsePredication.md"}
       ]},

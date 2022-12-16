@@ -1,102 +1,238 @@
 ## The Minimal Recursion Semantics Format
+> This section provides an *overview* of the Minimal Recursion Semantics format that is the primary artifact used by DELPH-IN to represent the meaning of a phrase. It should be sufficient for understanding all of the rest of the material in the tutorial.  For a deeper dive into MRS, explore [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf).
 
-The [English Resource Grammar or "ERG"](http://moin.delph-in.net/ErgTop)  ([via the ACE parser](http://sweaglesw.org/linguistics/ace/)) converts an English phrase into a format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf). MRS encodes the semantic meaning of the phrase into a set of predicate logic-like predicates (called predications) that have arguments and a set of constraints that constrain the valid ways they can be organized into a tree.  The set of trees that can be generated define the ultimate meaning of the phrase.
+The [English Resource Grammar or "ERG"](http://moin.delph-in.net/ErgTop)  ([via the ACE parser](http://sweaglesw.org/linguistics/ace/)) converts an English phrase into a text format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) that is designed to allow software to process human language. 
 
-For example, one of the MRS parses for "Go to a cave" is:
+Because language is ambiguous, most phrases produce more than one possible MRS document, each representing a different interpretation of the phrase. Moreover, the MRS document itself has multiple interpretations. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a [later section](devhowtoWhichParseAndTree) of the tutorial.
+
+The MRS document encodes one semantic meaning of the phrase into a set of predicate-logic-like predicates (called predications) and a set of constraints that constrain the valid ways they can be organized into a tree.  The set of valid trees define all of the alternative meanings of that MRS.
+
+For example, the phrase: "Look under the table." produces 12 different MRS parses (interpretations). These include the interpretations: "Look at whatever is under the table" and "Look around while you are under the table" among 10 others. The MRS for the first interpretation is:
 ~~~
-TOP: h0
+[ TOP: h0
 INDEX: e2
 RELS: < 
-[ _the_q__xhh LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
-[ _cave_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
-[ pronoun_q__xhh LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
-[ pron__x LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
-[ _to_p_dir__eex LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
-[ _go_v_1__ex LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
 >
-HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > 
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ~~~
 
-The rest of this section will explain what it means.
+Using the rules described in the `HCONS` section (which we will [describe later](#Constraints)), these are the two well-formed trees that can be built out of that MRS, which describe the two alternatives that *it* could mean:
+
+~~~
+            ┌────── _table_n_1(x9)
+_the_q(x9,RSTR,BODY)               ┌────── pron(x3)
+                 └─ pronoun_q(x3,RSTR,BODY)    ┌── _under_p_dir(e8,e2,x9)
+                                        └─ and(0,1)
+                                                 └ _look_v_1(e2,x3)
+
+               ┌────── pron(x3)
+pronoun_q(x3,RSTR,BODY)            ┌────── _table_n_1(x9)
+                    └─ _the_q(x9,RSTR,BODY)    ┌── _under_p_dir(e8,e2,x9)
+                                        └─ and(0,1)
+                                                 └ _look_v_1(e2,x3)
+~~~
+
+The rest of this section will give you a base understanding of the MRS format so that we explore how to build these trees in a [later section](devhowtoWellFormedTree) and ultimately write software that pulls the users intended meaning from them.  Deriving their intended meaning is the topic of this entire tutorial.
 
 ## Underspecification
-The MRS is a *list* of predicate logic-like predications and not a *tree* like you'll see in many natural language systems.  That's because it is *underspecified*.  There are multiple interpretations for just about any natural language phrase and the MRS is designed to allow them all to be discovered: it doesn't pick a primary one. `Every book is in a cave` could mean "all books are in the same cave" or "every book is in a (possibly different) cave".   
+A DELPH-IN parser like ([ACE](http://sweaglesw.org/linguistics/ace/)) will usually generate more than one MRS document representing the various high-level interpretations of a phrase. Each one contains a *list* of predicate-logic-like predications and not a *tree* like you'll see in many natural language systems.  That's because it is *underspecified*.  Even though the parser has already done one level of interpretation on the phrase, there are still (usually) multiple ways to interpret *that*.  The MRS doesn't pick a primary interpretation by choosing a final tree, it provides the rules for building *all of them*. That's what "underspecified" means. `Every book is in a cave` could mean "all books are in the same cave" or "every book is in a (possibly different) cave". Given just the phrase, it isn't clear which the use intended, so it provides all the alternatives. Context (which it doesn't have) usually helps to decide which is meant.
 
-So, you get a list of predicates in the `RELS` section and the `HCONS` section tells you the constraints on valid ways to fit them together.  This means we will eventually need to [generate the possible interpretations](https://blog.inductorsoftware.com/blog/ResolvingTheMRSTree) in order to solve them to recover its meaning.  But first, we need to go through the rest of the MRS format.
+The list of predications in provided in the `RELS` section:
+~~~
+...
 
-## Predicates
-A phrase is converted into a set of predicate-logic like predications in the MRS which you see above in the `RELS` section of the MRS. The names of each predication encode important information about them including:
-- The "lemma" or root word (this is the first word you see)
-- Whether they were actually seen in the text (starts with `_`) or added abstractly (no initial `_`)
-- Their part of speech: `_cave_n` means cave is a "noun". `_the_q` means "the" is a "quantifier" (described below), etc.
-- They sometimes have extras at the end like `_1` to indicate which "variant" or synonym of the word they represent
+RELS: < 
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
 
-There is some documentation for the predicates, especially unusual ones (found by doing a search of the [ERG site](http://moin.delph-in.net/ErgSemantics)), but their meaning mostly has to be determined by looking at the MRS and intuiting what they are trying to do (or [posting on the message boards](https://delphinqa.ling.washington.edu/)  if it isn't clear).  They take arguments, just like functions in most programming languages, or predicates in predicate logic, and these arguments behave analogously. 
+...
+~~~
 
-For example: the predicate `_cave_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` down to the set of things which are a 'cave'" or "ensure that `x9` contains a 'cave'".  We'll get into the other examples later after we've covered some more basics.
+The `HCONS` section tells you the constraints on valid ways to fit the predications together to resolve it into a "well-formed tree" which represents a single meaning:
 
-## Arguments
-The predicates take arguments, and they have names like `ARG0`, `ARG1`, `ARG2`, `RSTR`, `BODY`, etc.  Think of those exactly like the name of named arguments in some programming languages such as Python.
+~~~
+... 
 
-They also have a *value* which is a variable like `x5`, `h1`, `e6`.  These values indicate two things: the initial letter indicates the type of variable it is, and the number just makes it unique. Note that the same variable may appear in more than one place and this means it is shared, just like if you used a Python variable in more than one place in a function.  The different types are described below.
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+~~~
+We'll go through each of these in detail below, but for now just know that the MRS is underspecified, and the `RELS` together with the `HCONS` provide the information to make it specific and recover one of the possible meanings.
 
-Of all the arguments, `ARG0` is special.  It holds a variable that, in a sense, "represents" the predication.  If you read the documentation you'll see the term "introduced" for this argument.  The predicate is described as "introducing" the `ARG0` variable or phrases like "the variable *introduced by* predicate X..." are used.  This will become important later, mostly when we talk about [events](devhowtoEvents). For now, it is enough to understand that `ARG0` is a special argument for predications.
+## Predications
+A phrase is converted into a set of predicate-logic like predications in the MRS which you can see in the `RELS` section of the MRS for "Look under the table":
 
-### H (Handle) Variables, aka "Scopal Arguments"
-The semantic meaning of the phrase is ultimately represented by a *tree* (described in the [next section](devhowtoWellFormedTree)) and the handle variables represent "holes" where the branches of the tree are placed.  The `LBL` indicator in MRS serves has a way to "label" each predicate so they have a unique identifier. This allows the MRS to specify which predications go where, or to talk about what constraints must be maintained when they are moved around the tree.  The `LBL` uniquely identifies a predication.
+~~~
+...
 
-If a predicate like `_the_q`  has a handle argument (`the` has two of them `h11` and `h12`):
+RELS: < 
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
+
+...
+~~~
+
+Predications are "predicate-logic-like" in that they state a relation or a fact about their arguments that must be true in order for the MRS to be true. If you find values for all the variables that make all of the predications in the MRS true in a given world, then you have "solved" or "resolved" the MRS and you have (in a sense) the meaning of the sentence. So, predications are what does the work in an MRS by providing constraints or restrictions on the variables they take. 
+
+For example: the predication `_table_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` to be the set of things which are a 'table'" or "ensure that `x9` contains a 'table'".  If this was followed by a different predication such as `_large_a_1(x9)`, it would mean "also restrict `x9` to anything that is 'large'.  If they are both in the same MRS, then the MRS is saying "restrict `x9` to be all of the 'large tables' in the world".
+
+We'll get into the other examples later after we've covered some more basics.
+
+### Predication Labels
+Each predication has a label in the MRS, indicated by `LBL:`, that serves as an ID or a pointer to it. Note that predications *can* share the same label name. In fact, this is how the MRS indicates they are "in conjunction" (i.e. should be interpreted together using a logical "and").
+
+Notice the labels for the different predications in an MRS for "Look under the *large* table" and note that `_large_a_1` and `_table_n_1` share the same label, indicating they are "in conjunction":
+~~~
+[ TOP: h0
+INDEX: e2
+RELS: < [ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _large_a_1 LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x9 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+~~~
+
+These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section on [scopal arguments](#H-(Handle)-Variables,-aka-"Scopal Arguments") discusses how this works.
+
+### Predication Names
+The name of a predication, for example, `_table_n_1`, encodes important information about it:
+- The "lemma" or root word (this is the first word you see): "table"
+- Whether it was actually seen in the text (starts with `_`) or added abstractly (no initial `_`)
+- Its part of speech. `_table_n_1` means "table" is a "noun". `_the_q` means "the" is a "quantifier" (described below)
+- It may have extras at the end like `_1` to indicate which "variant" or synonym of the word it represents
+
+There is some documentation for the predicates, especially unusual ones (found by doing a search of the [ERG site](http://moin.delph-in.net/ErgSemantics)), but their meaning mostly has to be determined by looking at the MRS and intuiting what they are trying to do (or [posting on the message boards](https://delphinqa.ling.washington.edu/)  if it isn't clear).  
+
+### Predication Arguments
+Predications have arguments, and they have names like `ARG0`, `ARG1`, `ARG2`, `RSTR`, `BODY`, etc.  Think of those exactly like the name of named arguments in some programming languages such as Python.
+
+They also have variables assigned to the arguments like `x5`, `h1`, `e6`.  These names indicate two things: the initial letter indicates the "type" (the different types are described next) of variable it is. The number just makes it unique. The same variable may appear in more than one place and this means it is shared, just like if you used a Python variable in more than one place in a function.  So, if an MRS has two predications like this:
+
+~~~
+[ _large_a_1 LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x9 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+~~~
+
+... you can see that:
+- `_large_a_1` has two arguments: `ARG0` and `ARG1`, and the variables assigned to them are: `e14` and `x9`. The first is of type `event` (`e`) and the second is of type `instance` (`x`)
+- `_table_n_1` shares `x9` in its `ARG0` and so they are both restricting the same variable. This means that, ultimately, `x9` should contain only "large tables"
+
+Thinking of MRS variables as variables in a math equation can help: The MRS is effectively defining a formula with variables. If you pick variable values such that the MRS is true for a given world, then you have understood the meaning of the MRS (in a sense).
+
+Of all the arguments, `ARG0` is special.  It holds a variable that, in a sense, "represents" the predication.  If you read the [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) documentation, you'll see the term "introduced" is used to describe this argument.  The predicate is described as "introducing" the `ARG0` variable. Sometimes phrases like "the variable *introduced by* predicate X..." are used.  This will become important later, mostly when we talk about [events](devhowtoEvents) or about how to [convert predications back into a phrase](devhowtoConceptualFailures). For now, it is enough to understand that `ARG0` is a special argument that represents the predication in some special ways.
+
+#### Variable Properties
+
+#### X (Instance) Variables
+Instance variables are just like normal First Order Logic variables, or like variables in popular programming languages. The types of things they can contain are "individuals", which is another name for a "thing in the world".  They hold the things the speaker is talking about.
+
+In the MRS for "Look under the table":
+
+~~~
+[ TOP: h0
+INDEX: e2
+RELS: < 
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _large_a_1 LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x9 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+~~~
+
+... There are only two instance variables that represent the "things in the world being talked about":
+- `x9`: "the large table"
+- `x3`: "you". This is implied since it is a command. I.e. "(You) look at the table"
+
+Note that instance variables are always *scoped* by a quantifier (a predication named with `_q` and with the argument structure: (`x`, `h`, `h`)). Meaning: a variable can only be used in the branches of the tree under the quantifier that has it as its first argument. This is important to know when creating [well-formed trees](devhowtoWellFormedTree) but also for understanding how to navigate the tree and what can be expressed where when, for example, [turning the tree back into text](devhowtoConceptualFailures).
+
+The other variables in the MRS are there to help build up the tree (`h` variables, described next) or allow predications to refer to each other (`e` variables, described after that).  `x` variables are the most concrete type of variable that maps most obviously to what is being said in the phrase.
+
+#### H (Handle) Variables, aka "Scopal Arguments"
+The semantic meaning of an MRS is ultimately represented by a *tree* (described in the [next section](devhowtoWellFormedTree)) and handle variables represent the "holes" where branches of the tree can be placed. While instance variables are set to individuals in the world, handle (or scopal) variables are set to the `LBL:` of another predication. As [described above](#Predication-Lables), the MRS `LBL:` field serves has a way to "label" each predication with a unique identifier. This allows the MRS to specify that a predication must be put in a particular place, or to constrain (by using the label in the `HCON` section) which predications can be put where when they are moved around the tree.  
+
+For example, if a predication like `_the_q` has a handle argument (`the_q` has two of them: `h11` and `h12`):
 
 ~~~
 [ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
 ~~~
-... it means it is expected to do something with the entire branch of the tree it is passed. These are called "scopal arguments". Think of this like a lambda function being passed to function in a programming language like C++ or C#.  The predicate itself will be responsible for "doing something" with the branch it is passed.  What, exactly, is specific to the predicate. We'll go into this more in a [future section](devhowtoScopalArguments) of the tutorial. For now, think about scopal arguments as places to put "lambda functions" which are other predications.
+... it means it is expected to do something with the entire branch of the tree it is passed. These are called "scopal arguments". Think of it like a lambda function being passed to function in a programming language like C++ or C#.  The `the_q` predication itself will be responsible for "doing something" with the branch it is passed.  What, exactly, is specific to the predication. We'll go into this more in a [future section](devhowtoScopalArguments) of the tutorial. For now, think about scopal arguments as places to put other predications which are acting like programming language "lambda functions".
 
-Because the MRS is underspecified, it usually doesn't specify directly which predication to put in which argument. You figure that out by the process of [creating a well-formed tree](devhowtoWellFormedTree).  However,  if a predicate has a `LBL` that is the same handle as an argument, then that part of the tree has already been specified and is "locked in place" (i.e. there is no hole there for something else to be).
-
-
-### X (Instance) Variables
-Instance variables are just like normal First Order Logic variables, or like variables in popular programming languages. They will hold an "individual", which is another name for a "thing in the world".
-
-In the example, you can see that `_cave_n_1(x9)` has an instance variable. This predicate says that `x9` must be a "cave". 
-
-Thinking of instance variables as variables in a math equation can also help. The MRS is effectively defining a formula with variables. If you pick variable values such that the MRS is true for a given world, then you have understood the meaning of the MRS (in a sense).
+Because the MRS is [underspecified](#Underspecification), it usually doesn't directly list which predication to put in which scopal argument. You figure that out by the process of [creating a well-formed tree](devhowtoWellFormedTree).  However, if a predication has a `LBL:` that is the same handle as a scopal argument, then that part of the tree *has* actually been specified and is "locked in place" (i.e. there is no hole there for something else to be).
 
 
-### E (Event) Variables
-Event variables are more of a mind-bender to non-linguists. I've given some conceptual background [here](https://blog.inductorsoftware.com/blog/EnglishAsLogic) as well as a [deep dive](PrologEventStructure) on what they mean in this context. Think of an Event variable as describing a thing that happened in the world that may have many properties.
+#### E (Event) Variables
+Event variables have a rich history and lot of fascinating conceptual linguistic background to them (Davidson 1967a is a good start), but for our purposes we can think of them as holding a "bag of information" (represented in code as a dictionary, perhaps). Predications [*introduce*](#Predication-Arguments) them to provide a place for other predications to hang information that will be used by the introducer.  All event variables are scoped to the whole MRS.
 
-Predicates introduce an event because, for any number of reasons, the concept they represent needs to be represented abstractly so that other predicates can inspect or modify it. All event variables are scoped to the whole expression and each contains a single unique value that is conceptually set before execution begins. 
+For example, event variables are used by adverbs (e.g. `move slowly`) when the `move` predication needs optional information about *how* to move. `slowly` does this by adding data to the event variable that `move` introduces. You can see in the MRS below for "move slowly" that `_slow_a_1` is passed the `e2` event variable that `_move_v_1` introduces:
 
-E variables hold a single event ID that gets (potentially) built into a richer structure over the course of running the predicates to represent an "event" or "situation" that is being described. Unlike X variables that are a "set of things", E variables are a single event.
-
-Their main purpose as we'll be using them is to allow predicates to modify or pass optional information to each other. They are used in cases like adverbs (e.g. `move slowly`) where the `move` predicate needs to be passed optional information about *how* to move. `slowly` does this by adding data to the event that `move` introduces. 
-
-Events can also be used to add optional information about where to do something. For example: `go to the cave`.  `to` is one of many prepositions that can be used with go (or none at all) to say where to go. So, if a preposition is in the phrase, it modifies the Event that `go` introduces.
-
-Note that the ERG is very liberal in putting Event variables on things and, depending on context, sometimes they aren't used. This is just to make things easier for the programmer and to prevent having to deal with having the same predicate both with and without an event variable.
-
-In the "go to the cave" example, the predicate `_go_v_1__ex` *introduces* (meaning has an ARG0 which is...) the event variable `e2` and `_to_p_dir__eex` *introduces* event variable `e8` and *consumes* the event `e2` that `go` introduced:
 ~~~
-[ _to_p_dir__eex LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
-[ _go_v_1__ex LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+[ TOP: h0
+INDEX: e2
+RELS: < 
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _slow_a_1 LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+[ _move_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
+HCONS: < h0 qeq h1 h5 qeq h7 > ]
 ~~~
 
-It is set up this way so that the `to` predicate can attach data about "where to go" to the event `e2`. `to` needs `e2` passed to it as an argument so it can do the attaching.  When the `go` predicate executes, it will look at its `e2` event and fish out where to go.  
+The `_slow_a_1` predication is passed the `e2` argument so that it can attach data about "*how* to do something" to the event. `_move_v_1` needs `e2` passed to it so that it can inspect it and determine how to do the "moving".  
 
-However, the `e8` variable isn't used by anything, so it is effectively ignored in this example.  There are many phrases where the event variables used by predicates aren't used. They are there because the predicate needs it to be available sometimes, and instead of having multiple predicates, it just ignores it when it isn't used.
+They can also be used to add information about *where* to do something. For example: `go to the store`.  `to` is one of many prepositions that can be used with "go" to say *where* to go. So, if a preposition is in the phrase, it modifies the event that `go` introduces:
 
-The predicate that introduces (i.e. has in its first (ARG0) position) an Event variable will often (but not always) be the predicate that consumes the event tree. Predicates that have it in other positions will often (but not always) be adding information to the Event.
+~~~
+[ TOP: h0
+INDEX: e2
+RELS: < 
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _store_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _to_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _go_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+~~~
 
-### Other Variables Types: I, U, P
+Event variables conceptually hold a single "event" that gets (potentially) built into a richer structure over the course of evaluating the predications. Multiple predications may "enrich" it with information before is actually used by, for example, a verb. Contrast this with an instance (`x`) variable which only holds a particular individual at a given point it time. Said another way: an instance variable is like a string and can only hold one value, where an event is like a dictionary or a list and can hold many and be added to over time.
+
+Note that the DELPH-IN grammars are very liberal in putting event variables on predications and, depending on context, sometimes they aren't used. This is just to prevent the consumer of the MRS from having to deal with the same predication both with and without an event variable.
+
+The predication that introduces (i.e. has it in its `ARG0` argument) an event variable will often (but not always) be the predication that consumes or "does something" with the "fully enriched" event. Predications that have it in other arguments will often (but not always) be simpling adding information to the event.
+
+
+#### Other Variables Types: I, U, P
 There are three other types of variables that show up in arguments sometimes.  These appear when the ERG can't decide the type of something since it falls somewhere between the types (i.e. is underspecified).
 
 From the ERG documentation:
 
 > "i (for individual) is a generalization over eventualities and instances; p (the half-way mark in the alphabet between h and x) is a generalization over labels and instances; and u (for unspecific or maybe unbound) generalizes over all of the above. Note that Copestake et al. (2001) use individual for what is called instance here."
 
-`i` types come up most often in my experience in two scenarios:
-- **Dropped arguments**: Sometimes the ERG just wants to ignore an argument in a predicate.  In theory, it could have defined a new predicate that was missing that argument, but to keep things consistent it just uses an `i` argument in place of what it wants to ignore.  Kind of like passing `Nothing` in Python or `Null` in SQL.
+`i` types come up most often in two scenarios:
+- **Dropped arguments**: Sometimes the ERG just wants to ignore an argument in a predicate.  In theory, it could have defined a new predicate that was missing that argument, but to keep things consistent it just uses an `i` argument in place of what it wants to ignore.  Kind of like passing `None` in Python or `Null` in SQL.
 - **Other Arguments**: I have encountered very few times where an `i` argument is truly used as a variable, but when it is, so far I have ended up treating it like an `x` variable that is "existentially quantified" (globally defined).  
 
 One example where I've seen a *used* `i` variable is when interpreting things in quotes like "yell 'I am free'":
