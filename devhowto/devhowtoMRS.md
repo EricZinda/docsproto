@@ -22,42 +22,45 @@ The rest of this section will explain what it means.
 ## Underspecification
 The MRS is a *list* of predicate logic-like predications and not a *tree* like you'll see in many natural language systems.  That's because it is *underspecified*.  There are multiple interpretations for just about any natural language phrase and the MRS is designed to allow them all to be discovered: it doesn't pick a primary one. `Every book is in a cave` could mean "all books are in the same cave" or "every book is in a (possibly different) cave".   
 
-So, you get a list of predicates in the "RELS" section and the "HCONS" section tells you the constraints on valid ways to fit them together.  This means we will need to [generate the possible interpretations](https://blog.inductorsoftware.com/blog/ResolvingTheMRSTree) and [decide which is right](https://blog.inductorsoftware.com/blog/ExecuteAndInterpretResults) in order to understand the phrase fully.
+So, you get a list of predicates in the `RELS` section and the `HCONS` section tells you the constraints on valid ways to fit them together.  This means we will eventually need to [generate the possible interpretations](https://blog.inductorsoftware.com/blog/ResolvingTheMRSTree) in order to solve them to recover its meaning.  But first, we need to go through the rest of the MRS format.
 
 ## Predicates
-The English phrase is converted into a set of predicate logic like predicates in the MRS which you see above in the "RELS" section of the format. The names of the predicate encode important information about them including:
+A phrase is converted into a set of predicate-logic like predications in the MRS which you see above in the `RELS` section of the MRS. The names of each predication encode important information about them including:
 - The "lemma" or root word (this is the first word you see)
 - Whether they were actually seen in the text (starts with `_`) or added abstractly (no initial `_`)
-- Their part of speech: `_cave_n` means cave is a "noun". `_the_q` means "the" is a quantifier (described below), etc.
+- Their part of speech: `_cave_n` means cave is a "noun". `_the_q` means "the" is a "quantifier" (described below), etc.
 - They sometimes have extras at the end like `_1` to indicate which "variant" or synonym of the word they represent
 
-There is some documentation for the predicates, especially unusual ones (found by doing a search of the [ERG site](http://moin.delph-in.net/ErgSemantics)), but I've found that their meaning mostly has to be determined by looking at the MRS and intuiting what they are trying to do (or [posting on the message boards](https://delphinqa.ling.washington.edu/)  if it isn't clear).  They take arguments, just like functions in most programming languages, or predicates in predicate logic, and these arguments behave analogously. 
+There is some documentation for the predicates, especially unusual ones (found by doing a search of the [ERG site](http://moin.delph-in.net/ErgSemantics)), but their meaning mostly has to be determined by looking at the MRS and intuiting what they are trying to do (or [posting on the message boards](https://delphinqa.ling.washington.edu/)  if it isn't clear).  They take arguments, just like functions in most programming languages, or predicates in predicate logic, and these arguments behave analogously. 
 
-For example: the predicate `_cave_n_1(x9)` in the example above is saying "filter the set of things in the variable x9 down to the set of things which are a 'cave'" or "ensure that x9 contains a 'cave'".  We'll get into the other examples later after we've covered some more basics.
+For example: the predicate `_cave_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` down to the set of things which are a 'cave'" or "ensure that `x9` contains a 'cave'".  We'll get into the other examples later after we've covered some more basics.
 
 ## Arguments
-The predicates take arguments and they have names like `ARG0`, `ARG1`, `ARG2`, `RSTR`, `BODY`, etc.  Think of those exactly like the name of named arguments in some programming languages like Python.
+The predicates take arguments, and they have names like `ARG0`, `ARG1`, `ARG2`, `RSTR`, `BODY`, etc.  Think of those exactly like the name of named arguments in some programming languages such as Python.
 
-They also have a *value* which is a variable like `x5`, `h1`, `e6`.  These values indicate two things: the initial letter indicates the type of variable it is and the number just makes it unique (when it needs to be). Note that the same variable may appear in more than one place and this means it is shared, just like if you used a Python variable in more than one place in a function.  The different types are described below.
+They also have a *value* which is a variable like `x5`, `h1`, `e6`.  These values indicate two things: the initial letter indicates the type of variable it is, and the number just makes it unique. Note that the same variable may appear in more than one place and this means it is shared, just like if you used a Python variable in more than one place in a function.  The different types are described below.
 
-Of all the arguments, `Arg0` is special.  It holds a variable that is kind of like the "return value" of the predicate or "the thing that will hold the result that the predicate generates".  If you read the documentation you'll see the term "introduced" for this argument.  The predicate is described as "introducing" the ARG0 variable or phrases like "the variable *introduced by* predicate X..." are used.
+Of all the arguments, `ARG0` is special.  It holds a variable that, in a sense, "represents" the predication.  If you read the documentation you'll see the term "introduced" for this argument.  The predicate is described as "introducing" the `ARG0` variable or phrases like "the variable *introduced by* predicate X..." are used.  This will become important later, mostly when we talk about [events](devhowtoEvents). For now, it is enough to understand that `ARG0` is a special argument for predications.
 
 ### H (Handle) Variables, aka "Scopal Arguments"
-The semantic meaning of the phrase is ultimately represented by a *tree* and the handle variables represent "holes" where the branches of the tree are placed.  The "LBL" indicator in MRS serves has a way to "label" each predicate so you can put them into holes them and form these branches.
+The semantic meaning of the phrase is ultimately represented by a *tree* (described in the [next section](devhowtoWellFormedTree)) and the handle variables represent "holes" where the branches of the tree are placed.  The `LBL` indicator in MRS serves has a way to "label" each predicate so they have a unique identifier. This allows the MRS to specify which predications go where, or to talk about what constraints must be maintained when they are moved around the tree.  The `LBL` uniquely identifies a predication.
 
-If a predicate like `_the_q__xhh`  has a handle argument (`the` has two of them `h11` and `h12`):
-~~~
-[ _the_q__xhh LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
-~~~
- it means it is expected to do something with the entire branch of the tree it is passed. These are called "scopal arguments". Think of this like a lambda function being passed to function in a programming language like C++ or C#.  The predicate itself will be responsible for "doing something" with the branch it is passed.  What, exactly, is specific to the predicate. 
+If a predicate like `_the_q`  has a handle argument (`the` has two of them `h11` and `h12`):
 
-Because the MRS is underspecified, it usually doesn't specify directly which branch to pass to which argument. You figure that out by the process of [fully-scoping the tree](https://blog.inductorsoftware.com/blog/ResolvingTheMRSTree).  However,  if a predicate has a label (shown as LBL in the MRS) that is the same handle as an argument, then that part of the tree has already been specified and is "locked in place" (i.e. there is no hole there for something else to be).
+~~~
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+~~~
+... it means it is expected to do something with the entire branch of the tree it is passed. These are called "scopal arguments". Think of this like a lambda function being passed to function in a programming language like C++ or C#.  The predicate itself will be responsible for "doing something" with the branch it is passed.  What, exactly, is specific to the predicate. We'll go into this more in a [future section](devhowtoScopalArguments) of the tutorial. For now, think about scopal arguments as places to put "lambda functions" which are other predications.
+
+Because the MRS is underspecified, it usually doesn't specify directly which predication to put in which argument. You figure that out by the process of [creating a well-formed tree](devhowtoWellFormedTree).  However,  if a predicate has a `LBL` that is the same handle as an argument, then that part of the tree has already been specified and is "locked in place" (i.e. there is no hole there for something else to be).
 
 
 ### X (Instance) Variables
-Instance variables are just like normal First Order Logic variables. Think of them as containing a *set* of things in the world.
+Instance variables are just like normal First Order Logic variables, or like variables in popular programming languages. They will hold an "individual", which is another name for a "thing in the world".
 
-In the example, you can see that `_cave_n_1(x9)` has an instance variable. This predicate is filtering the set of things in x9 to be only those that are a "cave".
+In the example, you can see that `_cave_n_1(x9)` has an instance variable. This predicate says that `x9` must be a "cave". 
+
+Thinking of instance variables as variables in a math equation can also help. The MRS is effectively defining a formula with variables. If you pick variable values such that the MRS is true for a given world, then you have understood the meaning of the MRS (in a sense).
 
 
 ### E (Event) Variables
