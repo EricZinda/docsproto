@@ -3,9 +3,9 @@
       {"Section": "Developer Tutorial", "Pages": [
         {"Page": "devhowtoWellFormedTree", "SrcDir": "main", "SrcFile": "devhowtoWellFormedTree.md", "BaseReferrer": "howto/devhowto/devhowtoOverview.md", "Referrer": "howto/devhowto/devhowtoOverview.md", "FileMissing": true},
         {"Page": "ErgTop", "SrcDir": "main", "SrcFile": "ErgTop.md", "BaseReferrer": "howto/devhowto/devhowtoOverview.md", "Referrer": "howto/devhowto/devhowtoOverview.md", "FileMissing": true},
+        {"Page": "devhowtoPredicationContract", "SrcDir": "main", "SrcFile": "devhowtoPredicationContract.md", "BaseReferrer": "howto/devhowto/devhowtoWellFormedTree.md", "Referrer": "howto/devhowto/devhowtoWellFormedTree.md", "FileMissing": true},
         {"Page": "devhowtoOverview", "SrcDir": "main", "SrcFile": "devhowtoOverview.md", "BaseReferrer": "howto/devhowto/devhowtoPredicationContract.md", "Referrer": "howto/devhowto/devhowtoPredicationContract.md", "FileMissing": true},
         {"Page": "devhowtoEvents", "SrcDir": "main", "SrcFile": "devhowtoEvents.md", "BaseReferrer": "howto/devhowto/devhowtoPredicationContract.md", "Referrer": "howto/devhowto/devhowtoPredicationContract.md", "FileMissing": true},
-        {"Page": "devhowtoPredicationContract", "SrcDir": "main", "SrcFile": "devhowtoPredicationContract.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "devhowtoImplementPredication", "SrcDir": "main", "SrcFile": "devhowtoImplementPredication.md", "BaseReferrer": "howto/devhowto/devhowtoPyhonBasics.md", "Referrer": "howto/devhowto/devhowtoPyhonBasics.md", "FileMissing": true},
         {"Page": "devhowtoPyhonBasics", "SrcDir": "main", "SrcFile": "devhowtoPyhonBasics.md", "BaseReferrer": "howto/devhowto/devhowtoImplementPredication.md", "Referrer": "howto/devhowto/devhowtoImplementPredication.md", "FileMissing": true},
         {"Page": "devhowtoMRSToPython", "SrcDir": "main", "SrcFile": "devhowtoMRSToPython.md", "BaseReferrer": "howto/devhowto/devhowtoImplementPredication.md", "Referrer": "howto/devhowto/devhowtoImplementPredication.md", "FileMissing": true},
