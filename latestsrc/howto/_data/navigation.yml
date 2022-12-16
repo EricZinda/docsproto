@@ -24,6 +24,8 @@ toc:
     children:
       - title: "Overview"
         url: "/devhowto/devhowtoOverview/"
+      - title: "MRS"
+        url: "/devhowto/devhowtoMRS/"
       - title: "Well-Formed Trees"
         url: "/devhowto/devhowtoWellFormedTree/"
       - title: "The Predication Contract"

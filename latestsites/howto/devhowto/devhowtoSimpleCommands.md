@@ -265,4 +265,5 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
         if isinstance(x_what_value, (File, Folder)):
             yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md)]{% endraw %}

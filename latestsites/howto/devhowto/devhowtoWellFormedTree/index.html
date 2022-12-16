@@ -203,6 +203,8 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
           
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">MRS</a></li>
+          
             <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/" class="active">Well-Formed Trees</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
@@ -342,7 +344,7 @@ _every_q(x3,RSTR,BODY)          ┌────── _cave_n_1(x9)
 
 <p>To “solve” this tree against a particular world state, you walk it in depth-first order: <code class="language-plaintext highlighter-rouge">every_q</code> is the starting, leftmost node. It starts by selecting a book on its upper branch, and then solving its lower branch with the selected book. This finds “a cave that the (selected) book is in”. <code class="language-plaintext highlighter-rouge">every_q</code> does this for every book in the world state. If they all succeed, we have a solution to the MRS. Because <code class="language-plaintext highlighter-rouge">_every_q</code> chooses a book <em>and then</em> a cave that it is in, it allows a <em>different</em> cave to be selected for each book. This tree will be only true if every book is in a (possibly different) cave.</p>
 
-<p>But this is only one interpretation, another interpretation of the <em>same</em> MRS is: “all books are in the same exact cave”, which is represented by this tree:</p>
+<p>But this is only one interpretation. Another interpretation of the <em>same</em> MRS is: “all books are in the same exact cave”, which is represented by this tree:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          ┌────── _cave_n_1(x9)
 _a_q(x9,RSTR,BODY)              ┌────── _book_n_of(x3,i8)
@@ -356,7 +358,7 @@ _a_q(x9,RSTR,BODY)              ┌────── _book_n_of(x3,i8)
   <p>Don’t worry if you don’t completely understand how the solutions are obtained yet.  The point is that there are different interpretations for the same MRS, represented by different trees. The rest of the tutorial will work through how these get solved.</p>
 </blockquote>
 
-<p>Both of these trees are represented by the same MRS document. The MRS structure is said to be <em>underspecified</em>, meaning that a single MRS document allows multiple interpretations. Here’s the MRS for “Every book is in a cave” again, so we can see how:</p>
+<p>Both of these trees are represented by the same MRS document. The MRS structure is said to be <em>underspecified</em>, meaning that a single MRS document allows multiple interpretations as described above. Here’s the MRS for “Every book is in a cave” again, so we can see how:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
@@ -369,9 +371,9 @@ RELS: &lt;
 &gt;
 HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 </code></pre></div></div>
-<p>The MRS is a flat structure that avoids building a single tree which would lock in one interpretation.  Instead, it leaves “holes” in the arguments (the “scopal” arguments that start with “h”) of the MRS predicates and provides constraints (the <code class="language-plaintext highlighter-rouge">HCONS</code>) for plugging the predicates together “legally”.  If you combine the predicates and follow the constraints (among other things), you’ll end up with a “well-formed MRS tree” which defines one valid interpretation of the sentence.</p>
+<p>The MRS is a flat structure that avoids building a single tree which would lock in one interpretation.  Instead, it leaves “holes” in the arguments (the “scopal” arguments that start with “h”) of the MRS predicates and provides constraints (the <code class="language-plaintext highlighter-rouge">HCONS</code>) for plugging the predications together “legally”.  If you combine the predications and follow the constraints (among other things), you’ll end up with a “well-formed MRS tree” which defines one valid interpretation of the sentence.</p>
 
-<p>This interpretation is what we need in order to “solve” the sentence for the variables it contains. This section describes how to derive it.</p>
+<p>This interpretation is what we need in order to eventuall “solve” the sentence for the variables it contains. This section describes how to derive it.</p>
 
 <h2 id="holes-and-constraints">Holes and Constraints</h2>
 <p>“Holes” are <code class="language-plaintext highlighter-rouge">h</code> arguments in a predication that refer to a predicate label (indicated by <code class="language-plaintext highlighter-rouge">LBL:</code> in the MRS) that is <em>not</em> defined. In the above MRS, <code class="language-plaintext highlighter-rouge">h0</code> (the <code class="language-plaintext highlighter-rouge">TOP:</code>), <code class="language-plaintext highlighter-rouge">h11</code>, <code class="language-plaintext highlighter-rouge">h12</code>, <code class="language-plaintext highlighter-rouge">h5</code>, and <code class="language-plaintext highlighter-rouge">h6</code> are all “holes” since none of the predicates use those labels as their <code class="language-plaintext highlighter-rouge">LBL:</code>.</p>
@@ -411,7 +413,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 
 <p><code class="language-plaintext highlighter-rouge">x</code> variables, on the other hand, can <em>only</em> be defined by quantifiers, and are <em>only</em> defined for the branches of the tree that are attached to their arguments: <code class="language-plaintext highlighter-rouge">RSTR</code> and <code class="language-plaintext highlighter-rouge">BODY</code>.</p>
 
-<p>So, while the predicates can be in any order in the tree with respect to their <code class="language-plaintext highlighter-rouge">e</code>  (or <code class="language-plaintext highlighter-rouge">i</code> or <code class="language-plaintext highlighter-rouge">u</code> if it had them) arguments, the tree must be checked to make sure all of the <code class="language-plaintext highlighter-rouge">x</code> arguments have an eventual parent which is a quantifier which defines them (i.e. has the <code class="language-plaintext highlighter-rouge">x</code> variable as its first argument: <code class="language-plaintext highlighter-rouge">ARG0</code>). This is an additional constraint that has to be checked to build a “well-formed” tree.</p>
+<p>So, while the predications can be in any order in the tree with respect to their <code class="language-plaintext highlighter-rouge">e</code>  (or <code class="language-plaintext highlighter-rouge">i</code> or <code class="language-plaintext highlighter-rouge">u</code> if it had them) arguments, the tree must be checked to make sure all of the <code class="language-plaintext highlighter-rouge">x</code> arguments have an eventual parent which is a quantifier which defines them (i.e. has the <code class="language-plaintext highlighter-rouge">x</code> variable as its first argument: <code class="language-plaintext highlighter-rouge">ARG0</code>). This is an additional constraint that has to be checked to build a “well-formed” tree.</p>
 
 <p>If the built tree passes all <code class="language-plaintext highlighter-rouge">qeq</code> constraints, and the <code class="language-plaintext highlighter-rouge">x</code> variables are all properly scoped, then it is a “well-defined” tree that we can now attempt to solve.  That’s what we’re going for here.</p>
 
@@ -425,7 +427,9 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 <p>There are definitely more efficient approaches, but the algorithm below has the advantage of being relatively simple. Here is <a href="https://www.aclweb.org/anthology/W05-1105.pdf">one alternative</a>.  There are definitely more.</p>
 
 <h2 id="a-simple-fast-enough-algorithm">A Simple, Fast Enough, Algorithm</h2>
-<p>First: it isn’t important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We’ll use this code as a library routine all throughout the tutorial, but we won’t dive into its implementation again. If you’ve followed so far, you’ve got enough background to go to the next section where we start to dive into <a href="../devhowtoPredicationContract">how to implement the predications</a>.</p>
+<blockquote>
+  <p>It isn’t important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We’ll use this code as a library routine all throughout the tutorial, but we won’t dive into its implementation again. If you’ve followed so far, you’ve got enough background to go to the next section where we start to dive into <a href="../devhowtoPredicationContract">how to implement the predications</a>.</p>
+</blockquote>
 
 <p>This description is for those that are interested in how it works:</p>
 
@@ -545,8 +549,8 @@ Starting at the initial node:</p>
     # At this point we tried all the floaters in this hole
     return
 </code></pre></div></div>
-<update date="" omitted="" for="" speed="">
-</update>
+
+<p>Last update: 2022-12-15 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoWellFormedTree.md">edit</a>]</p>
 
         
       </section>
