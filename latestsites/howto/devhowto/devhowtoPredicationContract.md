@@ -1,7 +1,7 @@
 {% raw %}## The Predication Contract
-It is important to understand [what MRS is]() and what [a scope-resolved MRS tree is]() before reading this section. Visit those links first to understand the basic concepts.
+It is important to understand [what MRS is](../devhowtoMRS) and what [a well-formed MRS tree is](../devhowtoWellFormedTree) before reading this section. Visit those links first to understand the basic concepts.
 
-A scope-resolved MRS tree can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is by *iteratively* finding assignments to the variables in the MRS, one by one, and collecting them into a solution. This is the "SLD" approach described in the [previous section](../devhowtoOverview). To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
+A scope-resolved MRS tree can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS "true", using backtracking to try alternatives when they exist. This is a [depth-first computational SLD approach](https://en.wikipedia.org/wiki/SLD_resolution) that, for example, the Prolog language uses in proving a goal.  To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
 
 Recall that predications are of the form: `_table_n_1(x)` or `compound(e,x,x)`. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We'll be treating the predications we implement as classic programming language functions that can be "called" or "invoked".
 

@@ -318,9 +318,9 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="the-predication-contract">The Predication Contract</h2>
-<p>It is important to understand <a href="">what MRS is</a> and what <a href="">a scope-resolved MRS tree is</a> before reading this section. Visit those links first to understand the basic concepts.</p>
+<p>It is important to understand <a href="../devhowtoMRS">what MRS is</a> and what <a href="../devhowtoWellFormedTree">a well-formed MRS tree is</a> before reading this section. Visit those links first to understand the basic concepts.</p>
 
-<p>A scope-resolved MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is by <em>iteratively</em> finding assignments to the variables in the MRS, one by one, and collecting them into a solution. This is the “SLD” approach described in the <a href="../devhowtoOverview">previous section</a>. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the “predication contract”.</p>
+<p>A scope-resolved MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS “true”, using backtracking to try alternatives when they exist. This is a <a href="https://en.wikipedia.org/wiki/SLD_resolution">depth-first computational SLD approach</a> that, for example, the Prolog language uses in proving a goal.  To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the “predication contract”.</p>
 
 <p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e,x,x)</code>. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We’ll be treating the predications we implement as classic programming language functions that can be “called” or “invoked”.</p>
 
