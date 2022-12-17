@@ -157,32 +157,6 @@ Of all the arguments, `ARG0` is special.  It holds a variable that "represents" 
 
 One final point: Every variable in an MRS is introduced by exactly one predication in the MRS (which is why they can serve as makeshift "representations" of the predication). We'll come back to this when we [talk about `i`, `p` and `u` variable types](#other-variables-types-i-u-p).
 
-#### X (Instance) Variables
-Instance (`x`) variables are just like normal First Order Logic variables, or like variables in popular programming languages. The types of things they can contain are "individuals", which is another name for a "thing in the world".  They hold the things the speaker is talking about.
-
-In the MRS for "Look under the table":
-
-```
-[ TOP: h0
-INDEX: e2
-RELS: < 
-[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
-[ _large_a_1 LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x9 ]
-[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
-[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
-[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
-[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
-[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
->
-HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
-```
-
-... There are only two instance variables that represent the "things in the world being talked about":
-- `x9`: "the large table"
-- `x3`: "you". This is implied since it is a command. I.e. "(You) look at the table". You can tell it wasn't in the original phrase because the predication doesn't start with `_`.
-
-The other variables in the MRS are there to help build up the tree (`h` variables, described next) or allow predications to refer to each other (`e` variables, described after that).  `x` variables are the most concrete type of variable that maps most obviously to what is being said in the phrase.
-
 #### H (Handle) Variables, aka "Scopal Arguments"
 The semantic meaning of an MRS is ultimately represented by a *tree* (described in the [next section](../devhowtoWellFormedTree)) and the handle variables (aka "scopal arguments") provide the mechanism to do that.
 
@@ -213,10 +187,38 @@ Think of it like a lambda function being passed to a function in a programming l
 
 Because the MRS is [underspecified](#underspecification), it usually doesn't directly list which predication to put in which scopal argument. You figure that out by the process of [creating a well-formed tree](../devhowtoWellFormedTree).  However, if a predication has a `LBL:` that is the same handle as a scopal argument, then that part of the tree *has* actually been specified and is "locked in place" (i.e. there is no hole there for something else to be).
 
-#### E (Event) Variables
-Event variables have a rich history and lot of fascinating conceptual linguistic background to them (Davidson 1967a is a good start), but for our purposes we can think of them as holding a "bag of information" (represented in code as a dictionary, perhaps). Predications [*introduce*](#predication-arguments) them to provide a place for other predications to hang information that will be used by the introducer.  All event variables are scoped to the whole MRS.
+#### X (Instance) Variables
+Instance (`x`) variables are just like normal First Order Logic variables, or like variables in popular programming languages. The types of things they can contain are "individuals", which is another name for a "thing in the world".  They hold the things the speaker is talking about.
 
-For example, event variables are used by adverbs (e.g. `move slowly`) when the `move` predication needs optional information about *how* to move. `slowly` does this by adding data to the event variable that `move` introduces. You can see in the MRS below for "move slowly" that `_slow_a_1` is passed the `e2` event variable that `_move_v_1` introduces:
+In the MRS for "Look under the table":
+
+```
+[ TOP: h0
+INDEX: e2
+RELS: < 
+[ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+[ _large_a_1 LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x9 ]
+[ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+[ pronoun_q LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+[ pron LBL: h7 ARG0: x3 [ x PERS: 2 PT: zero ] ]
+[ _under_p_dir LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 ]
+[ _look_v_1 LBL: h1 ARG0: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+>
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+```
+
+... There are only two instance variables that represent the "things in the world being talked about":
+- `x9`: "the large table"
+- `x3`: "you". This is implied since it is a command. I.e. "(You) look at the table". You can tell it wasn't in the original phrase because the predication doesn't start with `_`.
+
+The other variables in the MRS are there to help build up the tree (`h` variables, described next) or allow predications to refer to each other (`e` variables, described after that).  `x` variables are the most concrete type of variable that maps most obviously to what is being said in the phrase.
+
+Note that instance variables are always *scoped* by a quantifier when a well-formed tree is built. Quantifiers are described later, but for now think of them as a predication named with `_q` and with the argument structure: (`x`, `h`, `h`). The first argument of the quantifier, `x`, is the variable being "scoped", and the two branches in its scopal arguments are the only branches allowed to use that particular `x` variable.  That's what "scoped by a quantifier" means. This is important to know when creating [well-formed trees](../devhowtoWellFormedTree) but also helps explain some of the uses of [other variable types](../other-variables-types-i-u-p) later in this section.
+
+#### E (Event) Variables
+Event variables have a rich history and lot of fascinating conceptual linguistic background to them (Davidson 1967a is a good start), but for our purposes we can think of them as holding a "bag of information" (represented in code as a dictionary, perhaps). Predications [*introduce*](#predication-arguments-and-variables) them to provide a place for other predications to hang information that will be used by the introducer. 
+
+For example, event variables are used by adverbs like "slowly" as in, "move slowly", to provide the `move` predication with information about *how* to move. `slowly` does this by adding data to the event variable that `move` introduces. You can see in the MRS below for "move slowly" that `_slow_a_1` is passed the `e2` event variable that `_move_v_1` introduces:
 
 ```
 [ TOP: h0
@@ -232,7 +234,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 > ]
 
 The `_slow_a_1` predication is passed the `e2` argument so that it can attach data about "*how* to do something" to the event. `_move_v_1` needs `e2` passed to it so that it can inspect it and determine how to do the "moving".  
 
-They can also be used to add information about *where* to do something. For example: `go to the store`.  `to` is one of many prepositions that can be used with "go" to say *where* to go. So, if a preposition is in the phrase, it modifies the event that `go` introduces:
+They can also be used to add information about *where* to do something. For example, in `go to the store`, `to` is one of many prepositions that can be used with "go" to say *where* to go. So, if a preposition like `to` is in the phrase, it modifies the event that `go` introduces:
 
 ```
 [ TOP: h0
@@ -248,11 +250,11 @@ RELS: <
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ```
 
-Event variables conceptually hold a single "event" that gets (potentially) built into a richer structure over the course of evaluating the predications. Multiple predications may "enrich" it with information before is actually used by, for example, a verb. Contrast this with an instance (`x`) variable which only holds a particular individual at a given point it time. Said another way: an instance variable is like a string and can only hold one value, where an event is like a dictionary or a list and can hold many and be added to over time.
+Event variables conceptually hold a single "event" that accumulates information over the course of evaluating the predications. Multiple predications may "enrich" it with information before is actually used by, for example, a verb. Contrast this with an instance (`x`) variable which only holds a particular individual at a given point it time. Said another way: an instance variable is like a string and can only hold one value, where an event is like a dictionary or a list and can hold many and be added to over time.
 
 Note that the DELPH-IN grammars are very liberal in putting event variables on predications and, depending on context, sometimes they aren't used. This is just to prevent the consumer of the MRS from having to deal with the same predication both with and without an event variable.
 
-The predication that introduces (i.e. has it in its `ARG0` argument) an event variable will often (but not always) be the predication that consumes or "does something" with the "fully enriched" event. Predications that have it in other arguments will often (but not always) be simpling adding information to the event.
+The predication that introduces an event variable will often (but not always) be the predication that consumes or "does something" with the "fully enriched" event. Predications that have it in other arguments will often (but not always) be simpling adding information to the event.
 
 #### Other Variables Types: I, U, P
 Recall that the variable types in DELPH-IN and the ERG form a hierarchy. So far we've discussed the bottommost "leaves", which are most commonly seen:
@@ -272,24 +274,31 @@ The other three types of variables represent a type that is "in-between" or "und
 
 In practice, they appear in two pretty specific scenarios:
 
-**Unquantified `x` variables**: Some predications in the ERG have an argument that is conceptually an individual (`x`) type, but does not require quantification. Since the rules on well-formedness require that all `x` arguments are scoped by a quantifier, the most appropriate of the three "in-between" types will be used instead. This is usually `i` since these are most often of type `x` and `i` is the "most specific of the options". As with all non-`x` variables, this will be "existentially quantified" (globally defined) -- that is the whole point of using them here.
+**Unquantified `x` variables**: Some predications in the ERG have an argument that is conceptually an individual (`x`) type, but does not require quantification. Since the rules require that all `x` `x` variables are [scoped by a quantifier](../x-instance-variables), the most appropriate of the three "in-between" types will be used instead as a "work-around". This is usually `i` since these are most often of type `x`, and `i` is the "most specific of the options that includes `x`". As with all non-`x` variables, this will be "existentially quantified" (globally defined) -- that is the whole point of using them here.
 
-**Dropped arguments**: Sometimes the predication that would introduce a variable is missing. For example "I left" vs. "I left Oregon". In the latter, "Oregon" becomes a predication that introduces the argument to "left", but in the former, this predication doesn't exist so the variable is not introduced. In this case, the missing (or "dropped") variable uses an `i`, `p` or `u` argument in place of what got dropped, kind of like passing `None` in Python or `Null` in SQL. The easiest way to detect when one of these three variable types means "dropped or ignored argument" is by checking if any other predication is also using it (as in the previous case). If not, it is probably dropped/ignored.
+**Dropped arguments**: Sometimes the predication that would introduce a variable is missing. For example "I left" vs. "I left Oregon". In the latter, "Oregon" becomes a predication that introduces a variable to "left", but in the former, this predication doesn't exist so the variable is not introduced. In this case, the missing (or "dropped") variable uses an `i`, `p` or `u` type in place of the type that got dropped. Variables typed like this should be treated kind of like passing `None` in Python or `Null` in SQL. The easiest way to detect when one of these three variable types means "dropped or ignored argument" is by checking if any other predication is also using it (as in the previous case). If not, it is probably dropped/ignored.
 - `i` means dropped `e` or `x`
 - `u` means dropped `e`, `x`, or `h`
 - `p` means dropped `x` or `h`
 
 #### Variable Properties
-Variables in an MRS have *properties*, which in a sense are like single argument predications for the variables. They define many different properties of a variable that aren't included anywhere else:
+Variables in an MRS have *properties*, which are like single argument predications for the variables. They define many different properties of a variable that aren't included anywhere else. They are defined after the variable in the MRS, surrounded by `[]`. You can see many examples in the MRS for "he will go":
 
-For instance (`x`) variables:
+```
+[ pronoun_q LBL: h5 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m IND: + PT: std ] RSTR: h6 BODY: h7 ]
+[ pron LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m IND: + PT: std ] ]
+[ _go_v_1 LBL: h1 ARG0: e2 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+```
+The potential properties depends on the type of variable:
+
+Instance (`x`) variables can have these properties:
 - Number (`NUM`): `sg` (singular) or `pl` (plural)
 - Person (`PERS`): `1`,`2`, or `3` for first-person (speaker) I/we, second-person (hearer) you, and third-person otherwise
 - Individuated (`IND`): `+` or `-` (meaning true or false). Distinguishes individuated entities introduced by count nouns such as cat or cats from non-individuated referents for mass nouns such as rice
 - Gender (`GEN`): `m` for male, `f` for female, `n` otherwise
 - `PT`: ?
 
-For event (`e`) variables:
+Event (`e`) variables can have these properties:
 - Tense (`TENSE`): `past` for past, `pres` for present, `fut` for future, or `untensed`
 - Viewpoint aspect (or 'grammatical aspect') describes the situation from a particular viewpoint, dividing it into endpoints and stages (Smith 1991, 1997)
   - `PERF` (for perfect): `+` or `-` (meaning true or false)
@@ -297,19 +306,23 @@ For event (`e`) variables:
 - Sentence Force (`SF`): `comm` for command, `ques` for question, `prop` for proposition. Indicates the type of sentence.
 - Mood (`MOOD`): Roughly describes the opinions or attitudes of the speaker, with most common values being: `subjunctive` and `indicative`
 
-You can see examples of properties being listed for variables in this MRS fragment of "he will go":
-```
-[ pronoun_q LBL: h5 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m IND: + PT: std ] RSTR: h6 BODY: h7 ]
-[ pron LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m IND: + PT: std ] ]
-[ _go_v_1 LBL: h1 ARG0: e2 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
-```
-
 ## Quantifier Predications
-Quantifiers fill a special role in the MRS (and linguistics in general).  [According to Wikipedia](https://en.wikipedia.org/wiki/Quantifier_(linguistics)) "a *quantifier* is a type of [determiner](https://en.wikipedia.org/wiki/Determiner_(class) "Determiner (class)"), such as *all*, *some*, *many*, *few*, *a lot*, and *no* that indicates quantity".  "The" and "a" are also really common examples.  That's the kind of description you'd get in a normal "Learning English" grammar course, but DELPH-IN uses a much broader definition that includes those examples but adds some more.
+Quantifiers fill a special role in the MRS (and linguistics in general).  [According to Wikipedia](https://en.wikipedia.org/wiki/Quantifier_(linguistics)):
 
-Quantifier Predications in DELPH-IN always have a specific argument signature: quantifier(`x`,`h`,`h`). In addition to (often) doing the job of saying "how much of" their `x` variable there should be to make the MRS true ("lots", "some", "the", etc), they provide scope to the `x` variable. All `x` variables must be scoped by a quantifier, which means that they can only be used in the branches of the tree that are contained in the quantifier's two `h` (scopal) arguments. This rule for well-formedness means that there are many quantifiers that don't do "real" quantification at all, they are in the MRS just to scope the `x` variable. Some act like "markers" of some kind (again without doing any quantification).
+> "a *quantifier* is a type of [determiner](https://en.wikipedia.org/wiki/Determiner_(class) "Determiner (class)"), such as *all*, *some*, *many*, *few*, *a lot*, and *no* that indicates quantity". 
 
-An example of this is in the MRS for "go north":
+
+"The" and "a" are also really common examples.  That's the kind of description you'd get in a normal "Learning English" grammar course, but DELPH-IN uses a much broader definition that includes those examples but adds some more.
+
+Quantifier Predications in DELPH-IN always have a specific argument signature: 
+
+```
+quantifier(`x`,`h`,`h`)
+```
+
+In addition to (often) doing the job of saying "how much of" their `x` variable there should be to make the MRS true ("lots", "some", "the", etc), they provide scope to the `x` variable. All `x` variables must be scoped by a quantifier, which means that they can only be used in the branches of the tree that are contained in the quantifier's two `h` (scopal) arguments. This rule for well-formedness means that there are many quantifiers that don't do "real" quantification at all, they are in the MRS just to scope the `x` variable. Some act like "markers" of some kind (again without doing any quantification).
+
+The MRS for "go north" shows an example of this:
 ```
 [ TOP: h0
 INDEX: e2
@@ -332,17 +345,19 @@ def_implicit_q(x9,RSTR,BODY)
                                                 └─ and(0,1)
                                                          └ _go_v_1(e2,x3)
 ```
-The variable `x9` represents `north` but nothing in the phrase is "quantifying" direction in any way.  Since the rules for MRS require `x` variables to be quantified, and abstract quantifer called `def_implicit_q` is used to do the scoping of the variable.
+The variable `x9` represents `north` but nothing in the phrase is "quantifying" direction in any way.  Since the rules for MRS require `x` variables to be quantified, an abstract quantifier called `def_implicit_q` is used to do the scoping of the variable.
 
 Note that, unlike non-quantifier predications, the first (`ARG0`) argument of a quantifier *does not* "introduce" an "intrinsic variable" (as described in the [variables section](#predication-arguments-and-variables)), they just scope (and optionally quantify) it.
 
 ## Constraints
-The `HCONS` section of the MRS puts *CONS*traints on where the *H*andles for predications can be validly placed and still be a legal interpretation of the phrase. The only constraints used in "modern" MRS are `qeq` constraints so that is all you'll see in this section.  A `qeq` constraint always relates an `h` argument of one predication, called a "hole", to the handle (`LBL:`) of another predication. It states that the handle must be a direct or eventual child of the hole in the tree and, if not direct, the only things between the hole and the handle can be quantifiers.  Said a different way: 
+The `HCONS` section of the MRS puts *CONS*traints on where the *H*andles for predications can be validly placed and still be a legal interpretation of the phrase. The only constraints used in "modern" MRS are `qeq` constraints so that's all you'll see in this section.  
+
+A `qeq` constraint always relates an `h` argument of one predication, called a "hole", to the handle (`LBL:`) of another predication. It states that the handle must be a direct or eventual child of the hole in the tree and, if not direct, the only things between the hole and the handle can be quantifiers.  Said a different way: 
 
 > A qeq constraint of "X qeq Y" says that the direct path from X to Y must only contain quantifiers.
 
 
-As we work through [fully resolving the MRS into a tree](../ResolvingTheMRSTree), we'll see more description and examples of how he `HCONS` section is used.
+As we work through [fully resolving the MRS into a tree](../ResolvingTheMRSTree), we'll see more description and examples of how the `HCONS` section is used.
 
 ## Index
 One final part of the MRS needs to be described: `INDEX`:
@@ -361,7 +376,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 >
 ```
 The `INDEX` part of the MRS indicates the variable introduced by the predication (or predications if there is a conjunction) that is the "main point of the phrase", i.e. the thing being done, which is usually the main verb.  In the example above `INDEX: e2` is referring to the variable introduced by `_go_v_1__ex`.  This indicates that the verb `go` is the "main point of the phrase". This is called the "syntactic head" in linguistics.
 
-Note that the `INDEX` does not always point at a verb. In phrases that just state that something else "is" something, such is: "the flower is blue", "is" is not included, and "blue" acts like the verb and is the `INDEX`:
+Note that the `INDEX` does not always point at a verb. In phrases that just state that something "is" something else, such is: "the flower is blue", "is" is not included. "blue" acts like the verb and is the `INDEX`:
 
 ```
 [ TOP: h0
