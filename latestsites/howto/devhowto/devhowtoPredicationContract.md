@@ -1,7 +1,8 @@
 {% raw %}## The Predication Contract
-It is important to understand [what MRS is](../devhowtoMRS) and what [a well-formed MRS tree is](../devhowtoWellFormedTree) before reading this section. Visit those links first to understand the basic concepts.
+> It is important to understand [what MRS is](../devhowtoMRS) and what [a well-formed MRS tree is](../devhowtoWellFormedTree) before reading this section. Visit those links first to understand the basic concepts.
 
-A scope-resolved MRS tree can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS "true", using backtracking to try alternatives when they exist. This is a [depth-first computational SLD approach](https://en.wikipedia.org/wiki/SLD_resolution) that, for example, the Prolog language uses in proving a goal.  To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
+
+A [well-formed MRS tree](../devhowtoWellFormedTree) can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS "true", using backtracking to try alternatives when they exist. This is a [depth-first computational SLD approach](https://en.wikipedia.org/wiki/SLD_resolution) that, for example, the Prolog language uses in proving a goal.  We'll be using this approach for the tutorial. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
 
 Recall that predications are of the form: `_table_n_1(x)` or `compound(e,x,x)`. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We'll be treating the predications we implement as classic programming language functions that can be "called" or "invoked".
 
@@ -12,7 +13,7 @@ For the purpose of defining the contract, we'll group predications into two type
 ### Idealized Contract
 We'll start with an "idealized contract" because it clarifies how the SLD solver process works in general. It is "idealized" because it has relatively poor performance characteristics for large worlds. We'll tackle those characteristics with our "practical contract" next, but it is important to understand the fundamental approach first.
 
-The contract we define here is designed to "solve" an MRS for the variables defined within it such as `x1`, `x2`, `e1`, etc. Our goal is to find all values of the variables (the "solutions") that are `True` within a given world. The approach will be to call predications as functions and so we'll define the contract in terms of what these calls must look like. The term `bound` means a variable is "set" or "provided", and `unbound` means it doesn't yet have a value:
+The contract we define here is designed to "solve" an MRS for the variables defined in it such as `x1`, `x2`, `e1`, etc. Our goal is to find all values of the variables (the "solutions") that are `True` within a given world. The approach will be to call predications as functions, and so we'll define the contract in terms of what these calls must look like. In the contract, the term `bound` means a variable is "set" or "provided", and `unbound` means it doesn't yet have a value:
 
 > A Regular Predication must be called with its arguments bound. If the predication's meaning is true given those arguments, it must return `True`. Otherwise, it must return `False`.
 > 
@@ -22,7 +23,7 @@ The contract we define here is designed to "solve" an MRS for the variables defi
 
 
 A few observations about the contract:
-- What the variables *are* -- i.e. how the world is represented -- is not defined in the contract. It doesn't care.
+- What the variables *are* -- i.e. how the world is represented in the program -- is not defined in the contract. It doesn't care.
 - Quantifier Predications only scope their `x` variables. These are the only variables that represent "things in the world", called "individuals", that we are solving for. Event (`e`) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications. They are not relevant here and get described in a [later section](../devhowtoEvents).
 - This "idealized contract" has different requirements for Regular and Quantifier Predications. Regular Predications simply return `True` or `False`. Quantifier Predications return a set of answers consisting of variable assignments, iteratively. 
 
@@ -39,6 +40,11 @@ So, if the world is:
 `a folder`
 `a small file`
 `a large file`
+```
+and we are solving:
+
+```
+a_q(x, large_a_1(x), file(x))
 ```
 
 `a_q` would:
@@ -60,7 +66,7 @@ The performance of the contract can be greatly improved. Let's imagine a world w
 > A large file is in the folder
 
 
-Which results in this as one of the scope-resolved MRS trees:
+Which results in this as one of the well-formed MRS trees:
 
 ```
              ┌────── _folder_n_of(x10,i15) 
@@ -119,10 +125,11 @@ If `_file_n_of(x)` is called with an unbound `x`, it:
 
 The Quantifier Predication example is the same as before since we have simply started applying its contract to *all* predications now.
 
-To help with performance of the system, the "practical contract" is the contract we will build for each predication we want the system to understand. 
+To help with performance of the system, the "practical contract" is the contract we will use for each predication we want the system to understand. 
 
 ### Final Performance Thoughts
 Even with this optimization, the example MRS for something like "a large file is in the folder" will need to check each "large file" in the system to see if it is in "the" folder (where "the folder" might mean "current folder"), which could still be a lot of iterations. There are further optimizations that can be done by the solver and many will depend on the particular world you execute against. Optimizing performance of a system like this is an ongoing task.
 
 There are other ways to solve an MRS for the variables that make it true. For example, some MRS's can be converted to classic logic statements "There exists an x such that..." and various solvers can be used to solve for the variables in it: [TODO: List references here](). In addition, there are many uses for MRS that don't involve solving for the variables at all [TODO: List references here](). However, the SLD approach is a relatively straightforward approach that can be used for constrained worlds and allows us to explain the various aspects of DELPH-IN without getting too deep in complicated mathematics or logic.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-16 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoPredicationContract.md)]{% endraw %}

@@ -117,4 +117,5 @@ No, that isn't correct: a thing is not a file
 
 That one isn't good. The [next section](../devhowtoQuantifierErrors) will analyze why, and how to fix it.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-14 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoRobustFailure.md)]{% endraw %}

@@ -15,4 +15,5 @@ configuration)
 8. [TsdbSchemaRfc](../TsdbSchemaRfc) ("relations files")
 9. [MatrixChoicesRfc](../MatrixChoicesRfc) ("choices files"; grammar
 specifications for the Grammar Matrix)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinRFCs/_edit)]{% endraw %}
