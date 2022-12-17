@@ -6,6 +6,7 @@
         {"Page": "devhowtoMRS", "SrcDir": "main", "SrcFile": "devhowtoMRS.md", "BaseReferrer": "howto/devhowto/devhowtoOverview.md", "Referrer": "howto/devhowto/devhowtoOverview.md", "FileMissing": true},
         {"Page": "devhowtoWellFormedTree", "SrcDir": "main", "SrcFile": "devhowtoWellFormedTree.md", "BaseReferrer": "howto/devhowto/devhowtoOverview.md", "Referrer": "howto/devhowto/devhowtoOverview.md", "FileMissing": true},
         {"Page": "devhowtoWhichParseAndTree", "SrcDir": "main", "SrcFile": "devhowtoWhichParseAndTree.md", "BaseReferrer": "howto/devhowto/devhowtoMRS.md", "Referrer": "howto/devhowto/devhowtoMRS.md", "FileMissing": true},
+        {"Page": "quantifier-predications", "SrcDir": "main", "SrcFile": "quantifier-predications.md", "BaseReferrer": "howto/devhowto/devhowtoMRS.md", "Referrer": "howto/devhowto/devhowtoMRS.md", "FileMissing": true},
         {"Page": "devhowtoEvents", "SrcDir": "main", "SrcFile": "devhowtoEvents.md", "BaseReferrer": "howto/devhowto/devhowtoMRS.md", "Referrer": "howto/devhowto/devhowtoMRS.md", "FileMissing": true},
         {"Page": "devhowtoConceptualFailures", "SrcDir": "main", "SrcFile": "devhowtoConceptualFailures.md", "BaseReferrer": "howto/devhowto/devhowtoMRS.md", "Referrer": "howto/devhowto/devhowtoMRS.md", "FileMissing": true},
         {"Page": "devhowtoScopalArguments", "SrcDir": "main", "SrcFile": "devhowtoScopalArguments.md", "BaseReferrer": "howto/devhowto/devhowtoMRS.md", "Referrer": "howto/devhowto/devhowtoMRS.md", "FileMissing": true},
