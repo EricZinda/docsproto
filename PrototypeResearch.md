@@ -50,9 +50,14 @@ https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/
 - includes how to create new layouts if theirs don't work for us
 
+# tipue for search
+https://github.com/jekylltools/jekyll-tipue-search
+
 # Search using Lunr
 https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/
 https://github.com/slashdotdash/jekyll-lunr-js-search
+- https://github.com/slashdotdash/jekyll-lunr-js-search/issues/82
+  - Have to generate the index locally first since google pages won't run plugins
 
 # Using Google for search   
 https://programmablesearchengine.google.com/controlpanel/all
