@@ -9,7 +9,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <http://svn.delph-in.net/lkb/branches/fos/>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[98.1
+[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[98.7
 MB\]. A Windows binary may be available at some point in the future.
 
 LKB-FOS has been developed using the tools and libraries *SBCL*,
@@ -102,8 +102,8 @@ turned on by default. To revert to the previous behaviour, execute
 - Multilingual support: SBCL has excellent support for Unicode and
 McCLIM works well for Unicode output, so LKB-FOS can work with
 grammars using any language script.
-- Chart mapping: LKB-FOS includes support for token mapping and
-lexical filtering rules.
+- Chart mapping: LKB-FOS includes support for token mapping,
+lexical filtering, and post-generation mapping rules.
 
 Experienced LKB users might notice further refinements:
 
@@ -266,5 +266,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 [DELPH-IN Discourse](https://delphinqa.ling.washington.edu/about) to see if
 a solution has already been posted there; if it hasn't then create a new topic.
 
-
-Last update: 2022-07-04 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

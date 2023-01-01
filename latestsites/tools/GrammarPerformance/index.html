@@ -662,25 +662,22 @@ are checked first, for efficiency. Which unifications are likely to fail
 are found by preprocessing a text and seeing which points of failure are
 common.</p>
 
-<p>It is described in, e,g,:</p>
+<p>The canonical reference is:</p>
 
-<p>Ulrich Callmeier. <em>Preprocessing and Encoding Techniques in PET</em>. In
-Stephan Oepen, Dan Flickinger, Jun-ichi Tsujii and Hans Uszkoreit
-editors, Collaborative Language Engineering. A Case Study in Efficient
-Grammar-based Processing, CSLI Publications, Stanford, 2002.</p>
+<p>Robert Malouf, John Carroll and Ann Copestake. <a href="http://users.sussex.ac.uk/~johnca/papers/malouf.pdf">Efficient feature structure operations without compilation</a>. <em>Natural Language Engineering</em>, 6(1). 29-46. 2000.</p>
 
 <h3 id="pet">PET</h3>
 
 <p>The file is read in flop.set:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   postload-files := "pet/qc".
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>postload-files := "pet/qc".
 </code></pre></div></div>
 
 <p>To make the file, ensure:</p>
 
 <ul>
-  <li>- you are using compatible versions of flop and cheap - your
-grammar is up-to-date:</li>
+  <li>you are using compatible versions of flop and cheap</li>
+  <li>your grammar is up-to-date</li>
 </ul>
 
 <p>See e.g., ${JACY}/utils/make-qc.bash</p>
@@ -691,17 +688,13 @@ cat testfile | cheap -limit=100000 -packing -compute-qc=pet/qc.tdl japanese;
 flop japanese
 </code></pre></div></div>
 
-<ul>
-  <li>The testfile must be segmented (for Japanese)</li>
-</ul>
-
-<!-- -->
+<p>The testfile must be segmented (e.g., for Japanese)</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grep -v '#' testsuites/mt-test-set-1.txt | chasen -F "%m " &gt; testfile
 </code></pre></div></div>
 
 <p>After you have made the quick check file, you need to rebuild the
-grammar</p>
+grammar.</p>
 
 <p>Note: This is slow, as quick-check is, off course, turned off. In
 general, you should use the mode you would normally use (e.g. with
@@ -746,9 +739,9 @@ of ACE used for parsing.</p>
 
 <p>See Copestake (2002: pp 196–197).</p>
 
-<p>The file is read in lk/script</p>
+<p>The file is read in lkb/script:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   (lkb-load-lisp (this-directory) "checkpaths.lsp" t)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(lkb-load-lisp (this-directory) "checkpaths.lsp" t)
 </code></pre></div></div>
 
 <p>It is made as follows:</p>
@@ -756,7 +749,7 @@ of ACE used for parsing.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mv lkb/checkpaths.lsp lkb/checkpaths.lsp.old
 </code></pre></div></div>
 
-<p>from within the *common-lisp* buffer:</p>
+<p>and then from within the *common-lisp* buffer:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(lkb::with-check-path-list-collection 
    "~/delphin/grammars/japanese/lkb/checkpaths.lsp" 
@@ -770,7 +763,7 @@ of ACE used for parsing.</p>
 <ul>
   <li>It would be nice to share the format between PET, LKB and ACE (or
 convert)</li>
-  <li>It may be worth doing a grid search to optimize how many quick-check
+  <li>It may be worth doing a grid search to optimize how many quick check
 paths should actually be checked.
     <ul>
       <li>around 50-60 seems to be ideal</li>
@@ -786,13 +779,11 @@ daughters of rules are checked (Oepen &amp; Carroll 2002: pp 204–206). The
 order can be specified in the grammar (used by the LKB, ACE and PET) or
 in the configuration files for the LKB and PET.</p>
 
-<p>* In the grammar :</p>
-
 <ul>
-  <li>You can use KEY-ARG and specify it per rule in the grammar.</li>
+  <li>In the grammar</li>
 </ul>
 
-<!-- -->
+<p>Use KEY-ARG and specify it per-rule:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>binary_rule_left_to_right := rule &amp;
   [ ARGS &lt; [ KEY-ARG + ] , [ KEY-ARG bool ] &gt; ].
@@ -803,20 +794,28 @@ in the configuration files for the LKB and PET.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hcomp_rule := binary_rule_left_to_right &amp; head_comp_phrase.
 </code></pre></div></div>
 
-<p>* In the LKB (<strong>lkb/globals.lsp</strong>)</p>
+<ul>
+  <li>In the LKB configuration file</li>
+</ul>
+
+<p>lkb/globals.lsp:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *rule-keys*
   '((HEAD-ADJUNCT-RULE1 . 1)
     (COMPOUNDS-RULE . 1)
-    (KARA-MADE-RULE . 2) 
+    (KARA-MADE-RULE . 2)
     (HEAD_SUBJ_RULE . 2)
     (HEAD-SPECIFIER-RULE . 2)
-    (HEAD-COMPLEMENT-RULE . 2) 
+    (HEAD-COMPLEMENT-RULE . 2)
     (HEAD-COMPLEMENT2-RULE . 2)
     (HEAD-ADJUNCT-RULE2 . 2)))
 </code></pre></div></div>
 
-<p>* In PET (<strong>pet/japanese.set</strong>)</p>
+<ul>
+  <li>In the PET configuration file</li>
+</ul>
+
+<p>pet/japanese.set:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;; assoc (rules -&gt; keyarg position) (alternative to KEY-ARG mechanism)
 rule-keyargs := 
@@ -845,10 +844,10 @@ $NP-QUEST-FRAG-RULE 2.
 
 <p>Key mode in cheap is set with:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  `-key=n' --- select key mode (0=key-driven, 1=l-r, 2=r-l, 3=head-driven)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`-key=n' --- select key mode (0=key-driven, 1=l-r, 2=r-l, 3=head-driven)
 </code></pre></div></div>
 
-<p>default is 0.</p>
+<p>The default is 0.</p>
 
 <p>You get the data by creating two profiles one with -key=1 and one with
 key=2, turning on -rulestats. First enable
@@ -870,7 +869,7 @@ convert)</li>
 
 <h2 id="spanning-only-rules">Spanning Only Rules</h2>
 
-<p>In PET and ACE, you can set rules to only apply over the entire span.
+<p>You can set rules to only apply over the entire span.
 The configuration file syntax for PET is:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spanning-only-rules := $frg-np $frg-pp $frg-s-adv $frg-i-adv
@@ -886,8 +885,15 @@ lack of $’s):</p>
   pp-aj_frg_c j-aj_frg_c np_nb-frg_c np-cl_numitem_c.
 </code></pre></div></div>
 
-<p>Making the rules spanning only for Jacy once reduced the number of tasks
-by 7.2%, and speeded things up by 5.1%.</p>
+<p>In the LKB, the equivalent is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *spanning-only-rules*
+  '(aj-r_frg_c np-aj_frg_c np-aj_rorp-frg_c
+    pp-aj_frg_c j-aj_frg_c np_nb-frg_c np-cl_numitem_c))
+</code></pre></div></div>
+
+<p>In one experiment with Jacy, specifying spanning only rules reduced the number of tasks
+by 7% and speeded things up by 5%.</p>
 
 <h2 id="trigger-rules-for-generation">Trigger Rules for Generation</h2>
 
@@ -902,7 +908,7 @@ trigger rules also work with <a href="../AceTop">Ace</a>).</p>
 
 <p>In general, you do not want to copy up all the information from lower
 nodes in the tree to upper nodes (unless they are specifically linked
-with a re-entrancy). You can control what is <strong>not</strong> copied wiht
+with a re-entrancy). You can control what is <strong>not</strong> copied with
 deleted daughters. The Matrix sets this to
 ARGS HEAD-DTR NON-HEAD-DTR DTR. If you add any more daughters, you
 should list them here.</p>
@@ -931,19 +937,15 @@ training over a corpus.</p>
 
 <p>You can have too many rules, some of which can be annoying if you are
 focusing on a different phenomenon. In that case, comment them out and
-recompile/reload the grammar.</p>
-
-<ul>
-  <li>e.g. comment out the fragment rules if you only care for full
-sentences.</li>
-</ul>
+recompile/reload the grammar. For example, comment out the fragment
+rules if you only care for full sentences.</p>
 
 <p>You can also do this with a masking file (so you can have sets of things
-you want to ignore):</p>
+you want to ignore). E.g., from the ERG:</p>
 
-<p>e.g. cl-cl_runon_c := never_unify_rule. (from the ERG)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cl-cl_runon_c := never_unify_rule.
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>never_unify_rule := rule &amp;
+never_unify_rule := rule &amp;
   [ SYNSEM.LOCAL.CAT.HEAD no_head &amp; [ MINORS.MIN never_unify_rel,
                                       PRD + ],
     ARGS &lt; [ SYNSEM.LOCAL.CAT.HEAD no_head &amp; 
@@ -980,8 +982,8 @@ to turn it off when debugging:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> --disable-generalization
 </code></pre></div></div>
-
-<p>Last update: 2021-06-02 by Alexandre Rademaker [<a href="https://github.com/delph-in/docs/wiki/GrammarPerformance/_edit">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>
@@ -1064,7 +1066,7 @@ to turn it off when debugging:</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -44,23 +44,20 @@ are checked first, for efficiency. Which unifications are likely to fail
 are found by preprocessing a text and seeing which points of failure are
 common.
 
-It is described in, e,g,:
+The canonical reference is:
 
-Ulrich Callmeier. *Preprocessing and Encoding Techniques in PET*. In
-Stephan Oepen, Dan Flickinger, Jun-ichi Tsujii and Hans Uszkoreit
-editors, Collaborative Language Engineering. A Case Study in Efficient
-Grammar-based Processing, CSLI Publications, Stanford, 2002.
+Robert Malouf, John Carroll and Ann Copestake. [Efficient feature structure operations without compilation](http://users.sussex.ac.uk/~johnca/papers/malouf.pdf). *Natural Language Engineering*, 6(1). 29-46. 2000.
 
 ### PET
 
 The file is read in flop.set:
 
-       postload-files := "pet/qc".
+    postload-files := "pet/qc".
 
 To make the file, ensure:
 
-- \- you are using compatible versions of flop and cheap - your
-grammar is up-to-date:
+- you are using compatible versions of flop and cheap
+- your grammar is up-to-date
 
 See e.g., ${JACY}/utils/make-qc.bash
 
@@ -69,15 +66,12 @@ See e.g., ${JACY}/utils/make-qc.bash
     cat testfile | cheap -limit=100000 -packing -compute-qc=pet/qc.tdl japanese;
     flop japanese
 
-- The testfile must be segmented (for Japanese)
-
-<!-- -->
-
+The testfile must be segmented (e.g., for Japanese)
 
     grep -v '#' testsuites/mt-test-set-1.txt | chasen -F "%m " > testfile
 
 After you have made the quick check file, you need to rebuild the
-grammar
+grammar.
 
 Note: This is slow, as quick-check is, off course, turned off. In
 general, you should use the mode you would normally use (e.g. with
@@ -120,15 +114,15 @@ of ACE used for parsing.
 
 See Copestake (2002: pp 196--197).
 
-The file is read in lk/script
+The file is read in lkb/script:
 
-       (lkb-load-lisp (this-directory) "checkpaths.lsp" t)
+    (lkb-load-lisp (this-directory) "checkpaths.lsp" t)
 
 It is made as follows:
 
     mv lkb/checkpaths.lsp lkb/checkpaths.lsp.old
 
-from within the \*common-lisp\* buffer:
+and then from within the \*common-lisp\* buffer:
 
     (lkb::with-check-path-list-collection 
        "~/delphin/grammars/japanese/lkb/checkpaths.lsp" 
@@ -140,7 +134,7 @@ from within the \*common-lisp\* buffer:
 
 - It would be nice to share the format between PET, LKB and ACE (or
 convert)
-- It may be worth doing a grid search to optimize how many quick-check
+- It may be worth doing a grid search to optimize how many quick check
 paths should actually be checked.
   - around 50-60 seems to be ideal
   - ACE does something like this
@@ -152,12 +146,9 @@ daughters of rules are checked (Oepen & Carroll 2002: pp 204--206). The
 order can be specified in the grammar (used by the LKB, ACE and PET) or
 in the configuration files for the LKB and PET.
 
-\* In the grammar :
+- In the grammar
 
-- You can use KEY-ARG and specify it per rule in the grammar.
-
-<!-- -->
-
+Use KEY-ARG and specify it per-rule:
 
     binary_rule_left_to_right := rule &
       [ ARGS < [ KEY-ARG + ] , [ KEY-ARG bool ] > ].
@@ -166,19 +157,23 @@ This can then be combined with a rule:
 
     hcomp_rule := binary_rule_left_to_right & head_comp_phrase.
 
-\* In the LKB (**lkb/globals.lsp**)
+- In the LKB configuration file
+
+lkb/globals.lsp:
 
     (defparameter *rule-keys*
       '((HEAD-ADJUNCT-RULE1 . 1)
         (COMPOUNDS-RULE . 1)
-        (KARA-MADE-RULE . 2) 
+        (KARA-MADE-RULE . 2)
         (HEAD_SUBJ_RULE . 2)
         (HEAD-SPECIFIER-RULE . 2)
-        (HEAD-COMPLEMENT-RULE . 2) 
+        (HEAD-COMPLEMENT-RULE . 2)
         (HEAD-COMPLEMENT2-RULE . 2)
         (HEAD-ADJUNCT-RULE2 . 2)))
 
-\* In PET (**pet/japanese.set**)
+- In the PET configuration file
+
+pet/japanese.set:
 
     ;; assoc (rules -> keyarg position) (alternative to KEY-ARG mechanism)
     rule-keyargs := 
@@ -206,9 +201,9 @@ This can then be combined with a rule:
 
 Key mode in cheap is set with:
 
-      `-key=n' --- select key mode (0=key-driven, 1=l-r, 2=r-l, 3=head-driven)
+    `-key=n' --- select key mode (0=key-driven, 1=l-r, 2=r-l, 3=head-driven)
 
-default is 0.
+The default is 0.
 
 You get the data by creating two profiles one with -key=1 and one with
 key=2, turning on -rulestats. First enable
@@ -228,7 +223,7 @@ convert)
 
 ## Spanning Only Rules
 
-In PET and ACE, you can set rules to only apply over the entire span.
+You can set rules to only apply over the entire span.
 The configuration file syntax for PET is:
 
     spanning-only-rules := $frg-np $frg-pp $frg-s-adv $frg-i-adv
@@ -242,8 +237,14 @@ lack of $'s):
       aj-r_frg_c np-aj_frg_c np-aj_rorp-frg_c
       pp-aj_frg_c j-aj_frg_c np_nb-frg_c np-cl_numitem_c.
 
-Making the rules spanning only for Jacy once reduced the number of tasks
-by 7.2%, and speeded things up by 5.1%.
+In the LKB, the equivalent is:
+
+    (defparameter *spanning-only-rules*
+      '(aj-r_frg_c np-aj_frg_c np-aj_rorp-frg_c
+        pp-aj_frg_c j-aj_frg_c np_nb-frg_c np-cl_numitem_c))
+
+In one experiment with Jacy, specifying spanning only rules reduced the number of tasks
+by 7% and speeded things up by 5%.
 
 ## Trigger Rules for Generation
 
@@ -258,7 +259,7 @@ trigger rules also work with [Ace](../AceTop)).
 
 In general, you do not want to copy up all the information from lower
 nodes in the tree to upper nodes (unless they are specifically linked
-with a re-entrancy). You can control what is **not** copied wiht
+with a re-entrancy). You can control what is **not** copied with
 deleted daughters. The Matrix sets this to
 ARGS HEAD-DTR NON-HEAD-DTR DTR. If you add any more daughters, you
 should list them here.
@@ -286,16 +287,14 @@ training over a corpus.
 
 You can have too many rules, some of which can be annoying if you are
 focusing on a different phenomenon. In that case, comment them out and
-recompile/reload the grammar.
-
-- e.g. comment out the fragment rules if you only care for full
-sentences.
+recompile/reload the grammar. For example, comment out the fragment
+rules if you only care for full sentences.
 
 You can also do this with a masking file (so you can have sets of things
-you want to ignore):
+you want to ignore). E.g., from the ERG:
 
-e.g. cl-cl\_runon\_c := never\_unify\_rule. (from the ERG)
-
+    cl-cl_runon_c := never_unify_rule.
+    
     never_unify_rule := rule &
       [ SYNSEM.LOCAL.CAT.HEAD no_head & [ MINORS.MIN never_unify_rel,
                                           PRD + ],
@@ -331,5 +330,4 @@ This can lead to confusing edges in the chart, so it can be a good idea
 to turn it off when debugging:
 
      --disable-generalization
-
-Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GrammarPerformance/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -49,5 +49,4 @@ def ParsePredicationName(name):
 
     return result
 ```
-
-Last update: 2022-12-13 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoParsePredication.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

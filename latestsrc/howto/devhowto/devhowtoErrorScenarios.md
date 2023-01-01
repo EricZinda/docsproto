@@ -90,5 +90,4 @@ Now it properly responds with "There isn't a *large* file in the system". Great!
 
 
 Great! It clearly says *why* the system couldn't do it now.
-
-Last update: 2022-12-15 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoErrorScenarios.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
