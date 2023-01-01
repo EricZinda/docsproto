@@ -34,8 +34,8 @@
       {"Section": "DELPH-IN", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
-        {"Page": "Delphin News", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"},
-        {"Page": "Applications", "SrcDir": "docswiki", "SrcFile": "DelphinApplications.md", "Referrer": "home/Home.md"}
+        {"Page": "Applications", "SrcDir": "docswiki", "SrcFile": "DelphinApplications.md", "Referrer": "home/Home.md"},
+        {"Page": "DELPH-IN News", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Projects", "Pages": [
         {"Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
