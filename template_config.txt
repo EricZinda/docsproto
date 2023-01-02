@@ -43,10 +43,13 @@ defaults:
 
 search                   : true
 search_full_content      : true
-search_provider          : google
-google:
-  search_engine_id       : 7761c0bff1e224240
-  instant_search         : false
+search_provider          : lunr
+lunr:
+  search_within_pages: true
+
+# google:
+#   search_engine_id       : 7761c0bff1e224240
+#   instant_search         : false
 
 logo                     : /assets/images/Delph-In.png
 
