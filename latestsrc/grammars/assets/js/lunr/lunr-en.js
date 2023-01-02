@@ -25,7 +25,7 @@ var idx;
 
 function myData(Data)
 {
-    idx = lunr.Index.load(JSON.parse(data))
+    idx = lunr.Index.load(Data)
 }
 
 $(document).ready(function() {

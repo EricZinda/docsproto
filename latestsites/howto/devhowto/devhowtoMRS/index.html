@@ -203,7 +203,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/" class="active">MRS</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/" class="active">Minimal Recursion Semantics</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
           
@@ -319,10 +319,10 @@
         
         <h2 id="the-minimal-recursion-semantics-mrs-format">The Minimal Recursion Semantics (MRS) Format</h2>
 <blockquote>
-  <p>This section provides an <em>overview</em> of the Minimal Recursion Semantics format that is the primary artifact used by DELPH-IN to represent the meaning of a phrase. It should be sufficient for understanding all of the rest of the material in the tutorial.  For a deeper dive into MRS, explore <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">Minimal Recursion Semantics: An Introduction</a>.</p>
+  <p>This section provides an <em>overview</em> of the Minimal Recursion Semantics format which is the primary artifact used by DELPH-IN to represent the meaning of a phrase. It should be sufficient for understanding all of the rest of the material in the tutorial.  For a deeper dive into MRS, explore <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">Minimal Recursion Semantics: An Introduction</a>.</p>
 </blockquote>
 
-<p>The DELPH-IN <a href="http://moin.delph-in.net/ErgTop">English Resource Grammar or “ERG”</a>, <a href="http://sweaglesw.org/linguistics/ace/">via the ACE parser</a>, converts an English phrase into a text format called <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">“Minimal Recursion Semantics” (MRS)</a> that is designed to allow software to process human language. ACE can also be used with any of the <a href="../NorsourceTop">other DELPH-IN grammars</a> to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.</p>
+<p>The DELPH-IN <a href="http://moin.delph-in.net/ErgTop">English Resource Grammar (ERG)</a>, <a href="http://sweaglesw.org/linguistics/ace/">via the ACE parser</a>, converts an English phrase into a text format called <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">“Minimal Recursion Semantics” (MRS)</a> that is designed to allow software to process human language. ACE can also be used with any of the <a href="../NorsourceTop">other DELPH-IN grammars</a> to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.</p>
 
 <p>Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Moreover, each MRS document itself has multiple interpretations. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in the <a href="../devhowtoWhichParseAndTree">next section</a> of the tutorial.</p>
 

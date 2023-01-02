@@ -24,7 +24,7 @@ toc:
     children:
       - title: "Overview"
         url: "/devhowto/devhowtoOverview/"
-      - title: "MRS"
+      - title: "Minimal Recursion Semantics"
         url: "/devhowto/devhowtoMRS/"
       - title: "Well-Formed Trees"
         url: "/devhowto/devhowtoWellFormedTree/"
