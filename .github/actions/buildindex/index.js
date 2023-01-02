@@ -23,6 +23,7 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
         console.log(`Link processed: ${doc.link}`)
         this.add(doc)
       }, this);
+    });
 
     const content = JSON.stringify(idx);
     fs.writeFile(indexFile, content, err => {
