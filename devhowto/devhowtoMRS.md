@@ -100,14 +100,14 @@ RELS: <
 
 Predications are "predicate-logic-like" in that they state a relation or a fact about their arguments that must be true in order for the MRS to be true. The arguments are most often variables and, if you find values for all the variables that make all the predications in the MRS true in a given world, then you have "solved" or "resolved" the MRS. You have figured out (in a sense) the meaning of the sentence. So, predications do the work in an MRS by providing constraints or restrictions on the variables they are passed. 
 
-For example: the predication `_table_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` to be only those which are a 'table'" or, alternatively: "ensure that `x9` contains a 'table'".  Depending on how you ultimately solve the MRS, you might look at these variables as containing sets or individual items. Our approach will iteratively solve the MRS using individual items so we'll be describing things like that in the rest of the tutorial.
+For example: the predication `_table_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` to be only those which are a 'table'" or, alternatively: "ensure that `x9` contains a 'table'".  Depending on how you ultimately solve the MRS, you might look at these variables as containing sets or individual items. Our approach will iteratively solve the MRS using individual items, so we'll be describing predications as restricting to individual items for the rest of the tutorial.
 
-If this predication was followed by a different predication such as `_large_a_1(x9)`, it would mean "also make sure the thing in `x9` is 'large'".  An MRS that contains both like that is saying, "restrict `x9` to be a 'large table' from the world we are talking about".
+If we evaluated a different predication such as `_large_a_1(x9)` immediately afterward, it would mean "also make sure the thing in `x9` is 'large'".  An MRS that contains both predications like that is saying, "restrict `x9` to be a 'large table' from the world we are talking about".
 
-We'll get into the other examples later after we've covered some more basics.
+We'll get into the other examples later after we've covered more basics.
 
 ### Predication Labels
-Each predication has a label in the MRS, indicated by `LBL:`, that serves as an ID or a pointer to it. Note that predications *can* share the same label name. In fact, this is how the MRS indicates they are "in conjunction" (i.e. should be interpreted together using a logical "and", as in the above example).
+Each predication has a label in the MRS, indicated by `LBL:`. The label serves as an ID or a pointer to the predication. Note that predications *can* share the same label. In fact, this is how the MRS indicates they are "in conjunction" (i.e. should be interpreted together using a logical "and", as in the above example).
 
 Look at the labels for the different predications in an MRS for "Look under the *large* table" and note that `_large_a_1` and `_table_n_1` share the same label, indicating they are "in conjunction":
 ~~~
