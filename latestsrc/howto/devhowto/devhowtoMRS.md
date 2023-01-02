@@ -2,13 +2,13 @@
 > This section provides an *overview* of the Minimal Recursion Semantics format which is the primary artifact used by DELPH-IN to represent the meaning of a phrase. It should be sufficient for understanding all of the rest of the material in the tutorial.  For a deeper dive into MRS, explore [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf).
 
 
-The DELPH-IN [English Resource Grammar (ERG)](http://moin.delph-in.net/ErgTop), [via the ACE parser](http://sweaglesw.org/linguistics/ace/), converts an English phrase into a text format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) that is designed to allow software to process human language. ACE can also be used with any of the [other DELPH-IN grammars](../NorsourceTop) to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.
+The DELPH-IN [English Resource Grammar (ERG)](http://moin.delph-in.net/ErgTop), [via the ACE parser](http://sweaglesw.org/linguistics/ace/), converts an English phrase into a text format called the ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) format which is designed to allow software to process human language. ACE can also be used with any of the [other DELPH-IN grammars](../NorsourceTop) to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.
 
-Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Each MRS document encodes one semantic meaning of the phrase into a list of predicate-logic-like predicates (called *predications*).
+Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Each MRS document encodes one high-level meaning of the phrase into a list of predicate-logic-like predicates (called *predications*).
 
-Each MRS document *also* has multiple interpretations. Using constraints that are included as part of each MRS, a set of trees (called *well-formed trees*) can be built from the flat list of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.
+Each MRS document *also* has multiple interpretations. Using constraints that are included as part of the MRS, a set of trees (called *well-formed trees*) can be built from the flat list of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.
 
-So, a given phrase potentially generates `n` MRS documents, each generating `m` well-formed trees, which results in `n x m` possible interpretations of a single phrase. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a [future section](../devhowtoWhichParseAndTree) of the tutorial.
+So, a phrase generates `n` MRS documents, each of those generates `m` well-formed trees, which results in `n x m` possible interpretations of a single phrase. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user (one approach to doing this will be discussed in a [future section](../devhowtoWhichParseAndTree) of the tutorial).
 
 For example, the phrase: "Look under the table." produces 12 different MRS documents (also called "parses" or "interpretations"). These include interpretations that mean: 
 
@@ -71,7 +71,7 @@ RELS: <
 ...
 ```
 
-... and the `HCONS` section tells you the constraints on valid ways to fit the predications together to resolve it into a well-formed tree which represents a single meaning:
+... and the `HCONS` section lists the constraints on putting the predications together to create a well-formed tree which represents a single meaning:
 
 ```
 ... 
