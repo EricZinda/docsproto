@@ -44,7 +44,7 @@ jobs:
         uses: ./main/.github/actions/buildindex # Uses an action in the root directory
         id: buildindex
         with:
-          json-data-file-path: $GITHUB_WORKSPACE/main/latestsrc/index_source.js
+          json-data-file-path: ./main/latestsrc/index_source.js
 
 
       # This repo's wiki
