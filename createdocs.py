@@ -23,6 +23,9 @@ import createblanksite
 
 # Given a link that was in a document but not included in the site definitions (and thus will be broken in the final site),
 # give a proposal for what to include to make it not broken for it and recursively follow *its* links and do the same
+from text_renderer import TextRenderer
+
+
 def propose_link_recursive(input_content_root, proposals, repositories_definitions, sites_definitions, unique_existing_pages, parser, base_referrer, link_to_check):
     # See if the link is a markdown file
     file_name, file_extension = os.path.splitext(link_to_check["TargetFile"])
@@ -81,7 +84,7 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
 # Convert the links in file src_file_path to properly refer to documents in the new site structure
 # Add anything to the file (like "[edit]") that we want to insert as well
 # Finally, actually perform the copy into the new site
-def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, file_definition, src_file_path, dst_file_path):
+def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, index_file, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
 
     # Only mess with markdown files, others are copied as is
@@ -105,6 +108,12 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, fi
             txtFile.write(get_change_text(repositories_definitions, sites_definitions, file_definition, src_file_path))
             txtFile.write("{% endraw %}")
             print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
+
+        with open(index_file, "a") as txtFile:
+            # Also write out the file in a form that can be indexed
+            renderer = TextRenderer()
+            body_text = json.dumps(renderer.render(result))
+            txtFile.write(f", {{\"link\": \"{file_definition['AbsoluteLink']}\", \"body\":{body_text}}}\n")
 
     else:
         shutil.copy2(src_file_path, dst_file_path)
@@ -325,6 +334,10 @@ def add_addresses_for_definitions(root_address, sites_definitions):
 # We do it all at once so we can check for broken links
 def populate_sites_src(sites_definition, root_address, src_root, dst_root):
     parser = Markdown(Parser, MarkdownRenderer)
+    index_file = os.path.join(dst_root, "index_source.js")
+    with open(index_file, "w") as txtFile:
+        txtFile.write("var documents = [{\"body\": \"\"}\n")
+
     add_addresses_for_definitions(root_address, sites_definition["Pages"])
 
     errors = []
@@ -345,7 +358,7 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
         if fileDefinition["Section"] != "<todo>":
             # links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
             try:
-                links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
+                links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Pages"], parser, index_file, fileDefinition, src_file, dst_file)
             except Exception as error:
                 errors.append({"Definition": fileDefinition, "Error": str(error)})
 
@@ -354,6 +367,18 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
             site_relative_link = get_site_relative_page_link(fileDefinition["Site"], fileDefinition["SrcFile"])
             tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
+    with open(index_file, "a") as txtFile:
+        txtFile.write("]\n")
+        txtFile.write("""
+        var idx = lunr(function () {
+          this.ref('link')
+          this.field('body')
+        
+          documents.forEach(function (doc) {
+            this.add(doc)
+          }, this)
+        })
+        """)
     return docs, links, tocs, errors
 
 
