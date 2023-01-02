@@ -14,14 +14,19 @@ function loadJSON(path, success, error) {
   xhr.open('GET', path, true);
   xhr.send();
 }
-
-loadJSON("https://blog.inductorsoftware.com/docsproto/index.json", myData, 'jsonp');
+const indexPath = "https://blog.inductorsoftware.com/docsproto/index.json";
+loadJSON(indexPath, myData, myError);
 
 var idx;
 
 function myData(Data)
 {
     idx = lunr.Index.load(Data)
+}
+
+function myError(Error)
+{
+    console.log(`Error retrieving ${indexPath}: ${Error}`)
 }
 
 $(document).ready(function() {
