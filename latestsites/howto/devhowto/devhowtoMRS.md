@@ -4,11 +4,16 @@
 
 The DELPH-IN [English Resource Grammar (ERG)](http://moin.delph-in.net/ErgTop), [via the ACE parser](http://sweaglesw.org/linguistics/ace/), converts an English phrase into a text format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) that is designed to allow software to process human language. ACE can also be used with any of the [other DELPH-IN grammars](../NorsourceTop) to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.
 
-Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Moreover, each MRS document itself has multiple interpretations. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in the [next section](../devhowtoWhichParseAndTree) of the tutorial.
+Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Moreover, each MRS document itself has multiple interpretations. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a [future section](../devhowtoWhichParseAndTree) of the tutorial.
 
-The MRS document encodes one semantic meaning of the phrase into a set of predicate-logic-like predicates (called predications) and a set of constraints that constrain the valid ways they can be organized into a *well-formed tree*.  The set of well-formed trees define all of the alternative meanings of that MRS.
+Each MRS document encodes one semantic meaning of the phrase into an unordered set of predicate-logic-like predicates (called *predications*). Using constraints that are also a part of the MRS, a set of trees (called *well-formed trees*) can be built from the flat set of predications.  These well-formed trees define all the alternative meanings of that MRS.
 
-For example, the phrase: "Look under the table." produces 12 different MRS documents (also called "parses" or "interpretations"). These include interpretations that mean: "Look (at whatever is) under the table" and "Look (around while you are) under the table" ... among 10 others. 
+For example, the phrase: "Look under the table." produces 12 different MRS documents (also called "parses" or "interpretations"). These include interpretations that mean: 
+
+1. "Look (at whatever is) under the table" 
+2. "Look (around while you are) under the table" 
+
+... among 10 others. 
 
 The MRS document for the first interpretation is:
 ```
@@ -25,7 +30,7 @@ RELS: <
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ```
 
-Using the rules described in the `HCONS` section (which we will [describe later](#constraints)), these are the two well-formed trees that can be built from that MRS, which describe the two alternatives that *it* could mean:
+Using the constraints described in the `HCONS` section (which we will [describe later](#constraints)), these are the two well-formed trees that can be built from that MRS, which describe the two alternatives that *it* could mean:
 
 ```
             ┌────── _table_n_1(x9)
