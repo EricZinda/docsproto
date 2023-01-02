@@ -117,9 +117,9 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, in
                           f"\"url\": \"{file_definition['AbsoluteLink']}\", "
                           f"\"excerpt\":{body_text}, "
                           f"\"title\":\"{file_definition['Page']}\", "
-                          f"\"teaser\":{body_text[0:150]}, "
-                          f"\"categories\":"", "
-                          f"\"tags\":"", "
+                          f"\"teaser\":\"{body_text[1:150]}\", "
+                          f"\"categories\":\"\", "
+                          f"\"tags\":\"\""
                           f"}}\n")
 
     else:
