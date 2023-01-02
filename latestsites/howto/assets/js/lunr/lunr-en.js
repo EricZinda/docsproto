@@ -55,30 +55,17 @@ $(document).ready(function() {
     resultdiv.empty();
     resultdiv.prepend('<p class="results__found">'+result.length+' Result(s) found</p>');
     for (var item in result) {
-      var ref = result[item].ref;
-      if(refToTeaser[ref].teaser){
+        var ref = result[item].ref;
         var searchitem =
           '<div class="list__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+'</a>'+
               '</h2>'+
-              '<div class="archive__item-teaser">'+
-                '<img src="'+refToTeaser[ref].teaser+'" alt="">'+
-              '</div>' + 
+              '<p class="archive__item-excerpt" itemprop="description">'+refToTeaser[ref].teaser+'</p>'+
             '</article>'+
           '</div>';
-      }
-      else{
-    	  var searchitem =
-          '<div class="list__item">'+
-            '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
-              '<h2 class="archive__item-title" itemprop="headline">'+
-                '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+'</a>'+
-              '</h2>' +
-            '</article>'+
-          '</div>';
-      }
+
       resultdiv.append(searchitem);
     }
   });
