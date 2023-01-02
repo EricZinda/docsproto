@@ -17,6 +17,7 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
     var idx = lunr(function () {
         this.field('title')
         this.field('excerpt')
+        this.field('teaser')
         this.field('categories')
         this.field('tags')
         this.ref('url')
