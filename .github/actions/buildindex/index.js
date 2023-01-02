@@ -1,3 +1,5 @@
+// This custom Github Action is designed to pre-build the search index used by the site.
+// It is then loaded by lunr-en.js on the site.
 const core = require('@actions/core');
 const github = require('@actions/github');
 const fs = require("fs");
@@ -51,7 +53,6 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
             console.log(`Done.`)
         }
     });
-
 });
 
 //
