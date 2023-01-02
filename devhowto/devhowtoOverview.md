@@ -1,5 +1,5 @@
 # Overview
-If you are trying to use natural language as an interface to software, the DELPH-IN ecosystem can provide an invaluable tool that takes phrases from [many different languages](NorsourceTop) and converts them into a format called MRS which is designed to be processed by software with high fidelity to the speaker's meaning.
+If you are trying to use natural language as an interface to software, the DELPH-IN ecosystem provides a chain of tools that can help. This tool chain can take phrases from [many different languages](NorsourceTop) and convert them into a format called MRS which is designed to be processed by software with high fidelity to the speaker's meaning.
 
 This tutorial walks through the steps required to build a natural language interface to software using DELPH-IN by building an interface to a computer's file system as an example, but the concepts apply to any type of system. When finished, you should understand how to evaluate natural language using MRS with a surprisingly small amount of code. The bulk of the code in a final system will be in implementing the terms used in your domain.
 
