@@ -113,7 +113,14 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, in
             # Also write out the file in a form that can be indexed
             renderer = TextRenderer()
             body_text = json.dumps(renderer.render(result))
-            txtFile.write(f", {{\"link\": \"{file_definition['AbsoluteLink']}\", \"body\":{body_text}}}\n")
+            txtFile.write(f", {{"
+                          f"\"url\": \"{file_definition['AbsoluteLink']}\", "
+                          f"\"excerpt\":{body_text}, "
+                          f"\"title\":{file_definition['Page']}, "
+                          f"\"teaser\":{body_text[0:150]}, "
+                          f"\"categories\":"", "
+                          f"\"tags\":"", "
+                          f"}}\n")
 
     else:
         shutil.copy2(src_file_path, dst_file_path)

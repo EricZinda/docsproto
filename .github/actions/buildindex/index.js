@@ -16,8 +16,11 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
         const documents = JSON.parse(jsonString);
 
         var idx = lunr(function () {
-            this.ref('link')
-            this.field('body')
+            this.field('title')
+            this.field('excerpt')
+            this.field('categories')
+            this.field('tags')
+            this.ref('url')
 
             documents.forEach(function (doc) {
                 console.log(`Link processed: ${doc.link}`)
