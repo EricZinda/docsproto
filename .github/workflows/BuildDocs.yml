@@ -26,10 +26,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Hello world action step
-          uses: actions/buildindex # Uses an action in the root directory
-          id: buildindex
-          with:
-            who-to-greet: 'Mona the Octocat'
+        uses: ./.github/actions/buildindex # Uses an action in the root directory
+        id: buildindex
+        with:
+          who-to-greet: 'Mona the Octocat'
+
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
