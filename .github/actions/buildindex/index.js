@@ -12,35 +12,31 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
         return;
     }
 
-    try {
-        const documents = JSON.parse(jsonString);
+    const documents = JSON.parse(jsonString);
 
-        var idx = lunr(function () {
-            this.field('title')
-            this.field('excerpt')
-            this.field('categories')
-            this.field('tags')
-            this.ref('url')
+    var idx = lunr(function () {
+        this.field('title')
+        this.field('excerpt')
+        this.field('categories')
+        this.field('tags')
+        this.ref('url')
 
-            documents.forEach(function (doc) {
-                console.log(`Link processed: ${doc.link}`)
-                this.add(doc)
-            }, this);
-        });
+        documents.forEach(function (doc) {
+            console.log(`Link processed: ${doc.link}`)
+            this.add(doc)
+        }, this);
+    });
 
-        console.log(`Serializing index...`)
-        const content = JSON.stringify(idx);
-        fs.writeFile(indexFile, content, err => {
-            if (err) {
-                console.error(err);
-            }
-            else {
-                console.log(`Done.`)
-            }
-        });
-    } catch (err) {
-        console.log("Error parsing JSON string:", err);
-    }
+    console.log(`Serializing index...`)
+    const content = JSON.stringify(idx);
+    fs.writeFile(indexFile, content, err => {
+        if (err) {
+            console.error(err);
+        }
+        else {
+            console.log(`Done.`)
+        }
+    });
 });
 
 //
