@@ -1,22 +1,28 @@
-var idx = lunr(function () {
-  this.field('title')
-  this.field('excerpt')
-  this.field('categories')
-  this.field('tags')
-  this.ref('id')
+// loadJSON method to open the JSON file.
+function loadJSON(path, success, error) {
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      if (xhr.status === 200) {
+        success(JSON.parse(xhr.responseText));
+      }
+      else {
+        error(xhr);
+      }
+    }
+  };
+  xhr.open('GET', path, true);
+  xhr.send();
+}
 
-  this.pipeline.remove(lunr.trimmer)
+loadJSON("https://blog.inductorsoftware.com/docsproto/index.json", myData, 'jsonp');
 
-  for (var item in store) {
-    this.add({
-      title: store[item].title,
-      excerpt: store[item].excerpt,
-      categories: store[item].categories,
-      tags: store[item].tags,
-      id: item
-    })
-  }
-});
+var idx;
+
+function myData(Data)
+{
+    idx = lunr.Index.load(JSON.parse(data))
+}
 
 $(document).ready(function() {
   $('input#search').on('keyup', function () {
