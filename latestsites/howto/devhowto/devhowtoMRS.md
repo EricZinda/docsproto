@@ -125,13 +125,13 @@ RELS: < [ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: 
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ```
 
-These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section on [scopal arguments](#h-handle-variables-aka-scopal-arguments) gives an overview of how this works. The [next section](../devhowtoWellFormedTree) describes it in detail.
+These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section below on [scopal arguments](#h-handle-variables-aka-scopal-arguments) gives an overview of how this works. The [Well-Formed Trees topic](../devhowtoWellFormedTree) describes it in detail.
 
 ### Predication Names
 The name of a predication, for example, `_table_n_1`, encodes important information about it:
 - The "lemma" or root word (this is the first word you see): "table"
 - Whether it was actually seen in the text (starts with `_`) or added abstractly by the system (no initial `_`)
-- Its part of speech. `_table_n_1` means "table" is a "noun". `_the_q` means "the" is a "quantifier" (quantifiers are [described below](../quantifier-predications))
+- Its part of speech. The `_n_` in `_table_n_1` means "table" is a "noun". The `_q` in `_the_q` means "the" is a "quantifier" (quantifiers are [described below](../quantifier-predications))
 - It may have extras at the end like `_1` to indicate which "variant" or synonym of the word it represents
 
 There is some documentation for the predicates, especially unusual ones (found by doing a search of the [ERG site](http://moin.delph-in.net/ErgSemantics)), but their meaning mostly has to be determined by looking at the MRS and intuiting what they are trying to do using your knowledge of the language (or [posting on the message boards](https://delphinqa.ling.washington.edu/)  if it isn't clear).  

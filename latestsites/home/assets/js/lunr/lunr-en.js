@@ -1,3 +1,7 @@
+// This replaces the default lunr indexing logic by using the same filename as the template uses
+// It needs to be replaced because we can pregenerate the index and vastly improve the speed. But,
+// in pregenerating we need to change the logic for how the file gets loaded.
+
 // loadJSON method to open the JSON file.
 function loadJSON(path, success, error) {
   var xhr = new XMLHttpRequest();

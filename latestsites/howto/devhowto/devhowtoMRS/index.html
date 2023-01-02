@@ -441,14 +441,14 @@ RELS: &lt; [ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BOD
 HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 </code></pre></div></div>
 
-<p>These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section on <a href="#h-handle-variables-aka-scopal-arguments">scopal arguments</a> gives an overview of how this works. The <a href="../devhowtoWellFormedTree">next section</a> describes it in detail.</p>
+<p>These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section below on <a href="#h-handle-variables-aka-scopal-arguments">scopal arguments</a> gives an overview of how this works. The <a href="../devhowtoWellFormedTree">Well-Formed Trees topic</a> describes it in detail.</p>
 
 <h3 id="predication-names">Predication Names</h3>
 <p>The name of a predication, for example, <code class="language-plaintext highlighter-rouge">_table_n_1</code>, encodes important information about it:</p>
 <ul>
   <li>The “lemma” or root word (this is the first word you see): “table”</li>
   <li>Whether it was actually seen in the text (starts with <code class="language-plaintext highlighter-rouge">_</code>) or added abstractly by the system (no initial <code class="language-plaintext highlighter-rouge">_</code>)</li>
-  <li>Its part of speech. <code class="language-plaintext highlighter-rouge">_table_n_1</code> means “table” is a “noun”. <code class="language-plaintext highlighter-rouge">_the_q</code> means “the” is a “quantifier” (quantifiers are <a href="../quantifier-predications">described below</a>)</li>
+  <li>Its part of speech. The <code class="language-plaintext highlighter-rouge">_n_</code> in <code class="language-plaintext highlighter-rouge">_table_n_1</code> means “table” is a “noun”. The <code class="language-plaintext highlighter-rouge">_q</code> in <code class="language-plaintext highlighter-rouge">_the_q</code> means “the” is a “quantifier” (quantifiers are <a href="../quantifier-predications">described below</a>)</li>
   <li>It may have extras at the end like <code class="language-plaintext highlighter-rouge">_1</code> to indicate which “variant” or synonym of the word it represents</li>
 </ul>
 
