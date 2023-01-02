@@ -3,9 +3,9 @@
 
 The DELPH-IN [English Resource Grammar (ERG)](http://moin.delph-in.net/ErgTop), [via the ACE parser](http://sweaglesw.org/linguistics/ace/), converts an English phrase into a text format called ["Minimal Recursion Semantics" (MRS)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) that is designed to allow software to process human language. ACE can also be used with any of the [other DELPH-IN grammars](NorsourceTop) to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.
 
-Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Each MRS document encodes one semantic meaning of the phrase into an unordered set of predicate-logic-like predicates (called *predications*).
+Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Each MRS document encodes one semantic meaning of the phrase into a set of predicate-logic-like predicates (called *predications*).
 
-Each MRS document also has multiple interpretations. Using constraints that are included as part of the MRS, a set of trees (called *well-formed trees*) can be built from the flat set of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.
+Each MRS document *also* has multiple interpretations. Using constraints that are included as part of each MRS, a set of trees (called *well-formed trees*) can be built from the flat set of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.
 
 So, a given phrase potentially generates `n` MRS documents, each generating `m` well-formed trees, which results in `n x m` possible interpretations of a single phrase. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a [future section](devhowtoWhichParseAndTree) of the tutorial.
 
