@@ -42,8 +42,8 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
     });
 
     console.log(`Serializing refToTeaserMap...`)
-    const content = JSON.stringify(refToTeaserMap);
-    fs.writeFile(indexFile, content, err => {
+    const refToTeaserMapContent = JSON.stringify(refToTeaserMap);
+    fs.writeFile(refToTeaserMapFile, refToTeaserMapContent, err => {
         if (err) {
             console.error(err);
         }

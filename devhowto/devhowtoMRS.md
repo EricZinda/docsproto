@@ -70,7 +70,7 @@ RELS: <
 ...
 ~~~
 
-... and the `HCONS` section tells you the constraints on valid ways to fit the predications together to resolve it into a well-formed tree which represents a single meaning:
+... and the `HCONS` section lists the constraints on putting the predications together to create a well-formed tree which represents a single meaning:
 
 ~~~
 ... 
