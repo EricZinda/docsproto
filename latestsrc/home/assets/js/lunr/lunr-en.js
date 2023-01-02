@@ -22,7 +22,6 @@ const indexPath = "https://blog.inductorsoftware.com/docsproto/index.json";
 loadJSON(indexPath, myData, myError);
 
 var idx;
-
 function myData(Data)
 {
     idx = lunr.Index.load(Data)
@@ -31,6 +30,14 @@ function myData(Data)
 function myError(Error)
 {
     console.log(`Error retrieving ${indexPath}: ${Error}`)
+}
+
+const refToTeaserPath = "https://blog.inductorsoftware.com/docsproto/refToTeaser.json";
+loadJSON(refToTeaserPath, refToTeaserData, myError);
+var refToTeaser;
+function refToTeaserData(Data)
+{
+    refToTeaser = Data
 }
 
 $(document).ready(function() {
@@ -53,17 +60,16 @@ $(document).ready(function() {
     resultdiv.prepend('<p class="results__found">'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
     for (var item in result) {
       var ref = result[item].ref;
-      if(store[ref].teaser){
+      if(refToTeaser[ref].teaser){
         var searchitem =
           '<div class="list__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
-                '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+                '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+'</a>'+
               '</h2>'+
               '<div class="archive__item-teaser">'+
-                '<img src="'+store[ref].teaser+'" alt="">'+
-              '</div>'+
-              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+                '<img src="'+refToTeaser[ref].teaser+'" alt="">'+
+              '</div>'
             '</article>'+
           '</div>';
       }
@@ -72,9 +78,8 @@ $(document).ready(function() {
           '<div class="list__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
-                '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
-              '</h2>'+
-              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+                '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+'</a>'+
+              '</h2>'
             '</article>'+
           '</div>';
       }
