@@ -99,9 +99,9 @@ RELS: <
 ...
 ```
 
-Predications are "predicate-logic-like" in that they state a relation or a fact about their arguments that must be true in order for the MRS to be true. If you find values for all the variables that make all of the predications in the MRS true in a given world, then you have "solved" or "resolved" the MRS and you have (in a sense) the meaning of the sentence. So, predications are what do the work in an MRS by providing constraints or restrictions on the variables they are passed. 
+Predications are "predicate-logic-like" in that they state a relation or a fact about their arguments that must be true in order for the MRS to be true. The arguments are most often variables and, if you find values for all the variables that make all the predications in the MRS true in a given world, then you have "solved" or "resolved" the MRS. You have figured out (in a sense) the meaning of the sentence. So, predications do the work in an MRS by providing constraints or restrictions on the variables they are passed. 
 
-For example: the predication `_table_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` to be only those which are a 'table'" or, alternatively: "ensure that `x9` contains a 'table'".  Depending on how you are ultimately solving the MRS, you might look at these variables as containing sets or individual items. Our approach will iterately solve the MRS using individual items so we'll be describing things like that in the rest of the tutorial.
+For example: the predication `_table_n_1(x9)` in the example above is saying "restrict the set of things in the variable `x9` to be only those which are a 'table'" or, alternatively: "ensure that `x9` contains a 'table'".  Depending on how you ultimately solve the MRS, you might look at these variables as containing sets or individual items. Our approach will iteratively solve the MRS using individual items so we'll be describing things like that in the rest of the tutorial.
 
 If this predication was followed by a different predication such as `_large_a_1(x9)`, it would mean "also make sure the thing in `x9` is 'large'".  An MRS that contains both like that is saying, "restrict `x9` to be a 'large table' from the world we are talking about".
 

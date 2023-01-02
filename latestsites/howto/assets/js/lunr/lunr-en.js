@@ -65,7 +65,7 @@ $(document).ready(function() {
               '</h2>'+
               '<div class="archive__item-teaser">'+
                 '<img src="'+refToTeaser[ref].teaser+'" alt="">'+
-              '</div>'
+              '</div>' + 
             '</article>'+
           '</div>';
       }
@@ -75,7 +75,7 @@ $(document).ready(function() {
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+'</a>'+
-              '</h2>'
+              '</h2>' +
             '</article>'+
           '</div>';
       }
