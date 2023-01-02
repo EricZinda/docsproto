@@ -40,15 +40,11 @@ jobs:
           fetch-depth: 0
 
 
-      - name: Hello world action step
+      - name: Build Search Index
         uses: ./main/.github/actions/buildindex # Uses an action in the root directory
         id: buildindex
         with:
-          who-to-greet: 'Mona the Octocat'
-
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          json-data-file-path: $GITHUB_WORKSPACE/main/latestsrc/index_source.js
 
 
       # This repo's wiki

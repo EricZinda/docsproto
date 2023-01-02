@@ -336,7 +336,7 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
     parser = Markdown(Parser, MarkdownRenderer)
     index_file = os.path.join(dst_root, "index_source.js")
     with open(index_file, "w") as txtFile:
-        txtFile.write("var documents = [{\"body\": \"\"}\n")
+        txtFile.write("[{\"body\": \"\"}\n")
 
     add_addresses_for_definitions(root_address, sites_definition["Pages"])
 
@@ -369,16 +369,6 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
 
     with open(index_file, "a") as txtFile:
         txtFile.write("]\n")
-        txtFile.write("""
-        var idx = lunr(function () {
-          this.ref('link')
-          this.field('body')
-        
-          documents.forEach(function (doc) {
-            this.add(doc)
-          }, this)
-        })
-        """)
     return docs, links, tocs, errors
 
 
