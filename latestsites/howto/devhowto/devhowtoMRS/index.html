@@ -324,9 +324,9 @@
 
 <p>The DELPH-IN <a href="http://moin.delph-in.net/ErgTop">English Resource Grammar (ERG)</a>, <a href="http://sweaglesw.org/linguistics/ace/">via the ACE parser</a>, converts an English phrase into a text format called <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">“Minimal Recursion Semantics” (MRS)</a> that is designed to allow software to process human language. ACE can also be used with any of the <a href="../NorsourceTop">other DELPH-IN grammars</a> to convert other natural languages into the MRS format. While the examples below use English, the concepts apply across the DELPH-IN grammars.</p>
 
-<p>Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Each MRS document encodes one semantic meaning of the phrase into a set of predicate-logic-like predicates (called <em>predications</em>).</p>
+<p>Because language is ambiguous, most phrases parse into more than one MRS document, each representing a different interpretation of the phrase. Each MRS document encodes one semantic meaning of the phrase into a list of predicate-logic-like predicates (called <em>predications</em>).</p>
 
-<p>Each MRS document <em>also</em> has multiple interpretations. Using constraints that are included as part of each MRS, a set of trees (called <em>well-formed trees</em>) can be built from the flat set of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.</p>
+<p>Each MRS document <em>also</em> has multiple interpretations. Using constraints that are included as part of each MRS, a set of trees (called <em>well-formed trees</em>) can be built from the flat list of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.</p>
 
 <p>So, a given phrase potentially generates <code class="language-plaintext highlighter-rouge">n</code> MRS documents, each generating <code class="language-plaintext highlighter-rouge">m</code> well-formed trees, which results in <code class="language-plaintext highlighter-rouge">n x m</code> possible interpretations of a single phrase. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user. One approach to doing this will be discussed in a <a href="../devhowtoWhichParseAndTree">future section</a> of the tutorial.</p>
 
@@ -353,7 +353,7 @@ RELS: &lt;
 HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 </code></pre></div></div>
 
-<p>Using the constraints described in the <code class="language-plaintext highlighter-rouge">HCONS</code> section (which we will <a href="#constraints">describe later</a>), these are the two well-formed trees that can be built from that MRS, which describe the two alternatives that <em>it</em> could mean:</p>
+<p>Using the constraints described in the <code class="language-plaintext highlighter-rouge">HCONS</code> section (which we will <a href="#constraints">describe later</a>), there are two well-formed trees that can be built from that MRS, which describe the two alternatives that <em>it</em> could mean:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>            ┌────── _table_n_1(x9)
 _the_q(x9,RSTR,BODY)               ┌────── pron(x3)
@@ -400,7 +400,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 <p>The MRS is underspecified, and the <code class="language-plaintext highlighter-rouge">RELS</code> together with the <code class="language-plaintext highlighter-rouge">HCONS</code> provide the information to make it specific and recover the various possible meanings.</p>
 
 <h2 id="predications">Predications</h2>
-<p>A phrase is converted into a set of predicate-logic like predications in the MRS which you can see in the <code class="language-plaintext highlighter-rouge">RELS</code> section of the MRS for “Look under the table”:</p>
+<p>A phrase is converted into a list of predicate-logic like predications in the MRS which you can see in the <code class="language-plaintext highlighter-rouge">RELS</code> section of the MRS for “Look under the table”:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
 
