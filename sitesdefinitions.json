@@ -52,7 +52,7 @@
       ]},
       {"Section": "Developer Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoOverview.md"},
-        {"Page": "MRS", "SrcDir": "main", "SrcFile": "devhowto/devhowtoMRS.md"},
+        {"Page": "Minimal Recursion Semantics", "SrcDir": "main", "SrcFile": "devhowto/devhowtoMRS.md"},
         {"Page": "Well-Formed Trees", "SrcDir": "main", "SrcFile": "devhowto/devhowtoWellFormedTree.md"},
         {"Page": "The Predication Contract", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPredicationContract.md"},
         {"Page": "Python Primer and State", "SrcDir": "main", "SrcFile": "devhowto/devhowtoPyhonBasics.md"},
