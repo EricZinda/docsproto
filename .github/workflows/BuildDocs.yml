@@ -45,6 +45,7 @@ jobs:
         id: buildindex
         with:
           json-data-file-path: ./main/latestsrc/index_source.js
+          index-file-path: ./main/latestsites/index.json
 
 
       # This repo's wiki

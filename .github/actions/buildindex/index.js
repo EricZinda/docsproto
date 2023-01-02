@@ -4,6 +4,7 @@ const fs = require("fs");
 const lunr = require('lunr')
 
 const pathToFile = core.getInput('json-data-file-path');
+const indexFile = core.getInput('index-file-path');
 
 fs.readFile(pathToFile, "utf8", (err, jsonString) => {
   if (err) {
@@ -21,8 +22,15 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
       documents.forEach(function (doc) {
         console.log(`Link processed: ${doc.link}`)
         this.add(doc)
-      }, this)
-    })
+      }, this);
+
+    const content = JSON.stringify(idx);
+    fs.writeFile(indexFile, content, err => {
+      if (err) {
+        console.error(err);
+      }
+      // file written successfully
+    });
 
   } catch (err) {
     console.log("Error parsing JSON string:", err);

@@ -4,6 +4,9 @@ inputs:
   json-data-file-path:
     description: 'Path to json file that represents the data to index'
     required: true
+  index-file-path:
+    description: 'Path to where the index should be stored'
+    required: true
 
 outputs:
   time: # id of output
