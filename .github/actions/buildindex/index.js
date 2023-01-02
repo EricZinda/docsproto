@@ -7,35 +7,37 @@ const pathToFile = core.getInput('json-data-file-path');
 const indexFile = core.getInput('index-file-path');
 
 fs.readFile(pathToFile, "utf8", (err, jsonString) => {
-  if (err) {
-    console.log("Error reading file from disk:", err);
-    return;
-  }
+    if (err) {
+        console.log("Error reading file from disk:", err);
+        return;
+    }
 
-  try {
-    const documents = JSON.parse(jsonString);
+    try {
+        const documents = JSON.parse(jsonString);
 
-    var idx = lunr(function () {
-      this.ref('link')
-      this.field('body')
+        var idx = lunr(function () {
+            this.ref('link')
+            this.field('body')
 
-      documents.forEach(function (doc) {
-        console.log(`Link processed: ${doc.link}`)
-        this.add(doc)
-      }, this);
-    });
+            documents.forEach(function (doc) {
+                console.log(`Link processed: ${doc.link}`)
+                this.add(doc)
+            }, this);
+        });
 
-    const content = JSON.stringify(idx);
-    fs.writeFile(indexFile, content, err => {
-      if (err) {
-        console.error(err);
-      }
-      // file written successfully
-    });
-
-  } catch (err) {
-    console.log("Error parsing JSON string:", err);
-  }
+        console.log(`Serializing index...`)
+        const content = JSON.stringify(idx);
+        fs.writeFile(indexFile, content, err => {
+            if (err) {
+                console.error(err);
+            }
+            else {
+                console.log(`Done.`)
+            }
+        });
+    } catch (err) {
+        console.log("Error parsing JSON string:", err);
+    }
 });
 
 //
