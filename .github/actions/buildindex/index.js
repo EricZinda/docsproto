@@ -5,6 +5,7 @@ const lunr = require('lunr')
 
 const pathToFile = core.getInput('json-data-file-path');
 const indexFile = core.getInput('index-file-path');
+const refToTeaserMapFile = core.getInput('ref-to-teaser-path');
 
 fs.readFile(pathToFile, "utf8", (err, jsonString) => {
     if (err) {
@@ -13,11 +14,11 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
     }
 
     const documents = JSON.parse(jsonString);
+    var refToTeaserMap = {};
 
     var idx = lunr(function () {
         this.field('title')
         this.field('excerpt')
-        this.field('teaser')
         this.field('categories')
         this.field('tags')
         this.ref('url')
@@ -25,6 +26,7 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
         documents.forEach(function (doc) {
             console.log(`Link processed: ${doc.link}`)
             this.add(doc)
+            refToTeaserMap[doc["url"]] = {"title": doc["title"], "teaser": doc["teaser"]}
         }, this);
     });
 
@@ -38,6 +40,18 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
             console.log(`Done.`)
         }
     });
+
+    console.log(`Serializing refToTeaserMap...`)
+    const content = JSON.stringify(refToTeaserMap);
+    fs.writeFile(indexFile, content, err => {
+        if (err) {
+            console.error(err);
+        }
+        else {
+            console.log(`Done.`)
+        }
+    });
+
 });
 
 //

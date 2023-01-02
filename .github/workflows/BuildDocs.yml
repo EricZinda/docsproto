@@ -68,7 +68,7 @@ jobs:
         with:
           json-data-file-path: ./main/latestsrc/index_source.js
           index-file-path: ./main/latestsites/index.json
-
+          ref-to-teaser-path: ./main/latestsites/refToTeaser.json
 
       # Upload any output data so users can get at it
       - uses: actions/upload-artifact@v2

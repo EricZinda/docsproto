@@ -7,6 +7,9 @@ inputs:
   index-file-path:
     description: 'Path to where the index should be stored'
     required: true
+  ref-to-teaser-path:
+    description: 'Path to where the mapping between URLS for documents and the teaser that gets shown in search should be stored'
+    required: true
 
 outputs:
   time: # id of output
