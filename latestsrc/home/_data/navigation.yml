@@ -22,10 +22,10 @@ toc:
         url: "/Home/"
       - title: "Welcome"
         url: "/DelphinWelcome/"
-      - title: "Delphin News"
-        url: "/DelphinNews/"
       - title: "Applications"
         url: "/DelphinApplications/"
+      - title: "DELPH-IN News"
+        url: "/DelphinNews/"
   - title: "Projects"
     children:
       - title: "DeepBank"
