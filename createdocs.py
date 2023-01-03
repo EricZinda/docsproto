@@ -116,9 +116,9 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
             body_text = json.dumps(stripped_result)
             teaser_text = json.dumps(stripped_result[0:150] + " ...")
             site_name = None
-            for item in sites_definitions.items():
-                if item[1]["Site"] == file_definition['Site']:
-                    site_name = item[1]["SiteFullName"]
+            for item in sites_definitions:
+                if item["Site"] == file_definition['Site']:
+                    site_name = item["SiteFullName"]
                     break
 
             txtFile.write(f", {{"
@@ -532,7 +532,6 @@ if __name__ == '__main__':
     #
     # tree_pages = convert_pages_flat_to_tree(sites_definition["Pages"])
     # log_json_tree_to_file("sitesdefinitions1.json", tree_pages)
-
     if len(sys.argv) >= 6 and len(sys.argv) <= 8:
         root_address = sys.argv[1]
         input_content_root = sys.argv[2]
