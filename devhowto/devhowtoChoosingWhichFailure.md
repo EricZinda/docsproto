@@ -70,11 +70,11 @@ Another example: What if the user said, "A file is *very* large"? In solving the
 
 There were 4 failures encountered when solving the MRS for this case. The user would ideally like the error to be something like, "No, there isn't a very large file", which presumably corresponds to the middle two. Which heuristic helps us choose those?
 
-One heuristic that works well in practice is this: If there is a solution for an MRS, don't report any errors. If there is no solution for an MRS, report the error from the "deepest/farthest" failure possible.
+> One heuristic that works well in practice is this: If there is a solution for an MRS, don't report any errors. If there is no solution for an MRS, report the error from the "deepest/farthest" failure possible.
 
 The intuition for why this works is this:
 
-If there *was* a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
+If there *was* a solution, it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn't what they meant (though likely it is), so no failure should be reported. 
 
 If there *wasn't* a solution, the user will want to know why not. The "real" reason is "because the MRS did not have a solution", but that is unsatisfying and no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won't describe the 10 ways they tried that didn't work out. They'll likely list the failure that is "the closest they got to succeeding".  For example:
 

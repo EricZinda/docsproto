@@ -37,10 +37,10 @@ If we can get a description of what `x` is, we can write one error message and h
 We can figure out what the variable `x` has been restricted to "so far" by taking advantage of some things we know:
 
 1. We know how the tree is executed (depth-first)
-2. We know what the predications in the tree are
+2. We know the predications in the tree
 3. We know which predication reported the error 
 
-4. Thus: We know *where* the failed predication is in the execution order
+Thus: We know *where* the failed predication is in the execution order
 
 So, in the scope-resolved tree for "a dog is large":
 
@@ -54,7 +54,7 @@ _a_q(x3,RSTR,BODY)
 
 To do this, let's create a function, `EnglishForDelphinVariable()`, which takes:
 
-1) The `variable` we want English 
+1) The `variable` we want an English representation of 
 2) The MRS
 3) The place in the tree for which we want the English
 

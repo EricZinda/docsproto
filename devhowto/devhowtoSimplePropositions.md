@@ -1,5 +1,5 @@
 ## Responding to Simple Propositions
-"Propositions" are sentences that declare something to be true like "A file is very large". If true, a human would expect something like "yep, you are right" or "correct!" or "yes, this is true" as a response (error cases will be [handled later](devhowtoChoosingWhichFailure)). A phrase is a proposition if the "sentence force" (SF) property of its index variable is `prop` as [described in the previous section](devhowtoSentenceForce).
+"Propositions" are sentences that declare something to be true like "A file is very large". If true, a human would expect something like "yep, you are right" or "correct!" or "yes, this is true" as a response (error cases will be [handled later](devhowtoChoosingWhichFailure)). A phrase is a proposition if the "sentence force" (SF) property of its MRS `index` variable is `prop` as [described in the previous section](devhowtoSentenceForce).
 
 Below is the MRS for "A file is very large". As described in the [previous section](devhowtoSentenceForce): The `INDEX = e2`, and `e2` has a sentence force of "proposition": `SF: prop`.
 ~~~
@@ -19,15 +19,15 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
                         └ _large_a_1(e2,x3)
 ~~~
 
-In order to start responding to user phrases properly, we need to begin passing in more information from the MRS, not just the predications.  We'll need the variable properties and the `INDEX`. We'll do this using a dictionary. In fact, we can make it easier to read using the Python `json` format. The `json` format is basically a way of building up an object out of base types (strings, integers, etc), lists and dictionaries, in a big tree. 
+In order to start responding to user phrases properly, we need to begin passing in more information from the MRS, not just the predications.  We'll need the variable properties and the `INDEX`. We'll do this using a dictionary. In fact, we can make it easier to read using the Python `json` format. The `json` format is basically a way of building up an object out of base types (strings, integers, etc) and lists and dictionaries, in a big tree. 
 
 In a `json` declaration:
-- Dictionaries are in `{}` with key/value pairs represented by `"key":"value"`
-- Lists are in `[]`, with items in the list separated by `,`
+- Dictionaries are surrounded by `{}` with key/value pairs represented by `"key":"value"`
+- Lists are surrounded by `[]`, with items in the list separated by `,`
 - Strings are surrounded by `""`
 - Numbers are just bare
 
-Note that a `list` can contain `dicts`, `dicts` can have lists as the value of a key value pair, etc.
+Note that a `list` can contain `dicts`, `dicts` can have `lists` as the value of a key value pair, etc.
 
 As always, you can set the key of a `dict` using the syntax `dict["key"] = <value>`. 
 
