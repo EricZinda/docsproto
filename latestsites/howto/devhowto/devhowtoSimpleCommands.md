@@ -28,13 +28,13 @@ The sentence force for this sentence is `SF: comm` meaning "command", determined
 ### Pronouns: pron and pronoun_q
 The first two new predicates we encounter are: `pron(x3)` and `pronoun_q(x3,RSTR,BODY)` and they often work together as they do here. 
 
-`pron(x)` needs to fill `x` with an object that represents what the specified pronoun is *referring to*. It does this by looking at the properties for the `x` variable to determine if the pronoun is "you" (`PERS: 2` -- second person), "him/her"(`PERS: 3` -- third person), etc. and sets the variable to be whatever the pronoun is referring to. 
+`pron(x)` needs to fill `x` with an object that represents what the specified pronoun is *referring to*. It does this by looking at the [properties](../devhowtoMRS#variable-properties) for the `x` variable to determine if the pronoun is "you" (`PERS: 2` -- second person), "him/her"(`PERS: 3` -- third person), etc. and sets the variable to be whatever the pronoun is referring to. 
 
-There were not any pronouns in our command "delete a large file", so where did it come from? In this case, the pronoun is an *implied* "you" since it is a command. I.e "(You) delete a large file".  Because we are not including the notion of other people in the file system, the only pronouns we probably care to understand are "you" ("can you delete the file?" or the implied case above) and maybe "I" ("I want to delete a file"). For now, let's just do "you" and fail otherwise. 
+There were not any pronouns in our command "delete a large file", so where did the `pron` predication come from? In this case, the pronoun is an *implied* "you" since it is a command. I.e "(You) delete a large file".  Because we are not including the notion of other people in the file system, the only pronouns we probably care to understand are "you" ("can you delete the file?" or the implied case above) and maybe "I" ("I want to delete a file"). For now, let's just do "you" and fail otherwise. 
 
-`pronoun_q` is just a simple, default quantifier predication that doesn't *do* anything except introduce the variable that `pron` uses. It acts just like `which_q` did in the [Simple Questions section](../devhowtoSimpleQuestions).
+`pronoun_q` is just a simple, default quantifier predication that doesn't *do* anything except introduce the variable that `pron` uses. It acts just like `which_q` did in the [Simple Questions topic  ](../devhowtoSimpleQuestions).
 
-To implement these, we'll need to create a new class to represent "actors" in the system, and then create an instance of it that represents the computer by adding it to the `State`. We'll say that "the computer" is who should be returned when the user says "You" (second person) by setting the `Actor` object's `person` property to `2`. `Example7()` the `State` and the MRS object with these new concepts added:
+To implement these, we'll need to create a new class to represent "actors" in the system, and then create an instance of it that represents the computer by adding it to the `State` object. We'll say that "the computer" is who should be returned when the user says "You" (second person) by setting the `Actor` object's `person` property to `2`. `Example7()` has the `State` object and the MRS object with these new concepts added:
 
 ```
 # Represents something that can "do" things, like a computer
@@ -155,6 +155,9 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
 ```
 `delete_v_1` first checks to make sure the actor is "Computer". That's because the user could have said "Bill deletes a file" and we'd prefer the system to say "I don't know who Bill is" than to just delete the file. We should only delete the file when *the computer* is told to delete it. 
 
+> TODO: Need to implement the full predication contract for the verb
+
+
 Then, we use our new `ApplyOperations()` method to do the deleting and return the new state object with the object gone.
 
 Finally, we need to add a new clause to `RespondToMRS()` to handle *commands*. It will simply say "Done!" if the command worked. It will also collect up all of the operations that happened and apply them to a single state object. This isn't really necessary for this example since we are only deleting one file, but is necessary for phrases like "delete every file":
@@ -265,4 +268,5 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
         if isinstance(x_what_value, (File, Folder)):
             yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-02 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoSimpleCommands.md)]{% endraw %}

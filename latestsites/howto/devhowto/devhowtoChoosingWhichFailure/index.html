@@ -400,11 +400,13 @@ a dog
 
 <p>There were 4 failures encountered when solving the MRS for this case. The user would ideally like the error to be something like, “No, there isn’t a very large file”, which presumably corresponds to the middle two. Which heuristic helps us choose those?</p>
 
-<p>One heuristic that works well in practice is this: If there is a solution for an MRS, don’t report any errors. If there is no solution for an MRS, report the error from the “deepest/farthest” failure possible.</p>
+<blockquote>
+  <p>One heuristic that works well in practice is this: If there is a solution for an MRS, don’t report any errors. If there is no solution for an MRS, report the error from the “deepest/farthest” failure possible.</p>
+</blockquote>
 
 <p>The intuition for why this works is this:</p>
 
-<p>If there <em>was</em> a solution: it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn’t what they meant (though likely it is), so no failure should be reported.</p>
+<p>If there <em>was</em> a solution, it means that there was a way to make the phrase work logically in the world. Presumably, it will make sense to the user too, even if it isn’t what they meant (though likely it is), so no failure should be reported.</p>
 
 <p>If there <em>wasn’t</em> a solution, the user will want to know why not. The “real” reason is “because the MRS did not have a solution”, but that is unsatisfying and no human would respond with that. A human would respond with where they got blocked attempting to do what the user asked. Furthermore, even if the human tried, or thought about, 10 different approaches to performing the request, they usually won’t describe the 10 ways they tried that didn’t work out. They’ll likely list the failure that is “the closest they got to succeeding”.  For example:</p>
 
@@ -496,8 +498,8 @@ def ReportError(error):
 </code></pre></div></div>
 
 <p>The system will now remember which is the right (“deepest”) error to report. The <a href="../devhowtoReportingAFailure">next section</a> will describe what they should say. This is not as obvious as it might seem.</p>
-<update date="" omitted="" for="" speed="">
-</update>
+
+<p>Last update: 2023-01-02 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoChoosingWhichFailure.md">edit</a>]</p>
 
         
       </section>

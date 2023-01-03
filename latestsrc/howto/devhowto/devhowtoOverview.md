@@ -8,4 +8,5 @@ We will use the [English Resource Grammar (ERG)](../ErgTop) from DELPH-IN to par
 Python was chosen as a simple, popular, open-source language available on many platforms. However, the examples and approach shown here could be implemented in any language. There is not much code in the core solver and associated helper functions that would need to be translated. The overwhelming majority of code will be in the implementation of the terms you implement for your own domain.
 
 The tutorial was designed to be read in order, but the most important background for all of the sections is in the first two sections, [The Minimal Recursion Semantics (MRS) Format](../devhowtoMRS) and [Building Well-Formed MRS Trees](../devhowtoWellFormedTree), which should be read in order. 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-02 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoOverview.md)]{% endraw %}

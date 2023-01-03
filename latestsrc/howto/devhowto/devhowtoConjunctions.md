@@ -107,4 +107,5 @@ def Example3():
 ```
 
 Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments [in the next topic](../devhowtoScopalArguments), we'll be able to handle full well-formed trees.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-02 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoConjunctions.md)]{% endraw %}

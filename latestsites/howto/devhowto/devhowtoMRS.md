@@ -408,4 +408,5 @@ _the_q(x3,RSTR,BODY)
 More information on `INDEX` is described in the section on [sentence force](../devhowtoSentenceForce).
 
 The [next topic](../devhowtoWellFormedTree) walks through the rules of creating "well-formed MRS trees", and is the last big chunk of conceptual background needed before we start building the system.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-02 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/devhowto/devhowtoMRS.md)]{% endraw %}
