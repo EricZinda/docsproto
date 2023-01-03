@@ -396,7 +396,7 @@ class State(object):
         self.variables = dict()  # an empty dictionary
 
         # "objects" are passed to us as an argument
-        # by whoever creates and instance of the class
+        # by whoever creates an instance of the class
         self.objects = objects
 
 
@@ -408,7 +408,7 @@ class State(object):
     def GetVariable(self, variable_name):
         # "get()" is one way to access a value in a dictionary.
         # The second argument, "None", is what to return if the
-        # key doesn't exist.  "None" is a built in value in Python
+        # key doesn't exist.  "None" is a built-in value in Python
         # like "null"
         return self.variables.get(variable_name, None)
 
@@ -421,12 +421,13 @@ class State(object):
         new_state = copy.deepcopy(self)
 
         # Now we have a new "State" object with the same
-        # world state that we can modify
+        # world state that we can modify.
+        
         # Dictionaries hold name/value pairs.
         # This is how you assign values to keys in dictionaries
         new_state.variables[variable_name] = item
 
-        # return returns to the caller the new state with
+        # "return" returns to the caller the new state with
         # that one variable set to a new value
         return new_state
 
@@ -444,7 +445,7 @@ class State(object):
 
 <p>Objects in the world can just be Python objects, although there are many other ways to represent them (the <a href="../devhowtoPredicationContract">predication contract</a> doesn’t care).</p>
 
-<p>Because we will be copying the <code class="language-plaintext highlighter-rouge">State</code> object when changes are made, we will need some way to identify that, for example, the “foo” folder in one <code class="language-plaintext highlighter-rouge">State</code> object is the same “foo” folder in another <code class="language-plaintext highlighter-rouge">State</code> object. To do this, we’ll give each object in our state a unique ID by creating a base class called <code class="language-plaintext highlighter-rouge">UniqueObject</code>. It will create a member variable called <code class="language-plaintext highlighter-rouge">unique_id</code> with a UUID (a globally unique number) in it. Then, we’ll derive all of the objects in the system from it. That way, objects will have a unique ID that follows them even if they are copied.</p>
+<p>Because we will be copying the <code class="language-plaintext highlighter-rouge">State</code> object when changes are made, we will need some way to identify that, for example, the <code class="language-plaintext highlighter-rouge">foo</code> folder in one <code class="language-plaintext highlighter-rouge">State</code> object is the same <code class="language-plaintext highlighter-rouge">foo</code> folder in another <code class="language-plaintext highlighter-rouge">State</code> object. To do this, we’ll give each object a unique ID by creating a base class called <code class="language-plaintext highlighter-rouge">UniqueObject</code>. It will create a member variable called <code class="language-plaintext highlighter-rouge">unique_id</code> with a UUID (a globally unique number) in it. Then, we’ll derive all the objects in the system from it. That way, objects will always have a unique ID that follows them even if they are copied.</p>
 
 <p>Here’s how we’ll create classes for each “type of thing” in our file system world:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class UniqueObject(object):
@@ -476,7 +477,7 @@ class File(UniqueObject):
                File(name="file2.txt")])
 </code></pre></div></div>
 
-<p>Note that an instance of the <code class="language-plaintext highlighter-rouge">State</code> object is created by calling it like a function. This really calls the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">State</code>, and passes the supplied argument (a list) to <code class="language-plaintext highlighter-rouge">__init__</code>. Each object in the list is created just like <code class="language-plaintext highlighter-rouge">State</code> was: by calling it as a function. Note that arguments can be named like <code class="language-plaintext highlighter-rouge">name="Documents"</code> to clarify what is going on.</p>
+<p>Note that an instance of the <code class="language-plaintext highlighter-rouge">State</code> object is created by calling it like a function. This really calls the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">State</code> and passes the supplied argument (a list) to <code class="language-plaintext highlighter-rouge">__init__</code>. Each object in the list is created just like <code class="language-plaintext highlighter-rouge">State</code> was: by calling it as a function. Note that arguments can be named like <code class="language-plaintext highlighter-rouge">name="Documents"</code> to clarify what is going on.</p>
 
 <p>Now you’ve seen some of the basic Python you’ll see throughout the tutorial and we’ve defined the core <code class="language-plaintext highlighter-rouge">State</code> class we’ll use in our predications.  Next, we’ll <a href="../devhowtoImplementPredication">implement a predication</a>.</p>
 <update date="" omitted="" for="" speed="">

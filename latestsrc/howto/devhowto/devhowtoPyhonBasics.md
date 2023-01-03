@@ -80,7 +80,7 @@ class State(object):
         self.variables = dict()  # an empty dictionary
 
         # "objects" are passed to us as an argument
-        # by whoever creates and instance of the class
+        # by whoever creates an instance of the class
         self.objects = objects
 
 
@@ -92,7 +92,7 @@ class State(object):
     def GetVariable(self, variable_name):
         # "get()" is one way to access a value in a dictionary.
         # The second argument, "None", is what to return if the
-        # key doesn't exist.  "None" is a built in value in Python
+        # key doesn't exist.  "None" is a built-in value in Python
         # like "null"
         return self.variables.get(variable_name, None)
 
@@ -105,12 +105,13 @@ class State(object):
         new_state = copy.deepcopy(self)
 
         # Now we have a new "State" object with the same
-        # world state that we can modify
+        # world state that we can modify.
+        
         # Dictionaries hold name/value pairs.
         # This is how you assign values to keys in dictionaries
         new_state.variables[variable_name] = item
 
-        # return returns to the caller the new state with
+        # "return" returns to the caller the new state with
         # that one variable set to a new value
         return new_state
 
@@ -127,7 +128,7 @@ Note that the `SetX()` method does not actually "set" a value in the `State` obj
 
 Objects in the world can just be Python objects, although there are many other ways to represent them (the [predication contract](../devhowtoPredicationContract) doesn't care). 
 
-Because we will be copying the `State` object when changes are made, we will need some way to identify that, for example, the "foo" folder in one `State` object is the same "foo" folder in another `State` object. To do this, we'll give each object in our state a unique ID by creating a base class called `UniqueObject`. It will create a member variable called `unique_id` with a UUID (a globally unique number) in it. Then, we'll derive all of the objects in the system from it. That way, objects will have a unique ID that follows them even if they are copied. 
+Because we will be copying the `State` object when changes are made, we will need some way to identify that, for example, the `foo` folder in one `State` object is the same `foo` folder in another `State` object. To do this, we'll give each object a unique ID by creating a base class called `UniqueObject`. It will create a member variable called `unique_id` with a UUID (a globally unique number) in it. Then, we'll derive all the objects in the system from it. That way, objects will always have a unique ID that follows them even if they are copied. 
 
 Here's how we'll create classes for each "type of thing" in our file system world:
 ```
@@ -161,7 +162,7 @@ state = State([Folder(name="Desktop"),
                File(name="file2.txt")])
 ```
 
-Note that an instance of the `State` object is created by calling it like a function. This really calls the `__init__` function of `State`, and passes the supplied argument (a list) to `__init__`. Each object in the list is created just like `State` was: by calling it as a function. Note that arguments can be named like `name="Documents"` to clarify what is going on.
+Note that an instance of the `State` object is created by calling it like a function. This really calls the `__init__` function of `State` and passes the supplied argument (a list) to `__init__`. Each object in the list is created just like `State` was: by calling it as a function. Note that arguments can be named like `name="Documents"` to clarify what is going on.
 
 Now you've seen some of the basic Python you'll see throughout the tutorial and we've defined the core `State` class we'll use in our predications.  Next, we'll [implement a predication](../devhowtoImplementPredication).
 <update date omitted for speed>{% endraw %}

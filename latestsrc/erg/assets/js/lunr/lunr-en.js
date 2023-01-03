@@ -67,7 +67,7 @@ $(document).ready(function() {
           '<div class="list__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
-                '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+'</a>'+
+                '<a href="'+ref+'" rel="permalink">'+refToTeaser[ref].title+' (' + refToTeaser[ref].site + '/' + refToTeaser[ref].section + ')''</a>'+
               '</h2>'+
               '<p class="archive__item-excerpt" itemprop="description">'+refToTeaser[ref].teaser+'</p>'+
             '</article>'+
