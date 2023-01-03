@@ -126,8 +126,8 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
                           f"\"excerpt\":{body_text}, "
                           f"\"title\":\"{file_definition['Page']}\", "
                           f"\"teaser\":{teaser_text}, "
-                          f"\"site\":{site_name}, "
-                          f"\"section\":{file_definition['Section']}, "
+                          f"\"site\":\"{site_name}\", "
+                          f"\"section\":\"{file_definition['Section']}\", "
                           f"\"categories\":\"\", "
                           f"\"tags\":\"\""
                           f"}}\n")
