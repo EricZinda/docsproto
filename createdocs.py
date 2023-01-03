@@ -26,7 +26,7 @@ import createblanksite
 from text_renderer import TextRenderer
 
 
-def propose_link_recursive(input_content_root, proposals, repositories_definitions, sites_definitions, unique_existing_pages, parser, base_referrer, link_to_check):
+def propose_link_recursive(input_content_root, proposals, repositories_definitions, pages_definitions, unique_existing_pages, parser, base_referrer, link_to_check):
     # See if the link is a markdown file
     file_name, file_extension = os.path.splitext(link_to_check["TargetFile"])
     if file_extension.lower() == ".md":
@@ -43,12 +43,12 @@ def propose_link_recursive(input_content_root, proposals, repositories_definitio
                 # The link file is a file in the project, scan it
                 with open(link_file_path, "r") as txtFile:
                     result = parser.parse(txtFile.read())
-                    further_links = convert_child(repositories_definitions, sites_definitions, link_file_definition, result)
+                    further_links = convert_child(repositories_definitions, pages_definitions, link_file_definition, result)
                     for further_link in further_links:
                         if further_link["LinkState"] == "relative_broken":
                             # Now check the further links
                             propose_link_recursive(input_content_root, proposals, repositories_definitions,
-                                                   sites_definitions, unique_existing_pages, parser, base_referrer,
+                                                   pages_definitions, unique_existing_pages, parser, base_referrer,
                                                    further_link)
 
             else:
@@ -56,7 +56,7 @@ def propose_link_recursive(input_content_root, proposals, repositories_definitio
                 link_file_definition["FileMissing"] = True
 
 
-def get_change_text(repositories_definitions, sites_definitions, file_definition, src_file_path):
+def get_change_text(repositories_definitions, pages_definitions, file_definition, src_file_path):
     global quickAndDirty
     if quickAndDirty:
         return "<update date omitted for speed>"
@@ -84,7 +84,7 @@ def get_change_text(repositories_definitions, sites_definitions, file_definition
 # Convert the links in file src_file_path to properly refer to documents in the new site structure
 # Add anything to the file (like "[edit]") that we want to insert as well
 # Finally, actually perform the copy into the new site
-def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, index_file, file_definition, src_file_path, dst_file_path):
+def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_definitions, parser, index_file, file_definition, src_file_path, dst_file_path):
     file_name, file_extension = os.path.splitext(src_file_path)
 
     # Only mess with markdown files, others are copied as is
@@ -96,7 +96,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, in
                 raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
 
             # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
-            links = convert_child(repositories_definitions, sites_definitions, file_definition, result)
+            links = convert_child(repositories_definitions, pages_definitions, file_definition, result)
 
         dst_path_only = os.path.dirname(dst_file_path)
         os.makedirs(dst_path_only, exist_ok=True)
@@ -105,7 +105,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, in
             # wrap all markdown with raw/endraw so that Jekyll won't interpret {{ as being a Jekyll liquid expression
             txtFile.write("{% raw %}")
             txtFile.write(final_result)
-            txtFile.write(get_change_text(repositories_definitions, sites_definitions, file_definition, src_file_path))
+            txtFile.write(get_change_text(repositories_definitions, pages_definitions, file_definition, src_file_path))
             txtFile.write("{% endraw %}")
             print(f"copy {file_extension}: {src_file_path} to {dst_file_path}")
 
@@ -115,11 +115,19 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, in
             stripped_result = renderer.render(result)
             body_text = json.dumps(stripped_result)
             teaser_text = json.dumps(stripped_result[0:150] + " ...")
+            site_name = None
+            for item in sites_definitions.items():
+                if item[1]["Site"] == file_definition['Site']:
+                    site_name = item[1]["SiteFullName"]
+                    break
+
             txtFile.write(f", {{"
                           f"\"url\": \"{file_definition['AbsoluteLink']}\", "
                           f"\"excerpt\":{body_text}, "
                           f"\"title\":\"{file_definition['Page']}\", "
                           f"\"teaser\":{teaser_text}, "
+                          f"\"site\":{site_name}, "
+                          f"\"section\":{file_definition['Section']}, "
                           f"\"categories\":\"\", "
                           f"\"tags\":\"\""
                           f"}}\n")
@@ -134,7 +142,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, parser, in
 
 # convert any child node that is a link to have the proper link
 # in the new site structure
-def convert_child(repositories_definitions, sites_definitions, file_definition, node):
+def convert_child(repositories_definitions, pages_definitions, file_definition, node):
     links = []
     if isinstance(node, Link):
         link_data = copy.deepcopy(file_definition)
@@ -145,7 +153,7 @@ def convert_child(repositories_definitions, sites_definitions, file_definition, 
         link_target, _, _ = parse_relative_link(file_definition["SrcFile"], node.dest)
         link_data["LinkTarget"] = link_target
 
-        link_state, message, target_file, node.dest = get_rerouted_link(repositories_definitions, sites_definitions, file_definition, node.dest)
+        link_state, message, target_file, node.dest = get_rerouted_link(repositories_definitions, pages_definitions, file_definition, node.dest)
         link_data["ResolvedLink"] = node.dest
         link_data["TargetFile"] = target_file
         link_data["LinkState"] = link_state
@@ -154,7 +162,7 @@ def convert_child(repositories_definitions, sites_definitions, file_definition, 
 
     elif hasattr(node, "children"):
         for child in node.children:
-            links += convert_child(repositories_definitions, sites_definitions, file_definition, child)
+            links += convert_child(repositories_definitions, pages_definitions, file_definition, child)
 
     return links
 
@@ -221,7 +229,7 @@ def parse_relative_link(SrcFile, link):
 # the link *should be* in the new site layout.
 #
 # Returns: StateOfLink, LinkStateMessage, The file the link is targeting (if any), rerouted link that should be used in new site
-def get_rerouted_link(repositories_definitions, sites_definitions, file_definition, original_link):
+def get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link):
     src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
 
@@ -242,7 +250,7 @@ def get_rerouted_link(repositories_definitions, sites_definitions, file_definiti
         # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
         # which is thus one level too deep
         relative_resolved_link = "../" + path + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
-        for definition in sites_definitions:
+        for definition in pages_definitions:
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
                 # Found it! Now return a relative link if it is in the same site or a full link if not
                 if definition["Site"] == src_site:
@@ -275,7 +283,7 @@ def get_rerouted_link(repositories_definitions, sites_definitions, file_definiti
             # See if it references a wiki topic
             if original_link[0] == "/":
                 # StateOfLink, The file the link is targeting (if any), rerouted link that should be used in new site
-                wiki_link_state, _, wiki_targeted_file, new_link = get_rerouted_link(repositories_definitions, sites_definitions, file_definition, original_link[1:])
+                wiki_link_state, _, wiki_targeted_file, new_link = get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link[1:])
                 if wiki_link_state == "relative_success":
                     return "absolute_broken_but_valid_misformed_wiki_link", result["Message"], wiki_targeted_file, original_link
                 else:
@@ -334,8 +342,8 @@ def add_addresses_for_definition(root_address, definition):
     definition["AbsoluteLink"] = posixpath.join(site_root, file_name)
 
 
-def add_addresses_for_definitions(root_address, sites_definitions):
-    for definition in sites_definitions:
+def add_addresses_for_definitions(root_address, pages_definitions):
+    for definition in pages_definitions:
         add_addresses_for_definition(root_address, definition)
 
 
@@ -367,7 +375,7 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
         if fileDefinition["Section"] != "<todo>":
             # links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
             try:
-                links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Pages"], parser, index_file, fileDefinition, src_file, dst_file)
+                links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Sites"], sites_definition["Pages"], parser, index_file, fileDefinition, src_file, dst_file)
             except Exception as error:
                 errors.append({"Definition": fileDefinition, "Error": str(error)})
 
@@ -406,13 +414,13 @@ def create_tocs(dst_root, tocs):
 
 # Given the full set of links on all pages propose entries to sitedefinitions.json to fix
 # any that are broken
-def propose_broken_links(all_links, sites_definitions, input_content_root, unique_existing_pages):
+def propose_broken_links(all_links, pages_definitions, input_content_root, unique_existing_pages):
     parser = Markdown(Parser, MarkdownRenderer)
     proposals = {}
     for link in all_links:
         if link["LinkState"] == "relative_broken":
             base_referrer = f'{link["Site"]}/{link["SrcFile"]}'
-            propose_link_recursive(input_content_root, proposals, sites_definitions["SourceRepositories"], sites_definitions["Pages"], unique_existing_pages, parser, base_referrer, link)
+            propose_link_recursive(input_content_root, proposals, pages_definitions["SourceRepositories"], pages_definitions["Pages"], unique_existing_pages, parser, base_referrer, link)
 
     return proposals
 
@@ -473,9 +481,9 @@ def convert_pages_flat_to_tree(sites_definition):
     return converted
 
 
-def convert_to_flat_definition(sites_definitions):
+def convert_to_flat_definition(pages_definitions):
     converted = {"Pages": [], "SourceRepositories": {}}
-    for top_key in sites_definitions.items():
+    for top_key in pages_definitions.items():
         if top_key[0] == "Pages":
             for site in top_key[1].items():
                 site_name = site[0]

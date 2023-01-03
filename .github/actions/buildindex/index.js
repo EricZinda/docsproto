@@ -28,7 +28,7 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
         documents.forEach(function (doc) {
             console.log(`Link processed: ${doc.link}`)
             this.add(doc)
-            refToTeaserMap[doc["url"]] = {"title": doc["title"], "teaser": doc["teaser"]}
+            refToTeaserMap[doc["url"]] = {"title": doc["title"], "site": doc["site"], "section": doc["section"], "teaser": doc["teaser"]}
         }, this);
     });
 
@@ -54,16 +54,3 @@ fs.readFile(pathToFile, "utf8", (err, jsonString) => {
         }
     });
 });
-
-//
-//try {
-//  // `who-to-greet` input defined in action metadata file
-//  console.log(`Hello ${nameToGreet}!`);
-//  const time = (new Date()).toTimeString();
-//  core.setOutput("time", time);
-//  // Get the JSON webhook payload for the event that triggered the workflow
-//  const payload = JSON.stringify(github.context.payload, undefined, 2)
-//  console.log(`The event payload: ${payload}`);
-//} catch (error) {
-//  core.setFailed(error.message);
-//}

@@ -7,10 +7,10 @@ Recall that predications are of the form: `_table_n_1(x)` or `compound(e,x,x)`. 
 
 For the purpose of defining the contract, we'll group predications into two types:
 - Regular Predications: Declare something that must be true about their arguments. For example: `_table_n_1(x)` says that `x` must be a "table"
-- Quantifier Predications: Act like a Regular Predication but also define the scope of a variable `x`. For example: `a_q(x, rstr, body)` declares a variable `x` that can now be used in its arguments *and* says that `x` must be an arbitrary, single object defined by the predications in the `rstr` that is also true for the predications in the `body`
+- Quantifier Predications: Act like a Regular Predication but also define the scope of a variable `x`. For example: `a_q(x, rstr, body)` declares a variable `x` that can now be used in its arguments *and* says that `x` must be an arbitrary, single object (since the quantifier is "a") defined by the predications in the `rstr` that is also true for the predications in the `body`
 
 ### Idealized Contract
-We'll start with an "idealized contract" because it clarifies how the SLD solver process works in general. It is "idealized" because it has relatively poor performance characteristics for large worlds. We'll tackle those characteristics with our "practical contract" next, but it is important to understand the fundamental approach first.
+We'll start with an "idealized contract" because it clarifies how the SLD solver works. It is "idealized" because it has relatively poor performance characteristics for large worlds. We'll tackle those characteristics with our "practical contract" next, but it is important to understand the fundamental approach first.
 
 The contract we define here is designed to "solve" an MRS for the variables defined in it such as `x1`, `x2`, `e1`, etc. Our goal is to find all values of the variables (the "solutions") that are `True` within a given world. The approach will be to call predications as functions, and so we'll define the contract in terms of what these calls must look like. In the contract, the term `bound` means a variable is "set" or "provided", and `unbound` means it doesn't yet have a value:
 
@@ -35,9 +35,9 @@ A Quantifier Predication example: When `a_q(x, large_a_1(x), file(x))` is called
 
 So, if the world is:
 ~~~
-`a folder`
-`a small file`
-`a large file`
+a folder
+a small file
+a large file
 ~~~
 and we are solving:
 
@@ -86,7 +86,7 @@ for item in <everything in the world>:
         ...
 ~~~
 
-So the `RSTR` predication of `_the_q`, which is `_folder_n_of` in this case, has to check every single object to see if it is "a folder". Given that any regular predication could end up in the `RSTR` of a quantifier predication, we could change the contract to allow regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it *much more quickly*, like this:
+So the `RSTR` predication of `_the_q` (which is `_folder_n_of` in this case) has to check every single object to see if it is "a folder". Given that any regular predication could end up in the `RSTR` of a quantifier predication, we could change the contract to allow regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it *much more quickly*, like this:
 
 ~~~
 for item in rstr_regular_predication():
