@@ -27,7 +27,7 @@ If you look at the resolved tree, it really is just one predication with the oth
 To implement `_a_q` using our [predication contract](../devhowtoPredicationContract), we conceptually:
 
 1. Find the first set of variable assignments returned from the first argument, `_file_n_of(x3)`, using `Call()`
-2. Use *those* variables to find a solution to the second argument, `_large_a_1(e2,x3)`, again using `Call()`
+2. Use *those* variable assignments to find a solution to the second argument, `_large_a_1(e2,x3)`, again using `Call()`
 3. If there was at least one answer, this is true. So: return each of the body solutions that worked from `a_q`, one by one.  Don't "backtrack" to find another "file" since `a_q` should only return "one, arbitrary thing". Other quantifiers like "every" will behave differently.
 4. If there was not an answer from the first "file", go back to #1 and try again (remember that our contract says these predications will keep returning values until there are no more)
 
@@ -68,5 +68,5 @@ At this point we have a fully functional evaluator, but there are a few things s
 - Handling questions vs. commands vs. propositions
 - Reporting errors
 
-The [next sections](../devhowtoEvents) will tackle these issues.
+The [next topics](../devhowtoEvents) will tackle these issues.
 <update date omitted for speed>{% endraw %}

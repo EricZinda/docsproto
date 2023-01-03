@@ -2,7 +2,7 @@
 > To understand this section, first make sure you have a [basic understanding of the MRS format](../devhowtoMRS).  
 
 
-Let's use the sentence "every book is in a cave" as an example. If the phrase is parsed with a tool like [ACE](http://sweaglesw.org/linguistics/ace/), you get an MRS document like this:
+Let's use the sentence "every book is in a cave" as an example. If the phrase is parsed with [the ACE parser](http://sweaglesw.org/linguistics/ace/), you get an MRS document like this:
 
 ```
 [ TOP: h0
@@ -16,9 +16,9 @@ RELS: <
 >
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ```
-Our goal is to eventually "solve" the MRS by finding values for the variables that make it "true". When complete, these variables indicate what the speaker *meant* and allow us to *do* something about it.  
+Our goal is to eventually "solve" the MRS by finding values for its MRS variables such that it is "true". When complete, these variables indicate what the speaker *meant* and allow us to *do* something about it.  
 
-To resolve an MRS against a world state (a particular state of the world at a moment in time) and get *solutions* to it (meaning the set of variable assignments that make it true) you need to turn it into a *well-formed MRS tree*. We will examine *how* shortly, but for now just know that a well-formed MRS tree has (among other things) nodes that are the predications from the MRS like `_every_q__xhh` and arcs that are links between the [*scopal arguments*](#devhowtoMRS#h-handle-variables-aka-scopal-arguments) of the predications and other nodes, like this:
+To resolve an MRS against a world state (a particular state of the world at a moment in time) and get *solutions* to it (meaning the set of MRS variable assignments that make it true) you need to turn it into a *well-formed MRS tree*. We will examine *how* shortly, but for now just know that a well-formed MRS tree has (among other things) nodes that are the predications from the MRS like `_every_q__xhh` and arcs that are links between the [*scopal arguments*](#devhowtoMRS#h-handle-variables-aka-scopal-arguments) of the predications and other nodes, like this:
 
 ```
               ┌────── _book_n_of(x3,i8)
@@ -29,9 +29,9 @@ _every_q(x3,RSTR,BODY)          ┌────── _cave_n_1(x9)
 
 This tree represents *one interpretation* of "every book is in a cave", namely, "every book is in a (possibly different) cave". 
 
-To "solve" this tree against a particular world state, you walk it in depth-first order: `every_q` is the starting, leftmost node. It starts by selecting a book on its upper branch, and then solving its lower branch with the selected book. This finds "a cave that the (selected) book is in". `every_q` does this for every book in the world state. If they all succeed (because the speaker said "every), we have a solution to the MRS. Because `_every_q` chooses a book *and then* a cave that it is in, it allows a *different* cave to be selected for each book. This tree will be only true if every book is in a (possibly different) cave.
+To "solve" this tree against a particular world state, you walk it in depth-first order: `every_q` is the starting, leftmost node. It starts by selecting a book on its upper branch, and then solves its lower branch with the selected book. This finds "a cave that the (selected) book is in". `every_q` does this for every book in the world state. If they all succeed (they must all succeed because the speaker said "every"), we have a solution to the MRS. Because `_every_q` chooses a book *and then* a cave that it is in, it allows a *different* cave to be selected for each book. This tree will be only true if every book is in a (possibly different) cave.
 
-But this is only one interpretation. Another interpretation of the *same* MRS is: "all books are in the same exact cave", which is represented by this tree:
+But this is only one interpretation. Another interpretation of the *same* MRS is: "all books are in the same exact cave". The speaker might have meant that interpretation, which is represented by this tree:
 
 ```
           ┌────── _cave_n_1(x9)
@@ -61,9 +61,9 @@ RELS: <
 >
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ```
-The MRS is a flat structure that avoids building a single tree which would "lock in" one interpretation.  How it does this is described in detail next, but in summary: It leaves "holes" using scopal (`h`) arguments for various predications and provides constraints (the `HCONS`) for plugging the predications together "legally".  If you combine the predications by following the constraints (among other things), you'll end up with a "well-formed MRS tree" which defines one valid interpretation of the sentence.
+The MRS is a flat list of predications so that it avoids building a single tree which would "lock in" one interpretation.  How it does this is described in detail next, but in summary: It leaves "holes" using scopal (`h`) arguments for various predications and provides constraints (the `HCONS`) for plugging the predications together "legally".  If you combine the predications by following the constraints (among other things), you'll end up with a "well-formed MRS tree" which defines one valid interpretation of the sentence. If you build all the well-formed trees, you have all the possible interpretations.
 
-This interpretation is what we need in order to eventually "solve" the sentence for the variables it contains. This section describes how to derive it.
+This interpretation is what we need in order to eventually "solve" the phrase for the variables it contains. This topic describes how to build that tree.
 
 ## Holes and Constraints
 "Holes" are `h` arguments in a predication that refer to a [predicate label](../devhowtoMRS#predication-labels) that is *not* defined. In the above MRS, `h0` (the `TOP:`), `h11`, `h12`, `h5`, and `h6` are all "holes" since none of the predicates use those names as their `LBL:`.
@@ -116,26 +116,26 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 
 The rules for MRS say that any variable in the MRS is "globally defined" (or "existentially qualified" in logic terms) for the whole structure *except* for `x` variables.  So, both `e2` and `i8` don't need any special handling, they are globally defined.
 
-`x` variables, on the other hand, can *only* be defined by [quantifiers](../devhowtoMRS#quantifier-predications), and are *only* defined for the branches of the tree that are attached to their scopal (`h`) arguments: `RSTR` and `BODY`.
+`x` variables, on the other hand, can *only* be defined by [quantifiers](../devhowtoMRS#quantifier-predications), and are *only* defined for the branches of the tree that are attached to the quantifier's scopal (`h`) arguments: `RSTR` and `BODY`.
 
 So, while the predications can be in any order in the tree with respect to their `e`  (or `i` or `u` if it had them) arguments, the tree must be checked to make sure all of the `x` arguments have an eventual parent which is a quantifier which puts them in scope (i.e. has the `x` variable as its first argument: `ARG0`). This is an additional constraint that has to be checked to build a "well-formed" tree.
 
-If the built tree passes all `qeq` constraints, and the `x` variables are all properly scoped, then it is a "well-defined" tree that we can now attempt to solve.  That's what we're going for here.
+If the quantifiers are all in (exactly) one place, the built tree passes all `qeq` constraints, and the `x` variables are all properly scoped, then it is a "well-formed" tree that we can now attempt to solve.  That's what we're going for here.
 
 ## Resolving the tree
-Finding ways to efficiently create these trees is an area of active research because natural language can easily create MRS structures that have a ton of holes.  `n` holes, in the worst case, can require `n!` checks to resolve, if done exhaustively.  So, an MRS structure with 12 holes (which is easy to generate) could require about 480,000,000 checks.  
+Finding ways to efficiently create these trees is an area of active research because natural language can easily create MRS structures that have a ton of holes.  `n` holes, in the worst case, can require `n!` checks to resolve, if done exhaustively.  So, an MRS structure with 12 holes (which is easy to generate) could require up to 480,000,000 checks before finding a valid solution if you just try every combination.  
 
 To generate the well-formed trees, you could simply try all possible combinations of holes and predications, do the `qeq` and `x` scoping checks on each, and only keep the valid ones. This will only be practical for the simplest possible trees.
 
-Another algorithm, the one we'll use in the tutorial, is able to prune the search space and works much faster.  The Python implementation can usually generate all trees for an MRS with 12 holes in around 1.5s (with some outliers being slower) on a 2013-era MacBook Pro.  This will be sufficient for the purposes of this tutorial.  Something like "put the diamond on the table where the safe is and the book is" generates MRS structures with up to 14 holes and could take up to 30 seconds to generate *all* the valid interpretations (1500+ valid interpretations in some cases!) for each MRS.  It turns out it is very rarely necessary to generate all the interpretations, but regardless: because it scales factorially, things go south fast after 12 holes.
+Another algorithm, the one we'll use in the tutorial, is able to prune the search space and works much faster.  The Python implementation can usually generate all trees for an MRS with 12 holes in around 1.5s (with some outliers being slower) on a 2013-era MacBook Pro.  This will be sufficient for the purposes of this tutorial.  Something like "put the diamond on the table where the safe is and the book is" generates MRS structures with up to 14 holes and could take up to 30 seconds to generate *all* the valid interpretations (1500+ valid interpretations in some cases!) for each MRS.  It turns out it is very rarely necessary to generate all the interpretations, but regardless: because it scales factorially, things slow down fast after 12 holes.
 
 There are definitely more efficient approaches, but the algorithm below has the advantage of being relatively simple. Here is [one alternative](https://www.aclweb.org/anthology/W05-1105.pdf).  There are definitely more.
 
 ## A Simple, Fast Enough, Algorithm
-> It isn't important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We'll use this code as a library routine all throughout the tutorial, but we won't dive into its implementation again. If you've followed so far, you've got enough background to go to the next section where we start to dive into [how to implement the predications](../devhowtoPredicationContract).
+> It isn't important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We'll use this code as a library routine all throughout the tutorial, but we won't dive into its implementation again. If you've followed along and understood the content so far, you've got enough background to go to the next section where we start to dive into [how to implement the predications](../devhowtoPredicationContract).
 
 
-This description is for those that are interested in how it works:
+This description is for those that are interested in how the algorithm works, and isn't necessary for understanding the rest of the tutorial:
 
 First some definitions used in this algorithm:
 - **Hole**: A scopal (i.e. `h` type) argument in an MRS predicate that doesn't refer to an existing predication

@@ -329,11 +329,11 @@
 <p>For the purpose of defining the contract, we’ll group predications into two types:</p>
 <ul>
   <li>Regular Predications: Declare something that must be true about their arguments. For example: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> says that <code class="language-plaintext highlighter-rouge">x</code> must be a “table”</li>
-  <li>Quantifier Predications: Act like a Regular Predication but also define the scope of a variable <code class="language-plaintext highlighter-rouge">x</code>. For example: <code class="language-plaintext highlighter-rouge">a_q(x, rstr, body)</code> declares a variable <code class="language-plaintext highlighter-rouge">x</code> that can now be used in its arguments <em>and</em> says that <code class="language-plaintext highlighter-rouge">x</code> must be an arbitrary, single object defined by the predications in the <code class="language-plaintext highlighter-rouge">rstr</code> that is also true for the predications in the <code class="language-plaintext highlighter-rouge">body</code></li>
+  <li>Quantifier Predications: Act like a Regular Predication but also define the scope of a variable <code class="language-plaintext highlighter-rouge">x</code>. For example: <code class="language-plaintext highlighter-rouge">a_q(x, rstr, body)</code> declares a variable <code class="language-plaintext highlighter-rouge">x</code> that can now be used in its arguments <em>and</em> says that <code class="language-plaintext highlighter-rouge">x</code> must be an arbitrary, single object (since the quantifier is “a”) defined by the predications in the <code class="language-plaintext highlighter-rouge">rstr</code> that is also true for the predications in the <code class="language-plaintext highlighter-rouge">body</code></li>
 </ul>
 
 <h3 id="idealized-contract">Idealized Contract</h3>
-<p>We’ll start with an “idealized contract” because it clarifies how the SLD solver process works in general. It is “idealized” because it has relatively poor performance characteristics for large worlds. We’ll tackle those characteristics with our “practical contract” next, but it is important to understand the fundamental approach first.</p>
+<p>We’ll start with an “idealized contract” because it clarifies how the SLD solver works. It is “idealized” because it has relatively poor performance characteristics for large worlds. We’ll tackle those characteristics with our “practical contract” next, but it is important to understand the fundamental approach first.</p>
 
 <p>The contract we define here is designed to “solve” an MRS for the variables defined in it such as <code class="language-plaintext highlighter-rouge">x1</code>, <code class="language-plaintext highlighter-rouge">x2</code>, <code class="language-plaintext highlighter-rouge">e1</code>, etc. Our goal is to find all values of the variables (the “solutions”) that are <code class="language-plaintext highlighter-rouge">True</code> within a given world. The approach will be to call predications as functions, and so we’ll define the contract in terms of what these calls must look like. In the contract, the term <code class="language-plaintext highlighter-rouge">bound</code> means a variable is “set” or “provided”, and <code class="language-plaintext highlighter-rouge">unbound</code> means it doesn’t yet have a value:</p>
 
@@ -363,9 +363,9 @@
 <p>A Quantifier Predication example: When <code class="language-plaintext highlighter-rouge">a_q(x, large_a_1(x), file(x))</code> is called, <code class="language-plaintext highlighter-rouge">x</code> should be unbound. It will internally set <code class="language-plaintext highlighter-rouge">x</code> to every object in the world and then call its arguments, applying the logic of the quantifier itself to the results. Each value of <code class="language-plaintext highlighter-rouge">x</code> for which that process is true should be returned, iteratively.</p>
 
 <p>So, if the world is:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`a folder`
-`a small file`
-`a large file`
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a folder
+a small file
+a large file
 </code></pre></div></div>
 <p>and we are solving:</p>
 
@@ -414,7 +414,7 @@ _the_q(x10,RSTR,BODY)          │             └ _file_n_of(x3,i9)
         ...
 </code></pre></div></div>
 
-<p>So the <code class="language-plaintext highlighter-rouge">RSTR</code> predication of <code class="language-plaintext highlighter-rouge">_the_q</code>, which is <code class="language-plaintext highlighter-rouge">_folder_n_of</code> in this case, has to check every single object to see if it is “a folder”. Given that any regular predication could end up in the <code class="language-plaintext highlighter-rouge">RSTR</code> of a quantifier predication, we could change the contract to allow regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it <em>much more quickly</em>, like this:</p>
+<p>So the <code class="language-plaintext highlighter-rouge">RSTR</code> predication of <code class="language-plaintext highlighter-rouge">_the_q</code> (which is <code class="language-plaintext highlighter-rouge">_folder_n_of</code> in this case) has to check every single object to see if it is “a folder”. Given that any regular predication could end up in the <code class="language-plaintext highlighter-rouge">RSTR</code> of a quantifier predication, we could change the contract to allow regular predications to do the iteration themselves, possibly using indices or knowledge of how the world is represented to do it <em>much more quickly</em>, like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for item in rstr_regular_predication():
     ...

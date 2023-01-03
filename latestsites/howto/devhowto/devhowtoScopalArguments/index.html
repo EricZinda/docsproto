@@ -345,7 +345,7 @@ _a_q(x3, RSTR,BODY)
 
 <ol>
   <li>Find the first set of variable assignments returned from the first argument, <code class="language-plaintext highlighter-rouge">_file_n_of(x3)</code>, using <code class="language-plaintext highlighter-rouge">Call()</code></li>
-  <li>Use <em>those</em> variables to find a solution to the second argument, <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code>, again using <code class="language-plaintext highlighter-rouge">Call()</code></li>
+  <li>Use <em>those</em> variable assignments to find a solution to the second argument, <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code>, again using <code class="language-plaintext highlighter-rouge">Call()</code></li>
   <li>If there was at least one answer, this is true. So: return each of the body solutions that worked from <code class="language-plaintext highlighter-rouge">a_q</code>, one by one.  Don’t “backtrack” to find another “file” since <code class="language-plaintext highlighter-rouge">a_q</code> should only return “one, arbitrary thing”. Other quantifiers like “every” will behave differently.</li>
   <li>If there was not an answer from the first “file”, go back to #1 and try again (remember that our contract says these predications will keep returning values until there are no more)</li>
 </ol>
@@ -388,7 +388,7 @@ def Example4():
   <li>Reporting errors</li>
 </ul>
 
-<p>The <a href="../devhowtoEvents">next sections</a> will tackle these issues.</p>
+<p>The <a href="../devhowtoEvents">next topics</a> will tackle these issues.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 

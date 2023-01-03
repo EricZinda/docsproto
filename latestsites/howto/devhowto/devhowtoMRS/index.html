@@ -452,12 +452,12 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
   <li>It may have extras at the end like <code class="language-plaintext highlighter-rouge">_1</code> to indicate which “variant” or synonym of the word it represents</li>
 </ul>
 
-<p>There is some documentation for the predicates, especially unusual ones (found by doing a search of the <a href="http://moin.delph-in.net/ErgSemantics">ERG site</a>), but their meaning mostly has to be determined by looking at the MRS and intuiting what they are trying to do using your knowledge of the language (or <a href="https://delphinqa.ling.washington.edu/">posting on the message boards</a>  if it isn’t clear).</p>
+<p>There is some documentation for what the predications <em>mean</em>, which can be found by doing a search of the documentation. Otherwise, their meaning can often be determined by looking at the MRS and intuiting what they are trying to do using your knowledge of the language. If all else fails, you can <a href="https://delphinqa.ling.washington.edu/">post on the message boards</a>.</p>
 
 <h3 id="predication-arguments-and-variables">Predication Arguments and Variables</h3>
-<p>Predications have arguments, and they have names like <code class="language-plaintext highlighter-rouge">ARG0</code>, <code class="language-plaintext highlighter-rouge">ARG1</code>, <code class="language-plaintext highlighter-rouge">ARG2</code>, <code class="language-plaintext highlighter-rouge">RSTR</code>, <code class="language-plaintext highlighter-rouge">BODY</code>, etc.  Think of those exactly like the name of named arguments in some programming languages such as Python.</p>
+<p>Predications have arguments with names like <code class="language-plaintext highlighter-rouge">ARG0</code>, <code class="language-plaintext highlighter-rouge">ARG1</code>, <code class="language-plaintext highlighter-rouge">ARG2</code>, <code class="language-plaintext highlighter-rouge">RSTR</code>, <code class="language-plaintext highlighter-rouge">BODY</code>, etc.  Think of those exactly like the name of named arguments in some programming languages such as Python.</p>
 
-<p>They also have variables assigned to the arguments like <code class="language-plaintext highlighter-rouge">x5</code>, <code class="language-plaintext highlighter-rouge">h1</code>, <code class="language-plaintext highlighter-rouge">e6</code>.  These names indicate two things: the initial letter indicates the “type” of variable it is.  The types create a hierarchy, with the bottommost “leaves” being the types that are the most concrete and most common in predications. Each of these types will be discussed below:</p>
+<p>They also have variables assigned to the arguments like <code class="language-plaintext highlighter-rouge">x5</code>, <code class="language-plaintext highlighter-rouge">h1</code>, <code class="language-plaintext highlighter-rouge">e6</code>.  The initial letter in the name indicates the “type” of variable it is.  The types create a hierarchy, with the bottommost “leaves” being the types that are the most concrete and most common in predications. Each of these types will be discussed below:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    u
    / \
@@ -466,7 +466,8 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 e   x   h
 </code></pre></div></div>
 
-<p>The number on a variable just makes it unique. The same variable may appear in more than one place and this means it is shared, just like if you used a Python variable in more than one place in a function.  So, if an MRS has two predications like this:</p>
+<p>The number on a variable just makes it unique. When the same variable name appears in more than one place it is shared, just like if you used a Python variable in more than one place in a function.<br />
+So, if an MRS has two predications like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ _large_a_1 LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x9 ]
 [ _table_n_1 LBL: h13 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] ]
@@ -475,19 +476,19 @@ e   x   h
 <p>… you can see that:</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">_large_a_1</code> has two arguments: <code class="language-plaintext highlighter-rouge">ARG0</code> and <code class="language-plaintext highlighter-rouge">ARG1</code>, and the variables assigned to them are: <code class="language-plaintext highlighter-rouge">e14</code> and <code class="language-plaintext highlighter-rouge">x9</code>. The first is of type <code class="language-plaintext highlighter-rouge">event</code> (<code class="language-plaintext highlighter-rouge">e</code>) and the second is of type <code class="language-plaintext highlighter-rouge">instance</code> (<code class="language-plaintext highlighter-rouge">x</code>)</li>
-  <li><code class="language-plaintext highlighter-rouge">_table_n_1</code> shares <code class="language-plaintext highlighter-rouge">x9</code> in its <code class="language-plaintext highlighter-rouge">ARG0</code> and so they are both restricting the same variable. This means that, ultimately, <code class="language-plaintext highlighter-rouge">x9</code> should contain only “large tables”</li>
+  <li><code class="language-plaintext highlighter-rouge">_table_n_1</code> shares <code class="language-plaintext highlighter-rouge">x9</code> in its <code class="language-plaintext highlighter-rouge">ARG0</code> and so both predications are restricting the same variable. This means that, ultimately, <code class="language-plaintext highlighter-rouge">x9</code> should contain only “large tables”</li>
 </ul>
 
-<p>Thinking of MRS variables as variables in a math equation can help: The MRS is effectively defining a formula with variables. If you pick variable values such that the MRS is true for a given world, then you have understood the meaning of the MRS (in a sense).</p>
+<p>Thinking of MRS variables as variables in a math equation can help: The MRS is effectively defining a formula with variables. If you pick variable values such that the MRS is true for a given world, then you have understood the meaning of the MRS in that world.</p>
 
-<p>Of all the arguments, <code class="language-plaintext highlighter-rouge">ARG0</code> is special.  It holds a variable that “represents” the predication, sometimes called the “characteristic” or “distinguished” variable, but most often now the “instrinsic variable”.  If you read the <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">Minimal Recursion Semantics: An Introduction</a> documentation, you’ll see the term “introduced” is used to describe the intrinsic variable.  The predicate is described as “introducing” its “intrinsic variable” (which is always <code class="language-plaintext highlighter-rouge">ARG0</code>). Sometimes phrases like “the variable <em>introduced by</em> predicate X…” are used.  This will become important later, mostly when we talk about <a href="../devhowtoEvents">events</a> or about how to <a href="../devhowtoConceptualFailures">convert predications back into a phrase</a>. For now, it is enough to understand that <code class="language-plaintext highlighter-rouge">ARG0</code> is a special argument that <em>represents</em> the predication in some special ways.</p>
+<p>Of all the arguments, <code class="language-plaintext highlighter-rouge">ARG0</code> is special.  It holds a variable that “represents” the predication, sometimes called the “characteristic” or “distinguished” variable, but most often the “instrinsic variable”.  If you read the <a href="https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf">Minimal Recursion Semantics: An Introduction</a> documentation, you’ll see the term “introduced” is used to describe the intrinsic variable.  A predicate is described as “introducing” its “intrinsic variable” (which is always <code class="language-plaintext highlighter-rouge">ARG0</code>). Sometimes phrases like “the variable <em>introduced by</em> predicate X…” are used.  This will become important later, mostly when we talk about <a href="../devhowtoEvents">events</a> or about how to <a href="../devhowtoConceptualFailures">convert predications back into a phrase</a>. For now, it is enough to understand that <code class="language-plaintext highlighter-rouge">ARG0</code> <em>represents</em> the predication in some special ways.</p>
 
 <p>One final point: Every variable in an MRS is introduced by exactly one predication in the MRS (which is why they can serve as makeshift “representations” of the predication). We’ll come back to this when we <a href="#other-variables-types-i-u-p">talk about <code class="language-plaintext highlighter-rouge">i</code>, <code class="language-plaintext highlighter-rouge">p</code> and <code class="language-plaintext highlighter-rouge">u</code> variable types</a>.</p>
 
 <h4 id="h-handle-variables-aka-scopal-arguments">H (Handle) Variables, aka “Scopal Arguments”</h4>
-<p>The semantic meaning of an MRS is ultimately represented by a <em>tree</em> (described in the <a href="../devhowtoWellFormedTree">next section</a>) and the handle variables (aka “scopal arguments”) provide the mechanism to build a tree from the list of predications.</p>
+<p>The semantic meaning of an MRS is ultimately represented by a <em>tree</em> (described in the <a href="../devhowtoWellFormedTree">next topic</a>) and handle variables passed to predications (aka “scopal arguments”) provide the mechanism to build a tree from the list of predications.</p>
 
-<p>Handle variables represent the “holes” where branches of the tree can be placed. To do this, handle variables are set to the <code class="language-plaintext highlighter-rouge">LBL:</code> of another predication. As <a href="#predication-labels">described above</a>, the MRS <code class="language-plaintext highlighter-rouge">LBL:</code> field serves as a way to “label” each predication with a unique identifier. Thus, the <code class="language-plaintext highlighter-rouge">LBL:</code> of a predication can be assigned to a handle variable in a different predication to indicate that it should be placed there. By assigning <code class="language-plaintext highlighter-rouge">LBL:</code>s to holes like this, an entire tree can be built.</p>
+<p>Handle variables represent the “holes” where branches of the tree can be placed. To do this, handle variables are set to the <code class="language-plaintext highlighter-rouge">LBL:</code> of another predication. As <a href="#predication-labels">described above</a>, the MRS <code class="language-plaintext highlighter-rouge">LBL:</code> field serves as a way to “label” each predication with a unique identifier. Thus, the <code class="language-plaintext highlighter-rouge">LBL:</code> of a predication can be assigned to a handle variable in a different predication to indicate that it should be placed there. By assigning <code class="language-plaintext highlighter-rouge">LBL:</code>s to holes like that, an entire tree can be built.</p>
 
 <p>When a tree is built and being resolved, a predication with handle arguments is expected to use those branches to do … whatever it is supposed to do. For example, the <code class="language-plaintext highlighter-rouge">_the_q</code> has two handle arguments, <code class="language-plaintext highlighter-rouge">h5</code> and <code class="language-plaintext highlighter-rouge">h6</code> in the MRS for “The dog is small”:</p>
 
@@ -508,9 +509,9 @@ _the_q(x3,RSTR,BODY)
                  └─ _small_a_1(e2,x3)
 </code></pre></div></div>
 
-<p>Think of this process like a lambda function being passed to a function in a programming language like C++ or C#.  The <code class="language-plaintext highlighter-rouge">the_q</code> predication itself will be responsible for “doing something” with the two branches it is passed.  What, exactly, is specific to the predication. We’ll go into this more in a <a href="../devhowtoScopalArguments">future section</a> of the tutorial. For now, think about scopal arguments as places to put other predications which are acting like programming language “lambda functions”.</p>
+<p>Think of this process like a lambda function being passed to a function in a programming language like C++ or C#.  The <code class="language-plaintext highlighter-rouge">the_q</code> predication itself will be responsible for “doing something” with the two branches it is passed.  What, exactly, is specific to the predication. We’ll go into this more in a <a href="../devhowtoScopalArguments">future topic</a> in the tutorial. For now, think about scopal arguments as places to put other predications which are acting like programming language “lambda functions”.</p>
 
-<p>Because the MRS is <a href="#underspecification">underspecified</a>, it usually doesn’t directly list which predication to put in which scopal argument. You figure that out by the process of <a href="../devhowtoWellFormedTree">creating a well-formed tree</a>.  However, if a predication has a <code class="language-plaintext highlighter-rouge">LBL:</code> that is the same handle as a scopal argument, then that part of the tree <em>has</em> actually been specified and is “locked in place” (i.e. there is no hole there for something else to be).</p>
+<p>Because the MRS is <a href="#underspecification">underspecified</a>, it usually doesn’t directly list which predication to put in which scopal argument. You figure that out by the process of <a href="../devhowtoWellFormedTree">creating a well-formed tree</a>.  However, if a predication has a <code class="language-plaintext highlighter-rouge">LBL:</code> that is the same handle as a scopal argument, then that part of the tree <em>has</em> been specified and is “locked in place” (i.e. there is no hole there for something else to be).</p>
 
 <h4 id="x-instance-variables">X (Instance) Variables</h4>
 <p>Instance (<code class="language-plaintext highlighter-rouge">x</code>) variables are just like normal First Order Logic variables, or like variables in popular programming languages. The types of things they can contain are “individuals”, which is another name for a “thing in the world”.  They hold the things the speaker is talking about.</p>
@@ -531,7 +532,7 @@ RELS: &lt;
 HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 </code></pre></div></div>
 
-<p>… There are only two instance variables that represent the “things in the world being talked about”:</p>
+<p>… there are only two instance variables that represent the “things in the world being talked about”:</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">x9</code>: “the large table”</li>
   <li><code class="language-plaintext highlighter-rouge">x3</code>: “you”. This is implied since it is a command. I.e. “(You) look at the table”. You can tell it wasn’t in the original phrase because the predication doesn’t start with <code class="language-plaintext highlighter-rouge">_</code>.</li>
@@ -559,7 +560,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 &gt; ]
 
 <p>The <code class="language-plaintext highlighter-rouge">_slow_a_1</code> predication is passed the <code class="language-plaintext highlighter-rouge">e2</code> argument so that it can attach data about “<em>how</em> to do something” to the event. <code class="language-plaintext highlighter-rouge">_move_v_1</code> needs <code class="language-plaintext highlighter-rouge">e2</code> passed to it so that it can inspect it and determine how to do the “moving”.</p>
 
-<p>They can also be used to add information about <em>where</em> to do something. For example, in <code class="language-plaintext highlighter-rouge">go to the store</code>, <code class="language-plaintext highlighter-rouge">to</code> is one of many prepositions that can be used with “go” to say <em>where</em> to go. So, if a preposition like <code class="language-plaintext highlighter-rouge">to</code> is in the phrase, it modifies the event that <code class="language-plaintext highlighter-rouge">go</code> introduces:</p>
+<p>Events can also be used to add information about <em>where</em> to do something. For example, in “go to the store”, “to” is one of many prepositions that can be used with “go” to say <em>where</em> to go. So, if a preposition like “to” is in the phrase, it modifies the event that “go” introduces:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
@@ -581,7 +582,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 <p>The predication that introduces an event variable will often (but not always) be the predication that consumes or “does something” with the “fully enriched” event. Predications that have it in other arguments will often (but not always) be simply adding information to the event.</p>
 
 <h4 id="other-variables-types-i-u-p">Other Variables Types: I, U, P</h4>
-<p>Recall that the variable types in DELPH-IN and the ERG form a hierarchy. So far we’ve discussed the bottommost “leaves”, which are most commonly seen:</p>
+<p>Recall that the variable types in DELPH-IN form a hierarchy. So far we’ve discussed the bottommost “leaves”, which are most commonly seen:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    u
    / \
@@ -600,7 +601,7 @@ e   x   h
 
 <p><strong>Unquantified <code class="language-plaintext highlighter-rouge">x</code> variables</strong>: Some predications in the ERG have an argument that is conceptually an individual (<code class="language-plaintext highlighter-rouge">x</code>) type, but does not require quantification. Since the rules require that all <code class="language-plaintext highlighter-rouge">x</code> variables are <a href="../x-instance-variables">scoped by a quantifier</a>, the most appropriate of the three “in-between” types will be used instead as a “work-around”. This is usually <code class="language-plaintext highlighter-rouge">i</code> since these are most often of type <code class="language-plaintext highlighter-rouge">x</code>, and <code class="language-plaintext highlighter-rouge">i</code> is the most specific of the options that includes <code class="language-plaintext highlighter-rouge">x</code>. As with all non-<code class="language-plaintext highlighter-rouge">x</code> variables, this will be “existentially quantified” (globally defined) – that is the whole point of using them here.</p>
 
-<p><strong>Dropped arguments</strong>: Sometimes the predication that would introduce a variable is missing. For example “I left” vs. “I left Oregon”. In the latter, “Oregon” becomes a predication that introduces a variable that “left” uses, but in the former, this predication doesn’t exist, so the variable is not introduced. In this case, the missing (or “dropped”) variable uses an <code class="language-plaintext highlighter-rouge">i</code>, <code class="language-plaintext highlighter-rouge">p</code> or <code class="language-plaintext highlighter-rouge">u</code> type in place of the original type. Variables typed like this should be treated like the act of passing <code class="language-plaintext highlighter-rouge">None</code> in Python or <code class="language-plaintext highlighter-rouge">Null</code> in SQL. The easiest way to detect when one of these three variable types means “dropped or ignored argument” is by checking if any other predication is also using it (as in the previous case). If not, it is probably dropped/ignored.</p>
+<p><strong>Dropped arguments</strong>: Sometimes the predication that would introduce a variable is missing. For example, take “I left” vs. “I left Oregon”. In the latter, “Oregon” becomes a predication that introduces a variable that “left” uses, but in the former, this predication doesn’t exist, so the variable is not introduced. In this case, the missing (or “dropped”) variable uses an <code class="language-plaintext highlighter-rouge">i</code>, <code class="language-plaintext highlighter-rouge">p</code> or <code class="language-plaintext highlighter-rouge">u</code> type in place of the original type. Variables typed like this should be treated like the act of passing <code class="language-plaintext highlighter-rouge">None</code> in Python or <code class="language-plaintext highlighter-rouge">Null</code> in SQL to a function. The easiest way to detect when one of these three variable types means “dropped or ignored argument” is by checking if any other predication is also using it (as in the previous case). If not, it is probably dropped/ignored.</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">i</code> means dropped <code class="language-plaintext highlighter-rouge">e</code> or <code class="language-plaintext highlighter-rouge">x</code></li>
   <li><code class="language-plaintext highlighter-rouge">u</code> means dropped <code class="language-plaintext highlighter-rouge">e</code>, <code class="language-plaintext highlighter-rouge">x</code>, or <code class="language-plaintext highlighter-rouge">h</code></li>
@@ -608,13 +609,13 @@ e   x   h
 </ul>
 
 <h4 id="variable-properties">Variable Properties</h4>
-<p>Variables in an MRS have <em>properties</em>, which are like single argument predications for the variables. They define many different properties of a variable that aren’t included anywhere else. They are defined after the variable in the MRS, surrounded by <code class="language-plaintext highlighter-rouge">[]</code>. You can see many examples in the MRS for “he will go”:</p>
+<p>Variables in an MRS have <em>properties</em>, which are like single argument predications for the variables. They define many different properties of a variable that aren’t included anywhere else. They are defined after the variable in the MRS, surrounded by <code class="language-plaintext highlighter-rouge">[]</code>. You can see several examples in the MRS for “he will go”:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ pronoun_q LBL: h5 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m IND: + PT: std ] RSTR: h6 BODY: h7 ]
 [ pron LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m IND: + PT: std ] ]
 [ _go_v_1 LBL: h1 ARG0: e2 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
 </code></pre></div></div>
-<p>The properties provided depends on the type of variable:</p>
+<p>The properties provided depend on the type of variable:</p>
 
 <p>Instance (<code class="language-plaintext highlighter-rouge">x</code>) variables can have these properties:</p>
 <ul>
@@ -647,9 +648,9 @@ e   x   h
 
 <p>“The” and “a” are also really common examples.  That’s the kind of description you’d get in a normal “Learning English” grammar course, but DELPH-IN uses a much broader definition that includes those examples but adds some more.</p>
 
-<p>Quantifier Predications in DELPH-IN always have a specific argument signature:</p>
+<p>Quantifier predications in DELPH-IN always have a specific argument signature:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>quantifier_q(`x`,`h`,`h`)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>quantifier_q(x,h,h)
 </code></pre></div></div>
 
 <p>In addition to (often) doing the job of saying “how much of” their <code class="language-plaintext highlighter-rouge">x</code> variable there should be to make the MRS true (“lots”, “some”, “the”, etc), they provide scope to the <code class="language-plaintext highlighter-rouge">x</code> variable. All <code class="language-plaintext highlighter-rouge">x</code> variables must be scoped by a quantifier, which means that they can only be used in the branches of the tree that are contained in the quantifier’s two <code class="language-plaintext highlighter-rouge">h</code> (scopal) arguments. This rule for well-formedness means that there are many quantifiers that don’t do “real” quantification at all, they are in the MRS solely to scope the <code class="language-plaintext highlighter-rouge">x</code> variable. Some also act like “markers” of some kind (again without doing any quantification).</p>
@@ -679,15 +680,15 @@ def_implicit_q(x9,RSTR,BODY)
 </code></pre></div></div>
 <p>The variable <code class="language-plaintext highlighter-rouge">x9</code> represents <code class="language-plaintext highlighter-rouge">north</code> but nothing in the phrase is “quantifying” direction in any way.  Since the rules for MRS require <code class="language-plaintext highlighter-rouge">x</code> variables to be quantified, an abstract quantifier called <code class="language-plaintext highlighter-rouge">def_implicit_q</code> is used to do the scoping of the variable.</p>
 
-<p>Note that, unlike non-quantifier predications, the first (<code class="language-plaintext highlighter-rouge">ARG0</code>) argument of a quantifier <em>does not</em> “introduce” an “intrinsic variable” (as described in the <a href="#predication-arguments-and-variables">variables section</a>), they just scope (and optionally quantify) it.</p>
+<p>Note that, unlike non-quantifier predications, the first (<code class="language-plaintext highlighter-rouge">ARG0</code>) argument of a quantifier <em>does not</em> “introduce” an “intrinsic variable” (as described in the <a href="#predication-arguments-and-variables">variables section</a>), they just scope and optionally quantify it.</p>
 
 <h2 id="constraints">Constraints</h2>
-<p>The <code class="language-plaintext highlighter-rouge">HCONS</code> section of the MRS puts <em>CONS</em>traints on where the <em>H</em>andles for predications can be validly placed and still be a legal interpretation of the phrase. The only constraints used in “modern” MRS are <code class="language-plaintext highlighter-rouge">qeq</code> constraints so that’s all you’ll see in this section.</p>
+<p>The <code class="language-plaintext highlighter-rouge">HCONS</code> section of the MRS is used when building a well-formed tree. It puts <em>CONS</em>traints on where the <em>H</em>andles for predications can be validly placed and still be a legal interpretation of the phrase. The only constraints used in “modern” MRS are <code class="language-plaintext highlighter-rouge">qeq</code> constraints so that’s all you’ll see in this section.</p>
 
 <p>A <code class="language-plaintext highlighter-rouge">qeq</code> constraint always relates an <code class="language-plaintext highlighter-rouge">h</code> argument of one predication, called a “hole”, to the handle (<code class="language-plaintext highlighter-rouge">LBL:</code>) of another predication. It states that the handle must be a direct or eventual child of the hole in the tree and, if not direct, the only things between the hole and the handle can be quantifiers.  Said a different way:</p>
 
 <blockquote>
-  <p>A qeq constraint of “X qeq Y” says that the direct path from X to Y must only contain quantifiers (except for the final predication).</p>
+  <p>A qeq constraint of “X qeq Y” says that the direct path from X to Y must only contain quantifiers (except for the final predication Y).</p>
 </blockquote>
 
 <p>As we work through <a href="../ResolvingTheMRSTree">fully resolving the MRS into a tree</a>, we’ll see more description and examples of how the <code class="language-plaintext highlighter-rouge">HCONS</code> section is used.</p>
@@ -727,7 +728,7 @@ _the_q(x3,RSTR,BODY)
 
 <p>More information on <code class="language-plaintext highlighter-rouge">INDEX</code> is described in the section on <a href="../devhowtoSentenceForce">sentence force</a>.</p>
 
-<p>The <a href="../devhowtoWellFormedTree">next section</a> walks through the rules of creating “well-formed MRS trees”, and is the last big chunk of conceptual background needed before we start building the system.</p>
+<p>The <a href="../devhowtoWellFormedTree">next topic</a> walks through the rules of creating “well-formed MRS trees”, and is the last big chunk of conceptual background needed before we start building the system.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 
