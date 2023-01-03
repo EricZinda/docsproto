@@ -23,7 +23,7 @@ The *syntactic head* of a phrase indicates what the phrase is “about” or “
 
 > The example sentence is thus *about* `_large_a_1`...which is not a verb.  This is a special case in DELPH-IN, where the common case of "being x" just drops the "being" and treats "x" as the verb.
 
-Once you know the `index` (syntactic head) of a phrase, you can see what *type* of phrase it is by looking at the *properties* of that variable. This is the first time we've had to inspect variable properties, so lets dig in there a bit. 
+Once you know the `index` (syntactic head) of a phrase, you can see what *type* of phrase it is by looking at the [*properties* of that variable](devhowtoMRS#variable-properties). This is the first time we've had to inspect variable properties, so lets dig in there a bit. 
 
 You can see that, next to each argument in the MRS, there is a list of properties surrounded by `[]`. It looks like this for the `e2` argument of `_large_a_1`:
 
@@ -31,25 +31,25 @@ You can see that, next to each argument in the MRS, there is a list of propertie
  e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
 ~~~
 
-This is the list of properties for that variable. It provides various information about the kind of things that should be in that variable. Think of it as "metadata" about the variable.  The property we are interested in here is:
-`SF: prop` ("sentence force": "proposition").  Any given sentence gets categorized into a *type* of sentence, indicated by the `SF` ("sentence force") property of its index variable:
+This is the list of properties for that variable. It provides various information about the kind of things that should be in that variable. Think of it as "metadata" about the variable or single argument predications for that variable.  The property we are interested in here is:
+`SF: prop` ("sentence force": "proposition").  Every sentence is categorized into a *type*, indicated by the `SF` ("sentence force") property of its index variable:
 
 - Proposition (`SF: prop`): "A file is large."
-- Question (`SF: ques`): "Is a file large?", "Which file is large?"
+- Question (`SF: ques`): "Is a file large?", "Which file is large?", "A file is large?"
 - Command (`SF: comm`): "Make a file large."
 
-It is important to pay attention to the "sentence force" of a sentence because it indicates what kind of response the user expects. 
+The "sentence force" of a sentence indicates what kind of response the user expects:
     
 - User: "A file is large." -> "Yes, that is true"
 - User: "Is a file large?" -> "Yes"
 - User: "Which file is large?" -> "test1.txt"
 - User: "Make a file large." -> "test1.txt is now large"
 
-Note that these are all answers the user would expect if the statement worked.  But all but the last would be very different if there were no large files in the system:
+Note that these are all answers the user would expect if the statement worked.  All but the last would be very different if there were no large files in the system:
 
 - User: "A file is large." -> "No, that isn't true"
 - User: "Is a file large?" -> "No"
 - User: "Which file is large?" -> "No files are large"
 - User: "Make a file large." -> "test1.txt is now large"
 
-In the [next few sections](devhowtoSimplePropositions) we'll work through how to handle the different types of sentences when they succeed, and then end by talking about how to handle failures.
+In the [next few sections](devhowtoSimplePropositions) we'll work through how to handle the different types of sentences when they succeed. We'll end by talking about how to handle failures.
