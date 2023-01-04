@@ -55,6 +55,13 @@ jobs:
           path: docswiki
           fetch-depth: 0
 
+      # Perplexity repo for developer tutorial
+      - name: Checkout Perplexity repo
+        uses: actions/checkout@v3
+        with:
+          repository: ericzinda/Perplexity
+          path: perplexity
+          fetch-depth: 0
 
       # Create blank sites and then
       # process and copy all pages into the sites
