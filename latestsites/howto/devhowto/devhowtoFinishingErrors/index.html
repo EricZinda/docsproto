@@ -1,0 +1,816 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-to</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-to">
+<meta property="og:title" content="DELPH-IN How-to">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoFinishingErrors/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoFinishingErrors/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-to Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-to"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-to
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjuctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/" class="active">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the Right Interpretation</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="adding-errors-to-every-predication">Adding Errors to Every Predication</h2>
+<p>Now that our more robust error approach is in place, lets fix the predications we have written before to properly use it.</p>
+
+<p><code class="language-plaintext highlighter-rouge">large_a_1</code>, <code class="language-plaintext highlighter-rouge">file_n_of</code> and <code class="language-plaintext highlighter-rouge">a_q</code> have already been completed. <code class="language-plaintext highlighter-rouge">delete_v_1</code>, <code class="language-plaintext highlighter-rouge">pron</code>, <code class="language-plaintext highlighter-rouge">pronoun_q</code>, <code class="language-plaintext highlighter-rouge">which_q</code>, <code class="language-plaintext highlighter-rouge">very_x_deg</code>, <code class="language-plaintext highlighter-rouge">folder_n_of</code> remain.</p>
+
+<h3 id="folder_n_of"><code class="language-plaintext highlighter-rouge">folder_n_of</code></h3>
+<p>We can approach <code class="language-plaintext highlighter-rouge">folder_n_of</code> just like <code class="language-plaintext highlighter-rouge">file_n_of</code>, and, in fact, that is what most nouns will look like. The only new code is the last line below that says “<code class="language-plaintext highlighter-rouge">x</code> is not a folder” for the same reasons <a href="../devhowtoReportingAFailure">we described before</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_folder_n_of")
+def folder_n_of(state, x):
+    
+    ...
+    
+    for item in iterator:
+        # "isinstance" is a built-in function in Python that
+        # checks if a variable is an
+        # instance of the specified class
+        if isinstance(item, Folder):
+            # state.SetX() returns a *new* state that
+            # is a copy of the old one with just that one
+            # variable set to a new value
+            new_state = state.SetX(x, item)
+            yield new_state
+        else:
+            ReportError(["xIsNotY", x, "folder"])
+</code></pre></div></div>
+
+<h3 id="which_q-and-pronoun_q"><code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code></h3>
+<p>The quantifiers <code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code> should work just like <code class="language-plaintext highlighter-rouge">a_q</code> did in a <a href="../devhowtoQuantifierErrors">previous section</a> and report a special error if their <code class="language-plaintext highlighter-rouge">RSTR</code> can’t be resolved. If the <code class="language-plaintext highlighter-rouge">BODY</code> fails it will report its own error:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is just used as a way to provide a scope for a
+# pronoun, so it only needs the default behavior
+@Predication(vocabulary, name="pronoun_q")
+def pronoun_q(state, x, h_rstr, h_body):
+    yield from default_quantifier(state, x, h_rstr, h_body)
+
+
+@Predication(vocabulary, name="_which_q")
+def which_q(state, x_variable, h_rstr, h_body):
+    yield from default_quantifier(state, x_variable, h_rstr, h_body)
+
+
+# Many quantifiers are simply markers and should use this as
+# the default behavior
+def default_quantifier(state, x_variable, h_rstr, h_body):
+    # Find every solution to RSTR
+    rstr_found = False
+    for solution in Call(vocabulary, state, h_rstr):
+        rstr_found = True
+
+        # And return it if it is true in the BODY
+        for body_solution in Call(vocabulary, solution, h_body):
+            yield body_solution
+
+    if not rstr_found:
+        # Ignore whatever error the RSTR produced, this is a better one
+        ReportError(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
+        
+        
+# "he/she" deletes a large file
+def Example13():
+    state = State([Actor(name="Computer", person=2),
+                   Folder(name="Desktop"),
+                   Folder(name="Documents"),
+                   File(name="file1.txt", size=2000000),
+                   File(name="file2.txt", size=1000000)])
+
+    mrs = {}
+    mrs["Index"] = "e2"
+    mrs["Variables"] = {"x3": {"PERS": 3},
+                        "e2": {"SF": "prop"}}
+    mrs["RELS"] = [["pronoun_q", "x3", ["pron", "x3"],
+                    ["_a_q", "x8", [["_large_a_1", "e1", "x8"], ["_file_n_of", "x8"]],
+                     ["_delete_v_1", "e2", "x3", "x8"]]]]
+
+    state = state.SetX("mrs", mrs)
+    DelphinContext().RespondToMRS(state, mrs)
+
+# Prints:
+No, that isn't correct: There isn't pronoun pron in the system
+</code></pre></div></div>
+<p>The error shown from <code class="language-plaintext highlighter-rouge">Example13()</code> is obviously not the right answer.</p>
+
+<p>First, for “proposition failures”, we can quit saying “No, that isn’t correct:”. Just saying the error should be enough.</p>
+
+<p>Second, our simple approach of just including the quantifier worked for quantifiers like “a”, “the”, “some”, but not for special “abstract” quantifiers like <code class="language-plaintext highlighter-rouge">pronoun_q</code> or <code class="language-plaintext highlighter-rouge">which_q</code>. Abstract quantifiers are predications which don’t actually appear in the phrase but were needed by the MRS. They don’t start with an “_” and the <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> function already detects this and sets “Surface” (meaning “in the original text”) to <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. So, those are easy enough to detect and ignore:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to
+# the variable specified. Put whatever it contributes in nlg_data
+def RefineNLGWithPredication(variable, predication, nlg_data):
+    # Parse the name of the predication to find out its
+    # part of speech (POS) which could be a noun ("n"),
+    # quantifier ("q"), etc.
+    parsed_predication = ParsePredicationName(predication[0])
+
+    # If the predication has this variable as its first argument,
+    # it either *introduces* it, or is quantifying it
+    if predication[1] == variable:
+        if parsed_predication["Pos"] == "q" and parsed_predication["Surface"] is True:
+            # It is quantifying it
+            nlg_data["Quantifier"] = parsed_predication["Lemma"]
+    
+    ...
+
+# Example13 now prints:
+There isn't a pron in the system
+</code></pre></div></div>
+
+<p>We are closer!</p>
+
+<p>We have a similar issue with <code class="language-plaintext highlighter-rouge">pron</code> in that it is an abstract predication, but our code is treating it like a word from the sentence. In this case, we <em>do</em> want to have it contribute to what the variable means, but we’ll have to write some code to teach it what all the pronouns are, and to convert the DELPH-IN variable properties to their corresponding pronoun:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
+    # Parse the name of the predication to find out its
+    # part of speech (POS) which could be a noun ("n"),
+    # quantifier ("q"), etc.
+    parsed_predication = ParsePredicationName(predication[0])
+
+    # If the predication has this variable as its first argument,
+    # it either *introduces* it, or is quantifying it
+    if predication[1] == variable:
+        if parsed_predication["Pos"] == "q" and parsed_predication["Surface"] is True:
+            # It is quantifying it
+            nlg_data["Quantifier"] = parsed_predication["Lemma"]
+        else:
+            if parsed_predication["Surface"] is True:
+                # It is introducing it, thus it is the "main" description
+                # of the variable, usually a noun predication
+                nlg_data["Topic"] = parsed_predication["Lemma"]
+            else:
+                # Some abstract predications *should* contribute to the
+                # English description of a variable
+                if parsed_predication["Lemma"] == "pron":
+                    nlg_data["Topic"] = PronounFromVariable(mrs, variable)
+
+
+pronouns = {1: {"sg": "I",
+                "pl": "we"},
+            2: {"sg": "you",
+                "pl": "you"},
+            3: {"sg": "he/she",
+                "pl": "they"}
+            }
+
+
+def PronounFromVariable(mrs, variable):
+    mrs_variable = mrs["Variables"][variable]
+    if "PERS" in mrs_variable:
+        person = mrs_variable["PERS"]
+    else:
+        person = 1
+
+    if "NUM" in mrs_variable:
+        number = mrs_variable["NUM"]
+    else:
+        # "sg" is singular in MRS
+        number = "sg"
+
+    return pronouns[person][number]
+
+# Example13 now prints:
+There isn't a he/she in the system
+</code></pre></div></div>
+
+<p>Looks good!</p>
+
+<h3 id="pronx"><code class="language-plaintext highlighter-rouge">pron(x)</code></h3>
+<p><code class="language-plaintext highlighter-rouge">pron(x)</code> <em>does</em> need an error so that it can report when the user uses a pronoun that we haven’t implemented. We can’t really form sentences that will use this yet, because everything we can say has <code class="language-plaintext highlighter-rouge">pron</code> in the <code class="language-plaintext highlighter-rouge">RSTR</code> and any error we report there will get overridden by the quantifier as <a href="../devhowtoQuantifierErrors">described here</a>. We’ll add the code, though, so it can be used later.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="pron")
+def pron(state, x_who):
+    
+    ...
+    
+        else:
+            ReportError(["dontKnowPronoun", x_who])
+            
+            
+def GenerateMessage(mrs, error_term):
+    
+    ...
+    
+    elif error_constant == "dontKnowPronoun":
+        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
+        return f"I don't know who '{arg1}' is"
+
+
+
+</code></pre></div></div>
+
+<h3 id="very_x_deg"><code class="language-plaintext highlighter-rouge">very_x_deg</code></h3>
+<p><code class="language-plaintext highlighter-rouge">very_x_deg</code> doesn’t really <em>do</em> anything except give data to other words, so there are no errors to provide there. However, we will eventually have to start reporting errors if the predications don’t know how to handle a world like “very”. Just ignoring it isn’t right. We’ll do that in an upcoming section. For now, we’ll just leave it as it is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, "_very_x_deg")
+def very_x_deg(state, e_introduced, e_target):
+    # First see if we have been "very'd"!
+    initial_degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
+
+    # We'll interpret "very" as meaning "one order of magnitude larger"
+    yield state.AddToE(e_target, "DegreeMultiplier", initial_degree_multiplier * 10)
+</code></pre></div></div>
+
+<h3 id="delete_v_1"><code class="language-plaintext highlighter-rouge">delete_v_1</code></h3>
+<p>The last predication we need to add errors to is <code class="language-plaintext highlighter-rouge">delete_v_1</code>. We only have to handle the case where someone tries to delete something they shouldn’t and when someone besides the “computer” is asked to do the deleting:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_delete_v_1")
+def delete_v_1(state, e_introduced, x_actor, x_what):
+    # We only know how to delete things from the
+    # computer's perspective
+    if state.GetVariable(x_actor).name == "Computer":
+        x_what_value = state.GetVariable(x_what)
+
+        # Only allow deleting files and folders
+        if isinstance(x_what_value, (File, Folder)):
+            yield state.ApplyOperations([DeleteOperation(x_what_value)])
+            
+        else:
+            ReportError(["cantDo", "delete", x_what])
+
+    else:
+        ReportError(["dontKnowActor", x_actor])
+        
+        
+def GenerateMessage(mrs, error_term):
+    
+    ...
+    
+    elif error_constant == "dontKnowActor":
+        arg1 = EnglishForDelphinVariable(error_constant, error_arguments[1], mrs)
+        return f"I don't know who '{arg1}' is"
+
+    elif error_constant == "cantDo":
+        arg1 = error_arguments[1]
+        arg2 = EnglishForDelphinVariable(error_constant, error_arguments[2], mrs)
+        return f"I can't {arg1} {arg2}"
+</code></pre></div></div>
+
+<p>To see the result we also need to update <code class="language-plaintext highlighter-rouge">RespondToMRS()</code> to use our new error reporting for commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def RespondToMRS(self, state, mrs):
+    
+        ...
+        
+        elif sentence_force == "comm":
+            if len(solutions) &gt; 0:
+                
+                ...
+                
+            else:
+                message = GenerateMessage(mrs, self.Error())
+                print(message)
+</code></pre></div></div>
+
+<p>Now we can run the example we saw much earlier, “Delete you”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># delete you
+def Example8():
+    state = State([Actor(name="Computer", person=2),
+                   Folder(name="Desktop"),
+                   Folder(name="Documents"),
+                   File(name="file1.txt", size=2000000),
+                   File(name="file2.txt", size=1000000)])
+
+    mrs = {}
+    mrs["Index"] = "e2"
+    mrs["Variables"] = {"x3": {"PERS": 2},
+                        "x8": {"PERS": 2},
+                        "e2": {"SF": "comm"}}
+    mrs["RELS"] = [["pronoun_q", "x3", ["pron", "x3"], ["pronoun_q", "x8", ["pron", "x8"], ["_delete_v_1", "e2", "x3", "x8"]]]]
+    state = state.SetX("mrs", mrs)
+
+    DelphinContext().RespondToMRS(state, mrs)
+    
+# Prints:
+I can't delete a you
+</code></pre></div></div>
+<p>First: Notice that it is using the code for transforming (“realizing” in linguistics) <code class="language-plaintext highlighter-rouge">pron</code> in English to say “you”.  But the error itself isn’t quite right.  It shouldn’t say “a you”.</p>
+
+<p>The last trick is figuring out when a quantifier like “a” should be used added to a word. This is getting pretty deep into Natural Language Generation, which is a whole tutorial in itself. In this case, though, we can do something simple: we’ll create a special word <code class="language-plaintext highlighter-rouge">&lt;none&gt;</code> that is used when an abstract quantifier is detected. When <code class="language-plaintext highlighter-rouge">ConvertToEnglish()</code> sees it, it won’t add a default “a” to the word:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
+    parsed_predication = ParsePredicationName(predication[0])
+    if predication[1] == variable:
+        if parsed_predication["Pos"] == "q":
+            if parsed_predication["Surface"] is True:
+                nlg_data["Quantifier"] = parsed_predication["Lemma"]
+            else:
+                # abstract quantifiers *shouldn't* contribute a quantifier
+                # at all, so set a special value
+                nlg_data["Quantifier"] = "&lt;none&gt;"
+
+
+# Takes the information gathered in the nlg_data dictionary
+# and converts it, in a very simplistic way, to English
+def ConvertToEnglish(nlg_data):
+    phrase = ""
+
+    if "Quantifier" in nlg_data:
+        if nlg_data["Quantifier"] != "&lt;none&gt;":
+            phrase += nlg_data["Quantifier"] + " "
+    else:
+        phrase += "a "
+
+    if "Modifiers" in nlg_data:
+        # " ".join() takes a list and turns it into a string
+        # with the string " " between each item
+        phrase += " ".join(nlg_data["Modifiers"]) + " "
+
+    if "Topic" in nlg_data:
+        phrase += nlg_data["Topic"]
+    else:
+        phrase += "thing"
+
+    return phrase
+        
+        
+# Example8 now prints:
+I can't delete you
+</code></pre></div></div>
+
+<p>Writing a test for the other error is impossible at the moment because we need more predications to say things like “Bill deletes a file”.</p>
+
+<h3 id="errors-from-questions">Errors from Questions</h3>
+<p>We still need to update the last type of sentence (<code class="language-plaintext highlighter-rouge">ques</code>) to return proper errors:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def RespondToMRS(self, state, mrs):
+        
+        ...
+        
+        elif sentence_force == "ques":
+            # See if this is a "WH" type question
+            wh_predication = FindPredicate(mrs["RELS"], "_which_q")
+            if wh_predication is None:
+                # This was a simple question, so the user only expects
+                # a yes or no.
+                # The phrase was "true" if there was at least one answer
+                if len(solutions) &gt; 0:
+                    print("Yes.")
+                else:
+                    message = GenerateMessage(mrs, self.Error())
+                    print(f"{message}")
+            else:
+                # This was a "WH" question
+                # return the values of the variable asked about
+                # from the solution
+                # The phrase was "true" if there was at least one answer
+                if len(solutions) &gt; 0:
+                    wh_variable = wh_predication[1]
+                    for solution in solutions:
+                        print(solution.GetVariable(wh_variable))
+                else:
+                    message = GenerateMessage(mrs, self.Error())
+                    print(f"{message}")
+</code></pre></div></div>
+
+<p>Now we can run some tests:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Evaluate the proposition: "which file is large?" if there are no files
+def Example14():
+    state = State([Folder(name="Desktop"),
+                   Folder(name="Documents")])
+
+    mrs = {}
+    mrs["Index"] = "e1"
+    mrs["Variables"] = {"x1": {"NUM": "sg"},
+                        "e1": {"SF": "ques"}}
+    mrs["RELS"] = [["_which_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
+
+    state = state.SetX("mrs", mrs)
+    DelphinContext().RespondToMRS(state, mrs)
+    
+# Prints:
+There isn't which file in the system
+</code></pre></div></div>
+<p>To fix this, we need to update <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> to ignore the “which_q” predication</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
+    # Parse the name of the predication to find out its
+    # part of speech (POS) which could be a noun ("n"),
+    # quantifier ("q"), etc.
+    parsed_predication = ParsePredicationName(predication[0])
+
+    # If the predication has this variable as its first argument,
+    # it either *introduces* it, or is quantifying it
+    if predication[1] == variable:
+        if parsed_predication["Pos"] == "q":
+            if parsed_predication["Surface"] is True:
+                if parsed_predication["Lemma"] not in ["which"]:
+                    # It is quantifying it
+                    nlg_data["Quantifier"] = parsed_predication["Lemma"]
+                    
+# Now Example14() prints:
+There isn't a file in the system
+</code></pre></div></div>
+<p>Very nice!</p>
+<update date="" omitted="" for="" speed="">
+</update>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
