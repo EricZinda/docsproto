@@ -39,11 +39,6 @@
         {"Page": "DELPH-IN News", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Projects", "Pages": [
-        {"Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
-        {"Page": "DeepBank 1.0", "SrcDir": "docswiki", "SrcFile": "DeepBank_OneZero.md", "Referrer": "concept/DeepBank.md"},
-        {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"},
-        {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
-        {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"},
         {"Page": "Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
       ]}
     ],
@@ -59,7 +54,7 @@
         {"Page": "Python Primer and State", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPyhonBasics.md", "DstFile": "devhowto/devhowtoPyhonBasics.md"},
         {"Page": "Implementing a Predication", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoImplementPredication.md", "DstFile": "devhowto/devhowtoImplementPredication.md"},
         {"Page": "MRS To Python", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoMRSToPython.md", "DstFile": "devhowto/devhowtoMRSToPython.md"},
-        {"Page": "Conjuctions", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoConjunctions.md", "DstFile": "devhowto/devhowtoConjunctions.md"},
+        {"Page": "Conjunctions", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoConjunctions.md", "DstFile": "devhowto/devhowtoConjunctions.md"},
         {"Page": "Scopal Arguments", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoScopalArguments.md", "DstFile": "devhowto/devhowtoScopalArguments.md"},
         {"Page": "Event Variables", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoEvents.md", "DstFile": "devhowto/devhowtoEvents.md"},
         {"Page": "Sentence Force", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoSentenceForce.md", "DstFile": "devhowto/devhowtoSentenceForce.md"},
@@ -87,6 +82,7 @@
         {"Page": "HPSG", "SrcDir": "docswiki", "SrcFile": "HpsgTutorial.md", "Referrer": "home/TeachingCourses.md"}
       ]},
       {"Section": "Other Tutorials", "Pages": [
+        {"Page": "Ace/Agree Tutorial (2013)", "SrcDir": "docswiki", "SrcFile": "SaarlandAceAgree.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "English Resource Semantics Tutorial (NAACL 2016)", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"}
       ]}
     ],
@@ -108,7 +104,8 @@
         {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
         {"Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
         {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"},
-        {"Page": "Semantics Interface (SEM-I)", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"}
+        {"Page": "Semantics Interface (SEM-I)", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
+                {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"}
       ]},
       {"Section": "Inventory", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
@@ -164,19 +161,6 @@
       {"Section": "PyDelphin", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "PyDelphinTop.md", "Referrer": "concept/ErgApi.md"}
       ]},
-      {"Section": "ACE Parser", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
-        {"Page": "Install", "SrcDir": "docswiki", "SrcFile": "AceInstall.md", "Referrer": "home/ErsTutorial.md"},
-        {"Page": "Configuration", "SrcDir": "docswiki", "SrcFile": "AceConfiguration.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "AceOptions.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Examples", "SrcDir": "docswiki", "SrcFile": "AceUse.md", "Referrer": "home/AceInstall.md"},
-        {"Page": "LUI Mode", "SrcDir": "docswiki", "SrcFile": "AceLui.md", "Referrer": "home/AceInstall.md"},
-        {"Page": "Csaw", "SrcDir": "docswiki", "SrcFile": "AceCsaw.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Transfer", "SrcDir": "docswiki", "SrcFile": "AceTransfer.md", "Referrer": "tools/AceExperimental.md"},
-        {"Page": "Experimental", "SrcDir": "docswiki", "SrcFile": "AceExperimental.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Faq", "SrcDir": "docswiki", "SrcFile": "AceFaq.md", "Referrer": "tools/AceTop.md"},
-        {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "AceWishlist.md", "Referrer": "tools/AceTop.md"}
-      ]},
       {"Section": "LKB", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LkbTop.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Installation", "SrcDir": "docswiki", "SrcFile": "LkbInstallation.md"},
@@ -198,6 +182,19 @@
         {"Page": "Bugs", "SrcDir": "docswiki", "SrcFile": "LkbBugs.md", "Referrer": "tools/LkbTop.md"},
         {"Page": "Copyright", "SrcDir": "docswiki", "SrcFile": "LkbCopyright.md", "Referrer": "tools/LkbTop.md"}
       ]},
+      {"Section": "ACE Parser", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AceTop.md"},
+        {"Page": "Install", "SrcDir": "docswiki", "SrcFile": "AceInstall.md", "Referrer": "home/ErsTutorial.md"},
+        {"Page": "Configuration", "SrcDir": "docswiki", "SrcFile": "AceConfiguration.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Options", "SrcDir": "docswiki", "SrcFile": "AceOptions.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Examples", "SrcDir": "docswiki", "SrcFile": "AceUse.md", "Referrer": "home/AceInstall.md"},
+        {"Page": "LUI Mode", "SrcDir": "docswiki", "SrcFile": "AceLui.md", "Referrer": "home/AceInstall.md"},
+        {"Page": "Csaw", "SrcDir": "docswiki", "SrcFile": "AceCsaw.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Transfer", "SrcDir": "docswiki", "SrcFile": "AceTransfer.md", "Referrer": "tools/AceExperimental.md"},
+        {"Page": "Experimental", "SrcDir": "docswiki", "SrcFile": "AceExperimental.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Faq", "SrcDir": "docswiki", "SrcFile": "AceFaq.md", "Referrer": "tools/AceTop.md"},
+        {"Page": "Wish list", "SrcDir": "docswiki", "SrcFile": "AceWishlist.md", "Referrer": "tools/AceTop.md"}
+      ]},
       {"Section": "LKB LUI", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LkbLui.md", "Referrer": "matrix/KrgTop.md"},
         {"Page": "User Configuration", "SrcDir": "docswiki", "SrcFile": "LuiRc.md", "Referrer": "matrix/KrgTop.md"},
@@ -217,7 +214,7 @@
         {"Page": "Multi-User", "SrcDir": "docswiki", "SrcFile": "LkbLexDbMultiUser.md", "Referrer": "home/LexDbInitialize.md"},
         {"Page": "Single User", "SrcDir": "docswiki", "SrcFile": "LkbLexDbSingleUser.md", "Referrer": "grammars/JacyLexDb.md"}
       ]},
-      {"Section": "LKB [incr tsdb()]", "Pages": [
+      {"Section": "[incr tsdb()]", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ItsdbTop.md", "Referrer": "concept/QuickStart.md"},
         {"Page": "Deep Dive", "SrcDir": "docswiki", "SrcFile": "TsdbTop.md", "Referrer": "tools/AceTop.md"},
         {"Page": "Derivations", "SrcDir": "docswiki", "SrcFile": "ItsdbDerivations.md", "Referrer": "concept/ErgProcessing.md"},
@@ -535,7 +532,11 @@
       ]},
       {"Section": "Completed Projects", "Pages": [
         {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
-        {"Page": "WeScience", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "home/WikiWoods.md"}
+        {"Page": "WeScience", "SrcDir": "docswiki", "SrcFile": "WeScience.md", "Referrer": "home/WikiWoods.md"},
+        {"Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
+        {"Page": "DeepBank 1.0", "SrcDir": "docswiki", "SrcFile": "DeepBank_OneZero.md", "Referrer": "concept/DeepBank.md"},
+        {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
+        {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"}
       ]},
       {"Section": "Grammars (experimental)", "Pages": [
         {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
