@@ -73,7 +73,8 @@
         {"Page": "Quantifier Errors", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoQuantifierErrors.md", "DstFile": "devhowto/devhowtoQuantifierErrors.md"},
         {"Page": "Adding Errors to Every Predication", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoFinishingErrors.md", "DstFile": "devhowto/devhowtoFinishingErrors.md"},
         {"Page": "Error Scenarios Summary", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoErrorScenarios.md", "DstFile": "devhowto/devhowtoErrorScenarios.md"},
-        {"Page": "Choosing the Right Interpretation", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoWhichParseAndTree.md", "DstFile": "devhowto/devhowtoWhichParseAndTree.md"},
+        {"Page": "Phrases To MRS and Trees", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoGenerateMRSAndTrees.md", "DstFile": "devhowto/devhowtoGenerateMRSAndTrees.md"},
+        {"Page": "Choosing the 'Right' Tree", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoWhichParseAndTree.md", "DstFile": "devhowto/devhowtoWhichParseAndTree.md"},
         {"Page": "A. Python Decorators", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPythonDecorators.md", "DstFile": "devhowto/devhowtoPythonDecorators.md"},
         {"Page": "B. Parsing Predications", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoParsePredication.md", "DstFile": "devhowto/devhowtoParsePredication.md"}
       ]},
