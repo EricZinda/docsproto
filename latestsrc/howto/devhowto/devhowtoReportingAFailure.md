@@ -64,5 +64,4 @@ def large_a_1(state, e_introduced, x_target):
 With that, if we run "A file is large" through the system with no large files, we'll get: "A thing is not large".  This is the best we can do for now. 
 
 The [next section](../devhowtoConceptualFailures) will improve it to say "A file is not large" which is more clear.
-
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoReportingAFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
