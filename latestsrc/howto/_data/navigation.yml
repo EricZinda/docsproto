@@ -64,7 +64,7 @@ toc:
         url: "/devhowto/devhowtoFinishingErrors/"
       - title: "Error Scenarios Summary"
         url: "/devhowto/devhowtoErrorScenarios/"
-      - title: "Phrases To MRS and Trees"
+      - title: "Phrases to MRS and Trees"
         url: "/devhowto/devhowtoGenerateMRSAndTrees/"
       - title: "Choosing the 'Right' Tree"
         url: "/devhowto/devhowtoWhichParseAndTree/"
