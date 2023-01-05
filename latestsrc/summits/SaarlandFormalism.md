@@ -92,7 +92,7 @@ lexicon and the preferences.
 
 Emily: Redwoods or TIGER?
 
-Yi: [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank). For German maybe TIGER, maybe also the work
+Yi: [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank). For German maybe TIGER, maybe also the work
 done by Bart.
 
 Emily: The grammar already gives you the hard co-variance.
@@ -179,5 +179,4 @@ encode some ambiguous properties. but haven't thought about generation
 much. In sum, for the whole DELPH-IN, this might be some thought out of
 the box. We could do some experimental study about soft-contraints,
 disjunctions, etc., brining them "back" to the formalism.
-
-Last update: 2013-08-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandFormalism/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

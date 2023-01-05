@@ -11,7 +11,7 @@ compatibility across languages
 
 **Francis:**
 
-- There is a [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor) mapping to DMRS on [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor)
+- There is a [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) mapping to DMRS on [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor)
 page. There's a long tail of things where the representation in MRS
 is different from the representation in WN. E.g. "here" in WN is
 here\_a\_1, "here" in ERG (e10:loc\_nonsp = here\_a1; x11:place\_n =
@@ -92,5 +92,4 @@ grass\_snakes and brown\_snakes
 - We're building a token mapper from ERG+WN, where Dan will make the
 ERG find compatibility when necessary and Christian (from WN) will
 do the same with WN.
-
-Last update: 2013-07-29 by LilingTan [[edit](https://github.com/delph-in/docs/wiki/SaarlandMrsWordnet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

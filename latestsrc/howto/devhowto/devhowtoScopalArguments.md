@@ -69,5 +69,4 @@ At this point we have a fully functional evaluator, but there are a few things s
 - Reporting errors
 
 The [next topics](../devhowtoEvents) will tackle these issues.
-
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoScopalArguments.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

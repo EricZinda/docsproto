@@ -48,6 +48,8 @@ toc:
         url: "/ErgSemantics_Conventions/"
       - title: "Semantics Interface (SEM-I)"
         url: "/ErgSemantics_Interface/"
+      - title: "Semantics Discovery"
+        url: "/ErgSemantics_Discovery/"
   - title: "Inventory"
     children:
       - title: "Overview"

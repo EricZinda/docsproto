@@ -33,7 +33,7 @@ removal.
 
 Also used to serve non-versioned content for download, e.g. the
 materials from most previous summits and bulk like release versions of
-[DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank), the WeSearch Corpus, etc. One might want to
+[DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank), the WeSearch Corpus, etc. One might want to
 spring-clean a little (possibly consulting the web server logs) to
 determine which of these remain active.
 
@@ -87,7 +87,7 @@ target of spam attacks).
 | *repository*         | *gbytes* | *revisions* |
 | LOGON                | 99.9     | 3989        |
 | ERG                  | 36       | 2090        |
-| [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) | 27       | 1306        |
+| [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) | 27       | 1306        |
 | LKB                  | 0.9      | 4724        |
 | Burger               | 0.002    | 5           |
 | KRG                  | 0.3      | 107         |
@@ -446,5 +446,4 @@ git repo that mirrors it to have the benefit of issue tracking, etc.
 oe: We're not going to modernize in one 50 min discussion, or even in
 one year. I'd be happy for you to conduct that pilot and for others to
 try out M$ [GitHub](/GitHub) and report back in a year.
-
-Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/VirtualInfrastructure/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -149,7 +149,7 @@ be just:
      x14:_guard_n_1⟨14:19⟩[]
      x9:_dog_n_1⟨20:23⟩[]
 
-NTU WN tags both the single and MWE in this case, [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor) maps
+NTU WN tags both the single and MWE in this case, [SemCor](../SemCor) maps
 only the MWE I think we want:
 
     x6:_cat_n_1 = cat_n1
@@ -213,5 +213,4 @@ How should we show this?
 
 Many more corner cases to come :-): "Sleeping Beauty: is sleep v or n",
 more complex MWEs, ... .
-
-Last update: 2013-07-29 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LexsemMapping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

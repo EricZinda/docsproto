@@ -26,7 +26,7 @@ Hag;
 - bug fix in SPPP (interface to FreeLing) addressing multiple
 punctuation marks (oe);
 - increased granularity in \[incr tsdb()\] treebanking timestamps;
-- ERG version 1004 (corresponding to initial [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods)
+- ERG version 1004 (corresponding to initial [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods)
 release);
 - up-to-date versions of SRG and FreeLing (montse, oe, lluis);
 - migrate general [FreeLing](/FreeLing) files into upc/ sub-tree
@@ -41,5 +41,4 @@ peter)
 - inclusion of external PCFG training scripts (bart);
 - experimental support for forthcoming ERG version (1007)
 - new Pango-enabled LUI by default (documentation needs updates)
-
-Last update: 2010-07-08 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonParis/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

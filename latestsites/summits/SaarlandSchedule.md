@@ -87,7 +87,7 @@ Contact Emily and Francis with suggestions for changes.
 |                                        **Thursday 1 August**                                         |                                                                                                                                                                                                |
 |                                       Room 1 (Same as plenary)                                       |                                                                                           Other room                                                                                           |
 |                                       9-10:30 *SIG Session 1*                                        |                                                                                                                                                                                                |
-|   Getting started with ACE (Woodley) and agree (Glenn) Notes: [SaarlandAceAgree](../SaarlandAceAgree)   |                                                           LTOP on NP (Emily) Notes: [SaarlandLtopDiscussion](../SaarlandLtopDiscussion)                                                           |
+|   Getting started with ACE (Woodley) and agree (Glenn) Notes: [SaarlandAceAgree](https://blog.inductorsoftware.com/docsproto/howto/SaarlandAceAgree)   |                                                           LTOP on NP (Emily) Notes: [SaarlandLtopDiscussion](../SaarlandLtopDiscussion)                                                           |
 |                                       10:30-11 *Coffee break*                                        |                                                                                                                                                                                                |
 |                                       11-12:30 *SIG Session 2*                                       |                                                                                                                                                                                                |
 |                              LUI chart generator browser (Woodley, Dan)                              | MWE- specifically [PARSEME](http://www.cost.eu/domains_actions/ict/Actions/IC1207) and PARSEME/DELPH-IN coordination/collaboration (Ann) Notes: [SaarlandMweDiscussion](../SaarlandMweDiscussion) |
@@ -133,7 +133,7 @@ list](http://lists.delph-in.net/archives/rmrs/2013/000108.html));
 ydd *zeyen* might also be relevant (Emily)
   
   - oe, Joshua, sanghoun, David?
-- ERG 1212 release party and [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) packaging (dan, oe,
+- ERG 1212 release party and [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) packaging (dan, oe,
 yi; *closed*)
 - Revisiting reducing complexity (antske, can be short: e.g. a coffee
 break discussion)
@@ -147,7 +147,7 @@ Tania, Petter, Petya
   - oe, woodley, bernd (maybe)
 - Comparing MRSs - tools and methods (dan)
   - bec, yi, Rui, Mathieu, sanghoun, Prescott, Francis (low)
-- PCFG and dependency conversion+parsing with [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank)(s)
+- PCFG and dependency conversion+parsing with [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)(s)
 (yi, oe, angelina)
   
   - Rui, Mathieu, Tim, Prescott, Montse
@@ -180,5 +180,4 @@ sprints](http://www.booksprints.net/))
 - [PaperCuts](../PaperCuts)
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
-
-Last update: 2013-09-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

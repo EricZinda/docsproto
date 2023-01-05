@@ -121,7 +121,7 @@ Woodley: Yes.
 Emily: The question is why we have to allow semantically contentful
 prepositions to take wh clauses.
 
-Dan: Frequent in [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank)
+Dan: Frequent in [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)
 
 Emily: Semantically contentful?
 
@@ -463,5 +463,4 @@ situations where it's coerced from subject position, less obvious.
 
 Dan: The burden of proof is on one who wants to say that the variation
 doesn't happen.
-
-Last update: 2014-02-18 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014Nominalization/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

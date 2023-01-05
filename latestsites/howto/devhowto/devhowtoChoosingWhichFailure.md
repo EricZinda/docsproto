@@ -165,5 +165,4 @@ def ReportError(error):
 ```
 
 The system will now remember which is the right ("deepest") error to report. The [next section](../devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
-
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoChoosingWhichFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

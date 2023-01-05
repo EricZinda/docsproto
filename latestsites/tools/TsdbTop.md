@@ -60,7 +60,7 @@ believe)
 3. Read in a grammar with rsa(). For English (rsa :erg) or (rsa :terg)
 (loading either the most recent release of the ERG or the trunk
 version) is most likely what you want, or (rsa :deepbank) if working
-with [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank).
+with [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank).
 
 If you need to do slightly different things (or are merely curious),
 lmt() and rsa() are defined in $LOGONROOT/dot.clinit.cl.
@@ -112,5 +112,4 @@ extract them to the comfort of your own code.
 A final useful trick is liberal use of the ELI mode's *go to definition*
 functionality (bound by default to C-c .), which takes you to the source
 location where any function, class or variable is defined.
-
-Last update: 2014-09-04 by ArneSkjærholt [[edit](https://github.com/delph-in/docs/wiki/TsdbTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

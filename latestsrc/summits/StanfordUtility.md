@@ -204,7 +204,7 @@ to ensure a high level of consistency before doing so.
 
 Luis: But even the top parse is useful.
 
-Emily: For a resource like [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods), we should clearly
+Emily: For a resource like [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods), we should clearly
 label. Formats?
 
 ...
@@ -220,5 +220,4 @@ need something, it fits in easily on top of that. As opposed to saying,
 oh what you really need is something else - no trap doors.
 
 Stephan: Time... for the bus...
-
-Last update: 2016-06-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordUtility/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

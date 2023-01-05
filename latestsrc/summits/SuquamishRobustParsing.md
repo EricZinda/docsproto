@@ -206,7 +206,7 @@ Interesting trade-offs between value of data and cost of manual effort.
 Scientifically sounds interesting, but maybe better to try self-training
 more before investing manual effort. Something to quantify without doing
 that experiment is how much the quality of the parse selection model
-affect the result of PCFG. Maybe produce a [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) with
+affect the result of PCFG. Maybe produce a [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) with
 something less than our best parse selection model.
 
 Stephan: What's less attractive than lead?
@@ -220,7 +220,7 @@ accurate, but it could be interesting to actually measure that
 difference.
 
 Stephan: Would potentially be happy to produce a dirt version of
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) for this purpose.
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) for this purpose.
 
 Emily: How does one evaluate
 
@@ -462,5 +462,4 @@ scope info in the first place.
 
 Stephan: Have to talk about details: They have one predicate per word.
 In that sense they are further removed from semantics than we are.
-
-Last update: 2011-06-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SuquamishRobustParsing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -70,7 +70,7 @@ Francis: *Finally I must admit that I nearly called this essay The
 Cathedral and the Agora, the latter being the Greek word for
 marketplace.*
 
-Dan: The task of annotating [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) led me to think this is
+Dan: The task of annotating [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) led me to think this is
 broken/not scalable. Can't keep it consistent from one paragraph to the
 next, even if conventions written down.
 
@@ -270,5 +270,4 @@ I'm prepared to accept that we do that, but I'd like it to be
 acknowledged. I believe you can do things to proper nouns that you can
 interpret that you can't do to ones that you can't. We're losing
 something if we're not modelling it, but we're always losing something.
-
-Last update: 2014-06-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014ProperNouns/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

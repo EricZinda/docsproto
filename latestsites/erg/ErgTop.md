@@ -62,9 +62,7 @@ The early development and first application of the ERG was in the [VerbMobil](ht
 
 # References
 
-Bond, F., Oepen, S., Nichols, E., Flickinger, D., Velldal, E., &
-Haugereid, P. (2011). Deep open-sourc emachine translation. Machine
-Translation , 25 , 87-105. doi: 10.1007/s10590-011-9099-4
+Bond, F., Oepen, S., Nichols, E., Flickinger, D., Velldal, E., & Haugereid, P. (2011). Deep open-source machine translation. Machine Translation, 25, 87-105. doi: 10.1007/s10590-011-9099-4
 
 Copestake, A. and Flickinger, D. (2000). An open-source grammar development environment and broad-coverage English grammar using HPSG.  Proceedings of the Second Conference on Language Resources and Evaluation (LREC-2000), Athens.
 
@@ -88,7 +86,7 @@ of the ninth international conference on language resources and
 evaluation (LREC'14) (pp. 875-881). Reykjavik, Iceland: European
 Language Resources Association (ELRA).
 
-Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank). A
+Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank). A
 dynamically annotated treebank of the Wall Street Journal. In (p.
 85-96). Lisbon, Portugal: Edições Colibri.
 
@@ -146,5 +144,4 @@ Computational Linguistics.
 
 Yao, X., Bouma, G., & Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue & Discourse, 3(2), 11-42.
-
-Last update: 2021-11-04 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

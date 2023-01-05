@@ -33,7 +33,7 @@ This project is aiming to create a corpus annotated with linguistic
 phenomena independently of existing grammars for the purposes of
 investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
-[DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) and focusing on syntactic and morphosyntactic
+[DeepBank](../DeepBank) and focusing on syntactic and morphosyntactic
 phenomena is currently being developed by [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher),
 [TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender). For further
 details and background, please see the paper *Constructing a Phenomenal
@@ -72,5 +72,4 @@ documentation with phenomenon labels on constraints. Originally
 currently there is only a [partial catalogue for the Wambaya
 grammar](https://blog.inductorsoftware.com/docsproto/summits/WambayaPhenomenaCatalogue). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-
-Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

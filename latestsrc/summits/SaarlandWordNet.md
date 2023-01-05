@@ -25,7 +25,7 @@ dependencies (e.g. dogs...worms), turned out it helped
   - using supertypes, up to 28.2
   - oe;fb ... this is a smaller model, some lexicalized features
 were thrown away
-- Zina's work had little gains on [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor), but small gains on
+- Zina's work had little gains on [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor), but small gains on
 [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)
 
 ...
@@ -185,5 +185,4 @@ FB: Finish with a plea: if people are interested in tagging more data,
 I'll put something up on the wiki. We're trying to come up with a small
 set of things that we'd like to all annotate together, e.g. Cathedral
 and Bazaar, etc..
-
-Last update: 2013-08-01 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/SaarlandWordNet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

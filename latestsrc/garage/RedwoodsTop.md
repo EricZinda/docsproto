@@ -75,24 +75,24 @@ petet | "Evaluation By Textual Entailment (Test)" |  || https://link.springer.co
 # Current Development Status
 
 The latest public release of the Redwoods Treebank (and the associated
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) Treecache, i.e. a very large collection of ERG
+[WikiWoods](../WikiWoods) Treecache, i.e. a very large collection of ERG
 parses) is the [Ninth
 Growth](http://svn.delph-in.net/erg/tags/1214/tsdb/gold/), including an
-improved and moderately enlarged version of [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank). The
+improved and moderately enlarged version of [DeepBank](../DeepBank). The
 Ninth Growth used the 1214 version of the ERG. [Flickinger
 (2011)](http://lists.delph-in.net/archives/developers/attachments/20180514/ffe9ae3d/attachment-0001.pdf)
 gives brief descriptions of several of the larger components in the
 appendix. Those components include: Verbmobil (vm\*), E-commerce (ec\*),
-LOGON (jh\*, ps\*, tg\*, rondane, hike), [SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor) (sc\*),
+LOGON (jh\*, ps\*, tg\*, rondane, hike), [SemCor](../SemCor) (sc\*),
 Wikipedia (ws01-13, ws214), and an Eric Raymond essay (cb). The main
 addition to the Ninth Growth over previous versions is the
-[DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) annotation of the Wall Street Journal, sections
+[DeepBank](../DeepBank) annotation of the Wall Street Journal, sections
 00-21 (the same text annotated in the Penn Tree Bank), described in the
 [proceedings of TLT 2011](http://tlt11.clul.ul.pt/ProceedingsTLT11.tgz).
 There are also two profiles (rtc000, rtc001) from the Tanaka (Pacling
 2001) corpus, two profiles of user-generated web content studied in the
 [WeScience](../WeScience) project, and several profiles also from the Brown
-[SemCor](https://blog.inductorsoftware.com/docsproto/home/SemCor) that were treebanked for a [SemEval](/SemEval) shared
+[SemCor](../SemCor) that were treebanked for a [SemEval](/SemEval) shared
 task after the ERG 1214 release was frozen (cf\*, cg\*, ck\*, cl\*,
 cm\*, cn\*, cp\*, cr\*), described by [Oepen et al.
 (2015)](http://www.aclweb.org/anthology/S15-2153). Finally, the Ninth
@@ -118,7 +118,7 @@ Eighth Growth was first released as a separate package dubbed [DeepBank
 The grammar and treebanks have been stable since August 2016, and the
 semantic graphs from DeepBank 1.1 have been [released in a variety of
 formats](http://sdp.delph-in.net). The corresponding 1214 release of the
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) Treecache is expected by the summer of 2017.
+[WikiWoods](../WikiWoods) Treecache is expected by the summer of 2017.
 
 Earlier relevant Redwoods revisions include the [Second
 Growth](http://redwoods.stanford.edu/ftp/2nd/), [Third
@@ -219,7 +219,7 @@ Engineering](http://lists.delph-in.net/archives/developers/attachments/20180514/
 *Language from a cognitive perspective: Grammar, usage, and
 processing*, pages 31-50.
 - Dan Flickinger, Valia Kordoni and Yi Zhang (2012).
-[DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank): A Dynamically Annotated Treebank of the Wall
+[DeepBank](../DeepBank): A Dynamically Annotated Treebank of the Wall
 Street Journal. In [Proceedings of
 TLT-11](http://tlt11.clul.ul.pt/ProceedingsTLT11.tgz), Lisbon,
 Portugal.
@@ -284,5 +284,4 @@ project](http://www.edinburghstanfordlink.org/projects/intro.html)),
 the LinGO Laboratory), and the [Norwegian LOGON
 Initiative](http://www.emmtee.net/) (through financial support to Dan
 Flickinger and Stephan Oepen).
-
-Last update: 2022-11-02 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/RedwoodsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -107,5 +107,4 @@ def Example3():
 ```
 
 Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments [in the next topic](../devhowtoScopalArguments), we'll be able to handle full well-formed trees.
-
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoConjunctions.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

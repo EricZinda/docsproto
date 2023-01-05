@@ -5,13 +5,20 @@ people have written to make it easier to work with various DELPH-IN
 systems and grammars. If you have a tool that you use regularly with the
 DELPH-IN systems and think might be worth sharing, list it here.
 
-## Parser/Generators
+## Parsers/Generators
 
+- [LKB](../LkbInstallation) Linguistic Knowledge Builder
+  
+  - Grammar development environment including support for parsing,
+generation, visualization, and debugging.
+- [LKB-FOS](../LkbFos) ([JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll))
+  
+  - Fully open-source LKB
 - [ACE](../AceTop) ([WoodleyPackard](/WoodleyPackard))
   
   - ACE (the Answer Constraint Engine) is a processor for DELPH-IN
 grammars, supporting both parsing and generation.
-- [Pet](https://blog.inductorsoftware.com/docsproto/garage/PetTop) Platform for Experimentation with efficient HPSG
+- [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) Platform for Experimentation with efficient HPSG
 processing Techniques
   
   - An efficient parser for DELPH-IN grammars.
@@ -20,20 +27,13 @@ processing Techniques
   
   - A project to develop a new grammar engineering environment for
 working with DELPH-IN style TDL grammars.
-- [LKB](../LkbInstallation) Linguistic Knowledge Builder
-  
-  - Grammar development environment including support for parsing,
-generation, visualization, and debugging.
-- [LKB-FOS](../LkbFos) ([JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll))
-  
-  - Fully open-source LKB
 
 ## Utilities
 
 - [Converter](http://moin.delph-in.net/ToolsTop/converter.html)
 ([AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/summits/AngelinaIvanova))
   
-  - Converts ERG derivatino tree to bilexical syntactic
+  - Converts ERG derivation tree to bilexical syntactic
 dependencies, and ERG EDs to bilexical semantic dependencies
 (see ${LOGONROOT}/uio/dtm/converter.py)
 - [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools)
@@ -126,5 +126,4 @@ repo](https://git.ling.washington.edu/agg/aggregation)
 improvements over the initial [LkbMacintosh](../LkbMacintosh).
 - [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop): XML-based middleware for the
 integration of deep and shallow NLP components
-
-Last update: 2021-06-12 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

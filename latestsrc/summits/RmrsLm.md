@@ -273,7 +273,7 @@ are part of your knowledge of language that are not part of the lexical
 resources yet.
 
 DPF: Definitely nodding vigorously about the need for MWEs. That's the
-single thing I run into most frequently in [DeepBank](https://blog.inductorsoftware.com/docsproto/home/DeepBank) tree
+single thing I run into most frequently in [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) tree
 banking. The most common problem is missing MWEs. There's no single
 source to say what they should be. Easy to add, hard to find.
 
@@ -585,7 +585,7 @@ SR: Discriminitive models are easier because you can just throw
 everything in.
 
 WP: Training a discriminative model on a lot of data (like
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) lot of data) is going to be tricky.
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) lot of data) is going to be tricky.
 
 SR: My experience is that maxent scales pretty well.
 
@@ -606,5 +606,4 @@ of the 10th International Conference on Theoretical and
 Methodological Issues in Machine Translation, Skövde, Sweden, 2007.
 - E. Velldal. Empirical Realization Ranking Ph.D. thesis, Department
 of Informatics, University of Oslo Oslo, Norway, 2008
-
-Last update: 2020-07-17 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/RmrsLm/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

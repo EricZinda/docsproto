@@ -29,13 +29,13 @@ semantic signature, this was not done in the first pass.
 
 Once the grammar entities and clusters were extracted, we indexed the
 existing collection of Redwoods treebanks (including
-[DeepBank](../DeepBank)) for all grammar entity types. This enabled us to
+[DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)) for all grammar entity types. This enabled us to
 extract examples for each grammar entity of interest. These lists of
 examples include the three shortest available across the Redwoods
 corpora, plus all examples from the MRS test suite. Working from the
 phrase structure and lexical rule clusters and their associated
 examples, we produced an initial set of proposed phenomena to document
-(listed on the [inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) page). Among the
+(listed on the [inventory](../ErgSemantics_Inventory) page). Among the
 phenomena, we found a few types of information in the MRS which we
 believe to be MRS-based encodings of quasi-semantic or para-semantic
 phenomena. These are listed separately.
@@ -45,11 +45,10 @@ for the lexical types. We looked some at the clusters and examples for
 lexical types, and from there were able to extract a non-exhaustive list
 of phenomena as well as a candidate set of basic components of semantic
 analyses which should be documented. These, too, are noted on the
-[inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) page.
+[inventory](../ErgSemantics_Inventory) page.
 
 # More Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) Main Page
-- [How to Cite this Work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
-
-Last update: 2014-11-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Discovery/_edit)]{% endraw %}
+- [ErgSemantics](../ErgSemantics) Main Page
+- [How to Cite this Work](../ErgSemantics_HowToCite)
+<update date omitted for speed>{% endraw %}

@@ -117,5 +117,4 @@ No, that isn't correct: a thing is not a file
 
 That one isn't good. The [next section](../devhowtoQuantifierErrors) will analyze why, and how to fix it.
 
-
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoRobustFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

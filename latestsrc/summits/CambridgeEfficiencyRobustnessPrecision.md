@@ -76,7 +76,7 @@ right move here.
 
 Francis: If one of the things we do is produce more training data, one
 approach is to process other people's markup. e.g. in
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods), use wikilinks to produce Dan's special
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods), use wikilinks to produce Dan's special
 constituent brackets.
 
 Ann: Basically treat as named entities.
@@ -86,7 +86,7 @@ talking about <https://nlp.stanford.edu/pubs/markup.pdf>?).
 
 Ann: Also, mine e.g. Wikipedia titles for named entities.
 
-Dan: Currently not used in [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods). We know we're
+Dan: Currently not used in [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods). We know we're
 throwing away possibly useful information.
 
 Woodley: But you use italics.
@@ -258,5 +258,4 @@ constituents? Ace accepted those brackets, right? Links?
 - blaze tool ? a tool that Francis mentioned that were implemented/use
 to pre-processing treebanks? Link?
 - error mining project 1997-1998? (mentioned by Ann) Link?
-
-Last update: 2019-07-17 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/CambridgeEfficiencyRobustnessPrecision/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

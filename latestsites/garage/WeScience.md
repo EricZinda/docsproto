@@ -115,7 +115,7 @@ textual formats, for example using a command like the following:
 
 If there were broad interest, we may also provide a textual export
 version of WeScience for direct download in the future (as is available
-for the [WikiWoods](https://blog.inductorsoftware.com/docsproto/home/WikiWoods) Treecache, where running the export step
+for the [WikiWoods](../WikiWoods) Treecache, where running the export step
 requires non-trivial computational resources).
 
 # Further Notes for DELPH-IN Users
@@ -133,5 +133,4 @@ organizing the WeScience Treebank.
 # Outlook: Next Steps
 
 # Acknowledgements
-
-Last update: 2012-08-05 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeScience/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
