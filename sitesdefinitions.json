@@ -52,8 +52,8 @@
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Developer Tutorial", "Pages": [
-        {"Page": "Overview", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoOverview.md"},
-        {"Page": "Minimal Recursion Semantics", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoMRS.md"},
+        {"Page": "Overview", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoOverview.md", "DstFile": "devhowtoOverview.md"},
+        {"Page": "Minimal Recursion Semantics", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoMRS.md", "DstFile": "devhowto/devhowtoMRS.md"},
         {"Page": "Well-Formed Trees", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoWellFormedTree.md"},
         {"Page": "The Predication Contract", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPredicationContract.md"},
         {"Page": "Python Primer and State", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPyhonBasics.md"},

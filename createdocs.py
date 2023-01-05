@@ -363,13 +363,18 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
     tocs = {}
     for fileDefinition in sites_definition["Pages"]:
         src_file = os.path.join(src_root, fileDefinition["SrcDir"], fileDefinition["SrcFile"])
-        dst_file = os.path.join(dst_root, fileDefinition["Site"], fileDefinition["SrcFile"])
+        if "DstFile" in fileDefinition:
+            dst_relative_path = fileDefinition["DstFile"]
+        else:
+            dst_relative_path = fileDefinition["SrcFile"]
+
+        dst_file = os.path.join(dst_root, fileDefinition["Site"], dst_relative_path)
 
         # Remember this doc in the site so we can find broken links later
         file_site = fileDefinition["Site"]
         if fileDefinition["Site"] not in docs:
             docs[file_site] = {}
-        path_lower = get_site_relative_page_link(file_site, fileDefinition["SrcFile"]).lower()
+        path_lower = get_site_relative_page_link(file_site, dst_relative_path).lower()
         docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
 
         if fileDefinition["Section"] != "<todo>":
@@ -381,11 +386,12 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
 
             if fileDefinition["Site"] not in tocs:
                 tocs[fileDefinition["Site"]] = []
-            site_relative_link = get_site_relative_page_link(fileDefinition["Site"], fileDefinition["SrcFile"])
+            site_relative_link = get_site_relative_page_link(fileDefinition["Site"], dst_relative_path)
             tocs[fileDefinition["Site"]].append({"Section": fileDefinition["Section"], "Page": fileDefinition["Page"], "Link": site_relative_link, "SrcFile": fileDefinition["SrcFile"]})
 
     with open(index_file, "a") as txtFile:
         txtFile.write("]\n")
+
     return docs, links, tocs, errors
 
 
