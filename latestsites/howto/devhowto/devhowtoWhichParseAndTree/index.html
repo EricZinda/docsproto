@@ -322,9 +322,7 @@
         <h2 id="determining-the-right-parse-and-tree">Determining the Right Parse and Tree</h2>
 <p>As discussed in the <a href="../devhowtoMRS">MRS topic</a> and the <a href="../devhowtoWellFormedTree">Well-Formed Trees topic</a>, a single phrase like “Look under the table” produces <code class="language-plaintext highlighter-rouge">m</code> MRS documents, and each of those produces <code class="language-plaintext highlighter-rouge">n</code> well-formed trees, thus generating <code class="language-plaintext highlighter-rouge">m x n</code> potential interpretations of a phrase. How do you determine which one is the one the user <em>meant</em>?</p>
 
-<p>The short answer is that, just like when you are talking to a human, you never <em>really</em> know what they meant unless you pick your best guess and confirm it with them. But: there are a couple of things that help:</p>
-
-<p>First, <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> uses a machine-learning-based algorithm to sort the MRS documents and returns “most common” ones first. This means the more obscure MRS interpretations will be sorted last. Unfortunately, there is no such mechanism for the well-formed trees. So, at best we have a “partial” ordering of the <code class="language-plaintext highlighter-rouge">m x n</code> trees in terms of “most commonly meant”.</p>
+<p>The short answer is that, just like when you are talking to a human, you never <em>really</em> know what they meant unless you pick your best guess and confirm it with them. But: there are a couple of things that help: First, <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> uses a machine-learning-based algorithm to sort the MRS documents and returns “most common” ones first. This means the more obscure MRS interpretations will be sorted last. Unfortunately, there is no such mechanism for the well-formed trees. So, at best we have a “partial” ordering of the <code class="language-plaintext highlighter-rouge">m x n</code> trees in terms of “most commonly meant”.</p>
 
 <p>With that in mind, a simple approach to choosing the “right” interpretation works surprisingly well in practice:</p>
 
@@ -465,7 +463,37 @@ def generate_message(mrs, error_term):
     ...
 </code></pre></div></div>
 
-<p>With this, we now have a fully functioning interactive natural language system!</p>
+<p>With this, we now have a (simple) fully functioning interactive natural language system! Here’s a simple example that runs it in a loop, and an interactive session using some phrases we’ve used throughout the tutorial to test it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example16():
+    state = State([Actor(name="Computer", person=2),
+                   Folder(name="Desktop"),
+                   Folder(name="Documents")])
+
+    user_interface = UserInterface(state, vocabulary)
+
+    while True:
+        user_interface.interact_once(respond_to_mrs_tree)
+        print()
+        
+# Example15 session:
+
+? a file is large
+Yes, that is true.
+
+? which file is large?
+File(name=file1.txt, size=2000000)
+
+
+? which folder is large?
+a folder is not large
+
+? delete a folder
+Done!
+
+? delete me
+There isn't I in the system
+</code></pre></div></div>
 
 <p>Last update: 2023-01-05 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoWhichParseAndTree.md">edit</a>]</p>
 
