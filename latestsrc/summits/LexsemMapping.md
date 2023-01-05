@@ -4,19 +4,19 @@ space (part of the work on [Lexical Semantics](https://blog.inductorsoftware.com
 
 Contents
 
-1. [Single Words](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   1. [Proper Nouns](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   2. [Decomposed nouns](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   3. [Superlatives](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   4. [Different POS](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-2. [Multiple Words](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   1. [Compositional Compound Nouns](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
+1. [Single Words](../LexsemMapping#Single_Words)
+   1. [Proper Nouns](../LexsemMapping#Proper_Nouns)
+   2. [Decomposed nouns](../LexsemMapping#Decomposed_nouns)
+   3. [Superlatives](../LexsemMapping#Superlatives)
+   4. [Different POS](../LexsemMapping#Different_POS)
+2. [Multiple Words](../LexsemMapping#Multiple_Words)
+   1. [Compositional Compound Nouns](../LexsemMapping#Compositional_Compound_Nouns)
    2. [Non Compositional Compound
-Nouns](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   3. [Idioms](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-3. [Phrases](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   1. [Coordination](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
-   2. [Light Verbs](https://blog.inductorsoftware.com/docsproto/garage/LexsemMapping)
+Nouns](../LexsemMapping#Non_Compositional_Compound_Nouns)
+   3. [Idioms](../LexsemMapping#Idioms)
+3. [Phrases](../LexsemMapping#Phrases)
+   1. [Coordination](../LexsemMapping#Coordination)
+   2. [Light Verbs](../LexsemMapping#Light_Verbs)
 
 ## Single Words
 
@@ -213,4 +213,5 @@ How should we show this?
 
 Many more corner cases to come :-): "Sleeping Beauty: is sleep v or n",
 more complex MWEs, ... .
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-29 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LexsemMapping/_edit)]{% endraw %}

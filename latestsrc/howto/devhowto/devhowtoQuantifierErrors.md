@@ -158,4 +158,5 @@ def a_q(state, x_variable, h_rstr, h_body):
 
 Now when we say "A file is large" in a world with no files we get "There isn't a file in the system". Much better!
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoQuantifierErrors.md)]{% endraw %}

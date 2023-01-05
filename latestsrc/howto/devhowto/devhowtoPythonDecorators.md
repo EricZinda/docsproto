@@ -36,4 +36,5 @@ def Predication(vocabulary, name=None):
 
     return PredicationDecorator
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPythonDecorators.md)]{% endraw %}

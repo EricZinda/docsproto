@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: https://blog.inductorsoftware.com/docsproto/home/Home
-  - title: "How-to"
+  - title: "How-To"
     url: https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome
   - title: "ERG"
     url: https://blog.inductorsoftware.com/docsproto/erg/ErgTop

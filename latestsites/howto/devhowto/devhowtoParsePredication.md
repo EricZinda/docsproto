@@ -49,4 +49,5 @@ def ParsePredicationName(name):
 
     return result
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoParsePredication.md)]{% endraw %}

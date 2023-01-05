@@ -1,5 +1,5 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-title: DELPH-IN How-to
+title: DELPH-IN How-To
 baseurl: /docsproto/howto
 github:
   # This is a project site since it is connected to
