@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="DELPH-IN How-to">
 <meta property="og:title" content="DELPH-IN How-to">
-<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial/">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowtoOverview/">
 
 
   <meta property="og:description" content="An amazing website.">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial/">
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowtoOverview/">
 
 
 
@@ -201,7 +201,7 @@
         
         <ul>
           
-            <li><a href="/docsproto/howto/devhowtoOverview/">Overview</a></li>
+            <li><a href="/docsproto/howto/devhowtoOverview/" class="active">Overview</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
           
@@ -261,7 +261,7 @@
         
         <ul>
           
-            <li><a href="/docsproto/howto/DelphinTutorial/" class="active">Overview</a></li>
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
           
             <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
           
@@ -317,30 +317,16 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="background">Background</h1>
+        <h1 id="overview">Overview</h1>
+<p>If you are trying to use natural language as an interface to software, the DELPH-IN ecosystem provides a chain of tools that can help. This tool chain can take phrases from <a href="../NorsourceTop">many different languages</a> and convert them into a format called MRS which is designed to be processed by software with high fidelity to the speaker’s meaning.</p>
 
-<p>At the <a href="https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop">2013 DELPH-IN Summit</a>, the first day was opened by
-a short ‘tutorial’ of key DELPH-IN ingredients—aiming to give a
-high-level picture of the DELPH-IN ecosystem and introduce relevant
-jargon for novices. The 2013 tutorial was presented by
-<a href="https://blog.inductorsoftware.com/docsproto/summits/EmilyBender">EmilyBender</a> and <a href="https://blog.inductorsoftware.com/docsproto/summits/StephanOepen">StephanOepen</a>. Following
-is an über-summary of the material presented (including that which we
-didn’t have time for, as well as further addenda after the fact):</p>
+<p>This tutorial walks through the steps required to build a natural language interface to software using DELPH-IN by building an interface to a computer’s file system as an example, but the concepts apply to any type of system. When finished, you should understand how to evaluate natural language using MRS with a surprisingly small amount of code. The bulk of the code in a final system will be in implementing the terms used in your domain.</p>
 
-<ul>
-  <li><a href="../DelphinTutorial_Processing">Processing</a></li>
-  <li><a href="../DelphinTutorial_Grammars">Grammars</a></li>
-  <li><a href="../DelphinTutorial_Formalisms">Formalisms</a></li>
-  <li><a href="../DelphinTutorial_Distributions">Distributions</a></li>
-</ul>
+<p>We will use the <a href="../ErgTop">English Resource Grammar (ERG)</a> from DELPH-IN to parse English, but the concepts are the same no matter <a href="../NorsourceTop">which DELPH-IN grammar</a> you use.  In fact, the library functions we build have no dependency on the grammar at all and can be used for any of the DELPH-IN grammars.</p>
 
-<p>Please give feedback (e.g. on remaining open questions, inaccuracies, or
-omissions) to Emily and Stephan.</p>
+<p>Python was chosen as a simple, popular, open-source language available on many platforms. However, the examples and approach shown here could be implemented in any language. There is not much code in the core solver and associated helper functions that would need to be translated. The overwhelming majority of code will be in the implementation of the terms you implement for your own domain.</p>
 
-<p>Another source of terms and definitions is the (more than mildly
-out-of-date) <a href="https://blog.inductorsoftware.com/docsproto/summits/DelphinGlossary">DelphinGlossary</a>.</p>
-
-<h3 id="how-to-cite-this-resource">How to cite this resource</h3>
+<p>The tutorial was designed to be read in order, but the most important background for all of the sections is in the first two sections, <a href="../devhowtoMRS">The Minimal Recursion Semantics (MRS) Format</a> and <a href="../devhowtoWellFormedTree">Building Well-Formed MRS Trees</a>, which should be read in order.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 

@@ -23,9 +23,9 @@ toc:
   - title: "Developer Tutorial"
     children:
       - title: "Overview"
-        url: "/docs/devhowto/devhowtoOverview/"
+        url: "/devhowtoOverview/"
       - title: "Minimal Recursion Semantics"
-        url: "/docs/devhowto/devhowtoMRS/"
+        url: "/devhowto/devhowtoMRS/"
       - title: "Well-Formed Trees"
         url: "/docs/devhowto/devhowtoWellFormedTree/"
       - title: "The Predication Contract"
