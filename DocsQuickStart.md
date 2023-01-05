@@ -1,5 +1,5 @@
 # Updating the docs
-The DELPH-IN docs are generated from the content in the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) and the [DELPH-IN docs wiki](https://github.com/EricZinda/docsproto) without modification. A page from either WIKI shows up in the docs, as is, except that the links are fixed up to keep readers within the docs site. Pages are included in the docs simply by adding a row to a configuration file, [as described below](#how-to-add-pages-to-the-docs).
+The DELPH-IN docs are generated from the content in any GitHub repository including the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) and the [DELPH-IN docs wiki](https://github.com/EricZinda/docsproto). Pages from a repository are included in the docs simply by adding a row to a configuration file, [as described below](#how-to-add-pages-to-the-docs). Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site. 
 
 This is all managed in a git repository, so changes are tracked, can be reverted, etc.  Mistakes can be cleaned up, don't worry about messing things up!
 
@@ -25,7 +25,6 @@ The section that gets modified for changes inside this structure is `Pages`. Tha
     {
       "docswiki": {"Repository": "delph-in/docs/wiki"},
       "websitewiki": {"Repository": "ericzinda/docsproto/wiki"}
-
     },
   "Sites":
   [

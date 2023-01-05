@@ -124,6 +124,7 @@ The `Page` definition fields are:
 - `Page`: The name that should be shown to the user for the page
 - `SrcDir`: The name of the directory that contains the repository that contains it. This directory name is defined in the workflow.
 - `SrcFile`: The filename and path to the file in the directory that should be included in the documentation.
+- `DstFile`: (optional) this field can be included if the name of the original page needs to be changed when it is included in the documentation (e.g. to avoid a conflict) or if the file needs to be put in a location different from its default.  If `DstFile` is not included, the default location in the documentation site will be the same as the relative location in the original. For example, if the file was in the root of its source repository, it will be in the root of the documentation site too. If it was in the `foo/bar/goo` directory, that is where it will get put in the documentation site as well. NOTE: Any directory structure deeper than one directory seems to be ignored by the Jekyll system, so use this field to copy files into a structure that is only one directory deep.
 - `Referrer`: Not used by the system but included sometimes to indicate what is linking to the file.  Any other fields can be added to the page definition and they will be ignored, as this field is.  Just informational. 
 
 Simply creating a new `Section` definition and putting pages inside it causes them to be included in the site, and in that section of the docs.
