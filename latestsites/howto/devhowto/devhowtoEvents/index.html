@@ -1,0 +1,525 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-to</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-to">
+<meta property="og:title" content="DELPH-IN How-to">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-to Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-to"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-to
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-to</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjuctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/" class="active">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the Right Interpretation</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="event-variables">Event Variables</h2>
+<p>So far, we have been conveniently ignoring any event variables (variables that start with “e”). Where instance (<code class="language-plaintext highlighter-rouge">x</code>) variables contain a single instance for any solution, event (<code class="language-plaintext highlighter-rouge">e</code>) variables are designed to build up a structure. They are how modifiers to a word get tracked.</p>
+
+<p>For example, we’ve been talking about a <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3) and _file_n_of(x3)</code> and have ignored what the event variable <code class="language-plaintext highlighter-rouge">e2</code> is for. We can’t do this if we are trying to find a <code class="language-plaintext highlighter-rouge">_very_x_deg(e2, e1) and _large_a_1(e1,x3) and _file_n_of(x3)</code>.</p>
+
+<p>In an MRS, any predication except a quantifier is said to “introduce” its first argument. If you look closely you’ll see that every variable is only “introduced” by one predication in a given MRS.  In a sense, that variable <em>represents</em> that predication.  If a predication like <code class="language-plaintext highlighter-rouge">_large_a_1(e2,x3)</code> introduces an event variable <code class="language-plaintext highlighter-rouge">e2</code>, it does so to provide a place that represents it for other predications to hang modifiers.</p>
+
+<p>For example, to represent something that is “very large”, the word “very” needs to be able to attach its “veryness” to “large”. For “very very large” you build a chain where the first “very” modifies the second which modifies “large”. This is all done with events, and it happens like this because languages allow all kinds of recursive constructions. DELPH-IN needed a way to model this.</p>
+
+<p>Here are the predications generated for: “very large” and “very very large” (note that the comma (“,”) is being used to indicate a conjunction):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Very large
+_very_x_deg(e2, e1), _large_a_1(e1,x3)
+
+# Very very large
+_very_x_deg(e3, e2), _very_x_deg(e2, e1), _large_a_1(e1,x3)
+</code></pre></div></div>
+
+<p>You can see that in “very large” <code class="language-plaintext highlighter-rouge">_very_x_deg</code> takes the event variable <em>introduced by</em> <code class="language-plaintext highlighter-rouge">_large_a_1</code> as an argument. The job of <code class="language-plaintext highlighter-rouge">_very_x_deg</code> is to put something in the event that <code class="language-plaintext highlighter-rouge">_large_a_1</code> can look for so that its behavior can be modified to be “very large”.</p>
+
+<p><code class="language-plaintext highlighter-rouge">_very_x_deg</code> also introduces <em>its own</em> event variable that other predications can modify as, for example, in “very very large”. The first “very” modifies the event variable introduced by the second “very”, etc.</p>
+
+<p>This means, first, that we need a mechanism for handling event variables and, second, that our implementation of <code class="language-plaintext highlighter-rouge">_large_a_1</code> needs to be modified to pay attention to modifications to its event.</p>
+
+<p>Since event variables   need to be able to capture what could be a large buildup of modifications in a given sentence, we’ll use a dictionary for them. We’ll add a helper function to the <code class="language-plaintext highlighter-rouge">State</code> object to modify them:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class State(object):
+    def __init__(self, objects):
+        self.variables = dict() # a empty dictionary
+        self.objects = objects
+
+    def GetVariable(self, variable_name):
+        return self.variables.get(variable_name, None)
+
+    def SetX(self, variable_name, item):
+        new_state = State(self.state) 
+        new_state.variables = copy.deepcopy(self.variables)
+        new_state[variable_name] = item        
+        return new_state
+
+    def AddToE(self, eventName, key, value):
+        newState = copy.deepcopy(self)
+        if newState.GetVariable(eventName) is None:
+            newState.variables[eventName] = dict()
+
+        newState.variables[eventName][key] = value
+        return newState
+
+    def AllIndividuals(self):
+        for item in self.objects:
+            yield item
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">AddToE()</code> adds the key/value pair it is given to a (possibly new) dictionary that represents the event state and returns a new <code class="language-plaintext highlighter-rouge">State</code> object, just like <code class="language-plaintext highlighter-rouge">SetX()</code> does.</p>
+
+<p>Now let’s create the <code class="language-plaintext highlighter-rouge">_very_x_deg</code> predication and modify the <code class="language-plaintext highlighter-rouge">_large_a_1</code> predication to pay attention to any modifications to its event.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is a helper function that any predication that can
+# be "very'd" can use to understand just how "very'd" it is
+def DegreeMultiplierFromEvent(state, e_introduced):
+    # if a "very" is modifying this event, use that value
+    # otherwise, return 1
+    e_introduced_value = state.GetVariable(e_introduced)
+    if e_introduced_value is None or "DegreeMultiplier" not in e_introduced_value:
+        degree_multiplier = 1
+    else:
+        degree_multiplier = e_introduced_value["DegreeMultiplier"]
+
+    return degree_multiplier
+
+
+@Predication(vocabulary, "_very_x_deg")
+def very_x_deg(state, e_introduced, e_target):
+    # First see if we have been "very'd"!
+    initial_degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
+
+    # We'll interpret "very" as meaning "one order of magnitude larger"
+    yield state.AddToE(e_target, "DegreeMultiplier", initial_degree_multiplier * 10)
+
+
+@Predication(vocabulary, name="_large_a_1")
+def large_a_1(state, e_introduced, x_target):
+    x_target_value = state.GetVariable(x)
+    if x_target_value is None:
+        iterator = state.AllIndividuals()
+    else:
+        iterator = [x_target_value]
+
+    # See if any modifiers have changed *how* large 
+    # we should be
+    degree_multiplier = DegreeMultiplierFromEvent(state, e_introduced)
+
+    for item in iterator:
+        # Arbitrarily decide that "large" means a size greater
+        # than 1,000,000 and apply any multipliers that other
+        # predications set in the introduced event
+        if hasattr(item, 'size') and item.size &gt; degree_multiplier * 1000000:
+            new_state = state.SetX(x_target, item)
+            yield new_state
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">very_x_deg</code> adds a “DegreeMultiplier” to the event dictionary of its target, and also pays attention to <em>its own</em> introduced event in case someone added one there.  This allows “very very very very…” to work.</p>
+
+<p><code class="language-plaintext highlighter-rouge">large_a_1</code> now uses the same logic to determine how much to modify its default notion of “large”. Obviously, what “large”, “very”, etc mean are very domain specific, but this illustrates the concept.</p>
+<update date="" omitted="" for="" speed="">
+</update>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
