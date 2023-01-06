@@ -518,7 +518,7 @@
   "SourceRepositories":
     {
       "docswiki": {"Repository": "delph-in/docs/wiki"},
-      "websitewiki": {"Repository": "ericzinda/docsproto/wiki"}
+      "websitewiki": {"Repository": "ericzinda/docsproto/wiki", "ReportUnusedWikiEntries": True}
     },
   "Sites":
   [
@@ -554,6 +554,7 @@
 <ul>
   <li><code class="language-plaintext highlighter-rouge">key</code> is the name that will be used by the <code class="language-plaintext highlighter-rouge">SrcDir</code> field in every page in the <code class="language-plaintext highlighter-rouge">Pages</code> section to refer to the repository.  It must match the directory name where the repository got cloned by the workflow.</li>
   <li><code class="language-plaintext highlighter-rouge">Repository</code> is the name of the repository in Github.  If it is a Wiki, replace the dot in the name (delph-in/docs.wiki) with a slash (delph-in/docs/wiki)</li>
+  <li><code class="language-plaintext highlighter-rouge">ReportUnusedWikiEntries</code> should be set to true if you want the <code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages</code> report to include any pages from a github wiki site that were <em>not</em> included in the docs</li>
 </ul>
 
 <p>To add a new repository, a row must be added here <em>and</em> the <a href="https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml">workflow</a> must be modified to also clone it so the data is available. You can see how this is done in the workflow by looking for where the existing repositories are cloned and adding a new section.</p>
@@ -638,7 +639,7 @@
 <ul>
   <li><code class="language-plaintext highlighter-rouge">All Links</code>: A Json file that lists every link in every document included in every site and whether they are broken, valid, etc. Useful for debugging. If you chose to check external links (which takes about 1.5 hours) the validity of those will be included. Otherwise only internal links between wiki pages are checked.</li>
   <li><code class="language-plaintext highlighter-rouge">All Pages</code>: Lists every page in every site.</li>
-  <li><code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages</code>: Creates page definitions suitable for including in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> for every broken link. Note that this includes adding entries for wiki pages that <em>don’t exist</em> (those will have the <code class="language-plaintext highlighter-rouge">FileMissing</code> field set in their definition). This allows you to simply copy the <code class="language-plaintext highlighter-rouge">File</code> definition to the <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren’t included, and so on).  If you included all of these files in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code>, there would be no broken (Wiki) links!</li>
+  <li><code class="language-plaintext highlighter-rouge">Fixes for Broken Links to Pages</code>: Creates page definitions suitable for including in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> for every broken link and for every page that was not included from a site that had <code class="language-plaintext highlighter-rouge">ReportUnusedWikiEntries</code> set to true (this allows detecting pages that weren’t linked to and not included). Note that this includes adding entries for wiki pages that <em>don’t exist</em> (those will have the <code class="language-plaintext highlighter-rouge">FileMissing</code> field set in their definition). This allows you to simply copy the <code class="language-plaintext highlighter-rouge">File</code> definition to the <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code> file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren’t included, and so on).  If you included all of these files in <code class="language-plaintext highlighter-rouge">sitesdefinition.json</code>, there would be no broken (Wiki) links!</li>
 </ul>
 
 <blockquote>
