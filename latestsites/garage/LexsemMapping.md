@@ -213,5 +213,4 @@ How should we show this?
 
 Many more corner cases to come :-): "Sleeping Beauty: is sleep v or n",
 more complex MWEs, ... .
-
-Last update: 2013-07-29 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LexsemMapping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

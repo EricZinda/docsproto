@@ -232,5 +232,4 @@ def TryAlternativeHoleAssignments(allHolesDict, nodeRemainingHolesListOrig, node
     # At this point we tried all the floaters in this hole
     return
 ```
-
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoWellFormedTree.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

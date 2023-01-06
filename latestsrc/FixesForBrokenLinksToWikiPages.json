@@ -1,9 +1,10 @@
   {
     "howto": [
       {"Section": "Developer Tutorial", "Pages": [
-        {"Page": "NorsourceTop", "SrcDir": "perplexity", "SrcFile": "NorsourceTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
-        {"Page": "ErgTop", "SrcDir": "perplexity", "SrcFile": "ErgTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
+        {"Page": "DelphinApplications", "SrcDir": "perplexity", "SrcFile": "DelphinApplications.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
         {"Page": "devhowtoMRS", "SrcDir": "perplexity", "SrcFile": "devhowtoMRS.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
+        {"Page": "ErgTop", "SrcDir": "perplexity", "SrcFile": "ErgTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
+        {"Page": "NorsourceTop", "SrcDir": "perplexity", "SrcFile": "NorsourceTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
         {"Page": "devhowtoWellFormedTree", "SrcDir": "perplexity", "SrcFile": "devhowtoWellFormedTree.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
         {"Page": "devhowtoWhichParseAndTree", "SrcDir": "perplexity", "SrcFile": "devhowtoWhichParseAndTree.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true},
         {"Page": "quantifier-predications", "SrcDir": "perplexity", "SrcFile": "quantifier-predications.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true},

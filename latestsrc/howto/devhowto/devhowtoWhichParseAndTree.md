@@ -174,5 +174,4 @@ Done!
 ? delete him
 There isn't 'he/she' in the system
 ```
-
-Last update: 2023-01-05 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoWhichParseAndTree.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
