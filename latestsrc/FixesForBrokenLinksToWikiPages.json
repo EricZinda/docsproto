@@ -6,14 +6,7 @@
     ],
     "howto": [
       {"Section": "Developer Tutorial", "Pages": [
-        {"Page": "DelphinApplications", "SrcDir": "perplexity", "SrcFile": "DelphinApplications.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
-        {"Page": "ErgTop", "SrcDir": "perplexity", "SrcFile": "ErgTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
-        {"Page": "NorsourceTop", "SrcDir": "perplexity", "SrcFile": "NorsourceTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},
-        {"Page": "quantifier-predications", "SrcDir": "perplexity", "SrcFile": "quantifier-predications.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true},
-        {"Page": "other-variables-types-i-u-p", "SrcDir": "perplexity", "SrcFile": "other-variables-types-i-u-p.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true},
-        {"Page": "ErgSemantics_Basics", "SrcDir": "perplexity", "SrcFile": "ErgSemantics_Basics.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true},
-        {"Page": "x-instance-variables", "SrcDir": "perplexity", "SrcFile": "x-instance-variables.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true},
-        {"Page": "ResolvingTheMRSTree", "SrcDir": "perplexity", "SrcFile": "ResolvingTheMRSTree.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true}
+        {"Page": "NorsourceTop", "SrcDir": "perplexity", "SrcFile": "NorsourceTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true}
       ]}
     ],
     "garage": [
