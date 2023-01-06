@@ -465,6 +465,29 @@ def propose_broken_links(all_links, pages_definitions, input_content_root, uniqu
             base_referrer = f'{link["Site"]}/{link["SrcFile"]}'
             propose_link_recursive(input_content_root, proposals, pages_definitions["SourceRepositories"], pages_definitions["Pages"], unique_existing_pages, parser, base_referrer, link)
 
+    # Also include as proposals any files that are in a repository marked as ReportUnusedWikiEntries = True that weren't included
+    for site_item in pages_definitions["SourceRepositories"].items():
+        if "ReportUnusedWikiEntries" in site_item[1] and site_item[1]["ReportUnusedWikiEntries"] is True:
+            # Get the list of files in the root of the site
+            search_directory = os.path.join(input_content_root, site_item[0])
+            files_not_included = []
+            files = (file for file in os.listdir(search_directory)
+                     if os.path.isfile(os.path.join(search_directory, file)))
+            for file in files:  # You could shorten this to one line, but
+                found = False
+                for included_page in pages_definitions["Pages"]:
+                    if included_page["SrcDir"] == site_item[0] and included_page["SrcFile"] == file:
+                        # Found it!
+                        found = True
+                        break
+                if not found:
+                    base_referrer = f'<not included from site {site_item[0]}>'
+                    propose_link_recursive(input_content_root, proposals, pages_definitions["SourceRepositories"],
+                                           pages_definitions["Pages"], unique_existing_pages, parser, base_referrer,
+                                           {"TargetFile": file, "SrcDir": site_item[0], "Site": "<none", "Section": "<none>", "LinkTarget": file, "SrcFile": file})
+
+                    files_not_included.append({"Repository": site_item[1]["Repository"], "File": file})
+
     return proposals
 
 

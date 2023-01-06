@@ -8,6 +8,8 @@ Figure out templates using Jekyll and see if they meet our needs
         - Update it to accept a file that is a list of files to copy    
             - This might work to build one giant filter: https://stackoverflow.com/questions/1133698/using-find-to-locate-files-that-match-one-of-multiple-patterns
 
+- Get the list of docs in the wiki that aren't in the sitedefinitions.json
+
 - Put content from different sources in different base directories so they can't overwrite each other.
 - Get some base pages working right
     - (done) Build script to generate sites

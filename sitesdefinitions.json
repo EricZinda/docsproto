@@ -15,7 +15,7 @@
     {
       "main": {"Repository": "ericzinda/docsproto"},
       "websitewiki": {"Repository": "ericzinda/docsproto/wiki"},
-      "docswiki": {"Repository": "delph-in/docs/wiki"},
+      "docswiki": {"Repository": "delph-in/docs/wiki", "ReportUnusedWikiEntries": true},
       "perplexity": {"Repository": "ericzinda/Perplexity"}
     },
   "Sites":
