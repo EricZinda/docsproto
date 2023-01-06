@@ -26,8 +26,8 @@
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
     {"SiteFullName": "DELPH-IN Grammar Catalogue", "SiteNavigationName": "Grammars", "Site": "grammars"},
     {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix", "HomePage": "MatrixTop.md"},
-    {"SiteFullName": "DELPH-IN Garage", "SiteNavigationName": "Garage", "Site": "garage"},
-    {"SiteFullName": "DELPH-IN Summits", "SiteNavigationName": "Summits", "Site": "summits", "HomePage": "SummitTop.md"}
+    {"SiteFullName": "DELPH-IN Summits", "SiteNavigationName": "Summits", "Site": "summits", "HomePage": "SummitTop.md"},
+    {"SiteFullName": "DELPH-IN Garage", "SiteNavigationName": "Garage", "Site": "garage"}
   ],
   "Pages":
   {
@@ -868,7 +868,6 @@
         {"Page": "Testing Discussion", "SrcDir": "docswiki", "SrcFile": "LisbonTestingDiscussion.md", "Referrer": "summits/JerezTop.md"}
       ]},
       {"Section": "<todo>", "Pages": [
-        {"Page": "WikiName", "SrcDir": "docswiki", "SrcFile": "WikiName.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md", "FileMissing": true},
         {"Page": "ScottDrellishak", "SrcDir": "docswiki", "SrcFile": "ScottDrellishak.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "FrancisBond", "SrcDir": "docswiki", "SrcFile": "FrancisBond.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
