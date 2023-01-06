@@ -58,7 +58,7 @@ To do this, let's create a function, `EnglishForDelphinVariable()`, which takes:
 2. The MRS
 3. The place in the tree for which we want the English
 
-It will walk the tree in execution order using the function we've written [in a previous section](../devhowtoSimpleQuestions) called `WalkTreeUntil()`. This function will pass each predication, in execution order, to a different function called `RefineNLGWithPredication()` ("NLG" stands for "Natural Language Generation"). That function will determine if the predication is restricting the `variable` in question somehow. If so, it adds some data to a structure called `nlg_data` that records what the English description of the restriction is. At the end, we'll call a function (`ConvertToEnglish()`) that takes all the gathered data and turns it into English:
+It will walk the tree in execution order using the function we've written in a previous section called `WalkTreeUntil()`. This function will pass each predication, in execution order, to a different function called `RefineNLGWithPredication()` ("NLG" stands for "Natural Language Generation"). That function will determine if the predication is restricting the `variable` in question somehow. If so, it adds some data to a structure called `nlg_data` that records what the English description of the restriction is. At the end, we'll call a function (`ConvertToEnglish()`) that takes all the gathered data and turns it into English:
 
 ```
 # Given the index where an error happened and a variable,
@@ -93,7 +93,7 @@ def EnglishForDelphinVariable(failure_index, variable, mrs):
     return ConvertToEnglish(nlg_data)
 ```
 
-For now, `RefineNLGWithPredication()` takes a very simple approach to seeing if a predication is restricting the `variable`: Predications which *introduce* a variable (as described in a [previous section](../devhowtoEvents)) are, in some sense, the base "thing" that the variable is. They should clearly be part of its description. Quantifiers for that variable describe "how much" of it there is, so they should be included as well. There is lots more we could add (and we will later) but keeping it simple is fine for now:
+For now, `RefineNLGWithPredication()` takes a very simple approach to seeing if a predication is restricting the `variable`: Predications which *introduce* a variable (as described in a previous section) are, in some sense, the base "thing" that the variable is. They should clearly be part of its description. Quantifiers for that variable describe "how much" of it there is, so they should be included as well. There is lots more we could add (and we will later) but keeping it simple is fine for now:
 
 ```
 # See if this predication in any way contributes words to 
@@ -116,7 +116,7 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
             nlg_data["Topic"] = parsed_predication["Lemma"]
 ```
 
-> Note: The code for `ParsePredicationName()` is described in an [appendix](../devhowtoParsePredication)
+> Note: The code for `ParsePredicationName()` is described in an appendix
 
 
 Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is *much* more complicated than this, and we'll tackle doing it "more right" later. For now, our naive approach will illustrate the ideas:

@@ -323,7 +323,7 @@
         
         <h2 id="building-well-formed-mrs-trees">Building Well-Formed MRS Trees</h2>
 <blockquote>
-  <p>To understand this section, first make sure you have a <a href="../devhowtoMRS">basic understanding of the MRS format</a>.</p>
+  <p>To understand this section, first make sure you have a basic understanding of the MRS format.</p>
 </blockquote>
 
 <p>Let’s use the sentence “every book is in a cave” as an example. If the phrase is parsed with <a href="http://sweaglesw.org/linguistics/ace/">the ACE parser</a>, you get an MRS document like this:</p>
@@ -387,11 +387,11 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 <p>This interpretation is what we need in order to eventually “solve” the phrase for the variables it contains. This topic describes how to build that tree.</p>
 
 <h2 id="holes-and-constraints">Holes and Constraints</h2>
-<p>“Holes” are <code class="language-plaintext highlighter-rouge">h</code> arguments in a predication that refer to a <a href="../devhowtoMRS#predication-labels">predicate label</a> that is <em>not</em> defined. In the above MRS, <code class="language-plaintext highlighter-rouge">h0</code> (the <code class="language-plaintext highlighter-rouge">TOP:</code>), <code class="language-plaintext highlighter-rouge">h11</code>, <code class="language-plaintext highlighter-rouge">h12</code>, <code class="language-plaintext highlighter-rouge">h5</code>, and <code class="language-plaintext highlighter-rouge">h6</code> are all “holes” since none of the predicates use those names as their <code class="language-plaintext highlighter-rouge">LBL:</code>.</p>
+<p>“Holes” are <code class="language-plaintext highlighter-rouge">h</code> arguments in a predication that refer to a predicate label that is <em>not</em> defined. In the above MRS, <code class="language-plaintext highlighter-rouge">h0</code> (the <code class="language-plaintext highlighter-rouge">TOP:</code>), <code class="language-plaintext highlighter-rouge">h11</code>, <code class="language-plaintext highlighter-rouge">h12</code>, <code class="language-plaintext highlighter-rouge">h5</code>, and <code class="language-plaintext highlighter-rouge">h6</code> are all “holes” since none of the predicates use those names as their <code class="language-plaintext highlighter-rouge">LBL:</code>.</p>
 
 <p>The <code class="language-plaintext highlighter-rouge">HCONS</code> section of the MRS puts <em>CONS</em>traints on which placement of <em>H</em>andles in holes is valid.</p>
 
-<p>The only kind of constraint used in “modern” MRS is a <code class="language-plaintext highlighter-rouge">qeq</code> constraint.  A <code class="language-plaintext highlighter-rouge">qeq</code> constraint always relates a hole to a (non-hole) handle and says that the handle must be a direct or eventual child in the tree. Furthermore, if not directly connected, the only things between the hole and the handle can be <a href="../devhowtoMRS#quantifier-predications">quantifiers</a>.</p>
+<p>The only kind of constraint used in “modern” MRS is a <code class="language-plaintext highlighter-rouge">qeq</code> constraint.  A <code class="language-plaintext highlighter-rouge">qeq</code> constraint always relates a hole to a (non-hole) handle and says that the handle must be a direct or eventual child in the tree. Furthermore, if not directly connected, the only things between the hole and the handle can be quantifiers.</p>
 
 <p>Said a different way:</p>
 
@@ -436,7 +436,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 
 <p>The rules for MRS say that any variable in the MRS is “globally defined” (or “existentially qualified” in logic terms) for the whole structure <em>except</em> for <code class="language-plaintext highlighter-rouge">x</code> variables.  So, both <code class="language-plaintext highlighter-rouge">e2</code> and <code class="language-plaintext highlighter-rouge">i8</code> don’t need any special handling, they are globally defined.</p>
 
-<p><code class="language-plaintext highlighter-rouge">x</code> variables, on the other hand, can <em>only</em> be defined by <a href="../devhowtoMRS#quantifier-predications">quantifiers</a>, and are <em>only</em> defined for the branches of the tree that are attached to the quantifier’s scopal (<code class="language-plaintext highlighter-rouge">h</code>) arguments: <code class="language-plaintext highlighter-rouge">RSTR</code> and <code class="language-plaintext highlighter-rouge">BODY</code>.</p>
+<p><code class="language-plaintext highlighter-rouge">x</code> variables, on the other hand, can <em>only</em> be defined by quantifiers, and are <em>only</em> defined for the branches of the tree that are attached to the quantifier’s scopal (<code class="language-plaintext highlighter-rouge">h</code>) arguments: <code class="language-plaintext highlighter-rouge">RSTR</code> and <code class="language-plaintext highlighter-rouge">BODY</code>.</p>
 
 <p>So, while the predications can be in any order in the tree with respect to their <code class="language-plaintext highlighter-rouge">e</code>  (or <code class="language-plaintext highlighter-rouge">i</code> or <code class="language-plaintext highlighter-rouge">u</code> if it had them) arguments, the tree must be checked to make sure all of the <code class="language-plaintext highlighter-rouge">x</code> arguments have an eventual parent which is a quantifier which puts them in scope (i.e. has the <code class="language-plaintext highlighter-rouge">x</code> variable as its first argument: <code class="language-plaintext highlighter-rouge">ARG0</code>). This is an additional constraint that has to be checked to build a “well-formed” tree.</p>
 
@@ -453,7 +453,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
 
 <h2 id="a-simple-fast-enough-algorithm">A Simple, Fast Enough, Algorithm</h2>
 <blockquote>
-  <p>It isn’t important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We’ll use this code as a library routine all throughout the tutorial, but we won’t dive into its implementation again. If you’ve followed along and understood the content so far, you’ve got enough background to go to the next section where we start to dive into <a href="../devhowtoPredicationContract">how to implement the predications</a>.</p>
+  <p>It isn’t important to fully understand this algorithm as long as you understand what it has to do: build a well-formed MRS tree, and what the rules are in doing that. We’ll use this code as a library routine all throughout the tutorial, but we won’t dive into its implementation again. If you’ve followed along and understood the content so far, you’ve got enough background to go to the next section where we start to dive into how to implement the predications.</p>
 </blockquote>
 
 <p>This description is for those that are interested in how the algorithm works, and isn’t necessary for understanding the rest of the tutorial:</p>

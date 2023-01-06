@@ -44,7 +44,7 @@ is a verb.
 # Documentation
 
 - Tutorial slides: <http://www.delph-in.net/2009/cm.pdf>
-- [Practical notes](../ChartMappingSetup)
+- Practical notes
 
 # Publications
 

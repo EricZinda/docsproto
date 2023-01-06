@@ -362,7 +362,7 @@
         return ergFile
 </code></pre></div></div>
 
-<p>Next, we need to take those MRS documents and turn them into well-formed trees. For this, we’ll call the function we wrote in the section on <a href="../devhowtoWellFormedTree">well-formed trees</a> called <code class="language-plaintext highlighter-rouge">valid_hole_assignments()</code> that does the assignments of predication labels to “holes” as discussed in that section.  The <code class="language-plaintext highlighter-rouge">tree_from_assignments()</code> function does the work of actually building a tree from those assignments and represents the tree using the text format we designed in the <a href="../devhowtoMRSToPython">MRS to Python topic</a>:</p>
+<p>Next, we need to take those MRS documents and turn them into well-formed trees. For this, we’ll call the function we wrote in the section on well-formed trees called <code class="language-plaintext highlighter-rouge">valid_hole_assignments()</code> that does the assignments of predication labels to “holes” as discussed in that section.  The <code class="language-plaintext highlighter-rouge">tree_from_assignments()</code> function does the work of actually building a tree from those assignments and represents the tree using the text format we designed in the MRS to Python topic:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def trees_from_mrs(self, mrs):
         # Create a dict of predications using labels as the key for easy access when building trees
@@ -437,7 +437,7 @@
 [['_a_q', 'x10', [['_cave_n_1', 'x10']], [['_every_q', 'x3', [['_book_n_of', 'x3', 'i8']], [['_in_p_state', 'e9', 'e2', 'x10'], ['ellipsis_ref', 'e2', 'x3']]]]]]
 [['_every_q', 'x3', [['_book_n_of', 'x3', 'i8']], [['_a_q', 'x10', [['_cave_n_1', 'x10']], [['_in_p_state', 'e9', 'e2', 'x10'], ['ellipsis_ref', 'e2', 'x3']]]]]]
 </code></pre></div></div>
-<p>The <a href="../devhowtoWhichParseAndTree">next topic</a> will describe a heuristic for determining which of those trees is the one the user meant.</p>
+<p>The next topic will describe a heuristic for determining which of those trees is the one the user meant.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 

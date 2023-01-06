@@ -146,7 +146,7 @@ preserved on the following pages, for historical interest:
 
 - [Earlier DELPH-IN news items](../DelphinNews)
 - [Links to earlier DELPH-IN-related projects](../OldProjects)
-- [Earlier overviews of the DELPH-IN consortium](https://blog.inductorsoftware.com/docsproto/summits/OldOverviews)
+- [Earlier overviews of the DELPH-IN consortium](https://blog.inductorsoftware.com/docsproto/garage/OldOverviews)
 
 ## Further Information
 

@@ -1,7 +1,7 @@
 {% raw %}## Responding to Simple Propositions
-"Propositions" are sentences that declare something to be true like "A file is very large". If true, a human would expect something like "yep, you are right" or "correct!" or "yes, this is true" as a response (error cases will be [handled later](../devhowtoChoosingWhichFailure)). A phrase is a proposition if the "sentence force" (SF) property of its MRS `index` variable is `prop` as [described in the previous section](../devhowtoSentenceForce).
+"Propositions" are sentences that declare something to be true like "A file is very large". If true, a human would expect something like "yep, you are right" or "correct!" or "yes, this is true" as a response (error cases will be handled later). A phrase is a proposition if the "sentence force" (SF) property of its MRS `index` variable is `prop` as described in the previous section.
 
-Below is the MRS for "A file is very large". As described in the [previous section](../devhowtoSentenceForce): The `INDEX = e2`, and `e2` has a sentence force of "proposition": `SF: prop`.
+Below is the MRS for "A file is very large". As described in the previous section: The `INDEX = e2`, and `e2` has a sentence force of "proposition": `SF: prop`.
 ```
 [ TOP: h0
 INDEX: e2
@@ -99,5 +99,5 @@ def Example5():
 Yes, that is true.
 ```
 
-In the [next section](../devhowtoSimpleQuestions), we'll respond to questions.
+In the next section, we'll respond to questions.
 <update date omitted for speed>{% endraw %}

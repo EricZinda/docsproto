@@ -74,6 +74,8 @@ toc:
         url: "/WikiWoods/"
       - title: "SC corpus"
         url: "/SemCor/"
+      - title: "Old DELPH-IN Overview"
+        url: "/OldOverviews/"
   - title: "Grammars (experimental)"
     children:
       - title: "French"

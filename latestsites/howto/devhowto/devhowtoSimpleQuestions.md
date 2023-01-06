@@ -1,5 +1,5 @@
 {% raw %}## Simple Questions
-Note that the MRS for "Is a file large?" is identical to the proposition "A file is large." *except* that it has a different [sentence force](../devhowtoSentenceForce) of `SF: ques`:
+Note that the MRS for "Is a file large?" is identical to the proposition "A file is large." *except* that it has a different sentence force of `SF: ques`:
 
 ```
 [ TOP: h0

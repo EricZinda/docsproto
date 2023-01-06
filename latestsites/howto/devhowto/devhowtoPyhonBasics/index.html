@@ -322,7 +322,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="python-primer-and-the-state-object">Python Primer and the State object</h2>
-<p>The <a href="../devhowtoPredicationContract">predication contract</a> can be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can read the code and understand the examples. Even if you know Python, skim through this section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
+<p>The predication contract can be implemented in any programming language, but we’ll be using Python. This section should give enough background so that even readers not familiar with Python can read the code and understand the examples. Even if you know Python, skim through this section since we will be implementing a key class (<code class="language-plaintext highlighter-rouge">State</code>) used elsewhere in the documentation.</p>
 
 <p>The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language.</p>
 
@@ -375,7 +375,7 @@ def OutputResults():
 # 3
 </code></pre></div></div>
 
-<p>Given the <a href="../devhowtoPredicationContract">predication contract</a>, we’ll be doing lots of iteration and this syntactic sugar from Python makes it easier.</p>
+<p>Given the predication contract, we’ll be doing lots of iteration and this syntactic sugar from Python makes it easier.</p>
 
 <p>Let’s work through how to implement a class in Python by creating the class that will hold the state of the world: <code class="language-plaintext highlighter-rouge">State</code>. The current state of all MRS variables <em>and</em> the state of everything in the world will be accessed through this class. Because we want the state to be changed by predications, we will include an instance of it as the first argument when calling them.</p>
 
@@ -447,7 +447,7 @@ class State(object):
   <p>Note: There are much more efficient ways to isolate the data than copying the entire world, but we’re doing a copy to keep the code simple. For example, database engines like MySQL have transactions to isolate different parts of code from changes until they should be seen. We could improve our simple implementation by keeping a difference list and not copying the entire state for every copy, but for now we’ll keep it simple.</p>
 </blockquote>
 
-<p>Objects in the world can just be Python objects, although there are many other ways to represent them (the <a href="../devhowtoPredicationContract">predication contract</a> doesn’t care).</p>
+<p>Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn’t care).</p>
 
 <p>Because we will be copying the <code class="language-plaintext highlighter-rouge">State</code> object when changes are made, we will need some way to identify that, for example, the <code class="language-plaintext highlighter-rouge">foo</code> folder in one <code class="language-plaintext highlighter-rouge">State</code> object is the same <code class="language-plaintext highlighter-rouge">foo</code> folder in another <code class="language-plaintext highlighter-rouge">State</code> object. To do this, we’ll give each object a unique ID by creating a base class called <code class="language-plaintext highlighter-rouge">UniqueObject</code>. It will create a member variable called <code class="language-plaintext highlighter-rouge">unique_id</code> with a UUID (a globally unique number) in it. Then, we’ll derive all the objects in the system from it. That way, objects will always have a unique ID that follows them even if they are copied.</p>
 
@@ -483,7 +483,7 @@ class File(UniqueObject):
 
 <p>Note that an instance of the <code class="language-plaintext highlighter-rouge">State</code> object is created by calling it like a function. This really calls the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">State</code> and passes the supplied argument (a list) to <code class="language-plaintext highlighter-rouge">__init__</code>. Each object in the list is created just like <code class="language-plaintext highlighter-rouge">State</code> was: by calling it as a function. Note that arguments can be named like <code class="language-plaintext highlighter-rouge">name="Documents"</code> to clarify what is going on.</p>
 
-<p>Now you’ve seen some of the basic Python you’ll see throughout the tutorial and we’ve defined the core <code class="language-plaintext highlighter-rouge">State</code> class we’ll use in our predications.  Next, we’ll <a href="../devhowtoImplementPredication">implement a predication</a>.</p>
+<p>Now you’ve seen some of the basic Python you’ll see throughout the tutorial and we’ve defined the core <code class="language-plaintext highlighter-rouge">State</code> class we’ll use in our predications.  Next, we’ll implement a predication.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 

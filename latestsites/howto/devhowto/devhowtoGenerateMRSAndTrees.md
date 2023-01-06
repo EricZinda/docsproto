@@ -40,7 +40,7 @@ First, we'll write code to use the [ACE parser](http://sweaglesw.org/linguistics
         return ergFile
 ```
 
-Next, we need to take those MRS documents and turn them into well-formed trees. For this, we'll call the function we wrote in the section on [well-formed trees](../devhowtoWellFormedTree) called `valid_hole_assignments()` that does the assignments of predication labels to "holes" as discussed in that section.  The `tree_from_assignments()` function does the work of actually building a tree from those assignments and represents the tree using the text format we designed in the [MRS to Python topic](../devhowtoMRSToPython):
+Next, we need to take those MRS documents and turn them into well-formed trees. For this, we'll call the function we wrote in the section on well-formed trees called `valid_hole_assignments()` that does the assignments of predication labels to "holes" as discussed in that section.  The `tree_from_assignments()` function does the work of actually building a tree from those assignments and represents the tree using the text format we designed in the MRS to Python topic:
 
 ```
     def trees_from_mrs(self, mrs):
@@ -117,5 +117,5 @@ def Example17():
 [['_a_q', 'x10', [['_cave_n_1', 'x10']], [['_every_q', 'x3', [['_book_n_of', 'x3', 'i8']], [['_in_p_state', 'e9', 'e2', 'x10'], ['ellipsis_ref', 'e2', 'x3']]]]]]
 [['_every_q', 'x3', [['_book_n_of', 'x3', 'i8']], [['_a_q', 'x10', [['_cave_n_1', 'x10']], [['_in_p_state', 'e9', 'e2', 'x10'], ['ellipsis_ref', 'e2', 'x3']]]]]]
 ```
-The [next topic](../devhowtoWhichParseAndTree) will describe a heuristic for determining which of those trees is the one the user meant.
+The next topic will describe a heuristic for determining which of those trees is the one the user meant.
 <update date omitted for speed>{% endraw %}
