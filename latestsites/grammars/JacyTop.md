@@ -22,32 +22,32 @@ grammar that can be used as the basis for the development of further
 grammars. After that, it has been used in research on parse ranking with
 lexical semantics and [machine translation](https://blog.inductorsoftware.com/docsproto/garage/MtJaen).
 
-Current development is mainly being done by [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
+Current development is mainly being done by FrancisBond
 ([NTU](http://www3.ntu.edu.sg/home/fcbond/)), with help from Takayuki
 Kuribayashi.
 
 [Melanie Siegel](http://www.melaniesiegel.de) (Hochschule Darmstadt) is
 the original principal JACY developer. Major contributions came from
-[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (University of Washington), especially
+EmilyBender (University of Washington), especially
 concerning the MRS construction and numeral expressions.
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (Universitetet i Oslo & CSLI Stanford)
+StephanOepen (Universitetet i Oslo & CSLI Stanford)
 contributed support on the grammar development environment, Japanese
 font encodings and inclusion of [ChaSen](http://chasen.naist.jp). Ulrich
 Callmeier (acrolinx GmbH) contributed the requirements for letting the
 grammar run on his fast and efficient PET system. Akira Ohtani,
-[ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/summits/ChikaraHashimoto), [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond),
+ChikaraHashimoto, FrancisBond,
 [SanaeFujita](/SanaeFujita), Shigeko Nariyama and Takaaki Tanaka
-([NTT](https://blog.inductorsoftware.com/docsproto/summits/DelphinNtt) Communication Science Laboratories - Machine
+(NTT Communication Science Laboratories - Machine
 Translation Research Group) contributed grammar extensions, especially
 for verbal compounds and relative sentence constructions, and many
-lexicon entries. [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer) integrated
+lexicon entries. UlrichSchaefer integrated
 [ChaSen](http://chasen.naist.jp), Japanese Named Entity Recognition via
 [SProUT](http://sprout.dfki.de) and
 [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) with the Jacy grammar into
 the [Heart of Gold](http://heartofgold.dfki.de) middleware for robust
 parsing of Japanese text, adding automatic translations of Chasen's
 EUC-JP byte offsets to Unicode character counts. Woodley Packard has
-helped with making things work with ACE. [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
+helped with making things work with ACE. GlennSlayden
 tested with AGREE. [Michael Goodman](http://www.goodmami.org/) helped
 move to github and many enhancements.
 

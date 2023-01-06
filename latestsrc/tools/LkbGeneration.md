@@ -1,5 +1,5 @@
 {% raw %}This page was adapted from [JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) by
-[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman), and therefore many of the examples are
+MichaelGoodman, and therefore many of the examples are
 from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Grammar.
 
 Contents

@@ -1,6 +1,6 @@
 {% raw %}# Encoding LP constraints in a constraint-based framework without adding LP constraints to the formalism.
 
-This sketch (initially written by [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake))
+This sketch (initially written by AnnCopestake)
 illustrates how an encoding of a bit-vector style implementation of
 linear precedence could be done directly in a constraint-based
 formalism. The approach is inspired by Daniels and Meurers. The point is

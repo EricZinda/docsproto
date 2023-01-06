@@ -9,7 +9,7 @@ your grammar, or the LKB will interpret what you wrote differently from
 how you intended.
 
 A fuller, more formal description of TDL syntax can be found
-[here](https://blog.inductorsoftware.com/docsproto/summits/TdlRfc).
+here.
 
 Typical type definitions looks like this:
 

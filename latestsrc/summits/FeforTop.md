@@ -43,10 +43,10 @@ put together the programme for each of the sections:
 |----------------|----------------|-------------------------------------------|--------------------------------------|-----------------------------------------------------------------|
 | **Start**      | **End**        | **Session**                               | **Schedule**                         | **Coordinator**                                                 |
 | 13-jun 09:30   |                | Organisation meeting for all participants |                                      |                                                                 |
-| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](https://blog.inductorsoftware.com/docsproto/summits/FeforGrammarians) | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)                                  |
-| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors)   | [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake)                                    |
-| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)               | [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) and [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) |
-| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](https://blog.inductorsoftware.com/docsproto/summits/FeforPlenum)           | [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)     |
+| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](https://blog.inductorsoftware.com/docsproto/summits/FeforGrammarians) | DanFlickinger                                  |
+| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors)   | AnnCopestake                                    |
+| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)               | AnnCopestake and DanFlickinger |
+| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](https://blog.inductorsoftware.com/docsproto/summits/FeforPlenum)           | StephanOepen and EmilyBender     |
 
 [FeforDiscussionCompilations](https://blog.inductorsoftware.com/docsproto/summits/FeforDiscussionCompilations)
 

@@ -6,8 +6,8 @@ statistics include the proportion of lexical or rule variance between
 generation and parsing results, if the generated items have the same
 MRS, if the top ranked generation result matches the input string, etc.
 
-**Egad** was created by [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) and
-[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) in order to improve generation results for
+**Egad** was created by MichaelGoodman and
+FrancisBond in order to improve generation results for
 [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop), but it has also been used to analyze the ERG. It relies
 on both the [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\] and [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) packages for
 parsing and generating sentences with a grammar. Please contact the

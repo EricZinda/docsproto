@@ -1,5 +1,5 @@
 {% raw %}Rough transcript from DELPH-IN 2013 Summit discussion about usability
-and ease of set-up + [PaperCuts](https://blog.inductorsoftware.com/docsproto/summits/PaperCuts). If your comments are not
+and ease of set-up + PaperCuts. If your comments are not
 accurately represented, please make the necessary changes.
 
 Ann: Huge barrier to use DELPH-IN stuff, talking to students.

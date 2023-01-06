@@ -1,6 +1,6 @@
 {% raw %}## Discussion: Scopal and Non-Scopal Modifiers
 
-Moderator: [GuyEmerson](https://blog.inductorsoftware.com/docsproto/summits/GuyEmerson) Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)
+Moderator: GuyEmerson Scribe: EmilyBender
 
     Kim didn't speak for a long time.
     Kim deliberately didn't speak.

@@ -1,6 +1,6 @@
 {% raw %}SIG discussion at [Tomar, 2014](https://blog.inductorsoftware.com/docsproto/summits/TomarTop) on the [Grammar
 Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocTop) in individual grammars (what is used, what has
-been changed), led by [Antske](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens).
+been changed), led by Antske.
 
 * * *
 

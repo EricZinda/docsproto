@@ -23,8 +23,8 @@ held in Suquamish, WA, near Seattle.
 Paris, France.
 - **JUL-09** The [Fifth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop) was
 held in Barcelona, Spain.
-- **JUN-09** DELPH-IN member [Scott Drellishak](https://blog.inductorsoftware.com/docsproto/summits/ScottDrellishak)
-(student of DELPH-IN member [Emily Bender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)) defended
+- **JUN-09** DELPH-IN member Scott Drellishak
+(student of DELPH-IN member Emily Bender) defended
 his dissertation [''Widespread but Not Universal: Improving the
 Typological Coverage of the Grammar
 Matrix''](http://students.washington.edu/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf)
@@ -176,7 +176,7 @@ add relevant new items which you think will be of general interest.
 - In general, please only add new entries and update and add comments
 to entries from your group. Please do not delete or add comments to
 other groups' entries.
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) is currently acting janitor. That is, I
+- FrancisBond is currently acting janitor. That is, I
 will check the page when it is updated and may reformat new entries,
 including removing any material excessive in length or of marginal
 relevance. Note that I would normally check with the original author

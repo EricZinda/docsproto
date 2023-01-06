@@ -3,7 +3,7 @@
 
 # Background
 
-The 2017 DELPH-IN Summit will be hosted by [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
+The 2017 DELPH-IN Summit will be hosted by StephanOepen
 at the [University of
 Oslo](http://www.mn.uio.no/ifi/english/about/getting-around/) from
 Monday, August 7, to Friday, August 11, 2017. Following the ‘classic’
@@ -11,8 +11,8 @@ format for these meetings, the first three days (Monday through
 Wednesday) will be organized as one plenary session, with updates from
 DELPH-IN member sites, discussions, demonstrations, and more. The
 [programme](https://blog.inductorsoftware.com/docsproto/summits/OsloSchedule) for these days will be constructed
-collectively beforehand, with [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) and
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) acting as the 2017 Programme Chairs. The
+collectively beforehand, with EmilyBender and
+DanFlickinger acting as the 2017 Programme Chairs. The
 final two days (Thursday and Friday) will be (even) more informal in
 nature and provide opportunities for more specialized ‘sub-group’
 discussions, typically with two parallel sessions and three to five

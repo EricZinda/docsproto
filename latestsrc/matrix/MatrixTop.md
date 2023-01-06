@@ -1,6 +1,6 @@
 {% raw %}# Page Authorship
 
-This page is written and maintained by [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender).
+This page is written and maintained by EmilyBender.
 Please send comments by email.
 
 # Overview

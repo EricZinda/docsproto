@@ -35,5 +35,5 @@ it goes to sleep.
 
 An updated version of the Docker-based approach created by Lluís Padró
 is available [here](https://github.com/arademaker/docker-logon), this
-version is maintained by [AlexandreRademaker](https://blog.inductorsoftware.com/docsproto/summits/AlexandreRademaker).
+version is maintained by AlexandreRademaker.
 <update date omitted for speed>{% endraw %}

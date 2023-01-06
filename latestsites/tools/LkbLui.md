@@ -88,7 +88,7 @@ below).
 
 The LUI design foresees the option of having alternate implementation of
 the LUI functionality and protocol. For exampke,
-[PavelMihaylov](https://blog.inductorsoftware.com/docsproto/summits/PavelMihaylov) has adapted the original LUI source code
+PavelMihaylov has adapted the original LUI source code
 to use the Pango
 font rendering engine, for better international character support. Each
 alternate implementation should define its own application name, say
@@ -148,7 +148,7 @@ following might work:
 
 The first public LUI release is in August 2005. For a few months prior
 to the release date, the new tools have only been tested by one active
-LKB grammarian (our thanks go to [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)).
+LKB grammarian (our thanks go to DanFlickinger).
 Unexpected behavior may comprise a bug. LUI maintains a log file
 describing your session in the file `/tmp/yzlui.debug.username` (where
 *username* corresponds to your own user id). Please report bugs to the

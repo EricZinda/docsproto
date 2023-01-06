@@ -13,11 +13,11 @@ Cost\
 There will be a 100 EUR fee to cover workshop expenses.
 
 Participants\
-[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), Ann Copestake,
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/summits/ChikaraHashimoto),
-[BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer), [EricNichols](/EricNichols),
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen), [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer),
-[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenWaldron)
+FrancisBond, Ann Copestake,
+DanFlickinger, ChikaraHashimoto,
+BerndKiefer, [EricNichols](/EricNichols),
+StephanOepen, UlrichSchaefer,
+[TakaakiTanaka](/TakaakiTanaka), BenWaldron
 
 Contents
 

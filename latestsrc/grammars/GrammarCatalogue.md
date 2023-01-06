@@ -6,35 +6,35 @@ generating metadata.
 |--------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------|
 | Name                                                                     | Language                                               | Maintainer                                   |
 | *Resource Grammars*                                                      |                                                        |                                              |
-| [English Resource Grammar (ERG)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                  | English                                                | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)               |
-| [Jacy Japanese Grammar (Jacy)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                   | Japanese                                               | [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)                   |
+| [English Resource Grammar (ERG)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                  | English                                                | DanFlickinger               |
+| [Jacy Japanese Grammar (Jacy)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                   | Japanese                                               | FrancisBond                   |
 | [GG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                               | German                                                 |                                              |
 | [SRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)      |
-| [LXGram](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Portuguese                                             | [AntonioBranco](https://blog.inductorsoftware.com/docsproto/summits/AntonioBranco)               |
-| [KRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Korean                                                 | [JongBokKim](https://blog.inductorsoftware.com/docsproto/summits/JongBokKim)                     |
-| MGRG                                                                     | Modern Greek                                           | [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni)                 |
+| [LXGram](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Portuguese                                             | AntonioBranco               |
+| [KRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Korean                                                 | JongBokKim                     |
+| MGRG                                                                     | Modern Greek                                           | ValiaKordoni                 |
 | [NorSource](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop)                                                | Norwegian                                              | [LarsHellan](/LarsHellan)                    |
-| [G-CLIMB German](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                  | German                                                 | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens)               |
+| [G-CLIMB German](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                  | German                                                 | AntskeFokkens               |
 | *Treebank-trained grammars*                                              |                                                        |                                              |
-| [Cheetah](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                     | German                                                 | [BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer)                     |
+| [Cheetah](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                     | German                                                 | BartCramer                     |
 | *Medium-sized linguistic grammars*                                       |                                                        |                                              |
-| La Grenouille                                                            | French                                                 | [JesseTseng](https://blog.inductorsoftware.com/docsproto/summits/JesseTseng)                     |
-| [MCG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang)                           |
-| [BURGER](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Bulgarian                                              | [PetyaOsenova](https://blog.inductorsoftware.com/docsproto/summits/PetyaOsenova)                 |
+| La Grenouille                                                            | French                                                 | JesseTseng                     |
+| [MCG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | YiZhang                           |
+| [BURGER](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Bulgarian                                              | PetyaOsenova                 |
 | [wmb (wmb)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Wambaya                                                | Emily M. Bender                              |
-| HaG                                                                      | Hausa                                                  | [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/summits/BertholdCrysmann)         |
-| [RRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Russian                                                | [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova)         |
-| [G-CLIMB Dutch](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                   | Dutch                                                  | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens)               |
-| [ManGO](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)       |
-| [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Hebrew                                                 | [LivnatHerzigSheinfux](https://blog.inductorsoftware.com/docsproto/summits/LivnatHerzigSheinfux) |
-| [Indonesian Resource Grammar (INDRA)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)           | Indonesian                                             | [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi)               |
+| HaG                                                                      | Hausa                                                  | BertholdCrysmann         |
+| [RRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Russian                                                | TaniaAvgustinova         |
+| [G-CLIMB Dutch](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                   | Dutch                                                  | AntskeFokkens               |
+| [ManGO](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | JustinChunleiYang       |
+| [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Hebrew                                                 | LivnatHerzigSheinfux |
+| [Indonesian Resource Grammar (INDRA)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)           | Indonesian                                             | DavidMoeljadi               |
 | [Zhong \[∣\]](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                  |
 | *Experimental grammars*                                                  |                                                        |                                              |
-|                                                                          | Turkish                                                | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens)               |
+|                                                                          | Turkish                                                | AntskeFokkens               |
 |                                                                          | Georgian                                               | [IrinaBorisova](/IrinaBorisova)              |
-|                                                                          | [Thai](http://www.thai-language.com/testsuite-results) | [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)                 |
-| [Vietnamese Resource Grammar Obviously (VIRGO)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) | Vietnamese                                             | [TuanAnhLe](https://blog.inductorsoftware.com/docsproto/summits/TuanAnhLe)                       |
-| [RQG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Russian                                                | [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva)               |
+|                                                                          | [Thai](http://www.thai-language.com/testsuite-results) | GlennSlayden                 |
+| [Vietnamese Resource Grammar Obviously (VIRGO)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) | Vietnamese                                             | TuanAnhLe                       |
+| [RQG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Russian                                                | OlgaZamaraeva               |
 
 <a name="ERG"/>
 
@@ -45,8 +45,8 @@ generating metadata.
 
 |                             |                                                                                                                   |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)                                                                                    |
-| contributors                | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger); [RobMalouf](/RobMalouf); [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender); [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) |
+| maintainer                  | DanFlickinger                                                                                    |
+| contributors                | DanFlickinger; [RobMalouf](/RobMalouf); EmilyBender; StephanOepen |
 | contact                     | <mailto:erg@delph-in.net>                                                                                                |
 | website                     | <http://www.delph-in.net/erg>                                                                                     |
 | demo                        | <http://erg.delph-in.net/>                                                                                        |
@@ -75,8 +75,8 @@ generating metadata.
 
 |                             |                                                                                                                                                                                                 |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)                                                                                                                                                                      |
-| contributors                | [MelanieSiegel](/MelanieSiegel); [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender); [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/summits/ChikaraHashimoto); [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen); [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong); [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) |
+| maintainer                  | FrancisBond                                                                                                                                                                      |
+| contributors                | [MelanieSiegel](/MelanieSiegel); EmilyBender; ChikaraHashimoto; StephanOepen; SanghounSong; MichaelGoodman |
 | contact                     | <mailto:bond@ieee.org>                                                                                                                                                                                 |
 | website                     | <https://github.com/delph-in/docs/wiki/JacyTop>                                                                                                                                                         |
 | demo                        | <http://delph-in.github.io/delphin-viz/demo/>                                                                                                                                                   |
@@ -103,8 +103,8 @@ generating metadata.
 
 |                             |                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | [AntonioBranco](https://blog.inductorsoftware.com/docsproto/summits/AntonioBranco)                                                                                                                                                                                                                                                                                                                                                                            |
-| contributors                | [AntonioBranco](https://blog.inductorsoftware.com/docsproto/summits/AntonioBranco), [FranciscoCosta](https://blog.inductorsoftware.com/docsproto/summits/FranciscoCosta), [JoãoSilva](/Jo%C3%A3oSilva), [SérgioCastro](/S%C3%A9rgioCastro)                                                                                                                                                                                                                                                                        |
+| maintainer                  | AntonioBranco                                                                                                                                                                                                                                                                                                                                                                            |
+| contributors                | AntonioBranco, FranciscoCosta, [JoãoSilva](/Jo%C3%A3oSilva), [SérgioCastro](/S%C3%A9rgioCastro)                                                                                                                                                                                                                                                                        |
 | latest release              | 29 July 2008                                                                                                                                                                                                                                                                                                                                                                                              |
 | website                     | <http://lxcenter.di.fc.ul.pt/tools/en/LXGramEN.html>                                                                                                                                                                                                                                                                                                                                                      |
 | vcs                         |                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -125,7 +125,7 @@ generating metadata.
 
 |                              |                                                                 |
 |------------------------------|-----------------------------------------------------------------|
-| maintainer                   | [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/summits/BertholdCrysmann)                            |
+| maintainer                   | BertholdCrysmann                            |
 | contributors                 | (If other than only current maintainer)                         |
 | latest release               |                                                                 |
 | website                      | <http://gg.opendfki.de/>                                        |
@@ -150,8 +150,8 @@ generating metadata.
 
 |                    |                                                                                                                                                               |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer         | [JongBokKim](https://blog.inductorsoftware.com/docsproto/summits/JongBokKim)                                                                                                                                      |
-| contributors       | [JongBokKim](https://blog.inductorsoftware.com/docsproto/summits/JongBokKim), [JaehyungYang](/JaehyungYang), [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)                                             |
+| maintainer         | JongBokKim                                                                                                                                      |
+| contributors       | JongBokKim, [JaehyungYang](/JaehyungYang), FrancisBond, SanghounSong                                             |
 | latest release     | 3 July 2010                                                                                                                                                   |
 | website            | <http://krg.khu.ac.kr>                                                                                                                                        |
 | vcs                | svn co <http://svn.delph-in.net/krg/trunk>                                                                                                                    |
@@ -173,8 +173,8 @@ generating metadata.
 
 |                              |                                                                         |
 |------------------------------|-------------------------------------------------------------------------|
-| maintainer                   | [BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer)                                                |
-| contributors                 | [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang)                                                      |
+| maintainer                   | BartCramer                                                |
+| contributors                 | YiZhang                                                      |
 | latest release               | (v0.39) In the Paris release of LOGON                                   |
 | website                      | [CheetahTop](https://blog.inductorsoftware.com/docsproto/grammars/CheetahTop)                                                |
 | vcs                          | svn co <http://svn.emmtee.net/trunk/coli/cheetah>                       |
@@ -218,8 +218,8 @@ generating metadata.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| maintainer                   | [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova)          |
-| contributors                 | [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang)                            |
+| maintainer                   | TaniaAvgustinova          |
+| contributors                 | YiZhang                            |
 | latest release               | 20110615                                      |
 | website                      | <http://www.coli.uni-saarland.de/~tania/rrg/> |
 | vcs                          |                                               |
@@ -263,8 +263,8 @@ generating metadata.
 
 |                    |                                                                                                                                                                  |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer         | [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)                                                                                                                           |
-| contributors       | [NatHillard](/NatHillard), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)                                                                |
+| maintainer         | JustinChunleiYang                                                                                                                           |
+| contributors       | [NatHillard](/NatHillard), DanFlickinger, JustinChunleiYang                                                                |
 | latest release     | July 2011                                                                                                                                                        |
 | website            | <https://github.com/delph-in/docs/wiki/MandarinGrammarOnline>                                                                                                            |
 | vcs                | svn co svn://lemur.ling.washington.edu/shared/mandarin                                                                                                           |
@@ -282,8 +282,8 @@ generating metadata.
 
 |                              |                                                                                                                                                                                                                                                     |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                   | [PetyaOsenova](https://blog.inductorsoftware.com/docsproto/summits/PetyaOsenova)                                                                                                                                                                                                                        |
-| contributors                 | [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [KirilSimov](/KirilSimov)                                                                                                                                                                                           |
+| maintainer                   | PetyaOsenova                                                                                                                                                                                                                        |
+| contributors                 | DanFlickinger, [KirilSimov](/KirilSimov)                                                                                                                                                                                           |
 | latest release               | July 2010                                                                                                                                                                                                                                           |
 | website                      | <http://www.bultreebank.org/BURGER/index.html>                                                                                                                                                                                                      |
 | vcs                          | svn co <http://svn.delph-in.net/burger/trunk> burger                                                                                                                                                                                                |
@@ -332,7 +332,7 @@ generating metadata.
 
 |                              |                                                  |
 |------------------------------|--------------------------------------------------|
-| maintainer                   | [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang)                               |
+| maintainer                   | YiZhang                               |
 | contributors                 | [RuiWang](/RuiWang), [YuChen](/YuChen)           |
 | latest release               | 20110616                                         |
 | website                      | <http://mcg.opendfki.de/>                        |
@@ -353,7 +353,7 @@ generating metadata.
 |                    |                                                                                                                                                                                                                                                                   |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | maintainer         | [ZhenzhenFan](/ZhenzhenFan)                                                                                                                                                                                                                                       |
-| contributors       | [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)                                                                                                                                                                  |
+| contributors       | SanghounSong, FrancisBond, JustinChunleiYang                                                                                                                                                                  |
 | latest release     | 2019                                                                                                                                                                                                                                                              |
 | website            | <https://github.com/delph-in/docs/wiki/ZhongTop>                                                                                                                                                                                                                          |
 | vcs                | git clone <https://github.com/delph-in/zhong.git>                                                                                                                                                                                                                 |
@@ -370,7 +370,7 @@ generating metadata.
 
 |                              |                                                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
-| maintainer                   | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens)                                                                     |
+| maintainer                   | AntskeFokkens                                                                     |
 | contributors                 |                                                                                                    |
 | latest release               | 20110616                                                                                           |
 | website                      | [Metagrammar Homepage](http://www.coli.uni-saarland.de/~afokkens/page.php?id=germanic_metagrammar) |
@@ -390,7 +390,7 @@ generating metadata.
 
 |                              |                                                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
-| maintainer                   | [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens)                                                                     |
+| maintainer                   | AntskeFokkens                                                                     |
 | contributors                 |                                                                                                    |
 | latest release               | 20110616                                                                                           |
 | website                      | [Metagrammar Homepage](http://www.coli.uni-saarland.de/~afokkens/page.php?id=germanic_metagrammar) |
@@ -410,8 +410,8 @@ generating metadata.
 
 |                              |                                                                                                                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                   | [LivnatHerzigSheinfux](https://blog.inductorsoftware.com/docsproto/summits/LivnatHerzigSheinfux)                                                                                                                                      |
-| contributors                 | [LivnatHerzigSheinfux](https://blog.inductorsoftware.com/docsproto/summits/LivnatHerzigSheinfux), [TaliAradGreshler](https://blog.inductorsoftware.com/docsproto/summits/TaliAradGreshler), [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/summits/PetterHaugereid), [NuritMelnik](https://blog.inductorsoftware.com/docsproto/summits/NuritMelnik), [ShulyWintner](/ShulyWintner) |
+| maintainer                   | LivnatHerzigSheinfux                                                                                                                                      |
+| contributors                 | LivnatHerzigSheinfux, TaliAradGreshler, PetterHaugereid, NuritMelnik, [ShulyWintner](/ShulyWintner) |
 | July 2013                    |                                                                                                                                                                                   |
 | website                      | [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/HeGram) (Delph-In) and [HeGram](http://cl.haifa.ac.il/projects/HeGram/index.shtml) (Haifa)                                                                               |
 | vcs                          |                                                                                                                                                                                   |
@@ -432,8 +432,8 @@ generating metadata.
 
 |                             |                                                                                                                                                                                                  |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi)                                                                                                                                                                   |
-| contributors                | [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi); [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond); [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong); [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger); [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman); [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta) |
+| maintainer                  | DavidMoeljadi                                                                                                                                                                   |
+| contributors                | DavidMoeljadi; FrancisBond; SanghounSong; DanFlickinger; MichaelGoodman; LuisMorgadoCosta |
 | contact                     | <mailto:davidmoeljadi@gmail.com>                                                                                                                                                                        |
 | website                     | <http://moin.delph-in.net/IndraTop>                                                                                                                                                              |
 | demo                        | <http://chimpanzee.ling.washington.edu/demophin/indra/>                                                                                                                                          |
@@ -513,7 +513,7 @@ developing/testing one or a small set of linguistic analyses
 # Generating Metadata
 
 We have a script for automatically generating grammar metadata (even
-formatted as [MoinMoin](https://blog.inductorsoftware.com/docsproto/summits/MoinMoin) or LaTeX tables). First, check out the
+formatted as MoinMoin or LaTeX tables). First, check out the
 script:
 
     git clone https://github.com/delph-in/grammar-catalogue.git

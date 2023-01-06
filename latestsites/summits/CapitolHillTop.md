@@ -82,24 +82,24 @@ mini-meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop
 ## Participants
 
 Organizer\
-[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
+FrancisBond
 
 Host\
-[GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
+GlennSlayden
 
 Participants  
 - Emily Bender (in and out, according to other obligations)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) (maybe not every day)
-- [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva) (mostly for evening fun/social and to
+- MichaelGoodman (maybe not every day)
+- OlgaZamaraeva (mostly for evening fun/social and to
 offer help as a local; I can also provide crash space for someone)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong) (probably everyday 2-6)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (every day)
+- SanghounSong (probably everyday 2-6)
+- FrancisBond (every day)
 - Fan Zhenzhen (every day)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) (Monday afternoon to Thursday)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta) (every day)
-- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi) (every day)
+- DanFlickinger (Monday afternoon to Thursday)
+- LuisMorgadoCosta (every day)
+- DavidMoeljadi (every day)
 - Ping Xue
-- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/summits/JoshuaCrowgey) (Tuesday and Thursday)
+- JoshuaCrowgey (Tuesday and Thursday)
   
   - (add your name here)
 

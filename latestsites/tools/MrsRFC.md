@@ -8,9 +8,9 @@ framework for computational semantics characterised by a flat structure
 true scopal ambiguities can be left ambiguous, or fully specified if
 needed. This RFC aims to be a reference document for developers writing
 code to process MRSs. See below for the [formal
-properties](https://blog.inductorsoftware.com/docsproto/summits/MrsRfc) of MRS objects. For ways to
+properties]() of MRS objects. For ways to
 represent MRS objects textually, see the [serialization
-formats](https://blog.inductorsoftware.com/docsproto/summits/MrsRfc) section.
+formats]() section.
 
 Unless otherwise noted, most information below is adapted from Copestake
 et al. (2005). The reader is referred to this paper for more information
@@ -282,7 +282,7 @@ Icons = element icons {
 This format is largely decided, but it is not explicitly finalized and
 may change in the future.
 
-The development of the [REST API](https://blog.inductorsoftware.com/docsproto/summits/RestfulTop) called for JSON
+The development of the REST API called for JSON
 serializations of many formats. Here is an example JSON serialization of
 MRS for "It is Abrams that the dog barked at.".
 

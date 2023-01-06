@@ -1,14 +1,14 @@
-{% raw %}- [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)
+{% raw %}- EmilyBender
 - [JohanBos](/JohanBos)
 - [SilvieCinkova](/SilvieCinkova)
-- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake)
+- AnnCopestake
 - [CleoCondoravdi](/CleoCondoravdi)
 - [DickCrouch](/DickCrouch)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
+- DanFlickinger
 - [JanHajič](/JanHaji%C4%8D)
-- [AlexanderKoller](https://blog.inductorsoftware.com/docsproto/summits/AlexanderKoller)
-- [AlexLascarides](https://blog.inductorsoftware.com/docsproto/summits/AlexLascarides)
-- [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
+- AlexanderKoller
+- AlexLascarides
+- StephanOepen
 - TimOGorman
 - [WoodleyPackard](/WoodleyPackard)
 <update date omitted for speed>{% endraw %}

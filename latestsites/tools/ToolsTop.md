@@ -11,7 +11,7 @@ DELPH-IN systems and think might be worth sharing, list it here.
   
   - Grammar development environment including support for parsing,
 generation, visualization, and debugging.
-- [LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) ([JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll))
+- [LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) (JohnCarroll)
   
   - Fully open-source LKB
 - [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) ([WoodleyPackard](/WoodleyPackard))
@@ -23,7 +23,7 @@ processing Techniques
   
   - An efficient parser for DELPH-IN grammars.
 - ["Agree" grammar engineering environment](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop)
-([GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden))
+(GlennSlayden)
   
   - A project to develop a new grammar engineering environment for
 working with DELPH-IN style TDL grammars.
@@ -31,7 +31,7 @@ working with DELPH-IN style TDL grammars.
 ## Utilities
 
 - [Converter](http://moin.delph-in.net/ToolsTop/converter.html)
-([AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/summits/AngelinaIvanova))
+(AngelinaIvanova)
   
   - Converts ERG derivation tree to bilexical syntactic
 dependencies, and ERG EDs to bilexical semantic dependencies
@@ -41,16 +41,16 @@ dependencies, and ERG EDs to bilexical semantic dependencies
   - Tools for automatically efficiently running LOGON to create
 appropriate MRSs: source language, transfer, target language,
 variational.
-- [Egad](https://blog.inductorsoftware.com/docsproto/garage/EgadTop) ([MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman))
+- [Egad](https://blog.inductorsoftware.com/docsproto/garage/EgadTop) (MichaelGoodman)
   
   - Error mining and grammar analysis through generation results.
 (unmaintained, but may still work)
-- [gDelta](https://blog.inductorsoftware.com/docsproto/garage/GDeltaTop) ([NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher))
+- [gDelta](https://blog.inductorsoftware.com/docsproto/garage/GDeltaTop) (NedLetcher)
   
   - Tool for comparing parser output from two different states of a
 grammar.
 - [Grammar Spring Cleaning](https://blog.inductorsoftware.com/docsproto/garage/SpringCleaningTop)
-([AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens))
+(AntskeFokkens)
   
   - Tool that removes components of the grammar that are currently
 not used.
@@ -58,7 +58,7 @@ not used.
   
   - A web interface for grammars made with the LKB that allows easy
 access to inline documentation and minimal corpus search.
-- [SHORT-CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbShortClimb) ([AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens))
+- [SHORT-CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbShortClimb) (AntskeFokkens)
   
   - Tool that allows you to define modifications to a grammar and
 generates a modified version of the grammar based on the changes
@@ -67,14 +67,14 @@ generates a modified version of the grammar based on the changes
   
   - A web app for exploring DELPH-IN grammar types used in the
 processing of input.
-- [Vista extraction](https://blog.inductorsoftware.com/docsproto/garage/VistaExtractionTop) ([JoaoSilva](https://blog.inductorsoftware.com/docsproto/summits/JoaoSilva))
+- [Vista extraction](https://blog.inductorsoftware.com/docsproto/garage/VistaExtractionTop) (JoaoSilva)
   
   - Tool for extracting vistas from the files exported by the
 grammar. Vistas are grammatical representations that collect
 only a part of the linguistic information encoded in the
 fully-fledged hpsg grammatical representation.
 - [DELPH-IN VIZ](https://github.com/delph-in/delphin-viz)
-([NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher)) Nice interface for online access to the
+(NedLetcher) Nice interface for online access to the
 grammar [Demo](http://delph-in.github.io/delphin-viz/demo/).
 - [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop)
   
@@ -85,17 +85,17 @@ grammars)
 ## Libraries
 
 - [PyDelphin](https://github.com/goodmami/pydelphin)
-([MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman))
+(MichaelGoodman)
   
   - Python libraries (and some scripts) for working with DELPH-IN
 data
 - [PyPES](http://www.semantilog.org/pypes.html)
-([RichardBergmair](https://blog.inductorsoftware.com/docsproto/summits/RichardBergmair))
+(RichardBergmair)
   
   - Python library for scoping, first-order rewriting, and logical
 inference
 - [Ruby delphin gem](https://rubygems.org/gems/delphin)
-([BillMcNeill](https://blog.inductorsoftware.com/docsproto/summits/BillMcNeill))
+(BillMcNeill)
   
   - A [Ruby](http://www.ruby-lang.org) package for working with
 DELPH-IN data and tools
@@ -103,13 +103,13 @@ DELPH-IN data and tools
 ## Grammar Creation Support
 
 - [Grammar Matrix](http://matrix.ling.washington.edu/index.html)
-([EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) and many others)
+(EmilyBender and many others)
   
   - Grammar customization system, creates grammars to spec. [GitHub
 repo](https://github.com/delph-in/matrix) See also:
 [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted)
 - [AGGREGATION](http://depts.washington.edu/uwcl/aggregation/)
-([EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) and many others)
+(EmilyBender and many others)
   
   - System for creating grammar specifications on the basis of IGT
 corpora. [gitlab

@@ -12,6 +12,6 @@ to incorporate grammar engineering into a PhD
 #### Postface
 
 This page aims to improve the discoverability of existing documentation.
-It was started by [Francis](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) inspired by the [Capitol Hill
+It was started by Francis inspired by the [Capitol Hill
 Grammar Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop).
 <update date omitted for speed>{% endraw %}

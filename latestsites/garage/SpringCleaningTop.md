@@ -10,9 +10,9 @@ the empty set).
 
 ## Authors
 
-[AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens): Spring Cleaning algorithm
+AntskeFokkens: Spring Cleaning algorithm
 
-[YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang): Grammar Compression
+YiZhang: Grammar Compression
 
 ## References
 

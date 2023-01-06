@@ -4,7 +4,7 @@ them.
 
 # Serialization Formats
 
-- [MrsRfc](https://blog.inductorsoftware.com/docsproto/summits/MrsRfc)
+- MrsRfc
 
 # SEM-I
 

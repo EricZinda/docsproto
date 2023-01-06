@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
-The 15th DELPH-IN summit will be hosted by [GuyEmerson](https://blog.inductorsoftware.com/docsproto/summits/GuyEmerson) and
-[AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) at the University of Cambridge, during the
+The 15th DELPH-IN summit will be hosted by GuyEmerson and
+AnnCopestake at the University of Cambridge, during the
 week of 15-19 July, 2019. The summit will be held at the [Department of
 Computer Science and Technology](https://www.cl.cam.ac.uk/) (formerly
 and informally known as the Computer Lab), [on the West Cambridge
@@ -15,7 +15,7 @@ Please register your intention to participate on the
 
 See [CambridgeSchedule](https://blog.inductorsoftware.com/docsproto/summits/CambridgeSchedule).
 
-[AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) and [JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll) serve as
+AnnCopestake and JohnCarroll serve as
 programme chairs.
 
 # Travel

@@ -3,9 +3,9 @@
 LisbonRepositoryDiscussion is the transcript of Discussion I on Thu
 2005-08-18 (11:00-11:45) in the [LisbonTop](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) meeting.
 
-Moderation: [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
+Moderation: StephanOepen
 
-Scribe: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)
+Scribe: UlrichSchaefer
 
 Stephan introduces motivation for the discussion.
 

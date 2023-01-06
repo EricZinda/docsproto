@@ -3,96 +3,96 @@ Summit, in Tomar, Portugal.
 
 - [LarsAhrenberg](/LarsAhrenberg)
 - [KatyaAlahverdzhieva](/KatyaAlahverdzhieva)
-- [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova)
-- [TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin) (July 14-July 16)
+- TaniaAvgustinova
+- TimBaldwin (July 14-July 16)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (July 14-July 18, with bells on)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (July 14-July 18, with my hair in a braid
+- EmilyBender (July 14-July 18, with bells on)
+- FrancisBond (July 14-July 18, with my hair in a braid
 and yes, yes, yes to port)
-- [AntonioBranco](https://blog.inductorsoftware.com/docsproto/summits/AntonioBranco) (naturally)
+- AntonioBranco (naturally)
 - [DavidBrodbeck](/DavidBrodbeck)
 - [UlrichCallmeier](/UlrichCallmeier)
-- [JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll) (I'm afraid I can't make it)
+- JohnCarroll (I'm afraid I can't make it)
 - [SérgioCastro](/S%C3%A9rgioCastro)
-- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) (July 14-July 18, maybe a bit longer
+- AnnCopestake (July 14-July 18, maybe a bit longer
 for port tasting purposes?)
-- [FranciscoCosta](https://blog.inductorsoftware.com/docsproto/summits/FranciscoCosta)
-- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/summits/JoshuaCrowgey) (July 14-July 18)
-- [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/summits/BertholdCrysmann) (probably all week)
-- [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan) (July 14 - July 18, although a port
+- FranciscoCosta
+- JoshuaCrowgey (July 14-July 18)
+- BertholdCrysmann (probably all week)
+- RebeccaDridan (July 14 - July 18, although a port
 extension sounds good...)
 - [LivEllingsen](/LivEllingsen)
-- [GuyEmerson](https://blog.inductorsoftware.com/docsproto/summits/GuyEmerson) (July 14-18, intrigued about port SIG)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) (July 14-18, with flexibility for
+- GuyEmerson (July 14-18, intrigued about port SIG)
+- DanFlickinger (July 14-18, with flexibility for
 port)
 - [LeaFrermann](/LeaFrermann)
-- [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens) (July 12 (late) - 20)
+- AntskeFokkens (July 12 (late) - 20)
 - [SanaeFujita](/SanaeFujita)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) (July 14--18)
-- [VaryaGracheva](https://blog.inductorsoftware.com/docsproto/summits/VaryaGracheva)
-- [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/summits/PetterHaugereid)
+- MichaelGoodman (July 14--18)
+- VaryaGracheva
+- PetterHaugereid
 - [LarsHellan](/LarsHellan) (Cannot make it this year, unfortunately,
 the dates were already committed.)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot)
 - [GordanaIlicHolen](/GordanaIlicHolen)
-- [AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/summits/AngelinaIvanova) (July 14 -- 18)
+- AngelinaIvanova (July 14 -- 18)
 - [WalterKasper](/WalterKasper)
 - [MartinKay](/MartinKay)
-- [BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer)
-- [JongBokKim](https://blog.inductorsoftware.com/docsproto/summits/JongBokKim)
+- BerndKiefer
+- JongBokKim
 - [PrescottKlassen](/PrescottKlassen)
-- [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni)
+- ValiaKordoni
 - [MilenKouylekov](/MilenKouylekov) (July 14-July 18 yeeey)
-- [AlexLascarides](https://blog.inductorsoftware.com/docsproto/summits/AlexLascarides)
-- [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher) (cannot make it regretfully; the port
+- AlexLascarides
+- NedLetcher (cannot make it regretfully; the port
 comments are not making me feel better about this)
 - [ElisabethLien](/ElisabethLien)
 - [JanToreLønning](/JanToreL%C3%B8nning)
 - [AndrewMacKinlay](/AndrewMacKinlay)
 - [MontserratMarimon](/MontserratMarimon)
 - [YusukeMiyao](/YusukeMiyao)
-- [DavidMott](https://blog.inductorsoftware.com/docsproto/summits/DavidMott) (July 14--18)
+- DavidMott (July 14--18)
 - [MathieuMorey](/MathieuMorey) (cannot make it; will eat pasteis de
 nata on my own)
 - [EricNichols](/EricNichols)
-- [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (July 13, evening, to 18, late
+- StephanOepen (July 13, evening, to 18, late
 afternoon)
-- [PetyaOsenova](https://blog.inductorsoftware.com/docsproto/summits/PetyaOsenova) (July 14--18)
+- PetyaOsenova (July 14--18)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (July 14--18, I hope!)
-- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/summits/ZinaPozen)
+- ZinaPozen
 - [JonathonRead](/JonathonRead)
 - [JoaoRodrigues](/JoaoRodrigues) (obviously)
-- [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)
+- UlrichSchaefer
 - [MeganSchneider](/MeganSchneider)
 - [MelanieSiegel](/MelanieSiegel)
-- [JoaoSilva](https://blog.inductorsoftware.com/docsproto/summits/JoaoSilva) (certainly)
+- JoaoSilva (certainly)
 - [KirilSimov](/KirilSimov)
 - [IlianaSimova](/IlianaSimova)
-- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden) (July 14-July 18)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong) (July 14-July 18)
+- GlennSlayden (July 14-July 18)
+- SanghounSong (July 14-July 18)
 - [MatsuzakiTakuya](/MatsuzakiTakuya)
-- [LilingTan](https://blog.inductorsoftware.com/docsproto/summits/LilingTan) (14-18 July)
-- [JesseTseng](https://blog.inductorsoftware.com/docsproto/summits/JesseTseng)
+- LilingTan (14-18 July)
+- JesseTseng
 - [JunichiTsujii](/JunichiTsujii)
 - TJTrimble (14-16 July)
-- [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/summits/HansUszkoreit)
-- [ErikVelldal](https://blog.inductorsoftware.com/docsproto/summits/ErikVelldal)
-- [BenjaminWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenjaminWaldron)
+- HansUszkoreit
+- ErikVelldal
+- BenjaminWaldron
 - [RuiWang](/RuiWang)
 - [DavidWax](/DavidWax)
-- [DominikusWetzel](https://blog.inductorsoftware.com/docsproto/summits/DominikusWetzel)
-- [JimWhite](https://blog.inductorsoftware.com/docsproto/summits/JimWhite)
-- [FeiyuXu](https://blog.inductorsoftware.com/docsproto/summits/FeiyuXu)
+- DominikusWetzel
+- JimWhite
+- FeiyuXu
 - [JaehyungYang](/JaehyungYang)
-- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang) (I cannot make it because of
+- JustinChunleiYang (I cannot make it because of
 teaching obligations :confused:
-- [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva) (July 14-18, though I will be tasting
+- OlgaZamaraeva (July 14-18, though I will be tasting
 various things in various locations before and after; I do like
 port).
-- [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang) (unfortunately i can't make it)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta) (July 14-July 18, sim ao porto)
+- YiZhang (unfortunately i can't make it)
+- LuisMorgadoCosta (July 14-July 18, sim ao porto)
 - [DavidInman](/DavidInman) (July 14-18)
 <update date omitted for speed>{% endraw %}

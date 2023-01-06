@@ -2,94 +2,94 @@
 Summit](http://moin.delph-in.net/OsloTop).
 
 - [EliasAamodt](/EliasAamodt)
-- [TaliAradGreshler](https://blog.inductorsoftware.com/docsproto/summits/TaliAradGreshler)
-- [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova)
-- [TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin)
+- TaliAradGreshler
+- TaniaAvgustinova
+- TimBaldwin
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (gerne; Aug 7-11, possibly leaving
+- EmilyBender (gerne; Aug 7-11, possibly leaving
 mid-afternoon on Friday)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (Mon-Fri)
-- [AntonioBranco](https://blog.inductorsoftware.com/docsproto/summits/AntonioBranco) (sorry, can't attend this year)
+- FrancisBond (Mon-Fri)
+- AntonioBranco (sorry, can't attend this year)
 - [ToreBruland](/ToreBruland)
 - [UlrichCallmeier](/UlrichCallmeier)
-- [JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll) (Mon-Fri)
-- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake)
-- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/summits/JoshuaCrowgey)
-- [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/summits/BertholdCrysmann) (Mon morning-Fri early
+- JohnCarroll (Mon-Fri)
+- AnnCopestake
+- JoshuaCrowgey
+- BertholdCrysmann (Mon morning-Fri early
 afternoon)
-- [ChrisCurtis](https://blog.inductorsoftware.com/docsproto/summits/ChrisCurtis) (Mon-Fri)
+- ChrisCurtis (Mon-Fri)
 - [LaurieDermer](/LaurieDermer)
-- [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan)
-- [GuyEmerson](https://blog.inductorsoftware.com/docsproto/summits/GuyEmerson) (Mon-Fri)
+- RebeccaDridan
+- GuyEmerson (Mon-Fri)
 - [ZhenzhenFan](/ZhenzhenFan)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) (Mon-Fri)
-- [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens) (can't make it this time; have a
+- DanFlickinger (Mon-Fri)
+- AntskeFokkens (can't make it this time; have a
 great summit!)
 - [SanaeFujita](/SanaeFujita)
 - [ClaireGardent](/ClaireGardent)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) (Mon-Fri)
+- MichaelGoodman (Mon-Fri)
 - [BrandonGraves](/BrandonGraves)
 - [MichaelHaeger](/MichaelHaeger) (Mon-Fri)
 - [DagHaug](/DagHaug)
-- [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/summits/PetterHaugereid) (Mon-Fri)
+- PetterHaugereid (Mon-Fri)
 - [LarsHellan](/LarsHellan) (Mon-Wed - offering Dan a break as
 ghostpresenter for Trondheim)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot)
-- [LivnatHerzigSheinfux](https://blog.inductorsoftware.com/docsproto/summits/LivnatHerzigSheinfux)
+- LivnatHerzigSheinfux
 - [MaticHorvat](/MaticHorvat)
 - [KristenHowell](/KristenHowell)
 - [GordanaIlicHolen](/GordanaIlicHolen)
 - [DavidInman](/DavidInman) (Mon-Fri)
 - [MartinKay](/MartinKay)
-- [BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer) (would love to come, unfortunately can't
+- BerndKiefer (would love to come, unfortunately can't
 make it)
-- [JongBokKim](https://blog.inductorsoftware.com/docsproto/summits/JongBokKim)
+- JongBokKim
 - [PrescottKlassen](/PrescottKlassen)
 - [AlexanderKuhnle](/AlexanderKuhnle) (Mon-Thu, leaving on Friday
 morning)
 - [TakayukiKuribayashi](/TakayukiKuribayashi)
-- [AlexLascarides](https://blog.inductorsoftware.com/docsproto/summits/AlexLascarides) I'm sorry I can't come this time;
+- AlexLascarides I'm sorry I can't come this time;
 I'm sure it will be a fantastic meeting!
 - [TuấnAnhLê](/Tu%E1%BA%A5nAnhL%C3%AA)
-- [TuanAnhLe](https://blog.inductorsoftware.com/docsproto/summits/TuanAnhLe)
-- [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher)
+- TuanAnhLe
+- NedLetcher
 - [MontserratMarimon](/MontserratMarimon)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Mon-Fri)
-- [NuritMelnik](https://blog.inductorsoftware.com/docsproto/summits/NuritMelnik)
+- NuritMelnik
 - [YusukeMiyao](/YusukeMiyao)
-- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi) (Mon-Fri)
+- DavidMoeljadi (Mon-Fri)
 - [MathieuMorey](/MathieuMorey)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta) (Monday to Friday)
-- [DavidMott](https://blog.inductorsoftware.com/docsproto/summits/DavidMott)
+- LuisMorgadoCosta (Monday to Friday)
+- DavidMott
 - [EwaMuszynska](/EwaMuszynska)
-- [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (Monday through Friday, on-site)
-- [PetyaOsenova](https://blog.inductorsoftware.com/docsproto/summits/PetyaOsenova)
+- StephanOepen (Monday through Friday, on-site)
+- PetyaOsenova
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (Monday to Friday, tentatively)
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/summits/ZinaPozen)
-- [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)
+- ZinaPozen
+- UlrichSchaefer
 - [MelanieSiegel](/MelanieSiegel)
-- [JoaoSilva](https://blog.inductorsoftware.com/docsproto/summits/JoaoSilva)
+- JoaoSilva
 - [KirilSimov](/KirilSimov)
-- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden) (Monday 8/7 - Friday 8/11)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong) (Monday to Friday, with my family)
-- [WeiweiSun](https://blog.inductorsoftware.com/docsproto/summits/WeiweiSun)
-- [LilingTan](https://blog.inductorsoftware.com/docsproto/summits/LilingTan)
+- GlennSlayden (Monday 8/7 - Friday 8/11)
+- SanghounSong (Monday to Friday, with my family)
+- WeiweiSun
+- LilingTan
 - TJTrimble (Maybe next time!)
 - [JunichiTsujii](/JunichiTsujii)
-- [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/summits/HansUszkoreit)
+- HansUszkoreit
 - [RuiWang](/RuiWang)
-- [WenjieWang](https://blog.inductorsoftware.com/docsproto/summits/WenjieWang) (Mon-Fri)
+- WenjieWang (Mon-Fri)
 - [TomWasow](/TomWasow)
-- [FeiyuXu](https://blog.inductorsoftware.com/docsproto/summits/FeiyuXu)
+- FeiyuXu
 - [PingXue](/PingXue) (Monday through Wednesday)
-- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang) (Sorry, I cannot make it this
+- JustinChunleiYang (Sorry, I cannot make it this
 time; Enjoy this event!)
-- [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva) (Monday - Friday)
-- [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang)
+- OlgaZamaraeva (Monday - Friday)
+- YiZhang
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
 <update date omitted for speed>{% endraw %}

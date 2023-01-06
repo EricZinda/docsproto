@@ -45,7 +45,7 @@ arity](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Underspecifie
   - [specification of co-reference: \*''I bit her
 tongue''](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_VariablePropertySharing)
   - And other topics: [PEST examples
-discussion](https://blog.inductorsoftware.com/docsproto/summits/WeSearch_PestExamples),
+discussion](),
 [etc.](/WeSearch/Hank%C3%B8TheRest)
 - From the [Sofia Summit](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop), July 2012:
   

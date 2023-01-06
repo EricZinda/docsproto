@@ -4,7 +4,7 @@ This page provides scheduling details for the 2009 DELPH-IN Summit, held
 in Barcelona. For general information about the meeting, please see the
 [BarcelonaTop](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop) page. As in previous years, we have
 prepared the schedule jointly and incrementally, with
-[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) and [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) trying to
+EmilyBender and StephanOepen trying to
 coordinate. With only hours remaining until the start of the meeting, we
 have arrived at a stable draft schedule, only expecting to make minor
 revisions along the way, as the group sees fit.

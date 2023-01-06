@@ -1,5 +1,5 @@
-{% raw %}Discussion moderated by [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), scribed by
-[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman)
+{% raw %}Discussion moderated by SanghounSong, scribed by
+MichaelGoodman
 
 Apologies for the many ..., where the scribe's fingers were slower than
 the speakers' lips.

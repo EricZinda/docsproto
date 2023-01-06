@@ -2,7 +2,7 @@
 intro to the new work Sanghoun is doing.
 
 Discussion at the [2017 Grammar Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop) led
-by [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), scribed by [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond).
+by SanghounSong, scribed by FrancisBond.
 
 3 topics (SSH)
 

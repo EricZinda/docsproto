@@ -34,15 +34,15 @@ phenomena independently of existing grammars for the purposes of
 investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
 [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) and focusing on syntactic and morphosyntactic
-phenomena is currently being developed by [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher),
-[TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender). For further
+phenomena is currently being developed by NedLetcher,
+TimBaldwin and EmilyBender. For further
 details and background, please see the paper *Constructing a Phenomenal
 Corpus: Towards Detecting Linguistic Phenomena in Precision Grammars* in
 the [proceedings of the Workshop on High-level Methodologies for Grammar
 Engineering
 2013](https://www.univ-orleans.fr/lifo/evenements/HMGE13/proceedings_HMGE13.pdf).
 
-A dedicated page will be coming soon. Contact [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher)
+A dedicated page will be coming soon. Contact NedLetcher
 for more information.
 
 # Typediff

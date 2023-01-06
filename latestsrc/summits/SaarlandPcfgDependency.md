@@ -1,6 +1,6 @@
 {% raw %}PCFG and dependency conversion+parsing with [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)(s) SIG
 
-Notes provided by [AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/summits/AngelinaIvanova)
+Notes provided by AngelinaIvanova
 
 * * *
 

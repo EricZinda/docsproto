@@ -1,6 +1,6 @@
 {% raw %}## Discussion: Appropriateness of separately categorizing events from entities in the MRS
 
-Moderator: [DavidInman](/DavidInman) Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)
+Moderator: [DavidInman](/DavidInman) Scribe: EmilyBender
 
 #### Discussion during presentation of slides:
 

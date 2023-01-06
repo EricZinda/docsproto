@@ -10,48 +10,48 @@ but please leave UTC as the first entry):
 
 - [EliasAamodt](/EliasAamodt)
 - [GabrielAguilaMultner](/GabrielAguilaMultner)
-- [TaliAradGreshler](https://blog.inductorsoftware.com/docsproto/summits/TaliAradGreshler)
-- [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova) (Monday-Friday, 13:00-21:00
+- TaliAradGreshler
+- TaniaAvgustinova (Monday-Friday, 13:00-21:00
 UTC)
-- [TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin)
-- [EmmaBateman](https://blog.inductorsoftware.com/docsproto/summits/EmmaBateman)
+- TimBaldwin
+- EmmaBateman
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (Monday-Friday, 13:00-4:00 UTC)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (Monday-Friday, 0:00-15:00 UTC)
-- [AntonioBranco](https://blog.inductorsoftware.com/docsproto/summits/AntonioBranco)
+- EmilyBender (Monday-Friday, 13:00-4:00 UTC)
+- FrancisBond (Monday-Friday, 0:00-15:00 UTC)
+- AntonioBranco
 - [ToreBruland](/ToreBruland)
-- [JanBuys](https://blog.inductorsoftware.com/docsproto/summits/JanBuys) (Monday-Friday, 06:00-21:00 UTC)
+- JanBuys (Monday-Friday, 06:00-21:00 UTC)
 - [UlrichCallmeier](/UlrichCallmeier)
-- [JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll) (Monday-Friday, 07:00-21:00 UTC)
+- JohnCarroll (Monday-Friday, 07:00-21:00 UTC)
 - [YufeiChen](/YufeiChen)
 - [CleoCondoravdi](/CleoCondoravdi)
 - [ElizabethConrad](/ElizabethConrad)
-- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) (Monday-Thursday, 07:00-23:00 GMT,
+- AnnCopestake (Monday-Thursday, 07:00-23:00 GMT,
 Friday TBD but probably 13:00 GMT onwards at best)
-- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/summits/JoshuaCrowgey)
-- [BertholdCrysmann](https://blog.inductorsoftware.com/docsproto/summits/BertholdCrysmann)
+- JoshuaCrowgey
+- BertholdCrysmann
 - [BrunoCuconato](/BrunoCuconato)
-- [ChrisCurtis](https://blog.inductorsoftware.com/docsproto/summits/ChrisCurtis) (Monday-Friday, variable but
+- ChrisCurtis (Monday-Friday, variable but
 \~11:00-23:00 UTC, with punctures)
 - [PaulaCzarnowska](/PaulaCzarnowska) (Monday-Friday, 08:00-22:00 UTC)
 - [LaurieDermer](/LaurieDermer)
-- [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan) (Monday-Friday, 22:00-13:00 UTC)
-- [GuyEmerson](https://blog.inductorsoftware.com/docsproto/summits/GuyEmerson) (Monday-Friday, 07:00-23:00 UTC)
+- RebeccaDridan (Monday-Friday, 22:00-13:00 UTC)
+- GuyEmerson (Monday-Friday, 07:00-23:00 UTC)
 - [ZhenzhenFan](/ZhenzhenFan)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
-- [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens)
+- DanFlickinger
+- AntskeFokkens
 - [SanaeFujita](/SanaeFujita)
 - [ClaireGardent](/ClaireGardent)
 - [AjdaGokcen](/AjdaGokcen)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) (Monday-Friday, 0:00-15:00 UTC)
+- MichaelGoodman (Monday-Friday, 0:00-15:00 UTC)
 - [CarlosGómez](/CarlosG%C3%B3mez) (will try to attend plenary Tuesday
 14:30-17:00 UTC)
 - [JonasGroschwitz](/JonasGroschwitz) (Mon-Fri, available 7:00-17:00
 UTC, but will mostly join only the plenary, i.e. 14-17)
 - [MichaelHaeger](/MichaelHaeger)
 - [DagHaug](/DagHaug)
-- [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/summits/PetterHaugereid)
+- PetterHaugereid
 - [LarsHellan](/LarsHellan)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot)
@@ -59,67 +59,67 @@ UTC, but will mostly join only the plenary, i.e. 14-17)
 - [KristenHowell](/KristenHowell)
 - [DavidInman](/DavidInman)
 - [MartinKay](/MartinKay)
-- [BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer)
-- [JongBokKim](https://blog.inductorsoftware.com/docsproto/summits/JongBokKim)
+- BerndKiefer
+- JongBokKim
 - [PrescottKlassen](/PrescottKlassen)
-- [AlexanderKoller](https://blog.inductorsoftware.com/docsproto/summits/AlexanderKoller) (can only attend sporadically,
+- AlexanderKoller (can only attend sporadically,
 Mon-Fri, 6:00-17:00 UTC)
 - [FrantišekKratochvíl](/Franti%C5%A1ekKratochv%C3%ADl)
 - [AlexanderKuhnle](/AlexanderKuhnle)
 - [TakayukiKuribayashi](/TakayukiKuribayashi)
-- [AlexLascarides](https://blog.inductorsoftware.com/docsproto/summits/AlexLascarides)
+- AlexLascarides
 - [TuấnAnhLê](/Tu%E1%BA%A5nAnhL%C3%AA)
-- [TuanAnhLe](https://blog.inductorsoftware.com/docsproto/summits/TuanAnhLe)
+- TuanAnhLe
 - Gyu-minLee
-- [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher)
+- NedLetcher
 - [MatthiasLindemann](/MatthiasLindemann)
 - [MontserratMarimon](/MontserratMarimon)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Monday-Friday,
 13:00-3:00 UTC)
-- [NuritMelnik](https://blog.inductorsoftware.com/docsproto/summits/NuritMelnik)
+- NuritMelnik
 - [YusukeMiyao](/YusukeMiyao)
-- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi) (Monday-Friday, 7:00-17:00 UTC)
+- DavidMoeljadi (Monday-Friday, 7:00-17:00 UTC)
 - [MathieuMorey](/MathieuMorey)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta) (Monday-Friday, 1:00-17:00 UTC)
-- [DavidMott](https://blog.inductorsoftware.com/docsproto/summits/DavidMott)
+- LuisMorgadoCosta (Monday-Friday, 1:00-17:00 UTC)
+- DavidMott
 - [EwaMuszynska](/EwaMuszynska)
 - [ElizabethNielsen](/ElizabethNielsen)
-- [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
-- [PetyaOsenova](https://blog.inductorsoftware.com/docsproto/summits/PetyaOsenova)
+- StephanOepen
+- PetyaOsenova
 - [RomanPearah](/RomanPearah)
 - [WoodleyPackard](/WoodleyPackard)
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/summits/ZinaPozen)
-- [AlexandreRademaker](https://blog.inductorsoftware.com/docsproto/summits/AlexandreRademaker) (Monday-Friday,
+- ZinaPozen
+- AlexandreRademaker (Monday-Friday,
 9:00AM-10:00PM UTC)
-- [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer) (Monday-Friday, 6:00-20:00 UTC, can
+- UlrichSchaefer (Monday-Friday, 6:00-20:00 UTC, can
 only attend sporadically)
 - [MelanieSiegel](/MelanieSiegel)
-- [JoaoSilva](https://blog.inductorsoftware.com/docsproto/summits/JoaoSilva)
+- JoaoSilva
 - [KirilSimov](/KirilSimov)
 - [JoannaSio](/JoannaSio)
-- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong) (Monday-Friday, 0:00-15:00 UTC)
+- GlennSlayden
+- SanghounSong (Monday-Friday, 0:00-15:00 UTC)
 - [ShaneSteinertThrelkeld](/ShaneSteinertThrelkeld)
 - [LonnyStrunk](/LonnyStrunk)
-- [WeiweiSun](https://blog.inductorsoftware.com/docsproto/summits/WeiweiSun)
-- [LilingTan](https://blog.inductorsoftware.com/docsproto/summits/LilingTan)
+- WeiweiSun
+- LilingTan
 - TJTrimble
 - [JunichiTsujii](/JunichiTsujii)
-- [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/summits/HansUszkoreit)
+- HansUszkoreit
 - [AntoineVenant](/AntoineVenant)
 - [RuiWang](/RuiWang)
-- [WenjieWang](https://blog.inductorsoftware.com/docsproto/summits/WenjieWang)
+- WenjieWang
 - [TomWasow](/TomWasow)
 - [HuangyangXiao](/HuangyangXiao)
 - [HuiyuanXie](/HuiyuanXie)
-- [FeiyuXu](https://blog.inductorsoftware.com/docsproto/summits/FeiyuXu)
+- FeiyuXu
 - [PingXue](/PingXue)
-- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang) (Tuesday, Thursday, Friday,
+- JustinChunleiYang (Tuesday, Thursday, Friday,
 0:00-15:00 UTC)
-- [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva) (Mon-Fri 15:00-02:00 UTC; 13:00-5:00
+- OlgaZamaraeva (Mon-Fri 15:00-02:00 UTC; 13:00-5:00
 if need be)
 - [ClaudeZhang](/ClaudeZhang)
-- [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang)
+- YiZhang
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 <update date omitted for speed>{% endraw %}

@@ -2,8 +2,8 @@
 into DELPH-IN.
 
 Prelimary work is being done using the ERG and wordnet, mainly at NTU
-([FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), [MathieuMorey](/MathieuMorey)) and UW
-([ZinaPozen](https://blog.inductorsoftware.com/docsproto/summits/ZinaPozen)).
+(FrancisBond, [MathieuMorey](/MathieuMorey)) and UW
+(ZinaPozen).
 
 ## Content
 

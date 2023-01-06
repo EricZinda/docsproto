@@ -5,7 +5,7 @@
 For most people: go to the ACE website and download ACE from one of the
 links there (rather than checking it out from subversion
 
-Liling: ACE is not on the [FrontPage](https://blog.inductorsoftware.com/docsproto/summits/FrontPage)
+Liling: ACE is not on the FrontPage
 
 Woodley: someone should add that with a link to [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
 

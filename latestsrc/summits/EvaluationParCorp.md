@@ -32,7 +32,7 @@ There was some discussion of this subject at Fefor in 2006:
 [FeforParCorp](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp). This includes several candidate corpora,
 and some desiderata for choosing a text.
 
-- I ([FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)) have filled out the description of
+- I (FrancisBond) have filled out the description of
 the "Cathedral and the Bazaar" test set at
 [FeforParCorp](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp).
   

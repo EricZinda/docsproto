@@ -54,7 +54,7 @@ example, if the LKB could read the english.tdl file, ...
 [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), these and other list-like windows (such as the
 'Apply all lex rules' window) obey the \*parse-tree-font-size\* user
 parameter.
-- **Comments in TDL**: although the [TdlRfc](https://blog.inductorsoftware.com/docsproto/summits/TdlRfc) specification
+- **Comments in TDL**: although the TdlRfc specification
 does not provide a way to comment out a section of TDL by wrapping
 it in a definition, [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) fully implements the
 BlockComment facility. There is partial support for block comments

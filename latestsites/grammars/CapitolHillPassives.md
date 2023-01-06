@@ -1,6 +1,6 @@
 {% raw %}# Indonesian Passive Voice
 
-[DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi)
+DavidMoeljadi
 
 The passive voice is very frequent in Indonesian, much more frequent
 than in English. In English the frequency is estimated at about 4-5% in
@@ -309,5 +309,5 @@ Some examples:
            "Budi suffers from severe thirst."
 
 Link to [discussion notes](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) as transcribed
-by [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger).
+by DanFlickinger.
 <update date omitted for speed>{% endraw %}

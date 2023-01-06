@@ -178,8 +178,8 @@ subsequently served to build a commercial email auto response product
 exceptional situations, et al.), and extended in functionality and
 interfaces (including UniCode support, unknown word support, server and
 API library modes, lattice input, and initial MRS support); most of this
-work was done by Ulrich with help from [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) and
-[BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer) (of DFKI). As part of the EU-funded [Deep
+work was done by Ulrich with help from StephanOepen and
+BerndKiefer (of DFKI). As part of the EU-funded [Deep
 Thought](http://www.project-deepthought.net/) project, Ulrich and
 Stephan later added support for subsumption-based ambiguity factoring
 (giving a significant improvement in parsing efficiency for long
@@ -192,20 +192,20 @@ of (R)MRSs in various standard formats.
 
 Towards the end of 2003, Ulrich retired from active PET development, and
 Bernd has since been the main developer (with occasional help from
-others, specifically [FrederikFouvry](https://blog.inductorsoftware.com/docsproto/summits/FrederikFouvry) and
-[YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang) of Saarland University and Stephan). PET has seen a
+others, specifically FrederikFouvry and
+YiZhang of Saarland University and Stephan). PET has seen a
 range of substantial additions in functionality since, including the
 ability to add (leaf) types at run-time, output fragmentary analysis
 hypotheses in case of parse failures, and an XML-based input format that
 generalizes the lattice-oriented YY input mode.
 
-In 2006 [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang) (Saarland University) added the ability to do
+In 2006 YiZhang (Saarland University) added the ability to do
 [selective unpacking](https://blog.inductorsoftware.com/docsproto/garage/PetSelectiveUnpacking), greatly decreasing the
 memory consumption for n-best parsing. Later, Yi added native C++
 support for MRS extraction from parse results and MRS output in various
-formats. [BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer) added the possibility to constrain the
+formats. BartCramer added the possibility to constrain the
 search space by using a PCFG-guided pruning of tasks, on the chart cell
-level. In 2010, [PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs) (DFKI Berlin) added [chart
+level. In 2010, PeterAdolphs (DFKI Berlin) added [chart
 mapping](https://blog.inductorsoftware.com/docsproto/garage/ChartMapping) and the [FSC input format](https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc).
 
 ## To cite

@@ -5,7 +5,7 @@
 This page provides background information on phenomena and
 implementations included in gCLIMB for German.
 
-In this document, *I* and *me* refers to [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens).
+In this document, *I* and *me* refers to AntskeFokkens.
 
 **Disclaimer**
 

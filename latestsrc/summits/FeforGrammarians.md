@@ -20,11 +20,11 @@ conventions, file organization, etc.)
 
 Participants should feel free to add additional information to sessions
 (obviously large scale additions are best done with new pages), but
-should email [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) with suggestions of changes
+should email DanFlickinger with suggestions of changes
 to schedule and topics. Names below are of presenters and also of
 proposers of discussion topics: leaders of discussions and scribes will
 be added when we can work out load. Please email
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) to volunteer.
+DanFlickinger to volunteer.
 
 ## 13-Jun
 
@@ -35,24 +35,24 @@ be added when we can work out load. Please email
 | 11:00 - 12:30 | Grammar status reports and identification of immediate challenges ([FeforImmediateChallenges](https://blog.inductorsoftware.com/docsproto/summits/FeforImmediateChallenges))                                  |
 | 12:30 - 14:00 | Lunch                                                                                                                                                     |
 | 14:00 - 16:00 | [Small group activities](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)                                                                                                                |
-|               | Also grammar tours: French: [JesseTseng](https://blog.inductorsoftware.com/docsproto/summits/JesseTseng), Modern Greek: [ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni),                                                         |
+|               | Also grammar tours: French: JesseTseng, Modern Greek: ValiaKordoni,                                                         |
 |               | Norwegian - determiner system: [DorotheeBeermann](/DorotheeBeermann)                                                                                      |
 |               | others...                                                                                                                                                 |
 | 16:00 - 16:30 | Coffee                                                                                                                                                    |
-| 16:30 - 18:30 | [Methodology for Evaluating Matrix Typology Modules](http://faculty.washington.edu/ebender/Fefor_Matrix_Modules_Eval.ppt): [LauriePoulson](https://blog.inductorsoftware.com/docsproto/summits/LauriePoulson) |
-|               | Long-distance dependencies: [PetterHaugereid](https://blog.inductorsoftware.com/docsproto/summits/PetterHaugereid)                                                                                            |
+| 16:30 - 18:30 | [Methodology for Evaluating Matrix Typology Modules](http://faculty.washington.edu/ebender/Fefor_Matrix_Modules_Eval.ppt): LauriePoulson |
+|               | Long-distance dependencies: PetterHaugereid                                                                                            |
 |               | [Small group activities](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)                                                                                                                |
 
 ## 14-Jun
 
 |               |                                                                                                                                                                     |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 09:30 - 10:30 | [Heart of Gold (HoG) tutorial](http://www.dfki.de/~uschaefer/delph-in/heartofgold-tutorial-fefor.pdf): [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)                             |
+| 09:30 - 10:30 | [Heart of Gold (HoG) tutorial](http://www.dfki.de/~uschaefer/delph-in/heartofgold-tutorial-fefor.pdf): UlrichSchaefer                             |
 |               | [Small group activities](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)                                                                                                                          |
 |               | On-Line Grammar Demos (Peer Gynt)                                                                                                                                   |
 | 10:30 - 11:00 | Coffee                                                                                                                                                              |
 | 11:00 - 12:30 | [Small group activities](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)                                                                                                                          |
-|               | [Idioms in a Constraint-based Grammar of Japanese](http://pine.kuee.kyoto-u.ac.jp/member/hasimoto/mypapers/delphin060614.pdf): [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/summits/ChikaraHashimoto) |
+|               | [Idioms in a Constraint-based Grammar of Japanese](http://pine.kuee.kyoto-u.ac.jp/member/hasimoto/mypapers/delphin060614.pdf): ChikaraHashimoto |
 | 12:30 - 14:00 | Lunch                                                                                                                                                               |
 | 14:00         | Begin joint discussion on [MRS/RMRS](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)                                                                                                                     |
 

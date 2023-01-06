@@ -1,7 +1,7 @@
 {% raw %}# Argument Change and Reduplication in Indonesian: Some issues
 
-[DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi) ([FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) and
-[LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta))
+DavidMoeljadi (FrancisBond and
+LuisMorgadoCosta)
 
 Indonesian is a Western Malayo-Polynesian language of the Austronesian
 language family, spoken mainly in the Republic of Indonesia. Indonesian

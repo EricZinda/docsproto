@@ -55,12 +55,12 @@ Verb reduplication](https://blog.inductorsoftware.com/docsproto/grammars/LADIndo
 
 ## Contributors
 
-- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi)
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta)
+- DavidMoeljadi
+- FrancisBond
+- SanghounSong
+- DanFlickinger
+- MichaelGoodman
+- LuisMorgadoCosta
 
 ## References
 

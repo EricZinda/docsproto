@@ -3,7 +3,7 @@ languages, including Mandarin Chinese (simplified and traditional),
 Cantonese, Min, etc. Currently Simplified Mandarin is the best supported
 language. This grammar is based off ManGO
 (<http://moin.delph-in.net/MandarinGrammarOnline>) created by Justin
-Yang ([JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)) and Dan Flickinger
+Yang (JustinChunleiYang) and Dan Flickinger
 (<http://lingo.stanford.edu/dan/>).
 
 #### Note on naming
@@ -87,18 +87,18 @@ Grammar.
 
 ## Contributors
 
-- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
-- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)
+- FrancisBond
+- SanghounSong
 - [ZhenzhenFan](/ZhenzhenFan)
-- [JustinChunleiYang](https://blog.inductorsoftware.com/docsproto/summits/JustinChunleiYang)
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
-- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman)
+- JustinChunleiYang
+- DanFlickinger
+- MichaelGoodman
 - [BoChen](/BoChen)
-- [HuiZhenWang](https://blog.inductorsoftware.com/docsproto/summits/HuiZhenWang)
+- HuiZhenWang
 - [JoannaSio](/JoannaSio)
-- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta)
-- [ShanWang](https://blog.inductorsoftware.com/docsproto/summits/ShanWang)
-- [WenjieWang](https://blog.inductorsoftware.com/docsproto/summits/WenjieWang)
+- LuisMorgadoCosta
+- ShanWang
+- WenjieWang
 
 This grammar was supported in part by:
 

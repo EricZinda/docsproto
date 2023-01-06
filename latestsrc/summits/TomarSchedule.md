@@ -120,46 +120,46 @@ absolutely won't work for you.**
 
 1. [WoodleyPackard](/WoodleyPackard): Parsing under Non-Sumbsumptive
 Packing
-2. [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens): CLIMB +
-[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman): SinGram +
+2. AntskeFokkens: CLIMB +
+MichaelGoodman: SinGram +
 [DavidInman](/DavidInman): Reusing or Modifying Grammars for Closely
 Related Languages
-3. [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva) (consumer?): Approaches to handling
+3. OlgaZamaraeva (consumer?): Approaches to handling
 space/time challenges that occur with DELPH-IN software; possibility
 of running on EC2
-4. [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond): Quantum MRS
-5. [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong): Standardizing annotations over "The
+4. FrancisBond: Quantum MRS
+5. SanghounSong: Standardizing annotations over "The
 Adventure of the Speckled Band"
-6. [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens): The Grammar Matrix in individual
+6. AntskeFokkens: The Grammar Matrix in individual
 grammars (what is used, what has been changed).
-7. [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger): Robust parsing with the ERG
-8. [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake): Sharing resources for MT using
+7. DanFlickinger: Robust parsing with the ERG
+8. AnnCopestake: Sharing resources for MT using
 DELPH-IN technology
-9. [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger),
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen), [WoodleyPackard](/WoodleyPackard):
+9. EmilyBender, DanFlickinger,
+StephanOepen, [WoodleyPackard](/WoodleyPackard):
 Treebanker conference (LPP)
-10. [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
+10. DanFlickinger, StephanOepen:
 semantics of names
-11. [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen): Formalism Revisions: Implications,
+11. StephanOepen: Formalism Revisions: Implications,
 Relational Constraints
-12. [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan): Ubertagging (Introduction)
-13. [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden): Lagrange Multipliers
+12. RebeccaDridan: Ubertagging (Introduction)
+13. GlennSlayden: Lagrange Multipliers
 14. [WoodleyPackard](/WoodleyPackard): Future Shared Tasks Winning
 Alliances
 
 ## Demonstrations
 
 1. [DavidInman](/DavidInman) (consumer): ACE
-2. [DavidMott](https://blog.inductorsoftware.com/docsproto/summits/DavidMott): Extraction and Use of Domain Semantics from
+2. DavidMott: Extraction and Use of Domain Semantics from
 NL Sentences
-3. [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden): agree
+3. GlennSlayden: agree
 
 ## Tutorials
 
-1. Tutorial: Setting up MT ([FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond))
+1. Tutorial: Setting up MT (FrancisBond)
    
-   - [LilingTan](https://blog.inductorsoftware.com/docsproto/summits/LilingTan) (consumer?): Reviving LOGON for ERG + GG
+   - LilingTan (consumer?): Reviving LOGON for ERG + GG
 (wishlist)
-2. [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman): pyDelphin: MRS feature extraction,
+2. MichaelGoodman: pyDelphin: MRS feature extraction,
 format conversion, and batch processing
 <update date omitted for speed>{% endraw %}

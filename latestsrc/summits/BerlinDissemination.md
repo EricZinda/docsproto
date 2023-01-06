@@ -1,8 +1,8 @@
 {% raw %}# Availability of DELPH-IN Tools for Online Demos, Modes of Cooperation among the DELPH-IN Partners, Dissemination
 
-Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](https://blog.inductorsoftware.com/docsproto/summits/HansUszkoreit)
+Moderators: [LarsHellan](/LarsHellan) and HansUszkoreit
 
-Scribe: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)
+Scribe: UlrichSchaefer
 
 Thu, 23 Aug 1135-1300
 

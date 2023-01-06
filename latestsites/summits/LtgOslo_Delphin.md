@@ -106,16 +106,16 @@ Two funded projects currently use and extend DELPH-IN technologies,
 [LAP](http://www.mn.uio.no/ifi/english/research/projects/clarino/) (the
 Language Analysis Portal, part of the Norwegian CLARIN(O) initiative).
 
-Work in [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) by [AngelinaIvanova](https://blog.inductorsoftware.com/docsproto/summits/AngelinaIvanova) (on
+Work in [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) by AngelinaIvanova (on
 relating bi-lexical dependency representations and DELPH-IN HPSG
-analyses), by [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan) (on, among things,
+analyses), by RebeccaDridan (on, among things,
 ubertagging for faster and more accurate parsing), and by
-[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) and off-site collaborators (on working
+StephanOepen and off-site collaborators (on working
 towards documentation of ERG Semantic Analyses) are presented
 individually at the 2013 Summit.
 
 Another [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) activity has been collaborative work with
-[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) on enabling the ERG to analyse inputs
+DanFlickinger on enabling the ERG to analyse inputs
 annotated (optionally) with (two types of) candidate phrase boundaries,
 or candidate target bi-lexical dependencies. Following are some example
 inputs (using GML mark-up; see below) that exemplify this functionality:

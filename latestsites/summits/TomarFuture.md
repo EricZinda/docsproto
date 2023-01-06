@@ -1,7 +1,7 @@
 {% raw %}# Discussion: The Future of DELPH-IN
 
-Moderator: [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen); Scribe:
-[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)
+Moderator: StephanOepen; Scribe:
+EmilyBender
 
 # Subjective Impressions
 

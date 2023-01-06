@@ -110,7 +110,7 @@ ERG-style tokens; (d) the full HPSG derivation
 ([ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations)); (e) a simplified phrase
 structure tree, labeled with common category abbreviations
 ([ErgTrees](/ErgTrees); to be documented); (f) a logical-form meaning
-representation in Minimal Recursion Semantics (MRS; [MrsRfc](https://blog.inductorsoftware.com/docsproto/summits/MrsRfc));
+representation in Minimal Recursion Semantics (MRS; MrsRfc);
 and (g) a reduction of the MRS into variable-free Elementary Dependency
 Structures (EDS; [EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop)).
 

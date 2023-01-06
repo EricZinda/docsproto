@@ -1,6 +1,6 @@
 {% raw %}# Using Apache Ant for Testing DELPH-IN Tools and Resources
 
-([UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer))
+(UlrichSchaefer)
 
 A short description of SProUTomat can be found
 [here](http://www.dfki.de/~uschaefer/sproutomat/). Here is the [LREC-06

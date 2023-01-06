@@ -32,7 +32,7 @@ Currently (2008-08-13) there is some variation among grammars:
 | which\_q\_rel       | *what*, *when*, ... |                     |                     |
 | nominalization\_rel |                     | nominalization\_rel | nominalization\_rel |
 
-- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) and [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) will
+- DanFlickinger and FrancisBond will
 prpose a set of univerals and
   
   - send to the matrix-list

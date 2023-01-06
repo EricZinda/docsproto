@@ -2,9 +2,9 @@
 
 [DELPH-IN 2016](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
 
-Requestor: [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta)
+Requestor: LuisMorgadoCosta
 
-Scribe: [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
+Scribe: GlennSlayden
 
 **Luis**: We'll try to be brief. The idea that we are trying to
 implement in Singapore is a grammar that will need some kind of
