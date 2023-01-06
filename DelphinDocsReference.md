@@ -28,7 +28,7 @@ After the `createdocs.py` script is finished, control goes back to the workflow:
   "SourceRepositories":
     {
       "docswiki": {"Repository": "delph-in/docs/wiki"},
-      "websitewiki": {"Repository": "ericzinda/docsproto/wiki"}
+      "websitewiki": {"Repository": "ericzinda/docsproto/wiki", "ReportUnusedWikiEntries": True}
     },
   "Sites":
   [
@@ -63,6 +63,7 @@ After the `createdocs.py` script is finished, control goes back to the workflow:
 The `SourceRepositories` section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included, just the files listed in `sitedefinitions.json`. 
 - `key` is the name that will be used by the `SrcDir` field in every page in the `Pages` section to refer to the repository.  It must match the directory name where the repository got cloned by the workflow.
 - `Repository` is the name of the repository in Github.  If it is a Wiki, replace the dot in the name (delph-in/docs.wiki) with a slash (delph-in/docs/wiki)
+- `ReportUnusedWikiEntries` should be set to true if you want the `Fixes for Broken Links to Pages` report to include any pages from a github wiki site that were *not* included in the docs
 
 To add a new repository, a row must be added here *and* the [workflow](https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml) must be modified to also clone it so the data is available. You can see how this is done in the workflow by looking for where the existing repositories are cloned and adding a new section.
 ~~~
@@ -142,7 +143,7 @@ At this point the workflow will begin running and you'll see its status.  When d
 You can also click on the row that represents the run you just did and you'll see an "Artifacts" section at the bottom. This gives you files that get output by the run:
 - `All Links`: A Json file that lists every link in every document included in every site and whether they are broken, valid, etc. Useful for debugging. If you chose to check external links (which takes about 1.5 hours) the validity of those will be included. Otherwise only internal links between wiki pages are checked.
 - `All Pages`: Lists every page in every site.
-- `Fixes for Broken Links to Pages`: Creates page definitions suitable for including in `sitesdefinition.json` for every broken link. Note that this includes adding entries for wiki pages that *don't exist* (those will have the `FileMissing` field set in their definition). This allows you to simply copy the `File` definition to the `sitesdefinition.json` file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren't included, and so on).  If you included all of these files in `sitesdefinition.json`, there would be no broken (Wiki) links!
+- `Fixes for Broken Links to Pages`: Creates page definitions suitable for including in `sitesdefinition.json` for every broken link and for every page that was not included from a site that had `ReportUnusedWikiEntries` set to true (this allows detecting pages that weren't linked to and not included). Note that this includes adding entries for wiki pages that *don't exist* (those will have the `FileMissing` field set in their definition). This allows you to simply copy the `File` definition to the `sitesdefinition.json` file to include it and fix the broken link. It includes the transitive closure of all broken links (i.e. the links from those files to other files that aren't included, and so on).  If you included all of these files in `sitesdefinition.json`, there would be no broken (Wiki) links!
 
 
 > Note that a file that was linked to but didn't exist will have a definition in `Fixes for Broken Links to Pages` as well, but will include a `"FileMissing": True` field. Obviously don't add this to the site without also creating the file that was missing!
