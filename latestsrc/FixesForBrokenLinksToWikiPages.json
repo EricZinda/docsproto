@@ -1,4 +1,9 @@
   {
+    "home": [
+      {"Section": "DELPH-IN", "Pages": [
+        {"Page": "WikiName", "SrcDir": "docswiki", "SrcFile": "WikiName.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md", "FileMissing": true}
+      ]}
+    ],
     "howto": [
       {"Section": "Developer Tutorial", "Pages": [
         {"Page": "DelphinApplications", "SrcDir": "perplexity", "SrcFile": "DelphinApplications.md", "BaseReferrer": "howto/docs/devhowto/devhowtoOverview.md", "Referrer": "howto/docs/devhowto/devhowtoOverview.md", "FileMissing": true},

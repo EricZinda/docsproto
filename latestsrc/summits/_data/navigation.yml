@@ -11,10 +11,10 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop
   - title: "Matrix"
     url: https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop
-  - title: "Garage"
-    url: https://blog.inductorsoftware.com/docsproto/garage/AgreeTop
   - title: "Summits"
     url: https://blog.inductorsoftware.com/docsproto/summits/SummitTop
+  - title: "Garage"
+    url: https://blog.inductorsoftware.com/docsproto/garage/AgreeTop
 toc:
   - title: "Overview"
     children:
