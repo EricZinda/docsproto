@@ -26,7 +26,7 @@ import createblanksite
 from text_renderer import TextRenderer
 
 
-def propose_link_recursive(input_content_root, proposals, repositories_definitions, pages_definitions, unique_existing_pages, parser, base_referrer, link_to_check):
+def propose_link_recursive(input_content_root, proposals, repositories_definitions, pages_definitions, unique_existing_pages, parser, base_referrer, link_to_check, recursive_check=True):
     # See if the link is a markdown file
     file_name, file_extension = os.path.splitext(link_to_check["TargetFile"])
     if file_extension.lower() == ".md":
@@ -40,16 +40,17 @@ def propose_link_recursive(input_content_root, proposals, repositories_definitio
 
             link_file_path = os.path.join(input_content_root, link_file_definition["SrcDir"], link_file_definition["SrcFile"])
             if os.path.exists(link_file_path):
-                # The link file is a file in the project, scan it
-                with open(link_file_path, "r") as txtFile:
-                    result = parser.parse(txtFile.read())
-                    further_links, _ = convert_child(repositories_definitions, pages_definitions, link_file_definition, result)
-                    for further_link in further_links:
-                        if further_link["LinkState"] == "relative_broken":
-                            # Now check the further links
-                            propose_link_recursive(input_content_root, proposals, repositories_definitions,
-                                                   pages_definitions, unique_existing_pages, parser, base_referrer,
-                                                   further_link)
+                if recursive_check:
+                    # The link file is a file in the project, scan it
+                    with open(link_file_path, "r") as txtFile:
+                        result = parser.parse(txtFile.read())
+                        further_links, _ = convert_child(repositories_definitions, pages_definitions, link_file_definition, result)
+                        for further_link in further_links:
+                            if further_link["LinkState"] == "relative_broken":
+                                # Now check the further links
+                                propose_link_recursive(input_content_root, proposals, repositories_definitions,
+                                                       pages_definitions, unique_existing_pages, parser, base_referrer,
+                                                       further_link)
 
             else:
                 # File doesn't exist
@@ -470,7 +471,6 @@ def propose_broken_links(all_links, pages_definitions, input_content_root, uniqu
         if "ReportUnusedWikiEntries" in site_item[1] and site_item[1]["ReportUnusedWikiEntries"] is True:
             # Get the list of files in the root of the site
             search_directory = os.path.join(input_content_root, site_item[0])
-            files_not_included = []
             files = (file for file in os.listdir(search_directory)
                      if os.path.isfile(os.path.join(search_directory, file)))
             for file in files:  # You could shorten this to one line, but
@@ -480,13 +480,13 @@ def propose_broken_links(all_links, pages_definitions, input_content_root, uniqu
                         # Found it!
                         found = True
                         break
+
                 if not found:
                     base_referrer = f'<not included from site {site_item[0]}>'
                     propose_link_recursive(input_content_root, proposals, pages_definitions["SourceRepositories"],
                                            pages_definitions["Pages"], unique_existing_pages, parser, base_referrer,
-                                           {"TargetFile": file, "SrcDir": site_item[0], "Site": "<none", "Section": "<none>", "LinkTarget": file, "SrcFile": file})
-
-                    files_not_included.append({"Repository": site_item[1]["Repository"], "File": file})
+                                           {"TargetFile": file, "SrcDir": site_item[0], "Site": "<not included or linked to>", "Section": "<none>", "LinkTarget": file, "SrcFile": file},
+                                           False)
 
     return proposals
 
