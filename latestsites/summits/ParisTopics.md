@@ -18,103 +18,103 @@ July 4, Morning 2
 - Chart mapping applied: prosodic structures and temporal constraints,
 reducing parser search space, integration of external resources
   - [KatyaAlahverdzhieva](/KatyaAlahverdzhieva),
-[PeterAdolphs](../PeterAdolphs), [UlrichSchaefer](../UlrichSchaefer),
-[BartCramer](../BartCramer), [AntskeFokkens](../AntskeFokkens),
-[StephanOepen](../StephanOepen) (optionally),
+[PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs), [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer),
+[BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer), [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens),
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (optionally),
 [FredericLaurens](/FredericLaurens),
-[RebeccaDridan](../RebeccaDridan) (if possible),
-[AnnCopestake](../AnnCopestake), [GlennSlayden](../GlennSlayden),
+[RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan) (if possible),
+[AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake), [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden),
 [FabiolaHenri](/FabiolaHenri),
 [MontserratMarimon](/MontserratMarimon),
-[BerndKiefer](../BerndKiefer), [EmilyBender](../EmilyBender)
+[BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer), [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender)
 (optionally)
 - [Multilingual Grammar engineering with treebanks and core
-grammars.](../ParisMultilingualGrammarEngineering)
+grammars.](https://blog.inductorsoftware.com/docsproto/summits/ParisMultilingualGrammarEngineering)
   
-  - [AntskeFokkens](../AntskeFokkens), [YiZhang](../YiZhang),
-[FrancisBond](../FrancisBond),
-[TaniaAvgustinova](../TaniaAvgustinova), [BartCramer](../BartCramer),
+  - [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens), [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang),
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond),
+[TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova), [BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer),
 Laurie Poulson, [FredericLaurens](/FredericLaurens),
-[FabiolaHenri](/FabiolaHenri), [SanghounSong](../SanghounSong)
+[FabiolaHenri](/FabiolaHenri), [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)
 
 July 4, Afternoon 1
 
 - Using the Grammar Matrix customization system, BYOL (bring your own
-language) ([ParisMatrixCustomization](../ParisMatrixCustomization)),
-[EmilyBender](../EmilyBender), [TaniaAvgustinova](../TaniaAvgustinova),
-[AntskeFokkens](../AntskeFokkens), [FabiolaHenri](/FabiolaHenri),
-[SanghounSong](../SanghounSong), [GlennSlayden](../GlennSlayden)
+language) ([ParisMatrixCustomization](https://blog.inductorsoftware.com/docsproto/summits/ParisMatrixCustomization)),
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender), [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova),
+[AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens), [FabiolaHenri](/FabiolaHenri),
+[SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
 - PET road map. [PetRoadMap](https://blog.inductorsoftware.com/docsproto/garage/PetRoadMap)
   
-  - [PeterAdolphs](../PeterAdolphs), [BartCramer](../BartCramer),
-[BerndKiefer](../BerndKiefer), [StephanOepen](../StephanOepen),
-[YiZhang](../YiZhang), [UlrichSchaefer](../UlrichSchaefer),
-[FrancisBond](../FrancisBond), [AntskeFokkens](../AntskeFokkens),
+  - [PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs), [BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer),
+[BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer), [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen),
+[YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang), [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer),
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens),
 [FredericLaurens](/FredericLaurens),
-[RebeccaDridan](../RebeccaDridan) (if possible),
+[RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan) (if possible),
 [MontserratMarimon](/MontserratMarimon),
-[DanFlickinger](../DanFlickinger)
+[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
 
 July 4, Afternoon 2
 
 - Matrix topics: Providing multiple analyses for the same phenomenon,
 top-down v. bottom-up library development, documentation
-([ParisMatrixTopics](../ParisMatrixTopics))
+([ParisMatrixTopics](https://blog.inductorsoftware.com/docsproto/summits/ParisMatrixTopics))
   
-  - [AntskeFokkens](../AntskeFokkens), [EmilyBender](../EmilyBender),
-[TaniaAvgustinova](../TaniaAvgustinova), Laurie Poulson,
-[GlennSlayden](../GlennSlayden)
+  - [AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens), [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender),
+[TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova), Laurie Poulson,
+[GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
 - Content extraction (and parsing) from PDF, HTML, LaTeX, etc.
-  - [StephanOepen](../StephanOepen), [FrancisBond](../FrancisBond)
+  - [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen), [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
 
 July 5, Morning 1
 
 - Implementing information structure in large DELPH-IN grammars
-[SanghounSong](../SanghounSong), [EmilyBender](../EmilyBender),
+[SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender),
 [KatyaAlahverdzhieva](/KatyaAlahverdzhieva),
-[PeterAdolphs](../PeterAdolphs), [FrancisBond](../FrancisBond),
-[TaniaAvgustinova](../TaniaAvgustinova),
-[AntskeFokkens](../AntskeFokkens), Laurie Poulson,
-[FredericLaurens](/FredericLaurens), [AnnCopestake](../AnnCopestake),
-[GlennSlayden](../GlennSlayden), [FabiolaHenri](/FabiolaHenri),
+[PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs), [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond),
+[TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova),
+[AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens), Laurie Poulson,
+[FredericLaurens](/FredericLaurens), [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake),
+[GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden), [FabiolaHenri](/FabiolaHenri),
 [MontserratMarimon](/MontserratMarimon),
-[AurelieHerbelot](/AurelieHerbelot), [DanFlickinger](../DanFlickinger)
+[AurelieHerbelot](/AurelieHerbelot), [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
 - Parsing/Generating for practical uses (e.g. non-academic, such as
 for websites, low-memory devices, etc.),
-[MichaelGoodman](../MichaelGoodman), [FrancisBond](../FrancisBond),
-[PeterAdolphs](../PeterAdolphs), [YiZhang](../YiZhang),
-[AntskeFokkens](../AntskeFokkens), [StephanOepen](../StephanOepen)
-(optionally), Laurie Poulson, [BerndKiefer](../BerndKiefer)
+[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman), [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond),
+[PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs), [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang),
+[AntskeFokkens](https://blog.inductorsoftware.com/docsproto/summits/AntskeFokkens), [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
+(optionally), Laurie Poulson, [BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer)
 (optionally), [GisleYtrestol](/GisleYtrestol)
 
 July 5, Morning 2
 
 - Setting up Egad for Error Mining Grammars,
-[MichaelGoodman](../MichaelGoodman), [PeterAdolphs](../PeterAdolphs),
-[FrancisBond](../FrancisBond), [YiZhang](../YiZhang),
-[StephanOepen](../StephanOepen) (optionally), Melanie Siegel,
+[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman), [PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs),
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang),
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (optionally), Melanie Siegel,
 [MontserratMarimon](/MontserratMarimon),
-[SanghounSong](../SanghounSong)
-- MRS and discourse phenomena [AnnCopestake](../AnnCopestake),
-[EmilyBender](../EmilyBender); [TaniaAvgustinova](../TaniaAvgustinova),
-[PeterAdolphs](../PeterAdolphs), Laurie Poulson,
+[SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)
+- MRS and discourse phenomena [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake),
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender); [TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova),
+[PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs), Laurie Poulson,
 [FredericLaurens](/FredericLaurens), [FabiolaHenri](/FabiolaHenri),
 [AurelieHerbelot](/AurelieHerbelot),
 [KatyaAlahverdzhieva](/KatyaAlahverdzhieva),
-[DanFlickinger](../DanFlickinger), [SanghounSong](../SanghounSong),
-[UlrichSchaefer](../UlrichSchaefer)
+[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong),
+[UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)
 
 July 5, Afternoon 1
 
-- LOGON 2010 release planning. [StephanOepen](../StephanOepen),
-[FrancisBond](../FrancisBond), [MontserratMarimon](/MontserratMarimon),
-[TaniaAvgustinova](../TaniaAvgustinova),
-[DanFlickinger](../DanFlickinger), [BartCramer](../BartCramer)
-- Grammar metadata table filling in [EmilyBender](../EmilyBender);
-[TaniaAvgustinova](../TaniaAvgustinova), Laurie Poulson
+- LOGON 2010 release planning. [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen),
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), [MontserratMarimon](/MontserratMarimon),
+[TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova),
+[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer)
+- Grammar metadata table filling in [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender);
+[TaniaAvgustinova](https://blog.inductorsoftware.com/docsproto/summits/TaniaAvgustinova), Laurie Poulson
 
 For DELPH-IN 2011:
 
 - Feature-centric TFS representation and manipulation
-[GlennSlayden](../GlennSlayden)
+[GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
 <update date omitted for speed>{% endraw %}

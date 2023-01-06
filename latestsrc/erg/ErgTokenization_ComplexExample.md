@@ -6,7 +6,7 @@ seeking to apply a sequence classification model (e.g. a PoS tagger,
 supertagger, or uebertagger) prior to full parsing.
 
 In the following, we distinguish three levels of processing (see the
-[ErgTokenization](../ErgTokenization) page for further background): (a)
+[ErgTokenization](https://blog.inductorsoftware.com/docsproto/erg/ErgTokenization) page for further background): (a)
 *initial* tokenization, i.e. the result of string-level pre-processing
 (see the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page for details on pre-processing rules
 included with the ERG); (b) *internal* tokenization, the state of

@@ -18,7 +18,7 @@ to make sure they are setting things up in the right package (aka
 namespace).
 
 For hooking up external tokenizers and morphological analyzers, you may
-also be intrested in SMAF (see [SmafTop](../SmafTop)).
+also be intrested in SMAF (see [SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop)).
 
 # XML Examples
 
@@ -134,7 +134,7 @@ There is a sample shell script to implement a *fake* external
 preprocessor for the ERG. The script is called sppp and resides in the
 lkb/src/glue/ sub-directory of the DELPH-IN tree (assuming your
 installation includes source code for the LKB; see the
-[LkbInstallation](../LkbInstallation) pages). Maybe start out by loading
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) pages). Maybe start out by loading
 the ERG and making sure you understand the SPPP basics by activating the
 fake SPPP script; note that, no matter what input you parse, this script
 will always return the example XML shown above as the preprocessor

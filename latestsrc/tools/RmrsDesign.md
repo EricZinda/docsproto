@@ -3,14 +3,14 @@
 
 **Table of Contents**
 
-- [Sets of interests or constituencies that have a stake in the design of (R)MRS representations:](../RmrsDesign#sets-of-interests-or-constituencies-that-have-a-stake-in-the-design-of-rmrs-representations)
-- [Agenda items](../RmrsDesign#agenda-items)
-- [Demise of pronoun\_q\_rel](../RmrsDesign#demise-of-pronoun_q_rel)
-- [Optionality of pronoun\_n\_rel](../RmrsDesign#optionality-of-pronoun_n_rel)
-- [PRED with internal structure](../RmrsDesign#pred-with-internal-structure)
-- [Non-restrictive relative clauses](../RmrsDesign#non-restrictive-relative-clauses)
-- [Predicate Hierarchies](../RmrsDesign#predicate-hierarchies)
-- [EPs v. properties](../RmrsDesign#eps-v-properties)
+- [Sets of interests or constituencies that have a stake in the design of (R)MRS representations:](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [Agenda items](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [Demise of pronoun\_q\_rel](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [Optionality of pronoun\_n\_rel](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [PRED with internal structure](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [Non-restrictive relative clauses](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [Predicate Hierarchies](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
+- [EPs v. properties](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign)
 
 <!-- markdown-toc end -->
 

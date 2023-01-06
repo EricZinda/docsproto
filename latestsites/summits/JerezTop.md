@@ -13,28 +13,28 @@ Cost\
 There will be a 100 EUR fee to cover workshop expenses.
 
 Participants\
-[FrancisBond](../FrancisBond), Ann Copestake,
-[DanFlickinger](../DanFlickinger), [ChikaraHashimoto](../ChikaraHashimoto),
-[BerndKiefer](../BerndKiefer), [EricNichols](/EricNichols),
-[StephanOepen](../StephanOepen), [UlrichSchaefer](../UlrichSchaefer),
-[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](../BenWaldron)
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), Ann Copestake,
+[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger), [ChikaraHashimoto](https://blog.inductorsoftware.com/docsproto/summits/ChikaraHashimoto),
+[BerndKiefer](https://blog.inductorsoftware.com/docsproto/summits/BerndKiefer), [EricNichols](/EricNichols),
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen), [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer),
+[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenWaldron)
 
 Contents
 
-1. [Delph-in Developers Meeting](../JerezTop#Delph-in_Developers_Meeting)
-   1. [Proposed Timetable](../JerezTop#Proposed_Timetable)
-   2. [Topics](../JerezTop#Topics)
-      1. [MT](../JerezTop#MT)
-      2. [What's new](../JerezTop#What.27s_new)
-      3. [API/StandOff/Preprocessors](../JerezTop#API.2FStandOff.2FPreprocessors)
+1. [Delph-in Developers Meeting](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+   1. [Proposed Timetable](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+   2. [Topics](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      1. [MT](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      2. [What's new](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      3. [API/StandOff/Preprocessors](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
       4. [PET bug squashing/LKB
-harmonization](../JerezTop#PET_bug_squashing.2FLKB_harmonization)
-      5. [Parse Ranking](../JerezTop#Parse_Ranking)
-      6. [Large Lexicons](../JerezTop#Large_Lexicons)
-      7. [Enhancements](../JerezTop#Enhancements)
-      8. [(Automated) Testing](../JerezTop#A.28Automated.29_Testing)
-      9. [Still More](../JerezTop#Still_More)
-   3. [Detailed Ideas](../JerezTop#Detailed_Ideas)
+harmonization](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      5. [Parse Ranking](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      6. [Large Lexicons](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      7. [Enhancements](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      8. [(Automated) Testing](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      9. [Still More](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+   3. [Detailed Ideas](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
 
 ## Proposed Timetable
 
@@ -117,7 +117,7 @@ discuss and set priorities
 
 ### (Automated) Testing
 
-- See also [LisbonTestingDiscussion](../LisbonTestingDiscussion)
+- See also [LisbonTestingDiscussion](https://blog.inductorsoftware.com/docsproto/summits/LisbonTestingDiscussion)
 - Using Apache Ant for Testing DELPH-IN Tools and Resources: see
 [TestingWithAnt](https://blog.inductorsoftware.com/docsproto/garage/TestingWithAnt)
 

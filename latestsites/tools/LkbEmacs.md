@@ -9,27 +9,27 @@ editor brings certain advantages, among them ease of start-up, editing
 support for LKB grammar files, and some additional debugging facilities.
 
 Extending the terse discussion from the
-[LkbInstallation](../LkbInstallation) page (which hopefully just worked for
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) page (which hopefully just worked for
 you), the following paragraphs provide some more background on using the
 LKB with *emacs*, including help on running a Lisp environment as a
 sub-process to *emacs* (so as to compile the LKB source code).
 
 Contents
 
-1. [Overview](../LkbEmacs#Overview)
-2. [About emacs](../LkbEmacs#About_emacs)
-3. [After you have emacs installed](../LkbEmacs#After_you_have_emacs_installed)
-4. [Simple way to load a grammar](../LkbEmacs#Simple_way_to_load_a_grammar)
+1. [Overview](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
+2. [About emacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
+3. [After you have emacs installed](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
+4. [Simple way to load a grammar](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
 5. [Working with other scripts in
-Emacs](../LkbEmacs#Working_with_other_scripts_in_Emacs)
+Emacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
    1. [Proposal to Standardize Configuration
-Settings](../LkbEmacs#Proposal_to_Standardize_Configuration_Settings)
+Settings](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
       1. [Working with Greek
-(UTF-8)](../LkbEmacs#Working_with_Greek_.28UTF-8.29)
+(UTF-8)](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
       2. [Working with Japanese
-(EUC)](../LkbEmacs#Working_with_Japanese_.28EUC.29)
-         1. 1. [ACL 8.0](../LkbEmacs#ACL_8.0)
-         1. 2. [Other Components](../LkbEmacs#Other_Components)
+(EUC)](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
+         1. 1. [ACL 8.0](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
+         1. 2. [Other Components](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)
 
 # About emacs
 
@@ -42,7 +42,7 @@ concern Gnu emacs.
 # After you have emacs installed
 
 If you use the semi-automated installation process as in
-[LkbInstallation](../LkbInstallation) then all the emacs files will
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) then all the emacs files will
 magically be in the correct place and it will all work! If you are
 unable to use this, or if something doesn't work, here are instructions:
 
@@ -56,9 +56,9 @@ the start of that file.
 - Save and restart emacs.
 - If all is well, you should now be able to run the LKB as \`M-x lkb
 RET' in emacs.
-- load [lkb.el](../LkbMode) (dot.emacs may do it for you) or some user
+- load [lkb.el](https://blog.inductorsoftware.com/docsproto/tools/LkbMode) (dot.emacs may do it for you) or some user
 friendly menus and shortcuts.
-- load [tdl-mode.el](../LkbMode) for syntax coloring and useful
+- load [tdl-mode.el](https://blog.inductorsoftware.com/docsproto/tools/LkbMode) for syntax coloring and useful
 keybindings when dealing with TDL files.
 
 # Simple way to load a grammar

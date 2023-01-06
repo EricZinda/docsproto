@@ -6,7 +6,7 @@ The 17th DELPH-IN summit will be held virtually on July 19--23 2021.
 
 The registration is free.
 
-Anyone already in the organization is encouraged to register via the [Virtual2021Participants](../Virtual2021Participants) wiki. If you are a DELPH-IN participant but were not yet added to the Github org, please email https://github.com/emilymbender about it. 
+Anyone already in the organization is encouraged to register via the [Virtual2021Participants](https://blog.inductorsoftware.com/docsproto/summits/Virtual2021Participants) wiki. If you are a DELPH-IN participant but were not yet added to the Github org, please email https://github.com/emilymbender about it. 
 
 ## Communications and Zoom info
 
@@ -14,7 +14,7 @@ Anyone already in the organization is encouraged to register via the [Virtual202
 
 ## Program
 
-The schedule is up: [Virtual2021Schedule](../Virtual2021Schedule)
+The schedule is up: [Virtual2021Schedule](https://blog.inductorsoftware.com/docsproto/summits/Virtual2021Schedule)
 
 The program will consist of short presentations, long presentations, and discussions. All of it will be live (no prerecorded videos this year). We will not record anything (though if you would like to have your talk recorded, we can do that on case-by-case basis).
 

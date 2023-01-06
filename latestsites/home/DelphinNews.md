@@ -171,7 +171,7 @@ Linguistics](http://www.coling2002.sinica.edu.tw/) in Taipei
 
 ### Policy
 
-- This is the News page for [DELPH-IN](../Home). Please use it to
+- This is the News page for [DELPH-IN](https://blog.inductorsoftware.com/docsproto/home/Home). Please use it to
 add relevant new items which you think will be of general interest.
 - In general, please only add new entries and update and add comments
 to entries from your group. Please do not delete or add comments to

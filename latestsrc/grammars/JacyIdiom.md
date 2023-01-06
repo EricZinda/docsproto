@@ -1,25 +1,25 @@
 {% raw %}Contents
 
 1. [Overview of LKB's idiom detection
-mechanism](../JacyIdiom#Overview_of_LKB.27s_idiom_detection_mechanism)
-2. [Example](../JacyIdiom#Example)
-3. [Implementation](../JacyIdiom#Implementation)
-   1. [idioms.mtr and mtr.tdl](../JacyIdiom#idioms.mtr_and_mtr.tdl)
-   2. [The Lexicon](../JacyIdiom#The_Lexicon)
+mechanism](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+2. [Example](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+3. [Implementation](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+   1. [idioms.mtr and mtr.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+   2. [The Lexicon](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
    3. [Configuration of Relevant
-Rules](../JacyIdiom#Configuration_of_Relevant_Rules)
-      1. [matrix.tdl](../JacyIdiom#matrix.tdl)
-      2. [fundamentals.tdl](../JacyIdiom#fundamentals.tdl)
-      3. [rule-types.tdl](../JacyIdiom#rule-types.tdl)
+Rules](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      1. [matrix.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      2. [fundamentals.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      3. [rule-types.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
    4. [roots.tdl, script, user-fns.lsp, and
-globals.lsp](../JacyIdiom#roots.tdl.2C_script.2C_user-fns.lsp.2C_and_globals.lsp)
-      1. [roots.tdl](../JacyIdiom#roots.tdl)
-      2. [script](../JacyIdiom#script)
-      3. [user-fns.lsp](../JacyIdiom#user-fns.lsp)
-      4. [globals.lsp](../JacyIdiom#globals.lsp)
+globals.lsp](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      1. [roots.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      2. [script](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      3. [user-fns.lsp](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+      4. [globals.lsp](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
 
 This page describes how to implement idioms in a DELPH-IN Grammar,
-taking [Jacy](../JacyTop) as an example. The basic idea is that
+taking [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) as an example. The basic idea is that
 [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) checks if all the constituents (or PREDs) of an idiom
 appear in an (MRS output of) sentence.
 

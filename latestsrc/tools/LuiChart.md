@@ -63,9 +63,9 @@ window, which can be manipulated independantly.
 
 # Interactive Unification
 
-Like the [LuiAvm](../LuiAvm) browser, the chart browser support interactive
+Like the [LuiAvm](https://blog.inductorsoftware.com/docsproto/tools/LuiAvm) browser, the chart browser support interactive
 unification, i.e. dragging a chart edge and dropping it onto a feature
 (sub-)structure in another LUI window to request unification of the two
 structures with failure recording. See the
-[LuiUnification](../LuiUnification) page for details.
+[LuiUnification](https://blog.inductorsoftware.com/docsproto/tools/LuiUnification) page for details.
 <update date omitted for speed>{% endraw %}

@@ -1,7 +1,7 @@
 {% raw %}# Open Issue: Clitics
 
-Mentors: [EmilyBender](../EmilyBender) (ebender at u dot washington dot
-edu, <http://faculty.washington.edu/ebender>), [JesseTseng](../JesseTseng)
+Mentors: [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (ebender at u dot washington dot
+edu, <http://faculty.washington.edu/ebender>), [JesseTseng](https://blog.inductorsoftware.com/docsproto/summits/JesseTseng)
 
 Co-mentors welcome!
 

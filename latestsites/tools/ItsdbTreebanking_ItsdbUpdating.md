@@ -10,10 +10,10 @@ correct.
 
 Contents
 
-1. [Page Status](../ItsdbTreebanking_ItsdbUpdating#Page_Status)
-2. [Updating](../ItsdbTreebanking_ItsdbUpdating#Updating)
-   1. [Fully Automatic Update](../ItsdbTreebanking_ItsdbUpdating#Fully_Automatic_Update)
-   2. [Interactive Update](../ItsdbTreebanking_ItsdbUpdating#Interactive_Update)
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
+2. [Updating](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
+   1. [Fully Automatic Update](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
+   2. [Interactive Update](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
 
 # Updating
 

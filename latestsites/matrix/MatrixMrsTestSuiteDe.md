@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](../MatrixMrsTestSuite) for German.
+{% raw %}This is the [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) for German.
 
 ## German MRS Test Suite
 

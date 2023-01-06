@@ -1,16 +1,16 @@
 {% raw %}#### Conjuctions of Predications
-There are two ways to group predications together in an MRS: as a "conjunction" (i.e. a logical "and") or by using "scopal arguments". Scopal arguments allow passing *a predication* as an argument to another predication, much like lambda functions do in many programming languages. This is how you built up a tree of predications in a well-formed tree. Now that we have a textual representation and a way to execute it, we can start resolving these more complex structures.
+There are two ways to group predications together in an MRS: as a "conjunction" (i.e. a logical "and") or by using ["scopal arguments"](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS). Scopal arguments allow passing *a predication* as an argument to another predication, much like lambda functions do in many programming languages. This is how you built up a tree of predications in a [well-formed tree](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree). Now that we have a textual representation and a way to execute it, we can start resolving these more complex structures.
 
 To handle a logical "and" or "conjunction" of predications, we'll perform a depth-first search of the answers from each predication, evaluated in order. This means: take the variables set by the first predication, pass them to the second predication, and collect the successful result. Once you've iterated through all of them, you have the set of things that are true for all of the predications in the conjunction for that world.
 
 For an example such as: `_large_a_1(e,x) and _file_n_of(x)` (to indicate a "large file"):
-1. Start with empty variables and call the first predication using our predication contract: `_large_a_1`. 
+1. Start with empty variables and call the first predication using our [predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract): `_large_a_1`. 
 2. If it succeeds, take the resulting variable assignments and call `_file_n_of` with those assignments. Since there are no more predications, if it succeeds, that result is the first answer.
 3. Then "backtrack" by going to step 2 and call `_file_n_of` again to get the next answer. 
 4. When `_file_n_of` finally fails, backtrack to step 1 and call `_large_a_1` for its next value and do it all again. 
 5. When you have exhausted them all, you have a set of answers (in this case values for `x` and `e`) that represent all the "large files" in that world.
 
-This works because the first predication (`_large_a_1(e,x)`) is called with *unbound variables*, and because of our predication contract, this means it will iterate through all the "large" things in the world, whether they are files, folders, beach balls, or whatever. When it returns, `x` is set to whatever it selected and the next predication (`file_n_of`) will only succeed if the item is a *file*, So, if we get all the way through, we have a "large file".  The "backtracking" behavior allows us to iterate through all the objects in the world to find all the "large files".
+This works because the first predication (`_large_a_1(e,x)`) is called with *unbound variables*, and because of our [predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract), this means it will iterate through all the "large" things in the world, whether they are files, folders, beach balls, or whatever. When it returns, `x` is set to whatever it selected and the next predication (`file_n_of`) will only succeed if the item is a *file*, So, if we get all the way through, we have a "large file".  The "backtracking" behavior allows us to iterate through all the objects in the world to find all the "large files".
 
 We'll implement this logic generally by creating a `Call()` function. It expects our text-based format, either as a single predication or a list of predications, like this:
 ```
@@ -19,7 +19,7 @@ OR
 [["_large_a_1", "e1", "x1"], ["_file_n_of", "x1"]]
 ```
 
-It will use the `CallPredication()` function we defined in the previous section to call the individual predications. 
+It will use the `CallPredication()` function we [defined in the previous section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython) to call the individual predications. 
 
 In the code for `Call()` below, note that there is a new Python construct: `yield from`.  Where `yield` expects an actual object to yield as its argument, `yield from` says "call the function I'm giving you and yield whatever *that function* yields".
 
@@ -55,7 +55,7 @@ def Call(vocabulary, state, term):
 
 It is worth making sure you understand how this function works since it is the core of our evaluator. 
 
-A scope-resolved MRS is a *tree*, so to solve it, we do a single call to `Call()` and pass the whole tree as `term`. But: this function only evaluates either single predications or conjunctions, what makes it able to solve a tree? The trick is that predications can have other predications as arguments (i.e. "scopal arguments"). This builds a tree and the predications with scopal arguments are responsible for solving the scopal arguments. How this all works is described in the next topic.
+A scope-resolved MRS is a *tree*, so to solve it, we do a single call to `Call()` and pass the whole tree as `term`. But: this function only evaluates either single predications or conjunctions, what makes it able to solve a tree? The trick is that predications can have other predications as arguments (i.e. "scopal arguments"). This builds a tree and the predications with scopal arguments are responsible for solving the scopal arguments. How this all works is [described in the next topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments).
 
 To finish this up, let's implement the predications needed to make the example run and run it:
 
@@ -106,5 +106,5 @@ def Example3():
 # File(name="file2.txt", size=2000000)
 ```
 
-Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments in the next topic, we'll be able to handle full well-formed trees.
+Now we have evaluated our first (very small) MRS document. Once we implement scopal arguments [in the next topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments), we'll be able to handle full well-formed trees.
 <update date omitted for speed>{% endraw %}

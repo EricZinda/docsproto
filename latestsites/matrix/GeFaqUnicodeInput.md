@@ -20,7 +20,7 @@ emacs documentation on MULE.
 ## Related topics
 
 - [What non-alphanumeric characters are allowed to be part of a string
-parsed by the LKB, and how can I change that?](../GeFaqNonAlpha)
+parsed by the LKB, and how can I change that?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNonAlpha)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

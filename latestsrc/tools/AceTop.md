@@ -5,28 +5,28 @@ maintained by [WoodleyPackard](/WoodleyPackard), and is distributed as
 free software under the MIT license. This page serves to link to the
 following pages:
 
-- [AceInstall](../AceInstall) offers a few tips for those not familiar
+- [AceInstall](https://blog.inductorsoftware.com/docsproto/tools/AceInstall) offers a few tips for those not familiar
 with Unix terminal commands
-- [AceUse](../AceUse) gives some examples of common use cases.
-- [AceFaq](../AceFaq) gives answers to frequently asked questions.
-- [AceConfiguration](../AceConfiguration) describes the options available
+- [AceUse](https://blog.inductorsoftware.com/docsproto/tools/AceUse) gives some examples of common use cases.
+- [AceFaq](https://blog.inductorsoftware.com/docsproto/tools/AceFaq) gives answers to frequently asked questions.
+- [AceConfiguration](https://blog.inductorsoftware.com/docsproto/tools/AceConfiguration) describes the options available
 in ACE's per-grammar configuration files.
-- [AceOptions](../AceOptions) details the command-line option syntax.
-- [AceLui](../AceLui) shows how to run ACE with LUI for interactive
+- [AceOptions](https://blog.inductorsoftware.com/docsproto/tools/AceOptions) details the command-line option syntax.
+- [AceLui](https://blog.inductorsoftware.com/docsproto/tools/AceLui) shows how to run ACE with LUI for interactive
 grammar debugging.
-- [FftbTop](../FftbTop) shows how to use the full forest treebanker
+- [FftbTop](https://blog.inductorsoftware.com/docsproto/tools/FftbTop) shows how to use the full forest treebanker
 to treebank, and then how to build a statistical model using the
 treebank.
-- [AceCsaw](../AceCsaw) describes an extension to back off to a pcfg
+- [AceCsaw](https://blog.inductorsoftware.com/docsproto/tools/AceCsaw) describes an extension to back off to a pcfg
 approximation.
-- [AceWishlist](../AceWishlist) hosts a brainstorm list of features or
+- [AceWishlist](https://blog.inductorsoftware.com/docsproto/tools/AceWishlist) hosts a brainstorm list of features or
 bugfixes that someone wants ACE to incorporate.
-- [AceExperimental](../AceExperimental) describes some emerging (perhaps
+- [AceExperimental](https://blog.inductorsoftware.com/docsproto/tools/AceExperimental) describes some emerging (perhaps
 unstable) features
 - The [ACE website](http://sweaglesw.org/linguistics/ace/) hosts more
 information and the downloadable.
 - [libtsdb and art](http://sweaglesw.org/linguistics/libtsdb/) can be
-used to process [TsdbTop](../TsdbTop) profiles with ACE.
+used to process [TsdbTop](https://blog.inductorsoftware.com/docsproto/tools/TsdbTop) profiles with ACE.
 - [Ace Tools](http://sweaglesw.org/linguistics/acetools/) can be
 used to treebank and train statistical models for ACE.
 

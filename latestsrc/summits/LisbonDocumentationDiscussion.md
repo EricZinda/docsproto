@@ -1,6 +1,6 @@
 {% raw %}## Discussion II: Strategies for documentation of grammars and tools
 
-[FrancisBond](../FrancisBond) presented a brief introduction and introduced
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) presented a brief introduction and introduced
 some recent work at Kyoto Unviersity with Jacy [DELPH-IN Documentation:
 Grammars and
 Treebanks](http://www.kecl.ntt.co.jp/icl/mtg/members/bond/pubs/2005-delphin-documentation.pdf).
@@ -62,8 +62,8 @@ implementation, different phenomena with examples, types. So, it is
 documented by writing the grammar. This is a good way to document
 things.
 - As we are now expanding the wiki, we need to decide on a licence for
-it fast. [FrancisBond](../FrancisBond), egged on by
-[AnnCopestake](../AnnCopestake), suggested the [Creative Commons Deed
+it fast. [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond), egged on by
+[AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake), suggested the [Creative Commons Deed
 (Attribution 2.5)](http://creativecommons.org/licenses/by/2.5/).
 This would allow people to use the wikied documentation in other
 works as long as it is attributed.

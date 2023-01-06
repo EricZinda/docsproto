@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
 As of August 2011, PET now includes native support for the Regular
-Expression Pre-Processor (REPP; see [ReppTop](../ReppTop)). Repp processing
+Expression Pre-Processor (REPP; see [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop)). Repp processing
 can be requested using the -repp option to cheap, optionally with the
 name of a settings file as an argument: -repp=wiki. Settings files will
 be looked for in the base grammar directory, or the general settings

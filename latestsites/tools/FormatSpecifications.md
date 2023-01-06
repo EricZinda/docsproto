@@ -16,8 +16,8 @@ other way around
 ## \[incr tsdb()\]
 
 - profiles (relations, results, etc; see
-[ItsdbReference](../ItsdbReference))
-- [ItsdbDerivations](../ItsdbDerivations)
+[ItsdbReference](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference))
+- [ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations)
 
 ## MRS
 

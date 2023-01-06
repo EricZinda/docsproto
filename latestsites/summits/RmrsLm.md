@@ -2,16 +2,16 @@
 
 ## Participants
 
-- [FrancisBond](../FrancisBond)
+- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
 - [PrescottKlassen](/PrescottKlassen)
-- [ZinaPozen](../ZinaPozen)
-- [SanghounSong](../SanghounSong)
+- [ZinaPozen](https://blog.inductorsoftware.com/docsproto/summits/ZinaPozen)
+- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong)
 - [SpencerRarricks](/SpencerRarricks)
-- [MichaelGoodman](../MichaelGoodman)
-- [EmilyBender](../EmilyBender) (scribe)
-- [GlennSlayden](../GlennSlayden)
+- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman)
+- [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (scribe)
+- [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
 - [WoodleyPackard](/WoodleyPackard)
-- [DanFlickinger](../DanFlickinger) (by Skype)
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) (by Skype)
 
 ## Use cases
 

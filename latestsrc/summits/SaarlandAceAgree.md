@@ -1,11 +1,11 @@
-{% raw %}Tutorial on Ace and Agree from [SaarlandTop](../SaarlandTop) 2013
+{% raw %}Tutorial on Ace and Agree from [SaarlandTop](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop) 2013
 
 ## ACE
 
 For most people: go to the ACE website and download ACE from one of the
 links there (rather than checking it out from subversion
 
-Liling: ACE is not on the [FrontPage](../FrontPage)
+Liling: ACE is not on the [FrontPage](https://blog.inductorsoftware.com/docsproto/summits/FrontPage)
 
 Woodley: someone should add that with a link to [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
 

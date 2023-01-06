@@ -1,4 +1,4 @@
-{% raw %}[Jacy](../JacyTop) is being developed in cooperation with the Hinoki
+{% raw %}[Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) is being developed in cooperation with the Hinoki
 Treebank.
 
 ## Corpora

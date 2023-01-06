@@ -1,7 +1,7 @@
 {% raw %}# TSDB Schema Descriptions
 
-[TSDB](../TsdbTop) is the file-based relational database used to store
-[test suites](../ItsdbProfile) of sentences with related information used
+[TSDB](https://blog.inductorsoftware.com/docsproto/tools/TsdbTop) is the file-based relational database used to store
+[test suites](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile) of sentences with related information used
 by tools such as [\[incr tsdb()\]](http://www.delph-in.net/itsdb),
 [art](http://sweaglesw.org/linguistics/libtsdb/art), and
 [PyDelphin](https://blog.inductorsoftware.com/docsproto/summits/PyDelphin). The schema description of a TSDB database
@@ -97,7 +97,7 @@ databases, I propose the following variations:
 - restrict table and column names to be /\[a-zA-Z-\]/; specifically I
 want to rule out dot (.), colon (:), and spaces in the names so it
 doesn't interfere with other parts of the syntax (such as
-[TSQL](../TsqlRfc)), and to prevent a source of SQL injection when
+[TSQL](https://blog.inductorsoftware.com/docsproto/tools/TsqlRfc)), and to prevent a source of SQL injection when
 dynamically creating an SQL database (since table and column names
 cannot be parameterized, only literal values)
 - fix the position of the datatype to be immediately after the column

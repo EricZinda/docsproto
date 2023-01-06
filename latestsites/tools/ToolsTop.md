@@ -7,14 +7,14 @@ DELPH-IN systems and think might be worth sharing, list it here.
 
 ## Parsers/Generators
 
-- [LKB](../LkbInstallation) Linguistic Knowledge Builder
+- [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) Linguistic Knowledge Builder
   
   - Grammar development environment including support for parsing,
 generation, visualization, and debugging.
-- [LKB-FOS](../LkbFos) ([JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll))
+- [LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) ([JohnCarroll](https://blog.inductorsoftware.com/docsproto/summits/JohnCarroll))
   
   - Fully open-source LKB
-- [ACE](../AceTop) ([WoodleyPackard](/WoodleyPackard))
+- [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) ([WoodleyPackard](/WoodleyPackard))
   
   - ACE (the Answer Constraint Engine) is a processor for DELPH-IN
 grammars, supporting both parsing and generation.
@@ -123,7 +123,7 @@ repo](https://git.ling.washington.edu/agg/aggregation)
 - <https://github.com/own-pt/docker-delphin>
   
   - A docker installation of LOGON and ACE and its dependents. Some
-improvements over the initial [LkbMacintosh](../LkbMacintosh).
+improvements over the initial [LkbMacintosh](https://blog.inductorsoftware.com/docsproto/tools/LkbMacintosh).
 - [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop): XML-based middleware for the
 integration of deep and shallow NLP components
 <update date omitted for speed>{% endraw %}

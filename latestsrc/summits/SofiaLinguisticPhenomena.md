@@ -1,12 +1,12 @@
 {% raw %}See also the [slides](http://www.delph-in.net/2012/phenomena.pdf) for
 the discussion which summarise the
-[discussion](../SuquamishGrammarIndexing) on this topic from the previous
+[discussion](https://blog.inductorsoftware.com/docsproto/summits/SuquamishGrammarIndexing) on this topic from the previous
 summit.
 
 ## Discussion
 
 Emily: Progress on the Wambaya grammar phenomena: [A list of nearly 100
-phenomena](../WambayaPhenomenaCatalogue) with IGT for nearly a third of
+phenomena](https://blog.inductorsoftware.com/docsproto/summits/WambayaPhenomenaCatalogue) with IGT for nearly a third of
 them. Can people have a look to see what they think about level of
 granularity? Also, synergy between semantic catalogue of MRS endeavour.
 

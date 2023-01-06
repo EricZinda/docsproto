@@ -12,16 +12,16 @@ Newspaper)](http://www.kyoto-np.co.jp/article.php?mid=P2008080200056&genre=K1&ar
 
 Contents
 
-1. [Overview](../KyotoTop#Overview)
-   1. [Aims of the Meeting](../KyotoTop#Aims_of_the_Meeting)
-   2. [Registration](../KyotoTop#Registration)
-   3. [Location](../KyotoTop#Location)
-   4. [Accommodation](../KyotoTop#Accommodation)
-2. [Program](../KyotoTop#Program)
-3. [Photos](../KyotoTop#Photos)
-4. [Previous and Future Meetings](../KyotoTop#Previous_and_Future_Meetings)
-5. [Contact](../KyotoTop#Contact)
-   1. [Local Organizers](../KyotoTop#Local_Organizers)
+1. [Overview](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   1. [Aims of the Meeting](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   2. [Registration](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   3. [Location](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   4. [Accommodation](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+2. [Program](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+3. [Photos](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+4. [Previous and Future Meetings](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+5. [Contact](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   1. [Local Organizers](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
 
 ## Aims of the Meeting
 
@@ -34,10 +34,10 @@ grammar research in the DELPH-IN spirit
 
 ## Registration
 
-Please register on the [ParticipantsGroup](../ParticipantsGroup) page by
+Please register on the [ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page by
 adding the times when you plan to arrive and depart. Note that this is a
 closed summit, you need to be on the
-[ParticipantsGroup](../ParticipantsGroup) page to edit it.
+[ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page to edit it.
 
 ## Location
 
@@ -61,7 +61,7 @@ discount.
 
 # Program
 
-The tentative program is up at: [KyotoSchedule](../KyotoSchedule).
+The tentative program is up at: [KyotoSchedule](https://blog.inductorsoftware.com/docsproto/summits/KyotoSchedule).
 
 Here is a summary:
 
@@ -98,16 +98,16 @@ photos](http://picasaweb.google.com/bec.dridan/NagashiSMen)
 
 - 2011 ? Seattle (co-located with HPSG)
 - 2010 ???
-- 2009 [Barcelona](../BarcelonaTop)
+- 2009 [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop)
 - 2008 Kyoto (co-located with HPSG)
-- 2007 [Berlin](../BerlinTop)
-- 2006 [Fefor](../FeforTop)
-- 2005 [Lisbon](../LisbonTop) (co-located with HPSG)
+- 2007 [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
+- 2006 [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
+- 2005 [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) (co-located with HPSG)
 
 # Contact
 
 If you have any questions or comments, please email
-[FrancisBond](../FrancisBond) (<mailto:bond@ieee.org>):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (<mailto:bond@ieee.org>):
 
     Francis Bond <bond@ieee.org>            Tel: 0774-95-1391 (Japan +81)
     NICT Language Infrastructure Group      Fax: 0774-95-1308 (Japan +81)   

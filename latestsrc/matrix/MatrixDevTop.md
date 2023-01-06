@@ -1,13 +1,13 @@
 {% raw %}# Matrix Development
 
 This wiki is a reference for Grammar Matrix developers. Users of the
-Grammar Matrix should start from [MatrixTop](../MatrixTop).
+Grammar Matrix should start from [MatrixTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop).
 
 Below we have information about the [SVN
-repository](../MatrixDevTop#repository),
-[configuration](../MatrixDevTop#configuration), the [directory
-structure](../MatrixDevTop#directory-structure), and [other
-links](../MatrixDevTop#links).
+repository](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop),
+[configuration](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop), the [directory
+structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop), and [other
+links](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop).
 
 # Moving to GitHub
 
@@ -22,26 +22,26 @@ This page needs to be updated.
 A collection of documentation regarding the Matrix project, aimed at
 Matrix developers.
 
-- [Updating\_the\_Customization\_System](../Updating_the_Customization_System)
-- [matrixdef\_File\_Syntax](../matrixdef_File_Syntax)
-- [matrix.py](../MatrixDevTop#matrixpy) (main script for customization)
-- [MatrixDevConventions](../MatrixDevConventions) (Listing of global
+- [Updating\_the\_Customization\_System](https://blog.inductorsoftware.com/docsproto/matrix/Updating_the_Customization_System)
+- [matrixdef\_File\_Syntax](https://blog.inductorsoftware.com/docsproto/matrix/matrixdef_File_Syntax)
+- [matrix.py](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop) (main script for customization)
+- [MatrixDevConventions](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevConventions) (Listing of global
 variables and other conventions)
-- [MatrixRegressionTesting](../MatrixRegressionTesting)
-- [MatrixCustomizationUnitTesting](../MatrixCustomizationUnitTesting)
-- [MatrixCustomizationWebTesting](../MatrixCustomizationWebTesting)
-- [MatrixMorphology](../MatrixMorphology)
-- [PythonIdioms](../PythonIdioms)
-- [MatrixTDBProcedures](../MatrixTDBProcedures) (Current as of Sept 2009,
+- [MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)
+- [MatrixCustomizationUnitTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting)
+- [MatrixCustomizationWebTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting)
+- [MatrixMorphology](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMorphology)
+- [PythonIdioms](https://blog.inductorsoftware.com/docsproto/matrix/PythonIdioms)
+- [MatrixTDBProcedures](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTDBProcedures) (Current as of Sept 2009,
 for MatrixTDB2)
-- [MatrixTDB2Tables](../MatrixTDB2Tables) (2009 version switched to
+- [MatrixTDB2Tables](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTDB2Tables) (2009 version switched to
 MatrixTDB2 from MatrixTDB)
-- [MatrixValidationDebugging](../MatrixValidationDebugging) (Deprecated.
-See the section on [matrix.py](../MatrixDevTop#matrixpy))
-- [MatrixDevBlueprints](../MatrixDevBlueprints) (Ideas and proposals for
+- [MatrixValidationDebugging](https://blog.inductorsoftware.com/docsproto/matrix/MatrixValidationDebugging) (Deprecated.
+See the section on [matrix.py](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop))
+- [MatrixDevBlueprints](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevBlueprints) (Ideas and proposals for
 Matrix development)
-- [MatrixLibraryDevelopment](../MatrixLibraryDevelopment)
-- [MatrixLibraryWishList](../MatrixLibraryWishList)
+- [MatrixLibraryDevelopment](https://blog.inductorsoftware.com/docsproto/matrix/MatrixLibraryDevelopment)
+- [MatrixLibraryWishList](https://blog.inductorsoftware.com/docsproto/matrix/MatrixLibraryWishList)
 
 # Matrix Repository <a name="repository"/>
 
@@ -192,7 +192,7 @@ prints the following (as of 2011.04.26):
 # Directory Structure
 
 If you get the repository using the command
-[above](../MatrixDevTop#repository), you will see three subdirectories:
+[above](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop), you will see three subdirectories:
 branches, tags, and trunk. Each of these contain a copy of the Matrix
 code (a "branch"), but "trunk" is the official version, "tags" contains
 frozen snapshots (e.g. the version used for a dissertation, etc.), and

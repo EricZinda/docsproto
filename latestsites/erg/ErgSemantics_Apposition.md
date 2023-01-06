@@ -20,7 +20,7 @@ second, modifying nominal. The LTOP of the whole NP is the label of the
 dog (no joke) was on TV*
 - Titles may look like apposition, but are not: contrast *professor
 Kim Smith* with *the professor Kim Smith*, where the first is a
-title construction (see [Compounding](../ErgSemantics_Compounding)),
+title construction (see [Compounding](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Compounding)),
 while the second is apposition.
 
 # ERS Fingerprints
@@ -68,8 +68,8 @@ that of the appositive nominal.
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) main page
-- [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- [How to cite this work](../ErgSemantics_HowToCite)
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 <update date omitted for speed>{% endraw %}

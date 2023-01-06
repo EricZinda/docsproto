@@ -19,7 +19,7 @@ demonstration).
 Used to be hosted as part of Norwegian HPC services (at Oslo
 University), which gave premium up-time and availability. National HPC
 is moving away from Oslo (to Northern Norway, later to Finland), which
-will make it harder for [StephanOepen](../StephanOepen) to continue support
+will make it harder for [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) to continue support
 of these services.
 
 # Public (Outward-Facing) Web Pages

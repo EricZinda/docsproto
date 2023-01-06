@@ -1,6 +1,6 @@
 {% raw %}Some thoughts on mapping MRSs to Wordnet sense (mainly illustrated with
 the ERG and PWN). Examples use a variant of the indexed MRS to save
-space (part of the work on [Lexical Semantics](../LexsemTop)).
+space (part of the work on [Lexical Semantics](https://blog.inductorsoftware.com/docsproto/garage/LexsemTop)).
 
 Contents
 
@@ -149,7 +149,7 @@ be just:
      x14:_guard_n_1⟨14:19⟩[]
      x9:_dog_n_1⟨20:23⟩[]
 
-NTU WN tags both the single and MWE in this case, [SemCor](../SemCor) maps
+NTU WN tags both the single and MWE in this case, [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) maps
 only the MWE I think we want:
 
     x6:_cat_n_1 = cat_n1

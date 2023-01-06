@@ -36,7 +36,7 @@ LOGON tree attempts to get all of these parameters right
 'out-of-the-box', mostly by pushing for
 [UTF-8](http://www.cl.cam.ac.uk/~mgk25/unicode.html) as the default
 encoding across languages. While the non-LOGON LKB binaries (see the
-[LkbInstallation](../LkbInstallation) page) are not yet built using the
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) page) are not yet built using the
 latest set of CLIM patches as of late 2008, it is expected that they too
 will activate improved international character support (on Linux) in the
 near future.
@@ -44,7 +44,7 @@ near future.
 # Linguistic User Interface
 
 The LOGON tree enables the replacement Linguistic User Interface (LUI)
-for the LKB by default; see the [LkbLui](../LkbLui) page for further
+for the LKB by default; see the [LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) page for further
 information. However, LUI as of late 2008 only supports the display of
 trees, AVMs, (single) MRSs, and parsing charts, hence the LOGON
 infrastructure will often still fall back on the original LKB CLIM
@@ -86,7 +86,7 @@ start-up file:
       (tsdb :skeletons "~/logon/lingo/lkb/src/tsdb/skeletons/english")
 
 However, note that the various LOGON batch processing scripts (see the
-[LogonProcessing](../LogonProcessing) page for details) will adjust the
+[LogonProcessing](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing) page for details) will adjust the
 skeleton directory appropriately, i.e. reflecting the choice of grammar
 or language pair.
 

@@ -30,10 +30,10 @@ the system.
 ### Related topics
 
 - [How do I tell if I have an edge that spans the whole
-chart?](../GeFaqSpanningEdge)
+chart?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqSpanningEdge)
 - [How do I define multiple different root
 conditions?](/GeFaqMultipleRoot)
-- [In which files does order matter?](../GeFaqOrderMatters)
+- [In which files does order matter?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqOrderMatters)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

@@ -4,7 +4,7 @@
 
 ## Gtest Reminder
 
-\- You need [PyDelphin](../PyDelphin) installed and findable by python if
+\- You need [PyDelphin](https://blog.inductorsoftware.com/docsproto/summits/PyDelphin) installed and findable by python if
 you have not installed pyDelphin through pip, you may need to do this:
 export PYTHONPATH=\~/PathToPyDelphin/
 

@@ -1,4 +1,4 @@
-{% raw %}Mentor: [EmilyBender](../EmilyBender) (ebender at u dot washington dot edu,
+{% raw %}Mentor: [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (ebender at u dot washington dot edu,
 <http://faculty.washington.edu/ebender>)
 
 Co-mentors: [DorotheeBeermann](/DorotheeBeermann)

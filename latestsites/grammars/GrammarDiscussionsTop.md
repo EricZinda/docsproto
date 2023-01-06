@@ -4,14 +4,14 @@
 
 Discussions about the analysis/implementation of related languages.
 
-- [Romance](../RomanceTop)
-- [Slavic](../SlavicTop)
+- [Romance](https://blog.inductorsoftware.com/docsproto/grammars/RomanceTop)
+- [Slavic](https://blog.inductorsoftware.com/docsproto/grammars/SlavicTop)
 
 ## Terminology
 
-- [Harmonization](../HarmonyTop): Naming conventions
+- [Harmonization](https://blog.inductorsoftware.com/docsproto/grammars/HarmonyTop): Naming conventions
 
 ## Experimental
 
-- [Phonology](../PhonologyTop): Proposals for phonological representation
+- [Phonology](https://blog.inductorsoftware.com/docsproto/grammars/PhonologyTop): Proposals for phonological representation
 <update date omitted for speed>{% endraw %}

@@ -113,7 +113,7 @@ types.
         
              typo := parent-type &
              """I think there's something wrong with this type""".
-- [Type addendum statements](../GeFaqTypeAddendum) allow you to add
+- [Type addendum statements](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTypeAddendum) allow you to add
 information to types that are already defined in the Matrix. They
 are written with :+ instead of :=, and don't require the presence of
 any supertypes. If there are no supertypes in the addendum, a \[ or
@@ -126,7 +126,7 @@ a """ (for a documentation string) immediately follows the :+.
         
              old-type :+ """I had to add some documentation here""".
 - The LKB provides abbreviations for lists and [difference
-lists](../GeFaqDiffList):
+lists](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList):
   
   - An empty list: \[ FEATURE &lt; &gt; \]
   - A list with exactly one element: \[ FEATURE &lt; foo &gt; \]
@@ -145,14 +145,14 @@ element:
 ### Related topics
 
 - [How do I use tab to help me figure out where my syntax error
-is?](../GeFaqTabIndentation)
+is?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTabIndentation)
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
-should I do?](../GeFaqNewFeature)
+should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNewFeature)
 - [The LKB says I have an error at position number 873. How do I
-figure out where that is in my file?](../GeFaqGotoChar)
-- [What's a difference list, and why do we use them?](../GeFaqDiffList)
+figure out where that is in my file?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqGotoChar)
+- [What's a difference list, and why do we use them?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList)
 - [What is a type addendum statement, and when should I use
-one?](../GeFaqTypeAddendum)
+one?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTypeAddendum)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

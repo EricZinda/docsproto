@@ -2,7 +2,7 @@
 
 ## Lead by: Francis Bond
 
-\[scribed by [David](../DavidMoeljadi)\]
+\[scribed by [David](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi)\]
 
 FCB: ...the very complete goal, trying make the reduplication that we
 have semi-working with the chart mapping where we expect to have a bit

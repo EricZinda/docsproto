@@ -7,9 +7,9 @@ comparison of implemented/implementable solutions.
 Contributions from non-Romance developers are also welcome and
 appreciated!
 
-- [Clitics](../RomClitics) in Romance, [Modern Greek](../MgrgSummary) (and
+- [Clitics](https://blog.inductorsoftware.com/docsproto/grammars/RomClitics) in Romance, [Modern Greek](https://blog.inductorsoftware.com/docsproto/grammars/MgrgSummary) (and
 elsewhere)
-- Uses of [SE](../RomSe)
-- [P+Det contractions](../RomContract) Also very relevant to [Modern
-Greek](../MgrgSummary).
+- Uses of [SE](https://blog.inductorsoftware.com/docsproto/grammars/RomSe)
+- [P+Det contractions](https://blog.inductorsoftware.com/docsproto/grammars/RomContract) Also very relevant to [Modern
+Greek](https://blog.inductorsoftware.com/docsproto/grammars/MgrgSummary).
 <update date omitted for speed>{% endraw %}

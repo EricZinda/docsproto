@@ -5,7 +5,7 @@ can find [documentation](http://heartofgold.dfki.de/Documentation.html),
 [downloads](http://heartofgold.dfki.de/Download.html) and
 [papers](http://heartofgold.dfki.de/Publications.html). There is some
 additional documentation about installation and troubleshooting at
-[HogInstallation](../HogInstallation).
+[HogInstallation](https://blog.inductorsoftware.com/docsproto/garage/HogInstallation).
 
 The [Heart of Gold](http://heartofgold.dfki.de) is a middleware
 architecture for the integration of deep and shallow natural language
@@ -18,7 +18,7 @@ and combining XML standoff markup.
 
 The main purpose Heart of Gold was developed for is integration of
 various shallow natural language processors with the highly efficient
-[HPSG](http://hpsg.stanford.edu) parser [PET](../PetTop) in order to
+[HPSG](http://hpsg.stanford.edu) parser [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) in order to
 increase robustness of HPSG grammars for various languages such as
 [English](http://www.delph-in.net/erg),
 [German](http://www.dfki.de/~crysmann/gg/),

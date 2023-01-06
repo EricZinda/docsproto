@@ -1,5 +1,5 @@
 {% raw %}
-Below are the most common command-line usages of [ACE](../AceTop), followed
+Below are the most common command-line usages of [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop), followed
 by a complete reference for all the command-line options.
 
 Parsing (input is one sentence per line): 

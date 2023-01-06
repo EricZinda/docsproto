@@ -8,7 +8,7 @@ them.
 
 # SEM-I
 
-- [RmrsSemi](../RmrsSemi)
+- [RmrsSemi](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi)
 - Optionality of arguments: need to know how many roles an EP expects,
 and provide dummy variables (u37, etc) to fill unrealized roles
 
@@ -35,7 +35,7 @@ the lowest quantifier's BODY -- otherwise not scopable.
 
 # Possibly Also of Interest
 
-- [RmrsDiscussions](../RmrsDiscussions)
+- [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/tools/RmrsDiscussions)
 - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
 
 A seemingly wellformed MRS that doesn't correspond to any English

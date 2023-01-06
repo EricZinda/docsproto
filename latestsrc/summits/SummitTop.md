@@ -10,38 +10,38 @@ best practice.
 
 **Table of Contents**
 
-- [Previous and Future Meetings](../SummitTop#previous-and-future-meetings)
-- [Planning Guidelines](../SummitTop#planning-guidelines)
-  - [Physical Requirements](../SummitTop#physical-requirements)
-  - [Timing](../SummitTop#timing)
-  - [Costs](../SummitTop#costs)
-  - [Participation Policy](../SummitTop#participation-policy)
-  - [Program format](../SummitTop#program-format)
-  - [Successful SIG scheduling](../SummitTop#successful-sig-scheduling)
+- [Previous and Future Meetings](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+- [Planning Guidelines](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+  - [Physical Requirements](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+  - [Timing](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+  - [Costs](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+  - [Participation Policy](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+  - [Program format](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
+  - [Successful SIG scheduling](https://blog.inductorsoftware.com/docsproto/summits/SummitTop)
 
 <!-- markdown-toc end -->
 
 
 ## Previous and Future Meetings
 
-- 2022 — 18th Summit: [Bellingham/Fairhaven](../FairhavenTop) (July 18-22)
-- 2021 — 17th Summit: [Virtual](../Virtual2021Top) (July 19-23)
-- 2020 — 16th Summit: [Bellingham/Virtual Summit](../BellinghamTop) (July 13-17)
-- 2019 — 15th Summit: [Cambridge](../CambridgeTop) (July 15-19)
-- 2018 — 14th Summit: [Paris](../DiderotTop) (June 18-22)
-- 2017 — 13th Summit: [Oslo](../OsloTop) (Aug 7-11)
-- 2016 — 12th Summit: [Stanford](../StanfordTop) (June 16-20)
-- 2015 — 11th Summit: [Singapore](../SingaporeTop) (sandwiched between [ACL-IJCNLP 2015](http://acl2015.org/) in Beijing and [HPSG 2015](http://compling.hss.ntu.edu.sg/events/2015-hpsg/) (co-located at NTU)
-- 2014 — 10th Summit: [Tomar](../TomarTop) (near Lisbon)
-- 2013 — 9th Summit: [Saarland](../SaarlandTop) (week before [ACL 2013](http://acl2013.org/site/) in Sofia)
-- 2012 — 8th Summit: [Sofia](../SofiaTop)
-- 2011 — 7th Summit: [Suquamish](../SuquamishTop) (near Seattle; week after [ACL 2011](http://www.acl2011.org/) in Portland)
-- 2010 — 6th Summit: [Paris](../ParisTop) (co-located with [HPSG](http://hpsg2010.linguist.univ-paris-diderot.fr/))
-- 2009 — 5th Summit: [Barcelona](../BarcelonaTop)
-- 2008 — 4th Summit: [Kyoto](../KyotoTop) (co-located with [HPSG](http://www.essex.ac.uk/linguistics/external/HPSG/Conferences/hpsg-2008/))
-- 2007 — 3rd Summit: [Berlin](../BerlinTop)
-- 2006 — 2nd Summit: [Fefor](../FeforTop)
-- 2005 — 1st Summit: [Lisbon](../LisbonTop) (co-located with [HPSG](http://csli-publications.stanford.edu/HPSG/6/toc.shtml))
+- 2022 — 18th Summit: [Bellingham/Fairhaven](https://blog.inductorsoftware.com/docsproto/summits/FairhavenTop) (July 18-22)
+- 2021 — 17th Summit: [Virtual](https://blog.inductorsoftware.com/docsproto/summits/Virtual2021Top) (July 19-23)
+- 2020 — 16th Summit: [Bellingham/Virtual Summit](https://blog.inductorsoftware.com/docsproto/summits/BellinghamTop) (July 13-17)
+- 2019 — 15th Summit: [Cambridge](https://blog.inductorsoftware.com/docsproto/summits/CambridgeTop) (July 15-19)
+- 2018 — 14th Summit: [Paris](https://blog.inductorsoftware.com/docsproto/summits/DiderotTop) (June 18-22)
+- 2017 — 13th Summit: [Oslo](https://blog.inductorsoftware.com/docsproto/summits/OsloTop) (Aug 7-11)
+- 2016 — 12th Summit: [Stanford](https://blog.inductorsoftware.com/docsproto/summits/StanfordTop) (June 16-20)
+- 2015 — 11th Summit: [Singapore](https://blog.inductorsoftware.com/docsproto/summits/SingaporeTop) (sandwiched between [ACL-IJCNLP 2015](http://acl2015.org/) in Beijing and [HPSG 2015](http://compling.hss.ntu.edu.sg/events/2015-hpsg/) (co-located at NTU)
+- 2014 — 10th Summit: [Tomar](https://blog.inductorsoftware.com/docsproto/summits/TomarTop) (near Lisbon)
+- 2013 — 9th Summit: [Saarland](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop) (week before [ACL 2013](http://acl2013.org/site/) in Sofia)
+- 2012 — 8th Summit: [Sofia](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop)
+- 2011 — 7th Summit: [Suquamish](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop) (near Seattle; week after [ACL 2011](http://www.acl2011.org/) in Portland)
+- 2010 — 6th Summit: [Paris](https://blog.inductorsoftware.com/docsproto/summits/ParisTop) (co-located with [HPSG](http://hpsg2010.linguist.univ-paris-diderot.fr/))
+- 2009 — 5th Summit: [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop)
+- 2008 — 4th Summit: [Kyoto](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop) (co-located with [HPSG](http://www.essex.ac.uk/linguistics/external/HPSG/Conferences/hpsg-2008/))
+- 2007 — 3rd Summit: [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
+- 2006 — 2nd Summit: [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
+- 2005 — 1st Summit: [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) (co-located with [HPSG](http://csli-publications.stanford.edu/HPSG/6/toc.shtml))
 
 We occasionally also have smaller more focused meetings between these
 larger meetings.

@@ -43,7 +43,7 @@ directory $LOGONROOT and is invoked from a command shell, e.g.
       $LOGONROOT/batch vei
 
 The fan-out batch script requires a functional LOGON installation (see
-separate instructions: [LogonInstallation](../LogonInstallation)) and will
+separate instructions: [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)) and will
 first load up the \[incr tsdb()\] environment and then configure one or
 more translation clients. As a result of running the batch script, a new
 \[incr tsdb()\] profile will be stored in the \[incr tsdb()\] profile

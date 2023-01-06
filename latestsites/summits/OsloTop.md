@@ -3,22 +3,22 @@
 
 # Background
 
-The 2017 DELPH-IN Summit will be hosted by [StephanOepen](../StephanOepen)
+The 2017 DELPH-IN Summit will be hosted by [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
 at the [University of
 Oslo](http://www.mn.uio.no/ifi/english/about/getting-around/) from
 Monday, August 7, to Friday, August 11, 2017. Following the ‘classic’
 format for these meetings, the first three days (Monday through
 Wednesday) will be organized as one plenary session, with updates from
 DELPH-IN member sites, discussions, demonstrations, and more. The
-[programme](../OsloSchedule) for these days will be constructed
-collectively beforehand, with [EmilyBender](../EmilyBender) and
-[DanFlickinger](../DanFlickinger) acting as the 2017 Programme Chairs. The
+[programme](https://blog.inductorsoftware.com/docsproto/summits/OsloSchedule) for these days will be constructed
+collectively beforehand, with [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) and
+[DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) acting as the 2017 Programme Chairs. The
 final two days (Thursday and Friday) will be (even) more informal in
 nature and provide opportunities for more specialized ‘sub-group’
 discussions, typically with two parallel sessions and three to five
 meeting slots spread out through the day.
 
-We will be using the [OsloParticipants](../OsloParticipants) wiki page to
+We will be using the [OsloParticipants](https://blog.inductorsoftware.com/docsproto/summits/OsloParticipants) wiki page to
 keep track of invitations and likely participation; please self-register
 by editing that page, adding your arrival and departure days on the line
 following your name.
@@ -55,7 +55,7 @@ It is connected to the city of Oslo by a two-hour bus ride.
 # Schedule
 
 The schedule for this Summit (updated as the week proceeds) can be found
-on the [OsloSchedule](../OsloSchedule) page.
+on the [OsloSchedule](https://blog.inductorsoftware.com/docsproto/summits/OsloSchedule) page.
 
 # Photos
 

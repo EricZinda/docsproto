@@ -4,9 +4,9 @@ Much of what we might accomplish at Fefor will be best done in small
 groups. The three broad distinctions made below are not meant to be hard
 and fast, but are intended to help to achieve concrete results. In all
 cases, leaders are named (if leaders have been specified
-inappropriately, please let [AnnCopestake](../AnnCopestake) know as soon as
+inappropriately, please let [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) know as soon as
 possible). Other people who may wish to volunteer to lead an activity
-are asked to add themselves and to email [AnnCopestake](../AnnCopestake) as
+are asked to add themselves and to email [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake) as
 soon as possible.
 
 ## Working groups
@@ -21,18 +21,18 @@ before Fefor (as far as possible). Scheduling is done by the group on an
 ad-hoc basis. Leaders are asked to add a page to the wiki for their
 groups. Groups will report back to the plenary session.
 
-- LexDB: [BenWaldron](../BenWaldron) (objective to get more grammars
+- LexDB: [BenWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenWaldron) (objective to get more grammars
 using the LexDB)
-- web server: [StephanOepen](../StephanOepen) (suggested by
-[FrancisBond](../FrancisBond): objective is putting other grammars
+- web server: [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (suggested by
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond): objective is putting other grammars
 online)
-- deep/shallow integration via S(M)AF: [BenWaldron](../BenWaldron) and
+- deep/shallow integration via S(M)AF: [BenWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenWaldron) and
 [MontserratMarimon](/MontserratMarimon) and ??
-- harmonization of grammars: [DanFlickinger](../DanFlickinger)
+- harmonization of grammars: [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
 - exploring a common descriptive classification of linguistic
-phenomena: [DanFlickinger](../DanFlickinger)
+phenomena: [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger)
 - LKB/PET compatibility issues: shared configuration, reducing and
-documenting the globals: NTNU, [FrancisBond](../FrancisBond) (follow-up
+documenting the globals: NTNU, [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (follow-up
 from Jerez)
 
 ## Tours of resources
@@ -40,17 +40,17 @@ from Jerez)
 Short descriptions of particular resources for small groups. Possibly
 including:
 
-- [DanFlickinger](../DanFlickinger): Semantic test suite (for people who
-haven't seen it, in advance of discussion in [FeforRmrs](../FeforRmrs))
-- [AnnCopestake](../AnnCopestake): Algebra checking tool (for people who
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger): Semantic test suite (for people who
+haven't seen it, in advance of discussion in [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs))
+- [AnnCopestake](https://blog.inductorsoftware.com/docsproto/summits/AnnCopestake): Algebra checking tool (for people who
 haven't seen it, preferably in advance of discussion of algebra in
-[FeforRmrs](../FeforRmrs))
-- [DanFlickinger](../DanFlickinger): LUI (alternative user interface for
+[FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs))
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger): LUI (alternative user interface for
 LKB)
-- [DanFlickinger](../DanFlickinger): Generation - trigger rules,
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger): Generation - trigger rules,
 debugging techniques, batch testing
-- [FrancisBond](../FrancisBond): Treebanking with Redwoods
-- [BenWaldron](../BenWaldron): Preprocessor usage (now supported in both
+- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond): Treebanking with Redwoods
+- [BenWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenWaldron): Preprocessor usage (now supported in both
 LKB and PET)
 
 Also, if time permits, tours could be given of the resources listed
@@ -74,9 +74,9 @@ Leaders are asked to circulate info about hardware/software requirements
 in advance (this may just take the form of an appropriate link below).
 Participants may wish to sign up with leaders in advance of Fefor.
 
-- HoG: [UlrichSchaefer](../UlrichSchaefer) (cf. [Heart of Gold
+- HoG: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer) (cf. [Heart of Gold
 documentation](http://heartofgold.dfki.de/doc/heartofgolddoc.pdf))
-- \[incr tsdb()\]: [StephanOepen](../StephanOepen) (see [On-Line
+- \[incr tsdb()\]: [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) (see [On-Line
 Documentation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop))
-- LexDB: [BenWaldron](../BenWaldron)
+- LexDB: [BenWaldron](https://blog.inductorsoftware.com/docsproto/summits/BenWaldron)
 <update date omitted for speed>{% endraw %}

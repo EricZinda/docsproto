@@ -1,6 +1,6 @@
 {% raw %}# Arboreal MRS Discussion
 
-SIG at [Stanford 2016 summit](../StanfordSchedule)
+SIG at [Stanford 2016 summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
 
 ===
 

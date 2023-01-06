@@ -30,7 +30,7 @@ University](http://www.coli.uni-saarland.de), with partial funding from
 the University of Oslo, the [Norwegian Open Research
 Archives](http://www.ub.uit.no/wiki/openaccess/index.php/NORA), and the
 [Norwegian Metacenter for Computational Science](http://www.notur.no).
-Since 2011, WeScience is partially supported by the [WeSearch](../WeSearch)
+Since 2011, WeScience is partially supported by the [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch)
 project.
 
 # Current State of Development
@@ -115,7 +115,7 @@ textual formats, for example using a command like the following:
 
 If there were broad interest, we may also provide a textual export
 version of WeScience for direct download in the future (as is available
-for the [WikiWoods](../WikiWoods) Treecache, where running the export step
+for the [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) Treecache, where running the export step
 requires non-trivial computational resources).
 
 # Further Notes for DELPH-IN Users

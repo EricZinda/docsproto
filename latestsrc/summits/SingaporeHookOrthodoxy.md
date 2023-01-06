@@ -1,4 +1,4 @@
-{% raw %}\[See [SingaporeSchedule](../SingaporeSchedule) for link to slides\]
+{% raw %}\[See [SingaporeSchedule](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule) for link to slides\]
 
 Emily (questions from slides):
 

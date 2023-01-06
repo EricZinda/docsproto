@@ -323,10 +323,10 @@
         
         <h2 id="the-predication-contract">The Predication Contract</h2>
 <blockquote>
-  <p>It is important to understand what MRS is and what a well-formed MRS tree is before reading this section. Visit those links first to understand the basic concepts.</p>
+  <p>It is important to understand <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">what MRS is</a> and what <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree">a well-formed MRS tree is</a> before reading this section. Visit those links first to understand the basic concepts.</p>
 </blockquote>
 
-<p>A well-formed MRS tree can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS “true”, using backtracking to try alternatives when they exist. This is a <a href="https://en.wikipedia.org/wiki/SLD_resolution">depth-first computational SLD approach</a> that, for example, the Prolog language uses in proving a goal.  We’ll be using this approach for the tutorial. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the “predication contract”.</p>
+<p>A <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree">well-formed MRS tree</a> can be thought of as an <em>equation</em> that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS “true”, using backtracking to try alternatives when they exist. This is a <a href="https://en.wikipedia.org/wiki/SLD_resolution">depth-first computational SLD approach</a> that, for example, the Prolog language uses in proving a goal.  We’ll be using this approach for the tutorial. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the “predication contract”.</p>
 
 <p>Recall that predications are of the form: <code class="language-plaintext highlighter-rouge">_table_n_1(x)</code> or <code class="language-plaintext highlighter-rouge">compound(e,x,x)</code>. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We’ll be treating the predications we implement as classic programming language functions that can be “called” or “invoked”.</p>
 
@@ -352,7 +352,7 @@
 <p>A few observations about the contract:</p>
 <ul>
   <li>What the variables <em>are</em> – i.e. how the world is represented in the program – is not defined in the contract. It doesn’t care.</li>
-  <li>Quantifier Predications only scope their <code class="language-plaintext highlighter-rouge">x</code> variables. These are the only variables that represent “things in the world”, called “individuals”, that we are solving for. Event (<code class="language-plaintext highlighter-rouge">e</code>) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications. They are not relevant here and get described in a later section.</li>
+  <li>Quantifier Predications only scope their <code class="language-plaintext highlighter-rouge">x</code> variables. These are the only variables that represent “things in the world”, called “individuals”, that we are solving for. Event (<code class="language-plaintext highlighter-rouge">e</code>) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications. They are not relevant here and get described in a <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents">later section</a>.</li>
   <li>This “idealized contract” has different requirements for Regular and Quantifier Predications. Regular Predications simply return <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. Quantifier Predications return a set of answers consisting of variable assignments, iteratively.</li>
 </ul>
 

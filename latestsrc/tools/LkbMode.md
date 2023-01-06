@@ -1,7 +1,7 @@
-{% raw %}(comment: Why not merge this page with [LkbEmacs](../LkbEmacs)?)
+{% raw %}(comment: Why not merge this page with [LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)?)
 
 There are some emacs lisp extensions to make life easier when you are
-running the [LKB](../LkbTop) from within [emacs](../LkbEmacs),
+running the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) from within [emacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs),
 
 lkb.el (available
 [here](http://svn.emmtee.net/trunk/lingo/lkb/src/lkb.el)) adds an LKB
@@ -26,12 +26,12 @@ Install with:
               (function (lambda ()
                           (imenu-add-to-menubar "Types"))))
 
-They are both installed as part of [Logon](../LogonTop).
+They are both installed as part of [Logon](https://blog.inductorsoftware.com/docsproto/tools/LogonTop).
 
 ## Key Bindings
 
 There are also some general key bindings for controlling the lkb when
-using [LkbEmacs](../LkbEmacs).
+using [LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs).
 
 The "⁁" shows where the cursor is placed at the end of the command.
 

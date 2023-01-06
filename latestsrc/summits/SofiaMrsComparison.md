@@ -1,8 +1,8 @@
 {% raw %}# MRS Comparison Discussion
 
 This page captures some of the discussion on MRS comaprison at the
-[Sofia Meeting](../SofiaTop). The discussion was led by
-[FrancisBond](../FrancisBond) using slides by [MathieuMorey](/MathieuMorey)
+[Sofia Meeting](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop). The discussion was led by
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) using slides by [MathieuMorey](/MathieuMorey)
 and had many participants.
 
 ## MRS comparison using graph matching algorithms

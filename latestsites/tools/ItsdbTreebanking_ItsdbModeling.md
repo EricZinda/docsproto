@@ -12,18 +12,18 @@ correct.
 
 Contents
 
-1. [Page Status](../ItsdbTreebanking_ItsdbModeling#Page_Status)
-2. [Overview](../ItsdbTreebanking_ItsdbModeling#Overview)
-3. [Training a Scoring Model](../ItsdbTreebanking_ItsdbModeling#Training_a_Scoring_Model)
-   1. [Scoring](../ItsdbTreebanking_ItsdbModeling#Scoring)
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+2. [Overview](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+3. [Training a Scoring Model](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+   1. [Scoring](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
    2. [Using a Scoring Model in PET and the
-LKB](../ItsdbTreebanking_ItsdbModeling#Using_a_Scoring_Model_in_PET_and_the_LKB)
-   3. [Calculating a Baseline](../ItsdbTreebanking_ItsdbModeling#Calculating_a_Baseline)
+LKB](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+   3. [Calculating a Baseline](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
 4. [Training a scoring model using a batch
-script](../ItsdbTreebanking_ItsdbModeling#Training_a_scoring_model_using_a_batch_script)
+script](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
 5. [Using TADM directly to train a ranking
-model](../ItsdbTreebanking_ItsdbModeling#Using_TADM_directly_to_train_a_ranking_model)
-   1. [Calling tadm](../ItsdbTreebanking_ItsdbModeling#Calling_tadm)
+model](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+   1. [Calling tadm](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
 
 # Training a Scoring Model
 
@@ -36,7 +36,7 @@ assumes a small number of patches to TADM that have yet to be
 incorporated into the [SourceForge
 repository](http://tadm.sourceforge.net/); feel free to contact
 [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) for details. A pre-compiled binary is
-available as part of the [LOGON tree](../LogonTop), and quite generally all
+available as part of the [LOGON tree](https://blog.inductorsoftware.com/docsproto/tools/LogonTop), and quite generally all
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) machine learning and
 experimentation (MLE) functionality is best supported in the LOGON
 environment. Look in the sub-directory lingo/redwoods/ for examples of
@@ -48,7 +48,7 @@ Select the treebanked profile (left-click), or profiles (click in the
 radio buttons) and then select *Trees \| Train* from the menus. It will
 prompt you for the filename to put the scoring model in. The tradtion is
 something like corpus-version.mem. You should have the grammar used for
-treebanking loaded into the LKB ([LkbTop](../LkbTop)). Training is normally
+treebanking loaded into the LKB ([LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)). Training is normally
 fairly fast.
 
 ## Scoring

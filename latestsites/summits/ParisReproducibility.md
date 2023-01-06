@@ -1,7 +1,7 @@
 {% raw %}# Discussion on Reproducibility from the 6th DELPH-IN Summit
 
-Moderator: [StephanOepen](../StephanOepen); Scribe:
-[FrancisBond](../FrancisBond)
+Moderator: [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen); Scribe:
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
 
 Start with mail from Rebecca:
 
@@ -30,7 +30,7 @@ Start with mail from Rebecca:
     help get more DELPH-IN work published (eg particular results that need
     to be published so they can be referenced?)
 
-[YiZhang](../YiZhang): we were having issues with people not getting the
+[YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang): we were having issues with people not getting the
 same results, and hard to verify --- different data sets may give
 differences of more than 20% exact match for parsing accuracy. We should
 set up a standard train/dev/text split for various grammars.

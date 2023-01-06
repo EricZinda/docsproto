@@ -12,8 +12,8 @@ The most modern framework for regression testing is with
 requires that you check out the Matrix code and install pydelphin and
 [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop). Pydelphin allows you to:
 
-- [Create](../MatrixRegressionTesting#creating-a-new-regression-test) and [update](../MatrixRegressionTesting#updating-a-regression-test) regression tests
-- [Run](../MatrixRegressionTesting#run) all or some of the regression tests listed in the regression-test-index file (located in `gmcs/regression_tests/`)
+- [Create](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) and [update](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) regression tests
+- [Run](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) all or some of the regression tests listed in the regression-test-index file (located in `gmcs/regression_tests/`)
 
 Note that you should refer to the official [pydelphin
 docs](https://pydelphin.readthedocs.io/en/latest/) for the information
@@ -31,7 +31,7 @@ and feature structures etc. Therefore, it is recommended that you still
 use \[incr tsdb()\] to inspect the gold profiles before adding new
 tests.
 
-[Click here](../MatrixRegressionTesting#original) to see the information
+[Click here](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) to see the information
 on the original regression testing framework.
 
 <a name="run"/>
@@ -43,7 +43,7 @@ NB: Below, it is assumed that your matrix/trunk and any matrix/branches
 are located right in your home directory. Please adjust according to
 your actual directory structure.
 
-After you have [checked out the matrix code](../MatrixDevTop#repository)
+After you have [checked out the matrix code](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop)
 and have descended into the matrix/trunk directory (or to your branch),
 create and activate a virtual environment (not necessary but strongly
 recommended):
@@ -168,7 +168,7 @@ ACE [here](http://sweaglesw.org/linguistics/ace/download).
 Regression tests require a system with Ubuntu 12.04+, emacs23+, LOGON,
 ACE, and other requirements. For a step by step guide to setting up a
 virtual machine that meets these requirements, see
-[MatrixRegressionTestingSetup](../MatrixRegressionTestingSetup).
+[MatrixRegressionTestingSetup](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTestingSetup).
 
 Note if you try to run most or all of the tests in one command, a
 current bug results in all of the tests producing errors. To avoid this
@@ -335,7 +335,7 @@ When you're finished adding all your regression tests:
 If you're having trouble, make sure your
 [CUSTOMIZATIONROOT](/MatrixDevTop#customizationroot) and
 [ACEROOT](/MatrixDevTop#aceroot) are set up properly and take a look at
-[MatrixRegressionTestingSetup](../MatrixRegressionTestingSetup)
+[MatrixRegressionTestingSetup](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTestingSetup)
 
 ## Maintaining regression tests
 

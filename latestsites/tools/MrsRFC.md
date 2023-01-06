@@ -42,7 +42,7 @@ EP : < h, p, a, s >
 
 Where:
 - h is the handle, or label, of the EP
-- p is the relation, or ["predicate"](../PredicateRfc)
+- p is the relation, or ["predicate"](https://blog.inductorsoftware.com/docsproto/tools/PredicateRfc)
 - a is a list of 0 or more variable arguments of the relation
 - s is a list of 0 or more scopal arguments of the relation
 
@@ -123,7 +123,7 @@ that it has a slightly different formal status than the others
 Where handle constraints encode relations between holes and labels,
 individual constraints encode relations between individual
 (referential-index or eventuality) variables. One use of
-[ICONS](../IconsSpecs) is for encoding Information Structure (see [Song and
+[ICONS](https://blog.inductorsoftware.com/docsproto/tools/IconsSpecs) is for encoding Information Structure (see [Song and
 Bender,
 2012](http://cslipublications.stanford.edu/HPSG/2012/song-bender.pdf)).
 Individual Constraints are supported by most processors of MRS, but,
@@ -144,7 +144,7 @@ maintains a distinction between double-quoted predicate names
 (corresponding to Lisp strings) and non-quoted ones (corresponding to
 Lisp symbols, often naming types in some hierarchy); this distinction is
 not meaningful either and arguably should be suppressed in MRS in- and
-output. More information is available at [PredicateRfc](../PredicateRfc).
+output. More information is available at [PredicateRfc](https://blog.inductorsoftware.com/docsproto/tools/PredicateRfc).
 
 ## Serialization Formats
 
@@ -498,7 +498,7 @@ format for the sentence "Abrams barked.":
 
 It is one of the most compact formats because it omits role and property
 names. This means, however, that it is necessary to use a
-[SEM-I](../SemiRfc) for serialization and deserialization in order to map
+[SEM-I](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc) for serialization and deserialization in order to map
 argument/property indices to role/property names. A BNF, adapted from
 comments in the [LKB
 source](http://svn.emmtee.net/trunk/lingo/lkb/src/mrs/basemrs.lisp), is

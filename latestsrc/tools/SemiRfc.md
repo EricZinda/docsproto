@@ -2,19 +2,19 @@
 
 Contents
 
-1. [SEM-I](../SemiRfc#SEM-I)
-   1. [Sections](../SemiRfc#Sections)
-      1. [variables](../SemiRfc#variables)
-      2. [properties](../SemiRfc#properties)
-      3. [roles](../SemiRfc#roles)
-      4. [predicates](../SemiRfc#predicates)
-   2. [.smi file syntax](../SemiRfc#A.smi_file_syntax)
-      1. 1. 1. [Notes](../SemiRfc#Notes)
-   3. [Including Files](../SemiRfc#Including_Files)
-2. [Implementation](../SemiRfc#Implementation)
+1. [SEM-I](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+   1. [Sections](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+      1. [variables](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+      2. [properties](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+      3. [roles](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+      4. [predicates](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+   2. [.smi file syntax](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+      1. 1. 1. [Notes](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+   3. [Including Files](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+2. [Implementation](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
    1. [Redefined Predicate
-Hierarchies](../SemiRfc#Redefined_Predicate_Hierarchies)
-3. [Proposals](../SemiRfc#Proposals)
+Hierarchies](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
+3. [Proposals](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc)
 
 A SEM-I, or SEMantic-Interface, is a description of the semantic
 structures output by the grammar, and may include entries for variables,
@@ -23,7 +23,7 @@ the semantic output of grammars without having to load the entire
 grammar.
 
 A related, but separate, component is the Variable Property Mapping
-([VPM](../RmrsVpm)), which maps grammar-internal variable types,
+([VPM](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm)), which maps grammar-internal variable types,
 properties, and property values into grammar-external ones. A SEM-I
 describes the valid grammar-external values, and hence the primary VPM
 for a grammar is conventionally called semi.vpm.

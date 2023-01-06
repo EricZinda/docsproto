@@ -1,6 +1,6 @@
 {% raw %}# Background
 
-In 2010, the [DELPH-IN Summit](../ParisTop) is co-located with the HPSG
+In 2010, the [DELPH-IN Summit](https://blog.inductorsoftware.com/docsproto/summits/ParisTop) is co-located with the HPSG
 Conference. To take advantage of this, DELPH-IN designates the last day
 of its meeting (i.e. Tuesday, July 6) to outreach to interested
 participants of the larger HPSG community. We are currently preparing

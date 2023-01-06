@@ -5,7 +5,7 @@ standard preprocesser for use with DELPH-IN software tools and grammars.
 The preprocessor is available both as a stand-alone executable
 ([SafFsppStandAlone](/SafFsppStandAlone)) as well as an embedded module
 in the [LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) and \[in progress...\] an embedded module in
-[PetTop](../PetTop).
+[PetTop](https://blog.inductorsoftware.com/docsproto/garage/PetTop).
 
 FSPP is initialized from a file containing finite-state rule definitions
 (eg. \`preprocessor.fsr'). It is then fed input strings (one per

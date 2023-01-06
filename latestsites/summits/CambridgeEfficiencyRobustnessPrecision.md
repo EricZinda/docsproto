@@ -1,6 +1,6 @@
 {% raw %}# Efficiency, robustness, precision: balance and control
 
-Discussion at the [Cambridge Summit](../CambridgeTop) led by Dan
+Discussion at the [Cambridge Summit](https://blog.inductorsoftware.com/docsproto/summits/CambridgeTop) led by Dan
 Flickinger; scribed by Guy Emerson (2019).
 
 Bec: Angelina's work?

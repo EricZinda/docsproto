@@ -1,7 +1,7 @@
 {% raw %}# Transfer in ACE
 
-The [ACE](../AceTop) system provides some support for the
-[LogonTransfer](../LogonTransfer) machine translation informalism. As of
+The [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) system provides some support for the
+[LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) machine translation informalism. As of
 version 0.9.11, it is possible to use ACE to translate some simple
 sentences about dogs and cats from Japanese to English, using the JAEN
 transfer grammar together with [JaCY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) and the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop).
@@ -9,7 +9,7 @@ transfer grammar together with [JaCY](https://blog.inductorsoftware.com/docsprot
 # Technical Details
 
 Transfer rules operate on MRSes. While some documentation of the process
-exists in a technical note linked from [LogonTransfer](../LogonTransfer),
+exists in a technical note linked from [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer),
 the documentation is unfortunately incomplete and insufficient to
 uniquely determine the intended semantics of the .mtr rule description
 files found in LOGON-style transfer grammars. This page discusses a few

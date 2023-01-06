@@ -1,10 +1,10 @@
 {% raw %}## SIG transcript: Web/Metagrammar, 19 June 2016 (Day 4)
 
-[DELPH-IN 2016](../StanfordSchedule)
+[DELPH-IN 2016](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
 
-Requestor: [LuisMorgadoCosta](../LuisMorgadoCosta)
+Requestor: [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta)
 
-Scribe: [GlennSlayden](../GlennSlayden)
+Scribe: [GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
 
 **Luis**: We'll try to be brief. The idea that we are trying to
 implement in Singapore is a grammar that will need some kind of

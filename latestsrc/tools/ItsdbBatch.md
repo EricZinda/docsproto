@@ -52,9 +52,9 @@ It is called as follows, to export a single profile:
 
       ./export redwoods/jun-04/vm6/04-06-11
 
-There are other batch scripts in LOGON tree (see [LogonTop](../LogonTop)).
+There are other batch scripts in LOGON tree (see [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)).
 In the top directory are scripts for parsing, generating and
-transfering. See the [LogonProcessing](../LogonProcessing) page for some
+transfering. See the [LogonProcessing](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing) page for some
 further instructions.
 
 There are more scripts under lingo/redwoods/ for training stochastic

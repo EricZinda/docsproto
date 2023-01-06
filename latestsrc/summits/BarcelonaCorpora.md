@@ -66,7 +66,7 @@ though they are not always translated.
 
 Francis repeats that there is a desire for more parallel corpora that
 are freely redistributable. For other criteria what makes a good corpus,
-see [FeforParCorp](../FeforParCorp).
+see [FeforParCorp](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp).
 
 ## Suitable Wikipedia Articles
 

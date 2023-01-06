@@ -125,7 +125,7 @@ relevant libraries to compile cheap.
 For PET to output MRSs in various formats, the current solution is to
 compile in the MRS code used in the [LKB](http://www.delph-in.net/lkb/)
 too. The MRS Common-Lisp code is first compiled into a function library
-(libmrs.a, see instructions on the [PetTop](../PetTop) page) which is
+(libmrs.a, see instructions on the [PetTop](https://blog.inductorsoftware.com/docsproto/garage/PetTop) page) which is
 subsequently linked into the main PET parser executable cheap. To allow
 cheap to invoke Lisp code at run-time, the [Embedded Common
 Lisp](http://ecls.sourceforge.net) (ECL) package serves to first compile

@@ -31,15 +31,15 @@ of to monitor them for updates.
 
 ## Grammar Matrix Extensions
 
-- [Tense and aspect](../OpenissuesTop_GrammarMatrixTenseAspect)
-- [Clitics](../OpenissuesTop_GrammarMatrixClitic)
+- [Tense and aspect](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop_GrammarMatrixTenseAspect)
+- [Clitics](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop_GrammarMatrixClitic)
 - [Serial Verb
-Constructions](../OpenissuesTop_GrammarMatrixSerialVerbConstructions)
+Constructions](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop_GrammarMatrixSerialVerbConstructions)
 
 # Open Issues in Need of Mentors
 
 \[The following list was developed during the
-[FeforOpenIssues](../FeforOpenIssues) discussion. Additional topics can be
+[FeforOpenIssues](https://blog.inductorsoftware.com/docsproto/summits/FeforOpenIssues) discussion. Additional topics can be
 listed here but should also be announced/discussed on
 <mailto:participants@delph-in.net>.\]
 

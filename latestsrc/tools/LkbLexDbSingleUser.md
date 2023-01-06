@@ -1,16 +1,16 @@
 {% raw %}# SINGLE USER LexDB
 
 - First, set up psql. A simple set up is discussed in
-[LexDbSimplePsql](../LexDbSimplePsql) (the details which will work for
+[LexDbSimplePsql](https://blog.inductorsoftware.com/docsproto/tools/LexDbSimplePsql) (the details which will work for
 single-user and multi-user mode are in
-[LexDbPsqlInitialize](../LexDbPsqlInitialize))
+[LexDbPsqlInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbPsqlInitialize))
 - Then, initialize a database, populate it with the lexicon entries
 from a lexicon.tdl file and tell the LKB to use this when you load a
 grammar. Step-by-step instructions follow. These instructions
 presuppose that you already have suitable mappings from the paths in
 the typed feature structures to database fields in a .dfn file. The
 easiest approach is to use an existing .dfn file as a model. More
-details are given in [LexDbInitialize](../LexDbInitialize).
+details are given in [LexDbInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize).
 
 The instructions as given below are suitable if you want to use the ERG
 with a Lex DB in single user mode.
@@ -25,7 +25,7 @@ lkb/lexdb/README.single-user\]
 
 \[The database is initialized using the SQL script file 'su-init.sql'
 which may be edited first to specify the Lex DB fields you want. See
-[LexDbFieldMappings](../LexDbFieldMappings) for further information. \]
+[LexDbFieldMappings](https://blog.inductorsoftware.com/docsproto/tools/LexDbFieldMappings) for further information. \]
 
     $ psql $MyLexDB
     => \i su-init.sql
@@ -57,7 +57,7 @@ lexicon/dump files must be UTF-8\]
 
 \[Edit the LKB script file to specify that the database should be used,
 if necessary. The ERG script is already set up to do this, but see
-[LexDbInitialize](../LexDbInitialize) if you are working with a grammar
+[LexDbInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize) if you are working with a grammar
 which has not previously been used with the Lex DB. \]
 
 \[NOW reload grammar in LKB, and you should see a messages similar to

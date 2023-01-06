@@ -14,8 +14,8 @@ is probably only partial, and additional links are welcome.
   - [MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite)
   - [FeforPng](https://blog.inductorsoftware.com/docsproto/summits/FeforPng)
 - From the Cambridge meeting, May 2008:
-  - [Demo/discussion of paraphrasing](../RmrsParaphrasing)
-  - [RmrsDistributional](../RmrsDistributional)
+  - [Demo/discussion of paraphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing)
+  - [RmrsDistributional](https://blog.inductorsoftware.com/docsproto/tools/RmrsDistributional)
 - From the [Barcelona Summit](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop), July 2009:
   
   - [Tense and Aspect](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaSemantics)
@@ -28,7 +28,7 @@ is probably only partial, and additional links are welcome.
   
   - [WordNet integration](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
   - [Lexical Semantics](https://blog.inductorsoftware.com/docsproto/summits/SuquamishLexSem)
-  - [FormatSpecifications](../FormatSpecifications)
+  - [FormatSpecifications](https://blog.inductorsoftware.com/docsproto/tools/FormatSpecifications)
 - From the [WeSearch Hankø meeting](/WeSearch/Hank%C3%B8Schedule), May
 2012:
   

@@ -1,11 +1,11 @@
 {% raw %}# Designing and creating a DELPH-IN repository (systems, tools, data, lingware)
 
 LisbonRepositoryDiscussion is the transcript of Discussion I on Thu
-2005-08-18 (11:00-11:45) in the [LisbonTop](../LisbonTop) meeting.
+2005-08-18 (11:00-11:45) in the [LisbonTop](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) meeting.
 
-Moderation: [StephanOepen](../StephanOepen)
+Moderation: [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen)
 
-Scribe: [UlrichSchaefer](../UlrichSchaefer)
+Scribe: [UlrichSchaefer](https://blog.inductorsoftware.com/docsproto/summits/UlrichSchaefer)
 
 Stephan introduces motivation for the discussion.
 
@@ -14,7 +14,7 @@ Stephan introduces motivation for the discussion.
 - internal goal: exchange not only ideas, but also tools, resources,
 experiences
 - external goal: increase visibility, marketing; this is closely
-related to Discussion IV: [Visibility](../LisbonVisibilityDiscussion)
+related to Discussion IV: [Visibility](https://blog.inductorsoftware.com/docsproto/summits/LisbonVisibilityDiscussion)
 in the afternoon
   
   - attract new contributors and funding
@@ -74,10 +74,10 @@ deliverables
         
         - see also follow-up Discussion II: [Strategies for
 documentation of grammars and
-tools](../LisbonDocumentationDiscussion)
+tools](https://blog.inductorsoftware.com/docsproto/summits/LisbonDocumentationDiscussion)
       - quality assurance; see also Discussion V: [Developing a
 distributed means of testing LKB
-updates](../LisbonTestingDiscussion) on Friday
+updates](https://blog.inductorsoftware.com/docsproto/summits/LisbonTestingDiscussion) on Friday
       - ways of obtaining DELPH-IN components
         - release vs. full CVS access (development tracking)
       - domain adaptation support
@@ -99,5 +99,5 @@ available resources)
     - funding agencies/companies (e.g. visibility of already
 funded projects to potential funders)
   - licensing: see Discussion VI: [Developing a standard DELPH-IN
-open source license](../LisbonLicensingDiscussion) on Friday
+open source license](https://blog.inductorsoftware.com/docsproto/summits/LisbonLicensingDiscussion) on Friday
 <update date omitted for speed>{% endraw %}

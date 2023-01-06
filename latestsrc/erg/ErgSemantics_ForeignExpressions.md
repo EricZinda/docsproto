@@ -43,8 +43,8 @@ L-INDEX, R-INDEX)
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) main page
-- [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- [How to cite this work](../ErgSemantics_HowToCite)
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 <update date omitted for speed>{% endraw %}

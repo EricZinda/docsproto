@@ -2,8 +2,8 @@
 
 Note: this page has been reconfigured so it contains the information
 which is general between single and multi user mode. You should read
-this after looking at [LkbLexDbMultiUser](../LkbLexDbMultiUser) or
-[LkbLexDbSingleUser](../LkbLexDbSingleUser).
+this after looking at [LkbLexDbMultiUser](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbMultiUser) or
+[LkbLexDbSingleUser](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbSingleUser).
 
 - Obtain lexicon in LexDB dump format
 - Set LKB lexicon to LexDB

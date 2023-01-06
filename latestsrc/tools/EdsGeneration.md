@@ -1,6 +1,6 @@
 {% raw %}# Background
 
-Elementary Dependency Structures (EDS; see the [EdsTop](../EdsTop) page for
+Elementary Dependency Structures (EDS; see the [EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) page for
 general background) are designed as a *lossy* reduction of full MRSs,
 leaving out most of the underspecified scope information that, arguably,
 is among the more intricate parts of ERG semantics and that, arguably,
@@ -116,7 +116,7 @@ recorded EDSs for that exemplar and invoke the multi-MRS browser on
 them; when given an EDS input structure, the browser will (now)
 automatically invoke the conversion to pseudo-MRS. Much like in
 interactive development for MT (see Step (5) on the
-[LogonInstallation](../LogonInstallation) page), the *Transfer* button will
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page), the *Transfer* button will
 invoke the EDS transfer grammar and display the result (*Debug \|
 Indexed* will show a more readable view; *Debug \| Step* supports
 step-wise inspection of intermediate transfer results). Finally, the

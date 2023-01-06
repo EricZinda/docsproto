@@ -622,7 +622,7 @@ poss     : an abstract predicate indicating possession
 <p>These predicates are used in <strong>predications</strong> (a predicate with its
 semantic arguments and other constraints), as in the following MRS for
 <em>Kim’s cake was eaten by a dog</em> (see the MRS specification at
-<a href="../MrsRFC">MrsRfc</a> for more explanation of MRS semantics):</p>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/MrsRFC">MrsRfc</a> for more explanation of MRS semantics):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ LTOP: h0
   INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
@@ -667,7 +667,7 @@ separated by underscores. Thus we have two basic forms for predicates:</p>
 <p>Conventionally, the grammar-internal types for predicates end with _rel
 which creates a namespace so they don’t collide with non-predicate
 types. The semantic outputs of a grammar are usually “exported”
-according to the grammar’s <a href="../SemiRfc">SEM-I</a> and <a href="../RmrsVpm">VPM</a> and the
+according to the grammar’s <a href="https://blog.inductorsoftware.com/docsproto/tools/SemiRfc">SEM-I</a> and <a href="https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm">VPM</a> and the
 _rel suffix is removed.</p>
 
 <p>Spaces may not occur in a predicate, except for possibly escaped or
@@ -685,7 +685,7 @@ lemma (e.g., / in _24/7_a_1). Unicode characters may also be used
 <p>Both surface and abstract predicates can be specified as a grammar
 <strong>type</strong> or as a quoted <strong>string</strong>. Grammar-type predicates are defined
 somewhere in the grammar, perhaps in a type hierarchy (also see
-<a href="../PredicateRfc#limitations-and-conventions">Limitations and
+<a href="https://blog.inductorsoftware.com/docsproto/tools/PredicateRfc">Limitations and
 Conventions</a>, above). A
 predicate type-hierarchy means that predicates used in an MRS may unify
 with other predicates (e.g., via underspecification or a common
@@ -705,7 +705,7 @@ sense field is occasionally unspecified (e.g., _and_c).</p>
 not contain underscores or spaces.</p>
 
 <p>The POS field must be a single character, and specifically one of n, v,
-a, j, r, s, c, p, q, x, u, or d (see <a href="../RmrsPos">RmrsPos</a>; also note that
+a, j, r, s, c, p, q, x, u, or d (see <a href="https://blog.inductorsoftware.com/docsproto/tools/RmrsPos">RmrsPos</a>; also note that
 use of the d POS is discouraged).</p>
 
 <p>The sense field is specified like a lemma, although for practical
@@ -754,7 +754,7 @@ _DOG_N_1
 </code></pre></div></div>
 
 <p>Furthermore, a surface predicate and its corresponding decomposed “real”
-pred (see the <a href="../PredicateRfc#serialization-real-vs-surface">Real vs Surface</a> section
+pred (see the <a href="https://blog.inductorsoftware.com/docsproto/tools/PredicateRfc">Real vs Surface</a> section
 above) are equivalent:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_dog_n_1

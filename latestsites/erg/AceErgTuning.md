@@ -2,7 +2,7 @@
 
 This page lists some of the most useful knobs that can be used to adjust
 [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop)'s processing, and gives suggestions for how to set them
-for different use cases, especially with the [ERG](../ErgTop).
+for different use cases, especially with the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop).
 
 The three competing desiderata of precision, robustness and efficiency
 each demand some sacrifices from the other two. The primary control

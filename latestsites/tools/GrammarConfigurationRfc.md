@@ -1,7 +1,7 @@
 {% raw %}There are a variety of processors that load TDL grammars, such as
-[agree](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop), [ACE](../AceTop), the [LKB](../LkbTop) (including
-[LkbFos](../LkbFos)), [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), and to a limited degree
-[PyDelphin](../PyDelphinTop). These all need some way to specify which files
+[agree](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop), [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop), the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) (including
+[LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)), [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), and to a limited degree
+[PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop). These all need some way to specify which files
 to load and how to load them, and most implement their own configuration
 format. There are some problems with this arrangement: duplication of
 information, subtle differences among implementations, increased mental
@@ -11,33 +11,33 @@ possibly with some processor-specific section for unique features.
 
 Contents
 
-1. [Survey](../GrammarConfigurationRfc#Survey)
-   1. [Grammar Version](../GrammarConfigurationRfc#Grammar_Version)
-   2. [Grammar Loading](../GrammarConfigurationRfc#Grammar_Loading)
-   3. [Lists](../GrammarConfigurationRfc#Lists)
-   4. [Types](../GrammarConfigurationRfc#Types)
-   5. [Features](../GrammarConfigurationRfc#Features)
-   6. [Feature Paths](../GrammarConfigurationRfc#Feature_Paths)
-   7. [Preprocessing](../GrammarConfigurationRfc#Preprocessing)
-   8. [External Interfaces](../GrammarConfigurationRfc#External_Interfaces)
-   9. [Models and Efficiency](../GrammarConfigurationRfc#Models_and_Efficiency)
-   10. [Generation](../GrammarConfigurationRfc#Generation)
-   11. [ICONS](../GrammarConfigurationRfc#ICONS)
-   12. [Chart Mapping](../GrammarConfigurationRfc#Chart_Mapping)
-   13. [Roots](../GrammarConfigurationRfc#Roots)
-   14. [Generics](../GrammarConfigurationRfc#Generics)
-   15. [Rules](../GrammarConfigurationRfc#Rules)
-   16. [Chart Packing](../GrammarConfigurationRfc#Chart_Packing)
-   17. [MRS](../GrammarConfigurationRfc#MRS)
-   18. [Other Settings](../GrammarConfigurationRfc#Other_Settings)
-2. [Proposal](../GrammarConfigurationRfc#Proposal)
-   1. [Sub-proposal 1: Conditionals](../GrammarConfigurationRfc#Sub-proposal_1:_Conditionals)
+1. [Survey](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   1. [Grammar Version](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   2. [Grammar Loading](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   3. [Lists](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   4. [Types](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   5. [Features](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   6. [Feature Paths](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   7. [Preprocessing](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   8. [External Interfaces](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   9. [Models and Efficiency](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   10. [Generation](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   11. [ICONS](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   12. [Chart Mapping](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   13. [Roots](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   14. [Generics](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   15. [Rules](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   16. [Chart Packing](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   17. [MRS](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   18. [Other Settings](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+2. [Proposal](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+   1. [Sub-proposal 1: Conditionals](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
    2. [Sub-proposal 2: Including Sub-config
-Files](../GrammarConfigurationRfc#Sub-proposal_2:_Including_Sub-config_Files)
-3. [Example](../GrammarConfigurationRfc#Example)
-4. [Questions](../GrammarConfigurationRfc#Questions)
+Files](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+3. [Example](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
+4. [Questions](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
    1. [Repeated Settings: Conflict or
-Reassignment?](../GrammarConfigurationRfc#Repeated_Settings:_Conflict_or_Reassignment.3F)
+Reassignment?](https://blog.inductorsoftware.com/docsproto/tools/GrammarConfigurationRfc)
 
 ## Survey
 

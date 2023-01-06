@@ -1,8 +1,8 @@
 {% raw %}A discussion of using delph-in tools for langauge learning, plus a brief
 intro to the new work Sanghoun is doing.
 
-Discussion at the [2017 Grammar Engineering Meeting](../CapitolHillTop) led
-by [SanghounSong](../SanghounSong), scribed by [FrancisBond](../FrancisBond).
+Discussion at the [2017 Grammar Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop) led
+by [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), scribed by [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond).
 
 3 topics (SSH)
 

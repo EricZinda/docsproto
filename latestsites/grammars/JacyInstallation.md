@@ -1,19 +1,19 @@
 {% raw %}Contents
 
-1. [Setting up Jacy](../JacyInstallation#Setting_up_Jacy)
-   1. [Calling Jacy from Emacs](../JacyInstallation#Calling_Jacy_from_Emacs)
-   2. [Using JACY with PET](../JacyInstallation#Using_JACY_with_PET)
+1. [Setting up Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   1. [Calling Jacy from Emacs](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   2. [Using JACY with PET](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
 2. [Using JACY with \[incr
-tsdb()\]](../JacyInstallation#Using_JACY_with_.5Bincr_tsdb.28.29.5D)
-   1. [Using JACY with itsdb and PET](../JacyInstallation#Using_JACY_with_itsdb_and_PET)
-3. [Graphical User Interface](../JacyInstallation#Graphical_User_Interface)
-   1. [LUI](../JacyInstallation#LUI)
-   2. [CLIM](../JacyInstallation#CLIM)
+tsdb()\]](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   1. [Using JACY with itsdb and PET](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+3. [Graphical User Interface](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   1. [LUI](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   2. [CLIM](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
 
 # Setting up Jacy
 
 Here are some incomplete and sometime out-of-date instructions on how to
-install and run [Jacy](../JacyTop). First you must install the
+install and run [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop). First you must install the
 [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) or [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop). Note that currently the automated
 installation ([LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)) with the option --jacy
 gives an old version of the grammar.

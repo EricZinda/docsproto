@@ -1,6 +1,6 @@
 {% raw %}This page describes the transfer rule formalism used for, among other
 things, \[wiki:[MachineTranslationTop](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTop) MT\],
-\[wiki:[RmrsParaphrasing](../RmrsParaphrasing) paraphrasing\] and
+\[wiki:[RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing) paraphrasing\] and
 \[wiki:[JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) generation\].
 
 [TableOfContents](/TableOfContents)
@@ -139,7 +139,7 @@ this:
 
 The most likely cause is types in the MRS being read that aren't in the
 feature structure of the grammar used to generate. You need to transfer
-them or delete them using the \[wiki:[LogonVpm](../LogonVpm) VPM\].
+them or delete them using the \[wiki:[LogonVpm](https://blog.inductorsoftware.com/docsproto/tools/LogonVpm) VPM\].
 
 ## To ensure something is a noun
 

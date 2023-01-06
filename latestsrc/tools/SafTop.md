@@ -73,7 +73,7 @@ typed, and the format is compatible with the TEI/ISO standard
 
 # SAF DTD
 
-See [SafDtd](../SafDtd).
+See [SafDtd](https://blog.inductorsoftware.com/docsproto/tools/SafDtd).
 
 # Sample SAF Document
 

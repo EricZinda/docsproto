@@ -1,6 +1,6 @@
-{% raw %}During the [FeforGrammarians](../FeforGrammarians) discussion on immediate
+{% raw %}During the [FeforGrammarians](https://blog.inductorsoftware.com/docsproto/summits/FeforGrammarians) discussion on immediate
 challenges to developing our grammars
-([FeforImmediateChallenges](../FeforImmediateChallenges)) we indentified a
+([FeforImmediateChallenges](https://blog.inductorsoftware.com/docsproto/summits/FeforImmediateChallenges)) we indentified a
 set of phenomena which seem to require access to indices other than the
 XARG belonging to saturated arugments. These include:
 

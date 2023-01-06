@@ -8,7 +8,7 @@ Because language is ambiguous, most phrases parse into more than one MRS documen
 
 Each MRS document *also* has multiple interpretations. Using constraints that are included as part of the MRS, a set of trees (called *well-formed trees*) can be built from the flat list of predications in a given MRS.  These well-formed trees define all the alternative meanings of that particular MRS.
 
-So, a phrase generates `n` MRS documents, each of those generates `m` well-formed trees, which results in `n x m` possible interpretations of a single phrase. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user (one approach to doing this will be discussed in a future section of the tutorial).
+So, a phrase generates `n` MRS documents, each of those generates `m` well-formed trees, which results in `n x m` possible interpretations of a single phrase. One of the challenges of building a system that uses natural language is to determine which of the many possible meanings was intended by the user (one approach to doing this will be discussed in a [future section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWhichParseAndTree) of the tutorial).
 
 For example, the phrase: "Look under the table." produces 12 different MRS documents (also called "parses" or "interpretations"). These include interpretations that mean: 
 
@@ -48,7 +48,7 @@ pronoun_q(x3,RSTR,BODY)            ┌────── _table_n_1(x9)
                                                  └ _look_v_1(e2,x3)
 ```
 
-The rest of this section will give you a base understanding of the MRS format so that we can explore how to build these well-formed trees in a later section and ultimately write software that derives the speaker's intended meaning from them.  Deriving their intended meaning is the topic of this entire tutorial.
+The rest of this section will give you a base understanding of the MRS format so that we can explore how to build these well-formed trees in a [later section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) and ultimately write software that derives the speaker's intended meaning from them.  Deriving their intended meaning is the topic of this entire tutorial.
 
 ## Underspecification
 A DELPH-IN parser like [ACE](http://sweaglesw.org/linguistics/ace/) will usually generate more than one MRS document representing the various high-level interpretations of a phrase. Each one contains a *list* of predicate-logic-like predications and not a *tree* like you'll see in many natural language systems.  That's because it is *underspecified*.  Even though the parser has already done one level of interpretation on the phrase, there are still (usually) multiple ways to interpret *that*.  
@@ -125,7 +125,7 @@ RELS: < [ _the_q LBL: h10 ARG0: x9 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: 
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 ```
 
-These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section below on [scopal arguments](#h-handle-variables-aka-scopal-arguments) gives an overview of how this works. The Well-Formed Trees topic describes it in detail.
+These labels are used to turn the flat list of predications into the set of well-formed trees that represent its various meanings. The section below on [scopal arguments](#h-handle-variables-aka-scopal-arguments) gives an overview of how this works. The [Well-Formed Trees topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) describes it in detail.
 
 ### Predication Names
 The name of a predication, for example, `_table_n_1`, encodes important information about it:
@@ -163,12 +163,12 @@ So, if an MRS has two predications like this:
 
 Thinking of MRS variables as variables in a math equation can help: The MRS is effectively defining a formula with variables. If you pick variable values such that the MRS is true for a given world, then you have understood the meaning of the MRS in that world.
 
-Of all the arguments, `ARG0` is special.  It holds a variable that "represents" the predication, sometimes called the "characteristic" or "distinguished" variable, but most often the "instrinsic variable".  If you read the [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) documentation, you'll see the term "introduced" is used to describe the intrinsic variable.  A predicate is described as "introducing" its "intrinsic variable" (which is always `ARG0`). Sometimes phrases like "the variable *introduced by* predicate X..." are used.  This will become important later, mostly when we talk about events or about how to convert predications back into a phrase. For now, it is enough to understand that `ARG0` *represents* the predication in some special ways.
+Of all the arguments, `ARG0` is special.  It holds a variable that "represents" the predication, sometimes called the "characteristic" or "distinguished" variable, but most often the "instrinsic variable".  If you read the [Minimal Recursion Semantics: An Introduction](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) documentation, you'll see the term "introduced" is used to describe the intrinsic variable.  A predicate is described as "introducing" its "intrinsic variable" (which is always `ARG0`). Sometimes phrases like "the variable *introduced by* predicate X..." are used.  This will become important later, mostly when we talk about [events](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents) or about how to [convert predications back into a phrase](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures). For now, it is enough to understand that `ARG0` *represents* the predication in some special ways.
 
 One final point: Every variable in an MRS is introduced by exactly one predication in the MRS (which is why they can serve as makeshift "representations" of the predication). We'll come back to this when we [talk about `i`, `p` and `u` variable types](#other-variables-types-i-u-p).
 
 #### H (Handle) Variables, aka "Scopal Arguments"
-The semantic meaning of an MRS is ultimately represented by a *tree* (described in the next topic) and handle variables passed to predications (aka "scopal arguments") provide the mechanism to build a tree from the list of predications.
+The semantic meaning of an MRS is ultimately represented by a *tree* (described in the [next topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree)) and handle variables passed to predications (aka "scopal arguments") provide the mechanism to build a tree from the list of predications.
 
 Handle variables represent the "holes" where branches of the tree can be placed. To do this, handle variables are set to the `LBL:` of another predication. As [described above](#predication-labels), the MRS `LBL:` field serves as a way to "label" each predication with a unique identifier. Thus, the `LBL:` of a predication can be assigned to a handle variable in a different predication to indicate that it should be placed there. By assigning `LBL:`s to holes like that, an entire tree can be built.
 
@@ -193,9 +193,9 @@ _the_q(x3,RSTR,BODY)
                  └─ _small_a_1(e2,x3)
 ```
 
-Think of this process like a lambda function being passed to a function in a programming language like C++ or C#.  The `the_q` predication itself will be responsible for "doing something" with the two branches it is passed.  What, exactly, is specific to the predication. We'll go into this more in a future topic in the tutorial. For now, think about scopal arguments as places to put other predications which are acting like programming language "lambda functions".
+Think of this process like a lambda function being passed to a function in a programming language like C++ or C#.  The `the_q` predication itself will be responsible for "doing something" with the two branches it is passed.  What, exactly, is specific to the predication. We'll go into this more in a [future topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments) in the tutorial. For now, think about scopal arguments as places to put other predications which are acting like programming language "lambda functions".
 
-Because the MRS is [underspecified](#underspecification), it usually doesn't directly list which predication to put in which scopal argument. You figure that out by the process of creating a well-formed tree.  However, if a predication has a `LBL:` that is the same handle as a scopal argument, then that part of the tree *has* been specified and is "locked in place" (i.e. there is no hole there for something else to be).
+Because the MRS is [underspecified](#underspecification), it usually doesn't directly list which predication to put in which scopal argument. You figure that out by the process of [creating a well-formed tree](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree).  However, if a predication has a `LBL:` that is the same handle as a scopal argument, then that part of the tree *has* been specified and is "locked in place" (i.e. there is no hole there for something else to be).
 
 #### X (Instance) Variables
 Instance (`x`) variables are just like normal First Order Logic variables, or like variables in popular programming languages. The types of things they can contain are "individuals", which is another name for a "thing in the world".  They hold the things the speaker is talking about.
@@ -223,7 +223,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 
 The other variables in the MRS are there to help build up the tree (`h` variables, described previously) or allow predications to refer to each other (`e` variables, described next).  `x` variables are the most concrete type of variable that maps most obviously to what is being said in the phrase.
 
-Note that instance variables are always *scoped* by a quantifier when a well-formed tree is built. Quantifiers are described later, but for now think of them as a predication named with `_q` and with the argument structure: (`x`, `h`, `h`). The first argument of the quantifier, `x`, is the variable being "scoped", and the two branches in its scopal arguments are the only branches allowed to use that particular `x` variable.  That's what "scoped by a quantifier" means. This is important to know when creating well-formed trees but also helps explain some of the uses of other variable types later in this section.
+Note that instance variables are always *scoped* by a quantifier when a well-formed tree is built. Quantifiers are described later, but for now think of them as a predication named with `_q` and with the argument structure: (`x`, `h`, `h`). The first argument of the quantifier, `x`, is the variable being "scoped", and the two branches in its scopal arguments are the only branches allowed to use that particular `x` variable.  That's what "scoped by a quantifier" means. This is important to know when creating [well-formed trees](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) but also helps explain some of the uses of other variable types later in this section.
 
 #### E (Event) Variables
 Event variables have a rich history and lot of fascinating conceptual linguistic background to them (Davidson 1967a is a good start), but for our purposes, we can think of them as holding a "bag of information" (represented in code as a dictionary, perhaps). Predications [*introduce*](#predication-arguments-and-variables) them to provide a place for other predications to hang information that will be used by the introducer. 
@@ -405,7 +405,7 @@ _the_q(x3,RSTR,BODY)
                  └─ _blue_a_1(e2,x3)
 ```
 
-More information on `INDEX` is described in the section on sentence force.
+More information on `INDEX` is described in the section on [sentence force](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce).
 
-The next topic walks through the rules of creating "well-formed MRS trees", and is the last big chunk of conceptual background needed before we start building the system.
+The [next topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) walks through the rules of creating "well-formed MRS trees", and is the last big chunk of conceptual background needed before we start building the system.
 <update date omitted for speed>{% endraw %}

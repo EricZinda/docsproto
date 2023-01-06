@@ -1,6 +1,6 @@
 {% raw %}# Feature Requests for the Full Forest Treebanker
 
-Possible ways to make the [Full Forest Treebanker](../FftbTop) even better.
+Possible ways to make the [Full Forest Treebanker](https://blog.inductorsoftware.com/docsproto/tools/FftbTop) even better.
 
 - Show the probability mass of choices (WP)
 - If the string you have seen before is in the treebank (as a

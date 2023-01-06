@@ -1,6 +1,6 @@
 {% raw %}# Open Issue: Tense and Aspect
 
-Mentor: [EmilyBender](../EmilyBender) (ebender at u dot washington dot edu,
+Mentor: [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) (ebender at u dot washington dot edu,
 <http://faculty.washington.edu/ebender>)
 
 Co-mentors welcome!

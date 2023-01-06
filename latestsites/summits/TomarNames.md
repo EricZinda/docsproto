@@ -57,7 +57,7 @@ every word is capitalized by convention and it doesn't mean that the
 author is using the words in a funny way. Does author of *Dept. of
 Justice Shrinks.* mean *Justice* or *justice*?
 
-In [Bellingham](../TheAbbey_Chrysalis2014ProperNouns), tried to figure out
+In [Bellingham](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns), tried to figure out
 how to minimize the difference between named entities and non-named
 entities. The proposal I'm interested in exploring is having the
 predicate name in all nouns be \_\[lemma\]\_n\_rel for *State* or

@@ -329,7 +329,7 @@
 ["compound", "e1", "x1", "x2"]
 </code></pre></div></div>
 
-<p>To convert this representation into a Python function (like the one we wrote earlier) and call it, we need a mapping from the string name (e.g. <code class="language-plaintext highlighter-rouge">"_folder_n_of"</code>) to the function and module where the function lives. We’ll do this using a Python feature called “decorators”. It isn’t important to understand <em>how</em> it works (but if you want to: read this section). For our purposes, just understand that by writing two small Python classes we can now write code like this:</p>
+<p>To convert this representation into a Python function (like the one we wrote <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication">earlier</a>) and call it, we need a mapping from the string name (e.g. <code class="language-plaintext highlighter-rouge">"_folder_n_of"</code>) to the function and module where the function lives. We’ll do this using a Python feature called “decorators”. It isn’t important to understand <em>how</em> it works (but if you want to: <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonDecorators">read this section</a>). For our purposes, just understand that by writing two small Python classes we can now write code like this:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># You can create global variables in Python
 # by just setting their values outside the scope
 # of any function, like this:
@@ -409,7 +409,7 @@ def Example2():
 {'x1': Folder(name=Documents)}
 </code></pre></div></div>
 
-<p>The <code class="language-plaintext highlighter-rouge">Example2()</code> function shows how we can use all of this to call a predication using our new text-based format. With this in place, we can tackle more complicated groups of predications such as conjunctions in the next section.</p>
+<p>The <code class="language-plaintext highlighter-rouge">Example2()</code> function shows how we can use all of this to call a predication using our new text-based format. With this in place, we can tackle more complicated groups of predications such as conjunctions in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions">next section</a>.</p>
 <update date="" omitted="" for="" speed="">
 </update>
 

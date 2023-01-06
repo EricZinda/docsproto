@@ -1,5 +1,5 @@
-{% raw %}Discussion moderated by [SanghounSong](../SanghounSong), scribed by
-[MichaelGoodman](../MichaelGoodman)
+{% raw %}Discussion moderated by [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong), scribed by
+[MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman)
 
 Apologies for the many ..., where the scribe's fingers were slower than
 the speakers' lips.
@@ -67,7 +67,7 @@ others: System, Simple, Stuff
 Ann: If the ICONS constraints about anaphora, etc. then you can't create
 an MRS that will scope in the desired way, so you can think of it as
 going toward discourse representation. Somewhere there is a proposed DTD
-of MRS including ICONS (Ed: perhaps [SofiaMrsRfc](../SofiaMrsRfc) ?), but
+of MRS including ICONS (Ed: perhaps [SofiaMrsRfc](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsRfc) ?), but
 the differences are things like the identification of structure, or
 sentence structures... Once you're thinking about anaphora across
 sentences you need a way to identify those sentences..

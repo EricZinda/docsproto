@@ -1,8 +1,8 @@
 {% raw %}## The Predication Contract
-> It is important to understand what MRS is and what a well-formed MRS tree is before reading this section. Visit those links first to understand the basic concepts.
+> It is important to understand [what MRS is](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS) and what [a well-formed MRS tree is](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) before reading this section. Visit those links first to understand the basic concepts.
 
 
-A well-formed MRS tree can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS "true", using backtracking to try alternatives when they exist. This is a [depth-first computational SLD approach](https://en.wikipedia.org/wiki/SLD_resolution) that, for example, the Prolog language uses in proving a goal.  We'll be using this approach for the tutorial. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
+A [well-formed MRS tree](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) can be thought of as an *equation* that can be solved against a certain state of the world. One approach to solving an MRS is to walk the well-formed tree in depth-first order and iteratively find assignments of variables that make the MRS "true", using backtracking to try alternatives when they exist. This is a [depth-first computational SLD approach](https://en.wikipedia.org/wiki/SLD_resolution) that, for example, the Prolog language uses in proving a goal.  We'll be using this approach for the tutorial. To solve an MRS tree using the SLD approach, we need to code the predications to meet a specific contract that our solver will rely on. This is the "predication contract".
 
 Recall that predications are of the form: `_table_n_1(x)` or `compound(e,x,x)`. Just like functions in mathematics or programming languages, they have a name and a set of arguments. We'll be treating the predications we implement as classic programming language functions that can be "called" or "invoked".
 
@@ -24,7 +24,7 @@ The contract we define here is designed to "solve" an MRS for the variables defi
 
 A few observations about the contract:
 - What the variables *are* -- i.e. how the world is represented in the program -- is not defined in the contract. It doesn't care.
-- Quantifier Predications only scope their `x` variables. These are the only variables that represent "things in the world", called "individuals", that we are solving for. Event (`e`) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications. They are not relevant here and get described in a later section.
+- Quantifier Predications only scope their `x` variables. These are the only variables that represent "things in the world", called "individuals", that we are solving for. Event (`e`) variables are handled differently since they are an implementation detail of the MRS that gets used by the predications. They are not relevant here and get described in a [later section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents).
 - This "idealized contract" has different requirements for Regular and Quantifier Predications. Regular Predications simply return `True` or `False`. Quantifier Predications return a set of answers consisting of variable assignments, iteratively. 
 
 Let's walk through an example of each to clarify:

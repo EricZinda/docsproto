@@ -11,7 +11,7 @@ identified, but note that the actual error may be earlier.
 ### Related topics
 
 - [The LKB says I'm missing a right bracket, but I can't figure out
-where. What should I do?](../GeFaqRightBracket)
+where. What should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqRightBracket)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

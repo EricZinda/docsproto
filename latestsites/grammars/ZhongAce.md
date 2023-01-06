@@ -20,7 +20,7 @@ large size of memory and much running time (see
 
 Recall "Parsing Robustly, Generatring Strictly!" For strict generation,
 you can use the following to compile the version (see
-[ZhongGeneration](../ZhongGeneration)).
+[ZhongGeneration](https://blog.inductorsoftware.com/docsproto/grammars/ZhongGeneration)).
 
     $ ace -g ace/config-strict.tdl -G zhs-strict.dat
 
@@ -33,5 +33,5 @@ Interface) can be invoked by using an option -l.
     $ ace -g zhs.dat -l
 
 You can use the YY mode for your input of parsing. See
-[ZhongYYMode](../ZhongYYMode).
+[ZhongYYMode](https://blog.inductorsoftware.com/docsproto/grammars/ZhongYYMode).
 <update date omitted for speed>{% endraw %}

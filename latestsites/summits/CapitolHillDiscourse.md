@@ -2,7 +2,7 @@
 
 ## A Discussion at the Capitol Hill meeting, January 2017
 
-[CapitolHillTop](../CapitolHillTop)
+[CapitolHillTop](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
 
 ### Discourse adverbs/short answers
 

@@ -1,6 +1,6 @@
 {% raw %}This page describes various approaches to paraphrasing using the
-DELPH-IN tools. This page was initiated by [FrancisBond](../FrancisBond)
-and [DarrenAppling](../DarrenAppling); please feel free to make additions
+DELPH-IN tools. This page was initiated by [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
+and [DarrenAppling](https://blog.inductorsoftware.com/docsproto/summits/DarrenAppling); please feel free to make additions
 or corrections as you see fit.
 
 # How to Paraphrase

@@ -12,7 +12,7 @@ If you're interested, please contact us --- through the mailing list, or
 by emailing [Emily Bender](http://faculty.washington.edu/ebender) at
 ebender at u dot washington dot edu.
 
-The [Wish List](../MatrixWishList) page serves as a forum for relatively
+The [Wish List](https://blog.inductorsoftware.com/docsproto/matrix/MatrixWishList) page serves as a forum for relatively
 informal exchange among developers and consumers, in addition to the
 Matrix mailing list.
 
@@ -27,7 +27,7 @@ information.
 
 - [Matrix web site](https://matrix.ling.washington.edu), includes
 publications and a list of languages
-- [MatrixGettingStarted](../MatrixGettingStarted): Some pointers to where
+- [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted): Some pointers to where
 to get started when using the Grammar Matrix for the first time
 - [Customization
 page](https://matrix.ling.washington.edu/customize/matrix.cgi), to
@@ -52,7 +52,7 @@ may be useful to those working with the Matrix.
 is a wiki page detailing how to use version control systems (e.g.
 SVN, Mercurial) with a grammar.
 - We have some examples in the short and sweet [MRS Test
-Suite](../MatrixMrsTestSuite)s, which now exist for multiple languages.
+Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite)s, which now exist for multiple languages.
 
 # Courses
 
@@ -112,7 +112,7 @@ agreement, tense and aspect, as well as extensions to the existing
 libraries for word order, sentential negation, yes-no questions and
 coordination.
 - PET now has :+.
-- [MatrixDevTop](../MatrixDevTop): Notes for Matrix developers
+- [MatrixDevTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop): Notes for Matrix developers
 
 # Acknowledgments
 

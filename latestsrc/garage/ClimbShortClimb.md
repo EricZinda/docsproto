@@ -3,7 +3,7 @@
 ## Overview
 
 SHORT-CLIMB is a tool that can create metagrammar libraries for a larger
-resource grammar, following the ideas in [CLIMB](../ClimbTop). It provides
+resource grammar, following the ideas in [CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop). It provides
 a practical set-up to flip back and forth between different versions of
 a grammar. The approach can be used to (temporarily) maintain and
 explore an alternative analyses, or to collect standard differences

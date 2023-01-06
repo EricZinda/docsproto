@@ -1,6 +1,6 @@
 {% raw %}# Notes from discussion on Corpus Look Up and LTDB integration
 
-Discussion at [Tomar](../TomarTop) on how we can further extend the
+Discussion at [Tomar](https://blog.inductorsoftware.com/docsproto/summits/TomarTop) on how we can further extend the
 [Lexical Type database](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb) with other resources for looking up
 results (led by Francis and scribed by Bec).
 

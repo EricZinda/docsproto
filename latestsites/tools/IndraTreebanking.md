@@ -37,7 +37,7 @@ Rename that folder into ind
 - Database: Home/logon/lingo/lkb/src/tsdb/home/ind
 - Skeleton: Home/logon/lingo/lkb/src/tsdb/skeletons/ind
   
-  See [GeFaqTsdbRc](../GeFaqTsdbRc) to make changes to the default
+  See [GeFaqTsdbRc](https://blog.inductorsoftware.com/docsproto/tools/GeFaqTsdbRc) to make changes to the default
 Database and Skeleton paths
 
 9\. Activate external treebanking tool

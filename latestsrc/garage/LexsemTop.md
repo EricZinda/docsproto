@@ -12,7 +12,7 @@ Summit](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
 - [Some thoughts on mapping between ERG and Wordnet
 predicates](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
 - [MRS mini-modelling Sympoisum at UW](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm)
-- [Semcor Wordnet-ERG mapping](../SemCor) and link to data download
+- [Semcor Wordnet-ERG mapping](https://blog.inductorsoftware.com/docsproto/garage/SemCor) and link to data download
 - [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMrsWordnet)
 
 ## To Maybe Do

@@ -1,26 +1,26 @@
 {% raw %}# Some On-line Documentation for JACY
 
-See [JacyTop](../JacyTop) for a general discussion and installation
+See [JacyTop](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) for a general discussion and installation
 instructions.
 
 - [YY Mode](http://moin.delph-in.net/JacyYYMode): automatically
 segment input
-- [JacyValence](../JacyValence): Information on verb subcategorization.
-- [JacyMorphology](../JacyMorphology): Some notes on the Jacy
+- [JacyValence](https://blog.inductorsoftware.com/docsproto/grammars/JacyValence): Information on verb subcategorization.
+- [JacyMorphology](https://blog.inductorsoftware.com/docsproto/grammars/JacyMorphology): Some notes on the Jacy
 inflectional classes
-- [JacyGeneration](../JacyGeneration): Some Notes on Generation.
-- [JacyIdiom](../JacyIdiom): Description of how to implement idioms in a
+- [JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration): Some Notes on Generation.
+- [JacyIdiom](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom): Description of how to implement idioms in a
 DELPH-IN grammar.
 - [JacyPragmatics](https://blog.inductorsoftware.com/docsproto/summits/JacyPragmatics): some ideas about making the
 pragmatic information (honorification, empathy and so on) more
 available to processing.
-- [JacyLexTypes](../JacyLexTypes): Some documentation on the lexical
+- [JacyLexTypes](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexTypes): Some documentation on the lexical
 types.
-- [JacyNumbers](../JacyNumbers): Some documentation on how numbers are
+- [JacyNumbers](https://blog.inductorsoftware.com/docsproto/grammars/JacyNumbers): Some documentation on how numbers are
 treated in Jact.
-- [JacyLexDb](../JacyLexDb): Documentation on the structure of the
+- [JacyLexDb](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb): Documentation on the structure of the
 lexicon used with the [LexDB](/LkbLexDb).
-- [JacyPerformance](../JacyPerformance): Documentation on how to improve
+- [JacyPerformance](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance): Documentation on how to improve
 the grammar's performance.
 - [MatrixMrsTestSuiteJa](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteJa): Results of parsing the
 MRS test suite.

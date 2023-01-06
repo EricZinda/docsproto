@@ -61,7 +61,7 @@ structure rules).
 
 The structures licensed by DELPH-IN grammars are attribute-value
 matrices, which tend to be very large. The LKB and to some degree ACE
-(see [LKB](../DelphinTutorial_Processing)) provide support for
+(see [LKB](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Processing)) provide support for
 interactively exploring these structures. In general, the most commonly
 used display formats are CFG-like trees, with node labels abbreviating
 the feature structures at the nodes and the various formats for

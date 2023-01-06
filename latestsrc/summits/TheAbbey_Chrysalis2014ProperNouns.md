@@ -1,7 +1,7 @@
 {% raw %}# A modest proposal for proper nouns
 
 by Francis (see also [Ann's Modest
-Proposal](../TheAbbey_Chrysalis2014SchrodingerMrs))
+Proposal](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs))
 
 - Get a very large Gazetteer --- try to find something that updates
 itself (LOD)

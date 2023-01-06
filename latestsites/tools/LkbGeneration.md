@@ -4,30 +4,30 @@ from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Gr
 
 Contents
 
-1. [Overview](../LkbGeneration#Overview)
+1. [Overview](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
 2. [Generating Semantically Empty Lexical Entries
-(trigger.mtr)](../LkbGeneration#Generating_Semantically_Empty_Lexical_Entries_.28trigger.mtr.29)
+(trigger.mtr)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
    1. [How to list semantically empty lexical
-entries](../LkbGeneration#How_to_list_semantically_empty_lexical_entries)
-   2. [ToDo](../LkbGeneration#ToDo)
-3. [Generating Unknown Words](../LkbGeneration#Generating_Unknown_Words)
+entries](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+   2. [ToDo](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+3. [Generating Unknown Words](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
 4. [Selective Generation
-(globals.lisp)](../LkbGeneration#Selective_Generation_.28globals.lisp.29)
-   1. 1. 1. [In Ace](../LkbGeneration#In_Ace)
-5. [Other Notes](../LkbGeneration#Other_Notes)
+(globals.lisp)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+   1. 1. 1. [In Ace](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+5. [Other Notes](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
    1. [Make generation faster
-(globals.lsp)](../LkbGeneration#Make_generation_faster_.28globals.lsp.29)
-   2. [Fixup MRS (mrsglobals.lsp)](../LkbGeneration#Fixup_MRS_.28mrsglobals.lsp.29)
+(globals.lsp)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+   2. [Fixup MRS (mrsglobals.lsp)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
    3. [Reload generation rules without
-reindexing](../LkbGeneration#Reload_generation_rules_without_reindexing)
+reindexing](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
    4. [MRS Semantic Equivalence
-Check](../LkbGeneration#MRS_Semantic_Equivalence_Check)
-   5. [Checking the Generator Index](../LkbGeneration#Checking_the_Generator_Index)
-6. [Trouble Shooting](../LkbGeneration#Trouble_Shooting)
-   1. [Morphology](../LkbGeneration#Morphology)
-   2. [C-CONT](../LkbGeneration#C-CONT)
+Check](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+   5. [Checking the Generator Index](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+6. [Trouble Shooting](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+   1. [Morphology](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+   2. [C-CONT](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
    3. [Loading and Activating a Generation
-Model](../LkbGeneration#Loading_and_Activating_a_Generation_Model)
+Model](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
 
 # Overview
 
@@ -129,7 +129,7 @@ currently does this to block informal and variant forms for which we
 have no available filter. Note that this is a list of lex-ids, not
 predicate names.
 
-**Note**: If you want this list to also be seen by [ace](../AceTop), you
+**Note**: If you want this list to also be seen by [ace](https://blog.inductorsoftware.com/docsproto/tools/AceTop), you
 need to move it to a separate file (see a recent ERG for examples of how
 to do this).
 

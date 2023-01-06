@@ -22,17 +22,17 @@ we will also link it to this pages.
 
 Contents
 
-1. [Cathedral and the Bazaar (cb)](../MatrixMrsCatb#Cathedral_and_the_Bazaar_.28cb.29)
+1. [Cathedral and the Bazaar (cb)](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
 2. [The Cathedral and the Bazaar in different
-languages](../MatrixMrsCatb#The_Cathedral_and_the_Bazaar_in_different_languages)
-3. [Timeline](../MatrixMrsCatb#Timeline)
-4. [Formatting Guidelines](../MatrixMrsCatb#Formatting_Guidelines)
-   1. [Profile Name](../MatrixMrsCatb#Profile_Name)
-   2. [Markup](../MatrixMrsCatb#Markup)
-   3. [Structure](../MatrixMrsCatb#Structure)
-   4. [Quotations](../MatrixMrsCatb#Quotations)
-   5. [Typos](../MatrixMrsCatb#Typos)
-   6. [Sentence Numbering](../MatrixMrsCatb#Sentence_Numbering)
+languages](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+3. [Timeline](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+4. [Formatting Guidelines](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   1. [Profile Name](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   2. [Markup](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   3. [Structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   4. [Quotations](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   5. [Typos](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   6. [Sentence Numbering](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
 
 # The Cathedral and the Bazaar in different languages
 

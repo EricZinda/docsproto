@@ -10,16 +10,16 @@ treebank if it exists.
 
 Contents
 
-1. [Sample In Line Documentation](../LkbLtdb#Sample_In_Line_Documentation)
-   1. [Examples](../LkbLtdb#Examples)
-   2. [Names](../LkbLtdb#Names)
+1. [Sample In Line Documentation](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+   1. [Examples](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+   2. [Names](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
 2. [Integration with FFTB and
-delphin-viz](../LkbLtdb#Integration_with_FFTB_and_delphin-viz)
-3. [Installation](../LkbLtdb#Installation)
-   1. [Setting up your server](../LkbLtdb#Setting_up_your_server)
-   2. [Tool Support](../LkbLtdb#Tool_Support)
-4. [References](../LkbLtdb#References)
-5. [To Do](../LkbLtdb#To_Do)
+delphin-viz](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+3. [Installation](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+   1. [Setting up your server](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+   2. [Tool Support](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+4. [References](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+5. [To Do](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
 
 The minimal Linguistic Type Database offers the following:
 

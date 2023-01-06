@@ -107,7 +107,7 @@ permission on the grammar. (At UW, we have a separate user for this
 web process, which means we end up making the grammar group
 writable.)
 - There of course has to be a \~/tmp/ directory; the standard LOGON
-configuration (see the [LogonInstallation](../LogonInstallation) page)
+configuration (see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page)
 should have seen to this.
 - The PVM daemon pvmd3 has to be running (I would expect the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) machinery to take care of

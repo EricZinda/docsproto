@@ -10,21 +10,21 @@ correct.
 
 Contents
 
-1. [Page Status](../ItsdbProfiling#Page_Status)
-   1. 1. [Parsing](../ItsdbProfiling#Parsing)
-   1. 2. [Generation](../ItsdbProfiling#Generation)
-   1. 3. [Transfer](../ItsdbProfiling#Transfer)
-   1. 4. [Translation](../ItsdbProfiling#Translation)
-   1. 5. [Preprocessing](../ItsdbProfiling#Preprocessing)
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
+   1. 1. [Parsing](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
+   1. 2. [Generation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
+   1. 3. [Transfer](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
+   1. 4. [Translation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
+   1. 5. [Preprocessing](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
 
 ### Parsing
 
-You can generate from a [profile](../ItsdbProfile) by selecting it, loading
+You can generate from a [profile](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile) by selecting it, loading
 a grammar and then doing Process--All Items.
 
 The default is to parse with the grammar loaded in the lkb/tsdb
 combination, but you can also parse with client grammars (see
-[ItsdbDistributedProcessing](../ItsdbDistributedProcessing)).
+[ItsdbDistributedProcessing](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDistributedProcessing)).
 
 You can store MRSs when you parse with either
 (setf tsdb::\*tsdb-semantix-hook\* "mrs::get-mrs-string") or by

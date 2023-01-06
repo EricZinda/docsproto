@@ -41,7 +41,7 @@ including all daughters;
 - **all**---All the representations.
 
 You can set what information gets output in '.tsdbrc'
-([ItsdbCustomization](../ItsdbCustomization)).
+([ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/tools/ItsdbCustomization)).
 
     (setf tsdb::*redwoods-export-values* '(:derivation :tree :mrs :prolog))
 

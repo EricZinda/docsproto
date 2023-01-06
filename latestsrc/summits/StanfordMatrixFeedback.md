@@ -28,7 +28,7 @@ study. In some cases, I had to guess. The only grammar we really know
 this of is the Wambaya grammar -- Emily did an analysis in the current
 paper.
 
-Antske: Points to notes from [Tomar meeting](../TomarMatrix). Nothing much
+Antske: Points to notes from [Tomar meeting](https://blog.inductorsoftware.com/docsproto/summits/TomarMatrix). Nothing much
 happened, but I hope that if I make plans to work with people, since
 that'll get me doing it. Ways of doing this: [ParGram](/ParGram) model
 (probably not reasonable for us). Shared core grammar that everyone

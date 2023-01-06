@@ -24,7 +24,7 @@ with the web site <http://www.delph-in.net>
 LREC. Standing committee to think about this
   - Come up with a DELPH-IN Manifesto/Mission Statement. Possibly to
 be used as boilerplate in grant applications/papers.
-[StephanOepen](../StephanOepen) to write draft
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) to write draft
   - Encourage everyone to remember to properly cite each other.
 - Remind scribes to post notes, participants to read over and edit
   - Please add your own notes and check the scribe's output
@@ -32,7 +32,7 @@ be used as boilerplate in grant applications/papers.
   - Standing committee made up of founding members, no current plans
 to change, could perhaps enlarge it/change it. We are open to
 input.
-  - The [standing committee members](../StandingCommitteeGroup) are
+  - The [standing committee members](https://blog.inductorsoftware.com/docsproto/summits/StandingCommitteeGroup) are
 listed online
 - Are there any new candidate institutions?
   - Maybe ISI

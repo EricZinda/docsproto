@@ -7,7 +7,7 @@ Common Lisp implementations (see the section on open source Lisps
 below), but to get a 'native' graphical user interface requires a
 substitute for Allegro CLIM, such as McCLIM. In the absence of the
 latter, you may be able to use the non-CLIM Linguistic User Interface
-([LkbLui](../LkbLui)) to get graphics capabilities.
+([LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui)) to get graphics capabilities.
 
 When compiling the LKB in a Lisp without CLIM, the system will operate
 in what is called *tty* mode, a command-line based environment that
@@ -19,7 +19,7 @@ still allows access to most basic functionality. See the
 ## Preparatory Steps
 
 The following assumes that you have completed the installation
-instructions from the [LkbInstallation](../LkbInstallation) page, including
+instructions from the [LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) page, including
 downloading and unpacking the archive lkb\_source.tgz into a directory
 we will refer to as DELPHINHOME. Also, make sure the directory for LKB
 temporary files is available and, on Linux, confirm that a compatible
@@ -40,7 +40,7 @@ instructions).
 
 Start your Lisp environment, preferably as a sub-process to *emacs*.
 When using Allegro CL, use the clim binary (see above). The
-[LkbEmacs](../LkbEmacs) page has instructions on how to run the LKB and
+[LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs) page has instructions on how to run the LKB and
 Lisp with *emacs*, the standard editor.
 
 Within Lisp, load the LKB compilation environment. In our examples, we
@@ -100,7 +100,7 @@ development image.
 
 A fully open source version of the LKB is available, which uses SBCL and
 McCLIM, both of which are open source. Pre-built binaries are available
-for Linux and macOS. See the [LkbFos](../LkbFos) page for the current
+for Linux and macOS. See the [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) page for the current
 status of this version.
 
 # Public Source Code Repository

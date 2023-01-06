@@ -1,4 +1,4 @@
-{% raw %}Discussion at [SuquamishTop](../SuquamishTop) on shared scripting
+{% raw %}Discussion at [SuquamishTop](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop) on shared scripting
 libraries.
 
 There may be some duplication of code it would be nice to reduce.

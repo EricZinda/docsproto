@@ -15,22 +15,22 @@ written for Jacy ([JacyPerformance](https://blog.inductorsoftware.com/docsproto/
 
 **Table of Contents**
 
-- [Things to tweak for overall performance](../GrammarPerformance#things-to-tweak-for-overall-performance)
-  - [Quick Check](../GrammarPerformance#quick-check)
-    - [PET](../GrammarPerformance#pet)
-    - [ACE](../GrammarPerformance#ace)
-    - [LKB](../GrammarPerformance#lkb)
-    - [ToDo](../GrammarPerformance#todo)
-  - [Key Arguments](../GrammarPerformance#key-arguments)
-    - [ToDo](../GrammarPerformance#todo-1)
-  - [Spanning Only Rules](../GrammarPerformance#spanning-only-rules)
-  - [Trigger Rules for Generation](../GrammarPerformance#trigger-rules-for-generation)
-  - [Don't copy things you won't use](../GrammarPerformance#dont-copy-things-you-wont-use)
-  - [Ubertagging](../GrammarPerformance#ubertagging)
-- [Things to do to reduce noise during grammar engineering](../GrammarPerformance#things-to-do-to-reduce-noise-during-grammar-engineering)
-- [Things that magically just happen](../GrammarPerformance#things-that-magically-just-happen)
-  - [Ambiguity Packing](../GrammarPerformance#ambiguity-packing)
-  - [Packing under Generalization](../GrammarPerformance#packing-under-generalization)
+- [Things to tweak for overall performance](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Quick Check](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+    - [PET](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+    - [ACE](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+    - [LKB](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+    - [ToDo](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Key Arguments](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+    - [ToDo](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Spanning Only Rules](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Trigger Rules for Generation](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Don't copy things you won't use](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Ubertagging](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+- [Things to do to reduce noise during grammar engineering](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+- [Things that magically just happen](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Ambiguity Packing](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+  - [Packing under Generalization](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
 
 <!-- markdown-toc end -->
 
@@ -252,8 +252,8 @@ You can control when to add lexical entries with empty semantics to the
 generator chart using trigger rules. If they were all added all the time
 then the chart would get too big.
 
-See [LkbGeneration](../LkbGeneration) for more discussion (note that
-trigger rules also work with [Ace](../AceTop)).
+See [LkbGeneration](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration) for more discussion (note that
+trigger rules also work with [Ace](https://blog.inductorsoftware.com/docsproto/tools/AceTop)).
 
 ## Don't copy things you won't use
 

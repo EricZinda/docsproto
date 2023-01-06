@@ -1,12 +1,12 @@
 {% raw %}Contents
 
-1. [Overview](../PhenomenaTop#Overview)
+1. [Overview](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
    1. [Relevant discussions from past
-summits](../PhenomenaTop#Relevant_discussions_from_past_summits)
-2. [ERG Semantic Documentation](../PhenomenaTop#ERG_Semantic_Documentation)
-3. [Phenomenon Corpus](../PhenomenaTop#Phenomenon_Corpus)
-4. [Typediff](../PhenomenaTop#Typediff)
-5. [Phenomenon Catalogue](../PhenomenaTop#Phenomenon_Catalogue)
+summits](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
+2. [ERG Semantic Documentation](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
+3. [Phenomenon Corpus](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
+4. [Typediff](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
+5. [Phenomenon Catalogue](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
 
 # Overview
 
@@ -33,7 +33,7 @@ This project is aiming to create a corpus annotated with linguistic
 phenomena independently of existing grammars for the purposes of
 investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
-[DeepBank](../DeepBank) and focusing on syntactic and morphosyntactic
+[DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) and focusing on syntactic and morphosyntactic
 phenomena is currently being developed by [NedLetcher](https://blog.inductorsoftware.com/docsproto/summits/NedLetcher),
 [TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin) and [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender). For further
 details and background, please see the paper *Constructing a Phenomenal
@@ -47,7 +47,7 @@ for more information.
 
 # Typediff
 
-[Typediff](../TypediffTop) is a tool for exploring the types employed in
+[Typediff](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) is a tool for exploring the types employed in
 the processing of input to DELPH-IN grammars. Typediff works by
 extracting the type identifiers found in the final AVM of a successful
 parse and sorting this bag of types according to HPSG-theoretic type

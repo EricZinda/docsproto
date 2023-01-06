@@ -1,6 +1,6 @@
 {% raw %}# Norwegian Japanese Machine Translation "NoJa"
 
-These are some notes to set up a system using the [LOGON](../LogonTop)
+These are some notes to set up a system using the [LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
 architecture for a new langauge pair. This is not officially supported
 by anyone at the moment.
 
@@ -10,16 +10,16 @@ mean the authors will always be able to helpfully answer questions.
 Contents
 
 1. [Norwegian Japanese Machine Translation
-"NoJa"](../NoJa#Norwegian_Japanese_Machine_Translation__.22NoJa.22)
-2. [Running No/Ja](../NoJa#Running_No.2FJa)
-3. [Trouble shooting suggestions](../NoJa#Trouble_shooting_suggestions)
-4. [Set Up](../NoJa#Set_Up)
-   1. [.bashrc](../NoJa#A.bashrc)
-   2. [.emacs](../NoJa#A.emacs)
-   3. [logon/dot.tsdbrc](../NoJa#logon.2Fdot.tsdbrc)
-   4. [logon/ntnu/norse-parse.lisp](../NoJa#logon.2Fntnu.2Fnorse-parse.lisp)
-   5. [To Do](../NoJa#To_Do)
-5. [Differences in attributes](../NoJa#Differences_in_attributes)
+"NoJa"](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+2. [Running No/Ja](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+3. [Trouble shooting suggestions](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+4. [Set Up](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+   1. [.bashrc](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+   2. [.emacs](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+   3. [logon/dot.tsdbrc](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+   4. [logon/ntnu/norse-parse.lisp](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+   5. [To Do](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
+5. [Differences in attributes](https://blog.inductorsoftware.com/docsproto/tools/NoJa)
 
 # Running No/Ja
 
@@ -39,7 +39,7 @@ hurt.
    - select the translation (with next/previous) and click generate
    - the translation should magically popup in a little window
 
-You can also run it as a [batch](../LogonProcessing_BatchTranslation) with
+You can also run it as a [batch](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchTranslation) with
 a bit more undocumented setup.
 
 # Trouble shooting suggestions
@@ -52,7 +52,7 @@ a bit more undocumented setup.
 
 Not all of the bits have been publically released yet (2006-06-09).
 
-- get a recent LOGON CVS (see [LogonInstallation](../LogonInstallation))
+- get a recent LOGON CVS (see [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation))
   
   - fulfill your licensing requirements
     - put your ACL licence in
@@ -221,7 +221,7 @@ fix in vpm
 
 Jacy (copying the ERG) has tense on prepositions, while Norsource
 doesn't. This caused some problems. We solved them, using the [variable
-property mapping](../RmrsVpm), as follows:
+property mapping](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm), as follows:
 
 Add some types (to mrs.tdl) these mark events for which the entire
 attribute will be deleted:

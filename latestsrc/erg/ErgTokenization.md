@@ -34,7 +34,7 @@ additional background. In this view, string-level pre-processing and
 initial tokenization is the process of mapping a 'flat' string into a
 token lattice. For further technical background and an example
 demonstrating a broad range of tokenization aspects, please see the page
-[ErgTokenization/ComplexExample](../ErgTokenization_ComplexExample).
+[ErgTokenization/ComplexExample](https://blog.inductorsoftware.com/docsproto/erg/ErgTokenization_ComplexExample).
 
 In the standard setup for the ERG, this task is solved by means of
 so-called REPP (Regular Expression Pre-Processor) modules, which are

@@ -10,7 +10,7 @@ ready-to-run binaries are provided, or if you need to compile the
 sources because you have code of their own that needs to be integrated
 with the LKB. The complete LKB software is [open
 source](http://www.opensource.org/); see the
-[LkbCopyright](../LkbCopyright) page for details. Users running a
+[LkbCopyright](https://blog.inductorsoftware.com/docsproto/tools/LkbCopyright) page for details. Users running a
 precompiled binary may choose to install the source code too, of course,
 for example when trying to decide how to customize LKB behavior, or
 simply as a somewhat low-level form of reference documentation.
@@ -22,21 +22,21 @@ address for the LKB (and other LinGO resources): lingo@delph-in.net.
 
 **Table of Contents**
 
-- [Overview](../LkbInstallation#overview)
-- [Supported Hard- and Software Platforms](../LkbInstallation#supported-hard--and-software-platforms)
-- [Automated Installation](../LkbInstallation#automated-installation)
-- [Which Version to Use: Stable vs. Latest](../LkbInstallation#which-version-to-use-stable-vs-latest)
-- [Manual Installation](../LkbInstallation#manual-installation)
-- [First-Time Use](../LkbInstallation#first-time-use)
-  - [Directory for LKB Temporary Files](../LkbInstallation#directory-for-lkb-temporary-files)
-- [Virtual Machine Image](../LkbInstallation#virtual-machine-image)
-- [Development and Supported Lisp Environments](../LkbInstallation#development-and-supported-lisp-environments)
-- [Further Pointers](../LkbInstallation#further-pointers)
-- [Trouble Shooting](../LkbInstallation#trouble-shooting)
-  - [amd64 Version](../LkbInstallation#amd64-version)
-  - [libXm.so.4](../LkbInstallation#libxmso4)
-  - [libXpm.so.4](../LkbInstallation#libxpmso4)
-  - [uming font problem](../LkbInstallation#uming-font-problem)
+- [Overview](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Supported Hard- and Software Platforms](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Automated Installation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Which Version to Use: Stable vs. Latest](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Manual Installation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [First-Time Use](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+  - [Directory for LKB Temporary Files](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Virtual Machine Image](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Development and Supported Lisp Environments](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Further Pointers](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+- [Trouble Shooting](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+  - [amd64 Version](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+  - [libXm.so.4](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+  - [libXpm.so.4](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
+  - [uming font problem](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
 
 <!-- markdown-toc end -->
 
@@ -53,8 +53,8 @@ at http://lingo.delph-in.net/builds/2004-09-17/. There are no newer
 binary versions due to unresolved licensing issues.
 
 For macOS there are two main alternatives, outlined on the
-[LkbMacintosh](../LkbMacintosh) page. One is to run the new, fully open
-source version of the LKB ('LKB-FOS'); see the [LkbFos](../LkbFos) page for
+[LkbMacintosh](https://blog.inductorsoftware.com/docsproto/tools/LkbMacintosh) page. One is to run the new, fully open
+source version of the LKB ('LKB-FOS'); see the [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) page for
 details. Another is to run a Linux version of the LKB in a virtual
 machine.
 
@@ -225,7 +225,7 @@ it. Confirm that the *LKB Top* window pops up and is functional and then
 proceed to adding settings to your .emacs and .bashrc (or .tcshrc)
 files; see above. Should you need or want to compile the LKB source
 code, please consult the instructions on the
-[LkbCompilation](../LkbCompilation) page.
+[LkbCompilation](https://blog.inductorsoftware.com/docsproto/tools/LkbCompilation) page.
 
 # First-Time Use
 
@@ -296,7 +296,7 @@ There is a VirtualBox virtual machine image built by researchers at the
 University of Washington, which boots you into Linux with the LKB:
 [Ubuntu+LKB](https://wiki.ling.washington.edu/bin/view.cgi/Main/KnoppixLKB);
 this may be useful for Windows and macOS users (see also
-[LkbMacintosh](../LkbMacintosh)).
+[LkbMacintosh](https://blog.inductorsoftware.com/docsproto/tools/LkbMacintosh)).
 
 # Development and Supported Lisp Environments
 
@@ -312,7 +312,7 @@ and visualization will only be available with Allegro CLIM; there is
 partial support for [LispWorks](http://www.lispworks.com) CLIM.
 
 A fully open source version of the LKB is also available, which is not
-dependent on any proprietary software; see [LkbFos](../LkbFos) for details.
+dependent on any proprietary software; see [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) for details.
 The core of the LKB is ANSI Common Lisp and is known to compile in a
 variety of free Lisp implementations, including
 
@@ -333,26 +333,26 @@ mode of interactions (called *tty mode*; see the
 [GeFaqLispPromptTips](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqLispPromptTips) page) that enables basic
 grammar writing or deployment of an existing grammar. Also, there is
 experimental support to provide graphical tools without CLIM for select
-platforms; see the [LkbLui](../LkbLui) pages. For instructions on compiling
-the LKB source code, please see the [LkbCompilation](../LkbCompilation)
+platforms; see the [LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) pages. For instructions on compiling
+the LKB source code, please see the [LkbCompilation](https://blog.inductorsoftware.com/docsproto/tools/LkbCompilation)
 pages.
 
 # Further Pointers
 
-In case of problems, please see the [LkbFaq](../LkbFaq) page. For
+In case of problems, please see the [LkbFaq](https://blog.inductorsoftware.com/docsproto/tools/LkbFaq) page. For
 additional information on obtaining, installing, and running the LKB,
 see:
 
-- [LkbEmacs](../LkbEmacs): Instructions on interfacing the LKB to the
+- [LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs): Instructions on interfacing the LKB to the
 emacs(1) editor;
-- [LkbFos](../LkbFos): Running the fully open source version of the LKB;
-- [LkbCompilation](../LkbCompilation): Compiling the LKB source code (in
+- [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos): Running the fully open source version of the LKB;
+- [LkbCompilation](https://blog.inductorsoftware.com/docsproto/tools/LkbCompilation): Compiling the LKB source code (in
 various lisps);
-- [LkbFaq](../LkbFaq): Frequently Asked Questions related to using the
+- [LkbFaq](https://blog.inductorsoftware.com/docsproto/tools/LkbFaq): Frequently Asked Questions related to using the
 LKB;
 - [LkbLexDb](/LkbLexDb): Setting up and using a lexical database
 (optional);
-- [LkbLui](../LkbLui): Linguistic User Interface (LUI) mode (optional);
+- [LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui): Linguistic User Interface (LUI) mode (optional);
 and
 - other Lkb pages - use the wiki search facilities to find them.
 

@@ -6,7 +6,7 @@ of data packaged for input to a deep processor/parser such as the LKB or
 PET. This XML-input format is an amalgamation of ideas taken from (and
 intended to subsume) [MAF](http://atoll.inria.fr/perl/maf/mafhelp.html),
 the Pet Input Chart used in the HoG system
-([HeartofgoldTop](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop)), the SPPP ([LkbSppp](../LkbSppp)) mode
+([HeartofgoldTop](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop)), the SPPP ([LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp)) mode
 implemented in the LKB, and
 [SAF](http://www.cl.cam.ac.uk/~bmw20/Papers/NLPXML06-SAF.pdf), and
 incorporates RMRS XML.
@@ -59,11 +59,11 @@ typed, and the format is compatible with the TEI/ISO standard
 
 # SMAF/LKB
 
-See [SmafLkb](../SmafLkb).
+See [SmafLkb](https://blog.inductorsoftware.com/docsproto/tools/SmafLkb).
 
 # SMAF/PET
 
-See [SmafPet](../SmafPet).
+See [SmafPet](https://blog.inductorsoftware.com/docsproto/tools/SmafPet).
 
 # SMAF configuration
 
@@ -116,7 +116,7 @@ Sample SMAF configuration settings:
 
 # SAMPLE SMAF XML
 
-See also: [SmafSample](../SmafSample)
+See also: [SmafSample](https://blog.inductorsoftware.com/docsproto/tools/SmafSample)
 
     <?xml version='1.0' encoding='UTF-8'?>
     <!DOCTYPE smaf SYSTEM 'smaf.dtd'>
@@ -134,5 +134,5 @@ See also: [SmafSample](../SmafSample)
 
 # SMAF DTD
 
-See [SmafDtd](../SmafDtd).
+See [SmafDtd](https://blog.inductorsoftware.com/docsproto/tools/SmafDtd).
 <update date omitted for speed>{% endraw %}

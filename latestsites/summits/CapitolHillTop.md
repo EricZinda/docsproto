@@ -14,23 +14,23 @@ Glenn's house, Capitol Hill, Seattle.
 Contents
 
 1. [Grammar Engineering
-mini-meeting](../CapitolHillTop#Grammar_Engineering_mini-meeting)
-   1. [Program](../CapitolHillTop#Program)
-   2. [Topics](../CapitolHillTop#Topics)
-   3. [Participants](../CapitolHillTop#Participants)
-   4. [Social Program](../CapitolHillTop#Social_Program)
-   5. [Photos](../CapitolHillTop#Photos)
+mini-meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   1. [Program](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   2. [Topics](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   3. [Participants](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   4. [Social Program](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   5. [Photos](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
 
 ## Program
 
 |           |                                                     |                                                                                       |                                                                       |
 |-----------|-----------------------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Day       | Morning 1                                           | Afternoon 1                                                                           | Afternoon 2                                                           |
-| Monday    | Agenda Setting                                      | [Long Distance Dependencies](../CapitolHillDependencies)(FCB,FZZ)                        | [Small2Large](../CapitolHillSmall2Large) (FCB,LMC)                       |
-| Tuesday   | [ChartMap and Redup](../CapitolHillChartMap) (FCB,DVM) | [Learning and Malrules](../CapitolHillLearning) (SSH,FCB)                                | [Treebank](https://blog.inductorsoftware.com/docsproto/erg/CapitolHillTreebank) (FCB,SSH)                             |
-| Wednesday | [Definiteness](../CapitolHillDefiniteness) (SSH,EMB)   | [Passives](https://blog.inductorsoftware.com/docsproto/grammars/CapitolHillPassives) [Discussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) (DVM,DPF) | [Discoursey Things](../CapitolHillDiscourse) (FZZ,EMB)                   |
-| Thursday  | [Lexicon Building](../CapitolHillLexicon) (GCS,FZZ)    | [Performance/Robustness](../CapitolHillPerformance) (DPF,FCB)                            | Excursion: [Theo's Chocolate Factory](https://www.theochocolate.com/) |
-| Friday    | [PhD Design](../CapitolHillPhDDesign) (EMB,MWG)        | [Generation Testing](../CapitolHillGenerationTesting) (MWG,LMC)                          | Code Names                                                            |
+| Monday    | Agenda Setting                                      | [Long Distance Dependencies](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillDependencies)(FCB,FZZ)                        | [Small2Large](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillSmall2Large) (FCB,LMC)                       |
+| Tuesday   | [ChartMap and Redup](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillChartMap) (FCB,DVM) | [Learning and Malrules](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillLearning) (SSH,FCB)                                | [Treebank](https://blog.inductorsoftware.com/docsproto/erg/CapitolHillTreebank) (FCB,SSH)                             |
+| Wednesday | [Definiteness](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillDefiniteness) (SSH,EMB)   | [Passives](https://blog.inductorsoftware.com/docsproto/grammars/CapitolHillPassives) [Discussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) (DVM,DPF) | [Discoursey Things](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillDiscourse) (FZZ,EMB)                   |
+| Thursday  | [Lexicon Building](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillLexicon) (GCS,FZZ)    | [Performance/Robustness](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillPerformance) (DPF,FCB)                            | Excursion: [Theo's Chocolate Factory](https://www.theochocolate.com/) |
+| Friday    | [PhD Design](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillPhDDesign) (EMB,MWG)        | [Generation Testing](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillGenerationTesting) (MWG,LMC)                          | Code Names                                                            |
 
 ## Topics
 
@@ -82,24 +82,24 @@ mini-meeting](../CapitolHillTop#Grammar_Engineering_mini-meeting)
 ## Participants
 
 Organizer\
-[FrancisBond](../FrancisBond)
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond)
 
 Host\
-[GlennSlayden](../GlennSlayden)
+[GlennSlayden](https://blog.inductorsoftware.com/docsproto/summits/GlennSlayden)
 
 Participants  
 - Emily Bender (in and out, according to other obligations)
-- [MichaelGoodman](../MichaelGoodman) (maybe not every day)
-- [OlgaZamaraeva](../OlgaZamaraeva) (mostly for evening fun/social and to
+- [MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman) (maybe not every day)
+- [OlgaZamaraeva](https://blog.inductorsoftware.com/docsproto/summits/OlgaZamaraeva) (mostly for evening fun/social and to
 offer help as a local; I can also provide crash space for someone)
-- [SanghounSong](../SanghounSong) (probably everyday 2-6)
-- [FrancisBond](../FrancisBond) (every day)
+- [SanghounSong](https://blog.inductorsoftware.com/docsproto/summits/SanghounSong) (probably everyday 2-6)
+- [FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond) (every day)
 - Fan Zhenzhen (every day)
-- [DanFlickinger](../DanFlickinger) (Monday afternoon to Thursday)
-- [LuisMorgadoCosta](../LuisMorgadoCosta) (every day)
-- [DavidMoeljadi](../DavidMoeljadi) (every day)
+- [DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger) (Monday afternoon to Thursday)
+- [LuisMorgadoCosta](https://blog.inductorsoftware.com/docsproto/summits/LuisMorgadoCosta) (every day)
+- [DavidMoeljadi](https://blog.inductorsoftware.com/docsproto/summits/DavidMoeljadi) (every day)
 - Ping Xue
-- [JoshuaCrowgey](../JoshuaCrowgey) (Tuesday and Thursday)
+- [JoshuaCrowgey](https://blog.inductorsoftware.com/docsproto/summits/JoshuaCrowgey) (Tuesday and Thursday)
   
   - (add your name here)
 

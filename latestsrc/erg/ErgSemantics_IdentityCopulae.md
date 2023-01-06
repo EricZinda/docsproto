@@ -83,7 +83,7 @@ Rather, any of the following represent identity copulae:
 While the identity copula predications are mostly introduce by lexical
 items, the same EPs are in some cases introduced by syntactic
 constructions. In particular, in identity N-bar
-[coordination](../ErgSemantics_Coordination), as illustrated by the
+[coordination](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination), as illustrated by the
 following test suite example:
 
 - *My friend and colleague arrived.*
@@ -168,8 +168,8 @@ Ivan A. Sag.* Stanford: CSLI Publications.
 
 # More Information
 
-- [ErgSemantics](../ErgSemantics) main page
-- [Inventory](../ErgSemantics_Inventory) of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- [How to cite this work](../ErgSemantics_HowToCite)
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 <update date omitted for speed>{% endraw %}

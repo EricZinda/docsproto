@@ -1,4 +1,4 @@
-{% raw %}\[See [SingaporeSchedule](../SingaporeSchedule) page for link to slides.\]
+{% raw %}\[See [SingaporeSchedule](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule) page for link to slides.\]
 
 Mike: \[Introduces topic of surprising MRSs---cases where his code
 failed because the MRSs it encountered were unexpected.\]

@@ -3,7 +3,7 @@
 This page logs some of the discussion we had about managing open issues
 and how to best channel effort (e.g., student research) to projects
 which are of high priority but not otherwise currently being addressed.
-The main page for open issues is [OpenissuesTop](../OpenissuesTop), and
+The main page for open issues is [OpenissuesTop](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop), and
 instructions for adding or modifying open issues are given there.
 
 Many topics come up repeatedly which are too complicated to solve in one
@@ -32,7 +32,7 @@ resources --- present and present our needs to ML people.
 
 Making the resources accessible to ML people requires some repackaging.
 Extracting treebanks from \[incr tsdb()\] so that e.g., supertagging is
-a shared task. [TimBaldwin](../TimBaldwin) volunteers to maintain
+a shared task. [TimBaldwin](https://blog.inductorsoftware.com/docsproto/summits/TimBaldwin) volunteers to maintain
 repository of repackaged treebanks and/or include export scripts in
 DELPH-IN repository. If we can present a DELPH-IN shared task, the large
 ML community will probably come to call. There are some issues with

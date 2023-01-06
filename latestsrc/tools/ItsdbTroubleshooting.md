@@ -10,16 +10,16 @@ correct.
 
 Contents
 
-1. [Page Status](../ItsdbTroubleshooting#Page_Status)
-2. [Debugging Distributed Mode](../ItsdbTroubleshooting#Debugging_Distributed_Mode)
-   1. [communication error -6](../ItsdbTroubleshooting#communication_error_-6)
-   2. [communication error -7](../ItsdbTroubleshooting#communication_error_-7)
-   3. [client exit for 'user'](../ItsdbTroubleshooting#client_exit_for_.27user.27)
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+2. [Debugging Distributed Mode](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+   1. [communication error -6](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+   2. [communication error -7](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+   3. [client exit for 'user'](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
       1. [parse-interactively(): error \`maximum number of active
 sessions
-exhausted'](../ItsdbTroubleshooting#parse-interactively.28.29:_error_.60maximum_number_of_active_sessions_exhausted.27)
-3. [Keyboard Freeze](../ItsdbTroubleshooting#Keyboard_Freeze)
-4. [Podium font too big](../ItsdbTroubleshooting#Podium_font_too_big)
+exhausted'](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+3. [Keyboard Freeze](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+4. [Podium font too big](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
 
 # Debugging Distributed Mode
 

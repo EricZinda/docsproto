@@ -101,5 +101,5 @@ generation.
 
 # History of Coverage
 
-See [ZhongHistory](../ZhongHistory)
+See [ZhongHistory](https://blog.inductorsoftware.com/docsproto/grammars/ZhongHistory)
 <update date omitted for speed>{% endraw %}

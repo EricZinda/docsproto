@@ -20,22 +20,22 @@ typically limited to current versions.
 
 Contents
 
-1. [Page Status](../ItsdbReference#Page_Status)
-2. [Reference](../ItsdbReference#Reference)
-   1. [Formatting Conventions](../ItsdbReference#Formatting_Conventions)
-   2. [Database Files](../ItsdbReference#Database_Files)
-      1. [Output File Format](../ItsdbReference#Output_File_Format)
-      2. [Text Input Formats](../ItsdbReference#Text_Input_Formats)
-         1. [Plain Text Input Format](../ItsdbReference#Plain_Text_Input_Format)
-         2. [Bi-text Import Format](../ItsdbReference#Bi-text_Import_Format)
-   3. [Well Formedness (i-wf)](../ItsdbReference#Well_Formedness_.28i-wf.29)
-   4. [How to make a new Skeleton](../ItsdbReference#How_to_make_a_new_Skeleton)
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+2. [Reference](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+   1. [Formatting Conventions](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+   2. [Database Files](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+      1. [Output File Format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+      2. [Text Input Formats](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+         1. [Plain Text Input Format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+         2. [Bi-text Import Format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+   3. [Well Formedness (i-wf)](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+   4. [How to make a new Skeleton](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
       1. [How to make a Profile from a text input
-file](../ItsdbReference#How_to_make_a_Profile_from_a_text_input_file)
+file](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
 
 This page includes some low level information about [\[incr
-tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](../ItsdbTop)). You may
-also be interested in [ItsdbCustomization](../ItsdbCustomization).
+tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)). You may
+also be interested in [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/tools/ItsdbCustomization).
 
 ## Formatting Conventions
 

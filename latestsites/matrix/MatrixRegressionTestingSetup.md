@@ -3,26 +3,26 @@
 NB: This set up is needed to run the classic regression testing system.
 Consider using the newer, pydelphin-based regression testing script
 which does not require you to set up a VM (you can just run tests
-locally on your Linux or Mac). [Read this](../MatrixRegressionTesting)
+locally on your Linux or Mac). [Read this](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)
 before proceeding with the below setup.
 
 This page describes setting up a fresh [VirtualBox](/VirtualBox) virtual
 machine to do Grammar Matrix Regression Testing (See
-[MatrixDevTop](../MatrixDevTop),
-[MatrixRegressionTesting](../MatrixRegressionTesting)). The basic
+[MatrixDevTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop),
+[MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)). The basic
 requirements to run the regression tests are:
 
 - Ubuntu 12.04+
 - emacs23+
 - gcc
-- The Grammar Matrix ([MatrixTop](../MatrixTop))
+- The Grammar Matrix ([MatrixTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop))
 - LOGON ([LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop))
 - ACE ([AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop))
 
 This page is current as of 02-10-16 - CMC
 
 For experimental regression testing on Mac, see
-[MatrixRegressionTestingSetupMac](../MatrixRegressionTestingSetupMac)
+[MatrixRegressionTestingSetupMac](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTestingSetupMac)
 
 ## Setting up a VirtualBox virtual machine
 
@@ -128,7 +128,7 @@ directory (e.g. \~/delphin/matrix/trunk/ )
     wget http://www-01.sil.org/iso639-3/iso-639-3_20120206.tab -O iso.tab
 
 15\) You should now be able to run the regression tests
-([MatrixRegressionTesting](../MatrixRegressionTesting)):
+([MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)):
 
     cd ~/delphin/matrix/trunk/
     python matrix.py r

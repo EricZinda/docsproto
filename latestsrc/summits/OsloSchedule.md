@@ -1,7 +1,7 @@
 {% raw %}# Background
 
 This is the schedule for the Thirteenth DELPH-IN Summit,
-[Oslo](../OsloTop).
+[Oslo](https://blog.inductorsoftware.com/docsproto/summits/OsloTop).
 
 # Location
 
@@ -53,7 +53,7 @@ entrance to the right into Section D and proceed to the fifth floor.
 |                                                                 |                                                 [Indra Indonesian Grammar](http://www.delph-in.net/2017/indra.pdf) (David Moeljadi)                                                 |
 |                                                                 |                                              [Functional Distributional Semantics](http://www.delph-in.net/2017/guy.pdf) (Guy Emerson)                                              |
 |                           11:45-12:05                           |                                                 [Demo: Fully Open Source LKB](http://www.delph-in.net/2017/lkb.pdf) (John Carroll)                                                  |
-|                           12:05-13:00                           | Discussion: [Repositioning DELPH-IN Resources as Annotated Data for Others](http://www.delph-in.net/2017/repositioning.pdf) (Michael Goodman) [Notes](../OsloResourcesAsAnnotatedData) |
+|                           12:05-13:00                           | Discussion: [Repositioning DELPH-IN Resources as Annotated Data for Others](http://www.delph-in.net/2017/repositioning.pdf) (Michael Goodman) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloResourcesAsAnnotatedData) |
 |                       13:00-14:00 *Lunch*                       |                                                                                                                                                                                     |
 | 14:00-15:30 *Plenary Session 3: Presentations -- Chair: Petter* |                                                                                                                                                                                     |
 |                           14:00-14:30                           |                                                 [List Appends in TDL](http://www.delph-in.net/2017/append.pdf) (Guy Emerson: 20+10)                                                 |
@@ -62,7 +62,7 @@ entrance to the right into Section D and proceed to the fifth floor.
 |                   15:30-16:00 *Coffee Break*                    |                                                                                                                                                                                     |
 |       16:00-17:30 *Plenary Session 4 -- Chair: Berthold*        |                                                                                                                                                                                     |
 |                           16:00-16:30                           |                       [Using ERG for Feature Extraction for Clinical Notes Classification](http://www.delph-in.net/2017/negation.pdf) (Olga Zamaraeva: 20+10)                       |
-|                           16:30-17:30                           |                          Discussion: [Scopal vs. Non-Scopal Modifiers](http://www.delph-in.net/2017/scope.pdf) (Guy Emerson) [Notes](../OsloScopalNonScopal)                           |
+|                           16:30-17:30                           |                          Discussion: [Scopal vs. Non-Scopal Modifiers](http://www.delph-in.net/2017/scope.pdf) (Guy Emerson) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloScopalNonScopal)                           |
 |                                                                 |                                                                                                                                                                                     |
 
 |                                                               |                                                                                                                                                                                                                                                                                           |
@@ -70,7 +70,7 @@ entrance to the right into Section D and proceed to the fifth floor.
 |                     **Tuesday, 8 August**                     |                                                                                                                                                                                                                                                                                           |
 |         9:00-10:30 *Plenary Session 5 -- Chair: Ping*         |                                                                                                                                                                                                                                                                                           |
 |                           9:00-9:45                           | Discussion: [Robust Unknown Word Handling for Parsing and Generation](http://www.delph-in.net/2017/generics.pdf) (Francis Bond) Background: [2009](http://lists.delph-in.net/archives/developers/2009/001162.html) [2010](http://lists.delph-in.net/archives/developers/2010/001411.html) |
-|                          9:45-10:30                           |                                                        Discussion: [Shapeworld for Automatic Language Generation in a Closed-World Domain](http://www.delph-in.net/2017/shapeworld.pdf) (Alexander Kuhnle) [Notes](../OsloShapeWorld)                                                        |
+|                          9:45-10:30                           |                                                        Discussion: [Shapeworld for Automatic Language Generation in a Closed-World Domain](http://www.delph-in.net/2017/shapeworld.pdf) (Alexander Kuhnle) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloShapeWorld)                                                        |
 |                  10:30-11:00 *Coffee Break*                   |                                                                                                                                                                                                                                                                                           |
 | 11:00-13:00 *Plenary Session 6: Presentations -- Chair: John* |                                                                                                                                                                                                                                                                                           |
 |                          11:00-11:30                          |                                                                                            [Data-Driven Deep Dependency Parsing](http://www.delph-in.net/2017/peking.pdf) (Weiwei Sun: 20+10)                                                                                             |
@@ -79,20 +79,20 @@ entrance to the right into Section D and proceed to the fifth floor.
 |                          12:30-13:00                          |                                                                               [Continuous and Differentiable Feature Structures and Unification](http://www.delph-in.net/2017/cfs.pdf) (Guy Emerson: 20+10)                                                                               |
 |                      13:00-14:00 *Lunch*                      |                                                                                                                                                                                                                                                                                           |
 |        14:00-15:30 *Plenary Session 7 -- Chair: Glenn*        |                                                                                                                                                                                                                                                                                           |
-|                          14:00-14:45                          |                                                        Discussion: [Appropriateness of Separately Categorizing Events from Entities in the MRS](http://www.delph-in.net/2017/david.pdf) (David Inman) [Notes](../OsloEventsInstances)                                                        |
-|                          14:45-15:30                          |                                                                                                    Discussion: Information-based Morphology (Berthold Crysmann) [Notes](../OsloInfoMorph)                                                                                                    |
+|                          14:00-14:45                          |                                                        Discussion: [Appropriateness of Separately Categorizing Events from Entities in the MRS](http://www.delph-in.net/2017/david.pdf) (David Inman) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloEventsInstances)                                                        |
+|                          14:45-15:30                          |                                                                                                    Discussion: Information-based Morphology (Berthold Crysmann) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloInfoMorph)                                                                                                    |
 |                  15:30-16:00 *Coffee Break*                   |                                                                                                                                                                                                                                                                                           |
 |      16:00-18:00 *Plenary Session 8 -- Chair: Zhen Zhen*      |                                                                                                                                                                                                                                                                                           |
 |                          16:00-16:45                          |                                                                          Tutorial: [The SEM-I: Current Status and Future Role](http://moin.delph-in.net/ErgSemantics/Interface) (Stephan Oepen & Dan Flickinger)                                                                          |
 |                          16:45-17:15                          |                                                                                                  Comparing grammatical analysis of commercial product Grammarly and ERG (Ping Xue 20+10)                                                                                                  |
-|                          17:15-18:00                          |                                                                                      Discussion: [WordNet Integration](http://www.delph-in.net/2017/wordnet.pdf) (Francis Bond) [Notes](../OsloWordnet)                                                                                      |
+|                          17:15-18:00                          |                                                                                      Discussion: [WordNet Integration](http://www.delph-in.net/2017/wordnet.pdf) (Francis Bond) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloWordnet)                                                                                      |
 |                                                               |                                                                                                                                                                                                                                                                                           |
 
 |                                                                   |                                                                                                                                                                          |     |     |
 |:-----------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|-----|-----|
 |                      **Wednesday, 9 August**                      |                                                                                                                                                                          |     |     |
 |         9:00-10:30 *Plenary Session 9 -- Chair: David M.*         |                                                                                                                                                                          |     |     |
-|                            9:00-10:00                             |             LAD: [Discontinuous Coordination in Ancient Greek](http://www.delph-in.net/2017/lad.pdf) (Woodley Packard) [Notes](../OsloAncientGreekCoordination)             |     |     |
+|                            9:00-10:00                             |             LAD: [Discontinuous Coordination in Ancient Greek](http://www.delph-in.net/2017/lad.pdf) (Woodley Packard) [Notes](https://blog.inductorsoftware.com/docsproto/summits/OsloAncientGreekCoordination)             |     |     |
 |                            10:00-10:30                            |                                                                             Business meeting                                                                             |     |     |
 |                    10:30-11:00 *Coffee Break*                     |                                                                                                                                                                          |     |     |
 | 11:00-13:00 *Plenary Session 10: Presentations -- Chair: Woodley* |                                                                                                                                                                          |     |     |
@@ -122,12 +122,12 @@ gchat) us so we can let you in: Francis +1-206-981-9575 or Luis +351 925
 |:------------------------------------------------------------------------------------------------------------------------:|:---:|
 |                                                 **Thursday, 10 August**                                                  |     |
 |                                           9:00-15:00 *Special Interest Groups*                                           |     |
-| 9:00-10:30 SIG session 3: [Rep of Qs](../OsloQuestionRepresentation) (orange), [ShapeWorld](../MultilingualShapeworld) (black) |     |
+| 9:00-10:30 SIG session 3: [Rep of Qs](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation) (orange), [ShapeWorld](https://blog.inductorsoftware.com/docsproto/summits/MultilingualShapeworld) (black) |     |
 |                                                   10:30-11:00 *break*                                                    |     |
 |                            11:00-12:30 SIG session 4: Doc party (orange), Efficiency (black)                             |     |
 |                                                   12:30-13:30 *lunch*                                                    |     |
 |                            13:30-15:00 SIG session 5: FFTB models (orange), EDS/DMRS (black)                             |     |
-|                                          15:00-19:00 [Excursion](../OsloExcursion)                                          |     |
+|                                          15:00-19:00 [Excursion](https://blog.inductorsoftware.com/docsproto/summits/OsloExcursion)                                          |     |
 |                                                     19:30- *Banquet*                                                     |     |
 |                                                                                                                          |     |
 
@@ -158,10 +158,10 @@ attend more than *six* sub-groups.
 (Woodley Packard)
 - Demo/Tutorial: pyDelphin and GTest (Michael Goodman)
 - Hackathon: [Shapeworld for automatic generation in multiple
-languages](../MultilingualShapeworld) (Alexander Kuhnle)
+languages](https://blog.inductorsoftware.com/docsproto/summits/MultilingualShapeworld) (Alexander Kuhnle)
 - Discussion: EDS and DMRS (Michael Goodman)
 - Discussion: [Representation of
-questions](../OsloQuestionRepresentation) (Guy Emerson)
+questions](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation) (Guy Emerson)
 - Discussion: Machine translation (Francis Bond, Michael Goodman)
 - Discussion: Technological Enhanced Learning (Luis Morgado da Costa
 and Francis Bond)

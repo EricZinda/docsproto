@@ -2,41 +2,41 @@
 
 The *Linguistic User Interface* (LUI) is an ongoing project to build a visualization tool for the most common object types in constraint-based grammars, i.e. trees, feature structures, MRSs, charts, et al. While the LKB comes with built-in browsers for all of these, the current use of the CLIM (Common-Lisp Interface Manager) toolkit in the LKB severely limits portability and ease of use (and programmatic extension). Thus, portability and royalty-free delivery are among the primary motivations for the LUI project; at the same time, LUI attempts to 'conservatively' improve over the existing LKB tools, for example in terms of layout options, scalability, user parameterization, display efficiency. While preserving all existing LKB display functionality, LUI adds some new facilities, including drag-and-drop interactive unification, display of, and navigation through multiple feature structure incompatibilities, and creation of screen dumps in (for now) PostScript or LaTeX formats.
 
-The standard implementation of LUI is an application of the [YZ Windows](http://yz-windows.sourceforge.net/) API, developed mainly by Woodley Packard, who is also the main LUI developer (with LKB-side support by Stephan Oepen. An alternate LUI binary compiled with Pango (which gives better font support for various international character sets) is available (albeit in binary only) as part of [Trollet](../LkbTrollet), developed by Pavel Mihaylov; see below.
+The standard implementation of LUI is an application of the [YZ Windows](http://yz-windows.sourceforge.net/) API, developed mainly by Woodley Packard, who is also the main LUI developer (with LKB-side support by Stephan Oepen. An alternate LUI binary compiled with Pango (which gives better font support for various international character sets) is available (albeit in binary only) as part of [Trollet](https://blog.inductorsoftware.com/docsproto/tools/LkbTrollet), developed by Pavel Mihaylov; see below.
 
 # LUI Documentation at a Glance
 
-- [LuiUi](../LuiUi)
-- [LuiTree](../LuiTree)
-- [LuiAvm](../LuiAvm)
-- [LuiUnification](../LuiUnification)
-- [LuiMrs](../LuiMrs)
-- [LuiRc](../LuiRc)
-- [AceLui](../AceLui)
+- [LuiUi](https://blog.inductorsoftware.com/docsproto/tools/LuiUi)
+- [LuiTree](https://blog.inductorsoftware.com/docsproto/tools/LuiTree)
+- [LuiAvm](https://blog.inductorsoftware.com/docsproto/tools/LuiAvm)
+- [LuiUnification](https://blog.inductorsoftware.com/docsproto/tools/LuiUnification)
+- [LuiMrs](https://blog.inductorsoftware.com/docsproto/tools/LuiMrs)
+- [LuiRc](https://blog.inductorsoftware.com/docsproto/tools/LuiRc)
+- [AceLui](https://blog.inductorsoftware.com/docsproto/tools/AceLui)
 
 # Existing LUI Browsers
 
-LUI currently provides browsers for four types of linguistic structures, viz. constituent trees ([LuiTree](../LuiTree)), feature structures
-([LuiAvm](../LuiAvm)), MRSs ([LuiMrs](../LuiMrs)), and parse charts ([LuiChart](../LuiChart)). For other types of linguistic objects, a LUI-enabled LKB session will just fall back on the default, built-in display methods from the LKB.
+LUI currently provides browsers for four types of linguistic structures, viz. constituent trees ([LuiTree](https://blog.inductorsoftware.com/docsproto/tools/LuiTree)), feature structures
+([LuiAvm](https://blog.inductorsoftware.com/docsproto/tools/LuiAvm)), MRSs ([LuiMrs](https://blog.inductorsoftware.com/docsproto/tools/LuiMrs)), and parse charts ([LuiChart](https://blog.inductorsoftware.com/docsproto/tools/LuiChart)). For other types of linguistic objects, a LUI-enabled LKB session will just fall back on the default, built-in display methods from the LKB.
 
-LUI browsers exhibit certain common interface characteristics, described on the [LuiUi](../LuiUi) page. [LuiUi](../LuiUi) a introductory keyboard shortcut list.
+LUI browsers exhibit certain common interface characteristics, described on the [LuiUi](https://blog.inductorsoftware.com/docsproto/tools/LuiUi) page. [LuiUi](https://blog.inductorsoftware.com/docsproto/tools/LuiUi) a introductory keyboard shortcut list.
 
 # Obtaining and Running LUI
 
 Recent LUI binaries for [Linux(x86 64-bit
 mode)](http://sweaglesw.org/linguistics/yzlui.x86-64) and [Mac OS
 X](http://sweaglesw.org/linguistics/yzlui-for-osx.tar.gz) are available,
-intructions in [AceLui](../AceLui) and on the readme file at
+intructions in [AceLui](https://blog.inductorsoftware.com/docsproto/tools/AceLui) and on the readme file at
 <http://sweaglesw.org/linguistics/maclui/>.
 
 You can also get binaries through a full release such as
-[LOGON](../LogonTop) or the [LinGO LKB CVS repository](../LkbInstallation)
+[LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) or the [LinGO LKB CVS repository](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)
 (since August 2005). During an initial testing phase, LUI support is
 *not* turned on by default. There are multiple ways of activating LUI,
 e.g. (a) manually within a running LKB session, (b) from within the
 \`.lkbrc' user-specific LKB configuration file, or (c) by means of a
 shell environment variable. You can customize LUI by means of a per-user
-.luirc file ([LuiRc](../LuiRc)).
+.luirc file ([LuiRc](https://blog.inductorsoftware.com/docsproto/tools/LuiRc)).
 
 The yzlui source code is publicly available at:
 
@@ -155,7 +155,7 @@ describing your session in the file `/tmp/yzlui.debug.username` (where
 DELPH-IN *developers* mailing list and always attach a corresponding LUI
 log file from the `/tmp/` directory.
 
-Please add wishlist requests to [LuiWishlist](../LuiWishlist).
+Please add wishlist requests to [LuiWishlist](https://blog.inductorsoftware.com/docsproto/tools/LuiWishlist).
 
 # Comparison with CLIM
 

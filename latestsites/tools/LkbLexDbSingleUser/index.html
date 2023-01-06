@@ -607,16 +607,16 @@
 
 <ul>
   <li>First, set up psql. A simple set up is discussed in
-<a href="../LexDbSimplePsql">LexDbSimplePsql</a> (the details which will work for
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LexDbSimplePsql">LexDbSimplePsql</a> (the details which will work for
 single-user and multi-user mode are in
-<a href="../LexDbPsqlInitialize">LexDbPsqlInitialize</a>)</li>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LexDbPsqlInitialize">LexDbPsqlInitialize</a>)</li>
   <li>Then, initialize a database, populate it with the lexicon entries
 from a lexicon.tdl file and tell the LKB to use this when you load a
 grammar. Step-by-step instructions follow. These instructions
 presuppose that you already have suitable mappings from the paths in
 the typed feature structures to database fields in a .dfn file. The
 easiest approach is to use an existing .dfn file as a model. More
-details are given in <a href="../LexDbInitialize">LexDbInitialize</a>.</li>
+details are given in <a href="https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize">LexDbInitialize</a>.</li>
 </ul>
 
 <p>The instructions as given below are suitable if you want to use the ERG
@@ -633,7 +633,7 @@ $ createdb $MyLexDB
 
 <p>[The database is initialized using the SQL script file ‘su-init.sql’
 which may be edited first to specify the Lex DB fields you want. See
-<a href="../LexDbFieldMappings">LexDbFieldMappings</a> for further information. ]</p>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LexDbFieldMappings">LexDbFieldMappings</a> for further information. ]</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ psql $MyLexDB
 =&gt; \i su-init.sql
@@ -671,7 +671,7 @@ lexicon/dump files must be UTF-8]</p>
 
 <p>[Edit the LKB script file to specify that the database should be used,
 if necessary. The ERG script is already set up to do this, but see
-<a href="../LexDbInitialize">LexDbInitialize</a> if you are working with a grammar
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize">LexDbInitialize</a> if you are working with a grammar
 which has not previously been used with the Lex DB. ]</p>
 
 <p>[NOW reload grammar in LKB, and you should see a messages similar to

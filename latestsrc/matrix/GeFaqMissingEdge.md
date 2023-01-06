@@ -19,7 +19,7 @@ nodes are there. That is, look for the lowest edge that you expect to
 find but don't. Now, find the edge(s) that you expect to be the
 daughter(s) of the missing edge and determine which rule (grammar rule
 or lexical rule) should be licensing the edge. Then, follow the
-directions for doing [interactive unification](../GeFaqInteractiveUnify).
+directions for doing [interactive unification](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqInteractiveUnify).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

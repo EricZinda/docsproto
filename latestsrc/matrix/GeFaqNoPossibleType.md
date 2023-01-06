@@ -19,7 +19,7 @@ Things that you can do which will cause the error above include:
 - Try to introduce a feature in a feature structure other than the
 outermost one for the type in which the feature is declared (see
 [FAQ: I'm trying to add a new feature, and the LKB doesn't like it.
-What should I do?](../GeFaqNewFeature)).
+What should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNewFeature)).
 
 The error message will specify the path at which the problem is
 occuring. &lt;&gt; is the empty path, i.e., the outermost pair of square

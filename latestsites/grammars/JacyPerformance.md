@@ -6,18 +6,18 @@ This page is now superseded by the
 
 Contents
 
-1. [Quick Check](../JacyPerformance#Quick_Check)
-   1. [PET](../JacyPerformance#PET)
-   2. [LKB](../JacyPerformance#LKB)
-      1. [ToDo](../JacyPerformance#ToDo)
-2. [Key Arguments](../JacyPerformance#Key_Arguments)
-   1. 1. [ToDo](../JacyPerformance#ToDo-1)
-3. [Spanning Only Rules](../JacyPerformance#Spanning_Only_Rules)
-4. [Ambiguity Packing](../JacyPerformance#Ambiguity_Packing)
+1. [Quick Check](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+   1. [PET](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+   2. [LKB](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+      1. [ToDo](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+2. [Key Arguments](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+   1. 1. [ToDo](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+3. [Spanning Only Rules](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+4. [Ambiguity Packing](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
 5. [Restrictions on the application of morphological
-rules](../JacyPerformance#Restrictions_on_the_application_of_morphological_rules)
-6. [Trigger Rules for Generation](../JacyPerformance#Trigger_Rules_for_Generation)
-7. [Current Issues](../JacyPerformance#Current_Issues)
+rules](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+6. [Trigger Rules for Generation](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+7. [Current Issues](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
 
 # Quick Check
 

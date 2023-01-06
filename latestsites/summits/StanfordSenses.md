@@ -94,7 +94,7 @@ consider:
 
 ## Notes from scribe
 
-=== Scribe: [EmilyBender](../EmilyBender) ===
+=== Scribe: [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender) ===
 
 oe: \[Goes through notes on the wiki\]
 

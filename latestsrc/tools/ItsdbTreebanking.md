@@ -32,17 +32,17 @@ if you don't have this much, find another machine.
 
 # Links
 
-- [/ItsdbAnnotation](../ItsdbTreebanking_ItsdbAnnotation)
+- [/ItsdbAnnotation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbAnnotation)
   
   - Selecting and rejecting parses
-- [/ItsdbUpdating](../ItsdbTreebanking_ItsdbUpdating)
+- [/ItsdbUpdating](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
   
   - Automatic and Interactive updating to a new grammar
-- [/ItsdbExporting](../ItsdbTreebanking_ItsdbExporting)
+- [/ItsdbExporting](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbExporting)
   
   - Exporting data from treebanks, as trees, (R)MRSs, dependencies
 and so on
-- [/ItsdbModeling](../ItsdbTreebanking_ItsdbModeling)
+- [/ItsdbModeling](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
   
   - Creating and scoring stochastic models
 

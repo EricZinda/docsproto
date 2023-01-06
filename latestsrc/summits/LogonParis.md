@@ -1,7 +1,7 @@
 {% raw %}# Background
 
 In July 2010, at the time of the annual DELPH-IN Summit (see the
-[ParisTop](../ParisTop) page for background), a new tagged release of the
+[ParisTop](https://blog.inductorsoftware.com/docsproto/summits/ParisTop) page for background), a new tagged release of the
 LOGON infrastructure (see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page for details) is
 being made available. This page documents (some of) the updates and
 extensions provided in this snapshot.

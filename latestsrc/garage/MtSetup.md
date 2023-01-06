@@ -5,23 +5,23 @@ This page is under construction. Please expand and correct if you can.
 Contents
 
 1. [Instructions on how to set up an MT
-system](../MtSetup#Instructions_on_how_to_set_up_an_MT_system)
+system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    1. [Two ways to set up an MT
-system](../MtSetup#Two_ways_to_set_up_an_MT_system)
-2. [The Rephrasing method](../MtSetup#The_Rephrasing_method)
-   1. [Requested files and settings](../MtSetup#Requested_files_and_settings)
-   2. [Using the system](../MtSetup#Using_the_system)
-3. [The Transfer Grammar method](../MtSetup#The_Transfer_Grammar_method)
+system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+2. [The Rephrasing method](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   1. [Requested files and settings](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   2. [Using the system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+3. [The Transfer Grammar method](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    1. [Install LOGON and add your grammar(s) to the
-repository](../MtSetup#Install_LOGON_and_add_your_grammar.28s.29_to_the_repository)
-   2. [Creating CPU's](../MtSetup#Creating_CPU.27s)
+repository](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   2. [Creating CPU's](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    3. [Create lisp files for your grammars and the MT
-system](../MtSetup#Create_lisp_files_for_your_grammars_and_the_MT_system)
+system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    4. [Setting the \*translate-grid\*
-values](../MtSetup#Setting_the_.2Atranslate-grid.2A_values)
-   5. [Setting the VPM](../MtSetup#Setting_the_VPM)
+values](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   5. [Setting the VPM](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    6. [Starting the MT system from
-Emacs](../MtSetup#Starting_the_MT_system_from_Emacs)
+Emacs](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
 
 ## Two ways to set up an MT system
 
@@ -36,7 +36,7 @@ machinery](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) to parse 
 transfer grammar (which is separate from the parsing grammar), and
 generate with a third grammar. This method is used by larger MT
 projects, like the [LOGON](http://www.emmtee.net/) project and the [Jaen
-Japanese-English MT project](../MtJaen). Instructions on how to set up
+Japanese-English MT project](https://blog.inductorsoftware.com/docsproto/garage/MtJaen). Instructions on how to set up
 translation systems with both methods are provided below.
 
 # The Rephrasing method
@@ -232,7 +232,7 @@ Given the following lines in the .emacs file ...
      (fi:inferior-lisp-newline)
      (set-input-method "japanese-anthy"))
 
-... the [MtJaen](../MtJaen) system can be started from emacs. Open two
+... the [MtJaen](https://blog.inductorsoftware.com/docsproto/garage/MtJaen) system can be started from emacs. Open two
 Emacs windows. In the first, type:
 
     Alt-x jaen

@@ -1,15 +1,15 @@
-{% raw %}This is the timetable for the [DELPH-IN 2008 Summit](../KyotoTop).
+{% raw %}This is the timetable for the [DELPH-IN 2008 Summit](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop).
 
 ### Jul-31
 
 - Short Site Updates (5-15 min: presenter bracketed)
   - *[UW](http://faculty.washington.edu/ebender/papers/DELPHIN08-UWupdate.pdf)*
-([EmilyBender](../EmilyBender))
-  - *Saarbruecken (UdS & DFKI)* ([HansUszkoreit](../HansUszkoreit))
-  - *NICT* ([FrancisBond](../FrancisBond))
+([EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender))
+  - *Saarbruecken (UdS & DFKI)* ([HansUszkoreit](https://blog.inductorsoftware.com/docsproto/summits/HansUszkoreit))
+  - *NICT* ([FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond))
   - *NTT* ([SanaeFujita](/SanaeFujita))
   - *Paris* ([FredericLaurens](/FredericLaurens))
-  - *Oslo* ([StephanOepen](../StephanOepen))
+  - *Oslo* ([StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen))
 - Agenda Setting
 
 **Lunch**
@@ -18,13 +18,13 @@
   - *[Robust, Efficient Incremental (Near) Deterministic Parsing
 with
 HPSG](http://www.coli.uni-saarland.de/~yzhang/files/kyoto-zhang.pdf)*
-([YiZhang](../YiZhang))
+([YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang))
   - *[Input Preprocessing with Chart
 Mapping](http://www.dfki.de/~padolphs/DELPH-IN/Chart-Mapping.pdf)*
-([PeterAdolphs](../PeterAdolphs))
+([PeterAdolphs](https://blog.inductorsoftware.com/docsproto/summits/PeterAdolphs))
   - *[Increasing Robustness and Efficiency of the PET
 Parser](http://www.coli.uni-saarland.de/~rdrid/robust-pet.pdf)*
-([RebeccaDridan](../RebeccaDridan))
+([RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan))
 - Grammars
   - *[Update: The Grammar
 Matrix](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202008%20-%20Matrix%20Update.pdf)*
@@ -39,10 +39,10 @@ More detailed updates.
 
 - Grammars
   - *Next steps in simplifying DELPH-IN MRS representations*
-([DanFlickinger](../DanFlickinger))
+([DanFlickinger](https://blog.inductorsoftware.com/docsproto/summits/DanFlickinger))
   - *[Radical non-configurationality and semantic
 composition](http://faculty.washington.edu/ebender/papers/Bender-DELPHIN08.pdf)*
-([EmilyBender](../EmilyBender))
+([EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender))
   - *The Spanish Resource Grammar*
 ([MontserratMarimon](/MontserratMarimon))
 - Applications
@@ -53,18 +53,18 @@ Translation](http://www.coli.uni-saarland.de/~micha/delphinsummit/delphin2008.pd
 ([MichaJellinghaus](/MichaJellinghaus))
 - Lexical Acquistion and immature grammars
   - *Multilingual lexeme translation: Using mature lexicons to
-bootstrap immature ones* ([MichaelGoodman](../MichaelGoodman))
+bootstrap immature ones* ([MichaelGoodman](https://blog.inductorsoftware.com/docsproto/summits/MichaelGoodman))
   - *Deep Lexical Acquisition for German Grammar*
-([ValiaKordoni](../ValiaKordoni) & [YiZhang](../YiZhang))
+([ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni) & [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang))
   - *Mining Multiword Expressions for Enhancing Performance of
-Parsing with the ERG* ([ValiaKordoni](../ValiaKordoni))
+Parsing with the ERG* ([ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni))
 
 **Lunch** - [Nagashi Sﾅ肯 en](http://en.wikipedia.org/wiki/Sﾅ肯en)
 
-- Student Session ([RebeccaDridan](../RebeccaDridan))
+- Student Session ([RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan))
   
   - Brief presentations of student research within DELPH-IN.
-- Robustness ([FrancisBond](../FrancisBond))
+- Robustness ([FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond))
   
   - supertagger, unknown words, ...
 - Shared Parsing task ([EricNichols](/EricNichols))
@@ -73,21 +73,21 @@ Parsing with the ERG* ([ValiaKordoni](../ValiaKordoni))
 
 ### Aug-02
 
-- (R)MRS comparison tools and issues ([RebeccaDridan](../RebeccaDridan))
+- (R)MRS comparison tools and issues ([RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan))
 - [(Some) Applications of
 MRS](http://www.coli.uni-saarland.de/~rwang/slides/delphin2008Wang.pdf):
-([RuiWang](/RuiWang) & [YiZhang](../YiZhang))
+([RuiWang](/RuiWang) & [YiZhang](https://blog.inductorsoftware.com/docsproto/summits/YiZhang))
   
   - *Recognizing/Generating Textual Entailment*
   - *Semantic Role Labeling*
 - [Means for increasing intra-DELPH-IN collaboration and
-communication](../KyotoSchedule_InterDelphinNotes)
+communication](https://blog.inductorsoftware.com/docsproto/summits/KyotoSchedule_InterDelphinNotes)
   
-  - Paper exchange ([EmilyBender](../EmilyBender),
-[RebeccaDridan](../RebeccaDridan))
+  - Paper exchange ([EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender),
+[RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan))
   - Use of mailing lists, wiki
   - Wiki space for sharing auxiliary scripts
-([RebeccaDridan](../RebeccaDridan), [EmilyBender](../EmilyBender))
+([RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan), [EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender))
 
 **Lunch**
 
@@ -117,7 +117,7 @@ Representations* ([YusukeMiyao](/YusukeMiyao))
   - Assessment of current visibility of DELPH-IN in the field and
 means for increasing it
   - Taking stock of this year's summit, suggestions for the future
-(8/2010: notes incorporated in [SummitTop](../SummitTop))
+(8/2010: notes incorporated in [SummitTop](https://blog.inductorsoftware.com/docsproto/summits/SummitTop))
 - Breakout sessions
 
 **19:00** Jazz concert in the park!

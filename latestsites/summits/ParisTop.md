@@ -33,23 +33,23 @@ Both locations are indicated on this
 
 ## Photos
 
-[Photos from the Summit](../ParisPhotos)
+[Photos from the Summit](https://blog.inductorsoftware.com/docsproto/summits/ParisPhotos)
 
 ## Schedule
 
 |          |                                     |
 |----------|-------------------------------------|
-| 2-3 July | [In-group plenary](../ParisSchedule)   |
-| 4-5 July | [Sub-group meetings](../ParisSchedule) |
-| 6 July   | [Outward-facing plenary](../ParisOpen) |
+| 2-3 July | [In-group plenary](https://blog.inductorsoftware.com/docsproto/summits/ParisSchedule)   |
+| 4-5 July | [Sub-group meetings](https://blog.inductorsoftware.com/docsproto/summits/ParisSchedule) |
+| 6 July   | [Outward-facing plenary](https://blog.inductorsoftware.com/docsproto/summits/ParisOpen) |
 
 ## Previous and Future Meetings
 
-- 2011 7th Summit: [Seattle](../SuquamishTop)
+- 2011 7th Summit: [Seattle](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop)
 - 2010 6th Summit: Paris (co-located with HPSG)
-- 2009 5th Summit: [Barcelona](../BarcelonaTop)
-- 2008 4th Summit: [Kyoto](../KyotoTop) (co-located with HPSG)
-- 2007 3rd Summit: [Berlin](../BerlinTop)
-- 2006 2nd Summit: [Fefor](../FeforTop)
-- 2005 1st Summit: [Lisbon](../LisbonTop) (co-located with HPSG)
+- 2009 5th Summit: [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop)
+- 2008 4th Summit: [Kyoto](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop) (co-located with HPSG)
+- 2007 3rd Summit: [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
+- 2006 2nd Summit: [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
+- 2005 1st Summit: [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) (co-located with HPSG)
 <update date omitted for speed>{% endraw %}

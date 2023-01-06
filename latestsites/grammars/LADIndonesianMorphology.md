@@ -21,10 +21,10 @@ complexity with voice and valence changing/applicatives.
 
 The following topics will be presented:
 
-1. [Intransitive and transitive verbs](../LADIndonesianMorphology#verbs)
-2. [Voice](../LADIndonesianMorphology#voice)
-3. [Applicative constructions](../LADIndonesianMorphology#applicative-constructions)
-4. [Reduplication](../LADIndonesianMorphology#reduplication)
+1. [Intransitive and transitive verbs](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)
+2. [Voice](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)
+3. [Applicative constructions](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)
+4. [Reduplication](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)
 
 ## Verbs
 
@@ -43,7 +43,7 @@ night"
 changes) or morphology process occur. [Moeljadi, Bond and Song
 (2015)](http://aclweb.org/anthology/W/W15/W15-3302.pdf) discuss the
 implementation of this morphology process in INDRA. See also [Transitive
-verbs in INDRA](../LADIndonesianMorphology#transitive-verbs).
+verbs in INDRA](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology).
 
 If the base is other than verb, either *ber-* or *meN-* must occur to
 derive verb. Here also there is sometimes no predictability about which
@@ -162,7 +162,7 @@ scissors"
 
 Because the verbs appear without affixes in imperative constructions and
 in passive constructions with a pronoun agent (see
-[Voice](../LADIndonesianMorphology#voice)), only the bases are listed in
+[Voice](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)), only the bases are listed in
 the lexicon. For example, for the verb base *kejar* "chase",
 
     kejar := tr-verb-lex &

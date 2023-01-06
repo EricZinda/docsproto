@@ -1,9 +1,9 @@
 {% raw %}# Overview
 
 This page describes the transfer rule formalism used for, among other
-things, [machine translation](../LogonTop),
-[paraphrasing](../RmrsParaphrasing), and (pre-processing in)
-[generation](../LkbGeneration). This page presents user-supplied
+things, [machine translation](https://blog.inductorsoftware.com/docsproto/tools/LogonTop),
+[paraphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing), and (pre-processing in)
+[generation](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration). This page presents user-supplied
 information, hence may be inaccurate in some details, or not necessarily
 reflect use patterns anticipated by the original LOGON developers. The
 functionality documented here may still change. This page was initiated
@@ -20,26 +20,26 @@ Report \# 2007-11.
 
 Contents
 
-1. [Overview](../LogonTransfer#Overview)
-2. [Table of Contents](../LogonTransfer#Table_of_Contents)
-3. [Basic Structure](../LogonTransfer#Basic_Structure)
+1. [Overview](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+2. [Table of Contents](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+3. [Basic Structure](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
 4. [An example transfer rule (from
-JaEn)](../LogonTransfer#An_example_transfer_rule_.28from_JaEn.29)
-   1. [Regular Expressions](../LogonTransfer#Regular_Expressions)
-   2. [Optional Rules](../LogonTransfer#Optional_Rules)
-5. [Interlingua](../LogonTransfer#Interlingua)
-6. [Trouble Shooting](../LogonTransfer#Trouble_Shooting)
-   1. [To ensure something is a noun](../LogonTransfer#To_ensure_something_is_a_noun)
-   2. [Limit the effort in transfer](../LogonTransfer#Limit_the_effort_in_transfer)
-7. [Loading the rules](../LogonTransfer#Loading_the_rules)
-8. [Setting up an MT system](../LogonTransfer#Setting_up_an_MT_system)
-9. [Other uses](../LogonTransfer#Other_uses)
-   1. [Clean Up (post parsing)](../LogonTransfer#Clean_Up_.28post_parsing.29)
-   2. [Fix Up (pre-generation)](../LogonTransfer#Fix_Up_.28pre-generation.29)
+JaEn)](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   1. [Regular Expressions](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   2. [Optional Rules](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+5. [Interlingua](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+6. [Trouble Shooting](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   1. [To ensure something is a noun](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   2. [Limit the effort in transfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+7. [Loading the rules](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+8. [Setting up an MT system](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+9. [Other uses](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   1. [Clean Up (post parsing)](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   2. [Fix Up (pre-generation)](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
    3. [Trigger Rules (for
-generation)](../LogonTransfer#Trigger_Rules_.28for_generation.29)
-   4. [Idiom Rules](../LogonTransfer#Idiom_Rules)
-   5. [Paraphrase Rules](../LogonTransfer#Paraphrase_Rules)
+generation)](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   4. [Idiom Rules](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
+   5. [Paraphrase Rules](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)
 
 # Basic Structure
 
@@ -181,7 +181,7 @@ this:
 
 The most likely cause is types in the MRS being read that aren't in the
 feature structure of the grammar used to generate. You need to transfer
-them or delete them using the [VPM](../RmrsVpm).
+them or delete them using the [VPM](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm).
 
 ## To ensure something is a noun
 
@@ -261,7 +261,7 @@ An optional transfer grammar invoked to massage MRSes generator inputs
 prior to lexical lookup. It must be
 
 - ambiguity-free, i.e. must not contain optional rules. See
-[LkbGeneration](../LkbGeneration) for more on generation.
+[LkbGeneration](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration) for more on generation.
 
 <!-- -->
 
@@ -296,5 +296,5 @@ Only supported by the LKB, not ACE (2017-03-15).
 
 Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
-[RmrsParaphrasing](../RmrsParaphrasing))
+[RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing))
 <update date omitted for speed>{% endraw %}

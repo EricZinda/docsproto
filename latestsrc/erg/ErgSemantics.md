@@ -11,14 +11,14 @@ They include not only semantic roles, but also information such as the
 distinction between scopal and non-scopal arguments as well as semantic
 representations of linguistically complex phenomena including time and
 date expressions, conditionals, comparatives, and [many
-others](../ErgSemantics_Inventory). ERS can be expressed in various ways,
+others](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory). ERS can be expressed in various ways,
 including a logic-based syntax using predicates and arguments,
 dependency graphs, and dependency triples. In addition, the
 representations can be obtained either from existing large collections
 (of close to 1.5 million tokens) of manually curated annotations over
 texts from a wide variety of genres (the [Redwoods
 Treebank](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop); Oepen, et al., 2004; Flickinger, et al., 2012)
-or by [processing new text](../ErgProcessing) with the ERG and its
+or by [processing new text](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) with the ERG and its
 associated parsing and parse selection algorithms.
 
 As an example, below is the ERS for the sentence *The garden dog tried
@@ -35,28 +35,28 @@ particular set of higher-level considerations. ERG meaning
 representations take the form of underspecified logical forms, adopting
 the framework of Minimal Recursion Semantics (MRS; [Copestake, et al.,
 2005)](https://www.cl.cam.ac.uk/~aac10/papers/mrs.pdf) The
-[ErgSemantics/Essence](../ErgSemantics_Essence) page provides a high-level
+[ErgSemantics/Essence](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Essence) page provides a high-level
 characterization of what you can expect to find in these meaning
 representations. An informal introduction to MRS, its use by the ERG,
 and basic terminology is provided by the
-[ErgSemantics/Basics](../ErgSemantics_Basics) page. Beyond these more
-technical foundations, the [ErgSemantics/Design](../ErgSemantics_Design)
+[ErgSemantics/Basics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Basics) page. Beyond these more
+technical foundations, the [ErgSemantics/Design](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Design)
 pages discuss broader linguistic design decisions, for example
 assumptions regarding quantification, or the notion of eventualities
 assumed. For first-time consumers of ERG meaning representations, these
 pages aim to establish the ‘scaffolding’ for the core of the ESD pages,
 viz. a collection of pages that present individual semantic phenomena.
 The ‘table of contents’ for this collection is available through the
-[ErgSemantics/Inventory](../ErgSemantics_Inventory) page, and the process
+[ErgSemantics/Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) page, and the process
 we followed for selecting phenomena to document is described on the
-[ErgSemantics/Discovery](../ErgSemantics_Discovery) page. We recommend
+[ErgSemantics/Discovery](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Discovery) page. We recommend
 starting the exploration of these resources via the following links:
 
-- [High-Level Characterization](../ErgSemantics_Essence)
-- [Semi-Formal and Terminological Basics](../ErgSemantics_Basics)
-- [High-Level Linguistic Design Decisions](../ErgSemantics_Design)
-- [Inventory of Individual Phenomena](../ErgSemantics_Inventory)
-- [Discovery of Phenomena](../ErgSemantics_Discovery)
+- [High-Level Characterization](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Essence)
+- [Semi-Formal and Terminological Basics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Basics)
+- [High-Level Linguistic Design Decisions](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Design)
+- [Inventory of Individual Phenomena](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory)
+- [Discovery of Phenomena](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Discovery)
 # Semantic Fingerprints
 
 In capturing semantic phenomena on most ESD pages (and hopefully also in
@@ -120,7 +120,7 @@ Bond, Ann Copestake, and Alex Lascarides.
 
 # How to Cite this Work
 
-- [How to Cite this Work](../ErgSemantics_HowToCite)
+- [How to Cite this Work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
 # References
 

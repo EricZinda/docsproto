@@ -1,6 +1,6 @@
 {% raw %}# Experimental Features in ACE
 
-This page describes some features that have been added to [ACE](../AceTop)
+This page describes some features that have been added to [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
 over the course of minor revisions that are not well-tested enough to be
 considered robust, but may be of interest to some users.
 
@@ -21,9 +21,9 @@ Note that the PET implementation of UT has a lot more bells and whistles
 than the ACE implementation, at least for now (various tag types,
 whitelists...).
 
-- The [LogonTransfer](../LogonTransfer) system -- as of version 0.9.11,
+- The [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) system -- as of version 0.9.11,
 ACE has relatively complete support for this (see
-[AceTransfer](../AceTransfer) for implementation details). To translate
+[AceTransfer](https://blog.inductorsoftware.com/docsproto/tools/AceTransfer) for implementation details). To translate
 from Japanese to English, for example:
 
 <!-- -->

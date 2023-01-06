@@ -7,13 +7,13 @@ requires [FireFox](http://www.mozilla.org/en-US/firefox/fx/) and
 running the tests.
 
 Below are instructions for
-[running](../MatrixCustomizationWebTesting#running-web-tests),
-[adding](../MatrixCustomizationWebTesting#adding-web-tests),
-[maintaining](../MatrixCustomizationWebTesting#maintaining-web-tests), and
-[removing](../MatrixCustomizationWebTesting#removing-web-tests) web tests, information
-for understanding the [output](../MatrixCustomizationWebTesting#understanding-web-test-output),
+[running](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting),
+[adding](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting),
+[maintaining](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting), and
+[removing](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting) web tests, information
+for understanding the [output](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting),
 and a description of the [directory
-structure](../MatrixCustomizationWebTesting#directory-structure) of web test
+structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationWebTesting) of web test
 modules.
 
 # Running Web Tests

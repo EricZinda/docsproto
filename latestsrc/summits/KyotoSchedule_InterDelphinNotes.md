@@ -1,101 +1,101 @@
 {% raw %}Notes on the session on intra-DELPH-IN communication and collaboration
-(Kyoto, August 3, 2008. Scribe: [ScottDrellishak](../ScottDrellishak))
+(Kyoto, August 3, 2008. Scribe: [ScottDrellishak](https://blog.inductorsoftware.com/docsproto/summits/ScottDrellishak))
 
 ## Executive summary (added afterwards by EmilyBender)
 
 - All are encouraged to make more active use of the mailing lists,
 including \`developers' for bug reports/questions, as well as
-actively using the wiki. ([BartCramer](../BartCramer) volunteered to do
+actively using the wiki. ([BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer) volunteered to do
 general wiki-maintenance/moderation.)
 - All are encouraged to send pre-submission papers to DELPH-IN members
 at other sites for comments. (And if someone asks you to read a
 paper, please reply with "yes" or "no" quickly, either answer being
 socially acceptable).
-- [RebeccaDridan](../RebeccaDridan) will make a tools section of the wiki
+- [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan) will make a tools section of the wiki
 for sharing scripts that aren't ready for distribution through the
 repository but possibly useful to other DELPH-IN members.
 
 ## Detailed notes
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - Everyone should put up their slides
 - Most communication is on the mailing lists -- use them! Not much
 traffic recently. Helpful to hear what other people are asking.
 - You can subscribe to wiki pages.
 
-[BartCramer](../BartCramer):
+[BartCramer](https://blog.inductorsoftware.com/docsproto/summits/BartCramer):
 
 - There are many mailing lists, but not much traffic. Should they be
 merged?
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - What was the rationale behind the different lists?
 
-[StephanOepen](../StephanOepen):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
 
 - "participants" is people we invite to DELPH-IN activities.
 - Others are purpose-driven, anybody can create them as needed.
 - "developers" is the one for software/grammar engineering.
 - We like to use "developers" for bug reports, feature requests, etc
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - Maybe we should merge "lkb" with "developers"?
 
-[StephanOepen](../StephanOepen):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
 
 - But "lkb" is one of the higher-traffic lists and includes
 non-DELPH-IN people, e.g. students in grammar engineering classes.
 
-[ValiaKordoni](../ValiaKordoni):
+[ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni):
 
 - All communication should be done through the wiki using
 messageboards.
 
-[StephanOepen](../StephanOepen) and [RebeccaDridan](../RebeccaDridan):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen) and [RebeccaDridan](https://blog.inductorsoftware.com/docsproto/summits/RebeccaDridan):
 
 - There are archives for the mailing lists:
 [http://lists.dephi-in.net/](http://lists.delph-in.net/) -- through
 they're not very convenient to search
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - It's dangerous to have too many lists.
 - "developers" sounds like you have to be actively developing.
 
-[StephanOepen](../StephanOepen):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
 
 - Everyone in the room should subscribe to "developers"
 
-[ValiaKordoni](../ValiaKordoni):
+[ValiaKordoni](https://blog.inductorsoftware.com/docsproto/summits/ValiaKordoni):
 
 - If you get too much email, it's easy to be overwhelmed.
 
-[StephanOepen](../StephanOepen):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
 
 - But an annoucement in everyone's mailbox means everyone gets
 informed.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - But back to communication. How do we communicate what we're working
 on?
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - Matrix list should be extended to general grammar questions.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - Yes, it could be recast as a "delph-in grammars" list?
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - The important stuff should go on the wiki, but not \*everything\*.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - Check the "recent changes" page on the wiki to know what's going on.
 - Alternate suggestions: Rebecca (and somebody else whose name the
@@ -108,11 +108,11 @@ having a structure for sharing papers for review.
 - People can say, "I'm willing to read papers (though not EVERY paper
 you send me)", then be sent pre-submission papers to read.
 
-[HansUszkoreit](../HansUszkoreit):
+[HansUszkoreit](https://blog.inductorsoftware.com/docsproto/summits/HansUszkoreit):
 
 - Send them to people who are closely related, but not co-authors.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - DELPH-IN wants to increase its visibility at conferences (like at
 ACL this year). Paper reviews will improve paper quality.
@@ -123,47 +123,47 @@ immediately.
 
 - Students could review as well.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - Even the opinion of a reader from another sub-field is valuable.
 
-[StephanOepen](../StephanOepen):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
 
 - Maybe distributing submissions to everyone in DELPH-IN is a good
 idea. DELPH-IN does not have strict rules on communication.
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - But be careful, sending a submission to the "participants" list
 means none of the the recipients can review it if they're reviewing
 for the conference/journal.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - Maybe by announcing the title and where it's being submitted allows
 recipients to recuse themselves.
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - Is there any easy way to collect papers into a DELPH-IN bibliography
 (like Stefan Müller's HPSG bibliography)?
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - Upload them to the wiki, including a .bib.
 
-[StephanOepen](../StephanOepen):
+[StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen):
 
 - Is this library of papers for internal or external consumption? For
 external purposes, maybe we only need links to institutions'
 publications pages.
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - It's better to have it in one stable place rather than have it fly
 by in email.
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - An up-to-date official external list on the web site would be nice.
 - Unless someone is willing to volunteer to be Stefan Müller, it might
@@ -177,11 +177,11 @@ them up on the wiki so other DELPH-IN people can use them. Put a
 link on the wiki to wherever you have it stored (you can't upload
 files to the wiki). There's no reason to duplicate effort!
 
-[EmilyBender](../EmilyBender):
+[EmilyBender](https://blog.inductorsoftware.com/docsproto/summits/EmilyBender):
 
 - After you put up your tool, send an announcement to "developers".
 
-[FrancisBond](../FrancisBond):
+[FrancisBond](https://blog.inductorsoftware.com/docsproto/summits/FrancisBond):
 
 - The criterion for whether a tool is useful to publicize is whether
 you've shared it with a single other person. Once you do, put it up

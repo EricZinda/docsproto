@@ -35,20 +35,20 @@ as the grammar. Currently you have to segment the sentences yourself.
 
 ## Processing
 
-- [ZhongAce](../ZhongAce)
-- [ZhongPreprocessing](../ZhongPreprocessing)
-- [ZhongYYMode](../ZhongYYMode)
+- [ZhongAce](https://blog.inductorsoftware.com/docsproto/grammars/ZhongAce)
+- [ZhongPreprocessing](https://blog.inductorsoftware.com/docsproto/grammars/ZhongPreprocessing)
+- [ZhongYYMode](https://blog.inductorsoftware.com/docsproto/grammars/ZhongYYMode)
 
 ## Translating
 
-- [ZhongGeneration](../ZhongGeneration)
-- [ZhongTranslation](../ZhongTranslation)
+- [ZhongGeneration](https://blog.inductorsoftware.com/docsproto/grammars/ZhongGeneration)
+- [ZhongTranslation](https://blog.inductorsoftware.com/docsproto/grammars/ZhongTranslation)
 
 ## Testing
 
-- [ZhongRegressionTest](../ZhongRegressionTest)
-- [ZhongCoverage](../ZhongCoverage)
-- [ZhongHistory](../ZhongHistory)
+- [ZhongRegressionTest](https://blog.inductorsoftware.com/docsproto/grammars/ZhongRegressionTest)
+- [ZhongCoverage](https://blog.inductorsoftware.com/docsproto/grammars/ZhongCoverage)
+- [ZhongHistory](https://blog.inductorsoftware.com/docsproto/grammars/ZhongHistory)
 
 ## MRS Testsuites
 

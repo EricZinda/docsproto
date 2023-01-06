@@ -16,7 +16,7 @@ unpacking, retro-active packing, pro-active packing and equi-active
 packing. Note that for selective unpacking to take effect,
 -nsolutions&gt;0 is required, as well as a Maximum Entropy Model,
 usually set in pet/common.pet. Read
-[PetSelectiveUnpacking](../PetSelectiveUnpacking) for more details.
+[PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/PetSelectiveUnpacking) for more details.
 
 \`-sm=filename\`  
 - specifies the filename of the [MaxEnt](/MaxEnt) model, overriding

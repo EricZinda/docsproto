@@ -12,17 +12,17 @@ In the following, we assume that **generation treebanks** for the LOGON
 JHPSTG and Rondane corpora are available. For the HandOn release (of
 November 2008) of the LOGON system, these treebanks can be installed
 into the lingo/redwoods/ directory from SVN; see the
-[LogonExtras](../LogonExtras) page for instructions on how to install
+[LogonExtras](https://blog.inductorsoftware.com/docsproto/tools/LogonExtras) page for instructions on how to install
 add-on LOGON components. However, in principle, these instructions
 should be applicable to other Redwoods-style treebanks. Information on
 how to create a generation treebank is given on the
-[LogonProcessing/BatchGeneration](../LogonProcessing_BatchGeneration) page.
+[LogonProcessing/BatchGeneration](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchGeneration) page.
 
 The examples below assume that the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) database root is pointing to
 the collection of LOGON treebanks, i.e. the directory
 lingo/redwoods/tsdb/home/, which is one of the SVN add-on components
-(see the [LogonExtras](../LogonExtras) page). We further assume that the
+(see the [LogonExtras](https://blog.inductorsoftware.com/docsproto/tools/LogonExtras) page). We further assume that the
 complete LOGON system and correct grammar (the ERG from
 lingo/redwoods/erg/, in our case) are already loaded.
 
@@ -150,7 +150,7 @@ Applying the model trained above to the generation treebank rondane.g:
 # Automating Experiments
 
 Once the LOGON ERG add-on treebanks are installed (see the
-[LogonExtras](../LogonExtras) page), there are several Lisp parameter files
+[LogonExtras](https://blog.inductorsoftware.com/docsproto/tools/LogonExtras) page), there are several Lisp parameter files
 and a shell script (called lingo/redwoods/load) to run the steps above
 from the command line. For example, the creation of a feature cache (on
 the default generation treebank jhpstg.g) can be automated as follows:

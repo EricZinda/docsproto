@@ -2,7 +2,7 @@
 
 - Guide to the Idiom Machinery: [JacyIdiom](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
 - Discussion at Saarland Summit:
-[SaarlandMweDiscussion](../SaarlandMweDiscussion)
+[SaarlandMweDiscussion](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMweDiscussion)
 - [[VirtualMwe]]
 - [[SingaporeRepresentingMwes]]
 

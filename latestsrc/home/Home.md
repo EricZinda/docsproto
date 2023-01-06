@@ -70,7 +70,7 @@ resources to the common task.
 
 ### Tools and Architectures
 
-- [DelphinWelcome](../DelphinWelcome)
+- [DelphinWelcome](https://blog.inductorsoftware.com/docsproto/home/DelphinWelcome)
 - [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop): Lexical Knowledge Builder --- Grammar Engineering
 Environment
 - [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\]: Competence and Performance Profiler
@@ -123,7 +123,7 @@ specifications)
 
 ### Applications
 
-- [DELPH-IN Applications](../DelphinApplications)
+- [DELPH-IN Applications](https://blog.inductorsoftware.com/docsproto/home/DelphinApplications)
 
 ## About this Site
 
@@ -144,8 +144,8 @@ pages over time.
 Some information from the earlier years of DELPH-IN collaborations is
 preserved on the following pages, for historical interest:
 
-- [Earlier DELPH-IN news items](../DelphinNews)
-- [Links to earlier DELPH-IN-related projects](../OldProjects)
+- [Earlier DELPH-IN news items](https://blog.inductorsoftware.com/docsproto/home/DelphinNews)
+- [Links to earlier DELPH-IN-related projects](https://blog.inductorsoftware.com/docsproto/home/OldProjects)
 - [Earlier overviews of the DELPH-IN consortium](https://blog.inductorsoftware.com/docsproto/garage/OldOverviews)
 
 ## Further Information

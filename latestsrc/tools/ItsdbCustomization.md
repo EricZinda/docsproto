@@ -1,5 +1,5 @@
 {% raw %}Some ways of customizing [\[incr
-tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](../ItsdbTop))
+tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop))
 
 # Page Status
 

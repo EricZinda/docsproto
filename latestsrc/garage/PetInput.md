@@ -5,7 +5,7 @@ parser cheap, viz. 'pure' textual input and the so-called YY mode for
 lattice-based input. These two modes of giving input to the parser are
 the most traditional ones, but in more recent developments, additional
 XML-based input formats have been developed. Please see the
-[PetInputFsc](../PetInputFsc) page for an alternate, lattice-based XML
+[PetInputFsc](https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
 This page was predominantly authored by [StephanOepen](https://blog.inductorsoftware.com/docsproto/summits/StephanOepen),
@@ -421,7 +421,7 @@ sentence-final punctuation).
 
 The LKB includes a simple, finite-state tool to prepare textual input
 for parsing with PET, the *Regular Expression Pre-Processor* (REPP);
-please see the [ReppTop](../ReppTop) page for details. The ERG includes a
+please see the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page for details. The ERG includes a
 set of string-level REPP rules to normalize inputs and determine
 (initial) tokenization; as one of its outputs formats, REPP supports the
 YY 2.0 conventions.
@@ -471,8 +471,8 @@ recommend to adapt external providers of YY input to PET to the richer
 YY 2.0 format.
 
 Alternate, lattice-based input modes are available using XML markup to
-encode the parser input. See the [PetInputFsc](../PetInputFsc),
-[PetInputChart](../PetInputChart) and [SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop) pages for the
+encode the parser input. See the [PetInputFsc](https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc),
+[PetInputChart](https://blog.inductorsoftware.com/docsproto/garage/PetInputChart) and [SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
 <update date omitted for speed>{% endraw %}

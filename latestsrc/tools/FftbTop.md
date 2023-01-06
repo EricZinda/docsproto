@@ -4,8 +4,8 @@ FFTB is a tool for treebanking with DELPH-IN grammars that allows the
 selection of an arbitrary tree from the "full forest" without
 enumerating/unpacking all analyses in the parsing stage. FFTB is partly
 integrated with \[incr tsdb()\] and the LOGON tree; for details on using
-FFTB through that toolchain, please see [LogonAnswer](../LogonAnswer).
-There is a [wishlist](../FftbWishlist).
+FFTB through that toolchain, please see [LogonAnswer](https://blog.inductorsoftware.com/docsproto/tools/LogonAnswer).
+There is a [wishlist](https://blog.inductorsoftware.com/docsproto/tools/FftbWishlist).
 
 The canonical citation is:
 

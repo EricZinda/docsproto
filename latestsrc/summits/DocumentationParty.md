@@ -33,11 +33,11 @@ ERG generation -- some lisp code at the end provides some patching up
 like sentence-initial capitalization.
 
 Ask Montse about generation and also the question on
-[ChartMappingAppliedNotes](../ChartMappingAppliedNotes) from Paris meeting.
+[ChartMappingAppliedNotes](https://blog.inductorsoftware.com/docsproto/summits/ChartMappingAppliedNotes) from Paris meeting.
 
 Montse's reply: SRG not currently used for generation but
 [FreeLing](/FreeLing) **is** bidirectional. Regarding the question on
-[ChartMappingAppliedNotes](../ChartMappingAppliedNotes):
+[ChartMappingAppliedNotes](https://blog.inductorsoftware.com/docsproto/summits/ChartMappingAppliedNotes):
 
 "Actually I had several reasons:
 

@@ -1,4 +1,4 @@
-{% raw %}See also [LogonUbuntu](../LogonUbuntu).
+{% raw %}See also [LogonUbuntu](https://blog.inductorsoftware.com/docsproto/tools/LogonUbuntu).
 
 # Debian 8 -&gt; 9: libpng12
 
