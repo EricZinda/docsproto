@@ -8,9 +8,6 @@
       ]}
     ],
     "howto": [
-      {"Section": "Developer Tutorial", "Pages": [
-        {"Page": "NorsourceTop", "SrcDir": "perplexity", "SrcFile": "NorsourceTop.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md", "FileMissing": true}
-      ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "StephanOepen", "SrcDir": "docswiki", "SrcFile": "StephanOepen.md", "BaseReferrer": "howto/DelphinTutorial.md", "Referrer": "howto/DelphinTutorial.md", "FileMissing": true}
       ]},
