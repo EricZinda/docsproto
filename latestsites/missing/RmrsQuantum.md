@@ -1,0 +1,14 @@
+{% raw %}Notes on Quantum (née Schrödinger) MRS: places where we want access to
+both the original and literal meaning (or componential and combined
+meaning).
+
+Various discussions at: [Tomar](https://blog.inductorsoftware.com/docsproto/summits/TomarQuantumMRS),
+[Bellingham](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs).
+
+*[A review of the Hispanic paradox: time to spill the
+beans?](http://err.ersjournals.com/content/23/134/439.full)* in this
+title, they are revealing the secret that beans are good for you.
+
+[Ob Cat
+Pic](https://aheinakroon.files.wordpress.com/2011/12/schrdi1.jpg?w=336&h=252).
+<update date omitted for speed>{% endraw %}
