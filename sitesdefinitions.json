@@ -1195,7 +1195,7 @@
         {"Page": "ZhongPhenomena.md", "SrcDir": "docswiki", "SrcFile": "ZhongPhenomena.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongPhenomena.md"},
         {"Page": "ZhongToDoList.md", "SrcDir": "docswiki", "SrcFile": "ZhongToDoList.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongToDoList.md"}
       ]}
-    ]},
+    ],
     "garage": [
       {"Section": "Grammar Tools", "Pages": [
         {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
