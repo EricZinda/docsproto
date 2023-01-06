@@ -133,7 +133,7 @@ further documentation and up-to-date information on aspects of
 installation or usage of DELPH-IN technology. Mostly to enforce some
 discipline among ourselves, these pages require that users are
 registered to the wiki server in order to obtain write access. Please
-create a [WikiName](https://blog.inductorsoftware.com/docsproto/summits/WikiName) for yourself, which may require obtaining
+create a WikiName for yourself, which may require obtaining
 a ‘textcha’ to protect against wiki spam; once registered at the wiki,
 to request write access please contact info *at* delph-in.net. The
 developers do hope that active DELPH-IN users will contribute to these
