@@ -208,6 +208,7 @@ def parse_relative_link(SrcFile, link):
         if split_url.path == "":
             file_name, _ = os.path.splitext(SrcFile)
             path = file_name
+
         else:
             path = split_url.path
 
@@ -216,16 +217,18 @@ def parse_relative_link(SrcFile, link):
             # Leading "/" means it is "root relative" and would be interpreted as "http://www.github.com" + <path> when run in the wiki
             # Thus: treat it as an absolute path
             return None, None, None
+
         elif len(path_parts) > 1:
             # More than one segment won't work in the wiki so treat it as absolute
             return None, None, None
 
         return path, split_url.query, split_url.fragment
+
     else:
         return None, None, None
 
 
-# if a source markdown file has a link like: [this is a link](targetaddress)
+# If a source markdown file has a link like: [this is a link](targetaddress)
 # "targetaddress" might be included in the same site OR it might be in a different site
 # This function returns the right link that should be embedded in the markdown file
 #
@@ -241,7 +244,7 @@ def parse_relative_link(SrcFile, link):
 # - "targetaddress": it *might* be a markdown file, or it could be something else
 #
 # Since the markdown file lives in a repository, and the link is *relative*
-# the md link must be to a file in that repository
+# the md link must be to a file in *that* same repository
 #
 # That gives us enough information to determine the identity of the file, and with that we can determine what
 # the link *should be* in the new site layout.
@@ -250,6 +253,7 @@ def parse_relative_link(SrcFile, link):
 def get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link):
     src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
+    src_file_path = os.path.dirname(file_definition["SrcFile"])
 
     path, query, fragment = parse_relative_link(file_definition["SrcFile"], original_link)
     if path is not None:
@@ -264,17 +268,27 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
             target_file = path
 
         # Now we know the identity of the file since it is a relative link and we have a filename AND a src_dir
+        # for the link. However, the file that is linking to it might be in a subdirectory, so we need to add that as well
+        # since it is relative
+        target_path_and_file = os.path.join(src_file_path, target_file)
+
         # See if we can find that definition
-        # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
-        # which is thus one level too deep
-        relative_resolved_link = "../" + path + ("?" + query if query != "" else "") + ("#" + fragment if fragment != "" else "")
         for definition in pages_definitions:
-            if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_file:
-                # Found it! Now return a relative link if it is in the same site or a full link if not
-                if definition["Site"] == src_site:
-                    return "relative_success", None, target_file, relative_resolved_link
-                else:
-                    return "relative_success", None, target_file, definition["AbsoluteLink"]
+            if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_path_and_file:
+                # Found it! just return a full link to it
+                return "relative_success", None, target_file, definition["AbsoluteLink"]
+                # if definition["Site"] == src_site:
+                #     # It is in the same site
+                #     # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
+                #     # which is thus one level too deep
+                #     relative_resolved_link = "../" + path + ("?" + query if query != "" else "") + (
+                #         "#" + fragment if fragment != "" else "")
+                #
+                #     return "relative_success", None, target_file, relative_resolved_link
+                #
+                # else:
+                #     # Not in the same site
+                #     return "relative_success", None, target_file, definition["AbsoluteLink"]
 
         # If if it doesn't exist, return the proper link that *would have* accessed it
         return "relative_broken", "Wiki page doesn't exist", target_file, ""
@@ -357,7 +371,12 @@ def add_addresses_for_definition(root_address, definition):
     file_name, file_extension = os.path.splitext(definition["SrcFile"])
     definition["RootRelativeLink"] = file_name
     site_root = posixpath.join(root_address, definition["Site"])
-    definition["AbsoluteLink"] = posixpath.join(site_root, file_name)
+    if "DstFile" in definition:
+        dst_path_and_file = os.path.splitext(definition["DstFile"])[0]
+    else:
+        dst_path_and_file = file_name
+
+    definition["AbsoluteLink"] = posixpath.join(site_root, dst_path_and_file)
 
 
 def add_addresses_for_definitions(root_address, pages_definitions):
