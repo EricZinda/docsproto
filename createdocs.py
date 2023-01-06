@@ -43,7 +43,7 @@ def propose_link_recursive(input_content_root, proposals, repositories_definitio
                 # The link file is a file in the project, scan it
                 with open(link_file_path, "r") as txtFile:
                     result = parser.parse(txtFile.read())
-                    further_links = convert_child(repositories_definitions, pages_definitions, link_file_definition, result)
+                    further_links, _ = convert_child(repositories_definitions, pages_definitions, link_file_definition, result)
                     for further_link in further_links:
                         if further_link["LinkState"] == "relative_broken":
                             # Now check the further links
@@ -96,7 +96,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
                 raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
 
             # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
-            links = convert_child(repositories_definitions, pages_definitions, file_definition, result)
+            links, _ = convert_child(repositories_definitions, pages_definitions, file_definition, result)
 
         dst_path_only = os.path.dirname(dst_file_path)
         os.makedirs(dst_path_only, exist_ok=True)
@@ -160,11 +160,29 @@ def convert_child(repositories_definitions, pages_definitions, file_definition, 
         link_data["LinkStateMessage"] = message
         links.append(link_data)
 
-    elif hasattr(node, "children"):
-        for child in node.children:
-            links += convert_child(repositories_definitions, pages_definitions, file_definition, child)
+        # If the destination for the link is empty, don't keep it as a link, just make it normal text
+        return links, node.dest != ""
 
-    return links
+    elif hasattr(node, "children"):
+        if isinstance(node.children, list):
+            new_children = []
+            for child in node.children:
+                more_links, keep_link = convert_child(repositories_definitions, pages_definitions, file_definition, child)
+                if keep_link:
+                    new_children.append(child)
+                else:
+                    if hasattr(child, "children") and len(child.children) == 1:
+                        new_children.append(child.children[0])
+                    else:
+                        # This is not the structure we were expecting so don't mess
+                        # with it
+                        new_children.append(child)
+
+                links += more_links
+
+            node.children = new_children
+
+    return links, True
 
 
 # In the Github wiki:
@@ -259,7 +277,7 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
                     return "relative_success", None, target_file, definition["AbsoluteLink"]
 
         # If if it doesn't exist, return the proper link that *would have* accessed it
-        return "relative_broken", "Wiki page doesn't exist", target_file, relative_resolved_link
+        return "relative_broken", "Wiki page doesn't exist", target_file, ""
 
     else:
         # non-relative link
@@ -285,13 +303,13 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
                 # StateOfLink, The file the link is targeting (if any), rerouted link that should be used in new site
                 wiki_link_state, _, wiki_targeted_file, new_link = get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link[1:])
                 if wiki_link_state == "relative_success":
-                    return "absolute_broken_but_valid_misformed_wiki_link", result["Message"], wiki_targeted_file, original_link
+                    return "absolute_broken_but_valid_misformed_wiki_link", result["Message"], wiki_targeted_file, ""
                 else:
                     # just a plain old broken link
-                    return "absolute_broken", result["Message"], None, original_link
+                    return "absolute_broken", result["Message"], None, ""
             else:
                 # just a plain old broken link
-                return "absolute_broken", result["Message"], None, original_link
+                return "absolute_broken", result["Message"], None, ""
 
 
 # See if a url would have been valid in the original wiki

@@ -869,7 +869,6 @@
       ]},
       {"Section": "<todo>", "Pages": [
         {"Page": "WikiName", "SrcDir": "docswiki", "SrcFile": "WikiName.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md", "FileMissing": true},
-        {"Page": "OldOverviews", "SrcDir": "docswiki", "SrcFile": "OldOverviews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"},
         {"Page": "ScottDrellishak", "SrcDir": "docswiki", "SrcFile": "ScottDrellishak.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "FrancisBond", "SrcDir": "docswiki", "SrcFile": "FrancisBond.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
@@ -988,7 +987,8 @@
         {"Page": "DeepBank", "SrcDir": "docswiki", "SrcFile": "DeepBank.md"},
         {"Page": "DeepBank 1.0", "SrcDir": "docswiki", "SrcFile": "DeepBank_OneZero.md", "Referrer": "concept/DeepBank.md"},
         {"Page": "WikiWoods", "SrcDir": "docswiki", "SrcFile": "WikiWoods.md", "Referrer": "concept/RedwoodsTop.md"},
-        {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"}
+        {"Page": "SC corpus", "SrcDir": "docswiki", "SrcFile": "SemCor.md", "Referrer": "concept/RedwoodsTop.md"},
+        {"Page": "Old DELPH-IN Overview", "SrcDir": "docswiki", "SrcFile": "OldOverviews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Grammars (experimental)", "Pages": [
         {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
