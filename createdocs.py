@@ -488,7 +488,7 @@ def propose_broken_links(all_links, pages_definitions, input_content_root, uniqu
                                            {"TargetFile": file, "SrcDir": site_item[0], "Site": "<not included or linked to>", "Section": "<none>", "LinkTarget": file, "SrcFile": file},
                                            False)
 
-    return proposals
+    return dict(sorted(proposals.items()))
 
 
 def log_json_items_to_file(relative_path, list):
