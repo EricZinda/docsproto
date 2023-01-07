@@ -268,4 +268,5 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
         if isinstance(x_what_value, (File, Folder)):
             yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleCommands.md)]{% endraw %}

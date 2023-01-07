@@ -1,2 +1,3 @@
 {% raw %}Test.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-06-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DiderotAlgebraDevelopment/_edit)]{% endraw %}

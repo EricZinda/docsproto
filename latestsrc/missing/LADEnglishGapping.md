@@ -362,4 +362,5 @@ twice then onces at the *and* and once for filling. Maybe buys you some
 precision.
 
 David: You only need one *and*.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-05-03 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/LADEnglishGapping/_edit)]{% endraw %}

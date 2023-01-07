@@ -404,4 +404,8 @@ def RefineNLGWithPredication(mrs, variable, predication, nlg_data):
 There isn't a file in the system
 ```
 Very nice!
-<update date omitted for speed>{% endraw %}
+
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoFinishingErrors.md)]{% endraw %}

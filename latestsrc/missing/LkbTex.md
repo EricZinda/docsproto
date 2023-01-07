@@ -42,4 +42,5 @@ describing systems.
 
 e.g.:  \\newcommand{\\itsdb}{\\textsf{\\lbrack incr tsdb()\\rbrack}} 
 for [\[incr tsdb()\]](http://www.delph-in.net/itsdb).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbTex/_edit)]{% endraw %}

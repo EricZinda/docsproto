@@ -33,7 +33,7 @@ Germany)
 University, Norway)
 - [DelphinLinkoeping](https://blog.inductorsoftware.com/docsproto/missing/DelphinLinkoeping): Natural Language Processing
 Laboratory (Linköping University, Sweden)
-- DelphinLisbon: NLX Group (University of Lisbon,
+- [DelphinLisbon](https://blog.inductorsoftware.com/docsproto/grammars/DelphinLisbon): NLX Group (University of Lisbon,
 Portugal)
 - [DelphinSeoul](https://blog.inductorsoftware.com/docsproto/missing/DelphinSeoul): School of English (Kyung Hee
 University, Korea)
@@ -64,4 +64,5 @@ pages they want to change (or create). The standing committee expects to
 send out instructions on how to augment participant summaries sometime
 in April (yes, 2005), but in case you are eager to fill in information
 on your group, please contact info *at* delph-in.net.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-05-24 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/DelphinParticipants/_edit)]{% endraw %}

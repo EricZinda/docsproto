@@ -85,4 +85,5 @@ relation whose handle could serve as the other argument of the
 - [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_NonAdverbialClausalModifiers/_edit)]{% endraw %}

@@ -24,6 +24,8 @@ toc:
         url: "/AgreeTop/"
       - title: "Chart Mapping"
         url: "/ChartMapping/"
+      - title: "Chart Mapping Setup"
+        url: "/ChartMappingSetup/"
       - title: "CLIMB"
         url: "/ClimbTop/"
       - title: "CLIMB for Germanic languages"

@@ -29,4 +29,5 @@ structure and recursively removes all information that "Expand type"
 would have added (this is the redundant information). Unfilling an
 expanded type, for instance, returns a feature structure displaying only
 the type name (note though that it is not always that simple).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2005-03-25 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LkbUnfilling/_edit)]{% endraw %}

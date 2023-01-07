@@ -8,4 +8,8 @@ The tutorial will use the [DELPH-IN English Resource Grammar (ERG)](https://blog
 Python was chosen as a simple, popular, open-source language available on many platforms. However, the examples and approach shown here could be implemented in any language. There is not much code in the core solver and associated helper functions that would need to be translated. The overwhelming majority of code will be in the implementation of the terms you implement for your own domain.
 
 It is designed to be read in order, but the most important background is in the first two sections, [The Minimal Recursion Semantics (MRS) Format](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS) and [Building Well-Formed MRS Trees](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree). These should definitely be read before moving on to the rest of the topics. 
-<update date omitted for speed>{% endraw %}
+
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoOverview.md)]{% endraw %}

@@ -18,7 +18,7 @@ main:
   - title: "Missing"
     url: https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus
 toc:
-  - title: "Missing Wiki Pages"
+  - title: "Wiki Pages not Included in Docs"
     children:
       - title: "AclAnthologyCorpus.md"
         url: "/AclAnthologyCorpus/"
@@ -458,10 +458,6 @@ toc:
         url: "/SaabruckenTop/"
       - title: "SeiteFinden.md"
         url: "/SeiteFinden/"
-      - title: "SideSt(c3b8)rrelse.md"
-        url: "/SideSt(c3b8)rrelse/"
-      - title: "Singapore(20)Top.md"
-        url: "/Singapore(20)Top/"
       - title: "SiteNavigation.md"
         url: "/SiteNavigation/"
       - title: "SiteNavigering.md"
@@ -566,8 +562,6 @@ toc:
         url: "/TemporalPros/"
       - title: "TgcsTop.md"
         url: "/TgcsTop/"
-      - title: "TheAbbey_Chrysalis2014PpAttachment(5d).md"
-        url: "/TheAbbey_Chrysalis2014PpAttachment(5d)/"
       - title: "TitanItsdb.md"
         url: "/TitanItsdb/"
       - title: "TitanPackaging.md"

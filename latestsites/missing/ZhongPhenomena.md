@@ -7,4 +7,5 @@
 # shi ... de constructions
 
 # classifiers
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-08-27 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongPhenomena/_edit)]{% endraw %}

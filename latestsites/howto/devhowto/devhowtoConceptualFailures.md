@@ -164,4 +164,8 @@ a file
 ```
 
 You can see that, until predication #2 has succeeded (`_file_n_of`), `x1` is described as "a thing" since nothing has restricted it yet. Once it gets to predication #3 it now holds "a file". We could easily beef up our code so that after `_large_a_1` it is described as "a large file" and we will, eventually.
-<update date omitted for speed>{% endraw %}
+
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoConceptualFailures.md)]{% endraw %}

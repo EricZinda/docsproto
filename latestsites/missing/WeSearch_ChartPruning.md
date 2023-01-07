@@ -36,4 +36,5 @@ One subtlety in these numbers is the treatment of items which had
 results, but also had a "timed out" error. Since we are interested in
 getting the exact right result, these items are treated as if they
 produced zero readings when calculating coverage etc.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-01-16 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/WeSearch_ChartPruning/_edit)]{% endraw %}

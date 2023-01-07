@@ -44,7 +44,7 @@ is a verb.
 # Documentation
 
 - Tutorial slides: <http://www.delph-in.net/2009/cm.pdf>
-- Practical notes
+- [Practical notes](https://blog.inductorsoftware.com/docsproto/garage/ChartMappingSetup)
 
 # Publications
 
@@ -64,4 +64,5 @@ Evaluation (LREC-2008). Marrakech, Morocco. ﻿
       year = {2008},
       keywords = {chart mapping, hpsg, preprocessing}
     }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-14 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)]{% endraw %}

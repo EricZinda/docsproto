@@ -17,4 +17,5 @@ Please add times **in UTC**:
 |Alexandre Rademaker|July 26-30 and July 23 workshop | hopefully in person, 8:00-17:00 UTC ||
 | ... | ... | ... |
 | "Virtual-Tarou" | July 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-16 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

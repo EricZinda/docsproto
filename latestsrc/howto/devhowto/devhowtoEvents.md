@@ -103,4 +103,8 @@ def large_a_1(state, e_introduced, x_target):
 `very_x_deg` adds a "DegreeMultiplier" to the event dictionary of its target, and also pays attention to *its own* introduced event in case someone added one there.  This allows "very very very very..." to work.
 
 `large_a_1` now uses the same logic to determine how much to modify its default notion of "large". Obviously, what "large", "very", etc mean are very domain specific, but this illustrates the concept.
-<update date omitted for speed>{% endraw %}
+
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoEvents.md)]{% endraw %}

@@ -86,4 +86,5 @@ hierarchy, skeleton, expansion, or \`source.
 # Experimental Outgoing Commands
 
 - genchart *integer* explore *list*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-02 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/LuiProtocol/_edit)]{% endraw %}
