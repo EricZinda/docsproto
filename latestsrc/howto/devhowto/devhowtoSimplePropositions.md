@@ -101,4 +101,7 @@ Yes, that is true.
 
 In the [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleQuestions), we'll respond to questions.
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimplePropositions.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimplePropositions.md)]{% endraw %}

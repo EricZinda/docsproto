@@ -409,4 +409,7 @@ More information on `INDEX` is described in the section on [sentence force](http
 
 The [next topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) walks through the rules of creating "well-formed MRS trees", and is the last big chunk of conceptual background needed before we start building the system.
 
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
 Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoMRS.md)]{% endraw %}

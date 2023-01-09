@@ -166,4 +166,7 @@ Note that an instance of the `State` object is created by calling it like a func
 
 Now you've seen some of the basic Python you'll see throughout the tutorial and we've defined the core `State` class we'll use in our predications.  Next, we'll [implement a predication](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication).
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPyhonBasics.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPyhonBasics.md)]{% endraw %}

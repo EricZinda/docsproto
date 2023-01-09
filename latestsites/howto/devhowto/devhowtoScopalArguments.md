@@ -70,4 +70,7 @@ At this point we have a fully functional evaluator, but there are a few things s
 
 The [next topics](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents) will tackle these issues.
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoScopalArguments.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoScopalArguments.md)]{% endraw %}

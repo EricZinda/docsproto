@@ -132,4 +132,7 @@ Even with this optimization, the example MRS for something like "a large file is
 
 There are other ways to solve an MRS for the variables that make it true. For example, some MRS's can be converted to classic logic statements "There exists an x such that..." and various solvers can be used to solve for the variables in it: TODO: List references here. In addition, there are many uses for MRS that don't involve solving for the variables at all TODO: List references here. However, the SLD approach is a relatively straightforward approach that can be used for constrained worlds and allows us to explain the various aspects of DELPH-IN without getting too deep in complicated mathematics or logic.
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPredicationContract.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPredicationContract.md)]{% endraw %}

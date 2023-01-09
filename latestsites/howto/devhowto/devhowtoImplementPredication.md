@@ -59,4 +59,7 @@ Now we have one predication that implements the predication contract: it will it
 
 Since we are going to start calling more than one predication and eventually deal with a whole MRS resolved tree, we'll need a way to convert the MRS text representation into a set of Python function calls. That way, we won't have to manually convert them to Python like the above example. The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython) describes how to do that.
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoImplementPredication.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoImplementPredication.md)]{% endraw %}

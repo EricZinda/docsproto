@@ -269,4 +269,7 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
             yield state.ApplyOperations([DeleteOperation(x_what_value)])
 ```
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleCommands.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleCommands.md)]{% endraw %}

@@ -65,4 +65,7 @@ With that, if we run "A file is large" through the system with no large files, w
 
 The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures) will improve it to say "A file is not large" which is more clear.
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoReportingAFailure.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoReportingAFailure.md)]{% endraw %}

@@ -55,4 +55,7 @@ Note that these are all answers the user would expect if the statement worked.  
 
 In the [next few sections](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimplePropositions) we'll work through how to handle the different types of sentences when they succeed. We'll end by talking about how to handle failures.
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSentenceForce.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSentenceForce.md)]{% endraw %}

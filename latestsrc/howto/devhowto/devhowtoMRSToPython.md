@@ -92,4 +92,7 @@ def Example2():
 
 The `Example2()` function shows how we can use all of this to call a predication using our new text-based format. With this in place, we can tackle more complicated groups of predications such as conjunctions in the [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions).
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoMRSToPython.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoMRSToPython.md)]{% endraw %}
