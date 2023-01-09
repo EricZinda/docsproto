@@ -70,6 +70,8 @@ toc:
         url: "/devhowto/devhowtoGenerateMRSAndTrees/"
       - title: "Choosing the 'Right' Tree"
         url: "/devhowto/devhowtoWhichParseAndTree/"
+      - title: "Unknown Words and Synonyms"
+        url: "/devhowto/devhowtoUnknownWords/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"
       - title: "B. Parsing Predications"

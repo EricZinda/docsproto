@@ -249,6 +249,8 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/" class="active">Choosing the 'Right' Tree</a></li>
           
+            <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/">Unknown Words and Synonyms</a></li>
+          
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
@@ -362,13 +364,6 @@
         # Loop through each MRS and each tree that can be
         # generated from it...
         for mrs in self.mrss_from_phrase(user_input):
-            unknown_words = self.unknown_words(mrs)
-            if len(unknown_words) &gt; 0:
-                if best_failure is None:
-                    best_failure = response_function(None, [], [0, ["unknownWords", unknown_words]])
-
-                continue
-
             for tree in self.trees_from_mrs(mrs):
                 # Collect all the solutions for this tree against the
                 # current world state
