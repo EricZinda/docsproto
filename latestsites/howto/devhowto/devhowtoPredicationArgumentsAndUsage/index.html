@@ -328,26 +328,26 @@
       <section class="page__content e-content" itemprop="text">
         
         <h1 id="different-predication-signatures-and-usage">Different Predication Signatures and Usage</h1>
-<p>In a grammar for a language in DELPH-IN, the same predication name might get called with different sets of arguments depending on how it is used. For example, the verb “delete” (<code class="language-plaintext highlighter-rouge">_delete_v_1</code>) can be called with these signatures:</p>
+<p>In DELPH-IN, the same predication name might get called with different sets of arguments depending on how it is used. For example, the English verb “delete” (<code class="language-plaintext highlighter-rouge">_delete_v_1</code>) can be called with these signatures:</p>
 
 <ul>
-  <li>“Delete a file” (includes an implied “actor” (“you”) as the first <code class="language-plaintext highlighter-rouge">x</code> argument): <code class="language-plaintext highlighter-rouge">_delete_v_1(e, x, x)</code></li>
-  <li>“a file is deleted” (no implied actor, so the first <code class="language-plaintext highlighter-rouge">x</code> argument is <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">dropped</a> and becomes an <code class="language-plaintext highlighter-rouge">i</code>): <code class="language-plaintext highlighter-rouge">_delete_v_1(e, i, x)</code></li>
+  <li>“Delete a file” includes an implied “actor” (“you”) as the first <code class="language-plaintext highlighter-rouge">x</code> argument: <code class="language-plaintext highlighter-rouge">_delete_v_1(e, x, x)</code></li>
+  <li>“a file is deleted” has no implied actor, so the first <code class="language-plaintext highlighter-rouge">x</code> argument is <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">dropped</a> and becomes an <code class="language-plaintext highlighter-rouge">i</code>: <code class="language-plaintext highlighter-rouge">_delete_v_1(e, i, x)</code></li>
 </ul>
 
-<p>Furthermore, if you imagine the implementation of <code class="language-plaintext highlighter-rouge">delete_v_1</code> for each of those sentences, they are very different. The first needs to actually delete a file and the second should (perhaps) look through the trash to see if a file has been deleted. It seems like we should be smarter in our vocabulary to allow “overloading” and enable different functions to be written for the different cases.</p>
+<p>Furthermore, the implementation of <code class="language-plaintext highlighter-rouge">delete_v_1</code> for each of those phrases will be very different. The first needs to actually delete a file and the second should (perhaps) look through the trash to see if a file has been deleted. The <code class="language-plaintext highlighter-rouge">Vocabulary</code> class needs to remember the arguments used with a predication implementation i addition to the name and it needs to allow different functions to be written for the different cases.</p>
 
 <p>Let’s make two other changes to vocabulary tracking while we’re there:</p>
 <ol>
-  <li>Instead of just listing one <code class="language-plaintext highlighter-rouge">name</code>, we will allow a list of <code class="language-plaintext highlighter-rouge">names</code> so that synonyms can be easily implemented by just listing them</li>
-  <li>Support having alternative meanings for words that get tried automatically instead of having a big switch statement in a single function. We’ll do this by allowing more than one implementation of a predication and keeping them in an ordered list. When evaluating a <code class="language-plaintext highlighter-rouge">call()</code>, we’ll try each one and stop after one succeeds.</li>
+  <li>Instead of just listing one <code class="language-plaintext highlighter-rouge">name</code>, we will allow a list of <code class="language-plaintext highlighter-rouge">names</code> so that synonyms can be added</li>
+  <li>Support alternative meanings for words by keeping multiple implementations of a predication in an ordered list. When evaluating a <code class="language-plaintext highlighter-rouge">call()</code>, try each one and stop after one succeeds.</li>
 </ol>
 
-<p>We’ll do all this by recording both the argument signature (<code class="language-plaintext highlighter-rouge">exx</code> or <code class="language-plaintext highlighter-rouge">eix</code> in the example) and sentence force (<code class="language-plaintext highlighter-rouge">prop</code>, <code class="language-plaintext highlighter-rouge">ques</code>, or <code class="language-plaintext highlighter-rouge">comm</code>) in addition to the predication name for every vocabulary implementation. We’ll set it up so that all the information can be in the <code class="language-plaintext highlighter-rouge">Predication()</code> decoration <em>or</em> the user can just name things following a convention and we’ll derive it:</p>
+<p>So, for every vocabulary implementation, we’ll begin recording the argument signature (<code class="language-plaintext highlighter-rouge">exx</code> or <code class="language-plaintext highlighter-rouge">eix</code> in the example) and the target sentence force (<code class="language-plaintext highlighter-rouge">prop</code>, <code class="language-plaintext highlighter-rouge">ques</code>, or <code class="language-plaintext highlighter-rouge">comm</code>) in addition to the predication name. All the information can be in the <code class="language-plaintext highlighter-rouge">Predication()</code> declaration <em>or</em> the user can just name things following a convention and we’ll derive them:</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">names</code>: If not specified, the name of the function, minus any phrase_type specifiers (e.g. <code class="language-plaintext highlighter-rouge">_comm</code>) is used</li>
-  <li><code class="language-plaintext highlighter-rouge">arguments</code>: If not specified, the <code class="language-plaintext highlighter-rouge">e_</code>, <code class="language-plaintext highlighter-rouge">x_</code>, etc. on the argument names is used</li>
-  <li><code class="language-plaintext highlighter-rouge">phrase_types</code>: If not specified, any number of <code class="language-plaintext highlighter-rouge">_</code> separated types at the end is used. (e.g. <code class="language-plaintext highlighter-rouge">_comm</code> or <code class="language-plaintext highlighter-rouge">_comm_ques</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">names</code>: If not specified, use the name of the function minus any phrase_type specifiers (e.g. <code class="language-plaintext highlighter-rouge">_comm</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">arguments</code>: If not specified, use the <code class="language-plaintext highlighter-rouge">e_</code>, <code class="language-plaintext highlighter-rouge">x_</code>, etc. on the argument names</li>
+  <li><code class="language-plaintext highlighter-rouge">phrase_types</code>: If not specified, use any number of <code class="language-plaintext highlighter-rouge">_</code> separated types at the end (e.g. <code class="language-plaintext highlighter-rouge">_comm</code> or <code class="language-plaintext highlighter-rouge">_comm_ques</code>)</li>
 </ul>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Fully specified version
@@ -366,7 +366,7 @@ def _delete_v_1_comm(state, e_introduced, x_actor, x_what):
 
 <p>As <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython">before</a>, it isn’t important to understand how the <code class="language-plaintext highlighter-rouge">Predication()</code> decorator works, but if you’re interested: the final code is <a href="https://github.com/EricZinda/Perplexity/blob/main/perplexity/vocabulary.py">here</a>.</p>
 
-<p>With this, we can now try the same example and get a better error (well, better than crashing, at least):</p>
+<p>With this, we can now try the same example and get a better error (better than crashing, at least):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? a file is deleted
 I don't know the words: delete
@@ -397,7 +397,7 @@ I don't know the words: delete
 
 </code></pre></div></div>
 
-<p>Then, in the <code class="language-plaintext highlighter-rouge">unknown_words()</code> function that checks that we know all the words in a phrase, we can use <code class="language-plaintext highlighter-rouge">version_exists()</code> to record if we know other forms of the word:</p>
+<p>Then, in the <code class="language-plaintext highlighter-rouge">unknown_words()</code> function (the function that checks that we know all the words in a phrase), we can use <code class="language-plaintext highlighter-rouge">version_exists()</code> to record if we know other forms of the word:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def unknown_words(self, mrs):
         unknown_words = []
@@ -445,6 +445,7 @@ I don't know the words: delete
 </code></pre></div></div>
 
 <p>And now running <code class="language-plaintext highlighter-rouge">Example16()</code> gives a much better result:</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example16():
     ShowLogging("Pipeline")
 
