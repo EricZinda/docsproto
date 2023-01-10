@@ -29,5 +29,4 @@ $LOGONROOT/bin/dtm --grammar /usit/abel/u1/angelii/logon/lingo/erg --data <data>
 * Angelina Ivanova, Stephan Oepen, Lilja Øvrelid, and Dan Flickinger. [Who Did What to Whom? A Contrastive Study of Syntacto-Semantic Dependencies](http://aclweb.org/anthology/W/W12/W12-3602.pdf). Linguistic Annotation Workshop. Jeju, South Korea, 2012
 * Angelina Ivanova, Stephan Oepen, Rebecca Dridan, Dan Flickinger and Lilja Øvrelid. On Different Approaches to Syntactic Analysis Into Bi-Lexical Dependencies An Empirical Comparison of Direct, PCFG-Based, and HPSG-Based Parsers. The 13th International Conference on Parsing Technologies (IWPT). Nara, Japan, 2013
 * Angelina Ivanova, Stephan Oepen and Lilja Øvrelid. [Survey on parsing three dependency representations for English](http://aclweb.org/anthology//P/P13/P13-3005.pdf). ACL Student Research Workshop. Sofia, Bulgaria, 2013
-
-Last update: 2021-09-16 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ToolsTop_converter/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

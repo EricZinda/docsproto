@@ -24,5 +24,4 @@ that), but the treebank can be sent if the other side claims to have
 signed the license (which is just an electronic OK button). It can be
 done
 [here](http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERCorpus/license/)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/CheetahDataSets/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

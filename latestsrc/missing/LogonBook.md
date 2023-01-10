@@ -355,5 +355,4 @@ or \\JHPSTGt (the union of all test sets, including the known and
 unknown vocabulary sub-divisions).
 
 # Labels: Protecting the Global Name Space
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonBook/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -18,5 +18,4 @@ Natural Language Processing, pp. 356-364.
 Lui, M and Baldwin, T. (2012). "langid.py: An off-the-shelf language
 identification tool" in Proceedings of the 50th Annual Meeting of the
 Association for Computational Linguistics Demo Session, pp.25-30.
-
-Last update: 2014-03-12 by JonathonRead [[edit](https://github.com/delph-in/docs/wiki/WeSearch_DescriptiveStatistics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

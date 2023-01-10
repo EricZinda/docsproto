@@ -72,6 +72,8 @@ toc:
         url: "/devhowto/devhowtoWhichParseAndTree/"
       - title: "Unknown Words and Synonyms"
         url: "/devhowto/devhowtoUnknownWords/"
+      - title: "Predication Signatures and Usage"
+        url: "/devhowto/devhowtoPredicationArgumentsAndUsage/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"
       - title: "B. Parsing Predications"

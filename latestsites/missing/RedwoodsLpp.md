@@ -74,5 +74,4 @@ predate this study and have been developed in the context of
 - [Heuristics for treebanking with bridges](/delph-in/docs/wiki/ErgTreebankingBridges) (updated after sample adjudication with bridges)
 - [Lexical type database](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi) (not updated during this study; automatically generated from ERG 1214)
 - [Notes on lexical types](/delph-in/docs/wiki/ErgLeTypes) (not updated during this study)
-
-Last update: 2022-02-14 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/RedwoodsLpp/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

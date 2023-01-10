@@ -10,5 +10,4 @@ SubVersioN repository.
 # alternatives
 
 - git svn
-
-Last update: 2020-07-18 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/SvnMigration/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

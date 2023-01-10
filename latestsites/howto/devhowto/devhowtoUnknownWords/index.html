@@ -251,6 +251,8 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/" class="active">Unknown Words and Synonyms</a></li>
           
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage/">Predication Signatures and Usage</a></li>
+          
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
@@ -479,11 +481,28 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
 Done!  
 </code></pre></div></div>
 
+<p>Great! But what if the user types something like “a file is deleted”?</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? a file is deleted
+Traceback (most recent call last):
+  File "/Users/ericzinda/Enlistments/Perplexity/file_system_example/examples.py", line 348, in &lt;module&gt;
+    Example16()
+  File "/Users/ericzinda/Enlistments/Perplexity/file_system_example/examples.py", line 307, in Example16
+    user_interface.interact_once(respond_to_mrs_tree)
+  File "/Users/ericzinda/Enlistments/Perplexity/perplexity/user_interface.py", line 45, in interact_once
+    for item in self.execution_context.solve_mrs_tree(self.state, tree_info):
+    
+    ...
+    
+</code></pre></div></div>
+
+<p>The <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage">next section</a> will explore what is going on here and how we can fix it.</p>
+
 <blockquote>
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-09 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoUnknownWords.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

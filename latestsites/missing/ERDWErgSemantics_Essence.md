@@ -309,5 +309,4 @@ TBD
 
 # Further ERG Contents
 TBD
-
-Last update: 2022-07-13 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDWErgSemantics_Essence/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

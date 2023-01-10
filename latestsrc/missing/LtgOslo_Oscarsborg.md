@@ -72,5 +72,4 @@ including question time
 - reviewing and extending the ‘LTG Handbook’ (wiki pages; search for
 LtgOslo)
 - review of public web pages for the group: action plan for updates
-
-Last update: 2016-06-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Oscarsborg/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

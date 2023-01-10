@@ -115,5 +115,4 @@ half hour;
 committee deliberates in private on the grade for the oral
 presentation and then inform the candidate, including brief oral
 feedback on the thesis and presentation.
-
-Last update: 2017-06-02 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_MSc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

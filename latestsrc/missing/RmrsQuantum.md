@@ -11,5 +11,4 @@ title, they are revealing the secret that beans are good for you.
 
 [Ob Cat
 Pic](https://aheinakroon.files.wordpress.com/2011/12/schrdi1.jpg?w=336&h=252).
-
-Last update: 2015-03-22 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/RmrsQuantum/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
