@@ -33,7 +33,7 @@ toc:
       - title: "The Predication Contract"
         url: "/devhowto/devhowtoPredicationContract/"
       - title: "Python Primer and State"
-        url: "/devhowto/devhowtoPyhonBasics/"
+        url: "/devhowto/devhowtoPythonBasics/"
       - title: "Implementing a Predication"
         url: "/devhowto/devhowtoImplementPredication/"
       - title: "MRS To Python"

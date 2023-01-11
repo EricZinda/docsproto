@@ -211,7 +211,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Python Primer and State</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
           
@@ -346,9 +346,117 @@
         <p># 
 The <a href="../devhowto/devhowtoOverview">Developer How-To section</a> is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a> that allows Python functions to implement and evaluate DELPH-IN predications. In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
 
-<p>This section requires a working knowledge of</p>
+<p>This section assumes a working knowledge of The Minimal Recursion Semantics (MRS) Format and Building Well-Formed MRS Trees as well as a <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics/">basic understanding of Python</a>. Having read through the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview/">Developer Tutorial</a> would also be very helpful, but shouldn’t be required. We’ll link to the relevant sections as we discuss them.</p>
 
-<p>Let’s start with a review of the Perplexity framework. First, user commands like: “what files are in this folder?” get parsed into an MRS document by the ACE parser. All this is done by the <code class="language-plaintext highlighter-rouge">UserInterface</code></p>
+<p>Let’s start with a review of the Perplexity framework.</p>
+
+<h3 id="predications">Predications</h3>
+<p>First, the vocabulary for a particular application is written as Python functions that implement <a href="../devhowto/devhowtoPredicationContract">“The Predication Contract”</a> and are decorated with the <a href="../devhowto/devhowtoMRSToPython">Predication decorator</a> like this implementation of the DELPH-IN predication for “file” (which is <code class="language-plaintext highlighter-rouge">_file_n_of</code>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vocabulary = Vocabulary()
+
+@Predication(vocabulary, names=["_file_n_of"])
+def file_n_of(state, x, i):
+    x_value = state.get_variable(x)
+    if x_value is None:
+        iterator = state.all_individuals()
+    else:
+        iterator = [x_value]
+
+    for item in iterator:
+        if isinstance(item, File):
+            new_state = state.set_x(x, item)
+            yield new_state
+        else:
+            report_error(["xIsNotY", x, "file"])
+</code></pre></div></div>
+
+<p>Note that predications are recorded in whatever <code class="language-plaintext highlighter-rouge">Vocabulary</code> instance is passed to the <code class="language-plaintext highlighter-rouge">@Predication()</code> decorator. This <code class="language-plaintext highlighter-rouge">Vocabulary</code> instance is used to identify all the predications being used by the application.</p>
+
+<h3 id="state">State</h3>
+<p>State is represented by an object that can be built however works best for the application. Predications (like <code class="language-plaintext highlighter-rouge">file_n_of</code> above) are always passed the state object as their first argument and use whatever contract it implements to do whatever they need to do. The only parts of the application that care what methods the state object implement are the predications – the Perplexity framework doesn’t care.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">State</code> object we will be using is described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics">a previous section</a>. The important methods are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class State(object):
+    def __init__(self, objects):
+        ...
+    
+    # This is how predications will access the current value
+    # of MRS variables like "x1" and "e1"
+    def get_variable(self, variable_name):
+        ...
+    
+    # This is how predications will set the value
+    # of an "x" variable
+    def set_x(self, variable_name, item):
+</code></pre></div></div>
+
+<p>As described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics">that section</a>:</p>
+
+<blockquote>
+  <p>Note that the set_x() method does not actually “set” a value in the State object, it creates a copy of the current State object and sets the value in that. This ensures that variables set for a given State object are never changed (they are immutable).</p>
+</blockquote>
+
+<p>You can see this in how the <code class="language-plaintext highlighter-rouge">file_n_of()</code> predication yields the object <em>returned by</em> <code class="language-plaintext highlighter-rouge">state.set_x()</code> and not the <code class="language-plaintext highlighter-rouge">state</code> object it was passed:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["_file_n_of"])
+def file_n_of(state, x, i):
+    x_value = state.get_variable(x)
+    if x_value is None:
+        iterator = state.all_individuals()
+    else:
+        iterator = [x_value]
+
+    for item in iterator:
+        if isinstance(item, File):
+            new_state = state.set_x(x, item)
+            yield new_state
+        else:
+            report_error(["xIsNotY", x, "file"])
+</code></pre></div></div>
+
+<h3 id="objects">Objects</h3>
+<p>As described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics">a previous section</a>, our file system example will be representing objects as simple Python objects derived from <code class="language-plaintext highlighter-rouge">UniqueObject</code>, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Base class that objects derive from so that
+# objects have a unique ID that is preserved even
+# when they are copied
+class UniqueObject(object):
+    def __init__(self):
+        self.unique_id = uuid.uuid4()
+
+
+# Derive from UniqueObject and call
+# its __init__ method from this __init__
+# method so we get the unique ID created
+class Folder(UniqueObject):
+    def __init__(self, name, size=0):
+        super().__init__()
+        self.name = name
+        self.size = size
+
+    def __repr__(self):
+        return f"Folder(name={self.name}, size={self.size})"
+
+
+class File(UniqueObject):
+    def __init__(self, name, size=None):
+        super().__init__()
+        self.name = name
+        self.size = size
+
+    def __repr__(self):
+        return f"File(name={self.name}, size={self.size})"
+        
+...
+
+</code></pre></div></div>
+
+<p>Again, the Perplexity framework doesn’t care how the objects are represented – they could be simple JSON files, database objects, whatever. As long as the predications understand what to expect.</p>
+
+<h3 id="user-interaction">User Interaction</h3>
+<p>The <code class="language-plaintext highlighter-rouge">UserInterface</code> class takes user commands like: “What files are in this folder?” and parses them into an MRS document (using the ACE parser), converts them into Python function calls, and <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract/">“solves”</a> them.  All this happens inside the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWhichParseAndTree/"><code class="language-plaintext highlighter-rouge">UserInterface.interact_once()</code></a> method which gets passed the <code class="language-plaintext highlighter-rouge">State</code> to operate against and the <code class="language-plaintext highlighter-rouge">Vocabulary</code> to use, like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example16():
     state = State([Actor(name="Computer", person=2),
@@ -361,6 +469,66 @@ The <a href="../devhowto/devhowtoOverview">Developer How-To section</a> is a tut
     while True:
         user_interface.interact_once(respond_to_mrs_tree)
         print()
+        
+# Running Example16() yields:
+? a file is large
+Yes, that is true.
+
+? which file is large?
+File(name=file1.txt, size=2000000)
+
+? which folder is large?
+a folder is not large
+
+? delete a folder
+Done!
+</code></pre></div></div>
+
+<p>The responses given to the user are generated by the function passed to <code class="language-plaintext highlighter-rouge">interact_once()</code>, in this case: <code class="language-plaintext highlighter-rouge">respond_to_mrs_tree()</code>, described next.</p>
+
+<h3 id="user-responses">User Responses</h3>
+<p>After a user’s phrase is parsed into MRS by ACE, converted into Python and solved, the tree, solutions generated, and <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">‘best error’</a> get passed to whatever function was supplied to <code class="language-plaintext highlighter-rouge">interact_once()</code>, in this case: <code class="language-plaintext highlighter-rouge">respond_to_mrs_tree()</code>. <code class="language-plaintext highlighter-rouge">respond_to_mrs_tree()</code> decides how to respond by looking at <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce/">sentence force</a>. In our example, it uses a helper function called <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoRobustFailure/"><code class="language-plaintext highlighter-rouge">generate_message(tree_info, error_term)</code></a> (also shown below) to convert errors into text</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Implements the response for a given tree
+def respond_to_mrs_tree(tree, solutions, error):
+    ...
+    
+    sentence_force_type = sentence_force_from_tree_info(tree)
+    if sentence_force_type == "prop":
+        # This was a proposition, so the user only expects
+        # a confirmation or denial of what they said.
+        # The phrase was "true" if there was at least one answer
+        if len(solutions) &gt; 0:
+            return "Yes, that is true."
+        else:
+            message = generate_message(tree, error)
+            return message
+           
+    ...
+
+
+# Generates all the responses that predications can return when an error
+# occurs
+#
+# error_term is of the form: [index, error] where "error" is another
+# list like: ["name", arg1, arg2, ...]. The first item is the error
+# constant (i.e. its name). What the args mean depends on the error
+def generate_message(tree_info, error_term):
+    error_predicate_index = error_term[0]
+    error_arguments = error_term[1]
+    error_constant = error_arguments[0]
+
+    if error_constant == "xIsNotY":
+        arg1 = english_for_delphin_variable(error_predicate_index, error_arguments[1], tree_info)
+        arg2 = error_arguments[2]
+        return f"{arg1} is not {arg2}"
+
+    elif error_constant == "adjectiveDoesntApply":
+        arg1 = error_arguments[1]
+        arg2 = english_for_delphin_variable(error_predicate_index, error_arguments[2], tree_info)
+        return f"{arg2} is not {arg1}"
+        
+    ...
 </code></pre></div></div>
 
 <p>Last update: 2023-01-11 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabOverview.md">edit</a>]</p>

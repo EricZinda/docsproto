@@ -211,7 +211,7 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
           
-            <li><a href="/docsproto/howto/devhowto/devhowtoPyhonBasics/">Python Primer and State</a></li>
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
           
@@ -433,7 +433,7 @@ def pronoun_q(state, x, h_rstr, h_body):
 <h3 id="verbs-and-state-changes-delete_v_1">Verbs and State Changes: delete_v_1</h3>
 <p>The last new predication is <code class="language-plaintext highlighter-rouge">_delete_v_1</code>. <code class="language-plaintext highlighter-rouge">_delete_v_1</code> is the first “real” verb we’ve dealt with. The others so far have been “implied” “to be” verbs for a phrase like “a file is large”, and they don’t show up in the MRS as <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce">described previously</a>. A verb looks like every other predication: it has a name and arguments. And, because verbs can be modified by words like adverbs (e.g. “<em>permanently</em> delete the file”), it introduces an event to hang modifiers on. Like many verbs, the second argument represents the “actor”: the person or thing doing the deleting. The final argument is what to delete.</p>
 
-<p>Because our world state is simply a Python list of Python objects, the logic for deleting something is going to be trivial: remove the thing from the list. In fact, implementing what we are doing here in a real file system interface would be trivial as well: delete the file. However, we would have to decide what to do if a user command like “delete <em>every</em> file” fails to delete one of them for some reason. We’ll ignore that in our example and just remove the files from the <code class="language-plaintext highlighter-rouge">State</code> object’s list of state. We can safely do this, even though other predications may still be iterating over them, because our <code class="language-plaintext highlighter-rouge">State</code> object is immutable (<a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPyhonBasics">as described previously</a>) and we will keep it that way by returning a new <code class="language-plaintext highlighter-rouge">State</code> object when something is deleted, just like we already do for setting variables.</p>
+<p>Because our world state is simply a Python list of Python objects, the logic for deleting something is going to be trivial: remove the thing from the list. In fact, implementing what we are doing here in a real file system interface would be trivial as well: delete the file. However, we would have to decide what to do if a user command like “delete <em>every</em> file” fails to delete one of them for some reason. We’ll ignore that in our example and just remove the files from the <code class="language-plaintext highlighter-rouge">State</code> object’s list of state. We can safely do this, even though other predications may still be iterating over them, because our <code class="language-plaintext highlighter-rouge">State</code> object is immutable (<a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics">as described previously</a>) and we will keep it that way by returning a new <code class="language-plaintext highlighter-rouge">State</code> object when something is deleted, just like we already do for setting variables.</p>
 
 <p>We do have a problem, though. As you’ll see later, we will encounter phrases like “delete <em>every</em> file”, which have a different solution (i.e. state object) for each file that gets deleted. Each solution will have only <em>one</em> of the files deleted.  In order to end up with a single world state that has <em>all</em> the files deleted, we’ll have to merge them together at the end somehow.</p>
 
@@ -613,7 +613,7 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-06 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleCommands.md">edit</a>]</p>
+<p>Last update: 2023-01-11 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleCommands.md">edit</a>]</p>
 
         
       </section>
