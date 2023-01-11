@@ -58,4 +58,5 @@ and how do I debug it?]()
 whole parse. Why not?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-23 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqDiffList/_edit)]{% endraw %}

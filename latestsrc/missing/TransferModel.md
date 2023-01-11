@@ -110,4 +110,5 @@ For example, if the transfer model is in the same directory:
      (namestring (make-pathname
                   :directory (this-directory)
                   :name "mrs.binlm")))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/TransferModel/_edit)]{% endraw %}

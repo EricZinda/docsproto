@@ -72,4 +72,5 @@ method works for MRS diagrams as well. LUI mode can be used to debug
 grammars as well. For example after LUI is started, :l bay can be used
 to display lexical information of the intransitive verb "bay". More
 information can be found in the page AceLui
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-02-27 by TuanAnhLe [[edit](https://github.com/delph-in/docs/wiki/TuanAnhLe_GramEng4Dummies/_edit)]{% endraw %}

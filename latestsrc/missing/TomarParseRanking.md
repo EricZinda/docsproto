@@ -119,4 +119,5 @@ Bec: We can take intersection of everything that was parsed.
 
 Rebecca concludes that the way to go is to find a sentence length-biased
 evaluation metric.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-24 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/TomarParseRanking/_edit)]{% endraw %}

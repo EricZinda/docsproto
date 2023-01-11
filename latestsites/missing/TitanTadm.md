@@ -92,4 +92,5 @@ experimentation environment, i.e. find out how to best make use of
 parallel parameter estimation where each TADM job is part of a larger
 sequence of experiments, controlled from [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-09-24 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/TitanTadm/_edit)]{% endraw %}

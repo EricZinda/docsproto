@@ -68,4 +68,5 @@ analysis:
     </rmrs>
 
 For more sophisticated characterization support see LkbMaf.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbPreprocessing/_edit)]{% endraw %}

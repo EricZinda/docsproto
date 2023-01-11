@@ -60,4 +60,5 @@ The server should now start, and subsequent runs should not require the
 virtualenv.
 
 **[ToDo](/ToDo)** And what about our custom data types (oe; 14-jan-16)?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-01-14 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_LocalGalaxy/_edit)]{% endraw %}

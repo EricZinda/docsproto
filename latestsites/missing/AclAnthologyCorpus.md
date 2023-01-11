@@ -122,4 +122,5 @@ Schäfer](http://www.dfki.de/~uschaefer/).
 To receive updates on the ACL Anthology Corpus initiative, please
 subscribe to our (very low-traffic) [mailing
 list](http://lists.delph-in.net/mailman/listinfo/aac).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-12-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/AclAnthologyCorpus/_edit)]{% endraw %}

@@ -174,4 +174,5 @@ The entries "clean lm" and "dirty lm" in paths.txt should point to the
 n-gram models you wish to use.
 
 # Construction of WeScience 2.0
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-01-31 by LarsJørgenSolberg [[edit](https://github.com/delph-in/docs/wiki/WcbTop/_edit)]{% endraw %}

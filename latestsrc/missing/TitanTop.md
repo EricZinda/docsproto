@@ -113,4 +113,5 @@ information: (1) Packaging, Scripting, and Training
 (TitanTadm); (3) Profiling and Optimizing PET
 (TitanPet); and (4) MPI Support in [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) (TitanItsdb).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TitanTop/_edit)]{% endraw %}

@@ -237,4 +237,5 @@ Dependency and Avoidance of Commitment Can be the Right Way to Go.
 In *Proceedings of the 12th Meeting of the European Association for
 Computational Linguistics*, pp. 1–9. Athens, Greece.
 \[DanFlickinger\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-02-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem_Planning/_edit)]{% endraw %}

@@ -51,4 +51,5 @@ inventory page.
 
 - ErgSemantics Main Page
 - How to Cite this Work
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Discovery/_edit)]{% endraw %}

@@ -1093,10 +1093,6 @@
       ]}
     ],
     "howto": [
-      {"Section": "Developer Predication Tutorial", "Pages": [
-        {"Page": "devhowtoMRS", "SrcDir": "perplexity", "SrcFile": "devhowtoMRS.md", "BaseReferrer": "howto/docs/devvocab/devvocabOverview.md", "Referrer": "howto/docs/devvocab/devvocabOverview.md", "FileMissing": true},
-        {"Page": "devhowtoWellFormedTree", "SrcDir": "perplexity", "SrcFile": "devhowtoWellFormedTree.md", "BaseReferrer": "howto/docs/devvocab/devvocabOverview.md", "Referrer": "howto/docs/devvocab/devvocabOverview.md", "FileMissing": true}
-      ]},
       {"Section": "Developer Tutorial", "Pages": [
         {"Page": "docs/devhowto/devhowtoMRS", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoMRS.md", "BaseReferrer": "howto/docs/devhowto/devhowtoMRS.md", "Referrer": "howto/docs/devhowto/devhowtoMRS.md"},
         {"Page": "docs/devhowto/devhowtoPredicationContract", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPredicationContract.md", "BaseReferrer": "howto/docs/devhowto/devhowtoPredicationContract.md", "Referrer": "howto/docs/devhowto/devhowtoPredicationContract.md"},

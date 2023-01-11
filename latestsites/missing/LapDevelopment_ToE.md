@@ -142,4 +142,5 @@ Output from the sparql engine:
     | lap:repp_N27 | "Applause"   |
     | lap:repp_N28 | ")"          |
     -------------------------------
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-06-06 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_ToE/_edit)]{% endraw %}

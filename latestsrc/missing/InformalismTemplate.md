@@ -8,4 +8,5 @@ of the page. You can add multiple categories to a page.
 * * *
 
 CategoryInformalism
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-02 by JoshuaCrowgey [[edit](https://github.com/delph-in/docs/wiki/InformalismTemplate/_edit)]{% endraw %}

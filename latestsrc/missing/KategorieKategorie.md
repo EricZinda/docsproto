@@ -20,4 +20,5 @@ Case-sensitive searching
 Alle Kategorien beginnen mit dem Wort "Kategorie". Für weitere
 Informationen, siehe
 [FaqForCategories](http://c2.com/cgi/wiki?FaqForCategories "Wiki").
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KategorieKategorie/_edit)]{% endraw %}

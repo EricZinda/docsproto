@@ -114,4 +114,5 @@ MatrixDocTop.
 Grammar writers beginning new grammars and interested in systematic
 exploration of the analysis space are encouraged to explore the CLIMB
 methodology (see ClimbTop).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Grammars/_edit)]{% endraw %}

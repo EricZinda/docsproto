@@ -28,4 +28,5 @@ various research projects such as
 [WHITEBOARD](http://www.dfki.de/lt/redirect.cgi?whiteboard),
 [DeepThought](http://www.project-deepthought.net), and
 [QUETAL](http://quetal.dfki.de).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinDfki/_edit)]{% endraw %}

@@ -89,4 +89,5 @@ presentazione.](/AiutoSuSlideShow/900%20Ultimo%20ma%20non%20meno%20importante%3A
 - [AiutoSuPagineXml](/AiutoSuPagineXml)
 - [AiutoModello](/AiutoModello)
 - PaginaPersonaleModello
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SystemPagesInItalianGroup/_edit)]{% endraw %}

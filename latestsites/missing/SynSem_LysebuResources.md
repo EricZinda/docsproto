@@ -18,4 +18,5 @@ descriptions of phenomena:
 Wiki](http://typo.uni-konstanz.de:3001/projects/pargram/wiki)
 - DELPH-IN wiki, e.g. RmrsDiscussions,
 ErgSemantics
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-02-08 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SynSem_LysebuResources/_edit)]{% endraw %}
