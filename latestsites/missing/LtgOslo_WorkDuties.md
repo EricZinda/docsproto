@@ -106,5 +106,4 @@ should keep track of the actual hours used.
 # Candidate Non-Teaching Work Duties
 
 - web page maintenance
-
-Last update: 2016-06-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_WorkDuties/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

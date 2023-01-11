@@ -43,5 +43,4 @@ guide to tdl syntax.)](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqT
 should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTdlSyntax)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2013-06-26 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/GeFaqTypeAddendum/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -14,5 +14,4 @@ October 2004)
 
 There is a close cooperation with the [LT-lab](http://www.dfki.de/lt/)
 at [DFKI](http://www.dfki.de/).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinSaarland/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

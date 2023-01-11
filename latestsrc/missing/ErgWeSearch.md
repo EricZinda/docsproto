@@ -79,5 +79,4 @@ configuration of the web application interface
 - update MRS visualization to
 - end-to-end ICONS support: code import from LKB-FOS, EDS and DM, RDF
 and WQL extensions, visualization
-
-Last update: 2020-08-14 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgWeSearch/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

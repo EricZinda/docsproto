@@ -152,5 +152,4 @@ loc\_nonsp modifier?
 - [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
-
-Last update: 2022-07-13 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ERDW_ImplicitLocatives/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

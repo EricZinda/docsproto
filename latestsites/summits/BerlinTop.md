@@ -225,5 +225,4 @@ Proposed discussion topics:
 - [BerlinPhotos](https://blog.inductorsoftware.com/docsproto/summits/BerlinPhotos) (photos taken during the summit)
 - [EvaluationParCorp](https://blog.inductorsoftware.com/docsproto/summits/EvaluationParCorp) (continuation of discussion
 about parallel corpora)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

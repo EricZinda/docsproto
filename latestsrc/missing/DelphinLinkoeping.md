@@ -10,5 +10,4 @@ generation and translation technologies,and multimodal speech analysis.
 Current work relating to DELPH-IN concerns the development of parallel
 grammars for the Scandinavian languages and English based on the Matrix
 grammar.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinLinkoeping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

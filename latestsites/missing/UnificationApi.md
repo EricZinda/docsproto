@@ -26,5 +26,4 @@ structure is built by flop and loaded at grammar-load time.
 # Credit
 
 YiZhang provided the information about the Cheap libraries.
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/UnificationApi/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

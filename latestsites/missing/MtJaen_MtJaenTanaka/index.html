@@ -745,8 +745,6 @@
           
             <li><a href="/docsproto/missing/TomarValues/">TomarValues.md</a></li>
           
-            <li><a href="/docsproto/missing/ToolsTop_converter/">ToolsTop_converter.md</a></li>
-          
             <li><a href="/docsproto/missing/TransferModel/">TransferModel.md</a></li>
           
             <li><a href="/docsproto/missing/TreebankQueryIdeas/">TreebankQueryIdeas.md</a></li>
@@ -857,104 +855,18 @@
         
         <h1 id="tanaka-corpus-development-data">Tanaka Corpus Development Data</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Change</td>
-      <td>Date</td>
-      <td>Parse Coverage</td>
-      <td>Transfer Coverage</td>
-      <td>Generation Coverage</td>
-      <td>End-to-End Coverage</td>
-      <td>BLEU</td>
-      <td>Oracle</td>
-    </tr>
-    <tr>
-      <td>Initial run</td>
-      <td>06/05</td>
-      <td>2779 / 4500 (61.76%)</td>
-      <td>549 / 2779 (19.76%)</td>
-      <td>383 / 549 (69.76%)</td>
-      <td>383 / 4500 (8.51%)</td>
-      <td>0.1433</td>
-      <td>0.2234</td>
-    </tr>
-    <tr>
-      <td>Fixed _eba_c_rel etc.</td>
-      <td>06/07</td>
-      <td>2779 / 4500 (61.76%)</td>
-      <td>662 / 2779 (23.82%)</td>
-      <td>478 / 662 (<strong>72.21%</strong>)</td>
-      <td>478 / 4500 (10.62%)</td>
-      <td>0.1436</td>
-      <td>0.2302</td>
-    </tr>
-    <tr>
-      <td>Rel name debugging + handcrafted rules</td>
-      <td>06/09</td>
-      <td>2779 / 4500 (61.76%)</td>
-      <td>679 / 2779 (24.43%)</td>
-      <td>487 / 679 (71.72%)</td>
-      <td>487 / 4500 (10.82%)</td>
-      <td><strong>0.1470</strong></td>
-      <td><strong>0.2335</strong></td>
-    </tr>
-    <tr>
-      <td>Generic entries w/o にる,だける</td>
-      <td>06/14</td>
-      <td>3014 / 4500 (66.98%)</td>
-      <td>691 / 3014 (22.93%)</td>
-      <td>491 / 691 (71.06%)</td>
-      <td>491 / 4500 (10.91%)</td>
-      <td>0.1404</td>
-      <td>0.2300</td>
-    </tr>
-    <tr>
-      <td>New vn handling</td>
-      <td>06/14</td>
-      <td>3014 / 4500 (66.98%)</td>
-      <td>703 / 3014 (23.32%)</td>
-      <td>500 / 703 (71.12%)</td>
-      <td>500 / 4500 (11.11%)</td>
-      <td>0.1369</td>
-      <td>0.2264</td>
-    </tr>
-    <tr>
-      <td>Generic Edict rules</td>
-      <td>06/15</td>
-      <td>3014 / 4500 (66.98%)</td>
-      <td>722 / 3014 (23.95%)</td>
-      <td>520 / 722 (72.02%)</td>
-      <td>520 / 4500 (11.56%)</td>
-      <td>0.1337</td>
-      <td>0.2231</td>
-    </tr>
-    <tr>
-      <td>Removed _ga_5_rel,_iru_6_rel,_iru_7_rel; fixed conjunction_mtr</td>
-      <td>06/15</td>
-      <td>3068 / 4500 (<strong>68.18%</strong>)</td>
-      <td>777 / 3068 (<strong>25.33%</strong>)</td>
-      <td>528 / 777 (67.95%)</td>
-      <td>528 / 4500 (<strong>11.73%</strong>)</td>
-      <td>0.1336</td>
-      <td>0.2232</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Last update: 2008-06-15 by EricNichols [<a href="https://github.com/delph-in/docs/wiki/MtJaen_MtJaenTanaka/_edit">edit</a>]</p>
+<p>|                                                                          |       |                          |                         |                        |                         |            |            |
+|————————————————————————–|——-|————————–|————————-|————————|————————-|————|————|
+| Change                                                                   | Date  | Parse Coverage           | Transfer Coverage       | Generation Coverage    | End-to-End Coverage     | BLEU       | Oracle     |
+| Initial run                                                              | 06/05 | 2779 / 4500 (61.76%)     | 549 / 2779 (19.76%)     | 383 / 549 (69.76%)     | 383 / 4500 (8.51%)      | 0.1433     | 0.2234     |
+| Fixed _eba_c_rel etc.                                                 | 06/07 | 2779 / 4500 (61.76%)     | 662 / 2779 (23.82%)     | 478 / 662 (<strong>72.21%</strong>) | 478 / 4500 (10.62%)     | 0.1436     | 0.2302     |
+| Rel name debugging + handcrafted rules                                   | 06/09 | 2779 / 4500 (61.76%)     | 679 / 2779 (24.43%)     | 487 / 679 (71.72%)     | 487 / 4500 (10.82%)     | <strong>0.1470</strong> | <strong>0.2335</strong> |
+| Generic entries w/o にる,だける                                          | 06/14 | 3014 / 4500 (66.98%)     | 691 / 3014 (22.93%)     | 491 / 691 (71.06%)     | 491 / 4500 (10.91%)     | 0.1404     | 0.2300     |
+| New vn handling                                                          | 06/14 | 3014 / 4500 (66.98%)     | 703 / 3014 (23.32%)     | 500 / 703 (71.12%)     | 500 / 4500 (11.11%)     | 0.1369     | 0.2264     |
+| Generic Edict rules                                                      | 06/15 | 3014 / 4500 (66.98%)     | 722 / 3014 (23.95%)     | 520 / 722 (72.02%)     | 520 / 4500 (11.56%)     | 0.1337     | 0.2231     |
+| Removed _ga_5_rel,_iru_6_rel,_iru_7_rel; fixed conjunction_mtr | 06/15 | 3068 / 4500 (<strong>68.18%</strong>) | 777 / 3068 (<strong>25.33%</strong>) | 528 / 777 (67.95%)     | 528 / 4500 (<strong>11.73%</strong>) | 0.1336     | 0.2232     |</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

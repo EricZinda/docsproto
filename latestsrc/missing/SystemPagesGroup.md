@@ -9,5 +9,4 @@ each:
 - SystemPagesInSwedishGroup
 
 :warning:
-
-Last update: 2004-07-21 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SystemPagesGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
