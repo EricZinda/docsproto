@@ -49,4 +49,5 @@ like the following:
 
     127.0.0.1               localhost.localdomain localhost goodmami-tablet
     ::1             localhost6.localdomain6 localhost6
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-09-14 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/LogonTroubleshooting/_edit)]{% endraw %}

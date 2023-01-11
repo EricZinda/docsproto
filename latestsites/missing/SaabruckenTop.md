@@ -40,4 +40,5 @@ And more light-heartedly:
 
 - By air/by rail to sb
 - Hotel
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-09-16 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/SaabruckenTop/_edit)]{% endraw %}

@@ -66,4 +66,5 @@ writable.)
 - There of course has to be a \~/tmp directory. (We're running the web
 demos as a separate user, so this needed to be created a new).
 - pvmd3 has to be running
-<update date omitted for speed>{% endraw %}
+
+Last update: 2008-09-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LogonWebDemos/_edit)]{% endraw %}

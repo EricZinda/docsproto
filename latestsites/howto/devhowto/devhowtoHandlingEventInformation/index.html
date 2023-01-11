@@ -329,7 +329,7 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="handling-event-information">Handling Event Information</h1>
+        <h2 id="handling-event-information">Handling Event Information</h2>
 <p>Once you have a predication like <code class="language-plaintext highlighter-rouge">_very_x_deg</code> that modifies event variables introduced by other predications, you need to decide how to handle predications that <em>aren’t</em> paying attention to decorations on their introduced event.</p>
 
 <p>For example, let’s implement the word “small” to cover the space that “large” doesn’t. Namely: files &lt;= 1,000,000 bytes in size:</p>
@@ -377,7 +377,7 @@ File(name=file2.txt, size=1000000)
 
 <p>We want a way to declare the event decorations a predication requires or optionally handles. Then, we can modify our <code class="language-plaintext highlighter-rouge">Predication()</code> decorator so that it automatically fails if something is on an introduced event that the introducer isn’t prepared to handle. To see why this works, recall that a predication <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS/#predication-arguments-and-variables"><em>introduces</em> a variable that represents it</a>. Thus, any decorations on this event are meant to be understood by the predication that introduced it. If the predication doesn’t know what to do with them then we want to return an error to the user. This proves we’re not just ignoring terms we don’t understand and builds trust in the interface.</p>
 
-<p>The logic will be in a function called <code class="language-plaintext highlighter-rouge">ensure_handles_event()</code>. Its job is to look up the event passed in <code class="language-plaintext highlighter-rouge">event</code> using the <code class="language-plaintext highlighter-rouge">state</code> object and compare the decorations on that event to the list of handled decorations passed in the <code class="language-plaintext highlighter-rouge">handles</code> argument. If they don’t match, it sets an error. This function is called in the guts of the <code class="language-plaintext highlighter-rouge">Predication()</code> decorator:</p>
+<p>The logic will be in a function called <code class="language-plaintext highlighter-rouge">ensure_handles_event()</code>. Its job is to look up the event passed in <code class="language-plaintext highlighter-rouge">event</code> using the <code class="language-plaintext highlighter-rouge">state</code> object and compare the decorations on that event to a list of “handled” decorations. If they don’t match, it sets an error. This function is called in the guts of the <code class="language-plaintext highlighter-rouge">Predication()</code> decorator:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    class EventOption(enum.Enum):
         optional = 1
@@ -507,8 +507,7 @@ def large_a_1(state, e_introduced, x_target):
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<update date="" omitted="" for="" speed="">
-</update>
+<p>Last update: 2023-01-11 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoHandlingEventInformation.md">edit</a>]</p>
 
         
       </section>

@@ -45,4 +45,5 @@ cross-component interoperability.
 - Prepare complete draft and circulate;
 - Adopt through Standing Committee; or
 - Hold general vote among participants?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TomarValues/_edit)]{% endraw %}

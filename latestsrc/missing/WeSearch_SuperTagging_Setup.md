@@ -159,4 +159,5 @@ supertags built in. To use, check out and compile the code:
 
 Run cheap with a -tagger option that selects the settings file (above)
 with the right set of taggers.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearch_SuperTagging_Setup/_edit)]{% endraw %}

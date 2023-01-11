@@ -42,4 +42,5 @@ something (locality reconsidered)
 commas in Chinese
 
 [2017-01-10](https://blog.inductorsoftware.com/docsproto/missing/LADUW20170110) Fragments, type comments
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-12-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LinguisticsAnalysisDesignUW/_edit)]{% endraw %}
