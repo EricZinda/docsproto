@@ -77,6 +77,9 @@
         {"Page": "A. Python Decorators", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPythonDecorators.md", "DstFile": "devhowto/devhowtoPythonDecorators.md"},
         {"Page": "B. Parsing Predications", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoParsePredication.md", "DstFile": "devhowto/devhowtoParsePredication.md"}
       ]},
+      {"Section": "Developer Predication Tutorial", "Pages": [
+        {"Page": "Overview", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabOverview.md", "DstFile": "devvocab/devvocabOverview.md"}
+      ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/TomarFormalism.md"},
