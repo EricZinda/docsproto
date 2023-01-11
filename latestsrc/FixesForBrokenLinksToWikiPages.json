@@ -232,6 +232,10 @@
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "StephanOepen", "SrcDir": "docswiki", "SrcFile": "StephanOepen.md", "BaseReferrer": "howto/DelphinTutorial.md", "Referrer": "howto/DelphinTutorial.md", "FileMissing": true}
+      ]},
+      {"Section": "Developer Predication Tutorial", "Pages": [
+        {"Page": "devhowtoMRS", "SrcDir": "perplexity", "SrcFile": "devhowtoMRS.md", "BaseReferrer": "howto/docs/devvocab/devvocabOverview.md", "Referrer": "howto/docs/devvocab/devvocabOverview.md", "FileMissing": true},
+        {"Page": "devhowtoWellFormedTree", "SrcDir": "perplexity", "SrcFile": "devhowtoWellFormedTree.md", "BaseReferrer": "howto/docs/devvocab/devvocabOverview.md", "Referrer": "howto/docs/devvocab/devvocabOverview.md", "FileMissing": true}
       ]}
     ]
   }

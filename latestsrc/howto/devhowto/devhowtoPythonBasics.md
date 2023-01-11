@@ -169,4 +169,4 @@ Now you've seen some of the basic Python you'll see throughout the tutorial and 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
 
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPyhonBasics.md)]{% endraw %}
+Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPythonBasics.md)]{% endraw %}
