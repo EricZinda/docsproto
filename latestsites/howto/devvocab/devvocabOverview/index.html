@@ -344,14 +344,14 @@
       <section class="page__content e-content" itemprop="text">
         
         <p># 
-The <a href="../devhowto/devhowtoOverview">Developer How-To section</a> is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a> that allows Python functions to implement and evaluate DELPH-IN predications. In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
+The Developer How-To section is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a> that allows Python functions to implement and evaluate DELPH-IN predications. In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
 
 <p>This section assumes a working knowledge of The Minimal Recursion Semantics (MRS) Format and Building Well-Formed MRS Trees as well as a <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics/">basic understanding of Python</a>. Having read through the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview/">Developer Tutorial</a> would also be very helpful, but shouldn’t be required. We’ll link to the relevant sections as we discuss them.</p>
 
 <p>Let’s start with a review of the Perplexity framework.</p>
 
 <h3 id="predications">Predications</h3>
-<p>First, the vocabulary for a particular application is written as Python functions that implement <a href="../devhowto/devhowtoPredicationContract">“The Predication Contract”</a> and are decorated with the <a href="../devhowto/devhowtoMRSToPython">Predication decorator</a> like this implementation of the DELPH-IN predication for “file” (which is <code class="language-plaintext highlighter-rouge">_file_n_of</code>):</p>
+<p>First, the vocabulary for a particular application is written as Python functions that implement “The Predication Contract” and are decorated with the Predication decorator like this implementation of the DELPH-IN predication for “file” (which is <code class="language-plaintext highlighter-rouge">_file_n_of</code>):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vocabulary = Vocabulary()
 
@@ -530,8 +530,8 @@ def generate_message(tree_info, error_term):
         
     ...
 </code></pre></div></div>
-
-<p>Last update: 2023-01-11 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabOverview.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

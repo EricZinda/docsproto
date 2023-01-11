@@ -2673,5 +2673,4 @@
     [GOLD] {There was} <no> {chance of finding footsteps in the mire} , for the rising mud oozed swiftly in upon them , but as we at last reached firmer ground beyond the morass we all looked eagerly for them .
     [RANKER] {There was} <no> {chance of finding footsteps in the mire , for the rising mud oozed swiftly in upon them} , but as we at last reached firmer ground beyond the morass we all looked eagerly for them .
     [CRAWLER] {There was} <no> {chance of finding footsteps in the mire} , for the rising mud oozed swiftly in upon them , but as we at last reached firmer ground beyond the morass we all looked eagerly for them .
-
-Last update: 2013-08-27 by JonathonRead [[edit](https://github.com/delph-in/docs/wiki/WeSearch_StarSem_MrsCrawlingOracle/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

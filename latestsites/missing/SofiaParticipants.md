@@ -96,5 +96,4 @@ on the 6th)
 :frowning\_face: )
 - YiZhang (July 2-6; arriving on the 1st, leaving midday on
 the 6th)
-
-Last update: 2012-06-27 by TaniaAvgustinova [[edit](https://github.com/delph-in/docs/wiki/SofiaParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

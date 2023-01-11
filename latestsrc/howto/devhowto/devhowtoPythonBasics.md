@@ -1,5 +1,5 @@
 {% raw %}## Python Primer and the State object
-The [predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract) can be implemented in any programming language, but we'll be using Python. This section should give enough background so that even readers not familiar with Python can read the code and understand the examples. Even if you know Python, skim through this section since we will be implementing a key class (`State`) used elsewhere in the documentation.
+The predication contract can be implemented in any programming language, but we'll be using Python. This section should give enough background so that even readers not familiar with Python can read the code and understand the examples. Even if you know Python, skim through this section since we will be implementing a key class (`State`) used elsewhere in the documentation.
 
 The Python language has functions, classes, methods, variables, operators, statements, and other elements shared by many imperative programming languages such as C++, Java, Javascript, Go, etc. How these work will be described as we go along and should be relatively straightforward to understand if you are proficient in an existing imperative programming language. 
 
@@ -54,7 +54,7 @@ def OutputResults():
 # 3
 ```
 
-Given the [predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract), we'll be doing lots of iteration and this syntactic sugar from Python makes it easier. 
+Given the predication contract, we'll be doing lots of iteration and this syntactic sugar from Python makes it easier. 
 
 Let's work through how to implement a class in Python by creating the class that will hold the state of the world: `State`. The current state of all MRS variables *and* the state of everything in the world will be accessed through this class. Because we want the state to be changed by predications, we will include an instance of it as the first argument when calling them. 
 
@@ -126,7 +126,7 @@ Note that the `SetX()` method does not actually "set" a value in the `State` obj
 > Note: There are much more efficient ways to isolate the data than copying the entire world, but we're doing a copy to keep the code simple. For example, database engines like MySQL have transactions to isolate different parts of code from changes until they should be seen. We could improve our simple implementation by keeping a difference list and not copying the entire state for every copy, but for now we'll keep it simple.
 
 
-Objects in the world can just be Python objects, although there are many other ways to represent them (the [predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract) doesn't care). 
+Objects in the world can just be Python objects, although there are many other ways to represent them (the predication contract doesn't care). 
 
 Because we will be copying the `State` object when changes are made, we will need some way to identify that, for example, the `foo` folder in one `State` object is the same `foo` folder in another `State` object. To do this, we'll give each object a unique ID by creating a base class called `UniqueObject`. It will create a member variable called `unique_id` with a UUID (a globally unique number) in it. Then, we'll derive all the objects in the system from it. That way, objects will always have a unique ID that follows them even if they are copied. 
 
@@ -164,9 +164,8 @@ state = State([Folder(name="Desktop"),
 
 Note that an instance of the `State` object is created by calling it like a function. This really calls the `__init__` function of `State` and passes the supplied argument (a list) to `__init__`. Each object in the list is created just like `State` was: by calling it as a function. Note that arguments can be named like `name="Documents"` to clarify what is going on.
 
-Now you've seen some of the basic Python you'll see throughout the tutorial and we've defined the core `State` class we'll use in our predications.  Next, we'll [implement a predication](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication).
+Now you've seen some of the basic Python you'll see throughout the tutorial and we've defined the core `State` class we'll use in our predications.  Next, we'll implement a predication.
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPythonBasics.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

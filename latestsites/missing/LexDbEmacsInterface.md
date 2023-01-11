@@ -98,5 +98,4 @@ something similar) to your .emacs:
       (autoload 'lexdb 
          "/home/bond/delphin/lkb/lexdb/pg-interface.el" 
          "LexDB interface for the LKB" t)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LexDbEmacsInterface/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

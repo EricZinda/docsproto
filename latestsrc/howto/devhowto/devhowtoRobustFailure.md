@@ -1,5 +1,5 @@
 {% raw %}## Reporting a Failure More Robustly
-One final piece of cleanup work remains in our effort to report decent failures when resolving an MRS. We will be returning a lot of the same errors from different predications. Instead of littering the code with full sentences like "There is not a large thing", we'll use constants like `doesntExist` and allow them to take arguments like `x3`. Then, using the code [from the previous section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures), we can create a shared routine that turns them into English and fills them in with descriptions of the variables at the point of failure.  Like this:
+One final piece of cleanup work remains in our effort to report decent failures when resolving an MRS. We will be returning a lot of the same errors from different predications. Instead of littering the code with full sentences like "There is not a large thing", we'll use constants like `doesntExist` and allow them to take arguments like `x3`. Then, using the code from the previous section, we can create a shared routine that turns them into English and fills them in with descriptions of the variables at the point of failure.  Like this:
 
 ```
 # error_term is of the form: [index, error] where "error" is another 
@@ -21,9 +21,9 @@ def GenerateMessage(mrs, error_term):
         return f"{arg2} is not {arg1}"
 ```
 
-Most of what `GenerateMessage()` does is plug the error arguments into a string template.  The interesting work happens when one of the arguments is a DELPH-IN variable and it calls `EnglishForDelphinVariable()`.  This is where we use the code from the [previous section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures) to properly describe what is in that `x` variable. 
+Most of what `GenerateMessage()` does is plug the error arguments into a string template.  The interesting work happens when one of the arguments is a DELPH-IN variable and it calls `EnglishForDelphinVariable()`.  This is where we use the code from the previous section to properly describe what is in that `x` variable. 
 
-Finally, we can change our predications to use `ReportError()` with the new error format, and change `RespondToMRS()` to respond with decent errors using all the ideas and code we've written in the [last](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoChoosingWhichFailure) [few](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure) [sections](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures):
+Finally, we can change our predications to use `ReportError()` with the new error format, and change `RespondToMRS()` to respond with decent errors using all the ideas and code we've written in the last few sections:
 
 ```
 @Predication(vocabulary, name="_file_n_of")
@@ -115,9 +115,8 @@ def Example11():
 No, that isn't correct: a thing is not a file
 ```
 
-That one isn't good. The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors) will analyze why, and how to fix it.
+That one isn't good. The next section will analyze why, and how to fix it.
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoRobustFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -1,5 +1,5 @@
 {% raw %}## Simple Questions
-Note that the MRS for "Is a file large?" is identical to the proposition "A file is large." *except* that it has a different [sentence force](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce) of `SF: ques`:
+Note that the MRS for "Is a file large?" is identical to the proposition "A file is large." *except* that it has a different sentence force of `SF: ques`:
 
 ```
 [ TOP: h0
@@ -200,5 +200,4 @@ Note that we have a subtle bug in our implementation of `default_quantifier`: we
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleQuestions.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

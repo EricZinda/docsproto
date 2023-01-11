@@ -1,5 +1,5 @@
 {% raw %}## Implementing a Predication
-With that [Python background and the creation of the `State` object](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics), we can now implement the predication contract for `_folder_n_of` in Python.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its arguments *and* the world state. The variables will be passed in as strings like `"x1"` or `"e12"`. To get their values, the code will look them up in the `State` object as shown below:
+With that [Python background and the creation of the `State` object](), we can now implement the predication contract for `_folder_n_of` in Python.  We will be passing an instance of the `State` object as the first argument to every predication so that it can access its arguments *and* the world state. The variables will be passed in as strings like `"x1"` or `"e12"`. To get their values, the code will look them up in the `State` object as shown below:
 ```
 def folder_n_of(state, x):
     x_value = state.GetVariable(x)
@@ -28,7 +28,7 @@ def folder_n_of(state, x):
             new_state = state.SetX(x, item)
             yield new_state
 ```
-First notice that we are not really taking advantage of our ["practical predication contract"](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract) in this code: we are literally just iterating through every object in the system. We can fix that later, but for the moment the examples are so small that it won't really matter.
+First notice that we are not really taking advantage of our "practical predication contract" in this code: we are literally just iterating through every object in the system. We can fix that later, but for the moment the examples are so small that it won't really matter.
 
 Further on in the code, notice that the `folder_n_of` `yields` the new instance of the state object returned from setting `x` to a value.  This behavior (enforced by the`State` object) will allow our solver to pass around the same state object to a predication multiple times and get fresh values bound to the variables. Since we always make copies when setting a value, the solver can rely on a particular `State` object not being changed, even after it has been passed to a predication.
 
@@ -57,9 +57,8 @@ Again, it is important to note that the initial `state` variable will not actual
 
 Now we have one predication that implements the predication contract: it will iteratively return all the "folders" in the world when called with an unbound variable as we did here. This is the basic pattern we'll use for all predications from here on out. 
 
-Since we are going to start calling more than one predication and eventually deal with a whole MRS resolved tree, we'll need a way to convert the MRS text representation into a set of Python function calls. That way, we won't have to manually convert them to Python like the above example. The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython) describes how to do that.
+Since we are going to start calling more than one predication and eventually deal with a whole MRS resolved tree, we'll need a way to convert the MRS text representation into a set of Python function calls. That way, we won't have to manually convert them to Python like the above example. The next section describes how to do that.
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoImplementPredication.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

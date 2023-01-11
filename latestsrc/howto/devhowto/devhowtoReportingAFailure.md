@@ -1,5 +1,5 @@
 {% raw %}## Reporting a Failure Naively
-With all that in place, we can now start reporting errors from predications. As outlined in the [predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract), "failure" is when the predication is not true for its arguments, so let's add a little code at the end of `large_a_1` to record an error when there is a failure. We'll call the new `ReportError()` method and pass it what seems like the right error given the code:
+With all that in place, we can now start reporting errors from predications. As outlined in the predication contract, "failure" is when the predication is not true for its arguments, so let's add a little code at the end of `large_a_1` to record an error when there is a failure. We'll call the new `ReportError()` method and pass it what seems like the right error given the code:
 
 ```
 @Predication(vocabulary, name="_large_a_1")
@@ -50,7 +50,7 @@ This is an odd answer.  Even though it looked like it made sense in the code, it
 
 We can correct it if we remember what is going on at the abstract level: We are finding values for the variables that make the MRS true.  The *mechanics* are to feed every object in the world through the variables in the MRS, but the overall *objective* is to, for example, find an `x` that makes `_large_a_1` true.  The problem is that we are reporting the error with a textual description of the *example* that is currently in the `x` variable (e.g. `a small file`) instead of what `x` *represents* ("a file").  
 
-Right now, all that `large_a_1` knows about `x` is that it is a variable, it doesn't know that x represents `a file` (we'll fix this [next](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures)). So, the best we can do at the moment is to say "a thing":
+Right now, all that `large_a_1` knows about `x` is that it is a variable, it doesn't know that x represents `a file` (we'll fix this next). So, the best we can do at the moment is to say "a thing":
 
 ```
 @Predication(vocabulary, name="_large_a_1")
@@ -63,9 +63,8 @@ def large_a_1(state, e_introduced, x_target):
 
 With that, if we run "A file is large" through the system with no large files, we'll get: "A thing is not large".  This is the best we can do for now. 
 
-The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures) will improve it to say "A file is not large" which is more clear.
+The next section will improve it to say "A file is not large" which is more clear.
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoReportingAFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

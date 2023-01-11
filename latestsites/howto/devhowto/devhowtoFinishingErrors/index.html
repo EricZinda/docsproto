@@ -349,7 +349,7 @@
 <p><code class="language-plaintext highlighter-rouge">large_a_1</code>, <code class="language-plaintext highlighter-rouge">file_n_of</code> and <code class="language-plaintext highlighter-rouge">a_q</code> have already been completed. <code class="language-plaintext highlighter-rouge">delete_v_1</code>, <code class="language-plaintext highlighter-rouge">pron</code>, <code class="language-plaintext highlighter-rouge">pronoun_q</code>, <code class="language-plaintext highlighter-rouge">which_q</code>, <code class="language-plaintext highlighter-rouge">very_x_deg</code>, <code class="language-plaintext highlighter-rouge">folder_n_of</code> remain.</p>
 
 <h3 id="folder_n_of"><code class="language-plaintext highlighter-rouge">folder_n_of</code></h3>
-<p>We can approach <code class="language-plaintext highlighter-rouge">folder_n_of</code> just like <code class="language-plaintext highlighter-rouge">file_n_of</code>, and, in fact, that is what most nouns will look like. The only new code is the last line below that says “<code class="language-plaintext highlighter-rouge">x</code> is not a folder” for the same reasons <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure">we described before</a>:</p>
+<p>We can approach <code class="language-plaintext highlighter-rouge">folder_n_of</code> just like <code class="language-plaintext highlighter-rouge">file_n_of</code>, and, in fact, that is what most nouns will look like. The only new code is the last line below that says “<code class="language-plaintext highlighter-rouge">x</code> is not a folder” for the same reasons we described before:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_folder_n_of")
 def folder_n_of(state, x):
@@ -371,7 +371,7 @@ def folder_n_of(state, x):
 </code></pre></div></div>
 
 <h3 id="which_q-and-pronoun_q"><code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code></h3>
-<p>The quantifiers <code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code> should work just like <code class="language-plaintext highlighter-rouge">a_q</code> did in a <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors">previous section</a> and report a special error if their <code class="language-plaintext highlighter-rouge">RSTR</code> can’t be resolved. If the <code class="language-plaintext highlighter-rouge">BODY</code> fails it will report its own error:</p>
+<p>The quantifiers <code class="language-plaintext highlighter-rouge">which_q</code>, and <code class="language-plaintext highlighter-rouge">pronoun_q</code> should work just like <code class="language-plaintext highlighter-rouge">a_q</code> did in a previous section and report a special error if their <code class="language-plaintext highlighter-rouge">RSTR</code> can’t be resolved. If the <code class="language-plaintext highlighter-rouge">BODY</code> fails it will report its own error:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is just used as a way to provide a scope for a
 # pronoun, so it only needs the default behavior
@@ -509,7 +509,7 @@ There isn't a he/she in the system
 <p>Looks good!</p>
 
 <h3 id="pronx"><code class="language-plaintext highlighter-rouge">pron(x)</code></h3>
-<p><code class="language-plaintext highlighter-rouge">pron(x)</code> <em>does</em> need an error so that it can report when the user uses a pronoun that we haven’t implemented. We can’t really form sentences that will use this yet, because everything we can say has <code class="language-plaintext highlighter-rouge">pron</code> in the <code class="language-plaintext highlighter-rouge">RSTR</code> and any error we report there will get overridden by the quantifier as <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors">described here</a>. We’ll add the code, though, so it can be used later.</p>
+<p><code class="language-plaintext highlighter-rouge">pron(x)</code> <em>does</em> need an error so that it can report when the user uses a pronoun that we haven’t implemented. We can’t really form sentences that will use this yet, because everything we can say has <code class="language-plaintext highlighter-rouge">pron</code> in the <code class="language-plaintext highlighter-rouge">RSTR</code> and any error we report there will get overridden by the quantifier as described here. We’ll add the code, though, so it can be used later.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="pron")
 def pron(state, x_who):
@@ -741,7 +741,8 @@ There isn't a file in the system
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-06 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoFinishingErrors.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>
