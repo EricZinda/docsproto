@@ -344,9 +344,11 @@
       <section class="page__content e-content" itemprop="text">
         
         <p># 
-The <a href="/docs/devhowto/devhowtoOverview">Developer How-To section</a> is a tutorial that describes how to build a Python framework for implementing the vocabulary of an application using DELPH-IN technologies. The framework is called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a>.  In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
+The <a href="../devhowto/devhowtoOverview">Developer How-To section</a> is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a> that allows Python functions to implement and evaluate DELPH-IN predications. In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
 
-<p>Let’s start with a review of the Perplexity framework. First user commands like: “what files are in this folder?” get parsed into an MRS document by the ACE parser. All this is done</p>
+<p>This section requires a working knowledge of</p>
+
+<p>Let’s start with a review of the Perplexity framework. First, user commands like: “what files are in this folder?” get parsed into an MRS document by the ACE parser. All this is done by the <code class="language-plaintext highlighter-rouge">UserInterface</code></p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example16():
     state = State([Actor(name="Computer", person=2),
