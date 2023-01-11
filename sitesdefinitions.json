@@ -58,6 +58,7 @@
         {"Page": "Conjunctions", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoConjunctions.md", "DstFile": "devhowto/devhowtoConjunctions.md"},
         {"Page": "Scopal Arguments", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoScopalArguments.md", "DstFile": "devhowto/devhowtoScopalArguments.md"},
         {"Page": "Event Variables", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoEvents.md", "DstFile": "devhowto/devhowtoEvents.md"},
+        {"Page": "Handling Event Information", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoHandlingEventInformation.md", "DstFile": "devhowto/devhowtoHandlingEventInformation.md"},
         {"Page": "Sentence Force", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoSentenceForce.md", "DstFile": "devhowto/devhowtoSentenceForce.md"},
         {"Page": "Simple Propositions", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoSimplePropositions.md", "DstFile": "devhowto/devhowtoSimplePropositions.md"},
         {"Page": "Simple Questions", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoSimpleQuestions.md", "DstFile": "devhowto/devhowtoSimpleQuestions.md"},
