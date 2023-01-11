@@ -10,4 +10,5 @@ system for English (which supported Robust MRS output),
 and the [COGENT project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=GR/S24497/01) on
 wide-coverage generation. John Carroll is currently working on further
 development of the LKB system, and LKB-FOS in particular.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-01-22 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/DelphinSussex/_edit)]{% endraw %}

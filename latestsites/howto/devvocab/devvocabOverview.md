@@ -18,4 +18,5 @@ def Example16():
         user_interface.interact_once(respond_to_mrs_tree)
         print()
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabOverview.md)]{% endraw %}

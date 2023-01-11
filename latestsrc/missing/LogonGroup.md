@@ -6,4 +6,5 @@
 - StephanOepen
 - [WoodleyPackard](/WoodleyPackard)
 - ErikVelldal
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-03-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonGroup/_edit)]{% endraw %}

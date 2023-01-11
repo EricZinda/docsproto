@@ -75,4 +75,5 @@ period of weeks?
 
 <img src="http://www.dfki.de/~uschaefer/delph-in/csli_whiteboard.jpg" title="http://www.dfki.de/~uschaefer/delph-in/csli_whiteboard.jpg" class="external_image" alt="http://www.dfki.de/~uschaefer/delph-in/csli_whiteboard.jpg" />
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/Meeting2007Csli/_edit)]{% endraw %}

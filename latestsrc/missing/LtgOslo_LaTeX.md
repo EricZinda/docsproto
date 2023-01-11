@@ -341,4 +341,5 @@ reduce the amount of space between lines:
 \\renewcommand\\baselinestretch{0.95}. Note that this parameter is very
 sensitive, and can make your paper look very funny indeed. Use with
 care.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-09-05 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_LaTeX/_edit)]{% endraw %}

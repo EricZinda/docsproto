@@ -72,4 +72,5 @@ processor used for parsing. The most important intentional
 difference is that the resource limit under ACE is relatively vast
 (only six sentences hit resource limits), so grammar coverage was
 slightly higher.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-28 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/WeSearch_StarSem_MrsCrawlingEvaluation/_edit)]{% endraw %}

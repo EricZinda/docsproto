@@ -179,4 +179,5 @@ David A. Wroblewski. 1987. Nondestructive graph unification. In
 \[<http://www.computational-semantics.com/webshare/20101019.png>\]
 
 \[<http://www.computational-semantics.com/webshare/20100918.png>\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-02-04 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/TgcsTop/_edit)]{% endraw %}
