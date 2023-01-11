@@ -219,9 +219,9 @@ def parse_relative_link(SrcFile, link):
             # Thus: treat it as an absolute path
             return None, None, None
 
-        elif len(path_parts) > 1:
-            # More than one segment won't work in the wiki so treat it as absolute
-            return None, None, None
+        # elif len(path_parts) > 1:
+        #     # More than one segment won't work in the wiki so treat it as absolute
+        #     return None, None, None
 
         return path, split_url.query, split_url.fragment
 
@@ -237,7 +237,7 @@ def parse_relative_link(SrcFile, link):
 # The "identity" of a file is a combination of src_dir + src_file because that represents a file in a
 # repository (and the repository has been cloned into a source directory: src_dir).  There can be only one of these.
 # There is a relative URL for it that other things in the same site can use
-# There is an absolute URL for it that anyone can use.
+# and there is an absolute URL for it that anyone can use.
 #
 # If a different file has a relative md link to something it could be to
 # - "targetaddress.md": it is definitely a markdown file, the easy case
@@ -271,25 +271,13 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
         # Now we know the identity of the file since it is a relative link and we have a filename AND a src_dir
         # for the link. However, the file that is linking to it might be in a subdirectory, so we need to add that as well
         # since it is relative
-        target_path_and_file = os.path.join(src_file_path, target_file)
+        target_path_and_file = urllib.parse.urljoin(src_file_path, target_file)
 
         # See if we can find that definition
         for definition in pages_definitions:
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_path_and_file:
                 # Found it! just return a full link to it
                 return "relative_success", None, target_file, definition["AbsoluteLink"]
-                # if definition["Site"] == src_site:
-                #     # It is in the same site
-                #     # Add "../" since jekyll handles relative links by adding them onto the current url, which refers to the current file
-                #     # which is thus one level too deep
-                #     relative_resolved_link = "../" + path + ("?" + query if query != "" else "") + (
-                #         "#" + fragment if fragment != "" else "")
-                #
-                #     return "relative_success", None, target_file, relative_resolved_link
-                #
-                # else:
-                #     # Not in the same site
-                #     return "relative_success", None, target_file, definition["AbsoluteLink"]
 
         # If if it doesn't exist, return the proper link that *would have* accessed it
         return "relative_broken", "Wiki page doesn't exist", target_file, ""
