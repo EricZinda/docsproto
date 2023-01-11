@@ -8,7 +8,7 @@ the previous functionality in the development of software.
 The coverage testing employs several DELPH-IN tools. All the paths of
 the tools below must be enrolled as PATH in \~/.bashrc.
 
-1. **ace**: see [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
+1. **ace**: see AceTop
 2. **art**: see <http://sweaglesw.org/linguistics/libtsdb/art>
 3. **pyDelphin**: see <https://github.com/goodmami/pydelphin>
 4. **gTest**: see <https://github.com/goodmami/gtest>

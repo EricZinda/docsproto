@@ -12,7 +12,7 @@ The customization system can be accessed from the following web page:
 ## Where can I find instructions on filling out the questionnaire?
 
 Most of the libraries in the Grammar Matrix have at least some
-documentation on the [MatrixDoc](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocTop) pages.
+documentation on the MatrixDoc pages.
 
 Note that filling out the questionnaire is an iterative process. To get
 as much as possible out of the customization system, you should develop
@@ -41,7 +41,7 @@ and filling out the customization system on the other.
 
 ## What other software do I need?
 
-You'll want the LKB ([LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)) or ace ([AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)), a text
+You'll want the LKB (LkbTop) or ace (AceTop), a text
 editor (preferably emacs), and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb). Typically, the easiest way to
 get set up is with the [Ubuntu+LKB Virtual Box
@@ -72,9 +72,9 @@ available on the [project home page](http://www.delph-in.net/matrix/).
 ## What else might be helpful?
 
 Once you are working with tdl editing, the
-[GrammarEngineeringFaq](https://blog.inductorsoftware.com/docsproto/matrix/GrammarEngineeringFAQ) pages may be helpful.
+GrammarEngineeringFaq pages may be helpful.
 The feature geometry cheat sheets at the bottom of
-[GeFaqFeatureGeometry](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqFeatureGeometry) are particularly popular.
+GeFaqFeatureGeometry are particularly popular.
 
 ## Where can I send questions?
 

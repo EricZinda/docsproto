@@ -1,5 +1,5 @@
 {% raw %}**PyDMRS (with Demo) and Work (in Progress) on a DMRS Graph Description
-Language (@** [DELPH-IN 2016](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule))
+Language (@** DELPH-IN 2016)
 
 *by Alex Kuhnle and Guy Emerson*
 

@@ -6,7 +6,7 @@ history. LKB developers will likely find this information most
 interesting, but it may also help some users to stay up-to-date on
 latest LKB development. For a more high-level summary of changes to LKB
 functionality and additions of new facilities, see
-[LkbUpdates](https://blog.inductorsoftware.com/docsproto/missing/LkbUpdates) instead.
+LkbUpdates instead.
 
 Please note that some of the LKB variables and functions mentioned in
 these development logs refer to LKB internals and might change in future
@@ -14,7 +14,7 @@ versions; documentation of new or experimental facilities here is
 primarily targetting LKB developers (or system integrators), thus it
 seems important to maintain a conceptual distinction between the
 \`official' LKB interface (e.g. what is documented in Copestake, 2002,
-plus updates on, say, the [LkbUpdates](https://blog.inductorsoftware.com/docsproto/missing/LkbUpdates) page) and system
+plus updates on, say, the LkbUpdates page) and system
 internals.
 
 ## Wed Feb 9 12:35:40 PST 2005

@@ -10,16 +10,16 @@ correct.
 
 Contents
 
-1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
-2. [Debugging Distributed Mode](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
-   1. [communication error -6](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
-   2. [communication error -7](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
-   3. [client exit for 'user'](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+1. Page Status
+2. Debugging Distributed Mode
+   1. communication error -6
+   2. communication error -7
+   3. client exit for 'user'
       1. [parse-interactively(): error \`maximum number of active
 sessions
-exhausted'](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
-3. [Keyboard Freeze](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
-4. [Podium font too big](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
+exhausted']()
+3. Keyboard Freeze
+4. Podium font too big
 
 # Debugging Distributed Mode
 

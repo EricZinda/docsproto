@@ -42,7 +42,7 @@ chunker information)
 provides support for FSC.
 
 Goal: get rid of legacy input modes (PIC, SMAF), see
-[PetRoadMap](https://blog.inductorsoftware.com/docsproto/garage/PetRoadMap)
+PetRoadMap
 
 Ann wants to look into SMAF code and give an estimation on the amount of
 effort to migrate to FSC

@@ -2,6 +2,6 @@
 
 \* Matrix-based\
 \* Full coverage of
-[MatrixMrsTestSuiteMandarin](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteMandarin)  
+MatrixMrsTestSuiteMandarin  
 
 <update date omitted for speed>{% endraw %}

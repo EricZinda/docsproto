@@ -50,7 +50,7 @@ directory $LOGONROOT and is invoked from a command shell, e.g.
       $LOGONROOT/parse --erg+tnt mrs
 
 The batch parse script requires a functional LOGON installation (please
-see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page, for background
+see the LogonInstallation page, for background
 information) and will first load up the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) environment and then configure
 one or more parsing clients. As a result of running the parse script, a

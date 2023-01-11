@@ -13,7 +13,7 @@ sidor
 skrivna ännu
 - [FöräldrarlösaSidor](/F%C3%B6r%C3%A4ldrarl%C3%B6saSidor) - en lista
 på sidor som inte är refererade till
-- [SlumpvisSida](https://blog.inductorsoftware.com/docsproto/missing/SlumpvisSida) - ger en lista på ett antal slumpvist
+- SlumpvisSida - ger en lista på ett antal slumpvist
 utvalda sidor
 - SidStorlek - ger en lista på sidor sorterade efter
 storlek

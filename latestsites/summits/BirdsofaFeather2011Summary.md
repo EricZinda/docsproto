@@ -1,5 +1,5 @@
 {% raw %}This page contains a summary of the discussion of the [Birds of a
-Feather meeting](https://blog.inductorsoftware.com/docsproto/summits/BirdsofaFeather2011) held at the 2011 ACL on June 19,
+Feather meeting]() held at the 2011 ACL on June 19,
 2011. We are grateful to the participants for their valuable input.
 
 ## Main points

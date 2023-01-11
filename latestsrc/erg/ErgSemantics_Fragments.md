@@ -74,7 +74,7 @@ arguments of verbs of saying, and parts of run-on sentences.
 
 # Reflections
 
-- Similar to [ellipsis](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Ellipsis), in that the
+- Similar to ellipsis, in that the
 characteristic EP serves as a stand-in for information to be filled
 in in context while also maintaining wellformedness of the
 compositionally created MRS.
@@ -99,8 +99,8 @@ modifiers.
 
 # More Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
-- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
+- ErgSemantics main page
+- Inventory of semantic phenomena (to be)
 documented
-- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
+- How to cite this work
 <update date omitted for speed>{% endraw %}

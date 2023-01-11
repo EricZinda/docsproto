@@ -7,5 +7,5 @@ phenomena which can only occur in main ( +) or subordinate clauses ( -).
 The value of MC is luk, allowing for a third possibility of na, for not
 applicable. (matrix.tdl, HPSG Grammar Matrix, 2008-05-23)
 
-[Back to the Grammar Engineering Glossary](https://blog.inductorsoftware.com/docsproto/missing/GrammarEngineeringGlossary).
+Back to the Grammar Engineering Glossary.
 <update date omitted for speed>{% endraw %}

@@ -34,8 +34,8 @@ nom+dat subsume nom and acc and nom and dat, respectively.
 ### Related topics
 
 - [How do I constrain something to be not of a certain
-value?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNegValue)
-- [How do I browse the type hierarchy?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewHierarchy)
+value?]()
+- How do I browse the type hierarchy?
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

@@ -1,5 +1,5 @@
 {% raw %}A page for the discussion of MRS-Wordnet mappings (part of the work on
-[Lexical Semantics](https://blog.inductorsoftware.com/docsproto/garage/LexsemTop)).
+Lexical Semantics).
 
 Motivations:
 
@@ -11,7 +11,7 @@ compatibility across languages
 
 **Francis:**
 
-- There is a [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) mapping to DMRS on [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor)
+- There is a SemCor mapping to DMRS on SemCor
 page. There's a long tail of things where the representation in MRS
 is different from the representation in WN. E.g. "here" in WN is
 here\_a\_1, "here" in ERG (e10:loc\_nonsp = here\_a1; x11:place\_n =

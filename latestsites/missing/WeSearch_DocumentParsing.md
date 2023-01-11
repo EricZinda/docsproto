@@ -12,7 +12,7 @@ Details of software versions and options used are spelt out below.
 
 ### REPP
 
-Rule-based tokeniser, see [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop).
+Rule-based tokeniser, see ReppTop.
 
 ### tokenizer
 

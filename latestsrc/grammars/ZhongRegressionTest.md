@@ -41,7 +41,7 @@ the list of comparison.
 
 # Required Components (Tools)
 
-See [ZhongCoverage](https://blog.inductorsoftware.com/docsproto/grammars/ZhongCoverage)
+See ZhongCoverage
 
 # Usage
 

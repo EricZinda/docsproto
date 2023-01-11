@@ -1,4 +1,4 @@
-{% raw %}The following is a list of participants registered for the [**2023 DELPH-IN Summit**](https://blog.inductorsoftware.com/docsproto/missing/GaliciaTop), to be held in A Coruña, Galicia, Spain, during the week of June 26-30, 2023. 
+{% raw %}The following is a list of participants registered for the **2023 DELPH-IN Summit**, to be held in A Coruña, Galicia, Spain, during the week of June 26-30, 2023. 
 
 Any member of the DELPHIN organization is invited and is encouraged to register here.
 

@@ -7,14 +7,14 @@ pages système :
 - IndexTitre
 - IndexMot
 - NavigationSite
-- [TrouvePage](https://blog.inductorsoftware.com/docsproto/missing/TrouvePage)
+- TrouvePage
 - [PréférencesUtilisateur](/Pr%C3%A9f%C3%A9rencesUtilisateur)
 - [PagesAbandonnées](/PagesAbandonn%C3%A9es)
 - PagesOrphelines
 - [PagesSouhaitées](/PagesSouhait%C3%A9es)
-- [EventStats](https://blog.inductorsoftware.com/docsproto/missing/EventStats)
-- [EventStats/HitCounts](https://blog.inductorsoftware.com/docsproto/missing/EventStats_HitCounts)
-- [EventStats/UserAgents](https://blog.inductorsoftware.com/docsproto/missing/EventStats_UserAgents)
+- EventStats
+- EventStats/HitCounts
+- EventStats/UserAgents
 - PageSize
 - InterWiki
 - [PageAléatoire](/PageAl%C3%A9atoire)
@@ -30,7 +30,7 @@ pages système :
 
 pages d'aide:
 
-- [SommaireAide](https://blog.inductorsoftware.com/docsproto/missing/SommaireAide)
+- SommaireAide
 - [AideAuxDébutants](/AideAuxD%C3%A9butants)
 - [AideAuxDévellopeurs](/AideAuxD%C3%A9vellopeurs)
 - [IndexAide](/IndexAide)

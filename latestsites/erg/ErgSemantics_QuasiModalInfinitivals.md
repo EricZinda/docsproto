@@ -27,7 +27,7 @@ other and to which we assign the same semantic representation.
 - *The plumber who is to fix the sink is coming at 10.*
 
 We differentiate this use of infinitival clauses from the superficially
-similar [instrumental relatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_InstrumentalRelatives)
+similar instrumental relatives
 like the following:
 
 - *Money to buy the dog arrived.*
@@ -61,8 +61,8 @@ the English Language. Cambridge: Cambridge University Press.
 
 # More Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
-- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
+- ErgSemantics main page
+- Inventory of semantic phenomena (to be)
 documented
-- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
+- How to cite this work
 <update date omitted for speed>{% endraw %}

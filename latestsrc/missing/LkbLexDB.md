@@ -7,7 +7,7 @@
 
 If running the LKB runtime binary:
 
-- Download and install ([LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)) the latest
+- Download and install (LkbInstallation) the latest
 LKB, taking care to install/extract the lkb\_data.tgz archive into
 the lkb installation directory (henceforth \[Linux\] \~/lkb).
 - Ensure the environment variable PSQL is set: e.g. \[Linux\] set
@@ -15,15 +15,15 @@ export PSQL=t in .bashrc.
 
 If running the LKB from source:
 
-- Download and compile ([LkbCompilation](https://blog.inductorsoftware.com/docsproto/tools/LkbCompilation)) the LKB,
+- Download and compile (LkbCompilation) the LKB,
 ensuring that
   
   - your .clinit.cl file contains (pushnew :psql \*features\*)
   - your .lkbrc file contains (psql-initialize)
 
 Now initialize the database server
-([LexDbPsqlInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbPsqlInitialize)) and the lexical database
-itself ([LexDbInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize)).
+(LexDbPsqlInitialize) and the lexical database
+itself (LexDbInitialize).
 
 ## HOW TO set the filter
 
@@ -153,7 +153,7 @@ from Emacs LexDB major mode: *M-vs*
 
 ## Further Topics
 
-[LexDbInternals](https://blog.inductorsoftware.com/docsproto/missing/LexDbInternals) [BR](/BR)\["MWEs and Idiomatic
+LexDbInternals [BR](/BR)\["MWEs and Idiomatic
 Expressions"\] [BR](/BR) \[<http://www.cl.cam.ac.uk/~bmw20/DT/Papers/>
 Papers\]
 <update date omitted for speed>{% endraw %}

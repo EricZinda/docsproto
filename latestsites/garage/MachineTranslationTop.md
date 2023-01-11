@@ -15,10 +15,10 @@ for the time being.
 - MRS property mappings (oe)
 - MT bach processing and BLEU scoring (intro: oe, use: fcb)
 - SEM-I interactions (use of hierarchy, look up information, et al.)
-- [JaEn](/JaEn), [EnJa](/EnJa), [NoJa](https://blog.inductorsoftware.com/docsproto/tools/NoJa), [JaNo](/JaNo) and
+- [JaEn](/JaEn), [EnJa](/EnJa), NoJa, [JaNo](/JaNo) and
 [JaJa](/JaJa) prototypes (oe & fcb)
 - sharing types across transfer grammars (oe, testing fcb)
-- draft documention [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) (fcb, should really
+- draft documention LogonTransfer (fcb, should really
 be oe)
 
 ## Not strictly MT

@@ -1,8 +1,8 @@
 {% raw %}# Processing session
 
 To take place on the 13th and the morning of the 14th, with small group
-activities (see [FeforSmallGroups](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)) proceeding
-throughout the week at Fefor. [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs) will take place on
+activities (see FeforSmallGroups) proceeding
+throughout the week at Fefor. FeforRmrs will take place on
 the afternoon of the 14th and morning of the 15th. The emphasis in the
 processing sessions is intended to be on practical activities that are
 best done face-to-face and where we can achieve concrete results while
@@ -29,24 +29,24 @@ volunteer.
 | 12:30 - 14:00 | Lunch                                                      |
 | 14:00 - 16:00 | Interfaces, preprocessors and standoff annotation          |
 | 16:00 - 16:30 | Coffee                                                     |
-| 16:30 - 18:30 | [Small group activities](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)                 |
+| 16:30 - 18:30 | Small group activities                 |
 
 ## 14-Jun
 
 |               |                                                                                                                                                             |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 09:30 - 10:30 | [Small group activities](https://blog.inductorsoftware.com/docsproto/summits/FeforSmallGroups)                                                                                                                  |
+| 09:30 - 10:30 | Small group activities                                                                                                                  |
 | 10:30 - 11:00 | Coffee                                                                                                                                                      |
-| 11:00 - 12:30 | Presentation/Demonstration: [LkbTrollet](https://blog.inductorsoftware.com/docsproto/tools/LkbTrollet): tool for multilingual grammar engineering - a wrapper around the LKB (PavelMihaylov) |
+| 11:00 - 12:30 | Presentation/Demonstration: LkbTrollet: tool for multilingual grammar engineering - a wrapper around the LKB (PavelMihaylov) |
 |               | Other tools, small groups                                                                                                                                   |
 | 12:30 - 14:00 | Lunch                                                                                                                                                       |
-| 14:00         | Begin joint discussion on [MRS/RMRS](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)                                                                                                             |
+| 14:00         | Begin joint discussion on MRS/RMRS                                                                                                             |
 
 ## Testing (technology and practice for developers)
 
 - Automated testing (FrancisBond,
 UlrichSchaefer, cf. also
-[TestingWithAnt](https://blog.inductorsoftware.com/docsproto/garage/TestingWithAnt))
+TestingWithAnt)
   
   - Everyone agreed it was a good idea, and that we neeed a
 framework people can add too
@@ -60,7 +60,7 @@ testing with [SciBorg](/SciBorg) at Cambridge
 
 ## Interfaces, preprocessors and standoff annotation
 
-- [FeforStandoffAnnotationInterface](https://blog.inductorsoftware.com/docsproto/summits/FeforStandoffAnnotationInterface)
+- FeforStandoffAnnotationInterface
 / SMAF (BenWaldron and
 UlrichSchaefer)
   
@@ -69,7 +69,7 @@ we can design a language for the interface
 - Preprocessors (FrancisBond)
 - PET API (proposal, discussion) (UlrichSchaefer)
   
-  - Uli to start outline on the wiki: [FeforPetApi](https://blog.inductorsoftware.com/docsproto/garage/FeforPetApi)
+  - Uli to start outline on the wiki: FeforPetApi
 - Grammar interfaces: clear interface for robustness-related grammar
 elements (paths/types/pos-tags/expected tokenization/punctuation
 etc.) e.g. specified in the inline documentation in such a way that

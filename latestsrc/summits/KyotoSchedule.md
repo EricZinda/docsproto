@@ -1,4 +1,4 @@
-{% raw %}This is the timetable for the [DELPH-IN 2008 Summit](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop).
+{% raw %}This is the timetable for the DELPH-IN 2008 Summit.
 
 ### Jul-31
 
@@ -81,7 +81,7 @@ MRS](http://www.coli.uni-saarland.de/~rwang/slides/delphin2008Wang.pdf):
   - *Recognizing/Generating Textual Entailment*
   - *Semantic Role Labeling*
 - [Means for increasing intra-DELPH-IN collaboration and
-communication](https://blog.inductorsoftware.com/docsproto/summits/KyotoSchedule_InterDelphinNotes)
+communication]()
   
   - Paper exchange (EmilyBender,
 RebeccaDridan)
@@ -117,7 +117,7 @@ Representations* ([YusukeMiyao](/YusukeMiyao))
   - Assessment of current visibility of DELPH-IN in the field and
 means for increasing it
   - Taking stock of this year's summit, suggestions for the future
-(8/2010: notes incorporated in [SummitTop](https://blog.inductorsoftware.com/docsproto/summits/SummitTop))
+(8/2010: notes incorporated in SummitTop)
 - Breakout sessions
 
 **19:00** Jazz concert in the park!

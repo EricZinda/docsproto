@@ -49,7 +49,7 @@ See <http://moin.delph-in.net/GrammarCatalogue> for current information.
 | Paraphrasing rules         | Yes                                                                                        |
 | SEM-I                      | Yes                                                                                        |
 | Application(s)             | MT, email response                                                                         |
-| Processing engines         | [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop), [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), ACE, ([LILFES](http://www-tsujii.is.s.u-tokyo.ac.jp/lilfes)) |
+| Processing engines         | LKB, PET, ACE, ([LILFES](http://www-tsujii.is.s.u-tokyo.ac.jp/lilfes)) |
 | Operating systems          | Linux, Windows, MacOS                                                                      |
 | Notes                      |                                                                                            |
 

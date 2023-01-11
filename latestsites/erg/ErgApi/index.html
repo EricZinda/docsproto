@@ -428,11 +428,11 @@ number of distinct readings and overall parsing time), as well as an
 array of <em>result</em> structures. At present, three perspectives on each
 parsing result are available (with more in the making): its <em>derivation</em>
 tree (e.g. the full recipe for deriving this analysis; see the
-<a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations">ItsdbDerivations</a> page), an underspecified
+ItsdbDerivations page), an underspecified
 logical-form meaning representation in <em>Minimal Recursion Semantics</em>
-(MRS; see the <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics">ErgSemantics</a> page for background), and a
+(MRS; see the ErgSemantics page for background), and a
 simplification of the semantics as an <em>Elementary Dependency Structure</em>
-(EDS; see the <a href="https://blog.inductorsoftware.com/docsproto/tools/EdsTop">EdsTop</a> page for background).</p>
+(EDS; see the EdsTop page for background).</p>
 
 <p>For example, the query
 <a href="http://erg.delph-in.net/rest/0.9/parse?derivation=json&amp;input=Abrams%20arrived.">http://erg.delph-in.net/rest/0.9/parse?derivation=json&amp;input=Abrams%20arrived.</a>
@@ -487,7 +487,7 @@ parsing service with Python and using only the standard library:</p>
   11 '_have_v_cause'
 </code></pre></div></div>
 
-<p><a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a> provides a slightly smoother experience for
+<p>PyDelphin provides a slightly smoother experience for
 Python:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   1 &gt;&gt;&gt; from delphin.interfaces import rest
@@ -507,11 +507,11 @@ Python:</p>
 
 <ul>
   <li>The server based on the LKB and <a href="http://www.delph-in.net/itsdb">[incr
-tsdb()]</a> is in the <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LOGON</a>
-tree. See <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonOnline">LogonOnline</a> for more information.</li>
+tsdb()]</a> is in the LOGON
+tree. See LogonOnline for more information.</li>
   <li><a href="https://github.com/delph-in/bottlenose">Bottlenose</a> is a WSGI
-application based on <a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a> and <a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">ACE</a>.</li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop">PyDelphin</a> includes a client compatible with either of
+application based on PyDelphin and ACE.</li>
+  <li>PyDelphin includes a client compatible with either of
 the above servers. See the
 <a href="https://pydelphin.readthedocs.io/en/latest/api/delphin.interfaces.rest.html">documentation</a>
 for more information.</li>

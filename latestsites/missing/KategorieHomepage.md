@@ -17,5 +17,5 @@ Case-sensitive searching
 
 * * *
 
-[KategorieKategorie](https://blog.inductorsoftware.com/docsproto/missing/KategorieKategorie)
+KategorieKategorie
 <update date omitted for speed>{% endraw %}

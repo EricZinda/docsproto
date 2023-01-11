@@ -7,7 +7,7 @@ MoinMoin understøtter disse
 - OrdListe
 - FindSide
 - [ØnskedeSider](/%C3%98nskedeSider)
-- [EfterladteSider](https://blog.inductorsoftware.com/docsproto/missing/EfterladteSider)
+- EfterladteSider
 - [TilfældigSide](/Tilf%C3%A6ldigSide)
 - [SideStørrelse](/SideSt%C3%B8rrelse)
 

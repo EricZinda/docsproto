@@ -1,6 +1,6 @@
 {% raw %}# Overview
 
-The LOGON system (see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page for background) is
+The LOGON system (see the LogonTop page for background) is
 scarcely blessed with technical documentation. However, for some of the
 individual components and specific aspects of the system, a collection
 of [technical reports](http://www.emmtee.net/reports/) provides some

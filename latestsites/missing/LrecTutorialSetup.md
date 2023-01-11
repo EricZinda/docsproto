@@ -44,14 +44,14 @@ and the English Resource Grammar natively on your machine (i.e. without
 using VirtualBox); however, file names and support software may not be
 configured as assumed for the tutorial. The [ACE
 homepage](http://sweaglesw.org/linguistics/ace/) has the relevant links
-and some instructions; you may also find [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) (in particular
-[AceInstall](https://blog.inductorsoftware.com/docsproto/tools/AceInstall) and [AceLui](https://blog.inductorsoftware.com/docsproto/tools/AceLui)) useful.
+and some instructions; you may also find AceTop (in particular
+AceInstall and AceLui) useful.
 
 Serious users will also find the so-called LOGON tree of interest. This
 collection of software includes tools for grammar engineering,
 converting between output formats, inspecting and annotating treebanks,
-parsing and generating, and more. See [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) and
-[LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) (especially [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation))
+parsing and generating, and more. See ErgProcessing and
+LogonTop (especially LogonInstallation)
 for instructions and more details.
 
 ## Acknowledgements

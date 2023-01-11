@@ -385,7 +385,7 @@ Process finished with exit code 1
 There isn't 'a bird' in the system
 </code></pre></div></div>
 
-<p>The real error is “I don’t know the words ‘be’ and ‘bird’”, but our quantifiers have the following logic in them (from the Quantifier Errors topic) and so the error is ignored:</p>
+<p>The real error is “I don’t know the words ‘be’ and ‘bird’”, but our quantifiers have the following logic in them (from the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors">Quantifier Errors topic</a>) and so the error is ignored:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def a_q(state, x_variable, h_rstr, h_body):
     
@@ -397,7 +397,7 @@ There isn't 'a bird' in the system
         report_error(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
 </code></pre></div></div>
 
-<p>A better approach all around is to add an earlier stage to our processing pipeline: Before we bother to build a well-formed tree (because it could take some time), check and see if we understand all the terms. If not, building the tree won’t help anyway.  In addition, this gives us a chance to do some swapping out of terms for synonyms if we so choose.</p>
+<p>A better approach all around is to add an earlier stage to our processing pipeline: Before we bother to <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree">build a well-formed tree</a> (because it could take some time), check and see if we understand all the terms. If not, building the tree won’t help anyway.  In addition, this gives us a chance to do some swapping out of terms for synonyms if we so choose.</p>
 
 <p>So, first let’s build a function that goes through all the predications in an MRS and returns any that are not known by the system:</p>
 
@@ -511,7 +511,7 @@ Traceback (most recent call last):
     
 </code></pre></div></div>
 
-<p>The next section will explore what is going on here and how we can fix it.</p>
+<p>The <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage">next section</a> will explore what is going on here and how we can fix it.</p>
 
 <blockquote>
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>

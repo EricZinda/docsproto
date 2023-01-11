@@ -52,9 +52,9 @@ It is called as follows, to export a single profile:
 
       ./export redwoods/jun-04/vm6/04-06-11
 
-There are other batch scripts in LOGON tree (see [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)).
+There are other batch scripts in LOGON tree (see LogonTop).
 In the top directory are scripts for parsing, generating and
-transfering. See the [LogonProcessing](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing) page for some
+transfering. See the LogonProcessing page for some
 further instructions.
 
 There are more scripts under lingo/redwoods/ for training stochastic
@@ -79,7 +79,7 @@ updates and normalization).
 
 However, some task remain challenging. See the note on memory
 requirements for exporting toward the bottom of
-[RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop). In the Hinoki project, we are now forced to
+RedwoodsTop. In the Hinoki project, we are now forced to
 use a 64 bit machine to export, as we often run out of memory with the
 32 bit lisp.
 

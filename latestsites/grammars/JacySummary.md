@@ -43,7 +43,7 @@
 | Paraphrasing rules         | Yes (one rule)                                                                           |
 | SEM-I                      | No                                                                                       |
 | Application(s)             | Text, Dictionary definitions                                                             |
-| Processing engines         | [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop), [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), [HoG](/HogTop)                                             |
+| Processing engines         | LKB, PET, [HoG](/HogTop)                                             |
 | Operating systems          | Linux                                                                                    |
 | Notes                      |                                                                                          |
 <update date omitted for speed>{% endraw %}

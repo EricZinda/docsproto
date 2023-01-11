@@ -14,7 +14,7 @@ used.
 that if you define two types or entries with the same identifier
 (string before the :=), the second will overwrite the first. The LKB
 will print a warning when this happens.
-- [Type addendum](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTypeAddendum) statements (:+) are valid only if
+- Type addendum statements (:+) are valid only if
 they follow the initial type definition statement (:=) for the type
 in question.
 - For the same reasons, order matters across files. If you define a
@@ -25,9 +25,9 @@ retained.
 ## Related topics
 
 - [How do I see what definition the LKB has read in for a
-type?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewType)
+type?]()
 - [How do I look at fully specified lexical entries or
-rules?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewEntry)
+rules?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

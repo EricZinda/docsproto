@@ -1,5 +1,5 @@
 {% raw %}The ***Linguistic Type Database*** processes grammars and treebanks to
-make online documentation for grammars made with the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop).
+make online documentation for grammars made with the LKB.
 
 The code and documentation can mainly be found on github:
 <https://github.com/fcbond/ltdb>
@@ -10,16 +10,16 @@ treebank if it exists.
 
 Contents
 
-1. [Sample In Line Documentation](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-   1. [Examples](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-   2. [Names](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+1. Sample In Line Documentation
+   1. Examples
+   2. Names
 2. [Integration with FFTB and
-delphin-viz](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-3. [Installation](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-   1. [Setting up your server](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-   2. [Tool Support](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-4. [References](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
-5. [To Do](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb)
+delphin-viz]()
+3. Installation
+   1. Setting up your server
+   2. Tool Support
+4. References
+5. To Do
 
 The minimal Linguistic Type Database offers the following:
 
@@ -104,7 +104,7 @@ It is assumed that the name is finished by a newline.
 ## Integration with FFTB and delphin-viz
 
 If you shift-click on a rule or lexical entry in the [Full Forest
-TreeBanker](https://blog.inductorsoftware.com/docsproto/tools/FftbTop)'s unary rules it will take you to the ltdb defined
+TreeBanker]()'s unary rules it will take you to the ltdb defined
 in assets/render.js:
 
     var ltdburl = "https://lr.soh.ntu.edu.sg/~bond/cgi-bin/ERG_mo/search.cgi?typ="
@@ -133,7 +133,7 @@ appropriate Apache configuration file. That could be
 ### Tool Support
 
 As of 2018-11-4, docstrings are supported by the latest
-[LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) and PyDelphin, PET and ACE, with support
+LKB-FOS and PyDelphin, PET and ACE, with support
 in the LOGON LKB promised soon.
 
 Currently, the LKB does NOT support doc-strings in instances (such as
@@ -169,5 +169,5 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
 - finish the documentation
   - add screenshots
   - link to some running Lexical Type Databases (like
-[this](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexTypes))
+this)
 <update date omitted for speed>{% endraw %}

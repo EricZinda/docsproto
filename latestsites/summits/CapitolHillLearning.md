@@ -1,7 +1,7 @@
 {% raw %}A discussion of using delph-in tools for langauge learning, plus a brief
 intro to the new work Sanghoun is doing.
 
-Discussion at the [2017 Grammar Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop) led
+Discussion at the 2017 Grammar Engineering Meeting led
 by SanghounSong, scribed by FrancisBond.
 
 3 topics (SSH)
@@ -106,5 +106,5 @@ compare results from csaw with typediff
     command-line option
     --pcfg=something.pcfg 
 
-See [AceCsaw](https://blog.inductorsoftware.com/docsproto/tools/AceCsaw) for more information.
+See AceCsaw for more information.
 <update date omitted for speed>{% endraw %}

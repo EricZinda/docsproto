@@ -23,12 +23,12 @@ SYNSEM)?
 ## Related topics
 
 - [How do I see what a type looks like with all of the constraints it
-inherits from supertypes?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqExpandedType)
+inherits from supertypes?]()
 - [How do I look at fully specified lexical entries or
-rules?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewEntry)
+rules?]()
 - [How do I see what definition the LKB has read in for a
-type?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewType)
-- [In which files does order matter?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqOrderMatters)
+type?]()
+- In which files does order matter?
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

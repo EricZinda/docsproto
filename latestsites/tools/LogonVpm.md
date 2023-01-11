@@ -245,7 +245,7 @@ their ARG0, say.
 # Cross References
 
 There is a discussion of how to delete and attribute for only some
-predicates at [NoJa](https://blog.inductorsoftware.com/docsproto/tools/NoJa).
+predicates at NoJa.
 
 # ToDo
 <update date omitted for speed>{% endraw %}

@@ -609,7 +609,7 @@ Ann: Do these things show up in corpora?
 
 Dan: Yeah.
 
-oe: We could probably query [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) for that, with the
+oe: We could probably query DeepBank for that, with the
 right fingerprints.
 
 Emily: So what's the generalization behind the asymmetry again? Is it
@@ -781,7 +781,7 @@ nominalization.
 
 Ann: The quantification examples are relevant.
 
-oe: Used in 17% of all [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) examples.
+oe: Used in 17% of all DeepBank examples.
 
 Dan: Yes, prominent in NN compound constructions.
 

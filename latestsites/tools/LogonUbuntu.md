@@ -4,7 +4,7 @@ Linux distributions differ, particularly so in the selection of tools
 and libraries pre-installed in standard configurations. This page
 provides Ubuntu-specific information related to installing and operating
 the LOGON infrastructure (for general installation guidelines, please
-see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page). The information on
+see the LogonInstallation page). The information on
 this page is user-provided documentation. As you extend or revise the
 page, please take care to spell out (a) the specific problem to be
 addressed, including observable symptoms; (b) the exact platform (32- or
@@ -13,7 +13,7 @@ procedure to be applied for fixing the problem.
 
 # 32-Bit Compatibility Libraries
 
-As recommended in [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation), you'll want
+As recommended in LogonInstallation, you'll want
 32-bit libraries on 64-bit systems.
 
 In recent Ubuntu's (such as 14.04) you should do:
@@ -36,5 +36,5 @@ other components):
 
 On Precise Pangolin (12.04) you may only need libjpeg62.
 
-Possibly also see [LogonDebian](https://blog.inductorsoftware.com/docsproto/tools/LogonDebian)
+Possibly also see LogonDebian
 <update date omitted for speed>{% endraw %}

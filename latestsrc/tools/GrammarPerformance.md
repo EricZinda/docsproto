@@ -8,29 +8,29 @@ here.
 
 This page aims to document DELPH-IN techniques. It was started by
 Francis, inspired by the [Capitol Hill Grammar
-Engineering Meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop) and based on a page originally
-written for Jacy ([JacyPerformance](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)).
+Engineering Meeting]() and based on a page originally
+written for Jacy (JacyPerformance).
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
 **Table of Contents**
 
-- [Things to tweak for overall performance](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Quick Check](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-    - [PET](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-    - [ACE](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-    - [LKB](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-    - [ToDo](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Key Arguments](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-    - [ToDo](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Spanning Only Rules](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Trigger Rules for Generation](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Don't copy things you won't use](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Ubertagging](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-- [Things to do to reduce noise during grammar engineering](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-- [Things that magically just happen](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Ambiguity Packing](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
-  - [Packing under Generalization](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance)
+- Things to tweak for overall performance
+  - Quick Check
+    - PET
+    - ACE
+    - LKB
+    - ToDo
+  - Key Arguments
+    - ToDo
+  - Spanning Only Rules
+  - Trigger Rules for Generation
+  - Don't copy things you won't use
+  - Ubertagging
+- Things to do to reduce noise during grammar engineering
+- Things that magically just happen
+  - Ambiguity Packing
+  - Packing under Generalization
 
 <!-- markdown-toc end -->
 
@@ -252,8 +252,8 @@ You can control when to add lexical entries with empty semantics to the
 generator chart using trigger rules. If they were all added all the time
 then the chart would get too big.
 
-See [LkbGeneration](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration) for more discussion (note that
-trigger rules also work with [Ace](https://blog.inductorsoftware.com/docsproto/tools/AceTop)).
+See LkbGeneration for more discussion (note that
+trigger rules also work with Ace).
 
 ## Don't copy things you won't use
 
@@ -278,7 +278,7 @@ Ubertagging is the process of supertagging over ambiguous tokenisation.
 This process filters the lexical lattice prior to full parsing according
 to a statistical model. It is especially sueful for long sentences.
 
-See the [Uber Tagging](https://blog.inductorsoftware.com/docsproto/garage/UtTop) page for more details.
+See the Uber Tagging page for more details.
 
 Ubertagging is available for PET and ACE, but needs some set up and
 training over a corpus.
@@ -317,7 +317,7 @@ until you are really trying for very high coverage.
 
 ## Ambiguity Packing
 
-See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/PetSelectiveUnpacking).
+See PetSelectiveUnpacking.
 
 ## Packing under Generalization
 

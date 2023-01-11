@@ -18,11 +18,11 @@ if you scroll down in the type window.
 ## Related Topics
 
 - [How do I see what a type looks like with all of the constraints it
-inherits from supertypes?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqExpandedType)
+inherits from supertypes?]()
 - [How do I look at fully specified lexical entries or
-rules?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewEntry)
+rules?]()
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
-should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNewFeature)
+should I do?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

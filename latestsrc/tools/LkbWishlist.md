@@ -25,7 +25,7 @@ really the same, e.g.
        SYNSEM.LOCAL.CAT.HEAD i-adj_head & [MARK < [LOCAL.CAT.HEAD.H-TENSE te] > ],
        J-NEEDS-AFFIX +].
 - **Linear precedence constraints**: see
-[LkbLpconstraints](https://blog.inductorsoftware.com/docsproto/tools/LkbLpconstraints) for a discussion document.
+LkbLpconstraints for a discussion document.
 - **Filter in the generator that blocks application of lex rules**
 which add constraints to e.g., PNG which are incompatible with the
 input. (This should keep edges corresponding to verbs inflection for
@@ -51,23 +51,23 @@ example, if the LKB could read the english.tdl file, ...
 ### In Progress / Done
 
 - **Control over font size in show-gen-output windows**: in
-[LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), these and other list-like windows (such as the
+LkbFos, these and other list-like windows (such as the
 'Apply all lex rules' window) obey the \*parse-tree-font-size\* user
 parameter.
 - **Comments in TDL**: although the TdlRfc specification
 does not provide a way to comment out a section of TDL by wrapping
-it in a definition, [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) fully implements the
+it in a definition, LkbFos fully implements the
 BlockComment facility. There is partial support for block comments
 in the 'classic' LKB, but they are only allowed between definitions.
 - **Support for multibyte encodings in the error messages**: for TDL
 reading errors, the classic version of the LKB (unhelpfully) reports
-byte positions --- [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) reports line numbers and
+byte positions --- LkbFos reports line numbers and
 character positions.
 - **Consistent treatment of infl-pos**: the user-defined function
 find-infl-pos controls location(s) of lexical rule application for
 multiwords. It seems to work as expected in parsing, but not in
 manual lexical rule application or generation. This issue is
-currently being fixed in [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos).
+currently being fixed in LkbFos.
 - **Proper support in the display/entry for non-ASCII encodings**
   
   - entering text in the parse window
@@ -76,6 +76,6 @@ currently being fixed in [LkbFos](https://blog.inductorsoftware.com/docsproto/to
   - currently some support in Linux with Trollet, doesn't work in
 windows for some (most?) encodings
   
-  These points are (mostly) implemented in [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), although
+  These points are (mostly) implemented in LkbFos, although
 some work is required to pre-select the Unicode fonts to be used.
 <update date omitted for speed>{% endraw %}

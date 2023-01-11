@@ -2,21 +2,21 @@
 
 Contents
 
-1. [Parallel Corpora for DELPH-IN](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
+1. Parallel Corpora for DELPH-IN
    1. [Collections/Samples of available parallel
-corpora](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
-      1. [Europarl Corpus](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
+corpora]()
+      1. Europarl Corpus
       2. [OPUS: Technical Documentation (plus Europarl and European
-Constitution)](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
-      3. [The Sofie Treebank](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
+Constitution)]()
+      3. The Sofie Treebank
       4. [The JRC-Acquis Multilingual Parallel
-Corpus](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
-      5. [Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
+Corpus]()
+      5. Cathedral and the Bazaar
       6. [Universal Declaration of Human
-Rights](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
-      7. [Scroogled](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
+Rights]()
+      7. Scroogled
    2. [Some criteria for choosing a
-corpus](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp)
+corpus]()
 
 ## Collections/Samples of available parallel corpora
 
@@ -65,7 +65,7 @@ be able to get permission for.
 - \- URL: <http://catb.org/~esr/writings/cathedral-bazaar/>
 
 We decided to use this as a corpus, the full description is now up at
-[MatrixMrsCatb](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb).
+MatrixMrsCatb.
 
 ### Universal Declaration of Human Rights
 

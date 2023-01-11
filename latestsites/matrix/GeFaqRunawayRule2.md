@@ -2,7 +2,7 @@
 
 ## When I try to generate, the LKB says "probable runaway rule". How do I debug this?
 
-As with the [parallel error in parsing](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqRunawayRule1), this happens
+As with the parallel error in parsing, this happens
 when the generator chart gets too big. Because the generator is working
 from a bag of lexical items corresponding to the semantic relations it
 was given, but no particular order of those lexical items, it has a
@@ -86,7 +86,7 @@ overgenerating.
 
 - [What are filter rules and how do I write them?](/GeFaqFilterRules)
 - [When I try to generate, the LKB says "Probable circular lexical
-rule". How do I debug this?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqCircularLexRule)
+rule". How do I debug this?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

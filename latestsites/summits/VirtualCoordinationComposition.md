@@ -676,7 +676,7 @@ must eat fish’?
 
 Dan: Reminiscent of discussion at Hankø where we started looking into
 this. \[EMB: I think that was [this
-discussion](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_ScopalArgCoord).\]
+discussion]().\]
 
 Woodley: Main cost is in loss of existing tools for bug checking.
 

@@ -4,13 +4,13 @@ FSPP (Finite-State [PreProcessor](/PreProcessor)) provides the simple
 standard preprocesser for use with DELPH-IN software tools and grammars.
 The preprocessor is available both as a stand-alone executable
 ([SafFsppStandAlone](/SafFsppStandAlone)) as well as an embedded module
-in the [LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) and \[in progress...\] an embedded module in
-[PetTop](https://blog.inductorsoftware.com/docsproto/garage/PetTop).
+in the LkbTop and \[in progress...\] an embedded module in
+PetTop.
 
 FSPP is initialized from a file containing finite-state rule definitions
 (eg. \`preprocessor.fsr'). It is then fed input strings (one per
 sentence) as input, from which it produces standoff XML (in the
-[SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop) or [SafTop](https://blog.inductorsoftware.com/docsproto/tools/SafTop) formats) as output.
+SmafTop or SafTop formats) as output.
 
 ## FSPP Example
 

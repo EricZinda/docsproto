@@ -1,16 +1,16 @@
 {% raw %}Jacy uses the light weight version of the lexical database ([Single
-User](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbSingleUser) mode). (2006-09-06: incomplete initial
+User]() mode). (2006-09-06: incomplete initial
 documentation --- details may change)
 
 Contents
 
-1. [Database Fields](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
-   1. [TDL Fields](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
-   2. [All Fields](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
-2. [Lexicon Interaction with CVS](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
-3. [Set Up](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
-4. [ToDo](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
-5. [Priveleges](https://blog.inductorsoftware.com/docsproto/grammars/JacyLexDb)
+1. Database Fields
+   1. TDL Fields
+   2. All Fields
+2. Lexicon Interaction with CVS
+3. Set Up
+4. ToDo
+5. Priveleges
 
 # Database Fields
 
@@ -77,7 +77,7 @@ Defined in japanese/lex/su-init.sql
 # Set Up
 
 Set up the database as described in the [Single
-User](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbSingleUser) page, then load the lexicon from CVS.
+User]() page, then load the lexicon from CVS.
 
 - Connect to the database (normally called jacy)
   

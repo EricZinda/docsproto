@@ -1,7 +1,7 @@
 {% raw %}Discussion of MWEs, inspired by Ann's participation in
 [PARSEME](http://www.cost.eu/domains_actions/ict/Actions/IC1207).
 
-We have started a new page on MWEs ([MweTop](https://blog.inductorsoftware.com/docsproto/summits/MweTop)) to which we will
+We have started a new page on MWEs (MweTop) to which we will
 link various relevant things.
 
 ## What do we do now

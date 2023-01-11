@@ -1,6 +1,6 @@
 {% raw %}# Background
 
-The [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) research group at the Oslo Center for Advanced
+The SynSem research group at the Oslo Center for Advanced
 Study (CAS) holds a working meeting with parts of the (enhanced)
 Universal Dependencies (UD), to discuss meaning construction on top of
 UD syntax. The meeting will be held from Monday, March 19, to Wednesday,
@@ -35,12 +35,12 @@ in Oslo.
 
 Participants are expected to make their own travel arrangements to Oslo
 and submit transportation receipts for reimbursement upon completion of
-the meeting. [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) has earmarked up to EUR 1000 per
+the meeting. SynSem has earmarked up to EUR 1000 per
 participant traveling from outside Europe and up to EUR 400 per
 participant from within Europe; in case you find it impossible to make
 travel arrangements to Oslo within these limits, please make contact
 with Dag and Stephan as soon as possible. Accomodation and meals while
-in Oslo will be covered by [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) directly.
+in Oslo will be covered by SynSem directly.
 
 # Programme
 

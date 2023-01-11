@@ -76,10 +76,10 @@ Miriam Butt & Tracy Holloway King, Coling tutorial 2004
 
 ## Tutorials
 
-- [HPSG Introduction & Implementation](https://blog.inductorsoftware.com/docsproto/howto/HpsgTutorial) Emily M. Bender
+- HPSG Introduction & Implementation Emily M. Bender
 and Dan Flickinger, HPSG 2017, Lexington, KY, July 7. (video
 available)
-- [English Resource Semantics](https://blog.inductorsoftware.com/docsproto/howto/ErsTutorial) Dan Flickinger, Emily M.
+- English Resource Semantics Dan Flickinger, Emily M.
 Bender and Woodley Packard, NAACL 2016, San Diego, CA, June 12.
 (video available)
 - [The LinGO Grammar Matrix: Rapid Grammar Development for Hypothesis

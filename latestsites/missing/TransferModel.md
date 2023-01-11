@@ -2,26 +2,26 @@
 
 This page shows how a trigram model for transfer ranking can be built.
 The first part shows how profiles with MRSs can be built and how MRS
-triples can be exported. It overlaps with [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools)
-and [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop). The second part shows
+triples can be exported. It overlaps with DelphinTools
+and RedwoodsTop. The second part shows
 ErikVelldal's procedure for creating an MRS trigram
 model.
 
 Contents
 
-1. [Objective](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-2. [Preliminaries](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
+1. Objective
+2. Preliminaries
 3. [Exporting MRS triples from
-Logon](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-   1. [Creating the profiles](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
+Logon]()
+   1. Creating the profiles
    2. [Exporting triples from the
-profiles](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-4. [Creating the transfer model](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-   1. [Remove formatting](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-   2. [Produce context cues](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-   3. [Extract the vocabulary](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-   4. [Train the model](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
-5. [Loading the transfer model](https://blog.inductorsoftware.com/docsproto/missing/TransferModel)
+profiles]()
+4. Creating the transfer model
+   1. Remove formatting
+   2. Produce context cues
+   3. Extract the vocabulary
+   4. Train the model
+5. Loading the transfer model
 
 # Preliminaries
 
@@ -30,7 +30,7 @@ The procedure requires three tools:
 - The CMU Toolkit (<http://mi.eng.cam.ac.uk/~prc14/toolkit.html>),
 - SMT [QuickRun](/QuickRun)
 (<http://ufal.ms.mff.cuni.cz/~curin/SMT_QuickRun/>), and
-- [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools).
+- DelphinTools.
 
 The installation of the CMU Toolkit may conflict with Logon, so you may
 need to comment out the Logon settings in the .bashrc file temporarily
@@ -47,7 +47,7 @@ First, set a variable and a path:
 
 This step is needed if you do not have a profile. It shows how you can
 get a profile from the object sentences of a bilingual corpus file. (See
-also [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools).) Note that there are various other
+also DelphinTools.) Note that there are various other
 ways to do this. The first command below creates a new version of the
 bilingual corpus, where the object language comes first. The second
 command parses the sentences in the object language and stores the MRSs
@@ -59,7 +59,7 @@ command parses the sentences in the object language and stores the MRSs
 ## Exporting triples from the profiles
 
 This command extracts triples from the top ranked MRSs of the profile
-created above. (See [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop).)
+created above. (See RedwoodsTop.)
 
     $TSDBHOME/export --binary  --condition "result-id=0" --format triples bitxt/omrs
 

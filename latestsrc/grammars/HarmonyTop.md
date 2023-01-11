@@ -8,7 +8,7 @@ architecture and are kept in the file predicates.tdl.
 
 ## Predicate Names
 
-These follow the [RMRS naming convention](https://blog.inductorsoftware.com/docsproto/tools/RmrsPos).
+These follow the RMRS naming convention.
 
     _lemma_pos_sense_rel  (lexically introduced predicates)
     sense_rel            (abstract predicates introduced by constructions)

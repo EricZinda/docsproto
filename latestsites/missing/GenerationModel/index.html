@@ -857,8 +857,8 @@
 
 <p>This page shows how a trigram model for transfer ranking can be built.
 The first part shows how profiles with MRSs can be built and how MRS
-triples can be exported. It overlaps with <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinTools">DelphinTools</a>
-and <a href="https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop">RedwoodsTop</a>. The second part shows
+triples can be exported. It overlaps with DelphinTools
+and RedwoodsTop. The second part shows
 ErikVelldal’s procedure for creating an MRS trigram
 model.</p>
 
@@ -870,7 +870,7 @@ model.</p>
   <li>The CMU Toolkit ([<a href="http://mi.eng.cam.ac.uk/~prc14/toolkit.html">http://mi.eng.cam.ac.uk/~prc14/toolkit.html</a>]),</li>
   <li>SMT <a href="/QuickRun">QuickRun</a>
 ([<a href="http://ufal.ms.mff.cuni.cz/~curin/SMT_QuickRun/">http://ufal.ms.mff.cuni.cz/~curin/SMT_QuickRun/</a>]), and</li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinTools">DelphinTools</a>.</li>
+  <li>DelphinTools.</li>
 </ul>
 
 <p>The installation of the CMU Toolkit may conflict with Logon, so you may
@@ -889,7 +889,7 @@ export PATH=$LOGONROOT/lingo/lkb/src/tsdb/home:$PATH
 
 <p>This step is needed if you do not have a profile. It shows how you can
 get a profile from the object sentences of a bilingual corpus file. (See
-also <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinTools">DelphinTools</a>.) The first command below creates a
+also DelphinTools.) The first command below creates a
 new version of the bilingual corpus, where the object language comes
 first. The second command parses the sentences in the object language
 and stores the MRSs (of the five top ranked parses) in ‘bitxt.’</p>
@@ -901,7 +901,7 @@ logon_do --count 5 --limit 5 --grammar jaen --task omrs $TSDBHOME/bitxt
 <h2 id="exporting-triples-from-the-profiles">Exporting triples from the profiles</h2>
 
 <p>This command extracts triples from the top ranked MRSs of the profile
-created above. (See <a href="https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop">RedwoodsTop</a>.)</p>
+created above. (See RedwoodsTop.)</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$TSDBHOME/export --binary  --condition "result-id=0" --format triples bitxt/omrs
 </code></pre></div></div>

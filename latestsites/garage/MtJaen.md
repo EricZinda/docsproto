@@ -1,27 +1,27 @@
 {% raw %}# Japanese English Machine Translation
 
 This page describes the Jaen MT system, an MT system based on the [LOGON
-architecture](https://blog.inductorsoftware.com/docsproto/tools/LogonTop), using [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) for the source language
-analysis and the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) for the target language generation. In
+architecture](), using Jacy for the source language
+analysis and the ERG for the target language generation. In
 order to degrade gracefully in the presence of input we cannot yet
 translate, we are also working on a backup [Statistical MT
-system](https://blog.inductorsoftware.com/docsproto/garage/MtJaenSmt) based on [Moses](http://www.statmt.org/moses/).
+system]() based on [Moses](http://www.statmt.org/moses/).
 
-Jaen is the elder sibling of [Noja](https://blog.inductorsoftware.com/docsproto/tools/NoJa), the Norwegian-Japanese MT
+Jaen is the elder sibling of Noja, the Norwegian-Japanese MT
 system.
 
 Most of the rules of the Jaen MT system are extracted automatically from
 parallel corpora. The procedure for automatic rule extraction is
-described here: [MT rule extraction](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
+described here: MT rule extraction
 
-Some results can be found here: [MtJaenTanaka](https://blog.inductorsoftware.com/docsproto/garage/MtJaenTanaka),
-[MtJaenFeedbackCleaning](https://blog.inductorsoftware.com/docsproto/garage/MtJaenFeedbackCleaning).
+Some results can be found here: MtJaenTanaka,
+MtJaenFeedbackCleaning.
 
 There are some note on how to set up an MT system with the DELPH-In
-tools in the [MT tutorial](https://blog.inductorsoftware.com/docsproto/garage/MachineTranslationTutorial).
+tools in the MT tutorial.
 
 A list of things that need to be fixed in Jaen can be found here: [Todo
-list for Jaen](https://blog.inductorsoftware.com/docsproto/garage/JaenTodo)
+list for Jaen]()
 
 ## References
 

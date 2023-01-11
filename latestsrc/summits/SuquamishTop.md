@@ -107,7 +107,7 @@ from Sea-Tac airport to ferry terminal, via Link Light Rail.
 
 ## Schedule
 
-- [Schedule Page](https://blog.inductorsoftware.com/docsproto/summits/SuquamishSchedule)
+- Schedule Page
 - **25-27** Plenary
   
   - **26** afternoon/evening: excursion
@@ -116,10 +116,10 @@ from Sea-Tac airport to ferry terminal, via Link Light Rail.
 ## Previous and Future Meetings
 
 - 2011 7th Summit: Suquamish/Seattle (quasi-co-located with ACL)
-- 2010 6th Summit: [Paris](https://blog.inductorsoftware.com/docsproto/summits/ParisTop) (co-located with HPSG)
-- 2009 5th Summit: [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop)
-- 2008 4th Summit: [Kyoto](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop) (co-located with HPSG)
-- 2007 3rd Summit: [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
-- 2006 2nd Summit: [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
-- 2005 1st Summit: [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) (co-located with HPSG)
+- 2010 6th Summit: Paris (co-located with HPSG)
+- 2009 5th Summit: Barcelona
+- 2008 4th Summit: Kyoto (co-located with HPSG)
+- 2007 3rd Summit: Berlin
+- 2006 2nd Summit: Fefor
+- 2005 1st Summit: Lisbon (co-located with HPSG)
 <update date omitted for speed>{% endraw %}

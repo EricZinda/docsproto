@@ -5,8 +5,8 @@ We started off by looking through the
 
 They show the differences between versions.
 
-[LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), [Classic LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) (as corresponding to Ann's
-book), [LKB in the LOGON Environment](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
+LKB-FOS, Classic LKB (as corresponding to Ann's
+book), LKB in the LOGON Environment
 
 OE: I think of [\[incr tsdb()\]](http://www.delph-in.net/itsdb) as
 separate from LKB

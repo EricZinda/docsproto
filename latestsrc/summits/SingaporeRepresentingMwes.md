@@ -1,5 +1,5 @@
 {% raw %}Francis: \[Presents from slides, which can be found from
-[SingaporeSchedule](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule)\]
+SingaporeSchedule\]
 
 Emily: \[Expresses skepticism about program of finding
 [WordNet](/WordNet) senses of components of idioms.\]

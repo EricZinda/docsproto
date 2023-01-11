@@ -27,7 +27,7 @@ fundamental changes in the code (and is not considered necessary).
 line options that cannot be modified at runtime
 - cheap command line options that can be modified at runtime
 - MRS globals (shared with LKB, readable also from file via pseudo TDL
-parser; cf. [JerezTop](https://blog.inductorsoftware.com/docsproto/summits/JerezTop) discussion)
+parser; cf. JerezTop discussion)
 - parse from preprocessor (SMAF) input, raw text input obsolete?
 - retrieve result chart in different formats
   - MRS

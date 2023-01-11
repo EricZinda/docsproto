@@ -11,7 +11,7 @@ library of the Grammar Matrix Customization System (Bender et al., 2002;
 Bender and Flickinger, 2005; Bender et al., 2010) and provides
 instructions for filling out this section of the questionnaire. General
 instructions for using the questionnaire can be found
-[here](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocTop).
+here.
 
 # Citing the Clausal Modifier Library
 
@@ -110,11 +110,11 @@ supported features include:
 
 - FORM
 - NMZ (see
-[MatrixDoc/NominalizedClauses](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_NominalizedClauses))
+MatrixDoc/NominalizedClauses)
 - ASPECT
 - MOOD
 - Syntactic features (under HEAD) defined on the
-[MatrixDoc/OtherFeatures](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_OtherFeatures) subpage)
+MatrixDoc/OtherFeatures subpage)
 
 Some common examples include:
 
@@ -122,10 +122,10 @@ Some common examples include:
 Other Features page. Then click "Add a feature" in the clausal
 modifier strategy and select FORM non-finite.
 - Subjunctive mood is required: define the values for MOOD on the
-[Tense, Aspect, Mood](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_TenseAspectMood) Subpage. Then
+Tense, Aspect, Mood Subpage. Then
 select MOOD subjunctive for the clausal modifier strategy.
 - The subordinate clause must be nominalized: Define a nominalization
-strategy on the [Nominalized Clauses](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_NominalizedClauses)
+strategy on the Nominalized Clauses
 subpage. Then add nominalization "your strategy" to the clausal
 modifier strategy. If the language uses different nominalization
 morphemes in different clausal modifier strategies, we recommend

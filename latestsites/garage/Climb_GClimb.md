@@ -28,7 +28,7 @@ plans for CLIMB for Mandarin Chinese.
 
 ## Languages
 
-- [German](https://blog.inductorsoftware.com/docsproto/garage/Climb_GClimb_German)
+- German
   
   <span class="small">\[ This documentation is under construction. It
 is currently used to provide details on implementations and design

@@ -13,9 +13,9 @@ now both parses and generates.
 linux. Instead, we recommend you enter it though emacs.
 - To show Korean in the output either
   - use pangolui (see *Alternative Lui Implementations* on the
-[LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) page) (FrancisBond recommends
+LkbLui page) (FrancisBond recommends
 this)
-  - specify Korean fonts in the .luirc (see [LuiRc](https://blog.inductorsoftware.com/docsproto/tools/LuiRc))
+  - specify Korean fonts in the .luirc (see LuiRc)
 
 ### Tokenizing
 

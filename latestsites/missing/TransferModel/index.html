@@ -857,33 +857,33 @@
 
 <p>This page shows how a trigram model for transfer ranking can be built.
 The first part shows how profiles with MRSs can be built and how MRS
-triples can be exported. It overlaps with <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinTools">DelphinTools</a>
-and <a href="https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop">RedwoodsTop</a>. The second part shows
+triples can be exported. It overlaps with DelphinTools
+and RedwoodsTop. The second part shows
 ErikVelldal’s procedure for creating an MRS trigram
 model.</p>
 
 <p>Contents</p>
 
 <ol>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Objective</a></li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Preliminaries</a></li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Exporting MRS triples from
+  <li>Objective</li>
+  <li>Preliminaries</li>
+  <li><a href="">Exporting MRS triples from
 Logon</a>
     <ol>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Creating the profiles</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Exporting triples from the
+      <li>Creating the profiles</li>
+      <li><a href="">Exporting triples from the
 profiles</a></li>
     </ol>
   </li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Creating the transfer model</a>
+  <li>Creating the transfer model
     <ol>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Remove formatting</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Produce context cues</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Extract the vocabulary</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Train the model</a></li>
+      <li>Remove formatting</li>
+      <li>Produce context cues</li>
+      <li>Extract the vocabulary</li>
+      <li>Train the model</li>
     </ol>
   </li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TransferModel">Loading the transfer model</a></li>
+  <li>Loading the transfer model</li>
 </ol>
 
 <h1 id="preliminaries">Preliminaries</h1>
@@ -894,7 +894,7 @@ profiles</a></li>
   <li>The CMU Toolkit (<a href="http://mi.eng.cam.ac.uk/~prc14/toolkit.html">http://mi.eng.cam.ac.uk/~prc14/toolkit.html</a>),</li>
   <li>SMT <a href="/QuickRun">QuickRun</a>
 (<a href="http://ufal.ms.mff.cuni.cz/~curin/SMT_QuickRun/">http://ufal.ms.mff.cuni.cz/~curin/SMT_QuickRun/</a>), and</li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinTools">DelphinTools</a>.</li>
+  <li>DelphinTools.</li>
 </ul>
 
 <p>The installation of the CMU Toolkit may conflict with Logon, so you may
@@ -913,7 +913,7 @@ export PATH=$LOGONROOT/lingo/lkb/src/tsdb/home:$PATH
 
 <p>This step is needed if you do not have a profile. It shows how you can
 get a profile from the object sentences of a bilingual corpus file. (See
-also <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinTools">DelphinTools</a>.) Note that there are various other
+also DelphinTools.) Note that there are various other
 ways to do this. The first command below creates a new version of the
 bilingual corpus, where the object language comes first. The second
 command parses the sentences in the object language and stores the MRSs
@@ -926,7 +926,7 @@ logon_do --count 5 --limit 5 --grammar jaen --task omrs $TSDBHOME/bitxt
 <h2 id="exporting-triples-from-the-profiles">Exporting triples from the profiles</h2>
 
 <p>This command extracts triples from the top ranked MRSs of the profile
-created above. (See <a href="https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop">RedwoodsTop</a>.)</p>
+created above. (See RedwoodsTop.)</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$TSDBHOME/export --binary  --condition "result-id=0" --format triples bitxt/omrs
 </code></pre></div></div>

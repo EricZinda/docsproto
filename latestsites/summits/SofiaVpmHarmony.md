@@ -48,7 +48,7 @@ all or nothing.
 Emily: VPM allows for this bleaching, as well as putting in default
 values on the way in.
 
-Oe: Shows [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) page. Even if we can't agree on the 'upper'
+Oe: Shows RmrsVpm page. Even if we can't agree on the 'upper'
 SEM-I (i.e. cross-linguistically valid statements about semantic
 interfaces), should consider making use of this machinery to only expose
 what we'd like to be visible in the external interface, and maybe also

@@ -6,7 +6,7 @@ grammars within the .NET and Mono managed runtime environments.**
 [UW CLMS](http://www.compling.uw.edu/) thesis work of *GlennSlayden*.<br/>
 &nbsp; &nbsp; M.S. and Ph.C. advisor *EmilyBender*.<br/>
 &nbsp; &nbsp; Thesis reader *StephanOepen*.<br/>
-&nbsp; &nbsp; *Spencer Rarrick* helped with MaxEnt parse selection, generation, and testing with [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop).<br/>
+&nbsp; &nbsp; *Spencer Rarrick* helped with MaxEnt parse selection, generation, and testing with Jacy.<br/>
 
 citation:<br>
 &nbsp; &nbsp; *Slayden, Glenn. “Array TFS storage for unification grammars.” (2012).* &nbsp;[[pdf]](https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/20770/Slayden_washington_0250O_10255.pdf)<br/>
@@ -61,8 +61,8 @@ generation performance in the .NET managed runtime environment.
 
 The system supports both parsing and generation. It has been tested with
 the [English Resource Grammar](http://www.delph-in.net/erg/) (Flickinger
-2002), [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) grammar of Japanese (Siegel and Bender 2002), and
-other [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop) grammars (Bender et al. 2002), notably a
+2002), Jacy grammar of Japanese (Siegel and Bender 2002), and
+other Matrix grammars (Bender et al. 2002), notably a
 medium-small grammar of Thai (unpublished). Exact derivations have been
 validated versus PET for Redwoods (Oepen et al. 2000) corpora.
 

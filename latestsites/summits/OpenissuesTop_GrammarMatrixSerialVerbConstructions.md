@@ -86,7 +86,7 @@ is a typological study of the semantics of SVCs.
 
 Chikara Hashimoto's dissertation is an in-depth look at SVCs in
 Japanese, and includes the description of a computational implementation
-in [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop).
+in Jacy.
 
 - *A Computational Treatment of V-V Compounds in Japanese.* Chikara
 Hashimoto. [Kobe Shoin Graduate

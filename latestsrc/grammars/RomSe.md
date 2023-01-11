@@ -1,7 +1,7 @@
 {% raw %}Analyzing the uses of the reflexive clitic **SE** in Romance.
 
 For the (morpho-)syntactic realization of **SE**, see
-[RomClitics](https://blog.inductorsoftware.com/docsproto/grammars/RomClitics). This page addresses problems at the
+RomClitics. This page addresses problems at the
 syntax/semantics interface.
 
 ## General remarks

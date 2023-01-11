@@ -1,7 +1,7 @@
 {% raw %}# Update
 
 Unfortunately, due to COVID-19, the 2020 Summit will be virtual. See
-[VirtualSchedule](https://blog.inductorsoftware.com/docsproto/summits/VirtualSchedule) for details. We hope to return to
+VirtualSchedule for details. We hope to return to
 Bellingham some day soon!
 
 <img src="http://lingo.stanford.edu/danf/chrysalis.jpg" title="http://lingo.stanford.edu/danf/chrysalis.jpg" class="external_image" alt="http://lingo.stanford.edu/danf/chrysalis.jpg" />
@@ -9,7 +9,7 @@ Bellingham some day soon!
 
 # Overview
 
-The 16th DELPH-IN [Summit](https://blog.inductorsoftware.com/docsproto/summits/SummitTop) will be held in Bellingham,
+The 16th DELPH-IN Summit will be held in Bellingham,
 Washington, from Monday, 13 July, to Friday, 17 July 2020 (the week
 after ACL in Seattle). The meeting will take place at the Chrysalis Inn
 and Spa in the Fairhaven area of Bellingham.
@@ -28,7 +28,7 @@ ways to get there from the Seattle, WA and Vancouver, Canada airports
 # Program
 
 The program schedule for the Summit will appear in due course on the
-[VirtualSchedule](https://blog.inductorsoftware.com/docsproto/summits/VirtualSchedule) page.
+VirtualSchedule page.
 
 # How to Get to Bellingham
 
@@ -44,5 +44,5 @@ added soon.
 # Registration
 
 Please register for the 2020 DELPH-IN Summit on the
-[BellinghamParticipants](https://blog.inductorsoftware.com/docsproto/summits/BellinghamParticipants) page.
+BellinghamParticipants page.
 <update date omitted for speed>{% endraw %}

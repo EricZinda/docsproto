@@ -10,46 +10,46 @@ the Lisbon meeting, ordered lexicographically. If you find your name is
 missing, please email standing *at* delph-in.net, the DELPH-IN Standing
 Committee.
 
-- [DelphinOtago](https://blog.inductorsoftware.com/docsproto/missing/DelphinOtago): Artificial Intelligence Research Group
+- DelphinOtago: Artificial Intelligence Research Group
 (New Zealand)
-- [DelphinCst](https://blog.inductorsoftware.com/docsproto/missing/DelphinCst): Center for Sprogteknologi (Denmark)
+- DelphinCst: Center for Sprogteknologi (Denmark)
 - DelphinNtt: [Machine Translation Research
 Group](http://www.kecl.ntt.co.jp/icl/mtg), Communication Science
 Research Laboratory (NTT, Japan)
-- [DelphinCambridge](https://blog.inductorsoftware.com/docsproto/missing/DelphinCambridge): Computer Laboratory
+- DelphinCambridge: Computer Laboratory
 (University of Cambridge, UK)
-- [DelphinSaarland](https://blog.inductorsoftware.com/docsproto/missing/DelphinSaarland): Department of Computational
+- DelphinSaarland: Department of Computational
 Linguistics (Saarland University, Germany)
-- [DelphinNtnu](https://blog.inductorsoftware.com/docsproto/missing/DelphinNtnu): Institute for Language and Communication
+- DelphinNtnu: Institute for Language and Communication
 (Trondheim University, Norway)
-- [DelphinLoria](https://blog.inductorsoftware.com/docsproto/missing/DelphinLoria): Langue et Dialogue Group (LORIA,
+- DelphinLoria: Langue et Dialogue Group (LORIA,
 France)
-- [DelphinMelbourne](https://blog.inductorsoftware.com/docsproto/missing/DelphinMelbourne): Language Technology Group
+- DelphinMelbourne: Language Technology Group
 (University of Melbourne, Australia)
-- [DelphinDfki](https://blog.inductorsoftware.com/docsproto/missing/DelphinDfki): Language Technology Laboratory (DFKI,
+- DelphinDfki: Language Technology Laboratory (DFKI,
 Germany)
-- [DelphinLingo](https://blog.inductorsoftware.com/docsproto/missing/DelphinLingo) LinGO Laboratory (CSLI Stanford, US)
-- [DelphinOslo](https://blog.inductorsoftware.com/docsproto/missing/DelphinOslo): Machine Translation Research Group (Oslo
+- DelphinLingo LinGO Laboratory (CSLI Stanford, US)
+- DelphinOslo: Machine Translation Research Group (Oslo
 University, Norway)
-- [DelphinLinkoeping](https://blog.inductorsoftware.com/docsproto/missing/DelphinLinkoeping): Natural Language Processing
+- DelphinLinkoeping: Natural Language Processing
 Laboratory (Linköping University, Sweden)
-- [DelphinLisbon](https://blog.inductorsoftware.com/docsproto/grammars/DelphinLisbon): NLX Group (University of Lisbon,
+- DelphinLisbon: NLX Group (University of Lisbon,
 Portugal)
-- [DelphinSeoul](https://blog.inductorsoftware.com/docsproto/missing/DelphinSeoul): School of English (Kyung Hee
+- DelphinSeoul: School of English (Kyung Hee
 University, Korea)
-- [DelphinEdinburgh](https://blog.inductorsoftware.com/docsproto/missing/DelphinEdinburgh): School of Informatics
+- DelphinEdinburgh: School of Informatics
 (University of Edinburgh, UK)
-- [DelphinSussex](https://blog.inductorsoftware.com/docsproto/missing/DelphinSussex): Department of Informatics
+- DelphinSussex: Department of Informatics
 (University of Sussex, UK)
-- [DelphinKobe](https://blog.inductorsoftware.com/docsproto/missing/DelphinKobe): Shoin Institute for Linguistic Sciences
+- DelphinKobe: Shoin Institute for Linguistic Sciences
 (Kobe Shoin Graduate School, Japan)
-- [DelphinWashington](https://blog.inductorsoftware.com/docsproto/missing/DelphinWashington): The Treehouse Computational
+- DelphinWashington: The Treehouse Computational
 Linguistics Laboratory (University of Washington, US)
-- [DelphinTokyo](https://blog.inductorsoftware.com/docsproto/missing/DelphinTokyo): Tsujii Laboratory (University of
+- DelphinTokyo: Tsujii Laboratory (University of
 Tokyo, Japan)
 - DelphinBarcelona: Universitat Pompeu Fabra &
 Universitat Autònoma de Barcelona (Spain)
-- [DelphinLeipzig](https://blog.inductorsoftware.com/docsproto/missing/DelphinLeipzig): Max Planck Insitute for
+- DelphinLeipzig: Max Planck Insitute for
 Evolutionary Anthropology, Department of Linguistics (Leipzig,
 Germany)
 - [DelphinNtu](/DelphinNtu): [Computational Linguistics

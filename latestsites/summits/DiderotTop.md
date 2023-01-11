@@ -6,7 +6,7 @@ Monday, June 18, to Friday, June 22, 2018. The summit will be held on
 the Campus Rive Gauche in the 13th arrondissement of Paris.
 
 Please register your intention to participate on the
-[DiderotParticipants](https://blog.inductorsoftware.com/docsproto/summits/DiderotParticipants) page.
+DiderotParticipants page.
 
 # Warming Up
 
@@ -169,7 +169,7 @@ upside, there will be no registration fee either.
 The meeting will be divided (as is customary) in three days of plenary
 sessions (at U Chicago Center Paris) and two days of parallel,
 smaller-group sessions (location to be determined). The programme will
-be constructed collectively using the [DiderotSchedule](https://blog.inductorsoftware.com/docsproto/summits/DiderotSchedule)
+be constructed collectively using the DiderotSchedule
 page. John Carroll and Stephan Oepen serve as the programme chairs for
 the 2018 Summit.
 

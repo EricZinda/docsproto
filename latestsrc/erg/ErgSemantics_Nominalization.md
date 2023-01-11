@@ -66,7 +66,7 @@ but is the topic of ongoing discussion, as noted below.
 # Open Questions
 
 - Asymmetrical treatment of clausal arguments in different positions:
-[SaarlandSententialArgument](https://blog.inductorsoftware.com/docsproto/erg/SaarlandSententialArgument)
+SaarlandSententialArgument
 - Spurious ambiguity with one-word gerunds, as in *complaining annoys
 him* where the subject could be elaborated either as the nominal
 gerund *constant complaining* or as the verbal gerund *constantly
@@ -78,8 +78,8 @@ complaining*.
 
 # More Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
-- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
+- ErgSemantics main page
+- Inventory of semantic phenomena (to be)
 documented
-- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
+- How to cite this work
 <update date omitted for speed>{% endraw %}

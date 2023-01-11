@@ -12,11 +12,11 @@ Here is a good introduction to AraGram:
 [Parallel development of HeGram and AraGram in HPSG
 proceedings](http://web.stanford.edu/group/cslipublications/cslipublications/HPSG/2015/ahmw.pdf)
 
-AraGram was developed based on [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/HeGram), an HPSG grammar of
+AraGram was developed based on HeGram, an HPSG grammar of
 Modern Hebrew, and the two grammars are currently being developed in
 parallel.
 
-Here is a good introduction to [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/HeGram):
+Here is a good introduction to HeGram:
 
 [Introducing
 HeGram](http://lingo.stanford.edu/delphin2015/HeGram_DELPH-IN_slides.pdf)

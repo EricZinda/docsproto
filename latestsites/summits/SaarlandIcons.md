@@ -67,7 +67,7 @@ others: System, Simple, Stuff
 Ann: If the ICONS constraints about anaphora, etc. then you can't create
 an MRS that will scope in the desired way, so you can think of it as
 going toward discourse representation. Somewhere there is a proposed DTD
-of MRS including ICONS (Ed: perhaps [SofiaMrsRfc](https://blog.inductorsoftware.com/docsproto/summits/SofiaMrsRfc) ?), but
+of MRS including ICONS (Ed: perhaps SofiaMrsRfc ?), but
 the differences are things like the identification of structure, or
 sentence structures... Once you're thinking about anaphora across
 sentences you need a way to identify those sentences..
@@ -114,6 +114,6 @@ rather than a formal interpretation
 
 * * *
 
-As requested, here is a start of a wiki page on [IconsSpecs](https://blog.inductorsoftware.com/docsproto/tools/IconsSpecs)
+As requested, here is a start of a wiki page on IconsSpecs
 --Emily
 <update date omitted for speed>{% endraw %}

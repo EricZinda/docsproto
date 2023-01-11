@@ -70,60 +70,60 @@ resources to the common task.
 
 ### Tools and Architectures
 
-- [DelphinWelcome](https://blog.inductorsoftware.com/docsproto/home/DelphinWelcome)
-- [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop): Lexical Knowledge Builder --- Grammar Engineering
+- DelphinWelcome
+- LKB: Lexical Knowledge Builder --- Grammar Engineering
 Environment
-- [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\]: Competence and Performance Profiler
-- [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop): Answer Constraint Engine, parsing and generation
+- [\[incr tsdb()]()\]: Competence and Performance Profiler
+- ACE: Answer Constraint Engine, parsing and generation
 with DELPH-IN grammars
-- [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop): Python library for working with
+- PyDelphin: Python library for working with
 DELPH-IN representations
-- [LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonTop): Information about the LOGON machine translation
+- LOGON: Information about the LOGON machine translation
 infrastructure.
-- [Pet](https://blog.inductorsoftware.com/docsproto/garage/PetTop): Platform for Experimentation with efficient HPSG
+- Pet: Platform for Experimentation with efficient HPSG
 processing Techniques
-- [Other tools](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop): Supporting software, addons, peripheral
+- Other tools: Supporting software, addons, peripheral
 contributions
 
 ### Grammars, Frameworks and Treebanks
 
-- [English Resource Grammar](https://blog.inductorsoftware.com/docsproto/erg/ErgTop): DELPH-IN's most comprehensive
+- English Resource Grammar: DELPH-IN's most comprehensive
 grammar.
-  - [Tutorial](https://blog.inductorsoftware.com/docsproto/howto/ErsTutorial) on using the ERG, presented at NAACL
+  - Tutorial on using the ERG, presented at NAACL
 2016
-  - [Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) of the ERG's semantic
+  - Documentation of the ERG's semantic
 representations
-- [Catalogue of Grammars](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue), including
+- Catalogue of Grammars, including
 broad-coverage grammars for German, Japanese, Norwegian, and
 Spanish, along with significant grammars for several other
 languages.
-- [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop): Starter-Kit for rapid prototyping of
+- Matrix: Starter-Kit for rapid prototyping of
 LKB-compatible precision grammars
-- [CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop): Tools to support grammar development of
+- CLIMB: Tools to support grammar development of
 LKB-compatible precision grammars
-- [Redwoods](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop): HPSG Treebank Comprised of Analyses
+- Redwoods: HPSG Treebank Comprised of Analyses
 from the ERG
-- [MRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop): Minimal Recursion Semantics --- Theory and
+- MRS: Minimal Recursion Semantics --- Theory and
 Implementation (including extensions and variants such Robust MRS
 (RMS), Elementary Dependency Structures (EDS) and Dependency MRS
 (DMRS))
-  - [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics): Emerging documentation of MRS
+  - ErgSemantics: Emerging documentation of MRS
 as used in the ERG
-  - [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/tools/RmrsDiscussions): Links to discussions
+  - RmrsDiscussions: Links to discussions
 related to MRS at various DELPH-IN events
-- Shared Corpora, [Treebanks](https://blog.inductorsoftware.com/docsproto/tools/TreebankingTop)
-  - [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite): Core Test Suite (\~100
+- Shared Corpora, Treebanks
+  - MRS Test Suite: Core Test Suite (\~100
 sentences)
-  - [Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb): Parallel Corpus
+  - Cathedral and the Bazaar: Parallel Corpus
 based on an Open Source Essay (\~800 sentences)
-- [Grammar discussions](https://blog.inductorsoftware.com/docsproto/grammars/GrammarDiscussionsTop): Discussions for
+- Grammar discussions: Discussions for
 grammar developers (analyses, terminology, harmonization, …)
-- [DELPH-IN RFCs](https://blog.inductorsoftware.com/docsproto/tools/DelphinRFCs) (Requests For Comments; formal
+- DELPH-IN RFCs (Requests For Comments; formal
 specifications)
 
 ### Applications
 
-- [DELPH-IN Applications](https://blog.inductorsoftware.com/docsproto/home/DelphinApplications)
+- DELPH-IN Applications
 
 ## About this Site
 
@@ -144,9 +144,9 @@ pages over time.
 Some information from the earlier years of DELPH-IN collaborations is
 preserved on the following pages, for historical interest:
 
-- [Earlier DELPH-IN news items](https://blog.inductorsoftware.com/docsproto/home/DelphinNews)
-- [Links to earlier DELPH-IN-related projects](https://blog.inductorsoftware.com/docsproto/home/OldProjects)
-- [Earlier overviews of the DELPH-IN consortium](https://blog.inductorsoftware.com/docsproto/garage/OldOverviews)
+- Earlier DELPH-IN news items
+- Links to earlier DELPH-IN-related projects
+- Earlier overviews of the DELPH-IN consortium
 
 ## Further Information
 

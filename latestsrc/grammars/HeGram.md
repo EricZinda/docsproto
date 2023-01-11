@@ -22,7 +22,7 @@ poster](http://typo.uni-konstanz.de/parseme/images/Meeting/2015-03-19-Malta-meet
 [HeGram MWEs in HPSG (2015)
 proceedings](http://web.stanford.edu/group/cslipublications/cslipublications/HPSG/2015/hamw.pdf)
 
-[AraGram](https://blog.inductorsoftware.com/docsproto/grammars/AraGram) is an HPSG grammar of Modern Standard Arabic which is
+AraGram is an HPSG grammar of Modern Standard Arabic which is
 being developed in parallel to HeGram:
 
 [Parallel development of HeGram and AraGram in HPSG (2015)

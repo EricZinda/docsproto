@@ -1,4 +1,4 @@
-{% raw %}Tutorial on Ace and Agree from [SaarlandTop](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop) 2013
+{% raw %}Tutorial on Ace and Agree from SaarlandTop 2013
 
 ## ACE
 
@@ -7,7 +7,7 @@ links there (rather than checking it out from subversion
 
 Liling: ACE is not on the FrontPage
 
-Woodley: someone should add that with a link to [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
+Woodley: someone should add that with a link to AceTop
 
 You need some kind of linux on your machine to use ACE, but Glenn's
 software may be more interesting for Windows users since it works on
@@ -145,7 +145,7 @@ check in ERG
 
 You are not going to win in memory usage if you use ACE instead of PET.
 
-ACE does not have GUI but it can talk to [LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui)
+ACE does not have GUI but it can talk to LkbLui
 (<http://moin.delph-in.net/LkbLui>), e.g. you can bring up chart
 browser.
 

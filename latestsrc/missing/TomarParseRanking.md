@@ -12,12 +12,12 @@ are correlated with sentence length.
 Range within the same domain is quite large (compared to the differences
 between various domains and genres)
 
-The range for the [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) is smaller. Maybe because
+The range for the DeepBank is smaller. Maybe because
 Wikipedia data has more style and content variation. The range on PTB
-[ParseEval](/ParseEval) is less than our on [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)
+[ParseEval](/ParseEval) is less than our on DeepBank
 
 0.3 difference of F1 is a significant improvement on Deepbank. But we
-get 0.3 training on different parts of [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) corpus.
+get 0.3 training on different parts of WeScience corpus.
 
 The question is how to present results to a larger community?
 

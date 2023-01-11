@@ -98,5 +98,5 @@ Tanaka Corpus
 
 ## Other Experiments
 
-[NE\_Tagging\_For\_Improving\_SMT](https://blog.inductorsoftware.com/docsproto/garage/NE_Tagging_For_Improving_SMT)
+[NE\_Tagging\_For\_Improving\_SMT]()
 <update date omitted for speed>{% endraw %}

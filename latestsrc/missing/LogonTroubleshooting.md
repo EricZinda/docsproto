@@ -1,10 +1,10 @@
 {% raw %}The purpose of this page is to document problems and solutions related
-to [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) that can apply to any Linux
+to LogonInstallation that can apply to any Linux
 distribution. Distribution-specific troubleshooting pages can be found
 at:
 
-- [LogonUbuntu](https://blog.inductorsoftware.com/docsproto/tools/LogonUbuntu)
-- [LogonRedhat](https://blog.inductorsoftware.com/docsproto/tools/LogonRedhat)
+- LogonUbuntu
+- LogonRedhat
 
 ## PVM issues
 

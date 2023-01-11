@@ -20,7 +20,7 @@ This project is multilingually oriented, such that much effort is put on
 multilingual approaches to grammatical phenomena and building a matrix
 grammar that can be used as the basis for the development of further
 grammars. After that, it has been used in research on parse ranking with
-lexical semantics and [machine translation](https://blog.inductorsoftware.com/docsproto/garage/MtJaen).
+lexical semantics and machine translation.
 
 Current development is mainly being done by FrancisBond
 ([NTU](http://www3.ntu.edu.sg/home/fcbond/)), with help from Takayuki
@@ -43,7 +43,7 @@ for verbal compounds and relative sentence constructions, and many
 lexicon entries. UlrichSchaefer integrated
 [ChaSen](http://chasen.naist.jp), Japanese Named Entity Recognition via
 [SProUT](http://sprout.dfki.de) and
-[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) with the Jacy grammar into
+PET with the Jacy grammar into
 the [Heart of Gold](http://heartofgold.dfki.de) middleware for robust
 parsing of Japanese text, adding automatic translations of Chasen's
 EUC-JP byte offsets to Unicode character counts. Woodley Packard has
@@ -53,15 +53,15 @@ move to github and many enhancements.
 
 - A presentation explaining grammar fundamentals can be downloaded
 (<http://www.delph-in.net/jacy/jacy.pdf>).
-- There is some on-line documentation available at [JacyDoc](https://blog.inductorsoftware.com/docsproto/grammars/JacyDoc)
+- There is some on-line documentation available at JacyDoc
 (including the [linguistic type database
 (LTDB)](http://compling.hss.ntu.edu.sg/ltdb/Jacy_1301/)).
 - Instructions for installation are at
-[JacyInstallation](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation).
+JacyInstallation.
 - There has been some work on Corpus Annotation with the
-[Hinoki](https://blog.inductorsoftware.com/docsproto/grammars/JacyHinoki) treebank.
+Hinoki treebank.
 - Jacy is used in the highly experimental open source
-[Japanese-to-English Machine Translation System: JaEn](https://blog.inductorsoftware.com/docsproto/garage/MtJaen)
+Japanese-to-English Machine Translation System: JaEn
 
 # Download and Licensing
 

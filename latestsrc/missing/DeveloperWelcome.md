@@ -27,7 +27,7 @@ Several processing engines available...
 
 - Picking an engine
 - TDL Formatting (Emacs, VIM, etc)
-- [Grammar Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted)
+- Grammar Matrix
 
 ### Useful tips
 

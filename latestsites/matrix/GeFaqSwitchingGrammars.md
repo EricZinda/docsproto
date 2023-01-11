@@ -18,7 +18,7 @@ the LKB itself when switching between grammars.
 ## Related topics
 
 - [When I close the LKB Top Menu, is Lisp supposed to exit as
-well?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqClickX)
+well?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

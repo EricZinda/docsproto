@@ -50,8 +50,8 @@ please contact StephanOepen for details.
 
 The project will use the so-called LOGON tree for its experimentation,
 essentially an integrated, ready-to-run distribution of core DELPH-IN
-components. Please see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) and
-[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) pages for basic instructions on
+components. Please see the LogonTop and
+LogonInstallation pages for basic instructions on
 obtaining a complete installation, but please read the following
 paragraphs first.
 
@@ -62,7 +62,7 @@ environment, all project members will require a personal DELPH-IN SVN
 user account, and always use the authenticated SVN access method
 (through http://logon.emmtee.net/ rather than through the
 world-readable, unauthenticated http://svn.emmtee.net/); please see the
-[LogonExtras](https://blog.inductorsoftware.com/docsproto/tools/LogonExtras) page for details.
+LogonExtras page for details.
 
 To get started, run the following command (on a suitably modern Un\*x
 system):
@@ -83,7 +83,7 @@ following:
       cp ~oe/src/logon/franz/linux.x86.64/devel.lic linux.x86.64
 
 Next follow the instructions on the
-[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page, completing at least the
+LogonInstallation page, completing at least the
 remaining parts of step (1) (i.e. the first-time account setup, adding a
 few LOGON-specific settings to your personal shell configuration file
 .bashrc). Once these steps are complete (including logging out and back
@@ -109,8 +109,8 @@ for effective use on the UiO TITAN cluster and (b) to train the UiO
 members of DELPH-IN in the daily routines of HPC usage. The project is
 organized as four sub-tasks, each with its own wiki page for specific
 information: (1) Packaging, Scripting, and Training
-([TitanPackaging](https://blog.inductorsoftware.com/docsproto/missing/TitanPackaging)); (2) MPI Support in TADM
-([TitanTadm](https://blog.inductorsoftware.com/docsproto/missing/TitanTadm)); (3) Profiling and Optimizing PET
-([TitanPet](https://blog.inductorsoftware.com/docsproto/missing/TitanPet)); and (4) MPI Support in [\[incr
-tsdb()\]](http://www.delph-in.net/itsdb) ([TitanItsdb](https://blog.inductorsoftware.com/docsproto/missing/TitanItsdb)).
+(TitanPackaging); (2) MPI Support in TADM
+(TitanTadm); (3) Profiling and Optimizing PET
+(TitanPet); and (4) MPI Support in [\[incr
+tsdb()\]](http://www.delph-in.net/itsdb) (TitanItsdb).
 <update date omitted for speed>{% endraw %}

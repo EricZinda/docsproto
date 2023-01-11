@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) for [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop).
+{% raw %}This is the MRS Test Suite for Jacy.
 
 ## Japanese MRS Test Suite
 

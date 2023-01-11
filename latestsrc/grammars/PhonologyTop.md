@@ -7,7 +7,7 @@ Depending on the level of detail required:
 
 - character strings "a", "b", "c", …
 - typed objects (e.g. [French phoneme
-hierarchy](https://blog.inductorsoftware.com/docsproto/grammars/PhonologyTop_FrenchPhonemes))
+hierarchy]())
 - articulatory feature bundles
   
       phoneme := avm &

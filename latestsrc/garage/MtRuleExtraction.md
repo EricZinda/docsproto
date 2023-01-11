@@ -3,11 +3,11 @@
 Contents
 
 1. [Tool for automatic extraction of transfer rules from parallel
-corpora](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
-   1. [Preliminaries](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
-   2. [Use the tool](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
+corpora]()
+   1. Preliminaries
+   2. Use the tool
    3. [Adapting the tool to another language
-pair](https://blog.inductorsoftware.com/docsproto/garage/MtRuleExtraction)
+pair]()
 
 This page presents a tool for extracting transfer rules from parallel
 corpora. The general idea is to
@@ -19,7 +19,7 @@ MRSs
 phrase tables of predicates
 - check alignments against templates and write semantic transfer rules
 
-The tool is currently used to extract rules for the [Jaen](https://blog.inductorsoftware.com/docsproto/garage/MtJaen) MT
+The tool is currently used to extract rules for the Jaen MT
 system. It is located in the directory
 $LOGONROOT/uio/tm/jaen/extr-rules/.
 

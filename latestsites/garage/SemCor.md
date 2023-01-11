@@ -7,7 +7,7 @@ to elements treated by the ERG as semantically empty (e.g., copulas), or
 treated as MWE by the ERG but not by [WordNet](/WordNet) (‘such+as’,
 ‘right+then’, ‘not+even’)
 
-- (part of the work on [Lexical Semantics](https://blog.inductorsoftware.com/docsproto/garage/LexsemTop)).
+- (part of the work on Lexical Semantics).
 
 However, only 36.3% of the ERG predicates emerged as sense-tagged: 55.6%
 of realpreds and 11.3% of gpreds.

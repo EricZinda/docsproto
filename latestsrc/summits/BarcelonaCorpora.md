@@ -13,7 +13,7 @@
 
 ## The Cathedral and the Bazaar
 
-Francis reports on [The Cathedral and the Bazaar](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb). This
+Francis reports on The Cathedral and the Bazaar. This
 corpus is available in a lot of languages, though some translations are
 missing a few paragraphs because they were translated from ealier
 versions. The texts should be converted to tsdb profiles. There are
@@ -66,7 +66,7 @@ though they are not always translated.
 
 Francis repeats that there is a desire for more parallel corpora that
 are freely redistributable. For other criteria what makes a good corpus,
-see [FeforParCorp](https://blog.inductorsoftware.com/docsproto/summits/FeforParCorp).
+see FeforParCorp.
 
 ## Suitable Wikipedia Articles
 

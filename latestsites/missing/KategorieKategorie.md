@@ -8,8 +8,8 @@ oben auf den KategorieKategorie-Titel klicken.
 
 Hier ist eine Liste aller Kategorien dieses Wikis:
 
-1. [**KategorieHomepage**](https://blog.inductorsoftware.com/docsproto/missing/KategorieHomepage)
-2. [**KategorieKategorie**](https://blog.inductorsoftware.com/docsproto/missing/KategorieKategorie)
+1. **KategorieHomepage**
+2. **KategorieKategorie**
 
 Hier ist eine Liste aller Seiten, die die KategorieKategorie-Markierung
 tragen:

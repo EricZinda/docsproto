@@ -4,6 +4,6 @@
 
 ## Granted Wishes
 
-\* support for [cheap](https://blog.inductorsoftware.com/docsproto/garage/PetTop) as a parsing engine in MT (FCB 2006) DONE
+\* support for cheap as a parsing engine in MT (FCB 2006) DONE
 2008 (at least for JACY and [JaEn](/JaEn))
 <update date omitted for speed>{% endraw %}

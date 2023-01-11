@@ -11,17 +11,17 @@ DELPH-IN.
 # 2017 Site Update
 
 Continuous, if sometimes low-energy: [ERG Semantic
-Documentation](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics); [MRS-derived dependencies](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) (in
+Documentation](); MRS-derived dependencies (in
 2017 so far, [SDP](http://sdp.delph-in.net) about as popular as the
 PCEDT; four papers and one keynote at ACL use ERG-based dependencies);
-1214 [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) release imminent: new, ‘atomic’ export
+1214 WikiWoods release imminent: new, ‘atomic’ export
 format.
 
 Ongoing doctoral project (Murhaf Fares): Joint learning for the
 identification, bracketing, and thematic interpretation of nominal
 compounds.
 [Comparison](http://folk.uio.no/murhaff/nnbracketing/bracketing.html) of
-bracketing in [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank), PCEDT, and PTB.
+bracketing in DeepBank, PCEDT, and PTB.
 
 Completed MSc project (Kjetil Bugge Kristoffersen): Extract
 ‘high-quality’ corpus from Common Crawl: 130 billion tokens of English.
@@ -64,7 +64,7 @@ under an open-source license.
 
 New, work-in-progress RESTful
 [interface](http://erg.delph-in.net/rest/0.9/parse?derivation=json&input=Abrams%20arrived.)
-to ERG on-line parser; see [ErgApi](https://blog.inductorsoftware.com/docsproto/erg/ErgApi) page.
+to ERG on-line parser; see ErgApi page.
 
 ERG 1214 release, finally official (as of June 15, 2016).
 
@@ -106,7 +106,7 @@ Two funded projects currently use and extend DELPH-IN technologies,
 [LAP](http://www.mn.uio.no/ifi/english/research/projects/clarino/) (the
 Language Analysis Portal, part of the Norwegian CLARIN(O) initiative).
 
-Work in [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) by AngelinaIvanova (on
+Work in WeSearch by AngelinaIvanova (on
 relating bi-lexical dependency representations and DELPH-IN HPSG
 analyses), by RebeccaDridan (on, among things,
 ubertagging for faster and more accurate parsing), and by
@@ -114,7 +114,7 @@ StephanOepen and off-site collaborators (on working
 towards documentation of ERG Semantic Analyses) are presented
 individually at the 2013 Summit.
 
-Another [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) activity has been collaborative work with
+Another WeSearch activity has been collaborative work with
 DanFlickinger on enabling the ERG to analyse inputs
 annotated (optionally) with (two types of) candidate phrase boundaries,
 or candidate target bi-lexical dependencies. Following are some example
@@ -145,11 +145,11 @@ Finally, two recent MSc projects at LTG have contributed to DELPH-IN
 advancement. [Solberg (2012)](https://www.duo.uio.no/handle/10852/34914)
 develops a generic infrastructure for extracting ‘*relevant linguistic
 content*’ from Wikipedia dumps, preparing a forthcoming new revision 2.0
-of the [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) Corpus, seeking to address some of the
+of the WikiWoods Corpus, seeking to address some of the
 shortcomings in the (somewhat ad-hoc and overly surface-orientated)
-original procedure used in the construction of [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods)
+original procedure used in the construction of WikiWoods
 1.0. A side-effect of this project is an updated definition of the
-[Grammar Markup Language](https://blog.inductorsoftware.com/docsproto/tools/ErgGml), an attempt at allowing non-intrusive
+Grammar Markup Language, an attempt at allowing non-intrusive
 in-line mark-up of layout information that may be relevant to parsing.
 
 In another recently completed MSc thesis, [Fares

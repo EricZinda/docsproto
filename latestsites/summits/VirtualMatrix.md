@@ -398,7 +398,7 @@ Olga: Thanks a lot for this walkthrough
 Emily: This definitely looks a lot more robust. I guess we’re protected
 by random people making changes by only people with commit access to the
 repo. \[there’s stuff on the DELPH-IN page and
-[MatrixDevTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop), should we move that stuff to
+MatrixDevTop, should we move that stuff to
 [GitHub](/GitHub)?\]
 
 Mike: There seems the directory structure is easy to get out of date

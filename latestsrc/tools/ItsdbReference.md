@@ -20,22 +20,22 @@ typically limited to current versions.
 
 Contents
 
-1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-2. [Reference](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-   1. [Formatting Conventions](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-   2. [Database Files](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-      1. [Output File Format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-      2. [Text Input Formats](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-         1. [Plain Text Input Format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-         2. [Bi-text Import Format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-   3. [Well Formedness (i-wf)](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
-   4. [How to make a new Skeleton](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+1. Page Status
+2. Reference
+   1. Formatting Conventions
+   2. Database Files
+      1. Output File Format
+      2. Text Input Formats
+         1. Plain Text Input Format
+         2. Bi-text Import Format
+   3. Well Formedness (i-wf)
+   4. How to make a new Skeleton
       1. [How to make a Profile from a text input
-file](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
+file]()
 
 This page includes some low level information about [\[incr
-tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)). You may
-also be interested in [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/tools/ItsdbCustomization).
+tsdb()\]](http://www.delph-in.net/itsdb) (ItsdbTop). You may
+also be interested in ItsdbCustomization.
 
 ## Formatting Conventions
 

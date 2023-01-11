@@ -1,17 +1,17 @@
 {% raw %}# Updating the docs
-The DELPH-IN docs are generated from the content in any GitHub repository including the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) and the [DELPH-IN docs wiki](https://github.com/EricZinda/docsproto). Pages from a repository are included in the docs simply by adding a row to a configuration file, [as described below](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart). Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site. 
+The DELPH-IN docs are generated from the content in any GitHub repository including the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) and the [DELPH-IN docs wiki](https://github.com/EricZinda/docsproto). Pages from a repository are included in the docs simply by adding a row to a configuration file, as described below. Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site. 
 
 This is all managed in a git repository, so changes are tracked, can be reverted, etc.  Mistakes can be cleaned up, don't worry about messing things up!
 
 ## How to Add Pages to the Docs
 1. Create the pages you want in the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) or the [DELPH-IN docs wiki](https://github.com/EricZinda/docsproto). 
-2. Edit the [sitesdefinitions.json file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see [The Site Definition File](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart) below.
-3. [Run the workflow](https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see [Running the Workflow](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart) below.
+2. Edit the [sitesdefinitions.json file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see The Site Definition File below.
+3. [Run the workflow](https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see Running the Workflow below.
 
 ### The Site Definition File
 The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). 
 
-Changing/Adding/Removing anything *except the top level navigation* in the site involves simply [editing the file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) and [re-running the workflow](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart) below.
+Changing/Adding/Removing anything *except the top level navigation* in the site involves simply [editing the file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) and re-running the workflow.  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see Modifying the Site Structure below.
 
 A simplified version of the production file is below. The file has 3 initial sections that rarely need to be changed: `Comments`, `SourceRepositores`, and `Sites`.  These define what data can be included in the site and what the top level structure is.
 
@@ -69,7 +69,7 @@ Simply creating a new `Section` definition and putting pages inside it causes th
 
 The format is designed to make it easy to move files around, redefine sections, sites, etc. Just running the workflow again will create the new site structure.
 
-More detail on the structure and background is in the [DELPH-IN Docs Reference Guide](https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference).
+More detail on the structure and background is in the DELPH-IN Docs Reference Guide.
 ## Running the Workflow
 [Run the workflow](https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.
 
@@ -82,8 +82,8 @@ If successful, you can click on the run itself and scroll to the bottom of the o
 
 If it failed, click on the row that represents the run you just did and you'll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the "build" part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.
 
-More detail on the workflow is in the [DELPH-IN Docs Reference Guide](https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference).
+More detail on the workflow is in the DELPH-IN Docs Reference Guide.
 
 ## Modifying the Site Structure
-To modify the site structure, see the [DELPH-IN Docs Reference Guide](https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference).
+To modify the site structure, see the DELPH-IN Docs Reference Guide.
 <update date omitted for speed>{% endraw %}

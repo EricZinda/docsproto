@@ -92,7 +92,7 @@ lexicon and the preferences.
 
 Emily: Redwoods or TIGER?
 
-Yi: [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank). For German maybe TIGER, maybe also the work
+Yi: DeepBank. For German maybe TIGER, maybe also the work
 done by Bart.
 
 Emily: The grammar already gives you the hard co-variance.

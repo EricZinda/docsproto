@@ -29,9 +29,9 @@ Variable sharing is used to link together the predications in an MRS document. T
 ```
 _yellow_a_1 ARG0: e9 ARG1: x4 
 ```
-The fact that `ARG1` uses the same `x4` indicates that it is further refining what `x4` represents to be a "yellow dog". Its first argument (`ARG0`) is of type "event" which is introduced in [ERG Basics](https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence) and is not used here. Argument sharing can happen in many situations throughout the ERG.
+The fact that `ARG1` uses the same `x4` indicates that it is further refining what `x4` represents to be a "yellow dog". Its first argument (`ARG0`) is of type "event" which is introduced in ERG Basics and is not used here. Argument sharing can happen in many situations throughout the ERG.
 
-> Linguistics background: Some examples of argument sharing are in [non-scopal modification](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Design), [control constructions](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ControlRelations), [coordinate  structures](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination), as well as others (like relative clauses and certain types of comparatives). 
+> Linguistics background: Some examples of argument sharing are in non-scopal modification, control constructions, coordinate  structures, as well as others (like relative clauses and certain types of comparatives). 
 
 
 Each predication in an MRS document is also assigned to a variable of type "Handle", so that the entire predication can be passed as an argument to another predication. This is very similar to how lambda functions in some programming languages allow functions to be passed to other functions.  This is represented in the MRS document by an extra first argument named `LBL` which is always included, like this:
@@ -95,14 +95,14 @@ Using logic, we can represent these meanings in this way:
       (a) ∀x dog(x): ∃y cat(y): chase(x,y)
       (b) ∃y cat(y): ∀x dog(x): chase(x,y)
 
-Note that this ambiguity and the resulting underspecification can happen with other ‘operator-like’ predications as well; see [below](https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence)). 
+Note that this ambiguity and the resulting underspecification can happen with other ‘operator-like’ predications as well; see below). 
 
-Understanding how to read these trees is covered in section[TBD](https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence). For now it is enough to understand that is what is going on. 
+Understanding how to read these trees is covered in sectionTBD. For now it is enough to understand that is what is going on. 
 
 # MRS document format
 There are only 3 more parts to an MRS document: Variable Properties, Top and Index.
 
-Non-label variables can be ‘refined’ with what is called variable properties. These further filter down what the variable represents. For example: Whether the variable contains a plural or singular instance, whether it is first or second person, etc. Variable properties range over a fixed inventory of possible values, organized in a multiple-inheritance hierarchy to allow underspecification.  More is described in [TBD](https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence).
+Non-label variables can be ‘refined’ with what is called variable properties. These further filter down what the variable represents. For example: Whether the variable contains a plural or singular instance, whether it is first or second person, etc. Variable properties range over a fixed inventory of possible values, organized in a multiple-inheritance hierarchy to allow underspecification.  More is described in TBD.
 
 Top and Index do something that I still can't describe...
 
@@ -214,7 +214,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h8 h14 qeq h22 h18 qeq h20 h24 qeq h25 h30 
 > Linguistics Background: These examples pertain to what at times are called restrictive modifiers, which can take the form of pre- or post-nominal attributive adjectives or relative clauses (i.e. non-local dependencies).
 
 
-In the ERS analyses for (4a) through (4d), there will always be an instance of the `_bark_v_1` relation (albeit with different tense properties on its `e8` event variable, events are described in [TBD](https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence)), where the *dog* instance (`x3`) serves as its first argument.
+In the ERS analyses for (4a) through (4d), there will always be an instance of the `_bark_v_1` relation (albeit with different tense properties on its `e8` event variable, events are described in TBD), where the *dog* instance (`x3`) serves as its first argument.
 
 # Predicate Variation and Identification
 As described above, words used in the same grammatical way will produce the same predications. For example, in "The bank with the shortest atm lines is near the river bank", both instances of *bank* will be represented by `_bank_n_of` in the MRS. The ERG only produces different predications when it is clearly a different word based solely on the sentence grammar. On the other hand, if the same word is used in a grammatically different way, it will produce different predications. Predications are uniquely identified by the combination of their predication name and the number and name of their arguments. The combination represents a unique meaning in the ERG and will be used whenever that meaning is encountered.

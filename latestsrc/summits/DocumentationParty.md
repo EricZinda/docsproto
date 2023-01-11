@@ -2,10 +2,10 @@
 
 Existing documentation:
 
-- [LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp)
+- LkbSppp
 - [FreeLing SPPP README](http://svn.emmtee.net/trunk/upf/srg/freeling/README)
 - [CLARIN paper](http://portal.acm.org/citation.cfm?id=1564038)
-- [ChartMapping](https://blog.inductorsoftware.com/docsproto/garage/ChartMapping)
+- ChartMapping
 
 What's SPPP? In the same space as chart mapping, may become redundant.
 Predates chart mapping. Might also overlap with REPP, supported in LKB
@@ -33,11 +33,11 @@ ERG generation -- some lisp code at the end provides some patching up
 like sentence-initial capitalization.
 
 Ask Montse about generation and also the question on
-[ChartMappingAppliedNotes](https://blog.inductorsoftware.com/docsproto/summits/ChartMappingAppliedNotes) from Paris meeting.
+ChartMappingAppliedNotes from Paris meeting.
 
 Montse's reply: SRG not currently used for generation but
 [FreeLing](/FreeLing) **is** bidirectional. Regarding the question on
-[ChartMappingAppliedNotes](https://blog.inductorsoftware.com/docsproto/summits/ChartMappingAppliedNotes):
+ChartMappingAppliedNotes:
 
 "Actually I had several reasons:
 

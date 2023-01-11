@@ -42,11 +42,11 @@ Preliminary Investigation, University of Chicago Press, Chicago, IL.
 
 # Other Wiki Pages
 
-- [FeforDroppedArguments](https://blog.inductorsoftware.com/docsproto/summits/FeforDroppedArguments)
-- [TheAbbey/Chrysalis2014Arity](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Arity)
-- [TheAbbey/Chrysalis2014OpenEndedPredicates](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014OpenEndedPredicates)
-- [SaarlandSententialArgument](https://blog.inductorsoftware.com/docsproto/erg/SaarlandSententialArgument)
-- [TheAbbey/Chrysalis2014Nominalization](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Nominalization)
+- FeforDroppedArguments
+- TheAbbey/Chrysalis2014Arity
+- TheAbbey/Chrysalis2014OpenEndedPredicates
+- SaarlandSententialArgument
+- TheAbbey/Chrysalis2014Nominalization
 
 # Clear Cases
 

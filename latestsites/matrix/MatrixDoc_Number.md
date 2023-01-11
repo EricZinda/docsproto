@@ -9,7 +9,7 @@ background information on the number library of the Grammar Matrix
 Customization System (Bender et al., 2002; Bender and Flickinger, 2005;
 Bender et al., 2010). General instructions on using the questionnaire
 can be found
-[here](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocTop).
+here.
 
 # Citing the Number Library
 
@@ -17,7 +17,7 @@ The standard reference for the Number Library and its implementations is
 [Drellishak
 2009](http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf).
 The full reference and .bib entry can be found
-[here](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Number).
+here.
 
 # Options
 
@@ -28,7 +28,7 @@ your language (e.g. singular, dual, plural). This can be defined as a
 hierarchy. The number library allows you to specify the range of values
 for the feature NUMBER that will be available elsewhere in the
 customization system and in the resulting grammar (see more on that in
-the [Analyses](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Number) section below). The
+the Analyses section below). The
 complexity of number hierarchy is different for all languages. The
 number of values that you can enter for number names and their
 supertypes in questionnaire is unlimited.
@@ -46,14 +46,14 @@ available on the Lexicon page for the NUM feature (or the PERNUM
 feature, about which see the
 [Person](http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person)
 section of the questionnaire for more details or
-[Person](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Person) documentation page). **Note** that feature
+Person documentation page). **Note** that feature
 values defined on the lexicon and morphology pages may affect the
 hierarchy of number. Underspecifications in the lexicon or morphosyntax
 will automatically be integrated in the hierarchy of *number*: you do
 not need to define these explicitly on the number page.
 
 Using the dropdown menu, please add numbers and their supertypes as
-applicable to your language. Unlike [gender](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Gender), which
+applicable to your language. Unlike gender, which
 focuses first and foremost on agreement, it is important to represent a
 number hierarchy for the grammar even if it is not involved in
 agreement. This is necessary to assure a consistent semantic
@@ -73,7 +73,7 @@ plural numbers.
 
 Below is an example of options chosen for Slovene, which has three
 numbers and a facultative number system (see
-[Analyses](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Number) for more details):
+Analyses for more details):
 
 - |            |               |
 |------------|---------------|
@@ -88,7 +88,7 @@ for NUMBER in your language, please refer to the
 page in Matrix Customization.
 
 For more information on the implementation of number in Grammar Matrix
-please refer to the section [Analyses](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Number).
+please refer to the section Analyses.
 
 # Motivation
 

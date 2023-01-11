@@ -7,9 +7,9 @@ accurately reflect anyone's opinions.
 Contents
 
 1. [Pragmatic Information in the
-MRS](https://blog.inductorsoftware.com/docsproto/summits/JacyPragmatics)
-   1. [Unresolved issues](https://blog.inductorsoftware.com/docsproto/summits/JacyPragmatics)
-2. [Current JACY implementation](https://blog.inductorsoftware.com/docsproto/summits/JacyPragmatics)
+MRS]()
+   1. Unresolved issues
+2. Current JACY implementation
 
 # Pragmatic Information in the MRS
 

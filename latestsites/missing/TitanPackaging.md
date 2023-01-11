@@ -1,7 +1,7 @@
 {% raw %}# Background
 
 This page documents a sub-task of the HPC adaptation project at UiO;
-please see the [TitanTop](https://blog.inductorsoftware.com/docsproto/missing/TitanTop) page for background.
+please see the TitanTop page for background.
 
 For the first few weeks of the project, participants from both groups
 will establish a shared knowledge of the relevant DELPH-IN tools,
@@ -61,7 +61,7 @@ most probable parses; and (e) work through the corpus identified as cb
 ([The Cathedral and the
 Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/)).
 The parse script and a few more existing LOGON scripts are discussed in
-more detail on the [LogonProcessing](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing) pages.
+more detail on the LogonProcessing pages.
 
 By default, [\[incr tsdb()\]](http://www.delph-in.net/itsdb) will launch
 a PVM daemon on the current node if necessary (i.e. if there is no

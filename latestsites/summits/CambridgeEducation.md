@@ -1,6 +1,6 @@
 {% raw %}# Leveraging DELPH-IN grammars to develop educational materials
 
-Discussion at the [Cambridge Summit](https://blog.inductorsoftware.com/docsproto/summits/CambridgeTop) led by Kristen
+Discussion at the Cambridge Summit led by Kristen
 Howell; scribed by Francis Bond (2019).
 
 Some discussion of coverage of various grammars.

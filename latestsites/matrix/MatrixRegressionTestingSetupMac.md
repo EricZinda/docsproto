@@ -1,11 +1,11 @@
 {% raw %}# Matrix Regression Testing Setup
 
 This page describes setting up a the Grammar Matrix Regression Testing
-suite on a Mac (\~ Mac OS 10.12) (See [MatrixDevTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDevTop),
-[MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)). This page is under
+suite on a Mac (\~ Mac OS 10.12) (See MatrixDevTop,
+MatrixRegressionTesting). This page is under
 development and should not be considered useable. For instructions on
 the stable setup for Ubuntu, see
-[MatrixRegressionTestingSetup](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTestingSetup)
+MatrixRegressionTestingSetup
 
 ## Mac setup instructions (under development)
 
@@ -23,7 +23,7 @@ compatibility modules):
     sudo apt-get install gcc
 
 2\) Download [ACE](http://sweaglesw.org/linguistics/ace/)
-([AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop))
+(AceTop)
 
 3\) Download the matrix:
 
@@ -39,7 +39,7 @@ directory (e.g. \~/delphin/matrix/trunk/ )
     wget http://www-01.sil.org/iso639-3/iso-639-3_20120206.tab -O iso.tab
 
 6\) You should now be able to run the regression tests
-([MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)):
+(MatrixRegressionTesting):
 
     cd ~/delphin/matrix/trunk/
     python matrix.py -C gmcs/ r

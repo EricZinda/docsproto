@@ -605,54 +605,54 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>This page was adapted from <a href="https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration">JacyGeneration</a> by
+        <p>This page was adapted from JacyGeneration by
 MichaelGoodman, and therefore many of the examples are
-from the <a href="https://blog.inductorsoftware.com/docsproto/grammars/JacyTop">JACY</a> Grammar.</p>
+from the JACY Grammar.</p>
 
 <p>Contents</p>
 
 <ol>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Overview</a></li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Generating Semantically Empty Lexical Entries
+  <li>Overview</li>
+  <li><a href="">Generating Semantically Empty Lexical Entries
 (trigger.mtr)</a>
     <ol>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">How to list semantically empty lexical
+      <li><a href="">How to list semantically empty lexical
 entries</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">ToDo</a></li>
+      <li>ToDo</li>
     </ol>
   </li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Generating Unknown Words</a></li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Selective Generation
+  <li>Generating Unknown Words</li>
+  <li><a href="">Selective Generation
 (globals.lisp)</a>
     <ol>
       <li>
         <ol>
           <li>
             <ol>
-              <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">In Ace</a></li>
+              <li>In Ace</li>
             </ol>
           </li>
         </ol>
       </li>
     </ol>
   </li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Other Notes</a>
+  <li>Other Notes
     <ol>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Make generation faster
+      <li><a href="">Make generation faster
 (globals.lsp)</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Fixup MRS (mrsglobals.lsp)</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Reload generation rules without
+      <li>Fixup MRS (mrsglobals.lsp)</li>
+      <li><a href="">Reload generation rules without
 reindexing</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">MRS Semantic Equivalence
+      <li><a href="">MRS Semantic Equivalence
 Check</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Checking the Generator Index</a></li>
+      <li>Checking the Generator Index</li>
     </ol>
   </li>
-  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Trouble Shooting</a>
+  <li>Trouble Shooting
     <ol>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Morphology</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">C-CONT</a></li>
-      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Loading and Activating a Generation
+      <li>Morphology</li>
+      <li>C-CONT</li>
+      <li><a href="">Loading and Activating a Generation
 Model</a></li>
     </ol>
   </li>
@@ -766,12 +766,12 @@ in the ERG’s global.lsp file.</p>
 <h1 id="selective-generation-globalslisp">Selective Generation (globals.lisp)</h1>
 
 <p>You can block generation of some non-empty predicates by putting it in
-the list *duplicate-lex-ids* in globals.lisp. <a href="https://blog.inductorsoftware.com/docsproto/grammars/JacyTop">Jacy</a>
+the list *duplicate-lex-ids* in globals.lisp. Jacy
 currently does this to block informal and variant forms for which we
 have no available filter. Note that this is a list of lex-ids, not
 predicate names.</p>
 
-<p><strong>Note</strong>: If you want this list to also be seen by <a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">ace</a>, you
+<p><strong>Note</strong>: If you want this list to also be seen by ace, you
 need to move it to a separate file (see a recent ERG for examples of how
 to do this).</p>
 

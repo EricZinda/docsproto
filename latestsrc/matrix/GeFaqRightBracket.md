@@ -19,7 +19,7 @@ and type in the position number.
 You can scan the area to see if something is obviously missing, but
 usually its more efficient to use the tab indentation of tdl mode to
 find the spot where somethings wrong. See [FAQ: How do I use tab to help
-me figure out where my syntax error is?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTabIndentation)
+me figure out where my syntax error is?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

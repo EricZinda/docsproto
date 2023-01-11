@@ -1,6 +1,6 @@
 {% raw %}# Demonstrating the Utility of ‘Deep’ Linguistic Processing
 
-SIG at [Stanford 2016 summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
+SIG at Stanford 2016 summit
 
 ===
 
@@ -204,7 +204,7 @@ to ensure a high level of consistency before doing so.
 
 Luis: But even the top parse is useful.
 
-Emily: For a resource like [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods), we should clearly
+Emily: For a resource like WikiWoods, we should clearly
 label. Formats?
 
 ...

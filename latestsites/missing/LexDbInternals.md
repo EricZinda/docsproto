@@ -65,7 +65,7 @@ dead marks dead revisions.
 
 The *dfn* table stores the mapping used to construct FS lexical entries
 from fields of a revision entry. See
-[LexDbFieldMappings](https://blog.inductorsoftware.com/docsproto/tools/LexDbFieldMappings).
+LexDbFieldMappings.
 
      Column | Type | Modifiers
     --------+------+-----------

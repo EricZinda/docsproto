@@ -1,6 +1,6 @@
 {% raw %}# ACE wishlist
 
-These are some features that [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) does not support properly,
+These are some features that ACE does not support properly,
 but some people think it should. [WoodleyPackard](/WoodleyPackard)
 intends to consult this page to gauge user priorities when making
 improvements, so please add comments if you have an interest in seeing

@@ -5,13 +5,13 @@ which is then used by the parser to help deal with unknown words.
 
 Contents
 
-1. [Segmenting and Tagging Japanese](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
-   1. [jpn2yy.py](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
-      1. [YY Mode with ACE](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
-   2. [Install](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
-      1. [mecab binary](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
-      2. [mecab python wrapper](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
-      3. [test](https://blog.inductorsoftware.com/docsproto/missing/JacyYYMode)
+1. Segmenting and Tagging Japanese
+   1. jpn2yy.py
+      1. YY Mode with ACE
+   2. Install
+      1. mecab binary
+      2. mecab python wrapper
+      3. test
 
 ## jpn2yy.py
 

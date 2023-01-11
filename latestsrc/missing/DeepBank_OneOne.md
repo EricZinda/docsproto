@@ -1,6 +1,6 @@
 {% raw %}# Background
 
-In early 2014, we are preparing a minor update of [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)
+In early 2014, we are preparing a minor update of DeepBank
 to fix a handful of imperfections in the original release:
 
 - missing segments: wsj09e, wsj12e, wsj20e
@@ -34,7 +34,7 @@ n-j\_j-t-cpd\_c n-nh\_v-cpd\_c =&gt; n-v\_j-cpd\_c
 Finally, a few aspects of ‘packaging’ that did not make it into the
 first version
 
-- update [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) and WDC treebanks to GML versions
+- update WeScience and WDC treebanks to GML versions
 - export into MRG-style trees with PTB-style tokenization
 - investigate high failure percentage in robust meaning construction
 (and DM conversion)

@@ -55,6 +55,6 @@ others to contribute/post same by some specific time. Use CSLI file from
 Dan as inspiration and also send it along. Do this soon so that it
 doesn't seem too big of a task. \[Make sure Wambaya demo is actually
 running.\] Put on DELPH-IN wiki in a similar structure to the
-[MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) pages. Link from grammar
+MatrixMrsTestSuite pages. Link from grammar
 catalogue too.
 <update date omitted for speed>{% endraw %}

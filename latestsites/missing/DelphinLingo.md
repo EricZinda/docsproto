@@ -6,7 +6,7 @@ engineering, profiling, parsing and generation. Early work in the LinGO
 Lab focused on the construction of a general-purpose grammar of English
 in the form of the English Resource Grammar (or
 [ERG](http://www.delph-in.net/erg/)), and on further development of the
-LKB ([LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)) grammar engineering system. The LKB was also used
+LKB (LkbTop) grammar engineering system. The LKB was also used
 at CSLI as the testbed for a number of teaching grammars and
 smaller-scale grammars for other languages including Japanese and
 Spanish. Early development of the ERG was carried out as part of the
@@ -27,7 +27,7 @@ ontological information from dictionaries, by parsing dictionary
 definitions to produce MRS representations as the basis for extraction
 rules. The ERG is also being deployed in the construction of a novel,
 rich and dynamic treebank for HPSG, the LinGO Redwoods
-([RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)) initiative. It is also being used for
+(RedwoodsTop) initiative. It is also being used for
 generation (realization) within the [LOGON](http://www.emmtee.net)
 Norwegian-English machine translation project.
 

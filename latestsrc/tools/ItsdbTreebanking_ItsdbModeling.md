@@ -12,31 +12,31 @@ correct.
 
 Contents
 
-1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
-2. [Overview](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
-3. [Training a Scoring Model](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
-   1. [Scoring](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+1. Page Status
+2. Overview
+3. Training a Scoring Model
+   1. Scoring
    2. [Using a Scoring Model in PET and the
-LKB](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
-   3. [Calculating a Baseline](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+LKB]()
+   3. Calculating a Baseline
 4. [Training a scoring model using a batch
-script](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+script]()
 5. [Using TADM directly to train a ranking
-model](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
-   1. [Calling tadm](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+model]()
+   1. Calling tadm
 
 # Training a Scoring Model
 
 If you have treebanked a profile, and have Rob Malouf's [TADM: Toolkit
 for Advanced Discriminative Modeling](http://tadm.sourceforge.net/), in
 particular the program tadm installed, then you can train a scoring
-model which PET ([PetTop](https://blog.inductorsoftware.com/docsproto/garage/PetTop)) can use. However, current [\[incr
+model which PET (PetTop) can use. However, current [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) training and evaluation code
 assumes a small number of patches to TADM that have yet to be
 incorporated into the [SourceForge
 repository](http://tadm.sourceforge.net/); feel free to contact
 StephanOepen for details. A pre-compiled binary is
-available as part of the [LOGON tree](https://blog.inductorsoftware.com/docsproto/tools/LogonTop), and quite generally all
+available as part of the LOGON tree, and quite generally all
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) machine learning and
 experimentation (MLE) functionality is best supported in the LOGON
 environment. Look in the sub-directory lingo/redwoods/ for examples of
@@ -48,7 +48,7 @@ Select the treebanked profile (left-click), or profiles (click in the
 radio buttons) and then select *Trees \| Train* from the menus. It will
 prompt you for the filename to put the scoring model in. The tradtion is
 something like corpus-version.mem. You should have the grammar used for
-treebanking loaded into the LKB ([LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)). Training is normally
+treebanking loaded into the LKB (LkbTop). Training is normally
 fairly fast.
 
 ## Scoring

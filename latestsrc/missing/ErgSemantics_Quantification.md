@@ -82,6 +82,6 @@ universal\_q
 
 # Additional Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) Main Page
-- [How to Cite this Work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
+- ErgSemantics Main Page
+- How to Cite this Work
 <update date omitted for speed>{% endraw %}

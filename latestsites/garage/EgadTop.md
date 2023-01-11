@@ -8,12 +8,12 @@ MRS, if the top ranked generation result matches the input string, etc.
 
 **Egad** was created by MichaelGoodman and
 FrancisBond in order to improve generation results for
-[Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop), but it has also been used to analyze the ERG. It relies
-on both the [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\] and [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) packages for
+Jacy, but it has also been used to analyze the ERG. It relies
+on both the [\[incr tsdb()]()\] and LKB packages for
 parsing and generating sentences with a grammar. Please contact the
 authors if **Egad** does not work with your grammar.
 
-[EgadInstallation](https://blog.inductorsoftware.com/docsproto/garage/EgadInstallation) : Installing **Egad**
+EgadInstallation : Installing **Egad**
 
 [EgadAnalysis](/EgadAnalysis) : Obtaining a grammar analysis with
 **Egad**

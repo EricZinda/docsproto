@@ -1,6 +1,6 @@
 {% raw %}This page discusses some of the known issues with paraphrasing, with
 especial reference to (R)MRS. It also tells you how to paraphrase using
-MRS in the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop).
+MRS in the LKB.
 
 ## Paraphrasing in the LKB
 
@@ -23,7 +23,7 @@ generate from the paraphrase. If you don't get generated output, try
 first doing **Start Server** from the **Generate** menu.
 
 Paraphrasing rules are done with the same [transfer
-rules](https://blog.inductorsoftware.com/docsproto/tools/TransferRules) used in MT and generation. An example is given
+rules]() used in MT and generation. An example is given
 below. This will paraphrase "*We gave a demo of the system*" -&gt; "*We
 demoed the system*".
 

@@ -1,6 +1,6 @@
 {% raw %}## SIG transcript: Web/Metagrammar, 19 June 2016 (Day 4)
 
-[DELPH-IN 2016](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
+DELPH-IN 2016
 
 Requestor: LuisMorgadoCosta
 

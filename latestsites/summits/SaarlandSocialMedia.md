@@ -7,7 +7,7 @@ Glenn: Should we hold this on twitter?
 Tim: Yes --- \#delphin
 
 oe: Interesting questions. We have one relevant ongoing project in Oslo,
-[WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) "Semantic parsing for the web" is the subtitle.
+WeSearch "Semantic parsing for the web" is the subtitle.
 
 Woodley: The Norwegians would be happy to help you with the how fast can
 you make it question.

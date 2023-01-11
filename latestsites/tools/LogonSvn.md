@@ -31,7 +31,7 @@ components. Unless there are local modifications, *switch* will override
 the effects of earlier *switch* commands. Thus, to completely switch
 over a tree from one universe to another, it may be necessary to apply
 additional *switch* commands on directories that correpond to add-on
-components; see the [LogonExtras](https://blog.inductorsoftware.com/docsproto/tools/LogonExtras) page for details. In
+components; see the LogonExtras page for details. In
 determining which parts of a local copy correspond to which revisions in
 the repository, the SVN sub-commands *status* and *info* can be very
 convenient.

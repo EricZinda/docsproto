@@ -219,7 +219,7 @@ Of the development data bigrams ending in 't there are:
 - 1 wasn 't
 
 There is a full listing of tokens containing punctuation here:
-[JimWhite/StarSemTokenTabulation](https://blog.inductorsoftware.com/docsproto/missing/JimWhite_StarSemTokenTabulation).
+JimWhite/StarSemTokenTabulation.
 
 ## Some examples
 

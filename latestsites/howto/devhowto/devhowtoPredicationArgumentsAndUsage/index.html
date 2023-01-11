@@ -348,7 +348,7 @@
 
 <ul>
   <li>“Delete a file” includes an implied “actor” (“you”) as the first <code class="language-plaintext highlighter-rouge">x</code> argument: <code class="language-plaintext highlighter-rouge">_delete_v_1(e, x, x)</code></li>
-  <li>“a file is deleted” has no implied actor, so the first <code class="language-plaintext highlighter-rouge">x</code> argument is dropped and becomes an <code class="language-plaintext highlighter-rouge">i</code>: <code class="language-plaintext highlighter-rouge">_delete_v_1(e, i, x)</code></li>
+  <li>“a file is deleted” has no implied actor, so the first <code class="language-plaintext highlighter-rouge">x</code> argument is <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">dropped</a> and becomes an <code class="language-plaintext highlighter-rouge">i</code>: <code class="language-plaintext highlighter-rouge">_delete_v_1(e, i, x)</code></li>
 </ul>
 
 <p>Furthermore, the implementation of <code class="language-plaintext highlighter-rouge">delete_v_1</code> for each of those phrases will be very different. The first needs to actually delete a file and the second should (perhaps) look through the trash to see if a file has been deleted. The <code class="language-plaintext highlighter-rouge">Vocabulary</code> class needs to remember the arguments used with a predication implementation and also allow different functions to cover different sentence force scenarios.</p>
@@ -380,7 +380,7 @@ def _delete_v_1_comm(state, e_introduced, x_actor, x_what):
     ....
 </code></pre></div></div>
 
-<p>As before, it isn’t important to understand how the <code class="language-plaintext highlighter-rouge">Predication()</code> decorator works, but if you’re interested: the final code is <a href="https://github.com/EricZinda/Perplexity/blob/main/perplexity/vocabulary.py">here</a>.</p>
+<p>As <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython">before</a>, it isn’t important to understand how the <code class="language-plaintext highlighter-rouge">Predication()</code> decorator works, but if you’re interested: the final code is <a href="https://github.com/EricZinda/Perplexity/blob/main/perplexity/vocabulary.py">here</a>.</p>
 
 <p>With this, we can now try the same example and get a better error (better than crashing, at least):</p>
 

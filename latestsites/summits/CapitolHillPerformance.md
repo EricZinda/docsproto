@@ -1,7 +1,7 @@
 {% raw %}Led by DPF and FCB, scribed by FCB.
 
 We had a very informative discussion. I have tried to put most of the
-information in the new [GrammarPerformance](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance) page
+information in the new GrammarPerformance page
 (and not recorded it here), but there was a new idea that did not fit
 well there.
 

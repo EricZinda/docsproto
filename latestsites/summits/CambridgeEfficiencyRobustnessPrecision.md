@@ -1,6 +1,6 @@
 {% raw %}# Efficiency, robustness, precision: balance and control
 
-Discussion at the [Cambridge Summit](https://blog.inductorsoftware.com/docsproto/summits/CambridgeTop) led by Dan
+Discussion at the Cambridge Summit led by Dan
 Flickinger; scribed by Guy Emerson (2019).
 
 Bec: Angelina's work?
@@ -76,7 +76,7 @@ right move here.
 
 Francis: If one of the things we do is produce more training data, one
 approach is to process other people's markup. e.g. in
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods), use wikilinks to produce Dan's special
+WikiWoods, use wikilinks to produce Dan's special
 constituent brackets.
 
 Ann: Basically treat as named entities.
@@ -86,7 +86,7 @@ talking about <https://nlp.stanford.edu/pubs/markup.pdf>?).
 
 Ann: Also, mine e.g. Wikipedia titles for named entities.
 
-Dan: Currently not used in [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods). We know we're
+Dan: Currently not used in WikiWoods. We know we're
 throwing away possibly useful information.
 
 Woodley: But you use italics.
@@ -114,7 +114,7 @@ John: For RASP, we use a ratio.
 
 Bec: Difficult to do with different length spans.
 
-Dan: We wrote [AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning) which mentions these things.
+Dan: We wrote AceErgTuning which mentions these things.
 
 Alex: How is the POS-tagger used?
 
@@ -251,7 +251,7 @@ Dan: It's not a new feature of English.
 - Where can I learn how to add/use the brackets to mark the
 constituents? Ace accepted those brackets, right? Links?
 - The discussion about Ace options ended up talking about the page
-[AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning).
+AceErgTuning.
 - Dan presented the mapping of the pos tagger tags to lexical entries
 (file gle.tdl I believe) but this is not the token-mapping
 (preprocessing) rules, right?

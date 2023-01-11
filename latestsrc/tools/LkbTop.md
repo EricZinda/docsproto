@@ -11,7 +11,7 @@ The primary documentation on the LKB is provided by the book
 Grammars](http://cslipublications.stanford.edu/site/1575862603.shtml).
 Excerpts from the book provide an [tour of the
 LKB](http://cslipublications.stanford.edu/pdf/1575862603h.pdf) (although
-see [LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) for revised installation
+see LkbInstallation for revised installation
 instructions) and the [user
 manual](http://cslipublications.stanford.edu/pdf/1575862603usersmanual.pdf).
 
@@ -29,30 +29,30 @@ The LKB has been in active use since around 1991, with a substantially
 new version in use from about 1997. These pages include documentation on
 the following topics:
 
-- [LkbCopyright](https://blog.inductorsoftware.com/docsproto/tools/LkbCopyright): Copyright and licensing;
-- [LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation): Obtaining, installing and
+- LkbCopyright: Copyright and licensing;
+- LkbInstallation: Obtaining, installing and
 running the LKB;
-- [LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs): Interfacing the LKB to the emacs(1) editor;
+- LkbEmacs: Interfacing the LKB to the emacs(1) editor;
 - [LkbLexDb](/LkbLexDb): Using the lexical database machinery to build
 and maintain large lexicons;
-- [LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos): Fully open source version of the LKB with a more
+- LkbFos: Fully open source version of the LKB with a more
 modern and user-friendly interface;
-- [LkbTrollet](https://blog.inductorsoftware.com/docsproto/tools/LkbTrollet): Trollet, a wrapper around LKB providing
+- LkbTrollet: Trollet, a wrapper around LKB providing
 better multilingual support and a cleaner interface;
-- [LkbUserGroup](https://blog.inductorsoftware.com/docsproto/tools/LkbUserGroup): Communication with LKB developers and
+- LkbUserGroup: Communication with LKB developers and
 other users;
-- [LkbCourses](https://blog.inductorsoftware.com/docsproto/tools/LkbCourses): Information on the use of the LKB in
+- LkbCourses: Information on the use of the LKB in
 teaching;
-- [LkbFaq](https://blog.inductorsoftware.com/docsproto/tools/LkbFaq): Frequently Asked Questions related to using the
+- LkbFaq: Frequently Asked Questions related to using the
 LKB;
-- [LkbWishlist](https://blog.inductorsoftware.com/docsproto/tools/LkbWishlist): Suggestions/requests for extensions to
+- LkbWishlist: Suggestions/requests for extensions to
 the LKB;
-- [LkbBugs](https://blog.inductorsoftware.com/docsproto/tools/LkbBugs): Known issues with incorrect behavior in the LKB;
-- [LkbConventions](https://blog.inductorsoftware.com/docsproto/tools/LkbConventions): Conventions followed by many
+- LkbBugs: Known issues with incorrect behavior in the LKB;
+- LkbConventions: Conventions followed by many
 grammar writers;
-- [LkbGeneration](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration): Information and notes on generating
+- LkbGeneration: Information and notes on generating
 with the LKB;
-- [Lexical Type Database](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb): Web interface to the lexicon (and
+- Lexical Type Database: Web interface to the lexicon (and
 treebanks) - an add-on to the main LKB; and
 - [GrammarEngineeringFaq](/GrammarEngineeringFaq): Frequently Asked
 Questions about grammar engineering with the LKB and the Grammar
@@ -66,7 +66,7 @@ up-to-date on-line documentation.
 # Grammars
 
 Small sample grammars are downloadable as described in
-[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation). Larger scale resources which are
+LkbInstallation. Larger scale resources which are
 freely downloadable include:
 
 - The [Matrix](http://www.delph-in.net/matrix/): a starter kit for

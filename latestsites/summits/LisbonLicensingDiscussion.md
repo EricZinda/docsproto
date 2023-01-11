@@ -15,10 +15,10 @@ Many of the projects affiliated with DELPH-IN have already adopted
 licenses of one sort or another. Some have no license. This is
 summarized here:
 
-- [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop), [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop), and [\[incr
-tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\] are all licensed under the [GNU Lesser General
+- PET, Heart of Gold, and [\[incr
+tsdb()]()\] are all licensed under the [GNU Lesser General
 Public License (LGPL)](http://www.gnu.org/copyleft/lesser.html)
-- The [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop), ERG, and the [Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop) are all licensed
+- The LKB, ERG, and the Matrix are all licensed
 under the [MIT
 license](http://www.opensource.org/licenses/mit-license.php)
 - Hinoki and the German Grammar are closed
@@ -27,7 +27,7 @@ Grammar are not currently under any specific license
 - The group was unsure of the licenses used in tsdb(1) (the RDBMS
 behind \[itsdb\]) and [YZ
 Windows](http://yz-windows.sourceforge.net/) (which is used in
-[LUI](https://blog.inductorsoftware.com/docsproto/tools/LkbLui))
+LUI)
 
 ### Aspects of licensing to consider
 

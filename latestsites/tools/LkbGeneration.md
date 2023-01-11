@@ -1,33 +1,33 @@
-{% raw %}This page was adapted from [JacyGeneration](https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration) by
+{% raw %}This page was adapted from JacyGeneration by
 MichaelGoodman, and therefore many of the examples are
-from the [JACY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) Grammar.
+from the JACY Grammar.
 
 Contents
 
-1. [Overview](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+1. Overview
 2. [Generating Semantically Empty Lexical Entries
-(trigger.mtr)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+(trigger.mtr)]()
    1. [How to list semantically empty lexical
-entries](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-   2. [ToDo](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-3. [Generating Unknown Words](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+entries]()
+   2. ToDo
+3. Generating Unknown Words
 4. [Selective Generation
-(globals.lisp)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-   1. 1. 1. [In Ace](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-5. [Other Notes](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+(globals.lisp)]()
+   1. 1. 1. In Ace
+5. Other Notes
    1. [Make generation faster
-(globals.lsp)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-   2. [Fixup MRS (mrsglobals.lsp)](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+(globals.lsp)]()
+   2. Fixup MRS (mrsglobals.lsp)
    3. [Reload generation rules without
-reindexing](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+reindexing]()
    4. [MRS Semantic Equivalence
-Check](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-   5. [Checking the Generator Index](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-6. [Trouble Shooting](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-   1. [Morphology](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
-   2. [C-CONT](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+Check]()
+   5. Checking the Generator Index
+6. Trouble Shooting
+   1. Morphology
+   2. C-CONT
    3. [Loading and Activating a Generation
-Model](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration)
+Model]()
 
 # Overview
 
@@ -124,12 +124,12 @@ in the ERG's global.lsp file.
 # Selective Generation (globals.lisp)
 
 You can block generation of some non-empty predicates by putting it in
-the list \*duplicate-lex-ids\* in globals.lisp. [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop)
+the list \*duplicate-lex-ids\* in globals.lisp. Jacy
 currently does this to block informal and variant forms for which we
 have no available filter. Note that this is a list of lex-ids, not
 predicate names.
 
-**Note**: If you want this list to also be seen by [ace](https://blog.inductorsoftware.com/docsproto/tools/AceTop), you
+**Note**: If you want this list to also be seen by ace, you
 need to move it to a separate file (see a recent ERG for examples of how
 to do this).
 

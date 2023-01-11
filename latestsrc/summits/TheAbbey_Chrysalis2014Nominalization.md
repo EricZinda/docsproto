@@ -1,5 +1,5 @@
 {% raw %}\[Picking up a discussion from Saarland Summit:
-[SaarlandSententialArgument](https://blog.inductorsoftware.com/docsproto/erg/SaarlandSententialArgument)\]
+SaarlandSententialArgument\]
 
 Woodley: *It surprised me that the balloon popped*/*I was surprised that
 the balloon popped*
@@ -121,7 +121,7 @@ Woodley: Yes.
 Emily: The question is why we have to allow semantically contentful
 prepositions to take wh clauses.
 
-Dan: Frequent in [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank)
+Dan: Frequent in DeepBank
 
 Emily: Semantically contentful?
 

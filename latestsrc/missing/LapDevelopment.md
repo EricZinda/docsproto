@@ -5,7 +5,7 @@ among developers. As such, they complement the LAP [email
 list](https://sympa.uio.no/ifi.uio.no/info/lap-developers), [ticket
 system](https://rt.uio.no), and [SVN
 repository](http://svn.emmtee.net/lap). At least initially, only
-registered members of the [LapGroup](https://blog.inductorsoftware.com/docsproto/missing/LapGroup) can edit this page (and
+registered members of the LapGroup can edit this page (and
 sub-pages, as long as we make sure to assign access rights correctly).
 However, as these pages can be viewed by the public (including
 unregistered wiki users), sensitive or private information (e.g.
@@ -78,13 +78,13 @@ maitained, i.e. expected to provide up-to-date information (there are
 more pages in the LapDevelopment sub-hierarchy, many of which are only
 of internal or historic significance):
 
-- [LapDevelopment/Accounting](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Accounting)
-- [LapDevelopment/Annotations](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Annotations)
-- [LapDevelopment/Deployment](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Deployment)
-- [LapDevelopment/Environment](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Environment)
-- [LapDevelopment/MongoDB](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_MongoDB)
-- [LapDevelopment/ToE](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_ToE)
-- [LapDevelopment/Tree](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Tree)
+- LapDevelopment/Accounting
+- LapDevelopment/Annotations
+- LapDevelopment/Deployment
+- LapDevelopment/Environment
+- LapDevelopment/MongoDB
+- LapDevelopment/ToE
+- LapDevelopment/Tree
 
 # LAP Hardware
 
@@ -101,12 +101,12 @@ R730 with 2 x 10C @ 2.3 ghz, 192 gbytes of RAM, and 3.2 tbytes in SDD.
 Following is an attempt at breaking down LAP into major component
 pieces. More in-depth discussion of individual pieces should be
 delegated to sub-pages, for example the
-[LapDevelopment/Tree](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Tree),
-[LapDevelopment/MongoDB](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_MongoDB),
+LapDevelopment/Tree,
+LapDevelopment/MongoDB,
 LapDevelopment/Abel,
-[LapDevelopment/Annotations](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Annotations),
-[LapDevelopment/Giellatekno](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Giellatekno), or
-[LapDevelopment/Tests](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Tests) pages.
+LapDevelopment/Annotations,
+LapDevelopment/Giellatekno, or
+LapDevelopment/Tests pages.
 
 ## LAP Tree
 
@@ -126,7 +126,7 @@ LAP Tree into an arbitrary location, there *cannot* be any configuration
 in terms of absolute path names; instead, where necessary, tools can
 refer to relative locations below the root of the LAP Tree, which is
 recorded in an environment variable $LAPTREE (for more background, see
-[LapDevelopment/Environment](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_Environment)).
+LapDevelopment/Environment).
 
 Our design goal is to eventually allow users to request arbitrary
 versions of tools (or arbitrary combinations of tool versions) from the

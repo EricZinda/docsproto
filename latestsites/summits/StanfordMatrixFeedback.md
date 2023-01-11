@@ -28,7 +28,7 @@ study. In some cases, I had to guess. The only grammar we really know
 this of is the Wambaya grammar -- Emily did an analysis in the current
 paper.
 
-Antske: Points to notes from [Tomar meeting](https://blog.inductorsoftware.com/docsproto/summits/TomarMatrix). Nothing much
+Antske: Points to notes from Tomar meeting. Nothing much
 happened, but I hope that if I make plans to work with people, since
 that'll get me doing it. Ways of doing this: [ParGram](/ParGram) model
 (probably not reasonable for us). Shared core grammar that everyone
@@ -114,7 +114,7 @@ example.
 Antske: Will add to my todo list to make a very small CLIMB for some
 language. And I'm happy to help anyone get set up with CLIMB. Email me!
 
-Luis: [ClimbTop](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop) talks about SHORTCLIMB and gCLIMB but not
+Luis: ClimbTop talks about SHORTCLIMB and gCLIMB but not
 obvious how to get the latter.
 
 Antske: The link for gCLIMB is in my thesis, but I should add it to that
@@ -124,7 +124,7 @@ Dan: And the SlaviCLIMB?
 
 Antske: At DFKI -- need guest account.
 
-Emily: This should be on the [ClimbTop](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop) page too.
+Emily: This should be on the ClimbTop page too.
 
 Glenn: Is the abbreviated path code you mention in your thesis required
 for CLIMB or orthogonal?

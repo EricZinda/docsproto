@@ -17,12 +17,12 @@ For Fedora (Redhat, etc.)
   For Ubuntu (Debian, Mint, Pinguy, etc.)  
   
       sudo apt-get install emacs
-- [Install Logon](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) (you will have everything you
+- Install Logon (you will have everything you
 need to develop a grammar). If you use Fedora, read this guide
-[LogonFedora](https://blog.inductorsoftware.com/docsproto/missing/LogonFedora).
+LogonFedora.
 - Start Emacs and try to run logon by pressing \[ESC\] then \[x\] then
 type "logon" then hit \[ENTER\]
-- Some useful keyboard shortcut for [Emacs/LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbMode)
+- Some useful keyboard shortcut for Emacs/LKB
 
 ## The Matrix
 
@@ -34,10 +34,10 @@ generating a toy grammar so you can play with it quickly.
 ## Make use of your grammars
 
 If you want to use your grammar in production, you should use ACE. See
-[this page](https://blog.inductorsoftware.com/docsproto/tools/AceTop) for everything about ACE. Basically what you want is
+this page for everything about ACE. Basically what you want is
 to download a copy of ACE from
 [here](http://sweaglesw.org/linguistics/ace/), and then see [this
-page](https://blog.inductorsoftware.com/docsproto/tools/AceUse) to know how to use it. A version of ACE (may be older) is
+page]() to know how to use it. A version of ACE (may be older) is
 included with logon under the name answer and can be found at
 \~/logon/bin/answer.
 
@@ -71,5 +71,5 @@ button. The tree LaTeX code will be written into /tmp/ folder. This
 method works for MRS diagrams as well. LUI mode can be used to debug
 grammars as well. For example after LUI is started, :l bay can be used
 to display lexical information of the intransitive verb "bay". More
-information can be found in the page [AceLui](https://blog.inductorsoftware.com/docsproto/tools/AceLui)
+information can be found in the page AceLui
 <update date omitted for speed>{% endraw %}

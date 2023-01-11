@@ -2,7 +2,7 @@
 In DELPH-IN, the same predication name might get called with different sets of arguments depending on how it is used. For example, the English verb "delete" (`_delete_v_1`) can be called with these signatures:
 
 - "Delete a file" includes an implied "actor" ("you") as the first `x` argument: `_delete_v_1(e, x, x)`
-- "a file is deleted" has no implied actor, so the first `x` argument is dropped and becomes an `i`: `_delete_v_1(e, i, x)`
+- "a file is deleted" has no implied actor, so the first `x` argument is [dropped](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS) and becomes an `i`: `_delete_v_1(e, i, x)`
 
 Furthermore, the implementation of `delete_v_1` for each of those phrases will be very different. The first needs to actually delete a file and the second should (perhaps) look through the trash to see if a file has been deleted. The `Vocabulary` class needs to remember the arguments used with a predication implementation and also allow different functions to cover different sentence force scenarios.
 
@@ -30,7 +30,7 @@ def _delete_v_1_comm(state, e_introduced, x_actor, x_what):
     ....
 ```
 
-As before, it isn't important to understand how the `Predication()` decorator works, but if you're interested: the final code is [here](https://github.com/EricZinda/Perplexity/blob/main/perplexity/vocabulary.py).
+As [before](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython), it isn't important to understand how the `Predication()` decorator works, but if you're interested: the final code is [here](https://github.com/EricZinda/Perplexity/blob/main/perplexity/vocabulary.py).
 
 With this, we can now try the same example and get a better error (better than crashing, at least):
 

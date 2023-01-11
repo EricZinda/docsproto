@@ -126,8 +126,8 @@ Emily: Yes, but Josh Cason says …
 oe: Third approach currently exploring in Oslo is dumping EDS/bilexical
 dependencies/MRS to RDF graphs, in the first instance to make them
 searchable. Worked out how to do that and build an index that can be
-efficiently searched for [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) and
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods). Then there are also reasoners. Would be
+efficiently searched for DeepBank and
+WikiWoods. Then there are also reasoners. Would be
 interesting to ask how much damage will result from interpreting MRSs
 
 Emily: It is a lossy transformation, but is the loss relevant for some

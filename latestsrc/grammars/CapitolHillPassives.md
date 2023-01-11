@@ -308,6 +308,6 @@ Some examples:
            Budi ke-thirsty-an
            "Budi suffers from severe thirst."
 
-Link to [discussion notes](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) as transcribed
+Link to discussion notes as transcribed
 by DanFlickinger.
 <update date omitted for speed>{% endraw %}

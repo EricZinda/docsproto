@@ -273,7 +273,7 @@ are part of your knowledge of language that are not part of the lexical
 resources yet.
 
 DPF: Definitely nodding vigorously about the need for MWEs. That's the
-single thing I run into most frequently in [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) tree
+single thing I run into most frequently in DeepBank tree
 banking. The most common problem is missing MWEs. There's no single
 source to say what they should be. Easy to add, hard to find.
 
@@ -585,7 +585,7 @@ SR: Discriminitive models are easier because you can just throw
 everything in.
 
 WP: Training a discriminative model on a lot of data (like
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) lot of data) is going to be tricky.
+WikiWoods lot of data) is going to be tricky.
 
 SR: My experience is that maxent scales pretty well.
 

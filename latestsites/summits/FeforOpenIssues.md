@@ -3,7 +3,7 @@
 This page logs some of the discussion we had about managing open issues
 and how to best channel effort (e.g., student research) to projects
 which are of high priority but not otherwise currently being addressed.
-The main page for open issues is [OpenissuesTop](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop), and
+The main page for open issues is OpenissuesTop, and
 instructions for adding or modifying open issues are given there.
 
 Many topics come up repeatedly which are too complicated to solve in one

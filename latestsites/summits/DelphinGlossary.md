@@ -18,7 +18,7 @@ representation language
 Techniques - high-effiency parser
 - **Redwoods**:
 - **SEM-I**: Semantic Interface (aka ‘MRS API’): declares things that
-might appear in an MRS ([RmrsSemi](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi))
+might appear in an MRS (RmrsSemi)
 - **VPM**: Variable Property Mapping: translates grammar-internal
-aspects to SEM-I compatible MRS ([RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm))
+aspects to SEM-I compatible MRS (RmrsVpm)
 <update date omitted for speed>{% endraw %}

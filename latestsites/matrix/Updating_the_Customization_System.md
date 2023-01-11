@@ -1,11 +1,11 @@
 {% raw %}# Updating the Customization System
 
-There are several [steps](https://blog.inductorsoftware.com/docsproto/matrix/Updating_the_Customization_System) to
+There are several steps to
 updating the customization system, although you won't necessarily do all
 of them for every change. We also have some instructions for [committing
-or vivifying](https://blog.inductorsoftware.com/docsproto/matrix/Updating_the_Customization_System) changes.
+or vivifying]() changes.
 There are also a few [basic
-examples](https://blog.inductorsoftware.com/docsproto/matrix/Updating_the_Customization_System) of things to play
+examples]() of things to play
 with if you are starting out.
 
 # Steps to Update the System <a name="steps"/>
@@ -21,7 +21,7 @@ The questionnaire is a CGI application written in Python that is stored
 in the Matrix svn repository (in matrix/gmcs/). Its most important files
 are:
 
-- The [matrixdef](https://blog.inductorsoftware.com/docsproto/matrix/matrixdef_File_Syntax)
+- The matrixdef
 file, which defines both the questionnaire and the list of
 **choices** -- that is, the name space of attributes and their
 ranges of values that are used to store the user's answers to the
@@ -69,14 +69,14 @@ based on this range a set of new choices (names and values) must be
 defined.
 2. Write the processing code in customize.py (and/or in a
 library-specific module)
-3. Write [unit tests](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting) for the code
-4. Write [regression tests](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) to test the output
+3. Write unit tests for the code
+4. Write regression tests to test the output
 
 When changing the underlying infrastructure:
 
 1. Write the changes to matrix.cgi, customize.py, choices.py, or
 whatever module is needing change
-2. Definitely write [unit tests](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting) for
+2. Definitely write unit tests for
 these kinds of changes
 3. Update the documentation as necessary (e.g. these wiki pages)
 
@@ -103,7 +103,7 @@ chmod a+w sessions).
 # Committing and pushing changes to the remote repository (this one!) using git <a name="committing"/>
 
 1. **NB**: Avoid working directly on the trunk. Work in a branch, then merge your branch into the trunk once it's ready. See [related issue](https://github.com/delph-in/matrix/issues/503).
-2. Don't forget to run all of the [regression tests](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) before merging your branch with the trunk and before installing a version on the main public website! 
+2. Don't forget to run all of the regression tests before merging your branch with the trunk and before installing a version on the main public website! 
 3. Refer to [git docs/tutorials](https://www.atlassian.com/git/tutorials) for information about committing, resolving conflicts, etc.
 
 # Committing and Vivifying Changes in the old SVN repository <a name="committing-svn"/>
@@ -111,7 +111,7 @@ chmod a+w sessions).
 1. svn update
 2. resolve conflicts
 3. run the regression tests:
-[MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting)
+MatrixRegressionTesting
 4. fix any regressions (repeat as necessary)
 5. svn diff each file to find diffs and note in text file for svn
 comment

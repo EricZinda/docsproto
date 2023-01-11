@@ -38,14 +38,14 @@ Now you can start ACE:
 
 You should add ace to your path, so you can run it from anywhere.
 
-You may also want to install [yzlui](https://blog.inductorsoftware.com/docsproto/tools/AceLui) for a graphical interface
+You may also want to install yzlui for a graphical interface
 which allows interactive unification.
 
 # Compiling and installing from source
 
 These are instructions on how to configure a build environment for
 compiling the ACE software from source. For using ACE to compile grammar
-images, see [AceUse](https://blog.inductorsoftware.com/docsproto/tools/AceUse).
+images, see AceUse.
 
 ### Dependencies
 
@@ -65,7 +65,7 @@ extracted directory:
 
 If you want [\[incr tsdb()\]](http://www.delph-in.net/itsdb) support,
 download the LOGON distribution (see
-[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)) and make sure the LOGONROOT
+LogonInstallation) and make sure the LOGONROOT
 environment variable is set. If you don't want [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) support, inspect ACE's Makefile
 (after checkout out the code; see below) and comment out the lines it
@@ -116,7 +116,7 @@ lines from ACE's Makefile:
 Doing so, however, means you lose [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) support with ACE. Second, you
 can ensure you have the Logon distribution checked out (see
-[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)) and the LOGONROOT environment
+LogonInstallation) and the LOGONROOT environment
 variable appropriately set. If you don't already have the whole LOGON
 tree on your computer, this may be too much for just some library files.
 The third option is to only download those files and copy them to the

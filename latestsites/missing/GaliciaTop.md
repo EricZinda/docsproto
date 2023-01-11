@@ -1,10 +1,10 @@
 {% raw %}# Overview
 
-The 19th DELPH-IN [Summit](https://blog.inductorsoftware.com/docsproto/summits/SummitTop) will take place on June 26--30 2023 in A Coruña, Galicia, Spain.
+The 19th DELPH-IN Summit will take place on June 26--30 2023 in A Coruña, Galicia, Spain.
 
 ## Registration
 
-Please register at the [2023 participants page](https://blog.inductorsoftware.com/docsproto/missing/GaliciaParticipants).  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
+Please register at the 2023 participants page.  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
 
 There may be a registration fee (especially if we will end up having coffee and lunches on site); I will try to keep it small.
 
@@ -13,7 +13,7 @@ The local organization is handled by Olga Zamaraeva and the [LyS Group](http://w
 
 ## Optional pre-summit workshop
 
-A pre-summit [workshop on Lexical Resources](https://blog.inductorsoftware.com/docsproto/missing/GaliciaLexicalResources) is going to be on Friday, June 23, followed by the [San Juan party](https://www.spain.info/es/agenda/hogueras-san-juan-a-coruna/). 
+A pre-summit workshop on Lexical Resources is going to be on Friday, June 23, followed by the [San Juan party](https://www.spain.info/es/agenda/hogueras-san-juan-a-coruna/). 
 
 # Program
 
@@ -21,7 +21,7 @@ TBA
 
 The program committee this year consists of TBA.
 
-Note: We will adopt a "Spanish" schedule, starting at 10-10:30 AM and running till 19-19:30. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. It will be similar to what was done in [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaSchedule).
+Note: We will adopt a "Spanish" schedule, starting at 10-10:30 AM and running till 19-19:30. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. It will be similar to what was done in Barcelona.
 
 # Location
 
@@ -53,5 +53,5 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 # Local Guide
 
-Please take a look at the [Local Guide](https://blog.inductorsoftware.com/docsproto/missing/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
+Please take a look at the Local Guide for some info about the weather, sightseeing, eating out etc.
 <update date omitted for speed>{% endraw %}

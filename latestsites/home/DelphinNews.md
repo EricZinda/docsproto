@@ -1,27 +1,27 @@
-{% raw %}- **JUL-20** The [Sixteenth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/BellinghamTop)
+{% raw %}- **JUL-20** The Sixteenth Annual DELPH-IN Meeting
 was held via Zoom for the first time, instead of physically in
 Bellingham, WA.
-- **JUL-19** The [Fifteenth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/CambridgeTop) was
+- **JUL-19** The Fifteenth Annual DELPH-IN Meeting was
 held in Cambridge, England.
-- **JUN-18** The [Fourteenth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/DiderotTop) was
+- **JUN-18** The Fourteenth Annual DELPH-IN Meeting was
 held in Paris, France.
-- **AUG-17** The [Thirteenth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/OsloTop) was
+- **AUG-17** The Thirteenth Annual DELPH-IN Meeting was
 held in Oslo, Norway.
-- **JUN-16** The [Twelfth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/StanfordTop) was
+- **JUN-16** The Twelfth Annual DELPH-IN Meeting was
 held in Stanford, CA.
-- **AUG-15** The [Eleventh Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/SingaporeTop) was
+- **AUG-15** The Eleventh Annual DELPH-IN Meeting was
 held in Singapore.
-- **JUL-14** The [Tenth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/TomarTop) was held in
+- **JUL-14** The Tenth Annual DELPH-IN Meeting was held in
 Tomar, Portugal.
-- **JUL-13** The [Ninth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop) was held
+- **JUL-13** The Ninth Annual DELPH-IN Meeting was held
 in St. Wendel, Germany, near Saarbrücken.
-- **JUL-12** The [Eighth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop) was held
+- **JUL-12** The Eighth Annual DELPH-IN Meeting was held
 in Sofia, Bulgaria.
-- **JUN-11** The [Seventh Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop) was
+- **JUN-11** The Seventh Annual DELPH-IN Meeting was
 held in Suquamish, WA, near Seattle.
-- **JUL-10** The [Sixth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/ParisTop) was held in
+- **JUL-10** The Sixth Annual DELPH-IN Meeting was held in
 Paris, France.
-- **JUL-09** The [Fifth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop) was
+- **JUL-09** The Fifth Annual DELPH-IN Meeting was
 held in Barcelona, Spain.
 - **JUN-09** DELPH-IN member Scott Drellishak
 (student of DELPH-IN member Emily Bender) defended
@@ -30,23 +30,23 @@ Typological Coverage of the Grammar
 Matrix''](http://students.washington.edu/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf)
 and received his Ph.D. in Linguistics from the University of
 Washington.
-- **AUG-08** The [Fourth Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop) was held
+- **AUG-08** The Fourth Annual DELPH-IN Meeting was held
 in Kyoto, Japan.
-- **AUG-07** The [Third Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop) was held
+- **AUG-07** The Third Annual DELPH-IN Meeting was held
 in Berlin, Germany.
-- **JUN-06** The [Second Annual DELPH-IN Meeting](https://blog.inductorsoftware.com/docsproto/summits/FeforTop) was held
+- **JUN-06** The Second Annual DELPH-IN Meeting was held
 in Fefor, Norway.
 - **FEB-06** A group of ten developers of DELPH-IN resources meets for
-a focussed [Developers Meeting](https://blog.inductorsoftware.com/docsproto/summits/JerezTop) in Jerez (Spain). Among
+a focussed Developers Meeting in Jerez (Spain). Among
 the main results of the meeting are the merging of the two historic
-[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) branches, the design for stand-alone FSPP use and
+PET branches, the design for stand-alone FSPP use and
 integration of conflicting tokenization views into
-[HoG](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop), as well as initial results on harmonizing the
-configuration of [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) and the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop).
+HoG, as well as initial results on harmonizing the
+configuration of PET and the LKB.
 - **OCT-05** The EPSRC-funded [SciBorg
 project](http://www.sciborg.org.uk) starts at the University of
 Cambridge, using integrated deep and shallow techniques in
-processing scientific text, building on the work on [RMRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop)
+processing scientific text, building on the work on RMRS
 that was begun on the [Deep-Thought
 Project](http://www.project-deepthought.net/).
 - **OCT-05** NTT (in the person of Francis Bond) hosts the fourth
@@ -171,7 +171,7 @@ Linguistics](http://www.coling2002.sinica.edu.tw/) in Taipei
 
 ### Policy
 
-- This is the News page for [DELPH-IN](https://blog.inductorsoftware.com/docsproto/home/Home). Please use it to
+- This is the News page for DELPH-IN. Please use it to
 add relevant new items which you think will be of general interest.
 - In general, please only add new entries and update and add comments
 to entries from your group. Please do not delete or add comments to

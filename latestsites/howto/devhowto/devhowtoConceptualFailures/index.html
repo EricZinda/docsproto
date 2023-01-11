@@ -403,7 +403,7 @@ _a_q(x3,RSTR,BODY)
   <li>The place in the tree for which we want the English</li>
 </ol>
 
-<p>It will walk the tree in execution order using the function we’ve written in a previous section called <code class="language-plaintext highlighter-rouge">WalkTreeUntil()</code>. This function will pass each predication, in execution order, to a different function called <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> (“NLG” stands for “Natural Language Generation”). That function will determine if the predication is restricting the <code class="language-plaintext highlighter-rouge">variable</code> in question somehow. If so, it adds some data to a structure called <code class="language-plaintext highlighter-rouge">nlg_data</code> that records what the English description of the restriction is. At the end, we’ll call a function (<code class="language-plaintext highlighter-rouge">ConvertToEnglish()</code>) that takes all the gathered data and turns it into English:</p>
+<p>It will walk the tree in execution order using the function we’ve written <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleQuestions">in a previous section</a> called <code class="language-plaintext highlighter-rouge">WalkTreeUntil()</code>. This function will pass each predication, in execution order, to a different function called <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> (“NLG” stands for “Natural Language Generation”). That function will determine if the predication is restricting the <code class="language-plaintext highlighter-rouge">variable</code> in question somehow. If so, it adds some data to a structure called <code class="language-plaintext highlighter-rouge">nlg_data</code> that records what the English description of the restriction is. At the end, we’ll call a function (<code class="language-plaintext highlighter-rouge">ConvertToEnglish()</code>) that takes all the gathered data and turns it into English:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Given the index where an error happened and a variable,
 # return what that variable "is" up to that point, in English
@@ -437,7 +437,7 @@ def EnglishForDelphinVariable(failure_index, variable, mrs):
     return ConvertToEnglish(nlg_data)
 </code></pre></div></div>
 
-<p>For now, <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> takes a very simple approach to seeing if a predication is restricting the <code class="language-plaintext highlighter-rouge">variable</code>: Predications which <em>introduce</em> a variable (as described in a previous section) are, in some sense, the base “thing” that the variable is. They should clearly be part of its description. Quantifiers for that variable describe “how much” of it there is, so they should be included as well. There is lots more we could add (and we will later) but keeping it simple is fine for now:</p>
+<p>For now, <code class="language-plaintext highlighter-rouge">RefineNLGWithPredication()</code> takes a very simple approach to seeing if a predication is restricting the <code class="language-plaintext highlighter-rouge">variable</code>: Predications which <em>introduce</em> a variable (as described in a <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents">previous section</a>) are, in some sense, the base “thing” that the variable is. They should clearly be part of its description. Quantifiers for that variable describe “how much” of it there is, so they should be included as well. There is lots more we could add (and we will later) but keeping it simple is fine for now:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># See if this predication in any way contributes words to 
 # the variable specified. Put whatever it contributes in nlg_data
@@ -460,7 +460,7 @@ def RefineNLGWithPredication(variable, predication, nlg_data):
 </code></pre></div></div>
 
 <blockquote>
-  <p>Note: The code for <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> is described in an appendix</p>
+  <p>Note: The code for <code class="language-plaintext highlighter-rouge">ParsePredicationName()</code> is described in an <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoParsePredication">appendix</a></p>
 </blockquote>
 
 <p>Finally, we can take the information we gathered and convert it (in a very simple way) to English. Note that generating proper English is <em>much</em> more complicated than this, and we’ll tackle doing it “more right” later. For now, our naive approach will illustrate the ideas:</p>

@@ -4,15 +4,15 @@ Linux distributions differ, particularly so in the selection of tools
 and libraries pre-installed in standard configurations. This page
 provides Fedora-specific information related to installing and operating
 the LOGON infrastructure (for general installation guidelines, please
-see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page). The information on
+see the LogonInstallation page). The information on
 this page is user-provided documentation. As you extend or revise the
 page, please take care to spell out (a) the specific problem to be
 addressed, including observable symptoms; (b) the exact platform (32- or
 64-bit) and version of the distribution affected; and (c) the exact
 procedure to be applied for fixing the problem.
 
-See also: [LogonUbuntu](https://blog.inductorsoftware.com/docsproto/tools/LogonUbuntu) \| [LogonArch](https://blog.inductorsoftware.com/docsproto/tools/LogonArch) \|
-[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)
+See also: LogonUbuntu \| LogonArch \|
+LogonInstallation
 
 # 32-Bit Compatibility Libraries
 
@@ -49,7 +49,7 @@ Now try
     answer -g erg.dat -l
 
 With this, you will have most of the logon running, including TSDB++ and
-Emacs' [LkbMode](https://blog.inductorsoftware.com/docsproto/tools/LkbMode). However, some menus in LKB are still not
+Emacs' LkbMode. However, some menus in LKB are still not
 accessible, e.g. LKB\\View\\Type Hierarchy
 
     Error: Received signal number 11 (Segmentation fault)

@@ -43,7 +43,7 @@
 | Paraphrasing rules         | No                                        |
 | SEM-I                      | No                                        |
 | Application(s)             | Text                                      |
-| Processing engines         | [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)                             |
+| Processing engines         | LKB                             |
 | Operating systems          | any for which processing engine available |
 | Notes                      |                                           |
 <update date omitted for speed>{% endraw %}

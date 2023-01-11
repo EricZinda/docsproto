@@ -1,7 +1,7 @@
 {% raw %}# Indonesian-English Translation inen
 
 inen is a transfer grammar from INDRA (in) to ERG (en) (see
-[LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer)).
+LogonTransfer).
 
 ## Transfer Grammars
 

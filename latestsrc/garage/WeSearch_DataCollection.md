@@ -40,7 +40,7 @@ possible require some manual cleaning - each review typically ends with
 a sentence like 'Check out these screenshots'
 
 The Linux wiki set was created following the method used for
-[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods).
+WikiWoods.
 
 All data and scripts are in
 /ltg/jread/workspace/wesearch/data-collection. The content has been
@@ -49,7 +49,7 @@ relevant text (for example, blog posts typically contain some element
 with an attribute indicating that is the content element). All mark-up
 related to rendering has been retained for now. Sentences were obtained
 from [tokenizer](http://www.cis.uni-muenchen.de/~wastl/misc/) (as used
-in creating [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods)).
+in creating WikiWoods).
 
 |                |                                            |               |                 |                |
 |----------------|--------------------------------------------|---------------|-----------------|----------------|
@@ -221,7 +221,7 @@ approximately 3,000,000 free full text English biomedical articles
 
 ## Wikis
 
-- The [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) corpus composed of Wikipedia articles in
+- The WeScience corpus composed of Wikipedia articles in
 the domain of Natural Language Processing.
 - [ThinkWiki](http://www.thinkwiki.org/wiki/ThinkWiki), a collection
 of reference materials and HOWTOs for Think Pad users, with a

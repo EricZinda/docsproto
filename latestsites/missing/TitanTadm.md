@@ -1,7 +1,7 @@
 {% raw %}# Background
 
 This page documents a sub-task of the HPC adaptation project at UiO;
-please see the [TitanTop](https://blog.inductorsoftware.com/docsproto/missing/TitanTop) page for background.
+please see the TitanTop page for background.
 
 In order to eliminate the current biggest bottleneck in the DELPH-IN
 toolchain, turn-around times in machine learning experiments need to be
@@ -26,7 +26,7 @@ recent years, and available documentation is sparse.
 TADM is applied to training data (typically in the form of millions or
 billions of integer-coded 'features') prepared using the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) software (see the
-[TitanItsdb](https://blog.inductorsoftware.com/docsproto/missing/TitanItsdb) page), and a single estimation run can take
+TitanItsdb page), and a single estimation run can take
 several cpu hours. In searching for best-performing model parameters,
 dozens or hundreds of distinct configurations need to be tested,
 typically each by means of ten-fold cross validation. Hence, in current
@@ -69,7 +69,7 @@ estimation lends itself well to parallelization.
 
 For adaptation at UiO, we have created a TADM branch in the local SVN
 repository. Once you are set up for DELPH-IN SVN access (see the
-[TitanTop](https://blog.inductorsoftware.com/docsproto/missing/TitanTop) page and email by Stephan of June 16, 2009), obtain
+TitanTop page and email by Stephan of June 16, 2009), obtain
 a TADM source tree as follows
 
       svn co http://logon.emmtee.net/tadm/trunk tadm

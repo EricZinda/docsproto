@@ -1,7 +1,7 @@
 {% raw %}# Abbey MRS Meeting at the Chrysalis in 2014
 
 This page is here to keep track of topics discussed at the small group
-mid-year meeting hosted by [TheAbbey](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey) and held at [The
+mid-year meeting hosted by TheAbbey and held at [The
 Chrysalis](http://www.thechrysalisinn.com) in February of 2014.
 
 ### Schedule
@@ -78,28 +78,28 @@ welcome.
 ### Day 1: Foundational
 
 - [PP attachment
-underspecification](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014PpAttachment)
-- [Arity underspecification](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Arity)
-- [What's the Point?](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014WhatsThePoint)
-- [Proper Nouns](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns)
+underspecification]()
+- Arity underspecification
+- What's the Point?
+- Proper Nouns
 
 ### Day 2: Conceptual
 
 - [More on proper nouns, especially in generator
-inputs](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014ProperNounsGeneration)
-- [Dual representation MRS](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs)
+inputs]()
+- Dual representation MRS
 - [Seeking terminology for
-subgraphs](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Terminology)
+subgraphs]()
 - [Open-ended sets of scopal
-predicates](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014OpenEndedPredicates)
-- [Binding theory (ew)](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014BindingTheory)
+predicates]()
+- Binding theory (ew)
 - [Possessive idioms and coreference resolution (rough
-notes)](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014PossessiveIdioms)
+notes)]()
 
 ### Day 3: Phenomenal
 
 - [Nominalization I: Variable argument type
-verbs](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Nominalization)
+verbs]()
 - [Nominalization II: Deverbal
-nouns](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014DeverbalNouns)
+nouns]()
 <update date omitted for speed>{% endraw %}

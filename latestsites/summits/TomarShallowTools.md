@@ -133,7 +133,7 @@ Guy: I took a course where the instructor required it to be posted
 publicly.
 
 Emily: I like the wiki page idea. (she creates
-[DelphinApplications](https://blog.inductorsoftware.com/docsproto/home/DelphinApplications))
+DelphinApplications)
 
 Milen: We used MRS for textual entailment. \*SEM evaluation on comparing
 distributional semantics. It was ok as an experience. Limited set of

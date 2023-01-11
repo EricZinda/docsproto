@@ -2,10 +2,10 @@
 each:
 
 - SystemPagesInDanishGroup
-- [SystemPagesInEnglishGroup](https://blog.inductorsoftware.com/docsproto/missing/SystemPagesInEnglishGroup)
-- [SystemPagesInFrenchGroup](https://blog.inductorsoftware.com/docsproto/missing/SystemPagesInFrenchGroup)
-- [SystemPagesInGermanGroup](https://blog.inductorsoftware.com/docsproto/missing/SystemPagesInGermanGroup)
-- [SystemPagesInItalianGroup](https://blog.inductorsoftware.com/docsproto/missing/SystemPagesInItalianGroup)
+- SystemPagesInEnglishGroup
+- SystemPagesInFrenchGroup
+- SystemPagesInGermanGroup
+- SystemPagesInItalianGroup
 - SystemPagesInSwedishGroup
 
 :warning:

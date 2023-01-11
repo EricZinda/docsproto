@@ -1,6 +1,6 @@
 {% raw %}===Grammar Catalogue===
 
-currently we have summary pages: eg. [ErgTop](https://blog.inductorsoftware.com/docsproto/erg/ErgTop)
+currently we have summary pages: eg. ErgTop
 
 hands raised for ppl wanting more Top pages (or similar), similar number
 people willing to create this data

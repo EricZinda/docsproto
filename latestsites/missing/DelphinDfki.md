@@ -4,7 +4,7 @@
 directed by [Hans Uszkoreit](http://www.dfki.de/~hansu) at
 [DFKI](http://www.dfki.de) (German Research Center for Artificial
 Intelligence) in Saarbrücken, Germany. The approximately 25 members of
-the team closely cooperate with [DelphinSaarland](https://blog.inductorsoftware.com/docsproto/missing/DelphinSaarland)
+the team closely cooperate with DelphinSaarland
 (Department of Computational Linguistics and Phonetics at Saarland
 University).
 

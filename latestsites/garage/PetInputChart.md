@@ -2,7 +2,7 @@
 
 This page provides an in-depth discussion of the so-called *PET Input
 Chart* (PIC) input mode for the cheap parser. PIC is an XML-based
-generalization of the older YY input mode (see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)
+generalization of the older YY input mode (see the PetInput
 page for background). However, PIC too has its limitations and issues,
 including its (apparent) incompatibility with the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) profiler, see below. Where YY
@@ -21,7 +21,7 @@ tokens. It also allows to specify modifications to feature structures
 (coming from lexicon entries).
 
 It is called with -tok=pic\_counts and can be used in combination with
--default-les (see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for details) to trigger
+-default-les (see the PetInput page for details) to trigger
 unknown words with POS tags, much like in YY mode.
 
 # Examples
@@ -170,7 +170,7 @@ itself, including an eventually given DTD, may not contain empty lines.
 
 # PIC (pet-input-chart) DTD
 
-This is the pic.dtd from the [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop).
+This is the pic.dtd from the Heart of Gold.
 
     <!ELEMENT pet-input-chart ( w | ne )* >
       <!-- base input token -->

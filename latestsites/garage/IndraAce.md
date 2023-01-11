@@ -1,13 +1,13 @@
 {% raw %}You can run INDRA using Answer Constraint Engine (ACE) (see
-[AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)).
+AceTop).
 
 INDRA can be compiled using the following command.
 
     $ ace -g ace/config.tdl -G ind.dat
 
 When parsing sentences, the Linguistic User Interface (LUI) can be
-invoked by using an option -l (see [AceOptions](https://blog.inductorsoftware.com/docsproto/tools/AceOptions) and
-[LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui)).
+invoked by using an option -l (see AceOptions and
+LkbLui).
 
     $ ace -g ind.dat -l
 

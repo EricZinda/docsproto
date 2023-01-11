@@ -59,7 +59,7 @@ inside **noun-lex**.
 
 If you want to add a feature to a type that's already declared in the
 matrix, you need to write a [type addendum
-statement](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTypeAddendum).
+statement]().
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

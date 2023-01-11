@@ -20,9 +20,9 @@ REL.
 
 ## Related topics
 
-- [What's a difference list, and why do we use them?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList)
+- What's a difference list, and why do we use them?
 - [Some of my relations/qeqs aren't showing up in the MRS for the
-whole parse. Why not?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqMissingRels)
+whole parse. Why not?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

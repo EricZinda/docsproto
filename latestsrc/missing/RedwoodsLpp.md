@@ -22,27 +22,27 @@ the 1214 release of the ERG (as ‘lpps’). Those also interested in the
 ## Software
 
 **Grammar and Parser** The profiles for treebanking were prepared with
-the [English Resource Grammar](https://blog.inductorsoftware.com/docsproto/erg/ErgTop), in its [1214
+the English Resource Grammar, in its [1214
 release](http://svn.delph-in.net/erg/tags/1214), and the [ACE
-parser](https://blog.inductorsoftware.com/docsproto/tools/AceTop), in its [0.9.19
+parser](), in its [0.9.19
 release](http://sweaglesw.org/svn/ace/tags/ace-0.9.19/).
 
 **Treebanking** The annotation was done with the [Full Forest
-Treebanker](https://blog.inductorsoftware.com/docsproto/tools/FftbTop), at tagged version
+Treebanker](), at tagged version
 <http://sweaglesw.org/svn/treebank/tags/packard-2015/>
 
 **Inter-Annotator Agreement** IAA statistics were computed using the
 code in
 [iaa.lisp](http://svn.delph-in.net/snug/starsem14/iwcs15/public/iaa.lisp)
-and can be invoked in the [LOGON system](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) (see the
-[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page for installation
+and can be invoked in the LOGON system (see the
+LogonInstallation page for installation
 instructions) as follows:
 
       $LOGONROOT/redwoods --binary --erg --run iaa.lisp
 
 **Export** In addition to the native representations, the analyses in
 the annotated profiles can be exported into different formats (see the
-[ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page for general background and further
+ErgProcessing page for general background and further
 pointers), e.g.
 
       $LOGONROOT/redwoods --binary --erg --home `pwd` --increment none \
@@ -67,7 +67,7 @@ rejected in the initial adjudicated gold standard with the bridging
 rules turned on. The guidelines for treebanking with bridges were
 initially developed in the course of this study; the other guidelines
 predate this study and have been developed in the context of
-[ErgTreebanking](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebanking) more generally.
+ErgTreebanking more generally.
 
 - [General heuristics for ERG Treebanking](/delph-in/docs/wiki/ErgTreebankingGuidelines) (updated after sample adjudication without bridges)
 - [Notes on rule distinctions](/delph-in/docs/wiki/ErgTreebankingRules) (not updated during this study)

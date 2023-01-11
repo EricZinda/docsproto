@@ -35,7 +35,7 @@
 
 ## Useful Pages
 
-- [NoJa](https://blog.inductorsoftware.com/docsproto/tools/NoJa) --- an early adopter --- gives outlines of what to
+- NoJa --- an early adopter --- gives outlines of what to
 change and where
-- [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) --- Transfer Rules
+- LogonTransfer --- Transfer Rules
 <update date omitted for speed>{% endraw %}

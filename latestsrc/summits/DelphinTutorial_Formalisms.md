@@ -2,7 +2,7 @@
 
 Strictly speaking, not a formalism but primarily a linguistic theory.
 See brief linguistic characterisation on the
-[DelphinTutorial/Grammars](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Grammars) page.
+DelphinTutorial/Grammars page.
 
 # DTFS: DELPH-IN Typed Feature Structure Logic
 
@@ -79,7 +79,7 @@ are typically either the label of another EP or related via a handle
 constraint to the label of another EP. Variable-valued arguments are
 typically intrinsic variables of other EPs within the same MRS.
 
-The [naming conventions](https://blog.inductorsoftware.com/docsproto/tools/RmrsPos) for predicate symbols allow them to
+The naming conventions for predicate symbols allow them to
 encode **lemma**, **part of speech**, and additional **coarse sense
 distinctions** as well as distinguishing between **surface predicates**
 (typically associated with particular lexical entries, where the
@@ -105,7 +105,7 @@ years. Robust Minimal Recursion Semantics (**RMRS**) further decomposes
 individual EPs (into sets of predications, one per argument in the
 original EP, linked together through a unique **anchor** assumed for
 each EP), to also allow underspecification of argument roles.
-[Elementary Dependency Structures](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) (**EDS**) reduce the bag of
+Elementary Dependency Structures (**EDS**) reduce the bag of
 EPs and argument structure to a variable-free dependency graph. EDS can
 be further simplified into strictly **bi-lexical semantic
 dependencies**, dubbed [DELPH-IN MRS
@@ -120,8 +120,8 @@ taken to refer to the collection of analyses that have been developed
 using this formalism, the vast majority of which are encoded in DELPH-IN
 grammars, especially the [ERG](http://www.delph-in.net/erg).
 Documentation of these analyses is under way (see
-[ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)), and the analyses are often the topic of
-[discussion](https://blog.inductorsoftware.com/docsproto/tools/RmrsDiscussions) at DELPH-IN summits and smaller meetings.
+ErgSemantics), and the analyses are often the topic of
+discussion at DELPH-IN summits and smaller meetings.
 
 # REPP: Regular Expression-Based Pre-Processing
 
@@ -134,7 +134,7 @@ rules, with some additional machinery to support iteration, modularity
 of rule sets and configurability, as well as so-called
 **characterization**, i.e. the ability to keep track, for each output
 token, of character start and end points in the original input string.
-REPP documentation is available from the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page.
+REPP documentation is available from the ReppTop page.
 
 # VPM: Variable Property Mapping
 
@@ -145,7 +145,7 @@ elements employed grammar-internally (i.e. in the DTFS description of
 MRSs built compositionally during parsing or generation) and actual,
 grammar-independent MRS objectss, as specified in the **Semantic
 Interface** (SEM-I). VPM documentation is available from the
-[RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) page.
+RmrsVpm page.
 
 # LOGON Machine Translation (In)Formalism
 <update date omitted for speed>{% endraw %}

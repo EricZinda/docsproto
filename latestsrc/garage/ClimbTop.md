@@ -2,9 +2,9 @@
 
 This page is currently under construction
 
-- [SHORT-CLIMB](https://blog.inductorsoftware.com/docsproto/garage/ClimbShortClimb): Tool to create alternative versions
+- SHORT-CLIMB: Tool to create alternative versions
 of a larger grammar
-- [gCLIMB](https://blog.inductorsoftware.com/docsproto/garage/Climb_GClimb): CLIMB for Germanic languages
+- gCLIMB: CLIMB for Germanic languages
 
 ## How to start a CLIMB grammar
 

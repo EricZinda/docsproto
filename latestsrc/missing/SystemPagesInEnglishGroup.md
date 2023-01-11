@@ -6,22 +6,22 @@ system pages:
 - RecentChanges
 - TitleIndex
 - WordIndex
-- [SiteNavigation](https://blog.inductorsoftware.com/docsproto/missing/SiteNavigation)
+- SiteNavigation
 - FindPage
-- [UserPreferences](https://blog.inductorsoftware.com/docsproto/missing/UserPreferences)
+- UserPreferences
 - AbandonedPages
 - OrphanedPages
 - WantedPages
-- [EventStats](https://blog.inductorsoftware.com/docsproto/missing/EventStats)
-- [EventStats/HitCounts](https://blog.inductorsoftware.com/docsproto/missing/EventStats_HitCounts)
-- [EventStats/UserAgents](https://blog.inductorsoftware.com/docsproto/missing/EventStats_UserAgents)
+- EventStats
+- EventStats/HitCounts
+- EventStats/UserAgents
 - PageSize
 - InterWiki
 - RandomPage
 - StructuredText
-- [SystemInfo](https://blog.inductorsoftware.com/docsproto/missing/SystemInfo)
+- SystemInfo
   
-  - [SystemPagesGroup](https://blog.inductorsoftware.com/docsproto/missing/SystemPagesGroup)
+  - SystemPagesGroup
 - WikiHomePage
 - WikiName
 - WikiSandBox
@@ -32,7 +32,7 @@ system pages:
   
   - FrontPage - do not move this to 1st level as we do
 not want to update this page!
-- [FortuneCookies](https://blog.inductorsoftware.com/docsproto/missing/FortuneCookies)
+- FortuneCookies
 
 help pages:
 
@@ -119,7 +119,7 @@ templates:
 
 - [HelpTemplate](/HelpTemplate)
 - HomepageTemplate
-- [SlideShowHandOutTemplate](https://blog.inductorsoftware.com/docsproto/missing/SlideShowHandOutTemplate)
-- [SlideShowTemplate](https://blog.inductorsoftware.com/docsproto/missing/SlideShowTemplate)
-- [SlideTemplate](https://blog.inductorsoftware.com/docsproto/missing/SlideTemplate)
+- SlideShowHandOutTemplate
+- SlideShowTemplate
+- SlideTemplate
 <update date omitted for speed>{% endraw %}

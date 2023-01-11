@@ -32,7 +32,7 @@ of this page.
 
 # An Example
 
-Following is an example derivation taken from the [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)
+Following is an example derivation taken from the WeScience
 treebank. This derivation is the result of parsing item WS01/10021300:
 *Many terms are ambiguous.*
 
@@ -75,7 +75,7 @@ to the parser, i.e. a sequence of input tokens. Note that UDF allows
 some format variation in recording leaf nodes, as token feature
 structures will only be available in some configuration, viz. when
 parsing in PET, using the so-called chart mapping machinery (see the
-[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for background). Thus, a legitimate variation
+PetInput page for background). Thus, a legitimate variation
 of the example above would be representing terminal nodes by just the
 token string, e.g.
 

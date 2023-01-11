@@ -2,7 +2,7 @@
 
 This page provides a quick catalogue of the fingerprints for the
 phenomena to be discussed at the [Comparative Computational
-Semantics](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Ccs) working meeting in Berlin in November 2014, for
+Semantics]() working meeting in Berlin in November 2014, for
 interactive exploration using the Semantic Search Interface. The
 phenomena are listed together with their fingerprints (in some cases,
 multiple sets of fingerprints) and links to their ERG Semantic
@@ -21,8 +21,8 @@ DeepBank](http://wesearch.delph-in.net/esd/search.jsp): Explore the
 phenomena in a larger corpus
 - [ERS representations as a pdf
 file](http://svn.emmtee.net/trunk/uio/wesearch/ccs/erg/mrs.pdf)
-- [Working meeting main page](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Ccs)
-- [ERG Semantic Documentation main page](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
+- Working meeting main page
+- ERG Semantic Documentation main page
 
 # Phenomena
 
@@ -38,7 +38,7 @@ Primarily illustrated by items 101-109.
     h:[ARG0 e]
 
 [ERG Semantic Documentation: Propositional
-Arguments](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_PropositionalArguments)
+Arguments]()
 
 ## 2. Coordination
 
@@ -57,7 +57,7 @@ annotations we prepared for the working meeting).
     h2:[ARG0 e4]
     h3:[ARG0 e5]
 
-[ERG Semantic Documentation: Coordination](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination)
+ERG Semantic Documentation: Coordination
 
 ## 3. Ellipsis
 
@@ -67,7 +67,7 @@ Primarily illustrated by items 301-304.
     
     ellipsis_expl[ARG1 u0]
 
-[ERG Semantic Documentation: Ellipsis](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Ellipsis)
+ERG Semantic Documentation: Ellipsis
 
 ## 4. ‘Identity’ Copulae
 
@@ -99,7 +99,7 @@ Primarily illustrated by items 401-407.
     { h4 =q h3 }
 
 [ERG Semantic Documentation: Identity
-Copulae](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_IdentityCopulae)
+Copulae]()
 
 ## 5. Nominalization
 
@@ -110,7 +110,7 @@ analyzed as nominalization in this framework.
     h1:[ARG0 e]
 
 [ERG Semantic Documentation:
-Nominalization](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Nominalization)
+Nominalization]()
 
 ## 6. Comparatives
 
@@ -119,7 +119,7 @@ Primarily illustrated by items 601-607.
     h:comp[ARG1 e]
     h:*_a*[ARG0 e]
 
-[ERG Semantic Documentation: Comparatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Comparatives)
+ERG Semantic Documentation: Comparatives
 
 ## 7. Control Relations
 
@@ -136,7 +136,7 @@ versions of the fingerprints that works with the present interface.
     { h3 =q h4 }
 
 [ERG Semantic Documentation: Control
-Relations](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ControlRelations)
+Relations]()
 
 ## 8. Measure Phrases
 
@@ -149,7 +149,7 @@ phrase.
     h1:[ARG0 x]
 
 [ERG Semantic Documentation: Measure
-Phrases](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_MeasurePhrases)
+Phrases]()
 
 ## 9. Parentheticals
 
@@ -160,7 +160,7 @@ analyzed as apposition instead.
     h0:[ARG0 i1]
 
 [ERG Semantic Documentation:
-Parentheticals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Parentheticals)
+Parentheticals]()
 
 ## 10. Relative Clauses
 
@@ -179,8 +179,8 @@ fingerprints below.
       h:[ARG0 x]
 
 [ERG Semantic Documentation: Relative
-Clauses](https://blog.inductorsoftware.com/docsproto/missing/ErgSemantics_RelativeClauses)
+Clauses]()
 
 [ERG Semantic Documentation: Instrumental
-Relatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_InstrumentalRelatives)
+Relatives]()
 <update date omitted for speed>{% endraw %}

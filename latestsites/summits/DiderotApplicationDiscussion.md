@@ -100,7 +100,7 @@ its own. One standard task is SNLI (predicting entailment). Another is
 question answering (finding the answer in a long text).
 
 DanFlickinger: [Robot
-control](https://blog.inductorsoftware.com/docsproto/home/DelphinApplications) –
+control]() –
 [WoodleyPackard](/WoodleyPackard) entered a competition, and crucially
 used MRS as a bottleneck as you described.
 
@@ -171,10 +171,10 @@ important. Even though learner language is supposed to be ungrammatical,
 grammar-based methods help.
 
 Another empirical result is on generation – I will present more
-tomorrow, but here is the main finding. We used [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) to
+tomorrow, but here is the main finding. We used DeepBank to
 build a transducer-based graph-to-string model. We can compare this with
 a end-to-end model – linearise the EDS graph and use a seq-to-seq model
-to produce a string. If we just use [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) data, the
+to produce a string. If we just use DeepBank data, the
 symbolic system performs significantly better. And we can interpret
 every transduction rule. Deep learning is very powerful, and currently
 end-to-end sequence-based models are dominant, but for our research,

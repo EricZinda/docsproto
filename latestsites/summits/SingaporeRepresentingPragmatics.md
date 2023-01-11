@@ -1,4 +1,4 @@
-{% raw %}\[For link to slides, see [SingaporeSchedule](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule)\]
+{% raw %}\[For link to slides, see SingaporeSchedule\]
 
 Representation of DELPH-IN Pragmatics
 
@@ -13,7 +13,7 @@ children)
 - Assertion/Denial (e.g. Chinese ma-questions vs A-not-A); rhetorical
 questions are different
 - Speaker/hearer and inner/outer frame (w.r.t. quotes and things)
-- see [JacyPragmatics](https://blog.inductorsoftware.com/docsproto/summits/JacyPragmatics) for implementations in Jacy
+- see JacyPragmatics for implementations in Jacy
 - some unresolved issues that, if resolved, could aid in things like
 MT and IE
 - two questions regarding implementation: what is the purpose of
@@ -129,7 +129,7 @@ EMB: Can we keep a separate list for these?
 Dan: I'd rather not keep other stuff outside of the RELS list...
 
 Woodley: Remember the example about camper vans? There was a proposal
-about how to do this. (see: [AbbeyApposition](https://blog.inductorsoftware.com/docsproto/summits/AbbeyApposition))
+about how to do this. (see: AbbeyApposition)
 
 Dan: but it didn't involve presupposition.
 

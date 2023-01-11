@@ -1,26 +1,26 @@
 {% raw %}Contents
 
 1. [Overview of LKB's idiom detection
-mechanism](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-2. [Example](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-3. [Implementation](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-   1. [idioms.mtr and mtr.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-   2. [The Lexicon](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+mechanism]()
+2. Example
+3. Implementation
+   1. idioms.mtr and mtr.tdl
+   2. The Lexicon
    3. [Configuration of Relevant
-Rules](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      1. [matrix.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      2. [fundamentals.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      3. [rule-types.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+Rules]()
+      1. matrix.tdl
+      2. fundamentals.tdl
+      3. rule-types.tdl
    4. [roots.tdl, script, user-fns.lsp, and
-globals.lsp](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      1. [roots.tdl](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      2. [script](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      3. [user-fns.lsp](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
-      4. [globals.lsp](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
+globals.lsp]()
+      1. roots.tdl
+      2. script
+      3. user-fns.lsp
+      4. globals.lsp
 
 This page describes how to implement idioms in a DELPH-IN Grammar,
-taking [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) as an example. The basic idea is that
-[LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) checks if all the constituents (or PREDs) of an idiom
+taking Jacy as an example. The basic idea is that
+LKB checks if all the constituents (or PREDs) of an idiom
 appear in an (MRS output of) sentence.
 
 # Overview of LKB's idiom detection mechanism

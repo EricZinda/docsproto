@@ -147,7 +147,7 @@ extensions):
 
 Parse ranking models included with the grammar are trained on the
 standard training *plus* development splits, for example Sections 01 to
-12 for [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience). By default, the Maximum Entropy training
+12 for WeScience. By default, the Maximum Entropy training
 scripts (re-)generate a fresh feature cache, hence the following two
 jobs must *not* run in parallel
 
@@ -181,7 +181,7 @@ the Redwoods Treebank. The raw data for addition to the file
 # Populate the Linguistic Type Database
 
 Instructions on invoking the relevant script to populate the type
-database can be found at [LkbLtdb](https://blog.inductorsoftware.com/docsproto/garage/LkbLtdb).
+database can be found at LkbLtdb.
 
 # Create tar(1) Ball for Download
 

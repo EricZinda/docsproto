@@ -1,5 +1,5 @@
-{% raw %}You can run the Zhong grammar using ACE (see [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) and
-[AceUse](https://blog.inductorsoftware.com/docsproto/tools/AceUse)).
+{% raw %}You can run the Zhong grammar using ACE (see AceTop and
+AceUse).
 
 # Versions
 
@@ -14,24 +14,24 @@ zhong/cmn/zhs. This version is the default for parsing.
 The version for robust parsing can be compiled using the following. This
 version includes the bridging rules. Note that this version requires a
 large size of memory and much running time (see
-[AceOptions](https://blog.inductorsoftware.com/docsproto/tools/AceOptions)).
+AceOptions).
 
     $ ace -g ace/config-robust.tdl -G zhs-robust.dat
 
 Recall "Parsing Robustly, Generatring Strictly!" For strict generation,
 you can use the following to compile the version (see
-[ZhongGeneration](https://blog.inductorsoftware.com/docsproto/grammars/ZhongGeneration)).
+ZhongGeneration).
 
     $ ace -g ace/config-strict.tdl -G zhs-strict.dat
 
 # Modes
 
 When parsing setencens, You can invoke YZLUI for using the graphical
-user interface (see [LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui)). The LUI (Linguistic User
+user interface (see LkbLui). The LUI (Linguistic User
 Interface) can be invoked by using an option -l.
 
     $ ace -g zhs.dat -l
 
 You can use the YY mode for your input of parsing. See
-[ZhongYYMode](https://blog.inductorsoftware.com/docsproto/grammars/ZhongYYMode).
+ZhongYYMode.
 <update date omitted for speed>{% endraw %}

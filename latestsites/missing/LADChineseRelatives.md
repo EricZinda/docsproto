@@ -7,7 +7,7 @@ that the simplest analysis calls for fewer quantifiers and suggest some
 strategies for dealing with this.
 
 This is the third [Virtual Linguistic Analysis Design
-Session](https://blog.inductorsoftware.com/docsproto/missing/VirtualLinguisticAnalysisDesign). It will be held on Wednesday,
+Session](). It will be held on Wednesday,
 March 1, 2016 at 00:00:00 UTC/GMT (Seattle 4pm (Tue), Singapore 8am,
 Berlin 1am)
 

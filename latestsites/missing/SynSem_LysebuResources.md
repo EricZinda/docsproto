@@ -16,6 +16,6 @@ descriptions of phenomena:
 - [WALS](http://wals.info)
 - [ParGram
 Wiki](http://typo.uni-konstanz.de:3001/projects/pargram/wiki)
-- DELPH-IN wiki, e.g. [RmrsDiscussions](https://blog.inductorsoftware.com/docsproto/tools/RmrsDiscussions),
-[ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
+- DELPH-IN wiki, e.g. RmrsDiscussions,
+ErgSemantics
 <update date omitted for speed>{% endraw %}

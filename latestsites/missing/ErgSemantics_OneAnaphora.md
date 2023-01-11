@@ -105,7 +105,7 @@ is a bit surprising to me, but I'm not sure what kind of evidence
 could be used to support or refute it.
 - ‘subgraph rooted in a predication denoting an entity’ --- do we not
 have a more streamlined term for that yet? Also, I couldn't find
-‘entity’ anywhere on the [Basics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Basics) page. Is it
+‘entity’ anywhere on the Basics page. Is it
 meant to be there?
 - ‘subgraph rooted in a predication denoting an entity’ --- do we
 expect these to always correspond to &lt;e,t&gt;?
@@ -130,8 +130,8 @@ Conference on Formal Linguistics. Stanford: CSLI.
 
 # More Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
-- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
+- ErgSemantics main page
+- Inventory of semantic phenomena (to be)
 documented
-- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
+- How to cite this work
 <update date omitted for speed>{% endraw %}

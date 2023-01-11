@@ -23,10 +23,10 @@ conditions (roots.tdl) and labels (labels.tdl) in a similar fashion.
 ## Related topics
 
 - [How do I see what definition the LKB has read in for a
-type?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewType)
+type?]()
 - [I've added a rule to my grammar but the LKB doesn't seem to have
-found it. What's happening?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNoRule)
-- [How do I do interactive unification?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqInteractiveUnify)
+found it. What's happening?]()
+- How do I do interactive unification?
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

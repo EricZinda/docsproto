@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
 Display of MRS structures (Minimal Recursion Semantics; see the
-[RmrsTop](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop) pages) in LUI supports various views, viz. (a)
+RmrsTop pages) in LUI supports various views, viz. (a)
 *simple*, (b) *indexed*, and (c) *dependency* formats. All three views
 display the exact same object but vary in the amount of information
 provided (and accordingly the compactness of display). Furthermore,
@@ -13,7 +13,7 @@ for MRSs.
 # Simple MRS Display
 
 The *simple* view on an MRS is closely related to browsing a feature
-structure, in fact using the [LuiAvm](https://blog.inductorsoftware.com/docsproto/tools/LuiAvm) widget for display
+structure, in fact using the LuiAvm widget for display
 purposes.
 
 - <img src="http://www.delph-in.net/lui/simple.png" title="http://www.delph-in.net/lui/simple.png" class="external_image" alt="http://www.delph-in.net/lui/simple.png" />

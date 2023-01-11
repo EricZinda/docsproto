@@ -1,5 +1,5 @@
 {% raw %}The following is the list of people invited for the [2019 DELPH-IN
-Summit](https://blog.inductorsoftware.com/docsproto/summits/CambridgeTop)
+Summit]()
 
 - [EliasAamodt](/EliasAamodt)
 - [GabrielAguilaMultner](/GabrielAguilaMultner)

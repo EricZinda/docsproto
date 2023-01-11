@@ -27,16 +27,16 @@ grammar research in the DELPH-IN spirit.
 
 ## Registration
 
-Please register on the [ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page by
+Please register on the ParticipantsGroup page by
 adding the times when you plan to arrive and depart. Note that this is a
 closed summit, you need to be on the
-[ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page to edit it. There will be no
+ParticipantsGroup page to edit it. There will be no
 fee this year.
 
 ## Schedule
 
 The schedule for the meeting is currently under preparation, with
-incremental updates posted on the [BarcelonaSchedule](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaSchedule)
+incremental updates posted on the BarcelonaSchedule
 page, as more information becomes available. Note that the meeting is
 split into two components, two-and-a-half days of plenary, followed by a
 half-day excursion, followed by two more days of more informal meetings
@@ -82,11 +82,11 @@ visit <http://www.tmb.cat/en_US/home.jsp>.
 
 - 2011 ? Seattle (co-located with HPSG)
 - 2010 ???
-- 2009 [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop)
-- 2008 [Kyoto](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
-- 2007 [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
-- 2006 [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
-- 2005 [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop)
+- 2009 Barcelona
+- 2008 Kyoto
+- 2007 Berlin
+- 2006 Fefor
+- 2005 Lisbon
 
 ## Contact
 

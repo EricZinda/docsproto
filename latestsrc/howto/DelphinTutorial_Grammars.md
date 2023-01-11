@@ -1,6 +1,6 @@
 {% raw %}# DELPH-IN Grammars
 
-The [GrammarCatalogue](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) page gives an overview of the
+The GrammarCatalogue page gives an overview of the
 existing DELPH-IN grammars, including the
 [ERG](http://www.delph-in.net/erg) and many other grammars ranging in
 size from broad-coverage to experimental.
@@ -61,7 +61,7 @@ structure rules).
 
 The structures licensed by DELPH-IN grammars are attribute-value
 matrices, which tend to be very large. The LKB and to some degree ACE
-(see [LKB](https://blog.inductorsoftware.com/docsproto/howto/DelphinTutorial_Processing)) provide support for
+(see LKB) provide support for
 interactively exploring these structures. In general, the most commonly
 used display formats are CFG-like trees, with node labels abbreviating
 the feature structures at the nodes and the various formats for
@@ -71,13 +71,13 @@ displaying the MRS associated with a node (usually the root).
 
 Mature DELPH-IN grammars have associated **treebanks**, i.e.,
 collections of text for which one analysis per sentence has been
-selected by hand in the [Redwoods](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop) style.
+selected by hand in the Redwoods style.
 
 The result of processing an input string in the analysis direction with
 a DELPH-IN grammar and one of the associated processors, if successful,
 is a **parse forest** giving all or a subset of the analyses licensed by
 the grammar. The **treebanking tools**
-([ItsdbTreebanking](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking) and the newer full-forest
+(ItsdbTreebanking and the newer full-forest
 treebanker) calculate **discriminants** (syntactic or semantic) each of
 which divide the parse forest in two. Annotators select trees by
 choosing among these discriminants. Treebanks are important for training
@@ -91,7 +91,7 @@ regression testing.
 ## Auxiliary definitions
 
 - SEM-I: A grammar that is to be used in generation should have a
-[SEM-I](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi) (semantic interface),
+SEM-I (semantic interface),
 
 declaring the predicates accepted by the grammar, their arity, and the
 types of values expected in each argument position.
@@ -109,9 +109,9 @@ system](http://www.delph-in.net/matrix) which elicits a high-level
 linguistic description from the user and outputs a working DELPH-IN
 style fragment. The analyses provided by the customization system and
 best practices for accessing them are documented in the pages under
-[MatrixDocTop](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocTop).
+MatrixDocTop.
 
 Grammar writers beginning new grammars and interested in systematic
 exploration of the analysis space are encouraged to explore the CLIMB
-methodology (see [ClimbTop](https://blog.inductorsoftware.com/docsproto/garage/ClimbTop)).
+methodology (see ClimbTop).
 <update date omitted for speed>{% endraw %}

@@ -35,7 +35,7 @@ accuracy of deep parsers. Semantic output based evaluation provides a
 relatively good metric. More specific,
 [PropBank](http://www.cis.upenn.edu/~ace/) provides partial semantic
 representation in predicate argument structure. By mapping the
-[(R)MRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop) output of deep parser to
+(R)MRS output of deep parser to
 the predicate argument structure, we can compare and evaluate the
 preciseness of the output. It would be even better if the mapping
 algorithm can be standardized and publicly available, to avoid the

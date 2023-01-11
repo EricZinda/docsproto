@@ -489,22 +489,22 @@
         
         <h1 id="background">Background</h1>
 
-<p>This page documents Version 1.0 of <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>, released in
+<p>This page documents Version 1.0 of DeepBank, released in
 October 2013. In this release, there are annotations for Sections 00–21
 of the venerable Wall Street Journal (WSJ) text from the Penn Treebank
-(PTB). The selection of sentences included in <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> is
+(PTB). The selection of sentences included in DeepBank is
 aligned with the PTB, but otherwise it is fully independent of the
 original PTB annotations; i.e. none of the linguistic information in
-<a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> is derivative of the PTB.</p>
+DeepBank is derivative of the PTB.</p>
 
-<p><a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> annotations are distributed through the
+<p>DeepBank annotations are distributed through the
 <a href="http://www.meta-share.eu/">META-SHARE</a> infrastructure, under the
 META-SHARE Commons Attribution Share-Alike license, which allows
 adaptation and re-distribution of the resource, provided that the use of
-<a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> is appropriately acknowledged and its license terms
+DeepBank is appropriately acknowledged and its license terms
 preserved.</p>
 
-<p>For communication with <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> developers and users, there
+<p>For communication with DeepBank developers and users, there
 is an archived <a href="http://lists.delph-in.net/archives/deepbank/">mailing
 list</a> at
 deepbank@delph-in.net.</p>
@@ -537,11 +537,11 @@ inconsistency in the pseudo-derivations it may be impossible to convert
 to the other formats (see below).</p>
 
 <p>529 sentences (1.2%) from these 22 sections of the WSJ text have no
-analysis at all in <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>.</p>
+analysis at all in DeepBank.</p>
 
 <h1 id="corpus-organization">Corpus Organization</h1>
 
-<p><a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> follows the section division familiar from the PTB,
+<p>DeepBank follows the section division familiar from the PTB,
 and further sub-divides the data into sub-sections of at most 500
 sentences each, e.g. WSJ00a, WSJ00b, WSJ00c, and WSJ00d. Across all
 sections, sentences are assigned unique eight-digit identifiers, using
@@ -550,7 +550,7 @@ code (within each section), and three-digit item (within each article).
 For example, identifier 20200002 denotes the second item in the first
 file of Section 02, the classic <em>Ms. Haag plays Elianti.</em></p>
 
-<p>The not manually validated, robust analyses in <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> are
+<p>The not manually validated, robust analyses in DeepBank are
 kept separate from the gold- and silver-standard annotations, in files
 suffixed with an additional ‘.r’, e.g. ‘wsj00a.r’ for the robust
 complement to the first sub-section in the collection.</p>
@@ -583,7 +583,7 @@ definition 0.</p>
 
 <h1 id="available-file-formats">Available File Formats</h1>
 
-<p>The native representation of the HPSG analyses in <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>
+<p>The native representation of the HPSG analyses in DeepBank
 is in the form of what is called <a href="http://www.delph-in.net/itsdb">[incr
 tsdb()]</a> <em>profiles</em>, essentially
 flat-file relational databases. These are packaged in the download file
@@ -598,12 +598,12 @@ analyses is provided in the form of DELPH-IN export files
 files contain (a) the original ‘raw’ string; (b) the initial sequence of
 PTB-style tokens input to the parser; (c) the parser-internal lattice of
 ERG-style tokens; (d) the full HPSG derivation
-(<a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations">ItsdbDerivations</a>); (e) a simplified phrase
+(ItsdbDerivations); (e) a simplified phrase
 structure tree, labeled with common category abbreviations
 (<a href="/ErgTrees">ErgTrees</a>; to be documented); (f) a logical-form meaning
 representation in Minimal Recursion Semantics (MRS; MrsRfc);
 and (g) a reduction of the MRS into variable-free Elementary Dependency
-Structures (EDS; <a href="https://blog.inductorsoftware.com/docsproto/tools/EdsTop">EdsTop</a>).</p>
+Structures (EDS; EdsTop).</p>
 
 <p>For immediate compatibility with much mainstream work, there is a
 conversion of the full HPSG analyses into bi-lexical syntactic and
@@ -615,7 +615,7 @@ Language Learning (CoNLL), packaged in the download file
 coin the terms Derivation Tree–Derived (DT) and MRS-Derived (DM)
 bi-lexical dependencies for word-to-word syntactic and semantic
 dependency relations, respectively. Both these dependency views on
-<a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> annotations are combined in the files below
+DeepBank annotations are combined in the files below
 ‘conll/’, providing for each sub-section two variants, one using native
 ERG tokenization conventions, another using PTB-style tokens.</p>
 

@@ -14,13 +14,13 @@ A live installation of Typediff can be found
 supports the following grammars:
 
 - [ERG](http://www.delph-in.net/erg/)
-- [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop)
+- Jacy
 - [GG](http://gg.opendfki.de) (although tokenisation is currently
 broken with ACE)
 - HaG
-- [NorSource](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop)
-- [INDRA](https://blog.inductorsoftware.com/docsproto/grammars/IndraTop)
-- The three [Zhong grammars](https://blog.inductorsoftware.com/docsproto/grammars/ZhongTop)
+- NorSource
+- INDRA
+- The three Zhong grammars
 
 The source for Typediff is available on
 [GitHub](http://github.com/ned2/typediff).

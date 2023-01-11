@@ -1,19 +1,19 @@
 {% raw %}Contents
 
 1. [LexDB Emacs Interface
-(lexdb-mode)](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
+(lexdb-mode)]()
    1. [HOW TO edit entries in the
-LexDB](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
-   2. [Searching the Lexicon](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
+LexDB]()
+   2. Searching the Lexicon
       1. [Moving around within a search
-result](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
-   3. [Changing the Lexicon](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
+result]()
+   3. Changing the Lexicon
       1. [Redisplaying a Changed
-Entry](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
-   4. [Saving/Restoring the Lexicon](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
+Entry]()
+   4. Saving/Restoring the Lexicon
    5. [Starting the Lexicon Editing
-Mode](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
-2. [Installation](https://blog.inductorsoftware.com/docsproto/missing/LexDbEmacsInterface)
+Mode]()
+2. Installation
 
 # LexDB Emacs Interface (lexdb-mode)
 

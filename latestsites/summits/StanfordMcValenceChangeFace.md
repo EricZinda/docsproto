@@ -76,5 +76,5 @@ Emily: That's argument optionality, not Chris's problem (but see
 Safiyyah's library).
 
 Emily: \[Scribe's post-script --- see [VLAD session on
-this.](https://blog.inductorsoftware.com/docsproto/summits/LADValenceChange) \]
+this.]() \]
 <update date omitted for speed>{% endraw %}

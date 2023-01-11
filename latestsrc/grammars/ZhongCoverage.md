@@ -32,7 +32,7 @@ items and look into where the problem in processing comes from. This set
 includes the followings. (The LIST\_FILE\_NAME is DEV.)
 
 1. **mrs**: Matrix MRS testsuite (107 sentences) (see
-[MatrixMrsTestSuiteMandarin](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteMandarin))
+MatrixMrsTestSuiteMandarin)
 2. **ntumc**: the NTU-MC corpus
 (<http://compling.hss.ntu.edu.sg/ntumc/>)
 3. **pctb-dev**: Penn Chinese Treebank (LDC10T07; the first 5,000
@@ -85,7 +85,7 @@ sentences).
 The coverage testing employs several DELPH-IN tools. All the paths of
 the tools below must be enrolled as PATH in \~/.bashrc (or whatever).
 
-1. **ace**: see [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
+1. **ace**: see AceTop
 2. **art**: see <http://sweaglesw.org/linguistics/libtsdb/art>
 3. **pyDelphin**: see <https://github.com/goodmami/pydelphin>
 4. **gTest**: see <https://github.com/goodmami/gtest>
@@ -101,5 +101,5 @@ generation.
 
 # History of Coverage
 
-See [ZhongHistory](https://blog.inductorsoftware.com/docsproto/grammars/ZhongHistory)
+See ZhongHistory
 <update date omitted for speed>{% endraw %}

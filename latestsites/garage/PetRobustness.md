@@ -2,18 +2,18 @@
 
 Contents
 
-1. [Preprocessing](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-   1. [Token Mapping](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-2. [Unknown words](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
+1. Preprocessing
+   1. Token Mapping
+2. Unknown words
    1. [Generics triggered from POS
-mapping](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
+mapping]()
    2. [Generics triggered from token
-fs](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-   3. [Lexical type prediction](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-   4. [Supertagger](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-3. [Grammar Internal Solutions](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-4. [Pet settings](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
-5. [Robuster Partial Parsing](https://blog.inductorsoftware.com/docsproto/garage/PetRobustness)
+fs]()
+   3. Lexical type prediction
+   4. Supertagger
+3. Grammar Internal Solutions
+4. Pet settings
+5. Robuster Partial Parsing
 
 # Preprocessing
 
@@ -23,7 +23,7 @@ Different assumptions made by preprocessing tools and unhandled
 characteristics of the text to be processed can influence parse success
 or failure. In order to adapt the output of the preprocessing tools to
 the assumptions made by the grammar, you can use
-[Chart\_Mapping](https://blog.inductorsoftware.com/docsproto/garage/ChartMapping), a mechanism for the non-monotonic,
+[Chart\_Mapping](), a mechanism for the non-monotonic,
 rule-based manipulation of chart items that are described by feature
 structures. One of the applications of Chart Mapping is Token Mapping,
 which gives users a means for manipulating tokens using the known formal
@@ -59,7 +59,7 @@ Instantiates generic lexical entries for lexical gaps in the chart using
 a mapping from pos tags to generic les that has to be specified in the
 grammar. The pos tags have to be delivered by an external pos tagger and
 can be passed to PET by most of the input formats. See
-[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) for more information.
+PetInput for more information.
 
 ## Generics triggered from token fs
 
@@ -109,7 +109,7 @@ of edges). The constraint that Dan uses now is the mem option in cheap
 (although you should half it, for some strange reason!). This seems to
 be the most reasonable setting.
 
-See also [PetParameters](https://blog.inductorsoftware.com/docsproto/garage/PetParameters).
+See also PetParameters.
 
 - always use packing
 - recommend -memlimit (amount/2) rather than -limit (edges)

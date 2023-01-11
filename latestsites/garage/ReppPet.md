@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
 As of August 2011, PET now includes native support for the Regular
-Expression Pre-Processor (REPP; see [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop)). Repp processing
+Expression Pre-Processor (REPP; see ReppTop). Repp processing
 can be requested using the -repp option to cheap, optionally with the
 name of a settings file as an argument: -repp=wiki. Settings files will
 be looked for in the base grammar directory, or the general settings
@@ -43,7 +43,7 @@ use the command:
 
     cheap -repp -tagger -cm -default-les=all -timeout=60 -packing -memlimit=1024 terg/english.grm
 
-For those using the LOGON tree, see also the [LogonPet](https://blog.inductorsoftware.com/docsproto/tools/LogonPet) page.
+For those using the LOGON tree, see also the LogonPet page.
 
 # Stand-Alone Tokenization
 

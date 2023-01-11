@@ -1,5 +1,5 @@
 {% raw %}This is the page to add wishlist items for the Lui interface
-([LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui)).
+(LkbLui).
 
 ## Open
 

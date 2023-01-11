@@ -5,7 +5,7 @@ semantic predicates in the DELPH-IN ecosystem.
 
 Predicates (often abbreviated as *preds*) are symbols representing
 semantic entities or constructions. Examples of predicates in the
-[English Resource Grammar](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) are:
+English Resource Grammar are:
 
     _dog_n_1 : a nominal (n) predicate for a dog or dogs in general
     _a_q     : a quantifier (q) predicate for the "a" as in "a dog"
@@ -16,7 +16,7 @@ semantic entities or constructions. Examples of predicates in the
 These predicates are used in **predications** (a predicate with its
 semantic arguments and other constraints), as in the following MRS for
 *Kim's cake was eaten by a dog* (see the MRS specification at
-[MrsRfc](https://blog.inductorsoftware.com/docsproto/tools/MrsRFC) for more explanation of MRS semantics):
+MrsRfc for more explanation of MRS semantics):
 
     [ LTOP: h0
       INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
@@ -59,7 +59,7 @@ separated by underscores. Thus we have two basic forms for predicates:
 Conventionally, the grammar-internal types for predicates end with \_rel
 which creates a namespace so they don't collide with non-predicate
 types. The semantic outputs of a grammar are usually "exported"
-according to the grammar's [SEM-I](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc) and [VPM](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) and the
+according to the grammar's SEM-I and VPM and the
 \_rel suffix is removed.
 
 Spaces may not occur in a predicate, except for possibly escaped or
@@ -78,7 +78,7 @@ Both surface and abstract predicates can be specified as a grammar
 **type** or as a quoted **string**. Grammar-type predicates are defined
 somewhere in the grammar, perhaps in a type hierarchy (also see
 [Limitations and
-Conventions](https://blog.inductorsoftware.com/docsproto/tools/PredicateRfc), above). A
+Conventions](), above). A
 predicate type-hierarchy means that predicates used in an MRS may unify
 with other predicates (e.g., via underspecification or a common
 subtype). Preds specified as a string are atomic types that do not exist
@@ -97,7 +97,7 @@ The lemma field of a surface pred may be just about anything that does
 not contain underscores or spaces.
 
 The POS field must be a single character, and specifically one of n, v,
-a, j, r, s, c, p, q, x, u, or d (see [RmrsPos](https://blog.inductorsoftware.com/docsproto/tools/RmrsPos); also note that
+a, j, r, s, c, p, q, x, u, or d (see RmrsPos; also note that
 use of the d POS is discouraged).
 
 The sense field is specified like a lemma, although for practical
@@ -144,7 +144,7 @@ are ignored. Therefore the following predicates are equivalent:
     "_dog_n_1_rel"
 
 Furthermore, a surface predicate and its corresponding decomposed "real"
-pred (see the [Real vs Surface](https://blog.inductorsoftware.com/docsproto/tools/PredicateRfc) section
+pred (see the Real vs Surface section
 above) are equivalent:
 
     _dog_n_1

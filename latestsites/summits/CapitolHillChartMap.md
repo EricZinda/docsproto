@@ -180,7 +180,7 @@ FZZ: (chart mapping rule in Zhong using regex) try: ^(十)\\1 日$ try:
 
 ...
 
-DVM: [Reduplication in Indonesian](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)
+DVM: Reduplication in Indonesian
 
 ...
 

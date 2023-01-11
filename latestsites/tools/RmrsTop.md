@@ -8,27 +8,27 @@ well as the use of RMRS with shallow processors.
 These pages are very much under development: additions would be welcome.
 
 RMRS predicates are decorated with the start and end points of the input
-text they correspond to ([RmrsSpan](https://blog.inductorsoftware.com/docsproto/tools/RmrsSpan)). This makes it easier to
+text they correspond to (RmrsSpan). This makes it easier to
 link RMRS to other annotations, including RMRS from different sources.
 
-- [Design](https://blog.inductorsoftware.com/docsproto/tools/RmrsDesign): Some discussion of topics related to (R)MRS.
-- [RmrsPos](https://blog.inductorsoftware.com/docsproto/tools/RmrsPos): RMRS defines a list of coarse POS distinctions.
-- [RmrsParaphrasing](https://blog.inductorsoftware.com/docsproto/tools/RmrsParaphrasing): A discussion of how to
+- Design: Some discussion of topics related to (R)MRS.
+- RmrsPos: RMRS defines a list of coarse POS distinctions.
+- RmrsParaphrasing: A discussion of how to
 paraphrase using (R)MRS.
-- [RmrsModel](https://blog.inductorsoftware.com/docsproto/tools/RmrsModel): A discussion of the Model Theory of (R)MRS.
-- [RmrsDistributional](https://blog.inductorsoftware.com/docsproto/tools/RmrsDistributional): A discussion of
+- RmrsModel: A discussion of the Model Theory of (R)MRS.
+- RmrsDistributional: A discussion of
 distributional techniques.
-- [SEMI-I](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi): The SEMantic-Interface.
-- [VPM](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm): Variable Property Mapping (between the TFS and MRS
+- SEMI-I: The SEMantic-Interface.
+- VPM: Variable Property Mapping (between the TFS and MRS
 universes).
-- [EDS](https://blog.inductorsoftware.com/docsproto/tools/EdsTop): Variable-Free Elementary Dependency Structures.
-- [DMRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsDmrs): Dependencies which may be interconverted with MRS.
-- [Frequently Asked Questions](https://blog.inductorsoftware.com/docsproto/tools/RmrsFaq)
-- A compilation of [discussions](https://blog.inductorsoftware.com/docsproto/tools/RmrsDiscussions).
+- EDS: Variable-Free Elementary Dependency Structures.
+- DMRS: Dependencies which may be interconverted with MRS.
+- Frequently Asked Questions
+- A compilation of discussions.
 - and [[SofiaMrsRfc]] [[MrsRFC]]
 
 For computing equivalence (i.e. isomorphism) of two MRSs (note, not
-accounting for RMRS), please see [MrsIsomorphism](https://blog.inductorsoftware.com/docsproto/tools/MrsIsomorphism).
+accounting for RMRS), please see MrsIsomorphism.
 
 Some introductory slides for MRS:
 

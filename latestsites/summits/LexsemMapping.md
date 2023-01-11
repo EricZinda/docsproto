@@ -1,22 +1,22 @@
 {% raw %}Some thoughts on mapping MRSs to Wordnet sense (mainly illustrated with
 the ERG and PWN). Examples use a variant of the indexed MRS to save
-space (part of the work on [Lexical Semantics](https://blog.inductorsoftware.com/docsproto/garage/LexsemTop)).
+space (part of the work on Lexical Semantics).
 
 Contents
 
-1. [Single Words](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   1. [Proper Nouns](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   2. [Decomposed nouns](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   3. [Superlatives](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   4. [Different POS](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-2. [Multiple Words](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   1. [Compositional Compound Nouns](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
+1. Single Words
+   1. Proper Nouns
+   2. Decomposed nouns
+   3. Superlatives
+   4. Different POS
+2. Multiple Words
+   1. Compositional Compound Nouns
    2. [Non Compositional Compound
-Nouns](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   3. [Idioms](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-3. [Phrases](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   1. [Coordination](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
-   2. [Light Verbs](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
+Nouns]()
+   3. Idioms
+3. Phrases
+   1. Coordination
+   2. Light Verbs
 
 ## Single Words
 
@@ -149,7 +149,7 @@ be just:
      x14:_guard_n_1⟨14:19⟩[]
      x9:_dog_n_1⟨20:23⟩[]
 
-NTU WN tags both the single and MWE in this case, [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) maps
+NTU WN tags both the single and MWE in this case, SemCor maps
 only the MWE I think we want:
 
     x6:_cat_n_1 = cat_n1

@@ -41,7 +41,7 @@ including all daughters;
 - **all**---All the representations.
 
 You can set what information gets output in '.tsdbrc'
-([ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/tools/ItsdbCustomization)).
+(ItsdbCustomization).
 
     (setf tsdb::*redwoods-export-values* '(:derivation :tree :mrs :prolog))
 
@@ -55,5 +55,5 @@ to set lkb::\*characterize-p\* to non-null before you export.
     (setf lkb::*characterize-p* t)
 
 Exporting can be memory intensive. Use a batch instead for large
-profiles. There is an example described in [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop).
+profiles. There is an example described in RedwoodsTop.
 <update date omitted for speed>{% endraw %}

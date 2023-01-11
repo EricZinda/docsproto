@@ -1,4 +1,4 @@
-{% raw %}This is the [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) for the
+{% raw %}This is the MRS Test Suite for the
 [NorSource](http://www.ling.hf.ntnu.no/forskning/norsource/) Grammar of
 Norwegian.
 

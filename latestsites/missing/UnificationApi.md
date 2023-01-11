@@ -1,7 +1,7 @@
 {% raw %}# Desiderata
 
 Currently, feature unification is handled by the
-[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) application or the LKB.
+PET application or the LKB.
 Running these requires that the user pull in the entire HPSG framework.
 It would be nice to instead have a feature unification API. This would
 enable easier experimentation by providing a fast and reliable

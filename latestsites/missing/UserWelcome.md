@@ -15,7 +15,7 @@ variety of export formats.
 
 ### Export Formats
 
-For more information, see [ErsTutorial](https://blog.inductorsoftware.com/docsproto/howto/ErsTutorial) (slides, video)
+For more information, see ErsTutorial (slides, video)
 
 ### Treebank Processing Software
 
@@ -30,7 +30,7 @@ pre-processing tools.
 - [ACE](http://sweaglesw.org/linguistics/ace/) for parsing and
 generation, with associated compiled versions of the English
 Resource Grammar; recommended for quick start
-- The comprehensive [LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) distribution for
+- The comprehensive LOGON distribution for
 parsing, generation and machine translation
 
 TODO add links for:
@@ -42,7 +42,7 @@ TODO add links for:
 
 Details about the full range of DELPH-IN grammars, including many small
 experimental grammars, can be found on the
-[GrammarCatalogue](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) page.
+GrammarCatalogue page.
 
 ### Parsing, Generation, and Pre-/Post-processing Software
 <update date omitted for speed>{% endraw %}

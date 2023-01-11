@@ -4,7 +4,7 @@ This page describes the use of LaTeX/PostScript with the DELPH-IN tools.
 
 # LKB
 
-The [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) allows you to print postscript snapshots of many
+The LKB allows you to print postscript snapshots of many
 windows by clicking on the **print** button. This may not work for
 non-ascii scripts.
 
@@ -14,7 +14,7 @@ as part of the Heart of Gold.
 # LUI
 
 You can export postscript from the Linguistic User Interface
-([LUI](https://blog.inductorsoftware.com/docsproto/tools/LkbLui)) by pressing **p** and LaTeX by pressing **l**. The
+(LUI) by pressing **p** and LaTeX by pressing **l**. The
 postscript may not work for non-ascii scripts.
 
 The LaTeX export from LUI uses
@@ -24,7 +24,7 @@ for trees.
 
 # LOGON web demonstrator
 
-The [LOGON web demonstrator](https://blog.inductorsoftware.com/docsproto/tools/LogonOnline) allows you to export LaTeX
+The LOGON web demonstrator allows you to export LaTeX
 parse and derivation trees, as well as MRS.
 
 The LaTeX export from these demonstrators assumes a set of [custom

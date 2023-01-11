@@ -1,5 +1,5 @@
 {% raw %}The following is the list of people invited for the [2016 DELPH-IN
-Summit at Stanford University](https://blog.inductorsoftware.com/docsproto/summits/StanfordTop):
+Summit at Stanford University]():
 
 - [EliasAamodt](/EliasAamodt)
 - [LarsAhrenberg](/LarsAhrenberg)

@@ -1,12 +1,12 @@
 {% raw %}Contents
 
-1. [Overview](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
+1. Overview
    1. [Relevant discussions from past
-summits](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
-2. [ERG Semantic Documentation](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
-3. [Phenomenon Corpus](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
-4. [Typediff](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
-5. [Phenomenon Catalogue](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop)
+summits]()
+2. ERG Semantic Documentation
+3. Phenomenon Corpus
+4. Typediff
+5. Phenomenon Catalogue
 
 # Overview
 
@@ -17,15 +17,15 @@ or add any missing information to any of the existing entries.
 
 ## Relevant discussions from past summits
 
-- [SuquamishPhenomenaCatalogue](https://blog.inductorsoftware.com/docsproto/summits/SuquamishPhenomenaCatalogue)
-- [SofiaLinguisticPhenomena](https://blog.inductorsoftware.com/docsproto/summits/SofiaLinguisticPhenomena)
-- [SaarlandPackagingPhenomenalCorpora](https://blog.inductorsoftware.com/docsproto/summits/SaarlandPackagingPhenomenalCorpora)
+- SuquamishPhenomenaCatalogue
+- SofiaLinguisticPhenomena
+- SaarlandPackagingPhenomenalCorpora
 
 # ERG Semantic Documentation
 
 This project is an attempt at working towards an ‘encyclopedia’ of
 semantic analyses developed in the ERG. For more information see the
-[ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) page.
+ErgSemantics page.
 
 # Phenomenon Corpus
 
@@ -33,7 +33,7 @@ This project is aiming to create a corpus annotated with linguistic
 phenomena independently of existing grammars for the purposes of
 investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
-[DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) and focusing on syntactic and morphosyntactic
+DeepBank and focusing on syntactic and morphosyntactic
 phenomena is currently being developed by NedLetcher,
 TimBaldwin and EmilyBender. For further
 details and background, please see the paper *Constructing a Phenomenal
@@ -47,7 +47,7 @@ for more information.
 
 # Typediff
 
-[Typediff](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) is a tool for exploring the types employed in
+Typediff is a tool for exploring the types employed in
 the processing of input to DELPH-IN grammars. Typediff works by
 extracting the type identifiers found in the final AVM of a successful
 parse and sorting this bag of types according to HPSG-theoretic type
@@ -68,8 +68,8 @@ phenomena covered by their grammar and provide illustrative examples in
 IGT for each phenomenon. The intention is to facilitate cross-grammar
 comparison, grammar exploration and potentially even better grammar
 documentation with phenomenon labels on constraints. Originally
-[discussed](https://blog.inductorsoftware.com/docsproto/summits/SuquamishPhenomenaCatalogue) at the Suquamish summit,
+discussed at the Suquamish summit,
 currently there is only a [partial catalogue for the Wambaya
-grammar](https://blog.inductorsoftware.com/docsproto/summits/WambayaPhenomenaCatalogue). Grammar maintainers interested in
+grammar](). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
 <update date omitted for speed>{% endraw %}

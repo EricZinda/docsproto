@@ -114,7 +114,7 @@ Emily: more discussion about this on Matrix list!
 
 Ned: We need a centralised place on the wiki to start talking about
 phenomena based grammar engineering and resources. Volunteered to create
-a [PhenomenaTop](https://blog.inductorsoftware.com/docsproto/garage/PhenomenaTop).
+a PhenomenaTop.
 
 ## Next Steps
 

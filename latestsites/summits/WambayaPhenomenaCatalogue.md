@@ -2,7 +2,7 @@
 
 This page gives a preliminary attempt at a phenomena catalogue for the
 Wambaya grammar (per the
-[SuquamishPhenomenaCatalogue](https://blog.inductorsoftware.com/docsproto/summits/SuquamishPhenomenaCatalogue) discussion).
+SuquamishPhenomenaCatalogue discussion).
 The intention is to eventually fill in representative examples for all
 phenomena listed.
 

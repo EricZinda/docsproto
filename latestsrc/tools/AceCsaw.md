@@ -1,5 +1,5 @@
 {% raw %}This page describes how to use and train models for **csaw** in
-combination with [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop). **csaw** was written and is maintained
+combination with ACE. **csaw** was written and is maintained
 by [WoodleyPackard](/WoodleyPackard).
 
 There is more information at the [upstream

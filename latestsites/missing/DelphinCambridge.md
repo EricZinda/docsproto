@@ -5,9 +5,9 @@ conducts research over a wide spectrum of NLP topics. More about the
 group as a whole can be found on the web pages.
 
 Our Delphin related activities involve the development of the LKB system
-([LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)) and of the MRS/RMRS approach to underspecified
+(LkbTop) and of the MRS/RMRS approach to underspecified
 compositional semantics for the Matrix grammars and for shallower
-analysers ([RmrsTop](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop)). Currently, we are most actively working
+analysers (RmrsTop). Currently, we are most actively working
 on tokenisation and morphology (funded by Boeing) and on the development
 of RMRS and the SEM-I. A new project
 ([Sciborg](http://www.sciborg.org.uk)) which is extending work on

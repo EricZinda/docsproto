@@ -3,11 +3,11 @@
 This page serves as the ‘table of contents’ (and to-do list), i.e.
 provides a collection of items that we believe should be described in
 documenting the semantic analyses of the ERG (see
-[ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)). The initial list of candidate semantic
+ErgSemantics). The initial list of candidate semantic
 phenomena originates from a two-step process. First, grammar entities
 (rules or lexical entries) were automatically inspected for indicators
 of ‘interesting’ semantic properties (via the discovery procedure
-described on the [ErgSemantics/Discovery](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Discovery) page)
+described on the ErgSemantics/Discovery page)
 and grouped by their semantic synopses, i.e. the EP or set of EPs they
 contribute. Second, this list was paired with examples from the Redwoods
 Treebank instantiating the grammar entities in question.
@@ -16,7 +16,7 @@ Treebank instantiating the grammar entities in question.
 
 Some fundamental aspects of the MRS approach to meaning representation
 and its use in the ERG are independent of invididual semantic phenomena.
-The [ErgSemantics/Basics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Basics) page aims to define
+The ErgSemantics/Basics page aims to define
 general terminology and introduce the relevant building blocks of ERG
 semantics, i.e. our version of things one might find in any logical
 representation language.
@@ -28,35 +28,35 @@ linguistic examples, we distilled the following list of semantic
 phenomena, of which many correspond to one ‘cluster’ of grammar entities
 with identical (or very similar) synopses.
 
-- [Apposition](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Apposition): ‘appos’,
-- [Compounding](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Compounding): ‘compound’,
+- Apposition: ‘appos’,
+- Compounding: ‘compound’,
 ‘compound\_name’, including titles and N-ed (J-N\_CRD-T\_C cuts
 across compounding and coordination)
-- [Conditionals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Conditionals): ‘if\_x\_then’
-- [Coordination](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination): ‘conj’
-- [Foreign Expressions](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ForeignExpressions): ‘fw\_seq’
-- [Fragments](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Fragments): ‘unknown’
-- [Imperatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Imperatives): ‘pron’ (plus SFORCE)
-- [Implicit Locatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ImplicitLocatives): (‘today’,
+- Conditionals: ‘if\_x\_then’
+- Coordination: ‘conj’
+- Foreign Expressions: ‘fw\_seq’
+- Fragments: ‘unknown’
+- Imperatives: ‘pron’ (plus SFORCE)
+- Implicit Locatives: (‘today’,
 ‘every time he arrives’): ‘loc\_nonsp’
-- [Implicit Nominals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ImplicitNominals):
+- Implicit Nominals:
 ‘generic\_entity’
-- [Implicit Quantifiers](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ImplicitQuantifiers):
+- Implicit Quantifiers:
 'udef\_q', ‘proper\_q’, ‘pronoun\_q', 'number\_q'
 - [Instrumental
-Relatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_InstrumentalRelatives): ‘with\_p\_rel’
-- [Measure Phrases](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_MeasurePhrases): ‘measure\_rel’
-- [Nominalization](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Nominalization): ‘nominalization’,
+Relatives](): ‘with\_p\_rel’
+- Measure Phrases: ‘measure\_rel’
+- Nominalization: ‘nominalization’,
 including verbal and nominal gerunds as well as some non-gerunds and
 WH nominalization (need to look at relation to free relatives)
 - [Non-Adverbial Clausal
-Modifiers](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_NonAdverbialClausalModifiers): ‘subord’
+Modifiers](): ‘subord’
 (including depictives and absolutives)
-- [Number Sequences](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_NumberSequences): ‘num\_seq’ (for
+- Number Sequences: ‘num\_seq’ (for
 numeral juxtaposition)
-- [Parentheticals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Parentheticals): ‘parenthetical’
-- [Partitives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Partitives): ‘part\_of’
-- [Quasi-Modal Infinitivals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_QuasiModalInfinitivals):
+- Parentheticals: ‘parenthetical’
+- Partitives: ‘part\_of’
+- Quasi-Modal Infinitivals:
 ‘eventuality’
 
 # Semantic Phenomena Derived from Lexical Rules
@@ -67,7 +67,7 @@ lexical rules. This section list those phenomena that are instantiated
 by lexical rules and not phrasal constructions (though possibly also by
 lexical types).
 
-- [Ellipsis](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Ellipsis): ‘ellipsis\_ref’ (‘Can I?’),
+- Ellipsis: ‘ellipsis\_ref’ (‘Can I?’),
 ‘ellipsis\_expl’ (‘There's sun, isn't there?’)
 - Passive: ‘parg\_d’
 - Intersective-Modifier Prefixes: ‘\_co-\_a\_with’,
@@ -75,7 +75,7 @@ lexical types).
 ‘\_re-\_a\_again’, ‘\_un-\_a\_rvrs’
 - Scopal-Modifier Prefixes:
 - Tag Questions: ‘id’, ‘ne\_x’
-- [Time Expressions](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_TimeExpressions): ‘of\_p’
+- Time Expressions: ‘of\_p’
 ‘def\_explicit\_q’ ‘def\_implicit\_q’ (‘June third’, ‘Tuesday
 afternoon’)
 
@@ -83,22 +83,22 @@ afternoon’)
 
 - Cardinal Adjectives and Number Names:
 - Color Adjectives and Names:
-- [Comparatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Comparatives)
+- Comparatives
 - Compositional Number Names:
-- [Control Relations](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ControlRelations)
+- Control Relations
 - Degree Specification (of Quantifiers, e.g. ‘nearly all’, ‘almost but
 not quite every’): \[moved from high level concepts, because it
 seems more like a linguistic analysis\]
 - Existentials: ‘\_be\_v\_there’
 - Free Relatives: ‘free\_relative\_q’, ‘free\_relative\_ever\_q’
 - Generalized Quantifiers:
-- [Identity Copulae](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_IdentityCopulae)
+- Identity Copulae
 - Modal Operators: ‘neg’, ‘\_can\_v\_modal’, ‘\_probable\_a\_1’, etc.
 - MWE Quantifiers: *any more* et al
 - Possessives:
 - Pre-verbal Modifiers: \[those that are syntactically analyzed as
 attaching to the subject; what happens to them semantically?\]
-- [Propositional Arguments](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_PropositionalArguments)
+- Propositional Arguments
 - Pro-verbs (do so):
 - Proper Names:
 - Scopal Adverbs: certain uses of *also*, i.a.
@@ -115,7 +115,7 @@ are highly incomplete and may at this point contain only notes.\]
 - Resultatives (‘put the book in the box’, ‘make Abrams happy’, ‘have
 the report on my desk’)
 - Semantically Vacuous Lexemes (i.e. In-Semantics)
-- [Relational nouns](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_RelationalNouns)
+- Relational nouns
 - Idioms
 
 # Quasi-Semantic Phenomena
@@ -132,7 +132,7 @@ would lead to the expected representations.
 - Relative Clause Extraposition: ‘relative\_mod’ (arguably should be
 fully parallel to non-extraposed relative clauses)
 - Tag Questions: ‘ne\_x’ ‘id’
-- [Vocatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Vocatives): ‘addressee’
+- Vocatives: ‘addressee’
 
 # Semantically Vacuous Lexical Items
 
@@ -153,10 +153,10 @@ constructions)
 
 # Sources of inspiration
 
-- [ErgSemantics_Raw_Materials](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Raw_Materials) links to discussions and questions answered that could be used to further populate these pages.
+- ErgSemantics_Raw_Materials links to discussions and questions answered that could be used to further populate these pages.
 
 # More Information
 
-- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) Main Page
-- [How to Cite this Work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
+- ErgSemantics Main Page
+- How to Cite this Work
 <update date omitted for speed>{% endraw %}

@@ -46,7 +46,7 @@ David: documentation was saying I had to compile it.
 Woodley: logon distribution
 
 Oe: last year made an effort to provide a [‘turn-key’
-solution](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) for novice ERG users.
+solution]() for novice ERG users.
 
 David: still stripping information to try and get what I want from the
 ERG; yesterday fantastic info about [VirtualBox](/VirtualBox)

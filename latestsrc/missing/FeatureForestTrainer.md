@@ -3,7 +3,7 @@
 This page describes an experimental tool created by
 [WoodleyPackard](/WoodleyPackard) to train maximum entropy models for
 statistical disambiguation. The *.mem* files produced by this method are
-compatible with [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) and may also work with other tools,
+compatible with ACE and may also work with other tools,
 although they are missing some metadata (if you discover they don't work
 with some tool and you want them to, and especially if you know why, I'd
 be happy to hear).

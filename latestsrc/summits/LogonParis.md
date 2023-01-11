@@ -1,8 +1,8 @@
 {% raw %}# Background
 
 In July 2010, at the time of the annual DELPH-IN Summit (see the
-[ParisTop](https://blog.inductorsoftware.com/docsproto/summits/ParisTop) page for background), a new tagged release of the
-LOGON infrastructure (see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page for details) is
+ParisTop page for background), a new tagged release of the
+LOGON infrastructure (see the LogonTop page for details) is
 being made available. This page documents (some of) the updates and
 extensions provided in this snapshot.
 
@@ -26,7 +26,7 @@ Hag;
 - bug fix in SPPP (interface to FreeLing) addressing multiple
 punctuation marks (oe);
 - increased granularity in \[incr tsdb()\] treebanking timestamps;
-- ERG version 1004 (corresponding to initial [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods)
+- ERG version 1004 (corresponding to initial WikiWoods
 release);
 - up-to-date versions of SRG and FreeLing (montse, oe, lluis);
 - migrate general [FreeLing](/FreeLing) files into upc/ sub-tree

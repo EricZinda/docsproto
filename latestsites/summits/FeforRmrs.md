@@ -23,21 +23,21 @@ Afternoon of June 14th
 of the HOOK.INDEX in MRS/RMRS (FrancisBond).
 - Scoping constraints: beyond qeqs
 (BertholdCrysmann)
-[FeforScopingConstraints](https://blog.inductorsoftware.com/docsproto/summits/FeforScopingConstraints)
+FeforScopingConstraints
 - Quantifiers with nominal relation (EmilyBender).
-[FeforQuantifiers](https://blog.inductorsoftware.com/docsproto/summits/FeforQuantifiers)
+FeforQuantifiers
 - Pronoun rels vs prodrop (EmilyBender) Inserting
 pronoun-rels v. leaving unbound indices in pro-drop (aka null
-instantiation). [FeforDroppedArguments](https://blog.inductorsoftware.com/docsproto/summits/FeforDroppedArguments)
+instantiation). FeforDroppedArguments
 - Representations of discourse status (EmilyBender).
-[FeforDiscourseStatus](https://blog.inductorsoftware.com/docsproto/summits/FeforDiscourseStatus)
+FeforDiscourseStatus
 - Messages: what are they good for?
 (BertholdCrysmann, FrancisBond,
 AnnCopestake, DanFlickinger)
-[FeforMessageDemise](https://blog.inductorsoftware.com/docsproto/summits/FeforMessageDemise)
+FeforMessageDemise
 - MRS test suite: extension (DanFlickinger) and
 parallel test suites (ValiaKordoni).
-[MatrixMrsTestSuite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite)
+MatrixMrsTestSuite
 
 ## MRS/RMRS and the outside world
 
@@ -49,7 +49,7 @@ DanFlickinger).
 - Person, number, gender features in (R)MRS
 (BertholdCrysmann,
 DanFlickinger, EmilyBender)
-[FeforPng](https://blog.inductorsoftware.com/docsproto/summits/FeforPng)
+FeforPng
 - The SEM-I (StephanOepen,
 DanFlickinger, AnnCopestake)
 <update date omitted for speed>{% endraw %}

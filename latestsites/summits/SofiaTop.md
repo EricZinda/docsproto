@@ -32,7 +32,7 @@ levs: 175 levs). It can be paid either in levs, or in euros.
 
 The scientific programme is emerging from a collaborative process,
 coordinated by AnnCopestake and
-StephanOepen, on the [SofiaSchedule](https://blog.inductorsoftware.com/docsproto/summits/SofiaSchedule)
+StephanOepen, on the SofiaSchedule
 page; please note that last-minute adjustments are still possible.
 
 # Accommodation

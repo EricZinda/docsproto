@@ -10,11 +10,11 @@ from the pop-up menu.
 ## Related topics
 
 - [How do I look at fully specified lexical entries or
-rules?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewEntry)
+rules?]()
 - [How do I see what definition the LKB has read in for a
-type?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewType)
-- [How do I browse the type hierarchy?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewHierarchy)
-- [How do I do interactive unification?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqInteractiveUnify)
+type?]()
+- How do I browse the type hierarchy?
+- How do I do interactive unification?
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

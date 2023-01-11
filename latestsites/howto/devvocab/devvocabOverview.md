@@ -1,12 +1,12 @@
 {% raw %}# 
-The Developer How-To section is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called ["Perplexity"](https://github.com/EricZinda/Perplexity) that allows Python functions to implement and evaluate DELPH-IN predications. In this section, we will show how to *use it* by implementing the vocabulary for a file system using the Perplexity framework. When finished, we'll have a working interactive natural language interface that allows users to browse their file system.
+The [Developer How-To section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview) is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called ["Perplexity"](https://github.com/EricZinda/Perplexity) that allows Python functions to implement and evaluate DELPH-IN predications. In this section, we will show how to *use it* by implementing the vocabulary for a file system using the Perplexity framework. When finished, we'll have a working interactive natural language interface that allows users to browse their file system.
 
 This section assumes a working knowledge of The Minimal Recursion Semantics (MRS) Format and Building Well-Formed MRS Trees as well as a [basic understanding of Python](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonBasics/). Having read through the [Developer Tutorial](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview/) would also be very helpful, but shouldn't be required. We'll link to the relevant sections as we discuss them.
 
 Let's start with a review of the Perplexity framework. 
 
 ### Predications
-First, the vocabulary for a particular application is written as Python functions that implement "The Predication Contract" and are decorated with the Predication decorator like this implementation of the DELPH-IN predication for "file" (which is `_file_n_of`):
+First, the vocabulary for a particular application is written as Python functions that implement ["The Predication Contract"](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract) and are decorated with the [Predication decorator](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython) like this implementation of the DELPH-IN predication for "file" (which is `_file_n_of`):
 
 ```
 vocabulary = Vocabulary()

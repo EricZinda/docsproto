@@ -15,12 +15,12 @@ correct.
 
 Contents
 
-1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile)
-2. [Overview](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile)
-   1. [item](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile)
-   2. [run](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile)
-   3. [parse](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile)
-   4. [result](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile)
+1. Page Status
+2. Overview
+   1. item
+   2. run
+   3. parse
+   4. result
 
 # Overview
 
@@ -38,7 +38,7 @@ the **@** mark.
 
 Profiles can be manipulated within [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) proper (the default) and some
-other [tools](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop).
+other tools.
 
 Some of the files are described below. Note, however, that the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) database schema is subject to

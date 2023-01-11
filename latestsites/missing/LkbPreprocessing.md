@@ -10,10 +10,10 @@ time, and probably should be used as the role model for future
 integrations.
 
 The *Simple PreProcessor Protocol* is documented on the
-[LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp) page.
+LkbSppp page.
 
 The MAF-based XML annotation scheme is documented on the
-[LkbMaf](https://blog.inductorsoftware.com/docsproto/missing/LkbMaf) page.
+LkbMaf page.
 
 # (Internal) Finite-State Preprocessing
 
@@ -67,5 +67,5 @@ analysis:
     <hcons hreln='qeq'><hi><var sort='h' vid='8'/></hi><lo><label vid='10'/></lo></hcons>
     </rmrs>
 
-For more sophisticated characterization support see [LkbMaf](https://blog.inductorsoftware.com/docsproto/missing/LkbMaf).
+For more sophisticated characterization support see LkbMaf.
 <update date omitted for speed>{% endraw %}

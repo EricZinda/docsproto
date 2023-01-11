@@ -17,12 +17,12 @@ isn't parsing, try interactive unification.
 
 ### Related topics
 
-- [How do I do interactive unification?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqInteractiveUnify)
+- How do I do interactive unification?
 - [When I look at the parse chart, I don't see an edge that I'm
 expecting to be there. How do I find out why it's
-missing?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqMissingEdge)
+missing?]()
 - [How can I tell if an edge is missing in the parse
-chart?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqMissingHowTo)
+chart?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 <update date omitted for speed>{% endraw %}

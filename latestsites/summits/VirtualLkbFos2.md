@@ -5,7 +5,7 @@ reviewing the [slides](http://www.delph-in.net/2020/lkb-tutorial.pdf).
 
 They show the differences between versions.
 
-[LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), [Classic LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop), [LOGON LKB](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
+LKB-FOS, Classic LKB, LOGON LKB
 
 WP: "Random" unpacking
 ((setq \*unpacking-scoring-hook\* (constantly 0.0))) isn't really

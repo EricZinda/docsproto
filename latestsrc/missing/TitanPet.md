@@ -1,7 +1,7 @@
 {% raw %}# Background
 
 This page documents a sub-task of the HPC adaptation project at UiO;
-please see the [TitanTop](https://blog.inductorsoftware.com/docsproto/missing/TitanTop) page for background.
+please see the TitanTop page for background.
 
 [PET](http://www.delph-in.net/pet) (Platform for Efficient HPSG
 Processing Techniques) is the egine used commonly for batch parsing with
@@ -64,7 +64,7 @@ available via SVN:
 
 Some instructions on compilation are available in the README file that
 comes with the source tree, as well as on the DELPH-IN
-[PetDependencies](https://blog.inductorsoftware.com/docsproto/garage/PetDependencies) page. To get started, it should be
+PetDependencies page. To get started, it should be
 sufficient to use Boost and ICU but ignore the various XML input modes
 (and XML-RPC support), [\[incr tsdb()\]](http://www.delph-in.net/itsdb),
 and ECL.

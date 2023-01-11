@@ -62,5 +62,5 @@ This takes a couple of hours, then remove the java in logon.
 
     $rm -f logon/bin/java
 
-Reset up the FFTB for INDRA (see [IndraTreebanking](https://blog.inductorsoftware.com/docsproto/tools/IndraTreebanking)).
+Reset up the FFTB for INDRA (see IndraTreebanking).
 <update date omitted for speed>{% endraw %}
