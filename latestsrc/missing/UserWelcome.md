@@ -45,5 +45,4 @@ experimental grammars, can be found on the
 [GrammarCatalogue](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) page.
 
 ### Parsing, Generation, and Pre-/Post-processing Software
-
-Last update: 2017-08-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/UserWelcome/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

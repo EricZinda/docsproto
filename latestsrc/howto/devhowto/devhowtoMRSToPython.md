@@ -94,5 +94,4 @@ The `Example2()` function shows how we can use all of this to call a predication
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoMRSToPython.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

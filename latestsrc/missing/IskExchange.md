@@ -68,5 +68,4 @@ University](http://www.ida.liu.se/bin/cms/get_category_courses.pl?category=AIK&l
 ## United Kingdom
 
 ## USA
-
-Last update: 2012-03-29 by LiljaOvrelid [[edit](https://github.com/delph-in/docs/wiki/IskExchange/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -80,6 +80,10 @@ toc:
         url: "/devhowto/devhowtoPythonDecorators/"
       - title: "B. Parsing Predications"
         url: "/devhowto/devhowtoParsePredication/"
+  - title: "Developer Predication Tutorial"
+    children:
+      - title: "Overview"
+        url: "/devvocab/devvocabOverview/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

@@ -55,5 +55,4 @@ MWG: Re ownership role: Happy to hand this over to the community and step back f
 
 Olga: I think what's needed is more clarity and I'm sure we can develop the right practices that suit us.
 
-
-Last update: 2021-07-20 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/Virtual2021Infrastructure/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

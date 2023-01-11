@@ -23,5 +23,4 @@
 - Figure out how to do release notes with the grammar
   - Changes to grammar rule names: irritating but inevitable. Give some thought to the fact that underlying things will change.  Find a way to alert people that changes have happened.  
 - How to getting visibility into the current plan for the ERG?
-
-Last update: 2022-07-13 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDWIssues/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -73,5 +73,4 @@ collections) useless, thus must only be used on development instances:
 It appears that the community edition (in version 3.0 and upwards) does
 not rotate log files itself; look into how to regularly issue the
 logRotate command or send a USR1 signal.
-
-Last update: 2017-09-28 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_MongoDB/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
