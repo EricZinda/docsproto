@@ -27,4 +27,5 @@ sidor med anknyting till sidan:
 Dessutom finns \[\[PageList\]\], \[\[FullSearch('text')\]\] och
 \[\[TableOfContents\]\], som ger dig möjlighet att automatiskt generera
 index för sammanhängande delar av en Wiki.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2004-07-21 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PlatsNavigering/_edit)]{% endraw %}

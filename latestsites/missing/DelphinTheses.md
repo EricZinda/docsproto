@@ -58,4 +58,5 @@ Using Lexical and Compositional Semantics to Improve HPSG Parse Selection, Maste
 ### 2009
 
 * Drellishak, Scott. 2009. [Widespread but Not Universal: Improving the Typological Coverage of the Grammar Matrix.](https://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf) Doctoral dissertation, University of Washington.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-29 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/DelphinTheses/_edit)]{% endraw %}

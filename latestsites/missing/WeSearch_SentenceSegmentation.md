@@ -193,4 +193,5 @@ Baldwin, T. and Joseph, M. P. A. K. 2009. [Restoring Punctuation and
 Casing in English
 Text](http://www.springerlink.com/content/v825m06653421808/fulltext.pdf).
 In Lecture Notes in Computer Science, Volume 5866/2009.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-01 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/WeSearch_SentenceSegmentation/_edit)]{% endraw %}

@@ -147,4 +147,5 @@ Possible values of type:
 (lst-t '\* PATH) is equivalent to (lst PATH)
 - dlst-t: as dlst, but format is (dlst-t TOP-MARKER PATH) where
 (dlst-t '\* PATH) is equivalent to (dlst PATH)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2005-02-27 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/FieldMappings/_edit)]{% endraw %}

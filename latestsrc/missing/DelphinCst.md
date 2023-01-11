@@ -20,4 +20,5 @@ Scandinavian. Finally, a number of CST researchers are engaged in
 empirical and formal studies of HPSG. Some of this work aims at defining
 formally restrictive fragments of HPSG without loss of empirical
 adequacy.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2005-08-26 by PatriziaPaggio [[edit](https://github.com/delph-in/docs/wiki/DelphinCst/_edit)]{% endraw %}

@@ -8,4 +8,5 @@
 - [GardThomassen](/GardThomassen)
 - [NikolayVazov](/NikolayVazov)
 - ErikVelldal
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-01-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapGroup/_edit)]{% endraw %}

@@ -78,4 +78,5 @@ yet</span>.
 HoundOfTheBaskervilles\_ch4, S194: weirdness
 
 **Not for the world**, my dear Watson.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-02-10 by JonathonRead [[edit](https://github.com/delph-in/docs/wiki/StarSEM/_edit)]{% endraw %}

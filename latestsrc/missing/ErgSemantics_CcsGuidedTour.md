@@ -183,4 +183,5 @@ Clauses](https://blog.inductorsoftware.com/docsproto/missing/ErgSemantics_Relati
 
 [ERG Semantic Documentation: Instrumental
 Relatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_InstrumentalRelatives)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_CcsGuidedTour/_edit)]{% endraw %}

@@ -23,4 +23,5 @@ the water.*
 - [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
 - [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-09-10 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Predicates/_edit)]{% endraw %}

@@ -47,4 +47,5 @@ Sourcecode is in
 \#10743 ([Krog 2006](http://www.duo.uio.no/sok/work.html?WORKID=46068))
 - Misfiled under English (contains a large percentage of quotes and loan
 words)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/NoraIdentification/_edit)]{% endraw %}

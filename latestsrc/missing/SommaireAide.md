@@ -24,4 +24,5 @@ outils manipulant une page ou tout le site
 FAQ (Foire Aux Questions)
 
 (NB pages en rouge : en cours de traduc.. :slightly\_smiling\_face:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2004-07-21 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SommaireAide/_edit)]{% endraw %}

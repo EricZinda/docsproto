@@ -335,7 +335,7 @@
   <li>“a file is deleted” has no implied actor, so the first <code class="language-plaintext highlighter-rouge">x</code> argument is <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">dropped</a> and becomes an <code class="language-plaintext highlighter-rouge">i</code>: <code class="language-plaintext highlighter-rouge">_delete_v_1(e, i, x)</code></li>
 </ul>
 
-<p>Furthermore, the implementation of <code class="language-plaintext highlighter-rouge">delete_v_1</code> for each of those phrases will be very different. The first needs to actually delete a file and the second should (perhaps) look through the trash to see if a file has been deleted. The <code class="language-plaintext highlighter-rouge">Vocabulary</code> class needs to remember the arguments used with a predication implementation i addition to the name and it needs to allow different functions to be written for the different cases.</p>
+<p>Furthermore, the implementation of <code class="language-plaintext highlighter-rouge">delete_v_1</code> for each of those phrases will be very different. The first needs to actually delete a file and the second should (perhaps) look through the trash to see if a file has been deleted. The <code class="language-plaintext highlighter-rouge">Vocabulary</code> class needs to remember the arguments used with a predication implementation and also allow different functions to cover different sentence force scenarios.</p>
 
 <p>Let’s make two other changes to vocabulary tracking while we’re there:</p>
 <ol>
@@ -469,8 +469,7 @@ I don't know the way you used: delete
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<update date="" omitted="" for="" speed="">
-</update>
+<p>Last update: 2023-01-10 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPredicationArgumentsAndUsage.md">edit</a>]</p>
 
         
       </section>

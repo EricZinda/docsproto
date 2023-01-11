@@ -314,4 +314,5 @@ indented 4 characters
     [[RandomPage]]
 
 **1267** pages [JacyInstallation](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-07 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/SyntaxReference/_edit)]{% endraw %}
