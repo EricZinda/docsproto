@@ -254,7 +254,7 @@ def parse_relative_link(SrcFile, link):
 def get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link):
     src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
-    src_file_path = os.path.dirname(file_definition["SrcFile"])
+    src_file_path = os.path.dirname(file_definition["SrcFile"]) + "/"
 
     path, query, fragment = parse_relative_link(file_definition["SrcFile"], original_link)
     if path is not None:
