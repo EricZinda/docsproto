@@ -14,5 +14,4 @@ head-complement rules, (2) label EPs with their edge of origin
 (rather than characterization), (3) search for instances of the HCR
 where the INDEX of the non-head daughter does not appear as an ARGn
 of any EP from the head daughter (and also isn't a scopal argument).
-
-Last update: 2015-12-08 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TreebankQueryIdeas/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

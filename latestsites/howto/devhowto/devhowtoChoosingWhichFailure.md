@@ -24,12 +24,12 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 ```
 
-A described in [the predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract), our idealized approach to solving it is:
+A described in the predication contract, our idealized approach to solving it is:
 1. `_a_q` iteratively sets `x3` to each object in the world and calls `_file_n_of` with that value
 2. If `_file_n_of` succeeds, `_a_q` then calls `_large_a_1` with the values returned
 3. If `large_a_1` succeeds, then `a_q` succeeds and stops iterating. 
 
-(Also as described in [the predication contract](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract), in reality, we optimize step #1 to have `_a_q` call `file_n_of` with free variables instead of iterating through every object. This allows `file_n_of` to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)
+(Also as described in the predication contract, in reality, we optimize step #1 to have `_a_q` call `file_n_of` with free variables instead of iterating through every object. This allows `file_n_of` to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)
 
 So, let's take a world that has the following items in it, run it through the MRS for "A file is large" and see where things fail:
 
@@ -164,9 +164,8 @@ def ReportError(error):
     DelphinContext().ReportError(error)
 ```
 
-The system will now remember which is the right ("deepest") error to report. The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure) will describe what they should say. This is not as obvious as it might seem. 
+The system will now remember which is the right ("deepest") error to report. The next section will describe what they should say. This is not as obvious as it might seem. 
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoChoosingWhichFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

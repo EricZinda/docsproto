@@ -370,14 +370,14 @@ _a_q(x3,RSTR,BODY)
                └─ _large_a_1(e2,x3)
 </code></pre></div></div>
 
-<p>A described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">the predication contract</a>, our idealized approach to solving it is:</p>
+<p>A described in the predication contract, our idealized approach to solving it is:</p>
 <ol>
   <li><code class="language-plaintext highlighter-rouge">_a_q</code> iteratively sets <code class="language-plaintext highlighter-rouge">x3</code> to each object in the world and calls <code class="language-plaintext highlighter-rouge">_file_n_of</code> with that value</li>
   <li>If <code class="language-plaintext highlighter-rouge">_file_n_of</code> succeeds, <code class="language-plaintext highlighter-rouge">_a_q</code> then calls <code class="language-plaintext highlighter-rouge">_large_a_1</code> with the values returned</li>
   <li>If <code class="language-plaintext highlighter-rouge">large_a_1</code> succeeds, then <code class="language-plaintext highlighter-rouge">a_q</code> succeeds and stops iterating.</li>
 </ol>
 
-<p>(Also as described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">the predication contract</a>, in reality, we optimize step #1 to have <code class="language-plaintext highlighter-rouge">_a_q</code> call <code class="language-plaintext highlighter-rouge">file_n_of</code> with free variables instead of iterating through every object. This allows <code class="language-plaintext highlighter-rouge">file_n_of</code> to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)</p>
+<p>(Also as described in the predication contract, in reality, we optimize step #1 to have <code class="language-plaintext highlighter-rouge">_a_q</code> call <code class="language-plaintext highlighter-rouge">file_n_of</code> with free variables instead of iterating through every object. This allows <code class="language-plaintext highlighter-rouge">file_n_of</code> to more efficiently return the files in the system without testing every object. Conceptually, though, it is the same.)</p>
 
 <p>So, let’s take a world that has the following items in it, run it through the MRS for “A file is large” and see where things fail:</p>
 
@@ -523,13 +523,14 @@ def ReportError(error):
     DelphinContext().ReportError(error)
 </code></pre></div></div>
 
-<p>The system will now remember which is the right (“deepest”) error to report. The <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure">next section</a> will describe what they should say. This is not as obvious as it might seem.</p>
+<p>The system will now remember which is the right (“deepest”) error to report. The next section will describe what they should say. This is not as obvious as it might seem.</p>
 
 <blockquote>
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-06 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoChoosingWhichFailure.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

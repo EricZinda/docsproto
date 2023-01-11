@@ -7,7 +7,7 @@ We'll use a simple Python representation that allows easy conversion from a raw 
 ["compound", "e1", "x1", "x2"]
 ```
 
-To convert this representation into a Python function (like the one we wrote [earlier](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoImplementPredication)) and call it, we need a mapping from the string name (e.g. `"_folder_n_of"`) to the function and module where the function lives. We'll do this using a Python feature called "decorators". It isn't important to understand *how* it works (but if you want to: [read this section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPythonDecorators)). For our purposes, just understand that by writing two small Python classes we can now write code like this:
+To convert this representation into a Python function (like the one we wrote earlier) and call it, we need a mapping from the string name (e.g. `"_folder_n_of"`) to the function and module where the function lives. We'll do this using a Python feature called "decorators". It isn't important to understand *how* it works (but if you want to: read this section). For our purposes, just understand that by writing two small Python classes we can now write code like this:
 ```
 # You can create global variables in Python
 # by just setting their values outside the scope
@@ -90,9 +90,8 @@ def Example2():
 {'x1': Folder(name=Documents)}
 ```
 
-The `Example2()` function shows how we can use all of this to call a predication using our new text-based format. With this in place, we can tackle more complicated groups of predications such as conjunctions in the [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConjunctions).
+The `Example2()` function shows how we can use all of this to call a predication using our new text-based format. With this in place, we can tackle more complicated groups of predications such as conjunctions in the next section.
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoMRSToPython.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

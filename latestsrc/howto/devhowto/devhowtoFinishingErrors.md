@@ -4,7 +4,7 @@ Now that our more robust error approach is in place, lets fix the predications w
 `large_a_1`, `file_n_of` and `a_q` have already been completed. `delete_v_1`, `pron`, `pronoun_q`, `which_q`, `very_x_deg`, `folder_n_of` remain.
 
 ### `folder_n_of`
-We can approach `folder_n_of` just like `file_n_of`, and, in fact, that is what most nouns will look like. The only new code is the last line below that says "`x` is not a folder" for the same reasons [we described before](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoReportingAFailure):
+We can approach `folder_n_of` just like `file_n_of`, and, in fact, that is what most nouns will look like. The only new code is the last line below that says "`x` is not a folder" for the same reasons we described before:
 
 ```
 @Predication(vocabulary, name="_folder_n_of")
@@ -27,7 +27,7 @@ def folder_n_of(state, x):
 ```
 
 ### `which_q`, and `pronoun_q`
-The quantifiers `which_q`, and `pronoun_q` should work just like `a_q` did in a [previous section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors) and report a special error if their `RSTR` can't be resolved. If the `BODY` fails it will report its own error:
+The quantifiers `which_q`, and `pronoun_q` should work just like `a_q` did in a previous section and report a special error if their `RSTR` can't be resolved. If the `BODY` fails it will report its own error:
 
 ```
 # This is just used as a way to provide a scope for a
@@ -168,7 +168,7 @@ There isn't a he/she in the system
 Looks good! 
 
 ### `pron(x)`
-`pron(x)` *does* need an error so that it can report when the user uses a pronoun that we haven't implemented. We can't really form sentences that will use this yet, because everything we can say has `pron` in the `RSTR` and any error we report there will get overridden by the quantifier as [described here](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors). We'll add the code, though, so it can be used later.
+`pron(x)` *does* need an error so that it can report when the user uses a pronoun that we haven't implemented. We can't really form sentences that will use this yet, because everything we can say has `pron` in the `RSTR` and any error we report there will get overridden by the quantifier as described here. We'll add the code, though, so it can be used later.
 
 ```
 @Predication(vocabulary, name="pron")
@@ -407,5 +407,4 @@ Very nice!
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoFinishingErrors.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

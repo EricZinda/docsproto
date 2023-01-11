@@ -19,5 +19,4 @@ representations into a variety of easily accessible formats.
       cd ../..
       cd logon/lingo/redwoods
       svn switch http://www.emmtee.net/extras/paris/lingo/redwoods
-
-Last update: 2010-11-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/RedwoodsSeven/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

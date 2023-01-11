@@ -14,5 +14,4 @@
 - [ArneSkjarholt](/ArneSkjarholt)
 - [ArneSkjærholt](/ArneSkj%C3%A6rholt)
 - ErikVelldal
-
-Last update: 2019-09-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

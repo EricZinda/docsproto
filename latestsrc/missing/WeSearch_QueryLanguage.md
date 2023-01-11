@@ -54,5 +54,4 @@ What to do about case distinctions? Ideally, we would like matching of
 node and role labels to not be case-sensitive (but parameters like
 "Abrams" in the above can make case distinctions). Maybe use the
 first-line Lucene index to normalize case distinctions in labels?
-
-Last update: 2016-04-21 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearch_QueryLanguage/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

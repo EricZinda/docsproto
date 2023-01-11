@@ -384,7 +384,7 @@
         return ergFile
 </code></pre></div></div>
 
-<p>Next, we need to take those MRS documents and turn them into well-formed trees. For this, we’ll create a function called <code class="language-plaintext highlighter-rouge">trees_from_mrs()</code>. It will call the function we wrote in the section on <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree">well-formed trees</a> called <code class="language-plaintext highlighter-rouge">valid_hole_assignments()</code> that does the assignments of predication labels to “holes” as discussed in that section.  It will then call the <code class="language-plaintext highlighter-rouge">tree_from_assignments()</code> function (also included below) that does the work of actually <em>building a tree</em> from those assignments and represents the tree using the text format we designed in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython">MRS to Python topic</a>:</p>
+<p>Next, we need to take those MRS documents and turn them into well-formed trees. For this, we’ll create a function called <code class="language-plaintext highlighter-rouge">trees_from_mrs()</code>. It will call the function we wrote in the section on well-formed trees called <code class="language-plaintext highlighter-rouge">valid_hole_assignments()</code> that does the assignments of predication labels to “holes” as discussed in that section.  It will then call the <code class="language-plaintext highlighter-rouge">tree_from_assignments()</code> function (also included below) that does the work of actually <em>building a tree</em> from those assignments and represents the tree using the text format we designed in the MRS to Python topic:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def trees_from_mrs(self, mrs):
     # Create a dict of predications using their labels as each key
@@ -468,13 +468,14 @@ def tree_from_assignments(hole_label, assignments, predication_dict, mrs):
 [['_a_q', 'x10', [['_cave_n_1', 'x10']], [['_every_q', 'x3', [['_book_n_of', 'x3', 'i8']], [['_in_p_state', 'e9', 'e2', 'x10'], ['ellipsis_ref', 'e2', 'x3']]]]]]
 [['_every_q', 'x3', [['_book_n_of', 'x3', 'i8']], [['_a_q', 'x10', [['_cave_n_1', 'x10']], [['_in_p_state', 'e9', 'e2', 'x10'], ['ellipsis_ref', 'e2', 'x3']]]]]]
 </code></pre></div></div>
-<p>The <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWhichParseAndTree">next topic</a> will describe a heuristic for determining which of those trees is the one the user meant.</p>
+<p>The next topic will describe a heuristic for determining which of those trees is the one the user meant.</p>
 
 <blockquote>
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-09 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoGenerateMRSAndTrees.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

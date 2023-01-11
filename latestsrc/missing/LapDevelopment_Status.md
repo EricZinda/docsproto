@@ -83,5 +83,4 @@ or class label–bearing
 # LAP Library in Java
 
 # Get a Life after ABEL
-
-Last update: 2016-08-08 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Status/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

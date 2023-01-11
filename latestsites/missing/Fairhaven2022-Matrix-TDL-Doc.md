@@ -34,5 +34,4 @@ right node raising
 subject_head
 subject-head""".
 ```
-
-Last update: 2022-07-22 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-Matrix-TDL-Doc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

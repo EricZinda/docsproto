@@ -36,5 +36,4 @@ skeletons and languages)
   - Num Lock On interferes with the LKB/tsdb++ GUI
   - Asian fonts in LKB top window with DELPH-IN build
     - solution: switch to LOGON build
-
-Last update: 2021-09-17 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/Papercuts/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

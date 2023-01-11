@@ -43,7 +43,7 @@ The problem with this approach is that it will only report the first word that w
 There isn't 'a bird' in the system
 ```
 
-The real error is "I don't know the words 'be' and 'bird'", but our quantifiers have the following logic in them (from the [Quantifier Errors topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors)) and so the error is ignored:
+The real error is "I don't know the words 'be' and 'bird'", but our quantifiers have the following logic in them (from the Quantifier Errors topic) and so the error is ignored:
 
 ```
 def a_q(state, x_variable, h_rstr, h_body):
@@ -56,7 +56,7 @@ def a_q(state, x_variable, h_rstr, h_body):
         report_error(["doesntExist", ["AtPredication", h_body, x_variable]], force=True)
 ```
 
-A better approach all around is to add an earlier stage to our processing pipeline: Before we bother to [build a well-formed tree](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) (because it could take some time), check and see if we understand all the terms. If not, building the tree won't help anyway.  In addition, this gives us a chance to do some swapping out of terms for synonyms if we so choose.
+A better approach all around is to add an earlier stage to our processing pipeline: Before we bother to build a well-formed tree (because it could take some time), check and see if we understand all the terms. If not, building the tree won't help anyway.  In addition, this gives us a chance to do some swapping out of terms for synonyms if we so choose.
 
 So, first let's build a function that goes through all the predications in an MRS and returns any that are not known by the system:
 
@@ -176,9 +176,8 @@ Traceback (most recent call last):
     
 ```
 
-The [next section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage) will explore what is going on here and how we can fix it.
+The next section will explore what is going on here and how we can fix it.
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-10 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoUnknownWords.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

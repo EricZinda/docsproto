@@ -19,5 +19,4 @@ Linguistics and Probabilities in
 MT](http://www.velldal.net/erik/pubs/OepVelLon07.pdf) In Proceedings of
 the 11th Conference on Theoretical and Methodological Issues in Machine
 Translation (TMI-07), Skövde, Sweden, 2007
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationModel/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

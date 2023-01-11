@@ -27,5 +27,4 @@ System](https://blog.inductorsoftware.com/docsproto/summits/LADValenceChange), l
   
   - Wednesday, March 23, 2016 at 23:00:00 UTC/GMT (Seattle 4pm,
 Singapore 7am (Thu), Berlin 12am (Thu))
-
-Last update: 2016-03-22 by ChrisCurtis [[edit](https://github.com/delph-in/docs/wiki/VirtualLinguisticAnalysisDesign/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
