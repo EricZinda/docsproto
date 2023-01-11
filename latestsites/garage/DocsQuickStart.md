@@ -11,7 +11,7 @@ This is all managed in a git repository, so changes are tracked, can be reverted
 ### The Site Definition File
 The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). 
 
-Changing/Adding/Removing anything *except the top level navigation* in the site involves simply editing the file and [re-running the workflow](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart) below.
+Changing/Adding/Removing anything *except the top level navigation* in the site involves simply [editing the file](https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json) and [re-running the workflow](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart) below.
 
 A simplified version of the production file is below. The file has 3 initial sections that rarely need to be changed: `Comments`, `SourceRepositores`, and `Sites`.  These define what data can be included in the site and what the top level structure is.
 
@@ -87,4 +87,4 @@ More detail on the workflow is in the [DELPH-IN Docs Reference Guide](https://bl
 ## Modifying the Site Structure
 To modify the site structure, see the [DELPH-IN Docs Reference Guide](https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference).
 
-Last update: 2023-01-04 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DocsQuickStart.md)]{% endraw %}
+Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DocsQuickStart.md)]{% endraw %}

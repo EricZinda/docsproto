@@ -44,6 +44,8 @@ toc:
         url: "/devhowto/devhowtoScopalArguments/"
       - title: "Event Variables"
         url: "/devhowto/devhowtoEvents/"
+      - title: "Handling Event Information"
+        url: "/devhowto/devhowtoHandlingEventInformation/"
       - title: "Sentence Force"
         url: "/devhowto/devhowtoSentenceForce/"
       - title: "Simple Propositions"
