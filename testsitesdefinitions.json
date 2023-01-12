@@ -21,7 +21,9 @@
         {"Page": "Deep file 3", "SrcDir": "docswiki", "SrcFile": "dir1/dir22/DeepDirectoryFile3.md"},
         {"Page": "Links Test", "SrcDir": "docswiki", "SrcFile": "ALinkTest.md"},
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
-        {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"}
+        {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
+        {"Page": "GrammarCatalogue", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md"},
+        {"Page": "GrammarsOverview", "SrcDir": "docswiki", "SrcFile": "GrammarsOverview.md"}
       ]},
       {"Section": "Semantics", "Pages": [
         {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},

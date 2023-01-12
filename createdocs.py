@@ -254,7 +254,9 @@ def parse_relative_link(SrcFile, link):
 def get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link):
     src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
-    src_file_path = os.path.dirname(file_definition["SrcFile"]) + "/"
+    src_file_path = os.path.dirname(file_definition["SrcFile"])
+    if len(src_file_path) > 0:
+        src_file_path += "/"
 
     path, query, fragment = parse_relative_link(file_definition["SrcFile"], original_link)
     if path is not None:
@@ -280,7 +282,7 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
                 return "relative_success", None, target_file, definition["AbsoluteLink"]
 
         # If if it doesn't exist, return the proper link that *would have* accessed it
-        return "relative_broken", "Wiki page doesn't exist", target_file, ""
+        return "relative_broken", "Wiki page doesn't exist", target_path_and_file, ""
 
     else:
         # non-relative link
@@ -296,8 +298,10 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
         if result["Status"] == "success":
             # If it exists at that location, assume it is legit
             return "absolute_success", None, None, original_link
+
         elif result["Status"] == "connection_failure":
             return "absolute_unknown_due_to_connection_failure", result["Message"], None, original_link
+
         else:
             # It wasn't found, which means either it truly is broken OR
             # it was a mistyped link that was really supposed to reference a wiki topic
@@ -307,9 +311,11 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
                 wiki_link_state, _, wiki_targeted_file, new_link = get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link[1:])
                 if wiki_link_state == "relative_success":
                     return "absolute_broken_but_valid_misformed_wiki_link", result["Message"], wiki_targeted_file, ""
+                
                 else:
                     # just a plain old broken link
                     return "absolute_broken", result["Message"], None, ""
+
             else:
                 # just a plain old broken link
                 return "absolute_broken", result["Message"], None, ""
