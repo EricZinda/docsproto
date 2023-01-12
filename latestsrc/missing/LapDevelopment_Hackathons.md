@@ -8,5 +8,4 @@ display\_peek()
 - one can install galaxy dozens of times in a matter of a few hours
 - it appears, four eyes staring at a diff(1) is not always enough to
 see subtle changes.
-
-Last update: 2016-01-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Hackathons/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

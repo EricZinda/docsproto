@@ -18,5 +18,4 @@ Case-sensitive searching
 * * *
 
 KategorieKategorie
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KategorieHomepage/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

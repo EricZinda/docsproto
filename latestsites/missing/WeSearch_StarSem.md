@@ -379,5 +379,4 @@ There are 367 token/pos types.
 | 4        | can      | MD      |
 | 4        | possible | JJ      |
 | 4        | known    | JJ      |
-
-Last update: 2012-03-06 by JonathonRead [[edit](https://github.com/delph-in/docs/wiki/WeSearch_StarSem/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

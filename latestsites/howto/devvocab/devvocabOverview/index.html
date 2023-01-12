@@ -127,7 +127,7 @@
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
             </li><li class="masthead__menu-item">
-              <a href="https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop">Grammars</a>
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarsOverview">Grammars</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
             </li><li class="masthead__menu-item">
@@ -343,15 +343,15 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p># 
-The <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview">Developer How-To section</a> is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a> that evaluates DELPH-IN predications written in Python. In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
+        <h1 id="developer-predication-tutorial-overview">Developer Predication Tutorial Overview</h1>
+<p>The <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview">Developer How-To section</a> is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called <a href="https://github.com/EricZinda/Perplexity">“Perplexity”</a> that evaluates DELPH-IN predications written in Python. In this section, we will show how to <em>use it</em> by implementing the vocabulary for a file system using the Perplexity framework. When finished, we’ll have a working interactive natural language interface that allows users to browse their file system.</p>
 
 <p>This section assumes a working knowledge of <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">The Minimal Recursion Semantics (MRS) Format</a> and <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree">Building Well-Formed MRS Trees</a> as well as a basic understanding of Python. Having read through the Developer Tutorial would also be very helpful, but shouldn’t be required. We’ll link to the relevant sections as we discuss them.</p>
 
 <p>Let’s start with a review of the Perplexity framework.</p>
 
 <h3 id="predications">Predications</h3>
-<p>First, all of the terms used in particular application are written as Python functions that implement <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">“The Predication Contract”</a> and are decorated with the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython"><code class="language-plaintext highlighter-rouge">@Predication()</code> decorator</a> like this implementation of the DELPH-IN predication for “file” (<code class="language-plaintext highlighter-rouge">_file_n_of</code>):</p>
+<p>First, all the terms used in particular application are written as Python functions that implement <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">“The Predication Contract”</a> and are decorated with the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython"><code class="language-plaintext highlighter-rouge">@Predication()</code> decorator</a> like this implementation of the DELPH-IN predication for “file” (<code class="language-plaintext highlighter-rouge">_file_n_of</code>):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vocabulary = Vocabulary()
 
@@ -538,8 +538,8 @@ def generate_message(tree_info, error_term):
         
     ...
 </code></pre></div></div>
-
-<p>Last update: 2023-01-11 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabOverview.md">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

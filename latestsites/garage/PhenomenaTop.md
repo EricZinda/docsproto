@@ -72,5 +72,4 @@ discussed at the Suquamish summit,
 currently there is only a [partial catalogue for the Wambaya
 grammar](). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-
-Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

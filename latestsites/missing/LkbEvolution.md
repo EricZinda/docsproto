@@ -158,5 +158,4 @@ that are
 flags) since its last release from the LOGON source code repository.
 while this add-on component is still exclusively used within LOGON,
 hope that there will be separate documentation at some point.
-
-Last update: 2005-02-10 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LkbEvolution/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

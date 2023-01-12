@@ -92,5 +92,4 @@ with Uni Research. Furthermore, the constraint grammars for Sami will be
 adapted and optimized by UiT. For the three Sami languages, there are
 efficient morphological transducers and, for one of them, grammatical
 and dependency parsers available.*
-
-Last update: 2015-06-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Schedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

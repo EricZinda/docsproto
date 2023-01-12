@@ -104,5 +104,4 @@ Using the --disable-subsumption-test option solves this.
     NOTE: 63 passive, 151 active edges in final generation chart; built 63 passives total. [1 results]
     NOTE: generated 1 / 1 sentences, avg 548k, time 0.00510s
     NOTE: transfer did 98 successful unifies and 133 failed ones
-
-Last update: 2017-01-27 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MtJaenAce/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

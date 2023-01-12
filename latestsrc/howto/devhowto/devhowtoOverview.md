@@ -11,5 +11,4 @@ It is designed to be read in order, but the most important background is in the 
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoOverview.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

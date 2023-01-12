@@ -213,5 +213,4 @@ ligatures missing (the lines themselves can be found in
 Most of these files have explicit glyph problems (with the error message
 "Bad bounding box in Type 3 glyph"). The cause for this is unknown, and
 the DFKI code has the same problem.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/NoraInspection/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

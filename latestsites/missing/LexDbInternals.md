@@ -193,5 +193,4 @@ Eg.
      SELECT rev_all.*
        FROM lex_cache
        JOIN rev_all USING (name, userid, modstamp);
-
-Last update: 2009-01-13 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/LexDbInternals/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

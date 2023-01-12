@@ -144,5 +144,4 @@ Finally, looking further at a somewhat unusual hardware configuration:
 # Discussion
 
 # Acknowledgements
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonTest_BenchmarkingSuite/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

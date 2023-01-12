@@ -831,5 +831,4 @@ Dan: You might be right.
 FCB: So we need to complicate our type hierarchy a little bit.
 
 **\[ Thanks to everyone who participated in this VLAD! :smiley:**
-
-Last update: 2016-03-17 by ZhenzhenFan [[edit](https://github.com/delph-in/docs/wiki/LADChineseRelatives/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

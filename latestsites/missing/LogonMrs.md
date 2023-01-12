@@ -35,5 +35,4 @@ the LOGON documentation upon project completion.
 - RmrsVpm --- Variable Property Mapping: this is used to
 convert the language internal mapping of properties to the SEM-I and
 back again.
-
-Last update: 2009-01-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonMrs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

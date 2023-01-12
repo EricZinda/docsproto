@@ -78,5 +78,4 @@ passive edges help to improve robustness of the PCFG, in case a HPSG
 rule triggers a valid but rare branching that has not been observed in
 the treebank. Also, when using -robust=2,3, one might save some memory
 and processing, if passive\_item\_exists() is done efficiently.
-
-Last update: 2022-11-14 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/RobustTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

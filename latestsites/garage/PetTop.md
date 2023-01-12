@@ -211,5 +211,4 @@ mapping]() and the FSC input format.
 ## To cite
 
 Callmeier, Ulrich. "Efficient parsing with large-scale unification grammars." PhD diss., Master’s thesis, Universität des Saarlandes, Saarbrücken, Germany, 2001.
-
-Last update: 2021-06-18 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PetTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

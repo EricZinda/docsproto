@@ -10,5 +10,4 @@
 | New vn handling                                                          | 06/14 | 3014 / 4500 (66.98%)     | 703 / 3014 (23.32%)     | 500 / 703 (71.12%)     | 500 / 4500 (11.11%)     | 0.1369     | 0.2264     |
 | Generic Edict rules                                                      | 06/15 | 3014 / 4500 (66.98%)     | 722 / 3014 (23.95%)     | 520 / 722 (72.02%)     | 520 / 4500 (11.56%)     | 0.1337     | 0.2231     |
 | Removed \_ga\_5\_rel,\_iru\_6\_rel,\_iru\_7\_rel; fixed conjunction\_mtr | 06/15 | 3068 / 4500 (**68.18%**) | 777 / 3068 (**25.33%**) | 528 / 777 (67.95%)     | 528 / 4500 (**11.73%**) | 0.1336     | 0.2232     |
-
-Last update: 2008-06-15 by EricNichols [[edit](https://github.com/delph-in/docs/wiki/MtJaen_MtJaenTanaka/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

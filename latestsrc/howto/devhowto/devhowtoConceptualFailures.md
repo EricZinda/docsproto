@@ -167,5 +167,4 @@ You can see that, until predication #2 has succeeded (`_file_n_of`), `x1` is des
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoConceptualFailures.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

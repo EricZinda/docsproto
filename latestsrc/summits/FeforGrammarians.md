@@ -77,5 +77,4 @@ suites.
 | BiTSE         | Swedish/English (Sw/En) | Summary      | [BiTSE](http://www.ida.liu.se/~sarst/bitse)                | LGPL-LR        |
 
 * * *
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforGrammarians/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

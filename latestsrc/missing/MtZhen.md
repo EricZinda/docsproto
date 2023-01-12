@@ -15,5 +15,4 @@ A list of things that need to be fixed in Zhen can be found here: [Todo
 list for Zhen](/MTZhenTodo)
 
 ## How to run the system
-
-Last update: 2013-10-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MtZhen/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

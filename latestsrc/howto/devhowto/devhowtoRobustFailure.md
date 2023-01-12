@@ -119,5 +119,4 @@ That one isn't good. The [next section](https://blog.inductorsoftware.com/docspr
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoRobustFailure.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

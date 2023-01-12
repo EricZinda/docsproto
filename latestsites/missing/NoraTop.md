@@ -59,5 +59,4 @@ finished, and the technical report can be downloaded
 to meet the demands of this project.
 
 # People Involved
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/NoraTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
