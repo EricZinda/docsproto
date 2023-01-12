@@ -86,4 +86,5 @@ More detail on the workflow is in the DELPH-IN Docs Reference Guide.
 
 ## Modifying the Site Structure
 To modify the site structure, see the DELPH-IN Docs Reference Guide.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/docsproto/edit/main/DocsQuickStart.md)]{% endraw %}

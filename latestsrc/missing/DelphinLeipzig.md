@@ -12,4 +12,5 @@ project intends to build on several Delph-In technologies including the
 tsdb()](http://www.delph-in.net/itsdb/)\], and the [Grammar
 Matrix](http://www.delph-in.net/matrix/). The main person working on
 Montage at MPI EVA is [Jeff Good](http://email.eva.mpg.de/~good)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinLeipzig/_edit)]{% endraw %}

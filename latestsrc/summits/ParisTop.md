@@ -52,4 +52,5 @@ Photos from the Summit
 - 2007 3rd Summit: Berlin
 - 2006 2nd Summit: Fefor
 - 2005 1st Summit: Lisbon (co-located with HPSG)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParisTop/_edit)]{% endraw %}

@@ -152,4 +152,5 @@ loc\_nonsp modifier?
 - Inventory of semantic phenomena (to be)
 documented
 - How to cite this work
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-13 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ERDW_ImplicitLocatives/_edit)]{% endraw %}

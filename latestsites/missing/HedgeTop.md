@@ -74,4 +74,5 @@ Perspective.](http://www.biomedcentral.com/content/pdf/1471-2105-9-S11-S10.pdf)
   
   [Weakly Supervised Learning for Hedge Classification in Scientific
 Literature.](http://acl.ldc.upenn.edu/P/P07/P07-1125.pdf)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/HedgeTop/_edit)]{% endraw %}

@@ -159,4 +159,5 @@ constructions)
 
 - ErgSemantics Main Page
 - How to Cite this Work
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-22 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Inventory/_edit)]{% endraw %}

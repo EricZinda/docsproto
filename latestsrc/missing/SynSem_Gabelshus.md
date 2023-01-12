@@ -51,4 +51,5 @@ their ongoing work, possibly in collaborating teams (e.g. Dag and
 Matthew on glue semantics for UD). In a first instance, we welcome
 suggestions for programme elements (of any type, not limited to the
 above examples), which we will collect incrementally.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-01-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem_Gabelshus/_edit)]{% endraw %}

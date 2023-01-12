@@ -46,4 +46,5 @@ mechanisms.
 # Technical Set-Up
 
 # GOLD Administrator Interface
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-01-23 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Accounting/_edit)]{% endraw %}

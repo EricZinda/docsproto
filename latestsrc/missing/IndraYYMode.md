@@ -88,4 +88,5 @@ is parsed as follows.
     ICONS: < > ] 
     NOTE: 1 readings, added 99 / 52 edges to chart (14 fully instantiated, 20 actives used, 11 passives used)       RAM: 553k
     NOTE: parsed 3 / 3 sentences, avg 184k, time 0.00562s
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-07-06 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraYYMode/_edit)]{% endraw %}

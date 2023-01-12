@@ -91,4 +91,5 @@ Rebecca: See ToolsTop -- there is some stuff there.
 Rebecca: I put up C++ training code. And EDM code (on any MRS simple
 string). Emily: Sign up to be informed when the ToolsTop
 page changes.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-06-28 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/SuquamishDelphinLibP/_edit)]{% endraw %}

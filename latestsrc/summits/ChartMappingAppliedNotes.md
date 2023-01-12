@@ -46,4 +46,5 @@ PetRoadMap
 
 Ann wants to look into SMAF code and give an estimation on the amount of
 effort to migrate to FSC
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ChartMappingAppliedNotes/_edit)]{% endraw %}

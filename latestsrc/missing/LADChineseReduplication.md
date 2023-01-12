@@ -226,4 +226,5 @@ FCB: does it also work for Multi-word adjectives? (e.g. green-blue)
 DavidM: Yes, you can reduplicate that.
 
 FZZ: also in Singlish ‘eyes small-small’ (cute’ishly small)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-08-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LADChineseReduplication/_edit)]{% endraw %}

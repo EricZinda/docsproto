@@ -60,4 +60,5 @@ big dataset), and *mrs.mem* will be written.
 You can edit the *maxent-model* configuration option in your grammar's
 *config.tdl* and then reload the grammar. Alternately, you can pass
 --maxent=mrs.mem to recent versions of ACE.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-12-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/FeatureForestTrainer/_edit)]{% endraw %}

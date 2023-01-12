@@ -17,4 +17,5 @@ type?]()
 - How do I do interactive unification?
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqExpandedType/_edit)]{% endraw %}

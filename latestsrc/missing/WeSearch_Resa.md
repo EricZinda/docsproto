@@ -82,4 +82,5 @@ be directly used as input (CHAR format).
                                     CONLLX: CONLL-X format.
                                     CHAR: Characterised tuples as from option --interim
       -T [ --tformat ] arg (=MRG) Annotation format of test file, options as for gold format.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-11-27 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/WeSearch_Resa/_edit)]{% endraw %}

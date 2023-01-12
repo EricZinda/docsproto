@@ -106,4 +106,5 @@ From source:
     >>> import MeCab
     >>> m = MeCab.Tagger('-Ochasen')
     >>> print m.parse('私は昨日、引っ越ししました。')
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-11-05 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyYYMode/_edit)]{% endraw %}

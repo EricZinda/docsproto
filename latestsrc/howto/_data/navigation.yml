@@ -84,6 +84,8 @@ toc:
     children:
       - title: "Overview"
         url: "/devvocab/devvocabOverview/"
+      - title: "Phrases and Vocabulary"
+        url: "/devvocab/devvocabPhrasesAndVocab/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

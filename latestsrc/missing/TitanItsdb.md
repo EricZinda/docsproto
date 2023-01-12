@@ -2,4 +2,5 @@
 
 This page documents a sub-task of the HPC adaptation project at UiO;
 please see the TitanTop page for background.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-06-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TitanItsdb/_edit)]{% endraw %}

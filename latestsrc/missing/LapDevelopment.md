@@ -220,4 +220,5 @@ instance and reside in /projects/lap/tools/trunk/.
 ## Accounting Database
 
 ## (External) Web Server
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-02-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment/_edit)]{% endraw %}

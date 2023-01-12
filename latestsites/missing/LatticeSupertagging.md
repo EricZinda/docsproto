@@ -78,4 +78,5 @@ recognition](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.80.8512&re
 Bilmes & Bartels (2005): I've been meaning to look at hierarchical
 models since I talked about them with Mark Johnson 2 years ago,
 maybe I should actually read this :slightly\_smiling\_face:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LatticeSupertagging/_edit)]{% endraw %}

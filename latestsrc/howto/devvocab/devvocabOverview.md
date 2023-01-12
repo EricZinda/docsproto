@@ -196,4 +196,10 @@ def generate_message(tree_info, error_term):
         
     ...
 ```
-<update date omitted for speed>{% endraw %}
+
+The first thing we need to do is [determine the phrases and vocabulary](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabPhrasesAndVocab) we need to implement.
+
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-12 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabOverview.md)]{% endraw %}
