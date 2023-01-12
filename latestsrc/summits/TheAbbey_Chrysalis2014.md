@@ -102,5 +102,4 @@ notes)]()
 verbs]()
 - [Nominalization II: Deverbal
 nouns]()
-
-Last update: 2014-02-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

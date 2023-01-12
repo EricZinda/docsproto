@@ -131,5 +131,4 @@ also facilitates search over syntactic derivations and labeled
 constituent trees of Redwoods and DeepBank.
 - [Some further thoughts on kinds of searches to
 enable]()
-
-Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErgTreebanks/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

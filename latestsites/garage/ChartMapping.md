@@ -64,5 +64,4 @@ Evaluation (LREC-2008). Marrakech, Morocco. ﻿
       year = {2008},
       keywords = {chart mapping, hpsg, preprocessing}
     }
-
-Last update: 2022-11-14 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

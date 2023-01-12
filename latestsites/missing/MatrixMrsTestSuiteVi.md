@@ -30,5 +30,4 @@ are highly optional/contextual in natural speech and in written text
 Tôi-Bạn (1sg-2sg) paradigm is used here
 - Noun classifiers are often optional too. Different noun categories
 take different classifiers.
-
-Last update: 2013-12-29 by LilingTan [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteVi/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

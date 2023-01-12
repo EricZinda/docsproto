@@ -71,5 +71,4 @@ validated
 - CoNLL Export: validated
 - RDF Export:
 - CG3 Export:
-
-Last update: 2016-09-06 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Tree/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -66,5 +66,4 @@ functionality
 [pyDMRS](https://github.com/delph-in/pydmrs)), but can we drop that
 code in directly, or should we refactor based on NLTK's base
 classes?
-
-Last update: 2016-06-23 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/NltkRoadmap/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

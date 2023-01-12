@@ -192,5 +192,4 @@ Method leads to a regulariser term in the learner proportional
 to the difference between source and target weights for a
 feature, so we minimise this difference unless information says
 otherwise.
-
-Last update: 2014-09-04 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/WeSearch_Adaptation_Background/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

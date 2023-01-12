@@ -82,5 +82,4 @@ toolkit.
     zcat /tmp/mrstuples.gz | text2idngram -temp /tmp/ -n 3 -vocab mrs.vocab > mrs.idngram; idngram2lm -idngram mrs.idngram -n 3 -vocab mrs.vocab -binary mrs.binlm -calc_mem -context ccs -witten_bell
 
 The MRS trigram model is written into the file 'mrs.binlm.'
-
-Last update: 2010-09-13 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/GenerationModel/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

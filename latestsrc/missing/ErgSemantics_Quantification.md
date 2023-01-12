@@ -84,5 +84,4 @@ universal\_q
 
 - ErgSemantics Main Page
 - How to Cite this Work
-
-Last update: 2016-05-09 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Quantification/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

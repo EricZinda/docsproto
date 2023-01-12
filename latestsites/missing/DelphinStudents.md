@@ -20,5 +20,4 @@ Students working with DELPH-IN tools, or in DELPH-IN related research
 | SanghounSong       | Korea University                         | started PhD Mar 2008                                  | Stochastic Processing for Large Corpora, Grammar Engineering                                         |                                                                     |
 | SaraStymne           | Linköping University                     | started PhD Jan 2007                                  | Bilingual grammars in machine translation                                                            | [Home Page](http://www.ida.liu.se/~sarst)                           |
 | Rui Wang                           | Saarland University                      | started PhD Oct 2007                                  | Recognizing Textual Entailment (might change :P)                                                     |                                                                     |
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/DelphinStudents/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

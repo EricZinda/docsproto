@@ -68,5 +68,4 @@ PetDependencies page. To get started, it should be
 sufficient to use Boost and ICU but ignore the various XML input modes
 (and XML-RPC support), [\[incr tsdb()\]](http://www.delph-in.net/itsdb),
 and ECL.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/TitanPet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

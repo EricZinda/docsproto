@@ -1,4 +1,4 @@
-{% raw %}# 
+{% raw %}# Developer Predication Tutorial Overview
 The [Developer How-To section](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoOverview) is a tutorial that introduces developers to the DELPH-IN technologies by building a Python framework called ["Perplexity"](https://github.com/EricZinda/Perplexity) that evaluates DELPH-IN predications written in Python. In this section, we will show how to *use it* by implementing the vocabulary for a file system using the Perplexity framework. When finished, we'll have a working interactive natural language interface that allows users to browse their file system.
 
 This section assumes a working knowledge of [The Minimal Recursion Semantics (MRS) Format](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS) and [Building Well-Formed MRS Trees](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoWellFormedTree) as well as a basic understanding of Python. Having read through the Developer Tutorial would also be very helpful, but shouldn't be required. We'll link to the relevant sections as we discuss them.
@@ -6,7 +6,7 @@ This section assumes a working knowledge of [The Minimal Recursion Semantics (MR
 Let's start with a review of the Perplexity framework. 
 
 ### Predications
-First, all of the terms used in particular application are written as Python functions that implement ["The Predication Contract"](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract) and are decorated with the [`@Predication()` decorator](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython) like this implementation of the DELPH-IN predication for "file" (`_file_n_of`):
+First, all the terms used in particular application are written as Python functions that implement ["The Predication Contract"](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract) and are decorated with the [`@Predication()` decorator](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRSToPython) like this implementation of the DELPH-IN predication for "file" (`_file_n_of`):
 
 ```
 vocabulary = Vocabulary()
@@ -196,5 +196,4 @@ def generate_message(tree_info, error_term):
         
     ...
 ```
-
-Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabOverview.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

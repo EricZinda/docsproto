@@ -65,5 +65,4 @@ the English Language. Cambridge: Cambridge University Press.
 - Inventory of semantic phenomena (to be)
 documented
 - How to cite this work
-
-Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_QuasiModalInfinitivals/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

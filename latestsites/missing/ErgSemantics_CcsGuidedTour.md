@@ -183,5 +183,4 @@ Clauses]()
 
 [ERG Semantic Documentation: Instrumental
 Relatives]()
-
-Last update: 2014-11-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_CcsGuidedTour/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

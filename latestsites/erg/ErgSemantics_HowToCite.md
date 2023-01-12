@@ -41,5 +41,4 @@ Semantic Documentation. Available online at ErgSemantics. Accessed on 2021-05-10
 To cite a particular subpage, use the reference above, but augment the
 title field with the sub-title page (e.g. *ERG Semantic Documentation:
 Compounding*) and include instead the URL for the subpage in question.
-
-Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_HowToCite/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

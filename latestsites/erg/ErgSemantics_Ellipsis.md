@@ -114,5 +114,4 @@ higher-order unification. Linguistics and philosophy, 14(4), 399-452.
 - Inventory of semantic phenomena (to be)
 documented
 - How to cite this work
-
-Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Ellipsis/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

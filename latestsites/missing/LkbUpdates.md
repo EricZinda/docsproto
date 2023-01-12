@@ -57,5 +57,4 @@ integration of LUI with the LKB.
 # Linguistic Server Protocol (LSP)
 
 # Robust Minimal Recursion Semantics
-
-Last update: 2005-12-01 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/LkbUpdates/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
