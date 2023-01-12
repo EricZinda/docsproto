@@ -78,7 +78,8 @@
         {"Page": "B. Parsing Predications", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoParsePredication.md", "DstFile": "devhowto/devhowtoParsePredication.md"}
       ]},
       {"Section": "Developer Predication Tutorial", "Pages": [
-        {"Page": "Overview", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabOverview.md", "DstFile": "devvocab/devvocabOverview.md"}
+        {"Page": "Overview", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabOverview.md", "DstFile": "devvocab/devvocabOverview.md"},
+        {"Page": "Phrases and Vocabulary", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabPhrasesAndVocab.md", "DstFile": "devvocab/devvocabPhrasesAndVocab.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
