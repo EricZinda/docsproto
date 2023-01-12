@@ -95,12 +95,12 @@ There will be a group activity, as usual. We will announce it soon.
 
 ## Summit Schedule
 
-See TomarSchedule.
+See [TomarSchedule](https://blog.inductorsoftware.com/docsproto/summits/TomarSchedule).
 
 ## Participants
 
 If you plan to attend the Summit, please leave a note on
-TomarParticipants.
+[TomarParticipants](https://blog.inductorsoftware.com/docsproto/summits/TomarParticipants).
 
 ## Photos
 

@@ -1,7 +1,7 @@
 {% raw %}# MRS Comparison Discussion
 
 This page captures some of the discussion on MRS comaprison at the
-Sofia Meeting. The discussion was led by
+[Sofia Meeting](https://blog.inductorsoftware.com/docsproto/summits/SofiaTop). The discussion was led by
 FrancisBond using slides by [MathieuMorey](/MathieuMorey)
 and had many participants.
 

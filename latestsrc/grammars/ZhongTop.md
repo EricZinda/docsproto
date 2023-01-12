@@ -35,27 +35,27 @@ as the grammar. Currently you have to segment the sentences yourself.
 
 ## Processing
 
-- ZhongAce
-- ZhongPreprocessing
-- ZhongYYMode
+- [ZhongAce](https://blog.inductorsoftware.com/docsproto/grammars/ZhongAce)
+- [ZhongPreprocessing](https://blog.inductorsoftware.com/docsproto/grammars/ZhongPreprocessing)
+- [ZhongYYMode](https://blog.inductorsoftware.com/docsproto/grammars/ZhongYYMode)
 
 ## Translating
 
-- ZhongGeneration
-- ZhongTranslation
+- [ZhongGeneration](https://blog.inductorsoftware.com/docsproto/grammars/ZhongGeneration)
+- [ZhongTranslation](https://blog.inductorsoftware.com/docsproto/grammars/ZhongTranslation)
 
 ## Testing
 
-- ZhongRegressionTest
-- ZhongCoverage
-- ZhongHistory
+- [ZhongRegressionTest](https://blog.inductorsoftware.com/docsproto/grammars/ZhongRegressionTest)
+- [ZhongCoverage](https://blog.inductorsoftware.com/docsproto/grammars/ZhongCoverage)
+- [ZhongHistory](https://blog.inductorsoftware.com/docsproto/grammars/ZhongHistory)
 
 ## MRS Testsuites
 
-- MatrixMrsTestSuiteMandarin
-- MatrixMrsTestSuiteZhTw
-- MatrixMrsTestSuiteCantonese
-- MatrixMrsTestSuiteIndonesian
+- [MatrixMrsTestSuiteMandarin](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteMandarin)
+- [MatrixMrsTestSuiteZhTw](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteZhTw)
+- [MatrixMrsTestSuiteCantonese](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteCantonese)
+- [MatrixMrsTestSuiteIndonesian](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteIndonesian)
 
 ## Phenomena-based Testsuites
 

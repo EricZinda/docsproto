@@ -8,7 +8,7 @@ line:
 
     XMODIFIERS=@im=none emacs 
 
-There are other workarounds in the DELPH-IN wiki
+There are [other workarounds](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting) in the DELPH-IN wiki
 that may be more elegant.
 
 If you're working in the Treehouse, the following will fix the problem

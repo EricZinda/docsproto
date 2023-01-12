@@ -82,7 +82,7 @@ universal\_q
 
 # Additional Information
 
-- ErgSemantics Main Page
-- How to Cite this Work
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) Main Page
+- [How to Cite this Work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
 Last update: 2016-05-09 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Quantification/_edit)]{% endraw %}

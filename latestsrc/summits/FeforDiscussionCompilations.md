@@ -8,34 +8,34 @@ have been merged. Some of the topics looked more requests for talks by
 others, and have been categorized as such. This classification gives an
 initial proposal about which session to put each discussion into. No
 attempt has been made to align this with
-FeforProcessors yet. \[ see AAC notes \]
+[FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) yet. \[ see AAC notes \]
 
 ## For Plenum
 
 - /MRSs in translation and the prospects for MRS-based interlinguas vs
 MRS-based transfer (Lars Ahrenberg; volunteer) \[ AAC - better in
-FeforRmrs? \]
+[FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)? \]
 - interfaces to ontologies (Anette Frank) \[ AAC -
-FeforRmrs \]
+[FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs) \]
 - finer-grained lexical semantics (Anette Frank) \[ AAC -
-FeforRmrs \]
+[FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs) \]
 - /Whether to propose an ACL SIG on deep linguistic processing (Emily
 Bender)
 - FSPP (simple preprocessor) module, usage in specific grammars;
 preprocessors; preprocessor implementation and integration (Ben
 Waldron; Francis Bond; Ulrich Schaefer) \[ AAC -
-FeforProcessors \]
+[FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) \]
 - large lexica and LexDB (Ben Waldron; Francis Bond) \[ AAC -
-FeforProcessors \]
+[FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) \]
 - /Lexical acquisition, esp. for immature grammars (Emily Bender)
 - automated testing (Francis Bond; Ulrich Schaefer) \[ AAC - initial
-session in FeforProcessors \]
+session in [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) \]
 - grammar interfaces: clear interface for robustness-related grammar
 elements (paths/types/pos-tags/expected tokenization/punctuation
 etc.) e.g. specified in the inline documentation in such a way that
 it could be processed/extracted automatically from grammar sources
 (Ulrich Schaefer) \[ AAC - initial session in
-FeforProcessors \]
+[FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) \]
 - /how strong is the desire for discontinuous parsing as an option? an
 implementation could actually be straightforward, but what is needed
 in terms of the formalism and processing efficiency? (Stephan Oepen)
@@ -46,13 +46,13 @@ ick --EB\]
 - we should review the [ToDo](/ToDo) list(s) from previous meetings
 and make sure we maintain a shared inventory of known issues and
 candidate extensions (Stephan Oepen) \[ AAC - see
-OpenissuesTop proposal \]
+[OpenissuesTop](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop) proposal \]
 
 ## Candidates for discussion topics in Grammarians session
 
 ### (R)MRS details
 
-\[ AAC - see FeforRmrs \]
+\[ AAC - see [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs) \]
 
 - MRS design issues
   - Pondering the constraint that all noun-relations must have an
@@ -85,11 +85,11 @@ semantic representations and see whether these could be further used
 in parallel in applications; design, availability and uses for
 cross-linguistic evaluation resources, particularly semantics-based
 resources (Valia Kordoni; Laurie Poulson) \[ AAC - MRS test suite in
-FeforRmrs \]
+[FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs) \]
 
 ## Candidates for discussion topics in Processors session
 
-see FeforProcessors
+see [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors)
 
 - LKB/PET compatibility issues (Ben Waldron)
 - Shared configuration between LKB/PET: reducing and documenting the
@@ -111,7 +111,7 @@ Oepen)
 underspecification for a while; i expect a good solution may need
 support in the processors and new types of MRS post-processing; can
 we set things up for generation from underspecified inputs? (Stephan
-Oepen) \[ AAC - FeforRmrs \]
+Oepen) \[ AAC - [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs) \]
 
 ## Correspond to Talks
 
@@ -130,7 +130,7 @@ Baldwin; Ben Waldron; Valia Kordoni)
 
 # Would welcome tutorial on:
 
-\[ see FeforProcessors - AAC \]
+\[ see [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) - AAC \]
 
 - Heart of Gold (Tim Baldwin, Lars Ahrenberg, Francis Bond, Stephan
 Oepen)
@@ -142,7 +142,7 @@ Oepen)
 
 # Willing to provide tutorial on:
 
-\[ see FeforProcessors - AAC \]
+\[ see [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors) - AAC \]
 
 - how to define SDL cascades in HoG or general HoG intro or
 'installation party' (Ulrich Schaefer)

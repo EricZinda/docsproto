@@ -19,14 +19,14 @@ instructions.
 
 ## Contents
 
-1. Installation
-2. Features and Enhancements
-3. Practical Hints and Tips
-   1. Text Entry
-   2. Fonts
-   3. Interface Size
-   4. Copying Text
-4. Problems
+1. [Installation](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+2. [Features and Enhancements](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+3. [Practical Hints and Tips](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+   1. [Text Entry](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+   2. [Fonts](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+   3. [Interface Size](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+   4. [Copying Text](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
+4. [Problems](https://blog.inductorsoftware.com/docsproto/tools/LkbFos)
 
 ## Installation
 
@@ -48,7 +48,7 @@ not already exist.
 your directory $DELPHINHOME, which will create a new directory $DELPHINHOME/lkb\_fos.
 If you use this precompiled binary version of LKB-FOS, you do not need to install
 SBCL, McCLIM or SLIME.
-4. In order to use [\[incr tsdb()\]]()
+4. In order to use [\[incr tsdb()\]](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)
 functionality (only on Linux at present), the environment variable
 LD\_LIBRARY\_PATH must include the LKB-FOS shared library directory
 $DELPHINHOME/lkb\_fos/lib/linux.x86.64. The following Unix command
@@ -119,19 +119,19 @@ type constraints.
 - Much faster GLB computation for large type hierarchies.
 - Major speed improvements in the user interface, and also in parsing
 and generation.
-- Bug fixes and enhancements, as suggested in LkbBugs and
-LkbWishlist.
+- Bug fixes and enhancements, as suggested in [LkbBugs](https://blog.inductorsoftware.com/docsproto/tools/LkbBugs) and
+[LkbWishlist](https://blog.inductorsoftware.com/docsproto/tools/LkbWishlist).
 - Support for the revised DELPH-IN TDL format, as specified in TdlRfc.
 - A new handy command 'Evaluate Lisp expression...' in the Lkb Top
 Advanced menu.
 
 LKB-FOS supports the Linguistic User Interface (LUI): see the
-LkbLui pages for information on installing and using the LUI.
+[LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) pages for information on installing and using the LUI.
 Execute the Lisp expressions `(lui-initialize)` and `(lui-shutdown)` to
 enable and disable it, respectively; alternatively set the environment
 variable LUI. The LUI executable is expected to be on the user's PATH.
 
-On Linux, LKB-FOS includes [\[incr tsdb()\]](). To open the
+On Linux, LKB-FOS includes [\[incr tsdb()\]](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop). To open the
 'podium' window, execute the Lisp expression `(tsdb:tsdb :podium)`.
 
 Refer to the README file for a detailed, up-to-date list of bug fixes

@@ -1,7 +1,7 @@
 {% raw %}# Designing and creating a DELPH-IN repository (systems, tools, data, lingware)
 
 LisbonRepositoryDiscussion is the transcript of Discussion I on Thu
-2005-08-18 (11:00-11:45) in the LisbonTop meeting.
+2005-08-18 (11:00-11:45) in the [LisbonTop](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) meeting.
 
 Moderation: StephanOepen
 
@@ -14,7 +14,7 @@ Stephan introduces motivation for the discussion.
 - internal goal: exchange not only ideas, but also tools, resources,
 experiences
 - external goal: increase visibility, marketing; this is closely
-related to Discussion IV: Visibility
+related to Discussion IV: [Visibility](https://blog.inductorsoftware.com/docsproto/summits/LisbonVisibilityDiscussion)
 in the afternoon
   
   - attract new contributors and funding
@@ -74,10 +74,10 @@ deliverables
         
         - see also follow-up Discussion II: [Strategies for
 documentation of grammars and
-tools]()
+tools](https://blog.inductorsoftware.com/docsproto/summits/LisbonDocumentationDiscussion)
       - quality assurance; see also Discussion V: [Developing a
 distributed means of testing LKB
-updates]() on Friday
+updates](https://blog.inductorsoftware.com/docsproto/summits/LisbonTestingDiscussion) on Friday
       - ways of obtaining DELPH-IN components
         - release vs. full CVS access (development tracking)
       - domain adaptation support
@@ -99,6 +99,6 @@ available resources)
     - funding agencies/companies (e.g. visibility of already
 funded projects to potential funders)
   - licensing: see Discussion VI: [Developing a standard DELPH-IN
-open source license]() on Friday
+open source license](https://blog.inductorsoftware.com/docsproto/summits/LisbonLicensingDiscussion) on Friday
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonRepositoryDiscussion/_edit)]{% endraw %}

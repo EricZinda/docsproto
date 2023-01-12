@@ -30,7 +30,7 @@ University](http://www.coli.uni-saarland.de), with partial funding from
 the University of Oslo, the [Norwegian Open Research
 Archives](http://www.ub.uit.no/wiki/openaccess/index.php/NORA), and the
 [Norwegian Metacenter for Computational Science](http://www.notur.no).
-Since 2011, WeScience is partially supported by the WeSearch
+Since 2011, WeScience is partially supported by the [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch)
 project.
 
 # Current State of Development
@@ -99,11 +99,11 @@ release.
 To experiment with these treebanks, however, for the time being, large
 parts of the DELPH-IN toolchain are required. We recommend working with
 the *trunk* (aka head revision) of the integrated [LOGON
-distribution](). For a quick-start guide to installing this
-software, please see the ErgProcessing page
+distribution](https://blog.inductorsoftware.com/docsproto/tools/LogonTop). For a quick-start guide to installing this
+software, please see the [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page
 (specifically the *Output Formats* section; however, we strongly advise
 perusing the full LOGON documentation, linked from the
-LogonTop page, for more technical background).
+[LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page, for more technical background).
 
 Assuming a functional, up-to-date LOGON installation, one can export the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) treebanks into various
@@ -115,7 +115,7 @@ textual formats, for example using a command like the following:
 
 If there were broad interest, we may also provide a textual export
 version of WeScience for direct download in the future (as is available
-for the WikiWoods Treecache, where running the export step
+for the [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) Treecache, where running the export step
 requires non-trivial computational resources).
 
 # Further Notes for DELPH-IN Users
@@ -126,7 +126,7 @@ of importing the text files (the pre-processed ones, obviously) into the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) database. These
 skeletons have been part of the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) distribution through the LOGON
-tree (see the LogonTop page) since late 2008. The WeScience
+tree (see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page) since late 2008. The WeScience
 skeletons are called ws01 through ws16, and these same names are used in
 organizing the WeScience Treebank.
 

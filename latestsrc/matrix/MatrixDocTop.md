@@ -53,30 +53,30 @@ including an access date:
 
 # Libraries
 
-- General Information
-- Word Order
-- Number
-- Person
-- Gender
-- Case
-- Adnominal Possession
-- Direct Inverse
-- Tense Aspect and Mood
-- Evidentials
-- Other Features
-- Sentential Negation
-- Coordination
-- Matrix Yes/No Questions
-- Constituent (wh-) Questions
-- Information Structure
-- Argument Optionality
-- Clausal Modifiers
-- Clausal Complements
-- Lexicon
-- Morphology
-- Import Toolbox Lexicon
-- Test Sentences
-- Test By Generation Options
+- [General Information](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_GeneralInfo)
+- [Word Order](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_WordOrder)
+- [Number](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Number)
+- [Person](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Person)
+- [Gender](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Gender)
+- [Case](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Case)
+- [Adnominal Possession](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_AdnominalPossession)
+- [Direct Inverse](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_DirectInverse)
+- [Tense Aspect and Mood](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_TenseAspectMood)
+- [Evidentials](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Evidentials)
+- [Other Features](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_OtherFeatures)
+- [Sentential Negation](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_SententialNegation)
+- [Coordination](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Coordination)
+- [Matrix Yes/No Questions](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_YesNoQ)
+- [Constituent (wh-) Questions](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_WhQuestions)
+- [Information Structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_InformationStructure)
+- [Argument Optionality](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_ArgumentOptionality)
+- [Clausal Modifiers](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_ClausalModifiers)
+- [Clausal Complements](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_ClausalComplements)
+- [Lexicon](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Lexicon)
+- [Morphology](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_Morphology)
+- [Import Toolbox Lexicon](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_ImportToolboxLexicon)
+- [Test Sentences](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_TestSentences)
+- [Test By Generation Options](https://blog.inductorsoftware.com/docsproto/matrix/MatrixDoc_TestByGeneration)
 
 # How to use this information
 

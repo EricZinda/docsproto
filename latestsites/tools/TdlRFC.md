@@ -2,21 +2,21 @@
 
 Contents
 
-1. TDL File Syntax
-2. TDL File Interpretation and Conventions
-   1. Layout of a type definition
-   2. Types versus instances
-   3. Type addenda (:+)
-   4. Specifying the text encoding
-   5. Feature interpretation of lists
-   6. Type documentation
-   7. Comments
-   8. Case sensitivity
-3. Deprecated TDL Features
-   1. Subtyping Operator (:&lt;)
-   2. Single-quoted Symbols ('symbol)
-4. Open Questions
-5. Discussions
+1. [TDL File Syntax](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+2. [TDL File Interpretation and Conventions](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   1. [Layout of a type definition](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   2. [Types versus instances](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   3. [Type addenda (:+)](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   4. [Specifying the text encoding](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   5. [Feature interpretation of lists](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   6. [Type documentation](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   7. [Comments](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   8. [Case sensitivity](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+3. [Deprecated TDL Features](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   1. [Subtyping Operator (:&lt;)](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+   2. [Single-quoted Symbols ('symbol)](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+4. [Open Questions](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
+5. [Discussions](https://blog.inductorsoftware.com/docsproto/tools/TdlRFC)
 
 ## TDL File Syntax
 The following describes the TDL language in [Lark](https://lark-parser.readthedocs.io/en/latest/index.html) [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)

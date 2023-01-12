@@ -28,7 +28,7 @@ collateral files to ease user-level setup. This environment was
 originally created by StephanOepen but since 2010 is
 managed by [DavidBrodbeck](/DavidBrodbeck); it is described (together
 with mildly out-of-date information) on the
-LkbInstallation page. The contact address for this
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) page. The contact address for this
 distribution is lingo@delph-in.net.
 
 # (Open) VirtualBox Appliance
@@ -50,11 +50,11 @@ eases interoperability and independence of configuration differences in
 the host environment (e.g. different versions of the Java Runtime
 Environment). For at least some grammars, this distribution is the
 closest we have come to a ‘turn-key’ release channel; see the
-ErgProcessing page for an example. For these reasons,
+[ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page for an example. For these reasons,
 the LOGON Tree is comparatively voluminous (requiring several gigabytes
 of available disk space). This distribution was created and is
 maintained by StephanOepen, and there is documentation
-available on the LogonTop page and its sub-pages. The
+available on the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page and its sub-pages. The
 contact address for this distribution is logon@delph-in.net.
 
 # Other Installation Options

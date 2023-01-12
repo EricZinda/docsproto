@@ -1,6 +1,6 @@
 {% raw %}# Background
 
-In WeSearch, we are exploring the use of semantic
+In [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch), we are exploring the use of semantic
 technologies, in particular RDF triple stores, to search potentially
 very lage collections of semantic annotations.
 
@@ -12,7 +12,7 @@ in terms of completeness (EDS and DM are derived, simplified
 representations) and design choices in mapping MRS elements to RDF.
 
 Unlike the full MRS, its reduction to the EDS level of representation
-(described in more detail on the EdsTop page) maps trivially
+(described in more detail on the [EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) page) maps trivially
 onto RDF graphs. The same holds for the DM format, which is part of the
 SemEval 2014 Task 8 on [Broad-Coverage Semantic Dependency
 Parsing](http://alt.qcri.org/semeval2014/task8/), where there already is
@@ -24,7 +24,7 @@ DM graphs.
 Following is an MRS example for the sentence *Kim promised his manager
 to sing.* There are multiple exchange formats for MRS, and here we use
 what is called the *simple* serialization (the format deployed by, among
-others, WikiWoods and DeepBank distributions,
+others, [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) and [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) distributions,
 owing to its premiere balance of human and computer readability):
 
       [ LTOP: h1
@@ -108,8 +108,8 @@ there are a number of design decisions to be made in mapping these
 structures onto an RDF ontology. Before turning to these choices,
 consider the following example query, which is taken from the on-going
 ERG Semantic Documentation project (see the pages
-ErgSemantics and
-ErgSemantics/RelativeClauses):
+[ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) and
+[ErgSemantics/RelativeClauses](https://blog.inductorsoftware.com/docsproto/missing/ErgSemantics_RelativeClauses)):
 
       h:*[ARG0 x]
       h:*[ARG0 e {TENSE tensed}]

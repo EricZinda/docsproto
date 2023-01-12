@@ -20,7 +20,7 @@ contrastively look at non-open tools like [A-PDF Text
 Extractor](http://a-pdf.com/text/index.htm) and Adobe Acrobat. Some of
 these packages were briefly discussed at the 2009 DELPH-IN Summit;
 please see the [discussion
-notes]() for
+notes](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaPreprocessing) for
 details.
 
 Summary of DELPH-IN's thoughts plus the ones of
@@ -106,7 +106,7 @@ Resulting text resides at /logon/scratch/johanbev/raw-output/. We have
 9129 files in /logon/scratch/nora/pdf, however not all of these are
 PDFs; checking reveals that there are at least 120 of these files which
 are not PDFs, but various other formats; see
-NoraInspection for more details on these files. 17
+[NoraInspection](https://blog.inductorsoftware.com/docsproto/missing/NoraInspection) for more details on these files. 17
 files are also empty (0 bytes).
 
 Of the actual pdfs only 15 fail completely to be extracted with our

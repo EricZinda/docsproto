@@ -43,7 +43,7 @@ so at least for external access you may have to talk to the IT crowd.
 
 The main web demo page is at the /logon subpath, so if you ran the above
 command on your local machine, the demo would be at
-<http://127.0.0.1:8888/logon> and the web API would be at
+<http://127.0.0.1:8888/logon> and the [web API](https://blog.inductorsoftware.com/docsproto/erg/ErgApi) would be at
 <http://127.0.0.1:8888/rest/0.9/parse>
 
 # Adding a Grammar
@@ -107,7 +107,7 @@ permission on the grammar. (At UW, we have a separate user for this
 web process, which means we end up making the grammar group
 writable.)
 - There of course has to be a \~/tmp/ directory; the standard LOGON
-configuration (see the LogonInstallation page)
+configuration (see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page)
 should have seen to this.
 - The PVM daemon pvmd3 has to be running (I would expect the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) machinery to take care of

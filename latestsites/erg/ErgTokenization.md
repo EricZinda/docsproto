@@ -12,7 +12,7 @@ out some of the basic assumptions, specific decisions made, and
 technology used in preparing input text for parsing with the ERG. When
 using the ERG to parse ‘raw’ string inputs, for satisfactory results on
 non-vanilla inputs, it is necessary to apply the ERG tokenization rules,
-e.g. turn on support for REPP in engines like PET or ACE.
+e.g. turn on support for [REPP](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) in engines like PET or ACE.
 
 This page was predominantly authored by StephanOepen,
 who jointly with DanFlickinger developed the current
@@ -29,17 +29,17 @@ This section documents tokenization and a handful of other surface-level
 decisions. Technically speaking, when parsing with the ERG and PET
 (which is the reference setup for production use), the parser takes as
 its input a lattice of tokens, each a structured object (aka typed
-feature structure). Please see the PetInput page for
+feature structure). Please see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for
 additional background. In this view, string-level pre-processing and
 initial tokenization is the process of mapping a 'flat' string into a
 token lattice. For further technical background and an example
 demonstrating a broad range of tokenization aspects, please see the page
-ErgTokenization/ComplexExample.
+[ErgTokenization/ComplexExample](https://blog.inductorsoftware.com/docsproto/erg/ErgTokenization_ComplexExample).
 
 In the standard setup for the ERG, this task is solved by means of
 so-called REPP (Regular Expression Pre-Processor) modules, which are
 included with the ERG sources (in the rpp/ subdirectory); for general
-background on the technology, please see the ReppTop page.
+background on the technology, please see the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page.
 The REPP modules provided by the ERG can be configured in various ways,
 to accommodate different input conventions, i.e. variation in
 punctuation and markup conventions used in texts from various sources.
@@ -57,7 +57,7 @@ pre-processing. The ERG internally (still) analyzes most punctuation
 marks as pseudo-affixes (rather than as separate tokens, as in the PTB).
 To accomodate any discrepancies, the grammar includes token mapping
 rules to adjust (i.e. correct) externally supplied tokenization (see the
-ChartMapping page for general background); specifically,
+[ChartMapping](https://blog.inductorsoftware.com/docsproto/garage/ChartMapping) page for general background); specifically,
 punctuation marks will be re-combined with preceding or following
 tokens, reflecting standard orthographic convention.
 
@@ -97,7 +97,7 @@ token will be annotated with so-called 'characterization', i.e. a range
 of character indices into the original string (allowing one to recover
 the distinction between immediate adjacency between two consecutive
 tokens vs. intervening whitespace). Thus, in the so-called YY input
-format to PET (see the PetInput page for background), our
+format to PET (see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for background), our
 example would be represented as follows:
 
       (42, 0, 1, <0:3>, 1, "The", 0, "null")

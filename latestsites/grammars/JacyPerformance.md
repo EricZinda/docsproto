@@ -2,22 +2,22 @@
 parsing and generation.
 
 This page is now superseded by the
-GrammarPerformance page.
+[GrammarPerformance](https://blog.inductorsoftware.com/docsproto/tools/GrammarPerformance) page.
 
 Contents
 
-1. Quick Check
-   1. PET
-   2. LKB
-      1. ToDo
-2. Key Arguments
-   1. 1. ToDo
-3. Spanning Only Rules
-4. Ambiguity Packing
+1. [Quick Check](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+   1. [PET](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+   2. [LKB](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+      1. [ToDo](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+2. [Key Arguments](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+   1. 1. [ToDo](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+3. [Spanning Only Rules](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+4. [Ambiguity Packing](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
 5. [Restrictions on the application of morphological
-rules]()
-6. Trigger Rules for Generation
-7. Current Issues
+rules](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+6. [Trigger Rules for Generation](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
+7. [Current Issues](https://blog.inductorsoftware.com/docsproto/grammars/JacyPerformance)
 
 # Quick Check
 
@@ -191,7 +191,7 @@ tokens...
 
 # Ambiguity Packing
 
-See PetSelectiveUnpacking.
+See [PetSelectiveUnpacking](https://blog.inductorsoftware.com/docsproto/garage/PetSelectiveUnpacking).
 
 # Restrictions on the application of morphological rules
 

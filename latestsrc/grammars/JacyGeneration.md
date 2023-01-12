@@ -1,5 +1,5 @@
 {% raw %}Note: Previous generation documentation has been moved to
-LkbGeneration.
+[LkbGeneration](https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration).
 
 ## ToDo
 

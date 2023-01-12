@@ -53,9 +53,9 @@ information, see the related topics links below.
 ### Related topics
 
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
-and how do I debug it?]()
+and how do I debug it?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqCyclicCheck)
 - [Some of my relations/qeqs aren't showing up in the MRS for the
-whole parse. Why not?]()
+whole parse. Why not?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqMissingRels)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

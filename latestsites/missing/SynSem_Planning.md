@@ -4,7 +4,7 @@
 # Background
 
 This page collects logistical and contentful information on the first
-all-hands SynSem meeting, from Monday, February 6, to
+all-hands [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) meeting, from Monday, February 6, to
 Wednesday, February 8. The meeting will be hosted at [Lysebu
 Hotel](http://www.lysebu.no/en/), just outside of Oslo.
 
@@ -124,7 +124,7 @@ see fit.
 |          11:00          | 12:00 |                                              Reading Groups: Croft et al. (2017); Han Lau et al. (2016)                                              |
 |          12:00          | 13:00 |                                                                        Lunch                                                                         |
 |          13:00          | 14:00 |                          More Wilderness ([Photos by EmilyBender](https://erbonzo.smugmug.com/Travel/Lysebu-excursion-2/))                           |
-|          14:00          | 15:30 |                                             Open Space: SynSem/LysebuResources                                             |
+|          14:00          | 15:30 |                                             Open Space: [SynSem/LysebuResources](https://blog.inductorsoftware.com/docsproto/missing/SynSem_LysebuResources)                                             |
 |          15:30          | 16:00 |                                                          Sentence \#5 (Over Coffee & Fruit)                                                          |
 |          16:15          | 17:15 |                                              Reading Groups: Champollion (2016); van Cranenburgh (2017)                                              |
 |          17:15          | 18:15 | Researchers Rarely Sleep: [Helge](http://www.delph-in.net/synsem/planning/helge.pdf), [Matthew](http://www.delph-in.net/synsem/planning/matthew.pdf) |
@@ -134,7 +134,7 @@ see fit.
 |:-------------------------:|:-----:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | **Wednesday, February 8** |       |                                                                                                                                                                                                               |
 |           09:30           | 11:30 | Sleepless for a Full Year: Dag, [Dan](http://www.delph-in.net/synsem/planning/dan.pdf), [Lilja](http://www.delph-in.net/synsem/planning/lilja.pdf), [Stephan](http://www.delph-in.net/synsem/planning/oe.pdf) |
-|           11:30           | 12:30 |                                                                                     Moving On: Plans for SynSem                                                                                     |
+|           11:30           | 12:30 |                                                                                     Moving On: Plans for [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem)                                                                                     |
 |           12:30           | 13:30 |                                                                                                     Lunch                                                                                                     |
 
 [Still more photos by

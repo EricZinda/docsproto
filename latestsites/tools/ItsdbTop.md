@@ -21,7 +21,7 @@ The DELPH-IN ‘developers’ [mailing
 list](http://lists.delph-in.net/mailman/listinfo/developers) is a good
 forum for [\[incr tsdb()\]](http://www.delph-in.net/itsdb)-related
 discussion; additionally, there is a user-contributed [wish
-list]().
+list](https://blog.inductorsoftware.com/docsproto/tools/ItsdbWishlist).
 
 The current best citation for this is:
 
@@ -36,12 +36,12 @@ tsdb(1) databases) without the GUI (but not using cut and grep) can be
 found in the [TSNLP User Manual (Volume
 2)](http://www.delph-in.net/tsnlp/ftp/manual/volume2.ps.gz). Some more
 (user-supplied) information about TSDB is available at
-TsdbTop.
+[TsdbTop](https://blog.inductorsoftware.com/docsproto/tools/TsdbTop).
 
 ## Installation
 
 The automated installation procedure explained on the
-LkbInstallation page includes [\[incr
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) page includes [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb). To invoke [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) if you've installed the system
 this way:
@@ -49,23 +49,23 @@ this way:
        M-x lkb RET
        M-x itsdb RET
 
-\* ItsdbProfileManipulation
+\* [ItsdbProfileManipulation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfileManipulation)
 
-\* ItsdbProfile - brief introduction to the profiles
+\* [ItsdbProfile](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile) - brief introduction to the profiles
 
-\* ItsdbProfiling
+\* [ItsdbProfiling](https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfiling)
 
-- \- ItsdbDistributedProcessing
+- \- [ItsdbDistributedProcessing](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDistributedProcessing)
 
-\* ItsdbTreebanking
+\* [ItsdbTreebanking](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking)
 
-\* Batch Processing
+\* [Batch Processing](https://blog.inductorsoftware.com/docsproto/tools/ItsdbBatch)
 
-\* ItsdbCustomization
+\* [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/tools/ItsdbCustomization)
 
-\* ItsdbReference
+\* [ItsdbReference](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference)
 
-\* ItsdbTroubleshooting
+\* [ItsdbTroubleshooting](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTroubleshooting)
 
 ## Debugging Aids
 

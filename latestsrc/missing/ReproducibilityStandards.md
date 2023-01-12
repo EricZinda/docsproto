@@ -7,14 +7,14 @@ standards.
 
 ## Data
 
-- ErgDataSets
-- JacyDataSets
-- GgDataSets
-- SrgDataSets
-- KrgDataSets
-- LxDataSets
-- WambayaDataSets
-- CheetahDataSets
+- [ErgDataSets](https://blog.inductorsoftware.com/docsproto/missing/ErgDataSets)
+- [JacyDataSets](https://blog.inductorsoftware.com/docsproto/missing/JacyDataSets)
+- [GgDataSets](https://blog.inductorsoftware.com/docsproto/missing/GgDataSets)
+- [SrgDataSets](https://blog.inductorsoftware.com/docsproto/missing/SrgDataSets)
+- [KrgDataSets](https://blog.inductorsoftware.com/docsproto/missing/KrgDataSets)
+- [LxDataSets](https://blog.inductorsoftware.com/docsproto/missing/LxDataSets)
+- [WambayaDataSets](https://blog.inductorsoftware.com/docsproto/missing/WambayaDataSets)
+- [CheetahDataSets](https://blog.inductorsoftware.com/docsproto/missing/CheetahDataSets)
 
 ## Evaluation Metrics
 
@@ -38,7 +38,7 @@ It is important to specify whether these metrics are calculated over:
 
 - exact match: percentage of items for which the top analysis was the
 gold analysis
-- ElementaryDependencyMatch
+- [ElementaryDependencyMatch](https://blog.inductorsoftware.com/docsproto/missing/ElementaryDependencyMatch)
 - DMRS
 
 Last update: 2010-07-05 by PeterAdolphs [[edit](https://github.com/delph-in/docs/wiki/ReproducibilityStandards/_edit)]{% endraw %}

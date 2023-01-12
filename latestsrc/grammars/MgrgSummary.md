@@ -39,7 +39,7 @@
 | Generation (trigger rules) | no               |
 | Realization-ranking model  | no               |
 | Paraphrasing rules         | no               |
-| Processing engines         | LKB    |
+| Processing engines         | [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)    |
 | Operating systems          | Linux/Windows    |
 | Notes                      |                  |
 

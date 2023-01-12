@@ -1,4 +1,4 @@
-{% raw %}Discussion at SuquamishTop on shared scripting
+{% raw %}Discussion at [SuquamishTop](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop) on shared scripting
 libraries.
 
 There may be some duplication of code it would be nice to reduce.
@@ -86,10 +86,10 @@ marking up on the wiki!
 
 Name of tool? What use cases are people trying to fill?
 
-Rebecca: See ToolsTop -- there is some stuff there.
+Rebecca: See [ToolsTop](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop) -- there is some stuff there.
 
 Rebecca: I put up C++ training code. And EDM code (on any MRS simple
-string). Emily: Sign up to be informed when the ToolsTop
+string). Emily: Sign up to be informed when the [ToolsTop](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop)
 page changes.
 
 Last update: 2011-06-28 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/SuquamishDelphinLibP/_edit)]{% endraw %}

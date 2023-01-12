@@ -1,8 +1,8 @@
 {% raw %}# Overview
 
-The so-called LOGON distribution (please see the LogonTop
+The so-called LOGON distribution (please see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
 page, for general background) includes pre-compiled binaries of the
-PET parsing system. To support a variety
+[PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) parsing system. To support a variety
 of user needs, there are binaries for a range of different
 configurations, ‘hidden’ behind wrapper scripts that provide a
 command-line option, to select a specific binary. Furthermore, the
@@ -19,7 +19,7 @@ The LOGON front-ends to the two PET components are $LOGONROOT/bin/flop
 and $LOGONROOT/bin/cheap, which will be automatically added to the shell
 search path (the $PATH environment variable) in a functional LOGON
 installation (please work through the
-LogonInstallation page, in case the above does not
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page, in case the above does not
 seem true in your case). In contrast to the standard PET binaries, the
 LOGON wrappers take one additional command-line option, which
 furthermore /must/ be provided as the very first option, right after the
@@ -96,7 +96,7 @@ command-line option must be supplied), e.g.
 
 This facility will be most useful (if at all), when running *cheap*
 through LOGON batch processing scripts; please see the
-LogonProcessing/BatchParsing page, for
+[LogonProcessing/BatchParsing](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchParsing) page, for
 further discussion.
 
 # Implementation Notes

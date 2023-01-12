@@ -97,7 +97,7 @@ standard output would be more structured. Currently in addition to
 realizations there are some lines that come out with key=value format.
 Can get probabilities etc. out of that.
 
-Ned: what's currently on the wiki is the 'ErgApi'. Needs to be
+Ned: what's currently on the wiki is the '[ErgApi](https://blog.inductorsoftware.com/docsproto/erg/ErgApi)'. Needs to be
 generalized.
 
 Woodley: in terms of performance/resources, what about e.g. someone in

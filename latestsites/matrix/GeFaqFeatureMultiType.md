@@ -26,9 +26,9 @@ value at the end of a path inside verb-lex.
 ### Related topics
 
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
-should I do?]()
+should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNewFeature)
 - [When I load my grammar, I get "no possible type for features (...)
-at path (...)". What is causing this?]()
+at path (...)". What is causing this?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNoPossibleType)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

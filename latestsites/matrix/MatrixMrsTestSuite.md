@@ -5,27 +5,27 @@ designed to show some of the MRS phenomena. The test suite is under the
 same license as the grammar it came from, which is **MIT**.
 
 The original set of 107 sentences are in
-English. Currently, there are test suites for
+[English](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteEn). Currently, there are test suites for
 the following languages (included in the [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) software package):
 
-- English
-- Japanese
-- Norwegian
-- Greek
-- French
+- [English](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteEn)
+- [Japanese](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteJa)
+- [Norwegian](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteNo)
+- [Greek](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteGr)
+- [French](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteFr)
 - [Spanish](/MatrixMrsTestSuiteEs)
-- German
-- Swedish
-- Mandarin (Taiwan; Traditional characters)
-- Mandarin (Simplified characters)
-- Cantonese
-- Russian
-- Bulgarian
-- Portuguese
-- Indonesian
+- [German](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteDe)
+- [Swedish](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteSv)
+- [Mandarin](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteZhTw) (Taiwan; Traditional characters)
+- [Mandarin](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteMandarin) (Simplified characters)
+- [Cantonese](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteCantonese)
+- [Russian](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteRu)
+- [Bulgarian](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteBg)
+- [Portuguese](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuitePt)
+- [Indonesian](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteIndonesian)
 
-See also MatrixMrsTestSuiteTatoeba.
+See also [MatrixMrsTestSuiteTatoeba](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteTatoeba).
 
 ## Multilingual Test Suite
 

@@ -1,5 +1,5 @@
 {% raw %}Here are some (not necessarily) frequently asked questions and answers
-about (R)MRS.
+about [(R)MRS](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop).
 
 Q Are MRS predicates fixed arity?
 

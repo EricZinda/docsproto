@@ -2,7 +2,7 @@
 
 Unit testing is the systematic testing of code. For testing of overall
 system performance regressions, see
-MatrixRegressionTesting. Unit testing helps
+[MatrixRegressionTesting](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting). Unit testing helps
 to verify that code is correct and working as intended, and narrows down
 the space where bugs can hide. You may want to check out the Wikipedia
 entry on [Unit Testing](http://en.wikipedia.org/wiki/Unit_testing), and
@@ -10,12 +10,12 @@ the Python documentation for the [unittest
 module](http://docs.python.org/library/unittest.html).
 
 Below are instructions for
-running,
-adding, and
-maintaining unit tests, and
-understanding the output,
+[running](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting),
+[adding](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting), and
+[maintaining](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting) unit tests, and
+[understanding](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting) the output,
 as well as description on the [directory
-structure]() of unit test
+structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting) of unit test
 modules.
 
 # Running Unit Tests
@@ -36,7 +36,7 @@ a test module gmcs/tests/testChoices.py. It is not necessary to prefix
 the file with "test", but it is convention, and helps in automatic test
 discovery (a feature in later Python versions, which we may use in the
 future). Please read the [directory
-structure]() to see where the
+structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixCustomizationUnitTesting) to see where the
 test modules should be placed.
 
 If a module does not have an associated test module (e.g.

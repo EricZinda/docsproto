@@ -138,7 +138,7 @@ terms, before looking at how to implement.
 ## A Modest Proposal
 
 By Ann (not an Elk). See also: [A modest Proposal for Proper
-Nouns]()
+Nouns](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns)
 
 I believe there are some cases in the list where underspecification is
 not feasible. I can explain that in more detail if you like. The

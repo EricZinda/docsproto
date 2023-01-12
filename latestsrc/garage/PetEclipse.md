@@ -12,7 +12,7 @@ installed, that its workbench is located in \~/workbench and that PET
 should be set up as a project with two configurations, "debug" (allows
 for debugging in the Eclipse debugger) and "release" (optimized for
 speed). Before you go on, please make sure that the
-PetDependencies are satisfied.
+[PetDependencies](https://blog.inductorsoftware.com/docsproto/garage/PetDependencies) are satisfied.
 
 ## Checking out the project
 

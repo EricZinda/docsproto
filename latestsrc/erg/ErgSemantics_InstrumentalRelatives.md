@@ -20,7 +20,7 @@ with\_p seems a natural paraphrase to more subtle examples:
 - *Give her time to miss you.*
 
 This construction is distinguished from [quasi-modal
-infinitivals]() in the relationship
+infinitivals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_QuasiModalInfinitivals) in the relationship
 between the head noun and the relative clause, and in that the
 quasi-modal infinitivals but not instrumental relatives can serve as the
 complement of the copula. Quasi-modal infinitival examples:
@@ -56,9 +56,9 @@ ERG 1212
 
 # More Information
 
-- ErgSemantics main page
-- Inventory of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- How to cite this work
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
 Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_InstrumentalRelatives/_edit)]{% endraw %}

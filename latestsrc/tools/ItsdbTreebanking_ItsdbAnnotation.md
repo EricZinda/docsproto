@@ -11,12 +11,12 @@ correct.
 # Annotation
 
 This page describes how to treebank with [\[incr
-tsdb()\]](http://www.delph-in.net/itsdb) (ItsdbTop), as well
+tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)), as well
 as how to normalize the annotated profile.
 
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) supports Redwoods-style
 treebanking, from the *Trees* menu. It has been used to produce the
-Redwoods (RedwoodsTop) and Hinoki treebanks. You can
+Redwoods ([RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)) and Hinoki treebanks. You can
 annotate a corpus; update an annotated corpus to a new grammar; and
 train statistical models on the treebanked corpora.
 
@@ -27,7 +27,7 @@ package.
 
 After selecting a profile, *Trees \| Annotate*, will bring you into the
 interface for compiling a treebank. You must have have the same grammar
-loaded in the LKB (LkbTop) that was used to parse the profile
+loaded in the LKB ([LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)) that was used to parse the profile
 because the system uses the grammar to do the reconstruction of the
 parse trees.
 

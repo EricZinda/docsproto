@@ -82,7 +82,7 @@ Rebecca Dridan, among others, have made substantive code contributions.
 In 2013, two additional engines exist that implement the
 DELPH-IN formalism.
 
-The **Answer Constraint Engine** (ACE; see the AceTop page)
+The **Answer Constraint Engine** (ACE; see the [AceTop](https://blog.inductorsoftware.com/docsproto/tools/AceTop) page)
 has been under development for about ten years, by Woodley Packard, and
 has recently been released into the DELPH-IN open source repository
 under the MIT License. ACE is an efficiency-oriented run-time engine,
@@ -97,7 +97,7 @@ few external dependencies. Pre-compiled binaries are available from the
 through the LOGON Tree.
 
 **Another Grammar Engineering Environment** (agree; see the
-AgreeTop page), implementing the DELPH-IN formalism, was
+[AgreeTop](https://blog.inductorsoftware.com/docsproto/garage/AgreeTop) page), implementing the DELPH-IN formalism, was
 recently released under the MIT open-source license. agree is built on
 top of the C\# and .NET platform and aims to combine advanced GUI
 capabilities with good run-time effiency, capitalizing heavily on

@@ -1,7 +1,7 @@
 {% raw %}Apart from the main usage of the grammars for parsing and generation, do
 people use them for other things?
 
-We have a list of Applications, but I am thinking
+We have a list of [Applications](https://blog.inductorsoftware.com/docsproto/home/DelphinApplications), but I am thinking
 more of use of components, like a library.
 
 Some things we have done (or would like to do):

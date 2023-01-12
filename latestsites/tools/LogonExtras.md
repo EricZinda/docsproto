@@ -2,8 +2,8 @@
 
 The LOGON tree makes a distinction between *core* components (a meager
 three gigabytes) and *extra* resources; see the
-LogonInstallation page for general installation
-instructions, and the LogonTop page for further background.
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page for general installation
+instructions, and the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page for further background.
 Of these, the latter are not required for basic functionality but rather
 extend the LOGON tree with either proprietary third-party components
 (which can only be released to sites with appropriate licenses,
@@ -13,7 +13,7 @@ Redwoods treebanks. This page provides information on which extra
 components exist in the LOGON SVN repository, and on how to activate
 these. In some cases, add-on components are only available for select
 releases; for the earlier HandOn release of the LOGON tree, please see
-the LogonHandon page.
+the [LogonHandon](https://blog.inductorsoftware.com/docsproto/tools/LogonHandon) page.
 
 Please note that, starting in November 2008, the *extra* mechanism is
 new and remains to be tested. The information on this page is thus
@@ -48,7 +48,7 @@ same physical SVN repository, they only differ in how they handle
 authentication. We hope to be able to consolidate access methods as
 newer SVN server revisions become available. In the following examples,
 we use the environment variable $LOGONSVN instead of a specific SVN base
-URL; once installed (see the LogonInstallation
+URL; once installed (see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)
 page), the LOGON tree automatically sets$LOGONSVN to the appropriate SVN
 access method. Note however that, for those with valid SVN user
 accounts, it is always possible to uniformly use logon.emmtee.net as the
@@ -62,7 +62,7 @@ development. Again, in adapting the example SVN commands suggested
 below, one may have to adapt directory names systematically (i.e. in
 ways that should be obvious), to reflect the choice of LOGON version
 currently installed. As of mid-2011, we will assume that users install
-the *trunk* release. The LogonSvn page provides instructions
+the *trunk* release. The [LogonSvn](https://blog.inductorsoftware.com/docsproto/tools/LogonSvn) page provides instructions
 for using the SVN *switch* command to convert an existing local copy to
 another release, for example updating from the frozen *Barcelona*
 release to the cutting-edge *trunk* version.
@@ -112,7 +112,7 @@ dowload a recent ERG version as follows:
       svn switch --ignore-ancestry $LOGONSVN/erg/trunk .
       flop english
 
-Please see the LogonSvn page for instructions on switching
+Please see the [LogonSvn](https://blog.inductorsoftware.com/docsproto/tools/LogonSvn) page for instructions on switching
 between a tagged release and the current development head revision. With
 the right versions of everything in place, the following should work
 (and use the grammar in lingo/terg/):

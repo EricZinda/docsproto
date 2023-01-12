@@ -1,7 +1,7 @@
 {% raw %}# Russian Questions Grammar
 
 The grammar started as a development grammar for the [Grammar
-Matrix]() constituent questions library. It covers simple and
+Matrix](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop) constituent questions library. It covers simple and
 embedded intransitive and transitive clauses, both propositional and
 interrogative (both polar and constituent). It has a minimal lexicon at
 this point. The [test

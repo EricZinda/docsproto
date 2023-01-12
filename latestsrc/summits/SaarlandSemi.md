@@ -1,5 +1,5 @@
 {% raw %}Rough transcript from DELPH-IN 2013 Summit discussion about
-RmrsSemi. If your comments are not accurately represented,
+[RmrsSemi](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi). If your comments are not accurately represented,
 please make the necessary changes.
 
 Emily: UW crowd has been curious about SEMI -- what it's for, where it's

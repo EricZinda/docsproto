@@ -40,7 +40,7 @@ The library covers some of the fronting patterns including no fronting (*in situ
 
 ## Relevant Questionnaire portions
 
-The best way to figure out how to fill out the questionnaire is probably by uploading the choices files from the wh- regression tests on the Matrix [website](https://matrix.ling.washington.edu/customize/matrix.cgi). All of the typological combinations which were tested will be (by definition) covered there. All wh- regression test names start with *wh*, e.g. `wh-bxl`, `wh-dev-rus`, or `wh-sov-sg-opt`.
+The best way to figure out how to fill out the questionnaire is probably by uploading the choices files from the wh- [regression tests](https://blog.inductorsoftware.com/docsproto/matrix/MatrixRegressionTesting) on the Matrix [website](https://matrix.ling.washington.edu/customize/matrix.cgi). All of the typological combinations which were tested will be (by definition) covered there. All wh- regression test names start with *wh*, e.g. `wh-bxl`, `wh-dev-rus`, or `wh-sov-sg-opt`.
 
 To summarize:
 

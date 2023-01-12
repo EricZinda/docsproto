@@ -4,7 +4,7 @@
 
 If relations or qeqs that are contributed by lexical entries or rules
 are not showing up in the MRS for the whole parse, it is almost
-certainly because you have a broken diff-list append
+certainly because you have a broken [diff-list](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList) append
 somewhere in the structure. The most common way for a diff-list append
 to break is for one of the arguments to be underspecified as to its
 length. You should check that the RELS and HCONS lists inside CONT on
@@ -48,9 +48,9 @@ length of the RELS and HCONS lists.
 
 ## Related topics
 
-- What's a difference list, and why do we use them?
+- [What's a difference list, and why do we use them?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList)
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
-and how do I debug it?]()
+and how do I debug it?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqCyclicCheck)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

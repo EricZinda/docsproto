@@ -503,7 +503,7 @@ who is the original REPP designer and current maintainer of the LKB
 implementation of REPP. REPP support in PET was provided by
 RebeccaDridan (with some help by Stephan), and Rebecca
 continues to maintain the PET implementation of REPP (see the page
-ReppPet for preliminary documentation). Please do not make
+<a href="https://blog.inductorsoftware.com/docsproto/garage/ReppPet">ReppPet</a> for preliminary documentation). Please do not make
 substantial changes to this page unless you (a) are quite certain of the
 technical correctness of your revisions and (b) believe strongly that
 your changes are compatible with the general design and recommended use
@@ -836,7 +836,7 @@ an :id keyword argument in the read-repp() call.</p>
 <p>The programmatic interface to REPP is through the repp() and
 repp-for-pet() functions. These can be used in debugging REPP rules, or
 in preparing input to another parser, specifically PET (see the
-PetInput page for background). Both functions take optional
+<a href="https://blog.inductorsoftware.com/docsproto/garage/PetInput">PetInput</a> page for background). Both functions take optional
 keyword arguments :repp and :calls, which determine the top-level
 (‘master’) REPP to be used, and set of active external groups,
 respectively. The value of :calls defaults to the current value of
@@ -873,13 +873,13 @@ boundaries):</p>
 </code></pre></div></div>
 
 <p>Other available output formats include :pet (the default, returning the
-so-called YY format; see the PetInput page); :sppp (an
-LKB-internal format, see the LkbSppp page); and :raw (a list
+so-called YY format; see the <a href="https://blog.inductorsoftware.com/docsproto/garage/PetInput">PetInput</a> page); :sppp (an
+LKB-internal format, see the <a href="https://blog.inductorsoftware.com/docsproto/tools/LkbSppp">LkbSppp</a> page); and :raw (a list
 of token structures, providing all available information). The last of
 these is the most generic output option; it could be used to wrap an XML
 serialization around the REPP core (e.g. if one were to emulate the
 (S)MAF output option of the older FSPP implementation; see below and the
-SmafTop page).</p>
+<a href="https://blog.inductorsoftware.com/docsproto/tools/SmafTop">SmafTop</a> page).</p>
 
 <p>When using the LKB parser with a grammar that provides one or more REPP
 instances, the parameter *repp-interactive* determines the specific
@@ -893,7 +893,7 @@ grammar-internally.</p>
 <p>Finally, the function repp-for-pet() is a wrapper around repp(),
 suitable as a :preprocessor hook in <a href="http://www.delph-in.net/itsdb">[incr
 tsdb()]</a> cpu definitions. The LOGON tree
-(see the LogonTop page), for example, includes the following
+(see the <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LogonTop</a> page), for example, includes the following
 two <a href="http://svn.emmtee.net/trunk/dot.tsdbrc">cpu definitions</a> for the
 ERG (reproduced here in a simplified form):</p>
 
@@ -942,7 +942,7 @@ definition can be simulated by a Lisp function call like the following:</p>
 
 <p>The additional :stream argument will re-direct the result of
 pre-processing into a file (overwriting an existing file by that name,
-if need be), in this case the file sample.yy. See PetInput
+if need be), in this case the file sample.yy. See <a href="https://blog.inductorsoftware.com/docsproto/garage/PetInput">PetInput</a>
 for further discussion on how REPP outputs can be processed
 interactively in PET, for example for in-depth debugging.</p>
 
@@ -950,7 +950,7 @@ interactively in PET, for example for in-depth debugging.</p>
 
 <p>A C++ implementation of REPP was developed by
 RebeccaDridan, and this code forms the basis for REPP
-support in the PET parser (see the ReppPet page for details)
+support in the PET parser (see the <a href="https://blog.inductorsoftware.com/docsproto/garage/ReppPet">ReppPet</a> page for details)
 as well as for a stand-alone REPP utility. To obtain and build the
 latter tool, please try the following:</p>
 
@@ -981,7 +981,7 @@ experience at the YY Corporation. In 2005, BenWaldron (who
 was part of the YY team too) created a parallel FSPP implementation in
 the LKB, which we will refer to as FSPP 2.0; this version added new
 functionality (notably characterization and (S)MAF support; see the
-SafFspp page), albeit at the expense of backwards
+<a href="https://blog.inductorsoftware.com/docsproto/garage/SafFspp">SafFspp</a> page), albeit at the expense of backwards
 compatibility with FSPP 1.0. Ben took over FSPP maintenance in 2006 and
 enabled compiling FSPP into PET, adding (partial) (S)MAF support to PET
 at the same time. However, due to a limitation in the Embedded Common

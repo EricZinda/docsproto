@@ -68,8 +68,8 @@ types, the final & is replaced with a period (.):
 - The comment character is ';'. That is, the LKB will ignore any line
 starting with a semicolon. At present (March 2020), the LKB does not
 support comments in the middle of a type definition, only before or
-after. Some other implementations, such as ACE and
-LkbFos, allow comments nearly anywhere.
+after. Some other implementations, such as [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) and
+[LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), allow comments nearly anywhere.
 - If the feature you want to talk about is buried deep inside several
 nested feature structures, you can use the dotted (.) path notation
 instead of lots of square brackets. In other words, the following
@@ -113,7 +113,7 @@ types.
         
              typo := parent-type &
              """I think there's something wrong with this type""".
-- Type addendum statements allow you to add
+- [Type addendum statements](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTypeAddendum) allow you to add
 information to types that are already defined in the Matrix. They
 are written with :+ instead of :=, and don't require the presence of
 any supertypes. If there are no supertypes in the addendum, a \[ or
@@ -126,7 +126,7 @@ a """ (for a documentation string) immediately follows the :+.
         
              old-type :+ """I had to add some documentation here""".
 - The LKB provides abbreviations for lists and [difference
-lists]():
+lists](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList):
   
   - An empty list: \[ FEATURE &lt; &gt; \]
   - A list with exactly one element: \[ FEATURE &lt; foo &gt; \]
@@ -145,14 +145,14 @@ element:
 ### Related topics
 
 - [How do I use tab to help me figure out where my syntax error
-is?]()
+is?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTabIndentation)
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
-should I do?]()
+should I do?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNewFeature)
 - [The LKB says I have an error at position number 873. How do I
-figure out where that is in my file?]()
-- What's a difference list, and why do we use them?
+figure out where that is in my file?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqGotoChar)
+- [What's a difference list, and why do we use them?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqDiffList)
 - [What is a type addendum statement, and when should I use
-one?]()
+one?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqTypeAddendum)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

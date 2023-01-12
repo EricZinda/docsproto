@@ -24,7 +24,7 @@ above. However, we need to find out what information about the
 production process actually *is* available in PDF files, and we will
 need a simple tool to inspect PDF meta information and extract relevant
 parameters. It is possible that some of the text extraction tools for
-PDF (see the NoraExtraction page) can be put to use in
+PDF (see the [NoraExtraction](https://blog.inductorsoftware.com/docsproto/missing/NoraExtraction) page) can be put to use in
 this task too.
 
 # Preliminary Notes

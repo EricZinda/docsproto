@@ -3,31 +3,31 @@
 Contents
 
 1. [Heuristics for efficient
-treebanking]()
-   1. Top-down
-   2. Bottom-up
-   3. Prefer Simpler
-2. Technical choices
-   1. Complex proper names
-      1. Titles
-      2. Capitalized words in name
-      3. Profession modifier
+treebanking](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   1. [Top-down](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   2. [Bottom-up](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   3. [Prefer Simpler](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+2. [Technical choices](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   1. [Complex proper names](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+      1. [Titles](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+      2. [Capitalized words in name](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+      3. [Profession modifier](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
       4. [Native names preferred when
-available]()
-   2. Proper names and punctuation
-   3. PP/modifier attachment
-   4. Temporal modifiers
-   5. Complex compound nouns
-   6. Coordination
-   7. Passive verb vs. adjective
-   8. Punctuation
-   9. Adverbs
-   10. Measure phrases
+available](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   2. [Proper names and punctuation](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   3. [PP/modifier attachment](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   4. [Temporal modifiers](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   5. [Complex compound nouns](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   6. [Coordination](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   7. [Passive verb vs. adjective](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   8. [Punctuation](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   9. [Adverbs](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   10. [Measure phrases](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
    11. [Quotations with explicit
-attribution]()
-   12. Partitive NPs
-   13. Modification in noun phrases
-3. Notes from Tomar meeting
+attribution](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   12. [Partitive NPs](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+   13. [Modification in noun phrases](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
+3. [Notes from Tomar meeting](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
 
 ## Top-down
 

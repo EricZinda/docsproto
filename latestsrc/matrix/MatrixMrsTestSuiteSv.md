@@ -1,4 +1,4 @@
-{% raw %}This is the MRS Test Suite for Swedish.
+{% raw %}This is the [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) for Swedish.
 
 ## Swedish MRS Test Suite
 

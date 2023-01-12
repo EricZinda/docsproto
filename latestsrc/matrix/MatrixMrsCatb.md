@@ -22,17 +22,17 @@ we will also link it to this pages.
 
 Contents
 
-1. Cathedral and the Bazaar (cb)
+1. [Cathedral and the Bazaar (cb)](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
 2. [The Cathedral and the Bazaar in different
-languages]()
-3. Timeline
-4. Formatting Guidelines
-   1. Profile Name
-   2. Markup
-   3. Structure
-   4. Quotations
-   5. Typos
-   6. Sentence Numbering
+languages](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+3. [Timeline](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+4. [Formatting Guidelines](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   1. [Profile Name](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   2. [Markup](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   3. [Structure](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   4. [Quotations](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   5. [Typos](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
+   6. [Sentence Numbering](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsCatb)
 
 # The Cathedral and the Bazaar in different languages
 
@@ -101,7 +101,7 @@ to look at robustness issues, we will choose a new text (possibly the
 next essay in this series).
 
 For the profile, we will use the [itsdb text file
-format](), which can be automatically converted into
+format](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference), which can be automatically converted into
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) bitext profiles.
 
 ## Profile Name

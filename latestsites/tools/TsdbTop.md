@@ -47,10 +47,10 @@ back to *tree*, of course).
 
 If your needs are more specialised, your most likely port of call is the
 Lisp API. A Lisp session can be started with the M-x logon command (cf.
-LogonInstallation), but this runs a precompiled
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation)), but this runs a precompiled
 binary which may or may not have been updated recently. If your site has
 a licence for the Allegro Common Lisp compiler (cf.
-LogonExtras, your local LOGON bodhisattva), the system
+[LogonExtras](https://blog.inductorsoftware.com/docsproto/tools/LogonExtras), your local LOGON bodhisattva), the system
 can also be started as follows:
 
 1. In emacs, run M-x lisp. This will start the Lisp REPL, but not LKB
@@ -60,7 +60,7 @@ believe)
 3. Read in a grammar with rsa(). For English (rsa :erg) or (rsa :terg)
 (loading either the most recent release of the ERG or the trunk
 version) is most likely what you want, or (rsa :deepbank) if working
-with DeepBank.
+with [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank).
 
 If you need to do slightly different things (or are merely curious),
 lmt() and rsa() are defined in $LOGONROOT/dot.clinit.cl.

@@ -17,7 +17,7 @@ in.vpm under jahs.
 
 Third, compile the Zhong-cmn-hans (simplified Mandarin Chinese) grammar.
 Note that there are two versions (see
-ZhongGeneration). For generation, it would be better
+[ZhongGeneration](https://blog.inductorsoftware.com/docsproto/grammars/ZhongGeneration)). For generation, it would be better
 to use a strict one.
 
     $ ace -g ace/config-strict.tdl -G hans-strict.dat

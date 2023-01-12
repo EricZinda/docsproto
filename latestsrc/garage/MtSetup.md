@@ -5,23 +5,23 @@ This page is under construction. Please expand and correct if you can.
 Contents
 
 1. [Instructions on how to set up an MT
-system]()
+system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    1. [Two ways to set up an MT
-system]()
-2. The Rephrasing method
-   1. Requested files and settings
-   2. Using the system
-3. The Transfer Grammar method
+system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+2. [The Rephrasing method](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   1. [Requested files and settings](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   2. [Using the system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+3. [The Transfer Grammar method](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    1. [Install LOGON and add your grammar(s) to the
-repository]()
-   2. Creating CPU's
+repository](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   2. [Creating CPU's](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    3. [Create lisp files for your grammars and the MT
-system]()
+system](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    4. [Setting the \*translate-grid\*
-values]()
-   5. Setting the VPM
+values](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
+   5. [Setting the VPM](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
    6. [Starting the MT system from
-Emacs]()
+Emacs](https://blog.inductorsoftware.com/docsproto/garage/MtSetup)
 
 ## Two ways to set up an MT system
 
@@ -32,11 +32,11 @@ used in EmilyBender's Grammar Matrix course ([Lab
 9](http://courses.washington.edu/ling567/lab9.html)), and requires only
 installation of the LKB system, and is thus relatively lightweight. The
 other method is to create a seperate transfer grammar using the [LOGON
-machinery]() to parse with one grammar, transfer with the
+machinery](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) to parse with one grammar, transfer with the
 transfer grammar (which is separate from the parsing grammar), and
 generate with a third grammar. This method is used by larger MT
 projects, like the [LOGON](http://www.emmtee.net/) project and the [Jaen
-Japanese-English MT project](). Instructions on how to set up
+Japanese-English MT project](https://blog.inductorsoftware.com/docsproto/garage/MtJaen). Instructions on how to set up
 translation systems with both methods are provided below.
 
 # The Rephrasing method
@@ -47,7 +47,7 @@ sentence and generating from the transferred MRS.
 
 ## Requested files and settings
 
-Transfer rules require two files: a type file for
+[Transfer rules](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) require two files: a type file for
 transfer rules (e.g. mtr.tdl), which is loaded together with the other
 type files, and a file with instances of transfer rules, e.g. acm.mtr.
 In the script file:
@@ -60,7 +60,7 @@ In the script file:
 
 In addition, both the parsing grammar and the generation grammar load a
 file called semi.vpm, which contains mappings from the feature structure
-to the MRS (see RmrsVpm). In the script file:
+to the MRS (see [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm)). In the script file:
 
     (mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
 
@@ -91,14 +91,14 @@ with the parsing grammar and press "Rephrase".
 # The Transfer Grammar method
 
 This section shows a procedure for setting up a full MT system that can
-do Batch Translation and integrate
-LogonModeling, and where you can do interactive MT
+do [Batch Translation](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchTranslation) and integrate
+[LogonModeling](https://blog.inductorsoftware.com/docsproto/tools/LogonModeling), and where you can do interactive MT
 development.
 
 ## Install LOGON and add your grammar(s) to the repository
 
 If you don't have LOGON installed, follow the instructions on
-LogonInstallation. Make a directory (e.g.
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation). Make a directory (e.g.
 mydirectory) inside the logon/ directory and put your grammar(s) (e.g.
 mygrammar) there.
 
@@ -203,7 +203,7 @@ The transfer grammar loads two files called in.vpm and out.vpm. The
 in.vpm file determines how the MRS is represented when it is given to
 the transfer grammar from the parsing grammar. The out.vpm file
 determines how the MRS is represented when it comes out from transfer
-grammar. (See RmrsVpm)
+grammar. (See [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm))
 
 ## Starting the MT system from Emacs
 
@@ -232,7 +232,7 @@ Given the following lines in the .emacs file ...
      (fi:inferior-lisp-newline)
      (set-input-method "japanese-anthy"))
 
-... the MtJaen system can be started from emacs. Open two
+... the [MtJaen](https://blog.inductorsoftware.com/docsproto/garage/MtJaen) system can be started from emacs. Open two
 Emacs windows. In the first, type:
 
     Alt-x jaen

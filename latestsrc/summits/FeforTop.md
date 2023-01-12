@@ -14,7 +14,7 @@ distribution, the Standing Committee invites researchers from some
 twenty five R&D sites to participate in the meeting, and between 30 and
 45 individuals are expected to be present for the meeting. An up-to-date
 summary of expected participants can be found on the
-ParticipantsGroup page.
+[ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page.
 
 # Aims of the Meeting
 
@@ -43,12 +43,12 @@ put together the programme for each of the sections:
 |----------------|----------------|-------------------------------------------|--------------------------------------|-----------------------------------------------------------------|
 | **Start**      | **End**        | **Session**                               | **Schedule**                         | **Coordinator**                                                 |
 | 13-jun 09:30   |                | Organisation meeting for all participants |                                      |                                                                 |
-| 13-jun         | 14-jun (lunch) | Grammars                                  | FeforGrammarians | DanFlickinger                                  |
-| 13-jun         | 14-jun (lunch) | Processing Tools                          | FeforProcessors   | AnnCopestake                                    |
-| 14-jun         | 15-jun (lunch) | Processing Tools                          | FeforRmrs               | AnnCopestake and DanFlickinger |
-| 15-jun (lunch) | 17-jun         | Plenary Session                           | FeforPlenum           | StephanOepen and EmilyBender     |
+| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](https://blog.inductorsoftware.com/docsproto/summits/FeforGrammarians) | DanFlickinger                                  |
+| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors)   | AnnCopestake                                    |
+| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs)               | AnnCopestake and DanFlickinger |
+| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](https://blog.inductorsoftware.com/docsproto/summits/FeforPlenum)           | StephanOepen and EmilyBender     |
 
-FeforDiscussionCompilations
+[FeforDiscussionCompilations](https://blog.inductorsoftware.com/docsproto/summits/FeforDiscussionCompilations)
 
 # Organizational
 
@@ -66,7 +66,7 @@ hotel (email: <mailto:informasjon@feforhotell.no>) no later than May 1, 2006.
 Please mention your participation in the DELPH-IN Summit 2006 and
 confirm your arrival and departure dates, room arrangements, and dietary
 constraints (if any). At the same time, we will be using the
-ParticipantsGroup wiki page to keep track of
+[ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) wiki page to keep track of
 participants, so please sign yourself up there too.
 
 From Oslo airport (called Gardemoen) there is a direct train connection
@@ -127,15 +127,15 @@ weather forcast can be found
 
 The wiki has been populated (and should continue to be populated) with
 the results of many of the discussions and the slides from the talks.
-See links from FeforGrammarians,
-FeforProcessors, FeforRmrs,
-FeforPlenum.
+See links from [FeforGrammarians](https://blog.inductorsoftware.com/docsproto/summits/FeforGrammarians),
+[FeforProcessors](https://blog.inductorsoftware.com/docsproto/summits/FeforProcessors), [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs),
+[FeforPlenum](https://blog.inductorsoftware.com/docsproto/summits/FeforPlenum).
 
 The conference was widely enjoyed. A few [suggestions for future
-organizers]().
+organizers](https://blog.inductorsoftware.com/docsproto/summits/FeforSuggestions).
 
 # Photos
 
-Please post conference photos on FeforPhotos!
+Please post conference photos on [FeforPhotos](https://blog.inductorsoftware.com/docsproto/summits/FeforPhotos)!
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}

@@ -1,4 +1,4 @@
-{% raw %}This is the MRS Test Suite for the [English
+{% raw %}This is the [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) for the [English
 Resource Grammar](http://www.delph-in.net/erg/).
 
 ## English MRS Test Suite

@@ -232,7 +232,7 @@ couldn't even remember what it stands for.
 
 Jan: What about using colors to show shared handles?
 
-John: Link to the demo before linking to ErgProcessing.
+John: Link to the demo before linking to [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing).
 
 Berthold: It would be nice to link both ways, from demo to ESD pages and
 from ESD pages to demos.

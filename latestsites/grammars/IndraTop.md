@@ -15,7 +15,7 @@ parse simple sentences such as *Adi tidur di sini* "Adi sleeps here" and
 *Adi mengejar Budi* "Adi chases Budi".
 
 Compare INDRA with other DELPH-IN HPSG grammars using
-TypediffTop ([online
+[TypediffTop](https://blog.inductorsoftware.com/docsproto/garage/TypediffTop) ([online
 version](http://hum.csse.unimelb.edu.au/typediff/)).
 
 ## Repository
@@ -32,26 +32,26 @@ grammar using the following command.
 Catalogue](http://moin.delph-in.net/GrammarCatalogue/#Indonesian_Resource_Grammar_.28INDRA.29)
 (check INDRA/METADATA, ./create-catalogue-entry.sh \~/grammar/INDRA/
 -w for html or -l for latex)
-- Processing: IndraAce,
-IndraPreprocessing,
+- Processing: [IndraAce](https://blog.inductorsoftware.com/docsproto/garage/IndraAce),
+[IndraPreprocessing](https://blog.inductorsoftware.com/docsproto/garage/IndraPreprocessing),
 [IndraYYMode](http://moin.delph-in.net/IndraYYMode)
-- Machine Translation: IndraTranslation
-- Testing: IndraRegressionTest
-- Treebanking: IndraTreebanking
+- Machine Translation: [IndraTranslation](https://blog.inductorsoftware.com/docsproto/garage/IndraTranslation)
+- Testing: [IndraRegressionTest](https://blog.inductorsoftware.com/docsproto/garage/IndraRegressionTest)
+- Treebanking: [IndraTreebanking](https://blog.inductorsoftware.com/docsproto/tools/IndraTreebanking)
 
 ## Testsuites
 
 - MRS Testsuite:
-MatrixMrsTestSuiteIndonesian
+[MatrixMrsTestSuiteIndonesian](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuiteIndonesian)
 - Phenomena-based Testsuites:
 <https://github.com/davidmoeljadi/INDRA/tree/master/testsuites>
 
 ## Phenomena in Indonesian
 
 - [Intransitive and transitive verbs, Applicative -i constructions,
-Verb reduplication]()
-- Passive voice
-(Discussion)
+Verb reduplication](https://blog.inductorsoftware.com/docsproto/grammars/LADIndonesianMorphology)
+- [Passive voice](https://blog.inductorsoftware.com/docsproto/grammars/CapitolHillPassives)
+([Discussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion))
 
 ## Contributors
 

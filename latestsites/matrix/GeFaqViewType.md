@@ -22,8 +22,8 @@ type" as options.
 ## Related topics
 
 - [How do I look at fully specified lexical entries or
-rules?]()
-- How do I browse the type hierarchy?
+rules?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewEntry)
+- [How do I browse the type hierarchy?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqViewHierarchy)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

@@ -220,7 +220,7 @@ best, T = no derivation tree, f = one EP per line, maybe not ideal for
 automatic consumption.
 
 - Emily: **Action Item**: Seek agreement on changing the first
-recommendation on ErgProcessing to ace.
+recommendation on [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) to ace.
 
 Emily: Black box exists, people have used it (575 @ UW).
 

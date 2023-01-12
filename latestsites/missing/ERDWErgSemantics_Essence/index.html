@@ -883,10 +883,10 @@
 <p>Variable sharing is used to link together the predications in an MRS document. To indicate that the mentioned dog is also yellow, add:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_yellow_a_1 ARG0: e9 ARG1: x4 
 </code></pre></div></div>
-<p>The fact that <code class="language-plaintext highlighter-rouge">ARG1</code> uses the same <code class="language-plaintext highlighter-rouge">x4</code> indicates that it is further refining what <code class="language-plaintext highlighter-rouge">x4</code> represents to be a “yellow dog”. Its first argument (<code class="language-plaintext highlighter-rouge">ARG0</code>) is of type “event” which is introduced in ERG Basics and is not used here. Argument sharing can happen in many situations throughout the ERG.</p>
+<p>The fact that <code class="language-plaintext highlighter-rouge">ARG1</code> uses the same <code class="language-plaintext highlighter-rouge">x4</code> indicates that it is further refining what <code class="language-plaintext highlighter-rouge">x4</code> represents to be a “yellow dog”. Its first argument (<code class="language-plaintext highlighter-rouge">ARG0</code>) is of type “event” which is introduced in <a href="https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence">ERG Basics</a> and is not used here. Argument sharing can happen in many situations throughout the ERG.</p>
 
 <blockquote>
-  <p>Linguistics background: Some examples of argument sharing are in non-scopal modification, control constructions, coordinate  structures, as well as others (like relative clauses and certain types of comparatives).</p>
+  <p>Linguistics background: Some examples of argument sharing are in <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Design">non-scopal modification</a>, <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ControlRelations">control constructions</a>, <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination">coordinate  structures</a>, as well as others (like relative clauses and certain types of comparatives).</p>
 </blockquote>
 
 <p>Each predication in an MRS document is also assigned to a variable of type “Handle”, so that the entire predication can be passed as an argument to another predication. This is very similar to how lambda functions in some programming languages allow functions to be passed to other functions.  This is represented in the MRS document by an extra first argument named <code class="language-plaintext highlighter-rouge">LBL</code> which is always included, like this:</p>
@@ -947,14 +947,14 @@ b) "Every dog is chasing the same cat"
   (b) ∃y cat(y): ∀x dog(x): chase(x,y)
 </code></pre></div></div>
 
-<p>Note that this ambiguity and the resulting underspecification can happen with other ‘operator-like’ predications as well; see below).</p>
+<p>Note that this ambiguity and the resulting underspecification can happen with other ‘operator-like’ predications as well; see <a href="https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence">below</a>).</p>
 
-<p>Understanding how to read these trees is covered in sectionTBD. For now it is enough to understand that is what is going on.</p>
+<p>Understanding how to read these trees is covered in section<a href="https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence">TBD</a>. For now it is enough to understand that is what is going on.</p>
 
 <h1 id="mrs-document-format">MRS document format</h1>
 <p>There are only 3 more parts to an MRS document: Variable Properties, Top and Index.</p>
 
-<p>Non-label variables can be ‘refined’ with what is called variable properties. These further filter down what the variable represents. For example: Whether the variable contains a plural or singular instance, whether it is first or second person, etc. Variable properties range over a fixed inventory of possible values, organized in a multiple-inheritance hierarchy to allow underspecification.  More is described in TBD.</p>
+<p>Non-label variables can be ‘refined’ with what is called variable properties. These further filter down what the variable represents. For example: Whether the variable contains a plural or singular instance, whether it is first or second person, etc. Variable properties range over a fixed inventory of possible values, organized in a multiple-inheritance hierarchy to allow underspecification.  More is described in <a href="https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence">TBD</a>.</p>
 
 <p>Top and Index do something that I still can’t describe…</p>
 
@@ -1068,7 +1068,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h8 h14 qeq h22 h18 qeq h20 h24 qeq h25 h
   <p>Linguistics Background: These examples pertain to what at times are called restrictive modifiers, which can take the form of pre- or post-nominal attributive adjectives or relative clauses (i.e. non-local dependencies).</p>
 </blockquote>
 
-<p>In the ERS analyses for (4a) through (4d), there will always be an instance of the <code class="language-plaintext highlighter-rouge">_bark_v_1</code> relation (albeit with different tense properties on its <code class="language-plaintext highlighter-rouge">e8</code> event variable, events are described in TBD), where the <em>dog</em> instance (<code class="language-plaintext highlighter-rouge">x3</code>) serves as its first argument.</p>
+<p>In the ERS analyses for (4a) through (4d), there will always be an instance of the <code class="language-plaintext highlighter-rouge">_bark_v_1</code> relation (albeit with different tense properties on its <code class="language-plaintext highlighter-rouge">e8</code> event variable, events are described in <a href="https://blog.inductorsoftware.com/docsproto/missing/ERDWErgSemantics_Essence">TBD</a>), where the <em>dog</em> instance (<code class="language-plaintext highlighter-rouge">x3</code>) serves as its first argument.</p>
 
 <h1 id="predicate-variation-and-identification">Predicate Variation and Identification</h1>
 <p>As described above, words used in the same grammatical way will produce the same predications. For example, in “The bank with the shortest atm lines is near the river bank”, both instances of <em>bank</em> will be represented by <code class="language-plaintext highlighter-rouge">_bank_n_of</code> in the MRS. The ERG only produces different predications when it is clearly a different word based solely on the sentence grammar. On the other hand, if the same word is used in a grammatically different way, it will produce different predications. Predications are uniquely identified by the combination of their predication name and the number and name of their arguments. The combination represents a unique meaning in the ERG and will be used whenever that meaning is encountered.</p>

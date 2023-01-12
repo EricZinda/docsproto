@@ -8,12 +8,12 @@ Prelimary work is being done using the ERG and wordnet, mainly at NTU
 ## Content
 
 - [Some early discussions at the Suquamish
-Summit]()
+Summit](https://blog.inductorsoftware.com/docsproto/summits/SuquamishMRSWordNet)
 - [Some thoughts on mapping between ERG and Wordnet
-predicates]()
-- MRS mini-modelling Sympoisum at UW
-- Semcor Wordnet-ERG mapping and link to data download
-- Discussions at the Saarland Summit
+predicates](https://blog.inductorsoftware.com/docsproto/summits/LexsemMapping)
+- [MRS mini-modelling Sympoisum at UW](https://blog.inductorsoftware.com/docsproto/summits/RmrsLm)
+- [Semcor Wordnet-ERG mapping](https://blog.inductorsoftware.com/docsproto/garage/SemCor) and link to data download
+- [Discussions at the Saarland Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMrsWordnet)
 
 ## To Maybe Do
 

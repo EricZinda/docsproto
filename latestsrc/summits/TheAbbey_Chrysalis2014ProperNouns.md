@@ -1,7 +1,7 @@
 {% raw %}# A modest proposal for proper nouns
 
 by Francis (see also [Ann's Modest
-Proposal]())
+Proposal](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs))
 
 - Get a very large Gazetteer --- try to find something that updates
 itself (LOD)
@@ -70,7 +70,7 @@ Francis: *Finally I must admit that I nearly called this essay The
 Cathedral and the Agora, the latter being the Greek word for
 marketplace.*
 
-Dan: The task of annotating DeepBank led me to think this is
+Dan: The task of annotating [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) led me to think this is
 broken/not scalable. Can't keep it consistent from one paragraph to the
 next, even if conventions written down.
 

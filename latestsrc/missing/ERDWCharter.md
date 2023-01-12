@@ -49,7 +49,7 @@ Tools and Processes
 - Who owns what in Delphin-land?
 
 ## Modernizing Tools
-This group is going to collect and help prioritize enhancements that should help a broader set of users use the technology
+This group is going to [collect and help prioritize enhancements](https://blog.inductorsoftware.com/docsproto/missing/ERDWToolsFixes) that should help a broader set of users use the technology
 - Falls out naturally as we survey, write about them, etc
 - Need to figure out how to drive the fixes, maybe case-by-case
 

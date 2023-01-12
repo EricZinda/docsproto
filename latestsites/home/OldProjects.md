@@ -94,7 +94,7 @@ this. (Funding: British Academy funded small research)
 Saarbrücken, NTNU (Norway), Sussex, Cambridge, CELI (Italy) and
 Xtramind (Germany). Hybrid Deep and Shallow Methods for
 Knowledge-intensive Information Extraction. This project led to the
-development of \[RmrsTop\|Robust Minimal Recursion
+development of \[[RmrsTop](https://blog.inductorsoftware.com/docsproto/tools/RmrsTop)\|Robust Minimal Recursion
 Semantics\] and the \[[HogTop](/HogTop)\|Heart of Gold\]. (Funding:
 EU)
 - [Multiword expressions](http://lingo.stanford.edu/mwe/): 2001–2004.

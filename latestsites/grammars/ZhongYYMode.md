@@ -2,7 +2,7 @@
 
 In order to run Zhong with the YY-mode inputs, you have to install and
 set up the Stanford tools and NLTK. See
-ZhongPreprocessing.
+[ZhongPreprocessing](https://blog.inductorsoftware.com/docsproto/grammars/ZhongPreprocessing).
 
 Note that your ACE version must be at least
 [0.9.19patch1](http://sweaglesw.org/linguistics/ace/download/ace-0.9.19patch1-x86-64.tar.gz)

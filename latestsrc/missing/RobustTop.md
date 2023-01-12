@@ -3,8 +3,8 @@
 This page has some, probably out-of-date discussions about how to make parsing in DELPH-IN more robust.  
 
 Here are some other discussions:
-* Discussion at Tomar
-* Discussion at Squamish
+* [Discussion at Tomar](https://blog.inductorsoftware.com/docsproto/summits/TomarRobustParsing)
+* [Discussion at Squamish](https://blog.inductorsoftware.com/docsproto/summits/SuquamishRobustParsing)
 
 # PCFG Parsing
 

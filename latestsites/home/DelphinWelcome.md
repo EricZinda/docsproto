@@ -20,10 +20,10 @@ hope that you will contribute to these pages over time.
 Here are a few pages designed for people getting familiar with DELPH-IN
 technology:
 
-- ErsTutorial: A tutorial on using the ERG
-- ErgSemantics: Documentation of the semantic
+- [ErsTutorial](https://blog.inductorsoftware.com/docsproto/howto/ErsTutorial): A tutorial on using the ERG
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics): Documentation of the semantic
 representations produced by the ERG
-- MatrixGettingStarted: A starting point for
+- [MatrixGettingStarted](https://blog.inductorsoftware.com/docsproto/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
 
 Last update: 2020-10-15 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}

@@ -11,7 +11,7 @@ application code" on WeSearch/Interface.
 # Export
 
 First, you will need an installation of the LOGON tree. See
-LogonInstallation.
+[LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation).
 
 After you have obtained LOGON, add the parse results you wish to export:
 
@@ -68,7 +68,7 @@ Finally, index the exports:
 
 # Deployment
 
-To use the new index in WeSearch, follow the steps for
+To use the new index in [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch), follow the steps for
 configuration of the web application interface
 ([WeSearch/Interface](http://moin.delph-in.net/WeSearch/Interface)).
 

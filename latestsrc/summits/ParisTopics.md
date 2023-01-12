@@ -29,7 +29,7 @@ AnnCopestake, GlennSlayden,
 BerndKiefer, EmilyBender
 (optionally)
 - [Multilingual Grammar engineering with treebanks and core
-grammars.]()
+grammars.](https://blog.inductorsoftware.com/docsproto/summits/ParisMultilingualGrammarEngineering)
   
   - AntskeFokkens, YiZhang,
 FrancisBond,
@@ -40,11 +40,11 @@ Laurie Poulson, [FredericLaurens](/FredericLaurens),
 July 4, Afternoon 1
 
 - Using the Grammar Matrix customization system, BYOL (bring your own
-language) (ParisMatrixCustomization),
+language) ([ParisMatrixCustomization](https://blog.inductorsoftware.com/docsproto/summits/ParisMatrixCustomization)),
 EmilyBender, TaniaAvgustinova,
 AntskeFokkens, [FabiolaHenri](/FabiolaHenri),
 SanghounSong, GlennSlayden
-- PET road map. PetRoadMap
+- PET road map. [PetRoadMap](https://blog.inductorsoftware.com/docsproto/garage/PetRoadMap)
   
   - PeterAdolphs, BartCramer,
 BerndKiefer, StephanOepen,
@@ -59,7 +59,7 @@ July 4, Afternoon 2
 
 - Matrix topics: Providing multiple analyses for the same phenomenon,
 top-down v. bottom-up library development, documentation
-(ParisMatrixTopics)
+([ParisMatrixTopics](https://blog.inductorsoftware.com/docsproto/summits/ParisMatrixTopics))
   
   - AntskeFokkens, EmilyBender,
 TaniaAvgustinova, Laurie Poulson,

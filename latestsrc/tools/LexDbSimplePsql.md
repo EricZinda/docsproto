@@ -22,7 +22,7 @@ If initialization is successful, the server can be started. e.g.,
     $ /usr/bin/pg_ctl -D /local/scratch/aac10/pg-data -l logfile start
 
 We can then go ahead and create a lexical db, as described in
-LkbLexDbSingleUser.
+[LkbLexDbSingleUser](https://blog.inductorsoftware.com/docsproto/tools/LkbLexDbSingleUser).
 
 The database will run under your user id, so this procedure is
 unsuitable for the multi-user mode.

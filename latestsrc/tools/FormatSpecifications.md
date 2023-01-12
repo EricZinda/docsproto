@@ -16,8 +16,8 @@ other way around
 ## \[incr tsdb()\]
 
 - profiles (relations, results, etc; see
-ItsdbReference)
-- ItsdbDerivations
+[ItsdbReference](https://blog.inductorsoftware.com/docsproto/tools/ItsdbReference))
+- [ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations)
 
 ## MRS
 
@@ -29,7 +29,7 @@ ItsdbReference)
 
 ## PET
 
-- PetInput
+- [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)
 
 # Discussion
 

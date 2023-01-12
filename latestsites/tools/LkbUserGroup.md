@@ -54,7 +54,7 @@ Anything you post to the list will be
 # Bug reporting
 
 Before reporting a bug, please read the manual carefully (it may be a
-feature ...). Then check LkbFaq to see if someone has raised
+feature ...). Then check [LkbFaq](https://blog.inductorsoftware.com/docsproto/tools/LkbFaq) to see if someone has raised
 your problem already. If you are running a non-current version of the
 LKB, you might like to upgrade to the latest version and see whether the
 bug has been fixed. (You do not absolutely have to do this before

@@ -18,8 +18,8 @@ representation language
 Techniques - high-effiency parser
 - **Redwoods**:
 - **SEM-I**: Semantic Interface (aka ‘MRS API’): declares things that
-might appear in an MRS (RmrsSemi)
+might appear in an MRS ([RmrsSemi](https://blog.inductorsoftware.com/docsproto/tools/RmrsSemi))
 - **VPM**: Variable Property Mapping: translates grammar-internal
-aspects to SEM-I compatible MRS (RmrsVpm)
+aspects to SEM-I compatible MRS ([RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm))
 
 Last update: 2013-07-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DelphinGlossary/_edit)]{% endraw %}
