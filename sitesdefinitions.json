@@ -319,6 +319,9 @@
       ]}
     ],
     "grammars": [
+      {"Section": "Overview", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarsOverview.md"}
+      ]},
       {"Section": "Norwegian", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "NorsourceTop.md", "Referrer": "home/GrammarCatalogue.md"}
       ]},
