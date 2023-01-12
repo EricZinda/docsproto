@@ -14,4 +14,5 @@ Group on word sense disambiguation over the Hinoki treebank/sensebank.
 Rebecca is working on Japanese question answering, using JACY to carry
 out question analysis, and hopes to expand the scope of her research to
 look at cross-language question answering.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinMelbourne/_edit)]{% endraw %}

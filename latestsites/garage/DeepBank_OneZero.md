@@ -128,4 +128,5 @@ DeepBank annotations are combined in the files below
 ‘conll/’, providing for each sub-section two variants, one using native
 ERG tokenization conventions, another using PTB-style tokens.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-02-14 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/DeepBank_OneZero/_edit)]{% endraw %}

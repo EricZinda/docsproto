@@ -135,4 +135,5 @@ See also: SmafSample
 # SMAF DTD
 
 See SmafDtd.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}

@@ -12,4 +12,5 @@ elsewhere)
 - Uses of SE
 - P+Det contractions Also very relevant to [Modern
 Greek]().
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/RomanceTop/_edit)]{% endraw %}

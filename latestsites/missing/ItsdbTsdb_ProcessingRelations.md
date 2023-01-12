@@ -9,4 +9,5 @@ the following relations:
 - *parse*  information
 - *result*
 - *edge*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-08 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTsdb_ProcessingRelations/_edit)]{% endraw %}

@@ -122,4 +122,5 @@ templates:
 - SlideShowHandOutTemplate
 - SlideShowTemplate
 - SlideTemplate
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SystemPagesInEnglishGroup/_edit)]{% endraw %}

@@ -31,4 +31,5 @@ should I do?]()
 at path (...)". What is causing this?]()
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureMultiType/_edit)]{% endraw %}

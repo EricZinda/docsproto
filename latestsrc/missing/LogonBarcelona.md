@@ -37,4 +37,5 @@ LKB sources, which in turn is part of the LOGON tree.
       $LOGONROOT/parse --binary --erg+tnt --count 6 --best 500 cb
     
       $LOGONROOT/parse --binary --wiki --count 6 --best 1 ws01
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonBarcelona/_edit)]{% endraw %}

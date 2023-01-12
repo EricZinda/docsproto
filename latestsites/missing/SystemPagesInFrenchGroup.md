@@ -81,4 +81,5 @@ pages d'aide:
 - [AidePréférencesUtilisateurs](/AidePr%C3%A9f%C3%A9rencesUtilisateurs)
 - [HelpOnXmlPages](/HelpOnXmlPages)
 - [HelpTemplate](/HelpTemplate)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SystemPagesInFrenchGroup/_edit)]{% endraw %}

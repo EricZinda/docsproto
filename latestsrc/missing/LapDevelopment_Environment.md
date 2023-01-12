@@ -22,4 +22,5 @@ will be dependencies among these).
 - LAPLOG:
 - LAPTMP:
 - LAPSVN:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-01-20 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Environment/_edit)]{% endraw %}

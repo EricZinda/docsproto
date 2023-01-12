@@ -79,4 +79,5 @@ Documentation of the process, templates, and process for taking one on
 - Accessibility (i.e. understandability by someone not practiced in the art of linguistics)
 - Allows "editors" to search for docs that need a review pass
 - Mark the doc as reviewed so future readers know who looked at it
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-07 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDWCharter/_edit)]{% endraw %}

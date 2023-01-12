@@ -9,4 +9,5 @@ introduced in **lex-or-phrase-synsem**. ('matrix.tdl', HPSG Grammar
 Matrix, 2008-05-23)
 
 Back to the Grammar Engineering Glossary.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeGlossaryVC/_edit)]{% endraw %}

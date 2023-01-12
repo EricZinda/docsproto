@@ -109,4 +109,5 @@ for grammaticality contrasts in \**We arrived the day* vs. *We arrived
 the first day.* Also used to control spurious ambiguity with pre- and
 post-head modification. Maybe also used to block iteration, e.g. with
 multiple cardinal adjectives.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-05-14 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem_Activities_DependentDimensions/_edit)]{% endraw %}

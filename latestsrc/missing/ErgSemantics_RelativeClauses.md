@@ -141,4 +141,5 @@ compositionality. Cognition, 57(2), 129-191.
 - Inventory of semantic phenomena (to be)
 documented
 - How to cite this work
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-12-19 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_RelativeClauses/_edit)]{% endraw %}

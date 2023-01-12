@@ -36,4 +36,5 @@ Berthold: Terrine de campagne, saucisson sec
 Bernd: bread(1), cheese
 
 [Uli's photos](https://erbonzo.smugmug.com/Sharing/DiderotPicnic/)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DiderotPicnic/_edit)]{% endraw %}

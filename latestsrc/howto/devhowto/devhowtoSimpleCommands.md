@@ -271,4 +271,5 @@ def delete_v_1(state, e_introduced, x_actor, x_what):
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-11 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleCommands.md)]{% endraw %}

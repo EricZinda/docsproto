@@ -1618,4 +1618,5 @@ Contents
 </tbody>
 </table>
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-02-21 by JimWhite [[edit](https://github.com/delph-in/docs/wiki/JimWhite_StarSemTokenTabulation/_edit)]{% endraw %}

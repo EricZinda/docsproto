@@ -36,4 +36,5 @@ Also it might be friendly to mention some of the known issues:
 - do we need to add notes for versions compiled with ACL 6.2 (where
 the encoding names are different)?
 - postscript/LaTeX printing from CLIM/LUI with non-ascii characters.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-02-13 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/LkbGrammarEncodingProposal/_edit)]{% endraw %}

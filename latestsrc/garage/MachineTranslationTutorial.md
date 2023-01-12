@@ -38,4 +38,5 @@
 - NoJa --- an early adopter --- gives outlines of what to
 change and where
 - LogonTransfer --- Transfer Rules
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-06-14 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationTutorial/_edit)]{% endraw %}

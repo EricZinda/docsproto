@@ -106,4 +106,5 @@ on its back." --- Lars
 - 🐦⊄🐧 --- Alex L.
 - "Let me rephrase your question as the question I would like to answer." --- Dan
 - "Documentation may not solve ALL our problems." FCB
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-19 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/FortuneCookies/_edit)]{% endraw %}

@@ -6,4 +6,5 @@
 - DanFlickinger
 - [LarsHellan](/LarsHellan)
 - BenWaldron
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-09 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationGroup/_edit)]{% endraw %}

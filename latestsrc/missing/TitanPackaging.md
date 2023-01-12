@@ -233,4 +233,5 @@ Are 'lowpri' jobs billed against my cpu quote too, I wonder? If so,
 there is a risk of fruitlessly burning cpu hours: we lack a functional
 checkpointing regime, hence any job that does not get to complete (on
 the node where it started) will be wasted effort.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/TitanPackaging/_edit)]{% endraw %}

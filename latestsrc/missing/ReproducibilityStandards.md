@@ -40,4 +40,5 @@ It is important to specify whether these metrics are calculated over:
 gold analysis
 - ElementaryDependencyMatch
 - DMRS
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-05 by PeterAdolphs [[edit](https://github.com/delph-in/docs/wiki/ReproducibilityStandards/_edit)]{% endraw %}

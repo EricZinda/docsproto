@@ -125,4 +125,5 @@ across predicates and languages)?
 
 <img src="http://svn.emmtee.net/trunk/cas/udmc/0318/relatives.jpg" title="http://svn.emmtee.net/trunk/cas/udmc/0318/relatives.jpg" class="external_image" alt="http://svn.emmtee.net/trunk/cas/udmc/0318/relatives.jpg" />
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-03-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem_MeaningConstruction/_edit)]{% endraw %}

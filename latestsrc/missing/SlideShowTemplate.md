@@ -9,4 +9,5 @@
 - ...
 - [/900 What's last?](/SlideShowTemplate/900%20What%27s%20last%3F)
 - ../SlideShowHandOutTemplate
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SlideShowTemplate/_edit)]{% endraw %}

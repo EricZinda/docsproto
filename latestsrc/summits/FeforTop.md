@@ -137,4 +137,5 @@ organizers]().
 # Photos
 
 Please post conference photos on FeforPhotos!
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}
