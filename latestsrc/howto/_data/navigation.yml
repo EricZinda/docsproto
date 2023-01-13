@@ -76,6 +76,8 @@ toc:
         url: "/devhowto/devhowtoUnknownWords/"
       - title: "Predication Signatures and Usage"
         url: "/devhowto/devhowtoPredicationArgumentsAndUsage/"
+      - title: "Diagnostics"
+        url: "/devhowto/devhowtoDiagnostics/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"
       - title: "B. Parsing Predications"
