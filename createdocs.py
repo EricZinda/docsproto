@@ -311,7 +311,7 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
                 wiki_link_state, _, wiki_targeted_file, new_link = get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link[1:])
                 if wiki_link_state == "relative_success":
                     return "absolute_broken_but_valid_misformed_wiki_link", result["Message"], wiki_targeted_file, ""
-                
+
                 else:
                     # just a plain old broken link
                     return "absolute_broken", result["Message"], None, ""

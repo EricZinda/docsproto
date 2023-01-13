@@ -74,6 +74,7 @@
         {"Page": "Choosing the 'Right' Tree", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoWhichParseAndTree.md", "DstFile": "devhowto/devhowtoWhichParseAndTree.md"},
         {"Page": "Unknown Words and Synonyms", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoUnknownWords.md", "DstFile": "devhowto/devhowtoUnknownWords.md"},
         {"Page": "Predication Signatures and Usage", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPredicationArgumentsAndUsage.md", "DstFile": "devhowto/devhowtoPredicationArgumentsAndUsage.md"},
+        {"Page": "Diagnostics", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoDiagnostics.md", "DstFile": "devhowto/devhowtoDiagnostics.md"},
         {"Page": "A. Python Decorators", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoPythonDecorators.md", "DstFile": "devhowto/devhowtoPythonDecorators.md"},
         {"Page": "B. Parsing Predications", "SrcDir": "perplexity", "SrcFile": "docs/devhowto/devhowtoParsePredication.md", "DstFile": "devhowto/devhowtoParsePredication.md"}
       ]},
