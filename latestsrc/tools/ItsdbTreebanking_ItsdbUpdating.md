@@ -10,10 +10,10 @@ correct.
 
 Contents
 
-1. Page Status
-2. Updating
-   1. Fully Automatic Update
-   2. Interactive Update
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
+2. [Updating](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
+   1. [Fully Automatic Update](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
+   2. [Interactive Update](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbUpdating)
 
 # Updating
 

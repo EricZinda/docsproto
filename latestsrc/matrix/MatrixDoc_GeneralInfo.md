@@ -72,7 +72,7 @@ unless required by law.
 ### Version Control
 
 Highly recommended, even for smaller grammar development projects.
-Please consult the wiki on
+Please consult the [wiki](https://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment) on
 version control for grammar development.
 
 # Upcoming Work

@@ -17,6 +17,6 @@ Case-sensitive searching
 
 * * *
 
-KategorieKategorie
+[KategorieKategorie](https://blog.inductorsoftware.com/docsproto/missing/KategorieKategorie)
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KategorieHomepage/_edit)]{% endraw %}

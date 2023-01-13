@@ -16,7 +16,7 @@ realistic syntactic analysis. In *Proceedings of the 13th International
 Conference on Parsing Technologies*, Nara, Japan.
 
 Details of the software and data used in that paper are available
-here.
+[here](https://blog.inductorsoftware.com/docsproto/missing/WeSearch_DocumentParsing).
 
 The code is distributed through a Subversion (SVN) repository. For
 read-only access, please use a command like the following:

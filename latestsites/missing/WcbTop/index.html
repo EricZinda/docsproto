@@ -857,8 +857,8 @@
 
 <p>The <em>Wikipedia Corpus Builder</em> (WCB) is a toolkit for extracting
 relevant linguistic content from Wikipedia. It was used in the creation
-of the 2012 versions of WeScience and
-WikiWoods, through the MSc thesis of Lars Jørgen Solberg at
+of the 2012 versions of <a href="https://blog.inductorsoftware.com/docsproto/garage/WeScience">WeScience</a> and
+<a href="https://blog.inductorsoftware.com/docsproto/garage/WikiWoods">WikiWoods</a>, through the MSc thesis of Lars Jørgen Solberg at
 the Department of Informatics at the University of Oslo.</p>
 
 <h1 id="installation">Installation</h1>
@@ -884,14 +884,14 @@ should be in good shape.</p>
 
 <h1 id="running-on-the-english-wikipedia">Running on the English Wikipedia</h1>
 
-<p>The setup used in the creation of WikiWoods 2.0 is included
+<p>The setup used in the creation of <a href="https://blog.inductorsoftware.com/docsproto/garage/WikiWoods">WikiWoods</a> 2.0 is included
 in the wcb/enwiki-20080727 directory. It should be usable on newer
 snapshots as well.</p>
 
 <p>First prepare a database snapshot:</p>
 
 <ol>
-  <li>Download a snapshot from either from the WikiWoods page
+  <li>Download a snapshot from either from the <a href="https://blog.inductorsoftware.com/docsproto/garage/WikiWoods">WikiWoods</a> page
 or from <a href="http://dumps.wikimedia.org/">http://dumps.wikimedia.org/</a>.</li>
   <li>Decompress the the snapshot:
 bunzip enwiki-20080727-pages-articles.xml.bz2</li>
@@ -907,7 +907,7 @@ This variable can be set by doing something like
 export PATHSFILE=./wcb/enwiki-20080727/paths.txt.</p>
 
 <p>As a test run ./wcb/scripts/gml.py –senseg ’Context-free language’,
-which should print some GML to stdout. The first invocation of
+which should print some <a href="https://blog.inductorsoftware.com/docsproto/tools/ErgGml">GML</a> to stdout. The first invocation of
 this command will take some time as it will examine all templates in the
 snapshot.</p>
 
@@ -945,7 +945,7 @@ separated file (actually “underscore separated”) where each row starts
 with the name of a template (or a regular expression) followed by one of
 the actions keep, remove or expand. Templates not listed in the rules
 file is expanded as normal. The template rules used in the creation of
-WikiWoods 2.0 can be seen here:
+<a href="https://blog.inductorsoftware.com/docsproto/garage/WikiWoods">WikiWoods</a> 2.0 can be seen here:
 <a href="https://github.com/larsjsol/wcb/blob/master/enwiki-20080727/templaterules.csv">https://github.com/larsjsol/wcb/blob/master/enwiki-20080727/templaterules.csv</a>
 .</p>
 

@@ -65,7 +65,7 @@ representation for any analysis of the input. In order to handle
 these cases, the ERG introduces an EP with the predicate
 implicit\_conj, treating the run-on as the coordination of two
 utterances (or recursively, of more). When part of a run-on consists
-of a sentence fragment, the fragment rules
+of a sentence fragment, the [fragment](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Fragments) rules
 are also invoked, leading to unknown mediating between the
 implicit\_conj predication and the internal semantics of the
 fragment constituent. It follows that the coordination involved in
@@ -119,9 +119,9 @@ fingerprints.
 
 # More Information
 
-- ErgSemantics main page
-- Inventory of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- How to cite this work
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
 Last update: 2015-06-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Coordination/_edit)]{% endraw %}

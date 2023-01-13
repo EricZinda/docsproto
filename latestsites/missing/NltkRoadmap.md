@@ -1,13 +1,13 @@
 {% raw %}This page describes the plans and actions required for getting DELPH-IN
 data and processing into the NLTK. For some context, please see this
-discussion from the 2016 Stanford Summit.
+[discussion](https://blog.inductorsoftware.com/docsproto/summits/StanfordNltk) from the [2016 Stanford Summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordTop).
 
 Contents
 
-1. Motivation
-2. Goals
-3. Tasks
-4. Questions
+1. [Motivation](https://blog.inductorsoftware.com/docsproto/missing/NltkRoadmap)
+2. [Goals](https://blog.inductorsoftware.com/docsproto/missing/NltkRoadmap)
+3. [Tasks](https://blog.inductorsoftware.com/docsproto/missing/NltkRoadmap)
+4. [Questions](https://blog.inductorsoftware.com/docsproto/missing/NltkRoadmap)
 
 # Motivation
 

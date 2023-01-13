@@ -23,7 +23,7 @@ deeper parses
 rule spinning
 
 Some of these commands assume you have lkb.el loaded and are in
-lkb-mode, if so there are even more commands documented here.
+lkb-mode, if so there are even more commands [documented here](https://blog.inductorsoftware.com/docsproto/tools/LkbMode).
 
 Some additional useful emacs short cuts include:
 

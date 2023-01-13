@@ -7,19 +7,19 @@ SystemSeiten:
 - TitelIndex
 - WortIndex
 - WegWeiser
-- SeiteFinden
-- BenutzerEinstellungen
+- [SeiteFinden](https://blog.inductorsoftware.com/docsproto/missing/SeiteFinden)
+- [BenutzerEinstellungen](https://blog.inductorsoftware.com/docsproto/missing/BenutzerEinstellungen)
 - AufgegebeneSeiten
 - VerwaisteSeiten
 - GesuchteSeiten
-- EventStats
-- EventStats/HitCounts
-- EventStats/UserAgents
+- [EventStats](https://blog.inductorsoftware.com/docsproto/missing/EventStats)
+- [EventStats/HitCounts](https://blog.inductorsoftware.com/docsproto/missing/EventStats_HitCounts)
+- [EventStats/UserAgents](https://blog.inductorsoftware.com/docsproto/missing/EventStats_UserAgents)
 - [SeitenGröße](/SeitenGr%C3%B6%C3%9Fe)
 - InterWiki
 - ZufallsSeite
 - StructuredText
-- SystemInfo
+- [SystemInfo](https://blog.inductorsoftware.com/docsproto/missing/SystemInfo)
   
   - [SystemSeitenGruppe](/SystemSeitenGruppe)
 - HomepageImWiki
@@ -29,7 +29,7 @@ SystemSeiten:
 - WikiWikiWeb
 - XsltVersion
   
-  - StartSeite - darf nicht auf 1. Level, denn i.d.R.
+  - [StartSeite](https://blog.inductorsoftware.com/docsproto/missing/StartSeite) - darf nicht auf 1. Level, denn i.d.R.
 will man die nicht updaten.
 
 HilfeSeiten:
@@ -102,8 +102,8 @@ Wiki-Schulung:
 
 Kategorien:
 
-- KategorieKategorie
-- KategorieHomepage
+- [KategorieKategorie](https://blog.inductorsoftware.com/docsproto/missing/KategorieKategorie)
+- [KategorieHomepage](https://blog.inductorsoftware.com/docsproto/missing/KategorieHomepage)
 
 Vorlage:
 

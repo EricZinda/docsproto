@@ -1,8 +1,8 @@
 {% raw %}DELPH-IN research on Multiword Expressions (MWE).
 
-- Guide to the Idiom Machinery: JacyIdiom
+- Guide to the Idiom Machinery: [JacyIdiom](https://blog.inductorsoftware.com/docsproto/grammars/JacyIdiom)
 - Discussion at Saarland Summit:
-SaarlandMweDiscussion
+[SaarlandMweDiscussion](https://blog.inductorsoftware.com/docsproto/summits/SaarlandMweDiscussion)
 - [[VirtualMwe]]
 - [[SingaporeRepresentingMwes]]
 

@@ -2,8 +2,8 @@
 
 This page shows how a trigram model for transfer ranking can be built.
 The first part shows how profiles with MRSs can be built and how MRS
-triples can be exported. It overlaps with DelphinTools
-and RedwoodsTop. The second part shows
+triples can be exported. It overlaps with [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools)
+and [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop). The second part shows
 ErikVelldal's procedure for creating an MRS trigram
 model.
 
@@ -14,7 +14,7 @@ The procedure requires three tools:
 - The CMU Toolkit (\[<http://mi.eng.cam.ac.uk/~prc14/toolkit.html>\]),
 - SMT [QuickRun](/QuickRun)
 (\[<http://ufal.ms.mff.cuni.cz/~curin/SMT_QuickRun/>\]), and
-- DelphinTools.
+- [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools).
 
 The installation of the CMU Toolkit may conflict with Logon, so you may
 need to comment out the Logon settings in the .bashrc file temporarily
@@ -31,7 +31,7 @@ First, set a variable and a path:
 
 This step is needed if you do not have a profile. It shows how you can
 get a profile from the object sentences of a bilingual corpus file. (See
-also DelphinTools.) The first command below creates a
+also [DelphinTools](https://blog.inductorsoftware.com/docsproto/garage/DelphinTools).) The first command below creates a
 new version of the bilingual corpus, where the object language comes
 first. The second command parses the sentences in the object language
 and stores the MRSs (of the five top ranked parses) in 'bitxt.'
@@ -42,7 +42,7 @@ and stores the MRSs (of the five top ranked parses) in 'bitxt.'
 ## Exporting triples from the profiles
 
 This command extracts triples from the top ranked MRSs of the profile
-created above. (See RedwoodsTop.)
+created above. (See [RedwoodsTop](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop).)
 
     $TSDBHOME/export --binary  --condition "result-id=0" --format triples bitxt/omrs
 

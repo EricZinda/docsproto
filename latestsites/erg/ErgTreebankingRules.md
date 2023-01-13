@@ -1,6 +1,6 @@
 {% raw %}# Lexical distinctions
 
-- See documentation at ErgTop
+- See documentation at [ErgTop](https://blog.inductorsoftware.com/docsproto/erg/ErgTop)
 
 # Rule distinctions
 

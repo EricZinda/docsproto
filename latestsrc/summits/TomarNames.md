@@ -3,7 +3,7 @@
 ## Dan's intro
 
 This session I proposed for the agenda again for a fairly selfish
-reason: In working through the DeepBank treebanking, and
+reason: In working through the [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) treebanking, and
 hearing quite reasonable complaints about inconsistent annotation…
 there's a large class of cases where our formalism or our current use of
 it doesn't quite guide us in the right direction of uniform annotation
@@ -57,7 +57,7 @@ every word is capitalized by convention and it doesn't mean that the
 author is using the words in a funny way. Does author of *Dept. of
 Justice Shrinks.* mean *Justice* or *justice*?
 
-In Bellingham, tried to figure out
+In [Bellingham](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014ProperNouns), tried to figure out
 how to minimize the difference between named entities and non-named
 entities. The proposal I'm interested in exploring is having the
 predicate name in all nouns be \_\[lemma\]\_n\_rel for *State* or
@@ -263,7 +263,7 @@ where we can't annotate it when it is possible.
 Woodley: So you're saying it's speaker meaning and not sentence meaning?
 
 Dan: To the extent that I understand and believe in that distinction,
-yes. But I also take Ann's point. In SemCor and other data,
+yes. But I also take Ann's point. In [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) and other data,
 it's not a problem. It's when we move to a technical domain---I did see
 it to some extent in the chemistry domain, but there we already had a NE
 analyzer go before we went in.

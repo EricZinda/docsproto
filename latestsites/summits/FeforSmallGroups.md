@@ -41,10 +41,10 @@ Short descriptions of particular resources for small groups. Possibly
 including:
 
 - DanFlickinger: Semantic test suite (for people who
-haven't seen it, in advance of discussion in FeforRmrs)
+haven't seen it, in advance of discussion in [FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs))
 - AnnCopestake: Algebra checking tool (for people who
 haven't seen it, preferably in advance of discussion of algebra in
-FeforRmrs)
+[FeforRmrs](https://blog.inductorsoftware.com/docsproto/summits/FeforRmrs))
 - DanFlickinger: LUI (alternative user interface for
 LKB)
 - DanFlickinger: Generation - trigger rules,
@@ -77,7 +77,7 @@ Participants may wish to sign up with leaders in advance of Fefor.
 - HoG: UlrichSchaefer (cf. [Heart of Gold
 documentation](http://heartofgold.dfki.de/doc/heartofgolddoc.pdf))
 - \[incr tsdb()\]: StephanOepen (see [On-Line
-Documentation]())
+Documentation](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop))
 - LexDB: BenWaldron
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforSmallGroups/_edit)]{% endraw %}

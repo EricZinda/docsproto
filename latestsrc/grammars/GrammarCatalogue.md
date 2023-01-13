@@ -6,35 +6,35 @@ generating metadata.
 |--------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------|
 | Name                                                                     | Language                                               | Maintainer                                   |
 | *Resource Grammars*                                                      |                                                        |                                              |
-| English Resource Grammar (ERG)                  | English                                                | DanFlickinger               |
-| Jacy Japanese Grammar (Jacy)                   | Japanese                                               | FrancisBond                   |
-| GG                                               | German                                                 |                                              |
-| SRG                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)      |
-| LXGram                                       | Portuguese                                             | AntonioBranco               |
-| KRG                                             | Korean                                                 | JongBokKim                     |
+| [English Resource Grammar (ERG)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                  | English                                                | DanFlickinger               |
+| [Jacy Japanese Grammar (Jacy)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                   | Japanese                                               | FrancisBond                   |
+| [GG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                               | German                                                 |                                              |
+| [SRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)      |
+| [LXGram](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Portuguese                                             | AntonioBranco               |
+| [KRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Korean                                                 | JongBokKim                     |
 | MGRG                                                                     | Modern Greek                                           | ValiaKordoni                 |
-| NorSource                                                | Norwegian                                              | [LarsHellan](/LarsHellan)                    |
-| G-CLIMB German                                  | German                                                 | AntskeFokkens               |
+| [NorSource](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceTop)                                                | Norwegian                                              | [LarsHellan](/LarsHellan)                    |
+| [G-CLIMB German](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                  | German                                                 | AntskeFokkens               |
 | *Treebank-trained grammars*                                              |                                                        |                                              |
-| Cheetah                                     | German                                                 | BartCramer                     |
+| [Cheetah](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                     | German                                                 | BartCramer                     |
 | *Medium-sized linguistic grammars*                                       |                                                        |                                              |
 | La Grenouille                                                            | French                                                 | JesseTseng                     |
-| MCG                                             | Mandarin Chinese                                       | YiZhang                           |
-| BURGER                                       | Bulgarian                                              | PetyaOsenova                 |
-| wmb (wmb)                                       | Wambaya                                                | Emily M. Bender                              |
+| [MCG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | YiZhang                           |
+| [BURGER](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Bulgarian                                              | PetyaOsenova                 |
+| [wmb (wmb)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Wambaya                                                | Emily M. Bender                              |
 | HaG                                                                      | Hausa                                                  | BertholdCrysmann         |
-| RRG                                             | Russian                                                | TaniaAvgustinova         |
-| G-CLIMB Dutch                                   | Dutch                                                  | AntskeFokkens               |
-| ManGO                                           | Mandarin Chinese                                       | JustinChunleiYang       |
-| HeGram                                       | Hebrew                                                 | LivnatHerzigSheinfux |
-| Indonesian Resource Grammar (INDRA)           | Indonesian                                             | DavidMoeljadi               |
-| [Zhong \[∣\]]()                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                  |
+| [RRG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Russian                                                | TaniaAvgustinova         |
+| [G-CLIMB Dutch](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                   | Dutch                                                  | AntskeFokkens               |
+| [ManGO](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | JustinChunleiYang       |
+| [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                       | Hebrew                                                 | LivnatHerzigSheinfux |
+| [Indonesian Resource Grammar (INDRA)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)           | Indonesian                                             | DavidMoeljadi               |
+| [Zhong \[∣\]](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                  |
 | *Experimental grammars*                                                  |                                                        |                                              |
 |                                                                          | Turkish                                                | AntskeFokkens               |
 |                                                                          | Georgian                                               | [IrinaBorisova](/IrinaBorisova)              |
 |                                                                          | [Thai](http://www.thai-language.com/testsuite-results) | GlennSlayden                 |
-| Vietnamese Resource Grammar Obviously (VIRGO) | Vietnamese                                             | TuanAnhLe                       |
-| RQG                                             | Russian                                                | OlgaZamaraeva               |
+| [Vietnamese Resource Grammar Obviously (VIRGO)](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue) | Vietnamese                                             | TuanAnhLe                       |
+| [RQG](https://blog.inductorsoftware.com/docsproto/grammars/GrammarCatalogue)                                             | Russian                                                | OlgaZamaraeva               |
 
 <a name="ERG"/>
 
@@ -176,10 +176,10 @@ generating metadata.
 | maintainer                   | BartCramer                                                |
 | contributors                 | YiZhang                                                      |
 | latest release               | (v0.39) In the Paris release of LOGON                                   |
-| website                      | CheetahTop                                                |
+| website                      | [CheetahTop](https://blog.inductorsoftware.com/docsproto/grammars/CheetahTop)                                                |
 | vcs                          | svn co <http://svn.emmtee.net/trunk/coli/cheetah>                       |
 | demo                         | \-                                                                      |
-| documentation                | CheetahTop                                                |
+| documentation                | [CheetahTop](https://blog.inductorsoftware.com/docsproto/grammars/CheetahTop)                                                |
 | canonical citation           | Cramer & Zhang, 2009 (GEAF)                                             |
 | license                      | MIT license                                                             |
 | grammar type                 | Treebank-derived grammar                                                |
@@ -224,7 +224,7 @@ generating metadata.
 | website                      | <http://www.coli.uni-saarland.de/~tania/rrg/> |
 | vcs                          |                                               |
 | demo                         |                                               |
-| documentation                | SlavicTop                        |
+| documentation                | [SlavicTop](https://blog.inductorsoftware.com/docsproto/grammars/SlavicTop)                        |
 | canonical citation           | Avgustinova & Zhang, 2009                     |
 | license                      | LGPL-LR                                       |
 | grammar type                 | medium-sized linguistic grammar               |
@@ -244,7 +244,7 @@ generating metadata.
 | website                      | <https://olzama.github.io/rqg.zip/>        |
 | vcs                          |                                                          |
 | demo                         |                                                          |
-| documentation                | RussianQuestionsGrammarTop |
+| documentation                | [RussianQuestionsGrammarTop](https://blog.inductorsoftware.com/docsproto/grammars/RussianQuestionsGrammarTop) |
 | canonical citation           | Zamaraeva 2021                                       |
 | license                      | LGPL-LR                                                  |
 | grammar type                 | Matrix-based experimental linguistic grammar             |
@@ -413,7 +413,7 @@ generating metadata.
 | maintainer                   | LivnatHerzigSheinfux                                                                                                                                      |
 | contributors                 | LivnatHerzigSheinfux, TaliAradGreshler, PetterHaugereid, NuritMelnik, [ShulyWintner](/ShulyWintner) |
 | July 2013                    |                                                                                                                                                                                   |
-| website                      | HeGram (Delph-In) and [HeGram](http://cl.haifa.ac.il/projects/HeGram/index.shtml) (Haifa)                                                                               |
+| website                      | [HeGram](https://blog.inductorsoftware.com/docsproto/grammars/HeGram) (Delph-In) and [HeGram](http://cl.haifa.ac.il/projects/HeGram/index.shtml) (Haifa)                                                                               |
 | vcs                          |                                                                                                                                                                                   |
 | demo                         |                                                                                                                                                                                   |
 | documentation                |                                                                                                                                                                                   |

@@ -1,21 +1,21 @@
 {% raw %}Contents
 
-1. Setting up Jacy
-   1. Calling Jacy from Emacs
-   2. Using JACY with PET
+1. [Setting up Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   1. [Calling Jacy from Emacs](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   2. [Using JACY with PET](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
 2. [Using JACY with \[incr
-tsdb()\]]()
-   1. Using JACY with itsdb and PET
-3. Graphical User Interface
-   1. LUI
-   2. CLIM
+tsdb()\]](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   1. [Using JACY with itsdb and PET](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+3. [Graphical User Interface](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   1. [LUI](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
+   2. [CLIM](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
 
 # Setting up Jacy
 
 Here are some incomplete and sometime out-of-date instructions on how to
-install and run Jacy. First you must install the
-LKB or PET. Note that currently the automated
-installation (LkbInstallation) with the option --jacy
+install and run [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop). First you must install the
+[LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) or [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop). Note that currently the automated
+installation ([LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation)) with the option --jacy
 gives an old version of the grammar.
 
 If you want to use [ChaSen](http://chasen.naist.jp) for segementation
@@ -24,7 +24,7 @@ and unknown word handling, then you must also install it.
 Although the lkb will run standalone, there are problems with Japanese
 input. The recommended way to run it is from inside emacs, using the eli
 interface. Install the lkb and eli (following the instructions in
-LkbEmacs), you can run Lisp with a UTF locale
+[LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs)), you can run Lisp with a UTF locale
 (ja\_JP.UTF-8), but we change it internally anyway.
 
 Now load everything, LKB, MRS, plus \[incr tsdb()\]:
@@ -192,13 +192,13 @@ output and produces default lexical types for unknown words.
 ## LUI
 
 The main graphical user interface with the LKB is now the [Linguistic
-User Interface (LUI)](). Unfortunately, the default setup does not
+User Interface (LUI)](https://blog.inductorsoftware.com/docsproto/tools/LkbLui). Unfortunately, the default setup does not
 display Japanese under Unix. There are two ways to fix things:
 
 \* Install Pavel's Pangolui as an [Alternative Lui
-Implementation]() (recommended)
+Implementation](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) (recommended)
 
-\* Set up .luirc to specify Japanese fonts
+\* Set up [.luirc](https://blog.inductorsoftware.com/docsproto/tools/LuiRc) to specify Japanese fonts
 
 ## CLIM
 

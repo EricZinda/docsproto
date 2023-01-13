@@ -7,7 +7,7 @@ Matrix](http://www.delph-in.net/matrix) and the [the Montage
 project](http://depts.washington.edu/uwcl/Montage).
 
 The LinGO Grammar Matrix, developed in collaboration with
-DelphinLingo and DelphinOslo, is a
+[DelphinLingo](https://blog.inductorsoftware.com/docsproto/missing/DelphinLingo) and [DelphinOslo](https://blog.inductorsoftware.com/docsproto/missing/DelphinOslo), is a
 starter-kit for the rapid prototyping of scaleable precision grammars.
 Initial development of the Matrix was based on the [LinGO English
 Resource Grammar](http://www.delph-in.net/erg/) and the [JACY Japanese

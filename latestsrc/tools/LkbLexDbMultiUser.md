@@ -1,13 +1,13 @@
 {% raw %}# MULTI USER LexDB
 
 - First, set up psql. This is discussed in
-LexDbPsqlInitialize.
+[LexDbPsqlInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbPsqlInitialize).
 - The next steps are to initialize a database, populate it with
 lexicon entries and finally to tell the LKB to use this when you
 load a grammar. The database initialization described here is for
 multi user mode. The subsequent steps are similar for single user
 and multi user mode and are described in
-LexDbInitialize.
+[LexDbInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize).
 
 ## HOW TO initialise LexDB
 
@@ -16,7 +16,7 @@ database structures must then be initialized. For the purpose of these
 instructions assume the LexDB will be called erg with LexDB config files
 \~/erg/lexdb.\*; if you do not yet have a .fld and a .dfn file you must
 create these before proceeding (see
-LexDbFieldMappings); you also need a .rev file
+[LexDbFieldMappings](https://blog.inductorsoftware.com/docsproto/tools/LexDbFieldMappings)); you also need a .rev file
 with which to populate the database.
 
 - At shell prompt (M$ Windows users will need Cygwin):
@@ -71,6 +71,6 @@ command such as the following:
 
 ## HOW TO get the LKB to use the Lex DB
 
-See LexDbInitialize
+See [LexDbInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize)
 
 Last update: 2009-04-10 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LkbLexDbMultiUser/_edit)]{% endraw %}

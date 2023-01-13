@@ -3,7 +3,7 @@
 The task is visual question answering. Previous datasets allow good
 performance without using the image (50% without vs. 60% with). So,
 there has been a move to artificial datasets.
-ShapeWorld is a configurable and extensible
+[ShapeWorld](https://blog.inductorsoftware.com/docsproto/summits/MultilingualShapeworld) is a configurable and extensible
 system for generating captions.
 
 Glenn: There are infinite descriptions of even the simplest picture.

@@ -130,7 +130,7 @@ Lab](http://lingo.stanford.edu/)
 ## M
 
 - Matrix (see Grammar Matrix)
-- MC \[feature: Main Clause\]
+- [MC](https://blog.inductorsoftware.com/docsproto/missing/GeGlossaryMC) \[feature: Main Clause\]
 - MOD
 - Modifier
 - MOOD
@@ -204,7 +204,7 @@ Lab](http://lingo.stanford.edu/)
 
 - VAL
 - Valence
-- VC \[feature: Verb Cluster\]
+- [VC](https://blog.inductorsoftware.com/docsproto/missing/GeGlossaryVC) \[feature: Verb Cluster\]
 
 * * *
 

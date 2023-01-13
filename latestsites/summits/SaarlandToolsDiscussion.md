@@ -16,7 +16,7 @@ Demo of the converter
 
 Demo of STAG
 
-Dan: Hope that the tools are added to ToolsTop. Putting in
+Dan: Hope that the tools are added to [ToolsTop](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop). Putting in
 the links would be helpful.
 
 ## Discussion after Mike's presentation on statistical transfer

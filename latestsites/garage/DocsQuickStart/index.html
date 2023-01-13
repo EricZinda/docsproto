@@ -488,21 +488,21 @@
       <section class="page__content e-content" itemprop="text">
         
         <h1 id="updating-the-docs">Updating the docs</h1>
-<p>The DELPH-IN docs are generated from the content in any GitHub repository including the <a href="https://github.com/delph-in/docs/wiki">DELPH-IN wiki</a> and the <a href="https://github.com/EricZinda/docsproto">DELPH-IN docs wiki</a>. Pages from a repository are included in the docs simply by adding a row to a configuration file, as described below. Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site.</p>
+<p>The DELPH-IN docs are generated from the content in any GitHub repository including the <a href="https://github.com/delph-in/docs/wiki">DELPH-IN wiki</a> and the <a href="https://github.com/EricZinda/docsproto">DELPH-IN docs wiki</a>. Pages from a repository are included in the docs simply by adding a row to a configuration file, <a href="https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart">as described below</a>. Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site.</p>
 
 <p>This is all managed in a git repository, so changes are tracked, can be reverted, etc.  Mistakes can be cleaned up, don’t worry about messing things up!</p>
 
 <h2 id="how-to-add-pages-to-the-docs">How to Add Pages to the Docs</h2>
 <ol>
   <li>Create the pages you want in the <a href="https://github.com/delph-in/docs/wiki">DELPH-IN wiki</a> or the <a href="https://github.com/EricZinda/docsproto">DELPH-IN docs wiki</a>.</li>
-  <li>Edit the <a href="https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json">sitesdefinitions.json file</a> in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see The Site Definition File below.</li>
-  <li><a href="https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml">Run the workflow</a> to regenerate the documentation by clicking on the <code class="language-plaintext highlighter-rouge">Run Workflow</code> button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see Running the Workflow below.</li>
+  <li>Edit the <a href="https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json">sitesdefinitions.json file</a> in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see <a href="https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart">The Site Definition File</a> below.</li>
+  <li><a href="https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml">Run the workflow</a> to regenerate the documentation by clicking on the <code class="language-plaintext highlighter-rouge">Run Workflow</code> button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see <a href="https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart">Running the Workflow</a> below.</li>
 </ol>
 
 <h3 id="the-site-definition-file">The Site Definition File</h3>
 <p>The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON">JSON format</a>.</p>
 
-<p>Changing/Adding/Removing anything <em>except the top level navigation</em> in the site involves simply <a href="https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json">editing the file</a> and re-running the workflow.  If you want to add or remove the <em>top level organization of the site</em> (i.e. the navigation links across the top of every page), there is a little more to do, see Modifying the Site Structure below.</p>
+<p>Changing/Adding/Removing anything <em>except the top level navigation</em> in the site involves simply <a href="https://github.com/EricZinda/docsproto/blob/main/sitesdefinitions.json">editing the file</a> and <a href="https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart">re-running the workflow</a>.  If you want to add or remove the <em>top level organization of the site</em> (i.e. the navigation links across the top of every page), there is a little more to do, see <a href="https://blog.inductorsoftware.com/docsproto/garage/DocsQuickStart">Modifying the Site Structure</a> below.</p>
 
 <p>A simplified version of the production file is below. The file has 3 initial sections that rarely need to be changed: <code class="language-plaintext highlighter-rouge">Comments</code>, <code class="language-plaintext highlighter-rouge">SourceRepositores</code>, and <code class="language-plaintext highlighter-rouge">Sites</code>.  These define what data can be included in the site and what the top level structure is.</p>
 
@@ -560,7 +560,7 @@
 
 <p>The format is designed to make it easy to move files around, redefine sections, sites, etc. Just running the workflow again will create the new site structure.</p>
 
-<p>More detail on the structure and background is in the DELPH-IN Docs Reference Guide.</p>
+<p>More detail on the structure and background is in the <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference">DELPH-IN Docs Reference Guide</a>.</p>
 <h2 id="running-the-workflow">Running the Workflow</h2>
 <p><a href="https://github.com/EricZinda/docsproto/actions/workflows/BuildDocs.yml">Run the workflow</a> to regenerate the documentation by clicking on the <code class="language-plaintext highlighter-rouge">Run Workflow</code> button on that link.  It takes about 10 minutes to regenerate.</p>
 
@@ -574,10 +574,10 @@
 
 <p>If it failed, click on the row that represents the run you just did and you’ll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the “build” part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.</p>
 
-<p>More detail on the workflow is in the DELPH-IN Docs Reference Guide.</p>
+<p>More detail on the workflow is in the <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference">DELPH-IN Docs Reference Guide</a>.</p>
 
 <h2 id="modifying-the-site-structure">Modifying the Site Structure</h2>
-<p>To modify the site structure, see the DELPH-IN Docs Reference Guide.</p>
+<p>To modify the site structure, see the <a href="https://blog.inductorsoftware.com/docsproto/garage/DelphinDocsReference">DELPH-IN Docs Reference Guide</a>.</p>
 
 <p>Last update: 2023-01-11 by EricZinda [<a href="https://github.com/ericzinda/docsproto/edit/main/DocsQuickStart.md">edit</a>]</p>
 

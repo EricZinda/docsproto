@@ -14,7 +14,7 @@ punctuation characters to the list in lkb/globals.lsp.
 ## Related topics
 
 - [What non-alphanumeric characters are allowed to be part of a string
-parsed by the LKB, and how can I change that?]()
+parsed by the LKB, and how can I change that?](https://blog.inductorsoftware.com/docsproto/matrix/GeFaqNonAlpha)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
 

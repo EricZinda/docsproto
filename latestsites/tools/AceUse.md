@@ -1,9 +1,9 @@
-{% raw %}Some common use examples for Ace, illustrated with
-Jacy:
+{% raw %}Some common use examples for [Ace](https://blog.inductorsoftware.com/docsproto/tools/AceTop), illustrated with
+[Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop):
 
-For the full list of command line options see AceOptions.
+For the full list of command line options see [AceOptions](https://blog.inductorsoftware.com/docsproto/tools/AceOptions).
 For some discussions of picking best values for the ERG, see
-AceErgTuning.
+[AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning).
 
 ## Parsing
 
@@ -66,7 +66,7 @@ These refer to (FCB thinks):
 ### YY input mode
 
 The YY input mode (see the corresponding section in
-PetInput) allows you to pass information such as POS tags.
+[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)) allows you to pass information such as POS tags.
 
     cat yy.txt | ace -g erg1214.dat -y
 

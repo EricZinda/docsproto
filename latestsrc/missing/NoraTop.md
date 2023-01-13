@@ -20,7 +20,7 @@ Corpus](http://acl-arc.comp.nus.edu.sg/), the
 This page (and other NORA sub-pages), at least as of August 2009,
 primarily serve for project-internal communication. Access to these
 pages is limited to registered wiki users, using the exact user name
-registered on the NoraGroup page. Please contact
+registered on the [NoraGroup](https://blog.inductorsoftware.com/docsproto/missing/NoraGroup) page. Please contact
 StephanOepen or [GisleYtrestol](/GisleYtrestol), in case
 you want additional NORA pages to be created, experience difficulties
 with reading or editing these pages, or need assistance related to wiki
@@ -30,13 +30,13 @@ usage more generally.
 
 The WeScience<sub>0</sub> effort can be sub-divided by basic processing
 tasks. These include (a) PDF Inspection
-(NoraInspection), (b) text extraction
-(NoraExtraction), (c) language identification
-(NoraIdentification), (d) text correction
-(NoraCorrection), (e) sentence boundara detection
-(NoraSegmentation), and (f) interfacing to the
+([NoraInspection](https://blog.inductorsoftware.com/docsproto/missing/NoraInspection)), (b) text extraction
+([NoraExtraction](https://blog.inductorsoftware.com/docsproto/missing/NoraExtraction)), (c) language identification
+([NoraIdentification](https://blog.inductorsoftware.com/docsproto/missing/NoraIdentification)), (d) text correction
+([NoraCorrection](https://blog.inductorsoftware.com/docsproto/missing/NoraCorrection)), (e) sentence boundara detection
+([NoraSegmentation](https://blog.inductorsoftware.com/docsproto/missing/NoraSegmentation)), and (f) interfacing to the
 [Lucene](http://lucene.apache.org/java/docs/) search engine
-(NoraLucene). Please view the individual pages for details
+([NoraLucene](https://blog.inductorsoftware.com/docsproto/missing/NoraLucene)). Please view the individual pages for details
 and the current state of play.
 
 The main deliverables from the project comprise (i) a flexible

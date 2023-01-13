@@ -12,7 +12,7 @@ Feature structure representations of lists are displayed in a more
 conventional form, using angle brackets. For this convenience to work,
 LUI needs to know about the list-related attributes and types (e.g.
 FIRST, REST, list, null, et al.) from the underlying grammar. These can
-be configured by means of the .luirc file; see the LuiRc pages.
+be configured by means of the .luirc file; see the [LuiRc](https://blog.inductorsoftware.com/docsproto/tools/LuiRc) pages.
 
 The AVM browser allows imploding and exploding sub-structures. Left
 clicking on type names (in the top left corner of each sub-AVM) will
@@ -53,6 +53,6 @@ The reentrancy tag popup menu contains navigational helpers.
 The LUI AVM browser supports interactive unification (for debugging
 purposes), and if the AVM being browsed contains unification failure
 information, then there are a few more interesting options to explore.
-For more information see the LuiUnification page.
+For more information see the [LuiUnification](https://blog.inductorsoftware.com/docsproto/tools/LuiUnification) page.
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LuiAvm/_edit)]{% endraw %}

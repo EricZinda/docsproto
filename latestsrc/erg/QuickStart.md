@@ -1,5 +1,5 @@
 {% raw %}These are instructions to quickly get started parsing with the ERG and
-processing the results. It uses the ACE parser/generator and
+processing the results. It uses the [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop) parser/generator and
 [PyDelphin](https://github.com/delph-in/pydelphin).
 
 # Linux (64-bit)
@@ -41,7 +41,7 @@ A pre-compiled grammar file for the ERG is available at ACE's website:
 ```
 
 Confirm the grammar works with ACE (for fine tuning, see
-AceErgTuning):
+[AceErgTuning](https://blog.inductorsoftware.com/docsproto/erg/AceErgTuning)):
 
 ```
 ~$ ace -g ~/grammars/erg-2018-x86-64-0.9.29.dat -Tq <<< "Dogs sleep."
@@ -57,7 +57,7 @@ NOTE: parsed 1 / 1 sentences, avg 1415k, time 0.00952s
 
 ## Install PyDelphin
 
-PyDelphin is available from
+[PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop) is available from
 [PyPI](https://pypi.python.org/pypi)
 
 ```
@@ -66,7 +66,7 @@ PyDelphin is available from
 
 If you want the [latest
 features](https://github.com/delph-in/pydelphin/blob/master/CHANGELOG.md)
-of PyDelphin, you might try getting it from its [GitHub
+of [PyDelphin](https://blog.inductorsoftware.com/docsproto/tools/PyDelphinTop), you might try getting it from its [GitHub
 repository](https://github.com/delph-in/pydelphin) (you'll need to have
 git installed) and switching to the develop branch:
 
@@ -95,7 +95,7 @@ extracts the MRS data from ACE's output stream.
 ## Install art
 
 The [art](http://sweaglesw.org/linguistics/libtsdb/art) utility is
-useful for parsing [\[incr tsdb()]()\] profiles.
+useful for parsing [\[incr tsdb()](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)\] profiles.
 
 ```
 ~$ wget http://sweaglesw.org/linguistics/libtsdb/download/art-0.1.9-x86-64.tar.gz -q -O - | tar xf
@@ -131,6 +131,6 @@ reading results for                2    2 results
 # Other configurations
 
 If you want a more full-featured setup for grammar development, you
-might look into the full LOGON distribution: LogonTop
+might look into the full LOGON distribution: [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop)
 
 Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/QuickStart/_edit)]{% endraw %}

@@ -16,30 +16,30 @@ This page tries to use each supported markup element at least once.
 
 Contents
 
-1. Headers
-   1. Header 2
-2. Font styles
-   1. Syntax Hilighting
-3. Smileys
-4. Hyperlinks
-   1. Internal
-   2. External
-   3. Escaping WikiNames
-5. Blockquote
-6. Bullet list
-7. Numbered list
-8. Descriptions + Definitions
-9. Code display
-10. Tables
+1. [Headers](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+   1. [Header 2](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+2. [Font styles](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+   1. [Syntax Hilighting](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+3. [Smileys](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+4. [Hyperlinks](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+   1. [Internal](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+   2. [External](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+   3. [Escaping WikiNames](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+5. [Blockquote](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+6. [Bullet list](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+7. [Numbered list](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+8. [Descriptions + Definitions](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+9. [Code display](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+10. [Tables](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
     1. [General table layout and HTML like
-options]()
-    2. Cell width
-    3. Spanning rows and columns
-    4. Alignment
-    5. Colors
-    6. CSV Tables
-11. Rules
-12. Macros
+options](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+    2. [Cell width](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+    3. [Spanning rows and columns](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+    4. [Alignment](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+    5. [Colors](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+    6. [CSV Tables](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+11. [Rules](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
+12. [Macros](https://blog.inductorsoftware.com/docsproto/missing/SyntaxReference)
 
 # Headers
 
@@ -313,6 +313,6 @@ indented 4 characters
     '''[[PageCount]]''' pages
     [[RandomPage]]
 
-**1267** pages JacyInstallation
+**1267** pages [JacyInstallation](https://blog.inductorsoftware.com/docsproto/grammars/JacyInstallation)
 
 Last update: 2021-06-07 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/SyntaxReference/_edit)]{% endraw %}

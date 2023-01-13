@@ -1,5 +1,5 @@
 {% raw %}*DelphinTools is one of many DELPH-IN Tools. For a more complete list
-see ToolsTop*
+see [ToolsTop](https://blog.inductorsoftware.com/docsproto/tools/ToolsTop)*
 
 Delphin Tools: scripts for automating parsing, translation, and
 generation within the Delphin HPSG framework

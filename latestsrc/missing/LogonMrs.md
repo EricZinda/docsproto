@@ -32,7 +32,7 @@ the LOGON documentation upon project completion.
 
 # Computational Support
 
-- RmrsVpm --- Variable Property Mapping: this is used to
+- [RmrsVpm](https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm) --- Variable Property Mapping: this is used to
 convert the language internal mapping of properties to the SEM-I and
 back again.
 

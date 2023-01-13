@@ -70,15 +70,15 @@ quantifiers, giving two readings in cases such as:
 As noted, this is a very broad category, which subsumes several other
 phenomena discussed in this documentation, including at least:
 
-- Apposition (pending reanalysis in terms
+- [Apposition](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Apposition) (pending reanalysis in terms
 of ICONS)
-- Compounding: ‘compound’,
+- [Compounding](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Compounding): ‘compound’,
 ‘compound\_name’, including titles and N-ed (J-N\_CRD-T\_C cuts
 across compounding and coordination)
-- Implicit Locatives: (‘today’,
+- [Implicit Locatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ImplicitLocatives): (‘today’,
 ‘every time he arrives’): ‘loc\_nonsp’
 - [Instrumental
-Relatives](): ‘with\_p\_rel’
+Relatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_InstrumentalRelatives): ‘with\_p\_rel’
 - Extraposed relative clauses (create page for these?)
 
 # Reflections
@@ -137,9 +137,9 @@ compositionality. Cognition, 57(2), 129-191.
 
 # More Information
 
-- ErgSemantics main page
-- Inventory of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- How to cite this work
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
 Last update: 2015-12-19 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_RelativeClauses/_edit)]{% endraw %}

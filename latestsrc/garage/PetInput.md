@@ -5,7 +5,7 @@ parser cheap, viz. 'pure' textual input and the so-called YY mode for
 lattice-based input. These two modes of giving input to the parser are
 the most traditional ones, but in more recent developments, additional
 XML-based input formats have been developed. Please see the
-PetInputFsc page for an alternate, lattice-based XML
+[PetInputFsc](https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
 This page was predominantly authored by StephanOepen,
@@ -91,7 +91,7 @@ and turn the unknown word machinery into 2009 mode (see the section
 2009, are only supported in the so-called *chart mapping*
 [branch](https://pet.opendfki.de/repos/pet/branches/cm) of the PET code
 base (corresponding pre-compiled binaries are available in the LOGON
-tree; see the LogonTop page).
+tree; see the [LogonTop](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) page).
 
 Each token in the above example has the following format:
 
@@ -421,7 +421,7 @@ sentence-final punctuation).
 
 The LKB includes a simple, finite-state tool to prepare textual input
 for parsing with PET, the *Regular Expression Pre-Processor* (REPP);
-please see the ReppTop page for details. The ERG includes a
+please see the [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop) page for details. The ERG includes a
 set of string-level REPP rules to normalize inputs and determine
 (initial) tokenization; as one of its outputs formats, REPP supports the
 YY 2.0 conventions.
@@ -435,7 +435,7 @@ between the token-level and grammar-internal sign universes is now
 encoded as part of the grammar proper (i.e. its feature structures for
 lexical entries and rules), complete information about the derivation is
 recorded in [\[incr tsdb()\]](http://www.delph-in.net/itsdb) profiles
-(please see the ItsdbDerivations page for
+(please see the [ItsdbDerivations](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDerivations) page for
 background). Specifically, the extended derivation format includes the
 feature structures of input tokens as the leafs of the derivation tree,
 such that re-building that derivation (deterministically re-applying all
@@ -471,8 +471,8 @@ recommend to adapt external providers of YY input to PET to the richer
 YY 2.0 format.
 
 Alternate, lattice-based input modes are available using XML markup to
-encode the parser input. See the PetInputFsc,
-PetInputChart and SmafTop pages for the
+encode the parser input. See the [PetInputFsc](https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc),
+[PetInputChart](https://blog.inductorsoftware.com/docsproto/garage/PetInputChart) and [SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
 

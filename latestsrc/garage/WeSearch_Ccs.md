@@ -1,7 +1,7 @@
 {% raw %}# Comparative Computational Semantics
 
 In collaboration with Stanford University and the University of
-Washington, the WeSearch project at the University of Oslo
+Washington, the [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch) project at the University of Oslo
 holds a three-day, by-invitation working meeting from November 13 to 15,
 2014, in Berlin. The meeting will be hosted at [Arcotel
 Velvet](http://www.arcotelhotels.com/en/velvet_hotel_berlin/), not far
@@ -106,15 +106,15 @@ at least two decent coffee shops in the immediate neighborhood.
 Thanks to Emily, there are transcripts from the sessions; please feel
 free to extend or correct the record as you see fit. To do so, you will
 need to register to the wiki using the exact user name listed on the
-CcsGroup page. For those who do not have DELPH-IN wiki
+[CcsGroup](https://blog.inductorsoftware.com/docsproto/garage/CcsGroup) page. For those who do not have DELPH-IN wiki
 accounts from before, please create an account for yourself (following
-the naming conventions prescribed on the CcsGroup page). You
+the naming conventions prescribed on the [CcsGroup](https://blog.inductorsoftware.com/docsproto/garage/CcsGroup) page). You
 should have received the secret textcha required for account creation in
 email.
 
-- Day 1
-- Day 2
-- Day 3
+- [Day 1](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_CcsDayOne)
+- [Day 2](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_CcsDayTwo)
+- [Day 3](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_CcsDayThree)
 
 # Participants
 

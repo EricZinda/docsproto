@@ -8,7 +8,7 @@ machine.
 LKB-FOS is based on the version of the LKB that has been developed over
 the past several years in Allegro CL on Linux. There are currently
 pre-built native binaries of LKB-FOS for macOS and Linux. See
-LkbFos for more information and installation instructions.
+[LkbFos](https://blog.inductorsoftware.com/docsproto/tools/LkbFos) for more information and installation instructions.
 
 An alternative approach is to run a Linux version of the LKB in a
 virtual machine. The most convenient way to to this is with

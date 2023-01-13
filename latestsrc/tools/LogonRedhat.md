@@ -4,7 +4,7 @@ Linux distributions differ, particularly so in the selection of tools
 and libraries pre-installed in standard configurations. This page
 provides Redhat-specific information related to installing and operating
 the LOGON infrastructure (for general installation guidelines, please
-see the LogonInstallation page). The information on
+see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page). The information on
 this page is user-provided documentation. As you extend or revise the
 page, please take care to spell out (a) the specific problem to be
 addressed, including observable symptoms; (b) the exact platform (32- or

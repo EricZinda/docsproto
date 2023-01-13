@@ -32,7 +32,7 @@ StephanOepen to write draft
   - Standing committee made up of founding members, no current plans
 to change, could perhaps enlarge it/change it. We are open to
 input.
-  - The standing committee members are
+  - The [standing committee members](https://blog.inductorsoftware.com/docsproto/summits/StandingCommitteeGroup) are
 listed online
 - Are there any new candidate institutions?
   - Maybe ISI

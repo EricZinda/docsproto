@@ -1,29 +1,29 @@
 {% raw %}Här följer en lista med 25 slumpvist utvalda sidor (utav totalt 1267):
 
 - [AnvändarInställningar](/Anv%C3%A4ndarInst%C3%A4llningar)
-- CambridgeWhInfoStructure
-- CapitalHillPassivesDiscussion
-- DelphinEdinburgh
-- DelphinKobe
-- DiderotWhQuestionsLibrary
-- IconsSpecs
-- ItsdbTreebanking/ItsdbModeling
-- LadUW20161020
-- LatticeSupertagging
-- LkbCompilation
-- LogonSvn
-- LtgOslo/Norsk
-- MatrixMrsTestSuiteVi
-- NoraExtraction
-- OsloTop
-- ReproducibilityStandards
+- [CambridgeWhInfoStructure](https://blog.inductorsoftware.com/docsproto/summits/CambridgeWhInfoStructure)
+- [CapitalHillPassivesDiscussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion)
+- [DelphinEdinburgh](https://blog.inductorsoftware.com/docsproto/missing/DelphinEdinburgh)
+- [DelphinKobe](https://blog.inductorsoftware.com/docsproto/missing/DelphinKobe)
+- [DiderotWhQuestionsLibrary](https://blog.inductorsoftware.com/docsproto/summits/DiderotWhQuestionsLibrary)
+- [IconsSpecs](https://blog.inductorsoftware.com/docsproto/tools/IconsSpecs)
+- [ItsdbTreebanking/ItsdbModeling](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTreebanking_ItsdbModeling)
+- [LadUW20161020](https://blog.inductorsoftware.com/docsproto/missing/LadUW20161020)
+- [LatticeSupertagging](https://blog.inductorsoftware.com/docsproto/missing/LatticeSupertagging)
+- [LkbCompilation](https://blog.inductorsoftware.com/docsproto/tools/LkbCompilation)
+- [LogonSvn](https://blog.inductorsoftware.com/docsproto/tools/LogonSvn)
+- [LtgOslo/Norsk](https://blog.inductorsoftware.com/docsproto/missing/LtgOslo_Norsk)
+- [MatrixMrsTestSuiteVi](https://blog.inductorsoftware.com/docsproto/missing/MatrixMrsTestSuiteVi)
+- [NoraExtraction](https://blog.inductorsoftware.com/docsproto/missing/NoraExtraction)
+- [OsloTop](https://blog.inductorsoftware.com/docsproto/summits/OsloTop)
+- [ReproducibilityStandards](https://blog.inductorsoftware.com/docsproto/missing/ReproducibilityStandards)
 - RmrsDtd
-- SaarlandBusinessMeeting
-- SaarlandNegScope
-- StanfordCrowgeyIntrinsicVariableNotes
-- SuquamishTop
-- TitanTadm
-- TomarValues
-- ZhongTranslation
+- [SaarlandBusinessMeeting](https://blog.inductorsoftware.com/docsproto/summits/SaarlandBusinessMeeting)
+- [SaarlandNegScope](https://blog.inductorsoftware.com/docsproto/summits/SaarlandNegScope)
+- [StanfordCrowgeyIntrinsicVariableNotes](https://blog.inductorsoftware.com/docsproto/summits/StanfordCrowgeyIntrinsicVariableNotes)
+- [SuquamishTop](https://blog.inductorsoftware.com/docsproto/summits/SuquamishTop)
+- [TitanTadm](https://blog.inductorsoftware.com/docsproto/missing/TitanTadm)
+- [TomarValues](https://blog.inductorsoftware.com/docsproto/missing/TomarValues)
+- [ZhongTranslation](https://blog.inductorsoftware.com/docsproto/grammars/ZhongTranslation)
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SlumpvisSida/_edit)]{% endraw %}

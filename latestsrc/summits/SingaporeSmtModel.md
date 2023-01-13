@@ -1,4 +1,4 @@
-{% raw %}\[See SingaporeSchedule for link to slides\]
+{% raw %}\[See [SingaporeSchedule](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule) for link to slides\]
 
 Francis: Can you recite Jabberwocky or something?
 
@@ -309,7 +309,7 @@ limited cases that should work fairly straightforwardly and it should be
 relatively easy to work out which those would be.
 
 Woodley: 'strong tea' v. 'powerful tea' is within the power of the data
-we can parse, namely WikiWoods. 30 instances of the former,
+we can parse, namely [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods). 30 instances of the former,
 none of the latter.
 
 Last update: 2015-08-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SingaporeSmtModel/_edit)]{% endraw %}

@@ -23,7 +23,7 @@ the same directory as the ACE binary.
     $ cd $LOGONROOT/dfki/jacy
     $ ace -g ace/config.tdl -G jacy.dat
 
-Or get the latest Jacy which has fewer errors but is subtly
+Or get the latest [Jacy](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) which has fewer errors but is subtly
 incompatible with the transfer grammar, ...
 
 2\. Compile the data file of Jaen. For instance,

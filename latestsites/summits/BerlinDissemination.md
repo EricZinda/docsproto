@@ -40,7 +40,7 @@ differently
   - AC: TFS DTD, ISO could be implemented in LKB
   - US: applet in Heart of Gold, TFS DTD in documentation
   - Oe: what tools do exist?
-    - LKB (X11)
+    - [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) (X11)
     - [MoriV](http://www-tsujii.is.s.u-tokyo.ac.jp/moriv/)
     - [ERG online demo](http://erg.emmtee.net/)
     - [SProUTput

@@ -1,6 +1,6 @@
 {% raw %}# Default Inheritance
 
-SIG at Stanford 2016 summit
+SIG at [Stanford 2016 summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
 
 \[... everyone slowly comes to agreement on what kind of defaults are
 being discussed ...\]

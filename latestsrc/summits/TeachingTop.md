@@ -3,7 +3,7 @@
 Here are some resources for teaching about and with Deep Linguistic
 Processing.
 
-- Courses
+- [Courses](https://blog.inductorsoftware.com/docsproto/summits/TeachingCourses)
 - [Topics for Projects](/TeachingTopics)
 - [Completed Theses](/TeachingTheses)
 
@@ -16,6 +16,6 @@ from UW.
 - The [Grammar Engineering FAQ](/GrammarEngineeringFaq) for grammar
 engineering with LKB and the LinGO Grammar Matrix
 - Brief notes from the [Singapore discussion on teaching undergraduate
-courses using LKB]()
+courses using LKB](https://blog.inductorsoftware.com/docsproto/summits/SingaporeTeachingWithLKB)
 
 Last update: 2018-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TeachingTop/_edit)]{% endraw %}

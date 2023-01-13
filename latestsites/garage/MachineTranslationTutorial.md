@@ -35,8 +35,8 @@
 
 ## Useful Pages
 
-- NoJa --- an early adopter --- gives outlines of what to
+- [NoJa](https://blog.inductorsoftware.com/docsproto/tools/NoJa) --- an early adopter --- gives outlines of what to
 change and where
-- LogonTransfer --- Transfer Rules
+- [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) --- Transfer Rules
 
 Last update: 2010-06-14 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationTutorial/_edit)]{% endraw %}

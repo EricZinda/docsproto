@@ -20,7 +20,7 @@ a standard difficulty with software that uses Motif, not LKB
 specific). If you are using Linux, you either need to install Open
 Motif or to fix the installation so that the libraries are where the
 Lisp system expects them to be. Please see
-LkbInstallation (Trouble Shooting).
+[LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) (Trouble Shooting).
 2. If you have an incompatible version of the Motif libraries, (which
 currently happens for some people on AMD64: 2007-05-08) you may get
 a message like:
@@ -30,7 +30,7 @@ a message like:
        #<unknown object of type number 13 @ #x10011714ed> which is not an array.
    
    In this case you need to install the right version of libXm. Please
-see the LkbInstallation page for more
+see the [LkbInstallation](https://blog.inductorsoftware.com/docsproto/tools/LkbInstallation) page for more
 information.
 3. Also on 64-bit systems, if you get an error to the effect that
 libXm.so.4 couldn't be found, you can fix it by creating a symbolic
@@ -238,7 +238,7 @@ current version and make the appropriate changes to use the current
 
 ### The greatest lower bound introduction code leaves redundant links in place
 
-Known LKB problem - see LkbBugs.
+Known LKB problem - see [LkbBugs](https://blog.inductorsoftware.com/docsproto/tools/LkbBugs).
 
 ### Temporary lexicons
 
@@ -260,7 +260,7 @@ There is a message from emacs when starting that it cannot find
 tdl-mode. tdl-mode.el' and lkb.el' are add-on files for emacs that
 provide some extra functionality: structured editing of TDL files (e.g.
 indentation) and locate source file from the LKB. Details of how to set
-this up are in LkbEmacs but their absence won't cause
+this up are in [LkbEmacs](https://blog.inductorsoftware.com/docsproto/tools/LkbEmacs) but their absence won't cause
 serious problems.
 
 # Compilation

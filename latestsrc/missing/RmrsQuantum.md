@@ -2,8 +2,8 @@
 both the original and literal meaning (or componential and combined
 meaning).
 
-Various discussions at: Tomar,
-Bellingham.
+Various discussions at: [Tomar](https://blog.inductorsoftware.com/docsproto/summits/TomarQuantumMRS),
+[Bellingham](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014SchrodingerMrs).
 
 *[A review of the Hispanic paradox: time to spill the
 beans?](http://err.ersjournals.com/content/23/134/439.full)* in this

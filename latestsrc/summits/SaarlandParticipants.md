@@ -1,5 +1,5 @@
 {% raw %}The following is the list of people invited for the [2013 DELPH-IN
-Summit](), in St. Wendel, Saarland, Germany.
+Summit](https://blog.inductorsoftware.com/docsproto/summits/SaarlandTop), in St. Wendel, Saarland, Germany.
 
 - [LarsAhrenberg](/LarsAhrenberg)
 - [KatyaAlahverdzhieva](/KatyaAlahverdzhieva)

@@ -490,14 +490,14 @@
         <p>Contents</p>
 
 <ol>
-  <li>Overview</li>
-  <li>Obtaining PET</li>
-  <li>Compiling and Installing PET</li>
-  <li>PET for developers</li>
-  <li>Compiling a grammar</li>
-  <li>Running PET</li>
-  <li>Tips and Tricks</li>
-  <li>History</li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Overview</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Obtaining PET</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Compiling and Installing PET</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">PET for developers</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Compiling a grammar</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Running PET</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">Tips and Tricks</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/PetTop">History</a></li>
 </ol>
 
 <h1 id="overview">Overview</h1>
@@ -523,7 +523,7 @@ improvement in parsing efficiency for long inputs)</li>
 of (R)MRSs</li>
   <li>output of fragmentary analysis hypotheses in case of parse failures</li>
   <li>lattice input (via the YY, PIC and SMAF input formats, cf.
-PetInput)</li>
+<a href="https://blog.inductorsoftware.com/docsproto/garage/PetInput">PetInput</a>)</li>
   <li>a variety of XML-based input formats that generalize the
 lattice-oriented YY input mode</li>
   <li>pruning of the search space using a PCFG model</li>
@@ -559,10 +559,10 @@ principle any platform for which a suitable C++ compiler is available
 successful compilation. Your mileage may vary.</p>
 
 <p>In order to compile PET with complete functionality, a number of
-external packages (PetDependencies) need to be
+external packages (<a href="https://blog.inductorsoftware.com/docsproto/garage/PetDependencies">PetDependencies</a>) need to be
 installed; in general, see the documentation for each of these packages,
 but some coarse instructions on versions that are known to work are
-available from the PetDependencies page. Compiling
+available from the <a href="https://blog.inductorsoftware.com/docsproto/garage/PetDependencies">PetDependencies</a> page. Compiling
 without some of these packages should also be possible (giving up, for
 example, UniCode support, [incr tsdb()] integration, or the embedded
 MRS code), although these configurations have not been tested for quite
@@ -588,10 +588,10 @@ instructions on how to configure and compile PET.</p>
 <h1 id="pet-for-developers">PET for developers</h1>
 
 <p>For instructions how to set up PET as a project in Eclipse, see
-PetEclipse. The Eclipse IDE for C/C++ Developers (a.k.a.
+<a href="https://blog.inductorsoftware.com/docsproto/garage/PetEclipse">PetEclipse</a>. The Eclipse IDE for C/C++ Developers (a.k.a.
 <a href="http://www.eclipse.org/cdt/">Eclipse CDT</a>) offers a feature-rich
 development platform for C++, which facilitates editing, navigating, and
-debugging C++ source code. There is a Roadmap.</p>
+debugging C++ source code. There is a <a href="https://blog.inductorsoftware.com/docsproto/garage/PetRoadMap">Roadmap</a>.</p>
 
 <h1 id="compiling-a-grammar">Compiling a grammar</h1>
 
@@ -612,24 +612,24 @@ customization of PET behavior to various tasks. Maybe the biggest factor
 of variation is in (a) how input to the cheap parser is prepared for
 PET-internal processing and in (b) what form analysis results are output
 (or returned to the caller) after parsing; these are discussed on
-separate PetInput and PetOutput pages,
+separate <a href="https://blog.inductorsoftware.com/docsproto/garage/PetInput">PetInput</a> and <a href="https://blog.inductorsoftware.com/docsproto/garage/PetOutput">PetOutput</a> pages,
 respectively. Many other aspects of PET run-time behavior can be
-controlled using command-line options (see the PetOptions
+controlled using command-line options (see the <a href="https://blog.inductorsoftware.com/docsproto/garage/PetOptions">PetOptions</a>
 page), given to the flop or cheap binaries upon invocation, and
-grammar-specific settings (see the PetParameters page),
+grammar-specific settings (see the <a href="https://blog.inductorsoftware.com/docsproto/garage/PetParameters">PetParameters</a> page),
 supplied in TDL syntax as part of each grammar. Since <a href="https://pet.opendfki.de/browser/pet/main?rev=498">revision 498 in
 the main branch</a> PET
 employs a logging framework for configurable log output, which is
-described in PetLogging. Finally, when using PET as a
+described in <a href="https://blog.inductorsoftware.com/docsproto/garage/PetLogging">PetLogging</a>. Finally, when using PET as a
 processing client to the [incr tsdb()]
 <a href="http://www.delph-in.net/itsdb/">profiler</a>, some of the options and
 parameters are controlled from within the [incr tsdb()] environment.</p>
 
-<p>For an ongoing discussion on a PET API, cf. FeforPetApi.</p>
+<p>For an ongoing discussion on a PET API, cf. <a href="https://blog.inductorsoftware.com/docsproto/garage/FeforPetApi">FeforPetApi</a>.</p>
 
 <h1 id="tips-and-tricks">Tips and Tricks</h1>
 
-<p>Some notes on robust parsing with PET: unknown word
+<p>Some notes on <a href="https://blog.inductorsoftware.com/docsproto/garage/PetRobustness">robust parsing</a> with PET: unknown word
 handling, memory limits and so on.</p>
 
 <p>The PET build process attempts to set appropriate mmap setting for your
@@ -697,13 +697,13 @@ hypotheses in case of parse failures, and an XML-based input format that
 generalizes the lattice-oriented YY input mode.</p>
 
 <p>In 2006 YiZhang (Saarland University) added the ability to do
-selective unpacking, greatly decreasing the
+<a href="https://blog.inductorsoftware.com/docsproto/garage/PetSelectiveUnpacking">selective unpacking</a>, greatly decreasing the
 memory consumption for n-best parsing. Later, Yi added native C++
 support for MRS extraction from parse results and MRS output in various
 formats. BartCramer added the possibility to constrain the
 search space by using a PCFG-guided pruning of tasks, on the chart cell
-level. In 2010, PeterAdolphs (DFKI Berlin) added <a href="">chart
-mapping</a> and the FSC input format.</p>
+level. In 2010, PeterAdolphs (DFKI Berlin) added <a href="https://blog.inductorsoftware.com/docsproto/garage/ChartMapping">chart
+mapping</a> and the <a href="https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc">FSC input format</a>.</p>
 
 <h2 id="to-cite">To cite</h2>
 

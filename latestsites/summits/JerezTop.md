@@ -21,20 +21,20 @@ StephanOepen, UlrichSchaefer,
 
 Contents
 
-1. Delph-in Developers Meeting
-   1. Proposed Timetable
-   2. Topics
-      1. MT
-      2. What's new
-      3. API/StandOff/Preprocessors
+1. [Delph-in Developers Meeting](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+   1. [Proposed Timetable](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+   2. [Topics](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      1. [MT](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      2. [What's new](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      3. [API/StandOff/Preprocessors](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
       4. [PET bug squashing/LKB
-harmonization]()
-      5. Parse Ranking
-      6. Large Lexicons
-      7. Enhancements
-      8. (Automated) Testing
-      9. Still More
-   3. Detailed Ideas
+harmonization](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      5. [Parse Ranking](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      6. [Large Lexicons](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      7. [Enhancements](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      8. [(Automated) Testing](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+      9. [Still More](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
+   3. [Detailed Ideas](https://blog.inductorsoftware.com/docsproto/summits/JerezTop)
 
 ## Proposed Timetable
 
@@ -117,9 +117,9 @@ discuss and set priorities
 
 ### (Automated) Testing
 
-- See also LisbonTestingDiscussion
+- See also [LisbonTestingDiscussion](https://blog.inductorsoftware.com/docsproto/summits/LisbonTestingDiscussion)
 - Using Apache Ant for Testing DELPH-IN Tools and Resources: see
-TestingWithAnt
+[TestingWithAnt](https://blog.inductorsoftware.com/docsproto/garage/TestingWithAnt)
 
 ### Still More
 
@@ -222,10 +222,10 @@ three
   - and a half ways of describing partly processed input for
 parsing,
     
-    viz. (a) the original YY mode (\`PetInput' on the
+    viz. (a) the original YY mode (\`[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)' on the
 wiki), (b) SPPP of the early Deep-Thought days
-(\`LkbSppp'), (c) the XML input chart in PET
-(\`PetInput)', and (d) emerging MAF support. of
+(\`[LkbSppp](https://blog.inductorsoftware.com/docsproto/tools/LkbSppp)'), (c) the XML input chart in PET
+(\`[PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput))', and (d) emerging MAF support. of
 these, (a) and (c) are available in PET ((c) only in the \`main'
 branch), while (b) and (d) are in the LKB. i personally believe
 in plurality, and at least (a) -- (c) currently have active

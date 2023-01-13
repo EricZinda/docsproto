@@ -3,7 +3,7 @@
 This page documents the result of exporting four different perspectives
 on HPSG analyses obtained from the ERG (in its 1111 release version and
 using the stock Redwoods parse selection model in one-best mode); see
-the ErgProcessing page for more details.
+the [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page for more details.
 
     [1] (1 of 1) {1} `The ERG is easy to install and use.'
     

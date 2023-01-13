@@ -15,11 +15,11 @@ Token mapping necessitates that tokens are described by feature
 structures. Token feature structures can be arbitrarily complex. This
 allows users to pass information of various preprocessing modules into
 the parser. To this end, a new format ‒ the XML-based FSC input format
-(PetInputFsc) ‒ was created. However, there is also a
+([PetInputFsc](https://blog.inductorsoftware.com/docsproto/garage/PetInputFsc)) ‒ was created. However, there is also a
 compatibility layer for the old input formats in PET, which
 transparently converts the token information available in these formats
 (form, optionally stem, characterization information and pos tags) into
-token feature structures. Please see the PetInput page for
+token feature structures. Please see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for
 more information.
 
 Another related issue is a new way of generic lexical instantiation
@@ -44,7 +44,7 @@ is a verb.
 # Documentation
 
 - Tutorial slides: <http://www.delph-in.net/2009/cm.pdf>
-- Practical notes
+- [Practical notes](https://blog.inductorsoftware.com/docsproto/garage/ChartMappingSetup)
 
 # Publications
 

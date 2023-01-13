@@ -83,7 +83,7 @@ distributed uniformly across text types?
 
 # References
 
-(see WeSearch/Adaptation/Background)
+(see [WeSearch/Adaptation/Background](https://blog.inductorsoftware.com/docsproto/missing/WeSearch_Adaptation_Background))
 
 - Maria Wolters and Mathias Kirsten. Exploring the Use of Linguistic
 Features in Domain and Genre Classification. EACL'99

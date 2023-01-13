@@ -1,5 +1,5 @@
 {% raw %}Alternative Sets / Focus Sensitive Operators Discussion at [Stanford
-Summit]()
+Summit](https://blog.inductorsoftware.com/docsproto/summits/StanfordSchedule)
 
 Scribe: Emily
 

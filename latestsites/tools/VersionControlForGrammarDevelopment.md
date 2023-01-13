@@ -26,10 +26,10 @@ control](https://en.wikipedia.org/wiki/Distributed_version_control).
 Contents
 
 1. [Version Control for Grammar
-Development]()
-   1. Subversion
-   2. Git
-   3. General Suggestions
+Development](https://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment)
+   1. [Subversion](https://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment)
+   2. [Git](https://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment)
+   3. [General Suggestions](https://blog.inductorsoftware.com/docsproto/tools/VersionControlForGrammarDevelopment)
 
 ## Subversion
 

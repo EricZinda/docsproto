@@ -1,10 +1,10 @@
 {% raw %}# Experimental Features in ACE
 
-This page describes some features that have been added to ACE
+This page describes some features that have been added to [ACE](https://blog.inductorsoftware.com/docsproto/tools/AceTop)
 over the course of minor revisions that are not well-tested enough to be
 considered robust, but may be of interest to some users.
 
-- Ubertagging -- as of 0.9.21, ACE can perform ubertagging to
+- [Ubertagging](https://blog.inductorsoftware.com/docsproto/garage/UtTop) -- as of 0.9.21, ACE can perform ubertagging to
 prune unlikely lexemes / tokenizations. Adding the following block
 to ace/config.tdl for (e.g. May 13th 2015 preview of) ERG 1214
 enables usage of the --ubertagging=0.001 commandline option:
@@ -21,9 +21,9 @@ Note that the PET implementation of UT has a lot more bells and whistles
 than the ACE implementation, at least for now (various tag types,
 whitelists...).
 
-- The LogonTransfer system -- as of version 0.9.11,
+- The [LogonTransfer](https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer) system -- as of version 0.9.11,
 ACE has relatively complete support for this (see
-AceTransfer for implementation details). To translate
+[AceTransfer](https://blog.inductorsoftware.com/docsproto/tools/AceTransfer) for implementation details). To translate
 from Japanese to English, for example:
 
 <!-- -->
@@ -39,11 +39,11 @@ from Japanese to English, for example:
     The dog eats the cat.
     $
 
-Note that JaCY does not work properly out-of-the-box with
+Note that [JaCY](https://blog.inductorsoftware.com/docsproto/grammars/JacyTop) does not work properly out-of-the-box with
 ACE; you will need an SVN update at least as recent as late January 2013
 of JaCY, and you will additionally need need to comment out the line
 including "lex/generics.tdl" in the file japanese.tdl. Also, to compile
-the ERG from a working directory other than the ACE directory
+the [ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop) from a working directory other than the ACE directory
 (as shown above), you will need ace-0.9.13, and unknown word handling
 will not work.
 

@@ -40,7 +40,7 @@ the feature structure core in pure C.
 - **generate** Again using the ERG, exhaustively generate from the 326
 stored semantic forms in the ERG *hike* treebank. This task is
 calling into the standard
-LogonProcessing/BatchGeneration
+[LogonProcessing/BatchGeneration](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchGeneration)
 script, i.e. is using a chart size limit of 50,000 edges and
 selective unpacking (and storage) of the top-50 results. Although
 computing the inverse relation, this task is similar in nature to

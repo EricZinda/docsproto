@@ -494,30 +494,30 @@
 <p>Contents</p>
 
 <ol>
-  <li><a href="">Instructions on how to set up an MT
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Instructions on how to set up an MT
 system</a>
     <ol>
-      <li><a href="">Two ways to set up an MT
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Two ways to set up an MT
 system</a></li>
     </ol>
   </li>
-  <li>The Rephrasing method
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">The Rephrasing method</a>
     <ol>
-      <li>Requested files and settings</li>
-      <li>Using the system</li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Requested files and settings</a></li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Using the system</a></li>
     </ol>
   </li>
-  <li>The Transfer Grammar method
+  <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">The Transfer Grammar method</a>
     <ol>
-      <li><a href="">Install LOGON and add your grammar(s) to the
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Install LOGON and add your grammar(s) to the
 repository</a></li>
-      <li>Creating CPU’s</li>
-      <li><a href="">Create lisp files for your grammars and the MT
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Creating CPU’s</a></li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Create lisp files for your grammars and the MT
 system</a></li>
-      <li><a href="">Setting the *translate-grid*
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Setting the *translate-grid*
 values</a></li>
-      <li>Setting the VPM</li>
-      <li><a href="">Starting the MT system from
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Setting the VPM</a></li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/garage/MtSetup">Starting the MT system from
 Emacs</a></li>
     </ol>
   </li>
@@ -531,11 +531,11 @@ mechanism to generate sentences with another grammar. This method is
 used in EmilyBender’s Grammar Matrix course (<a href="http://courses.washington.edu/ling567/lab9.html">Lab
 9</a>), and requires only
 installation of the LKB system, and is thus relatively lightweight. The
-other method is to create a seperate transfer grammar using the <a href="">LOGON
+other method is to create a seperate transfer grammar using the <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LOGON
 machinery</a> to parse with one grammar, transfer with the
 transfer grammar (which is separate from the parsing grammar), and
 generate with a third grammar. This method is used by larger MT
-projects, like the <a href="http://www.emmtee.net/">LOGON</a> project and the <a href="">Jaen
+projects, like the <a href="http://www.emmtee.net/">LOGON</a> project and the <a href="https://blog.inductorsoftware.com/docsproto/garage/MtJaen">Jaen
 Japanese-English MT project</a>. Instructions on how to set up
 translation systems with both methods are provided below.</p>
 
@@ -547,7 +547,7 @@ sentence and generating from the transferred MRS.</p>
 
 <h2 id="requested-files-and-settings">Requested files and settings</h2>
 
-<p>Transfer rules require two files: a type file for
+<p><a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTransfer">Transfer rules</a> require two files: a type file for
 transfer rules (e.g. mtr.tdl), which is loaded together with the other
 type files, and a file with instances of transfer rules, e.g. acm.mtr.
 In the script file:</p>
@@ -561,7 +561,7 @@ In the script file:</p>
 
 <p>In addition, both the parsing grammar and the generation grammar load a
 file called semi.vpm, which contains mappings from the feature structure
-to the MRS (see RmrsVpm). In the script file:</p>
+to the MRS (see <a href="https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm">RmrsVpm</a>). In the script file:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
 </code></pre></div></div>
@@ -595,14 +595,14 @@ with the parsing grammar and press “Rephrase”.</p>
 <h1 id="the-transfer-grammar-method">The Transfer Grammar method</h1>
 
 <p>This section shows a procedure for setting up a full MT system that can
-do Batch Translation and integrate
-LogonModeling, and where you can do interactive MT
+do <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchTranslation">Batch Translation</a> and integrate
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LogonModeling">LogonModeling</a>, and where you can do interactive MT
 development.</p>
 
 <h2 id="install-logon-and-add-your-grammars-to-the-repository">Install LOGON and add your grammar(s) to the repository</h2>
 
 <p>If you don’t have LOGON installed, follow the instructions on
-LogonInstallation. Make a directory (e.g.
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation">LogonInstallation</a>. Make a directory (e.g.
 mydirectory) inside the logon/ directory and put your grammar(s) (e.g.
 mygrammar) there.</p>
 
@@ -719,7 +719,7 @@ following settings. In globals.lsp in the English grammar:</p>
 in.vpm file determines how the MRS is represented when it is given to
 the transfer grammar from the parsing grammar. The out.vpm file
 determines how the MRS is represented when it comes out from transfer
-grammar. (See RmrsVpm)</p>
+grammar. (See <a href="https://blog.inductorsoftware.com/docsproto/tools/RmrsVpm">RmrsVpm</a>)</p>
 
 <h2 id="starting-the-mt-system-from-emacs">Starting the MT system from Emacs</h2>
 
@@ -749,7 +749,7 @@ grammar. (See RmrsVpm)</p>
  (set-input-method "japanese-anthy"))
 </code></pre></div></div>
 
-<p>… the MtJaen system can be started from emacs. Open two
+<p>… the <a href="https://blog.inductorsoftware.com/docsproto/garage/MtJaen">MtJaen</a> system can be started from emacs. Open two
 Emacs windows. In the first, type:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Alt-x jaen

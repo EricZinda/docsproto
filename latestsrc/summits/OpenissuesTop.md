@@ -31,15 +31,15 @@ of to monitor them for updates.
 
 ## Grammar Matrix Extensions
 
-- Tense and aspect
-- Clitics
+- [Tense and aspect](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop_GrammarMatrixTenseAspect)
+- [Clitics](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop_GrammarMatrixClitic)
 - [Serial Verb
-Constructions]()
+Constructions](https://blog.inductorsoftware.com/docsproto/summits/OpenissuesTop_GrammarMatrixSerialVerbConstructions)
 
 # Open Issues in Need of Mentors
 
 \[The following list was developed during the
-FeforOpenIssues discussion. Additional topics can be
+[FeforOpenIssues](https://blog.inductorsoftware.com/docsproto/summits/FeforOpenIssues) discussion. Additional topics can be
 listed here but should also be announced/discussed on
 <mailto:participants@delph-in.net>.\]
 
@@ -54,7 +54,7 @@ demands on the software -- 30GB memory processes but also laptops.
 - TDL extension: "strict" types (i.e., the ability to require
 resolution to leaf types)
 - List operations
-- Discontinuous parsing (see LkbLpconstraints for
+- Discontinuous parsing (see [LkbLpconstraints](https://blog.inductorsoftware.com/docsproto/tools/LkbLpconstraints) for
 a possible approach)
 - Means of turning of subsets of large grammars to facilitate their
 initial exploration by new developers

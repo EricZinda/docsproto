@@ -3,15 +3,15 @@
 
 # Overview
 
-The 18th DELPH-IN Summit was held in Bellingham,
+The 18th DELPH-IN [Summit](https://blog.inductorsoftware.com/docsproto/summits/SummitTop) was held in Bellingham,
 Washington, from Monday, 18 July, to Friday, 22 July 2022 (the week
 after NAACL in Seattle). 
 
-Please register at the 2022 participants page.  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
+Please register at the [2022 participants page](https://blog.inductorsoftware.com/docsproto/summits/Fairhaven2022Participants).  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
 
 ## Program
 
-The final program is up. Monday to Wednesday were plenary talks and discussions, with the excursion on Wednesday afternoon.   SIGs and tutorials were on the final two days.
+The [final program](https://blog.inductorsoftware.com/docsproto/summits/Fairhaven2022Schedule) is up. Monday to Wednesday were plenary talks and discussions, with the excursion on Wednesday afternoon.   SIGs and tutorials were on the final two days.
 
 The program committee this year consists of Luis Morgado da Costa and Francis Bond.
 

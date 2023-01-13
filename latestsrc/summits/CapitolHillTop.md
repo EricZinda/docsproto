@@ -3,7 +3,7 @@
 This page contains some information about the Grammar Engineering
 mini-meeting in Seattle, WA January 2-6 2017. As well as the discussion
 linked below, it led to a new page on [Grammar
-Development]().
+Development](https://blog.inductorsoftware.com/docsproto/matrix/GrammarDevelopment).
 
 Theme\
 Upsizing Grammars and Cross-lingual Learning.
@@ -14,23 +14,23 @@ Glenn's house, Capitol Hill, Seattle.
 Contents
 
 1. [Grammar Engineering
-mini-meeting]()
-   1. Program
-   2. Topics
-   3. Participants
-   4. Social Program
-   5. Photos
+mini-meeting](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   1. [Program](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   2. [Topics](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   3. [Participants](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   4. [Social Program](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
+   5. [Photos](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillTop)
 
 ## Program
 
 |           |                                                     |                                                                                       |                                                                       |
 |-----------|-----------------------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Day       | Morning 1                                           | Afternoon 1                                                                           | Afternoon 2                                                           |
-| Monday    | Agenda Setting                                      | Long Distance Dependencies(FCB,FZZ)                        | Small2Large (FCB,LMC)                       |
-| Tuesday   | ChartMap and Redup (FCB,DVM) | Learning and Malrules (SSH,FCB)                                | Treebank (FCB,SSH)                             |
-| Wednesday | Definiteness (SSH,EMB)   | Passives Discussion (DVM,DPF) | Discoursey Things (FZZ,EMB)                   |
-| Thursday  | Lexicon Building (GCS,FZZ)    | Performance/Robustness (DPF,FCB)                            | Excursion: [Theo's Chocolate Factory](https://www.theochocolate.com/) |
-| Friday    | PhD Design (EMB,MWG)        | Generation Testing (MWG,LMC)                          | Code Names                                                            |
+| Monday    | Agenda Setting                                      | [Long Distance Dependencies](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillDependencies)(FCB,FZZ)                        | [Small2Large](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillSmall2Large) (FCB,LMC)                       |
+| Tuesday   | [ChartMap and Redup](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillChartMap) (FCB,DVM) | [Learning and Malrules](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillLearning) (SSH,FCB)                                | [Treebank](https://blog.inductorsoftware.com/docsproto/erg/CapitolHillTreebank) (FCB,SSH)                             |
+| Wednesday | [Definiteness](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillDefiniteness) (SSH,EMB)   | [Passives](https://blog.inductorsoftware.com/docsproto/grammars/CapitolHillPassives) [Discussion](https://blog.inductorsoftware.com/docsproto/grammars/CapitalHillPassivesDiscussion) (DVM,DPF) | [Discoursey Things](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillDiscourse) (FZZ,EMB)                   |
+| Thursday  | [Lexicon Building](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillLexicon) (GCS,FZZ)    | [Performance/Robustness](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillPerformance) (DPF,FCB)                            | Excursion: [Theo's Chocolate Factory](https://www.theochocolate.com/) |
+| Friday    | [PhD Design](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillPhDDesign) (EMB,MWG)        | [Generation Testing](https://blog.inductorsoftware.com/docsproto/summits/CapitolHillGenerationTesting) (MWG,LMC)                          | Code Names                                                            |
 
 ## Topics
 

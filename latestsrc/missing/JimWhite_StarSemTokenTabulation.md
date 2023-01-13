@@ -10,10 +10,10 @@ initially. Also a few other punctuation oddities like "hotel.-" and
 
 Contents
 
-1. wisteria1.txt (2012-02-20)
-2. wisteria2.txt (2012-02-20)
-3. SEM-2012-SharedTask-CD-SCO-dev.txt
-4. SEM-2012-SharedTask-CD-SCO-training.txt
+1. [wisteria1.txt (2012-02-20)](https://blog.inductorsoftware.com/docsproto/missing/JimWhite_StarSemTokenTabulation)
+2. [wisteria2.txt (2012-02-20)](https://blog.inductorsoftware.com/docsproto/missing/JimWhite_StarSemTokenTabulation)
+3. [SEM-2012-SharedTask-CD-SCO-dev.txt](https://blog.inductorsoftware.com/docsproto/missing/JimWhite_StarSemTokenTabulation)
+4. [SEM-2012-SharedTask-CD-SCO-training.txt](https://blog.inductorsoftware.com/docsproto/missing/JimWhite_StarSemTokenTabulation)
 
 ## wisteria1.txt (2012-02-20)
 

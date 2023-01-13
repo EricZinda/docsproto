@@ -12,16 +12,16 @@ Newspaper)](http://www.kyoto-np.co.jp/article.php?mid=P2008080200056&genre=K1&ar
 
 Contents
 
-1. Overview
-   1. Aims of the Meeting
-   2. Registration
-   3. Location
-   4. Accommodation
-2. Program
-3. Photos
-4. Previous and Future Meetings
-5. Contact
-   1. Local Organizers
+1. [Overview](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   1. [Aims of the Meeting](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   2. [Registration](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   3. [Location](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   4. [Accommodation](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+2. [Program](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+3. [Photos](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+4. [Previous and Future Meetings](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+5. [Contact](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
+   1. [Local Organizers](https://blog.inductorsoftware.com/docsproto/summits/KyotoTop)
 
 ## Aims of the Meeting
 
@@ -34,10 +34,10 @@ grammar research in the DELPH-IN spirit
 
 ## Registration
 
-Please register on the ParticipantsGroup page by
+Please register on the [ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page by
 adding the times when you plan to arrive and depart. Note that this is a
 closed summit, you need to be on the
-ParticipantsGroup page to edit it.
+[ParticipantsGroup](https://blog.inductorsoftware.com/docsproto/summits/ParticipantsGroup) page to edit it.
 
 ## Location
 
@@ -61,7 +61,7 @@ discount.
 
 # Program
 
-The tentative program is up at: KyotoSchedule.
+The tentative program is up at: [KyotoSchedule](https://blog.inductorsoftware.com/docsproto/summits/KyotoSchedule).
 
 Here is a summary:
 
@@ -98,11 +98,11 @@ photos](http://picasaweb.google.com/bec.dridan/NagashiSMen)
 
 - 2011 ? Seattle (co-located with HPSG)
 - 2010 ???
-- 2009 Barcelona
+- 2009 [Barcelona](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop)
 - 2008 Kyoto (co-located with HPSG)
-- 2007 Berlin
-- 2006 Fefor
-- 2005 Lisbon (co-located with HPSG)
+- 2007 [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
+- 2006 [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
+- 2005 [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) (co-located with HPSG)
 
 # Contact
 

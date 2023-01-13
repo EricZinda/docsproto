@@ -1,18 +1,18 @@
 {% raw %}Contents
 
-1. Overview
-2. Current Development Status
-3. Data Format
-4. Expanding and Exporting
-5. Standard Splits
-6. History
-7. Bibliography
-8. Acknowledgements
+1. [Overview](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+2. [Current Development Status](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+3. [Data Format](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+4. [Expanding and Exporting](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+5. [Standard Splits](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+6. [History](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+7. [Bibliography](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
+8. [Acknowledgements](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop)
 
 # Overview
 
 The LinGO Redwoods Treebank is a collection of hand-annotated corpora
-analysed with the LinGO ERG. For each
+analysed with the [LinGO ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgTop). For each
 utterance from a corpus, the treebank records (in principle) all
 analyses hypothesized by the grammar, together with an annotator
 decision as to which reading is preferred in context.
@@ -75,24 +75,24 @@ petet | "Evaluation By Textual Entailment (Test)" |  || https://link.springer.co
 # Current Development Status
 
 The latest public release of the Redwoods Treebank (and the associated
-WikiWoods Treecache, i.e. a very large collection of ERG
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) Treecache, i.e. a very large collection of ERG
 parses) is the [Ninth
 Growth](http://svn.delph-in.net/erg/tags/1214/tsdb/gold/), including an
-improved and moderately enlarged version of DeepBank. The
+improved and moderately enlarged version of [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank). The
 Ninth Growth used the 1214 version of the ERG. [Flickinger
 (2011)](http://lists.delph-in.net/archives/developers/attachments/20180514/ffe9ae3d/attachment-0001.pdf)
 gives brief descriptions of several of the larger components in the
 appendix. Those components include: Verbmobil (vm\*), E-commerce (ec\*),
-LOGON (jh\*, ps\*, tg\*, rondane, hike), SemCor (sc\*),
+LOGON (jh\*, ps\*, tg\*, rondane, hike), [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) (sc\*),
 Wikipedia (ws01-13, ws214), and an Eric Raymond essay (cb). The main
 addition to the Ninth Growth over previous versions is the
-DeepBank annotation of the Wall Street Journal, sections
+[DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank) annotation of the Wall Street Journal, sections
 00-21 (the same text annotated in the Penn Tree Bank), described in the
 [proceedings of TLT 2011](http://tlt11.clul.ul.pt/ProceedingsTLT11.tgz).
 There are also two profiles (rtc000, rtc001) from the Tanaka (Pacling
 2001) corpus, two profiles of user-generated web content studied in the
-WeScience project, and several profiles also from the Brown
-SemCor that were treebanked for a [SemEval](/SemEval) shared
+[WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) project, and several profiles also from the Brown
+[SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) that were treebanked for a [SemEval](/SemEval) shared
 task after the ERG 1214 release was frozen (cf\*, cg\*, ck\*, cl\*,
 cm\*, cn\*, cp\*, cr\*), described by [Oepen et al.
 (2015)](http://www.aclweb.org/anthology/S15-2153). Finally, the Ninth
@@ -103,7 +103,7 @@ The [Eighth Growth](http://svn.delph-in.net/erg/tags/1212/tsdb/gold/)
 was released in September 2013. It includes 85,000 sentences, consisting
 of data sets from several distinct domains, including not only (a) the
 Verbmobil and ecommerce corpora from earlier releases and (b) the data
-from the LOGON Norwegian-English MT corpus, the WeScience
+from the LOGON Norwegian-English MT corpus, the [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)
 100-article portion of the English Wikipedia and a portion of the
 semantically tagged subset of the Brown corpus (SemCor); but also (c) a
 fresh re-annotation of large parts of the venerable WSJ text behind the
@@ -118,7 +118,7 @@ Eighth Growth was first released as a separate package dubbed [DeepBank
 The grammar and treebanks have been stable since August 2016, and the
 semantic graphs from DeepBank 1.1 have been [released in a variety of
 formats](http://sdp.delph-in.net). The corresponding 1214 release of the
-WikiWoods Treecache is expected by the summer of 2017.
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) Treecache is expected by the summer of 2017.
 
 Earlier relevant Redwoods revisions include the [Second
 Growth](http://redwoods.stanford.edu/ftp/2nd/), [Third
@@ -145,13 +145,13 @@ actually benefit experimentation.
 # Expanding and Exporting
 
 Assuming a functional installation of the LKB, ERG, and \[incr tsdb()\]
-(see the LogonInstallation page, for details), the
+(see the [LogonInstallation](https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation) page, for details), the
 process of exporting all or parts of the Redwoods Treebank into a
 collection of plain text files can be fully automated by virtue of a
 shell script. For (somewhat terse, sadly) instructions on exporting
 various views on the Redwoods data, please see the Section *Exporting
-Various Plain-Text Formats* on the WeScience page as well
-as the ErgProcessing page.
+Various Plain-Text Formats* on the [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) page as well
+as the [ErgProcessing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page.
 
 # Standard Splits
 
@@ -219,7 +219,7 @@ Engineering](http://lists.delph-in.net/archives/developers/attachments/20180514/
 *Language from a cognitive perspective: Grammar, usage, and
 processing*, pages 31-50.
 - Dan Flickinger, Valia Kordoni and Yi Zhang (2012).
-DeepBank: A Dynamically Annotated Treebank of the Wall
+[DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank): A Dynamically Annotated Treebank of the Wall
 Street Journal. In [Proceedings of
 TLT-11](http://tlt11.clul.ul.pt/ProceedingsTLT11.tgz), Lisbon,
 Portugal.

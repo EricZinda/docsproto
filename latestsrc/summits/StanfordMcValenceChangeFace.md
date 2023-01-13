@@ -76,6 +76,6 @@ Emily: That's argument optionality, not Chris's problem (but see
 Safiyyah's library).
 
 Emily: \[Scribe's post-script --- see [VLAD session on
-this.]() \]
+this.](https://blog.inductorsoftware.com/docsproto/summits/LADValenceChange) \]
 
 Last update: 2016-06-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordMcValenceChangeFace/_edit)]{% endraw %}

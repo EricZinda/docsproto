@@ -3,14 +3,14 @@
 The English Resource Grammar (ERG) is a
 general-purpose computational grammar that, in combination with
 specialized processing tools, can map running English text to highly
-normalized logical-form representations of meaning.  A broad-coverage, linguistically precise [HPSG](https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar)-based grammar of English, the ERG is semantically grounded in [Minimal Recursion Semantics](https://en.wikipedia.org/wiki/Minimal_recursion_semantics) (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international [Deep Linguistic Processing with HPSG Initiative](https://github.com/delph-in/docs/wiki) (DELPH-IN) and can be processed by a number of parsing and realization systems, including the LKB grammar engineering environment, as well as the more efficient PET and [ACE](http://sweaglesw.org/linguistics/ace/) run-time parsers, for applications.
+normalized logical-form representations of meaning.  A broad-coverage, linguistically precise [HPSG](https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar)-based grammar of English, the ERG is semantically grounded in [Minimal Recursion Semantics](https://en.wikipedia.org/wiki/Minimal_recursion_semantics) (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international [Deep Linguistic Processing with HPSG Initiative](https://github.com/delph-in/docs/wiki) (DELPH-IN) and can be processed by a number of parsing and realization systems, including the [LKB](https://blog.inductorsoftware.com/docsproto/tools/LkbTop) grammar engineering environment, as well as the more efficient [PET](https://blog.inductorsoftware.com/docsproto/garage/PetTop) and [ACE](http://sweaglesw.org/linguistics/ace/) run-time parsers, for applications.
 
 On-line demos of the ERG are available:
 
 - http://erg.delph-in.net
 - http://delph-in.github.io/delphin-viz/demo/
 
-You can get started quickly with a local compiled copy of the ERG and the ACE parser via these instructions.  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:
+You can get started quickly with a local compiled copy of the ERG and the ACE parser via [these instructions](https://blog.inductorsoftware.com/docsproto/erg/QuickStart).  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:
 
 - The most recent stable version of the ERG:
   
@@ -19,21 +19,21 @@ You can get started quickly with a local compiled copy of the ERG and the ACE pa
   
        $ svn checkout http://svn.delph-in.net/erg/trunk
 
-You can also obtain a more complete grammar and processing development environment to help with customization and application development using one or more parsers and generators, via the ERG Processing page.
+You can also obtain a more complete grammar and processing development environment to help with customization and application development using one or more parsers and generators, via the [ERG Processing](https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing) page.
 
 Following are pointers to existing documentation on how to use the ERG,
 make sense of the syntactic and semantic analyses it provides, and
 interface to it for parsing or generation:
 
-- The Semantics Produced by the ERG
-- Lexical Types
+- [The Semantics Produced by the ERG](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
+- [Lexical Types](https://blog.inductorsoftware.com/docsproto/erg/ErgLeTypes)
 - [Linguistic Type
 Database](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi),
 with example sentences in Redwoods Treebank
-- Syntactic and Lexical Rules
-- Lexical and Phrasal Distinctions
-- Tokenization Assumptions
-- The Redwoods Treebank Many sentences parsed with the
+- [Syntactic and Lexical Rules](https://blog.inductorsoftware.com/docsproto/erg/ErgRules)
+- [Lexical and Phrasal Distinctions](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingRules)
+- [Tokenization Assumptions](https://blog.inductorsoftware.com/docsproto/erg/ErgTokenization)
+- [The Redwoods Treebank](https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop) Many sentences parsed with the
 ERG.
 - ERG is released under the [MIT
 license](http://svn.delph-in.net/erg/trunk/LICENSE)
@@ -86,7 +86,7 @@ of the ninth international conference on language resources and
 evaluation (LREC'14) (pp. 875-881). Reykjavik, Iceland: European
 Language Resources Association (ELRA).
 
-Flickinger, D., Zhang, Y., & Kordoni, V. (2012). DeepBank. A
+Flickinger, D., Zhang, Y., & Kordoni, V. (2012). [DeepBank](https://blog.inductorsoftware.com/docsproto/garage/DeepBank). A
 dynamically annotated treebank of the Wall Street Journal. In (p.
 85-96). Lisbon, Portugal: Edições Colibri.
 

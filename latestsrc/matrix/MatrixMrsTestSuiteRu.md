@@ -1,4 +1,4 @@
-{% raw %}This is the MRS Test Suite for Russian.
+{% raw %}This is the [MRS Test Suite](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite) for Russian.
 
 ## Russian MRS Test Suite
 

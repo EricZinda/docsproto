@@ -605,54 +605,54 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>This page was adapted from JacyGeneration by
+        <p>This page was adapted from <a href="https://blog.inductorsoftware.com/docsproto/grammars/JacyGeneration">JacyGeneration</a> by
 MichaelGoodman, and therefore many of the examples are
-from the JACY Grammar.</p>
+from the <a href="https://blog.inductorsoftware.com/docsproto/grammars/JacyTop">JACY</a> Grammar.</p>
 
 <p>Contents</p>
 
 <ol>
-  <li>Overview</li>
-  <li><a href="">Generating Semantically Empty Lexical Entries
+  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Overview</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Generating Semantically Empty Lexical Entries
 (trigger.mtr)</a>
     <ol>
-      <li><a href="">How to list semantically empty lexical
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">How to list semantically empty lexical
 entries</a></li>
-      <li>ToDo</li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">ToDo</a></li>
     </ol>
   </li>
-  <li>Generating Unknown Words</li>
-  <li><a href="">Selective Generation
+  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Generating Unknown Words</a></li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Selective Generation
 (globals.lisp)</a>
     <ol>
       <li>
         <ol>
           <li>
             <ol>
-              <li>In Ace</li>
+              <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">In Ace</a></li>
             </ol>
           </li>
         </ol>
       </li>
     </ol>
   </li>
-  <li>Other Notes
+  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Other Notes</a>
     <ol>
-      <li><a href="">Make generation faster
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Make generation faster
 (globals.lsp)</a></li>
-      <li>Fixup MRS (mrsglobals.lsp)</li>
-      <li><a href="">Reload generation rules without
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Fixup MRS (mrsglobals.lsp)</a></li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Reload generation rules without
 reindexing</a></li>
-      <li><a href="">MRS Semantic Equivalence
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">MRS Semantic Equivalence
 Check</a></li>
-      <li>Checking the Generator Index</li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Checking the Generator Index</a></li>
     </ol>
   </li>
-  <li>Trouble Shooting
+  <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Trouble Shooting</a>
     <ol>
-      <li>Morphology</li>
-      <li>C-CONT</li>
-      <li><a href="">Loading and Activating a Generation
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Morphology</a></li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">C-CONT</a></li>
+      <li><a href="https://blog.inductorsoftware.com/docsproto/tools/LkbGeneration">Loading and Activating a Generation
 Model</a></li>
     </ol>
   </li>
@@ -766,12 +766,12 @@ in the ERG’s global.lsp file.</p>
 <h1 id="selective-generation-globalslisp">Selective Generation (globals.lisp)</h1>
 
 <p>You can block generation of some non-empty predicates by putting it in
-the list *duplicate-lex-ids* in globals.lisp. Jacy
+the list *duplicate-lex-ids* in globals.lisp. <a href="https://blog.inductorsoftware.com/docsproto/grammars/JacyTop">Jacy</a>
 currently does this to block informal and variant forms for which we
 have no available filter. Note that this is a list of lex-ids, not
 predicate names.</p>
 
-<p><strong>Note</strong>: If you want this list to also be seen by ace, you
+<p><strong>Note</strong>: If you want this list to also be seen by <a href="https://blog.inductorsoftware.com/docsproto/tools/AceTop">ace</a>, you
 need to move it to a separate file (see a recent ERG for examples of how
 to do this).</p>
 

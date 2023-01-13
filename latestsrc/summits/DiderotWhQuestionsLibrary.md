@@ -129,7 +129,7 @@ messages, we lost the ability to link wh parameters to a particular SF
 ques element.
 
 Guy: We discussed this at the last Summit. (See
-OsloQuestionRepresentation)
+[OsloQuestionRepresentation](https://blog.inductorsoftware.com/docsproto/summits/OsloQuestionRepresentation))
 
 Olga: Back to slides... In Finnish, there's an interrogative word that's
 used in polar questions, but not in constituent questions. But I think

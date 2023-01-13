@@ -67,6 +67,6 @@ one introducing \_le\_n\_rel and one introducing \_la\_n\_rel. They are
 also distinguished in their value for the GENDER feature, and *cuite*
 constrains the GENDER value of its argument to be feminine. This seems
 somewhat redundant. (See also
-FeforDroppedArguments.)
+[FeforDroppedArguments](https://blog.inductorsoftware.com/docsproto/summits/FeforDroppedArguments).)
 
 Last update: 2006-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforPng/_edit)]{% endraw %}

@@ -12,7 +12,7 @@ in fact, some of the new components target \`power' users (building very
 large-scale grammars) and specific applications (e.g. machine
 translation). A more detailed summary of code changes to the LKB is
 available from the CVS source repository logs and the
-LkbEvolution page.
+[LkbEvolution](https://blog.inductorsoftware.com/docsproto/missing/LkbEvolution) page.
 
 # Lexical Database Integration
 
@@ -27,7 +27,7 @@ and maintaining it.
 
 # Preprocessor Support
 
-See LkbPreprocessing. Topics covered include:
+See [LkbPreprocessing](https://blog.inductorsoftware.com/docsproto/missing/LkbPreprocessing). Topics covered include:
 XML-Based Interface to External Preprocessors, (Internal) Finite State
 Preprocessing, Characterization.
 
@@ -41,7 +41,7 @@ redundant information is removed, they contain precisely the same
 information as the original feature structures, but with less room.
 Unfilling support in the LKB was added by
 FrederikFouvry and is documented further on the
-LkbUnfilling page.
+[LkbUnfilling](https://blog.inductorsoftware.com/docsproto/missing/LkbUnfilling) page.
 
 # Linguistic User Interface (LUI)
 
@@ -51,7 +51,7 @@ grammars, i.e. trees, feature structures, MRSs, charts, et al. While the
 LKB comes with built-in browsers for all of these, the current use of
 the CLIM (Common-Lisp Interface Manager) toolkit in the LKB severely
 limits portability, ease of use, and programmatic extension. The
-LkbLui pages describe the current state of play for
+[LkbLui](https://blog.inductorsoftware.com/docsproto/tools/LkbLui) pages describe the current state of play for
 integration of LUI with the LKB.
 
 # Linguistic Server Protocol (LSP)

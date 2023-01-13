@@ -1,17 +1,17 @@
 {% raw %}# Overview
 
-The 11th DELPH-IN Summit will be held from Monday, August
+The 11th DELPH-IN [Summit](https://blog.inductorsoftware.com/docsproto/summits/SummitTop) will be held from Monday, August
 3, to Friday August 7, 2015, in or around NTU, Singapore. It is the week
 after [ACL 2015](http://acl2015.org/) (in Beijing) and the week before
 [HPSG 2015](http://compling.hss.ntu.edu.sg/events/2015-hpsg/)
 (co-located in Singapore). We encourage people to go to all three!
 
 If you intend to come, please register at
-SingaporeParticipants.
+[SingaporeParticipants](https://blog.inductorsoftware.com/docsproto/summits/SingaporeParticipants).
 
 ## Summit Program
 
-The schedule is available at SingaporeSchedule.
+The schedule is available at [SingaporeSchedule](https://blog.inductorsoftware.com/docsproto/summits/SingaporeSchedule).
 
 **News**: On Monday morning, Dan will act as guide those of you staying
 at NEC. Please meet in the lobby at 8:30am!

@@ -10,7 +10,7 @@ propose providing a schema for choices files and an associated API.
 These changes will make development easier and help enable connecting
 the Grammar Matrix to other projects, both as a component and a target.
 
-See VirtualChoices for a discussion on this topic.
+See [VirtualChoices](https://blog.inductorsoftware.com/docsproto/summits/VirtualChoices) for a discussion on this topic.
 
 ## Introduction
 

@@ -28,7 +28,7 @@ With these distinctions in mind, here are some requirements for The Documentatio
   - Could be that there are different sets of documentation for each version, but there would need to be a way to share the huge amount of content they have in common
 
 # Approach
-The approach for the current documentation site is described here. @goodmami and I talked about using a slightly modified approach for the new docs:
+The approach for the current documentation site is described [here](https://blog.inductorsoftware.com/docsproto/garage/ERDW_HowCurrentDocsAreBuilt). @goodmami and I talked about using a slightly modified approach for the new docs:
 
 The new Documentation Site is hosted by, and built by, GitHub pages. This is a free hosting service that can consume content from the repositories in Github.  This is what https://delph-in.github.io/docs/ uses today.
 

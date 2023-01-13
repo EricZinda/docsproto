@@ -61,7 +61,7 @@ For a blend of linguistic and technical reasons, the ERG also introduces
 intrinsic variables in the semantics of, among others, adjectives,
 adverbs, and prepositions–eventualities in all three cases (for further
 background, see the
-ErgSemantics/Design page).
+[ErgSemantics/Design](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Design) page).
 
 # Surface vs. Abstract Predicates (and Naming Conventions)
 
@@ -110,13 +110,13 @@ in an object-language logic). Parameters are represented as
 than one parameter.
 
 For example, proper names are represented as follows in the ‘fingerprint
-language’ (see the ErgSemantics
+language’ (see the [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
 page for background):
 
       named(Abrams)[ARG0 x]
 
 Conversely, in a popular serialization format for complete MRSs (the
-so-called *simple* MRS serialization; see the MrsRfc page),
+so-called *simple* MRS serialization; see the [MrsRfc](https://blog.inductorsoftware.com/docsproto/tools/MrsRFC) page),
 parameters are interspersed with regular arguments, using the (strictly
 speaking ERG-specific) pseudo-role label CARG:
 
@@ -222,7 +222,7 @@ includes the sub-structure
 where x is the intrinsic argument of \_cat\_n\_1 and the ARG1 of
 \_white\_a\_1, and both predications share one label (viz. h). This type
 of configuration and its role in our analyses are described further on
-the ErgSemantics/Design
+the [ErgSemantics/Design](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Design)
 page. When mapped to an object language, label sharing will typically
 correspond to logical conjunction, e.g. for the above something akin to
 *cat(x) ∧ white(e, x)*.
@@ -234,10 +234,10 @@ a scopal modifier.
 
 # More Information
 
-- ErgSemantics main page
-- Inventory of semantic phenomena (to be)
+- [ErgSemantics](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics) main page
+- [Inventory](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Inventory) of semantic phenomena (to be)
 documented
-- How to cite this work
+- [How to cite this work](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_HowToCite)
 
 # References
 

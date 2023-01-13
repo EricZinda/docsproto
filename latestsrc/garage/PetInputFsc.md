@@ -1,9 +1,9 @@
 {% raw %}# Overview
 
 The *Feature Structure Chart* (FSC) format is an XML-based input format
-for the cheap parser (see the PetInput page for background).
+for the cheap parser (see the [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput) page for background).
 It is well suited as a replacement for scenarios where PIC
-(PetInputChart) or SMAF (SmafTop) are used.
+([PetInputChart](https://blog.inductorsoftware.com/docsproto/garage/PetInputChart)) or SMAF ([SmafTop](https://blog.inductorsoftware.com/docsproto/tools/SmafTop)) are used.
 
 An FSC document describes the initial chart of the parser, which is a
 lattice of tokens. Vertices in the lattice represent token boundaries
@@ -17,7 +17,7 @@ If the grammar is set up to unify token feature structures into the
 feature structure of words (as, e.g., the ERG), it is possible to
 "inject" annotations of external tools into the parser. Combined with
 chart mapping and the unknown word handling mechanism on top of token
-feature structures (see PetInput), it is thus possible to
+feature structures (see [PetInput](https://blog.inductorsoftware.com/docsproto/garage/PetInput)), it is thus possible to
 trigger the instantiation of generic lexical entries upon external
 annotation and shape the search space of the parser. The FSC format is
 at present the only format that allows the user to provide external
@@ -184,7 +184,7 @@ The function should also be called before treebanking:
 
 ## Heart of Gold
 
-The Heart of Gold (HeartofgoldTop) can be used to
+The Heart of Gold ([HeartofgoldTop](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop)) can be used to
 synthesize token feature structures from several modules. There are
 currently sessions defined for the ERG that combine jTok, TnT, and
 optionally SProUT output into FSC documents.

@@ -1,7 +1,7 @@
 {% raw %}Norsource is an HPSG-based grammar of Norwegian developed at NTNU.
 
-- Download Information (LGPL-LR)
-- Grammar Summary
+- [Download Information](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceDownload) (LGPL-LR)
+- [Grammar Summary](https://blog.inductorsoftware.com/docsproto/grammars/NorsourceSummary)
 - [External
 Homepage](http://www.typecraft.org/tc2wiki/Norwegian_HPSG_grammar_NorSource)
 - Used in:

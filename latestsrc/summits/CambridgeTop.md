@@ -9,11 +9,11 @@ Site](https://map.cam.ac.uk/Computer+Laboratory). Plenary sessions will
 be in room FW11.
 
 Please register your intention to participate on the
-CambridgeParticipants page.
+[CambridgeParticipants](https://blog.inductorsoftware.com/docsproto/summits/CambridgeParticipants) page.
 
 # Programme
 
-See CambridgeSchedule.
+See [CambridgeSchedule](https://blog.inductorsoftware.com/docsproto/summits/CambridgeSchedule).
 
 AnnCopestake and JohnCarroll serve as
 programme chairs.

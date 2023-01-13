@@ -12,13 +12,13 @@ correct.
 
 Contents
 
-1. Page Status
-2. Distributed Processing
-   1. CPU definitions
-   2. Activating CPUs
+1. [Page Status](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDistributedProcessing)
+2. [Distributed Processing](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDistributedProcessing)
+   1. [CPU definitions](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDistributedProcessing)
+   2. [Activating CPUs](https://blog.inductorsoftware.com/docsproto/tools/ItsdbDistributedProcessing)
 
 Parsing in [\[incr tsdb()\]](http://www.delph-in.net/itsdb) (see
-ItsdbTop) can be distributed over several machines. This is
+[ItsdbTop](https://blog.inductorsoftware.com/docsproto/tools/ItsdbTop)) can be distributed over several machines. This is
 done over the parallel virtual machine (PVM) interface.
 
 Client processors are called *cpu*s. Each cpu is usually described in
@@ -48,7 +48,7 @@ Usually, users will have a set of [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) cpus to choose from; when
 preparing for a test run, a selection from the set of available cpus is
 made to create clients as needed. The per-user configuration file
-\~/.tsdbrc (see ItsdbCustomization) can be used to
+\~/.tsdbrc (see [ItsdbCustomization](https://blog.inductorsoftware.com/docsproto/tools/ItsdbCustomization)) can be used to
 enumerate a list of cpus (similar to the **pvm** node listing in the
 \~/.pvm\_hosts file).
 
@@ -118,7 +118,7 @@ of the cpu to be started;
 \* \[:list\] provides a summary of all available client definitions;
 
 \* \[:kill\] shuts down all existing clients; this makes the \[LKB
-LkbTop\] the default client.
+[LkbTop](https://blog.inductorsoftware.com/docsproto/tools/LkbTop)\] the default client.
 
 (setf \*process-raw-print-trace-p\* t) will make the print-out while
 going through a test run look nicer.

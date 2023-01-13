@@ -6,22 +6,22 @@ system pages:
 - RecentChanges
 - TitleIndex
 - WordIndex
-- SiteNavigation
+- [SiteNavigation](https://blog.inductorsoftware.com/docsproto/missing/SiteNavigation)
 - FindPage
-- UserPreferences
+- [UserPreferences](https://blog.inductorsoftware.com/docsproto/missing/UserPreferences)
 - AbandonedPages
 - OrphanedPages
 - WantedPages
-- EventStats
-- EventStats/HitCounts
-- EventStats/UserAgents
+- [EventStats](https://blog.inductorsoftware.com/docsproto/missing/EventStats)
+- [EventStats/HitCounts](https://blog.inductorsoftware.com/docsproto/missing/EventStats_HitCounts)
+- [EventStats/UserAgents](https://blog.inductorsoftware.com/docsproto/missing/EventStats_UserAgents)
 - PageSize
 - InterWiki
 - RandomPage
 - StructuredText
-- SystemInfo
+- [SystemInfo](https://blog.inductorsoftware.com/docsproto/missing/SystemInfo)
   
-  - SystemPagesGroup
+  - [SystemPagesGroup](https://blog.inductorsoftware.com/docsproto/missing/SystemPagesGroup)
 - WikiHomePage
 - WikiName
 - WikiSandBox
@@ -32,7 +32,7 @@ system pages:
   
   - FrontPage - do not move this to 1st level as we do
 not want to update this page!
-- FortuneCookies
+- [FortuneCookies](https://blog.inductorsoftware.com/docsproto/missing/FortuneCookies)
 
 help pages:
 
@@ -119,8 +119,8 @@ templates:
 
 - [HelpTemplate](/HelpTemplate)
 - HomepageTemplate
-- SlideShowHandOutTemplate
-- SlideShowTemplate
-- SlideTemplate
+- [SlideShowHandOutTemplate](https://blog.inductorsoftware.com/docsproto/missing/SlideShowHandOutTemplate)
+- [SlideShowTemplate](https://blog.inductorsoftware.com/docsproto/missing/SlideShowTemplate)
+- [SlideTemplate](https://blog.inductorsoftware.com/docsproto/missing/SlideTemplate)
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SystemPagesInEnglishGroup/_edit)]{% endraw %}

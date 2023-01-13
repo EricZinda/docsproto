@@ -607,8 +607,8 @@
         
         <h1 id="tsdb-schema-descriptions">TSDB Schema Descriptions</h1>
 
-<p>TSDB is the file-based relational database used to store
-test suites of sentences with related information used
+<p><a href="https://blog.inductorsoftware.com/docsproto/tools/TsdbTop">TSDB</a> is the file-based relational database used to store
+<a href="https://blog.inductorsoftware.com/docsproto/tools/ItsdbProfile">test suites</a> of sentences with related information used
 by tools such as <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a>,
 <a href="http://sweaglesw.org/linguistics/libtsdb/art">art</a>, and
 PyDelphin. The schema description of a TSDB database
@@ -704,7 +704,7 @@ databases, I propose the following variations:</p>
   <li>restrict table and column names to be /[a-zA-Z-]/; specifically I
 want to rule out dot (.), colon (:), and spaces in the names so it
 doesn’t interfere with other parts of the syntax (such as
-TSQL), and to prevent a source of SQL injection when
+<a href="https://blog.inductorsoftware.com/docsproto/tools/TsqlRfc">TSQL</a>), and to prevent a source of SQL injection when
 dynamically creating an SQL database (since table and column names
 cannot be parameterized, only literal values)</li>
   <li>fix the position of the datatype to be immediately after the column

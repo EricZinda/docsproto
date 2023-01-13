@@ -1,4 +1,4 @@
-{% raw %}See also: RmrsWellformedness
+{% raw %}See also: [RmrsWellformedness](https://blog.inductorsoftware.com/docsproto/tools/RmrsWellformedness)
 
 Glenn intro: Are MRSs which correspond to fragmented graphs well-formed?
 Ex: *Nearly every dog barked*. (see
@@ -50,7 +50,7 @@ beautiful.
 
 Dan: Whew!
 
-Glenn: EdsTop page on the wiki.
+Glenn: [EdsTop](https://blog.inductorsoftware.com/docsproto/tools/EdsTop) page on the wiki.
 
 oe: The phenomenon we're looking at here is degree specification of
 quantifiers. For as long as I can remember, we've always said we don't
@@ -407,7 +407,7 @@ whether or not they follow and tools can point to what they assume.
 
 Mike: At the Abbey talked about augmenting the SEM-I with predicate
 arities, to avoid having to load the grammar to find this. See
-SemiRfc.
+[SemiRfc](https://blog.inductorsoftware.com/docsproto/tools/SemiRfc).
 
 \[Scribe is done\]
 

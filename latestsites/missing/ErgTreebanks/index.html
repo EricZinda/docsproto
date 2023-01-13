@@ -867,18 +867,18 @@ lexical choices, syntactic constructions, or attachment sites.</p>
 
 <p>Coordinated with the 1212 version of the ERG (released in mid-2013),
 there are two large collections of gold-standard ERG analyses: the
-Eighth Growth of the <a href="">Redwoods
-Treebank</a>, and DeepBank
+Eighth Growth of the <a href="https://blog.inductorsoftware.com/docsproto/garage/RedwoodsTop">Redwoods
+Treebank</a>, and <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>
 1.0—the first release of the new ERG annotation of (most of) the
 venerable WSJ text originally annotated in the Penn Treebank.</p>
 
 <p>Redwoods comprises some 400,000 tokens of annotated text from various
 domains and genres (including transcribed dialogues, ecommerce email,
 tourism information, Wikipedia, and user-generated content; see the
-Redwoods web page for details). The 1.0 release of DeepBank
+Redwoods web page for details). The 1.0 release of <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>
 encompasses WSJ Sections 00–21, for about 750,000 tokens of annotated
 text. An exact summary of the various sections in Redwoods and
-DeepBank, recommendations for splitting out development and
+<a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>, recommendations for splitting out development and
 testing sections, and sentence and token counts are available in the
 form of an <a href="http://svn.delph-in.net/erg/tags/1212/etc/redwoods.xls">on-line
 spreadsheet</a>.</p>
@@ -893,7 +893,7 @@ goals of the ERG developers and of this page.</p>
 
 <h1 id="obtaining-the-treebanks-and-supporting-software">Obtaining the Treebanks and Supporting Software</h1>
 
-<p>Both the Redwoods and DeepBank annotations are natively
+<p>Both the Redwoods and <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> annotations are natively
 recorded and distributed as what is called <a href="http://www.delph-in.net/itsdb">[incr
 tsdb()]</a> profiles, essentially database
 snapshots that record exactly how the ERG parser arrived at the intended
@@ -905,8 +905,8 @@ architectures, where 32-bit compatibility libraries need to be installed
 in a 64-bit environment), provided one has available some six gigabytes
 of disk space.</p>
 
-<p>Technical details are available on the LogonTop and
-LogonInstallation pages, but it should just work to
+<p>Technical details are available on the <a href="https://blog.inductorsoftware.com/docsproto/tools/LogonTop">LogonTop</a> and
+<a href="https://blog.inductorsoftware.com/docsproto/tools/LogonInstallation">LogonInstallation</a> pages, but it should just work to
 execute the following:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  svn co http://svn.emmtee.net/trunk logon
@@ -932,7 +932,7 @@ range of derived representations for a given profile:</p>
 </code></pre></div></div>
 
 <p>For a brief discussion of what the individual export formats are, please
-look towards the bottom of the ErgProcessing page and
+look towards the bottom of the <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgProcessing">ErgProcessing</a> page and
 links from there. The procedure above should create a new directory
 /tmp/cb/ (for the advocacy essay <em>The Cathedral and the Bazaar</em>, in this
 case, which is commonly used as out-of-domain test data with the ERG);
@@ -953,16 +953,16 @@ cb.ptb.dtm, for our running example), containing both syntactic and
 semantic bi-lexical dependencies in CoNLL-08 format. While the ERG makes
 its own (linguistically motivated) internal tokenization assumptions,
 this final step also can convert to the venerable PTB-style tokenization
-conventions (see ErgTokenization for background).
+conventions (see <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTokenization">ErgTokenization</a> for background).
 <a href="http://aclweb.org/anthology/W/W12/W12-3602.pdf">Ivanova et al. (2012)</a>
 provides more background to this final conversion.</p>
 
 <h1 id="adding-deepbank-to-the-logontree">Adding DeepBank to the LOGON Tree</h1>
 
-<p>Once DeepBank 1.0 is publicly released (which is imminent in
+<p>Once <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> 1.0 is publicly released (which is imminent in
 September 2013), the same formats and procedures documented above will
 be applicable to the ERG WSJ annotations too. Furthermore,
-DeepBank will make available pre-packaged exports and
+<a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a> will make available pre-packaged exports and
 conversion into bi-lexical syntactic and semantic dependencies. Please
 watch this page for updates.</p>
 
@@ -981,14 +981,14 @@ StephanOepen for assistance.</p>
   <li>Some of the ERG treebank data can be searched via semantic
 ‘fingerprints’ using the <a href="http://wesearch.delph-in.net">WeSearch
 Interface</a>; for information on
-fingerprinting, please see the ErgSemantics
+fingerprinting, please see the <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics">ErgSemantics</a>
 documentation.</li>
   <li><a href="http://hum.csse.unimelb.edu.au/ts/index">Fangorn</a> provides a
 syntactic search interface to a subset of Redwoods.</li>
   <li>The <a href="http://clarino.uib.no/iness">INESS Treebank Infrastructure</a>
 also facilitates search over syntactic derivations and labeled
-constituent trees of Redwoods and DeepBank.</li>
-  <li><a href="">Some further thoughts on kinds of searches to
+constituent trees of Redwoods and <a href="https://blog.inductorsoftware.com/docsproto/garage/DeepBank">DeepBank</a>.</li>
+  <li><a href="https://blog.inductorsoftware.com/docsproto/missing/TreebankQueryIdeas">Some further thoughts on kinds of searches to
 enable</a></li>
 </ul>
 

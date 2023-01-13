@@ -7,7 +7,7 @@ installed an older version of the LOGON distribution (dating to before
 mid-June 2013), there used to be an **ace** binary on your PATH which
 dates to roughly 2005. Current versions of the LOGON tree include
 up-to-date ACE binaries (invoked through a wrapper script called
-‘answer’; see the LogonAnswer page). Or, if you have a
+‘answer’; see the [LogonAnswer](https://blog.inductorsoftware.com/docsproto/tools/LogonAnswer) page). Or, if you have a
 locally installed binary, you may try invoking a modern copy of ACE by
 its full path. Modern versions of ACE support the -V command-line option
 to report the version; if your ACE does not recognize the -V option, it
@@ -31,7 +31,7 @@ example, in Jacy's pet/japanese.set file:
 
       punctuation-characters := "!\\"!&'()\*+,-−./;&lt;=&gt;?@\[\\\]^\_\`{\|}\~。！？…．　○●◎＊☆★◇◆" 
 
-ACE uses the REPP tokenizer (see ReppTop) to accomplish this.
+ACE uses the REPP tokenizer (see [ReppTop](https://blog.inductorsoftware.com/docsproto/garage/ReppTop)) to accomplish this.
 The above can be made into a REPP rule as follows (where → is a tab
 character and ▁ is a space; note that special characters may need to be
 escaped):

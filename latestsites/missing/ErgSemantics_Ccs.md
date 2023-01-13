@@ -2,8 +2,8 @@
 
 This page provides a quick catalogue of ERS fingerprints for the
 phenomena to be discussed at the [Comparative Computational
-Semantics]() working meeting in Berlin in November 2014,
-suitable for interactive exploration using the WeSearch
+Semantics](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Ccs) working meeting in Berlin in November 2014,
+suitable for interactive exploration using the [WeSearch](https://blog.inductorsoftware.com/docsproto/garage/WeSearch)
 [Semantic Search Interface](http://wesearch.delph-in.net). The phenomena
 are listed together with their fingerprints (in some cases, multiple
 sets of fingerprints) and links to their ERG Semantic Documentation
@@ -22,8 +22,8 @@ DeepBank](http://wesearch.delph-in.net/esd/search.jsp): Explore the
 phenomena in a larger corpus of running text
 - [ERS Representations as One PDF
 File](http://svn.emmtee.net/trunk/uio/wesearch/ccs/erg/mrs.pdf)
-- CCS Working Meeting Main Page
-- ERG Semantic Documentation Main Page
+- [CCS Working Meeting Main Page](https://blog.inductorsoftware.com/docsproto/garage/WeSearch_Ccs)
+- [ERG Semantic Documentation Main Page](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics)
 
 # Phenomena
 
@@ -39,7 +39,7 @@ Primarily illustrated by items 101–109.
     h:[ARG0 e]
 
 [ERG Semantic Documentation: Propositional
-Arguments]()
+Arguments](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_PropositionalArguments)
 
 ## 2. Coordination
 
@@ -58,7 +58,7 @@ grammar (and the annotations we prepared for the working meeting).
     h2:[ARG0 e2]
     h3:[ARG0 e3]
 
-ERG Semantic Documentation: Coordination
+[ERG Semantic Documentation: Coordination](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Coordination)
 
 ## 3. Ellipsis
 
@@ -68,7 +68,7 @@ Primarily illustrated by items 301–304.
     
     ellipsis_expl[ARG1 u]
 
-ERG Semantic Documentation: Ellipsis
+[ERG Semantic Documentation: Ellipsis](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Ellipsis)
 
 ## 4. ‘Identity’ Copulae
 
@@ -100,7 +100,7 @@ Primarily illustrated by items 401–407.
     { h3 =q h2 }
 
 [ERG Semantic Documentation: Identity
-Copulae]()
+Copulae](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_IdentityCopulae)
 
 ## 5. Nominalization
 
@@ -111,7 +111,7 @@ analyzed as nominalization in ERS (currently).
     h:[ARG0 e]
 
 [ERG Semantic Documentation:
-Nominalization]()
+Nominalization](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Nominalization)
 
 ## 6. Comparatives
 
@@ -120,7 +120,7 @@ Primarily illustrated by items 601-607.
     h:comp[ARG1 e]
     h:*_a*[ARG0 e]
 
-ERG Semantic Documentation: Comparatives
+[ERG Semantic Documentation: Comparatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Comparatives)
 
 ## 7. Control Relations
 
@@ -138,7 +138,7 @@ interface.
     { h1 =q h2 }
 
 [ERG Semantic Documentation: Control
-Relations]()
+Relations](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ControlRelations)
 
 ## 8. Measure Phrases
 
@@ -151,7 +151,7 @@ involving a measure phrase.
     [ARG0 x]
 
 [ERG Semantic Documentation: Measure
-Phrases]()
+Phrases](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_MeasurePhrases)
 
 ## 9. Parentheticals
 
@@ -162,7 +162,7 @@ analyzed as apposition instead.
     h1:[ARG0 i1]
 
 [ERG Semantic Documentation:
-Parentheticals]()
+Parentheticals](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Parentheticals)
 
 ## 10. Relative Clauses
 
@@ -177,13 +177,13 @@ fingerprints below.
     relative_mod
 
 [ERG Semantic Documentation: Relative
-Clauses]()
+Clauses](https://blog.inductorsoftware.com/docsproto/missing/ErgSemantics_RelativeClauses)
 
     h1:with_p[ARG1 e1, ARG2 x1]
     h1:[ARG0 e1]
     h1:[ARG0 x1]
 
 [ERG Semantic Documentation: Instrumental
-Relatives]()
+Relatives](https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_InstrumentalRelatives)
 
 Last update: 2014-11-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Ccs/_edit)]{% endraw %}

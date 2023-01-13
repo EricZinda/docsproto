@@ -84,7 +84,7 @@ between sentences elicited for psych experiments and those in
 corpora. Most are due to discourse effects - single sentences
 have different characteristics to those in running text. This
 doesn't apply to most of our corpora, but possibly
-SemCor. And Tanaka, if we ever go that way. Other
+[SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor). And Tanaka, if we ever go that way. Other
 differences were often due to verb sense frequency differences.
 - Roland et. al. 2000. Verb Subcategorization Frequency Differences
 between Business-News and Balanced Corpora: The Role of Verb Sense

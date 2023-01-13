@@ -41,12 +41,12 @@ that day.
 
 Participants are expected to make their own travel arrangements to Oslo
 and submit transportation receipts for reimbursement upon completion of
-the meeting. SynSem has earmarked up to EUR 1200 per
+the meeting. [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) has earmarked up to EUR 1200 per
 participant traveling from outside Europe and up to EUR 400 per
 participant from within Europe; in case you find it impossible to make
 travel arrangements to Oslo within these limits, please make contact
 with Dag and Stephan as soon as possible. Accomodation and meals while
-in Oslo will be covered by SynSem directly.
+in Oslo will be covered by [SynSem](https://blog.inductorsoftware.com/docsproto/summits/SynSem) directly.
 
 Our meeting room is called *Steilene*, on one of the lower (cooler)
 floors of the newer, ‘grey’ building.

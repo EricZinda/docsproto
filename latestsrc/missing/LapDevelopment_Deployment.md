@@ -33,7 +33,7 @@ structure below through a set of symbolic links in /home/laportal/.
 As a prerequisite to LAP installation, there must be a MongoDB database
 available for access by the LAP user. Some notes on how MongoDB is
 configured on the LAP servers is available on the
-LapDevelopment/MongoDB page, but for local
+[LapDevelopment/MongoDB](https://blog.inductorsoftware.com/docsproto/missing/LapDevelopment_MongoDB) page, but for local
 installations the following might just work
 
 Install MongoDB via your package manager, e.g.

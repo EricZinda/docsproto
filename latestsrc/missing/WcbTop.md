@@ -2,8 +2,8 @@
 
 The *Wikipedia Corpus Builder* (WCB) is a toolkit for extracting
 relevant linguistic content from Wikipedia. It was used in the creation
-of the 2012 versions of WeScience and
-WikiWoods, through the MSc thesis of Lars Jørgen Solberg at
+of the 2012 versions of [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience) and
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods), through the MSc thesis of Lars Jørgen Solberg at
 the Department of Informatics at the University of Oslo.
 
 # Installation
@@ -27,13 +27,13 @@ WCB itself can be downloaded from
 
 # Running on the English Wikipedia
 
-The setup used in the creation of WikiWoods 2.0 is included
+The setup used in the creation of [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) 2.0 is included
 in the wcb/enwiki-20080727 directory. It should be usable on newer
 snapshots as well.
 
 First prepare a database snapshot:
 
-1. Download a snapshot from either from the WikiWoods page
+1. Download a snapshot from either from the [WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) page
 or from <http://dumps.wikimedia.org/>.
 2. Decompress the the snapshot:
 bunzip enwiki-20080727-pages-articles.xml.bz2
@@ -48,7 +48,7 @@ This variable can be set by doing something like
 export PATHSFILE=./wcb/enwiki-20080727/paths.txt.
 
 As a test run ./wcb/scripts/gml.py --senseg 'Context-free language',
-which should print some GML to stdout. The first invocation of
+which should print some [GML](https://blog.inductorsoftware.com/docsproto/tools/ErgGml) to stdout. The first invocation of
 this command will take some time as it will examine all templates in the
 snapshot.
 
@@ -85,7 +85,7 @@ separated file (actually "underscore separated") where each row starts
 with the name of a template (or a regular expression) followed by one of
 the actions keep, remove or expand. Templates not listed in the rules
 file is expanded as normal. The template rules used in the creation of
-WikiWoods 2.0 can be seen here:
+[WikiWoods](https://blog.inductorsoftware.com/docsproto/garage/WikiWoods) 2.0 can be seen here:
 <https://github.com/larsjsol/wcb/blob/master/enwiki-20080727/templaterules.csv>
 .
 

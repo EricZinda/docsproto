@@ -1,6 +1,6 @@
 {% raw %}# Monday to Wednesday: Plenary
 
-Schedule for the 2018 DELPH-IN Summit at the University of
+Schedule for the [2018 DELPH-IN Summit](https://blog.inductorsoftware.com/docsproto/summits/DiderotTop) at the University of
 Chicago Center in Paris (6 rue Thomas Mann). Welcome coffee on arrival
 from 9:00 onwards.
 
@@ -25,7 +25,7 @@ from 9:00 onwards.
 |                                                   |                      [Improved type hierarchy processing and display](http://users.sussex.ac.uk/~johnca/summit-2018/hierarchy.pdf) (John Carroll: 20+10)                       |
 |                13:00-14:30 *Lunch*                |                                                                                                                                                                                |
 |   14:30-16:00 *Plenary Session 3 -- Chair: TBA*   |                                                                                                                                                                                |
-|                    14:30-16:00                    |                Discussion: Applications of MRS to downstream NLP tasks, in particular for language generation (Jan Buys) Notes                 |
+|                    14:30-16:00                    |                Discussion: Applications of MRS to downstream NLP tasks, in particular for language generation (Jan Buys) [Notes](https://blog.inductorsoftware.com/docsproto/summits/DiderotApplicationDiscussion)                 |
 |            16:00-16:30 *Coffee Break*             |                                                                                                                                                                                |
 | 16:30-18:00 *Plenary Session 4 -- Chair: Francis* |                                                                                                                                                                                |
 |                       16:30                       |                                      [Indra update](http://users.sussex.ac.uk/~johnca/summit-2018/indra-update.pdf) (David Moeljadi: 5+5)                                      |
@@ -38,7 +38,7 @@ from 9:00 onwards.
 |:--------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |                **Tuesday, 19 June**                |                                                                                                                                                                                                                             |
 |   9:30-11:00 *Plenary Session 5 -- Chair: Emily*   |                                                                                                                                                                                                                             |
-|                        9:30                        |                       [Discussion: WH-questions in the Grammar Matrix: A start](http://users.sussex.ac.uk/~johnca/summit-2018/constituent-wh.pdf) (Olga Zamaraeva) notes                       |
+|                        9:30                        |                       [Discussion: WH-questions in the Grammar Matrix: A start](http://users.sussex.ac.uk/~johnca/summit-2018/constituent-wh.pdf) (Olga Zamaraeva) [notes](https://blog.inductorsoftware.com/docsproto/summits/DiderotWhQuestionsLibrary)                       |
 |             11:00-11:30 *Coffee Break*             |                                                                                                                                                                                                                             |
 |   11:30-13:00 *Plenary Session 6 -- Chair: Guy*    |                                                                                                                                                                                                                             |
 |                       11:30                        |                                             [DMRS to text generation with neural networks](http://users.sussex.ac.uk/~johnca/summit-2018/dmrs-generation.pdf) (Jan Buys: 20+10)                                             |
@@ -53,7 +53,7 @@ from 9:00 onwards.
 |             16:00-16:30 *Coffee Break*             |                                                                                                                                                                                                                             |
 |  16:30-18:00 *Plenary Session 8 -- Chair: Bernd*   |                                                                                                                                                                                                                             |
 |                    16:30-16:50                     | [Raising/control safari: How the ERG's inventory compares to what's studied in the theoretical literature](http://users.sussex.ac.uk/~johnca/summit-2018/raising-control-safari.pdf) (Emily Bender & Dan Flickinger: 10+10) |
-|                    16:50-18:00                     |         [Discussion: ERG Semantic Documentation (ESD) focus group](http://users.sussex.ac.uk/~johnca/summit-2018/ESD-focus-group.pdf) (Dan Flickinger, Stephan Oepen & Emily Bender) notes          |
+|                    16:50-18:00                     |         [Discussion: ERG Semantic Documentation (ESD) focus group](http://users.sussex.ac.uk/~johnca/summit-2018/ESD-focus-group.pdf) (Dan Flickinger, Stephan Oepen & Emily Bender) [notes](https://blog.inductorsoftware.com/docsproto/summits/DiderotEsdFocusGroup)          |
 |                                                    |                                                                                                                                                                                                                             |
 
 <table>
@@ -127,12 +127,12 @@ to your left, go up one flight and through the green door.
 |         9:30 in 127         |                                         How to teach grammar engineering (Sanghoun Song)                                         |
 | 11:00-11:30 *Coffee Break*  |                                                                                                                                  |
 | 11:30-13:00 *SIG Session 2* |                                                                                                                                  |
-|        11:30 in 126         | Teaching old-school semantics to new people who are trying to reinvent semantics (Alexander Koller) |
+|        11:30 in 126         | [Teaching old-school semantics to new people who are trying to reinvent semantics](https://blog.inductorsoftware.com/docsproto/summits/DiderotOldSchoolSemantics) (Alexander Koller) |
 |        11:30 in 127         |                      Use of DELPH-IN technology and resources for flexible dialogue systems (Bernd Kiefer)                       |
 |     13:00-14:30 *Lunch*     |                                                                                                                                  |
 | 14:30-16:00 *SIG Session 3* |                                                                                                                                  |
 |        14:30 in 126         |                        Unifying lexical resources (e.g. using WordNet or PARC's UL) (Alexandre Rademaker)                        |
-|        14:30 in 127         |                            Constraining composition (Ann Copestake)                            |
+|        14:30 in 127         |                            [Constraining composition](https://blog.inductorsoftware.com/docsproto/summits/DiderotConstrainingComposition) (Ann Copestake)                            |
 | 16:00-16:30 *Coffee Break*  |                                                                                                                                  |
 | 16:30-18:00 *SIG Session 4* |                                                                                                                                  |
 |        16:30 in 126         |                    Comparing and combining methods for mapping between strings and graphs (Alexander Koller)                     |
@@ -144,11 +144,11 @@ to your left, go up one flight and through the green door.
 |                        **Friday, 22 June**                         |                                                                                                                                                               |
 |                     9:30-11:00 *SIG Session 5*                     |                                                                                                                                                               |
 |                            9:30 in 126                             | Tutorial: The ERG - how to use it and how to contribute to improving results with technical/scientific texts (Dan Flickinger; requester: Alexandre Rademaker) |
-|                            9:30 in 127                             |                             Pragmatic reasoning in the Rational Speech Acts framework (Guy Emerson)                              |
+|                            9:30 in 127                             |                             [Pragmatic reasoning in the Rational Speech Acts framework](https://blog.inductorsoftware.com/docsproto/summits/DiderotRationalSpeechActs) (Guy Emerson)                              |
 |                     11:00-11:30 *Coffee Break*                     |                                                                                                                                                               |
 |                    11:30-13:00 *SIG Session 6*                     |                                                                                                                                                               |
 |                            11:30 in 126                            |             Tutorial: HPSG grammar development starting from an existing grammar (Kristen Howell, Olga Zamaraeva; requester: Alexandre Rademaker)             |
-|                            11:30 in 127                            |                              Underspecification of PP attachment (Emily Bender, Guy Emerson)                               |
+|                            11:30 in 127                            |                              [Underspecification of PP attachment](https://blog.inductorsoftware.com/docsproto/summits/DiderotUnderspecifiedAttachment) (Emily Bender, Guy Emerson)                               |
 | 13:00-14:30 *Lunch (La petite casserole, 64 rue Cantagrel, 75013)* |                                                                                                                                                               |
 |                    14:30-16:00 *SIG Session 7*                     |                                                                                                                                                               |
 |                            14:30 in 126                            |                                                        Tutorial: Introduction to Jacy (David Moeljadi)                                                        |

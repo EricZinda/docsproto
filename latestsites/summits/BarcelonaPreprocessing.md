@@ -74,7 +74,7 @@ of Gold](http://heartofgold.dfki.de/). Can be adapted.
 strategy, with home-grown machinery, with good success. He is
 supposed to use external tools he adapted to his needs.
   - Dan: We really need to consider divide-and-conquer strategies.
-Especially for WeScience, the biggest chunk of the
+Especially for [WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience), the biggest chunk of the
 sentences in the 50-60 token length fail because of hitting the
 resource limits. For half of the sentence where we don’t get a
 parse, we hit a resource limit.
@@ -90,7 +90,7 @@ markup.
 - citations
   - Dan: planning to implement token mapping rules for treating
 references and citations pretty soon (with a focus on
-WeScience). Should not be difficult, since they
+[WeScience](https://blog.inductorsoftware.com/docsproto/garage/WeScience)). Should not be difficult, since they
 follow a quite restricted language, that might vary a bit though
 between different sources. Definitely, they should be part of
 the grammar.

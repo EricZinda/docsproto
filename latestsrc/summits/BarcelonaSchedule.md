@@ -2,7 +2,7 @@
 
 This page provides scheduling details for the 2009 DELPH-IN Summit, held
 in Barcelona. For general information about the meeting, please see the
-BarcelonaTop page. As in previous years, we have
+[BarcelonaTop](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaTop) page. As in previous years, we have
 prepared the schedule jointly and incrementally, with
 EmilyBender and StephanOepen trying to
 coordinate. With only hours remaining until the start of the meeting, we
@@ -34,12 +34,12 @@ summit@delph-in.net.
 | 14:50 |  –  | 15:10 | [DELPH-IN grammars at the 2009 CoNLL Shared Task](http://www.delph-in.net/2009/conll.pdf) (Yi Zhang, Stephan Oepen)                              | "              |
 | 15:10 |  –  | 15:30 | [Matrix dev group/UW site report](http://www.delph-in.net/2009/uw.pdf) (Laurie Poulson)                                                          | "              |
 | 15:30 |  –  | 15:50 | [Parse evaluation using dependency triples](http://www.delph-in.net/2009/triples.pdf) (Rebecca Dridan)                                           | "              |
-| 15:50 |  –  | 16:30 | Discussion: Evaluation                                                                                                    | "              |
+| 15:50 |  –  | 16:30 | [Discussion: Evaluation](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaEvaluation)                                                                                                    | "              |
 | 16:30 |  –  | 17:00 | *Coffee*                                                                                                                                         |                |
-| 17:00 |  –  | 17:40 | Discussion: Packaging and delivery of DELPH-IN tools                                                                       | Valia Kordoni  |
+| 17:00 |  –  | 17:40 | [Discussion: Packaging and delivery of DELPH-IN tools](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaPackaging)                                                                       | Valia Kordoni  |
 | 17:40 |  –  | 18:10 | [Deterministic incremental HPSG parsing](http://www.delph-in.net/2009/gisle.pdf) (Gisle Ytrestøl)                                                | "              |
 | 18:10 |  –  | 18:40 | [Egad: A parent's guide to raising good grammars](http://www.delph-in.net/2009/michael.pdf) (Michael Goodman)                                    | "              |
-| 18:40 |  –  | 19:20 | Discussion: Parallel Corpora                                                                                                 | "              |
+| 18:40 |  –  | 19:20 | [Discussion: Parallel Corpora](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaCorpora)                                                                                                 | "              |
 
 # Tuesday, July 21 (Plenary)
 
@@ -55,14 +55,14 @@ summit@delph-in.net.
 | 13:20 |  –  | 14:20 | *Lunch*                                                                                                             |                    |
 | 14:20 |  –  | 14:50 | [Feature comparison of Japanese and English parse ranking](http://www.delph-in.net/2009/bill.pdf) (Bill McNeill)    | Tim Baldwin        |
 | 14:50 |  –  | 15:30 | [WSJ Treebanking](http://www.delph-in.net/2009/wsj.pdf) (Valia Kordoni and Yi Zhang)                                | "                  |
-| 15:30 |  –  | 16:00 | Discussion: MRS design, focus on tense/aspect                                                 | "                  |
-| 16:00 |  –  | 16:30 | Discussion: MRS post-processing                                                          | "                  |
+| 15:30 |  –  | 16:00 | [Discussion: MRS design, focus on tense/aspect](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaSemantics)                                                 | "                  |
+| 16:00 |  –  | 16:30 | [Discussion: MRS post-processing](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaPostprocessing)                                                          | "                  |
 | 16:30 |  –  | 17:00 | *Coffee*                                                                                                            |                    |
 | 17:00 |  –  | 17:30 | [Word order phenomena in Grammar Engineering](http://www.delph-in.net/2009/antske.pdf) (Antske Fokkens)             | Montserrat Marimon |
 | 17:30 |  –  | 17:50 | [WeScience treebank](http://www.delph-in.net/2009/wescience.pdf) (Gisle Ytrestøl, Dan Flickinger)                   | "                  |
 | 17:50 |  –  | 18:30 | [Updates from the ERG and Redwoods treebanks](http://www.delph-in.net/2009/erg.pdf) (Dan Flickinger)                | "                  |
 | 18:30 |  –  | 18:50 | [Deep parsing in the 2009 BioNLP shared task](http://www.delph-in.net/2009/bionlp.pdf) (Tim Baldwin)                | "                  |
-| 18:50 |  –  | 19:20 | Discussion: Paraphrasing: internal vs. external MRS, paraphrasing models, rule acquisition | "                  |
+| 18:50 |  –  | 19:20 | [Discussion: Paraphrasing: internal vs. external MRS, paraphrasing models, rule acquisition](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaParaphrasing) | "                  |
 
 # Wednesday, July 22 (Plenary & Excursion)
 
@@ -72,9 +72,9 @@ summit@delph-in.net.
 | 10:00 |  –  | 10:40 | [HyLaP - Semantic Search in Scientific Documents, including demo](http://www.delph-in.net/2009/hylap.pdf) (Ulrich Schaefer) | Yi Zhang    |
 | 10:40 |  –  | 11:40 | [Tutorial: Chart Mapping in PET, including unknown word handling](http://www.delph-in.net/2009/cm.pdf) (Peter Adolphs)      | "           |
 | 11:40 |  –  | 12:10 | *Coffee*                                                                                                                    |             |
-| 12:10 |  –  | 12:50 | Discussion: Advanced pre-processing                                                               | Jesse Tseng |
+| 12:10 |  –  | 12:50 | [Discussion: Advanced pre-processing](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaPreprocessing)                                                               | Jesse Tseng |
 | 12:50 |  –  | 13:20 | [Sahaptin: A Grammar-Customization Case Study (Scott Drellishak)](http://www.delph-in.net/2009/scott.pdf)                   | "           |
-| 13:20 |  –  | 13:50 | Discussion: Modes of cooperation                                                                    | "           |
+| 13:20 |  –  | 13:50 | [Discussion: Modes of cooperation](https://blog.inductorsoftware.com/docsproto/summits/BarcelonaCooperation)                                                                    | "           |
 | 13:50 |  –  | 14:00 | Business Meeting (DELPH-IN 2010 and beyond)                                                                                 | "           |
 | 14:00 |  –  | 15:00 | *Lunch*                                                                                                                     |             |
 | 15:00 |  –  | 18:00 | *Excursion*                                                                                                                 |             |

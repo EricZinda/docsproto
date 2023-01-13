@@ -1,4 +1,4 @@
-{% raw %}UserPreferences
+{% raw %}[UserPreferences](https://blog.inductorsoftware.com/docsproto/missing/UserPreferences)
 
 # Erstanmeldung
 
