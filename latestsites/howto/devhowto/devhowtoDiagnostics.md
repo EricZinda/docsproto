@@ -26,7 +26,7 @@ class UserInterface(object):
         self.interaction_record = {"UserInput": user_input,
                                    "Mrss": [],
                                    "ChosenMrsIndex": None,
-                                   "ChosenTree": None,
+                                   "ChosenTreeIndex": None,
                                    "ChosenResponse": None}
 
         # Loop through each MRS and each tree that can be
@@ -108,4 +108,4 @@ Response: None
 ? 
 ```
 
-Last update: 2023-01-12 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoDiagnostics.md)]{% endraw %}
+Last update: 2023-01-15 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoDiagnostics.md)]{% endraw %}

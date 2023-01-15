@@ -257,6 +257,8 @@
           
             <li><a href="/docsproto/howto/devhowto/devhowtoDiagnostics/">Diagnostics</a></li>
           
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleTesting/">Testing</a></li>
+          
             <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
           
             <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
@@ -348,7 +350,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="phrases-and-vocabulary">Phrases and Vocabulary</h2>
-<p>When implementing a natural language system using DELPH-IN, start by analyzing the phrases you want to support and the predications they generate. The predications are what you’ll need to implement. We can interact with the system we <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage">ended the previous section with</a> and turn tracing on in order to see the predications for the phrases we type.</p>
+<p>When implementing a natural language system using DELPH-IN, start by analyzing the phrases you want to support and the predications they generate. The predications are what you’ll need to implement. We can interact with the system we <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage">ended the previous section with</a> and use the diagnostics features (i.e. <code class="language-plaintext highlighter-rouge">/show</code>) to see the predications for the phrases we type.</p>
 
 <p>Here’s the code we’ll use:</p>
 
@@ -375,17 +377,31 @@
 <p>We should support “where am i?” by having a notion of the “current” directory and printing it:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Running Example16() gives:
 ? where am i
-Pipeline 2023-01-11 13:58:27,286: 1 parse options for where am i
-Pipeline 2023-01-11 13:58:27,294: Parse 0: &lt;MRS object (loc_nonsp place_n which_q pron pronoun_q) at 140561813576608&gt;
-Pipeline 2023-01-11 13:58:27,294: Unknown predications: [('loc_nonsp', ['e', 'x', 'x'], 'ques', False), ('place_n', ['x'], 'ques', False)]
 I don't know the words: loc_nonsp, place
+
+? /show
+User Input: where am i
+1 Parses
+
+***** CHOSEN Parse #0:
+[ "where am i"
+  TOP: h0
+  INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ loc_nonsp&lt;0:5&gt; LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 1 NUM: sg IND: + PT: std ] ARG2: x4 [ x PERS: 3 NUM: sg ] ]
+          [ place_n&lt;0:5&gt; LBL: h5 ARG0: x4 ]
+          [ which_q&lt;0:5&gt; LBL: h6 ARG0: x4 RSTR: h7 BODY: h8 ]
+          [ pron&lt;9:10&gt; LBL: h9 ARG0: x3 ]
+          [ pronoun_q&lt;9:10&gt; LBL: h10 ARG0: x3 RSTR: h11 BODY: h12 ] &gt;
+  HCONS: &lt; h0 qeq h1 h7 qeq h5 h11 qeq h9 &gt; ]
+
+Unknown words: [('loc_nonsp', ['e', 'x', 'x'], 'ques', False), ('place_n', ['x'], 'ques', False)]
 </code></pre></div></div>
 
 <blockquote>
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-12 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabPhrasesAndVocab.md">edit</a>]</p>
+<p>Last update: 2023-01-15 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabPhrasesAndVocab.md">edit</a>]</p>
 
         
       </section>

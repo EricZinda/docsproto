@@ -1,0 +1,766 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-To</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-To">
+<meta property="og:title" content="DELPH-IN How-To">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleTesting/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleTesting/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-To Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-To"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-To
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus">Missing</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjunctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoHandlingEventInformation/">Handling Event Information</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoGenerateMRSAndTrees/">Phrases to MRS and Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the 'Right' Tree</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/">Unknown Words and Synonyms</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage/">Predication Signatures and Usage</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoDiagnostics/">Diagnostics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleTesting/" class="active">Testing</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Predication Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabPhrasesAndVocab/">Phrases and Vocabulary</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/SaarlandAceAgree/">Ace/Agree Tutorial (2013)</a></li>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="simple-testing">Simple Testing</h2>
+<p>It is easy to enhance a predication to support one scenario and break others. So, to keep the system working well and avoid functionality regressions, we’re going to build a very simple testing system.</p>
+
+<h3 id="reset">Reset</h3>
+<p>First we need to add a command that goes hand-in-hand with many tests: <code class="language-plaintext highlighter-rouge">/reset</code>. <code class="language-plaintext highlighter-rouge">/reset</code> allows a test to reset the application to its initial state. It allows a single test to try various phrases, each from a fresh start. It is also great for building up a set of tests and running them one after the other: <code class="language-plaintext highlighter-rouge">/reset</code> allows the state to be in a known state at the beginning of each test.</p>
+
+<p>It is implemented by modifying the <code class="language-plaintext highlighter-rouge">UserInterface</code> class to take a <code class="language-plaintext highlighter-rouge">reset</code> <em>function</em> instead of a <code class="language-plaintext highlighter-rouge">State</code> object. The <code class="language-plaintext highlighter-rouge">State</code> object is then created by calling that function. This allows the state to be recreated at any time by calling the function again:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class UserInterface(object):
+    def __init__(self, reset, vocabulary, response_function):
+        self.max_holes = 13
+        self.reset = reset
+        self.state = reset()
+     
+     ...
+    
+     
+def command_reset(ui, arg):
+    ui.state = ui.reset()
+    return f"state reset."
+    
+    
+command_data = {
+     
+    ...
+          
+    "reset": {"Function": command_reset, "Category": "General",
+              "Description": "Resets to the initial state",
+              "Example": "/reset"},
+    
+    ...
+
+
+def Example16_reset():
+    return State([Actor(name="Computer", person=2),
+                  Folder(name="Desktop"),
+                  Folder(name="Documents"),
+                  File(name="file1.txt", size=2000000)])
+                                
+                                
+def Example16():
+    # ShowLogging("Pipeline")
+
+    def reset():
+    user_interface = UserInterface(Example16_reset, vocabulary, respond_to_mrs_tree)
+
+    while True:
+        user_interface.interact_once()
+        print()
+</code></pre></div></div>
+
+<p>Now any test will be able to include the command <code class="language-plaintext highlighter-rouge">/reset</code> to go to a known starting point.</p>
+
+<h3 id="new-state">New State</h3>
+<p><code class="language-plaintext highlighter-rouge">/new</code> is another command that is handy when testing. You provide it with a “reset function” and it uses the function to load in new state. This allows a single test to test different state configurations. It uses a new <code class="language-plaintext highlighter-rouge">import_function_from_names()</code> function to convert the module and function names from strings to a usable function.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def command_new(ui, arg):
+    arg_parts = arg.split(".")
+    if len(arg_parts) != 2:
+        print("reset function must be in the form: module_name.function_name")
+        return True
+
+    ui.reset = import_function_from_names(arg_parts[0], arg_parts[1])
+    return command_reset(ui, arg)
+    
+    
+# Takes a pair of module and function names as strings and
+# imports the module and returns the function
+def import_function_from_names(module_name, function_name):
+    importlib.import_module(module_name)
+    module = sys.modules[module_name]
+    function = getattr(module, function_name)
+    return function
+    
+    
+command_data = {
+     
+    ...
+          
+    "new": {"Function": command_new, "Category": "General",
+            "Description": "Calls the passed function to get the new state to use",
+            "Example": "/new examples.Example18_reset"},
+    
+    ...
+</code></pre></div></div>
+
+<h3 id="testing">Testing</h3>
+<p>We’ll start by going through how to use the testing system and then describe how it is built.</p>
+
+<p>Tests are created by recording them through user interaction.  For example, here’s how a simple test can be created:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /record
+Recording is now True
+
+? /reset
+state reset.
+Recorded (1 items).
+
+? a file is large
+Recorded (2 items).
+Yes, that is true.
+
+? /createtest docstest
+Created test 'docstest'
+Recording is now off
+</code></pre></div></div>
+
+<p>After that sequence, a test called <code class="language-plaintext highlighter-rouge">docstest</code> has been created in the system. Tests are simple recordings of interaction sessions, stored in JSON files.  The JSON file remembers the way to create the initial state:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ResetModule</code> is the module that contains the reset function</li>
+  <li><code class="language-plaintext highlighter-rouge">ResetFunction</code> is the function to call to get initial state</li>
+</ul>
+
+<p>… and has a list of test items in it. Each test item represents one user interaction. Each has:</p>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">Command</code> the user gave</li>
+  <li>The <code class="language-plaintext highlighter-rouge">Expected</code> result from the system</li>
+  <li>The <code class="language-plaintext highlighter-rouge">Tree</code> that generated that result (just for debugging)</li>
+  <li>Whether it is <code class="language-plaintext highlighter-rouge">Enabled</code> or not</li>
+  <li>A unique <code class="language-plaintext highlighter-rouge">ID</code></li>
+</ul>
+
+<p>Here’s the JSON file for the test we recorded above:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "ResetModule": "examples",
+    "ResetFunction": "Example16_reset",
+    "TestItems": [
+        {
+            "Command": "/reset",
+            "Expected": "state reset.",
+            "Tree": null,
+            "Enabled": true,
+            "ID": "8290fec8-aff8-48b7-94db-2f58512c0e27"
+        },
+        {
+            "Command": "a file is large",
+            "Expected": "Yes, that is true.",
+            "Tree": "[['_a_q', 'x3', [['_file_n_of', 'x3', 'i8']], [['_large_a_1', 'e2', 'x3']]]]",
+            "Enabled": true,
+            "ID": "a49edbca-8096-4fe4-8f92-29c8f4d2dcba"
+        }
+    ]
+}
+</code></pre></div></div>
+
+<p>A test can be run like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /runtest docstest
+State reset using examples.Example16_reset().
+
+**** Begin Testing...
+
+
+Test: /reset
+state reset.
+
+Test: a file is large
+Yes, that is true.
+
+**** Testing Complete.
+</code></pre></div></div>
+
+<p>You can see that the test system starts by initializing the state for the test and then plays back the recorded commands. It compares the system response to what it was when the test was recorded and, if the value is different, a prompt appears allowing you to take action. For example, if we change the <code class="language-plaintext highlighter-rouge">Expected</code> field of the JSON file directly to force a test to fail, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+     ...
+     
+        {
+            "Command": "a file is large",
+            "Expected": "No way!",
+            "Tree": "[['_a_q', 'x3', [['_file_n_of', 'x3', 'i8']], [['_large_a_1', 'e2', 'x3']]]]",
+            "Enabled": true,
+            "ID": "21322fb0-fcce-453e-8904-6ab7a4a70a53"
+        }
+    ]
+}
+</code></pre></div></div>
+
+<p>When run, you will see a prompt asking what you want to do:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /runtest docstest
+State reset using examples.Example16_reset().
+
+**** Begin Testing...
+
+
+Test: /reset
+state reset.
+
+Test: a file is large
+Yes, that is true.
+
+Expected: No way!
+(&lt;enter&gt;)ignore, (b)reak to end testing, (u)pdate test, (d)isable test
+u
+
+**** Testing Complete.
+</code></pre></div></div>
+<p>In this case, <code class="language-plaintext highlighter-rouge">u</code> was selected and so the test JSON gets updated with the new value.</p>
+
+<p>The commands are plugged in using the command system we built in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoDiagnostics">previous topic</a>. Using the <code class="language-plaintext highlighter-rouge">/help</code> command prints a list of what is now available:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /help
+
+...
+
+/reset Resets to the initial state -&gt; e.g. /reset
+
+...
+
+****** Testing ******
+/record Starts recording a test. Finish with /createtest or /appendtest -&gt; e.g. /record
+/createtest Creates a test using name you specify based on the interactions recorded by /record -&gt; e.g. /createtest Foo
+/appendtest Appends the interactions recorded by /record to an existing test -&gt; e.g. /appendtest Foo
+/runtest Runs a test -&gt; e.g. /runtest subdirectory/foo
+/runfolder Runs all tests in a directory -&gt; e.g. /runfolder foldername
+</code></pre></div></div>
+
+<h3 id="creating-the-tutorial-tests">Creating the Tutorial Tests</h3>
+<p>Now we can create a test that covers all the scenarios we’ve done in the tutorial to make sure we don’t break any of them as we continue adding code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /recordtest
+Recording is now True
+
+? /new examples.Example18_reset
+State reset using examples.Example18_reset().
+Recorded (1 items).
+
+? a file is large
+Recorded (2 items).
+a file is not large
+
+? which files are small
+Recorded (3 items).
+File(name=file1.txt, size=1000000)
+
+? delete a large file
+Recorded (4 items).
+There isn't 'a large file' in the system
+
+? delete a file
+Recorded (5 items).
+Done!
+
+? a file is large
+Recorded (6 items).
+There isn't 'a file' in the system
+
+? which files are small
+Recorded (7 items).
+There isn't 'a file' in the system
+</code></pre></div></div>
+
+<p>There really isn’t anything we can do with folders yet except delete them so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? delete a folder
+Recorded (8 items).
+</code></pre></div></div>
+
+<p>To test “very” we need a different world state that includes a very large file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example18a_reset():
+    return State([Folder(name="Desktop"),
+                   Folder(name="Documents"),
+                   File(name="file1.txt", size=20000000),
+                   File(name="file2.txt", size=1000000)])
+</code></pre></div></div>
+
+<p>And we can use our new <code class="language-plaintext highlighter-rouge">/new</code> command to use it in the test:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /new examples.Example18a_reset
+State reset using examples.Example18a_reset().
+Recorded (9 items).
+
+? which file is very large?
+Recorded (10 items).
+File(name=file1.txt, size=20000000)
+
+? delete you
+Recorded (11 items).
+I can't delete you
+
+? he deletes a file
+I don't know the way you used: delete
+</code></pre></div></div>
+
+<p>Now we have a set of tests that we can run as we add to the system to make sure phrases that used to work still do:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? /runtest tutorial
+State reset using examples.Example18_reset().
+
+**** Begin Testing...
+
+
+Test: /new examples.Example18_reset
+State reset using examples.Example18_reset().
+
+Test: a file is large
+a file is not large
+
+Test: delete a large file
+There isn't 'a large file' in the system
+
+    ...
+    
+</code></pre></div></div>
+
+<h3 id="testing-implementation">Testing Implementation</h3>
+<p>The source for the testing commands isn’t included as part of the discussed tutorial since it has nothing specifically to do with DELPH-IN. However, the source is part of the project and can be found <a href="https://github.com/EricZinda/Perplexity/blob/main/perplexity/test_manager.py">here</a>.</p>
+
+<p>Last update: 2023-01-15 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleTesting.md">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

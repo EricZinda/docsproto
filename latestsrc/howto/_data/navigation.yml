@@ -78,6 +78,8 @@ toc:
         url: "/devhowto/devhowtoPredicationArgumentsAndUsage/"
       - title: "Diagnostics"
         url: "/devhowto/devhowtoDiagnostics/"
+      - title: "Testing"
+        url: "/devhowto/devhowtoSimpleTesting/"
       - title: "A. Python Decorators"
         url: "/devhowto/devhowtoPythonDecorators/"
       - title: "B. Parsing Predications"
