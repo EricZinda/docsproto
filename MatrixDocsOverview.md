@@ -1,4 +1,4 @@
-## The DELPH-IN Grammar Matrix Documentation
+# The DELPH-IN Grammar Matrix Documentation
 The documentation for the Grammar Matrix is broken into these sections:
 
 1. [Overview and Tools Section](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop): Introduces the Grammar Matrix and outlines the tools used in building grammars with it
