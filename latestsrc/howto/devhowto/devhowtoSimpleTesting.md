@@ -318,5 +318,4 @@ There isn't 'a large file' in the system
 
 ### Testing Implementation
 The source for the testing commands isn't included as part of the discussed tutorial since it has nothing specifically to do with DELPH-IN. However, the source is part of the project and can be found [here](https://github.com/EricZinda/Perplexity/blob/main/perplexity/test_manager.py).
-
-Last update: 2023-01-15 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleTesting.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

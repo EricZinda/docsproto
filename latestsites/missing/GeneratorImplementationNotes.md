@@ -105,5 +105,4 @@ contributes *\_in\_p\_rel* which is later specialized to
 *\_in\_p\_state\_rel*. This means that PRED lookup for generation
 must include supertypes, or equivalently, that LEs be indexed not
 just by their PREDs, but further by all of their subtypes.
-
-Last update: 2022-12-21 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GeneratorImplementationNotes/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

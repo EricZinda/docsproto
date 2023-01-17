@@ -72,5 +72,4 @@ command such as the following:
 ## HOW TO get the LKB to use the Lex DB
 
 See [LexDbInitialize](https://blog.inductorsoftware.com/docsproto/tools/LexDbInitialize)
-
-Last update: 2009-04-10 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LkbLexDbMultiUser/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

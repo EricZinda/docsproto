@@ -11,5 +11,4 @@
 |----------|--------------|------------|----------|------------------------|
 | **Name** | **Profiles** | **Domain** | **Size** | **Publicly Available** |
 |          |              |            |          |                        |
-
-Last update: 2010-07-04 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/LxDataSets/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -226,5 +226,4 @@ stdout.
 Running the verbose version of example.t from trunk/:
 
     LAP_TESTS_VERBOSE=1 tree/python/lap/python tree/tests/function/example.t
-
-Last update: 2016-01-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Local/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

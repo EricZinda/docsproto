@@ -34,5 +34,4 @@ has links to the computer-assisted linguistics and language archive
 communities, including [E-MELD](http://emeld.org),
 [OLAC](http://www.language-archives.org), and the [Rosetta
 Project](http://www.rosettaproject.org).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinWashington/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

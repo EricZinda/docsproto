@@ -29,5 +29,4 @@ dialogue systems and for facilitating multimodal human-machine
 interaction. Another research focus of LED is the standardization of
 linguistic resources (lexicons, grammars, corpora, semantic
 representations).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinLoria/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

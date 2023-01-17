@@ -35,5 +35,4 @@ module (including work on the LinGO ERG and the underlying software). A
 particular focus in this second phase of the LOGON project (as of early
 in 2005) is on stochastic disambiguation in all three phases of the MT
 pipeline.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinOslo/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

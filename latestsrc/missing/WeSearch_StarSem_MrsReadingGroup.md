@@ -217,5 +217,4 @@ JTL: In principle without version is more ambiguous.
 
 oe: Because negation is separate from the quantifier, and so they can
 scope (somewhat) independently.
-
-Last update: 2013-02-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_StarSem_MrsReadingGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

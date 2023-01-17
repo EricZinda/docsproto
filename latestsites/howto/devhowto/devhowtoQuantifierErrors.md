@@ -160,5 +160,4 @@ Now when we say "A file is large" in a world with no files we get "There isn't a
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoQuantifierErrors.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

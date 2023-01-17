@@ -19,9 +19,9 @@ DELPH-IN systems and think might be worth sharing, list it here.
 - [PET](/delph-in/docs/wiki/PetTop) Platform for Experimentation with efficient HPSG processing Techniques
   
   An efficient parser for DELPH-IN grammars.
-- ["Agree" grammar engineering environment](/delph-in/docs/wiki/AgreeTop) (Glenn Slayden)
+- [Agree](/delph-in/docs/wiki/AgreeTop) (Glenn Slayden)
   
-  A project to develop a new grammar engineering environment for working with DELPH-IN style TDL grammars.
+  A a system for processing DELPH-IN style TDL grammars within the .NET and Mono managed runtime environments.
 
 ## Utilities
 
@@ -84,10 +84,9 @@ DELPH-IN systems and think might be worth sharing, list it here.
 
 - http://github.com/delph-in/homebrew-delphin
   
-  Homebrew distributions (tap) of DELPHI-IN tools, including ACE and PyDelphin.
+  Homebrew package repository (tap) of DELPH-IN tools, including ACE and PyDelphin.
 - https://github.com/own-pt/docker-delphin
   
   A docker installation of LOGON and ACE and its dependents. Some improvements over the initial [LkbMacintosh](/delph-in/docs/wiki/LkbMacintosh).
 - [Heart of Gold](https://blog.inductorsoftware.com/docsproto/garage/HeartofgoldTop): XML-based middleware for the integration of deep and shallow NLP components
-
-Last update: 2023-01-11 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
