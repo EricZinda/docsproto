@@ -75,5 +75,4 @@ Version 3.20, downloaded from
 Document parsing (default):
 
     java -Xmx3g -cp "stanford-parser-full-2013-06-20/*:" edu.stanford.nlp.parser.lexparser.LexicalizedParser -outputFormat oneline edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz wsj23.txt
-
-Last update: 2013-11-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearch_DocumentParsing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -107,5 +107,4 @@ Response: None
 
 ? 
 ```
-
-Last update: 2023-01-15 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoDiagnostics.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

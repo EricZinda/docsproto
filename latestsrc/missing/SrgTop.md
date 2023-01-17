@@ -32,5 +32,4 @@ duerme dormir VMIP3S0 0.989241
 [Marimon 2010. The Spanish Resource Grammar.](https://aclanthology.org/L10-1411/)
 
 [Marimon 2013. The Spanish DELPH-IN Grammar.](https://link.springer.com/article/10.1007/s10579-012-9199-7)
-
-Last update: 2022-07-27 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/SrgTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

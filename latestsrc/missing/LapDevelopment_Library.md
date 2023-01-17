@@ -15,5 +15,4 @@ and Common Lisp.
 # Segment to Media Alignment
 
 # Configuration Utilities
-
-Last update: 2015-01-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Library/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

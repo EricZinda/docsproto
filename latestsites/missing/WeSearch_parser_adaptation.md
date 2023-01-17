@@ -85,5 +85,4 @@ Similarity for Parsing. ACL 2011
 parsing of web data
 
 <http://aclweb.org/anthology/C/C12/C12-2088.pdf>
-
-Last update: 2013-11-11 by AngelinaIvanova [[edit](https://github.com/delph-in/docs/wiki/WeSearch_parser_adaptation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

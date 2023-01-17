@@ -16,5 +16,4 @@
 12. (in)finite embedded
 13. locative inversion
 14. negative imperatives
-
-Last update: 2015-02-11 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongToDoList/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -113,5 +113,4 @@ The full lattice is encapsulated in an &lt;fsm/&gt; element. E.g.
     ...
 
 ... PAGE UNDER CONSTRUCTION ...
-
-Last update: 2006-01-23 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/LkbMaf/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
