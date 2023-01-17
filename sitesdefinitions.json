@@ -390,7 +390,10 @@
       ]}
     ],
     "matrix": [
-      {"Section": "Grammar Matrix", "Pages": [
+      {"Section": "Grammar Matrix Docs", "Pages": [
+        {"Page": "Overview", "SrcDir": "main", "SrcFile": "MatrixDocsOverview.md"}
+      ]},
+      {"Section": "Overview and Tools", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixTop.md", "Referrer": "home/RussianQuestionsGrammarTop.md"},
         {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixGettingStarted.md"},
         {"Page": "Development Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDevTop.md", "Referrer": "home/MatrixTop.md"},
@@ -403,45 +406,45 @@
         {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"}
       ]},
       {"Section": "Grammar Engineering", "Pages": [
+        {"Page": "Dev Blueprints", "SrcDir": "docswiki", "SrcFile": "MatrixDevBlueprints.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Dev Conventions", "SrcDir": "docswiki", "SrcFile": "MatrixDevConventions.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "Grammar Development", "SrcDir": "docswiki", "SrcFile": "GrammarDevelopment.md", "Referrer": "home/CapitolHillTop.md"},
+        {"Page": "Library Development", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryDevelopment.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "Library WishList", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryWishList.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Morphology", "SrcDir": "docswiki", "SrcFile": "MatrixMorphology.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Python Idioms", "SrcDir": "docswiki", "SrcFile": "PythonIdioms.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "Regression Testing Setup", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetup.md", "Referrer": "matrix/MatrixRegressionTesting.md"},
+        {"Page": "Regression Testing Setup (Mac)", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMac.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"},
         {"Page": "TDB Procedures", "SrcDir": "docswiki", "SrcFile": "MatrixTDBProcedures.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "TDB2 Tables", "SrcDir": "docswiki", "SrcFile": "MatrixTDB2Tables.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Dev Blueprints", "SrcDir": "docswiki", "SrcFile": "MatrixDevBlueprints.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Library Development", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryDevelopment.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "GrammarDevelopment", "SrcDir": "docswiki", "SrcFile": "GrammarDevelopment.md", "Referrer": "home/CapitolHillTop.md"},
-        {"Page": "Library WishList", "SrcDir": "docswiki", "SrcFile": "MatrixLibraryWishList.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Regression Testing Setup", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetup.md", "Referrer": "matrix/MatrixRegressionTesting.md"},
-          {"Page": "Regression Testing Setup (Mac)", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMac.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"}
+        {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"}
       ]},
       {"Section": "Matrix Doc", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "matrix/MatrixGettingStarted.md"},
-        {"Page": "General Info", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_GeneralInfo.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Matrixdef File Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Word Order", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WordOrder.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Number", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Number.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Person", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Person.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Gender", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Gender.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Adnominal Possession", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_AdnominalPossession.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Nominalized Clauses", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_NominalizedClauses.md", "Referrer": "matrix/MatrixDoc_ClausalModifiers.md"},
-        {"Page": "Direct Inverse", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_DirectInverse.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "TenseAspectMood", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TenseAspectMood.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Evidentials", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Evidentials.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Other Features", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_OtherFeatures.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Sentential Negation", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_SententialNegation.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Coordination", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Coordination.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "YesNoQ", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_YesNoQ.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Wh Questions", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WhQuestions.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Information Structure", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_InformationStructure.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Argument Optionality", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ArgumentOptionality.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Clausal Modifiers", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalModifiers.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Clausal Complements", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalComplements.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Clausal Modifiers", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ClausalModifiers.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Coordination", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Coordination.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Direct Inverse", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_DirectInverse.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Evidentials", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Evidentials.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Gender", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Gender.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "General Info", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_GeneralInfo.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Import Toolbox Lexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ImportToolboxLexicon.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Information Structure", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_InformationStructure.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Lexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Lexicon.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Matrixdef File Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "Morphology", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Morphology.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Import Toolbox Lexicon", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ImportToolboxLexicon.md", "Referrer": "concept/MatrixDocTop.md"}
+        {"Page": "Nominalized Clauses", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_NominalizedClauses.md", "Referrer": "matrix/MatrixDoc_ClausalModifiers.md"},
+        {"Page": "Number", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Number.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Other Features", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_OtherFeatures.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Person", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Person.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Sentential Negation", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_SententialNegation.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Tense/Aspect/Mood", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TenseAspectMood.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Wh Questions", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WhQuestions.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "Word Order", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_WordOrder.md", "Referrer": "concept/MatrixDocTop.md"},
+        {"Page": "YesNoQ", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_YesNoQ.md", "Referrer": "concept/MatrixDocTop.md"}
       ]},
       {"Section": "FAQ", "Pages": [
         {"Page": "Grammar Engineering FAQ", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringFAQ.md", "Referrer": "matrix/MatrixGettingStarted.md"},
