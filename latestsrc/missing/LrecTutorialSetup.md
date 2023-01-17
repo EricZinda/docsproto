@@ -66,4 +66,5 @@ preparing the tutorial VirtualBox appliance.
 
 The slides used in the LREC tutorial are temporarily
 [here](http://www.cl.cam.ac.uk/~aac10/papers/ERS-slides.pdf)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-08 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LrecTutorialSetup/_edit)]{% endraw %}

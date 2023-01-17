@@ -29,4 +29,5 @@ seriali\[sz\]e
 oder direkt auf eine Seite springen oder eine neue Seite erzeugen, indem
 Sie Ihren Seitennamen hier eingeben:
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SeiteFinden/_edit)]{% endraw %}

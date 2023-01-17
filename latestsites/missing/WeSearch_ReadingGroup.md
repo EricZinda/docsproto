@@ -9,4 +9,5 @@ Andrew (2004) [Dynamic conditional random fields: factorized
 probabilistic models for labeling and segmenting sequence
 data](http://doi.acm.org/10.1145/1015330.1015422) (maybe just of
 interest to the über tagging subgroup?)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-11-14 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/WeSearch_ReadingGroup/_edit)]{% endraw %}

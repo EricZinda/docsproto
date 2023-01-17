@@ -6,4 +6,5 @@ Please fill out **Name**, **Password**, **Password repeat** and
 **Email**.
 
 :bulb:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/UserPreferences/_edit)]{% endraw %}

@@ -78,4 +78,5 @@ of the form "Is it how Francis would spell..." but generally
 additional letters are not earned via such clues.
 - If someone ends up being It again before everyone has had a turn,
 they can arrow someone else to do it in their stead.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-05-18 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ReverseIdiot/_edit)]{% endraw %}

@@ -33,4 +33,5 @@ semantic composition within these frameworks.
 
 In the near future, we plan to work on creating semantic-based resources
 for languages that lack deep grammars, with the aid of parallel corpora.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinEdinburgh/_edit)]{% endraw %}

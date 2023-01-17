@@ -20,4 +20,5 @@ tilknytning til den nuværende side:
 Desuden er der makroerne \[\[PageList\]\], \[\[FullSearch('text')\]\] og
 \[\[TableOfContents\]\], som giver dig mulighed for automatisk at danne
 oversigter over sammenhængende dele af en Wiki.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2004-07-21 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SiteNavigering/_edit)]{% endraw %}
