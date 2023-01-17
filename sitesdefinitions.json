@@ -25,7 +25,7 @@
     {"SiteFullName": "DELPH-IN ERG", "SiteNavigationName": "ERG", "Site": "erg"},
     {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
     {"SiteFullName": "DELPH-IN Grammar Catalogue", "SiteNavigationName": "Grammars", "Site": "grammars"},
-    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix", "HomePage": "MatrixTop.md"},
+    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix"},
     {"SiteFullName": "DELPH-IN Summits", "SiteNavigationName": "Summits", "Site": "summits", "HomePage": "SummitTop.md"},
     {"SiteFullName": "DELPH-IN Garage", "SiteNavigationName": "Garage", "Site": "garage"},
     {"SiteFullName": "DELPH-IN Missing", "SiteNavigationName": "Missing", "Site": "missing"}
