@@ -17,3 +17,15 @@ search: false
     float: right;
     background-color: $background-color
   }
+
+// Add underlining to selected item in left nav to make
+// it more visible
+  .nav__list .nav__items {
+      .active {
+        margin-left: -0.5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+  }
