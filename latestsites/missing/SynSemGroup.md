@@ -22,5 +22,4 @@
 - [DanZeman](/DanZeman)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [CasTest](/CasTest)
-
-Last update: 2017-11-28 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSemGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

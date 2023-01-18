@@ -90,6 +90,8 @@ toc:
         url: "/devvocab/devvocabOverview/"
       - title: "Phrases and Vocabulary"
         url: "/devvocab/devvocabPhrasesAndVocab/"
+      - title: "loc_nonsp(e,x,x) And place(x)"
+        url: "/devvocab/devvocabLoc_nonspAndPlace/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

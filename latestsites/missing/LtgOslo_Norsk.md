@@ -65,5 +65,4 @@ By *morphology* we mean all sub-tasks of analyzing word-internal
 structure, including PoS tagging and lemmatization.
 
 # Syntax
-
-Last update: 2016-11-14 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Norsk/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

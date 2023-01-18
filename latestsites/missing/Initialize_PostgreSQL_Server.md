@@ -89,5 +89,4 @@ tcpip\_socket = true
 
 - By default the server will run on port 5432. To use another port set
 the environment variable PGPORT.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/Initialize_PostgreSQL_Server/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

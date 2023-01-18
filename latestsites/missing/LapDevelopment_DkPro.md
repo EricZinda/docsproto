@@ -32,5 +32,4 @@ JSON strings
 - what should be the graph structure when a dependency parser
 annotates two separate layers of token-level analysis, e.g. PoS tags
 and stems (as features)
-
-Last update: 2016-12-05 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_DkPro/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

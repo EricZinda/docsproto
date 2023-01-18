@@ -168,5 +168,4 @@ could in principle be room for other types of constraints than just
       mrs:qeq a rdf:Property; rdfs:subPropertyOf mrs:constraint;
     
       mrs:qeq rdfs:domain mrs:h; rdfs:range mrs:h.
-
-Last update: 2015-11-19 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearch_Rdf/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

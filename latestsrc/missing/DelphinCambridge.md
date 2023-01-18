@@ -12,5 +12,4 @@ on tokenisation and morphology (funded by Boeing) and on the development
 of RMRS and the SEM-I. A new project
 ([Sciborg](http://www.sciborg.org.uk)) which is extending work on
 integration of deep and shallow processing started in October 2005.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinCambridge/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

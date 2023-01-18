@@ -980,5 +980,4 @@ but generates a repetition in the LXF outputs.
 
 3\) The report script is integrated in the LAPSVN as well as some last
 minute bugfixes were added.
-
-Last update: 2017-08-14 by MilenKouylekov [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Blog/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

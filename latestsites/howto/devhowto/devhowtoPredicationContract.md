@@ -134,5 +134,4 @@ There are other ways to solve an MRS for the variables that make it true. For ex
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-06 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoPredicationContract.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

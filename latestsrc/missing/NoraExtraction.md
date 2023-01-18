@@ -262,5 +262,4 @@ Cambridge UP 296 14 Vector space classification ... &lt;/page&gt;
 This stage remaps the Windows-1252 utf-8 codepoints (just square-glyphs)
 to the proper UTF-8 codepoints. They were probably originally included
 by mistaking Windows-1252 for ISO-8859-1(5).
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/NoraExtraction/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
