@@ -82,7 +82,8 @@
       {"Section": "Developer Predication Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabOverview.md", "DstFile": "devvocab/devvocabOverview.md"},
         {"Page": "Phrases and Vocabulary", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabPhrasesAndVocab.md", "DstFile": "devvocab/devvocabPhrasesAndVocab.md"},
-        {"Page": "loc_nonsp(e,x,x) And place(x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabLoc_nonspAndPlace.md", "DstFile": "devvocab/devvocabLoc_nonspAndPlace.md"}
+        {"Page": "loc_nonsp(e,x,x) And place(x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabLoc_nonspAndPlace.md", "DstFile": "devvocab/devvocabLoc_nonspAndPlace.md"},
+        {"Page": "Custom Query Answers", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabCustomQueryAnswers.md", "DstFile": "devvocab/devvocabCustomQueryAnswers.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
