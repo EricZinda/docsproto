@@ -92,6 +92,8 @@ toc:
         url: "/devvocab/devvocabPhrasesAndVocab/"
       - title: "loc_nonsp(e,x,x) And place(x)"
         url: "/devvocab/devvocabLoc_nonspAndPlace/"
+      - title: "Custom Query Answers"
+        url: "/devvocab/devvocabCustomQueryAnswers/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
