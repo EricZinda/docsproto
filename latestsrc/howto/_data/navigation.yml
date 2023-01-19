@@ -90,10 +90,12 @@ toc:
         url: "/devvocab/devvocabOverview/"
       - title: "Phrases and Vocabulary"
         url: "/devvocab/devvocabPhrasesAndVocab/"
-      - title: "loc_nonsp(e,x,x) And place(x)"
+      - title: "loc_nonsp(e,x,x) and place(x)"
         url: "/devvocab/devvocabLoc_nonspAndPlace/"
       - title: "Custom Query Answers"
         url: "/devvocab/devvocabCustomQueryAnswers/"
+      - title: "Reordering Quantifier Arguments"
+        url: "/devvocab/devvocabReorderingQuantifierArguments/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

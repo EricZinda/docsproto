@@ -10,4 +10,5 @@ extracting mountain hike information from tour descriptions (to appear
 in Proceedings of CLIN 2004). In the setting of a reasonably broad
 coverage of phenomena, exploration of how to encode various types of
 semantic specification remains a main focus.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2005-08-10 by LarsHellan [[edit](https://github.com/delph-in/docs/wiki/DelphinNtnu/_edit)]{% endraw %}

@@ -53,4 +53,5 @@
     I can't scope
     With or without q
     With or without q
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-02-23 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinKaraoke/_edit)]{% endraw %}

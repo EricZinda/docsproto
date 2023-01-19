@@ -3,4 +3,5 @@
 
 MoinMoin Version\
 Release 1.9.10 \[Revision release\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SystemInfo/_edit)]{% endraw %}

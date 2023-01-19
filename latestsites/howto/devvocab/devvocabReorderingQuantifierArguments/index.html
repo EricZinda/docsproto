@@ -1,0 +1,563 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-To</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-To">
+<meta property="og:title" content="DELPH-IN How-To">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-To Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-To"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-To
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus">Missing</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjunctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoHandlingEventInformation/">Handling Event Information</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoGenerateMRSAndTrees/">Phrases to MRS and Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the 'Right' Tree</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/">Unknown Words and Synonyms</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage/">Predication Signatures and Usage</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoDiagnostics/">Diagnostics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleTesting/">Testing</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Predication Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabPhrasesAndVocab/">Phrases and Vocabulary</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace/">loc_nonsp(e,x,x) and place(x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabCustomQueryAnswers/">Custom Query Answers</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments/" class="active">Reordering Quantifier Arguments</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/SaarlandAceAgree/">Ace/Agree Tutorial (2013)</a></li>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="reordering-quantifier-arguments">Reordering Quantifier Arguments</h2>
+<p>We have a serious performance problem in the initial implementation of <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace"><code class="language-plaintext highlighter-rouge">loc_nonsp</code></a>. The MRS for “Where am I?” is generated such that the predication <code class="language-plaintext highlighter-rouge">place_n</code> is called before <code class="language-plaintext highlighter-rouge">loc_nonsp</code>. This means that we will literally call <code class="language-plaintext highlighter-rouge">loc_nonsp</code> with <em>every file and folder in the system</em> until we find where the user is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sentence Force: ques
+[ "where am i"
+  TOP: h0
+  INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ loc_nonsp&lt;0:5&gt; LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 1 NUM: sg IND: + PT: std ] ARG2: x4 [ x PERS: 3 NUM: sg ] ]
+          [ place_n&lt;0:5&gt; LBL: h5 ARG0: x4 ]
+          [ which_q&lt;0:5&gt; LBL: h6 ARG0: x4 RSTR: h7 BODY: h8 ]
+          [ pron&lt;9:10&gt; LBL: h9 ARG0: x3 ]
+          [ pronoun_q&lt;9:10&gt; LBL: h10 ARG0: x3 RSTR: h11 BODY: h12 ] &gt;
+  HCONS: &lt; h0 qeq h1 h7 qeq h5 h11 qeq h9 &gt; ]
+
+               ┌────── pron(x3)
+pronoun_q(x3,RSTR,BODY)             ┌────── place_n(x4)
+                    └─ which_q(x4,RSTR,BODY)
+                                         └─ loc_nonsp(e2,x3,x4)
+</code></pre></div></div>
+
+<p>If we turn on tracing and execute “Where am I?”, you can see <code class="language-plaintext highlighter-rouge">call 5: ['loc_nonsp', ...</code> being called with <code class="language-plaintext highlighter-rouge">x4</code> (i.e. <code class="language-plaintext highlighter-rouge">x_location</code>) set to every file and folder in our test data before the solution is returned:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? where am i
+Execution 2023-01-18 12:10:39,395: call 1: ['pronoun_q', 'x3', [['pron', 'x3']], [['which_q', 'x4', [['place_n', 'x4']], [['loc_nonsp', 'e2', 'x3', 'x4']]]]]() [ques]
+Execution 2023-01-18 12:10:39,395: call 2: ['pron', 'x3']() [ques]
+Execution 2023-01-18 12:10:39,396: call 3: ['which_q', 'x4', [['place_n', 'x4']], [['loc_nonsp', 'e2', 'x3', 'x4']]](x3 = Actor(name=User, person=1)) [ques]
+Execution 2023-01-18 12:10:39,396: call 4: ['place_n', 'x4'](x3 = Actor(name=User, person=1)) [ques]
+Execution 2023-01-18 12:10:39,396: call 5: ['loc_nonsp', 'e2', 'x3', 'x4'](x3 = Actor(name=User, person=1), x4 = Folder(name=/documents, size=0)) [ques]
+Execution 2023-01-18 12:10:39,397: call 5: ['loc_nonsp', 'e2', 'x3', 'x4'](x3 = Actor(name=User, person=1), x4 = Folder(name=/, size=0)) [ques]
+Execution 2023-01-18 12:10:39,397: call 5: ['loc_nonsp', 'e2', 'x3', 'x4'](x3 = Actor(name=User, person=1), x4 = Folder(name=/Desktop, size=0)) [ques]
+Execution 2023-01-18 12:10:39,398: call 5: ['loc_nonsp', 'e2', 'x3', 'x4'](x3 = Actor(name=User, person=1), x4 = File(name=/documents/file1.txt, size=None)) [ques]
+Folder(name=/, size=0)
+Folder(name=/Desktop, size=0)
+</code></pre></div></div>
+
+<p>Looking at the implementation of <code class="language-plaintext highlighter-rouge">loc_nonsp</code> below, observe that the code handling <code class="language-plaintext highlighter-rouge">if x_location_value is None:</code> is very efficient: it simply asks an object where it is located. The current behavior is hitting the <code class="language-plaintext highlighter-rouge">else</code> statement which is plenty efficient in general, <em>but</em>: the entire tree is inefficient since it loops through every single file and folder and asks “is the user here?”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
+def loc_nonsp(state, e_introduced, x_actor, x_location):
+    x_actor_value = state.get_variable(x_actor)
+    x_location_value = state.get_variable(x_location)
+
+    if x_actor_value is not None:
+        if hasattr(x_actor_value, "all_locations"):
+            if x_location_value is None:
+                # This is a "where is X?" type query since no location specified
+                for location in x_actor_value.all_locations():
+                    yield state.set_x(x_location, location)
+            else:
+                # The system is asking if a location of x_actor is x_location,
+                # so check the list exhaustively until we find a match, then stop
+                for location in x_actor_value.all_locations():
+                    if location == x_location_value:
+                        # Variables are already set,
+                        # no need to set them again, just return the state
+                        yield state
+                        break
+    else:
+        # For now, return errors for cases where x_actor is unbound
+        pass
+
+    report_error(["thingHasNoLocation", x_actor, x_location])
+</code></pre></div></div>
+
+<p>So, we can address the performance problem by getting <code class="language-plaintext highlighter-rouge">loc_nonsp</code> to do the work of finding out the location of its <code class="language-plaintext highlighter-rouge">x_actor</code> instead. Here’s how: Notice that the <code class="language-plaintext highlighter-rouge">which_q</code> quantifier is what calls <code class="language-plaintext highlighter-rouge">place_n</code> first and then <code class="language-plaintext highlighter-rouge">loc_nonsp</code> (<a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments">as it should</a>):</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>               ┌────── pron(x3)
+pronoun_q(x3,RSTR,BODY)             ┌────── place_n(x4)
+                    └─ which_q(x4,RSTR,BODY)
+                                         └─ loc_nonsp(e2,x3,x4)
+</code></pre></div></div>
+
+<p>… but the logic is just as valid (for this case anyway), if it called them in the reverse order. Doing it that way allows us to find the more performant path through <code class="language-plaintext highlighter-rouge">loc_nonsp</code> since <code class="language-plaintext highlighter-rouge">x4</code> will be unbound. We can add some simple code to <code class="language-plaintext highlighter-rouge">which_q</code> to reorder its arguments when it hits this very case:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def rstr_reorderable(rstr):
+    return len(rstr) == 1 and rstr[0][0] in ["place_n"]
+
+
+@Predication(vocabulary, names=["which_q", "_which_q"])
+def which_q(state, x_variable, h_rstr, h_body):
+    if rstr_reorderable(h_rstr):
+        yield from default_quantifier(state, x_variable, h_body, h_rstr)
+    else:
+        yield from default_quantifier(state, x_variable, h_rstr, h_body)
+</code></pre></div></div>
+
+<p>… and we don’t have to change <code class="language-plaintext highlighter-rouge">loc_nonsp</code> at all.</p>
+
+<p>If we run the code again, notice that, unlike the original code above, we are now only iterating through the actual locations that the user is in:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? where am i
+Execution 2023-01-18 16:02:17,321: call 1: ['pronoun_q', 'x3', [['pron', 'x3']], [['which_q', 'x4', [['place_n', 'x4']], [['loc_nonsp', 'e2', 'x3', 'x4']]]]]() [ques]
+Execution 2023-01-18 16:02:17,321: call 2: ['pron', 'x3']() [ques]
+Execution 2023-01-18 16:02:17,322: call 3: ['which_q', 'x4', [['place_n', 'x4']], [['loc_nonsp', 'e2', 'x3', 'x4']]](x3 = Actor(name=User, person=1)) [ques]
+Execution 2023-01-18 16:02:17,322: call 4: ['loc_nonsp', 'e2', 'x3', 'x4'](x3 = Actor(name=User, person=1)) [ques]
+Execution 2023-01-18 16:02:17,323: call 5: ['place_n', 'x4'](x3 = Actor(name=User, person=1), x4 = Folder(name=/Desktop, size=0)) [ques]
+Execution 2023-01-18 16:02:17,324: call 5: ['place_n', 'x4'](x3 = Actor(name=User, person=1), x4 = Folder(name=/, size=0)) [ques]
+in /Desktop
+</code></pre></div></div>
+
+<p>Much more efficient.</p>
+
+<p>We’ll use this same trick later, when we encounter the <code class="language-plaintext highlighter-rouge">thing</code> predication which is even worse since it returns literally every object in the system!</p>
+
+<p>Last update: 2023-01-18 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabReorderingQuantifierArguments.md">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

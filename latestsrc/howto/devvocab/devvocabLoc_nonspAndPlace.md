@@ -273,7 +273,7 @@ Folder(name=/Desktop, size=0)
 
 The system responded with all the locations where the user "is", namely the `/` folder and the `/Desktop` folder. There are two things we need to improve here: 
 
-First, It would be nicer to respond to "Where am I?" with something like "in /Desktop", since exhaustively listing all the folders probably isn't what the user wants.  
+First, It would be nicer to respond to "Where am I?" with something like "in /Desktop", since exhaustively listing all the folders probably isn't what the user wants.  We'll address this in the [next topic](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabCustomQueryAnswers).
 
 Even more importantly: It isn't obvious from the output, but the query literally finds every `place` in the world (i.e. *every* file and folder) and calls `loc_nonsp` with each one. If we turn on tracing and run it again, you can see `call 5: ['loc_nonsp', ...` being called with `x4` (i.e. `x_location`) being set to every file and folder in our test data before the solution is returned: 
 
@@ -291,5 +291,6 @@ Folder(name=/, size=0)
 Folder(name=/Desktop, size=0)
 ```
 
-Works OK with our small data set but clearly not going to work with a real file system.  In the next two sections we'll address both of these issues.
-<update date omitted for speed>{% endraw %}
+Works OK with our small data set but clearly not going to work with a real file system.  We'll address this [in two topics](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments).
+
+Last update: 2023-01-18 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabLoc_nonspAndPlace.md)]{% endraw %}

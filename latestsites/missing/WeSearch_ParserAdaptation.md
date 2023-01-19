@@ -43,4 +43,5 @@ Biomedical Informatics*, 42(5), pp. 852-865.
 Parsers Trained on Small
 Datasets](http://www.cs.huji.ac.il/~roiri/papers/self-training_cammera_ready.pdf)
 Proceedings of ACL 2007
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-11-01 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearch_ParserAdaptation/_edit)]{% endraw %}

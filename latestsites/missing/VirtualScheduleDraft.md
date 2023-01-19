@@ -107,4 +107,5 @@ preprocessing data for machine learning, etc.). \[Mike\]
 with ERG, would like to fix that) \[Emily\]
 - SIG/discussion: file formats for grammar specifications (aka choices
 files) \[Chris\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-06-19 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualScheduleDraft/_edit)]{% endraw %}

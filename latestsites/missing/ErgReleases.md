@@ -193,4 +193,5 @@ in Oslo, though one could easily re-direct this to the LinGO server). A
 soft link current.tgz in the download directory is what selects which
 version will be accessed by the *Download* button on the [main ERG
 page](http://www.delph-in.net/erg).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-09-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgReleases/_edit)]{% endraw %}

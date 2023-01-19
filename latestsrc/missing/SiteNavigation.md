@@ -20,4 +20,5 @@ other pages related to the current page:
 Additionally, there are the \[\[PageList\]\], \[\[FullSearch('text')\]\]
 and \[\[TableOfContents\]\] macros, which allow you to automatically
 generate indices for cohesive parts of a wiki.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2004-07-21 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SiteNavigation/_edit)]{% endraw %}

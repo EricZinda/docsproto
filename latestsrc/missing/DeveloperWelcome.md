@@ -43,4 +43,5 @@ So you want to write a TDL processor....
 ## License Selection
 
 So you're ready to distribute your resources....
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DeveloperWelcome/_edit)]{% endraw %}

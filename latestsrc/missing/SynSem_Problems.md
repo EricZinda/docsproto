@@ -1,2 +1,3 @@
 {% raw %}Sub-area for requests for help
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-16 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SynSem_Problems/_edit)]{% endraw %}
