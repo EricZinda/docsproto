@@ -7,4 +7,5 @@ din email-adresse kan du blive gjort opmærksom på sideændringer.
 Når du klikker på **Opret brugerkonto** oprettes en brugerkonto til dig.
 
 :warning:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2004-07-21 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BrugerIndstillinger/_edit)]{% endraw %}

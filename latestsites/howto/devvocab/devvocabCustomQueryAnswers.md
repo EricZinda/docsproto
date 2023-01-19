@@ -89,4 +89,5 @@ in /Desktop
 ? which file is small
 File(name=/documents/file1.txt, size=1000)
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-18 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabCustomQueryAnswers.md)]{% endraw %}

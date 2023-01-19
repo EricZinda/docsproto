@@ -130,4 +130,5 @@ The [next topic](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devh
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-09 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoGenerateMRSAndTrees.md)]{% endraw %}

@@ -11,4 +11,5 @@ each operation and its result.
 # Interpreting an LKB Edge
 
     (simplify (evaluate (nth 7 lkb:*parse-record*)))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-09-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/HusTop/_edit)]{% endraw %}

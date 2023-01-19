@@ -165,4 +165,5 @@ Norway; and LingIT AS)
 - Victoria Rosén (University of Bergen; Norway)
 - Koenraad de Smedt (University of Bergen; Norway)
 - Erik Velldal (University of Oslo; Norway)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonGeilo/_edit)]{% endraw %}

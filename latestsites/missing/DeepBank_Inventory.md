@@ -11,4 +11,5 @@ all export successfull and convert to DTM (note, the converter picks the
 6215 pseudo-derivations, of these only 5103 succeed in exporting (not
 sure yet why exactly, but clearly there are many things that could go
 wrong in the robust universe)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-10-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DeepBank_Inventory/_edit)]{% endraw %}

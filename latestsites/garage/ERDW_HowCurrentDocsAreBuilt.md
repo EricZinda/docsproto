@@ -10,4 +10,5 @@ The "official docs" are created using [Github Pages](https://pages.github.com/) 
 
 One "trick" that happens on the https://delph-in.github.io/docs/ page is the search box. This is set up to post to the same URL the wiki uses for its search.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-08-16 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_HowCurrentDocsAreBuilt/_edit)]{% endraw %}
