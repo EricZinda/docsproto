@@ -285,6 +285,8 @@
           
             <li><a href="/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments/">Reordering Quantifier Arguments</a></li>
           
+            <li><a href="/docsproto/howto/devvocab/devvocabThis_q_dem/">this_q_dem(x,h,h)</a></li>
+          
         </ul>
         
       </li>
@@ -380,8 +382,8 @@ def Example18():
 
 <p>To determine the next set, let’s feed phrases we want to support into <code class="language-plaintext highlighter-rouge">Example18()</code> and see what predications are missing.</p>
 
-<h3 id="where-am-i">Where am i?</h3>
-<p>We should support “where am i?” by having a notion of the “current” directory and printing it:</p>
+<h3 id="where-am-i-loc_nonsp-and-place_n">“Where am i?”: <code class="language-plaintext highlighter-rouge">loc_nonsp</code> and <code class="language-plaintext highlighter-rouge">place_n</code></h3>
+<p>“Where am I?” generates the following MRS:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Running Example18() gives:
 ? where am i
 I don't know the words: loc_nonsp, place
@@ -404,17 +406,50 @@ User Input: where am i
 Unknown words: [('loc_nonsp', ['e', 'x', 'x'], 'ques', False), ('place_n', ['x'], 'ques', False)]
 </code></pre></div></div>
 
-<p>what files are there?
-what is in this directory?
-Where is X?
-Find all the files that X
-copy foo.txt to the folder named desktop</p>
+<p>We’ll need to <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace">implement the <code class="language-plaintext highlighter-rouge">loc_nonsp</code> and <code class="language-plaintext highlighter-rouge">place_n</code> predications</a> to make it work. In that topic we’ll also implement a notion of the “current” directory to support it.</p>
+
+<h3 id="what-is-in-this-directory-thing-_in_p_loc-_this_q_dem">“What is in this directory?”: <code class="language-plaintext highlighter-rouge">thing</code>, _<code class="language-plaintext highlighter-rouge">in_p_loc</code>, _<code class="language-plaintext highlighter-rouge">this_q_dem</code></h3>
+<p>“What is in this directory?” introduces 3 new predications:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? what is in this directory?
+I don't know the words: thing, in, this, directory
+
+? /show
+User Input: what is in this directory?
+7 Parses
+
+***** CHOSEN Parse #0:
+Sentence Force: ques
+[ "what is in this directory?"
+  TOP: h0
+  INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ thing&lt;0:4&gt; LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] ]
+          [ which_q&lt;0:4&gt; LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+          [ _in_p_loc&lt;8:10&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg IND: + ] ]
+          [ _this_q_dem&lt;11:15&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+          [ _directory_n_1&lt;16:25&gt; LBL: h12 ARG0: x8 ] &gt;
+  HCONS: &lt; h0 qeq h1 h6 qeq h4 h10 qeq h12 &gt; ]
+
+Unknown words: [('thing', ['x'], 'ques', False), ('_in_p_loc', ['e', 'x', 'x'], 'ques', False), ('_this_q_dem', ['x', 'h', 'h'], 'ques', False), ('_directory_n_1', ['x'], 'ques', False)]
+</code></pre></div></div>
+
+<p>We’ll need to implement <code class="language-plaintext highlighter-rouge">thing</code>, <code class="language-plaintext highlighter-rouge">in_p_loc</code>, <code class="language-plaintext highlighter-rouge">this_q_dem</code> to make it work.</p>
+
+<h3 id="tbd">TBD</h3>
+
+<ul>
+  <li>what files are there?</li>
+  <li>what is in this directory?</li>
+  <li>Where is X?</li>
+  <li>Find all the files that X</li>
+  <li>copy foo.txt to the folder named desktop</li>
+</ul>
 
 <blockquote>
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-18 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabPhrasesAndVocab.md">edit</a>]</p>
+<p>Last update: 2023-01-19 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabPhrasesAndVocab.md">edit</a>]</p>
 
         
       </section>

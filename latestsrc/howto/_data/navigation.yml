@@ -96,6 +96,8 @@ toc:
         url: "/devvocab/devvocabCustomQueryAnswers/"
       - title: "Reordering Quantifier Arguments"
         url: "/devvocab/devvocabReorderingQuantifierArguments/"
+      - title: "this_q_dem(x,h,h)"
+        url: "/devvocab/devvocabThis_q_dem/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
