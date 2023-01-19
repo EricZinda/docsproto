@@ -1,0 +1,546 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-To</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-To">
+<meta property="og:title" content="DELPH-IN How-To">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabCustomQueryAnswers/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabCustomQueryAnswers/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-To Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-To"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-To
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus">Missing</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjunctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoHandlingEventInformation/">Handling Event Information</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoGenerateMRSAndTrees/">Phrases to MRS and Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the 'Right' Tree</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/">Unknown Words and Synonyms</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage/">Predication Signatures and Usage</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoDiagnostics/">Diagnostics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleTesting/">Testing</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Predication Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabPhrasesAndVocab/">Phrases and Vocabulary</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace/">loc_nonsp(e,x,x) And place(x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabCustomQueryAnswers/" class="active">Custom Query Answers</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/SaarlandAceAgree/">Ace/Agree Tutorial (2013)</a></li>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="custom-responses-to-queries">Custom Responses to Queries</h1>
+<p>So far, we respond to any “Wh”-type query (where, what, who, etc.) by just printing out the variable assignments in the solution, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? which file is small?
+File(name=/documents/file1.txt, size=1000)
+
+? where am i?
+Folder(name=/, size=0)
+Folder(name=/Desktop, size=0)
+</code></pre></div></div>
+
+<p>It is time to allow some customization to provide better answers.  For both scenarios, just giving the name of the file or folder would be clearer. For “Where am I?”, we should also answer with the most specific folder since, like “in /Desktop”, exhaustively listing all the folders probably isn’t what the user wants.</p>
+
+<p>We can accomplish both by using the <code class="language-plaintext highlighter-rouge">generate_message()</code> function for answers to “Wh” questions just like we do for error messages. This means changing <code class="language-plaintext highlighter-rouge">respond_to_mrs_tree()</code> to create a special “error term” when we are responding with a list of answers to a query:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def respond_to_mrs_tree(tree, solutions, error):
+    
+    ...
+    
+    elif sentence_force_type == "ques":
+        
+        ...
+        
+            # This was a "WH" question. Return the values of the variable 
+            # asked about from the solution
+            # The phrase was "true" if there was at least one answer
+            if len(solutions) &gt; 0:
+                # Build an error term that we can use to call generate_message
+                # to get the response
+                index_predication = find_predicate_from_introduced(tree["Tree"], tree["Index"])
+                wh_variable = wh_predication[1]
+                answer_items = []
+                for solution in solutions:
+                    answer_items.append(solution.get_variable(wh_variable))
+
+                message = generate_message(tree, [-1, ["answerWithList", index_predication, answer_items]])
+                return message
+            
+            else:
+                message = generate_message(tree, error)
+                return message
+                
+</code></pre></div></div>
+
+<p>The error term is in the form: <code class="language-plaintext highlighter-rouge">[-1, ["answerWithList", index_predication, answer_items]]</code>. <code class="language-plaintext highlighter-rouge">answerWithList</code> means this is a “Wh” question answer. We also pass the <code class="language-plaintext highlighter-rouge">index_predication</code> because, as described in the topic on sentence force, this indicates the predication that the sentence is <em>about</em> (aka the “syntactic head”). Having this allows us to provide different answers for different “verbs”. In this case, <code class="language-plaintext highlighter-rouge">loc_nonsp</code> is acting as a verb (this behavior is also described in that section) and so we can modify <code class="language-plaintext highlighter-rouge">generate_message()</code> to respond differently:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def generate_message(tree_info, error_term):
+    
+    ...
+    
+    elif error_constant == "answerWithList":
+        answer_predication = error_arguments[1]
+        answer_items = error_arguments[2]
+
+        if len(answer_items) &gt; 0:
+            message = ""
+
+            if answer_predication[0] == "loc_nonsp":
+                # if "loc_nonsp" is the "verb", it means the phrase was
+                # "Where is YYY?", so only return the "best" answer, which 
+                # is the most specific one
+                best_answer = ""
+                for answer_item in answer_items:
+                    current_answer = str(answer_item.name)
+                    if len(current_answer) &gt; len(best_answer):
+                        best_answer = current_answer
+                message = f"in {best_answer}"
+
+            else:
+                for answer_item in answer_items:
+                    message += str(answer_item) + "\n"
+
+            return message
+        else:
+            return ""
+                
+            ...
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">generate_message()</code> uses the same approach as before (just printing out a list of answers) by default, but now we’ve added special case code when responding to <code class="language-plaintext highlighter-rouge">loc_nonsp</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? where am i
+in /Desktop
+
+? which file is small
+File(name=/documents/file1.txt, size=1000)
+</code></pre></div></div>
+<update date="" omitted="" for="" speed="">
+</update>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

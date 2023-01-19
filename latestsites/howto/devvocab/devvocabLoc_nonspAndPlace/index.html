@@ -281,6 +281,8 @@
           
             <li><a href="/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace/" class="active">loc_nonsp(e,x,x) And place(x)</a></li>
           
+            <li><a href="/docsproto/howto/devvocab/devvocabCustomQueryAnswers/">Custom Query Answers</a></li>
+          
         </ul>
         
       </li>
@@ -627,9 +629,9 @@ Folder(name=/, size=0)
 Folder(name=/Desktop, size=0)
 </code></pre></div></div>
 
-<p>The system responded with all the locations where the user “is”, namely the <code class="language-plaintext highlighter-rouge">/</code> folder and the <code class="language-plaintext highlighter-rouge">/Desktop</code> folder. There are a few things we need to improve here:</p>
+<p>The system responded with all the locations where the user “is”, namely the <code class="language-plaintext highlighter-rouge">/</code> folder and the <code class="language-plaintext highlighter-rouge">/Desktop</code> folder. There are two things we need to improve here:</p>
 
-<p>First, It would be nicer to respond to “Where am I?” with something like “In the “/” and “/Desktop” folders”</p>
+<p>First, It would be nicer to respond to “Where am I?” with something like “in /Desktop”, since exhaustively listing all the folders probably isn’t what the user wants.</p>
 
 <p>Even more importantly: It isn’t obvious from the output, but the query literally finds every <code class="language-plaintext highlighter-rouge">place</code> in the world (i.e. <em>every</em> file and folder) and calls <code class="language-plaintext highlighter-rouge">loc_nonsp</code> with each one. If we turn on tracing and run it again, you can see <code class="language-plaintext highlighter-rouge">call 5: ['loc_nonsp', ...</code> being called with <code class="language-plaintext highlighter-rouge">x4</code> (i.e. <code class="language-plaintext highlighter-rouge">x_location</code>) being set to every file and folder in our test data before the solution is returned:</p>
 
