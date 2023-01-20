@@ -86,7 +86,8 @@
         {"Page": "Custom Query Answers", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabCustomQueryAnswers.md", "DstFile": "devvocab/devvocabCustomQueryAnswers.md"},
         {"Page": "Reordering Quantifier Arguments", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabReorderingQuantifierArguments.md", "DstFile": "devvocab/devvocabReorderingQuantifierArguments.md"},
         {"Page": "this_q_dem(x,h,h)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabThis_q_dem.md", "DstFile": "devvocab/devvocabThis_q_dem.md"},
-        {"Page": "thing(x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabThing.md", "DstFile": "devvocab/devvocabThing.md"}
+        {"Page": "thing(x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabThing.md", "DstFile": "devvocab/devvocabThing.md"},
+        {"Page": "_in_p_loc(e,x,x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabIn_p_loc.md", "DstFile": "devvocab/devvocabIn_p_loc.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
