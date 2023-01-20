@@ -98,6 +98,8 @@ toc:
         url: "/devvocab/devvocabReorderingQuantifierArguments/"
       - title: "this_q_dem(x,h,h)"
         url: "/devvocab/devvocabThis_q_dem/"
+      - title: "thing(x)"
+        url: "/devvocab/devvocabThing/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
