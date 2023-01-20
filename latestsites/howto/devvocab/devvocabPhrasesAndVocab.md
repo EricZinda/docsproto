@@ -77,7 +77,7 @@ Sentence Force: ques
 Unknown words: [('thing', ['x'], 'ques', False), ('_in_p_loc', ['e', 'x', 'x'], 'ques', False), ('_this_q_dem', ['x', 'h', 'h'], 'ques', False), ('_directory_n_1', ['x'], 'ques', False)]
 ```
 
-We'll need to implement `thing`, `in_p_loc`, [`this_q_dem`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabThis_q_dem) to make it work.
+We'll need to implement [`_this_q_dem`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabThis_q_dem), [`thing`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabThing), and [`_in_p_loc`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc), to make it work.
 
 ### TBD
 
@@ -90,4 +90,4 @@ We'll need to implement `thing`, `in_p_loc`, [`this_q_dem`](https://blog.inducto
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
 
-Last update: 2023-01-19 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabPhrasesAndVocab.md)]{% endraw %}
+Last update: 2023-01-20 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabPhrasesAndVocab.md)]{% endraw %}

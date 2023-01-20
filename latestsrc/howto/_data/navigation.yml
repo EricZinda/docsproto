@@ -100,6 +100,8 @@ toc:
         url: "/devvocab/devvocabThis_q_dem/"
       - title: "thing(x)"
         url: "/devvocab/devvocabThing/"
+      - title: "_in_p_loc(e,x,x)"
+        url: "/devvocab/devvocabIn_p_loc/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
