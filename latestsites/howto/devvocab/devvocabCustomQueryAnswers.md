@@ -90,4 +90,7 @@ in /Desktop
 File(name=/documents/file1.txt, size=1000)
 ```
 
-Last update: 2023-01-18 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabCustomQueryAnswers.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-19 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabCustomQueryAnswers.md)]{% endraw %}

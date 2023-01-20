@@ -105,6 +105,9 @@ in /Desktop
 
 Much more efficient.
 
-We'll use this same trick later, when we encounter the `thing` predication which is even worse since it returns literally every object in the system!
+We'll use this same trick later, when we encounter the [`thing` predication](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabThing) which is even worse since it returns literally every object in the system!
 
-Last update: 2023-01-18 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabReorderingQuantifierArguments.md)]{% endraw %}
+> Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
+
+
+Last update: 2023-01-19 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabReorderingQuantifierArguments.md)]{% endraw %}

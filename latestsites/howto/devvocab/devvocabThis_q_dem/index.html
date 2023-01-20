@@ -287,6 +287,8 @@
           
             <li><a href="/docsproto/howto/devvocab/devvocabThis_q_dem/" class="active">this_q_dem(x,h,h)</a></li>
           
+            <li><a href="/docsproto/howto/devvocab/devvocabThing/">thing(x)</a></li>
+          
         </ul>
         
       </li>
@@ -362,20 +364,20 @@
 
 <ul>
   <li>“this folder”: Most likely means “the current folder”, which is <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace">“the one I am in”</a></li>
-  <li>“this file”: This is ambiguous since the user is never “in” a file (although we might allow that to allow searching around a file at some point!).  It <em>might</em> mean “the one file that is in the directory”, in which case it would be equivalent to “<em>the</em> file”</li>
-  <li>“this machine”: Means the entire computer if we implement the notion of “machine/computer/device”. As in “what large files are on this machine?”</li>
+  <li>“this file”: This is ambiguous since the user is never “in” a file (although we might allow it when searching around a file at some point!).  It <em>might</em> mean “the one file that is in this directory”, in which case it would be equivalent to “<em>the</em> file”</li>
+  <li>“this machine”: Means the entire computer we are working on if we implement the notion of “machine/computer/device”. As in “what large files are on this machine?”</li>
 </ul>
 
-<p>Let’s start with the first case and implement “this folder”. If we just type in “this folder”, the following tree is produced. Since the ERG doesn’t know what to do with “this folder”, it produces a predication called <code class="language-plaintext highlighter-rouge">unknown</code> which effectively means “the user didn’t say something that was expected” (more information is <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Fragments/">here</a>):</p>
+<p>Let’s start with the first case and implement “this folder”. If we type in “this folder is small”, the following tree is produced:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                 ┌────── _folder_n_of(x4,i9)
-_this_q_dem(x4,RSTR,BODY)
-                      └─ unknown(e2,x4)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                 ┌────── _folder_n_of(x3,i8)
+_this_q_dem(x3,RSTR,BODY)
+                      └─ _small_a_1(e2,x3)
 </code></pre></div></div>
 
-<p><code class="language-plaintext highlighter-rouge">_this_q_dem</code> is a <em>quantifier</em> because it has the type <code class="language-plaintext highlighter-rouge">_q_</code> and it has the standard quantifier arguments <code class="language-plaintext highlighter-rouge">RSTR</code> and <code class="language-plaintext highlighter-rouge">BODY</code>.  As described in the topic on <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS/#quantifier-predications">MRS</a>, the job of a quantifier is to say “how much of” the <code class="language-plaintext highlighter-rouge">RSTR</code> should be applied to the <code class="language-plaintext highlighter-rouge">BODY</code>.  In the case of <code class="language-plaintext highlighter-rouge">_this_q_dem</code>, “how much of” really means “which”, as in: <em>which</em> <code class="language-plaintext highlighter-rouge">RSTR</code> should be applied to the body. The variable being quantified is passed in its first argument (<code class="language-plaintext highlighter-rouge">x4</code> in the example above).</p>
+<p><code class="language-plaintext highlighter-rouge">_this_q_dem</code> is a <em>quantifier</em> because it has the type <code class="language-plaintext highlighter-rouge">_q_</code> and it has the standard quantifier arguments <code class="language-plaintext highlighter-rouge">RSTR</code> and <code class="language-plaintext highlighter-rouge">BODY</code>.  As described in the topic on <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS/#quantifier-predications">MRS</a>, the job of a quantifier is to say “how much of” the <code class="language-plaintext highlighter-rouge">RSTR</code> should be applied to the <code class="language-plaintext highlighter-rouge">BODY</code>.  In the case of <code class="language-plaintext highlighter-rouge">_this_q_dem</code>, “how much of” really means “which”, as in: <em>which</em> <code class="language-plaintext highlighter-rouge">RSTR</code> should be applied to the body. The variable being quantified is passed in its first argument (<code class="language-plaintext highlighter-rouge">x3</code> in the example above). So, the job here is to pick which of the <code class="language-plaintext highlighter-rouge">x3</code> assignments returned by  <code class="language-plaintext highlighter-rouge">_folder_n_of</code> is what the user meant by “this”.</p>
 
-<p>We’ll start by implementing this “which” semantic by copying <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors/">the code we implemented for <code class="language-plaintext highlighter-rouge">a_q</code></a>. But, where <code class="language-plaintext highlighter-rouge">a_q</code> just returns “a single arbitrary” item, <code class="language-plaintext highlighter-rouge">_this_q_dem</code> will only return an item that is “in scope” as determined by a new <code class="language-plaintext highlighter-rouge">in_scope()</code> function:</p>
+<p>We’ll start by implementing the “which” semantic by copying <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoQuantifierErrors/">the code we implemented for <code class="language-plaintext highlighter-rouge">a_q</code></a>. But, where <code class="language-plaintext highlighter-rouge">a_q</code> just returns “a single arbitrary” item, <code class="language-plaintext highlighter-rouge">_this_q_dem</code> will only return an item that is “in scope” as determined by a new <code class="language-plaintext highlighter-rouge">in_scope()</code> function:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def in_scope(state, obj):
     # obj is in scope if it is the folder the user is in
@@ -487,6 +489,10 @@ There is more than one 'this file' where you are
 </code></pre></div></div>
 
 <p>Much better!</p>
+
+<blockquote>
+  <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
+</blockquote>
 
 <p>Last update: 2023-01-19 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabThis_q_dem.md">edit</a>]</p>
 
