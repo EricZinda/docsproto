@@ -269,7 +269,7 @@
     
       <li>
         
-          <span class="nav__sub-title">Developer Predication Tutorial</span>
+          <span class="nav__sub-title">(early draft) Developer Predication Tutorial</span>
         
 
         
@@ -290,6 +290,8 @@
             <li><a href="/docsproto/howto/devvocab/devvocabThing/">thing(x)</a></li>
           
             <li><a href="/docsproto/howto/devvocab/devvocabIn_p_loc/">_in_p_loc(e,x,x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabFileDirectoryNames/">fw_seq(...) and quoted(c,i)</a></li>
           
         </ul>
         
@@ -381,21 +383,21 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
                └─ and(0,1)
                         └ _large_a_1(e2,x3)
 </code></pre></div></div>
-<p>The <em>syntactic head</em> of a phrase indicates what the phrase is “about” or “built around”, and is usually a verb.  The MRS will represent the syntactic head of the phrase with one or more predications, possibly in a conjunction, and will point to the syntactic head using the <code class="language-plaintext highlighter-rouge">INDEX</code> field of the MRS. In this case, it is <code class="language-plaintext highlighter-rouge">INDEX = e2</code>. <code class="language-plaintext highlighter-rouge">e2</code> is introduced by <code class="language-plaintext highlighter-rouge">_large_a_1</code>.  Recall from <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents">the events section</a> that each (non-quantifier) predication <em>introduces</em> a variable that effectively represents it in the sentence. So, by pointing to a particular variable (<code class="language-plaintext highlighter-rouge">e2</code>), the MRS <code class="language-plaintext highlighter-rouge">Index</code> is indicating that the predication that introduces it (<code class="language-plaintext highlighter-rouge">large_a_1</code>) is the “syntactic head”, or what the sentence is “about”.</p>
 
-<blockquote>
-  <p>The example sentence is thus <em>about</em> <code class="language-plaintext highlighter-rouge">_large_a_1</code>…which is not a verb.  This is a special case in DELPH-IN, where the common case of “being x” just drops the “being” and treats “x” as the verb.</p>
-</blockquote>
-
-<p>Once you know the <code class="language-plaintext highlighter-rouge">index</code> (syntactic head) of a phrase, you can see what <em>type</em> of phrase it is by looking at the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS"><em>properties</em> of that variable</a>. This is the first time we’ve had to inspect variable properties, so lets dig in there a bit.</p>
+<p>You can see what <em>type</em> of phrase it is by looking at the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS"><em>properties</em> of that variable</a>. This is the first time we’ve had to inspect variable properties, so lets dig in there a bit.</p>
 
 <p>You can see that, next to each argument in the MRS, there is a list of properties surrounded by <code class="language-plaintext highlighter-rouge">[]</code>. It looks like this for the <code class="language-plaintext highlighter-rouge">e2</code> argument of <code class="language-plaintext highlighter-rouge">_large_a_1</code>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
 </code></pre></div></div>
 
-<p>This is the list of properties for that variable. It provides various information about the kind of things that should be in that variable. Think of it as “metadata” about the variable or single argument predications for that variable.  The property we are interested in here is:
-<code class="language-plaintext highlighter-rouge">SF: prop</code> (“sentence force”: “proposition”).  Every sentence is categorized into a <em>type</em>, indicated by the <code class="language-plaintext highlighter-rouge">SF</code> (“sentence force”) property of its index variable:</p>
+<p>This is the list of properties for that variable. It provides various information about the kind of things that should be in that variable. Think of it as “metadata” about the variable or single argument predications for that variable.  The property we are interested in here is:</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">SF: prop</code> (“sentence force”: “proposition”).</p>
+</blockquote>
+
+<p>Every sentence is categorized into a <em>type</em>, indicated by the <code class="language-plaintext highlighter-rouge">SF</code> (“sentence force”) property of one or more of its variables (note that the <code class="language-plaintext highlighter-rouge">SF</code> should be the same even if it appears on more than one variable):</p>
 
 <ul>
   <li>Proposition (<code class="language-plaintext highlighter-rouge">SF: prop</code>): “A file is large.”</li>
@@ -427,7 +429,7 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-06 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSentenceForce.md">edit</a>]</p>
+<p>Last update: 2023-01-23 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSentenceForce.md">edit</a>]</p>
 
         
       </section>

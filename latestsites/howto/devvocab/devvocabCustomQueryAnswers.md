@@ -44,7 +44,7 @@ def respond_to_mrs_tree(tree, solutions, error):
                 
 ```
 
-The error term is in the form: `[-1, ["answerWithList", index_predication, answer_items]]`. `answerWithList` means this is a "Wh" question answer. We also pass the `index_predication` because, as described in the topic on sentence force, this indicates the predication that the sentence is *about* (aka the "syntactic head"). Having this allows us to provide different answers for different "verbs". In this case, `loc_nonsp` is acting as a verb (this behavior is also described in that section) and so we can modify `generate_message()` to respond differently:
+The error term is in the form: `[-1, ["answerWithList", index_predication, answer_items]]`. `answerWithList` means this is a "Wh" question answer. We also pass the `index_predication` because, as described in the MRS topic, this indicates the predication that the sentence is *about* (aka the "syntactic head"). Having this allows us to provide different answers for different "verbs". In this case, `loc_nonsp` is acting as a verb (this behavior is also described in that section) and so we can modify `generate_message()` to respond differently:
 
 ```
 def generate_message(tree_info, error_term):
@@ -93,4 +93,4 @@ File(name=/documents/file1.txt, size=1000)
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
 
-Last update: 2023-01-19 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabCustomQueryAnswers.md)]{% endraw %}
+Last update: 2023-01-23 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabCustomQueryAnswers.md)]{% endraw %}

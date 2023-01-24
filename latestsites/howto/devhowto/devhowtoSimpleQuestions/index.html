@@ -269,7 +269,7 @@
     
       <li>
         
-          <span class="nav__sub-title">Developer Predication Tutorial</span>
+          <span class="nav__sub-title">(early draft) Developer Predication Tutorial</span>
         
 
         
@@ -290,6 +290,8 @@
             <li><a href="/docsproto/howto/devvocab/devvocabThing/">thing(x)</a></li>
           
             <li><a href="/docsproto/howto/devvocab/devvocabIn_p_loc/">_in_p_loc(e,x,x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabFileDirectoryNames/">fw_seq(...) and quoted(c,i)</a></li>
           
         </ul>
         
@@ -424,6 +426,7 @@ HCONS: &lt; h0 qeq h1 h5 qeq h7 &gt; ]
 _which_q(x3,RSTR,BODY)
                    └─ _large_a_1(e2,x3)
 </code></pre></div></div>
+
 <p>The MRS looks <em>very</em> similar and still has a <code class="language-plaintext highlighter-rouge">SF: ques</code> sentence force. However, it used a new quantifier: <code class="language-plaintext highlighter-rouge">_which_q</code>. <code class="language-plaintext highlighter-rouge">which_q</code> is simply a way for the MRS to indicate which variable the user is expecting an answer to. In this case: <code class="language-plaintext highlighter-rouge">x3</code>. These are called “wh” questions in linguistics (i.e. which, what, where, when, who). The quantifier itself doesn’t quantify anything, it simply evaluates all the <code class="language-plaintext highlighter-rouge">RSTR</code> answers against the <code class="language-plaintext highlighter-rouge">BODY</code> and returns whatever worked. The ERG has several quantifiers that are just “markers”  like this. So, we’re going to build a function they can share, called <code class="language-plaintext highlighter-rouge">default_quantifier()</code>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, name="_which_q")
@@ -559,7 +562,7 @@ File(name=file1.txt, size=2000000)
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-06 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleQuestions.md">edit</a>]</p>
+<p>Last update: 2023-01-23 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimpleQuestions.md">edit</a>]</p>
 
         
       </section>

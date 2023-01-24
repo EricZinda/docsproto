@@ -269,7 +269,7 @@
     
       <li>
         
-          <span class="nav__sub-title">Developer Predication Tutorial</span>
+          <span class="nav__sub-title">(early draft) Developer Predication Tutorial</span>
         
 
         
@@ -290,6 +290,8 @@
             <li><a href="/docsproto/howto/devvocab/devvocabThing/">thing(x)</a></li>
           
             <li><a href="/docsproto/howto/devvocab/devvocabIn_p_loc/">_in_p_loc(e,x,x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabFileDirectoryNames/">fw_seq(...) and quoted(c,i)</a></li>
           
         </ul>
         
@@ -362,9 +364,9 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="responding-to-simple-propositions">Responding to Simple Propositions</h2>
-<p>“Propositions” are sentences that declare something to be true like “A file is very large”. If true, a human would expect something like “yep, you are right” or “correct!” or “yes, this is true” as a response (error cases will be <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoChoosingWhichFailure">handled later</a>). A phrase is a proposition if the “sentence force” (SF) property of its MRS <code class="language-plaintext highlighter-rouge">index</code> variable is <code class="language-plaintext highlighter-rouge">prop</code> as <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce">described in the previous section</a>.</p>
+<p>“Propositions” are sentences that declare something to be true like “A file is very large”. If true, a human would expect something like “yep, you are right” or “correct!” or “yes, this is true” as a response (error cases will be <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoChoosingWhichFailure">handled later</a>). A phrase is a proposition if the “sentence force” (SF) property of one or more of its variables is <code class="language-plaintext highlighter-rouge">prop</code> as <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce">described in the previous section</a>.</p>
 
-<p>Below is the MRS for “A file is very large”. As described in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce">previous section</a>: The <code class="language-plaintext highlighter-rouge">INDEX = e2</code>, and <code class="language-plaintext highlighter-rouge">e2</code> has a sentence force of “proposition”: <code class="language-plaintext highlighter-rouge">SF: prop</code>.</p>
+<p>Below is the MRS for “A file is very large”. As described in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSentenceForce">previous section</a>: <code class="language-plaintext highlighter-rouge">e2</code> has a sentence force of “proposition”: <code class="language-plaintext highlighter-rouge">SF: prop</code>.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ TOP: h0
 INDEX: e2
 RELS: &lt; 
@@ -381,7 +383,7 @@ _a_q(x3,RSTR,BODY)    ┌── _very_x_deg(e9,e2)
                         └ _large_a_1(e2,x3)
 </code></pre></div></div>
 
-<p>In order to start responding to user phrases properly, we need to begin passing in more information from the MRS, not just the predications.  We’ll need the variable properties and the <code class="language-plaintext highlighter-rouge">INDEX</code>. We’ll do this using a dictionary. In fact, we can make it easier to read using the Python <code class="language-plaintext highlighter-rouge">json</code> format. The <code class="language-plaintext highlighter-rouge">json</code> format is basically a way of building up an object out of base types (strings, integers, etc) and lists and dictionaries, in a big tree.</p>
+<p>In order to start responding to user phrases properly, we need to begin passing in more information from the MRS, not just the predications.  We’ll need the variable properties. We’ll do this using a dictionary. In fact, we can make it easier to read using the Python <code class="language-plaintext highlighter-rouge">json</code> format. The <code class="language-plaintext highlighter-rouge">json</code> format is basically a way of building up an object out of base types (strings, integers, etc) and lists and dictionaries, in a big tree.</p>
 
 <p>In a <code class="language-plaintext highlighter-rouge">json</code> declaration:</p>
 <ul>
@@ -412,7 +414,7 @@ mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
 </code></pre></div></div>
 <p>Thus, the <code class="language-plaintext highlighter-rouge">mrs</code> variable ends up being a big, single <code class="language-plaintext highlighter-rouge">json</code> object that has the MRS definition (that we understand so far) in it.</p>
 
-<p>Now we can create a new function called <code class="language-plaintext highlighter-rouge">RespondToMRS()</code> that inspects the MRS to properly respond to a proposition:</p>
+<p>Now we can create a new function called <code class="language-plaintext highlighter-rouge">RespondToMRS()</code> that inspects the MRS and uses the handy <code class="language-plaintext highlighter-rouge">sentence_force()</code> function to properly respond to a proposition:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def RespondToMRS(state, mrs):
     # Collect all the solutions to the MRS against the
@@ -421,8 +423,7 @@ mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
     for item in Call(vocabulary, state, mrs["RELS"]):
         solution.append(item)
     
-    index_variable = mrs["Index"]
-    sentence_force = mrs["Variables"][index_variable]["SF"]
+    sentence_force = sentence_force(mrs["Variables"])
     if sentence_force == "prop":
         # This was a proposition, so the user only expects
         # a confirmation or denial of what they said.
@@ -431,6 +432,12 @@ mrs["RELS"] = [["_a_q", "x1", ["_file_n_of", "x1"], ["_large_a_1", "e1", "x1"]]]
             print("Yes, that is true.")
         else:
             print("No, that isn't correct.")
+            
+            
+def sentence_force(variables):
+    for variable in variables.items():
+        if "SF" in variable[1]:
+            return variable[1]["SF"]
             
             
 # Evaluate the proposition: "a file is large"
@@ -467,7 +474,7 @@ Yes, that is true.
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-06 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimplePropositions.md">edit</a>]</p>
+<p>Last update: 2023-01-23 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSimplePropositions.md">edit</a>]</p>
 
         
       </section>

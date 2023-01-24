@@ -84,7 +84,7 @@ toc:
         url: "/devhowto/devhowtoPythonDecorators/"
       - title: "B. Parsing Predications"
         url: "/devhowto/devhowtoParsePredication/"
-  - title: "Developer Predication Tutorial"
+  - title: "(early draft) Developer Predication Tutorial"
     children:
       - title: "Overview"
         url: "/devvocab/devvocabOverview/"
@@ -102,6 +102,8 @@ toc:
         url: "/devvocab/devvocabThing/"
       - title: "_in_p_loc(e,x,x)"
         url: "/devvocab/devvocabIn_p_loc/"
+      - title: "fw_seq(...) and quoted(c,i)"
+        url: "/devvocab/devvocabFileDirectoryNames/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"

@@ -1,0 +1,950 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-To</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-To">
+<meta property="og:title" content="DELPH-IN How-To">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabFileDirectoryNames/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabFileDirectoryNames/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-To Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-To"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-To
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus">Missing</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjunctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoHandlingEventInformation/">Handling Event Information</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoGenerateMRSAndTrees/">Phrases to MRS and Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the 'Right' Tree</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/">Unknown Words and Synonyms</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage/">Predication Signatures and Usage</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoDiagnostics/">Diagnostics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleTesting/">Testing</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">(early draft) Developer Predication Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabPhrasesAndVocab/">Phrases and Vocabulary</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace/">loc_nonsp(e,x,x) and place(x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabCustomQueryAnswers/">Custom Query Answers</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments/">Reordering Quantifier Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabThis_q_dem/">this_q_dem(x,h,h)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabThing/">thing(x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabIn_p_loc/">_in_p_loc(e,x,x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabFileDirectoryNames/" class="active">fw_seq(...) and quoted(c,i)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/SaarlandAceAgree/">Ace/Agree Tutorial (2013)</a></li>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="representing-file-and-directory-names-fw_seq-and-quoted">Representing File and Directory Names: <code class="language-plaintext highlighter-rouge">fw_seq</code> and <code class="language-plaintext highlighter-rouge">quoted</code></h2>
+<p>There are several challenges with representing file and directory names in a phrase. First, the user may or may not represent them with some kind of escaping characters around them. For example, to move to the directory “blue” they could say:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go to 'blue'
+go to "blue"
+go to blue
+</code></pre></div></div>
+
+<p>The ERG will nicely recognize the different types of quotes as quotes, so those boil down to the same thing, but it will try to interpret the unquoted one as a “real” sentence, not a reference to “blue” as the name of a thing.</p>
+
+<p>Furthermore, many of the specifiers the user may use for directories or files are not English:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go to /user/brett
+list out f56.txt
+</code></pre></div></div>
+
+<p>The easiest approach is to require the user to quote anything that represents a file or folder.  We can attempt to do more complicated options later.</p>
+
+<p>If the user simply types in a phrase like “delete ‘blue’”, the ERG produces 4 parses. The first two attempt to interpret “blue” semantically as the color “blue” by using the predication <code class="language-plaintext highlighter-rouge">_blue_a_1</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** Parse #0:
+Sentence Force: comm
+[ "delete "blue""
+  TOP: h0
+  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ pronoun_q&lt;0:13&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+          [ pron&lt;0:13&gt; LBL: h7 ARG0: x3 ]
+          [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ]
+          [ udef_q&lt;7:13&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+          [ _blue_a_1&lt;8:12&gt; LBL: h12 ARG0: x8 ARG1: i13 ] &gt;
+  HCONS: &lt; h0 qeq h1 h5 qeq h7 h10 qeq h12 &gt; ]
+
+-- Parse #0, Tree #0: 
+
+               ┌────── pron(x3)
+pronoun_q(x3,RSTR,BODY)            ┌────── _blue_a_1(x8,i13)
+                    └─ udef_q(x8,RSTR,BODY)
+                                        └─ _delete_v_1(e2,x3,x8)
+
+...
+    
+
+***** Parse #1:
+Sentence Force: prop-or-ques
+[ "delete "blue""
+  TOP: h0
+  INDEX: e2 [ e SF: prop-or-ques TENSE: tensed MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: i3 ARG2: x4 [ x PERS: 3 NUM: sg ] ]
+          [ udef_q&lt;7:13&gt; LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+          [ _blue_a_1&lt;8:12&gt; LBL: h8 ARG0: x4 ARG1: i9 ] &gt;
+  HCONS: &lt; h0 qeq h1 h6 qeq h8 &gt; ]
+
+-- Parse #1, Tree #0: 
+
+            ┌────── _blue_a_1(x4,i9)
+udef_q(x4,RSTR,BODY)
+                 └─ _delete_v_1(e2,i3,x4)
+
+</code></pre></div></div>
+
+<p>That would be useful, perhaps, in a phrase like “She is ‘blue’”, where we do mean to use the “blue” semantically to mean “sad” but where the speaker is indicating this is a nonstandard or special use of the word by putting it in quotes. This is not we want, so we can examine the next parse:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** Parse #2:
+Sentence Force: comm
+[ "delete "blue""
+  TOP: h0
+  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ pronoun_q&lt;0:13&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+          [ pron&lt;0:13&gt; LBL: h7 ARG0: x3 ]
+          [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ]
+          [ proper_q&lt;7:13&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+          [ fw_seq&lt;-1:-1&gt; LBL: h12 ARG0: x8 ARG1: i13 ]
+          [ _blue_a_1&lt;8:12&gt; LBL: h12 ARG0: i13 ARG1: i14 ] &gt;
+  HCONS: &lt; h0 qeq h1 h5 qeq h7 h10 qeq h12 &gt; ]
+
+-- Parse #2, Tree #0: 
+
+                                                 ┌── _blue_a_1(i13,i14)
+                                     ┌────── and(0,1)
+               ┌────── pron(x3)      │             │
+               │                     │             └ fw_seq(x8,i13)
+pronoun_q(x3,RSTR,BODY)              │
+                    └─ proper_q(x8,RSTR,BODY)
+                                          └─ _delete_v_1(e2,x3,x8)
+
+... 
+    
+</code></pre></div></div>
+
+<p>This one is closer because it does indicate that <code class="language-plaintext highlighter-rouge">i13</code> is a <code class="language-plaintext highlighter-rouge">fw_seq</code>. <code class="language-plaintext highlighter-rouge">fw_seq</code> stands for “foreign word sequence” (since quotations often delineate foreign phrases), but it is also used for all kinds of quoted text. It is described in more detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ForeignExpressions/">here</a>. In this case, it is telling us that the phrase includes a string in quotes (by using <code class="language-plaintext highlighter-rouge">fw_seq</code>), but also gives us the semantic interpretation of the phrase in quotes (by using <code class="language-plaintext highlighter-rouge">_blue_a_1</code>). That would be a good hint if our system was trying to see if the usage of “blue” was a “non-standard” use of the term to mean something like “sad” instead of saying “she is literally the color blue”, but it still isn’t quite the interpretation we want.</p>
+
+<p>The next one is what we need here:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** CHOSEN Parse #3:
+Sentence Force: comm
+[ "delete "blue""
+  TOP: h0
+  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ pronoun_q&lt;0:13&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+          [ pron&lt;0:13&gt; LBL: h7 ARG0: x3 ]
+          [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ]
+          [ proper_q&lt;7:13&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+          [ fw_seq&lt;-1:-1&gt; LBL: h12 ARG0: x8 ARG1: i13 ]
+          [ quoted&lt;8:12&gt; LBL: h12 ARG0: i13 CARG: "blue" ] &gt;
+  HCONS: &lt; h0 qeq h1 h5 qeq h7 h10 qeq h12 &gt; ]
+
+-- Parse #3, Tree #0: 
+
+                                                 ┌── quoted(blue,i13)
+                                     ┌────── and(0,1)
+               ┌────── pron(x3)      │             │
+               │                     │             └ fw_seq(x8,i13)
+pronoun_q(x3,RSTR,BODY)              │
+                    └─ proper_q(x8,RSTR,BODY)
+                                          └─ _delete_v_1(e2,x3,x8)
+</code></pre></div></div>
+<p>This parse doesn’t try to deliver the semantic interpretation of the word in quotes, and instead just gives us the raw term using the predication <code class="language-plaintext highlighter-rouge">quoted</code>, meaning “this text was in quotes”. Then, it uses <code class="language-plaintext highlighter-rouge">fw_seq</code> on the quoted variable <code class="language-plaintext highlighter-rouge">i13</code>. This will make more sense later since <code class="language-plaintext highlighter-rouge">fw_seq</code> is used to join together all the words in a quoted string. We’ll see that next. For now, it is just a degenerate case that is there for consistency with more complicated quoted strings.</p>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”. So, by the time <code class="language-plaintext highlighter-rouge">x8</code> gets to <code class="language-plaintext highlighter-rouge">_delete_v_1</code>, it should be a nicely quoted string, wrapped in some object, that <code class="language-plaintext highlighter-rouge">_delete_v_1</code> can use to delete the file.</p>
+
+<p>So for this, we need to implement: <code class="language-plaintext highlighter-rouge">quoted(i)</code>, <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> and update  <code class="language-plaintext highlighter-rouge">_delete_v_1(e,x,x)</code> to handle whatever they output.</p>
+
+<p><code class="language-plaintext highlighter-rouge">quoted</code> is special in that it has an argument called <code class="language-plaintext highlighter-rouge">CARG</code> (described in detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Essence/#further-ers-contents">here</a>). <code class="language-plaintext highlighter-rouge">CARG</code> is a way to pass a constant to a predication without holding in a variable. The argument will simply be raw text:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          [ quoted&lt;8:12&gt; LBL: h12 ARG0: i13 CARG: "blue" ]
+</code></pre></div></div>
+
+<p>It is also special in that it uses an <code class="language-plaintext highlighter-rouge">i</code> variable instead of an <code class="language-plaintext highlighter-rouge">x</code> variable to hold a value. This is because the ERG wanted to avoid having to have a quantifier for each quoted string, as would be required for an <code class="language-plaintext highlighter-rouge">x</code> argument. That pattern was covered in the MRS topic.</p>
+
+<p>So, the implementation of <code class="language-plaintext highlighter-rouge">quoted</code> only has to take the <code class="language-plaintext highlighter-rouge">CARG</code> and put it into a new object called <code class="language-plaintext highlighter-rouge">QuotedText</code>, setting the <code class="language-plaintext highlighter-rouge">i</code> variable to that:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class QuotedText(object):
+    def __init__(self, name):
+        self.name = name
+        
+...
+
+    
+@Predication(vocabulary)
+def quoted(state, c_raw_text, i_text):
+    # c_raw_text_value will always be set
+    c_raw_text_value = c_raw_text
+    i_text_value = state.get_variable(i_text)
+
+    if i_text_value is None:
+        yield state.set_x(i_text, QuotedText(c_raw_text_value))
+    else:
+        if isinstance(i_text_value, QuotedText) and i_text_value.name == c_raw_text:
+            yield state
+</code></pre></div></div>
+
+<p>The job of <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is only to set the value of <code class="language-plaintext highlighter-rouge">x</code> to whatever <code class="language-plaintext highlighter-rouge">i</code> is, or vice versa (other versions will get more interesting, as described below):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
+def fw_seq(state, x_phrase, i_part):
+    x_phrase_value = state.get_variable(x_phrase)
+    i_part_value = state.get_variable(i_part)
+    if i_part_value is None:
+        if x_phrase_value is None:
+            # This should never happen since it basically means
+            # "return all possible strings"
+            assert False
+        else:
+            yield state.set_x(i_part, x_phrase_value)
+    else:
+        if x_phrase_value is None:
+            yield state.set_x(x_phrase, i_part_value)
+
+        elif x_phrase_value == i_part_value:
+            yield state
+</code></pre></div></div>
+
+<p>… and <code class="language-plaintext highlighter-rouge">delete_v_1_comm</code> has to now include <code class="language-plaintext highlighter-rouge">QuotedText</code> as a valid thing to delete, and <code class="language-plaintext highlighter-rouge">DeleteOperation.apply_to()</code> has to be modified to handle converting a <code class="language-plaintext highlighter-rouge">QuotedText</code> object to a file using the <code class="language-plaintext highlighter-rouge">FileSystem.item_from_path()</code> method:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def delete_v_1_comm(state, e_introduced, x_actor, x_what):
+
+    ...
+    
+        # If this is text, make sure it actually exists
+        if isinstance(x_what_value, QuotedText):
+            actual_item = state.file_system.item_from_path(x_what_value.name)
+            if actual_item is not None:
+                yield state.apply_operations([DeleteOperation(x_what_value)])
+            else:
+                report_error(["notFound", x_what])
+        else:
+            # Only allow deleting files and folders or
+            # textual names of files
+            if isinstance(x_what_value, (File, Folder, QuotedText)):
+                yield state.apply_operations([DeleteOperation(x_what_value)])
+
+            else:
+                report_error(["cantDo", "delete", x_what])
+            
+            
+def generate_message(tree_info, error_term):
+
+    ...
+    
+    elif error_constant == "notFound":
+        arg1 = english_for_delphin_variable(error_predicate_index, error_arguments[1], tree_info)
+        return f"{arg1} was not found"
+        
+        
+class DeleteOperation(object):
+    
+    ...
+    
+    def apply_to(self, state):
+        if isinstance(state, FileSystemState):
+            state.file_system.delete_item(self.object_to_delete)
+            if isinstance(self.object_to_delete, QuotedText):
+                object_to_delete = state.file_system.item_from_path(self.object_to_delete.name)
+            else:
+                object_to_delete = self.object_to_delete
+
+            state.file_system.delete_item(object_to_delete)
+            
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">proper_q</code> can just be a default quantifier as described <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleQuestions">here</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
+def proper_q(state, x_variable, h_rstr, h_body):
+    yield from default_quantifier(state, x_variable, h_rstr, h_body) 
+</code></pre></div></div>
+
+<p>With those changes, we can now use some simple phrases with one word quoted files:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example23_reset():
+    return FileSystemState(FileSystemMock([(True, "/documents/file1.txt", {"size": 1000}),
+                                           (False, "/Desktop", {"size": 10000000}),
+                                           (True, "/Desktop/the yearly budget.txt", {"size": 10000000}),
+                                           (True, "/Desktop/blue", {"size": 1000})],
+                                          "/Desktop"))
+
+
+def Example23():
+    user_interface = UserInterface(Example23_reset, vocabulary, respond_to_mrs_tree)
+
+    while True:
+        user_interface.interact_once()
+        print()
+        
+Test: "blue" is in this folder
+Yes, that is true.
+
+Test: delete "blue"
+Done!
+
+Test: "blue" is in this folder
+thing is not in this folder
+</code></pre></div></div>
+
+<p>We are almost done, but that last message is not great. As always, when we add a new predication to the system, we need to teach the NLG system how to interpret the new predications so that it doesn’t say ‘thing’ in the error:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
+    
+    ...
+    
+                # Some abstract predications *should* contribute to the
+                # English description of a variable
+                
+                ...
+                
+                elif parsed_predication["Lemma"] == "quoted":
+                    nlg_data["Topic"] = predication.args[0]
+
+                elif parsed_predication["Lemma"] == "fw_seq":
+                    string_list = []
+                    for arg_index in range(1, len(predication.arg_names)):
+                        if predication.args[arg_index][0] == "i":
+                            # Use 1000 to make sure we go through the whole tree
+                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
+
+                        elif predication.args[arg_index][0] == "x":
+                            # Use 1000 to make sure we go through the whole tree
+                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
+                            
+                    nlg_data["Topic"] = f"\'{' '.join(string_list)}\'"
+</code></pre></div></div>
+
+<p>Now we get:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Test: "blue" is in this folder
+'blue' is not in this folder
+</code></pre></div></div>
+
+<p>For longer quotes strings like:</p>
+
+<blockquote>
+  <p>delete “the yearly budget.txt”</p>
+</blockquote>
+
+<p>The ERG generates a few more variations of <code class="language-plaintext highlighter-rouge">fw_seq</code> since each only glues two things together:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sentence Force: comm
+[ "delete "the yearly budget.txt""
+  TOP: h0
+  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ pronoun_q&lt;0:30&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+          [ pron&lt;0:30&gt; LBL: h7 ARG0: x3 ]
+          [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ]
+          [ proper_q&lt;7:30&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+          [ fw_seq&lt;7:30&gt; LBL: h12 ARG0: x8 ARG1: x13 ARG2: i14 ]
+          [ fw_seq&lt;7:18&gt; LBL: h12 ARG0: x13 ARG1: i15 ARG2: i16 ]
+          [ quoted&lt;8:11&gt; LBL: h12 ARG0: i15 CARG: "the" ]
+          [ quoted&lt;12:18&gt; LBL: h12 ARG0: i16 CARG: "yearly" ]
+          [ quoted&lt;19:29&gt; LBL: h12 ARG0: i14 CARG: "budget.txt" ] &gt;
+  HCONS: &lt; h0 qeq h1 h5 qeq h7 h10 qeq h12 &gt; ]
+
+                                                 ┌──────── quoted(budget.txt,i14)
+                                                 │ ┌────── quoted(yearly,i16)
+                                                 │ │ ┌──── quoted(the,i15)
+                                     ┌────── and(0,1,2,3,4)
+                                     │                 └─│ fw_seq(x13,i15,i16)
+               ┌────── pron(x3)      │                   │
+pronoun_q(x3,RSTR,BODY)              │                   │
+                    │                │                   └ fw_seq(x8,x13,i14)
+                    └─ proper_q(x8,RSTR,BODY)
+                                          └─ _delete_v_1(e2,x3,x8)
+</code></pre></div></div>
+<p>The ERG converts the quoted phrase into a set of predications, one for each word in quotes:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          [ quoted&lt;8:11&gt; LBL: h12 ARG0: i15 CARG: "the" ]
+          [ quoted&lt;12:18&gt; LBL: h12 ARG0: i16 CARG: "yearly" ]
+          [ quoted&lt;19:29&gt; LBL: h12 ARG0: i14 CARG: "budget.txt" ]
+</code></pre></div></div>
+
+<p>And then indicates that they are all part of a sequence using the predication <code class="language-plaintext highlighter-rouge">fw_seq</code> in various forms:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          [ fw_seq&lt;7:18&gt; LBL: h12 ARG0: x13 ARG1: i15 ARG2: i16 ]
+          [ fw_seq&lt;7:30&gt; LBL: h12 ARG0: x8 ARG1: x13 ARG2: i14 ]
+</code></pre></div></div>
+
+<p>The first <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">i15</code> and <code class="language-plaintext highlighter-rouge">i16</code> which are “the” and “yearly” and puts the result in <code class="language-plaintext highlighter-rouge">x13</code>. The next <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">x13</code> and <code class="language-plaintext highlighter-rouge">i14</code> (which is “budget.txt”) and puts the result in <code class="language-plaintext highlighter-rouge">x8</code>. So now, <code class="language-plaintext highlighter-rouge">x8</code> has the entire string again. Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”.</p>
+
+<p>The only thing we need to add to make it all work is the implementation of <code class="language-plaintext highlighter-rouge">fw_seq(x,x,i)</code> and <code class="language-plaintext highlighter-rouge">fw_seq(x,i,i)</code>. We will need to name these differently because Python doesn’t overloaded functions (same function name with different arguments):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
+def fw_seq2(state, x_phrase, i_part1, i_part2):
+    x_phrase_value = state.get_variable(x_phrase)
+    i_part1_value = state.get_variable(i_part1)
+    i_part2_value = state.get_variable(i_part2)
+
+    if isinstance(i_part1_value, QuotedText) and isinstance(i_part2_value, QuotedText):
+        combined_value = QuotedText(" ".join([i_part1_value.name, i_part2_value.name]))
+        if x_phrase_value is None:
+            yield state.set_x(x_phrase, combined_value)
+
+        elif isinstance(x_phrase_value, QuotedText) and x_phrase_value.name == combined_value.name:
+            yield state
+
+
+@Predication(vocabulary)
+def fw_seq3(state, x_phrase, x_part1, i_part2):
+    x_phrase_value = state.get_variable(x_phrase)
+    x_part1_value = state.get_variable(x_part1)
+    i_part2_value = state.get_variable(i_part2)
+
+    if isinstance(x_part1_value, QuotedText) and isinstance(i_part2_value, QuotedText):
+        combined_value = QuotedText(" ".join([x_part1_value.name, i_part2_value.name]))
+        if x_phrase_value is None:
+            yield state.set_x(x_phrase, combined_value)
+
+        elif isinstance(x_phrase_value, QuotedText) and x_phrase_value.name == combined_value.name:
+            yield state
+</code></pre></div></div>
+
+<p>And if we run it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? "the yearly budget.txt" is in this folder
+Yes, that is true.
+
+? delete "the yearly budget.txt"
+Done!
+
+? "the yearly budget.txt" is in this folder
+''the yearly' budget.txt' is not in this folder
+</code></pre></div></div>
+
+<p>Note that the error message for the last statement isn’t quite right yet because we are putting quotes around each <code class="language-plaintext highlighter-rouge">fw_seq</code> pair of strings:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
+    
+    ...
+    
+                elif parsed_predication["Lemma"] == "fw_seq":
+                    string_list = []
+                    for arg_index in range(1, len(predication.arg_names)):
+                        if predication.args[arg_index][0] == "i":
+                            # Use 1000 to make sure we go through the whole tree
+                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
+
+                        elif predication.args[arg_index][0] == "x":
+                            # Use 1000 to make sure we go through the whole tree
+                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
+                            
+                    nlg_data["Topic"] = f"\'{' '.join(string_list)}\'"
+</code></pre></div></div>
+
+<p>Observe that the introduced variable of a non-final <code class="language-plaintext highlighter-rouge">fw_seq</code> predication is only used by another <code class="language-plaintext highlighter-rouge">fw_seq</code> predication:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sentence Force: comm
+[ "delete "the yearly budget.txt""
+  TOP: h0
+  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ pronoun_q&lt;0:30&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+          [ pron&lt;0:30&gt; LBL: h7 ARG0: x3 ]
+          [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ]
+          [ proper_q&lt;7:30&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+          [ fw_seq&lt;7:30&gt; LBL: h12 ARG0: x8 ARG1: x13 ARG2: i14 ]
+          [ fw_seq&lt;7:18&gt; LBL: h12 ARG0: x13 ARG1: i15 ARG2: i16 ]
+          [ quoted&lt;8:11&gt; LBL: h12 ARG0: i15 CARG: "the" ]
+          [ quoted&lt;12:18&gt; LBL: h12 ARG0: i16 CARG: "yearly" ]
+          [ quoted&lt;19:29&gt; LBL: h12 ARG0: i14 CARG: "budget.txt" ] &gt;
+  HCONS: &lt; h0 qeq h1 h5 qeq h7 h10 qeq h12 &gt; ]
+
+                                                 ┌──────── quoted(budget.txt,i14)
+                                                 │ ┌────── quoted(yearly,i16)
+                                                 │ │ ┌──── quoted(the,i15)
+                                     ┌────── and(0,1,2,3,4)
+                                     │                 └─│ fw_seq(x13,i15,i16)
+               ┌────── pron(x3)      │                   │
+pronoun_q(x3,RSTR,BODY)              │                   │
+                    │                │                   └ fw_seq(x8,x13,i14)
+                    └─ proper_q(x8,RSTR,BODY)
+                                          └─ _delete_v_1(e2,x3,x8)
+</code></pre></div></div>
+
+<p>So, we can write code to only put quotes around string generated by an <code class="language-plaintext highlighter-rouge">fw_seq</code> predication when it is used by something <em>besides</em> and <code class="language-plaintext highlighter-rouge">fw_seq</code> predication. First, let’s create a utility function using our handy <code class="language-plaintext highlighter-rouge">walk_tree_predications_until()</code> helper that gathers all of the predications in the tree that consume a specific variable:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def find_predications_using_variable(term, variable):
+    def match_predication_using_variable(predication):
+        for arg_index in range(1, len(predication.arg_types)):
+            if predication.arg_types[arg_index] not in ["c", "h"]:
+                if predication.args[arg_index] == variable:
+                    predication_list.append(predication)
+
+    predication_list = []
+    walk_tree_predications_until(term, match_predication_using_variable)
+
+    return predication_list
+</code></pre></div></div>
+
+<p>Then, we can use <code class="language-plaintext highlighter-rouge">find_predications_using_variable()</code> to determine if a <code class="language-plaintext highlighter-rouge">fw_seq</code> is introducing a variable that is being used by something besides another <code class="language-plaintext highlighter-rouge">fw_seq</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
+    
+    ...
+    
+                elif parsed_predication["Lemma"] == "fw_seq":
+                    string_list = []
+                    for arg_index in range(1, len(predication.arg_names)):
+                        if predication.args[arg_index][0] == "i":
+                            # Use 1000 to make sure we go through the whole tree
+                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
+
+                        elif predication.args[arg_index][0] == "x":
+                            # Use 1000 to make sure we go through the whole tree
+                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
+
+                    # If the only thing consuming the introduced variable are other fw_seq predications
+                    # Then this is not the final fw_seq, so don't put quotes around it
+                    consuming_predications = find_predications_using_variable(tree_info["Tree"], predication.args[0])
+                    if len([predication for predication in consuming_predications if predication.name != "fw_seq"]) == 0:
+                        nlg_data["Topic"] = f"{' '.join(string_list)}"
+                    else:
+                        nlg_data["Topic"] = f"'{' '.join(string_list)}'"
+</code></pre></div></div>
+
+<p>Now, if we run the scenario again, we get a better answer:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? "the yearly budget.txt" is in this folder
+Yes, that is true.
+
+? delete "the yearly budget.txt"
+Done!
+
+? "the yearly budget.txt" is in this folder
+'the yearly budget.txt' is not in this folder
+</code></pre></div></div>
+
+<p>Last update: 2023-01-24 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabFileDirectoryNames.md">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
