@@ -104,6 +104,8 @@ toc:
         url: "/devvocab/devvocabIn_p_loc/"
       - title: "fw_seq(...) and quoted(c,i)"
         url: "/devvocab/devvocabFileDirectoryNames/"
+      - title: "Errors in Helper Functions"
+        url: "/devvocab/devvocabContextInHelpers/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
