@@ -88,7 +88,8 @@
         {"Page": "this_q_dem(x,h,h)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabThis_q_dem.md", "DstFile": "devvocab/devvocabThis_q_dem.md"},
         {"Page": "thing(x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabThing.md", "DstFile": "devvocab/devvocabThing.md"},
         {"Page": "_in_p_loc(e,x,x)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabIn_p_loc.md", "DstFile": "devvocab/devvocabIn_p_loc.md"},
-        {"Page": "fw_seq(...) and quoted(c,i)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabFileDirectoryNames.md", "DstFile": "devvocab/devvocabFileDirectoryNames.md"}
+        {"Page": "fw_seq(...) and quoted(c,i)", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabFileDirectoryNames.md", "DstFile": "devvocab/devvocabFileDirectoryNames.md"},
+        {"Page": "Errors in Helper Functions", "SrcDir": "perplexity", "SrcFile": "docs/devvocab/devvocabContextInHelpers.md", "DstFile": "devvocab/devvocabContextInHelpers.md"}
       ]},
       {"Section": "Grammarian Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
