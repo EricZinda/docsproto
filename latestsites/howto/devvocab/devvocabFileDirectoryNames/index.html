@@ -379,7 +379,7 @@ go to blue
 list out f56.txt
 </code></pre></div></div>
 
-<p>The easiest approach is to require the user to quote anything that represents a file or folder.  We can attempt to do more complicated options later.</p>
+<p>The ERG will represent these, but they require implementing several more predications. The easiest approach is to require the user to quote anything that represents a file or folder.  We can attempt to do more options later.</p>
 
 <p>If the user simply types in a phrase like “delete ‘blue’”, the ERG produces 4 parses. The first two attempt to interpret “blue” semantically as the color “blue” by using the predication <code class="language-plaintext highlighter-rouge">_blue_a_1</code>:</p>
 
@@ -423,7 +423,7 @@ udef_q(x4,RSTR,BODY)
 
 </code></pre></div></div>
 
-<p>That would be useful, perhaps, in a phrase like “She is ‘blue’”, where we do mean to use the “blue” semantically to mean “sad” but where the speaker is indicating this is a nonstandard or special use of the word by putting it in quotes. This is not we want, so we can examine the next parse:</p>
+<p>That would be useful, perhaps, in a phrase like “She is ‘blue’”, where we do mean to use the “blue” semantically to mean “sad” but where the speaker is indicating this is a nonstandard or special use of the word by putting it in quotes. This is not we want, so we can move to the next parse:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** Parse #2:
 Sentence Force: comm
@@ -480,9 +480,7 @@ pronoun_q(x3,RSTR,BODY)              │
 </code></pre></div></div>
 <p>This parse doesn’t try to deliver the semantic interpretation of the word in quotes, and instead just gives us the raw term using the predication <code class="language-plaintext highlighter-rouge">quoted</code>, meaning “this text was in quotes”. Then, it uses <code class="language-plaintext highlighter-rouge">fw_seq</code> on the quoted variable <code class="language-plaintext highlighter-rouge">i13</code>. This will make more sense later since <code class="language-plaintext highlighter-rouge">fw_seq</code> is used to join together all the words in a quoted string. We’ll see that next. For now, it is just a degenerate case that is there for consistency with more complicated quoted strings.</p>
 
-<p>Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”. So, by the time <code class="language-plaintext highlighter-rouge">x8</code> gets to <code class="language-plaintext highlighter-rouge">_delete_v_1</code>, it should be a nicely quoted string, wrapped in some object, that <code class="language-plaintext highlighter-rouge">_delete_v_1</code> can use to delete the file.</p>
-
-<p>So for this, we need to implement: <code class="language-plaintext highlighter-rouge">quoted(i)</code>, <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> and update  <code class="language-plaintext highlighter-rouge">_delete_v_1(e,x,x)</code> to handle whatever they output.</p>
+<p>Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”. We don’t need to change its current behavior which is just to pass along the values from its <code class="language-plaintext highlighter-rouge">RSTR</code> to its <code class="language-plaintext highlighter-rouge">BODY</code>. So for this, we need to implement: <code class="language-plaintext highlighter-rouge">quoted(i)</code>, <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> and update  <code class="language-plaintext highlighter-rouge">_delete_v_1(e,x,x)</code> to handle whatever they output.</p>
 
 <p><code class="language-plaintext highlighter-rouge">quoted</code> is special in that it has an argument called <code class="language-plaintext highlighter-rouge">CARG</code> (described in detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Essence/#further-ers-contents">here</a>). <code class="language-plaintext highlighter-rouge">CARG</code> is a way to pass a constant to a predication without holding in a variable. The argument will simply be raw text:</p>
 
@@ -491,7 +489,7 @@ pronoun_q(x3,RSTR,BODY)              │
 
 <p>It is also special in that it uses an <code class="language-plaintext highlighter-rouge">i</code> variable instead of an <code class="language-plaintext highlighter-rouge">x</code> variable to hold a value. This is because the ERG wanted to avoid having to have a quantifier for each quoted string, as would be required for an <code class="language-plaintext highlighter-rouge">x</code> argument. That pattern was covered in the MRS topic.</p>
 
-<p>So, the implementation of <code class="language-plaintext highlighter-rouge">quoted</code> only has to take the <code class="language-plaintext highlighter-rouge">CARG</code> and put it into a new object called <code class="language-plaintext highlighter-rouge">QuotedText</code>, setting the <code class="language-plaintext highlighter-rouge">i</code> variable to that:</p>
+<p>So, the implementation of <code class="language-plaintext highlighter-rouge">quoted</code> only has to take the <code class="language-plaintext highlighter-rouge">CARG</code> and put it into a new object called <code class="language-plaintext highlighter-rouge">QuotedText</code> that simply holds the string, and set the <code class="language-plaintext highlighter-rouge">i</code> variable to that object:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class QuotedText(object):
     def __init__(self, name):
@@ -502,18 +500,20 @@ pronoun_q(x3,RSTR,BODY)              │
     
 @Predication(vocabulary)
 def quoted(state, c_raw_text, i_text):
-    # c_raw_text_value will always be set
+    # c_raw_text_value will always be set to a
+    # raw string
     c_raw_text_value = c_raw_text
-    i_text_value = state.get_variable(i_text)
+    i_text_binding = state.get_binding(i_text)
 
-    if i_text_value is None:
+    if i_text_binding is None:
         yield state.set_x(i_text, QuotedText(c_raw_text_value))
+
     else:
-        if isinstance(i_text_value, QuotedText) and i_text_value.name == c_raw_text:
+        if isinstance(i_text_binding.value, QuotedText) and i_text_binding.value.name == c_raw_text:
             yield state
 </code></pre></div></div>
 
-<p>The job of <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is only to set the value of <code class="language-plaintext highlighter-rouge">x</code> to whatever <code class="language-plaintext highlighter-rouge">i</code> is, or vice versa (other versions will get more interesting, as described below):</p>
+<p>Implementing the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">predication contract</a> on <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is a little subtle. The meaning of <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is less linguistic and more mechanical: It is true when <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">i</code> hold the same “quoted term”. If they are both bound, this is easy to check, but if <code class="language-plaintext highlighter-rouge">x</code> is unbound, conceptually we should look through all the state in the world to which state is the same as <code class="language-plaintext highlighter-rouge">i</code>. Since <code class="language-plaintext highlighter-rouge">i</code> could be any string, it would be impossible to do it that way. Instead, we can just assume that  any text exists in the world (since files and folders can be named anything), and simply set <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">i</code> if it is unbound.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
 def fw_seq(state, x_phrase, i_part):
@@ -533,54 +533,79 @@ def fw_seq(state, x_phrase, i_part):
         elif x_phrase_value == i_part_value:
             yield state
 </code></pre></div></div>
+<p>(Note that <code class="language-plaintext highlighter-rouge">fw_seq</code> comes in several flavors since its real job is combine two words at a time from a string and this version is just a degenerate case. We’ll get to that next.)</p>
 
-<p>… and <code class="language-plaintext highlighter-rouge">delete_v_1_comm</code> has to now include <code class="language-plaintext highlighter-rouge">QuotedText</code> as a valid thing to delete, and <code class="language-plaintext highlighter-rouge">DeleteOperation.apply_to()</code> has to be modified to handle converting a <code class="language-plaintext highlighter-rouge">QuotedText</code> object to a file using the <code class="language-plaintext highlighter-rouge">FileSystem.item_from_path()</code> method:</p>
+<p>This simple approach means that <code class="language-plaintext highlighter-rouge">delete_v_1_comm</code> would have to now include <code class="language-plaintext highlighter-rouge">QuotedText</code> as a valid thing to delete, and <code class="language-plaintext highlighter-rouge">DeleteOperation.apply_to()</code> would have to be modified to handle converting a <code class="language-plaintext highlighter-rouge">QuotedText</code> object to a file (or folder). In fact, lots of terms will now have to special case <code class="language-plaintext highlighter-rouge">QuotedText</code> since the user could say things like:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def delete_v_1_comm(state, e_introduced, x_actor, x_what):
+<blockquote>
+  <p>What is in “foo”?
+Where is “/etc/settings”
+etc.</p>
+</blockquote>
 
-    ...
-    
-        # If this is text, make sure it actually exists
-        if isinstance(x_what_value, QuotedText):
-            actual_item = state.file_system.item_from_path(x_what_value.name)
-            if actual_item is not None:
-                yield state.apply_operations([DeleteOperation(x_what_value)])
-            else:
-                report_error(["notFound", x_what])
+<p>A different approach allows us to make this more invisible. We can put the logic for converting the quoted text into real objects directly into <code class="language-plaintext highlighter-rouge">fw_seq</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["fw_seq"])
+def fw_seq1(state, x_phrase, i_part):
+    x_phrase_binding = state.get_binding(x_phrase)
+    i_part_binding = state.get_binding(i_part)
+    if i_part_binding is None:
+        if x_phrase_binding is None:
+            # This should never happen since it basically means
+            # "return all possible strings"
+            assert False
+
         else:
-            # Only allow deleting files and folders or
-            # textual names of files
-            if isinstance(x_what_value, (File, Folder, QuotedText)):
-                yield state.apply_operations([DeleteOperation(x_what_value)])
+            yield state.set_x(i_part, x_phrase_binding.value)
 
-            else:
-                report_error(["cantDo", "delete", x_what])
+    else:
+        if x_phrase_binding is None:
+            yield from yield_from_fw_seq(state, x_phrase, i_part_binding.value)
+
+        elif x_phrase_binding.value == i_part_binding.value:
+            yield state
             
             
-def generate_message(tree_info, error_term):
+def yield_from_fw_seq(state, variable, value):
+    for interpretation in all_interpretations_of(state, value):
+        yield state.set_x(variable, interpretation)
+        
+        
+# Get all the interpretations of the quoted text
+# and return them iteratively
+def all_interpretations_of(state, value):
+    if isinstance(value, QuotedText):
+        # Get all the interpretations of the quoted text
+        # and return them iteratively
+        yield from value.all_interpretations(state)
 
-    ...
-    
-    elif error_constant == "notFound":
-        arg1 = english_for_delphin_variable(error_predicate_index, error_arguments[1], tree_info)
-        return f"{arg1} was not found"
+    else:
+        yield value
         
         
-class DeleteOperation(object):
-    
-    ...
-    
-    def apply_to(self, state):
+class QuotedText(object):
+    def __init__(self, name):
+        self.name = name
+
+    def all_interpretations(self, state):
+        # The yield the text converted to a file if possible
         if isinstance(state, FileSystemState):
-            state.file_system.delete_item(self.object_to_delete)
-            if isinstance(self.object_to_delete, QuotedText):
-                object_to_delete = state.file_system.item_from_path(self.object_to_delete.name)
-            else:
-                object_to_delete = self.object_to_delete
+            file_system_object = state.file_system.item_from_path(self.name)
+            if file_system_object is not None:
+                yield file_system_object
 
-            state.file_system.delete_item(object_to_delete)
-            
+            else:
+                # Create a file that doesn't exist
+                # For when a user is copying a file to
+                # a new location, for example
+                yield File(name=self.name)
+
+        # Always yield the text value last since the others
+        # are probably what was meant and the first error
+        # hit will be what is returned
+        yield self
 </code></pre></div></div>
+
+<p>In this approach, <code class="language-plaintext highlighter-rouge">fw_seq</code> yields every interpretation of the quoted text using the helper functions <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code> and <code class="language-plaintext highlighter-rouge">all_interpretations_of()</code>. Those call the <code class="language-plaintext highlighter-rouge">all_interpretations()</code> method of <code class="language-plaintext highlighter-rouge">QuotedText</code> and allow it to convert itself to whatever it can mean, thus centralizing the code.</p>
 
 <p><code class="language-plaintext highlighter-rouge">proper_q</code> can just be a default quantifier as described <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleQuestions">here</a>:</p>
 
@@ -616,7 +641,7 @@ Test: "blue" is in this folder
 thing is not in this folder
 </code></pre></div></div>
 
-<p>We are almost done, but that last message is not great. As always, when we add a new predication to the system, we need to teach the NLG system how to interpret the new predications so that it doesn’t say ‘thing’ in the error:</p>
+<p>That last message is not great. As always, when we add a new predication to the system, we need to teach the NLG system how to interpret the new predications so that it doesn’t say ‘thing’ in the error:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
     
@@ -699,102 +724,62 @@ pronoun_q(x3,RSTR,BODY)              │                   │
 
 <p>The first <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">i15</code> and <code class="language-plaintext highlighter-rouge">i16</code> which are “the” and “yearly” and puts the result in <code class="language-plaintext highlighter-rouge">x13</code>. The next <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">x13</code> and <code class="language-plaintext highlighter-rouge">i14</code> (which is “budget.txt”) and puts the result in <code class="language-plaintext highlighter-rouge">x8</code>. So now, <code class="language-plaintext highlighter-rouge">x8</code> has the entire string again. Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”.</p>
 
-<p>The only thing we need to add to make it all work is the implementation of <code class="language-plaintext highlighter-rouge">fw_seq(x,x,i)</code> and <code class="language-plaintext highlighter-rouge">fw_seq(x,i,i)</code>. We will need to name these differently because Python doesn’t overloaded functions (same function name with different arguments):</p>
+<p>For this, we will need an implementation of <code class="language-plaintext highlighter-rouge">fw_seq(x,x,i)</code> and <code class="language-plaintext highlighter-rouge">fw_seq(x,i,i)</code>. We will need to name these differently because Python doesn’t allow overloaded functions (i.e. the same function name with different arguments).  Here are all three together:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["fw_seq"])
+def fw_seq1(state, x_phrase, i_part):
+    x_phrase_binding = state.get_binding(x_phrase)
+    i_part_binding = state.get_binding(i_part)
+    if i_part_binding is None:
+        if x_phrase_binding is None:
+            # This should never happen since it basically means
+            # "return all possible strings"
+            assert False
+
+        else:
+            yield state.set_x(i_part, x_phrase_binding.value)
+
+    else:
+        if x_phrase_binding is None:
+            yield from yield_from_fw_seq(state, x_phrase, i_part_binding.value)
+
+        elif x_phrase_binding.value == i_part_binding.value:
+            yield state
+
+
+@Predication(vocabulary, names=["fw_seq"])
 def fw_seq2(state, x_phrase, i_part1, i_part2):
-    x_phrase_value = state.get_variable(x_phrase)
-    i_part1_value = state.get_variable(i_part1)
-    i_part2_value = state.get_variable(i_part2)
+    x_phrase_binding = state.get_binding(x_phrase)
+    i_part1_binding = state.get_binding(i_part1)
+    i_part2_binding = state.get_binding(i_part2)
 
-    if isinstance(i_part1_value, QuotedText) and isinstance(i_part2_value, QuotedText):
-        combined_value = QuotedText(" ".join([i_part1_value.name, i_part2_value.name]))
-        if x_phrase_value is None:
-            yield state.set_x(x_phrase, combined_value)
-
-        elif isinstance(x_phrase_value, QuotedText) and x_phrase_value.name == combined_value.name:
-            yield state
+    if isinstance(i_part1_binding.value, QuotedText) and isinstance(i_part2_binding.value, QuotedText):
+        combined_value = QuotedText(" ".join([i_part1_binding.value.name, i_part2_binding.value.name]))
+        if x_phrase_binding is None:
+            yield from yield_from_fw_seq(state, x_phrase, combined_value)
 
 
-@Predication(vocabulary)
+@Predication(vocabulary, names=["fw_seq"])
 def fw_seq3(state, x_phrase, x_part1, i_part2):
-    x_phrase_value = state.get_variable(x_phrase)
-    x_part1_value = state.get_variable(x_part1)
-    i_part2_value = state.get_variable(i_part2)
+    x_phrase_binding = state.get_binding(x_phrase)
+    x_part1_binding = state.get_binding(x_part1)
+    i_part2_binding = state.get_binding(i_part2)
 
-    if isinstance(x_part1_value, QuotedText) and isinstance(i_part2_value, QuotedText):
-        combined_value = QuotedText(" ".join([x_part1_value.name, i_part2_value.name]))
-        if x_phrase_value is None:
-            yield state.set_x(x_phrase, combined_value)
-
-        elif isinstance(x_phrase_value, QuotedText) and x_phrase_value.name == combined_value.name:
-            yield state
+    if isinstance(x_part1_binding.value, QuotedText) and isinstance(i_part2_binding.value, QuotedText):
+        combined_value = QuotedText(" ".join([x_part1_binding.value.name, i_part2_binding.value.name]))
+        if x_phrase_binding is None:
+            yield from yield_from_fw_seq(state, x_phrase, combined_value)
 </code></pre></div></div>
 
-<p>And if we run it:</p>
+<p>You can see that the two new ones have logic to combine the strings they are passed into a single string and return the objects that this string represents using <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>. But now we have a dilemma: we don’t want each <code class="language-plaintext highlighter-rouge">fw_seq</code> in a multiword string to convert the substring into objects, we only want this to happen on the <em>final</em> <code class="language-plaintext highlighter-rouge">fw_seq</code>, the one that creates the final string. We can detect this case by noticing that the final <code class="language-plaintext highlighter-rouge">fw_seq</code> is the only one whose introduced variable is used by something <em>other than</em> another <code class="language-plaintext highlighter-rouge">fw_seq</code>. The non-final ones are only consumed by other <code class="language-plaintext highlighter-rouge">fw_seq</code> as you can see in the MRS above.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? "the yearly budget.txt" is in this folder
-Yes, that is true.
+<p>So, we can build a helper to detect if a <code class="language-plaintext highlighter-rouge">fw_seq</code> predication is the final one:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def is_last_fw_seq(tree, fw_seq_predication):
+    consuming_predications = find_predications_using_variable(tree, fw_seq_predication.args[0])
+    return len([predication for predication in consuming_predications if predication.name != "fw_seq"]) &gt; 0
 
-? delete "the yearly budget.txt"
-Done!
 
-? "the yearly budget.txt" is in this folder
-''the yearly' budget.txt' is not in this folder
-</code></pre></div></div>
-
-<p>Note that the error message for the last statement isn’t quite right yet because we are putting quotes around each <code class="language-plaintext highlighter-rouge">fw_seq</code> pair of strings:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
-    
-    ...
-    
-                elif parsed_predication["Lemma"] == "fw_seq":
-                    string_list = []
-                    for arg_index in range(1, len(predication.arg_names)):
-                        if predication.args[arg_index][0] == "i":
-                            # Use 1000 to make sure we go through the whole tree
-                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
-
-                        elif predication.args[arg_index][0] == "x":
-                            # Use 1000 to make sure we go through the whole tree
-                            string_list.append(english_for_delphin_variable(1000, predication.args[arg_index], tree_info, default_a_quantifier=False))
-                            
-                    nlg_data["Topic"] = f"\'{' '.join(string_list)}\'"
-</code></pre></div></div>
-
-<p>Observe that the introduced variable of a non-final <code class="language-plaintext highlighter-rouge">fw_seq</code> predication is only used by another <code class="language-plaintext highlighter-rouge">fw_seq</code> predication:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sentence Force: comm
-[ "delete "the yearly budget.txt""
-  TOP: h0
-  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
-  RELS: &lt; [ pronoun_q&lt;0:30&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
-          [ pron&lt;0:30&gt; LBL: h7 ARG0: x3 ]
-          [ _delete_v_1&lt;0:6&gt; LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ]
-          [ proper_q&lt;7:30&gt; LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
-          [ fw_seq&lt;7:30&gt; LBL: h12 ARG0: x8 ARG1: x13 ARG2: i14 ]
-          [ fw_seq&lt;7:18&gt; LBL: h12 ARG0: x13 ARG1: i15 ARG2: i16 ]
-          [ quoted&lt;8:11&gt; LBL: h12 ARG0: i15 CARG: "the" ]
-          [ quoted&lt;12:18&gt; LBL: h12 ARG0: i16 CARG: "yearly" ]
-          [ quoted&lt;19:29&gt; LBL: h12 ARG0: i14 CARG: "budget.txt" ] &gt;
-  HCONS: &lt; h0 qeq h1 h5 qeq h7 h10 qeq h12 &gt; ]
-
-                                                 ┌──────── quoted(budget.txt,i14)
-                                                 │ ┌────── quoted(yearly,i16)
-                                                 │ │ ┌──── quoted(the,i15)
-                                     ┌────── and(0,1,2,3,4)
-                                     │                 └─│ fw_seq(x13,i15,i16)
-               ┌────── pron(x3)      │                   │
-pronoun_q(x3,RSTR,BODY)              │                   │
-                    │                │                   └ fw_seq(x8,x13,i14)
-                    └─ proper_q(x8,RSTR,BODY)
-                                          └─ _delete_v_1(e2,x3,x8)
-</code></pre></div></div>
-
-<p>So, we can write code to only put quotes around string generated by an <code class="language-plaintext highlighter-rouge">fw_seq</code> predication when it is used by something <em>besides</em> and <code class="language-plaintext highlighter-rouge">fw_seq</code> predication. First, let’s create a utility function using our handy <code class="language-plaintext highlighter-rouge">walk_tree_predications_until()</code> helper that gathers all of the predications in the tree that consume a specific variable:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def find_predications_using_variable(term, variable):
+def find_predications_using_variable(term, variable):
     def match_predication_using_variable(predication):
         for arg_index in range(1, len(predication.arg_types)):
             if predication.arg_types[arg_index] not in ["c", "h"]:
@@ -807,10 +792,38 @@ pronoun_q(x3,RSTR,BODY)              │                   │
     return predication_list
 </code></pre></div></div>
 
-<p>Then, we can use <code class="language-plaintext highlighter-rouge">find_predications_using_variable()</code> to determine if a <code class="language-plaintext highlighter-rouge">fw_seq</code> is introducing a variable that is being used by something besides another <code class="language-plaintext highlighter-rouge">fw_seq</code>:</p>
+<p>Now we can use this helper in <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>. Note that <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code> needs a slightly different version of <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> since we need to pass the predication itself to <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> and we don’t have that in the middle of executing it. So, we added another helper for that called <code class="language-plaintext highlighter-rouge">is_this_last_fw_seq()</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def yield_from_fw_seq(state, variable, value):
+    if is_this_last_fw_seq(state):
+        for interpretation in all_interpretations_of(state, value):
+            yield state.set_x(variable, interpretation)
+    else:
+        yield state.set_x(variable, value)
+        
+        
+def is_this_last_fw_seq(state):
+    this_tree = state.get_binding("tree").value
+    this_predication = predication_from_index(this_tree, execution_context().current_predication_index())
+    return is_last_fw_seq(this_tree["Tree"], this_predication)
+</code></pre></div></div>
+
+<p>Now, we can finally run it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? "the yearly budget.txt" is in this folder
+Yes, that is true.
+
+? delete "the yearly budget.txt"
+Done!
+
+? "the yearly budget.txt" is in this folder
+''the yearly' budget.txt' is not in this folder
+</code></pre></div></div>
+
+<p>Note that the error message for the last statement isn’t quite right yet because we are putting quotes around each <code class="language-plaintext highlighter-rouge">fw_seq</code> pair of strings. We can solve this by modifying our NLG code to use the new <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> helper and only put quotes around the final one:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
-    
+
     ...
     
                 elif parsed_predication["Lemma"] == "fw_seq":
@@ -826,11 +839,11 @@ pronoun_q(x3,RSTR,BODY)              │                   │
 
                     # If the only thing consuming the introduced variable are other fw_seq predications
                     # Then this is not the final fw_seq, so don't put quotes around it
-                    consuming_predications = find_predications_using_variable(tree_info["Tree"], predication.args[0])
-                    if len([predication for predication in consuming_predications if predication.name != "fw_seq"]) == 0:
-                        nlg_data["Topic"] = f"{' '.join(string_list)}"
-                    else:
+                    if is_last_fw_seq(tree_info["Tree"], predication):
                         nlg_data["Topic"] = f"'{' '.join(string_list)}'"
+                    else:
+                        nlg_data["Topic"] = f"{' '.join(string_list)}"
+
 </code></pre></div></div>
 
 <p>Now, if we run the scenario again, we get a better answer:</p>
@@ -845,7 +858,11 @@ Done!
 'the yearly budget.txt' is not in this folder
 </code></pre></div></div>
 
-<p>Last update: 2023-01-24 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabFileDirectoryNames.md">edit</a>]</p>
+<blockquote>
+  <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
+</blockquote>
+
+<p>Last update: 2023-01-27 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabFileDirectoryNames.md">edit</a>]</p>
 
         
       </section>
