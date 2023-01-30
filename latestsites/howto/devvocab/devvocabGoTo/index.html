@@ -1,0 +1,602 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN How-To</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN How-To">
+<meta property="og:title" content="DELPH-IN How-To">
+<meta property="og:url" content="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://blog.inductorsoftware.com/docsproto/howto/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docsproto/howto/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN How-To Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docsproto/howto/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docsproto/howto/"><img src="/docsproto/howto/assets/images/Delph-In.png" alt="DELPH-IN How-To"></a>
+        
+        <a class="site-title" href="/docsproto/howto/">
+          DELPH-IN How-To
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus">Missing</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">DELPH-IN</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinWelcome/">Welcome</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Developer Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRS/">Minimal Recursion Semantics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWellFormedTree/">Well-Formed Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationContract/">The Predication Contract</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonBasics/">Python Primer and State</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoImplementPredication/">Implementing a Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoMRSToPython/">MRS To Python</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConjunctions/">Conjunctions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoScopalArguments/">Scopal Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoEvents/">Event Variables</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoHandlingEventInformation/">Handling Event Information</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSentenceForce/">Sentence Force</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimplePropositions/">Simple Propositions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleQuestions/">Simple Questions</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleCommands/">Simple Commands</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoChoosingWhichFailure/">Reporting the Right Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoReportingAFailure/">A Naive Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoConceptualFailures/">Converting Variables to English</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoRobustFailure/">A More Robust Failure</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoQuantifierErrors/">Quantifier Errors</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoFinishingErrors/">Adding Errors to Every Predication</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoErrorScenarios/">Error Scenarios Summary</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoGenerateMRSAndTrees/">Phrases to MRS and Trees</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoWhichParseAndTree/">Choosing the 'Right' Tree</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoUnknownWords/">Unknown Words and Synonyms</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPredicationArgumentsAndUsage/">Predication Signatures and Usage</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoDiagnostics/">Diagnostics</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoSimpleTesting/">Testing</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoPythonDecorators/">A. Python Decorators</a></li>
+          
+            <li><a href="/docsproto/howto/devhowto/devhowtoParsePredication/">B. Parsing Predications</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">(early draft) Developer Predication Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabOverview/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabPhrasesAndVocab/">Phrases and Vocabulary</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabLoc_nonspAndPlace/">loc_nonsp(e,x,x) and place(x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabCustomQueryAnswers/">Custom Query Answers</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabReorderingQuantifierArguments/">Reordering Quantifier Arguments</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabThis_q_dem/">this_q_dem(x,h,h)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabThing/">thing(x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabIn_p_loc/">_in_p_loc(e,x,x)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabFileDirectoryNames/">fw_seq(...) and quoted(c,i)</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabContextInHelpers/">Errors in Helper Functions</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabGoTo/" class="active">`_go_v_1` and `_to_p_dir`</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammarian Tutorial</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial/">Overview</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Formalisms/">Formalisms</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Grammars/">Grammars</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Processing/">Processing</a></li>
+          
+            <li><a href="/docsproto/howto/DelphinTutorial_Distributions/">Distributions</a></li>
+          
+            <li><a href="/docsproto/howto/HpsgTutorial/">HPSG</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Tutorials</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docsproto/howto/SaarlandAceAgree/">Ace/Agree Tutorial (2013)</a></li>
+          
+            <li><a href="/docsproto/howto/ErsTutorial/">English Resource Semantics Tutorial (NAACL 2016)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="go-to-_go_v_1-and-_to_p_dir">“Go to”: <code class="language-plaintext highlighter-rouge">_go_v_1</code> and <code class="language-plaintext highlighter-rouge">_to_p_dir</code></h2>
+<p>The phrase:</p>
+
+<blockquote>
+  <p>go to “/documents”</p>
+</blockquote>
+
+<p>… yields 12 parses and it isn’t until the forth parse that we counter the <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabFileDirectoryNames"><code class="language-plaintext highlighter-rouge">quoted, fw_seq</code> pattern</a> that the vocabulary can understand at this point:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** Parse #3:
+Sentence Force: comm
+[ "go to "/documents""
+  TOP: h0
+  INDEX: e2 [ e SF: comm TENSE: pres MOOD: indicative PROG: - PERF: - ]
+  RELS: &lt; [ pronoun_q&lt;0:18&gt; LBL: h4 ARG0: x3 [ x PERS: 2 PT: zero ] RSTR: h5 BODY: h6 ]
+          [ pron&lt;0:18&gt; LBL: h7 ARG0: x3 ]
+          [ _go_v_1&lt;0:2&gt; LBL: h1 ARG0: e2 ARG1: x3 ]
+          [ _to_p_dir&lt;3:5&gt; LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 [ x PERS: 3 NUM: sg ] ]
+          [ proper_q&lt;6:18&gt; LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+          [ fw_seq&lt;-1:-1&gt; LBL: h13 ARG0: x9 ARG1: i14 ]
+          [ quoted&lt;7:17&gt; LBL: h13 ARG0: i14 CARG: "/documents" ] &gt;
+  HCONS: &lt; h0 qeq h1 h5 qeq h7 h11 qeq h13 &gt; ]
+
+                          ┌── quoted(/documents,i14)
+              ┌────── and(0,1)
+              │             └ fw_seq(x9,i14)
+proper_q(x9,RSTR,BODY)
+                   │                 ┌────── pron(x3)
+                   └─ pronoun_q(x3,RSTR,BODY)    ┌── _to_p_dir(e8,e2,x9)
+                                          └─ and(0,1)
+                                                   └ _go_v_1(e2,x3)
+
+</code></pre></div></div>
+
+<p>It introduces two additional predications we’ll need to implement to make this work: <code class="language-plaintext highlighter-rouge">_to_p_dir</code> and <code class="language-plaintext highlighter-rouge">_go_v_1</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">_to_p_dir</code> is a <em>directional</em> preposition.  Directional prepositions <em>usually</em> end with <code class="language-plaintext highlighter-rouge">_dir</code> have the signature (<code class="language-plaintext highlighter-rouge">e</code>,<code class="language-plaintext highlighter-rouge">e_verb</code>,<code class="language-plaintext highlighter-rouge">x_location</code>).  <code class="language-plaintext highlighter-rouge">x_location</code> indicates the location the preposition is using, and <code class="language-plaintext highlighter-rouge">e_verb</code> indicates the event (often a verb) that this preposition should be attached to. They specify a particular direction in which to do something.  The fact that the predication takes an event as its second argument is a hint that the predication itself doesn’t <em>do</em> anything except attach its information to the specified event so that something else can use it. Taking an event as an argument besides <code class="language-plaintext highlighter-rouge">ARG0</code> usually indicates the predication is modifying the event. So, it can be implemented like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["_to_p_dir"])
+def to_p_dir(state, e_introduced, e_target, x_location):
+    x_location_binding = state.get_binding(x_location)
+
+    preposition_info = {
+        "EndLocation": x_location_binding
+    }
+
+    yield state.add_to_e(e_target, "DirectionalPreposition", {"Value": preposition_info, "Originator": execution_context().current_predication_index()})
+</code></pre></div></div>
+
+<p>This code just adds the location <code class="language-plaintext highlighter-rouge">x_location</code> to the <code class="language-plaintext highlighter-rouge">e_target</code> event under the key <code class="language-plaintext highlighter-rouge">DirectionalPreposition</code>. This allows the event that introduces it to consume it, as discussed in a <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoEvents">previous topic</a>. The <code class="language-plaintext highlighter-rouge">Predication</code> class will ensure that the user will get a “don’t understand” error if the predication that introduced the event doesn’t know how to handle it, as discussed <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoHandlingEventInformation">here</a>.</p>
+
+<p>Then, we need to implement <code class="language-plaintext highlighter-rouge">_go_v_1</code>, indicating that it <em>does</em> know how to handle that information, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["_go_v_1"], handles=[("DirectionalPreposition", EventOption.required)])
+def go_v_1_comm(state, e_introduced, x_actor):
+    e_introduced_binding = state.get_binding(e_introduced)
+    x_location_binding = e_introduced_binding.value["DirectionalPreposition"]["Value"]["EndLocation"]
+
+    # Only allow moving to folders
+    if isinstance(x_location_binding.value, Folder):
+        yield state.apply_operations([ChangeDirectoryOperation(x_location_binding)])
+
+    else:
+        if hasattr(x_location_binding.value, "exists") and x_location_binding.value.exists():
+            report_error(["cantDo", "change directory to", x_location_binding.variable.name])
+        else:
+            report_error(["notFound", x_location_binding.variable.name])
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">handles=[]</code> clause on <code class="language-plaintext highlighter-rouge">Predication</code> tells the system that this predication <em>requires</em> a directional predication and the system ensures that it won’t get called if it isn’t there. That is why the code can just assume it is there and access the <code class="language-plaintext highlighter-rouge">EndLocation</code> key in this line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    x_location_binding = e_introduced_binding.value["DirectionalPreposition"]["Value"]["EndLocation"]
+</code></pre></div></div>
+
+<p>Note that the function has code to check if the object passed in actually exists or not so that it can return a more specialized error if the user asks to go somewhere that doesn’t exist. Otherwise, they’d get the error “I can’t go to X” if the folder doesn’t exist, which is a little obtuse.</p>
+
+<p>Once the code pulls out the location, it needs a new operation to change directories (operations are discussed <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleCommands">here</a>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ChangeDirectoryOperation(object):
+    def __init__(self, folder_binding):
+        self.folder_binding = folder_binding
+
+    def apply_to(self, state):
+        state.file_system.change_directory(self.folder_binding)
+    
+        
+class FileSystemMock(FileSystem):
+
+    ... 
+    
+    def change_directory(self, folder_binding):
+        if self.exists(folder_binding.value.name):
+            self.current = folder_binding.value
+
+        else:
+            raise MessageException("notFound", [folder_binding.variable.name])
+</code></pre></div></div>
+
+<p>Now, the system can change directories:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def Example23_reset():
+    return FileSystemState(FileSystemMock([(True, "/documents/file1.txt", {"size": 1000}),
+                                           (False, "/Desktop", {"size": 10000000}),
+                                           (True, "/Desktop/the yearly budget.txt", {"size": 10000000}),
+                                           (True, "/Desktop/blue", {"size": 1000})],
+                                          "/Desktop"))
+
+
+def Example23():
+    user_interface = UserInterface(Example23_reset, vocabulary, respond_to_mrs_tree, error_priority)
+
+    while True:
+        user_interface.interact_once()
+        print()
+        
+# Running Example23:
+? go to "/documents"
+Done!
+
+? what is in this folder?
+File(name=/documents/file1.txt, size=1000)
+
+? go to "doesn't exist"
+'doesn’t exist' was not found
+</code></pre></div></div>
+
+<blockquote>
+  <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
+</blockquote>
+
+<p>Last update: 2023-01-30 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabGoTo.md">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docsproto/howto/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docsproto/howto/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docsproto/howto/assets/js/lunr/lunr.min.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-store.js"></script>
+<script src="/docsproto/howto/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
