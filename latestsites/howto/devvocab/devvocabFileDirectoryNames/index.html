@@ -366,7 +366,7 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="representing-file-and-directory-names-fw_seq-and-quoted">Representing File and Directory Names: <code class="language-plaintext highlighter-rouge">fw_seq</code> and <code class="language-plaintext highlighter-rouge">quoted</code></h2>
-<p>There are several challenges with representing file and directory names in a phrase. First, the user may or may not represent them with some kind of escaping characters around them. For example, to move to the directory “blue” they could say:</p>
+<p>There are several challenges with representing file and directory names in a phrase. First, the user may or may not represent them with some kind of escaping characters around them. For example: to move to the directory “blue” they might say:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go to 'blue'
 go to "blue"
@@ -377,7 +377,7 @@ go to blue
 
 <p>Furthermore, many of the specifiers the user may use for directories or files are not English:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go to /user/brett
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go to /usr/gol
 list out f56.txt
 </code></pre></div></div>
 
@@ -425,7 +425,7 @@ udef_q(x4,RSTR,BODY)
 
 </code></pre></div></div>
 
-<p>That would be useful, perhaps, in a phrase like “She is ‘blue’”, where we do mean to use the “blue” semantically to mean “sad” but where the speaker is indicating this is a nonstandard or special use of the word by putting it in quotes. This is not we want, so we can move to the next parse:</p>
+<p>That would be useful, perhaps, in a phrase like “She is ‘blue’”, where we do mean to use “blue” semantically to mean “sad”.  In these cases, the information that “blue” was in quotes was lost. This may be the right answer for some scenarios, but it is not we want, so we can move to the next parse:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** Parse #2:
 Sentence Force: comm
@@ -454,7 +454,7 @@ pronoun_q(x3,RSTR,BODY)              │
     
 </code></pre></div></div>
 
-<p>This one is closer because it does indicate that <code class="language-plaintext highlighter-rouge">i13</code> is a <code class="language-plaintext highlighter-rouge">fw_seq</code>. <code class="language-plaintext highlighter-rouge">fw_seq</code> stands for “foreign word sequence” (since quotations often delineate foreign phrases), but it is also used for all kinds of quoted text. It is described in more detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ForeignExpressions/">here</a>. In this case, it is telling us that the phrase includes a string in quotes (by using <code class="language-plaintext highlighter-rouge">fw_seq</code>), but also gives us the semantic interpretation of the phrase in quotes (by using <code class="language-plaintext highlighter-rouge">_blue_a_1</code>). That would be a good hint if our system was trying to see if the usage of “blue” was a “non-standard” use of the term to mean something like “sad” instead of saying “she is literally the color blue”, but it still isn’t quite the interpretation we want.</p>
+<p>This one is closer. It indicates that <code class="language-plaintext highlighter-rouge">i13</code> is a <code class="language-plaintext highlighter-rouge">fw_seq</code>. <code class="language-plaintext highlighter-rouge">fw_seq</code> stands for “foreign word sequence” (since quotations often delineate foreign phrases), but it is also used for all kinds of quoted text. It is described in more detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_ForeignExpressions/">here</a>. In this case, it is telling us that the phrase includes a string in quotes (by using <code class="language-plaintext highlighter-rouge">fw_seq</code>), but also gives us the semantic interpretation of the phrase in quotes (by using <code class="language-plaintext highlighter-rouge">_blue_a_1</code>). That would be a good hint if our system was trying to see if the speaker was indicating to us that the usage of “blue” was a “non-standard” use of the term by putting it in quotes since it captures both the semantic meaning and the fact that quotes were around it. In other words, the speaker meant something like “sad” instead of saying “she is literally the color blue”, but it still isn’t quite the interpretation we want.</p>
 
 <p>The next one is what we need here:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***** CHOSEN Parse #3:
@@ -480,18 +480,16 @@ pronoun_q(x3,RSTR,BODY)              │
                     └─ proper_q(x8,RSTR,BODY)
                                           └─ _delete_v_1(e2,x3,x8)
 </code></pre></div></div>
-<p>This parse doesn’t try to deliver the semantic interpretation of the word in quotes, and instead just gives us the raw term using the predication <code class="language-plaintext highlighter-rouge">quoted</code>, meaning “this text was in quotes”. Then, it uses <code class="language-plaintext highlighter-rouge">fw_seq</code> on the quoted variable <code class="language-plaintext highlighter-rouge">i13</code>. This will make more sense later since <code class="language-plaintext highlighter-rouge">fw_seq</code> is used to join together all the words in a quoted string. We’ll see that next. For now, it is just a degenerate case that is there for consistency with more complicated quoted strings.</p>
+<p>This parse doesn’t try to deliver the semantic interpretation of the word in quotes. It just provides the raw term using the predication <code class="language-plaintext highlighter-rouge">quoted</code>, meaning “this text was in quotes”. Then, it uses <code class="language-plaintext highlighter-rouge">fw_seq</code> on the quoted variable <code class="language-plaintext highlighter-rouge">i13</code>. This indicates it was a “sequence” of one quoted word. Finally, <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”. For this scenario, we don’t need to change its current behavior which passes the values of <code class="language-plaintext highlighter-rouge">x8</code> from its <code class="language-plaintext highlighter-rouge">RSTR</code> to its <code class="language-plaintext highlighter-rouge">BODY</code> as <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleQuestions">described here</a>. So, for this, we need to implement: <code class="language-plaintext highlighter-rouge">quoted(i)</code>, <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> and update <code class="language-plaintext highlighter-rouge">_delete_v_1(e,x,x)</code> to handle whatever they output.</p>
 
-<p>Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”. We don’t need to change its current behavior which is just to pass along the values from its <code class="language-plaintext highlighter-rouge">RSTR</code> to its <code class="language-plaintext highlighter-rouge">BODY</code>. So for this, we need to implement: <code class="language-plaintext highlighter-rouge">quoted(i)</code>, <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> and update  <code class="language-plaintext highlighter-rouge">_delete_v_1(e,x,x)</code> to handle whatever they output.</p>
-
-<p><code class="language-plaintext highlighter-rouge">quoted</code> is special in that it has an argument called <code class="language-plaintext highlighter-rouge">CARG</code> (described in detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Essence/#further-ers-contents">here</a>). <code class="language-plaintext highlighter-rouge">CARG</code> is a way to pass a constant to a predication without holding in a variable. The argument will simply be raw text:</p>
+<p><code class="language-plaintext highlighter-rouge">quoted</code> is unusual in that it has an argument called <code class="language-plaintext highlighter-rouge">CARG</code> (described in detail <a href="https://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Essence/#further-ers-contents">here</a>). <code class="language-plaintext highlighter-rouge">CARG</code> is a way to pass a constant to a predication without holding in a variable. The argument will simply be raw text:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          [ quoted&lt;8:12&gt; LBL: h12 ARG0: i13 CARG: "blue" ]
 </code></pre></div></div>
 
-<p>It is also special in that it uses an <code class="language-plaintext highlighter-rouge">i</code> variable instead of an <code class="language-plaintext highlighter-rouge">x</code> variable to hold a value. This is because the ERG wanted to avoid having to have a quantifier for each quoted string, as would be required for an <code class="language-plaintext highlighter-rouge">x</code> argument. That pattern was covered in the MRS topic.</p>
+<p>It is also unusual in that it uses an <code class="language-plaintext highlighter-rouge">i</code> variable instead of an <code class="language-plaintext highlighter-rouge">x</code> variable to hold an individual. This is because the ERG wanted to avoid having to have a quantifier for each quoted string (as would be required for an <code class="language-plaintext highlighter-rouge">x</code> argument). That pattern was covered in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoMRS">MRS topic</a>.</p>
 
-<p>So, the implementation of <code class="language-plaintext highlighter-rouge">quoted</code> only has to take the <code class="language-plaintext highlighter-rouge">CARG</code> and put it into a new object called <code class="language-plaintext highlighter-rouge">QuotedText</code> that simply holds the string, and set the <code class="language-plaintext highlighter-rouge">i</code> variable to that object:</p>
+<p>So, the implementation of <code class="language-plaintext highlighter-rouge">quoted</code> only has to take the <code class="language-plaintext highlighter-rouge">CARG</code>, put it into a new object called <code class="language-plaintext highlighter-rouge">QuotedText</code> (that simply holds the string), and set the <code class="language-plaintext highlighter-rouge">i</code> variable to that object if <code class="language-plaintext highlighter-rouge">i</code> is unbound. Or: ensure that they are equal if both are bound:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class QuotedText(object):
     def __init__(self, name):
@@ -515,7 +513,7 @@ def quoted(state, c_raw_text, i_text):
             yield state
 </code></pre></div></div>
 
-<p>Implementing the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">predication contract</a> on <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is a little subtle. The meaning of <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is less linguistic and more mechanical: It is true when <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">i</code> hold the same “quoted term”. If they are both bound, this is easy to check, but if <code class="language-plaintext highlighter-rouge">x</code> is unbound, conceptually we should look through all the state in the world to which state is the same as <code class="language-plaintext highlighter-rouge">i</code>. Since <code class="language-plaintext highlighter-rouge">i</code> could be any string, it would be impossible to do it that way. Instead, we can just assume that  any text exists in the world (since files and folders can be named anything), and simply set <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">i</code> if it is unbound.</p>
+<p>Implementing the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoPredicationContract">predication contract</a> on <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is a little more subtle. The meaning of <code class="language-plaintext highlighter-rouge">fw_seq(x,i)</code> is less linguistic and more mechanical: It is true when <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">i</code> hold the same “quoted term”. If they are both bound, this is easy to check. If <code class="language-plaintext highlighter-rouge">x</code> is unbound, according to the predication contract, we should conceptually look through all the state in the world to find which state is the same as <code class="language-plaintext highlighter-rouge">i</code>. Since <code class="language-plaintext highlighter-rouge">i</code> could be any string, it would be impossible to do it that way. Instead, we can just assume that all possible text exists in the world (since files and folders can be named anything), and assume it will always exist. So we can simply set <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">i</code> if it is unbound (or vice versa if <code class="language-plaintext highlighter-rouge">i</code> is unbound):</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary)
 def fw_seq(state, x_phrase, i_part):
@@ -535,17 +533,19 @@ def fw_seq(state, x_phrase, i_part):
         elif x_phrase_value == i_part_value:
             yield state
 </code></pre></div></div>
-<p>(Note that <code class="language-plaintext highlighter-rouge">fw_seq</code> comes in several flavors since its real job is combine two words at a time from a string and this version is just a degenerate case. We’ll get to that next.)</p>
+<p>(Note that <code class="language-plaintext highlighter-rouge">fw_seq</code> comes in several flavors since its usual job is combine two words at a time from a string and this version is just a degenerate case. We’ll get to that next.)</p>
 
-<p>This simple approach means that <code class="language-plaintext highlighter-rouge">delete_v_1_comm</code> would have to now include <code class="language-plaintext highlighter-rouge">QuotedText</code> as a valid thing to delete, and <code class="language-plaintext highlighter-rouge">DeleteOperation.apply_to()</code> would have to be modified to handle converting a <code class="language-plaintext highlighter-rouge">QuotedText</code> object to a file (or folder). In fact, lots of terms will now have to special case <code class="language-plaintext highlighter-rouge">QuotedText</code> since the user could say things like:</p>
+<p>This simple approach means that <code class="language-plaintext highlighter-rouge">delete_v_1_comm</code> would have to now include <code class="language-plaintext highlighter-rouge">QuotedText</code> as a valid thing to delete, and <code class="language-plaintext highlighter-rouge">DeleteOperation.apply_to()</code> would have to be modified to handle converting a <code class="language-plaintext highlighter-rouge">QuotedText</code> object to a file or folder. In fact, lots of predications would now have to special case <code class="language-plaintext highlighter-rouge">QuotedText</code> since the user could say things like:</p>
 
 <blockquote>
-  <p>What is in “foo”?
-Where is “/etc/settings”
-etc.</p>
+  <p>What is in “foo”?</p>
+
+  <p>Where is “/etc/settings”</p>
+
+  <p>etc.</p>
 </blockquote>
 
-<p>A different approach allows us to make this more invisible. We can put the logic for converting the quoted text into real objects directly into <code class="language-plaintext highlighter-rouge">fw_seq</code>:</p>
+<p>A different approach allows us to make this more invisible. We can put the logic for converting the quoted text into file and folder objects directly into <code class="language-plaintext highlighter-rouge">fw_seq</code>:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["fw_seq"])
 def fw_seq1(state, x_phrase, i_part):
     x_phrase_binding = state.get_binding(x_phrase)
@@ -568,21 +568,14 @@ def fw_seq1(state, x_phrase, i_part):
             
             
 def yield_from_fw_seq(state, variable, value):
-    for interpretation in all_interpretations_of(state, value):
-        yield state.set_x(variable, interpretation)
-        
-        
-# Get all the interpretations of the quoted text
-# and return them iteratively
-def all_interpretations_of(state, value):
-    if isinstance(value, QuotedText):
+    if hasattr(value, "all_interpretations"):
         # Get all the interpretations of the quoted text
         # and return them iteratively
-        yield from value.all_interpretations(state)
-
+        for interpretation in value.all_interpretations(state):
+            yield state.set_x(variable, interpretation)
     else:
-        yield value
-        
+        yield value        
+       
         
 class QuotedText(object):
     def __init__(self, name):
@@ -607,7 +600,7 @@ class QuotedText(object):
         yield self
 </code></pre></div></div>
 
-<p>In this approach, <code class="language-plaintext highlighter-rouge">fw_seq</code> yields every interpretation of the quoted text using the helper functions <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code> and <code class="language-plaintext highlighter-rouge">all_interpretations_of()</code>. Those call the <code class="language-plaintext highlighter-rouge">all_interpretations()</code> method of <code class="language-plaintext highlighter-rouge">QuotedText</code> and allow it to convert itself to whatever it can mean, thus centralizing the code.</p>
+<p>In this approach, <code class="language-plaintext highlighter-rouge">fw_seq</code> yields every interpretation of the quoted text using the helper functions <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>. It calls the <code class="language-plaintext highlighter-rouge">all_interpretations()</code> method of <code class="language-plaintext highlighter-rouge">QuotedText</code> and allows it to convert itself to whatever it can mean, thus centralizing the code.</p>
 
 <p><code class="language-plaintext highlighter-rouge">proper_q</code> can just be a default quantifier as described <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleQuestions">here</a>:</p>
 
@@ -643,7 +636,7 @@ Test: "blue" is in this folder
 thing is not in this folder
 </code></pre></div></div>
 
-<p>That last message is not great. As always, when we add a new predication to the system, we need to teach the NLG system how to interpret the new predications so that it doesn’t say ‘thing’ in the error:</p>
+<p>That last message is not great. As always, when we add a new predication to the system, we need to teach <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoConceptualFailures">the NLG system</a> how to interpret the new predications so that it doesn’t say ‘thing’ in the error:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def refine_nlg_with_predication(tree_info, variable, predication, nlg_data):
     
@@ -724,9 +717,9 @@ pronoun_q(x3,RSTR,BODY)              │                   │
           [ fw_seq&lt;7:30&gt; LBL: h12 ARG0: x8 ARG1: x13 ARG2: i14 ]
 </code></pre></div></div>
 
-<p>The first <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">i15</code> and <code class="language-plaintext highlighter-rouge">i16</code> which are “the” and “yearly” and puts the result in <code class="language-plaintext highlighter-rouge">x13</code>. The next <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">x13</code> and <code class="language-plaintext highlighter-rouge">i14</code> (which is “budget.txt”) and puts the result in <code class="language-plaintext highlighter-rouge">x8</code>. So now, <code class="language-plaintext highlighter-rouge">x8</code> has the entire string again. Note that <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”.</p>
+<p>The first <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">i15</code> and <code class="language-plaintext highlighter-rouge">i16</code> which are “the” and “yearly” and puts the result in <code class="language-plaintext highlighter-rouge">x13</code>. The next <code class="language-plaintext highlighter-rouge">fw_seq</code> joins together <code class="language-plaintext highlighter-rouge">x13</code> and <code class="language-plaintext highlighter-rouge">i14</code> (which is “budget.txt”) and puts the result in <code class="language-plaintext highlighter-rouge">x8</code>. So now, <code class="language-plaintext highlighter-rouge">x8</code> has the entire string again. <code class="language-plaintext highlighter-rouge">x8</code> is quantified by <code class="language-plaintext highlighter-rouge">proper_q</code> which is often used for proper nouns, but can be used as a marker of all kinds of “raw text”.</p>
 
-<p>For this, we will need an implementation of <code class="language-plaintext highlighter-rouge">fw_seq(x,x,i)</code> and <code class="language-plaintext highlighter-rouge">fw_seq(x,i,i)</code>. We will need to name these differently because Python doesn’t allow overloaded functions (i.e. the same function name with different arguments).  Here are all three together:</p>
+<p>To make this work, we will need an implementation of <code class="language-plaintext highlighter-rouge">fw_seq(x,x,i)</code> and <code class="language-plaintext highlighter-rouge">fw_seq(x,i,i)</code>. We will need to name these differently because Python doesn’t allow overloaded functions (i.e. the same function name with different arguments).  Here are all three together:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["fw_seq"])
 def fw_seq1(state, x_phrase, i_part):
@@ -773,7 +766,9 @@ def fw_seq3(state, x_phrase, x_part1, i_part2):
             yield from yield_from_fw_seq(state, x_phrase, combined_value)
 </code></pre></div></div>
 
-<p>You can see that the two new ones have logic to combine the strings they are passed into a single string and return the objects that this string represents using <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>. But now we have a dilemma: we don’t want each <code class="language-plaintext highlighter-rouge">fw_seq</code> in a multiword string to convert the substring into objects, we only want this to happen on the <em>final</em> <code class="language-plaintext highlighter-rouge">fw_seq</code>, the one that creates the final string. We can detect this case by noticing that the final <code class="language-plaintext highlighter-rouge">fw_seq</code> is the only one whose introduced variable is used by something <em>other than</em> another <code class="language-plaintext highlighter-rouge">fw_seq</code>. The non-final ones are only consumed by other <code class="language-plaintext highlighter-rouge">fw_seq</code> as you can see in the MRS above.</p>
+<p>You can see that the two new <code class="language-plaintext highlighter-rouge">fw_seq</code> implementations have logic to combine the <code class="language-plaintext highlighter-rouge">QuotedText</code> objects they are passed into a <code class="language-plaintext highlighter-rouge">QuotedText</code> object. It then returns the objects that this string represents using <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>.</p>
+
+<p>Now we have a dilemma: we don’t want each <code class="language-plaintext highlighter-rouge">fw_seq</code> in a multiword string to convert the substring into objects, we only want this to happen on the <em>final</em> <code class="language-plaintext highlighter-rouge">fw_seq</code>, the one that creates the final string. We can detect this case by noticing that the final <code class="language-plaintext highlighter-rouge">fw_seq</code> is the only one whose introduced variable is used by something <em>other than</em> another <code class="language-plaintext highlighter-rouge">fw_seq</code>. The non-final ones are only consumed by other <code class="language-plaintext highlighter-rouge">fw_seq</code> as you can see in the MRS above.</p>
 
 <p>So, we can build a helper to detect if a <code class="language-plaintext highlighter-rouge">fw_seq</code> predication is the final one:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def is_last_fw_seq(tree, fw_seq_predication):
@@ -794,15 +789,23 @@ def find_predications_using_variable(term, variable):
     return predication_list
 </code></pre></div></div>
 
-<p>Now we can use this helper in <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>. Note that <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code> needs a slightly different version of <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> since we need to pass the predication itself to <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> and we don’t have that in the middle of executing it. So, we added another helper for that called <code class="language-plaintext highlighter-rouge">is_this_last_fw_seq()</code>:</p>
+<p>Now we can use this helper in <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code>. Note that <code class="language-plaintext highlighter-rouge">yield_from_fw_seq()</code> needs a slightly different version of <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> since we need to pass the predication itself to <code class="language-plaintext highlighter-rouge">is_last_fw_seq()</code> and we don’t have that in the middle of executing it.</p>
+
+<p>So, we added another helper to do just that called <code class="language-plaintext highlighter-rouge">is_this_last_fw_seq()</code>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def yield_from_fw_seq(state, variable, value):
     if is_this_last_fw_seq(state):
-        for interpretation in all_interpretations_of(state, value):
-            yield state.set_x(variable, interpretation)
+        if hasattr(value, "all_interpretations"):
+            # Get all the interpretations of the quoted text
+            # and return them iteratively
+            for interpretation in value.all_interpretations(state):
+                yield state.set_x(variable, interpretation)
+        else:
+            yield value
+
     else:
         yield state.set_x(variable, value)
-        
+                
         
 def is_this_last_fw_seq(state):
     this_tree = state.get_binding("tree").value
