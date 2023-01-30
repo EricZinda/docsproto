@@ -106,6 +106,8 @@ toc:
         url: "/devvocab/devvocabFileDirectoryNames/"
       - title: "Errors in Helper Functions"
         url: "/devvocab/devvocabContextInHelpers/"
+      - title: "`_go_v_1` and `_to_p_dir`"
+        url: "/devvocab/devvocabGoTo/"
   - title: "Grammarian Tutorial"
     children:
       - title: "Overview"
