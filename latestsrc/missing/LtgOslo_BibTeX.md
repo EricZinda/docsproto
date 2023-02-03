@@ -187,4 +187,5 @@ Once typeset and processed by BibTeX, this will yield:
 superficial similarity to the earlier [VerbMobil](/VerbMobil) effort
 (Wahlster, 2000) and employs semantic transfer in the framework of
 Minimal Recursion Semantics (MRS; Copestake, et al., 2005).*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-09-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_BibTeX/_edit)]{% endraw %}

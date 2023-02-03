@@ -8,4 +8,5 @@
 - [JonathonRead](/JonathonRead)
 - [ArneSkjarlholt](/ArneSkjarlholt)
 - ErikVelldal
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-01-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearchGroup/_edit)]{% endraw %}
