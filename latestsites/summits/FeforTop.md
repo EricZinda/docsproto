@@ -137,5 +137,4 @@ organizers](https://blog.inductorsoftware.com/docsproto/summits/FeforSuggestions
 # Photos
 
 Please post conference photos on [FeforPhotos](https://blog.inductorsoftware.com/docsproto/summits/FeforPhotos)!
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

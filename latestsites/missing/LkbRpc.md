@@ -94,5 +94,4 @@ integer
 *chart*. An edge handle (greater than zero) is returned on success;
 the function will fail in case *entity* does not name a valid type,
 in which case a negative value is returned.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbRpc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

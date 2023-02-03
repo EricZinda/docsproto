@@ -52,5 +52,4 @@ https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014Arity
   - [related-not tool] treebanking guidelines         https://github.com/delph-in/docs/wiki/ErgTreebankingGuidelines
   - [related-not tool] treebanking rules         https://github.com/delph-in/docs/wiki/ErgTreebankingRules 
   - truly missing: how to train a new parse-ranking model; how to train a PCFG; 
-
-Last update: 2022-09-07 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDWActiveWork/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

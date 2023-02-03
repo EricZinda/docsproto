@@ -156,5 +156,4 @@ from Emacs LexDB major mode: *M-vs*
 [LexDbInternals](https://blog.inductorsoftware.com/docsproto/missing/LexDbInternals) [BR](/BR)\["MWEs and Idiomatic
 Expressions"\] [BR](/BR) \[<http://www.cl.cam.ac.uk/~bmw20/DT/Papers/>
 Papers\]
-
-Last update: 2009-01-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LkbLexDB/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

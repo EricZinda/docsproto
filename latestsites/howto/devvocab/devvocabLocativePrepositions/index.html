@@ -379,30 +379,30 @@
 <p>There are 171 different parses that the ERG provides since there is a lot of ambiguity in this phrase.  Here, we’ll focus on the parses that use “copy” as a verb along with “in” as a preposition. Shown below are 4 different patterns (aka <em>phenomena</em>) that appear. They are listed showing the form of the predications for “in” and “copy”, along with their interpretation:</p>
 
 <ol>
-  <li><code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16), _copy_v_1(e2,x3,x8)</code>: copy the ‘foo’ that is in ‘documents’ [where to copy is not specified]</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16), _copy_v_1(e2,x3,x8)</code>: copy the ‘foo’ that is in ‘documents’ [where to copy is not specified]</p>
+
+    <p>This version of “in” has already been implemented <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc">in a previous topic</a> and doesn’t need modification. It takes two <code class="language-plaintext highlighter-rouge">x</code> arguments and restricts them: <code class="language-plaintext highlighter-rouge">x8</code> must be something that is “in” <code class="language-plaintext highlighter-rouge">x16</code>. This is a “locative” form of the “in” preposition that specifies where something is.  So, <code class="language-plaintext highlighter-rouge">in_p_loc</code> indicates where to find <code class="language-plaintext highlighter-rouge">x8</code> (i.e. in <code class="language-plaintext highlighter-rouge">x16</code>), and <code class="language-plaintext highlighter-rouge">copy_v_1</code> simply needs to copy <code class="language-plaintext highlighter-rouge">x8</code>…somewhere.  <em>Where</em> is not specified.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">_in_p_state(e13,e2,x14), _copy_v_1(e2,x3,x8)</code>: copy ‘foo’, and do the copy from within ‘/documents’ [<em>where</em> to copy and where ‘foo’ <em>is</em> are not specified]</p>
+
+    <p>This reading has a version of “in” that takes the <code class="language-plaintext highlighter-rouge">e2</code> event for its second arg, and <code class="language-plaintext highlighter-rouge">e2</code> is introduced by <code class="language-plaintext highlighter-rouge">_copy_v_1</code>. As described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo">the topic about <code class="language-plaintext highlighter-rouge">go_v_1</code></a>, this means that <code class="language-plaintext highlighter-rouge">in_p_state</code> is providing information to <code class="language-plaintext highlighter-rouge">_copy_v_1</code> about <em>how</em> to go about copying. Unlike directional prepositions described in that topic, <code class="language-plaintext highlighter-rouge">_state</code> in the predication name indicates that the preposition is used in a “stative” sense, which effectively means: specifying where the verb is <em>taking place</em>. So this phrase says that the “copying” should be done “in the location specified by <code class="language-plaintext highlighter-rouge">x4</code>”.  Where to copy <em>to</em> is not specified.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">_copy_v_1(e2,x3,x8,_in_p_loc(e15,x8,x16))</code>: copy ‘foo’ such that it ends up in ‘/documents’</p>
+
+    <p>This version of <code class="language-plaintext highlighter-rouge">_copy_v_1</code> has a scopal argument which contains the “in” preposition. As discussed in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments">section on scopal arguments</a>, scopal arguments occur when the predication needs to do something special with the branch of the tree it is passed.  In this case, <code class="language-plaintext highlighter-rouge">_copy_v_1</code> is being asked to “make <code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16)</code> be true”, meaning: change the world such that <code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16)</code>. Since <code class="language-plaintext highlighter-rouge">x8</code> is “foo” and <code class="language-plaintext highlighter-rouge">x16</code> is “/documents”, <code class="language-plaintext highlighter-rouge">_copy_v_1</code> should make “foo” be “in” “/documents”.</p>
+  </li>
+  <li>
+    <p>(not used in this example) <code class="language-plaintext highlighter-rouge">_preposition_p_dir(e,e1,x), verb_v(e1, ...)</code></p>
+
+    <p>There is another variation of the predication for “in” that the ERG doesn’t provide for this example, but was shown in <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo">the topic on <code class="language-plaintext highlighter-rouge">go_v_1</code></a>. Look at the two interpretations of “the mouse is running under the table”:</p>
+
+    <p>(stative) Just like example 1 above: The mouse staying under the table and running around there:</p>
+  </li>
 </ol>
 
-<p>This version of “in” has already been implemented <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc">in a previous topic</a> and doesn’t need modification. It takes two <code class="language-plaintext highlighter-rouge">x</code> arguments and restricts them: <code class="language-plaintext highlighter-rouge">x8</code> must be something that is “in” <code class="language-plaintext highlighter-rouge">x16</code>. This is a “locative” form of the “in” preposition that specifies where something is.  So, <code class="language-plaintext highlighter-rouge">in_p_loc</code> indicates where to find <code class="language-plaintext highlighter-rouge">x8</code> (i.e. in <code class="language-plaintext highlighter-rouge">x16</code>), and <code class="language-plaintext highlighter-rouge">copy_v_1</code> simply needs to copy <code class="language-plaintext highlighter-rouge">x8</code>…somewhere.  <em>Where</em> is not specified.</p>
-
-<ol>
-  <li><code class="language-plaintext highlighter-rouge">_in_p_state(e13,e2,x14), _copy_v_1(e2,x3,x8)</code>: copy ‘foo’, and do the copy from within ‘/documents’ [<em>where</em> to copy and where ‘foo’ <em>is</em> are not specified]</li>
-</ol>
-
-<p>This reading has a version of “in” that takes the <code class="language-plaintext highlighter-rouge">e2</code> event for its second arg, and <code class="language-plaintext highlighter-rouge">e2</code> is introduced by <code class="language-plaintext highlighter-rouge">_copy_v_1</code>. As described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo">the topic about <code class="language-plaintext highlighter-rouge">go_v_1</code></a>, this means that <code class="language-plaintext highlighter-rouge">in_p_state</code> is providing information to <code class="language-plaintext highlighter-rouge">_copy_v_1</code> about <em>how</em> to go about copying. Unlike directional prepositions described in that topic, <code class="language-plaintext highlighter-rouge">_state</code> in the predication name indicates that the preposition is used in a “stative” sense, which effectively means: specifying where the verb is <em>taking place</em>. So this phrase says that the “copying” should be done “in the location specified by <code class="language-plaintext highlighter-rouge">x4</code>”.  Where to copy <em>to</em> is not specified.</p>
-
-<ol>
-  <li><code class="language-plaintext highlighter-rouge">_copy_v_1(e2,x3,x8,_in_p_loc(e15,x8,x16))</code>: copy ‘foo’ such that it ends up in ‘/documents’</li>
-</ol>
-
-<p>This version of <code class="language-plaintext highlighter-rouge">_copy_v_1</code> has a scopal argument which contains the “in” preposition. As discussed in the <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments">section on scopal arguments</a>, scopal arguments occur when the predication needs to do something special with the branch of the tree it is passed.  In this case, <code class="language-plaintext highlighter-rouge">_copy_v_1</code> is being asked to “make <code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16)</code> be true”, meaning: change the world such that <code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16)</code>. Since <code class="language-plaintext highlighter-rouge">x8</code> is “foo” and <code class="language-plaintext highlighter-rouge">x16</code> is “/documents”, <code class="language-plaintext highlighter-rouge">_copy_v_1</code> should make “foo” be “in” “/documents”.</p>
-
-<ol>
-  <li>(not used in this example) <code class="language-plaintext highlighter-rouge">_preposition_p_dir(e,e1,x), verb_v(e1, ...)</code></li>
-</ol>
-
-<p>There is another variation of the predication for “in” that the ERG doesn’t provide for this example, but was shown in <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo">the topic on <code class="language-plaintext highlighter-rouge">go_v_1</code></a>. Look at the two interpretations of “the mouse is running under the table”:</p>
-
-<p>(stative) Just like example 1 above: The mouse staying under the table and running around there:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>            ┌────── _mouse_n_1(x3)
 _the_q(x3,RSTR,BODY)            ┌────── _table_n_1(x9)
                  └─ _the_q(x9,RSTR,BODY)    ┌── _under_p_state(e8,e2,x9)
@@ -411,6 +411,7 @@ _the_q(x3,RSTR,BODY)            ┌────── _table_n_1(x9)
 </code></pre></div></div>
 
 <p>(directional) Just like <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo"><code class="language-plaintext highlighter-rouge">to_p_dir</code> in the topic on <code class="language-plaintext highlighter-rouge">go_v_1</code></a>: The mouse moving from some other spot in the room on a path that takes it under the table:</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>            ┌────── _table_n_1(x9)
 _the_q(x9,RSTR,BODY)            ┌────── _mouse_n_1(x3)
                  └─ _the_q(x3,RSTR,BODY)    ┌── _under_p_dir(e8,e2,x9)
@@ -885,7 +886,9 @@ File(name=/documents/blue, size=1000)
 
 <p>Because this code will be the same for all predications that deal with scopal arguments, we can simplify it by writing some helpers.</p>
 
-<p>Last update: 2023-02-02 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabLocativePrepositions.md">edit</a>]</p>
+<h3 id="simplifying-scopal-argument-predications">Simplifying Scopal Argument Predications</h3>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

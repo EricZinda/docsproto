@@ -39,9 +39,14 @@ From Madrid, you also have an option of taking a high-speed train which leaves f
 
 # Accommodations
 
-Hotel recommendations TBA.
+Two hotels will be holding some rooms for us until DATE TBA:
 
-NB: Spain is a loud country, and people here do not go to bed early and spend a lot of time out. If your AirBnB or hotel faces a street with bars, be prepared for loud noise until 3-4 AM during weekends (and sometimes until 1AM or so during the week as well). Many buildings have good windows but bring earplugs nonetheless. 
+- [HOTEL NH COLLECTION A CORUÑA FINISTERRE](https://www.nh-hotels.com/hotel/nh-collection-a-coruna-finisterre?campid=8435708&gclid=CjwKCAiA_vKeBhAdEiwAFb_nrcX0lVhcOVaiQPhuToHFQ8lBiWX9kuvrGLM6LjtjVqOUn46L7Qq86RoC_TQQAvD_BwE&gclsrc=aw.ds): When booking the room you must indicate "group 110950001". This is the more luxurious option, only a few minutes from the venue, which includes access to outdoor saltwater swimming pools, for example. Breakfast included. 
+- [HOSTAL LA PROVINCIANA](http://www.laprovinciana.net/): When booking the room you must indicate the name of the meeting "Deplh-In". This is an affordable, hostel-style option, a bit further away from the venue but still walking distance. No breakfast, but you don't need it due to the location! These guys may be a little bit slower with email, so you may need to call them. Please ask Olga if you need any assistance with them.
+
+Otherwise, as usual, I am sure some people will choose AirBnB options or other alternatives. Note that there are very few hotels in the Old Town (where the venue is), but that the Old Town is only 10-20 minutes away from the City Center, where you will find numerous options.
+
+NB: Spain is a loud country, and people here do not go to bed early and spend a lot of time out. If your AirBnB or hotel faces a street with bars (which is the case for La Provinciana, I believe), be prepared for loud noise until 3-4 AM during weekends (and sometimes until 1AM or so during the week as well). Many buildings have good windows but bring earplugs nonetheless. 
 
 # Social Activities
 
@@ -54,5 +59,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 # Local Guide
 
 Please take a look at the [Local Guide](https://blog.inductorsoftware.com/docsproto/missing/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
-
-Last update: 2022-11-21 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

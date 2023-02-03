@@ -18,5 +18,4 @@ Transfer Component
 Generation Component
 - [/BatchTranslation](https://blog.inductorsoftware.com/docsproto/tools/LogonProcessing_BatchTranslation) --- Running
 the Full Fan-Out Pipeline
-
-Last update: 2009-02-17 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonProcessing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

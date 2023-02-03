@@ -298,5 +298,4 @@ specialize to named\_n and named\_a.
     named_a := named-rel
 
 Abstract type not a string, so can even be done now.
-
-Last update: 2012-05-02 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_PESTExamples/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

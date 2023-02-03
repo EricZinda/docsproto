@@ -52,5 +52,4 @@ For comparison to the CIS tokenizer:
           echo "$line" | ./src/repp/src/repp -c repp/nob.set --format line; \
         done \
       > ap001.t
-
-Last update: 2015-06-26 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/NdtTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -7,22 +7,20 @@ If the user types the phrase:
 There are 171 different parses that the ERG provides since there is a lot of ambiguity in this phrase.  Here, we'll focus on the parses that use "copy" as a verb along with "in" as a preposition. Shown below are 4 different patterns (aka *phenomena*) that appear. They are listed showing the form of the predications for "in" and "copy", along with their interpretation:
 
 1. `_in_p_loc(e15,x8,x16), _copy_v_1(e2,x3,x8)`: copy the 'foo' that is in 'documents' [where to copy is not specified]
-
-This version of "in" has already been implemented [in a previous topic](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc) and doesn't need modification. It takes two `x` arguments and restricts them: `x8` must be something that is "in" `x16`. This is a "locative" form of the "in" preposition that specifies where something is.  So, `in_p_loc` indicates where to find `x8` (i.e. in `x16`), and `copy_v_1` simply needs to copy `x8`...somewhere.  *Where* is not specified.
-
+   
+   This version of "in" has already been implemented [in a previous topic](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc) and doesn't need modification. It takes two `x` arguments and restricts them: `x8` must be something that is "in" `x16`. This is a "locative" form of the "in" preposition that specifies where something is.  So, `in_p_loc` indicates where to find `x8` (i.e. in `x16`), and `copy_v_1` simply needs to copy `x8`...somewhere.  *Where* is not specified.
 2. `_in_p_state(e13,e2,x14), _copy_v_1(e2,x3,x8)`: copy 'foo', and do the copy from within '/documents' [*where* to copy and where 'foo' *is* are not specified]
-
-This reading has a version of "in" that takes the `e2` event for its second arg, and `e2` is introduced by `_copy_v_1`. As described in [the topic about `go_v_1`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo), this means that `in_p_state` is providing information to `_copy_v_1` about *how* to go about copying. Unlike directional prepositions described in that topic, `_state` in the predication name indicates that the preposition is used in a "stative" sense, which effectively means: specifying where the verb is *taking place*. So this phrase says that the "copying" should be done "in the location specified by `x4`".  Where to copy *to* is not specified.
-
+   
+   This reading has a version of "in" that takes the `e2` event for its second arg, and `e2` is introduced by `_copy_v_1`. As described in [the topic about `go_v_1`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo), this means that `in_p_state` is providing information to `_copy_v_1` about *how* to go about copying. Unlike directional prepositions described in that topic, `_state` in the predication name indicates that the preposition is used in a "stative" sense, which effectively means: specifying where the verb is *taking place*. So this phrase says that the "copying" should be done "in the location specified by `x4`".  Where to copy *to* is not specified.
 3. `_copy_v_1(e2,x3,x8,_in_p_loc(e15,x8,x16))`: copy 'foo' such that it ends up in '/documents'
-
-This version of `_copy_v_1` has a scopal argument which contains the "in" preposition. As discussed in the [section on scopal arguments](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments), scopal arguments occur when the predication needs to do something special with the branch of the tree it is passed.  In this case, `_copy_v_1` is being asked to "make `_in_p_loc(e15,x8,x16)` be true", meaning: change the world such that `_in_p_loc(e15,x8,x16)`. Since `x8` is "foo" and `x16` is "/documents", `_copy_v_1` should make "foo" be "in" "/documents".
-
+   
+   This version of `_copy_v_1` has a scopal argument which contains the "in" preposition. As discussed in the [section on scopal arguments](https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments), scopal arguments occur when the predication needs to do something special with the branch of the tree it is passed.  In this case, `_copy_v_1` is being asked to "make `_in_p_loc(e15,x8,x16)` be true", meaning: change the world such that `_in_p_loc(e15,x8,x16)`. Since `x8` is "foo" and `x16` is "/documents", `_copy_v_1` should make "foo" be "in" "/documents".
 4. (not used in this example) `_preposition_p_dir(e,e1,x), verb_v(e1, ...)`
+   
+   There is another variation of the predication for "in" that the ERG doesn't provide for this example, but was shown in [the topic on `go_v_1`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo). Look at the two interpretations of "the mouse is running under the table":
+   
+   (stative) Just like example 1 above: The mouse staying under the table and running around there:
 
-There is another variation of the predication for "in" that the ERG doesn't provide for this example, but was shown in [the topic on `go_v_1`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo). Look at the two interpretations of "the mouse is running under the table":
-
-(stative) Just like example 1 above: The mouse staying under the table and running around there:
 ```
             ┌────── _mouse_n_1(x3)
 _the_q(x3,RSTR,BODY)            ┌────── _table_n_1(x9)
@@ -32,6 +30,7 @@ _the_q(x3,RSTR,BODY)            ┌────── _table_n_1(x9)
 ```
 
 (directional) Just like [`to_p_dir` in the topic on `go_v_1`](https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo): The mouse moving from some other spot in the room on a path that takes it under the table:
+
 ```
             ┌────── _table_n_1(x9)
 _the_q(x9,RSTR,BODY)            ┌────── _mouse_n_1(x3)
@@ -517,4 +516,5 @@ Just to make sure that the expected parse is, in fact, what worked, `/show` was 
 
 Because this code will be the same for all predications that deal with scopal arguments, we can simplify it by writing some helpers.
 
-Last update: 2023-02-02 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabLocativePrepositions.md)]{% endraw %}
+### Simplifying Scopal Argument Predications
+<update date omitted for speed>{% endraw %}

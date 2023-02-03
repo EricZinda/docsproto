@@ -67,5 +67,4 @@ Nivre, J. (Eds.): [Trends in Parsing Technology: Dependency Parsing,
 Domain Adaptation, and Deep
 Parsing](http://www.springerlink.com/content/978-90-481-9351-6).
 Springer, pp. 243-256.
-
-Last update: 2011-11-08 by JonathonRead [[edit](https://github.com/delph-in/docs/wiki/WeSearch_LexicalFiltering/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -58,5 +58,4 @@ In the [next few sections](https://blog.inductorsoftware.com/docsproto/howto/dev
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
 
-
-Last update: 2023-01-23 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devhowto/devhowtoSentenceForce.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}
