@@ -376,19 +376,19 @@
   <p>copy “foo” in “/documents”</p>
 </blockquote>
 
-<p>There are 171 different parses that the ERG provides since there is a lot of ambiguity in this phrase.  Here, we’ll focus on the parses that use “copy” as a verb along with “in” as a preposition. There are 4 different patterns (aka <em>phenomena</em>) that appear and they are listed below just showing the form of the predications for “in” and “copy”, along with their interpretation:</p>
+<p>There are 171 different parses that the ERG provides since there is a lot of ambiguity in this phrase.  Here, we’ll focus on the parses that use “copy” as a verb along with “in” as a preposition. Shown below are 4 different patterns (aka <em>phenomena</em>) that appear. They are listed showing the form of the predications for “in” and “copy”, along with their interpretation:</p>
 
 <ol>
   <li><code class="language-plaintext highlighter-rouge">_in_p_loc(e15,x8,x16), _copy_v_1(e2,x3,x8)</code>: copy the ‘foo’ that is in ‘documents’ [where to copy is not specified]</li>
 </ol>
 
-<p>This version of “in” has already been implemented <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc">in a previous topic</a> and doesn’t need modification. It takes two <code class="language-plaintext highlighter-rouge">x</code> arguments and restricts them: <code class="language-plaintext highlighter-rouge">x8</code> must be something that is “in” <code class="language-plaintext highlighter-rouge">x16</code>. This is a “locative” form of the “in” preposition that specifies where something is.  So, <code class="language-plaintext highlighter-rouge">in_p_loc</code> is indicating where to find <code class="language-plaintext highlighter-rouge">x8</code> (i.e. in <code class="language-plaintext highlighter-rouge">x16</code>), and <code class="language-plaintext highlighter-rouge">copy_v_1</code> simply needs to copy <code class="language-plaintext highlighter-rouge">x8</code>…somewhere.  <em>Where</em> is not specified.</p>
+<p>This version of “in” has already been implemented <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabIn_p_loc">in a previous topic</a> and doesn’t need modification. It takes two <code class="language-plaintext highlighter-rouge">x</code> arguments and restricts them: <code class="language-plaintext highlighter-rouge">x8</code> must be something that is “in” <code class="language-plaintext highlighter-rouge">x16</code>. This is a “locative” form of the “in” preposition that specifies where something is.  So, <code class="language-plaintext highlighter-rouge">in_p_loc</code> indicates where to find <code class="language-plaintext highlighter-rouge">x8</code> (i.e. in <code class="language-plaintext highlighter-rouge">x16</code>), and <code class="language-plaintext highlighter-rouge">copy_v_1</code> simply needs to copy <code class="language-plaintext highlighter-rouge">x8</code>…somewhere.  <em>Where</em> is not specified.</p>
 
 <ol>
   <li><code class="language-plaintext highlighter-rouge">_in_p_state(e13,e2,x14), _copy_v_1(e2,x3,x8)</code>: copy ‘foo’, and do the copy from within ‘/documents’ [<em>where</em> to copy and where ‘foo’ <em>is</em> are not specified]</li>
 </ol>
 
-<p>This reading has a version of “in” that takes the <code class="language-plaintext highlighter-rouge">e2</code> event for its second arg, and <code class="language-plaintext highlighter-rouge">e2</code> is introduced by <code class="language-plaintext highlighter-rouge">_copy_v_1</code>. As described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo">the topic about <code class="language-plaintext highlighter-rouge">go_v_1</code></a>, this means that <code class="language-plaintext highlighter-rouge">in_p_state</code> is providing information to <code class="language-plaintext highlighter-rouge">_copy_v_1</code> about how to go about copying. Unlike directional prepositions described in that topic, <code class="language-plaintext highlighter-rouge">_state</code> in the predication name indicates that the preposition is used in a “stative” sense, which effectively means: specifying where the verb is <em>taking place</em>. So this phrase says that the “copying” should be done “in the location specified by <code class="language-plaintext highlighter-rouge">x4</code>”.  Where to copy <em>to</em> is not specified.</p>
+<p>This reading has a version of “in” that takes the <code class="language-plaintext highlighter-rouge">e2</code> event for its second arg, and <code class="language-plaintext highlighter-rouge">e2</code> is introduced by <code class="language-plaintext highlighter-rouge">_copy_v_1</code>. As described in <a href="https://blog.inductorsoftware.com/docsproto/howto/devvocab/devvocabGoTo">the topic about <code class="language-plaintext highlighter-rouge">go_v_1</code></a>, this means that <code class="language-plaintext highlighter-rouge">in_p_state</code> is providing information to <code class="language-plaintext highlighter-rouge">_copy_v_1</code> about <em>how</em> to go about copying. Unlike directional prepositions described in that topic, <code class="language-plaintext highlighter-rouge">_state</code> in the predication name indicates that the preposition is used in a “stative” sense, which effectively means: specifying where the verb is <em>taking place</em>. So this phrase says that the “copying” should be done “in the location specified by <code class="language-plaintext highlighter-rouge">x4</code>”.  Where to copy <em>to</em> is not specified.</p>
 
 <ol>
   <li><code class="language-plaintext highlighter-rouge">_copy_v_1(e2,x3,x8,_in_p_loc(e15,x8,x16))</code>: copy ‘foo’ such that it ends up in ‘/documents’</li>
@@ -465,7 +465,7 @@ def in_p_loc(state, e_introduced_binding, x_actor_binding, x_location_binding):
   <p>copy “file1.txt” in “/documents”</p>
 </blockquote>
 
-<p>… we only need to implement <code class="language-plaintext highlighter-rouge">_copy_v_1(e,x,x)</code>.  It will work very much like <code class="language-plaintext highlighter-rouge">_delete_v_1</code> <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleCommands"></a>:</p>
+<p>… we only need to implement <code class="language-plaintext highlighter-rouge">_copy_v_1(e,x,x)</code>.  It will work very much <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoSimpleCommands">like <code class="language-plaintext highlighter-rouge">_delete_v_1</code></a>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># "copy" where the user did not say where to copy to, assume current directory
 @Predication(vocabulary, names=["_copy_v_1"])
@@ -544,7 +544,7 @@ File(name=/Desktop/file1.txt, size=1000)
 
 <p>Next up we’ll tackle the stative version of “in”. Recall that “stative” means where the verb is “happening” and so it tells <code class="language-plaintext highlighter-rouge">_copy_v_1</code> where to do the copying <em>from</em>.</p>
 
-<p>This will work exactly the same as the previous example if there is a relative file name. That is because “doing the copy from within ‘documents’” makes the current directory “/documents” and in the previous example we are interpreting as the file itself being “in” documents. Both approaches resolve to the same file. However, an absolute file name should work here (since current directory is not used when calculating an absolute file name) but should <em>not</em> work in the above example since the absolute path won’t be “in” that directory.</p>
+<p>This will work exactly the same as the previous example if there is a relative file name. That is because “doing the copy from within ‘documents’” makes the current directory “/documents” and in the previous example we are interpreting as the file itself being “in” documents. Both approaches resolve to the same file. However, an absolute file name should work here (since current directory is not used when calculating an absolute file name) but should <em>not</em> work in the above example (since the absolute path won’t be “in” that directory).</p>
 
 <p>Here’s the code for stative “in” and a version of “copy” that uses it:</p>
 
@@ -670,7 +670,7 @@ _the_q(x8,RSTR,BODY)               ┌────── pron(x3)
 
 <p>In all these cases, the verb using a scopal argument because they all share the property that the phrase is taking something in the world and changing it to be something different. This type of scenario needs a scopal argument because a normal predication would attempt to find a “foo” that <em>is</em> in “/documents” … and that is not true yet. The scopal argument doesn’t get evaluated normally (as we’ll see below), so it avoids this problem.</p>
 
-<p>So, verbs with scopal arguments have to do what that do in such a way that their scopal argument becomes true. This can all seem wonderfully abstract if you try to imagine how to write code which “paints x in a way that makes any possible thing true”, but the approach we’re going to take here is much more concrete: Break down each scenario we are focused on for a given verb and implement that.</p>
+<p>So, verbs with scopal arguments have to do what they do in such a way that their scopal argument becomes true. This can all seem wonderfully abstract if you try to imagine how to write code which “paints x in a way that makes any possible thing true”, but the approach we’re going to take here is much more concrete: Break down each scenario we are focused on for a given verb and implement that.</p>
 
 <p>For example, for “copy ‘foo’ in ‘/documents’”, the scopal argument is a locative preposition:</p>
 
@@ -686,9 +686,9 @@ proper_q(x8,RSTR,BODY)                           ┌── quoted(/documents,i23
                                                                  └─ _copy_v_1(e2,x3,x8,ARG3)
 </code></pre></div></div>
 
-<p>So, we can implement a version of <code class="language-plaintext highlighter-rouge">_copy_v_1</code> that knows how to deal with locative prepositions. If we do it carefully, it will work with all kind of prepositions.</p>
+<p>So, we can implement a version of <code class="language-plaintext highlighter-rouge">_copy_v_1</code> that knows how to deal with locative prepositions. If we do it carefully, it will work with all kind of locative prepositions.</p>
 
-<p>Here’s how: Note that the following examples all have the same structure with different prepositions:</p>
+<p>Here’s how: Note that the following examples all have the same structure even though they use different locative prepositions, only the preposition is different:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; copy "foo" into "/documents"
 
@@ -718,15 +718,15 @@ proper_q(x8,RSTR,BODY)                           ┌── quoted(/documents,i23
                                                                  └─ _copy_v_1(e2,x3,x8,ARG3)
 </code></pre></div></div>
 
-<p>We need a mechanism that converts scopal predications into a generic form so all of the examples above can be handled in the same way. This form should allow <code class="language-plaintext highlighter-rouge">_copy_v_1</code> to avoid special casing every single preposition.</p>
+<p>We need a mechanism that converts scopal predications into a generic form so all of the examples above can be handled in the same way. This form should allow <code class="language-plaintext highlighter-rouge">_copy_v_1</code> to avoid special casing every single locative preposition.</p>
 
 <p>To do this, we can’t just <code class="language-plaintext highlighter-rouge">call()</code> the scopal argument <code class="language-plaintext highlighter-rouge">_in_p_loc(e17,x8,x18)</code> (as we do for <a href="https://blog.inductorsoftware.com/docsproto/howto/devhowto/devhowtoScopalArguments">quantifiers</a>) – it will fail. “foo” is not yet <em>in</em> “/documents”. Even if it did work, it wouldn’t be in a general form.</p>
 
-<p>Let’s call the form we want: <em>“normalization”</em>. “Normalizing” a predication would put it into a more general or canonical form that would reduce whole classes of similiar predications (like locative prepositions) into a single form the code can handle once. Here are a couple of examples to clarify:</p>
+<p>Let’s call the form we want: <em>“normalization”</em>. “Normalizing” a predication puts it into a more general or canonical form that reduces whole classes of similar predications (like locative prepositions) into a single form the code can handle once. Here are a couple of examples to clarify:</p>
 
 <ul>
-  <li>“Normalizing” a locative preposition would put it in into a form that contains the thing being located and the place it is being located to. Note that this is <em>not</em> necessarily just the two arguments of a locative preposition, as is. “_above_p(e17,x8,x18)”, for example, would need to record the place “above” <code class="language-plaintext highlighter-rouge">x18</code> instead of <code class="language-plaintext highlighter-rouge">x18</code> directly.</li>
-  <li>“Normalizing” an adjective like <code class="language-plaintext highlighter-rouge">_green_a_2(e16,x8)</code> might be as simple as recording the adjective and the thing it is applied to, but it won’t always come from predications that are of the form <code class="language-plaintext highlighter-rouge">adjective(e,x)</code>. “paint the tree lit” (for a Christmas tree, perhaps) generates the “adjective” <code class="language-plaintext highlighter-rouge">_light_v_cause(e16,i17,x8)</code> which is a form of verb being <em>used</em> as an adjective.</li>
+  <li>Normalizing a locative preposition would put it in into a form that contains the thing being located and the place it is being located to. Note that this is <em>not</em> necessarily just the two arguments of a locative preposition, as is. <code class="language-plaintext highlighter-rouge">_above_p(e17,x8,x18)</code>, for example, would need to record the place “above” <code class="language-plaintext highlighter-rouge">x18</code> instead of <code class="language-plaintext highlighter-rouge">x18</code> itself.</li>
+  <li>Normalizing an adjective like <code class="language-plaintext highlighter-rouge">_green_a_2(e16,x8)</code> might be as simple as recording the adjective and the thing it is applied to, but it won’t always come from predications that are of the form <code class="language-plaintext highlighter-rouge">adjective(e,x)</code>. “paint the tree lit” (for a Christmas tree, perhaps) generates the “adjective” <code class="language-plaintext highlighter-rouge">_light_v_cause(e16,i17,x8)</code> which is a form of verb being <em>used</em> as an adjective.</li>
 </ul>
 
 <p>So, we’ll need to implement another version of each predication that knows how to normalize itself. We’ll ask it to put this normalized form into its own introduced event (since it is just information about itself) so that predications like <code class="language-plaintext highlighter-rouge">_copy_v_1</code> can inspect it and decide what to do. And, just like we use the <code class="language-plaintext highlighter-rouge">_comm</code> postfix on predications that implement commands (as opposed to questions), we’ll invent a new postfix called <code class="language-plaintext highlighter-rouge">_norm</code> to indicate that this version of the predication should only be used when it is asked to normalize.  Like this:</p>
@@ -739,7 +739,7 @@ def in_p_loc_norm(state, e_introduced_binding, x_actor_binding, x_location_bindi
     yield state.add_to_e(e_introduced_binding.variable.name, "LocativePreposition", {"Value": preposition_info, "Originator": execution_context().current_predication_index()})
 </code></pre></div></div>
 
-<p>In this example we’ve implemented the normalized form of a locative preposition as something in the event with the key <code class="language-plaintext highlighter-rouge">LocativePreposition</code>, and this JSON value:</p>
+<p>In this example we’ve decided the normalized form of a locative preposition in an event should have the key <code class="language-plaintext highlighter-rouge">LocativePreposition</code> and this JSON value:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
     "LeftSide": x_actor_binding,
@@ -749,7 +749,7 @@ def in_p_loc_norm(state, e_introduced_binding, x_actor_binding, x_location_bindi
 
 <p>… which indicates the “left side” of the locative preposition (i.e. the first, or left argument) and the place where that thing should end up.  Note that this normalized form allows the inspector to ignore what the preposition actually <em>is</em> and just deal with “the place the left side should end up”, thus allowing the copy code to be generalized.</p>
 
-<p>Next, we need a way for <code class="language-plaintext highlighter-rouge">copy_v_1</code> to normalize its scopal argument. We can add a <code class="language-plaintext highlighter-rouge">normalize</code> argument to <code class="language-plaintext highlighter-rouge">ExecutionContext._call_predication()</code> that simply asks for predications of type “norm” when it is set. That, along with allowing “norm” as an extension in the <code class="language-plaintext highlighter-rouge">Predication</code> decorator, is all that is needed:</p>
+<p>Next, we need a way for <code class="language-plaintext highlighter-rouge">copy_v_1</code> to normalize its scopal argument. We can add a <code class="language-plaintext highlighter-rouge">normalize</code> argument to <code class="language-plaintext highlighter-rouge">ExecutionContext._call_predication()</code> that simply asks for predications of type “norm” when it is set. That, along with allowing “norm” as a kind of predication in the <code class="language-plaintext highlighter-rouge">Predication</code> decorator, is all that is needed:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ExecutionContext(object):
     
@@ -766,7 +766,7 @@ def in_p_loc_norm(state, e_introduced_binding, x_actor_binding, x_location_bindi
     ...
 </code></pre></div></div>
 
-<p>The scopal argument for <code class="language-plaintext highlighter-rouge">copy_v_1</code> could be a whole tree. For example:</p>
+<p>The next problem is that the scopal argument for <code class="language-plaintext highlighter-rouge">copy_v_1</code> could be a whole tree. For example:</p>
 
 <blockquote>
   <p>copy “blue” in the folder under “/documents”</p>
@@ -784,7 +784,7 @@ udef_q(x8,RSTR,BODY)             ┌────── _folder_n_of(x1│,i22)  
                                                                                     └─ _copy_v_1(e2,x3,x8,ARG3)      └ _in_p_loc(e16,x8,x17)
 </code></pre></div></div>
 
-<p>So we need a way to somehow figure out which of the predications in the scopal argument introduce the event that holds the “LocativePreposition” value we want.  Because <code class="language-plaintext highlighter-rouge">_copy_v_1</code> has an argument (<code class="language-plaintext highlighter-rouge">x8</code>) which indicates what it should copy, we can assume any predications in the scopal arg that modify <code class="language-plaintext highlighter-rouge">x8</code> are the ones that are saying where <code class="language-plaintext highlighter-rouge">x8</code> should go.  We can write a helper that returns those events:</p>
+<p>So we need a way to somehow figure out which of the predications in the scopal argument introduce the event that holds the “LocativePreposition” value.  Because <code class="language-plaintext highlighter-rouge">_copy_v_1</code> has an argument (<code class="language-plaintext highlighter-rouge">x8</code>) which indicates what it should copy, we can assume any predications in the scopal arg that modify <code class="language-plaintext highlighter-rouge">x8</code> are the ones saying where <code class="language-plaintext highlighter-rouge">x8</code> should go.  We can write a helper that returns those events:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Determine which events modify this individual
 def scopal_events_modifying_individual(x_individual, h_scopal):
