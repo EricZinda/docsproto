@@ -295,7 +295,9 @@
           
             <li><a href="/docsproto/howto/devvocab/devvocabContextInHelpers/">Errors in Helper Functions</a></li>
           
-            <li><a href="/docsproto/howto/devvocab/devvocabGoTo/">`_go_v_1` and `_to_p_dir`</a></li>
+            <li><a href="/docsproto/howto/devvocab/devvocabGoTo/">_go_v_1 and _to_p_dir</a></li>
+          
+            <li><a href="/docsproto/howto/devvocab/devvocabLocativePrepositions/">Locative Prepositions</a></li>
           
         </ul>
         
@@ -427,33 +429,31 @@ class FileSystemMock(FileSystem):
 
 <p>Now we can implement the <code class="language-plaintext highlighter-rouge">_in_p_loc</code> predication:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Predication(vocabulary, names=["_in_p_loc"])
-def in_p_loc(state, e_introduced, x_actor, x_location):
-    x_actor_value = state.get_variable(x_actor)
-    x_location_value = state.get_variable(x_location)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def in_p_loc(state, e_introduced_binding, x_actor_binding, x_location_binding):
+    if x_actor_binding.value is not None:
+        if x_location_binding.value is not None:
+            if hasattr(x_location_binding.value, "contained_items"):
+                # x_actor is "in" x_location if x_location contains it
+                for item in x_location_binding.value.contained_items(x_location_binding.variable):
+                    if x_actor_binding.value == item:
+                        # Variables are already set,
+                        # no need to set them again, just return the state
+                        yield state
 
-    if x_actor_value is not None:
-        if x_location_value is not None:
-            # x_actor is "in" x_location if x_location contains it
-            for item in x_location_value.contained_items():
-                if x_actor_value == item:
-                    # Variables are already set,
-                    # no need to set them again, just return the state
-                    yield state
         else:
             # Need to find all the things that x_actor is "in"
-            if hasattr(x_actor_value, "containers"):
-                for item in x_actor_value.containers():
-                    yield state.set_x(x_location, item)
+            if hasattr(x_actor_binding.value, "containers"):
+                for item in x_actor_binding.value.containers(x_actor_binding.variable):
+                    yield state.set_x(x_location_binding.variable.name, item)
 
     else:
         # Actor is unbound, this means "What is in X?" type of question
         # Whatever x_location "contains" is "in" it
-        if hasattr(x_location_value, "contained_items"):
-            for location in x_location_value.contained_items():
-                yield state.set_x(x_actor, location)
+        if hasattr(x_location_binding.value, "contained_items"):
+            for location in x_location_binding.value.contained_items(x_location_binding.variable):
+                yield state.set_x(x_actor_binding.variable.name, location)
 
-    report_error(["thingHasNoLocation", x_actor, x_location])
+    report_error(["thingHasNoLocation", x_actor_binding.variable.name, x_location_binding.variable.name])
     
     
 def generate_message(tree_info, error_term):
@@ -510,7 +510,7 @@ File(name=/Desktop/file3.txt, size=1000)
   <p>Comprehensive source for the completed tutorial is available <a href="https://github.com/EricZinda/Perplexity">here</a>.</p>
 </blockquote>
 
-<p>Last update: 2023-01-20 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabIn_p_loc.md">edit</a>]</p>
+<p>Last update: 2023-01-31 by EricZinda [<a href="https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabIn_p_loc.md">edit</a>]</p>
 
         
       </section>
