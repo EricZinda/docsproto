@@ -1317,8 +1317,8 @@
         {"Page": "Quick Start", "SrcDir": "main", "SrcFile": "DocsQuickStart.md"},
         {"Page": "Reference", "SrcDir": "main", "SrcFile": "DelphinDocsReference.md"},
         {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"},
-        {"Page": "Current Doc System", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "garage/ERDW_StructureForNewDocsSite.md", "Referrer": "garage/ERDW_StructureForNewDocsSite.md"}
-
+        {"Page": "Current Doc System", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "garage/ERDW_StructureForNewDocsSite.md", "Referrer": "garage/ERDW_StructureForNewDocsSite.md"},
+        {"Page": "Season of Docs", "SrcDir": "docswiki", "SrcFile": "GoogleSeasonOfDocs2023ProjectProposal.md"}
       ]}
     ]
   }
