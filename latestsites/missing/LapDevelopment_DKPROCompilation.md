@@ -19,5 +19,4 @@ Execute the script in the "lap-jar-builder" folder
 
     cd dkpro
     tools/lap-jar-builder/lap-jar-builder/jarbuild.sh dkpro/tools dkpro/result
-
-Last update: 2016-12-19 by MilenKouylekov [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_DKPROCompilation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

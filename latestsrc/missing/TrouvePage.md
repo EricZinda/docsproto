@@ -29,5 +29,4 @@ seriali\[sz\]e
 Ou aller directement sur une page, ou créer une nouvelle page en entrant
 son nom ici :
 
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/TrouvePage/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

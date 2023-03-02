@@ -38,5 +38,4 @@ out the unmapped glyphs.)
 Source code: <http://heim.ifi.uio.no/olasba/nora/findanonglyph06.pl.txt>
 
 - <sup>—Ola, 13 Oct</sup>
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/NoraCorrection/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -13,5 +13,4 @@ The original email communication remains available for archival purposes.
 + [logon](http://lists.delph-in.net/archives/logon/) (the integrated [LOGON](https://github.com/delph-in/docs/wiki/LogonTop) distribution)
 + [matrix](http://lists.delph-in.net/archives/matrix/) (the LinGO Grammar MatriX)
 + [pet](http://lists.delph-in.net/archives/pet/) (the LinGO Grammar MatriX)
-
-Last update: 2022-07-24 by Stephan Oepen [[edit](https://github.com/delph-in/docs/wiki/EmailLists/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -35,5 +35,4 @@ We are separately bringing together our grammar writing experience
 across a variety of languages in devising a [Grammar
 Matrix](http://www.delph-in.net/matrix) to aid in the development of
 broad-coverage, precision, implemented grammars for natural languages.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinLingo/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

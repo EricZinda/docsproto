@@ -52,5 +52,4 @@ workflows. In the year to come, it is expected that the core
 DELPH-IN toolchain will be made available through the LAP.
 
 Finally, two
-
-Last update: 2013-07-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_DelphinUpdates/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

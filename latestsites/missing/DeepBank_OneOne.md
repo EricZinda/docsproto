@@ -38,5 +38,4 @@ first version
 - export into MRG-style trees with PTB-style tokenization
 - investigate high failure percentage in robust meaning construction
 (and DM conversion)
-
-Last update: 2014-03-25 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DeepBank_OneOne/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

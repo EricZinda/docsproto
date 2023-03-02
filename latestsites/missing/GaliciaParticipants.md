@@ -18,5 +18,4 @@ Please add times **in UTC**:
 |John Carroll | July 26-30 (arriving July 23 midday) | in person ||
 | ... | ... | ... |
 | "Virtual-Tarou" | July 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-
-Last update: 2023-02-10 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

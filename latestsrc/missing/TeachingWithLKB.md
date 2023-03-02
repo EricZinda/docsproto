@@ -28,5 +28,4 @@ reading the instructions
 Problem: people are scared of command line and simplistic UI
 
 - How to solve?..
-
-Last update: 2015-08-06 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/TeachingWithLKB/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

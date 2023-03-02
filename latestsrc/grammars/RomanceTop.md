@@ -12,5 +12,4 @@ elsewhere)
 - Uses of [SE](https://blog.inductorsoftware.com/docsproto/grammars/RomSe)
 - [P+Det contractions](https://blog.inductorsoftware.com/docsproto/grammars/RomContract) Also very relevant to [Modern
 Greek](https://blog.inductorsoftware.com/docsproto/grammars/MgrgSummary).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/RomanceTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

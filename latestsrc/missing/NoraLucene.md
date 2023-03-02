@@ -15,5 +15,4 @@ indexing it with lucene. This app resideds at
 check the environment at ps for our project. We have provided a helpful
 run.sh which will invoke java with the right parameters to start the
 app.
-
-Last update: 2009-09-17 by JohanEvensberget [[edit](https://github.com/delph-in/docs/wiki/NoraLucene/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
