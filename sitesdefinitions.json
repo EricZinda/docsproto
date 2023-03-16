@@ -537,6 +537,12 @@
       {"Section": "Overview", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"}
       ]},
+      {"Section": "Galicia 2023", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GaliciaTop.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaTop.md"},
+        {"Page": "Lexical Resources Presummit", "SrcDir": "docswiki", "SrcFile": "GaliciaLexicalResources.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaLexicalResources.md"},
+        {"Page": "Local Guide", "SrcDir": "docswiki", "SrcFile": "GaliciaLocalGuide.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaLocalGuide.md"},
+        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "GaliciaParticipants.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaParticipants.md"},
+      ]},
       {"Section": "Fairhaven 2022", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FairhavenTop.md", "Referrer": "summits/SummitTop.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "Fairhaven2022Schedule.md", "Referrer": "summits/FairhavenTop.md"},
@@ -977,10 +983,6 @@
         {"Page": "FeatureForestTrainer.md", "SrcDir": "docswiki", "SrcFile": "FeatureForestTrainer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/FeatureForestTrainer.md"},
         {"Page": "FieldMappings.md", "SrcDir": "docswiki", "SrcFile": "FieldMappings.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/FieldMappings.md"},
         {"Page": "FortuneCookies.md", "SrcDir": "docswiki", "SrcFile": "FortuneCookies.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/FortuneCookies.md"},
-        {"Page": "GaliciaLexicalResources.md", "SrcDir": "docswiki", "SrcFile": "GaliciaLexicalResources.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaLexicalResources.md"},
-        {"Page": "GaliciaLocalGuide.md", "SrcDir": "docswiki", "SrcFile": "GaliciaLocalGuide.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaLocalGuide.md"},
-        {"Page": "GaliciaParticipants.md", "SrcDir": "docswiki", "SrcFile": "GaliciaParticipants.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaParticipants.md"},
-        {"Page": "GaliciaTop.md", "SrcDir": "docswiki", "SrcFile": "GaliciaTop.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaTop.md"},
         {"Page": "GeGlossaryMC.md", "SrcDir": "docswiki", "SrcFile": "GeGlossaryMC.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GeGlossaryMC.md"},
         {"Page": "GeGlossaryVC.md", "SrcDir": "docswiki", "SrcFile": "GeGlossaryVC.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GeGlossaryVC.md"},
         {"Page": "GenerationModel.md", "SrcDir": "docswiki", "SrcFile": "GenerationModel.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GenerationModel.md"},
