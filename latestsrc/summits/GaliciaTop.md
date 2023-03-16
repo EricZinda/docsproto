@@ -4,7 +4,7 @@ The 19th DELPH-IN [Summit](https://blog.inductorsoftware.com/docsproto/summits/S
 
 ## Registration
 
-Please register at the [2023 participants page](https://blog.inductorsoftware.com/docsproto/missing/GaliciaParticipants).  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
+Please register at the [2023 participants page](https://blog.inductorsoftware.com/docsproto/summits/GaliciaParticipants).  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
 
 There may be a registration fee (especially if we will end up having coffee and lunches on site); I will try to keep it small.
 
@@ -13,7 +13,7 @@ The local organization is handled by Olga Zamaraeva and the [LyS Group](http://w
 
 ## Optional pre-summit workshop
 
-A pre-summit [workshop on Lexical Resources](https://blog.inductorsoftware.com/docsproto/missing/GaliciaLexicalResources) is going to be on Friday, June 23, followed by the [San Juan party](https://www.spain.info/es/agenda/hogueras-san-juan-a-coruna/). 
+A pre-summit [workshop on Lexical Resources](https://blog.inductorsoftware.com/docsproto/summits/GaliciaLexicalResources) is going to be on Friday, June 23, followed by the [San Juan party](https://www.spain.info/es/agenda/hogueras-san-juan-a-coruna/). 
 
 # Program
 
@@ -58,5 +58,6 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 # Local Guide
 
-Please take a look at the [Local Guide](https://blog.inductorsoftware.com/docsproto/missing/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
-<update date omitted for speed>{% endraw %}
+Please take a look at the [Local Guide](https://blog.inductorsoftware.com/docsproto/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
+
+Last update: 2023-02-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}

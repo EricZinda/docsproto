@@ -125,4 +125,5 @@ By passing variable context to helpers, and converting `MessageExceptions` to us
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-27 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabContextInHelpers.md)]{% endraw %}

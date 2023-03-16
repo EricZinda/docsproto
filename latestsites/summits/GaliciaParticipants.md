@@ -1,4 +1,4 @@
-{% raw %}The following is a list of participants registered for the [**2023 DELPH-IN Summit**](https://blog.inductorsoftware.com/docsproto/missing/GaliciaTop), to be held in A Coruña, Galicia, Spain, during the week of June 26-30, 2023. 
+{% raw %}The following is a list of participants registered for the [**2023 DELPH-IN Summit**](https://blog.inductorsoftware.com/docsproto/summits/GaliciaTop), to be held in A Coruña, Galicia, Spain, during the week of June 26-30, 2023. 
 
 Any member of the DELPHIN organization is invited and is encouraged to register here.
 
@@ -16,6 +16,8 @@ Please add times **in UTC**:
 |Francis Bond|July 26-30 and July 23 workshop | in person, 8:00-17:00 UTC ||
 |Alexandre Rademaker|July 26-30 and July 23 workshop | hopefully in person, 8:00-17:00 UTC ||
 |John Carroll | July 26-30 (arriving July 23 midday) | in person ||
+|Emily M. Bender|July 26-30| in person ||
 | ... | ... | ... |
 | "Virtual-Tarou" | July 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-03-16 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

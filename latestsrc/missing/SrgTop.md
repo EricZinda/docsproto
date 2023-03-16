@@ -16,7 +16,7 @@ gato gato NCMS000 1
 duerme dormir VMIP3S0 0.989241
 . . Fp 1
 ```
-4. There is a script, under `util/`, which maps tags from Freeling with rules in the SRG using [YY input mode](https://github.com/delph-in/docs/wiki/PetInput#yy-input-mode). See intended usage in `util/srg-yy.sh`
+4. There is a script, under `util/analyze-wrappers`, which maps tags from Freeling with rules in the SRG using [YY input mode](https://github.com/delph-in/docs/wiki/PetInput#yy-input-mode). See intended usage in `util/srg-yy.sh`
 5. Make sure you have a recent version of [ACE](https://github.com/delph-in/docs/wiki/AceInstall) installed.
 6. [Compile](https://github.com/delph-in/docs/wiki/AceUse#compiling-the-grammar) the grammar using ACE.
 7. Run the script with the sample sentence file, making sure the `srg-yy.sh` script has the correct path to the ACE-compiled grammar. Note: You may want to create your own copy of the script (e.g. `my-srg-yy.sh`); do not then check it into the repository.
@@ -28,8 +28,15 @@ duerme dormir VMIP3S0 0.989241
 
 9. To use the graphical interface for the output, [install LUI](https://github.com/delph-in/docs/wiki/AceLui) and use the flag sequence -1Tlf instead of -1Tf in step 8 above. Right now, there is no way of using the LUI interface with the `srg-yy.sh` script.
 
+## Setting up treebanks
+
+See https://github.com/delph-in/srg/blob/main/util/README
+
+Find the up-to-date treebanks in the latest release (https://github.com/delph-in/srg/releases/)
+
 ## References
 [Marimon 2010. The Spanish Resource Grammar.](https://aclanthology.org/L10-1411/)
 
 [Marimon 2013. The Spanish DELPH-IN Grammar.](https://link.springer.com/article/10.1007/s10579-012-9199-7)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-03-16 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/SrgTop/_edit)]{% endraw %}

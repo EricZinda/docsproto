@@ -527,4 +527,5 @@ In this example I have not described one, reasonably large, change that needed t
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-31 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabFileDirectoryNames.md)]{% endraw %}

@@ -345,14 +345,6 @@
           
             <li><a href="/docsproto/missing/FortuneCookies/">FortuneCookies.md</a></li>
           
-            <li><a href="/docsproto/missing/GaliciaLexicalResources/">GaliciaLexicalResources.md</a></li>
-          
-            <li><a href="/docsproto/missing/GaliciaLocalGuide/">GaliciaLocalGuide.md</a></li>
-          
-            <li><a href="/docsproto/missing/GaliciaParticipants/">GaliciaParticipants.md</a></li>
-          
-            <li><a href="/docsproto/missing/GaliciaTop/">GaliciaTop.md</a></li>
-          
             <li><a href="/docsproto/missing/GeGlossaryMC/">GeGlossaryMC.md</a></li>
           
             <li><a href="/docsproto/missing/GeGlossaryVC/">GeGlossaryVC.md</a></li>
@@ -873,7 +865,7 @@ duerme dormir VMIP3S0 0.989241
 . . Fp 1
 </code></pre></div></div>
 <ol>
-  <li>There is a script, under <code class="language-plaintext highlighter-rouge">util/</code>, which maps tags from Freeling with rules in the SRG using <a href="https://github.com/delph-in/docs/wiki/PetInput#yy-input-mode">YY input mode</a>. See intended usage in <code class="language-plaintext highlighter-rouge">util/srg-yy.sh</code></li>
+  <li>There is a script, under <code class="language-plaintext highlighter-rouge">util/analyze-wrappers</code>, which maps tags from Freeling with rules in the SRG using <a href="https://github.com/delph-in/docs/wiki/PetInput#yy-input-mode">YY input mode</a>. See intended usage in <code class="language-plaintext highlighter-rouge">util/srg-yy.sh</code></li>
   <li>Make sure you have a recent version of <a href="https://github.com/delph-in/docs/wiki/AceInstall">ACE</a> installed.</li>
   <li><a href="https://github.com/delph-in/docs/wiki/AceUse#compiling-the-grammar">Compile</a> the grammar using ACE.</li>
   <li>Run the script with the sample sentence file, making sure the <code class="language-plaintext highlighter-rouge">srg-yy.sh</code> script has the correct path to the ACE-compiled grammar. Note: You may want to create your own copy of the script (e.g. <code class="language-plaintext highlighter-rouge">my-srg-yy.sh</code>); do not then check it into the repository.</li>
@@ -887,12 +879,18 @@ duerme dormir VMIP3S0 0.989241
   <li>To use the graphical interface for the output, <a href="https://github.com/delph-in/docs/wiki/AceLui">install LUI</a> and use the flag sequence -1Tlf instead of -1Tf in step 8 above. Right now, there is no way of using the LUI interface with the <code class="language-plaintext highlighter-rouge">srg-yy.sh</code> script.</li>
 </ol>
 
+<h2 id="setting-up-treebanks">Setting up treebanks</h2>
+
+<p>See https://github.com/delph-in/srg/blob/main/util/README</p>
+
+<p>Find the up-to-date treebanks in the latest release (https://github.com/delph-in/srg/releases/)</p>
+
 <h2 id="references">References</h2>
 <p><a href="https://aclanthology.org/L10-1411/">Marimon 2010. The Spanish Resource Grammar.</a></p>
 
 <p><a href="https://link.springer.com/article/10.1007/s10579-012-9199-7">Marimon 2013. The Spanish DELPH-IN Grammar.</a></p>
-<update date="" omitted="" for="" speed="">
-</update>
+
+<p>Last update: 2023-03-16 by Olga Zamaraeva [<a href="https://github.com/delph-in/docs/wiki/SrgTop/_edit">edit</a>]</p>
 
         
       </section>

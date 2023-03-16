@@ -669,4 +669,5 @@ def scopal_events_modifying_individual(x_individual, h_scopal):
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-02-03 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabLocativePrepositions.md)]{% endraw %}

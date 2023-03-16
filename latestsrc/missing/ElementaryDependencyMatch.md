@@ -103,4 +103,5 @@ Usage:
 - statsig\_shuffle.pl &lt;first stats file&gt; &lt;second stats
 file&gt; \[iterations\] statsig\_shuffle.pl jhk.gold.stats
 jhk.test.stats 10000
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-06-16 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/ElementaryDependencyMatch/_edit)]{% endraw %}

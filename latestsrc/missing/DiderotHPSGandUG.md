@@ -172,4 +172,5 @@ DanFlickinger: Manning's Law does hit on this.
 EmilyBender: And it's a good name.
 
 JohnCarroll: And they've learned from CoNNL.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-06-20 by KristenHowell [[edit](https://github.com/delph-in/docs/wiki/DiderotHPSGandUG/_edit)]{% endraw %}

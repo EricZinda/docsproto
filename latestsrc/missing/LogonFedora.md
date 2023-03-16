@@ -67,4 +67,5 @@ accessible, e.g. LKB\\View\\Type Hierarchy
 # Fedora 31 (64-Bit)
 
       dnf install -y libnsl motif xorg-x11-fonts-*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-11-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonFedora/_edit)]{% endraw %}

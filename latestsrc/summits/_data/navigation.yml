@@ -22,6 +22,16 @@ toc:
     children:
       - title: "Overview"
         url: "/SummitTop/"
+  - title: "Galicia 2023"
+    children:
+      - title: "Overview"
+        url: "/GaliciaTop/"
+      - title: "Lexical Resources Presummit"
+        url: "/GaliciaLexicalResources/"
+      - title: "Local Guide"
+        url: "/GaliciaLocalGuide/"
+      - title: "Participants"
+        url: "/GaliciaParticipants/"
   - title: "Fairhaven 2022"
     children:
       - title: "Overview"

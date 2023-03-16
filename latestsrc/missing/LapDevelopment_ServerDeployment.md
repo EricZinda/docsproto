@@ -522,4 +522,5 @@ all Galaxy files in all user histories (i.e. receipts, referring to
 collections) useless, thus must only be used on development instances:
 
       db.getCollectionNames().forEach(function(foo) { if (foo.indexOf("system.") == -1) db[foo].drop(); })
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-20 by MilenKouylekov [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_ServerDeployment/_edit)]{% endraw %}

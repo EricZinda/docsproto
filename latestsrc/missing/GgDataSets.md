@@ -13,4 +13,5 @@
 |----------|--------------|------------|----------|------------------------|
 | **Name** | **Profiles** | **Domain** | **Size** | **Publicly Available** |
 |          |              |            |          |                        |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-05 by PeterAdolphs [[edit](https://github.com/delph-in/docs/wiki/GgDataSets/_edit)]{% endraw %}
