@@ -174,5 +174,4 @@ Trees](http://svn.emmtee.net/trunk/cas/mri/0518/leangkollen.fgd)
 (courtesy of Jan Hajič)
 
 # Open Issues
-
-Last update: 2018-05-30 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem_MeaningRepresentation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -52,5 +52,4 @@ Both locations are indicated on this
 - 2007 3rd Summit: [Berlin](https://blog.inductorsoftware.com/docsproto/summits/BerlinTop)
 - 2006 2nd Summit: [Fefor](https://blog.inductorsoftware.com/docsproto/summits/FeforTop)
 - 2005 1st Summit: [Lisbon](https://blog.inductorsoftware.com/docsproto/summits/LisbonTop) (co-located with HPSG)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParisTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

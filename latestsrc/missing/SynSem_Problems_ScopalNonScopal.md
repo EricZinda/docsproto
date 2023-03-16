@@ -672,5 +672,4 @@ oe: He would kind of have to eventually, but he doesn't initially. It's
 a very clean story initially.
 
 Emily: He's not broad coverage.
-
-Last update: 2017-08-25 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SynSem_Problems_ScopalNonScopal/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -109,5 +109,4 @@ We'll use this same trick later, when we encounter the [`thing` predication](htt
 
 > Comprehensive source for the completed tutorial is available [here](https://github.com/EricZinda/Perplexity).
 
-
-Last update: 2023-01-19 by EricZinda [[edit](https://github.com/ericzinda/Perplexity/edit/main/docs/devvocab/devvocabReorderingQuantifierArguments.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

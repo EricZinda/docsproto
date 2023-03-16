@@ -258,5 +258,4 @@ first sentence is annotated with:
             "domain" : "token",
             "range" : "sentence"
     }
-
-Last update: 2015-07-15 by ArneSkjærholt [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Annotations/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

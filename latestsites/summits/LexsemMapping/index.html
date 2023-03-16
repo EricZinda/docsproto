@@ -133,7 +133,7 @@
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/summits/SummitTop">Summits</a>
             </li><li class="masthead__menu-item">
-              <a href="https://blog.inductorsoftware.com/docsproto/garage/AgreeTop">Garage</a>
+              <a href="https://blog.inductorsoftware.com/docsproto/garage/GarageTop">Garage</a>
             </li><li class="masthead__menu-item">
               <a href="https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus">Missing</a>
             </li></ul>
@@ -1288,7 +1288,7 @@ x9:_dog_n_1 = dog_n1
 
 <h3 id="compositional-compound-nouns">Compositional Compound Nouns</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The cat_{cat_n1} ate_{eat_v1} a guard_{guard_n1&amp;guard_dog_n1} dog_{dog_n1&amp;guard_dog_n1}.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The cat_{cat_n1} ate_{eat_v1} a guard_{guard_dog_n1} dog_{guard_dog_n1}.
 e3:
  _1:_the_q⟨0:3⟩[BV x6]
  x6:_cat_n_1⟨4:7⟩[]
@@ -1300,19 +1300,30 @@ e3:
  x9:_dog_n_1⟨20:23⟩[]
 </code></pre></div></div>
 
-<p>NTU WN tags both the single and MWE in this case, <a href="https://blog.inductorsoftware.com/docsproto/garage/SemCor">SemCor</a> maps
+<p>NTU WN tags just MWE in this case, <a href="https://blog.inductorsoftware.com/docsproto/garage/SemCor">SemCor</a> maps
 only the MWE I think we want:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
 e3:_eat_v_1 = eat_v1
 x9:_dog_n_1 = guard_dog_n1
-x14:_guard_n_1 = guard_n1
+x14:_guard_n_1 = x
 </code></pre></div></div>
 
-<p>A guard dog is a dog, which has something to do with a guard, so we
-imply x9:_dog_n_1 = dog_n1 through the magic of hypernymy.</p>
+<p>We get this in two steps.  First we get the compositional reading from the ERG’s treebanking (really we get guard_n_per, which also includes basketball guard, …):</p>
 
-<p>One could think of something like:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_eat_v_1 = eat_v1
+x9:_dog_n_1 = dog_n1
+x14:_guard_n_1 = guard_n2 'a person who keeps watch over something or someone' 
+</code></pre></div></div>
+
+<p>Then we write an (optional) mtr, that rewrites the compound to a single noun (hopefully dealing with modifiers correctly).</p>
+
+<p>&lt;guard_n2, compound, dog_n1&gt; =&gt; <guard_dog_n1></guard_dog_n1></p>
+
+<p>It would be good to also link these in wordnet: we should have guard_dog_n1 is_a dog_n1, we also want ‘guard_n2’ internally modifies ‘dog_n1’ in ‘guard_dog_n1’.</p>
+
+<p>One could instead think of something like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
 e3:_eat_v_1 = eat_v1
@@ -1321,7 +1332,7 @@ x14:_guard_n_1 = guard_n1
 e15:compound = guard_dog_n1
 </code></pre></div></div>
 
-<p>But this isn’t quite right (works better for A&amp;B}.</p>
+<p>But this isn’t quite right: too many predicates, compound is not a noun, …</p>
 
 <h3 id="non-compositional-compound-nouns">Non Compositional Compound Nouns</h3>
 
@@ -1339,7 +1350,7 @@ e3:
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
 e3:_eat_v_1 = eat_v1
-x9:_dog_n_1 = hot_dog_n1
+x9:_dog_n_1 = hot+dog_n1
 </code></pre></div></div>
 
 <p>Ideally, the ERG should contain “hot dog” as a single entry, so that
@@ -1351,6 +1362,8 @@ things map even better.</p>
 
 <p>We don’t really know how to mark the whole idiom (although the ERG
 recognizes it)</p>
+
+<p>But we can write a machine translation rule to rewrite it.</p>
 
 <p><em>X doesn’t know X’s arse from X’s elbow</em> “X is an idiot.” ?Postprocess</p>
 
@@ -1368,8 +1381,8 @@ recognizes it)</p>
 
 <p>Many more corner cases to come :-): “Sleeping Beauty: is sleep v or n”,
 more complex MWEs, … .</p>
-
-<p>Last update: 2013-07-29 by FrancisBond [<a href="https://github.com/delph-in/docs/wiki/LexsemMapping/_edit">edit</a>]</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

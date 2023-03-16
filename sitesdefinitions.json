@@ -1220,7 +1220,9 @@
         {"Page": "ZhongToDoList.md", "SrcDir": "docswiki", "SrcFile": "ZhongToDoList.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongToDoList.md"}
       ]}
     ],
-    "garage": [
+    "garage": [{"Section": "Overview", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GarageTop.md"}
+      ]},
       {"Section": "Grammar Tools", "Pages": [
         {"Page": "Agree", "SrcDir": "docswiki", "SrcFile": "AgreeTop.md"},
         {"Page": "Chart Mapping", "SrcDir": "docswiki", "SrcFile": "ChartMapping.md", "Referrer": "concept/ErgTokenization.md"},

@@ -138,7 +138,7 @@ be just:
 
 ### Compositional Compound Nouns
 
-    The cat_{cat_n1} ate_{eat_v1} a guard_{guard_n1&guard_dog_n1} dog_{dog_n1&guard_dog_n1}.
+    The cat_{cat_n1} ate_{eat_v1} a guard_{guard_dog_n1} dog_{guard_dog_n1}.
     e3:
      _1:_the_q⟨0:3⟩[BV x6]
      x6:_cat_n_1⟨4:7⟩[]
@@ -149,18 +149,28 @@ be just:
      x14:_guard_n_1⟨14:19⟩[]
      x9:_dog_n_1⟨20:23⟩[]
 
-NTU WN tags both the single and MWE in this case, [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) maps
+NTU WN tags just MWE in this case, [SemCor](https://blog.inductorsoftware.com/docsproto/garage/SemCor) maps
 only the MWE I think we want:
 
     x6:_cat_n_1 = cat_n1
     e3:_eat_v_1 = eat_v1
     x9:_dog_n_1 = guard_dog_n1
-    x14:_guard_n_1 = guard_n1
+    x14:_guard_n_1 = x
 
-A guard dog is a dog, which has something to do with a guard, so we
-imply x9:\_dog\_n\_1 = dog\_n1 through the magic of hypernymy.
+We get this in two steps.  First we get the compositional reading from the ERG's treebanking (really we get guard_n_per, which also includes basketball guard, ...):
 
-One could think of something like:
+    x6:_cat_n_1 = cat_n1
+    e3:_eat_v_1 = eat_v1
+    x9:_dog_n_1 = dog_n1
+    x14:_guard_n_1 = guard_n2 'a person who keeps watch over something or someone' 
+
+Then we write an (optional) mtr, that rewrites the compound to a single noun (hopefully dealing with modifiers correctly).
+
+<guard_n2, compound, dog_n1> => <guard_dog_n1>
+
+It would be good to also link these in wordnet: we should have guard_dog_n1 is_a dog_n1, we also want 'guard_n2' internally modifies 'dog_n1' in 'guard_dog_n1'.
+
+One could instead think of something like this:
 
     x6:_cat_n_1 = cat_n1
     e3:_eat_v_1 = eat_v1
@@ -168,7 +178,7 @@ One could think of something like:
     x14:_guard_n_1 = guard_n1
     e15:compound = guard_dog_n1
 
-But this isn't quite right (works better for A&B}.
+But this isn't quite right: too many predicates, compound is not a noun, ...
 
 ### Non Compositional Compound Nouns
 
@@ -185,7 +195,7 @@ Here, we don't want the semantics "a dog that is hot", so:
 
     x6:_cat_n_1 = cat_n1
     e3:_eat_v_1 = eat_v1
-    x9:_dog_n_1 = hot_dog_n1
+    x9:_dog_n_1 = hot+dog_n1
 
 Ideally, the ERG should contain "hot dog" as a single entry, so that
 things map even better.
@@ -196,6 +206,8 @@ things map even better.
 
 We don't really know how to mark the whole idiom (although the ERG
 recognizes it)
+
+But we can write a machine translation rule to rewrite it.
 
 *X doesn't know X's arse from X's elbow* "X is an idiot." ?Postprocess
 
@@ -213,5 +225,4 @@ How should we show this?
 
 Many more corner cases to come :-): "Sleeping Beauty: is sleep v or n",
 more complex MWEs, ... .
-
-Last update: 2013-07-29 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LexsemMapping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -102,5 +102,4 @@ notes)](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis20
 verbs](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014Nominalization)
 - [Nominalization II: Deverbal
 nouns](https://blog.inductorsoftware.com/docsproto/summits/TheAbbey_Chrysalis2014DeverbalNouns)
-
-Last update: 2014-02-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

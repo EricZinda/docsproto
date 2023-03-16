@@ -327,5 +327,4 @@ treat the Der/h tag as its right boundary).
     $LAPTREE/etc/driver ==tool gt ==process tokenize /tmp/media.oe.sme.rpt /tmp/gt.tokenize.oe.sme.rpt
     $LAPTREE/etc/driver ==tool gt ==process disambiguate /tmp/gt.tokenize.oe.sme.rpt /tmp/gt.disambiguate.oe.sme.rpt
     $LAPTREE/etc/driver ==tool export ==process cg3 --style gt /tmp/gt.disambiguate.oe.sme.rpt
-
-Last update: 2015-06-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LapDevelopment_Giellatekno/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
