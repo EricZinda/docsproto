@@ -12,12 +12,14 @@ Please add times **in UTC**:
 
 | Name | Dates | Mode (Virtual/In-Person) | Comments |
 -------|------ | ----- | ---------|
-|Olga Zamaraeva | July 26-30 and July 23 workshop | in person, 8:00-17:00 UTC | Looking forward to seeing everyone in A Coruña!|
-|Francis Bond|July 26-30 and July 23 workshop | in person, 8:00-17:00 UTC ||
-|Alexandre Rademaker|July 26-30 and July 23 workshop | hopefully in person, 8:00-17:00 UTC ||
-|John Carroll | July 26-30 (arriving July 23 midday) | in person ||
-|Emily M. Bender|July 26-30| in person ||
+|Olga Zamaraeva | June 26-30 and June 23 workshop | in person, 8:00-17:00 UTC | Looking forward to seeing everyone in A Coruña!|
+|Francis Bond|June 26-30 and June 23 workshop | in person, 8:00-17:00 UTC ||
+|Alexandre Rademaker|June 26-30 and June 23 workshop | hopefully in person, 8:00-17:00 UTC ||
+|John Carroll | June 26-30 (arriving June 23 midday) | in person ||
+|Emily M. Bender|June 26-30| in person ||
+|Berthold Crysmann|June 26-30| in person ||
+|Dan Flickinger|June 26-30 and June 23 workshop| in person ||
 | ... | ... | ... |
-| "Virtual-Tarou" | July 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
+| "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-03-16 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-03-17 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
