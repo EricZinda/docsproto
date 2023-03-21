@@ -106,6 +106,9 @@
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_NumberSequences/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_OneAnaphora/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Parentheticals/</loc>
 </url>
 <url>
@@ -115,6 +118,9 @@
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_PropositionalArguments/</loc>
 </url>
 <url>
+<loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_Quantification/</loc>
+</url>
+<url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_QuasiModalInfinitivals/</loc>
 </url>
 <url>
@@ -122,6 +128,9 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_RelationalNouns/</loc>
+</url>
+<url>
+<loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_RelativeClauses/</loc>
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/ErgSemantics_TimeExpressions/</loc>
@@ -158,6 +167,6 @@
 </url>
 <url>
 <loc>http://blog.inductorsoftware.com/docsproto/erg/nav.html</loc>
-<lastmod>2023-03-17T16:26:32+00:00</lastmod>
+<lastmod>2023-03-21T16:15:04+00:00</lastmod>
 </url>
 </urlset>
