@@ -15,8 +15,6 @@ main:
     url: https://blog.inductorsoftware.com/docsproto/summits/SummitTop
   - title: "Garage"
     url: https://blog.inductorsoftware.com/docsproto/garage/GarageTop
-  - title: "Missing"
-    url: https://blog.inductorsoftware.com/docsproto/missing/AclAnthologyCorpus
 toc:
   - title: "Overview"
     children:
@@ -40,6 +38,20 @@ toc:
         url: "/Fairhaven2022Schedule/"
       - title: "Participants"
         url: "/Fairhaven2022Participants/"
+      - title: "ERG Docs"
+        url: "/Fairhaven2022-ERG-docs/"
+      - title: "Emerson-Turing Types"
+        url: "/Fairhaven2022-Emerson-Turing-types/"
+      - title: "LOGOFF and Git On"
+        url: "/Fairhaven2022-LOGOFF-and-Git-On/"
+      - title: "Linking ERG and Wordnet"
+        url: "/Fairhaven2022-Linking-ERG-and-Wordnet/"
+      - title: "Parsing Wordnet and Senses"
+        url: "/Fairhaven2022-Parsing-WordNet-definition-and-linking-to-senses/"
+      - title: "Semantic vs Syntactic Treebanking"
+        url: "/Fairhaven2022-Semantic-vs-Syntactic-Treebanking/"
+      - title: "Speeding up Matrix Customization"
+        url: "/Fairhaven2022-Speeding-up-the-Web-Questionnaire/"
   - title: "Virtual 2021"
     children:
       - title: "Overview"
@@ -60,6 +72,8 @@ toc:
         url: "/Virtual2021DataStatements/"
       - title: "Defeasible Identity"
         url: "/Virtual2021DefeasibleIdentity/"
+      - title: "Sahaptin Grammar"
+        url: "/Virtual2021Sahaptin/"
   - title: "Bellingham 2020"
     children:
       - title: "Overview"
