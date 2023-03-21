@@ -5,21 +5,16 @@
 https://stackoverflow.com/questions/59408320/github-action-to-copy-a-file-from-one-repo-to-another
 Probably the best action to start with: https://github.com/marketplace/actions/copy-anywhere-action
 
-check out both repositories under different paths:
-https://github.com/actions/checkout
-
-literally do a file copy of one into the other
-
-check it back in
+1. check out both repositories under different paths: https://github.com/actions/checkout
+2. literally do a file copy of one into the other
+3. check it back in
 
 # How to checkin using github actions
-
 https://github.com/marketplace/actions/simple-commit
     - doesn't push
 
 https://github.com/marketplace/actions/commit-and-push-branch
     - does a commit and push
-
 
 https://github.com/ad-m/github-push-action
     - best reviewed for push
@@ -58,8 +53,4 @@ https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/
 https://github.com/slashdotdash/jekyll-lunr-js-search
 - https://github.com/slashdotdash/jekyll-lunr-js-search/issues/82
   - Have to generate the index locally first since google pages won't run plugins
-
-# Using Google for search   
-https://programmablesearchengine.google.com/controlpanel/all
-https://search.google.com/search-console/sitemaps?resource_id=sc-domain%3Ainductorsoftware.com&hl=en
-https://search.google.com/search-console/inspect/mobile-usability?resource_id=sc-domain%3Ainductorsoftware.com&id=xNygzv7-8f6Jlh1xsQL5Gg&alt_id=nIMmyQnLbMK684aFrvmfvg&hl=en
+  
