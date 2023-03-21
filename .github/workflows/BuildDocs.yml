@@ -162,11 +162,11 @@ jobs:
           source: ./main/latestsrc/grammars
           destination: main/latestsites/grammars
 
-      - name: Build Grammars with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./main/latestsrc/missing
-          destination: main/latestsites/missing
+#      - name: Build Grammars with Jekyll
+#        uses: actions/jekyll-build-pages@v1
+#        with:
+#          source: ./main/latestsrc/missing
+#          destination: main/latestsites/missing
 
 
       - name: Upload all the sites to github pages
