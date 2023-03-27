@@ -8,4 +8,5 @@ The documentation for the Grammar Matrix is broken into these sections:
 5. [MRS Tests](https://blog.inductorsoftware.com/docsproto/matrix/MatrixMrsTestSuite): A set of standardized tests to show selected MRS phenomena across many grammars 
 
 If you are new to the Grammar Matrix, [start with the overview](https://blog.inductorsoftware.com/docsproto/matrix/MatrixTop).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-25 by Elizabeth Conrad [[edit](https://github.com/ericzinda/docsproto/edit/main/MatrixDocsOverview.md)]{% endraw %}
