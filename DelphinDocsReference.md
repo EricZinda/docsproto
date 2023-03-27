@@ -17,6 +17,18 @@ After the `createdocs.py` script is finished, control goes back to the workflow 
 5. Actually runs Jekyll on all the site definitions to build the real HTML
 6. Publishes the sites to GitHub pages so they can be served
 
+## The docs repository folder structure
+The `docs` repository has the following folder structure:
+- `.github`: This folder contains the GitHub workflow that runs the documentation build process.  It also contains a folder called `workflows` which contains the actual workflow definition.  This is the file that is run when you click the "Actions" tab on the GitHub page for the `docs` repository.
+- `latestsrc`: Files selected by `sitedefinitions.json` to be in the documentation sites are initially copied here.  Think of this as the raw documentation that will be turned into actual HTML site.  This is checked into git so that changes can be tracked.
+- `latestsites`: Jekyll takes the raw input from `latestsrc` and turns it into a real HTML site in this folder. This folder contains the latest version of the documentation sites.  It is the output of the workflow and is checked into git, so that differences between versions can be seen.  It is the folder that is served by GitHub pages. 
+- `sitescripts`: Contains the python scripts that are run by the workflow to build the documentation sites.  It also contains files that start with `template_` which are some of the template files needed by Jekyll to build the sites. The `sitescripts/site_template_standard` folder contains the rest of the files used by Jekyll. The `sitescripts/site_template_standard` folder is copied into the `latestsites` folder, once for each site built.
+- `sitesdefinitions.json`: This is the file that defines the structure of the documentation sites.  It is the key file in the whole process that defines the site structure and what goes where.
+- `testdata`: Contains some test data that is used by the workflow to test the documentation build process.  It is not used in the actual documentation build process.
+- `testsitesdefinitions.json`: This is a copy of `sitesdefinitions.json` that is used by the workflow to test the documentation build process (along with the `testdata` folder).  It is not used in the actual documentation build process.
+
+There are also some markdown (`.md`) files in the root of the `docs` repository that get included in the documentation (such as this file). 
+
 ## Defining the Documentation Structure
 `sitesdefinitions.json` is the key file in this whole process. A simplified version looks like this:
 
