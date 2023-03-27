@@ -23,11 +23,11 @@ The `docs` repository has the following folder structure:
 - `latestsrc`: Files selected by `sitedefinitions.json` to be in the documentation sites are initially copied here.  Think of this as the raw documentation that will be turned into actual HTML site.  This is checked into git so that changes can be tracked.
 - `latestsites`: Jekyll takes the raw input from `latestsrc` and turns it into a real HTML site in this folder. This folder contains the latest version of the documentation sites.  It is the output of the workflow and is checked into git, so that differences between versions can be seen.  It is the folder that is served by GitHub pages. 
 - `sitescripts`: Contains the python scripts that are run by the workflow to build the documentation sites.  It also contains files that start with `template_` which are some of the template files needed by Jekyll to build the sites. The `sitescripts/site_template_standard` folder contains the rest of the files used by Jekyll. The `sitescripts/site_template_standard` folder is copied into the `latestsites` folder, once for each site built.
+- `sitescripts/testdata`: Contains some test data that is used by the workflow to test the documentation build process.  It is not used in the actual documentation build process.
+- `sitescripts/testsitesdefinitions.json`: This is a copy of `sitesdefinitions.json` that is used by the workflow to test the documentation build process (along with the `testdata` folder).  It is not used in the actual documentation build process.
 - `sitesdefinitions.json`: This is the file that defines the structure of the documentation sites.  It is the key file in the whole process that defines the site structure and what goes where.
-- `testdata`: Contains some test data that is used by the workflow to test the documentation build process.  It is not used in the actual documentation build process.
-- `testsitesdefinitions.json`: This is a copy of `sitesdefinitions.json` that is used by the workflow to test the documentation build process (along with the `testdata` folder).  It is not used in the actual documentation build process.
 
-There are also some markdown (`.md`) files in the root of the `docs` repository that get included in the documentation (such as this file). 
+There are also some markdown (`.md`) files in the root of the `docs` repository that get included in the documentation (such as this file).  This is where pages that aren't really appropriate in the WIKI should go.  For example `MatrixDocsOverview.md` refers to navigation that isn't there when you are browsing the wiki directly, it is solely used in the documentation site. The documentation reference files are here instead of in the WIKI to make them discoverable by people browsing the docs site.
 
 ## Defining the Documentation Structure
 `sitesdefinitions.json` is the key file in this whole process. A simplified version looks like this:
@@ -166,3 +166,31 @@ If it failed, click on the row that represents the run you just did and you'll s
 
 ## The `<todo>` Section
 Note that any section named `<todo>` that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.
+
+## Running `createdocs.py` Directly for Testing
+The `createdocs.py` script is usually run by the `BuildDocs.yml` workflow in the `.github` folder.  However, it is just a Python script and it can be run directly from the command line for testing purposes.  If you run it with no arguments, it will tell you what arguments it expects and then fail, like this:
+
+~~~
+python ./createdocs.py
+Error: Requires 5 arguments: 
+1) Root address of site (i.e. sites will be under that URL address)
+2) Full path to where repositories containing docs to be used as source are stored
+3) Full path to the latestsrc directory of the docs repository
+4) Full path to the latestsites directory of the docs repository
+5) Full path and filename of the json file that defines the docs
+6) (optional) true or false (default false): run in quick and dirty mode which removes things like timestamps on files that take a while to calculate
+7) (optional) true or false (default false): VERY SLOW: Run in url check mode which checks that all links to other (internal and public) pages are valid
+Traceback (most recent call last):
+  File "./createdocs.py", line 659, in <module>
+    assert False
+AssertionError
+~~~
+
+So, to run the script in test mode (meaning: using the `sitescripts/testsitesdefinitions.json` definition file and the data from `sitescripts/testdata`), publishing to the github pages site "https://blog.inductorsoftware.com/docsproto", and with the `docs` repository in the `/docsproto` directory, you would run the following:
+~~~
+python ./createdocs.py  https://blog.inductorsoftware.com/docsproto  /docsproto/sitescripts/testdata /docsproto/latestsrc /docsproto/latestsites /docsproto/sitescripts/testsitesdefinitions.json true, false
+~~~
+
+Note that running `createdocs.py` directly won't actually publish the site anywhere, it will just clear out the `latestsrc` directory and replace it with whatever is in the `testsitesdefinitions.json` file.
+
+Running in test mode is useful for debugging the script by placing interesting edge cases, etc into the `testdata` folder and referencing them from the `testsitesdefinitions.json` file. 
