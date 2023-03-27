@@ -25,6 +25,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Install the requirements of the python scripts
       - run: python -V
       - run: pip install marko
 
