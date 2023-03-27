@@ -6,16 +6,16 @@ It does this by using a [GitHub Workflow](https://docs.github.com/en/actions/usi
 In a nutshell the workflow does the following to build the documentation site:
 1. Clone (in a git sense, i.e. git clone ...) every repository that has any content we want to use in the ultimate documentation. This will make a copy of it available on the GitHub server the script is running on. We will selectively choose which files to include in later steps. Step 1 simply grabs the entire set of repositories we want access to.
 
-Run the `createdocs.py` script that is in the root of the docs repository. This script does the following:
+Run the `createdocs.py` script that is in the `sitescripts` folder of the `docs` repository. This script does the following:
 
-2. Load in the file called `sitesdefinitions.json` in the root of the docs repository.  This file defines all of the sites that will be created, and all of the files that will be copied from the repositories we cloned in step 1.  This is how the structure of the documentation sites and the docs that populate them are defined.
+2. Load in the file called `sitesdefinitions.json` in the root of the `docs` repository.  This file defines all of the sites that will be created, and all of the files that will be copied from the repositories we cloned in step 1.  This is how the structure of the documentation sites and the docs that populate them are defined.
 3. Create blank template site definitions for everything in the `Sites` section of `sitesdefinitions.json`. These site definitions are for Jekyll to use. Jekyll will actually turn them into valid HTML pages that Github Pages can serve.  See [the Github Pages docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) for more information.
 4. Copy all of the pages in the `Pages` section of `sitesdefinitions.json` to the proper site definition where they should be displayed.  In the process, `createdocs.py` reads each file and fixes up its links to point to the proper place in the new site structure.  This is so pages that link to other pages in the same repository will continue to work in the final documentation, even if the pages fall in different sites.
 
-After the `createdocs.py` script is finished, control goes back to the workflow:
+After the `createdocs.py` script is finished, control goes back to the workflow and it:
 
-5. Actually run Jekyll on all of the site definitions to build the real HTML
-6. Publish the sites to GitHub pages so they can be served
+5. Actually runs Jekyll on all the site definitions to build the real HTML
+6. Publishes the sites to GitHub pages so they can be served
 
 ## Defining the Documentation Structure
 `sitesdefinitions.json` is the key file in this whole process. A simplified version looks like this:
@@ -60,12 +60,12 @@ After the `createdocs.py` script is finished, control goes back to the workflow:
 }
 ~~~
 ### SourceRepositories
-The `SourceRepositories` section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included, just the files listed in `sitedefinitions.json`. 
+The `SourceRepositories` section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included in the final sites, just the files listed in `sitedefinitions.json`. 
 - `key` is the name that will be used by the `SrcDir` field in every page in the `Pages` section to refer to the repository.  It must match the directory name where the repository got cloned by the workflow.
 - `Repository` is the name of the repository in Github.  If it is a Wiki, replace the dot in the name (delph-in/docs.wiki) with a slash (delph-in/docs/wiki)
 - `ReportUnusedWikiEntries` should be set to true if you want the `Fixes for Broken Links to Pages` report to include any pages from a github wiki site that were *not* included in the docs
 
-To add a new repository, a row must be added here *and* the [workflow](https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml) must be modified to also clone it so the data is available. You can see how this is done in the workflow by looking for where the existing repositories are cloned and adding a new section.
+To add a new repository, a row must be added here *and* the [workflow](https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml) must be modified to also clone it so the data is available. Below is where a new row would be added to declare that a new repository should be available for entries in `sitesdefinitions.json`:
 ~~~
   ...
   
@@ -77,6 +77,8 @@ To add a new repository, a row must be added here *and* the [workflow](https://g
   
   ...
 ~~~
+
+You can see how to update the [workflow](https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml) by looking for where the existing repositories are cloned and adding a new section.
 
 ### Sites
 The `Sites` section declares what top level sites exist to hold content. Think of these like chapters in a book. These create the top level navigation on the site.
@@ -126,7 +128,7 @@ The `Page` definition fields are:
 - `SrcDir`: The name of the directory that contains the repository that contains it. This directory name is defined in the workflow.
 - `SrcFile`: The filename and path to the file in the directory that should be included in the documentation.
 - `DstFile`: (optional) this field can be included if the name of the original page needs to be changed when it is included in the documentation (e.g. to avoid a conflict) or if the file needs to be put in a location different from its default.  If `DstFile` is not included, the default location in the documentation site will be the same as the relative location in the original. For example, if the file was in the root of its source repository, it will be in the root of the documentation site too. If it was in the `foo/bar/goo` directory, that is where it will get put in the documentation site as well. NOTE: Any directory structure deeper than one directory seems to be ignored by the Jekyll system, so use this field to copy files into a structure that is only one directory deep.
-- `Referrer`: Not used by the system but included sometimes to indicate what is linking to the file.  Any other fields can be added to the page definition and they will be ignored, as this field is.  Just informational. 
+- `Referrer`: Not used by the system but sometimes included to indicate what is linking to the file.  Any other fields can be added to the page definition and they will be ignored, as this field is.  
 
 Simply creating a new `Section` definition and putting pages inside it causes them to be included in the site, and in that section of the docs.
 

@@ -63,7 +63,7 @@ A page in the docs is defined like this in the `sitedefinitions.json`:
 - `Page`: The name that should be shown to the user for the page in the left-hand navigation
 - `SrcDir`: The name given to the repository that contains the file. This name is defined in the `SourceRepositories` section.
 - `SrcFile`: The filename of the file that should be included in the documentation. There are no subdirectories in a wiki, so there is no need to include a path
-- `Referrer`: Not used by the system but included sometimes to indicate what is linking to the file.  Any other fields can be added to the page definition and they will be ignored, as this field is.  Just informational. 
+- `Referrer`: Not used by the system but included sometimes to indicate what is linking to the file.  Any other fields can be added to the page definition and they will be ignored, as this field is.
 
 Simply creating a new `Section` definition and putting pages inside it causes the section to be created and those pages to be included in that section of the docs.  Moving pages between sections moves them in the site and fixes up all the links to them.  Removing pages removes them from the site, etc.
 
