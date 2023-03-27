@@ -586,13 +586,9 @@ def log_json_tree_to_file(relative_path, tree):
 quickAndDirty = False
 url_check = False
 
+
 if __name__ == '__main__':
-    # with open("/Users/ericzinda/Enlistments/docsproto/testsitesdefinitions.json", "r") as txtFile:
-    #     sites_definition = json.loads(txtFile.read())
-    #
-    # tree_pages = convert_pages_flat_to_tree(sites_definition["Pages"])
-    # log_json_tree_to_file("sitesdefinitions1.json", tree_pages)
-    if len(sys.argv) >= 6 and len(sys.argv) <= 8:
+    if 6 <= len(sys.argv) <= 8:
         root_address = sys.argv[1]
         input_content_root = sys.argv[2]
         latestsrc_root = sys.argv[3]
@@ -636,7 +632,8 @@ if __name__ == '__main__':
             for item in errors:
                 print(f'{json.dumps(item)}\n')
                 reportErrors.append({"Error": item["Error"]})
-            log_json_items_to_file("latestsrc/SiteErrors.json", reportErrors)
+
+            log_json_items_to_file(os.path.join(latestsrc_root, "SiteErrors.txt"), reportErrors)
             print(f"Errors generating site (see 'latestsrc/SiteErrors.txt'\n")
             assert False
 
@@ -646,16 +643,16 @@ if __name__ == '__main__':
         for item in all_pages.items():
             combined_pages += item[1].items()
             unique_pages.update(item[1])
-        log_json_items_to_file("latestsrc/AllPages.json", combined_pages)
+        log_json_items_to_file(os.path.join(latestsrc_root, "AllPages.json"), combined_pages)
 
         # Log all links on all pages in all sites
-        log_json_items_to_file("latestsrc/AllLinks.json", all_links)
+        log_json_items_to_file(os.path.join(latestsrc_root, "AllLinks.json"), all_links)
 
         # Create a file that proposes fixes to the site definitions for all broken links
         proposed_fixes = propose_broken_links(all_links, sites_definition, input_content_root, unique_pages)
 
         proposed_fixes_tree = convert_pages_flat_to_tree([item[1] for item in proposed_fixes.items()])
-        log_json_tree_to_file("latestsrc/FixesForBrokenLinksToWikiPages.json", proposed_fixes_tree)
+        log_json_tree_to_file(os.path.join(latestsrc_root, "FixesForBrokenLinksToWikiPages.json"), proposed_fixes_tree)
 
     else:
         print("Error: Requires 5 arguments: \n1) Root address of site (i.e. sites will be under that URL address)\n2) Full path to where repositories containing docs to be used as source are stored\n3) Full path to the latestsrc directory of the docs repository\n4) Full path to the latestsites directory of the docs repository\n5) Full path and filename of the json file that defines the docs\n (optional) 6) true or false (default false): run in quick and dirty mode which removes things like timestamps on files that take a while to calculate")

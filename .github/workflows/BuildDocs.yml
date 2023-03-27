@@ -65,7 +65,7 @@ jobs:
 
       # Create blank sites and then
       # process and copy all pages into the sites
-      - run: python $GITHUB_WORKSPACE/main/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
+      - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
 
 
       # Build the index using the new site data
@@ -103,11 +103,6 @@ jobs:
           path: main/latestsrc/FixesForBrokenLinksToWikiPages.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-
-      # Create an index of all the pages
-      # - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
-      #  with: 
-      #    folder: ${{github.workspace}}/main/latestsrc/concept
 
 
       # Build each site with Jekyll
@@ -161,12 +156,6 @@ jobs:
         with:
           source: ./main/latestsrc/grammars
           destination: main/latestsites/grammars
-
-#      - name: Build Grammars with Jekyll
-#        uses: actions/jekyll-build-pages@v1
-#        with:
-#          source: ./main/latestsrc/missing
-#          destination: main/latestsites/missing
 
 
       - name: Upload all the sites to github pages
