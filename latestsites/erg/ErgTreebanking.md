@@ -25,5 +25,4 @@ N7](/N2%20N3%5D%20%5BA4%20%5B%5BN5%20N6%5D%20N7)\|
 - [notes on rule distinctions](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingRules)
 - [general guidelines](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingGuidelines)
 - [heuristics for treebanking with bridges](https://blog.inductorsoftware.com/docsproto/erg/ErgTreebankingBridges)
-
-Last update: 2014-12-11 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgTreebanking/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
