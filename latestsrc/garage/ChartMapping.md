@@ -37,7 +37,7 @@ is a verb.
 # Implementation status
 
 - Chart mapping is part of the PET main branch since August 2010.
-- Chart mapping is not yet implemented in LKB.
+- Chart mapping is supported in [LKB-FOS](https://blog.inductorsoftware.com/docsproto/tools/LkbFos), but is not implemented in the earlier [LOGON](https://blog.inductorsoftware.com/docsproto/tools/LogonTop) distribution of the LKB.
 - Chart mapping is supported by ACE.
 - Chart mapping is supported in *agree*.
 
@@ -65,4 +65,4 @@ Evaluation (LREC-2008). Marrakech, Morocco. ﻿
       keywords = {chart mapping, hpsg, preprocessing}
     }
 
-Last update: 2022-11-14 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)]{% endraw %}
+Last update: 2023-03-26 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/ChartMapping/_edit)]{% endraw %}
