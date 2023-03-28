@@ -32,11 +32,12 @@ jobs:
           fetch-depth: 1
 
       # Create a file containing the SHA of the current main commit from the wiki
+          #> $GITHUB_WORKSPACE/check-SHA/github-sha.txt
       - name: Create cache file
         run: |
           mkdir check-SHA
           cd  $GITHUB_WORKSPACE/version_check
-          git show-ref refs/heads/main -s  > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
+          git show-ref refs/heads/main -s
           cd  $GITHUB_WORKSPACE/
 
       # The key of the cache contains the commit SHA of the current workflow run
