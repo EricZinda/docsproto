@@ -15,8 +15,8 @@ jobs:
     name: Check if there are wiki changes
     runs-on: ubuntu-latest
     # Store whether the wiki has changed or not in the output of this workflow
-#    outputs:
-#      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
+    outputs:
+      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
     steps:
       - name: Create cache file
         run: |
@@ -33,13 +33,13 @@ jobs:
         with:
           path: check-SHA
           key: check-SHA-${{ github.sha }}
-#
-#  call-workflow-2-in-local-repo:
-#    name: Run build if wiki is changed
-#    # Make sure check_if_wiki_changes has run first
-#    needs: check_if_wiki_changes
-#    secrets: inherit
-#    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
-#    # Call a shared workflow in the same repo to do the build
-#    uses: ./.github/workflows/BuildDocs.yml
+
+  call-workflow-2-in-local-repo:
+    name: Run build if wiki is changed
+    # Make sure check_if_wiki_changes has run first
+    needs: check_if_wiki_changes
+    secrets: inherit
+    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
+    # Call a shared workflow in the same repo to do the build
+    uses: ./.github/workflows/BuildDocs.yml
 
