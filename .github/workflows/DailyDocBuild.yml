@@ -9,8 +9,14 @@ on:
 #    # Run every day at 6:45 (to avoid high load times at Github)
 #    - cron: '45 6 * * *'
 
+  schedule:
+    # Run every day at 6:45 (to avoid high load times at Github)
+    - cron: '*/15 * * * *'
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  # The output of this job (wiki_changed) will be 'true' or 'false' depending on whether the wiki has changed
+  # since the last time it was run
   check_if_wiki_changes:
     name: Check if there are wiki changes
     runs-on: ubuntu-latest
@@ -34,7 +40,7 @@ jobs:
           path: check-SHA
           key: check-SHA-${{ github.sha }}
 
-  call-workflow-2-in-local-repo:
+  run-build-if-wiki-changed:
     name: Run build if wiki is changed
     # Make sure check_if_wiki_changes has run first
     needs: check_if_wiki_changes
