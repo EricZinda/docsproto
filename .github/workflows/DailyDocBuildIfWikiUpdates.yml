@@ -28,14 +28,16 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: ericzinda/docsproto.wiki
-          path: $GITHUB_WORKSPACE/version_check
+          path: version_check
           fetch-depth: 1
 
       # Create a file containing the SHA of the current main commit from the wiki
       - name: Create cache file
         run: |
           mkdir check-SHA
-          git -C $GITHUB_WORKSPACE/version_check show-ref refs/heads/main -s  > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
+          cd  $GITHUB_WORKSPACE/version_check
+          git show-ref refs/heads/main -s  > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
+          cd  $GITHUB_WORKSPACE/
 
       # The key of the cache contains the commit SHA of the current workflow run
       # When this action is executed, it will check whether the specified key matches an existing cache.
