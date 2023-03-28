@@ -40,8 +40,8 @@ jobs:
           git -C $GITHUB_WORKSPACE/version_check rev-parse HEAD > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
 
       - name: Set environment variable to head SHA
-        run: |
-          HEAD_SHA=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
+        run: echo ::set-output name=head_sha::$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
+        id: head_sha
 
       # The key of the cache contains the commit SHA of the current workflow run
       # When this action is executed, it will check whether the specified key matches an existing cache.
@@ -52,7 +52,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: check-SHA
-          key: check-SHA-{{ $HEAD_SHA }}
+          key: check-SHA-{{ steps.head_sha.outputs.head_sha }}
 
   run-build-if-wiki-changed:
     name: Run build if wiki is changed
