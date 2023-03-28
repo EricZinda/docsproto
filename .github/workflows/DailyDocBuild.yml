@@ -15,8 +15,8 @@ jobs:
     name: Check if there are wiki changes
     runs-on: ubuntu-latest
     # Store whether the wiki has changed or not in the output of this workflow
-#    outputs:
-#      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
+    outputs:
+      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
     steps:
       - name: Create cache file
         run: |
