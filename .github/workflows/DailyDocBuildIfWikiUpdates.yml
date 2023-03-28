@@ -39,8 +39,9 @@ jobs:
           mkdir check-SHA
           git -C $GITHUB_WORKSPACE/version_check rev-parse HEAD > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
 
+#        run: echo ::set-output name=head_sha::$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
       - name: Set environment variable to head SHA
-        run: echo ::set-output name=head_sha::$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
+        run: echo "head_sha=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)" >> $GITHUB_OUTPUT
         id: head_sha
 
       # The key of the cache contains the commit SHA of the current workflow run
