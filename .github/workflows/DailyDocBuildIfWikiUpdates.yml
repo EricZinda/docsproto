@@ -18,6 +18,8 @@ jobs:
   # since the last time it was run
   check_if_wiki_changes:
     name: Check if there are wiki changes
+    # Don't run this while in a branch
+    if: ${{ github.ref == 'refs/heads/main'}}
     runs-on: ubuntu-latest
     # Store whether the wiki has changed or not in the output of this workflow
     outputs:
@@ -37,6 +39,10 @@ jobs:
           mkdir check-SHA
           git -C $GITHUB_WORKSPACE/version_check rev-parse HEAD > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
 
+      - name: Set environment variable to head SHA
+        run: |
+          HEAD_SHA=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
+
       # The key of the cache contains the commit SHA of the current workflow run
       # When this action is executed, it will check whether the specified key matches an existing cache.
       # If the key matches an existing cache, (cache-hit is true), it will restore this cache to the
@@ -46,7 +52,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: check-SHA
-          key: check-SHA-${{ github.sha }}
+          key: check-SHA-$HEAD_SHA
 
   run-build-if-wiki-changed:
     name: Run build if wiki is changed
