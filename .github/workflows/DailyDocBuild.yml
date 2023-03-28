@@ -41,4 +41,7 @@ jobs:
     if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
     # Call a shared workflow in the same repo to do the build
     uses: ./.github/workflows/BuildDocs.yml
+    with:
+      quickAndDirty: 'false'
+      externalUrlCheck: 'false'
 
