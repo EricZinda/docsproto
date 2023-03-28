@@ -55,7 +55,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: check-SHA
-          key: check-SHA-{{ steps.head_sha.outputs.head_sha }}
+          key: check-SHA-${{ steps.head_sha.outputs.head_sha }}
 
   run-build-if-wiki-changed:
     name: Run build if wiki is changed
