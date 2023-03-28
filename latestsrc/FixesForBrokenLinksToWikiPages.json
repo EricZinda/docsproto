@@ -428,6 +428,9 @@
     "garage": [
       {"Section": "PET", "Pages": [
         {"Page": "Chart_Mapping", "SrcDir": "docswiki", "SrcFile": "Chart_Mapping.md", "BaseReferrer": "garage/PetRobustness.md", "Referrer": "garage/PetRobustness.md", "FileMissing": true}
+      ]},
+      {"Section": "Documentation", "Pages": [
+        {"Page": "ERDW_HowCurrentDocsAreBuilt", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "garage/ERDW_StructureForNewDocsSite.md", "Referrer": "garage/ERDW_StructureForNewDocsSite.md"}
       ]}
     ],
     "erg": [

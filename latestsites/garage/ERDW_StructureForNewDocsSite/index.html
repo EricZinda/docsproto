@@ -467,8 +467,6 @@
           
             <li><a href="/docsproto/garage/ERDW_StructureForNewDocsSite/" class="active">Background</a></li>
           
-            <li><a href="/docsproto/garage/ERDW_HowCurrentDocsAreBuilt/">Current Doc System</a></li>
-          
             <li><a href="/docsproto/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
           
         </ul>
@@ -501,22 +499,14 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h1 id="work-in-progress">Work in Progress</h1>
-<p>This is not locked in, it is a working document that is being actively written, discussed and changed.</p>
-
-<p>The work is being actively prototyped.  None of it should be construed as done, or even agreed on at this point:</p>
-<ul>
-  <li>The github repository where EricZ is prototype the work is <a href="https://github.com/EricZinda/docsproto">here</a>.</li>
-  <li>The page that describes how it works is <a href="https://github.com/EricZinda/docsproto/blob/main/DelphinDocsReference.md">here</a></li>
-  <li>The current working prototype is <a href="https://blog.inductorsoftware.com/docsproto/home/Home/">here</a></li>
-</ul>
+        <p>This is a high level design documentation that was used to guide how the docs site is built and structured.</p>
 
 <h1 id="requirements">Requirements</h1>
 <p>First, imagine that we have two sites: The Wiki and The Documentation Site.</p>
 
-<p>The Wiki is meant as a history of the project and maintains topics of all types. Articles can be added, removed, edited by anyone with permission. It is the “Filing Cabinet” of Delph-In. A good place to find anything you’d like, but not necessarily well organized.</p>
+<p>The Wiki is meant as a history of the project and maintains topics of all types. Articles can be added, removed, edited by anyone with permission. It is the “Filing Cabinet” of DELPH-IN. A good place to find anything you’d like, but not necessarily well organized.</p>
 
-<p>The Documentation Site is <em>curated</em> and carefully maintained to have a professional look, consistency, a particular scope, table of contents, etc. It is the “public face” if you are using and learning about Delph-In. It gets <em>built</em> and can pull from different sources:</p>
+<p>The Documentation Site is <em>curated</em> and carefully maintained to have a professional look, consistency, a particular scope, table of contents, etc. It is the “public face” if you are using and learning about DELPH-IN. It gets <em>built</em> and can pull from different sources:</p>
 <ul>
   <li>Can copy information from the wiki</li>
   <li>Can contain pages that are built from grammar source (or other sources).</li>
@@ -530,7 +520,6 @@
   <li>The Documentation is curated: The official documentation site needs to have controls over what gets published to it and what is included. There will be an index for searching that <em>only</em> searches The Documentation. It is opt in and thus requires an action to add things to it.</li>
   <li>Home Page: It must have a home page that is welcoming both to the academic grammarian and the application developer. It should clearly show that this is an incredible body of work, that is being actively developed, used by many, and is serious. Both types of canonical reader should feel like this home page speaks to them.</li>
   <li>Target Conceptual Documentation by User: There must also be clearly distinguished, and separate, areas for Conceptual Docs (i.e. Explanation Docs from the <a href="https://documentation.divio.com/">taxonomy</a>) for the grammarian and app developer since their needs are very different.</li>
-  <li>ERG Reference Documentation should be unified?</li>
   <li>Versioned Reference Documentation: There should be a way to see documentation that is appropriate to a specific ERG version.
     <ul>
       <li>Could be a section of every page that has version specific information</li>
@@ -540,11 +529,11 @@
 </ul>
 
 <h1 id="approach">Approach</h1>
-<p>The approach for the current documentation site is described <a href="https://blog.inductorsoftware.com/docsproto/garage/ERDW_HowCurrentDocsAreBuilt">here</a>. @goodmami and I talked about using a slightly modified approach for the new docs:</p>
+<p>The approach for the current documentation site is described here. @goodmami and I talked about using a slightly modified approach for the new docs:</p>
 
 <p>The new Documentation Site is hosted by, and built by, GitHub pages. This is a free hosting service that can consume content from the repositories in Github.  This is what https://delph-in.github.io/docs/ uses today.</p>
 
-<p>It uses (waving hands) Github Actions and static Jekyll extensions to do the following:</p>
+<p>It uses Github Actions and static Jekyll extensions to do the following:</p>
 <ul>
   <li>Pull pages from the wiki to be included</li>
   <li>Extract doc comments from the grammar to include</li>
@@ -563,6 +552,8 @@
 <p>Each version of the grammar will have its own site for its reference documentation. The template we choose for any of the versioned reference docs sites will also include a way to select other versions.</p>
 
 <h1 id="site-structure">Site Structure</h1>
+<p>The site structure should be something like:</p>
+
 <ul>
   <li>Home Page</li>
   <li>Getting Started</li>
@@ -596,7 +587,7 @@
 <h1 id="template">Template</h1>
 <p>Starting with https://mmistakes.github.io/minimal-mistakes/ since it has been used by others for docs. We can change as needed</p>
 
-<p>Last update: 2022-11-07 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit">edit</a>]</p>
+<p>Last update: 2023-03-27 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit">edit</a>]</p>
 
         
       </section>

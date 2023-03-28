@@ -1,17 +1,11 @@
-{% raw %}# Work in Progress
-This is not locked in, it is a working document that is being actively written, discussed and changed. 
-
-The work is being actively prototyped.  None of it should be construed as done, or even agreed on at this point:
-- The github repository where EricZ is prototype the work is [here](https://github.com/EricZinda/docsproto). 
-- The page that describes how it works is [here](https://github.com/EricZinda/docsproto/blob/main/DelphinDocsReference.md)
-- The current working prototype is [here](https://blog.inductorsoftware.com/docsproto/home/Home/)
+{% raw %}This is a high level design documentation that was used to guide how the docs site is built and structured.
 
 # Requirements
 First, imagine that we have two sites: The Wiki and The Documentation Site. 
 
-The Wiki is meant as a history of the project and maintains topics of all types. Articles can be added, removed, edited by anyone with permission. It is the "Filing Cabinet" of Delph-In. A good place to find anything you'd like, but not necessarily well organized.
+The Wiki is meant as a history of the project and maintains topics of all types. Articles can be added, removed, edited by anyone with permission. It is the "Filing Cabinet" of DELPH-IN. A good place to find anything you'd like, but not necessarily well organized.
 
-The Documentation Site is *curated* and carefully maintained to have a professional look, consistency, a particular scope, table of contents, etc. It is the "public face" if you are using and learning about Delph-In. It gets *built* and can pull from different sources:
+The Documentation Site is *curated* and carefully maintained to have a professional look, consistency, a particular scope, table of contents, etc. It is the "public face" if you are using and learning about DELPH-IN. It gets *built* and can pull from different sources:
 - Can copy information from the wiki 
 - Can contain pages that are built from grammar source (or other sources).
 
@@ -22,17 +16,16 @@ With these distinctions in mind, here are some requirements for The Documentatio
 - The Documentation is curated: The official documentation site needs to have controls over what gets published to it and what is included. There will be an index for searching that *only* searches The Documentation. It is opt in and thus requires an action to add things to it. 
 - Home Page: It must have a home page that is welcoming both to the academic grammarian and the application developer. It should clearly show that this is an incredible body of work, that is being actively developed, used by many, and is serious. Both types of canonical reader should feel like this home page speaks to them.
 - Target Conceptual Documentation by User: There must also be clearly distinguished, and separate, areas for Conceptual Docs (i.e. Explanation Docs from the [taxonomy](https://documentation.divio.com/)) for the grammarian and app developer since their needs are very different. 
-- ERG Reference Documentation should be unified?
 - Versioned Reference Documentation: There should be a way to see documentation that is appropriate to a specific ERG version. 
   - Could be a section of every page that has version specific information
   - Could be that there are different sets of documentation for each version, but there would need to be a way to share the huge amount of content they have in common
 
 # Approach
-The approach for the current documentation site is described [here](https://blog.inductorsoftware.com/docsproto/garage/ERDW_HowCurrentDocsAreBuilt). @goodmami and I talked about using a slightly modified approach for the new docs:
+The approach for the current documentation site is described here. @goodmami and I talked about using a slightly modified approach for the new docs:
 
 The new Documentation Site is hosted by, and built by, GitHub pages. This is a free hosting service that can consume content from the repositories in Github.  This is what https://delph-in.github.io/docs/ uses today.
 
-It uses (waving hands) Github Actions and static Jekyll extensions to do the following:
+It uses Github Actions and static Jekyll extensions to do the following:
 - Pull pages from the wiki to be included
 - Extract doc comments from the grammar to include
 - Build a javascript based index using an approach like [this](https://github.com/jekylltools/jekyll-tipue-search) so it has good search
@@ -49,6 +42,8 @@ Each "site" represents a "main area of documentation that is related" and has it
 Each version of the grammar will have its own site for its reference documentation. The template we choose for any of the versioned reference docs sites will also include a way to select other versions.
 
 # Site Structure
+The site structure should be something like:
+
 - Home Page
 - Getting Started
 - Tools
@@ -72,4 +67,4 @@ Searching will search across all unversioned sites and the *latest* version of a
 Starting with https://mmistakes.github.io/minimal-mistakes/ since it has been used by others for docs. We can change as needed
 
 
-Last update: 2022-11-07 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}
+Last update: 2023-03-27 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}

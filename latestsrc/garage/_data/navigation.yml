@@ -198,7 +198,5 @@ toc:
         url: "/DelphinDocsReference/"
       - title: "Background"
         url: "/ERDW_StructureForNewDocsSite/"
-      - title: "Current Doc System"
-        url: "/ERDW_HowCurrentDocsAreBuilt/"
       - title: "Season of Docs"
         url: "/GoogleSeasonOfDocs2023ProjectProposal/"
