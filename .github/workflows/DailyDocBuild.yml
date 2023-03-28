@@ -34,12 +34,12 @@ jobs:
           path: check-SHA
           key: check-SHA-${{ github.sha }}
 
-  call-workflow-2-in-local-repo:
-    name: Run build if wiki is changed
-    # Make sure check_if_wiki_changes has run first
-    needs: check_if_wiki_changes
-    secrets: inherit
-    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
-    # Call a shared workflow in the same repo to do the build
-    uses: ./.github/workflows/BuildDocs.yml
+#  call-workflow-2-in-local-repo:
+#    name: Run build if wiki is changed
+#    # Make sure check_if_wiki_changes has run first
+#    needs: check_if_wiki_changes
+#    secrets: inherit
+#    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
+#    # Call a shared workflow in the same repo to do the build
+#    uses: ./.github/workflows/BuildDocs.yml
 
