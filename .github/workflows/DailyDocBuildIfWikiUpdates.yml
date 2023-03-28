@@ -41,7 +41,9 @@ jobs:
 
 #        run: echo ::set-output name=head_sha::$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
       - name: Set environment variable to head SHA
-        run: echo "head_sha=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)" >> $GITHUB_OUTPUT
+        run: |
+          echo "head_sha=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)"
+          echo "head_sha=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)" >> $GITHUB_OUTPUT
         id: head_sha
 
       # The key of the cache contains the commit SHA of the current workflow run
