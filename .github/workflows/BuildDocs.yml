@@ -82,7 +82,7 @@ jobs:
 
       # Create blank sites and then
       # process and copy all pages into the sites
-      - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
+      - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://blog.inductorsoftware.com/docsproto2 $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
 
 
       # Build the index using the new site data
